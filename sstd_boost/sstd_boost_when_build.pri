@@ -35,8 +35,18 @@ asm_cl.commands =      ml64 /nologo /Cp /Cx /Zp4 /DBOOST_CONTEXT_EXPORT=EXPORT /
 QMAKE_EXTRA_COMPILERS += asm_cl
 export(QMAKE_EXTRA_COMPILERS)
 
-}
+} else {
 
+win32-g++*{
+
+
+
+} else {
+
+
+}#not win32-g++*
+
+}#not win32-msvc*
 
 
 
