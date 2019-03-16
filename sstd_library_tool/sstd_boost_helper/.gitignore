@@ -1,1 +1,5 @@
 sstd_boost_helper.pro.user
+debug/
+release/
+sstd_boost_helper.vcxproj
+sstd_boost_helper.vcxproj.filters

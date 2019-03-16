@@ -2,3 +2,6 @@ sstd_library.pro.user
 sstd_boost_helper.exe
 build-sstd_library*
 sstd_library_test/sstd_library_test.pro.user
+.qmake.stash
+sstd_library.vcxproj
+sstd_library.vcxproj.filters
