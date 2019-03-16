@@ -1,0 +1,11 @@
+﻿
+#include "../sstd/libs/thread/src/future.cpp"
+#include "../sstd/libs/thread/src/tss_null.cpp"
+#include "../sstd/libs/thread/src/win32/thread.cpp"
+#include "../sstd/libs/thread/src/win32/thread_primitives.cpp"
+#include "../sstd/libs/thread/src/win32/tss_dll.cpp"
+#include "../sstd/libs/thread/src/win32/tss_pe.cpp"
+
+
+
+
