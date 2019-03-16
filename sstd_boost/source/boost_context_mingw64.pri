@@ -11,4 +11,6 @@ asm_gcc.output =        ${QMAKE_FILE_BASE}.obj
 asm_gcc.variable_out =  OBJECTS
 asm_gcc.commands =      ml64 /nologo /Cp /Cx /Zp4 /DBOOST_CONTEXT_EXPORT=EXPORT /Fo ${QMAKE_FILE_OUT} /c ${QMAKE_FILE_NAME}
 
+QMAKE_EXTRA_COMPILERS += asm_gcc
+export(QMAKE_EXTRA_COMPILERS)
 
