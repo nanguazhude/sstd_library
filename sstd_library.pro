@@ -25,10 +25,12 @@ equals(TEMPLATE, "vclib") {
     DISTFILES += $$ASM_FILES_TOBUILD
 }
 
+DEFINES *= SSTD_BUILD_SOURCE
+HEADERS += $$PWD/sstd_library.hpp
+HEADERS += $$PWD/global_sstd_library.hpp
 
-
-
-
+HEADERS += $$PWD/sstd_library_memory/sstd_library_memory.hpp
+SOURCES += $$PWD/sstd_library_memory/sstd_library_memory.cpp
 
 
 
