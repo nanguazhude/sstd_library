@@ -3,3 +3,5 @@ debug/
 release/
 sstd_boost_helper.vcxproj
 sstd_boost_helper.vcxproj.filters
+sstd_boost_helper.sln
+sstd_boost_helper.vcxproj.user

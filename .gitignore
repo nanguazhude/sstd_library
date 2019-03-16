@@ -5,3 +5,6 @@ sstd_library_test/sstd_library_test.pro.user
 .qmake.stash
 sstd_library.vcxproj
 sstd_library.vcxproj.filters
+sstd_library.sln
+.vs/
+sstd_library.vcxproj.user
