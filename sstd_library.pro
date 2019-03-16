@@ -32,5 +32,6 @@ HEADERS += $$PWD/global_sstd_library.hpp
 HEADERS += $$PWD/sstd_library_memory/sstd_library_memory.hpp
 SOURCES += $$PWD/sstd_library_memory/sstd_library_memory.cpp
 
-
+HEADERS += $$PWD/sstd_library_exception/sstd_library_exception.hpp
+SOURCES += $$PWD/sstd_library_exception/sstd_library_exception.cpp
 
