@@ -20,7 +20,20 @@ SOURCES += $$PWD/source/boost_context.cpp
 
 win32-msvc*{
 
-#win64MSVC_ML64
+ASM_FILES_TOBUILD += $$PWD/sstd/libs/context/src/asm/make_x86_64_ms_pe_masm.asm
+ASM_FILES_TOBUILD += $$PWD/sstd/libs/context/src/asm/jump_x86_64_ms_pe_masm.asm
+ASM_FILES_TOBUILD += $$PWD/sstd/libs/context/src/asm/ontop_x86_64_ms_pe_masm.asm
+
+DISTFILES +=   $$ASM_FILES_TOBUILD
+
+#use ml64 to build asm files
+asm_cl.input =         ASM_FILES_TOBUILD
+asm_cl.output =        ${QMAKE_FILE_BASE}.obj
+asm_cl.variable_out =  OBJECTS
+asm_cl.commands =      ml64 /nologo /Cp /Cx /Zp4 /DBOOST_CONTEXT_EXPORT=EXPORT /Fo ${QMAKE_FILE_OUT} /c ${QMAKE_FILE_NAME}
+
+QMAKE_EXTRA_COMPILERS += asm_cl
+export(QMAKE_EXTRA_COMPILERS)
 
 }
 
