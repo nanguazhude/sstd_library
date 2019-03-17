@@ -138,10 +138,11 @@ namespace thisMainFile {
         return "\n"sv;
     }
 
-
     template <typename T>
-    inline auto getPathName(const fs::path & arg){
-        if constexpr( std::is_constructible_v< T, const std::wstring > ){
+    inline decltype(auto) getPathName(const fs::path & arg){
+        if constexpr( std::is_constructible_v< T, const fs::path & > ){
+            return arg;
+        }else if constexpr( std::is_constructible_v< T, const std::wstring & > ){
             return arg.wstring();
         }else{
             return arg.string();
