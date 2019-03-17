@@ -26,7 +26,7 @@ using namespace std::string_view_literals;
 using namespace std::chrono_literals;
 
 template<typename>
-class sstd_friend;
+class sstd_friend_class;
 
 namespace sstd {
 
@@ -34,13 +34,22 @@ namespace sstd {
 
 }/*namespace sstd*/
 
+#ifndef sstd_decltype
+#define sstd_decltype(...) std::remove_cv_t< std::remove_reference_t< decltype( __VA_ARGS__ ) > > 
+#endif
+
 #ifndef sstd_friend
 #define sstd_friend(...) template<typename> friend class ::sstd_friend_class; \
 static_assert(true)/*__VA_ARGS__*/
 #endif
 
 #ifndef sstd_class
-#define sstd_class(...) sstd_friend(__VA_ARGS__) ; \
+#define sstd_class(...) private:\
+inline void _1_check_this_1_(){ \
+    static_assert( std::is_same_v< sstd_decltype(*this) ,  __VA_ARGS__ > , \
+    "the type is not *this type" );\
+} \
+sstd_friend(__VA_ARGS__) ; \
 _1_SSTD_MEMORY_1_DEFINE_1_ \
 static_assert(true)/*__VA_ARGS__*/
 #endif
