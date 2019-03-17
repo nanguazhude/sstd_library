@@ -61,6 +61,20 @@ int main(int, char **) {
         (void)varOldNew;
     }
 
+    {
+        sstd_try{
+            sstd_throw(123);
+        } sstd_catch(...) {
+            sstd_on_exception();
+        }
+    }
+
+    {
+        std::vector< int, sstd_allocator<int> > test;
+        test.push_back(1);
+        test.push_back(3);
+    }
+
     return 0;
 
 }
