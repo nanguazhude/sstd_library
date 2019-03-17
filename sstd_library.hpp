@@ -4,8 +4,10 @@ namespace _theSSTDLibraryFile {
 }/*namespace _theSSTDLibraryFile*/
 
 #include <cmath>
+#include <array>
 #include <limits>
 #include <memory>
+#include <cassert>
 #include <utility>
 #include <cstddef>
 #include <cstdlib>
@@ -76,18 +78,6 @@ inline T * sstd_new(Args && ... args) {
 }
 
 template<typename T, typename ... Args>
-inline std::shared_ptr<T> sstd_make_shared(Args && ... args) {
-    using T1 = std::remove_cv_t< std::remove_reference_t<T> >;
-    static_assert(!std::is_array_v<T1>);
-    sstd_allocator<T1> varAllocator;
-    T1 * varPointer = sstd_new<T1>(std::forward<Args>(args)...);
-    return std::shared_ptr<T>(
-        varPointer,
-        std::default_delete<T1>{},
-        std::move(varAllocator));
-}
-
-template<typename T, typename ... Args>
 inline std::unique_ptr<T> sstd_make_unique(Args && ... args) {
     using T1 = std::remove_cv_t< std::remove_reference_t<T> >;
     static_assert(!std::is_array_v<T1>);
@@ -95,13 +85,88 @@ inline std::unique_ptr<T> sstd_make_unique(Args && ... args) {
     return std::unique_ptr<T>{varPointer};
 }
 
+namespace _theSSTDLibraryFile {
+    template<typename T>
+    class sstd_virtual_not_final : public T {
+        sstd_delete_copy_create(sstd_virtual_not_final);
+    public:
+        inline sstd_virtual_not_final() = default;
+        inline virtual ~sstd_virtual_not_final() = default;
+    public:
+        template<typename A0, typename ... Args,
+            typename = std::enable_if_t< isConstructible<T, A0&&, Args&&...>() >
+        >inline sstd_virtual_not_final(A0&&a0, Args && ... args) :
+            T(std::forward<A0>(a0), std::forward<Args>(args)...) {
+        }
+        template<typename A0, typename ... Args,
+            typename = void ****,
+            typename = std::enable_if_t< !isConstructible<T, A0&&, Args&&...>() >
+        >inline sstd_virtual_not_final(A0&&a0, Args && ... args) :
+            T{ std::forward<A0>(a0), std::forward<Args>(args)... } {
+        }
+    private:
+        sstd_class(sstd_virtual_not_final);
+    };
+}/*namespace _theSSTDLibraryFile*/
 
+template<typename T, typename ... Args>
+inline T * sstd_virtual_new(Args && ... args) {
+    static_assert(std::has_virtual_destructor_v<T>);
+    static_assert(!std::is_final_v<T>);
+    return sstd_new< _theSSTDLibraryFile::sstd_virtual_not_final<T> >(
+        std::forward<Args>(args)...);
+}
 
+template<typename T, typename ... Args>
+inline std::unique_ptr<T> sstd_make_virtual_unique(Args && ... args) {
+    static_assert(std::has_virtual_destructor_v<T>);
+    static_assert(!std::is_final_v<T>);
+    return sstd_make_unique< _theSSTDLibraryFile::sstd_virtual_not_final<T> >(
+        std::forward<Args>(args)...);
+}
 
+namespace _theSSTDLibraryFile {
+    template<typename T>
+    class sstd_shared_data {
+        sstd_delete_copy_create(sstd_shared_data);
+        T theData;
+    public:
+        inline T * getTheData() {
+            assert(static_cast<const void *>(this) == static_cast<const void *>(&theData));
+            return &theData;
+        }
+    public:
+        inline sstd_shared_data() : theData{} {
+        }
+        inline ~sstd_shared_data() = default;
+    public:
+        template<typename A0, typename ... Args,
+            typename = std::enable_if_t< isConstructible<T, A0&&, Args&&...>() >
+        >inline sstd_shared_data(A0&&a0, Args && ... args) :
+            theData(std::forward<A0>(a0), std::forward<Args>(args)...) {
+        }
+        template<typename A0, typename ... Args,
+            typename = void ****,
+            typename = std::enable_if_t< !isConstructible<T, A0&&, Args&&...>() >
+        >inline sstd_shared_data(A0&&a0, Args && ... args) :
+            theData{ std::forward<A0>(a0), std::forward<Args>(args)... } {
+        }
+    private:
+        sstd_class(sstd_shared_data);
+    };
+}/*namespace _theSSTDLibraryFile*/
 
-
-
-
-
+template<typename T, typename ... Args>
+inline std::shared_ptr<T> sstd_make_shared(Args && ... args) {
+    using T1 = std::remove_cv_t< std::remove_reference_t<T> >;
+    static_assert(!std::is_array_v<T1>);
+    sstd_allocator<T1> varAllocator;
+    using T2 = _theSSTDLibraryFile::sstd_shared_data<T1>;
+    T2 * varPointer = sstd_new<T2>(std::forward<Args>(args)...);
+    return std::shared_ptr<T1>(
+        varPointer->getTheData(),
+        [](T1 * arg) { delete reinterpret_cast<T2*>(arg); },
+        std::move(varAllocator));
+}
 
 
