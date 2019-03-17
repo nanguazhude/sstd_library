@@ -19,10 +19,11 @@ include($$PWD/sstd_boost/sstd_boost_when_build.pri)
 include($$PWD/sstd_build_path.pri)
 DESTDIR = $${SSTD_LIBRARY_OUTPUT_PATH}
 
-
-
-
-
+equals(TEMPLATE, "vclib") {
+    SOURCES += $$ASM_FILES_TOBUILD
+}else{
+    DISTFILES += $$ASM_FILES_TOBUILD
+}
 
 
 

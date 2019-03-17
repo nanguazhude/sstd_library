@@ -8,3 +8,5 @@ sstd_library.vcxproj.filters
 sstd_library.sln
 .vs/
 sstd_library.vcxproj.user
+boost_*.obj
+
