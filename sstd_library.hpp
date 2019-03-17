@@ -113,7 +113,8 @@ template<typename T, typename ... Args>
 inline T * sstd_virtual_new(Args && ... args) {
     static_assert(std::has_virtual_destructor_v<T>);
     static_assert(!std::is_final_v<T>);
-    return sstd_new< _theSSTDLibraryFile::sstd_virtual_not_final<T> >(
+    using T1 = std::remove_cv_t< std::remove_reference_t<T> >;
+    return sstd_new< _theSSTDLibraryFile::sstd_virtual_not_final<T1> >(
         std::forward<Args>(args)...);
 }
 
@@ -121,7 +122,8 @@ template<typename T, typename ... Args>
 inline std::unique_ptr<T> sstd_make_virtual_unique(Args && ... args) {
     static_assert(std::has_virtual_destructor_v<T>);
     static_assert(!std::is_final_v<T>);
-    return sstd_make_unique< _theSSTDLibraryFile::sstd_virtual_not_final<T> >(
+    using T1 = std::remove_cv_t< std::remove_reference_t<T> >;
+    return sstd_make_unique< _theSSTDLibraryFile::sstd_virtual_not_final<T1> >(
         std::forward<Args>(args)...);
 }
 

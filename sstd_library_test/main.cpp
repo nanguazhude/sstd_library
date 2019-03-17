@@ -76,11 +76,11 @@ int main(int, char **) {
     }
 
     {
-        auto var = sstd_make_virtual_unique<BClass>();
+        auto var = sstd_make_virtual_unique<const BClass>();
     }
 
     {
-        auto var = sstd_make_shared< std::array<int,3> >(1,2,3);
+        auto var = sstd_make_shared< const std::array<int,3> >(1,2,3);
     }
 
     return 0;
