@@ -18,24 +18,13 @@ SOURCES += $$PWD/source/boost_date_time.cpp
 SOURCES += $$PWD/source/boost_thread.cpp
 SOURCES += $$PWD/source/boost_context.cpp
 
-win32-msvc*{
-
-include($$PWD/source/boost_context_win64_msvc.pri)
-
-} else {
-
 win32-g++*{
-
 include($$PWD/source/boost_context_mingw64.pri)
-
-} else {
-
+}else : linux-g++*{
 include($$PWD/source/boost_context_linux_gcc64.pri)
-
-}#not win32-g++*
-
-}#not win32-msvc*
-
+}else {
+include($$PWD/source/boost_context_win64_msvc.pri)
+}
 
 
 
