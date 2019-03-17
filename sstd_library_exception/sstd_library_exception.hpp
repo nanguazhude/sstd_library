@@ -20,6 +20,15 @@ namespace sstd {
 #define sstd_on_exception(...) ::sstd::onException( __func__,__FILE__,__LINE__ ); static_assert(true)
 #endif
 
+#ifndef sstd_try
+#define sstd_try try
+#endif
 
+#ifndef sstd_catch
+#define sstd_catch catch
+#endif
 
+#ifndef sstd_throw
+#define sstd_throw(...) throw __VA_ARGS__;
+#endif
 
