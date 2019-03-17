@@ -1,9 +1,7 @@
 
-ASM_FILES_TOBUILD += $$PWD/../sstd/libs/context/src/asm/make_x86_64_ms_pe_gas.asm
-ASM_FILES_TOBUILD += $$PWD/../sstd/libs/context/src/asm/jump_x86_64_ms_pe_gas.asm
-ASM_FILES_TOBUILD += $$PWD/../sstd/libs/context/src/asm/ontop_x86_64_ms_pe_gas.asm
-
-DISTFILES +=   $$ASM_FILES_TOBUILD
+ASM_FILES_TOBUILD = $$PWD/../sstd/libs/context/src/asm/make_x86_64_ms_pe_gas.asm \
+    $$PWD/../sstd/libs/context/src/asm/jump_x86_64_ms_pe_gas.asm \
+    $$PWD/../sstd/libs/context/src/asm/ontop_x86_64_ms_pe_gas.asm
 
 #use gcc to build .S files
 asm_gcc.input =         ASM_FILES_TOBUILD
