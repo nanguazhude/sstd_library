@@ -1,7 +1,5 @@
 
-win32{
-    DEFINES *= BOOST_USE_WINDOWS_H
-}
+DEFINES *= SSTD_BUILD_BOOST_SOURCE
 
 DEFINES *= BOOST_ATOMIC_SOURCE
 DEFINES *= BOOST_CHRONO_SOURCE
@@ -19,15 +17,14 @@ SOURCES += $$PWD/source/boost_thread.cpp
 SOURCES += $$PWD/source/boost_context.cpp
 
 win32-g++*{
-include($$PWD/source/boost_context_mingw64.pri)
-}else : linux-g++*{
-include($$PWD/source/boost_context_linux_gcc64.pri)
-}else {
-include($$PWD/source/boost_context_win64_msvc.pri)
+    include($$PWD/source/boost_context_mingw64.pri)
 }
 
+linux-g++*{
+    include($$PWD/source/boost_context_linux_gcc64.pri)
+}
 
-
-
-
+win32-msvc*{
+    include($$PWD/source/boost_context_win64_msvc.pri)
+}
 
