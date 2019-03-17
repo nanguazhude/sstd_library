@@ -80,7 +80,7 @@ int main(int, char **) {
     }
 
     {
-        auto var = sstd_make_shared< const std::array<int,3> >(1,2,3);
+        auto var = sstd_make_shared< const std::array<int, 3> >(1, 2, 3);
     }
 
     return 0;
