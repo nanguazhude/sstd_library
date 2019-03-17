@@ -7,6 +7,10 @@ win32-msvc*{
     LIBS += -lstdc++fs
 }
 
+!win32{
+    LIBS += -lpthread
+}
+
 win32-msvc*{
     CONFIG+=suppress_vcproj_warnings
 }else{

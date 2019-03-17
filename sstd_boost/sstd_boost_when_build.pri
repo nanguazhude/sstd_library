@@ -30,6 +30,7 @@ include($$PWD/source/boost_context_mingw64.pri)
 
 } else {
 
+include($$PWD/source/boost_context_linux_gcc64.pri)
 
 }#not win32-g++*
 
