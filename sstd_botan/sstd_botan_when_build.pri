@@ -18,6 +18,9 @@ win32-g++*{
     DEFINES              *= BOTAN_USE_MINGW_GCC_
     LIBS                 += -lws2_32
     DEFINES              *= _REENTRANT
+    CONFIG(debug,debug|release){
+        QMAKE_CXXFLAGS += -Wa,-mbig-obj
+    }
 }
 
 HEADERS += $$PWD/sstd_botan.hpp
