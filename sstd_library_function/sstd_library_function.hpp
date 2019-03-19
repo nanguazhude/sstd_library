@@ -123,13 +123,13 @@ namespace sstd {
     protected:
         template<typename T>
         inline BindDataFunction<T> bindFunctionWithThis(T &&) const noexcept;
+    public:
+        bool hasException() const noexcept;
+        bool isFinished() const noexcept;
     private:
         void yield() noexcept;
         void resume() noexcept;
-        bool hasException() const noexcept;
-    protected:
         void directRun() noexcept;
-    private:
         void resumeWithException() noexcept;
         void directYield() noexcept;
         void directResume() noexcept;

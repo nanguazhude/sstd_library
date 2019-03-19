@@ -11,6 +11,7 @@ namespace sstd {
         std::optional< fiber_t > fiber;
         fiber_t * fiberFunction{ nullptr };
         bool hasException{false};
+        bool isFinished{ false };
     private:
         sstd_class(YieldResumeFunctionPrivate);
     };
@@ -52,11 +53,17 @@ namespace sstd {
             this->doRun();
         }sstd_catch(...){
             this->doException();
+            thisPrivate->hasException = true;
         }
+        thisPrivate->isFinished = true;
     }
 
     bool YieldResumeFunction::hasException() const noexcept {
         return thisPrivate->hasException;
+    }
+
+    bool YieldResumeFunction::isFinished() const noexcept {
+        return thisPrivate->isFinished;
     }
 
     void YieldResumeFunction::directResume() noexcept{
