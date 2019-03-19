@@ -16,6 +16,14 @@ CONFIG(debug,debug|release){
     LIBS += -L$${SSTD_LIBRARY_OUTPUT_PATH} -lsstd_library
 }
 
+#remove some warning
+win32-msvc*{
+    QMAKE_CXXFLAGS += /wd"4251"
+    QMAKE_CXXFLAGS += /wd"4250"
+    QMAKE_CXXFLAGS += /wd"4275"
+}else{
+    QMAKE_CXXFLAGS += -Wno-deprecated-declarations
+}
 
 
 
