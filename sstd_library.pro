@@ -39,6 +39,8 @@ SOURCES += $$PWD/sstd_library_exception/sstd_library_exception.cpp
 HEADERS += $$PWD/sstd_library_function/sstd_library_function.hpp
 SOURCES += $$PWD/sstd_library_function/sstd_library_function.cpp
 
+HEADERS += $$PWD/sstd_library_filesystem/sstd_library_filesystem.hpp
+
 #remove some build warning
 win32-msvc*{
     QMAKE_CXXFLAGS += /wd"4251"

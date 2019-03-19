@@ -18,6 +18,7 @@ namespace _theSSTDLibraryFile {
 #include "global_sstd_library.hpp"
 #include "sstd_library_memory/sstd_library_memory.hpp"
 #include "sstd_library_exception/sstd_library_exception.hpp"
+#include "sstd_library_filesystem/sstd_library_filesystem.hpp"
 
 #include <sstd/boost/intrusive_ptr.hpp>
 
