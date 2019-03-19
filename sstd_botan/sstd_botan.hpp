@@ -8,8 +8,12 @@
 #include "mingw_gcc/botan_all.h"
 #endif
 
+namespace _theSSTDBotanFile{
+}/*_theSSTDBotanFile*/
 
-
+namespace sstd{
+    
+}/*namespace sstd*/
 
 
 
