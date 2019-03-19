@@ -53,5 +53,6 @@ win32-msvc*{
 }else{
     QMAKE_CXXFLAGS += -Wno-unused-parameter
     QMAKE_CXXFLAGS += -Wno-deprecated-declarations
+    QMAKE_CXXFLAGS += -Wno-unused-variable
 }
 

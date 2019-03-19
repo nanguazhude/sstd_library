@@ -16,7 +16,7 @@ win32-g++*{
     INCLUDEPATH          += $$PWD/mingw_gcc/build/include
     INCLUDEPATH          += $$PWD/mingw_gcc/build/include/external
     DEFINES              *= BOTAN_USE_MINGW_GCC_
-    LIBS                 += ws2_32.lib
+    LIBS                 += -lws2_32
     DEFINES              *= _REENTRANT
 }
 
