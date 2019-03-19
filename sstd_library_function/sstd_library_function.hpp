@@ -10,7 +10,8 @@ namespace sstd{
         T thisFunction;
     public:
 
-        template<typename U>
+        template<typename U,
+                 typename = std::enable_if_t< std::is_constructible_v< T, U&& > > >
         inline StartFunction(U && arg) :
             thisFunction{ std::forward<U>(arg) } {
         }
@@ -76,7 +77,7 @@ namespace sstd{
         virtual ~YieldFunctionBasic();
     protected:
         virtual void doRun() = 0;
-        virtual void directRun() noexcept = 0;
+        virtual void doException() noexcept ;
     private:
         sstd_class(YieldFunctionBasic);
     };
@@ -112,14 +113,15 @@ namespace sstd {
         template<typename T>
         inline BindDataFunction<T> bindFunctionWithThis(T &&) const noexcept;
     protected:
-        void yield() noexcept;
-        void resume() noexcept;
+        void yield() noexcept ;
+        void resume() noexcept ;
+        bool hasExceptoin() const noexcept;
     protected:
-        void directRun() noexcept override;
+        void directRun() noexcept;
     private:
         void resumeWithException() noexcept ;
-        void directYield() noexcept;
-        void directResume() noexcept;
+        void directYield() noexcept ;
+        void directResume() noexcept ;
     private:
         using shared_super::shared_from_this;
         using shared_super::weak_from_this;

@@ -10,7 +10,7 @@ namespace sstd {
         using fiber_t = boost::context::fiber;
         std::optional< fiber_t > fiber;
         fiber_t * fiberFunction{ nullptr };
-        std::optional< std::exception_ptr > exception;
+        bool hasException{false};
     private:
         sstd_class(YieldResumeFunctionPrivate);
     };
@@ -35,7 +35,7 @@ namespace sstd {
         this->resume();
     }
 
-    void YieldResumeFunction::yield() noexcept{
+    void YieldResumeFunction::yield() noexcept {
         this->directYield();
     }
 
@@ -47,12 +47,16 @@ namespace sstd {
         return shared_super::shared_from_this();
     }
 
-    void YieldResumeFunction::directRun() noexcept{
+    void YieldResumeFunction::directRun() noexcept {
         sstd_try{
             this->doRun();
         }sstd_catch(...){
-            sstd_on_exception();
+            this->doException();
         }
+    }
+
+    bool YieldResumeFunction::hasExceptoin() const noexcept {
+        return thisPrivate->hasException;
     }
 
     void YieldResumeFunction::directResume() noexcept{
@@ -61,21 +65,23 @@ namespace sstd {
         *(thisPrivate->fiber)=std::move(*(thisPrivate->fiber)).resume();
     }
 
-    void YieldResumeFunction::directYield() noexcept{
+    void YieldResumeFunction::directYield() noexcept {
         assert(thisPrivate->fiberFunction);
         assert(*(thisPrivate->fiberFunction));
         *(thisPrivate->fiberFunction)=std::move(*(thisPrivate->fiberFunction)).resume();
-        if(thisPrivate->exception) {
-            std::rethrow_exception( std::move(*(thisPrivate->exception)) );
-        }
     }
 
     void YieldResumeFunction::resumeWithException() noexcept {
-        thisPrivate->exception.emplace(std::current_exception());
+        this->doException();
+        thisPrivate->hasException = true;
         this->resume();
     }
 
     void YieldFunctionBasic::doRun() {
+    }
+
+    void YieldFunctionBasic::doException() noexcept {
+        sstd_on_exception();
     }
 
     YieldFunctionBasic::YieldFunctionBasic(){
