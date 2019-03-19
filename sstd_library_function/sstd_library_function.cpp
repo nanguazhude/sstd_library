@@ -10,6 +10,7 @@ namespace sstd {
         using fiber_t = boost::context::fiber;
         std::optional< fiber_t > fiber;
         fiber_t * fiberFunction{ nullptr };
+        std::optional< std::exception_ptr > exception;
     private:
         sstd_class(YieldResumeFunctionPrivate);
     };
@@ -64,6 +65,14 @@ namespace sstd {
         assert(thisPrivate->fiberFunction);
         assert(*(thisPrivate->fiberFunction));
         *(thisPrivate->fiberFunction)=std::move(*(thisPrivate->fiberFunction)).resume();
+        if(thisPrivate->exception) {
+            std::rethrow_exception( std::move(*(thisPrivate->exception)) );
+        }
+    }
+
+    void YieldResumeFunction::resumeWithException() noexcept {
+        thisPrivate->exception.emplace(std::current_exception());
+        this->resume();
     }
 
     void YieldFunctionBasic::doRun() {

@@ -29,17 +29,24 @@ namespace sstd{
         sstd_class(StartFunction);
     };
 
-    template <typename U,typename T>
+    template <typename U,typename T,typename E>
     class BindDataWithFunction{
         U other;
         T fun;
+        E exceptionFun;
     public:
-        template<typename A0,typename A1>
-        inline BindDataWithFunction(A0&&argOther,A1 && argFun) :
+        template<typename A0,typename A1,typename A2>
+        inline BindDataWithFunction(A0&&argOther,A1 && argFun,A2 && argEFun) :
             other(std::forward<A0>(argOther)),
-            fun(std::forward<A1>(argFun)) {}
+            fun(std::forward<A1>(argFun)) ,
+            exceptionFun(std::forward<A2>(argEFun)){
+        }
         inline void operator()() const noexcept {
-            (const_cast<BindDataWithFunction *>(this)->fun)();
+            sstd_try{
+                (const_cast<BindDataWithFunction *>(this)->fun)();
+            }sstd_catch(...){
+                exceptionFun();
+            }
         }
     public:
         sstd_default_copy_create(BindDataWithFunction);
@@ -84,13 +91,23 @@ namespace sstd {
         YieldResumeFunctionPrivate * const thisPrivate;
         sstd_delete_copy_create(YieldResumeFunction);
         using shared_super = std::enable_shared_from_this<YieldResumeFunction>;
+        class InAnotherFunctionStatck{
+            YieldResumeFunction * super;
+        public:
+            sstd_default_copy_create(InAnotherFunctionStatck);
+        public:
+            inline InAnotherFunctionStatck(YieldResumeFunction *);
+            inline void operator()() const noexcept;
+        };
     public:
         YieldResumeFunction(std::size_t=1024uLL*1024uLL*64uLL);
         virtual ~YieldResumeFunction();
     public:
         void start() noexcept;
         template<typename T>
-        using BindDataFunction = BindDataWithFunction< std::shared_ptr<const void>,std::remove_cv_t< std::remove_reference_t<T> > >;
+        using BindDataFunction = BindDataWithFunction< std::shared_ptr<const void>,
+        std::remove_cv_t< std::remove_reference_t<T> > ,
+        InAnotherFunctionStatck>;
     protected:
         template<typename T>
         inline BindDataFunction<T> bindFunctionWithThis(T &&) const noexcept;
@@ -100,6 +117,7 @@ namespace sstd {
     protected:
         void directRun() noexcept override;
     private:
+        void resumeWithException() noexcept ;
         void directYield() noexcept;
         void directResume() noexcept;
     private:
@@ -113,7 +131,17 @@ namespace sstd {
 
     template<typename T>
     inline YieldResumeFunction::BindDataFunction<T> YieldResumeFunction::bindFunctionWithThis(T && arg) const noexcept {
-        return { const_cast<YieldResumeFunction*>(this)->copyThisToAnotherStack() , std::forward<T>(arg) };
+        return { const_cast<YieldResumeFunction*>(this)->copyThisToAnotherStack() ,
+                    std::forward<T>(arg) ,
+                    InAnotherFunctionStatck{const_cast<YieldResumeFunction*>(this)} };
+    }
+
+    inline YieldResumeFunction::InAnotherFunctionStatck::InAnotherFunctionStatck(YieldResumeFunction *arg) :
+        super(arg){
+    }
+
+    inline void YieldResumeFunction::InAnotherFunctionStatck::operator()() const noexcept{
+        super->resumeWithException();
     }
 
 }/*namespace sstd*/
