@@ -11,5 +11,14 @@ win32-msvc*{
     LIBS                 += user32.lib ws2_32.lib
 }
 
+win32-g++*{
+    SOURCES              += $$PWD/mingw_gcc/botan_all.cpp
+    INCLUDEPATH          += $$PWD/mingw_gcc/build/include
+    INCLUDEPATH          += $$PWD/mingw_gcc/build/include/external
+    DEFINES              *= BOTAN_USE_MINGW_GCC_
+    LIBS                 += ws2_32.lib
+}
+
+
 HEADERS += $$PWD/sstd_botan.hpp
 

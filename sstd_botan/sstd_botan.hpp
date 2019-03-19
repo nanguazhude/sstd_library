@@ -4,7 +4,9 @@
 #include "msvc/botan_all.h"
 #endif
 
-
+#if defined(BOTAN_USE_MINGW_GCC_)
+#include "mingw_gcc/botan_all.h"
+#endif
 
 
 

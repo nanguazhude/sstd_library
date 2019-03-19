@@ -2,19 +2,12 @@
 win32-msvc*{
     QMAKE_CXXFLAGS += /std:c++latest
     CONFIG += utf8_source
-}else{
-    CONFIG += c++17
-    LIBS += -lstdc++fs
-}
-
-!win32{
-    LIBS += -lpthread
-}
-
-win32-msvc*{
     CONFIG+=suppress_vcproj_warnings
 }else{
+    CONFIG += c++17
     QMAKE_CFLAGS += -std=c11
+    LIBS += -lstdc++fs
+    LIBS += -lpthread
 }
 
 CONFIG(debug,debug|release) {
