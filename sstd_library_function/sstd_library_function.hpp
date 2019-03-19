@@ -90,7 +90,8 @@ namespace sstd {
     public:
         void start() noexcept;
         template<typename T>
-        using BindDataFunction = BindDataWithFunction< std::shared_ptr<const void>,std::remove_cv_t< std::remove_reference_t<T> >  >;
+        using BindDataFunction = BindDataWithFunction< std::shared_ptr<const void>,std::remove_cv_t< std::remove_reference_t<T> > >;
+    protected:
         template<typename T>
         inline BindDataFunction<T> bindFunctionWithThis(T &&) const noexcept;
     protected:
