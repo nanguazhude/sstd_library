@@ -86,9 +86,11 @@ namespace sstd{
 namespace sstd {
 
     class YieldResumeFunctionPrivate;
+    class _YieldResumeFunctionPrivate;
     class SSTD_SYMBOL_DECL YieldResumeFunction :
         public YieldFunctionBasic,
         public std::enable_shared_from_this<YieldResumeFunction> {
+        friend class _YieldResumeFunctionPrivate;
         YieldResumeFunctionPrivate * const thisPrivate;
         sstd_delete_copy_create(YieldResumeFunction);
         using shared_super = std::enable_shared_from_this<YieldResumeFunction>;
@@ -112,10 +114,10 @@ namespace sstd {
     protected:
         template<typename T>
         inline BindDataFunction<T> bindFunctionWithThis(T &&) const noexcept;
-    protected:
+    private:
         void yield() noexcept ;
         void resume() noexcept ;
-        bool hasExceptoin() const noexcept;
+        bool hasException() const noexcept;
     protected:
         void directRun() noexcept;
     private:
@@ -146,11 +148,35 @@ namespace sstd {
         super->resumeWithException();
     }
 
+    class _YieldResumeFunctionPrivate final {
+    public:
+        YieldResumeFunction * super;
+        inline void yield() const {
+            super->yield();
+        }
+        inline bool hasException() const {
+            return super->hasException();
+        }
+        inline void resume() const {
+            super->resume();
+        }
+    };
+
 }/*namespace sstd*/
 
+#ifndef sstd_function_yield
+#define sstd_function_yield(...) \
+    ::sstd::_YieldResumeFunctionPrivate{this}.yield(); \
+    if (::sstd::_YieldResumeFunctionPrivate{this}.hasException()) { \
+        return; \
+    } static_assert(true)
+#endif
 
-
-
+#ifndef sstd_function_resume
+#define sstd_function_resume(...) \
+    ::sstd::_YieldResumeFunctionPrivate{this}.resume(); \
+    static_assert(true)
+#endif
 
 
 

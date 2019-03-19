@@ -55,7 +55,7 @@ namespace sstd {
         }
     }
 
-    bool YieldResumeFunction::hasExceptoin() const noexcept {
+    bool YieldResumeFunction::hasException() const noexcept {
         return thisPrivate->hasException;
     }
 
