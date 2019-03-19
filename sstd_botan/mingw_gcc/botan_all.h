@@ -66,8 +66,10 @@
 #define BOTAN_LIB_LINK "-lws2_32"
 #define BOTAN_LINK_FLAGS "-fstack-protector -pthread"
 
+#include "../../global_sstd_library.hpp"
+
 #ifndef BOTAN_DLL
-  #define BOTAN_DLL 
+  #define BOTAN_DLL SSTD_SYMBOL_DECL
 #endif
 
 /* Target identification and feature test macros */

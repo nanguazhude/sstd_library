@@ -66,8 +66,10 @@
 #define BOTAN_LIB_LINK "user32.lib ws2_32.lib"
 #define BOTAN_LINK_FLAGS "/MD /bigobj"
 
+#include "../../global_sstd_library.hpp"
+
 #ifndef BOTAN_DLL
-  #define BOTAN_DLL __declspec(dllimport)
+  #define BOTAN_DLL SSTD_SYMBOL_DECL
 #endif
 
 /* Target identification and feature test macros */
