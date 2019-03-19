@@ -42,7 +42,7 @@ namespace sstd {
         this->directResume();
     }
 
-    std::shared_ptr<YieldResumeFunction> YieldResumeFunction::copyThisToAnotherStack() noexcept{
+    std::shared_ptr<YieldResumeFunction> YieldResumeFunction::copyThisToAnotherStack() noexcept {
         return shared_super::shared_from_this();
     }
 
