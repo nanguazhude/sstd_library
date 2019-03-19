@@ -38,4 +38,11 @@ SOURCES += $$PWD/sstd_library_exception/sstd_library_exception.cpp
 HEADERS += $$PWD/sstd_library_function/sstd_library_function.hpp
 SOURCES += $$PWD/sstd_library_function/sstd_library_function.cpp
 
+#remove some build warning
+win32-msvc*{
+    QMAKE_CXXFLAGS += /wd"4251"
+}else{
+    QMAKE_CXXFLAGS += -Wno-unused-parameter
+    QMAKE_CXXFLAGS += -Wno-deprecated-declarations
+}
 
