@@ -51,6 +51,7 @@ namespace sstd{
         virtual ~YieldFunctionBasic();
     protected:
         virtual void doRun() = 0;
+        virtual void directRun() noexcept = 0;
     private:
         sstd_class(YieldFunctionBasic);
     };
@@ -72,8 +73,9 @@ namespace sstd {
     protected:
         void yield() noexcept;
         void resume() noexcept;
+    protected:
+        void directRun() noexcept override;
     private:
-        void directRun() noexcept;
         void directYield() noexcept;
         void directResume() noexcept;
     private:
