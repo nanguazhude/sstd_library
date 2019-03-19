@@ -42,6 +42,10 @@ namespace sstd {
         this->directResume();
     }
 
+    std::shared_ptr<YieldResumeFunction> YieldResumeFunction::copyThisToAnotherStack() noexcept{
+        return shared_super::shared_from_this();
+    }
+
     void YieldResumeFunction::directRun() noexcept{
         sstd_try{
             this->doRun();

@@ -65,6 +65,7 @@ namespace sstd {
         public std::enable_shared_from_this<YieldResumeFunction> {
         YieldResumeFunctionPrivate * const thisPrivate;
         sstd_delete_copy_create(YieldResumeFunction);
+        using shared_super = std::enable_shared_from_this<YieldResumeFunction>;
     public:
         YieldResumeFunction(std::size_t=1024uLL*1024uLL*64uLL);
         virtual ~YieldResumeFunction();
@@ -73,11 +74,16 @@ namespace sstd {
     protected:
         void yield() noexcept;
         void resume() noexcept;
+        /*如果拷贝到当前栈区会形成循环引用*/
+        std::shared_ptr<YieldResumeFunction> copyThisToAnotherStack() noexcept;
     protected:
         void directRun() noexcept override;
     private:
         void directYield() noexcept;
         void directResume() noexcept;
+    private:
+        using shared_super::shared_from_this;
+        using shared_super::weak_from_this;
     private:
         sstd_class(YieldResumeFunction);
     };
