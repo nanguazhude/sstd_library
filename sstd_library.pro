@@ -14,6 +14,7 @@ INCLUDEPATH += $$PWD/sstd_boost
 include($$PWD/cplusplus_basic.pri)
 include($$PWD/sstd_boost/sstd_boost.pri)
 include($$PWD/sstd_boost/sstd_boost_when_build.pri)
+include($$PWD/sstd_botan/sstd_botan.pri)
 
 #output path
 include($$PWD/sstd_build_path.pri)
@@ -41,6 +42,14 @@ SOURCES += $$PWD/sstd_library_function/sstd_library_function.cpp
 #remove some build warning
 win32-msvc*{
     QMAKE_CXXFLAGS += /wd"4251"
+    QMAKE_CXXFLAGS += /wd"4250"
+    QMAKE_CXXFLAGS += /wd"4275"
+    QMAKE_CXXFLAGS += /wd"26439"
+    QMAKE_CXXFLAGS += /wd"26444"
+    QMAKE_CXXFLAGS += /wd"26495"
+    QMAKE_CXXFLAGS += /wd"4244"
+    QMAKE_CXXFLAGS += /wd"4267"
+    QMAKE_CXXFLAGS += /wd"4334"
 }else{
     QMAKE_CXXFLAGS += -Wno-unused-parameter
     QMAKE_CXXFLAGS += -Wno-deprecated-declarations
