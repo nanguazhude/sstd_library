@@ -3,8 +3,12 @@
 
 #include <iostream>
 #include <sstd/boost/context/fiber.hpp>
+#include <sstd_botan.hpp>
 
 #include <cassert>
+
+#include <string>
+using namespace std::string_literals;
 
 class AClass {
 private:
@@ -25,6 +29,22 @@ inline void testException(std::exception_ptr,
     std::string_view/*file*/,
     int/*line*/) noexcept {
     std::cout << "exception ok" << std::endl;
+}
+
+inline void botan_test() {
+    {
+        /*  https://botan.randombit.net/manual/hash.html  */
+        constexpr auto varTestAlg = "MD5"sv;
+        constexpr auto varTestData = "aabbcc"sv;
+        auto varHashFunction =
+            Botan::HashFunction::create({ varTestAlg.data(),varTestAlg.size() });
+        varHashFunction->update((const uint8_t*)varTestData.data(), varTestData.size());
+        std::cout
+            << varTestAlg
+            << "::"sv
+            << Botan::hex_encode(varHashFunction->final())
+            << std::endl;
+    }
 }
 
 int main(int, char **) {
@@ -81,6 +101,10 @@ int main(int, char **) {
 
     {
         auto var = sstd_make_shared< const std::array<int, 3> >(1, 2, 3);
+    }
+
+    {
+        botan_test();
     }
 
     return 0;
