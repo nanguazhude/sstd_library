@@ -115,6 +115,7 @@ namespace sstd {
         virtual ~YieldResumeFunction();
     public:
         void start() noexcept;
+        void quit() noexcept;
         template<typename T>
         using BindDataFunction = BindDataWithFunction< std::shared_ptr<const void>,
             std::remove_cv_t< std::remove_reference_t<T> >,
@@ -128,6 +129,8 @@ namespace sstd {
         bool isFinished() const noexcept;
     private:
         void yield() noexcept;
+        void innerYield() noexcept;
+        void outerYield() noexcept;
         void resume() noexcept;
         void directRun() noexcept;
         void resumeWithException() noexcept;
@@ -172,15 +175,21 @@ namespace sstd {
 
 }/*namespace sstd*/
 
-#ifndef sstd_function_yield
-#define sstd_function_yield(...) \
-    ::sstd::_YieldResumeFunctionPrivate{this}.yield(); \
+#ifndef sstd_function_inner_yield
+#define sstd_function_inner_yield(...) \
+    ::sstd::_YieldResumeFunctionPrivate{this}.innerYield(); \
     if (::sstd::_YieldResumeFunctionPrivate{this}.hasException()) { \
         return; \
     } static_assert(true)
 #endif
 
-
+#ifndef sstd_function_outer_yield
+#define sstd_function_outer_yield(...) \
+    ::sstd::_YieldResumeFunctionPrivate{this}.outerYield(); \
+    if (::sstd::_YieldResumeFunctionPrivate{this}.hasException()) { \
+        return; \
+    } static_assert(true)
+#endif 
 
 
 
