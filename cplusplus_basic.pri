@@ -8,6 +8,8 @@ win32-msvc*{
     QMAKE_CFLAGS += -std=c11
     LIBS += -lstdc++fs
     LIBS += -lpthread
+    LIBS += -ldl
+    LIBS += -lrt
 }
 
 CONFIG(debug,debug|release) {
@@ -16,6 +18,9 @@ CONFIG(debug,debug|release) {
     DEFINES *= NDEBUG
 }
 
+!win32 {
+    QMAKE_LFLAGS += -Wl,-rpath .
+}
 
 
 
