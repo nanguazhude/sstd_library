@@ -24,6 +24,20 @@ win32-g++*{
     }
 }
 
+linux-g++*{
+    SOURCES              += $$PWD/linux_gcc/botan_all.cpp
+    HEADERS              += $$PWD/linux_gcc/botan_all.h
+    INCLUDEPATH          += $$PWD/linux_gcc/build/include
+    INCLUDEPATH          += $$PWD/linux_gcc/build/include/external
+    DEFINES              *= BOTAN_USE_LINUX_GCC_
+    DEFINES              *= _REENTRANT
+    CONFIG(debug,debug|release){
+        QMAKE_CXXFLAGS += -Wa,-mbig-obj
+    }
+}
+
 HEADERS += $$PWD/sstd_botan.hpp
 SOURCES += $$PWD/sstd_botan.cpp
+
+
 

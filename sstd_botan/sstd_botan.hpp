@@ -8,6 +8,10 @@
 #include "mingw_gcc/botan_all.h"
 #endif
 
+#if defined(BOTAN_USE_LINUX_GCC_)
+#include "linux_gcc/botan_all.h"
+#endif
+
 namespace _theSSTDBotanFile{
 }/*_theSSTDBotanFile*/
 
