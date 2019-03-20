@@ -19,7 +19,7 @@ win32-g++*{
     DEFINES              *= BOTAN_USE_MINGW_GCC_
     LIBS                 += -lws2_32
     DEFINES              *= _REENTRANT
-    CONFIG(debug,debug|release){
+    CONFIG(debug,debug|release){#under mingw 7.3 this is need when debug
         QMAKE_CXXFLAGS += -Wa,-mbig-obj
     }
 }
@@ -31,9 +31,6 @@ linux-g++*{
     INCLUDEPATH          += $$PWD/linux_gcc/build/include/external
     DEFINES              *= BOTAN_USE_LINUX_GCC_
     DEFINES              *= _REENTRANT
-    CONFIG(debug,debug|release){
-        QMAKE_CXXFLAGS += -Wa,-mbig-obj
-    }
 }
 
 HEADERS += $$PWD/sstd_botan.hpp
