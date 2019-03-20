@@ -170,8 +170,11 @@ namespace sstd {
     class _YieldResumeFunctionPrivate final {
     public:
         YieldResumeFunction * super;
-        inline void yield() const {
-            super->yield();
+        inline void innerYield() const {
+            super->innerYield();
+        }
+        inline void outerYield() const {
+            super->outerYield();
         }
         inline bool hasException() const {
             return super->hasException();
