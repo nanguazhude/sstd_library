@@ -190,6 +190,8 @@ namespace sstd {
     public:
         bool hasException() const noexcept;
         bool isFinished() const noexcept;
+        bool isStarted() const noexcept;
+        bool isOuter() const noexcept;
     private:
         void yield() noexcept;
         void innerYield() noexcept;

@@ -88,6 +88,14 @@ namespace sstd {
         return thisPrivate->isFinished;
     }
 
+    bool YieldResumeFunction::isStarted() const noexcept {
+        return thisPrivate->isStart;
+    }
+
+    bool YieldResumeFunction::isOuter() const noexcept {
+        return thisPrivate->isOutter;
+    }
+
     void YieldResumeFunction::directResume() noexcept {
         thisPrivate->isOutter = false;
         thisPrivate->isStart = true;
