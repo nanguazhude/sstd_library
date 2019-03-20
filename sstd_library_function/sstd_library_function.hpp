@@ -70,7 +70,7 @@ namespace sstd {
             (const_cast<StartFunction *>(this)->thisFunction)->start();
         }
 
-        template< typename = std::enable_if_t< decltype(std::declval<T>()->quit()) > >
+        template< typename = decltype( std::declval<T>()->quit() ) >
         inline void quit() const noexcept {
             (const_cast<StartFunction *>(this)->thisFunction)->quit();
         }
