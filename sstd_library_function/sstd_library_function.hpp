@@ -70,7 +70,9 @@ namespace sstd {
             (const_cast<StartFunction *>(this)->thisFunction)->start();
         }
 
-        template< typename = decltype( std::declval<T>()->quit() ) >
+        template< typename = std::enable_if_t<
+                      _theSSTDLibraryFunctionFile::HasQuit<
+                      decltype(*(std::declval<T>())) >::value > >
         inline void quit() const noexcept {
             (const_cast<StartFunction *>(this)->thisFunction)->quit();
         }
@@ -257,7 +259,7 @@ namespace sstd {
     if (::sstd::_YieldResumeFunctionPrivate{this}.hasException()) { \
         return; \
     } static_assert(true)
-#endif 
+#endif
 
 
 
