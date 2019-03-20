@@ -246,19 +246,21 @@ namespace sstd {
 }/*namespace sstd*/
 
 #ifndef sstd_function_inner_yield
-#define sstd_function_inner_yield(...) \
-    ::sstd::_YieldResumeFunctionPrivate{this}.innerYield(); \
+#define sstd_function_inner_yield(...)                              \
+    ::sstd::_YieldResumeFunctionPrivate{this}.innerYield();         \
     if (::sstd::_YieldResumeFunctionPrivate{this}.hasException()) { \
-        return; \
-    } static_assert(true)
+        return;                                                     \
+    } assert( __func__ == "doRun"sv );                              \
+    static_assert(true)
 #endif
 
 #ifndef sstd_function_outer_yield
-#define sstd_function_outer_yield(...) \
-    ::sstd::_YieldResumeFunctionPrivate{this}.outerYield(); \
+#define sstd_function_outer_yield(...)                              \
+    ::sstd::_YieldResumeFunctionPrivate{this}.outerYield();         \
     if (::sstd::_YieldResumeFunctionPrivate{this}.hasException()) { \
-        return; \
-    } static_assert(true)
+        return;                                                     \
+    } assert( __func__ == "doRun"sv );                              \
+    static_assert(true)
 #endif
 
 
