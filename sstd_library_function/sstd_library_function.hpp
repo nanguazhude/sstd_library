@@ -2,6 +2,52 @@
 
 #include "../sstd_library.hpp"
 
+namespace _theSSTDLibraryFunctionFile {
+
+    template<typename T, typename = void>
+    class HasQuit : public std::false_type {
+    };
+
+    template<typename T>
+    class HasQuit< T, std::void_t< decltype(std::declval<
+        std::remove_cv_t<
+        std::remove_reference_t< T > > >().quit()) > > : public std::true_type {
+    };
+
+    template<typename T>
+    class QuitWrap {
+        sstd_delete_copy_create(QuitWrap);
+    public:
+        using U = std::remove_cv_t<
+            std::remove_reference_t< T > >;
+        U thisData;
+
+        inline QuitWrap() : thisData{} {
+        }
+
+        template<typename A0, typename ... Args,
+            typename = std::enable_if_t< std::is_constructible_v< U, A0&&, Args&&... > >
+        >inline QuitWrap(A0&&a0, Args&&...args) : thisData(std::forward<A0>(a0),
+            std::forward<Args>(args)...) {
+        }
+
+        template<typename A0, typename ... Args,
+            typename = void ******,
+            typename = std::enable_if_t< !std::is_constructible_v< U, A0&&, Args&&... > >
+        >inline QuitWrap(A0&&a0, Args&&...args) : thisData{ std::forward<A0>(a0),
+            std::forward<Args>(args)... } {
+        }
+
+        inline ~QuitWrap() {
+            thisData.quit();
+        }
+
+    private:
+        sstd_class(QuitWrap);
+    };
+
+}/**/
+
 namespace sstd {
 
     /*T should have ->start() noexcept ; */
@@ -24,7 +70,7 @@ namespace sstd {
             (const_cast<StartFunction *>(this)->thisFunction)->start();
         }
 
-        template< typename = std::enable_if_t< decltype( std::declval<T>()->quit() ) > >
+        template< typename = std::enable_if_t< decltype(std::declval<T>()->quit()) > >
         inline void quit() const noexcept {
             (const_cast<StartFunction *>(this)->thisFunction)->quit();
         }
@@ -53,10 +99,10 @@ namespace sstd {
             sstd_try{
                 (const_cast<BindDataWithFunction *>(this)->fun)();
             }sstd_catch(...) {
-                exceptionFun();
+                (const_cast<BindDataWithFunction *>(this)->exceptionFun)();
                 return;
             }
-            normalFun();
+            (const_cast<BindDataWithFunction *>(this)->normalFun)();
         }
     public:
         sstd_default_copy_create(BindDataWithFunction);
@@ -66,9 +112,21 @@ namespace sstd {
 
     template <typename U, typename ... Args>
     inline StartFunction< std::shared_ptr<U> > makeStartFunction(Args && ... args) {
-        return StartFunction< std::shared_ptr<U> >{
-            sstd_make_shared<U>(std::forward<Args>(args)...)
-        };
+        if constexpr (!_theSSTDLibraryFunctionFile::HasQuit<U>::value) {
+            return StartFunction< std::shared_ptr<U> >{
+                sstd_make_shared<U>(std::forward<Args>(args)...)
+            };
+        } else {
+            using QuitWrapType =
+                _theSSTDLibraryFunctionFile::QuitWrap<U>;
+            auto varAns = sstd_new< QuitWrapType >();
+            assert(reinterpret_cast<QuitWrapType*>(&(varAns->thisData)) == varAns);
+            return StartFunction< std::shared_ptr<U> >{
+                std::shared_ptr<U>{ &(varAns->thisData),
+                    [](auto ptr) { delete reinterpret_cast<QuitWrapType*>(ptr); },
+                    sstd_allocator<U>{}
+                }};
+        }
     }
 
 }/*namespace sstd*/

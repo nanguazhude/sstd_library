@@ -13,6 +13,7 @@ namespace sstd {
         bool hasException{ false };
         bool isFinished{ false };
         bool isOutter{ true };
+        bool isStart{ false };
     private:
         sstd_class(YieldResumeFunctionPrivate);
     };
@@ -30,7 +31,6 @@ namespace sstd {
     }
 
     YieldResumeFunction::~YieldResumeFunction() {
-        this->quit();
         delete thisPrivate;
     }
 
@@ -43,7 +43,9 @@ namespace sstd {
 
     void YieldResumeFunction::quit() noexcept {
         thisPrivate->hasException = true;
-        this->start();
+        if (thisPrivate->isStart) {
+            this->start();
+        }
     }
 
     void YieldResumeFunction::yield() noexcept {
@@ -88,6 +90,7 @@ namespace sstd {
 
     void YieldResumeFunction::directResume() noexcept {
         thisPrivate->isOutter = false;
+        thisPrivate->isStart = true;
         if (thisPrivate->isFinished) {
             return;
         }
