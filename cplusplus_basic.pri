@@ -8,6 +8,9 @@ win32-msvc*{
     QMAKE_CFLAGS += -std=c11
     LIBS += -lstdc++fs
     LIBS += -lpthread
+}
+
+!win32{
     LIBS += -ldl
     LIBS += -lrt
 }
