@@ -36,6 +36,13 @@ __VA_ARGS__ &operator= (const __VA_ARGS__ &) = delete ; \
 static_assert(true)/*__VA_ARGS__*/
 #endif
 
+#ifndef sstd_data
+#define sstd_data(...)           the##__VA_ARGS__##Data
+#endif
+
+#ifndef sstd_data_type
+#define sstd_data_type(...)      __VA_ARGS__##Data
+#endif
 
 
 
