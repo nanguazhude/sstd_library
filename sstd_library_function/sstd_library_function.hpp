@@ -164,7 +164,7 @@ namespace sstd {
         sstd_delete_copy_create(YieldResumeFunction);
         using shared_super = std::enable_shared_from_this<YieldResumeFunction>;
 
-        template<bool>
+        template<bool/*has exception*/>
         class InAnotherFunctionStatck {
             YieldResumeFunction * super;
         public:
