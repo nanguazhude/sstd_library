@@ -3,6 +3,8 @@
 #include <sstd/boost/context/fiber.hpp>
 #include <sstd/boost/context/protected_fixedsize_stack.hpp>
 
+static_assert( std::is_same_v< sstd::SkipFunctionException , boost::context::detail::forced_unwind > );
+
 namespace sstd {
 
     class YieldResumeFunctionPrivate {
@@ -34,43 +36,43 @@ namespace sstd {
         delete thisPrivate;
     }
 
-    void YieldResumeFunction::start() noexcept {
+    void YieldResumeFunction::start()  {
         if (!thisPrivate->isOutter) {
             return;
         }
         this->resume();
     }
 
-    void YieldResumeFunction::quit() noexcept {
+    void YieldResumeFunction::quit()  {
         thisPrivate->hasException = true;
         if (thisPrivate->isStart) {
             this->start();
         }
     }
 
-    void YieldResumeFunction::yield() noexcept {
+    void YieldResumeFunction::yield()  {
         this->directYield();
     }
 
-    void YieldResumeFunction::innerYield() noexcept {
+    void YieldResumeFunction::innerYield()  {
         thisPrivate->isOutter = false;
         this->yield();
     }
 
-    void YieldResumeFunction::outerYield() noexcept {
+    void YieldResumeFunction::outerYield()  {
         thisPrivate->isOutter = true;
         this->yield();
     }
 
-    void YieldResumeFunction::resume() noexcept {
+    void YieldResumeFunction::resume()  {
         this->directResume();
     }
 
-    std::shared_ptr<YieldResumeFunction> YieldResumeFunction::copyThisToAnotherStack() noexcept {
+    std::shared_ptr<YieldResumeFunction> YieldResumeFunction::copyThisToAnotherStack()  {
         return shared_super::shared_from_this();
     }
 
-    void YieldResumeFunction::directRun() noexcept {
+    void YieldResumeFunction::directRun()  {
         sstd_try{
             this->doRun();
         }sstd_catch(...) {
@@ -80,23 +82,23 @@ namespace sstd {
         thisPrivate->isFinished = true;
     }
 
-    bool YieldResumeFunction::hasException() const noexcept {
+    bool YieldResumeFunction::hasException() const  {
         return thisPrivate->hasException;
     }
 
-    bool YieldResumeFunction::isFinished() const noexcept {
+    bool YieldResumeFunction::isFinished() const  {
         return thisPrivate->isFinished;
     }
 
-    bool YieldResumeFunction::isStarted() const noexcept {
+    bool YieldResumeFunction::isStarted() const  {
         return thisPrivate->isStart;
     }
 
-    bool YieldResumeFunction::isOuter() const noexcept {
+    bool YieldResumeFunction::isOuter() const  {
         return thisPrivate->isOutter;
     }
 
-    void YieldResumeFunction::directResume() noexcept {
+    void YieldResumeFunction::directResume()  {
         thisPrivate->isOutter = false;
         thisPrivate->isStart = true;
         if (thisPrivate->isFinished) {
@@ -107,13 +109,13 @@ namespace sstd {
         *(thisPrivate->fiber) = std::move(*(thisPrivate->fiber)).resume();
     }
 
-    void YieldResumeFunction::directYield() noexcept {
+    void YieldResumeFunction::directYield()  {
         assert(thisPrivate->fiberFunction);
         assert(*(thisPrivate->fiberFunction));
         *(thisPrivate->fiberFunction) = std::move(*(thisPrivate->fiberFunction)).resume();
     }
 
-    void YieldResumeFunction::resumeWithException() noexcept {
+    void YieldResumeFunction::resumeWithException()  {
         this->doException();
         thisPrivate->hasException = true;
         this->resume();
@@ -122,7 +124,7 @@ namespace sstd {
     void YieldFunctionBasic::doRun() {
     }
 
-    void YieldFunctionBasic::doException() noexcept {
+    void YieldFunctionBasic::doException()  {
         sstd_on_exception();
     }
 
