@@ -85,7 +85,25 @@ namespace sstd {
         sstd_class(StartFunction);
     };
 
-   
+
+    template <typename U, typename ... Args>
+    inline StartFunction< std::shared_ptr<U> > makeStartFunction(Args && ... args) {
+        if constexpr (!_theSSTDLibraryFunctionFile::HasQuit<U>::value) {
+            return StartFunction< std::shared_ptr<U> >{
+                sstd_make_shared<U>(std::forward<Args>(args)...)
+            };
+        } else {
+            using QuitWrapType =
+                _theSSTDLibraryFunctionFile::QuitWrap<U>;
+            auto varAns = sstd_new< QuitWrapType >();
+            assert(reinterpret_cast<QuitWrapType*>(&(varAns->thisData)) == varAns);
+            return StartFunction< std::shared_ptr<U> >{
+                std::shared_ptr<U>{ &(varAns->thisData),
+                    [](auto ptr) { delete reinterpret_cast<QuitWrapType*>(ptr); },
+                    sstd_allocator<U>{}
+                }};
+        }
+    }
 
 }/*namespace sstd*/
 
