@@ -63,7 +63,7 @@ namespace sstd {
             }sstd_catch(const SkipException &) {
                 thisPrivate->hasException = true;
                 thisPrivate->isFinished = true;
-                throw;
+                sstd_throw();
             }sstd_catch(const _theSSTDLibraryFunctionFile::QuitException &) {
                 thisPrivate->hasException = true;
             }sstd_catch(...) {
@@ -79,6 +79,7 @@ namespace sstd {
         if (thisPrivate->isFinished) {
             return;
         }
+        thisPrivate->isOutter = false;
         this->directResume();
     }
 
@@ -92,7 +93,7 @@ namespace sstd {
         varFiber = std::move(varFiber).resume();
         /****************************************/
         if (thisPrivate->foreQuit) {
-            throw _theSSTDLibraryFunctionFile::QuitException{};
+            sstd_throw( _theSSTDLibraryFunctionFile::QuitException{} );
         } else if (thisPrivate->exception) {
             auto varException = std::move(*thisPrivate->exception);
             thisPrivate->exception.reset();
