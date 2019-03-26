@@ -1,6 +1,7 @@
 ﻿#pragma once
 
 #include "../sstd_library.hpp"
+#include <sstd/boost/fiber/fiber.hpp>
 
 namespace _theSSTDLibraryFunctionFile {
 
@@ -50,13 +51,7 @@ namespace _theSSTDLibraryFunctionFile {
 
 }/**/
 
-namespace boost::context::detail { 
-    struct forced_unwind;
-}/*namespace boost::context::detail*/
-
 namespace sstd {
-
-    using SkipFunctionException = boost::context::detail::forced_unwind;
 
     /*T should have ->start()  ; */
     template <typename T>
@@ -65,23 +60,23 @@ namespace sstd {
     public:
 
         template<typename U,
-            typename = std::enable_if_t< std::is_constructible_v< T, U&& > > 
+            typename = std::enable_if_t< std::is_constructible_v< T, U&& > >
         > inline StartFunction(U && arg) :
             thisFunction{ std::forward<U>(arg) } {
         }
 
-        inline void operator()() const  {
+        inline void operator()() const {
             this->start();
         }
 
-        inline void start() const  {
+        inline void start() const {
             (const_cast<StartFunction *>(this)->thisFunction)->start();
         }
 
         template< typename = std::enable_if_t<
-                      _theSSTDLibraryFunctionFile::HasQuit<
-                      decltype(*(std::declval<T>())) >::value > >
-        inline void quit() const  {
+            _theSSTDLibraryFunctionFile::HasQuit<
+            decltype(*(std::declval<T>())) >::value > >
+            inline void quit() const {
             (const_cast<StartFunction *>(this)->thisFunction)->quit();
         }
 
@@ -91,23 +86,28 @@ namespace sstd {
         sstd_class(StartFunction);
     };
 
-    template <typename U, typename T, typename E, typename N>
+    template <typename U, typename T, typename E, typename N, typename S>
     class BindDataWithFunction {
         U thisOtherData/*保存userData*/;
         T thisFunction/*当前函数*/;
         E thisExceptionFun/*发生异常*/;
         N thisNormalFun/*无异常*/;
+        S thisSkipFun/*跳过异常*/;
     public:
-        template<typename A0, typename A1, typename A2, typename A3>
-        inline BindDataWithFunction(A0&&argOther, A1 && argFun, A2 && argEFun, A3 && argNFun) :
+        template<typename A0, typename A1, typename A2, typename A3, typename A4>
+        inline BindDataWithFunction(A0&&argOther, A1 && argFun, A2 && argEFun, A3 && argNFun, A4 && argSFun) :
             thisOtherData(std::forward<A0>(argOther)),
             thisFunction(std::forward<A1>(argFun)),
             thisExceptionFun(std::forward<A2>(argEFun)),
-            thisNormalFun(std::forward<A3>(argNFun)) {
+            thisNormalFun(std::forward<A3>(argNFun)),
+            thisSkipFun(std::forward<A4>(argSFun)) {
         }
-        inline void operator()() const  {
+        inline void operator()() const {
             sstd_try{
                 (const_cast<BindDataWithFunction *>(this)->thisFunction)();
+            }sstd_catch(const boost::context::detail::forced_unwind &) {
+                thisSkipFun()；
+                    throw;
             }sstd_catch(...) {
                 (const_cast<BindDataWithFunction *>(this)->thisExceptionFun)();
                 return;
@@ -154,7 +154,7 @@ namespace sstd {
         virtual ~YieldFunctionBasic();
     protected:
         virtual void doRun() = 0;
-        virtual void doException() ;
+        virtual void doException();
     private:
         sstd_class(YieldFunctionBasic);
     };
@@ -172,7 +172,13 @@ namespace sstd {
         sstd_delete_copy_create(YieldResumeFunction);
         using shared_super = std::enable_shared_from_this<YieldResumeFunction>;
 
-        template<bool/*has exception*/>
+        enum class InAnotherFunctionStackType {
+            Exception,
+            NoException,
+            SkipException
+        };
+
+        template<InAnotherFunctionStackType/*has exception*/>
         class InAnotherFunctionStatck {
             YieldResumeFunction * super;
         public:
@@ -180,60 +186,65 @@ namespace sstd {
         public:
             inline InAnotherFunctionStatck(YieldResumeFunction * arg) : super(arg) {
             }
-            inline void operator()() const ;
+            inline void operator()() const;
         };
 
     public:
         YieldResumeFunction(std::size_t = 1024uLL * 1024uLL * 64uLL);
         virtual ~YieldResumeFunction();
     public:
-        void start() ;
-        void quit() ;
+        void start();
+        void quit();
         template<typename T>
         using BindDataFunction = BindDataWithFunction< std::shared_ptr<const void>,
             std::remove_cv_t< std::remove_reference_t<T> >,
-            InAnotherFunctionStatck<true>,
-            InAnotherFunctionStatck<false>>;
+            InAnotherFunctionStatck<InAnotherFunctionStackType::Exception>,
+            InAnotherFunctionStatck<InAnotherFunctionStackType::NoException>,
+            InAnotherFunctionStatck<InAnotherFunctionStackType::SkipException>>;
     protected:
         template<typename T>
-        inline BindDataFunction<T> bindFunctionWithThis(T &&) const ;
+        inline BindDataFunction<T> bindFunctionWithThis(T &&) const;
     public:
-        bool hasException() const ;
-        bool isFinished() const ;
-        bool isStarted() const ;
-        bool isOuter() const ;
+        bool hasException() const;
+        bool isFinished() const;
+        bool isStarted() const;
+        bool isOuter() const;
     private:
-        void yield() ;
-        void innerYield() ;
-        void outerYield() ;
-        void resume() ;
-        void directRun() ;
-        void resumeWithException() ;
-        void directYield() ;
-        void directResume() ;
+        void yield();
+        void innerYield();
+        void outerYield();
+        void resume();
+        void directRun();
+        void resumeWithException();
+        void skipException();
+        void directYield();
+        void directResume();
     private:
         using shared_super::shared_from_this;
         using shared_super::weak_from_this;
         /*如果拷贝到当前栈区会形成循环引用*/
-        std::shared_ptr<YieldResumeFunction> copyThisToAnotherStack() ;
+        std::shared_ptr<YieldResumeFunction> copyThisToAnotherStack();
     private:
         sstd_class(YieldResumeFunction);
     };
 
     template<typename T>
-    inline YieldResumeFunction::BindDataFunction<T> YieldResumeFunction::bindFunctionWithThis(T && arg) const  {
+    inline YieldResumeFunction::BindDataFunction<T> YieldResumeFunction::bindFunctionWithThis(T && arg) const {
         return { const_cast<YieldResumeFunction*>(this)->copyThisToAnotherStack() ,
                  std::forward<T>(arg) ,
-                 InAnotherFunctionStatck<true>{const_cast<YieldResumeFunction*>(this)},
-                 InAnotherFunctionStatck<false>{const_cast<YieldResumeFunction*>(this)} };
+                 InAnotherFunctionStatck<InAnotherFunctionStackType::Exception>{const_cast<YieldResumeFunction*>(this)},
+                 InAnotherFunctionStatck<InAnotherFunctionStackType::NoException>{const_cast<YieldResumeFunction*>(this)},
+                 InAnotherFunctionStatck<InAnotherFunctionStackType::SkipException>{const_cast<YieldResumeFunction*>(this)} };
     }
 
-    template<bool V>
-    inline void YieldResumeFunction::InAnotherFunctionStatck<V>::operator()() const  {
-        if constexpr (V) {
+    template<YieldResumeFunction::InAnotherFunctionStackType V>
+    inline void YieldResumeFunction::InAnotherFunctionStatck<V>::operator()() const {
+        if constexpr (V == InAnotherFunctionStackType::Exception) {
             super->resumeWithException();
-        } else {
+        } else if constexpr (V == InAnotherFunctionStackType::NoException) {
             super->resume();
+        } else if constexpr (V == InAnotherFunctionStackType::SkipException) {
+            super->skipException();
         }
     }
 
