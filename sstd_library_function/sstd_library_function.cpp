@@ -23,6 +23,7 @@ namespace sstd {
         std::optional< fiber_t > fiber;
         std::optional< fiber_t > fiberFunction;
         std::optional< std::exception_ptr > exception;
+        bool foreQuit{ false };
         bool hasException{ false };
         bool isFinished{ false };
         bool isOutter{ true };
@@ -90,7 +91,9 @@ namespace sstd {
         auto & varFiber = (*(thisPrivate->fiberFunction));
         varFiber = std::move(varFiber).resume();
         /****************************************/
-        if (thisPrivate->exception) {
+        if (thisPrivate->foreQuit) {
+            throw _theSSTDLibraryFunctionFile::QuitException{};
+        } else if (thisPrivate->exception) {
             auto varException = std::move(*thisPrivate->exception);
             thisPrivate->exception.reset();
             std::rethrow_exception(std::move(varException));
@@ -129,11 +132,12 @@ namespace sstd {
             return;
         }
 
-        sstd_try{
-            throw _theSSTDLibraryFunctionFile::QuitException{};
-        } sstd_catch(const _theSSTDLibraryFunctionFile::QuitException &) {
-            resumeWithException();
+        if (thisPrivate->hasException) {
+            return;
         }
+
+        thisPrivate->foreQuit = true;
+        this->start();
 
     }
 
