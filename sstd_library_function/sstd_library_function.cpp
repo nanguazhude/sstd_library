@@ -5,8 +5,6 @@
 
 namespace sstd {
 
-    using SkipFunctionException = boost::context::detail::forced_unwind;
-
     class YieldResumeFunctionPrivate {
     public:
         using fiber_t = boost::context::fiber;

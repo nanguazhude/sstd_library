@@ -3,6 +3,10 @@
 #include "../sstd_library.hpp"
 #include <sstd/boost/fiber/fiber.hpp>
 
+namespace sstd {
+    using SkipFunctionException = boost::context::detail::forced_unwind;
+}
+
 namespace _theSSTDLibraryFunctionFile {
 
     /*判断一个类是否包含 .quit() 函数*/
@@ -105,9 +109,8 @@ namespace sstd {
         inline void operator()() const {
             sstd_try{
                 (const_cast<BindDataWithFunction *>(this)->thisFunction)();
-            }sstd_catch(const boost::context::detail::forced_unwind &) {
-                thisSkipFun()；
-                    throw;
+            }sstd_catch(const SkipFunctionException &) {
+                (const_cast<BindDataWithFunction *>(this)->thisSkipFun)()；throw;
             }sstd_catch(...) {
                 (const_cast<BindDataWithFunction *>(this)->thisExceptionFun)();
                 return;
@@ -179,12 +182,12 @@ namespace sstd {
         };
 
         template<InAnotherFunctionStackType/*has exception*/>
-        class InAnotherFunctionStatck {
+        class InAnotherFunctionStack {
             YieldResumeFunction * super;
         public:
-            sstd_default_copy_create(InAnotherFunctionStatck);
+            sstd_default_copy_create(InAnotherFunctionStack);
         public:
-            inline InAnotherFunctionStatck(YieldResumeFunction * arg) : super(arg) {
+            inline InAnotherFunctionStack(YieldResumeFunction * arg) : super(arg) {
             }
             inline void operator()() const;
         };
@@ -198,9 +201,9 @@ namespace sstd {
         template<typename T>
         using BindDataFunction = BindDataWithFunction< std::shared_ptr<const void>,
             std::remove_cv_t< std::remove_reference_t<T> >,
-            InAnotherFunctionStatck<InAnotherFunctionStackType::Exception>,
-            InAnotherFunctionStatck<InAnotherFunctionStackType::NoException>,
-            InAnotherFunctionStatck<InAnotherFunctionStackType::SkipException>>;
+            InAnotherFunctionStack<InAnotherFunctionStackType::Exception>,
+            InAnotherFunctionStack<InAnotherFunctionStackType::NoException>,
+            InAnotherFunctionStack<InAnotherFunctionStackType::SkipException>>;
     protected:
         template<typename T>
         inline BindDataFunction<T> bindFunctionWithThis(T &&) const;
@@ -232,13 +235,13 @@ namespace sstd {
     inline YieldResumeFunction::BindDataFunction<T> YieldResumeFunction::bindFunctionWithThis(T && arg) const {
         return { const_cast<YieldResumeFunction*>(this)->copyThisToAnotherStack() ,
                  std::forward<T>(arg) ,
-                 InAnotherFunctionStatck<InAnotherFunctionStackType::Exception>{const_cast<YieldResumeFunction*>(this)},
-                 InAnotherFunctionStatck<InAnotherFunctionStackType::NoException>{const_cast<YieldResumeFunction*>(this)},
-                 InAnotherFunctionStatck<InAnotherFunctionStackType::SkipException>{const_cast<YieldResumeFunction*>(this)} };
+                 InAnotherFunctionStack<InAnotherFunctionStackType::Exception>{const_cast<YieldResumeFunction*>(this)},
+                 InAnotherFunctionStack<InAnotherFunctionStackType::NoException>{const_cast<YieldResumeFunction*>(this)},
+                 InAnotherFunctionStack<InAnotherFunctionStackType::SkipException>{const_cast<YieldResumeFunction*>(this)} };
     }
 
     template<YieldResumeFunction::InAnotherFunctionStackType V>
-    inline void YieldResumeFunction::InAnotherFunctionStatck<V>::operator()() const {
+    inline void YieldResumeFunction::InAnotherFunctionStack<V>::operator()() const {
         if constexpr (V == InAnotherFunctionStackType::Exception) {
             super->resumeWithException();
         } else if constexpr (V == InAnotherFunctionStackType::NoException) {
