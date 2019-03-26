@@ -115,10 +115,15 @@ namespace sstd {
         if (!thisPrivate->isOutter) {
             return;
         }
+        thisPrivate->isStart = true;
         this->resume();
     }
 
     void YieldResumeFunction::quit() {
+
+        if (!thisPrivate->isStart) {
+            return;
+        }
 
         if (thisPrivate->isFinished) {
             return;
@@ -137,6 +142,22 @@ namespace sstd {
         thisPrivate->exception.emplace(std::current_exception());
         this->start();
 
+    }
+
+    bool YieldResumeFunction::isOuter() const {
+        return thisPrivate->isOutter;
+    }
+
+    bool YieldResumeFunction::isFinished() const {
+        return thisPrivate->isFinished;
+    }
+
+    bool YieldResumeFunction::hasException() const {
+        return thisPrivate->hasException;
+    }
+
+    bool YieldResumeFunction::isStart() const {
+        return thisPrivate->isStart;
     }
 
 }/*namespace sstd*/

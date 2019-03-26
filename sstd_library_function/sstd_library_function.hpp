@@ -120,9 +120,9 @@ namespace sstd {
     public:
         template<typename T>
         class BindFunction final {
+            using FunType = std::remove_cv_t< std::remove_reference_t<T> >;
             FunType thisFunction;
             YieldResumeFunction * super;
-            using FunType =std::remove_cv_t< std::remove_reference_t<T> >;
             std::shared_ptr<const void> thisData;
         public:
             template<typename U>
@@ -132,13 +132,14 @@ namespace sstd {
                 thisData = arg->shared_from_this();
             }
             inline void operator()() const {
-                try {
-                    thisFunction();
-                } catch (...) {
-                    super->resumeWithException();
+                auto varThis = const_cast<BindFunction*>(this);
+                sstd_try {
+                    varThis->thisFunction();
+                } sstd_catch (...) {
+                    varThis->super->resumeWithException();
                     return;
                 }
-                super->resume();
+                varThis->super->resume();
             }
             sstd_default_copy_create(BindFunction);
         public:
@@ -148,14 +149,18 @@ namespace sstd {
         YieldResumeFunction(std::size_t=1024uLL*1024uLL*64uLL);
         ~YieldResumeFunction();
     public:
-        template<typename T>
-        BindFunction< std::remove_cv_t< std::remove_reference_t<T> >  > bind(T &&) const;
-    public:
         void start();
         void quit();
+    public:
+        bool isOuter() const;
+        bool isFinished() const;
+        bool hasException() const;
+        bool isStart() const;
     protected:
         void innerYield();
         void outerYiled();
+        template<typename T>
+        BindFunction< std::remove_cv_t< std::remove_reference_t<T> > > bind(T &&) const;
     private:
         void resume();
         void resumeWithException();
@@ -164,6 +169,7 @@ namespace sstd {
         using SuperType::shared_from_this;
         using SuperType::weak_from_this;
     private:
+        sstd_delete_copy_create(YieldResumeFunction);
         sstd_class(YieldResumeFunction);
     };
 
