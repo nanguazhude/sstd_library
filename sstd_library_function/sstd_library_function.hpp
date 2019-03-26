@@ -118,8 +118,38 @@ namespace sstd {
         YieldResumeFunctionPrivate * const thisPrivate;
         using SuperType = std::enable_shared_from_this<YieldResumeFunction>;
     public:
+        template<typename T>
+        class BindFunction final {
+            FunType thisFunction;
+            YieldResumeFunction * super;
+            using FunType =std::remove_cv_t< std::remove_reference_t<T> >;
+            std::shared_ptr<const void> thisData;
+        public:
+            template<typename U>
+            inline BindFunction(U && argFunc,YieldResumeFunction * arg):
+                thisFunction( std::forward<U>(argFunc) ),
+                super(arg) {
+                thisData = arg->shared_from_this();
+            }
+            inline void operator()() const {
+                try {
+                    thisFunction();
+                } catch (...) {
+                    super->resumeWithException();
+                    return;
+                }
+                super->resume();
+            }
+            sstd_default_copy_create(BindFunction);
+        public:
+            sstd_class(BindFunction);
+        };
+    public:
         YieldResumeFunction(std::size_t=1024uLL*1024uLL*64uLL);
         ~YieldResumeFunction();
+    public:
+        template<typename T>
+        BindFunction< std::remove_cv_t< std::remove_reference_t<T> >  > bind(T &&) const;
     public:
         void start();
         void quit();
@@ -131,10 +161,19 @@ namespace sstd {
         void resumeWithException();
         void directResume();
         void directYield();
+        using SuperType::shared_from_this;
+        using SuperType::weak_from_this;
     private:
         sstd_class(YieldResumeFunction);
     };
 
+    template<typename T>
+    YieldResumeFunction::BindFunction< std::remove_cv_t< std::remove_reference_t<T> > > YieldResumeFunction::bind(T && arg) const {
+        return { 
+            std::forward<T>(arg),
+            const_cast<YieldResumeFunction *>(this) };
+    }
+   
 }/*namespace sstd*/
 
 

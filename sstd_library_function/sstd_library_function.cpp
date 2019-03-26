@@ -124,9 +124,9 @@ namespace sstd {
             return;
         }
 
-        try {
+        sstd_try{
             throw _theSSTDLibraryFunctionFile::QuitException{};
-        } catch (...) {
+        } sstd_catch(const _theSSTDLibraryFunctionFile::QuitException &) {
             resumeWithException();
         }
 
