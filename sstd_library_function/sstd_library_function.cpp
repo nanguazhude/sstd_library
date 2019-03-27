@@ -67,9 +67,11 @@ namespace sstd {
                 sstd_throw();
             }sstd_catch(const _theSSTDLibraryFunctionFile::QuitException &) {
                 thisPrivate->hasException = true;
+                thisPrivate->isFinished = true;
                 this->doQuit();
             }sstd_catch(...) {
                 thisPrivate->hasException = true;
+                thisPrivate->isFinished = true;
                 this->doException();
             }
             thisPrivate->isFinished = true;
