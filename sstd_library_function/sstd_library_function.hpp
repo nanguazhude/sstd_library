@@ -79,6 +79,18 @@ namespace sstd {
             (const_cast<StartFunction *>(this)->thisFunction)->quit();
         }
 
+        inline auto getFunction() & {
+            return thisFunction;
+        }
+
+        inline auto getFunction() const & {
+            return thisFunction;
+        }
+
+        inline auto getFunction() && {
+            return std::move(thisFunction);
+        }
+
     public:
         sstd_default_copy_create(StartFunction);
     private:
@@ -95,7 +107,7 @@ namespace sstd {
         } else {
             using QuitWrapType =
                 _theSSTDLibraryFunctionFile::QuitWrap<U>;
-            auto varAns = sstd_new< QuitWrapType >();
+            auto varAns = sstd_new< QuitWrapType >( std::forward<Args>(args)... );
             assert(reinterpret_cast<QuitWrapType*>(&(varAns->thisData)) == varAns);
             return StartFunction< std::shared_ptr<U> >{
                 std::shared_ptr<U>{ &(varAns->thisData),
