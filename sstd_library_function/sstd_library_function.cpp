@@ -63,9 +63,11 @@ namespace sstd {
             }sstd_catch(const SkipException &) {
                 thisPrivate->hasException = true;
                 thisPrivate->isFinished = true;
+                this->doQuit();
                 sstd_throw();
             }sstd_catch(const _theSSTDLibraryFunctionFile::QuitException &) {
                 thisPrivate->hasException = true;
+                this->doQuit();
             }sstd_catch(...) {
                 thisPrivate->hasException = true;
                 this->doException();
@@ -147,6 +149,9 @@ namespace sstd {
         thisPrivate->exception.emplace(std::current_exception());
         this->start();
 
+    }
+
+    void YieldResumeFunction::doQuit() noexcept {
     }
 
     bool YieldResumeFunction::isOuter() const {

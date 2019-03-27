@@ -169,6 +169,8 @@ namespace sstd {
     public:
         void start();
         void quit();
+    protected:
+        virtual void doQuit() noexcept;
     public:
         bool isOuter() const;
         bool isFinished() const;
