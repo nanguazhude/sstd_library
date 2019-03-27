@@ -65,14 +65,17 @@ namespace sstd {
                 thisPrivate->isFinished = true;
                 this->doQuit();
                 sstd_throw();
+                /*no return*/
             }sstd_catch(const _theSSTDLibraryFunctionFile::QuitException &) {
                 thisPrivate->hasException = true;
                 thisPrivate->isFinished = true;
                 this->doQuit();
+                return std::move(*(thisPrivate->fiberFunction));
             }sstd_catch(...) {
                 thisPrivate->hasException = true;
                 thisPrivate->isFinished = true;
                 this->doException();
+                return std::move(*(thisPrivate->fiberFunction));
             }
             thisPrivate->isFinished = true;
             return std::move(*(thisPrivate->fiberFunction));
