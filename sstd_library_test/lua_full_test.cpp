@@ -208,6 +208,22 @@ extern void luaFullTest() {
     }
 
     {
+        auto var = luaBuildString( L , 
+            u8R"1( return function(  a , b )  return a + b;  end    )1"sv     );
+        luaCallString(L, var);
+
+        std::cout <<  lua_isfunction(L,-1) <<std::endl ;
+
+        lua_pushinteger(L,1);
+        lua_pushinteger(L,99);
+
+        lua_pcall(L,2,1,0);
+
+        std::cout << lua_tointeger(L, -1) << std::endl;
+
+    }
+
+    {
         auto varWrap =
             createNode<Test1Node>(L);
         ::lua_gc(L, LUA_GCCOLLECT, 0);
