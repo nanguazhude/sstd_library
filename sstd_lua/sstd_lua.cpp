@@ -152,8 +152,12 @@ namespace sstd {
         _theSSTDLuaFile::clearValue(this, thisData);
     }
 
-    void LuaObjectCplusplusRef::push() const {
-        _theSSTDLuaFile::pushValue(const_cast<LuaObjectCplusplusRef *>(this), thisData);
+    lua_State* LuaObjectCplusplusRef::push() const {
+        if (thisData) {
+            _theSSTDLuaFile::pushValue(const_cast<LuaObjectCplusplusRef *>(this), thisData);
+            return thisData;
+        }
+        return nullptr;
     }
 
     LuaObjectCplusplusRef::operator bool() const {

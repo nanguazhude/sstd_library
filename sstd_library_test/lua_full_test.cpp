@@ -34,6 +34,8 @@ int deleteNode(lua_State * L) {
     return 0;
 }
 
+
+
 inline void setMetaTable(lua_State *L, int varUserDataIndex) {
 
     ::lua_rawgetp(L, LUA_REGISTRYINDEX, Node::luaMetaTable());
@@ -104,14 +106,19 @@ inline sstd::LuaObjectCplusplusRef createNode(lua_State *L, Args && ... args) {
 
 }
 
+#include <string>
+using namespace std::string_literals;
+
 class Test1Node : public Node {
 public:
     inline ~Test1Node() {
         std::cout << __func__ << std::endl;
     }
+    std::string testData{ "aabbccddeeffgg"s };
 };
 
 extern void luaFullTest() {
+
     auto L = ::luaL_newstate();
 
     {
@@ -126,26 +133,17 @@ extern void luaFullTest() {
         ::lua_gc(L, LUA_GCCOLLECT, 0);
     }
 
+    {
+        auto varWrap =
+            createNode<Test1Node>(L);
+        auto varNode =
+            varWrap.getFirstUserDataPointer<Node>();
+        std::cout << 
+            static_cast<Test1Node *>(varNode)->testData << std::endl ;
+    }
+
     ::lua_gc(L, LUA_GCCOLLECT,0);
 
     ::lua_close(L);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
