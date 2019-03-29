@@ -15,6 +15,7 @@ include($$PWD/cplusplus_basic.pri)
 include($$PWD/sstd_boost/sstd_boost.pri)
 include($$PWD/sstd_boost/sstd_boost_when_build.pri)
 include($$PWD/sstd_botan/sstd_botan_when_build.pri)
+include($$PWD/sstd_lua/sstd_lua_when_build.pri)
 
 #output path
 include($$PWD/sstd_build_path.pri)

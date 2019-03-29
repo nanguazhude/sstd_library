@@ -1,0 +1,42 @@
+ 驱动器 F 中的卷是 Ubuntu
+ 卷的序列号是 589A-8284
+
+ F:\sstd_library\sstd_library\sstd_lua\source 的目录
+
+2017/12/07  02:35            31,352 lua_lapi.cpp
+2017/04/20  01:20            30,495 lua_lauxlib.cpp
+2017/04/20  01:39            13,711 lua_lbaselib.cpp
+2017/04/20  01:20             4,963 lua_lbitlib.cpp
+2017/04/20  01:20            34,308 lua_lcode.cpp
+2017/04/20  01:20             3,768 lua_lcorolib.cpp
+2017/04/20  01:20             2,322 lua_lctype.cpp
+2017/04/20  01:20            12,779 lua_ldblib.cpp
+2017/07/11  01:21            20,399 lua_ldebug.cpp
+2017/04/20  01:20            25,534 lua_ldo.cpp
+2017/04/20  01:20             4,478 lua_ldump.cpp
+2017/04/20  01:39             3,695 lua_lfunc.cpp
+2017/09/01  00:15            36,672 lua_lgc.cpp
+2017/04/20  01:20             1,732 lua_linit.cpp
+2017/04/20  01:29            20,288 lua_liolib.cpp
+2017/04/20  01:20            16,101 lua_llex.cpp
+2017/04/20  01:20             9,916 lua_lmathlib.cpp
+2017/04/20  01:20             2,675 lua_lmem.cpp
+2017/04/20  01:20            23,577 lua_loadlib.cpp
+2017/04/20  01:29            16,512 lua_lobject.cpp
+2017/04/20  01:20             3,546 lua_lopcodes.cpp
+2017/04/20  01:29            11,011 lua_loslib.cpp
+2017/04/30  02:11            46,319 lua_lparser.cpp
+2017/04/20  01:39             8,495 lua_lstate.cpp
+2017/04/20  01:20             6,582 lua_lstring.cpp
+2017/04/20  01:29            47,175 lua_lstrlib.cpp
+2018/06/09  00:22            20,264 lua_ltable.cpp
+2017/04/20  01:20            13,550 lua_ltablib.cpp
+2017/04/20  01:39             4,702 lua_ltm.cpp
+2017/04/20  01:29            17,919 lua_lua.cpp
+2018/06/19  09:32            10,279 lua_luac.cpp
+2017/04/20  01:20             6,179 lua_lundump.cpp
+2017/04/20  01:29             7,075 lua_lutf8lib.cpp
+2017/04/20  01:39            44,393 lua_lvm.cpp
+2017/04/20  01:20             1,365 lua_lzio.cpp
+              35 个文件        564,131 字节
+               0 个目录 111,870,963,712 可用字节
