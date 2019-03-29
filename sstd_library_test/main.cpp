@@ -48,35 +48,54 @@ inline void botan_test() {
 }
 
 void lua_test() {
-   auto L = ::luaL_newstate() ;
+    auto L = ::luaL_newstate();
 
-   ::lua_pushstring(L,"AABBC");
-   auto varSize = ::lua_gettop( L );
+    ::lua_pushstring(L, "AABBC");
+    auto varSize = ::lua_gettop(L);
 
-   {/*测试构造析构函数*/
-       sstd::LuaObjectCplusplusRef varRef{ L,-1 };
-   }assert(::lua_gettop(L)==varSize) ;
+    {/*测试构造析构函数*/
+        sstd::LuaObjectCplusplusRef varRef{ L,-1 };
+    }
+    assert(::lua_gettop(L) == varSize);
 
-   {/*测试构造析构函数*/
-       sstd::LuaObjectCplusplusRef varRef{ L,-1 };
-   }assert(::lua_gettop(L) == varSize);
+    {/*测试构造析构函数*/
+        sstd::LuaObjectCplusplusRef varRef{ L,-1 };
+    }
+    assert(::lua_gettop(L) == varSize);
 
-   {/*测试获得值*/
-       sstd::LuaObjectCplusplusRef varRef{ L,-1 };
-       varRef.push();
-       assert(::lua_gettop(L) == (varSize+1));
-       assert(::lua_tostring(L, -1) == "AABBC"sv);
-       ::lua_pop(L,1);
-   }assert(::lua_gettop(L) == varSize);
+    {/*测试获得值*/
+        sstd::LuaObjectCplusplusRef varRef{ L,-1 };
+        varRef.push();
+        assert(::lua_gettop(L) == (varSize + 1));
+        assert(::lua_tostring(L, -1) == "AABBC"sv);
+        ::lua_pop(L, 1);
+    }
+    assert(::lua_gettop(L) == varSize);
 
-   {/*测试拷贝*/
+    {/*测试拷贝*/
+        sstd::LuaObjectCplusplusRef varRef1{ L,-1 };
+        sstd::LuaObjectCplusplusRef varRef2{ L,-1 };
+        varRef2 = std::move(varRef1);
+        assert(::lua_gettop(L) == varSize);
+        varRef2.push();
+        assert(::lua_gettop(L) == (varSize + 1));
+        assert(::lua_tostring(L, -1) == "AABBC"sv);
+        ::lua_pop(L, 1);
+    }
+    assert(::lua_gettop(L) == varSize);
 
+    {/*测试默认构造*/
+        sstd::LuaObjectCplusplusRef varRef1;
+        varRef1 = sstd::LuaObjectCplusplusRef{ L,-1 };
+        assert(::lua_gettop(L) == varSize);
+        varRef1.push();
+        assert(::lua_gettop(L) == (varSize + 1));
+        assert(::lua_tostring(L, -1) == "AABBC"sv);
+        ::lua_pop(L, 1);
+    }
+    assert(::lua_gettop(L) == varSize);
 
-
-   }
-
-
-   ::lua_close(L);
+    ::lua_close(L);
 }
 
 

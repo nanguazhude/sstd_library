@@ -10,7 +10,7 @@ namespace _theSSTDLuaFile {
 namespace sstd {
 
     class SSTD_SYMBOL_DECL LuaObjectCplusplusRef final {
-        lua_State* thisData{ nullptr };
+        lua_State* thisData ;
     public:
         LuaObjectCplusplusRef(LuaObjectCplusplusRef &&);
         LuaObjectCplusplusRef(const LuaObjectCplusplusRef &);
@@ -19,9 +19,10 @@ namespace sstd {
     public:
         ~LuaObjectCplusplusRef();
     public:
-        LuaObjectCplusplusRef(lua_State*,int);
+        LuaObjectCplusplusRef(lua_State*, int);
+        LuaObjectCplusplusRef();
     public:
-        bool push() const;
+        void push() const;
     public:
         operator bool() const;
     public:
