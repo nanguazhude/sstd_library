@@ -10,8 +10,8 @@ namespace _theSSTDLuaFile {
         if( ::lua_type( L ,  varRegistryTableIndex ) !=LUA_TTABLE  ){
             ::lua_pop(L,1);
             ::lua_createtable(L,0,64);
-            ::lua_pushvalue(L,varRegistryTableIndex);
-            ::lua_rawsetp( L, varRegistryTableIndex ,&varIndex );
+            ::lua_pushvalue( L,varRegistryTableIndex);
+            ::lua_rawsetp(   L, LUA_REGISTRYINDEX,&varIndex );
             assert( ::lua_type( L ,  varRegistryTableIndex ) ==LUA_TTABLE );
         }
         return varRegistryTableIndex ;
@@ -21,7 +21,7 @@ namespace _theSSTDLuaFile {
         auto varTable = pushRegistryTable(L);
         auto varPoiner = ::lua_touserdata(L,1);
         ::lua_rawgetp(L,varTable,varPoiner);
-        return 0;
+        return 1;
     }
 
     inline int setValue(lua_State* L ) {

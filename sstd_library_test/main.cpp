@@ -47,7 +47,44 @@ inline void botan_test() {
     }
 }
 
+void lua_test() {
+   auto L = ::luaL_newstate() ;
+
+   ::lua_pushstring(L,"AABBC");
+   auto varSize = ::lua_gettop( L );
+
+   {/*测试构造析构函数*/
+       sstd::LuaObjectCplusplusRef varRef{ L,-1 };
+   }assert(::lua_gettop(L)==varSize) ;
+
+   {/*测试构造析构函数*/
+       sstd::LuaObjectCplusplusRef varRef{ L,-1 };
+   }assert(::lua_gettop(L) == varSize);
+
+   {/*测试获得值*/
+       sstd::LuaObjectCplusplusRef varRef{ L,-1 };
+       varRef.push();
+       assert(::lua_gettop(L) == (varSize+1));
+       assert(::lua_tostring(L, -1) == "AABBC"sv);
+       ::lua_pop(L,1);
+   }assert(::lua_gettop(L) == varSize);
+
+   {/*测试拷贝*/
+
+
+
+   }
+
+
+   ::lua_close(L);
+}
+
+
 int main(int, char **) {
+
+    {
+        lua_test();
+    }return 0;
 
     {
         using fiber = boost::context::fiber;
