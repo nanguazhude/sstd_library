@@ -6,6 +6,7 @@ include($$PWD/cplusplus_basic.pri)
 INCLUDEPATH += $$PWD/sstd_boost
 include($$PWD/sstd_boost/sstd_boost.pri)
 include($$PWD/sstd_botan/sstd_botan.pri)
+include($$PWD/sstd_lua/sstd_lua.pri)
 
 #import
 INCLUDEPATH += $$PWD
