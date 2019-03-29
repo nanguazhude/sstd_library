@@ -109,22 +109,102 @@ inline sstd::LuaObjectCplusplusRef createNode(lua_State *L, Args && ... args) {
 #include <string>
 using namespace std::string_literals;
 
+#include <list>
+
 class Test1Node : public Node {
 public:
     inline ~Test1Node() {
         std::cout << __func__ << std::endl;
     }
     std::string testData{ "aabbccddeeffgg"s };
+
+
+
 };
+
+#include <string_view>
+
+#include <vector>
+
+std::vector< char, sstd::allocator<char> > luaBuildString(lua_State *L,
+    std::string_view argProgram,
+    const char * argDebugFunctionName = nullptr) {
+
+        {
+            class ReaderData {
+            public:
+                bool isReadFinished;
+                std::string_view program;
+            } varReadData{ false ,argProgram };
+
+            /* http://www.lua.org/manual/5.3/manual.html#lua_load */
+            /* lua_Reader : typedef const char * (*lua_Reader) (lua_State *L, void *ud, size_t *sz); */
+            auto varLoadState = ::lua_load(L,
+                [](lua_State *, void *ud, size_t *sz)->const char * {
+                auto varText = reinterpret_cast<ReaderData *>(ud);
+                if (varText->isReadFinished) {
+                    *sz = 0;
+                    return nullptr;
+                }
+                varText->isReadFinished = true;
+                *sz = varText->program.size();
+                return varText->program.data(); },
+                &varReadData,
+                    argDebugFunctionName ? argDebugFunctionName : __func__,
+                    nullptr);
+
+            if (varLoadState != LUA_OK) {
+                std::cout << ::lua_tostring(L, -1) << std::endl;
+                ::lua_pop(L, 1);
+                return {};
+            }
+        }
+
+        {
+            using AnsType = std::vector< char, sstd::allocator<char> >;
+            AnsType  varAns;
+            /* http://www.lua.org/manual/5.3/manual.html#lua_dump */
+            /* int lua_dump (lua_State *L,  lua_Writer writer,  void *data, int strip); */
+            ::lua_dump(L, [](lua_State *, const void* p, size_t sz, void* ud) ->int {
+                auto varAns = reinterpret_cast<AnsType *>(ud);
+                varAns->insert(varAns->end(),
+                    reinterpret_cast<const char *>(p),
+                    reinterpret_cast<const char *>(p) + sz);
+                return 0;
+            }, &varAns, true);
+
+            return std::move(varAns);
+        }
+
+}
+
+template<typename T>
+inline int luaCallString(lua_State *L,
+    const T & argProgram,
+    const char * argDebugFunctionName = nullptr) {
+
+    luaL_loadbufferx(L,
+        argProgram.data(),
+        argProgram.size(),
+        argDebugFunctionName ? argDebugFunctionName : nullptr,
+        nullptr);
+    return lua_pcall(L, 0, LUA_MULTRET, 0);
+
+}
+
 
 extern void luaFullTest() {
 
     auto L = ::luaL_newstate();
+    ::luaL_openlibs(L);
 
     {
-        auto varWrap =
-            createNode<Test1Node>(L);
-        ::lua_gc(L, LUA_GCCOLLECT, 0);
+        //lua_load 编译;
+        //lua_dump 保存；
+
+        auto var = luaBuildString(L, u8R"1(print("hellow world"))1"sv);
+        luaCallString(L, var);
+
     }
 
     {
@@ -134,15 +214,23 @@ extern void luaFullTest() {
     }
 
     {
+        auto varWrap =
+            createNode<Test1Node>(L);
+        ::lua_gc(L, LUA_GCCOLLECT, 0);
+    }
+
+    {
+
         auto varWrap =
             createNode<Test1Node>(L);
         auto varNode =
             varWrap.getFirstUserDataPointer<Node>();
-        std::cout << 
-            static_cast<Test1Node *>(varNode)->testData << std::endl ;
+        std::cout <<
+            static_cast<Test1Node *>(varNode)->testData << std::endl;
+
     }
 
-    ::lua_gc(L, LUA_GCCOLLECT,0);
+    ::lua_gc(L, LUA_GCCOLLECT, 0);
 
     ::lua_close(L);
 }

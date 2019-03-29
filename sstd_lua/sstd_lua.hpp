@@ -27,10 +27,20 @@ namespace sstd {
         template<typename T>
         inline T * getFirstUserDataPointer() const;
     public:
-        operator bool() const;
+        inline lua_State* get() const;
+    public:
+        inline operator bool() const;
     public:
         sstd_class(LuaObjectCplusplusRef);
     };
+
+    inline lua_State* LuaObjectCplusplusRef::get() const {
+        return thisData;
+    }
+
+    inline LuaObjectCplusplusRef::operator bool() const {
+        return thisData;
+    }
 
     template<typename T1>
     inline T1 * LuaObjectCplusplusRef::getFirstUserDataPointer() const {

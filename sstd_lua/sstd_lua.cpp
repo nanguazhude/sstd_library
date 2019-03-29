@@ -156,12 +156,8 @@ namespace sstd {
         if (thisData) {
             _theSSTDLuaFile::pushValue(const_cast<LuaObjectCplusplusRef *>(this), thisData);
             return thisData;
-        }
+        }   
         return nullptr;
-    }
-
-    LuaObjectCplusplusRef::operator bool() const {
-        return thisData;
     }
 
 }/*namespace sstd*/
