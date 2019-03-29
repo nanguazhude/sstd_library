@@ -98,11 +98,13 @@ void lua_test() {
     ::lua_close(L);
 }
 
+#include "lua_full_test.hpp"
 
 int main(int, char **) {
 
     {
         lua_test();
+        luaFullTest();
     }return 0;
 
     {

@@ -11,7 +11,10 @@ CONFIG(debug,debug|release){
 
 CONFIG += console
 
-SOURCES += main.cpp
+SOURCES += $$PWD/main.cpp
+
+SOURCES += $$PWD/lua_full_test.cpp
+HEADERS += $$PWD/lua_full_test.hpp
 
 include($$PWD/../sstd_library.pri)
 DESTDIR = $${SSTD_LIBRARY_OUTPUT_PATH}
