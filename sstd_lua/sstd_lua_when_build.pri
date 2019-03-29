@@ -30,15 +30,13 @@ SOURCES +=  \
     $$PWD/source/lua_ltable.cpp \
     $$PWD/source/lua_ltablib.cpp \
     $$PWD/source/lua_ltm.cpp \
-    $$PWD/source/lua_lua.cpp \
-    $$PWD/source/lua_luac.cpp \
     $$PWD/source/lua_lundump.cpp \
     $$PWD/source/lua_lutf8lib.cpp \
     $$PWD/source/lua_lvm.cpp \
     $$PWD/source/lua_lzio.cpp
 
 
-
+HEADERS += $$PWD/sstd_lua.hpp
 
 
 
