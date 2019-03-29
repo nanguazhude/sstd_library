@@ -46,28 +46,28 @@ namespace sstd {
             std::unordered_set<void *, std::hash<void *>, std::equal_to<>, sstd::allocator<void *>>
                 thisAllElements;
         public:
-            inline void insert( void * arg ) {
+            inline void insert(void * arg) {
                 thisAllElements.insert(arg);
             }
-            inline void erase( void * arg ) {
-                thisAllElements.erase( arg);
+            inline void erase(void * arg) {
+                thisAllElements.erase(arg);
             }
             inline RuntimeMemoryPrivate() {
             }
             inline ~RuntimeMemoryPrivate() {
-                for ( const auto & varI : thisAllElements ) {
+                for (const auto & varI : thisAllElements) {
                     directFree(varI);
                 }
             }
         private:
-            sstd_class( RuntimeMemoryPrivate );
+            sstd_class(RuntimeMemoryPrivate);
         };
 
     }/*_theSSTDRuntimeMemory*/
 
     void * RuntimeMemory::sstdMalloc(std::size_t argSize, std::size_t argAlign) {
         using namespace _theSSTDRuntimeMemory;
-        auto varAns = directMalloc( argSize ,argAlign );
+        auto varAns = directMalloc(argSize, argAlign);
         reinterpret_cast<RuntimeMemoryPrivate *>(thisData)->insert(varAns);
         return varAns;
     }
@@ -75,12 +75,12 @@ namespace sstd {
     void RuntimeMemory::sstdFree(void * arg) {
         using namespace _theSSTDRuntimeMemory;
         reinterpret_cast<RuntimeMemoryPrivate *>(thisData)->erase(arg);
-        directFree( arg );
+        directFree(arg);
     }
 
     RuntimeMemory::RuntimeMemory() {
         using namespace _theSSTDRuntimeMemory;
-        thisData = sstd_new<RuntimeMemoryPrivate>() ;
+        thisData = sstd_new<RuntimeMemoryPrivate>();
     }
 
     RuntimeMemory::~RuntimeMemory() {

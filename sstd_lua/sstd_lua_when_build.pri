@@ -35,8 +35,9 @@ SOURCES +=  \
     $$PWD/source/lua_lvm.cpp \
     $$PWD/source/lua_lzio.cpp
 
-
+SOURCES += $$PWD/sstd_lua.cpp
 HEADERS += $$PWD/sstd_lua.hpp
+
 DEFINES *= LUA_COMPAT_5_2
 
 
