@@ -182,4 +182,6 @@ inline std::shared_ptr<T> sstd_make_shared(Args && ... args) {
 }
 
 #include "sstd_library_function/sstd_library_function.hpp"
+#include "sstd_runtime_memory/sstd_runtime_memory.hpp"
+#include "sstd_lua/sstd_lua.hpp"
 
