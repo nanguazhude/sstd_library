@@ -13,3 +13,4 @@ boost_*.obj
 sstd_library_test/test_sstd_library.vcxproj
 sstd_library_test/test_sstd_library.vcxproj.filters
 sstd_library_test/test_sstd_library.vcxproj.user
+build-lua-*
