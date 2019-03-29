@@ -37,7 +37,7 @@ SOURCES +=  \
 
 
 HEADERS += $$PWD/sstd_lua.hpp
-
+DEFINES *= LUA_COMPAT_5_2
 
 
 
