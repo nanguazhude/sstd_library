@@ -209,7 +209,9 @@ extern void luaFullTest() {
 
     {
         auto var = luaBuildString( L , 
-            u8R"1( return function(  a , b )  return a + b;  end    )1"sv     );
+            u8R"1( return function(  a , b )  
+                            return a + b;  
+                          end    )1"sv     );
         luaCallString(L, var);
 
         std::cout <<  lua_isfunction(L,-1) <<std::endl ;
