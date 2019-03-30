@@ -200,25 +200,25 @@ extern void luaFullTest() {
 
     {
 
-        ::lua_newuserdata(L,1024);
+        ::lua_newuserdata(L, 1024);
         auto varUserData = ::lua_gettop(L);
 
-        ::lua_createtable(L,3,3);
+        ::lua_createtable(L, 3, 3);
         auto varTable = ::lua_gettop(L);
 
-        ::lua_pushstring(L,"__gc");
-        ::lua_pushcclosure(L, [](lua_State *)->int { 
+        ::lua_pushstring(L, "__gc");
+        ::lua_pushcclosure(L, [](lua_State *)->int {
             std::cout << "?>>>>" << std::endl;
-            return 0; 
-        },0);
-        ::lua_settable(L,varTable);
-
-        ::lua_pushstring(L,"__name");
-        ::lua_pushstring(L,"Test");
+            return 0;
+        }, 0);
         ::lua_settable(L, varTable);
 
-        ::lua_pushvalue(L,varTable);
-        ::lua_setmetatable( L,varUserData );
+        ::lua_pushstring(L, "__name");
+        ::lua_pushstring(L, "Test");
+        ::lua_settable(L, varTable);
+
+        ::lua_pushvalue(L, varTable);
+        ::lua_setmetatable(L, varUserData);
 
 
 
@@ -229,55 +229,81 @@ extern void luaFullTest() {
 
     }
 
-    if constexpr(true) {
+    if constexpr (true) {
 
         class Test112 {
         public:
             inline ~Test112() {
                 std::cout << __func__ << std::endl;
             }
-            std::string test{"aaxxbbc"s};
+            std::string test{ "aaxxbbc"s };
             void foo() {
                 std::cout << test << std::endl;
             }
         };
 
-        ::lua_createtable(L,3,3);
+        ::lua_createtable(L, 3, 3);
         auto varTable = ::lua_gettop(L);
-        std::cout << std::boolalpha <<lua_istable(L, varTable) << std::endl;
+        std::cout << std::boolalpha << lua_istable(L, varTable) << std::endl;
 
-        auto var = 
-            ::lua_newuserdata(L,sizeof(Test112));
+        auto var =
+            ::lua_newuserdata(L, alignof(Test112) + sizeof(Test112));
         auto varUserData = ::lua_gettop(L);
         std::cout << std::boolalpha << lua_isuserdata(L, varUserData) << std::endl;
 
-        ::lua_pushvalue(L,varUserData);
-        ::lua_rawsetp( L, varTable , var );
+        ::lua_pushvalue(L, varUserData);
+        ::lua_rawsetp(L, varTable, var);
 
         //::lua_pushstring(L, "__index");
         //::lua_pushvalue(L, varTable);
         //::lua_settable(L,varTable);
 
-        ::lua_pushstring(L,"__gc");
-        ::lua_pushcclosure(L, [](lua_State * L)->int { 
-            std::cout << "???" << std::endl;
-            std::cout << lua_istable(L, -1) << std::endl;
-            std::cout << lua_isuserdata(L,-1) <<std::endl;
-            std::destroy_at(reinterpret_cast<Test112 *>(::lua_gettable_userdata(L, -1)));
-            return 0; },0);
-        ::lua_settable(L,varTable);
 
+        //::lua_pushstring(L,"__gc");
+        //::lua_pushcclosure(L, [](lua_State * L)->int { 
+        //    std::cout << "???" << std::endl;
+        //    std::cout << lua_istable(L, -1) << std::endl;
+        //    std::cout << lua_isuserdata(L,-1) <<std::endl;
+        //    return 0; },0);
+        //::lua_settable(L,varTable);
 
-        ::lua_pushvalue(L,varTable);
-        ::lua_setmetatable(L,varTable);
+        ::lua_pushvalue(L, varTable);
+        ::lua_setmetatable(L, varTable);
 
         //::lua_pushvalue(L, varTable);
         //::lua_setmetatable(L, varUserData);
 
-        ::lua_settable_userdata(L, varTable, ::new(var) Test112 );
-        reinterpret_cast< Test112 * >( ::lua_gettable_userdata(L, varTable) )->foo() ;
-        ::lua_settop(L,0);
-       
+        {
+            std::size_t varSize =sizeof(Test112)+alignof(Test112)  ;
+            auto varCPPObject = ::new(
+                std::align(alignof(Test112), sizeof(Test112), var, varSize)) Test112;
+
+            {
+
+                ::lua_createtable(L, 0, 2);
+                auto varTable = ::lua_gettop(L);
+
+                ::lua_pushstring(L, "__gc");
+
+                ::lua_pushlightuserdata(L,varCPPObject);
+                ::lua_pushcclosure(L, [](lua_State * L)->int {
+                    std::cout << "???" << std::endl;
+                    std::cout << lua_istable(L, -1) << std::endl;
+                    std::cout << lua_isuserdata(L, -1) << std::endl;
+                    std::destroy_at(
+                    reinterpret_cast<Test112 *>( ::lua_touserdata( L,lua_upvalueindex(1) ) ) );
+                    return 0; }, 1);
+                ::lua_settable(L, varTable);
+
+                ::lua_setmetatable(L, varUserData);
+
+            }
+
+            ::lua_settable_userdata(L, varTable, varCPPObject);
+        }
+        reinterpret_cast<Test112 *>(::lua_gettable_userdata(L, varTable))->foo();
+        ::lua_settop(L, 0);
+
         ::lua_gc(L, LUA_GCCOLLECT, 0);
         ::lua_gc(L, LUA_GCCOLLECT, 0);
 
@@ -293,18 +319,18 @@ extern void luaFullTest() {
     }
 
     {
-        auto var = luaBuildString( L , 
+        auto var = luaBuildString(L,
             u8R"1( return function(  a , b )  
                             return a + b;  
-                          end    )1"sv     );
+                          end    )1"sv);
         luaCallString(L, var);
 
-        std::cout <<  lua_isfunction(L,-1) <<std::endl ;
+        std::cout << lua_isfunction(L, -1) << std::endl;
 
-        lua_pushinteger(L,1);
-        lua_pushinteger(L,99);
+        lua_pushinteger(L, 1);
+        lua_pushinteger(L, 99);
 
-        lua_pcall(L,2,1,0);
+        lua_pcall(L, 2, 1, 0);
 
         std::cout << lua_tointeger(L, -1) << std::endl;
 
