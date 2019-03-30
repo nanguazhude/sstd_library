@@ -251,8 +251,7 @@ LUA_API void *(lua_newuserdata) (lua_State *L, size_t sz);
 LUA_API int   (lua_getmetatable) (lua_State *L, int objindex);
 LUA_API int  (lua_getuservalue) (lua_State *L, int idx);
 
-LUA_API size_t * (lua_createtable_withpodspace)(lua_State *L, int narr, int nrec,size_t space);
-LUA_API size_t * (lua_gettable_podspace)(lua_State *L, int n);
+LUA_API void * (lua_gettable_userdata)(lua_State *L, int t);
 
 /*
 ** set functions (stack -> Lua)
