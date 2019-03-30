@@ -1294,4 +1294,16 @@ LUA_API void lua_upvaluejoin (lua_State *L, int fidx1, int n1,
   if (upisopen(*up1)) (*up1)->u.open.touched = 1;
   luaC_upvalbarrier(L, *up1);
 }
- 
+
+LUA_API void * lua_gettable_userdata(lua_State *L, int t) {
+    lua_assert(lua_istable(L, t));
+    return ((Table*)(hvalue(index2addr(L, t))))->userData;
+}
+
+LUA_API void * lua_settable_userdata(lua_State *L, int t, void * d) {
+    lua_assert(lua_istable(L, t));
+    auto varTable = ((Table*)(hvalue(index2addr(L, t))));
+    varTable->userData = d;
+    return d;
+}
+

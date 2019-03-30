@@ -426,22 +426,16 @@ Table *luaH_new (lua_State *L) {
   t->array = NULL;
   t->sizearray = 0;
   t->userData = nullptr;
-  t->userDataFree = nullptr;
   setnodevector(L, t, 0);
   return t;
 }
 
 
 void luaH_free (lua_State *L, Table *t) {
+
   if (!isdummy(t))
     luaM_freearray(L, t->node, cast(size_t, sizenode(t)));
   luaM_freearray(L, t->array, t->sizearray);
-
-  if (t->userDataFree) {
-      t->userDataFree(t->userData); 
-      t->userDataFree = nullptr;
-      t->userData = nullptr;
-  }
 
   luaM_free(L, t);
 }
@@ -682,19 +676,6 @@ lua_Unsigned luaH_getn (Table *t) {
   else if (isdummy(t))  /* hash part is empty? */
     return j;  /* that is easy... */
   else return unbound_search(t, j);
-}
-
-LUA_API void * lua_gettable_userdata(lua_State *L, int t) {
-    lua_assert(lua_istable(L, t));
-    return ((Table*)(lua_topointer(L,t)))->userData;
-}
-
-LUA_API void * lua_settable_userdata(lua_State *L, int t,void * d,void(* f)(void *)) {
-    lua_assert( lua_istable(L,t) );
-    auto varTable = (Table*)(lua_topointer(L, t));
-    varTable->userData     = d ;
-    varTable->userDataFree = f;
-    return d;
 }
 
 #if defined(LUA_DEBUG)

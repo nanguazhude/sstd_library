@@ -200,6 +200,37 @@ extern void luaFullTest() {
 
     {
 
+        ::lua_newuserdata(L,1024);
+        auto varUserData = ::lua_gettop(L);
+
+        ::lua_createtable(L,3,3);
+        auto varTable = ::lua_gettop(L);
+
+        ::lua_pushstring(L,"__gc");
+        ::lua_pushcclosure(L, [](lua_State *)->int { 
+            std::cout << "?>>>>" << std::endl;
+            return 0; 
+        },0);
+        ::lua_settable(L,varTable);
+
+        ::lua_pushstring(L,"__name");
+        ::lua_pushstring(L,"Test");
+        ::lua_settable(L, varTable);
+
+        ::lua_pushvalue(L,varTable);
+        ::lua_setmetatable( L,varUserData );
+
+
+
+        ::lua_settop(L, 0);
+
+        ::lua_gc(L, LUA_GCCOLLECT, 0);
+        ::lua_gc(L, LUA_GCCOLLECT, 0);
+
+    }
+
+    if constexpr(true) {
+
         class Test112 {
         public:
             inline ~Test112() {
@@ -212,10 +243,42 @@ extern void luaFullTest() {
         };
 
         ::lua_createtable(L,3,3);
-        ::lua_settable_userdata(L, -1, new Test112, 
-            [](void * arg) { delete reinterpret_cast<Test112 *>(arg); });
-        reinterpret_cast< Test112 * >( ::lua_gettable_userdata(L,-1) )->foo() ;
-        ::lua_pop(L,1);
+        auto varTable = ::lua_gettop(L);
+        std::cout << std::boolalpha <<lua_istable(L, varTable) << std::endl;
+
+        auto var = 
+            ::lua_newuserdata(L,sizeof(Test112));
+        auto varUserData = ::lua_gettop(L);
+        std::cout << std::boolalpha << lua_isuserdata(L, varUserData) << std::endl;
+
+        ::lua_pushvalue(L,varUserData);
+        ::lua_rawsetp( L, varTable , var );
+
+        //::lua_pushstring(L, "__index");
+        //::lua_pushvalue(L, varTable);
+        //::lua_settable(L,varTable);
+
+        ::lua_pushstring(L,"__gc");
+        ::lua_pushcclosure(L, [](lua_State * L)->int { 
+            std::cout << "???" << std::endl;
+            std::cout << lua_istable(L, -1) << std::endl;
+            std::cout << lua_isuserdata(L,-1) <<std::endl;
+            std::destroy_at(reinterpret_cast<Test112 *>(::lua_gettable_userdata(L, -1)));
+            return 0; },0);
+        ::lua_settable(L,varTable);
+
+
+        ::lua_pushvalue(L,varTable);
+        ::lua_setmetatable(L,varTable);
+
+        //::lua_pushvalue(L, varTable);
+        //::lua_setmetatable(L, varUserData);
+
+        ::lua_settable_userdata(L, varTable, ::new(var) Test112 );
+        reinterpret_cast< Test112 * >( ::lua_gettable_userdata(L, varTable) )->foo() ;
+        ::lua_settop(L,0);
+       
+        ::lua_gc(L, LUA_GCCOLLECT, 0);
         ::lua_gc(L, LUA_GCCOLLECT, 0);
 
     }
