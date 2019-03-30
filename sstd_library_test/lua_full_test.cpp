@@ -199,16 +199,25 @@ extern void luaFullTest() {
     ::luaL_openlibs(L);
 
     {
-        auto varPos = ::lua_createtable_withpodspace(L,3,3,16);
-        assert(*varPos==16);
-        auto varPos1 = ::lua_gettable_podspace(L, -1);
-        for (int i = 0; i < 1024; ++i) {
-            ::lua_pushinteger(L,i);
-            ::lua_rawseti(L,-2,i);
-        }
-        assert(varPos == varPos1);
-        assert(*varPos1 == 16);
+
+        class Test112 {
+        public:
+            inline ~Test112() {
+                std::cout << __func__ << std::endl;
+            }
+            std::string test{"aaxxbbc"s};
+            void foo() {
+                std::cout << test << std::endl;
+            }
+        };
+
+        ::lua_createtable(L,3,3);
+        ::lua_settable_userdata(L, -1, new Test112, 
+            [](void * arg) { delete reinterpret_cast<Test112 *>(arg); });
+        reinterpret_cast< Test112 * >( ::lua_gettable_userdata(L,-1) )->foo() ;
         ::lua_pop(L,1);
+        ::lua_gc(L, LUA_GCCOLLECT, 0);
+
     }
 
     {
