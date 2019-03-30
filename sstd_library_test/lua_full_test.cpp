@@ -202,6 +202,10 @@ extern void luaFullTest() {
         auto varPos = ::lua_createtable_withpodspace(L,3,3,16);
         assert(*varPos==16);
         auto varPos1 = ::lua_gettable_podspace(L, -1);
+        for (int i = 0; i < 1024; ++i) {
+            ::lua_pushinteger(L,i);
+            ::lua_rawseti(L,-2,i);
+        }
         assert(varPos == varPos1);
         assert(*varPos1 == 16);
         ::lua_pop(L,1);
