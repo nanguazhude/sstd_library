@@ -156,7 +156,7 @@ namespace sstd {
         if (thisData) {
             _theSSTDLuaFile::pushValue(const_cast<LuaObjectCplusplusRef *>(this), thisData);
             return thisData;
-        }   
+        }
         return nullptr;
     }
 

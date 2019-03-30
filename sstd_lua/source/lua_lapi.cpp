@@ -693,7 +693,6 @@ LUA_API void lua_createtable (lua_State *L, int narray, int nrec) {
   lua_unlock(L);
 }
 
-
 LUA_API int lua_getmetatable (lua_State *L, int objindex) {
   const TValue *obj;
   Table *mt;
@@ -1296,4 +1295,18 @@ LUA_API void lua_upvaluejoin (lua_State *L, int fidx1, int n1,
   luaC_upvalbarrier(L, *up1);
 }
 
+LUA_API void * lua_createtable_withpodspace(lua_State *L, int narray, int nrec, int space) {
+    extern Table *withpod_luaH_new(lua_State *L, size_t n);
+    Table *t;
+    lua_lock(L);
+    t = withpod_luaH_new(L,space);
+    sethvalue(L, L->top, t);
+    api_incr_top(L);
+    if (narray > 0 || nrec > 0)
+        luaH_resize(L, t, narray, nrec);
+    luaC_checkGC(L);
+    lua_unlock(L);
+    return reinterpret_cast<char *>(t) + space;
+}
 
+ 
