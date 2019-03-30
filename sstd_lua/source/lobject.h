@@ -505,6 +505,7 @@ typedef struct Table {
   struct Table *metatable;
   GCObject *gclist;
   void *userData;
+  void( *userDataFunction)(void *);
 } Table;
 
 

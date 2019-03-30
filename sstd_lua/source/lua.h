@@ -252,7 +252,7 @@ LUA_API int   (lua_getmetatable) (lua_State *L, int objindex);
 LUA_API int  (lua_getuservalue) (lua_State *L, int idx);
 
 LUA_API void * (lua_gettable_userdata)(lua_State *L, int t);
-LUA_API void * (lua_settable_userdata)(lua_State *L, int t,void * d);
+LUA_API void * (lua_settable_userdata)(lua_State *L, int t,void * d,void(*)(void *));
 
 /*
 ** set functions (stack -> Lua)

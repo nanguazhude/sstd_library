@@ -1300,10 +1300,20 @@ LUA_API void * lua_gettable_userdata(lua_State *L, int t) {
     return ((Table*)(hvalue(index2addr(L, t))))->userData;
 }
 
-LUA_API void * lua_settable_userdata(lua_State *L, int t, void * d) {
+LUA_API void * lua_settable_userdata(lua_State *L, int t, void * d,void(* f)(void *)) {
     lua_assert(lua_istable(L, t));
     auto varTable = ((Table*)(hvalue(index2addr(L, t))));
     varTable->userData = d;
+    varTable->userDataFunction = f;
     return d;
 }
+
+/*
+lua.h
+LUA_API void * lua_gettable_userdata(lua_State *L, int t)
+LUA_API void * lua_settable_userdata(lua_State *L, int t, void * d,void(* f)(void *))
+lua_ltable.cpp
+void luaH_free (lua_State *L, Table *t)
+Table *luaH_new (lua_State *L)
+*/
 
