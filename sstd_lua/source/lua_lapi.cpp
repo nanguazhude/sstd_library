@@ -1295,18 +1295,27 @@ LUA_API void lua_upvaluejoin (lua_State *L, int fidx1, int n1,
   luaC_upvalbarrier(L, *up1);
 }
 
-LUA_API void * lua_createtable_withpodspace(lua_State *L, int narray, int nrec, int space) {
+LUA_API size_t * lua_createtable_withpodspace(lua_State *L, int narray, int nrec, size_t space) {
     extern Table *withpod_luaH_new(lua_State *L, size_t n);
     Table *t;
     lua_lock(L);
-    t = withpod_luaH_new(L,space);
+    t = withpod_luaH_new(L,space + sizeof(size_t) );
     sethvalue(L, L->top, t);
     api_incr_top(L);
     if (narray > 0 || nrec > 0)
         luaH_resize(L, t, narray, nrec);
     luaC_checkGC(L);
     lua_unlock(L);
-    return reinterpret_cast<char *>(t) + space;
+    auto varAns =
+        reinterpret_cast<size_t *>( reinterpret_cast<char *>(t) + sizeof(Table) ) ;
+    *varAns = space;
+    return varAns;
+}
+
+LUA_API size_t * lua_gettable_podspace(lua_State *L, int n ) {
+    auto varAns = sizeof(Table) + const_cast<char *>(
+        reinterpret_cast<const char *>( lua_topointer(L,n) ));
+    return reinterpret_cast<size_t *>( varAns ) ;
 }
 
  

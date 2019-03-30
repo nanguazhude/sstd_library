@@ -199,6 +199,15 @@ extern void luaFullTest() {
     ::luaL_openlibs(L);
 
     {
+        auto varPos = ::lua_createtable_withpodspace(L,3,3,16);
+        assert(*varPos==16);
+        auto varPos1 = ::lua_gettable_podspace(L, -1);
+        assert(varPos == varPos1);
+        assert(*varPos1 == 16);
+        ::lua_pop(L,1);
+    }
+
+    {
         //lua_load 编译;
         //lua_dump 保存；
 

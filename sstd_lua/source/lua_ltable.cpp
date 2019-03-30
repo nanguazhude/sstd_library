@@ -430,7 +430,7 @@ Table *luaH_new (lua_State *L) {
 }
 
 Table *withpod_luaH_new(lua_State *L,size_t n) {
-    GCObject *o = luaC_newobj(L, LUA_TTABLE, n + sizeof(Table));
+    GCObject *o = luaC_newobj(L, LUA_TTABLE, n + sizeof(Table) );
     Table *t = gco2t(o);
     t->metatable = NULL;
     t->flags = cast_byte(~0);
