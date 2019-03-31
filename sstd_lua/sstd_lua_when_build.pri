@@ -43,8 +43,7 @@ SOURCES += $$PWD/sstd_lua_table_userdata/sstd_lua_table_userdata.cpp
 DEFINES *= LUA_COMPAT_5_2
 
 win32*{
-    DEFINES *= LUA_USE_WINDOWS
 }else{
-    DEFINES *= LUA_USE_POSIX
+    DEFINES *= LUA_USE_LINUX
 }
 
