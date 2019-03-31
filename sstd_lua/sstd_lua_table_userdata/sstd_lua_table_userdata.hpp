@@ -4,7 +4,7 @@ class TableUserData {
 public:
     void *userData;
     void(*userDataFunction)(void *);
-public:
+protected:
     inline TableUserData(void *u, void(*uf)(void *)) :
         userData(u),
         userDataFunction(uf) {

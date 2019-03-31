@@ -433,10 +433,8 @@ Table *luaH_new (lua_State *L) {
 
 void luaH_free (lua_State *L, Table *t) {
 
-    if ( t->userData ) {
-        TableUserData::freeUserData(t->userData);
-    }
-
+  TableUserData::freeUserData(t->userData);
+    
   if (!isdummy(t))
     luaM_freearray(L, t->node, cast(size_t, sizenode(t)));
   luaM_freearray(L, t->array, t->sizearray);

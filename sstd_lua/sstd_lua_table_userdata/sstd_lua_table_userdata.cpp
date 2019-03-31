@@ -2,9 +2,12 @@
 #include "../../sstd_library.hpp"
 
 class RealTableUserData : public TableUserData {
-    sstd_class(RealTableUserData);
 public:
-    using TableUserData::TableUserData;
+    inline RealTableUserData(void *u, void(*uf)(void *)) : 
+        TableUserData(u,uf) {
+    }
+private:
+    sstd_class(RealTableUserData);
 };
 
 TableUserData * TableUserData::mallocUserData(void * a, void(* b)(void *)) {
