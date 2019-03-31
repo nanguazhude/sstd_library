@@ -22,7 +22,7 @@ namespace sstd {
 
 }/*namespace sstd*/
 
-template<typename To,typename From>
+template<typename To, typename From>
 inline To * sstd_cached_dynamic_cast(From * arg) {
 
     namespace detail = sstd::detail;
@@ -41,7 +41,7 @@ inline To * sstd_cached_dynamic_cast(From * arg) {
         }
 
         static_assert(std::has_virtual_destructor_v<RawFrom>);
-        const std::type_index varFromIndex{ typeid(*arg) };
+        const std::type_index varFromIndex{ typeid(*const_cast<RawFrom *>(arg)) };
         const static std::type_index varToIndex{ typeid(RawTo) };
 
         if (varFromIndex == varToIndex) {
