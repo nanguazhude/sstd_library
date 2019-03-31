@@ -3,15 +3,15 @@
 
 class RealTableUserData : public TableUserData {
 public:
-    inline RealTableUserData(void *u, void(*uf)(void *)) : 
-        TableUserData(u,uf) {
+    inline RealTableUserData(void *u, void(*uf)(void *),const char *un,size_t udl) : 
+        TableUserData(u,uf,un,udl) {
     }
 private:
     sstd_class(RealTableUserData);
 };
 
-TableUserData * TableUserData::mallocUserData(void * a, void(* b)(void *)) {
-    return sstd_new<RealTableUserData>(a,b);
+TableUserData * TableUserData::mallocUserData(void * a, void(* b)(void *),const char *c,size_t d) {
+    return sstd_new<RealTableUserData>(a,b,c,d);
 }
 
 void TableUserData::freeUserData(TableUserData *c) {

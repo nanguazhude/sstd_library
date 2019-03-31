@@ -11,7 +11,7 @@
 
 #include <stdarg.h>
 #include <stddef.h>
-
+#include <string_view>
 
 #include "luaconf.h"
 
@@ -253,9 +253,9 @@ LUA_API int  (lua_getuservalue) (lua_State *L, int idx);
 
 typedef void(* LuaTableUserDataFunction)(void *)/*it must be noexcept*/;
 LUA_API void * (lua_gettable_userdata)(lua_State *L, int t);
-LUA_API void * (lua_settable_userdata)(lua_State *L, int t,void * d, LuaTableUserDataFunction);
+LUA_API void * (lua_settable_userdata)(lua_State *L, int t,void * d, LuaTableUserDataFunction,const char*,size_t);
 LUA_API LuaTableUserDataFunction(lua_settable_userdata_function)(lua_State *L, int t, LuaTableUserDataFunction);
-
+LUA_API std::string_view lua_gettable_userdata_name(lua_State *L, int t);
 /*
 ** set functions (stack -> Lua)
 */

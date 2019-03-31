@@ -217,7 +217,7 @@ extern void luaFullTest() {
 
         ::lua_settable_userdata(L,varTable,
             new Test112, [](void *arg)->void {  
-            delete reinterpret_cast< Test112 * >(arg);  });
+            delete reinterpret_cast< Test112 * >(arg);  },"",0);
 
         reinterpret_cast<Test112 *>(
             ::lua_gettable_userdata(L,varTable))->foo();

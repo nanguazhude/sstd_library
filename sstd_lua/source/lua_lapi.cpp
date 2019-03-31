@@ -1301,11 +1301,11 @@ LUA_API void * lua_gettable_userdata(lua_State *L, int t) {
     return var? var->userData : nullptr;
 }
 
-LUA_API void * lua_settable_userdata(lua_State *L, int t, void * d,void(* f)(void *)) {
+LUA_API void * lua_settable_userdata(lua_State *L, int t, void * d,void(* f)(void *), const char* un, size_t unl) {
     lua_assert(lua_istable(L, t));
     auto varTable = ((Table*)(hvalue(index2addr(L, t))));
     lua_assert((nullptr== varTable->userData));
-    varTable->userData = TableUserData::mallocUserData(d,f);
+    varTable->userData = TableUserData::mallocUserData(d,f,un,unl);
     return d;
 }
 
@@ -1313,12 +1313,24 @@ LUA_API LuaTableUserDataFunction lua_settable_userdata_function(lua_State *L, in
     lua_assert(lua_istable(L, t));
     auto varTable = ((Table*)(hvalue(index2addr(L, t))));
     if (nullptr == varTable->userData) {
-        varTable->userData = TableUserData::mallocUserData(nullptr, f);
+        varTable->userData = TableUserData::mallocUserData(nullptr, f,"onlyEmptyFunction",17);
         return nullptr;
     } else {
         auto varAns = varTable->userData->userDataFunction;
         varTable->userData->userDataFunction = f;
         return varAns;
+    }
+}
+
+#include <string_view>
+LUA_API std::string_view lua_gettable_userdata_name(lua_State *L, int t) {
+    lua_assert(lua_istable(L, t));
+    auto varTable = ((Table*)(hvalue(index2addr(L, t))));
+    if (varTable==nullptr) {
+        return {};
+    } else {
+        return {varTable->userData->userDataType,
+            varTable->userData->userDataTypeLength};
     }
 }
 
