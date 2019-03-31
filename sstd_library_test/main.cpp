@@ -121,6 +121,12 @@ int main(int, char **) {
             }
         };
 
+        class F {
+        public:
+            virtual ~F() {
+            }
+        };
+
         class D : public virtual B, public C, public A {
         };
 
@@ -135,11 +141,15 @@ int main(int, char **) {
         assert(a == sstd_cached_dynamic_cast<A>(a));
         assert(b == sstd_cached_dynamic_cast<B>(a));
         assert(c == sstd_cached_dynamic_cast<C>(a));
+        assert( nullptr == sstd_cached_dynamic_cast<F>(a) );
 
         assert(d == sstd_cached_dynamic_cast<D>(a));
         assert(a == sstd_cached_dynamic_cast<A>(a));
         assert(b == sstd_cached_dynamic_cast<B>(a));
         assert(c == sstd_cached_dynamic_cast<C>(a));
+        assert(nullptr == sstd_cached_dynamic_cast<F>(a));
+
+        delete c;
 
     }
 
