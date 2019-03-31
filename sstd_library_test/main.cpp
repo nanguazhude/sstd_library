@@ -103,6 +103,13 @@ void lua_test() {
 int main(int, char **) {
 
     {
+        auto varu8Str = u8R"(你好)"sv;
+        auto varWstr = LR"(你好)"sv;
+        assert( sstd::utf8ToLocal(varu8Str) == varWstr );
+        assert( sstd::localToUtf8(varWstr) == varu8Str );
+    }
+
+    {
         class alignas(64) A {
         public:
             virtual ~A() {
