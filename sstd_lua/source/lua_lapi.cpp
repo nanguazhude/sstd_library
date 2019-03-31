@@ -1308,6 +1308,14 @@ LUA_API void * lua_settable_userdata(lua_State *L, int t, void * d,void(* f)(voi
     return d;
 }
 
+LUA_API LuaTableUserDataFunction lua_settable_userdata_function(lua_State *L, int t, LuaTableUserDataFunction f) {
+    lua_assert(lua_istable(L, t));
+    auto varTable = ((Table*)(hvalue(index2addr(L, t))));
+    auto varAns = varTable->userDataFunction;
+    varTable->userDataFunction = f;
+    return varAns;
+}
+
 /*
 lua.h
 LUA_API void * lua_gettable_userdata(lua_State *L, int t)

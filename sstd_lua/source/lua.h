@@ -251,8 +251,10 @@ LUA_API void *(lua_newuserdata) (lua_State *L, size_t sz);
 LUA_API int   (lua_getmetatable) (lua_State *L, int objindex);
 LUA_API int  (lua_getuservalue) (lua_State *L, int idx);
 
+typedef void(* LuaTableUserDataFunction)(void *)/*it must be noexcept*/;
 LUA_API void * (lua_gettable_userdata)(lua_State *L, int t);
-LUA_API void * (lua_settable_userdata)(lua_State *L, int t,void * d,void(*)(void *));
+LUA_API void * (lua_settable_userdata)(lua_State *L, int t,void * d, LuaTableUserDataFunction);
+LUA_API LuaTableUserDataFunction(lua_settable_userdata_function)(lua_State *L, int t, LuaTableUserDataFunction);
 
 /*
 ** set functions (stack -> Lua)
