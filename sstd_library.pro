@@ -48,9 +48,6 @@ SOURCES += $$PWD/sstd_runtime_memory/sstd_runtime_memory.cpp
 HEADERS += $$PWD/sstd_library_cached_dynamic_cast/sstd_library_cached_dynamic_cast.hpp
 SOURCES += $$PWD/sstd_library_cached_dynamic_cast/sstd_library_cached_dynamic_cast.cpp
 
-HEADERS += $$PWD/sstd_library_local_utf8/sstd_library_local_utf8.hpp
-SOURCES += $$PWD/sstd_library_local_utf8/sstd_library_local_utf8.cpp
-
 #remove some build warning
 win32-msvc*{
     QMAKE_CXXFLAGS += /wd"4251"
