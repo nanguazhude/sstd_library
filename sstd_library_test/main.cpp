@@ -131,14 +131,14 @@ int main(int, char **) {
         };
 
         D * d = new D;
-        A * a = d;
+        const A * a = d;
         B * b = d;
         C * c = d;
 
-        assert(reinterpret_cast<void *>(a) != reinterpret_cast<void *>(d));
+        assert(reinterpret_cast<const void *>(a) != reinterpret_cast<const void *>(d));
 
         assert(d == sstd_cached_dynamic_cast<D>(a));
-        assert(a == sstd_cached_dynamic_cast<A>(a));
+        assert(a == sstd_cached_dynamic_cast<const A>(a));
         assert(b == sstd_cached_dynamic_cast<B>(a));
         assert(c == sstd_cached_dynamic_cast<C>(a));
         assert( nullptr == sstd_cached_dynamic_cast<F>(a) );
@@ -146,7 +146,7 @@ int main(int, char **) {
         assert(d == sstd_cached_dynamic_cast<D>(a));
         assert(a == sstd_cached_dynamic_cast<A>(a));
         assert(b == sstd_cached_dynamic_cast<B>(a));
-        assert(c == sstd_cached_dynamic_cast<C>(a));
+        assert(c == sstd_cached_dynamic_cast<const C>(a));
         assert(nullptr == sstd_cached_dynamic_cast<F>(a));
 
         delete c;

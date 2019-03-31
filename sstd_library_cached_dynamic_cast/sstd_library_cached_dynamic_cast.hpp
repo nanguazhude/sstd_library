@@ -33,7 +33,7 @@ inline To * sstd_cached_dynamic_cast(From * arg) {
         std::remove_cv_t< std::remove_reference_t< To > >;
 
     if constexpr (std::is_same_v<RawFrom, RawTo>) {
-        return arg;
+        return const_cast<RawFrom *>(arg);
     } else {
 
         if (arg == nullptr) {
