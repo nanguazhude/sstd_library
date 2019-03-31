@@ -20,57 +20,57 @@ namespace sstd {
         SSTD_SYMBOL_DECL void registerCachedVirtualPointerDistance(const std::type_index&, const std::type_index &, std::ptrdiff_t);
     }
 
-    template<typename From, typename To>
-    To * sstd_cached_dynamic_cast(From * arg) {
+}/*namespace sstd*/
+
+
+template<typename To,typename From>
+inline To * sstd_cached_dynamic_cast(From * arg) {
+
+    namespace detail = sstd::detail;
+
+    using RawFrom =
+        std::remove_cv_t< std::remove_reference_t< From > >;
+    using RawTo =
+        std::remove_cv_t< std::remove_reference_t< To > >;
+
+    if constexpr (std::is_same_v<RawFrom, RawTo>) {
+        return arg;
+    } else {
 
         if (arg == nullptr) {
             return nullptr;
         }
 
-        using RawFrom =
-            std::remove_cv_t< std::remove_reference_t< From > >;
-        using RawTo =
-            std::remove_cv_t< std::remove_reference_t< To > >;
+        static_assert(std::has_virtual_destructor_v<RawFrom>);
+        const std::type_index varFromIndex{ typeid(*arg) };
+        const std::type_index varToIndex{ typeid(RawTo) };
 
-        if constexpr (std::is_same_v<RawFrom, RawTo>) {
-            return arg;
-        } else {
-
-            static_assert(std::has_virtual_destructor_v<RawFrom>);
-            const std::type_index varFromIndex{ typeid(*arg) };
-            const std::type_index varToIndex{ typeid(RawTo) };
-
-            if (varFromIndex == varToIndex) {
-                return reinterpret_cast<RawTo*>(
-                    dynamic_cast<void *>(const_cast<RawFrom *>(arg)));
-            }
-
-            auto varValue = detail::findCachedVirtualPointerDistance(varFromIndex, varToIndex);
-            if (varValue == virtual_cast_not_find_pos) {
-                auto varAns = dynamic_cast<RawTo *>(const_cast<RawFrom *>(arg));
-                if (varAns == nullptr) {
-                    detail::registerCachedVirtualPointerDistance(varFromIndex, varToIndex, virtual_cast_can_not_cast);
-                    return nullptr;
-                }
-                auto varDiff = reinterpret_cast<char *>(varAns) -
-                    reinterpret_cast<char *>(dynamic_cast<void *>(const_cast<RawFrom *>(arg)));
-                detail::registerCachedVirtualPointerDistance(varFromIndex, varToIndex, varDiff);
-                return varAns;
-            } else if (varValue == virtual_cast_can_not_cast) {
-                return nullptr;
-            }
-
-            return reinterpret_cast<RawTo *>(
-                reinterpret_cast<char *>(
-                    dynamic_cast<void *>(const_cast<RawFrom *>(arg))) + varValue);
+        if (varFromIndex == varToIndex) {
+            return reinterpret_cast<RawTo*>(
+                dynamic_cast<void *>(const_cast<RawFrom *>(arg)));
         }
 
+        auto varValue = detail::findCachedVirtualPointerDistance(varFromIndex, varToIndex);
+        if (varValue == sstd::virtual_cast_not_find_pos) {
+            auto varAns = dynamic_cast<RawTo *>(const_cast<RawFrom *>(arg));
+            if (varAns == nullptr) {
+                detail::registerCachedVirtualPointerDistance(varFromIndex, varToIndex, sstd::virtual_cast_can_not_cast);
+                return nullptr;
+            }
+            auto varDiff = reinterpret_cast<char *>(varAns) -
+                reinterpret_cast<char *>(dynamic_cast<void *>(const_cast<RawFrom *>(arg)));
+            detail::registerCachedVirtualPointerDistance(varFromIndex, varToIndex, varDiff);
+            return varAns;
+        } else if (varValue == sstd::virtual_cast_can_not_cast) {
+            return nullptr;
+        }
+
+        return reinterpret_cast<RawTo *>(
+            reinterpret_cast<char *>(
+                dynamic_cast<void *>(const_cast<RawFrom *>(arg))) + varValue);
     }
 
-}/*namespace sstd*/
-
-
-
+}
 
 
 

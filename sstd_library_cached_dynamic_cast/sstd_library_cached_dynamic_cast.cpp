@@ -8,6 +8,16 @@
 
 namespace _theSSTDLibraryCachedDynamicCastFile {
 
+#ifndef sstd_virtual_cached_all
+#define sstd_virtual_cached_all (true)
+#endif
+
+#if (false==sstd_virtual_cached_all)
+    inline std::size_t catchedSize() {
+        return (1024uLL * 1024uLL);
+    }
+#endif
+
     class CastKey {
     public:
         std::type_index from;
@@ -28,6 +38,7 @@ namespace _theSSTDLibraryCachedDynamicCastFile {
         }
     };
 
+#if (false == sstd_virtual_cached_all)
     /*按照标准，迭代器不会失效*/
     using CastList = std::list< std::pair< std::ptrdiff_t, CastKey >,
         sstd::allocator< std::pair< std::ptrdiff_t, CastKey > > >;
@@ -38,17 +49,27 @@ namespace _theSSTDLibraryCachedDynamicCastFile {
         CastKeyHash,
         CastKeyEqual,
         sstd::allocator< std::pair< const CastKey, CastList::const_iterator > > >;
+#else
+    using CastMap =
+        std::unordered_map< CastKey,
+        std::ptrdiff_t,
+        CastKeyHash,
+        CastKeyEqual,
+        sstd::allocator< std::pair< const CastKey, std::ptrdiff_t > > >;
+#endif
+
 
     class CastCache {
 
-        template<bool IsWriteLocked=false>
+        template<bool IsWriteLocked = false>
         inline std::ptrdiff_t rawFindCachedVirtualPointerDistance(const CastKey& arg) {
+#if (false == sstd_virtual_cached_all)
             auto varPos = thisMap.find(arg);
             if (varPos == thisMap.end()) {
                 return sstd::virtual_cast_not_find_pos;
             }
-            if constexpr(!IsWriteLocked){
-                std::unique_lock varWriteLock{ 
+            if constexpr (!IsWriteLocked) {
+                std::unique_lock varWriteLock{
                     thisFindCachedVirtualPointerDistanceMutex };
                 auto varBeginPos = thisList.cbegin();
                 if (varPos->second != varBeginPos) {
@@ -62,29 +83,43 @@ namespace _theSSTDLibraryCachedDynamicCastFile {
                 }
                 return varPos->second->first;
             }
+#else
+            auto varPos = thisMap.find(arg);
+            if (varPos == thisMap.end()) {
+                return sstd::virtual_cast_not_find_pos;
+            }
+            return varPos->second;
+            (void)IsWriteLocked;
+#endif
         }
 
         inline void rawRegisterCachedVirtualPointerDistance(const CastKey & arg,
             std::ptrdiff_t value) {
+#if (false == sstd_virtual_cached_all)
             thisList.emplace_front(value, arg);
             thisMap[arg] = thisList.cbegin();
 
-            if (thisList.size() > (1024uLL * 1024uLL)) {
+            while (thisList.size() > catchedSize()) {
                 auto varLostPos = --thisList.cend();
                 thisMap.erase(varLostPos->second);
                 thisList.pop_back();
             }
-
+#else
+            thisMap[arg] = value;
+#endif
         }
 
     private:
         CastMap thisMap;
+#if (false == sstd_virtual_cached_all)
         CastList thisList;
+#endif
         /*本类一共有两个函数，
         thisReadWriteMutex：用于区别findCachedVirtualPointerDistance，registerCachedVirtualPointerDistance
         thisFindCachedVirtualPointerDistanceMutex：仅用于findCachedVirtualPointerDistance
         */
         std::shared_mutex thisReadWriteMutex;
+#if (false == sstd_virtual_cached_all)
         class ListMutex {
             std::atomic_flag thisFlag{ ATOMIC_FLAG_INIT };
         public:
@@ -97,6 +132,7 @@ namespace _theSSTDLibraryCachedDynamicCastFile {
                 thisFlag.clear(std::memory_order_release);
             }
         } thisFindCachedVirtualPointerDistanceMutex;
+#endif
 
     public:
 

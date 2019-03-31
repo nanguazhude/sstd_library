@@ -103,6 +103,47 @@ void lua_test() {
 int main(int, char **) {
 
     {
+        class A {
+        public:
+            virtual ~A() {
+            }
+        };
+
+        class B {
+        public:
+            virtual ~B() {
+            }
+        };
+
+        class C {
+        public:
+            virtual ~C() {
+            }
+        };
+
+        class D : public virtual B, public C, public A {
+        };
+
+        D * d = new D;
+        A * a = d;
+        B * b = d;
+        C * c = d;
+
+        assert(reinterpret_cast<void *>(a) != reinterpret_cast<void *>(d));
+
+        assert(d == sstd_cached_dynamic_cast<D>(a));
+        assert(a == sstd_cached_dynamic_cast<A>(a));
+        assert(b == sstd_cached_dynamic_cast<B>(a));
+        assert(c == sstd_cached_dynamic_cast<C>(a));
+
+        assert(d == sstd_cached_dynamic_cast<D>(a));
+        assert(a == sstd_cached_dynamic_cast<A>(a));
+        assert(b == sstd_cached_dynamic_cast<B>(a));
+        assert(c == sstd_cached_dynamic_cast<C>(a));
+
+    }
+
+    {
         lua_test();
         luaFullTest();
     }return 0;
