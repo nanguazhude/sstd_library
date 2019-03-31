@@ -11,6 +11,9 @@ namespace sstd {
 
     constexpr auto virtual_cast_not_find_pos =
         (std::numeric_limits< std::ptrdiff_t >::max)();
+    constexpr auto virtual_cast_can_not_cast =
+        (std::numeric_limits< std::ptrdiff_t >::min)();
+    static_assert(virtual_cast_not_find_pos != virtual_cast_can_not_cast);
 
     namespace detail {
         SSTD_SYMBOL_DECL std::ptrdiff_t findCachedVirtualPointerDistance(const std::type_index&, const std::type_index &);
@@ -45,10 +48,16 @@ namespace sstd {
             auto varValue = detail::findCachedVirtualPointerDistance(varFromIndex, varToIndex);
             if (varValue == virtual_cast_not_find_pos) {
                 auto varAns = dynamic_cast<RawTo *>(const_cast<RawFrom *>(arg));
+                if (varAns == nullptr) {
+                    detail::registerCachedVirtualPointerDistance(varFromIndex, varToIndex, virtual_cast_can_not_cast);
+                    return nullptr;
+                }
                 auto varDiff = reinterpret_cast<char *>(varAns) -
                     reinterpret_cast<char *>(dynamic_cast<void *>(const_cast<RawFrom *>(arg)));
                 detail::registerCachedVirtualPointerDistance(varFromIndex, varToIndex, varDiff);
                 return varAns;
+            } else if (varValue == virtual_cast_can_not_cast) {
+                return nullptr;
             }
 
             return reinterpret_cast<RawTo *>(
