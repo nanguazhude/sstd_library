@@ -38,6 +38,9 @@ SOURCES +=  \
 SOURCES += $$PWD/sstd_lua.cpp
 HEADERS += $$PWD/sstd_lua.hpp
 
+HEADERS += $$PWD/sstd_lua_table_userdata/sstd_lua_table_userdata.hpp
+SOURCES += $$PWD/sstd_lua_table_userdata/sstd_lua_table_userdata.cpp
+
 DEFINES *= LUA_COMPAT_5_2
 
 

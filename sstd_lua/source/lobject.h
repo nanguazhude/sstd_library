@@ -493,7 +493,7 @@ typedef struct Node {
   TKey i_key;
 } Node;
 
-
+#include "../sstd_lua_table_userdata/sstd_lua_table_userdata.hpp"
 typedef struct Table {
   CommonHeader;
   lu_byte flags;  /* 1<<p means tagmethod(p) is not present */
@@ -504,10 +504,8 @@ typedef struct Table {
   Node *lastfree;  /* any free position is before this position */
   struct Table *metatable;
   GCObject *gclist;
-  void *userData;
-  void( *userDataFunction)(void *);
+  TableUserData * userData;
 } Table;
-
 
 
 /*

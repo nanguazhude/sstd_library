@@ -426,7 +426,6 @@ Table *luaH_new (lua_State *L) {
   t->array = NULL;
   t->sizearray = 0;
   t->userData = nullptr;
-  t->userDataFunction = nullptr;
   setnodevector(L, t, 0);
   return t;
 }
@@ -434,9 +433,8 @@ Table *luaH_new (lua_State *L) {
 
 void luaH_free (lua_State *L, Table *t) {
 
-    if ( t->userDataFunction ) {
-        t->userDataFunction( t->userData )  ;
-        t->userDataFunction = nullptr;
+    if ( t->userData ) {
+        TableUserData::freeUserData(t->userData);
     }
 
   if (!isdummy(t))
