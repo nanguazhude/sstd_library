@@ -80,30 +80,21 @@ namespace sstd {
 
     template<typename T>
     inline T * luaCheckTableUserData(lua_State * L, int t, std::string_view n) {
-        const auto varTop = ::lua_gettop(L);
+      
         const auto varTable = ::lua_absindex(L, t);
-
         auto varAns =
             reinterpret_cast<T *>(::lua_gettable_userdata(L, varTable));
+
         if (varAns == nullptr) {
-            ::lua_pushlstring(L, "empty user data", 15);
+            ::lua_pushlstring(L, "empty userdata", 14);
             ::lua_error(L);
         }
-        ::lua_pushlstring(L, "__name", 6);
-        ::lua_gettable(L, varTable);
-        if (::lua_isstring(L, -1)) {
-            std::size_t varStringSize{ 1 };
-            auto varAns =
-                ::lua_tolstring(L, -1, &varStringSize);
-            if (std::string_view(varAns, varStringSize) != n) {
-                ::lua_pushlstring(L, "table name error", 16);
-                ::lua_error(L);
-            }
-        } else {
-            ::lua_pushlstring(L, "can not find table name", 23);
+        
+        if (n != ::lua_gettable_userdata_name(L, varTable)) {
+            ::lua_pushlstring(L, "userdata type error", 19);
             ::lua_error(L);
         }
-        ::lua_settop(L, varTop);
+
         return varAns;
 
     }
