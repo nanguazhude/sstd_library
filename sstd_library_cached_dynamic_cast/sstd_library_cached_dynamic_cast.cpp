@@ -109,6 +109,11 @@ namespace _theSSTDLibraryCachedDynamicCastFile {
 #endif
         }
 
+    public:
+        inline CastCache() {
+            thisMap.reserve(1024uLL * 1024uLL);
+        }
+
     private:
         CastMap thisMap;
 #if (false == sstd_virtual_cached_all)
