@@ -1,10 +1,9 @@
-﻿#pragma once
-
+﻿
 #include "sstd_library_local_utf8.hpp"
 
 #if __has_include(<codecvt>)
 
-#include <locale>  
+#include <locale>
 #include <codecvt>
 
 namespace sstd {
@@ -35,11 +34,7 @@ namespace sstd {
 
 #else
 
-#if defined(_WIN32)
-
-#else
-
-#endif
+#error "must have codecvt!!!"
 
 #endif
 
