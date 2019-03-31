@@ -103,19 +103,19 @@ void lua_test() {
 int main(int, char **) {
 
     {
-        class A {
+        class alignas(64) A {
         public:
             virtual ~A() {
             }
         };
 
-        class B {
+        class alignas(32) B {
         public:
             virtual ~B() {
             }
         };
 
-        class C {
+        class alignas(16) C {
         public:
             virtual ~C() {
             }
