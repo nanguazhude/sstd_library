@@ -41,23 +41,31 @@ namespace _theSSTDLibraryCachedDynamicCastFile {
 
     class CastCache {
 
+        template<bool IsWriteLocked=false>
         inline std::ptrdiff_t rawFindCachedVirtualPointerDistance(const CastKey& arg) {
             auto varPos = thisMap.find(arg);
             if (varPos == thisMap.end()) {
                 return sstd::virtual_cast_not_find_pos;
             }
-            {
+            if constexpr(!IsWriteLocked){
+                std::unique_lock varWriteLock{ 
+                    thisFindCachedVirtualPointerDistanceMutex };
                 auto varBeginPos = thisList.cbegin();
                 if (varPos->second != varBeginPos) {
                     thisList.splice(varBeginPos, thisList, varPos->second);
                 }
+                return varPos->second->first;
+            } else {
+                auto varBeginPos = thisList.cbegin();
+                if (varPos->second != varBeginPos) {
+                    thisList.splice(varBeginPos, thisList, varPos->second);
+                }
+                return varPos->second->first;
             }
-            return varPos->second->first;
         }
 
         inline void rawRegisterCachedVirtualPointerDistance(const CastKey & arg,
             std::ptrdiff_t value) {
-
             thisList.emplace_front(value, arg);
             thisMap[arg] = thisList.cbegin();
 
@@ -69,15 +77,32 @@ namespace _theSSTDLibraryCachedDynamicCastFile {
 
         }
 
-    public:
-
+    private:
         CastMap thisMap;
         CastList thisList;
-        std::mutex thisMutex;
+        /*本类一共有两个函数，
+        thisReadWriteMutex：用于区别findCachedVirtualPointerDistance，registerCachedVirtualPointerDistance
+        thisFindCachedVirtualPointerDistanceMutex：仅用于findCachedVirtualPointerDistance
+        */
+        std::shared_mutex thisReadWriteMutex;
+        class ListMutex {
+            std::atomic_flag thisFlag{ ATOMIC_FLAG_INIT };
+        public:
+            inline ListMutex() = default;
+            sstd_delete_copy_create(ListMutex);
+            inline void lock() {
+                while (thisFlag.test_and_set(std::memory_order_acquire));
+            }
+            inline void unlock() {
+                thisFlag.clear(std::memory_order_release);
+            }
+        } thisFindCachedVirtualPointerDistanceMutex;
+
+    public:
 
         inline std::ptrdiff_t findCachedVirtualPointerDistance(const CastKey & arg) {
-            std::unique_lock varWriteLock{ thisMutex };
-            return rawFindCachedVirtualPointerDistance(arg);
+            std::shared_lock varReadLock{ thisReadWriteMutex };
+            return rawFindCachedVirtualPointerDistance<false>(arg);
         }
 
         inline void registerCachedVirtualPointerDistance(const CastKey & arg,
@@ -87,8 +112,8 @@ namespace _theSSTDLibraryCachedDynamicCastFile {
                 return;
             }
 
-            std::unique_lock varWriteLock{ thisMutex };
-            if (rawFindCachedVirtualPointerDistance(arg) != sstd::virtual_cast_not_find_pos) {
+            std::unique_lock varWriteLock{ thisReadWriteMutex };
+            if (rawFindCachedVirtualPointerDistance<true>(arg) != sstd::virtual_cast_not_find_pos) {
                 return;
             }
             rawRegisterCachedVirtualPointerDistance(arg, value);
@@ -128,7 +153,11 @@ namespace sstd {
 }/*namespace sstd*/
 
 
-
+/*
+boost::lockfree::queue：... pod
+boost::lockfree::stack：... any
+boost::lockfree::spsc_queue： ... single
+*/
 
 
 
