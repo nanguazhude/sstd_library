@@ -17,6 +17,7 @@
 #include <algorithm>
 #include <string>
 #include <utility>
+#include "botan_parts_detail.hpp"
 
 
 #if defined(BOTAN_HAS_BCRYPT)

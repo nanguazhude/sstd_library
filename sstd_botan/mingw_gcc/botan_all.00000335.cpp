@@ -17,6 +17,7 @@
 #include <algorithm>
 #include <string>
 #include <utility>
+#include "botan_parts_detail.hpp"
 
 #include <ctime>
 #include <stdlib.h>

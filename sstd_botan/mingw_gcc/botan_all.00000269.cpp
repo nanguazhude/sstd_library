@@ -1,4 +1,4 @@
-﻿
+
 #include "botan_all.h"
 #include "botan_all_internal.h"
 
@@ -17,6 +17,7 @@
 #include <algorithm>
 #include <string>
 #include <utility>
+#include "botan_parts_detail.hpp"
 
 
 namespace Botan {

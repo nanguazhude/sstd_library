@@ -17,6 +17,7 @@
 #include <algorithm>
 #include <string>
 #include <utility>
+#include "botan_parts_detail.hpp"
 
 
 #if !defined(BOTAN_USE_GCC_INLINE_ASM)

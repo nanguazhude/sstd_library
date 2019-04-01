@@ -17,6 +17,7 @@
 #include <algorithm>
 #include <string>
 #include <utility>
+#include "botan_parts_detail.hpp"
 
 
 #if defined(BOTAN_MEM_POOL_USE_MMU_PROTECTIONS)
