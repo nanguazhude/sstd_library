@@ -25,7 +25,7 @@ win32-g++*{
 }
 
 linux-g++*{
-    SOURCES              += $$PWD/linux_gcc/botan_all.cpp
+    include($$PWD/linux_gcc/botan_all.pri)
     HEADERS              += $$PWD/linux_gcc/botan_all.h
     INCLUDEPATH          += $$PWD/linux_gcc/build/include
     INCLUDEPATH          += $$PWD/linux_gcc/build/include/external
