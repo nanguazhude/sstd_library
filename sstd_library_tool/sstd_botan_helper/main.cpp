@@ -114,6 +114,17 @@ int main(int argc, char ** argv) {
             varStream << varLine << '\n';
         }
 
+        varStream << u8R"(
+#include <sstream>
+#include <iostream>
+#include <fstream>
+#include <iomanip>
+#include <cmath>
+#include <algorithm>
+#include <string>
+#include <utility>
+)"sv;
+
         for (const auto & varLine : *varPos) {
             varStream << varLine << '\n';
         }
@@ -125,10 +136,13 @@ int main(int argc, char ** argv) {
         std::ios::binary
     };
 
-    varOut << "SOUCES += "sv;
+    varOut << "SOURCES += "sv;
     for ( const auto & varI:varFileNames ) {
-        varOut << u8R"($$PWD/)"sv<< varI << '\n';
+        varOut << u8R"( \
+    $$PWD/)"sv<< varI ;
     }
+    varOut << '\n';
+
 
     return 0;
 

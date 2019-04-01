@@ -12,16 +12,16 @@ win32-msvc*{
 }
 
 win32-g++*{
-    SOURCES              += $$PWD/mingw_gcc/botan_all.cpp
+    include($$PWD/mingw_gcc/botan_all.pri)
     HEADERS              += $$PWD/mingw_gcc/botan_all.h
     INCLUDEPATH          += $$PWD/mingw_gcc/build/include
     INCLUDEPATH          += $$PWD/mingw_gcc/build/include/external
     DEFINES              *= BOTAN_USE_MINGW_GCC_
     LIBS                 += -lws2_32
     DEFINES              *= _REENTRANT
-    CONFIG(debug,debug|release){#under mingw 7.3 this is need when debug
-        QMAKE_CXXFLAGS += -Wa,-mbig-obj
-    }
+    #CONFIG(debug,debug|release){#under mingw 7.3 this is need when debug
+    #    QMAKE_CXXFLAGS += -Wa,-mbig-obj
+    #}
 }
 
 linux-g++*{
