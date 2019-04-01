@@ -1,0 +1,7 @@
+test/
+*.vcxproj*
+.vs/
+debug/
+release/
+*.sln
+*.user
