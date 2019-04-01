@@ -17,6 +17,7 @@
 #include <algorithm>
 #include <string>
 #include <utility>
+#include "botan_parts_detail.hpp"
 
 /* Copyright 2008, Google Inc.
 * All rights reserved.

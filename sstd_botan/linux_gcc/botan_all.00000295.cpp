@@ -17,6 +17,7 @@
 #include <algorithm>
 #include <string>
 #include <utility>
+#include "botan_parts_detail.hpp"
 
 
 // Based on code by Pierre Gaston (http://p9as.blogspot.com/2012/06/c11-semaphores.html)

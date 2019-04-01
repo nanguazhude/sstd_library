@@ -124,6 +124,7 @@ int main(int argc, char ** argv) {
 #include <algorithm>
 #include <string>
 #include <utility>
+#include "botan_parts_detail.hpp"
 )"sv;
 
         for (const auto & varLine : *varPos) {
