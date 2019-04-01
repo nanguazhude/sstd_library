@@ -1,0 +1,25 @@
+﻿// Copyright Louis Dionne 2013-2017
+// Distributed under the Boost Software License, Version 1.0.
+// (See accompanying file LICENSE.md or copy at http://boost.org/LICENSE_1_0.txt)
+
+#include <sstd/boost/mpl/fold.hpp>
+#include <sstd/boost/mpl/push_back.hpp>
+#include <sstd/boost/mpl/quote.hpp>
+#include <sstd/boost/mpl/vector.hpp>
+
+
+template <typename State, typename X>
+struct f { using type = X; };
+
+struct state { };
+
+template <int i>
+struct t { };
+
+using vector = <%= mpl_vector((1..input_size).to_a.map { |n| "t<#{n}>" }) %>;
+
+using result = boost::mpl::fold<vector, state, boost::mpl::quote2<f>>::type;
+
+
+int main() { }
+
