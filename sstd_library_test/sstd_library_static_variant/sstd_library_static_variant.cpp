@@ -21,7 +21,9 @@ namespace _theSSTDLibraryStaticVariantFile {
         std::less<  >,
         sstd::allocator< std::pair<const std::size_t, ConvertFunction > > > convertFunctionMap;
         inline StaticClassInformation(const std::type_index & arg):
-            stdIndex(arg){}
+            stdIndex(arg){
+            typeName = arg.name();
+        }
     public:
         sstd_class(StaticClassInformation);
     };
