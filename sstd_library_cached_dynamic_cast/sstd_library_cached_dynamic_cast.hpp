@@ -16,6 +16,7 @@ namespace sstd {
     static_assert(virtual_cast_not_find_pos != virtual_cast_can_not_cast);
 
     namespace detail {
+        SSTD_SYMBOL_DECL void * runtimeDynamicCast(const void *,const std::type_index &,const std::type_index &);
         SSTD_SYMBOL_DECL std::ptrdiff_t findCachedVirtualPointerDistance(const std::type_index&, const std::type_index &);
         SSTD_SYMBOL_DECL void registerCachedVirtualPointerDistance(const std::type_index&, const std::type_index &, std::ptrdiff_t);
     }

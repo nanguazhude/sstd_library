@@ -174,6 +174,11 @@ namespace _theSSTDLibraryCachedDynamicCastFile {
 
 namespace sstd {
 
+    extern void * private_runtime_dynamic_cast(
+        void * argInput/*dynamic_cast<void *>*/,
+        const std::type_info * argInputType/*type_id(remove_cvr)*/,
+        const std::type_info * argOutputType/*type_id(remove_cvr)*/);
+
     namespace detail {
 
         SSTD_SYMBOL_DECL std::ptrdiff_t findCachedVirtualPointerDistance(const std::type_index& argFrom,
@@ -187,6 +192,31 @@ namespace sstd {
             std::ptrdiff_t argValue) {
             return _theSSTDLibraryCachedDynamicCastFile::getCastCache().
                 registerCachedVirtualPointerDistance({ argFrom,argTo }, argValue);
+        }
+
+        class PrivateTypeIndex{
+        public:
+            std::type_info * data;
+        };
+
+        SSTD_SYMBOL_DECL void * runtimeDynamicCast(const void * arg,
+                                                   const std::type_index & a,
+                                                   const std::type_index & b){
+
+            if( arg == nullptr){
+                return nullptr;
+            }
+
+            if(a ==b){
+                return const_cast<void *>( arg );
+            }
+
+            static_assert (  sizeof( std::type_index ) == sizeof(std::type_info *) );
+
+            return sstd::private_runtime_dynamic_cast( const_cast<void *>(arg),
+                                                (((PrivateTypeIndex *)(&a))->data) ,
+                                                (((PrivateTypeIndex *)(&b))->data));
+
         }
 
     }
