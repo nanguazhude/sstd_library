@@ -20,6 +20,8 @@ namespace sstd {
     template<typename T1>
     class RegisterStaticClass{
         using T = std::remove_cv_t< std::remove_reference_t<T1> >;
+        static_assert ( false==std::is_polymorphic_v<T> );
+        static_assert ( true==std::is_class_v<T> );
     public:
         using ConvertFunction = _theSSTDLibraryStaticVariantFile::ConvertFunction;
     public:

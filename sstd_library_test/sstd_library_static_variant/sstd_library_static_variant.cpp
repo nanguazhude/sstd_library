@@ -179,7 +179,7 @@ public:
 };
 
 inline StaticClass & getStaticClass(){
-    static auto varAns = new StaticClass;
+    static auto varAns = sstd_new< StaticClass >();
     return *varAns;
 }
 
