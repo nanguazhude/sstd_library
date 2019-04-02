@@ -10,6 +10,7 @@ namespace _theSSTDLibraryStaticVariantFile {
     extern std::size_t registerTypeID(const std::type_index &);
     extern bool registerCastFunction( std::size_t/*from*/,std::size_t/*to*/,ConvertFunction/*function*/);
     extern ConvertFunction findCastFunction(std::size_t /*from*/,std::size_t /*to*/);
+    extern bool registerTypeName(std::size_t,std::string_view);
 
 }/**/
 

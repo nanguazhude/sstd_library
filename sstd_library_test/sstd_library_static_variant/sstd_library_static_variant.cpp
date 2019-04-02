@@ -15,6 +15,7 @@ namespace _theSSTDLibraryStaticVariantFile {
     public:
         std::size_t index{1};
         std::type_index stdIndex ;
+        std::basic_string< char, std::char_traits<char> ,sstd::allocator<char> > typeName;
         std::map< std::size_t ,
         ConvertFunction ,
         std::less<  >,
@@ -111,6 +112,22 @@ public:
 
     }
 
+    inline bool registerTypeName( std::size_t argIndex , std::string_view argName ){
+        if( argIndex < 1 ){
+            return false;
+        }
+
+        std::unique_lock varWriteLock{ thisMutex };
+
+        if ( argIndex > thisListInformation.size() ){
+            return false;
+        }
+
+        thisListInformation[ argIndex - 1 ] ->typeName = argName;
+
+        return true;
+    }
+
     inline ConvertFunction findCastFunction(std::size_t argFrom,std::size_t argTo){
         if( argFrom<1 ){
             return nullptr;
@@ -131,7 +148,7 @@ public:
          }
 
          const auto & varMap =
-         thisListInformation[ argFrom-1 ]->convertFunctionMap;
+            thisListInformation[ argFrom-1 ]->convertFunctionMap;
 
          auto varPos = varMap.find( argTo );
          if(varPos == varMap.end() ){
@@ -164,6 +181,13 @@ extern bool registerCastFunction( std::size_t argFrom,
 extern  ConvertFunction findCastFunction(std::size_t argFrom,std::size_t argTo){
      return getStaticClass().findCastFunction(argFrom,argTo);
 }
+
+extern bool registerTypeName(std::size_t argIndex,
+                             std::string_view argName){
+    return getStaticClass().registerTypeName(argIndex,argName);
+}
+
+
 
 }/**/
 
