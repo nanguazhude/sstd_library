@@ -112,6 +112,21 @@ public:
 
     }
 
+    inline std::string_view findTypeName(std::size_t argIndex){
+        if( argIndex < 1 ){
+            return ""sv;
+        }
+
+         std::shared_lock varReadLock{ thisMutex };
+
+         if ( argIndex > thisListInformation.size() ){
+             return ""sv;
+         }
+
+         return thisListInformation[ argIndex - 1 ] ->typeName;
+
+    }
+
     inline bool registerTypeName( std::size_t argIndex , std::string_view argName ){
         if( argIndex < 1 ){
             return false;
@@ -187,6 +202,9 @@ extern bool registerTypeName(std::size_t argIndex,
     return getStaticClass().registerTypeName(argIndex,argName);
 }
 
+extern std::string_view typeName(std::size_t argIndex){
+    return getStaticClass().findTypeName(argIndex);
+}
 
 
 }/**/

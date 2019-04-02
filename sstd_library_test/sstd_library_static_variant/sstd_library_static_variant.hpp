@@ -11,6 +11,7 @@ namespace _theSSTDLibraryStaticVariantFile {
     extern bool registerCastFunction( std::size_t/*from*/,std::size_t/*to*/,ConvertFunction/*function*/);
     extern ConvertFunction findCastFunction(std::size_t /*from*/,std::size_t /*to*/);
     extern bool registerTypeName(std::size_t,std::string_view);
+    extern std::string_view typeName(std::size_t);
 
 }/**/
 
@@ -27,10 +28,18 @@ namespace sstd {
             return true;
         }
 
-        inline static std::size_t typeIndex() noexcept {
+        inline static std::size_t typeIndex() {
             const static auto varAns =
                 _theSSTDLibraryStaticVariantFile::registerTypeID( typeid ( TheType ) );
             return varAns;
+        }
+
+        inline static std::string_view typeName() {
+            return _theSSTDLibraryStaticVariantFile::typeName( typeIndex() );
+        }
+
+        inline static bool registerTypeName(std::string_view arg){
+            return _theSSTDLibraryStaticVariantFile::registerTypeName(typeIndex(),arg);
         }
 
         template<typename To>
