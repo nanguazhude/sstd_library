@@ -20,6 +20,7 @@ namespace sstd::type_traits {
             using ClassType = void;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(*FunctionPointer)(Args ...);
         };
 
         template< typename R, typename ... Args >
@@ -29,6 +30,7 @@ namespace sstd::type_traits {
             using ClassType = void;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(*FunctionPointer)(Args ...);
         };
 
         /*class function pointer ...*/
@@ -39,6 +41,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) ;
         };
 
         template< typename R, typename C, typename ... Args >
@@ -48,6 +51,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) noexcept;
         };
 
         template< typename R, typename C, typename ... Args >
@@ -57,6 +61,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) const;
         };
 
         template< typename R, typename C, typename ... Args >
@@ -66,6 +71,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) const noexcept;
         };
 
         template< typename R, typename C, typename ... Args >
@@ -75,6 +81,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) volatile;
         };
 
         template< typename R, typename C, typename ... Args >
@@ -84,6 +91,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) volatile noexcept;
         };
 
         template< typename R, typename C, typename ... Args >
@@ -93,6 +101,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) const volatile;
         };
 
         template< typename R, typename C, typename ... Args >
@@ -102,6 +111,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) const volatile noexcept;
         };
 
         /*&*/
@@ -112,6 +122,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) &;
         };
 
         template< typename R, typename C, typename ... Args >
@@ -121,6 +132,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) & noexcept;
         };
 
         template< typename R, typename C, typename ... Args >
@@ -130,6 +142,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...)  const &;
         };
 
         template< typename R, typename C, typename ... Args >
@@ -139,6 +152,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) const & noexcept;
         };
 
         template< typename R, typename C, typename ... Args >
@@ -148,6 +162,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) volatile &;
         };
 
         template< typename R, typename C, typename ... Args >
@@ -157,6 +172,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) volatile & noexcept;
         };
 
         template< typename R, typename C, typename ... Args >
@@ -166,6 +182,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) const  volatile &;
         };
 
         template< typename R, typename C, typename ... Args >
@@ -175,6 +192,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) const volatile & noexcept;
         };
 
         /*&&*/
@@ -186,6 +204,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) && ;
         };
 
         template< typename R, typename C, typename ... Args >
@@ -195,6 +214,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) && noexcept;
         };
 
         template< typename R, typename C, typename ... Args >
@@ -204,6 +224,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...)  const &&;
         };
 
         template< typename R, typename C, typename ... Args >
@@ -213,6 +234,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) const && noexcept;
         };
 
         template< typename R, typename C, typename ... Args >
@@ -222,6 +244,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) volatile &&;
         };
 
         template< typename R, typename C, typename ... Args >
@@ -231,6 +254,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) volatile && noexcept;
         };
 
         template< typename R, typename C, typename ... Args >
@@ -240,6 +264,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) const  volatile &&;
         };
 
         template< typename R, typename C, typename ... Args >
@@ -249,6 +274,7 @@ namespace sstd::type_traits {
             using ClassType = C;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = void;
+            typedef R(C::*FunctionPointer)(Args ...) const volatile && noexcept;
         };
 
         template< typename R, typename ... Args, template< typename ...> class F >
@@ -258,6 +284,7 @@ namespace sstd::type_traits {
             using ClassType = void;
             using ArgsType = ArgsList<Args ...>;
             using FunctionObject = F<R(Args ...)>;
+            typedef void FunctionPointer;
         };
     }/*namespace detail*/
 
@@ -266,6 +293,7 @@ namespace sstd::type_traits {
     using ClassType = void;
     using ArgsType = ArgsList<Args ...>;
     using FunctionObject = void;
+    typedef FunctionPointer void;
     */
 
     /*函数对象，只有一个 operator() */
@@ -275,6 +303,7 @@ namespace sstd::type_traits {
     public:
         using FunctionObject = std::remove_cv_t< std::remove_reference_t< T> >;
         using ClassType = void;
+        typedef void FunctionPointer ;
     };
 
     /*函数指针或类似于std::function<?(??)>这样的函数对象*/
@@ -283,6 +312,78 @@ namespace sstd::type_traits {
         std::remove_cv_t< std::remove_reference_t<T>>>::ReturnType > > :
         public detail::FunctionHelper< std::remove_cv_t< std::remove_reference_t< T> > > {
     };
-
-
+    
 }/*namespace sstd*/
+
+template< typename T  , 
+    typename = typename T::ClassType, 
+    typename = typename T::FunctionObject >
+class Caller {
+public:
+
+    using ReturnType = typename T::ReturnType ;
+    using ClassType = typename T::ClassType ;
+    using ArgsType = typename T::ArgsType ;
+    using FunctionObject = typename T::FunctionObject;
+    using FunctionPointer = typename T::FunctionPointer;
+
+    std::remove_cv_t< std::remove_reference_t< FunctionObject > > thisFunction;
+
+    template<typename U>
+    inline Caller( U && arg ) : 
+        thisFunction(std::forward<U>(arg)) {
+    }
+   
+    template< typename ... Args >
+    inline ReturnType call(Args && ... args) {
+        return thisFunction(std::forward<Args>(args)...);
+    }
+
+};
+
+
+template< typename T  >
+class Caller< T , void ,void > {
+public:
+
+    using ReturnType = typename T::ReturnType;
+    using ClassType = typename T::ClassType;
+    using ArgsType = typename T::ArgsType;
+    using FunctionObject = typename T::FunctionObject;
+    using FunctionPointer = typename T::FunctionPointer;
+
+    FunctionPointer thisFunction;
+
+    inline Caller(FunctionPointer arg) : thisFunction(arg) {
+    }
+
+    template< typename ... Args >
+    inline ReturnType call( Args && ... args ) {
+        return thisFunction( std::forward<Args>(args)... );
+    }
+
+};
+
+template< typename T ,typename C  >
+class Caller< T  , C ,void > {
+public:
+
+    using ReturnType = typename T::ReturnType;
+    using ClassType = typename T::ClassType;
+    using ArgsType = typename T::ArgsType;
+    using FunctionObject = typename T::FunctionObject;
+    using FunctionPointer = typename T::FunctionPointer;
+
+    FunctionPointer thisFunction;
+
+    inline Caller(FunctionPointer arg) : thisFunction(arg) {
+    }
+
+    template< typename ... Args >
+    inline ReturnType call(ClassType * t,Args && ... args) {
+        return (t->*thisFunction)(std::forward<Args>(args)...);
+    }
+    
+};
+
+
