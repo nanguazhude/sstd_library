@@ -1,272 +1,288 @@
 
-template<typename T>
-class FunctionHelper;
+namespace sstd::type_traits {
 
-template<typename ... Args>
-class ArgsList {
-public:
-    constexpr static std::size_t length = sizeof...(Args);
-};
+    namespace detail {
+        /*中间推导过程，此中间变量与最终结果可能不同*/
+        template<typename T>
+        class FunctionHelper;
 
-/*function pointer ...*/
-template< typename R, typename ... Args >
-class FunctionHelper< R(*)(Args ...) > {
-public:
+        template<typename ... Args>
+        class ArgsList {
+        public:
+            constexpr static std::size_t length = sizeof...(Args);
+        };
+
+        /*function pointer ...*/
+        template< typename R, typename ... Args >
+        class FunctionHelper< R(*)(Args ...) > {
+        public:
+            using ReturnType = R;
+            using ClassType = void;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename ... Args >
+        class FunctionHelper< R(*)(Args ...) noexcept > {
+        public:
+            using ReturnType = R;
+            using ClassType = void;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        /*class function pointer ...*/
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...)> {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...) noexcept > {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...) const > {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...) const noexcept > {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...) volatile > {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...) volatile noexcept > {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...) const volatile > {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...) const volatile noexcept > {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        /*&*/
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...) &> {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...) & noexcept  > {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...)  const &> {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...) const & noexcept > {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...) volatile & > {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...) volatile & noexcept > {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...) const  volatile & > {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...) const volatile & noexcept > {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        /*&&*/
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...) && > {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...) && noexcept  > {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...)  const &&> {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...) const && noexcept > {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...) volatile && > {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...) volatile && noexcept > {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...) const  volatile && > {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename C, typename ... Args >
+        class FunctionHelper<R(C::*)(Args ...) const volatile && noexcept > {
+        public:
+            using ReturnType = R;
+            using ClassType = C;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = void;
+        };
+
+        template< typename R, typename ... Args, template< typename ...> class F >
+        class FunctionHelper< F<R(Args ...)> > {
+        public:
+            using ReturnType = R;
+            using ClassType = void;
+            using ArgsType = ArgsList<Args ...>;
+            using FunctionObject = F<R(Args ...)>;
+        };
+    }/*namespace detail*/
+
+    /*
     using ReturnType = R;
     using ClassType = void;
     using ArgsType = ArgsList<Args ...>;
     using FunctionObject = void;
-};
+    */
 
-template< typename R, typename ... Args >
-class FunctionHelper< R(*)(Args ...) noexcept > {
-public:
-    using ReturnType = R;
-    using ClassType = void;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
+    /*函数对象，只有一个 operator() */
+    template<typename T, typename = void>
+    class Function : public detail::FunctionHelper< decltype(
+        &std::remove_cv_t< std::remove_reference_t< T> >::operator()) > {
+    public:
+        using FunctionObject = std::remove_cv_t< std::remove_reference_t< T> >;
+        using ClassType = void;
+    };
 
-/*class function pointer ...*/
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...)> {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
+    /*函数指针或类似于std::function<?(??)>这样的函数对象*/
+    template<typename T >
+    class Function< T, std::void_t< typename detail::FunctionHelper<
+        std::remove_cv_t< std::remove_reference_t<T>>>::ReturnType > > :
+        public detail::FunctionHelper< std::remove_cv_t< std::remove_reference_t< T> > > {
+    };
 
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...) noexcept > {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
 
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...) const > {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...) const noexcept > {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...) volatile > {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...) volatile noexcept > {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...) const volatile > {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...) const volatile noexcept > {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-/*&*/
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...) &> {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...) & noexcept  > {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...)  const &> {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...) const & noexcept > {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...) volatile & > {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...) volatile & noexcept > {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...) const  volatile & > {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...) const volatile & noexcept > {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-/*&&*/
-
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...) && > {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...) && noexcept  > {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...)  const &&> {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...) const && noexcept > {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...) volatile && > {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...) volatile && noexcept > {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...) const  volatile && > {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-template< typename R, typename C, typename ... Args >
-class FunctionHelper<R(C::*)(Args ...) const volatile && noexcept > {
-public:
-    using ReturnType = R;
-    using ClassType = C;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = void;
-};
-
-template< typename R, typename ... Args, template< typename ...> class F >
-class FunctionHelper< F<R(Args ...)> > {
-public:
-    using ReturnType = R;
-    using ClassType = void;
-    using ArgsType = ArgsList<Args ...>;
-    using FunctionObject = F<R(Args ...)>;
-};
-
-template<typename T, typename = void>
-class Function : public FunctionHelper< decltype(
-    &std::remove_cv_t< std::remove_reference_t< T> >::operator()) > {
-public:
-    using FunctionObject = std::remove_cv_t< std::remove_reference_t< T> >;
-    using ClassType = void;
-};
-
-template<typename T >
-class Function< T, std::void_t< typename FunctionHelper<
-    std::remove_cv_t< std::remove_reference_t<T>>>::ReturnType > > :
-    public FunctionHelper< std::remove_cv_t< std::remove_reference_t< T> > > {
-};
-
+}/*namespace sstd*/
