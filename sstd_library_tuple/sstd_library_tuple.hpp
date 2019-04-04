@@ -9,15 +9,21 @@ namespace sstd {
     class ArgReference {
         static_assert(std::is_reference_v<T>);
         T && thisData;
-        inline T && getValueHelper() noexcept {
+        inline T && forwardHelper() noexcept {
             return std::forward<T>(thisData);
+        }
+        inline T & valueHelper() noexcept {
+            return thisData;
         }
     public:
         inline constexpr static std::size_t getIndex() noexcept {
             return Index;
         }
-        inline T && getValue() const noexcept {
-            return const_cast<ArgReference *>(this)->getValueHelper();
+        inline T && forward() const noexcept {
+            return const_cast<ArgReference *>(this)->forwardHelper();
+        }
+        inline T & value() const noexcept {
+            return const_cast<ArgReference *>(this)->valueHelper();
         }
         ArgReference() = delete;
         inline ArgReference(const ArgReference&) = default;
@@ -60,4 +66,3 @@ namespace sstd {
     }
 
 }/*namespace sstd*/
-
