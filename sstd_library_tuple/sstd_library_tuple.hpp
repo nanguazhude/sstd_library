@@ -37,7 +37,7 @@ namespace sstd::_detail_sstd_index_maker {
     class ArgReferenceMaker< std::integer_sequence<std::size_t, I...>, T ... > {
     public:
         using AnsType = std::tuple< ArgReference<I, T && > ... >;
-        inline static AnsType forward_as_indexed_tuple(T && ... arg) noexcept {
+        inline constexpr static AnsType forward_as_indexed_tuple(T && ... arg) noexcept {
             return { ArgReference<I,T&&>(std::forward<T>(arg)) ... };
         }
     };
@@ -46,13 +46,18 @@ namespace sstd::_detail_sstd_index_maker {
 
 namespace sstd {
 
-    template< typename ... T >
-    inline auto forward_as_indexed_tuple(T && ... arg) {
+    template< typename T0, typename ... T >
+    inline constexpr auto forward_as_indexed_tuple(T0 && a0,T && ... arg) noexcept {
         return _detail_sstd_index_maker::ArgReferenceMaker<
-            std::make_index_sequence<sizeof...(T)>, T && ... >
-            ::forward_as_indexed_tuple(std::forward<T>(arg) ...);
+            std::make_index_sequence<sizeof...(T)+1>, T0 &&, T && ... >
+            ::forward_as_indexed_tuple(
+                std::forward<T0>(a0),
+                std::forward<T>(arg) ...);
+    }
+
+    inline constexpr std::tuple<> forward_as_indexed_tuple() noexcept {
+        return{};
     }
 
 }/*namespace sstd*/
-
 
