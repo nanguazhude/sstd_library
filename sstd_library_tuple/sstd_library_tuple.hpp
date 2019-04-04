@@ -16,7 +16,7 @@ namespace sstd {
             return thisData;
         }
     public:
-        inline constexpr static std::size_t getIndex() noexcept {
+        inline constexpr static std::size_t index() noexcept {
             return Index;
         }
         inline T && forward() const noexcept {
