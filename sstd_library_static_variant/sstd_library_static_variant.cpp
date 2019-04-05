@@ -192,9 +192,9 @@ namespace _theSSTDLibraryStaticVariantFile {
     template<typename T>
     inline void registerAType(StaticClass * varAns, T &  arg) {
         using U = std::remove_cv_t< std::remove_reference_t<T> >;
-        //using index_t = typename U::index_t;
+        using index_t = typename U::index_t;
         using name_t = typename U::name_t;
-        arg.value = varAns->registerTypeID(typeid(typename U::index_t));
+        arg.value = varAns->registerTypeID(typeid(index_t));
         varAns->registerTypeName(arg.value, name_t::toStringView());
     }
 
