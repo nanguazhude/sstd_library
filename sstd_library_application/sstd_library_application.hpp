@@ -28,18 +28,29 @@ namespace sstd {
         static bool isConstruct();
         static bool isDestruct();
     public:
+        inline static void callOnDestruct(std::once_flag&, std::function<void(void)>);
+        inline static void callOnConstruct(std::once_flag&, std::function<void(void)>);
+    public:
         using string = std::basic_string< char, std::char_traits<char>, sstd::allocator<char> >;
         static const std::vector< string, sstd::allocator<string> > * getArgs();
     private:
-        sstd_delete_copy_create( Application );
+        sstd_delete_copy_create(Application);
     public:
-        sstd_class( Application );
+        sstd_class(Application);
     };
+
+    inline void Application::callOnDestruct(std::once_flag& argF, std::function<void(void)> arg) {
+        std::call_once(argF, &detail::callOnceBeforeQuit, std::move(arg));
+    }
+
+    inline void Application::callOnConstruct(std::once_flag& argF, std::function<void(void)> arg) {
+        std::call_once(argF, &detail::callOnceAfterStart, std::move(arg));
+    }
 
     inline Application::operator bool() const noexcept {
         return isConstruct();
     }
-    
+
 }/*namespace sstd*/
 
 #ifndef sstd_call_once_after_start
