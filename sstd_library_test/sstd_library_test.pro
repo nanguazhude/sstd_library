@@ -16,9 +16,6 @@ SOURCES += $$PWD/main.cpp
 SOURCES += $$PWD/lua_full_test.cpp
 HEADERS += $$PWD/lua_full_test.hpp
 
-SOURCES += $$PWD/sstd_library_static_variant/sstd_library_static_variant.cpp
-HEADERS += $$PWD/sstd_library_static_variant/sstd_library_static_variant.hpp
-
 SOURCES += $$PWD/constexpr_test.cpp
 SOURCES += $$PWD/tuple_test.cpp
 
