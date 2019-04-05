@@ -99,8 +99,18 @@ void lua_test() {
 }
 
 #include "lua_full_test.hpp"
+extern void constexpr_test();
+extern void tuple_test();
 
 int main(int, char **) {
+
+    {
+        tuple_test();
+    }
+
+    {
+        constexpr_test();
+    }
 
     {
         auto varu8Str = u8R"(你好)"sv;

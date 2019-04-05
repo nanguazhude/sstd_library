@@ -53,9 +53,9 @@ namespace sstd::_detail_sstd_index_maker {
 namespace sstd {
 
     template< typename T0, typename ... T >
-    inline constexpr auto forward_as_indexed_tuple(T0 && a0,T && ... arg) noexcept {
+    inline constexpr auto forward_as_indexed_tuple(T0 && a0, T && ... arg) noexcept {
         return _detail_sstd_index_maker::ArgReferenceMaker<
-            std::make_index_sequence<sizeof...(T)+1>, T0 &&, T && ... >
+            std::make_index_sequence<sizeof...(T) + 1>, T0 &&, T && ... >
             ::forward_as_indexed_tuple(
                 std::forward<T0>(a0),
                 std::forward<T>(arg) ...);
