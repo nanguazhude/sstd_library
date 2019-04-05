@@ -21,7 +21,6 @@ namespace sstd {
     class RegisterStaticClass {
         using T = std::remove_cv_t< std::remove_reference_t<T1> >;
         static_assert (false == std::is_polymorphic_v<T>);
-        static_assert (true == std::is_class_v<T>);
     public:
         using ConvertFunction = _theSSTDLibraryStaticVariantFile::ConvertFunction;
     public:
@@ -60,18 +59,29 @@ namespace sstd {
         }
 
         template<typename To>
-        inline static ConvertFunction convertFunction(std::size_t argFrom, std::size_t argTo) {
+        inline static ConvertFunction convertFunction() {
             using TheTypeTo = RegisterStaticClass< typename RegisterStaticClass<To>::TheType >;
             if constexpr (std::is_same_v< typename TheTypeTo::TheType, TheType >) {
                 return [](void * arg)->std::pair<void *, void(*)(void *)> {
                     return { arg,nullptr };
                 };
             } else {
-                return _theSSTDLibraryStaticVariantFile::findCastFunction(argFrom, argTo);
+                return _theSSTDLibraryStaticVariantFile::findCastFunction(typeIndex(), 
+                    TheTypeTo::typeIndex());
             }
         }
 
     };
+
+    template< typename T ,typename TName /*sstd_cstr("")*/ >
+    inline std::size_t registerStaticClass() {
+        static std::size_t varAns = []() -> std::size_t {
+            auto varAns = RegisterStaticClass<T>::typeIndex();
+            RegisterStaticClass<T>::registerTypeName(TName::toStringView());
+            return varAns;
+        }();
+        return varAns;
+    }
 
 
 }/*namespace sstd*/
