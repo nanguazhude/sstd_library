@@ -16,6 +16,12 @@ namespace sstd {
         inline static constexpr constexpr_string toConstexprStringView() noexcept{
             return {thisData};
         }
+        inline constexpr static const char * data() noexcept {
+            return thisData;
+        }
+        inline constexpr static std::size_t size() noexcept {
+            return sizeof...(Args);
+        }
     };
 
 
