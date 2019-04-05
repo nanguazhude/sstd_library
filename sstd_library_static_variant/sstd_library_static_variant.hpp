@@ -13,7 +13,7 @@ namespace _theSSTDLibraryStaticVariantFile {
     SSTD_SYMBOL_DECL bool registerTypeName(std::size_t, std::string_view);
     SSTD_SYMBOL_DECL std::string_view typeName(std::size_t);
 
-}/**/
+}/*namespace _theSSTDLibraryStaticVariantFile*/
 
 namespace sstd {
 
@@ -75,17 +75,4 @@ namespace sstd {
 
 
 }/*namespace sstd*/
-
-
-
-
-
-
-
-
-
-
-
-
-
 
