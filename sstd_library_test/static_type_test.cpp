@@ -8,6 +8,9 @@ extern void static_type_test(){
     auto varIndex =
         sstd::registerStaticClass< MTest, sstd_cstr("MTest") >();
 
+    assert(sstd::RegisterStaticClass<MTest>::typeName() == "MTest");
+    assert( varIndex == sstd::RegisterStaticClass<const MTest &>::typeIndex() )  ;
+
     assert(varIndex);
 
     double a = 12;
