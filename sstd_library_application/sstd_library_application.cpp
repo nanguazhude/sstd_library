@@ -17,43 +17,49 @@ namespace sstd {
         std::list< std::function<void(void)>, sstd::allocator< std::function<void(void)> > > callOnDestruct;
         std::vector< string, sstd::allocator<string> > args;
 
+        sstd_class( Manager );
+
     };
 
     inline Manager * getManager();
 
-    SSTD_SYMBOL_DECL void callOnceAfterStart(std::function<void(void)> arg) {
-        auto varManager = getManager();
-        if (varManager->isConstruct.load()) {
-            sstd_try{
-               arg();
-            }sstd_catch(...) {
-                sstd_on_exception();
-            }/*direct call*/
-            return;
-        }
-        std::unique_lock varLock{ varManager->thisMutex };
-        if (varManager->isConstruct.load()) {
-            sstd_try{
-               arg();
-            }sstd_catch(...) {
-                sstd_on_exception();
-            }/*direct call*/
-            return;
-        }
-        varManager->callOnConstruct.push_back(std::move(arg));
-    }
+    namespace detail {
 
-    SSTD_SYMBOL_DECL void callOnceBeforeQuit(std::function<void(void)> arg) {
-        auto varManager = getManager();
-        if (varManager->isQuit.load()) {
-            return/*do not call this ...*/;
+        SSTD_SYMBOL_DECL void callOnceAfterStart(std::function<void(void)> arg) {
+            auto varManager = getManager();
+            if (varManager->isConstruct.load()) {
+                sstd_try{
+                   arg();
+                }sstd_catch(...) {
+                    sstd_on_exception();
+                }/*direct call*/
+                return;
+            }
+            std::unique_lock varLock{ varManager->thisMutex };
+            if (varManager->isConstruct.load()) {
+                sstd_try{
+                   arg();
+                }sstd_catch(...) {
+                    sstd_on_exception();
+                }/*direct call*/
+                return;
+            }
+            varManager->callOnConstruct.push_back(std::move(arg));
         }
-        std::unique_lock varLock{ varManager->thisMutex };
-        if (varManager->isQuit.load()) {
-            return/*do not call this ...*/;
+
+        SSTD_SYMBOL_DECL void callOnceBeforeQuit(std::function<void(void)> arg) {
+            auto varManager = getManager();
+            if (varManager->isQuit.load()) {
+                return/*do not call this ...*/;
+            }
+            std::unique_lock varLock{ varManager->thisMutex };
+            if (varManager->isQuit.load()) {
+                return/*do not call this ...*/;
+            }
+            varManager->callOnConstruct.push_front(std::move(arg));
         }
-        varManager->callOnConstruct.push_front(std::move(arg));
-    }
+
+    }/*namespace detail*/
 
     Application::Application(int argc, char ** argv) : isRef(false) {
 
