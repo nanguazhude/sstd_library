@@ -1,5 +1,7 @@
 ﻿#pragma once
 
+#include <vector>
+#include <string>
 #include <functional>
 #include "../sstd_library.hpp"
 
@@ -18,11 +20,23 @@ namespace sstd {
         /*当前Application的引用*/
         Application();
         ~Application();
+    public:
+        inline operator bool() const noexcept;
+    public:
+        static bool isConstruct();
+        static bool isDestruct();
+    public:
+        using string = std::basic_string< char, std::char_traits<char>, sstd::allocator<char> >;
+        static const std::vector< string, sstd::allocator<string> > * getArgs();
     private:
         sstd_delete_copy_create( Application );
     public:
         sstd_class( Application );
     };
+
+    inline Application::operator bool() const noexcept {
+        return isConstruct();
+    }
 
 }/*namespace sstd*/
 
