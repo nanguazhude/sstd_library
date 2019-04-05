@@ -22,6 +22,7 @@ extern void constexpr_test(){
     assert( data1() == data2() );
     assert( data3() == data4() );
     static_assert ( sstd::constexpr_array<1,2,3,4>::size() == 4 );
+    std::cout << sstd_cstr("aabbccdd")::toConstexprStringView().size() << std::endl;
 
 }
 
