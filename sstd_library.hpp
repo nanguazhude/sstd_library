@@ -20,6 +20,7 @@ namespace _theSSTDLibraryFile {
 #include "sstd_library_exception/sstd_library_exception.hpp"
 #include "sstd_library_filesystem/sstd_library_filesystem.hpp"
 #include "sstd_library_constexpr/array_constexpr.hpp"
+#include "sstd_library_constexpr/string_constexpr.hpp"
 #include "sstd_library_tuple/sstd_library_tuple.hpp"
 
 #include <sstd/boost/intrusive_ptr.hpp>

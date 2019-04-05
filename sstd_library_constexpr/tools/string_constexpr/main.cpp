@@ -8,7 +8,7 @@
 using namespace std::string_view_literals;
 
 constexpr const static char endl = '\n';
-constexpr const static std::size_t theSize = 256;
+constexpr const static std::size_t theSize = 1024uLL;
 
 inline std::string getHelper(std::size_t arg) {
 
@@ -50,7 +50,7 @@ inline std::string getHelper(std::size_t arg) {
 }
 
 
-int main(int ,char ** argv){
+int main(int ,char ** ){
 
     std::ofstream varAns{"ans.txt",std::ios::binary};
     varAns.sync_with_stdio(false);
@@ -81,7 +81,11 @@ template<std::size_t N,auto ...>
 class string_constexpr_builder_helper {
 public:
     static_assert(N>0);
-    static_assert(N<=256);
+    static_assert(N<=)"sv;
+
+    varAns << theSize;
+
+    varAns<<u8R"();
 };
 
 template< auto ... Args>

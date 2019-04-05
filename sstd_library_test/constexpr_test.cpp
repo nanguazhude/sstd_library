@@ -14,6 +14,9 @@ extern void constexpr_test(){
     assert( data1() == data2() );
     static_assert ( sstd::constexpr_array<1,2,3,4>::size() == 4 );
 
+
+
+
 }
 
 
