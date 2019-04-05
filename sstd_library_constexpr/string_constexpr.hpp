@@ -2,6 +2,7 @@
 
 
 #include <string_view>
+#include "constexpr_string.hpp"
 
 namespace sstd {
 
@@ -11,6 +12,9 @@ namespace sstd {
     public:
         inline static constexpr std::string_view toStringView() noexcept {
             return{ thisData , sizeof...(Args) };
+        }
+        inline static constexpr constexpr_string toConstexprStringView() noexcept{
+            return {thisData};
         }
     };
 
