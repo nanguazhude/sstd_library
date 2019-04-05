@@ -8,7 +8,8 @@
 using namespace std::string_view_literals;
 
 constexpr const static char endl = '\n';
-constexpr const static std::size_t theSize = 1024uLL;
+constexpr const static std::size_t theSize = 256uLL;
+constexpr const static std::size_t theNewLineSize = 64;
 
 inline std::string getHelper(std::size_t arg) {
 
@@ -21,25 +22,41 @@ inline std::string getHelper(std::size_t arg) {
 
     var << u8R"( template< auto A0 )"sv << endl;
     
+    for (std::size_t i=1,j=0;i<arg;++j,++i) {
 
-    for (std::size_t i=1;i<arg;++i) {
-
-        var << u8R"(,auto A)"sv << i <<endl ;
-
+        var << u8R"(,auto A)"sv << i   ;
+        if(j<theNewLineSize){
+           var  <<' ';
+        }else{
+            var    << endl;
+            j = 0;
+        }
     }
 
     var << u8R"( ,auto ... Args >  class string_constexpr_builder_helper< )"sv 
         << arg<<u8R"(, A0)" <<endl;
 
-    for (std::size_t i = 1; i < arg; ++i) {
-        var << u8R"( , A)"sv<<i<<endl;
+    for (std::size_t i = 1,j=0; i < arg; ++j,++i) {
+        var << u8R"( , A)"sv<<i ;
+        if(j<theNewLineSize){
+           var  <<' ';
+        }else{
+            var    << endl;
+            j = 0;
+        }
     }
 
     var << u8R"( ,Args ... > {public:)"sv;
     var << u8R"( using type = constexpr_string_literal< A0  )"sv;
 
-    for (std::size_t i = 1; i < arg; ++i) {
-        var << u8R"( , A)"sv << i << endl;
+    for (std::size_t i = 1,j=0; i < arg; ++j,++i) {
+        var << u8R"( , A)"sv << i  ;
+        if(j<theNewLineSize){
+           var  <<' ';
+        }else{
+            var    << endl;
+            j = 0;
+        }
     }
 
     var << u8R"(>;
