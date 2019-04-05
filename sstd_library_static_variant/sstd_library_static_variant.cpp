@@ -180,8 +180,126 @@ namespace _theSSTDLibraryStaticVariantFile {
         sstd_class(StaticClass);
     };
 
+
+    template<typename Key, typename KeyName>
+    class TheIndex {
+    public:
+        std::size_t value{ 1 };
+        using index_t = Key;
+        using name_t = KeyName;
+    };
+
+    template<typename T>
+    inline void registerAType(StaticClass * varAns, T &  arg) {
+        using U = std::remove_cv_t< std::remove_reference_t<T> >;
+        using index_t = typename U::index_t;
+        using name_t = typename U::name_t;
+        arg.value = varAns->registerTypeID(typeid(typename U::index_t));
+        varAns->registerTypeName(arg.value, name_t::toStringView());
+    }
+
+    template<typename ... T>
+    inline void registerTypeList(StaticClass * varAns, T & ... arg) {
+        (registerAType(varAns, arg), ...);
+    }
+
+    template<typename T>
+    class StaticTypeWrap {
+    public:
+        T value;
+        template<typename U>
+        inline StaticTypeWrap(const U & arg) :
+            value(static_cast<T>(arg)) {
+        }
+    private:
+        sstd_class(StaticTypeWrap);
+    };
+
+    template< typename TF, typename TT >
+    inline void regesterAStaticTypeCast(StaticClass * varAns,
+        TF & argFrom,
+        TT & argTo) {
+
+        if (argFrom.value == argTo.value) {
+            return;
+        }
+
+        using ReturnType = std::pair<void*, void(*)(void *)>;
+
+        using UTF = std::remove_cv_t< std::remove_reference_t< TF > >;
+        using UTT = std::remove_cv_t< std::remove_reference_t< TT > >;
+
+        using RTF = typename UTF::index_t;
+        using RTT = typename UTT::index_t;
+
+        varAns->registerCastFunction(argFrom.value, argTo.value,
+            [](void * arg)->ReturnType {
+            using CastValueType = StaticTypeWrap<RTT>;
+            auto varAns = sstd_new< CastValueType >(
+                *reinterpret_cast<RTF *>(arg));
+            return { &(varAns->value),[](void * arg) {
+                delete reinterpret_cast<CastValueType *>(arg); } }; });
+
+        varAns->registerCastFunction(argTo.value, argFrom.value,
+            [](void * arg)->ReturnType {
+            using CastValueType = StaticTypeWrap<RTF>;
+            auto varAns = sstd_new< CastValueType >(
+                *reinterpret_cast<RTT *>(arg));
+            return { &(varAns->value),[](void * arg) {
+               delete reinterpret_cast<CastValueType *>(arg); } }; });
+
+    }
+
+    template< typename T0, typename ... T >
+    inline void registerStaticTypeCast(StaticClass * varAns, T0 & f, T & ... arg) {
+        if constexpr (sizeof...(arg) == 0) {
+            return;
+        } else {
+            (regesterAStaticTypeCast(varAns, f, arg), ...);
+            registerStaticTypeCast(varAns, arg ...);
+        }
+    }
+
     inline StaticClass & getStaticClass() {
-        static auto varAns = sstd_new< StaticClass >();
+        static auto varAns = []() {
+            auto varAns = sstd_new< StaticClass >();
+
+            using baisc_numbers = std::tuple<
+                TheIndex< bool, sstd_cstr("bool") >,
+                TheIndex< char, sstd_cstr("char") >,
+                TheIndex< signed char, sstd_cstr("signed char") >,
+                TheIndex< unsigned char, sstd_cstr("unsigned char") >,
+                TheIndex< char16_t, sstd_cstr("char16_t") >,
+                TheIndex< char32_t, sstd_cstr("char32_t") >,
+                TheIndex< int, sstd_cstr("int") >,
+                TheIndex< unsigned int, sstd_cstr("unsigned int") >,
+                TheIndex< short, sstd_cstr("short") >,
+                TheIndex< unsigned short, sstd_cstr("unsigned short") >,
+                TheIndex< long int, sstd_cstr("long int") >,
+                TheIndex< unsigned long int, sstd_cstr("unsigned long int") >,
+                TheIndex< long long int, sstd_cstr("long long int") >,
+                TheIndex< unsigned long long int, sstd_cstr("unsigned long long int") >,
+                TheIndex< float, sstd_cstr("float") >,
+                TheIndex< double, sstd_cstr("double") >,
+                TheIndex< long double, sstd_cstr("long double") > >;
+
+            {
+                /*注册类型*/
+                baisc_numbers varNumbers;
+                std::apply([varAns](auto && ... args) {
+                    registerTypeList(varAns, args ...);
+                }, varNumbers);
+                /*注册类型转换*/
+                std::apply([varAns](auto && ... args) {
+                    registerStaticTypeCast(varAns, args ...);
+                }, varNumbers);
+            }
+
+
+
+
+            return varAns;
+        }();
         return *varAns;
     }
 

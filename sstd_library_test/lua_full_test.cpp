@@ -34,8 +34,6 @@ int deleteNode(lua_State * L) {
     return 0;
 }
 
-
-
 inline void setMetaTable(lua_State *L, int varUserDataIndex) {
 
     ::lua_rawgetp(L, LUA_REGISTRYINDEX, Node::luaMetaTable());
@@ -117,8 +115,6 @@ public:
         std::cout << __func__ << std::endl;
     }
     std::string testData{ "aabbccddeeffgg"s };
-
-
 
 };
 

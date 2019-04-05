@@ -26,7 +26,7 @@ extern void constexpr_test(){
 
     assert( sstd_cstr(u8R"(今天)")::toStringView() == u8R"(今天)"sv);
     assert( sstd_cstr(u8R"(今天)")::toConstexprStringView() == u8R"(今天)"sv);
-    assert(sstd_cstr(u8R"(今天)")::toConstexprStringView().data() == sstd_cstr(u8R"(今天)")::toStringView().data() );
+    assert( sstd_cstr(u8R"(今天)")::toConstexprStringView().data() == sstd_cstr(u8R"(今天)")::toStringView().data() );
 }
 
 

@@ -99,10 +99,16 @@ void lua_test() {
 }
 
 #include "lua_full_test.hpp"
+
 extern void constexpr_test();
 extern void tuple_test();
+extern void static_type_test();
 
 int main(int, char **) {
+
+    {
+        static_type_test();
+    }
 
     {
         tuple_test();
