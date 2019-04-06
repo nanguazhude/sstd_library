@@ -6,7 +6,7 @@
 
 namespace sstd {
 
-    template<intmax_t Num_,intmax_t Den_>
+    template<intmax_t Num_,intmax_t Den_ = 1 >
     class constexpr_float : public std::ratio<Num_,Den_> {
         using super = std::ratio<Num_,Den_>;
     public:
