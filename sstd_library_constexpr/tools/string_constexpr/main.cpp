@@ -34,7 +34,8 @@ inline std::string getHelper(std::size_t arg) {
         }
     }
 
-    var << u8R"( ,auto ... Args >  class string_constexpr_builder_helper< )"sv
+    var << u8R"( ,auto ... Args >  
+class string_constexpr_builder_helper< )"sv
         << arg << u8R"(, A0)" << endl;
 
     for (std::size_t i = 1, j = 0; i < arg; ++j, ++i) {
