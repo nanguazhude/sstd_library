@@ -1,4 +1,8 @@
 build-string_constexpr*
 *.user
+*.sln
+*.vcxproj*
+debug/
+release/
 
 
