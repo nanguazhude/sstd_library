@@ -10,7 +10,7 @@ inline auto * data2() {
 }
 
 inline auto * data3() {
-    return sstd_cstr("aabbccdd")::toStringView().data();
+    return sstd::stringData< sstd_cstr("aabbccdd") >();
 }
 
 inline auto * data4() {
