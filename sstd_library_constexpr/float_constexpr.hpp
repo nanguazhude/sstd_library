@@ -33,6 +33,9 @@ namespace sstd {
     using constexpr_float_pi = constexpr_float< 31'415'926'535'897'932,
                                                 10'000'000'000'000'000>;
 
+    using constexpr_float_exp = constexpr_float< 27'182'818'284'590'452,
+                                                 10'000'000'000'000'000>;
+
 }/*namespace sstd*/
 
 
