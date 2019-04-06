@@ -20,7 +20,7 @@ namespace sstd {
             } else {
                 using CastType = long double;
                 return static_cast<T>( static_cast< CastType >( super::num ) /
-                                       static_cast< CastType >(super::den) );
+                                       static_cast< CastType >( super::den) );
             }
         }
     };
