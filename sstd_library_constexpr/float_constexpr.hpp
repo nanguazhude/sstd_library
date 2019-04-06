@@ -19,11 +19,13 @@ namespace sstd {
                 return std::numeric_limits< T >::quiet_NaN() ;
             } else {
                 using CastType = long double;
-                return static_cast<T>( static_cast<CastType>( super::num ) /
+                return static_cast<T>( static_cast< CastType >( super::num ) /
                                        static_cast< CastType >(super::den) );
             }
         }
     };
+
+    using constexpr_float_pi = constexpr_float< 31'415'926'535'897'932,10'000'000'000'000'000>;
 
 }/*namespace sstd*/
 
