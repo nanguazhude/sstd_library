@@ -76,6 +76,7 @@ public:
     template<typename T>
     inline ofstream( T && fn ) : super( std::forward<T>(fn) ,std::ios::binary ) {
         this->sync_with_stdio(false);
+        this->write("\xef\xbb\xbf",3);
     }
 };
 
@@ -148,7 +149,7 @@ public:
                     varStream << "string_constexpr."sv
                         << std::setw(8)
                         << std::setfill('0')
-                        << i << ".hpp"sv;
+                        << i << ".hxx"sv;
                     varStream >> varFileName;
                 }
                 ofstream varAnsPart{ varFileName };
