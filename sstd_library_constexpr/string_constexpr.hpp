@@ -24,7 +24,29 @@ public:
     }
 };
 
+template<typename T1>
+inline constexpr auto toStringView() noexcept {
+    using T = std::remove_cv_t< std::remove_reference_t< T1 > >;
+    return T::toStringView();
+}
 
+template<typename T1>
+inline constexpr auto toConstexprStringView() noexcept {
+    using T = std::remove_cv_t< std::remove_reference_t< T1 > >;
+    return T::toConstexprStringView();
+}
+
+template<typename T1>
+inline constexpr auto stringData() noexcept {
+    using T = std::remove_cv_t< std::remove_reference_t< T1 > >;
+    return T::data();
+}
+
+template<typename T1>
+inline constexpr auto stringSize() noexcept {
+    using T = std::remove_cv_t< std::remove_reference_t< T1 > >;
+    return T::size();
+}
 
 namespace _detail_sstd_string {
 

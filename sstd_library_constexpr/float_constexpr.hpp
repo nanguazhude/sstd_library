@@ -23,7 +23,7 @@ namespace sstd {
     using constexpr_float_one = constexpr_float< 1, 1>;
 
     template<typename R,typename T1 = double>
-    inline constexpr auto toFloat(){
+    inline constexpr auto toFloat() noexcept {
         using super = std::remove_cv_t < std::remove_reference_t < R > >;
         using T = std::remove_cv_t< std::remove_reference_t< T1 > >;
         if constexpr (super::den == 1) {
