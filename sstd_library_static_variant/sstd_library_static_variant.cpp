@@ -5,6 +5,7 @@
 #include <unordered_map>
 #include <shared_mutex>
 #include <limits>
+#include <charconv>
 
 namespace _theSSTDLibraryStaticVariantFile {
 
@@ -262,6 +263,66 @@ namespace _theSSTDLibraryStaticVariantFile {
         }
     }
 
+    class StringViewWrap {
+    public:
+        std::string_view ans;
+        std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> string;
+    public:
+        template<typename T1>
+        inline void fromValue(const T1 & arg) {
+            using T = std::remove_cv_t< std::remove_reference_t<T1> >;
+            if constexpr (std::is_same_v<bool, T>) {
+                if (arg) {
+                    ans = sstd_cstr("true")::toStringView();
+                } else {
+                    ans = sstd_cstr("false")::toStringView();
+                }
+            } else {
+                /* https://en.cppreference.com/w/cpp/utility/to_chars */
+                char varTmp[256];
+                std::to_chars_result varAns =
+                    std::to_chars(std::begin(varTmp), std::end(varTmp), arg);
+#if  defined(_DEBUG)
+                assert(varAns.ec == std::errc{});
+#endif
+                auto varNumberSize =
+                    static_cast<std::size_t>(varAns.ptr - static_cast<char *>(varTmp));
+                string.reserve(varNumberSize);
+                string.assign(varTmp, varNumberSize);
+                ans = string;
+            }
+        }
+    public:
+        template<typename T1>
+        inline static std::pair<void*, void(*)(void *)> createCastFunction(void * arg) {
+            using T = std::remove_cv_t< std::remove_reference_t<T1> >;
+            auto varAns = sstd_new<StringViewWrap>();
+            varAns->fromValue(*reinterpret_cast<T *>(arg));
+            return { varAns , [](void * arg) { 
+                delete reinterpret_cast<StringViewWrap *>(arg); } };
+        }
+    private:
+        sstd_class(StringViewWrap);
+    };
+
+    template<typename TF>
+    inline void registerAToStringViewCast(StaticClass * varAns,
+        std::size_t varStringViewIndex,
+        TF & f) {
+        using UTF = std::remove_cv_t< std::remove_reference_t< TF > >;
+        using index_t = typename UTF::index_t;
+        /*从数字转为字符串*/
+        varAns->registerCastFunction(f.value, varStringViewIndex,
+            &StringViewWrap::createCastFunction<index_t>);
+    }
+
+    template<typename ... T>
+    inline void registerToStringViewCast(StaticClass * varAns,
+        std::size_t varStringViewIndex,
+        T & ... f) {
+        (registerAToStringViewCast(varAns, varStringViewIndex, f), ...);
+    }
+
     inline StaticClass & getStaticClass() {
         static auto varAns = []() {
             auto varAns = sstd_new< StaticClass >();
@@ -285,6 +346,11 @@ namespace _theSSTDLibraryStaticVariantFile {
                 TheIndex< double, sstd_cstr("double") >,
                 TheIndex< long double, sstd_cstr("long double") > >;
 
+            auto varStringViewID = varAns->registerTypeID(typeid(std::string_view));
+            {
+                varAns->registerTypeName(varStringViewID, sstd_cstr("std::string_view")::toStringView());
+            }
+
             {
                 /*注册类型*/
                 baisc_numbers varNumbers;
@@ -295,11 +361,12 @@ namespace _theSSTDLibraryStaticVariantFile {
                 std::apply([varAns](auto && ... args) {
                     registerStaticTypeCast(varAns, args ...);
                 }, varNumbers);
+                /*注册转型为string view*/
+                std::apply([varAns, varStringViewID](auto && ... args) {
+                    registerToStringViewCast(varAns, varStringViewID, args...);
+                }, varNumbers);
             }
-
-
-
-
+                                 
             return varAns;
         }();
         return *varAns;
