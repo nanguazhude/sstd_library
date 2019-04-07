@@ -312,6 +312,7 @@ namespace _theSSTDLibraryStaticVariantFile {
         template<typename U>
         inline void from_int(const std::string_view & arg) {
             auto var = reinterpret_cast<U *>(&(this->value));
+            static_assert(sizeof(U) == sizeof(this->value));
             std::from_chars_result varAns =
                 std::from_chars(arg.data(), arg.data() + arg.size(), *var);
             if (varAns.ec == std::errc{}) {
