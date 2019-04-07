@@ -6,6 +6,7 @@
 #include <shared_mutex>
 #include <limits>
 #include <charconv>
+#include <regex>
 
 namespace _theSSTDLibraryStaticVariantFile {
 
@@ -208,12 +209,119 @@ namespace _theSSTDLibraryStaticVariantFile {
     class StaticTypeWrap {
     public:
         T value;
+
         template<typename U>
         inline StaticTypeWrap(const U & arg) :
             value(static_cast<T>(arg)) {
         }
+
+    protected:
+        inline StaticTypeWrap() {
+        }
     private:
         sstd_class(StaticTypeWrap);
+    };
+
+    template<std::size_t>
+    class Number_8_16_32;
+
+    template<  >
+    class Number_8_16_32<8> {
+    public:
+        using type = std::int8_t;
+        using unsigned_type = std::uint8_t;
+    };
+
+    template<  >
+    class Number_8_16_32<16> {
+    public:
+        using type = std::int16_t;
+        using unsigned_type = std::uint16_t;
+    };
+
+    template<  >
+    class Number_8_16_32<32> {
+    public:
+        using type = std::int32_t;
+        using unsigned_type = std::uint32_t;
+    };
+
+    template<typename T>
+    class StaticFromStringViewWrap : public StaticTypeWrap<T> {
+    public:
+        inline StaticFromStringViewWrap(const std::string_view & arg) {
+            using U = std::remove_cv_t< std::remove_reference_t< T > >;
+            if constexpr (std::is_same_v< U, bool >) {
+              
+                /* http://www.cplusplus.com/reference/regex/basic_regex/ */
+                {
+                    const static std::regex varTrue{ u8R"(\s*true\s*)" ,std::regex_constants::ECMAScript |
+                        std::regex_constants::icase |
+                        std::regex_constants::optimize
+                    };
+                    this->value = std::regex_match(arg.begin(), arg.end(), varTrue);
+                    if (this->value) {
+                        return;
+                    }
+                }
+                {
+                    const static std::regex varFlase{ u8R"(\s*false\s*)" ,std::regex_constants::ECMAScript |
+                       std::regex_constants::icase |
+                       std::regex_constants::optimize
+                    };
+                    this->value = std::regex_match(arg.begin(), arg.end(), varFlase);
+                    if (this->value) {
+                        this->value = false;
+                        return;
+                    }
+                }
+                long double varAns;
+                std::from_chars(arg.data(), arg.data() + arg.size(), varAns);
+                this->value = varAns;
+            } else if constexpr (std::is_same_v< U, wchar_t >) {
+                from_int< typename Number_8_16_32< sizeof(wchar_t) * 8 >::unsigned_type >(arg);
+            } else if constexpr (std::is_same_v< U, char16_t >) {
+                from_int< typename Number_8_16_32<16>::unsigned_type >(arg);
+            } else if constexpr (std::is_same_v< U, char32_t >) {
+                from_int< typename Number_8_16_32<32>::unsigned_type >(arg);
+            } else if constexpr (std::is_same_v< U, char >) {
+                from_int< typename Number_8_16_32<8>::unsigned_type >(arg);
+            } else if constexpr (std::is_same_v< U, signed char >) {
+                from_int< typename Number_8_16_32<8>::type >(arg);
+            } else if constexpr (std::is_same_v< U, unsigned char >) {
+                from_int< typename Number_8_16_32<8>::unsigned_type >(arg);
+            } else {
+                /* https://en.cppreference.com/w/cpp/utility/from_chars */
+                std::from_chars_result varAns =
+                    std::from_chars(arg.data(), arg.data() + arg.size(), this->value);
+                if (varAns.ec == std::errc{}) {
+                    return;
+                }
+                if constexpr (std::numeric_limits<U>::has_quiet_NaN) {
+                    this->value = std::numeric_limits<U>::quiet_NaN();
+                    return;
+                } else {
+                    this->value = 0;
+                    return;
+                }
+            }
+        }
+
+    private:
+
+        template<typename U>
+        inline void from_int(const std::string_view & arg) {
+            auto var = reinterpret_cast<U *>(&(this->value));
+            std::from_chars_result varAns =
+                std::from_chars(arg.data(), arg.data() + arg.size(), *var);
+            if (varAns.ec == std::errc{}) {
+                return;
+            }
+            *var = 0;
+        }
+
+    private:
+        sstd_class(StaticFromStringViewWrap);
     };
 
     template< typename TF, typename TT >
@@ -298,7 +406,7 @@ namespace _theSSTDLibraryStaticVariantFile {
             using T = std::remove_cv_t< std::remove_reference_t<T1> >;
             auto varAns = sstd_new<StringViewWrap>();
             varAns->fromValue(*reinterpret_cast<T *>(arg));
-            return { varAns , [](void * arg) { 
+            return { varAns , [](void * arg) {
                 delete reinterpret_cast<StringViewWrap *>(arg); } };
         }
     private:
@@ -314,6 +422,15 @@ namespace _theSSTDLibraryStaticVariantFile {
         /*从数字转为字符串*/
         varAns->registerCastFunction(f.value, varStringViewIndex,
             &StringViewWrap::createCastFunction<index_t>);
+        /*从字符转为数字*/
+        varAns->registerCastFunction(varStringViewIndex, f.value, [](void * arg)
+            ->std::pair<void*, void(*)(void *)> {
+            auto varString = reinterpret_cast<std::string_view *>(arg);
+            auto varAns = sstd_new< StaticFromStringViewWrap< index_t > >(*varString);
+            return { varAns,[](void * arg) {
+                delete reinterpret_cast<StaticFromStringViewWrap< index_t > *>(arg);
+            } };
+        });
     }
 
     template<typename ... T>
@@ -334,6 +451,7 @@ namespace _theSSTDLibraryStaticVariantFile {
                 TheIndex< unsigned char, sstd_cstr("unsigned char") >,
                 TheIndex< char16_t, sstd_cstr("char16_t") >,
                 TheIndex< char32_t, sstd_cstr("char32_t") >,
+                TheIndex< wchar_t, sstd_cstr("wchar_t") >,
                 TheIndex< int, sstd_cstr("int") >,
                 TheIndex< unsigned int, sstd_cstr("unsigned int") >,
                 TheIndex< short, sstd_cstr("short") >,
@@ -366,7 +484,7 @@ namespace _theSSTDLibraryStaticVariantFile {
                     registerToStringViewCast(varAns, varStringViewID, args...);
                 }, varNumbers);
             }
-                                 
+
             return varAns;
         }();
         return *varAns;
