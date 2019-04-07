@@ -252,7 +252,7 @@ namespace _theSSTDLibraryStaticVariantFile {
         inline StaticFromStringViewWrap(const std::string_view & arg) {
             using U = std::remove_cv_t< std::remove_reference_t< T > >;
             if constexpr (std::is_same_v< U, bool >) {
-              
+
                 /* http://www.cplusplus.com/reference/regex/basic_regex/ */
                 {
                     const static std::regex varTrue{ u8R"(\s*true\s*)" ,std::regex_constants::ECMAScript |
@@ -468,6 +468,11 @@ namespace _theSSTDLibraryStaticVariantFile {
             auto varStringViewID = varAns->registerTypeID(typeid(std::string_view));
             {
                 varAns->registerTypeName(varStringViewID, sstd_cstr("std::string_view")::toStringView());
+            }
+
+            {
+                varAns->registerTypeName(varAns->registerTypeID(typeid(void)), 
+                    sstd_cstr("void")::toStringView());
             }
 
             {
