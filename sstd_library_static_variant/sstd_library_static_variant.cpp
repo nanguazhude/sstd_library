@@ -485,7 +485,7 @@ namespace _theSSTDLibraryStaticVariantFile {
                 std::apply([varAns](auto && ... args) {
                     registerStaticTypeCast(varAns, args ...);
                 }, varNumbers);
-                /*注册转型为string view*/
+                /*注册与string view相互转换*/
                 std::apply([varAns, varStringViewID](auto && ... args) {
                     registerToStringViewCast(varAns, varStringViewID, args...);
                 }, varNumbers);
