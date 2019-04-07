@@ -118,21 +118,23 @@ namespace sstd {
             return;
         }
         
-        /*�ı���������...*/
+        /*改变对象管理者...*/
         for ( auto & varI : thisPrivate->allItems ) {
             varI.manager = arg;
         }
 
-        /*�����������ƶ�����һ��������...*/
+        /*将所有数据移动到另一个管理器...*/
         arg->thisPrivate->allItems.splice(arg->thisPrivate->allItems.begin(),
             std::move( thisPrivate->allItems ));
         assert(thisPrivate->allItems.empty());
 
-        /*�����и������ƶ�����һ��������...*/
+        /*将所有根对象移动到另一个管理器...*/
         auto & varTargetRoot = arg->thisPrivate->root;
         for (const auto & varI : thisPrivate->root) {
             varTargetRoot.insert(varI);
         }
+
+        /*清空状态*/
         thisPrivate->root.clear();
         thisPrivate->lastGCSize = thisPrivate->minGCItemsSize ;
     }
