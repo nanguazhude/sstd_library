@@ -9,8 +9,8 @@ namespace sstd {
     class ReallyGCMemoryNodeWatcher final :
         public GCMemoryNodeWatcher {
     public:
-        using WatcherList = std::list< ReallyGCMemoryNodeWatcher >;
-        using WatcherPointerList = std::list< GCMemoryNodeWatcher * >;
+        using WatcherList = std::list< ReallyGCMemoryNodeWatcher , sstd::allocator< ReallyGCMemoryNodeWatcher> >;
+        using WatcherPointerList = std::list< GCMemoryNodeWatcher * , sstd::allocator< GCMemoryNodeWatcher * > >;
         WatcherList::iterator thePos;
         std::optional< WatcherPointerList::iterator > rootPos;
         inline ReallyGCMemoryNodeWatcher();
@@ -124,7 +124,8 @@ namespace sstd {
                 varPos->state = GCMemoryNodeState::White;
             }
         }
-
+    private:
+        sstd_class(GCMemoryManagerPrivate);
     };
 
     void GCMemoryManager::moveToAnotherGCManager(GCMemoryNode * argFrom, 
