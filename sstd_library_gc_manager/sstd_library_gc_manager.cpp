@@ -9,8 +9,8 @@ namespace sstd {
     class ReallyGCMemoryNodeWatcher final :
         public GCMemoryNodeWatcher {
     public:
-        using WatcherList = std::list< ReallyGCMemoryNodeWatcher , sstd::allocator< ReallyGCMemoryNodeWatcher> >;
-        using WatcherPointerList = std::list< GCMemoryNodeWatcher * , sstd::allocator< GCMemoryNodeWatcher * > >;
+        using WatcherList = std::list< ReallyGCMemoryNodeWatcher, sstd::allocator< ReallyGCMemoryNodeWatcher> >;
+        using WatcherPointerList = std::list< GCMemoryNodeWatcher *, sstd::allocator< GCMemoryNodeWatcher * > >;
         WatcherList::iterator thePos;
         std::optional< WatcherPointerList::iterator > rootPos;
         inline ReallyGCMemoryNodeWatcher();
@@ -128,9 +128,9 @@ namespace sstd {
         sstd_class(GCMemoryManagerPrivate);
     };
 
-    void GCMemoryManager::moveToAnotherGCManager(GCMemoryNode * argFrom, 
+    void GCMemoryManager::moveToAnotherGCManager(GCMemoryNode * argFrom,
         GCMemoryManager * argTo) {
-        if (this==argTo) {
+        if (this == argTo) {
             return;
         }
         auto varWatcher =
@@ -138,8 +138,8 @@ namespace sstd {
         if (varWatcher->state == GCMemoryNodeState::IsDeleted) {
             return;
         }
-        assert( varWatcher->manager == this );
-  
+        assert(varWatcher->manager == this);
+
         argTo->thisPrivate->allItems.splice(
             argTo->thisPrivate->allItems.begin(),
             thisPrivate->allItems,
