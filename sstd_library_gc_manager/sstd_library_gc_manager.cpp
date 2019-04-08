@@ -157,6 +157,7 @@ namespace sstd {
 
         varWatcher->manager = argTo;
 
+        argTo->try_gc();
     }
 
     void GCMemoryManager::moveToAnotherGCManager(GCMemoryManager * arg) {
@@ -180,6 +181,8 @@ namespace sstd {
 
         /*更新其余状态*/
         thisPrivate->lastGCSize = thisPrivate->minGCItemsSize;
+
+        arg->try_gc();
     }
 
     void GCMemoryManager::markAsRoot(GCMemoryNode * arg) {
@@ -204,6 +207,18 @@ namespace sstd {
         argWatcher->rootPos.reset();
     }
 
+    /*对象数量比上一次加倍，进行gc*/
+    void GCMemoryManager::try_gc() {
+        if (thisPrivate->allItems.size() <= thisPrivate->lastGCSize) {
+            return;
+        }
+
+        if ((thisPrivate->allItems.size() - thisPrivate->lastGCSize)
+            >= thisPrivate->lastGCSize) {
+            thisPrivate->gc();
+        }
+    }
+
     void GCMemoryManager::addNode(GCMemoryNode * arg) {
         assert(arg->thisWatcher == nullptr);
         auto & var = thisPrivate->allItems.emplace_front();
@@ -214,16 +229,7 @@ namespace sstd {
         assert(arg->thisWatcher->node == nullptr);
         arg->thisWatcher->node = arg;
         arg->thisWatcher->state = GCMemoryNodeState::Black;
-
-        if (thisPrivate->allItems.size() <= thisPrivate->lastGCSize) {
-            return;
-        }
-
-        if ((thisPrivate->allItems.size() - thisPrivate->lastGCSize)
-            >= thisPrivate->lastGCSize) {
-            thisPrivate->gc();
-        }
-
+        this->try_gc();
     }
 
     void GCMemoryManager::gc() {

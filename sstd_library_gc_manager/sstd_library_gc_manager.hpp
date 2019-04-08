@@ -88,6 +88,7 @@ namespace sstd {
         void moveToAnotherGCManager(GCMemoryNode *, GCMemoryManager *);
     private:
         void addNode(GCMemoryNode *);
+        void try_gc();
     public:
         GCMemoryManager();
         ~GCMemoryManager();
