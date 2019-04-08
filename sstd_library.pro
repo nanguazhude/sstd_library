@@ -57,6 +57,9 @@ HEADERS += $$PWD/sstd_library_static_variant/sstd_library_static_variant.hpp
 SOURCES += $$PWD/sstd_library_application/sstd_library_application.cpp
 HEADERS += $$PWD/sstd_library_application/sstd_library_application.hpp
 
+SOURCES += $$PWD/sstd_library_gc_manager/sstd_library_gc_manager.cpp
+HEADERS += $$PWD/sstd_library_gc_manager/sstd_library_gc_manager.hpp
+
 SOURCES += $$PWD/sstd_library_cached_dynamic_cast/sstd_private_runtime_cast_gcc.cpp
 SOURCES += $$PWD/sstd_library_cached_dynamic_cast/sstd_private_runtime_cast_msvc.cpp
 

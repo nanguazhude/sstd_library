@@ -1,5 +1,6 @@
-﻿
-#pragma once
+﻿#pragma once
+
+#include "../sstd_library.hpp"
 
 namespace sstd {
 
@@ -15,14 +16,14 @@ namespace sstd {
         IsDeleted
     };
 
-    class GCMemoryNodeChildrenWalker {
+    class SSTD_SYMBOL_DECL GCMemoryNodeChildrenWalker {
         void * data;
     public:
         GCMemoryNodeChildrenWalker(void *);
         void findChild(GCMemoryNode *);
     };
 
-    class GCMemoryNodeWatcher {
+    class SSTD_SYMBOL_DECL GCMemoryNodeWatcher {
         friend class GCMemoryManager;
         friend class GCMemoryManagerPrivate;
         friend class GCMemoryNode;
@@ -38,9 +39,11 @@ namespace sstd {
         inline GCMemoryNodeState getState() const {
             return state;
         }
+    private:
+        sstd_class(GCMemoryNodeWatcher);
     };
 
-    class GCMemoryNode {
+    class SSTD_SYMBOL_DECL GCMemoryNode {
         GCMemoryNodeWatcher * thisWatcher{ nullptr };
         friend class GCMemoryManager;
     private:
@@ -51,7 +54,7 @@ namespace sstd {
     public:
         virtual ~GCMemoryNode();
         GCMemoryNode(GCMemoryManager *);
-        GCMemoryNode(GCMemoryNode *parent);
+        GCMemoryNode(GCMemoryNode *);
         virtual void directChildren(GCMemoryNodeChildrenWalker *);
         inline GCMemoryNodeWatcher * getGCMemoryWatcher()const {
             return thisWatcher;
@@ -59,9 +62,11 @@ namespace sstd {
         template<bool = true>
         inline void markAsRoot();
         inline void markAsDeleted();
+    private:
+        sstd_class(GCMemoryNode);
     };
 
-    class GCMemoryManager {
+    class SSTD_SYMBOL_DECL GCMemoryManager {
         GCMemoryManagerPrivate * const thisPrivate;
         GCMemoryManager(const GCMemoryManager &) = delete;
         GCMemoryManager(GCMemoryManager&&) = delete;
@@ -79,6 +84,8 @@ namespace sstd {
     public:
         GCMemoryManager();
         ~GCMemoryManager();
+    private:
+        sstd_class(GCMemoryManager);
     };
 
     template<bool arg>

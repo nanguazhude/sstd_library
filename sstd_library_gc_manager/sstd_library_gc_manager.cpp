@@ -1,5 +1,4 @@
-﻿
-#include <set>
+﻿#include <set>
 #include <list>
 #include <cassert>
 #include "sstd_library_gc_manager.hpp"
@@ -117,7 +116,7 @@ namespace sstd {
         if (this==arg) {
             return;
         }
-        
+
         /*改变对象管理者...*/
         for ( auto & varI : thisPrivate->allItems ) {
             varI.manager = arg;
