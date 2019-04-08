@@ -25,6 +25,7 @@ namespace sstd {
         void findChild(GCMemoryNode *);
     };
 
+    class ReallyGCMemoryNodeWatcher;
     class SSTD_SYMBOL_DECL GCMemoryNodeWatcher {
         friend class GCMemoryManager;
         friend class GCMemoryManagerPrivate;
@@ -75,6 +76,7 @@ namespace sstd {
         GCMemoryManager&operator=(const GCMemoryManager &) = delete;
         GCMemoryManager&operator=(GCMemoryManager&&) = delete;
         friend class GCMemoryNode;
+        friend class ReallyGCMemoryNodeWatcher;
     public:
         void markAsRoot(GCMemoryNode *);
         void removeFromRoot(GCMemoryNode *);

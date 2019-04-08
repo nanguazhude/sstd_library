@@ -1,22 +1,28 @@
 ﻿#include <set>
 #include <list>
 #include <cassert>
+#include <optional>
 #include "sstd_library_gc_manager.hpp"
 
 namespace sstd {
 
-    class ReallyGCMemoryNodeWatcher :
+    class ReallyGCMemoryNodeWatcher final :
         public GCMemoryNodeWatcher {
     public:
         using WatcherList = std::list< ReallyGCMemoryNodeWatcher >;
         using WatcherPointerList = std::list< GCMemoryNodeWatcher * >;
+        std::optional< WatcherPointerList::iterator > rootPos;
+        inline ReallyGCMemoryNodeWatcher();
+        inline ~ReallyGCMemoryNodeWatcher();
     };
 
     GCMemoryNodeChildrenWalker::GCMemoryNodeChildrenWalker(void * arg) :
         data(arg) {
     }
 
+    /*将未扫描到的（白）加入待扫描列表（灰）*/
     void GCMemoryNodeChildrenWalker::findChild(GCMemoryNode * arg) {
+
         auto varWatcher = arg->getGCMemoryWatcher();
         auto grayList = reinterpret_cast<
             ReallyGCMemoryNodeWatcher::WatcherPointerList*>(data);
@@ -31,7 +37,7 @@ namespace sstd {
     class GCMemoryManagerPrivate {
     public:
         constexpr const static std::size_t minGCItemsSize{ 512 };
-        std::set< GCMemoryNodeWatcher * > root;
+        ReallyGCMemoryNodeWatcher::WatcherPointerList root;
         ReallyGCMemoryNodeWatcher::WatcherList allItems;
         std::size_t lastGCSize{ minGCItemsSize };
 
@@ -41,6 +47,10 @@ namespace sstd {
         inline ~GCMemoryManagerPrivate() {
             for (auto & varI : allItems) {
                 eraseANode(&varI);
+            }
+            for (auto & varI : root) {
+                reinterpret_cast<ReallyGCMemoryNodeWatcher*>(varI)
+                    ->rootPos.reset();
             }
             root.clear();
             allItems.clear();
@@ -63,6 +73,10 @@ namespace sstd {
                 auto varEndPos = root.end();
                 for (; varPos != varEndPos; ++varPos) {
                     if ((*varPos)->state == GCMemoryNodeState::IsDeleted) {
+                        {
+                            reinterpret_cast<ReallyGCMemoryNodeWatcher*>(*varPos)
+                                ->rootPos.reset();
+                        }
                         varPos = root.erase(varPos);
                         goto label_for_add_root_to_gray_list;
                     } else if ((*varPos)->state == GCMemoryNodeState::White) {
@@ -113,39 +127,48 @@ namespace sstd {
     };
 
     void GCMemoryManager::moveToAnotherGCManager(GCMemoryManager * arg) {
-        if (this==arg) {
+        if (this == arg) {
             return;
         }
 
         /*改变对象管理者...*/
-        for ( auto & varI : thisPrivate->allItems ) {
+        for (auto & varI : thisPrivate->allItems) {
             varI.manager = arg;
         }
 
         /*将所有数据移动到另一个管理器...*/
         arg->thisPrivate->allItems.splice(arg->thisPrivate->allItems.begin(),
-            std::move( thisPrivate->allItems ));
+            std::move(thisPrivate->allItems));
         assert(thisPrivate->allItems.empty());
 
         /*将所有根对象移动到另一个管理器...*/
-        auto & varTargetRoot = arg->thisPrivate->root;
-        for (const auto & varI : thisPrivate->root) {
-            varTargetRoot.insert(varI);
-        }
+        arg->thisPrivate->root.splice(arg->thisPrivate->root.begin(),
+            std::move(thisPrivate->root));
 
-        /*清空状态*/
-        thisPrivate->root.clear();
-        thisPrivate->lastGCSize = thisPrivate->minGCItemsSize ;
+        /*更新其余状态*/
+        thisPrivate->lastGCSize = thisPrivate->minGCItemsSize;
     }
 
     void GCMemoryManager::markAsRoot(GCMemoryNode * arg) {
         assert(arg->thisWatcher->manager == this);
-        thisPrivate->root.insert(arg->thisWatcher);
+        auto argWatcher =
+            reinterpret_cast<ReallyGCMemoryNodeWatcher*>(arg->thisWatcher);
+        if (argWatcher->rootPos) {
+            return/*it is root , do not need mark again ... */;
+        }
+        thisPrivate->root.push_front(arg->thisWatcher);
+        argWatcher->rootPos.emplace(thisPrivate->root.begin());
     }
 
     void GCMemoryManager::removeFromRoot(GCMemoryNode * arg) {
         assert(arg->thisWatcher->manager == this);
-        thisPrivate->root.erase(arg->thisWatcher);
+        auto argWatcher =
+            reinterpret_cast<ReallyGCMemoryNodeWatcher*>(arg->thisWatcher);
+        if (!(argWatcher->rootPos)) {
+            return/*it is not root , do not need remove from root ...*/;
+        }
+        thisPrivate->root.erase(*(argWatcher->rootPos));
+        argWatcher->rootPos.reset();
     }
 
     void GCMemoryManager::addNode(GCMemoryNode * arg) {
@@ -197,6 +220,15 @@ namespace sstd {
 
     GCMemoryNode::~GCMemoryNode() {
         thisWatcher->state = GCMemoryNodeState::IsDeleted;
+    }
+
+    inline ReallyGCMemoryNodeWatcher::ReallyGCMemoryNodeWatcher() {
+    }
+
+    inline ReallyGCMemoryNodeWatcher::~ReallyGCMemoryNodeWatcher() {
+        if (rootPos) {
+            getManager()->thisPrivate->root.erase(*rootPos);
+        }
     }
 
 }/*namespace sstd*/
