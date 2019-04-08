@@ -11,6 +11,7 @@ namespace sstd {
     public:
         using WatcherList = std::list< ReallyGCMemoryNodeWatcher >;
         using WatcherPointerList = std::list< GCMemoryNodeWatcher * >;
+        WatcherList::iterator thePos;
         std::optional< WatcherPointerList::iterator > rootPos;
         inline ReallyGCMemoryNodeWatcher();
         inline ~ReallyGCMemoryNodeWatcher();
@@ -126,6 +127,26 @@ namespace sstd {
 
     };
 
+    void GCMemoryManager::moveToAnotherGCManager(GCMemoryNode * argFrom, 
+        GCMemoryManager * argTo) {
+        if (this==argTo) {
+            return;
+        }
+        auto varWatcher =
+            reinterpret_cast<ReallyGCMemoryNodeWatcher *>(argFrom->thisWatcher);
+        if (varWatcher->state == GCMemoryNodeState::IsDeleted) {
+            return;
+        }
+        assert( varWatcher->manager == this );
+        bool varIsRoot = static_cast<bool>( varWatcher->rootPos );
+        thisPrivate->allItems.erase( varWatcher->thePos );
+        argFrom->thisWatcher = nullptr;
+        argTo->addNode(argFrom);
+        if (varIsRoot) {
+            argTo->markAsRoot(argFrom);
+        }
+    }
+
     void GCMemoryManager::moveToAnotherGCManager(GCMemoryManager * arg) {
         if (this == arg) {
             return;
@@ -172,7 +193,9 @@ namespace sstd {
     }
 
     void GCMemoryManager::addNode(GCMemoryNode * arg) {
+        assert(arg->thisWatcher == nullptr);
         auto & var = thisPrivate->allItems.emplace_front();
+        var.thePos = thisPrivate->allItems.begin();
         arg->thisWatcher = &var;
         assert(arg->thisWatcher->manager == nullptr);
         arg->thisWatcher->manager = this;
@@ -229,6 +252,14 @@ namespace sstd {
         if (rootPos) {
             getManager()->thisPrivate->root.erase(*rootPos);
         }
+    }
+
+    GCMemoryNodeWatcher::~GCMemoryNodeWatcher() {
+    }
+
+    GCMemoryNodeWatcher::GCMemoryNodeWatcher() :
+        manager(nullptr),
+        node(nullptr) {
     }
 
 }/*namespace sstd*/

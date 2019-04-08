@@ -32,8 +32,8 @@ namespace sstd {
         friend class GCMemoryNode;
         friend class GCMemoryNodeChildrenWalker;
     private:
-        GCMemoryManager * manager{ nullptr };
-        GCMemoryNode * node{ nullptr };
+        GCMemoryManager * manager;
+        GCMemoryNode * node;
         GCMemoryNodeState state;
     public:
         inline GCMemoryManager * getManager() const {
@@ -42,6 +42,8 @@ namespace sstd {
         inline GCMemoryNodeState getState() const {
             return state;
         }
+        ~GCMemoryNodeWatcher();
+        GCMemoryNodeWatcher();
     private:
         sstd_class(GCMemoryNodeWatcher);
     };
@@ -83,6 +85,7 @@ namespace sstd {
         void gc();
         void markAsDeleted(GCMemoryNode *);
         void moveToAnotherGCManager(GCMemoryManager *);
+        void moveToAnotherGCManager(GCMemoryNode *, GCMemoryManager *);
     private:
         void addNode(GCMemoryNode *);
     public:
