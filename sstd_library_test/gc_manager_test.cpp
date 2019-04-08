@@ -38,15 +38,15 @@ public:
     }
 public:
     inline void construct() {
-        sstd::GCMemoryManagerConstructLock varLcok{this};
+        std::unique_lock varLock{ *getGCMemoryManager() };
         a = this;
         b = this;
         c = this;
         for (auto & varI : data) {
             if (std::rand() & 1) {
-                varI = sstd_new< A >(this->getGCMemoryManager());
+                varI = sstd::GCMemoryManager::createObject<A>(varLock);
             } else {
-                varI = sstd_new< B >(this->getGCMemoryManager());
+                varI = sstd::GCMemoryManager::createObject<B>(varLock);
             }
         }
     }
@@ -71,11 +71,14 @@ void testGCManager() {
     auto varManager =
         sstd_make_shared<sstd::GCMemoryManager>();
 
-    auto varObject =
-        varManager->createObject<C>();
-
-    varObject->markAsRoot();
-    varObject->construct();
+    C * varObject;
+    {
+        /*构造的时候暂停gc*/
+        std::unique_lock varLock{ *varManager };
+        varObject = varManager->createObject<C>(varLock);
+        varObject->markAsRoot();
+        varObject->construct();
+    }
     
     varManager->gc();
     varManager->gc();

@@ -51,7 +51,7 @@ namespace sstd {
         ReallyGCMemoryNodeWatcher::WatcherPointerList root;
         ReallyGCMemoryNodeWatcher::WatcherList allItems;
         std::size_t lastGCSize{ minGCItemsSize };
-
+        std::int32_t pauseGCCount{ 0 };
         inline GCMemoryManagerPrivate() {
         }
 
@@ -74,6 +74,10 @@ namespace sstd {
 
         /*gc算法很简单，相当于做一个深度最优先遍历*/
         inline void gc() {
+
+            if (pauseGCCount > 0) {
+                return;
+            }
 
             GrayListType varGray;
 
@@ -216,6 +220,11 @@ namespace sstd {
 
     /*对象数量比上一次加倍，进行gc*/
     void GCMemoryManager::try_gc() {
+
+        if (thisPrivate->pauseGCCount > 0) {
+            return;
+        }
+
         if (thisPrivate->allItems.size() <= thisPrivate->lastGCSize) {
             return;
         }
@@ -245,6 +254,15 @@ namespace sstd {
 
     void GCMemoryManager::markAsDeleted(GCMemoryNode * arg) {
         arg->thisWatcher->state = GCMemoryNodeState::IsDeleted;
+    }
+
+    void GCMemoryManager::lock()  {
+        ++thisPrivate->pauseGCCount;
+    }
+
+    void GCMemoryManager::unlock() {
+        --thisPrivate->pauseGCCount;
+        try_gc();
     }
 
     GCMemoryManager::~GCMemoryManager() {
