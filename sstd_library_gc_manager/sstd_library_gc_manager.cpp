@@ -66,6 +66,7 @@ namespace sstd {
             }
         }
 
+        /*gc算法很简单，相当于做一个深度最优先遍历*/
         inline void gc() {
 
             GrayListType varGray;
