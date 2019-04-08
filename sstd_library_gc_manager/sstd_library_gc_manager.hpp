@@ -59,10 +59,12 @@ namespace sstd {
     public:
         virtual ~GCMemoryNode();
         GCMemoryNode(GCMemoryManager *);
-        GCMemoryNode(GCMemoryNode *);
         virtual void directChildren(GCMemoryNodeChildrenWalker *);
         inline GCMemoryNodeWatcher * getGCMemoryWatcher()const {
             return thisWatcher;
+        }
+        inline GCMemoryManager * getGCMemoryManager() const {
+            return thisWatcher->getManager();
         }
         template<bool = true>
         inline void markAsRoot();
@@ -88,7 +90,7 @@ namespace sstd {
         void moveToAnotherGCManager(GCMemoryNode *, GCMemoryManager *);
     public:
         template<typename T   >
-        inline T * createObject( );
+        inline T * createObject();
     private:
         void addNode(GCMemoryNode *);
         void try_gc();
@@ -98,6 +100,30 @@ namespace sstd {
     private:
         sstd_class(GCMemoryManager);
     };
+
+    template<bool \uacfa1 = false>
+    class GCMemoryManagerConstructLock {
+        GCMemoryNode * const thisNode;
+    public:
+        inline GCMemoryManagerConstructLock(GCMemoryNode *);
+        inline ~GCMemoryManagerConstructLock();
+    private:
+        sstd_delete_copy_create(GCMemoryManagerConstructLock);
+    private:
+        sstd_class(GCMemoryManagerConstructLock);
+    };
+
+    template<bool \uacfa1>
+    inline GCMemoryManagerConstructLock<\uacfa1>::GCMemoryManagerConstructLock(GCMemoryNode * arg) :thisNode(arg) {
+        thisNode->markAsRoot<true>();
+    }
+
+    template<bool \uacfa1>
+    inline GCMemoryManagerConstructLock<\uacfa1>::~GCMemoryManagerConstructLock() {
+        if constexpr (\uacfa1 == false) {
+            thisNode->markAsRoot<false>();
+        }
+    }
 
     template<bool arg>
     inline void GCMemoryNode::markAsRoot() {

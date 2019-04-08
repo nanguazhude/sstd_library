@@ -248,10 +248,6 @@ namespace sstd {
         thisPrivate{ sstd_new< GCMemoryManagerPrivate >() } {
     }
 
-    GCMemoryNode::GCMemoryNode(GCMemoryNode *parent) :
-        GCMemoryNode(parent->thisWatcher->manager) {
-    }
-
     GCMemoryNode::GCMemoryNode(GCMemoryManager * arg) {
         arg->addNode(this);
     }

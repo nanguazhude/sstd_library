@@ -42,6 +42,7 @@ public:
     }
 public:
     inline void construct() {
+        sstd::GCMemoryManagerConstructLock varLcok{this};
         a = this;
         b = this;
         c = this;
@@ -72,7 +73,7 @@ public:
 void testGCManager() {
 
     auto varManager =
-        sstd_make_shared<  sstd::GCMemoryManager>();
+        sstd_make_shared<sstd::GCMemoryManager>();
 
     auto varObject =
         varManager->createObject<C>();
