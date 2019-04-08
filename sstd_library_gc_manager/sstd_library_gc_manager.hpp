@@ -16,10 +16,12 @@ namespace sstd {
         IsDeleted
     };
 
-    class SSTD_SYMBOL_DECL GCMemoryNodeChildrenWalker {
+    class SSTD_SYMBOL_DECL GCMemoryNodeChildrenWalker final {
         void * data;
-    public:
+        friend class GCMemoryManagerPrivate;
+    private:
         GCMemoryNodeChildrenWalker(void *);
+    public:
         void findChild(GCMemoryNode *);
     };
 
