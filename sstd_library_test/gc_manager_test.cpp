@@ -74,9 +74,9 @@ void testGCManager() {
     auto varObject =
         varManager->createObject<C>();
 
-    varObject->construct();
     varObject->markAsRoot();
-
+    varObject->construct();
+    
     varManager->gc();
     varManager->gc();
 

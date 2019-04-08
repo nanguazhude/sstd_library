@@ -20,8 +20,13 @@ namespace sstd {
     public:
         std::int32_t rootCount{ 0 };
         WatcherList::iterator thePos;
-        std::optional< WatcherPointerList::iterator > rootPos;
+        WatcherPointerList::iterator rootPos;
     };
+
+    inline bool isRoot(GCMemoryNodeWatcher * arg) {
+        return (reinterpret_cast<ReallyGCMemoryNodeWatcher *>(arg)
+            ->rootCount) > 0;
+    }
 
     GCMemoryNodeChildrenWalker::GCMemoryNodeChildrenWalker(void * arg) :
         data(arg) {
@@ -55,8 +60,7 @@ namespace sstd {
                 eraseANode(&varI);
             }
             for (auto & varI : root) {
-                reinterpret_cast<ReallyGCMemoryNodeWatcher*>(varI)
-                    ->rootPos.reset();
+                reinterpret_cast<ReallyGCMemoryNodeWatcher*>(varI)->rootCount = 0;
             }
             root.clear();
             allItems.clear();
@@ -80,8 +84,7 @@ namespace sstd {
                 for (; varPos != varEndPos; ++varPos) {
                     if ((*varPos)->state == GCMemoryNodeState::IsDeleted) {
                         {
-                            reinterpret_cast<ReallyGCMemoryNodeWatcher*>(*varPos)
-                                ->rootPos.reset();
+                            reinterpret_cast<ReallyGCMemoryNodeWatcher*>(*varPos)->rootCount = 0;
                         }
                         varPos = root.erase(varPos);
                         goto label_for_add_root_to_gray_list;
@@ -150,11 +153,11 @@ namespace sstd {
             thisPrivate->allItems,
             varWatcher->thePos);
 
-        if (varWatcher->rootPos) {
+        if (isRoot(varWatcher)) {
             argTo->thisPrivate->root.splice(
                 argTo->thisPrivate->root.begin(),
                 thisPrivate->root,
-                *(varWatcher->rootPos));
+                varWatcher->rootPos);
         }
 
         varWatcher->manager = argTo;
@@ -192,11 +195,11 @@ namespace sstd {
         auto argWatcher =
             reinterpret_cast<ReallyGCMemoryNodeWatcher*>(arg->thisWatcher);
         ++(argWatcher->rootCount);
-        if (argWatcher->rootPos) {
-            return/*it is root , do not need mark again ... */;
+        if (argWatcher->rootCount!=1) {
+            return/*mark to root only once...*/;
         }
         thisPrivate->root.push_front(arg->thisWatcher);
-        argWatcher->rootPos.emplace(thisPrivate->root.begin());
+        argWatcher->rootPos = thisPrivate->root.begin();
     }
 
     void GCMemoryManager::removeFromRoot(GCMemoryNode * arg) {
@@ -207,9 +210,8 @@ namespace sstd {
         if (argWatcher->rootCount > 0) {
             return;
         }
-        assert (argWatcher->rootPos);
-        thisPrivate->root.erase(*(argWatcher->rootPos));
-        argWatcher->rootPos.reset();
+        thisPrivate->root.erase(argWatcher->rootPos);
+        argWatcher->rootCount = 0;
     }
 
     /*对象数量比上一次加倍，进行gc*/
@@ -268,8 +270,8 @@ namespace sstd {
     }
 
     inline ReallyGCMemoryNodeWatcher::~ReallyGCMemoryNodeWatcher() {
-        if (rootPos) {
-            getManager()->thisPrivate->root.erase(*rootPos);
+        if (isRoot(this)) {
+            getManager()->thisPrivate->root.erase(rootPos);
         }
     }
 
