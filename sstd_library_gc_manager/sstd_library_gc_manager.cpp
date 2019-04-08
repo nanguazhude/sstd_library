@@ -2,9 +2,13 @@
 #include <list>
 #include <cassert>
 #include <optional>
+#include <forward_list>
 #include "sstd_library_gc_manager.hpp"
 
 namespace sstd {
+
+    using GrayListType = std::forward_list<GCMemoryNodeWatcher *,
+        sstd::allocator< GCMemoryNodeWatcher * > >;
 
     class ReallyGCMemoryNodeWatcher final :
         public GCMemoryNodeWatcher {
@@ -25,12 +29,11 @@ namespace sstd {
     void GCMemoryNodeChildrenWalker::findChild(GCMemoryNode * arg) {
 
         auto varWatcher = arg->getGCMemoryWatcher();
-        auto grayList = reinterpret_cast<
-            ReallyGCMemoryNodeWatcher::WatcherPointerList*>(data);
+        auto grayList = reinterpret_cast<GrayListType*>(data);
 
         if (varWatcher->getState() == GCMemoryNodeState::White) {
             varWatcher->state = GCMemoryNodeState::Gray;
-            grayList->push_back(varWatcher);
+            grayList->push_front(varWatcher);
         }
 
     }
@@ -65,7 +68,6 @@ namespace sstd {
 
         inline void gc() {
 
-            using GrayListType = ReallyGCMemoryNodeWatcher::WatcherPointerList;
             GrayListType varGray;
 
             {
@@ -82,7 +84,7 @@ namespace sstd {
                         goto label_for_add_root_to_gray_list;
                     } else if ((*varPos)->state == GCMemoryNodeState::White) {
                         (*varPos)->state = GCMemoryNodeState::Gray;
-                        varGray.push_back(*varPos);
+                        varGray.push_front(*varPos);
                     }
                 }
             }
