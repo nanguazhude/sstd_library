@@ -245,7 +245,7 @@ namespace sstd {
     }
 
     GCMemoryManager::GCMemoryManager() :
-        thisPrivate{ new GCMemoryManagerPrivate } {
+        thisPrivate{ sstd_new< GCMemoryManagerPrivate >() } {
     }
 
     GCMemoryNode::GCMemoryNode(GCMemoryNode *parent) :

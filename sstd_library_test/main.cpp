@@ -103,8 +103,13 @@ void lua_test() {
 extern void constexpr_test();
 extern void tuple_test();
 extern void static_type_test();
+extern void testGCManager();
 
 int main(int, char **) {
+
+    {
+        testGCManager();
+    }
 
     {
         static_type_test();

@@ -86,6 +86,9 @@ namespace sstd {
         void markAsDeleted(GCMemoryNode *);
         void moveToAnotherGCManager(GCMemoryManager *);
         void moveToAnotherGCManager(GCMemoryNode *, GCMemoryManager *);
+    public:
+        template<typename T   >
+        inline T * createObject( );
     private:
         void addNode(GCMemoryNode *);
         void try_gc();
@@ -107,6 +110,12 @@ namespace sstd {
 
     inline void GCMemoryNode::markAsDeleted() {
         thisWatcher->getManager()->markAsDeleted(this);
+    }
+
+    template<typename T1 >
+    inline T1 * GCMemoryManager::createObject() {
+        using T = std::remove_cv_t< std::remove_reference_t<T1> >;
+        return sstd_new<T>(this);
     }
 
 }/*namespace sstd*/

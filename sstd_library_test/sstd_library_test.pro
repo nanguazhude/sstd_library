@@ -19,6 +19,7 @@ HEADERS += $$PWD/lua_full_test.hpp
 SOURCES += $$PWD/constexpr_test.cpp
 SOURCES += $$PWD/tuple_test.cpp
 SOURCES += $$PWD/static_type_test.cpp
+SOURCES += $$PWD/gc_manager_test.cpp
 
 include($$PWD/../sstd_library.pri)
 DESTDIR = $${SSTD_LIBRARY_OUTPUT_PATH}
