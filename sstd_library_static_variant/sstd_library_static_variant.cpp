@@ -5,8 +5,11 @@
 #include <unordered_map>
 #include <shared_mutex>
 #include <limits>
-#include <charconv>
 #include <regex>
+
+#if defined(_MSC_VER)
+#include <charconv>
+#endif
 
 namespace _theSSTDLibraryStaticVariantFile {
 
@@ -222,6 +225,8 @@ namespace _theSSTDLibraryStaticVariantFile {
         sstd_class(StaticTypeWrap);
     };
 
+#if defined(_MSC_VER)
+
     template<std::size_t>
     class Number_8_16_32;
 
@@ -325,6 +330,8 @@ namespace _theSSTDLibraryStaticVariantFile {
         sstd_class(StaticFromStringViewWrap);
     };
 
+#endif
+
     template< typename TF, typename TT >
     inline void regesterAStaticTypeCast(StaticClass * varAns,
         TF & argFrom,
@@ -372,6 +379,7 @@ namespace _theSSTDLibraryStaticVariantFile {
         }
     }
 
+#if defined(_MSC_VER)
     class StringViewWrap {
     public:
         std::string_view ans;
@@ -440,6 +448,7 @@ namespace _theSSTDLibraryStaticVariantFile {
         T & ... f) {
         (registerAToStringViewCast(varAns, varStringViewIndex, f), ...);
     }
+#endif
 
     inline StaticClass & getStaticClass() {
         static auto varAns = []() {
@@ -485,10 +494,12 @@ namespace _theSSTDLibraryStaticVariantFile {
                 std::apply([varAns](auto && ... args) {
                     registerStaticTypeCast(varAns, args ...);
                 }, varNumbers);
+#if defined(_MSC_VER)
                 /*注册与string view相互转换*/
                 std::apply([varAns, varStringViewID](auto && ... args) {
                     registerToStringViewCast(varAns, varStringViewID, args...);
                 }, varNumbers);
+#endif
             }
 
             return varAns;
