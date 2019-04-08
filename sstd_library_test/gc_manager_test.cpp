@@ -32,10 +32,6 @@ public:
         A(arg),
         B(arg) {
     }
-    inline C(sstd::GCMemoryNode * arg) : super(arg),
-        A(arg),
-        B(arg) {
-    }
 public:
     inline ~C() {
         std::cout << __func__ << value << std::endl;
@@ -48,9 +44,9 @@ public:
         c = this;
         for (auto & varI : data) {
             if (std::rand() & 1) {
-                varI = sstd_new< A >(this);
+                varI = sstd_new< A >(this->getGCMemoryManager());
             } else {
-                varI = sstd_new< B >(this);
+                varI = sstd_new< B >(this->getGCMemoryManager());
             }
         }
     }
@@ -78,8 +74,8 @@ void testGCManager() {
     auto varObject =
         varManager->createObject<C>();
 
-    varObject->markAsRoot();
     varObject->construct();
+    varObject->markAsRoot();
 
     varManager->gc();
     varManager->gc();

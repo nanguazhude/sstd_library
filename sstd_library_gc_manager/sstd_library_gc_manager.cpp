@@ -15,10 +15,12 @@ namespace sstd {
     public:
         using WatcherList = std::list< ReallyGCMemoryNodeWatcher, sstd::allocator< ReallyGCMemoryNodeWatcher> >;
         using WatcherPointerList = std::list< GCMemoryNodeWatcher *, sstd::allocator< GCMemoryNodeWatcher * > >;
-        WatcherList::iterator thePos;
-        std::optional< WatcherPointerList::iterator > rootPos;
         inline ReallyGCMemoryNodeWatcher();
         inline ~ReallyGCMemoryNodeWatcher();
+    public:
+        std::int32_t rootCount{ 0 };
+        WatcherList::iterator thePos;
+        std::optional< WatcherPointerList::iterator > rootPos;
     };
 
     GCMemoryNodeChildrenWalker::GCMemoryNodeChildrenWalker(void * arg) :
@@ -189,6 +191,7 @@ namespace sstd {
         assert(arg->thisWatcher->manager == this);
         auto argWatcher =
             reinterpret_cast<ReallyGCMemoryNodeWatcher*>(arg->thisWatcher);
+        ++(argWatcher->rootCount);
         if (argWatcher->rootPos) {
             return/*it is root , do not need mark again ... */;
         }
@@ -200,9 +203,11 @@ namespace sstd {
         assert(arg->thisWatcher->manager == this);
         auto argWatcher =
             reinterpret_cast<ReallyGCMemoryNodeWatcher*>(arg->thisWatcher);
-        if (!(argWatcher->rootPos)) {
-            return/*it is not root , do not need remove from root ...*/;
+        --(argWatcher->rootCount);
+        if (argWatcher->rootCount > 0) {
+            return;
         }
+        assert (argWatcher->rootPos);
         thisPrivate->root.erase(*(argWatcher->rootPos));
         argWatcher->rootPos.reset();
     }
