@@ -138,13 +138,21 @@ namespace sstd {
             return;
         }
         assert( varWatcher->manager == this );
-        bool varIsRoot = static_cast<bool>( varWatcher->rootPos );
-        thisPrivate->allItems.erase( varWatcher->thePos );
-        argFrom->thisWatcher = nullptr;
-        argTo->addNode(argFrom);
-        if (varIsRoot) {
-            argTo->markAsRoot(argFrom);
+  
+        argTo->thisPrivate->allItems.splice(
+            argTo->thisPrivate->allItems.begin(),
+            thisPrivate->allItems,
+            varWatcher->thePos);
+
+        if (varWatcher->rootPos) {
+            argTo->thisPrivate->root.splice(
+                argTo->thisPrivate->root.begin(),
+                thisPrivate->root,
+                *(varWatcher->rootPos));
         }
+
+        varWatcher->manager = argTo;
+
     }
 
     void GCMemoryManager::moveToAnotherGCManager(GCMemoryManager * arg) {
