@@ -94,7 +94,7 @@ namespace sstd {
         void unlock()/*继续gc*/;
     public:
         template<typename T >
-        inline static T * createObject(std::unique_lock<GCMemoryManager> &);
+        inline static T * createObject(const std::unique_lock<GCMemoryManager> &);
     private:
         void addNode(GCMemoryNode *);
         void try_gc();
@@ -119,9 +119,9 @@ namespace sstd {
     }
 
     template<typename T1>
-    inline T1 * GCMemoryManager::createObject(std::unique_lock<GCMemoryManager>&arg) {
+    inline T1 * GCMemoryManager::createObject(const std::unique_lock<GCMemoryManager>&arg) {
         using T = std::remove_cv_t< std::remove_reference_t<T1> >;
-        return sstd_new<T>(arg.mutex());
+        return sstd_new<T>(arg);
     }
 
 }/*namespace sstd*/

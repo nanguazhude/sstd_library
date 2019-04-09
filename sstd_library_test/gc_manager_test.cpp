@@ -28,7 +28,7 @@ class C : public A, public B {
     using super = sstd::GCMemoryNode;
     int value = ++valueTest;
 public:
-    inline C(sstd::GCMemoryManager * arg) : super(arg),
+    inline C(const std::unique_lock< sstd::GCMemoryManager >& arg) : super(arg),
         A(arg),
         B(arg) {
     }
