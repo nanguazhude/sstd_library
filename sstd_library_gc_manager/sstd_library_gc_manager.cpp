@@ -273,8 +273,8 @@ namespace sstd {
         thisPrivate{ sstd_new< GCMemoryManagerPrivate >() } {
     }
 
-    GCMemoryNode::GCMemoryNode(GCMemoryManager * arg) {
-        arg->addNode(this);
+    GCMemoryNode::GCMemoryNode(const std::unique_lock<GCMemoryManager> & arg) {
+        arg.mutex()->addNode(this);
     }
 
     void GCMemoryNode::directChildren(GCMemoryNodeChildrenWalker *) {

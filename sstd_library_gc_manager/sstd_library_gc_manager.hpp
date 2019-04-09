@@ -1,5 +1,6 @@
 ﻿#pragma once
 
+#include <mutex>
 #include "../sstd_library.hpp"
 
 namespace sstd {
@@ -58,7 +59,7 @@ namespace sstd {
         GCMemoryNode&operator=(const GCMemoryNode &) = delete;
     public:
         virtual ~GCMemoryNode();
-        GCMemoryNode(GCMemoryManager *);
+        GCMemoryNode(const std::unique_lock<GCMemoryManager> &);
         virtual void directChildren(GCMemoryNodeChildrenWalker *);
         inline GCMemoryNodeWatcher * getGCMemoryWatcher()const {
             return thisWatcher;
