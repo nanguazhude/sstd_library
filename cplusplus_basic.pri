@@ -1,7 +1,7 @@
 
 win32-msvc*{
     QMAKE_CXXFLAGS += /std:c++latest
-    CONFIG += utf8_source
+#    CONFIG += utf8_source
     CONFIG += suppress_vcproj_warnings
 }else{
     CONFIG += c++17
