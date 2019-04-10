@@ -28,7 +28,7 @@ class C : public A, public B {
     using super = sstd::GCMemoryNode;
     int value = ++valueTest;
 public:
-    inline C(const std::unique_lock< sstd::GCMemoryManager >& arg) : super(arg),
+    inline C(const sstd::gc_lock& arg) : super(arg),
         A(arg),
         B(arg) {
     }
@@ -38,7 +38,7 @@ public:
     }
 public:
     inline void construct() {
-        std::unique_lock varLock{ *getGCMemoryManager() };
+        sstd::gc_lock varLock{ *getGCMemoryManager() };
         a = this;
         b = this;
         c = this;
@@ -74,8 +74,7 @@ void testGCManager() {
     C * varObject;
     {
         /*构造的时候暂停gc*/
-        std::unique_lock varLock{ *varManager };
-        varObject = varManager->createObject<C>(varLock);
+        varObject = varManager->createObject<C>(varManager);
         varObject->markAsRoot();
         varObject->construct();
     }

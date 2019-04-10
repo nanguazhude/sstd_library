@@ -11,7 +11,7 @@ namespace sstd {
     class GCMemoryNodeChildrenWalker;
 
     class gc_lock{
-        GCMemoryManager * const thisData;
+        GCMemoryManager * thisData;
     public:
         gc_lock(const gc_lock &)=delete;
         gc_lock(gc_lock &&)=delete;
