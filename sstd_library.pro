@@ -16,6 +16,7 @@ include($$PWD/sstd_boost/sstd_boost.pri)
 include($$PWD/sstd_boost/sstd_boost_when_build.pri)
 include($$PWD/sstd_botan/sstd_botan_when_build.pri)
 include($$PWD/sstd_lua/sstd_lua_when_build.pri)
+include($$PWD/sstd_library_double_conversion/sstd_library_double_conversion.pri)
 
 #output path
 include($$PWD/sstd_build_path.pri)
