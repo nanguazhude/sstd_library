@@ -36,9 +36,9 @@ namespace sstd {
     void GCMemoryNodeChildrenWalker::findChild(GCMemoryNode * arg) {
 
         auto varWatcher = arg->getGCMemoryWatcher();
-        auto grayList = reinterpret_cast<GrayListType*>(data);
 
         if (varWatcher->getState() == GCMemoryNodeState::White) {
+            auto grayList = reinterpret_cast<GrayListType*>(data);
             varWatcher->state = GCMemoryNodeState::Gray;
             grayList->push_front(varWatcher);
         }
