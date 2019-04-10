@@ -10,6 +10,21 @@ namespace sstd {
     class GCMemoryNode;
     class GCMemoryNodeChildrenWalker;
 
+    class gc_lock{
+        GCMemoryManager * thisData;
+    public:
+        gc_lock(const gc_lock &)=delete;
+        gc_lock(gc_lock &&)=delete;
+        gc_lock&operator=(const gc_lock &)=delete;
+        gc_lock&operator=(gc_lock&&)=delete;
+    public:
+        inline ~gc_lock();
+        template<typename T>
+        inline gc_lock(T &&);
+    private:
+        sstd_class(gc_lock);
+    };
+
     enum class GCMemoryNodeState : unsigned char {
         Black = 2,
         Gray,
@@ -122,6 +137,17 @@ namespace sstd {
     inline T1 * GCMemoryManager::createObject(const std::unique_lock<GCMemoryManager>&arg) {
         using T = std::remove_cv_t< std::remove_reference_t<T1> >;
         return sstd_new<T>(arg);
+    }
+
+    inline gc_lock::~gc_lock(){
+        thisData->unlock();
+    }
+
+    template<typename T1>
+    inline gc_lock::gc_lock(T1 && arg){
+        using T = std::remove_cv_t< std::remove_reference_t< T1 > > ;
+        if constexpr(  ){}
+        thisData->lock();
     }
 
 }/*namespace sstd*/
