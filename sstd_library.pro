@@ -22,7 +22,8 @@ include($$PWD/sstd_build_path.pri)
 DESTDIR = $${SSTD_LIBRARY_OUTPUT_PATH}
 
 equals(TEMPLATE, "vclib") {
-    SOURCES += $$ASM_FILES_TOBUILD
+#    SOURCES += $$ASM_FILES_TOBUILD
+    DISTFILES += $$ASM_FILES_TOBUILD
 }else{
     DISTFILES += $$ASM_FILES_TOBUILD
 }
