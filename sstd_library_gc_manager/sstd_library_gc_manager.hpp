@@ -146,7 +146,13 @@ namespace sstd {
     template<typename T1>
     inline gc_lock::gc_lock(T1 && arg){
         using T = std::remove_cv_t< std::remove_reference_t< T1 > > ;
-        if constexpr(  ){}
+        if constexpr( std::is_pointer_v<T> ){
+            thisData = arg;
+        } if constexpr( std::is_convertible_v<T, GCMemoryManager> ){
+            thisData = &arg;
+        } else {
+            thisData = arg.get();
+        }
         thisData->lock();
     }
 
