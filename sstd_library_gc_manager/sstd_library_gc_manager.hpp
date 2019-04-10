@@ -10,13 +10,13 @@ namespace sstd {
     class GCMemoryNode;
     class GCMemoryNodeChildrenWalker;
 
-    class gc_lock{
+    class gc_lock {
         GCMemoryManager * thisData;
     public:
-        gc_lock(const gc_lock &)=delete;
-        gc_lock(gc_lock &&)=delete;
-        gc_lock&operator=(const gc_lock &)=delete;
-        gc_lock&operator=(gc_lock&&)=delete;
+        gc_lock(const gc_lock &) = delete;
+        gc_lock(gc_lock &&) = delete;
+        gc_lock&operator=(const gc_lock &) = delete;
+        gc_lock&operator=(gc_lock&&) = delete;
     public:
         inline ~gc_lock();
         template<typename T>
@@ -110,8 +110,8 @@ namespace sstd {
         void lock()/*暂停gc*/;
         void unlock()/*继续gc*/;
     public:
-        template<typename T >
-        inline static T * createObject(const gc_lock &);
+        template<typename T, typename ... Args >
+        inline static T * createObject(const gc_lock &, Args && ... args);
     private:
         void addNode(GCMemoryNode *);
         void try_gc();
@@ -135,22 +135,22 @@ namespace sstd {
         thisWatcher->getManager()->markAsDeleted(this);
     }
 
-    template<typename T1>
-    inline T1 * GCMemoryManager::createObject(const gc_lock&arg) {
+    template<typename T1, typename ... Args>
+    inline T1 * GCMemoryManager::createObject(const gc_lock&arg, Args && ... args) {
         using T = std::remove_cv_t< std::remove_reference_t<T1> >;
-        return sstd_new<T>(arg);
+        return sstd_new<T>(arg, std::forward<Args>(args)...);
     }
 
-    inline gc_lock::~gc_lock(){
+    inline gc_lock::~gc_lock() {
         thisData->unlock();
     }
 
     template<typename T1>
-    inline gc_lock::gc_lock(T1 && arg){
-        using T = std::remove_cv_t< std::remove_reference_t< T1 > > ;
-        if constexpr( std::is_pointer_v<T> ){
+    inline gc_lock::gc_lock(T1 && arg) {
+        using T = std::remove_cv_t< std::remove_reference_t< T1 > >;
+        if constexpr (std::is_pointer_v<T>) {
             thisData = arg;
-        } if constexpr( std::is_convertible_v<T*, GCMemoryManager*> ){
+        } if constexpr (std::is_convertible_v<T*, GCMemoryManager*>) {
             thisData = &arg;
         } else {
             thisData = arg.get();
