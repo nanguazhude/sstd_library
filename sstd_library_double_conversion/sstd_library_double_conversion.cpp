@@ -26,15 +26,16 @@ namespace sstd {
             return {};
         }
 
-        SSTD_SYMBOL_DECL std::string_view fromStringFloat(float) {
+        SSTD_SYMBOL_DECL std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> fromStringFloat(float) {
+
             return {};
         }
 
-        SSTD_SYMBOL_DECL std::string_view fromStringDouble(double) {
+        SSTD_SYMBOL_DECL std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> fromStringDouble(double) {
             return {};
         }
 
-        SSTD_SYMBOL_DECL std::string_view fromStringLongDouble(long double) {
+        SSTD_SYMBOL_DECL std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> fromStringLongDouble(long double) {
             return {};
         }
 
