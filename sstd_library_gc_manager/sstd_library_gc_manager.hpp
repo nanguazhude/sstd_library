@@ -11,7 +11,7 @@ namespace sstd {
     class GCMemoryNodeChildrenWalker;
 
     class gc_lock{
-        GCMemoryManager * thisData;
+        GCMemoryManager * const thisData;
     public:
         gc_lock(const gc_lock &)=delete;
         gc_lock(gc_lock &&)=delete;
@@ -150,7 +150,7 @@ namespace sstd {
         using T = std::remove_cv_t< std::remove_reference_t< T1 > > ;
         if constexpr( std::is_pointer_v<T> ){
             thisData = arg;
-        } if constexpr( std::is_convertible_v<T, GCMemoryManager> ){
+        } if constexpr( std::is_convertible_v<T*, GCMemoryManager*> ){
             thisData = &arg;
         } else {
             thisData = arg.get();
