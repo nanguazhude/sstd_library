@@ -33,16 +33,26 @@ namespace sstd {
             varAns.resize(static_cast<std::size_t>(p - varAns.data()));
             return std::move(varAns);
         }
-
+        
 #else
         template<typename T>
         inline static T \uacf1ToNumber(const std::string_view & arg) {
-            std::stringstream varConv;
+            std::basic_stringstream<char, std::char_traits<char>, sstd::allocator<char>> varConv;
             T varAns;
             varConv << arg;
             varConv >> varAns;
             return varAns;
         }
+
+        template<typename T>
+        inline static string_type_ \uacf1ToString(const T & arg) {
+            string_type_ varAns ;
+            std::basic_stringstream<char, std::char_traits<char>, sstd::allocator<char>> varConv;
+            varConv << arg;
+            varConv >> varAns;
+            return std::move(varAns);
+        }
+
 #endif
 
         SSTD_SYMBOL_DECL int toInt(std::string_view arg) {
