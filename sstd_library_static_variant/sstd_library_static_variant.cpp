@@ -7,10 +7,6 @@
 #include <limits>
 #include <regex>
 
-#if defined(_MSC_VER)
-#include <charconv>
-#endif
-
 namespace _theSSTDLibraryStaticVariantFile {
 
     constexpr const static auto theNopos =
@@ -225,112 +221,15 @@ namespace _theSSTDLibraryStaticVariantFile {
         sstd_class(StaticTypeWrap);
     };
 
-#if defined(_MSC_VER)
-
-    template<std::size_t>
-    class Number_8_16_32;
-
-    template<  >
-    class Number_8_16_32<8> {
-    public:
-        using type = std::int8_t;
-        using unsigned_type = std::uint8_t;
-    };
-
-    template<  >
-    class Number_8_16_32<16> {
-    public:
-        using type = std::int16_t;
-        using unsigned_type = std::uint16_t;
-    };
-
-    template<  >
-    class Number_8_16_32<32> {
-    public:
-        using type = std::int32_t;
-        using unsigned_type = std::uint32_t;
-    };
-
     template<typename T>
     class StaticFromStringViewWrap : public StaticTypeWrap<T> {
     public:
         inline StaticFromStringViewWrap(const std::string_view & arg) {
-            using U = std::remove_cv_t< std::remove_reference_t< T > >;
-            if constexpr (std::is_same_v< U, bool >) {
-
-                /* http://www.cplusplus.com/reference/regex/basic_regex/ */
-                {
-                    const static std::regex varTrue{ u8R"(\s*true\s*)" ,std::regex_constants::ECMAScript |
-                        std::regex_constants::icase |
-                        std::regex_constants::optimize
-                    };
-                    this->value = std::regex_match(arg.begin(), arg.end(), varTrue);
-                    if (this->value) {
-                        return;
-                    }
-                }
-                {
-                    const static std::regex varFlase{ u8R"(\s*false\s*)" ,std::regex_constants::ECMAScript |
-                       std::regex_constants::icase |
-                       std::regex_constants::optimize
-                    };
-                    this->value = std::regex_match(arg.begin(), arg.end(), varFlase);
-                    if (this->value) {
-                        this->value = false;
-                        return;
-                    }
-                }
-                long double varAns;
-                std::from_chars(arg.data(), arg.data() + arg.size(), varAns);
-                this->value = varAns;
-            } else if constexpr (std::is_same_v< U, wchar_t >) {
-                from_int< typename Number_8_16_32< sizeof(wchar_t) * 8 >::unsigned_type >(arg);
-            } else if constexpr (std::is_same_v< U, char16_t >) {
-                from_int< typename Number_8_16_32<16>::unsigned_type >(arg);
-            } else if constexpr (std::is_same_v< U, char32_t >) {
-                from_int< typename Number_8_16_32<32>::unsigned_type >(arg);
-            } else if constexpr (std::is_same_v< U, char >) {
-                from_int< typename Number_8_16_32<8>::unsigned_type >(arg);
-            } else if constexpr (std::is_same_v< U, signed char >) {
-                from_int< typename Number_8_16_32<8>::type >(arg);
-            } else if constexpr (std::is_same_v< U, unsigned char >) {
-                from_int< typename Number_8_16_32<8>::unsigned_type >(arg);
-            } else {
-                /* https://en.cppreference.com/w/cpp/utility/from_chars */
-                std::from_chars_result varAns =
-                    std::from_chars(arg.data(), arg.data() + arg.size(), this->value);
-                if (varAns.ec == std::errc{}) {
-                    return;
-                }
-                if constexpr (std::numeric_limits<U>::has_quiet_NaN) {
-                    this->value = std::numeric_limits<U>::quiet_NaN();
-                    return;
-                } else {
-                    this->value = 0;
-                    return;
-                }
-            }
+            sstd::toNumber(arg, this->value);
         }
-
-    private:
-
-        template<typename U>
-        inline void from_int(const std::string_view & arg) {
-            auto var = reinterpret_cast<U *>(&(this->value));
-            static_assert(sizeof(U) == sizeof(this->value));
-            std::from_chars_result varAns =
-                std::from_chars(arg.data(), arg.data() + arg.size(), *var);
-            if (varAns.ec == std::errc{}) {
-                return;
-            }
-            *var = 0;
-        }
-
     private:
         sstd_class(StaticFromStringViewWrap);
     };
-
-#endif
 
     template< typename TF, typename TT >
     inline void regesterAStaticTypeCast(StaticClass * varAns,
@@ -379,7 +278,7 @@ namespace _theSSTDLibraryStaticVariantFile {
         }
     }
 
-#if defined(_MSC_VER)
+
     class StringViewWrap {
     public:
         std::string_view ans;
@@ -387,28 +286,10 @@ namespace _theSSTDLibraryStaticVariantFile {
     public:
         template<typename T1>
         inline void fromValue(const T1 & arg) {
-            using T = std::remove_cv_t< std::remove_reference_t<T1> >;
-            if constexpr (std::is_same_v<bool, T>) {
-                if (arg) {
-                    ans = sstd_cstr("true")::toStringView();
-                } else {
-                    ans = sstd_cstr("false")::toStringView();
-                }
-            } else {
-                /* https://en.cppreference.com/w/cpp/utility/to_chars */
-                char varTmp[256];
-                std::to_chars_result varAns =
-                    std::to_chars(std::begin(varTmp), std::end(varTmp), arg);
-#if  defined(_DEBUG)
-                assert(varAns.ec == std::errc{});
-#endif
-                auto varNumberSize =
-                    static_cast<std::size_t>(varAns.ptr - static_cast<char *>(varTmp));
-                string.reserve(varNumberSize);
-                string.assign(varTmp, varNumberSize);
-                ans = string;
-            }
+            string = sstd::toString(arg);
+            ans = string;
         }
+
     public:
         template<typename T1>
         inline static std::pair<void*, void(*)(void *)> createCastFunction(void * arg) {
@@ -448,7 +329,7 @@ namespace _theSSTDLibraryStaticVariantFile {
         T & ... f) {
         (registerAToStringViewCast(varAns, varStringViewIndex, f), ...);
     }
-#endif
+
 
     inline StaticClass & getStaticClass() {
         static auto varAns = []() {
@@ -480,7 +361,7 @@ namespace _theSSTDLibraryStaticVariantFile {
             }
 
             {
-                varAns->registerTypeName(varAns->registerTypeID(typeid(void)), 
+                varAns->registerTypeName(varAns->registerTypeID(typeid(void)),
                     sstd_cstr("void")::toStringView());
             }
 
@@ -494,12 +375,12 @@ namespace _theSSTDLibraryStaticVariantFile {
                 std::apply([varAns](auto && ... args) {
                     registerStaticTypeCast(varAns, args ...);
                 }, varNumbers);
-#if defined(_MSC_VER)
+
                 /*注册与string view相互转换*/
                 std::apply([varAns, varStringViewID](auto && ... args) {
                     registerToStringViewCast(varAns, varStringViewID, args...);
                 }, varNumbers);
-#endif
+
             }
 
             return varAns;

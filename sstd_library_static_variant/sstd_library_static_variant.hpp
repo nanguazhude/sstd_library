@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-#include <sstd_library.hpp>
+#include "../sstd_library.hpp"
 #include <typeinfo>
 #include <typeindex>
 

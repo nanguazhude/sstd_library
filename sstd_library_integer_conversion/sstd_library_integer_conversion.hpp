@@ -36,14 +36,14 @@ namespace sstd {
 
         inline unsigned char toUnsignedChar(std::string_view arg) {
             if (arg.empty()) {
-                return unsigned char(0);
+                return (unsigned char)(0);
             }
             return (unsigned char)(arg[0]);
         }
 
         inline signed char toSignedChar(std::string_view arg) {
             if (arg.empty()) {
-                return signed char(0);
+                return (signed char)(0);
             }
             return (signed char)(arg[0]);
         }
