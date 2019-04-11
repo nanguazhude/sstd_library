@@ -20,6 +20,7 @@ SOURCES += $$PWD/constexpr_test.cpp
 SOURCES += $$PWD/tuple_test.cpp
 SOURCES += $$PWD/static_type_test.cpp
 SOURCES += $$PWD/gc_manager_test.cpp
+SOURCES += $$PWD/number_conversion.cpp
 
 include($$PWD/../sstd_library.pri)
 DESTDIR = $${SSTD_LIBRARY_OUTPUT_PATH}

@@ -104,8 +104,13 @@ extern void constexpr_test();
 extern void tuple_test();
 extern void static_type_test();
 extern void testGCManager();
+extern void test_number_convert();
 
 int main(int, char **) {
+
+    {
+        test_number_convert();
+    }
 
     {
         testGCManager();
