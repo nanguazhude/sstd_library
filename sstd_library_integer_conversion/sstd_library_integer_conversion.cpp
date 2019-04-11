@@ -62,6 +62,14 @@ namespace sstd {
             return \uacf1ToNumber<unsigned long long>(arg);
         }
 
+        SSTD_SYMBOL_DECL char32_t toChar32_t(std::string_view arg) {
+            return \uacf1ToNumber<std::uint32_t>(arg);
+        }
+
+        SSTD_SYMBOL_DECL char16_t toChar16_t(std::string_view arg) {
+            return \uacf1ToNumber<std::uint16_t>(arg);
+        }
+
     }/*namespace detail*/
 
 }/*namespace sstd*/
