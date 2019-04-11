@@ -13,6 +13,9 @@ extern void test_number_convert() {
     assert(sstd::detail::fromStringDouble(1) == "1"sv);
     assert(sstd::detail::fromStringFloat(1) == "1"sv);
 
+    assert( 1 == sstd::detail::toLongDouble(" 1.0 ") );
+    assert( "1"sv == sstd::detail::fromStringLongDouble(1) );
+
 }
 
 
