@@ -22,11 +22,11 @@ namespace sstd {
         ans = detail::toDouble(arg);
     }
 
-    inline void toNumber(std::string arg, float & ans) {
+    inline void toNumber(std::string_view arg, float & ans) {
         ans = detail::toFloat(arg);
     }
 
-    inline void toNumber(std::string arg, long double &ans) {
+    inline void toNumber(std::string_view arg, long double &ans) {
         ans = detail::toLongDouble(arg);
     }
 
