@@ -65,6 +65,9 @@ HEADERS += $$PWD/sstd_library_gc_manager/sstd_library_gc_manager.hpp
 SOURCES += $$PWD/sstd_library_cached_dynamic_cast/sstd_private_runtime_cast_gcc.cpp
 SOURCES += $$PWD/sstd_library_cached_dynamic_cast/sstd_private_runtime_cast_msvc.cpp
 
+SOURCES += $$PWD/sstd_library_integer_conversion/sstd_library_integer_conversion.cpp
+HEADERS += $$PWD/sstd_library_integer_conversion/sstd_library_integer_conversion.hpp
+
 HEADERS += $$PWD/sstd_library_index/sstd_library_index.hpp
 
 #remove some build warning

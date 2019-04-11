@@ -18,6 +18,30 @@ namespace sstd {
 
     }/*namespace detail*/
 
+    inline void toNumber(std::string_view arg,double & ans) {
+        ans = detail::toDouble(arg);
+    }
+
+    inline void toNumber(std::string arg,float & ans) {
+        ans = detail::toFloat(arg);
+    }
+
+    inline void toNumber(std::string arg,long double &ans) {
+        ans = detail::toLongDouble(arg);
+    }
+
+    inline auto toString(double arg) {
+        return detail::fromStringDouble(arg);
+    }
+
+    inline auto toString(float arg) {
+        return detail::fromStringFloat(arg);
+    }
+
+    inline auto toString(long double arg) {
+        return detail::fromStringLongDouble(arg);
+    }
+
 }/*namespace sstd*/
 
 
