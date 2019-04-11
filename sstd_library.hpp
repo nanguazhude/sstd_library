@@ -193,4 +193,6 @@ inline std::shared_ptr<T> sstd_make_shared(Args && ... args) {
 #include "sstd_library_cached_dynamic_cast/sstd_library_cached_dynamic_cast.hpp"
 #include "sstd_library_static_variant/sstd_library_static_variant.hpp"
 #include "sstd_library_gc_manager/sstd_library_gc_manager.hpp"
+#include "sstd_library_double_conversion/sstd_library_double_conversion.hpp"
+#include "sstd_library_integer_conversion/sstd_library_integer_conversion.hpp"
 

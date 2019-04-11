@@ -97,7 +97,7 @@ namespace sstd {
 
         SSTD_SYMBOL_DECL wchar_t toWChar_t(std::string_view arg) {
             if constexpr (sizeof(wchar_t) == 1) {
-                return (unsigned char)(toUnsignedChar(arg));
+                return (wchar_t)(toUnsignedChar(arg));
             } else if constexpr (sizeof(wchar_t) == 2) {
                 return (wchar_t)(toChar16_t(arg));
             } else {
