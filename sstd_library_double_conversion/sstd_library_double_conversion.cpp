@@ -1,6 +1,7 @@
 ﻿#include "sstd_library_double_conversion.hpp"
 #include "double-conversion/double-conversion.h"
 
+#include <regex>
 #include <limits>
 #include <sstream>
 #if __has_include(<charconv>)
@@ -129,6 +130,28 @@ namespace sstd {
                 return std::move(varAns);
             }
             return {};
+        }
+
+        SSTD_SYMBOL_DECL bool toBool(std::string_view arg) {
+            {
+                const static std::regex varTrue{ u8R"(\s*true\s*)" ,std::regex_constants::ECMAScript |
+                    std::regex_constants::icase |
+                    std::regex_constants::optimize
+                };
+                if (std::regex_match(arg.begin(), arg.end(), varTrue)) {
+                    return true;
+                }
+            }
+            {
+                const static std::regex varFlase{ u8R"(\s*false\s*)" ,std::regex_constants::ECMAScript |
+                       std::regex_constants::icase |
+                       std::regex_constants::optimize
+                };
+                if (std::regex_match(arg.begin(), arg.end(), varFlase)) {
+                    return false;
+                }
+            }
+            return toLongDouble(arg);
         }
 
     }/*namespace detail*/

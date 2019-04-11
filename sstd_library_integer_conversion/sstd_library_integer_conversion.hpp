@@ -25,6 +25,8 @@ namespace sstd {
         SSTD_SYMBOL_DECL char16_t toChar16_t(std::string_view);
         SSTD_SYMBOL_DECL wchar_t toWChar_t(std::string_view);
 
+        SSTD_SYMBOL_DECL bool toBool(std::string_view);
+
         inline char toChar(std::string_view arg) {
             if (arg.empty()) {
                 return char(0);
@@ -78,7 +80,13 @@ namespace sstd {
         SSTD_SYMBOL_DECL std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> fromStringChar16_t(char16_t);
         SSTD_SYMBOL_DECL std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> fromStringWChar_t(wchar_t);
 
+        SSTD_SYMBOL_DECL std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> fromStringBool(bool);
+
     }/*namespace detail*/
+
+    inline void toNumber(std::string_view arg, bool & ans) {
+        ans = detail::toBool(arg);
+    }
 
     inline void toNumber(std::string_view arg, int & ans) {
         ans = detail::toInt(arg);
@@ -190,6 +198,10 @@ namespace sstd {
 
     inline std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> toString(unsigned long long arg) {
         return detail::fromStringUnsignedLongLong(arg);
+    }
+
+    inline std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> toString(bool arg) {
+        return detail::fromStringBool(arg);
     }
 
 }/*namespace sstd*/

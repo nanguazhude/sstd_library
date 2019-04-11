@@ -33,7 +33,7 @@ namespace sstd {
             varAns.resize(static_cast<std::size_t>(p - varAns.data()));
             return std::move(varAns);
         }
-        
+
 #else
         template<typename T>
         inline static T \uacf1ToNumber(const std::string_view & arg) {
@@ -46,7 +46,7 @@ namespace sstd {
 
         template<typename T>
         inline static string_type_ \uacf1ToString(const T & arg) {
-            string_type_ varAns ;
+            string_type_ varAns;
             std::basic_stringstream<char, std::char_traits<char>, sstd::allocator<char>> varConv;
             varConv << arg;
             varConv >> varAns;
@@ -153,6 +153,16 @@ namespace sstd {
 
         SSTD_SYMBOL_DECL std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> fromStringChar16_t(char16_t arg) {
             return \uacf1ToString(*reinterpret_cast<std::uint16_t*>(&arg));
+        }
+
+        SSTD_SYMBOL_DECL std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> fromStringBool(bool arg) {
+            using TrueType = sstd_cstr("true");
+            using FalseType = sstd_cstr("false");
+            if (arg) {
+                return { TrueType::data(),TrueType::size() };
+            } else {
+                return { FalseType::data(),FalseType::size() };
+            }
         }
 
     }/*namespace detail*/
