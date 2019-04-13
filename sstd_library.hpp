@@ -195,4 +195,5 @@ inline std::shared_ptr<T> sstd_make_shared(Args && ... args) {
 #include "sstd_library_gc_manager/sstd_library_gc_manager.hpp"
 #include "sstd_library_double_conversion/sstd_library_double_conversion.hpp"
 #include "sstd_library_integer_conversion/sstd_library_integer_conversion.hpp"
+#include "sstd_library_application/sstd_library_application.hpp"
 
