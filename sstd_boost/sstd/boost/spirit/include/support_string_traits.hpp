@@ -16,4 +16,3 @@
 #include <sstd/boost/spirit/home/support/string_traits.hpp>
 
 #endif
-

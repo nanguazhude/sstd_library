@@ -619,4 +619,3 @@ CORD CORD_from_file(FILE * f)
         return(CORD_from_file_lazy_inner(f, (size_t)len));
     }
 }
-

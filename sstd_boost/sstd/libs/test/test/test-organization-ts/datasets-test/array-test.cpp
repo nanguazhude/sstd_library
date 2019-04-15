@@ -79,4 +79,3 @@ BOOST_AUTO_TEST_CASE( test_array_make_type )
 }
 
 // EOF
-

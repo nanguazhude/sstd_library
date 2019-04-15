@@ -48,4 +48,3 @@ template struct boost::wave::idllexer::new_lexer_gen<
     BOOST_WAVE_STRINGTYPE::iterator>;
 
 #endif // BOOST_WAVE_SEPARATE_LEXER_INSTANTIATION != 0
-

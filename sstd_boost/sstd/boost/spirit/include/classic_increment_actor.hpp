@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_INCREMENT_ACTOR
 #include <sstd/boost/spirit/home/classic/actor/increment_actor.hpp>
 #endif
-

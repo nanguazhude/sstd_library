@@ -26,4 +26,3 @@ MPL_TEST_CASE()
     MPL_ASSERT_RELATION( (mpl::distance< begin<numbers>::type,iter >::value), ==, 5 );
     MPL_ASSERT_RELATION( deref<iter>::type::value, ==, 5 );
 }
-

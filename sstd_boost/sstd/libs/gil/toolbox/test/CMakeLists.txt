@@ -38,4 +38,3 @@ target_link_libraries(gil_test_ext_toolbox
   Boost::disable_autolinking
   Boost::unit_test_framework)
 add_test(gil.tests.ext.toolbox gil_test_ext_toolbox)
-

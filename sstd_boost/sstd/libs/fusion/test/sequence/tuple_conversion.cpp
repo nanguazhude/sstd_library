@@ -49,4 +49,3 @@ int main()
     test_tuple();
     return boost::report_errors();
 }
-

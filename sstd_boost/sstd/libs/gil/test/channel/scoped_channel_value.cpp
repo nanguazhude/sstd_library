@@ -53,4 +53,3 @@ BOOST_AUTO_TEST_CASE(scoped_channel_halfs)
     BOOST_TEST(gil::channel_convert<std::uint16_t>(
         gil::channel_traits<halfs>::max_value()) == 65535, tolerance);
 }
-

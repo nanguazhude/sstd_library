@@ -59,4 +59,3 @@ struct controller_factory< Stepper , controlled_runge_kutta< Stepper > >
 
 
 #endif // BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_GENERATION_CONTROLLED_RUNGE_KUTTA_HPP_INCLUDED
-

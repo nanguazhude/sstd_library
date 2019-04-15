@@ -230,4 +230,3 @@ using random::triangle_distribution;
 } // namespace boost
 
 #endif // BOOST_RANDOM_TRIANGLE_DISTRIBUTION_HPP
-

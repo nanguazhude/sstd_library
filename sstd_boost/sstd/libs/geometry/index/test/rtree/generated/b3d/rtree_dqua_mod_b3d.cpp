@@ -15,4 +15,3 @@ int test_main(int, char* [])
     testset::modifiers<Indexable>(bgi::dynamic_quadratic(5, 2), std::allocator<int>());
     return 0;
 }
-

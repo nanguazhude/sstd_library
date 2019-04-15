@@ -1192,5 +1192,3 @@ GC_register_has_static_roots_callback
 }
 
 #endif /* HAVE_REGISTER_MAIN_STATIC_DATA */
-
-

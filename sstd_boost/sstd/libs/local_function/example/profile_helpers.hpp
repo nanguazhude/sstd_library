@@ -51,5 +51,3 @@ void display(const unsigned long& size, const unsigned long& trials,
 } // namespace
 
 #endif // #include guard
-
-

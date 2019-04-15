@@ -1452,4 +1452,3 @@ struct bitset_test {
 
 
 #endif // include guard
-

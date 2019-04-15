@@ -171,4 +171,3 @@ inline std::string adapt_struct_insert_member(T (Struct::*)[N], const char *name
     }}}
 
 #endif // BOOST_COMPUTE_TYPES_STRUCT_HPP
-

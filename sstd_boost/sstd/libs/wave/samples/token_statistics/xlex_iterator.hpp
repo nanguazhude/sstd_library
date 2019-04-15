@@ -230,4 +230,3 @@ public:
 #undef BOOST_WAVE_EOF_PREFIX
 
 #endif // !defined(XLEX_ITERATOR_HPP)
-

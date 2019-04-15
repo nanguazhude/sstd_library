@@ -34,4 +34,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( is_resizeable, T, fp_types )
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

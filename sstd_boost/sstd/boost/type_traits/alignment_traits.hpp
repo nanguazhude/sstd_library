@@ -13,4 +13,3 @@
 #include <sstd/boost/type_traits/type_with_alignment.hpp>
 
 #endif // BOOST_TT_ALIGNMENT_TRAITS_HPP_INCLUDED
-

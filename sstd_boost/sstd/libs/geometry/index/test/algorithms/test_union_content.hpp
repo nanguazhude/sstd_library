@@ -45,4 +45,3 @@ void test_geometry(std::string const& wkt1, std::string const& wkt2,
 }
 
 #endif
-

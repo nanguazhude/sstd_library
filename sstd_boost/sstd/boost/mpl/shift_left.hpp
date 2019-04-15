@@ -20,4 +20,3 @@
 #include <sstd/boost/mpl/aux_/shift_op.hpp>
 
 #endif // BOOST_MPL_SHIFT_LEFT_HPP_INCLUDED
-

@@ -185,5 +185,3 @@ int main() {
     assert(!s.find('x'));
     return 0;
 }
-
-

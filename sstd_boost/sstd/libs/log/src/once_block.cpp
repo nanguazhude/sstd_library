@@ -469,4 +469,3 @@ BOOST_LOG_CLOSE_NAMESPACE // namespace log
 #endif
 
 #endif // BOOST_LOG_NO_THREADS
-

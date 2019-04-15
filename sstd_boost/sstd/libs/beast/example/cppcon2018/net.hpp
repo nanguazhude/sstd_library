@@ -17,4 +17,3 @@ using tcp = net::ip::tcp;                       // from <sstd/boost/asio/ip/tcp.
 using error_code = boost::system::error_code;   // from <sstd/boost/system/error_code.hpp>
 
 #endif
-

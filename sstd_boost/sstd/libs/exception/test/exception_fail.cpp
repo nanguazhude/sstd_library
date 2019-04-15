@@ -10,4 +10,3 @@ tester( boost::exception & x )
     {
     throw x; //must not compile.
     }
-

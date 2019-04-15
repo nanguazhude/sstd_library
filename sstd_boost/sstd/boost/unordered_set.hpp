@@ -17,4 +17,3 @@
 #include <sstd/boost/unordered/unordered_set.hpp>
 
 #endif // BOOST_UNORDERED_SET_HPP_INCLUDED
-

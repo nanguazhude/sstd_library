@@ -62,4 +62,3 @@ inline typename coordinate_type<Box>::type get_max_size(Box const& box)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_GET_MAX_SIZE_HPP
-

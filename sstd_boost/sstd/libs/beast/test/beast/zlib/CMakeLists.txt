@@ -30,4 +30,3 @@ add_executable (tests-beast-zlib
 )
 
 set_property(TARGET tests-beast-zlib PROPERTY FOLDER "tests")
-

@@ -376,4 +376,3 @@ inline void append(Geometry& geometry, RangeOrPoint const& range_or_point,
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_APPEND_HPP
-

@@ -64,4 +64,3 @@
 #endif
 
 #endif // BOOST_FIBERS_DETAIL_CONFIG_H
-

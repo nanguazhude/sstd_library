@@ -166,4 +166,3 @@ scan(const communicator& comm, const T& in_value, Op op)
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_SCAN_HPP
-

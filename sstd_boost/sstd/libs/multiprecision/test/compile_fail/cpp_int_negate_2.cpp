@@ -12,4 +12,3 @@ int main()
    number<cpp_int_backend<32, 32, unsigned_magnitude>, et_on> i;
    i = -i;
 }
-

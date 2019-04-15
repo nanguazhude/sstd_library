@@ -155,4 +155,3 @@ struct default_strategy<geographic_tag, CalculationType>
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_SPHERICAL_SSF_HPP
-

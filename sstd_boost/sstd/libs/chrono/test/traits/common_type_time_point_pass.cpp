@@ -45,4 +45,3 @@ void testall()
          boost::chrono::duration<short, boost::ratio<15, 1> >,
          boost::chrono::duration<double, boost::ratio<3, 1> > >();
 }
-

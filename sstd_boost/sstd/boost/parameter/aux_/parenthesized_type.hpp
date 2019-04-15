@@ -33,4 +33,3 @@ struct unaryfunptr_arg_type<void(*)(void)>
 }}} // namespace boost::parameter::aux
 
 #endif // BOOST_PARAMETER_AUX_PARENTHESIZED_TYPE_DWA2006414_HPP
-

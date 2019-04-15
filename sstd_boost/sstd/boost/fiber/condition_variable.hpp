@@ -254,4 +254,3 @@ public:
 #endif
 
 #endif // BOOST_FIBERS_CONDITION_VARIABLE_H
-

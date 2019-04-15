@@ -30,4 +30,3 @@ typedef derived_dimension<length_base_dimension,-1,
 } // namespace boost
 
 #endif // BOOST_UNITS_STRESS_DERIVED_DIMENSION_HPP
-

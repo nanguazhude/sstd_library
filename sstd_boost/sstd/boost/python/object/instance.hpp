@@ -49,4 +49,3 @@ struct additional_instance_size
 }}} // namespace boost::python::object
 
 #endif // INSTANCE_DWA200295_HPP
-

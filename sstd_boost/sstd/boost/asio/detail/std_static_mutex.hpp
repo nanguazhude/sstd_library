@@ -81,4 +81,3 @@ private:
 #endif // defined(BOOST_ASIO_HAS_STD_MUTEX_AND_CONDVAR)
 
 #endif // BOOST_ASIO_DETAIL_STD_STATIC_MUTEX_HPP
-

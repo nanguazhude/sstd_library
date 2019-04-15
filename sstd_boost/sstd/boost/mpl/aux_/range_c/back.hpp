@@ -32,4 +32,3 @@ struct back_impl< aux::half_open_range_tag >
 }}
 
 #endif // BOOST_MPL_AUX_RANGE_C_BACK_HPP_INCLUDED
-

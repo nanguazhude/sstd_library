@@ -478,4 +478,3 @@ inline bool transform(Geometry1 const& geometry1, Geometry2& geometry2)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_TRANSFORM_HPP
-

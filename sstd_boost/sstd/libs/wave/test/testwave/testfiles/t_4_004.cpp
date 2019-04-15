@@ -59,4 +59,3 @@ false
 //H 03: 2
 //H 11: t_4_004.cpp(31): #if SIZEOF_SHORT == 2: 1
 //H 10: t_4_004.cpp(33): #else
-

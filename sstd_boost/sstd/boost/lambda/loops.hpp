@@ -503,4 +503,3 @@ for_(InitT const& init, CondT const& cond, StepT const& step)
 } // boost
 
 #endif // BOOST_LAMBDA_LOOPS_HPP
-

@@ -118,4 +118,3 @@ public:
 }}}
 
 #endif /* BOOST_DLL_DETAIL_MANGLE_STORAGE_HPP_ */
-

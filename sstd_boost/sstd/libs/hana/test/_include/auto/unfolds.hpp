@@ -168,4 +168,3 @@ TestCase test_unfold_undo{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_UNFOLDS_HPP
-

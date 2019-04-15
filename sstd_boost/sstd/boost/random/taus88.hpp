@@ -43,4 +43,3 @@ using random::taus88;
 } // namespace boost
 
 #endif // BOOST_RANDOM_TAUS88_HPP
-

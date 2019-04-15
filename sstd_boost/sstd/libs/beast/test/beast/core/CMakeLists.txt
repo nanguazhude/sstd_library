@@ -52,4 +52,3 @@ add_executable (tests-beast-core
 )
 
 set_property(TARGET tests-beast-core PROPERTY FOLDER "tests")
-

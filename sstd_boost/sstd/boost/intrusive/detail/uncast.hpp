@@ -53,4 +53,3 @@ static typename uncast_types<ConstNodePtr>::non_const_pointer
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_DETAIL_UTILITIES_HPP
-

@@ -14,4 +14,3 @@ int main()
     hash_test();
     return boost::report_errors();
 }
-

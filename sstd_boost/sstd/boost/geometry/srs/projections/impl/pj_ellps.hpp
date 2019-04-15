@@ -130,4 +130,3 @@ inline std::pair<const pj_ellps_type<T>*, int> pj_get_ellps()
 }}} // namespace boost::geometry::projections
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_IMPL_PJ_ELLPS_HPP
-

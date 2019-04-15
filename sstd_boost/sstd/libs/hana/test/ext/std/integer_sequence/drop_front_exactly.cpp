@@ -42,4 +42,3 @@ int main() {
         std::index_sequence<3>{}
     ));
 }
-

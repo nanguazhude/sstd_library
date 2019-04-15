@@ -138,4 +138,3 @@ OBJECT * macro_header_get( OBJECT * macro_name )
     }
     return 0;
 }
-

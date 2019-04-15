@@ -22,4 +22,3 @@ namespace boost{ namespace multiprecision{  namespace detail{
 }
 
 #endif // BOOST_MP_IS_BACKEND_HPP
-

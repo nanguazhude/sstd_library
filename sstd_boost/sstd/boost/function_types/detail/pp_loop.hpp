@@ -76,6 +76,3 @@
 
 #include <sstd/boost/function_types/detail/encoding/aliases_undef.hpp>
 #include <sstd/boost/function_types/detail/encoding/undef.hpp>
-
-
-

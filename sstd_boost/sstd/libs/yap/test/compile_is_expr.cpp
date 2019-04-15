@@ -97,4 +97,3 @@ void compile_is_expr()
     static_assert(!yap::is_expr<non_expr_5>::value, "");
     static_assert(!yap::is_expr<non_expr_6>::value, "");
 }
-

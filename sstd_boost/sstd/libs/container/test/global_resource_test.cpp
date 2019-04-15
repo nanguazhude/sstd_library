@@ -126,4 +126,3 @@ int main()
    test_default_resource();
    return ::boost::report_errors();
 }
-

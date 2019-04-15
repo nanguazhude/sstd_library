@@ -204,5 +204,3 @@ struct default_callable_traits {
 }}} // namespace boost::callable_traits::detail
 
 #endif // BOOST_CLBL_TRTS_DETAIL_DEFAULT_BOOST_CLBL_TRTS_HPP
-
-

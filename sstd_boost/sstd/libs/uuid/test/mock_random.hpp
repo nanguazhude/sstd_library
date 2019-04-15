@@ -285,4 +285,3 @@ ssize_t mockread(int fd, void *buf, size_t siz)
 #endif
 
 #endif // BOOST_UUID_TEST_RANDOM_MOCK
-

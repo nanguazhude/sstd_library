@@ -18,4 +18,3 @@
 typedef boost::ratio<BOOST_RATIO_INTMAX_T_MAX, 1> R1;
 typedef boost::ratio<2,1> R2;
 typedef boost::ratio_multiply<R1, R2>::type RT;
-

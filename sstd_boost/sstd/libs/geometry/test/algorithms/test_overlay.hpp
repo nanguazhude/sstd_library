@@ -159,4 +159,3 @@ static std::string wrapped[3] = {
     };
 
 #endif
-

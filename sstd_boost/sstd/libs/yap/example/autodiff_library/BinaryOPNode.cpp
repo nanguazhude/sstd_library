@@ -649,4 +649,3 @@ string BinaryOPNode::toString(int level){
 }
 
 } /* namespace AutoDiff */
-

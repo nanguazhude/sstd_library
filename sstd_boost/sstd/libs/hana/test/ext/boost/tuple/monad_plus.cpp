@@ -40,4 +40,3 @@ int main() {
     //////////////////////////////////////////////////////////////////////////
     hana::test::TestMonadPlus<hana::ext::boost::tuple_tag>{eq_tuples, predicates, eq_values};
 }
-

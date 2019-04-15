@@ -18,4 +18,3 @@
 # include <sstd/boost/numeric/conversion/cast.hpp>
 
 #endif  // BOOST_CAST_HPP
-

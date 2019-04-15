@@ -157,6 +157,3 @@ BOOST_AUTO_TEST_CASE( test_main )
    test_values(boost::math::concepts::real_concept(0), "real_concept");
 #endif
 }
-
-
-

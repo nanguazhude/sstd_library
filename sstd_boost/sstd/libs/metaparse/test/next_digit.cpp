@@ -22,5 +22,3 @@ BOOST_METAPARSE_TEST_CASE(next_digit)
   BOOST_MPL_ASSERT((equal_to<int_<10>, next_digit::apply<int_<1>, int_<0> > >));
   BOOST_MPL_ASSERT((equal_to<int_<13>, next_digit::apply<int_<1>, int_<3> > >));
 }
-
-

@@ -30,4 +30,3 @@
 #include <sstd/boost/gil/version.hpp>
 
 #endif
-

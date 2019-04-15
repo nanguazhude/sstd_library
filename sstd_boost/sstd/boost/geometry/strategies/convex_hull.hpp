@@ -45,4 +45,3 @@ struct strategy_convex_hull
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_CONVEX_HULL_HPP
-

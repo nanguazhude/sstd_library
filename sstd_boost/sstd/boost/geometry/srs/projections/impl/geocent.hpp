@@ -485,4 +485,3 @@ static const int maxiter = 30;
 
 
 #endif // BOOST_GEOMETRY_SRS_PROJECTIONS_IMPL_GEOCENT_HPP
-

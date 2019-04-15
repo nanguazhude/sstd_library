@@ -320,4 +320,3 @@ test_opr<T, R, P>::indexing_test
 
     BOOST_TEST( oss.str() == "apple orange pear peach grape plum ");
 }
-

@@ -124,4 +124,3 @@ struct pull_coroutine< void >::control_block {
 #endif
 
 #endif // BOOST_COROUTINES2_DETAIL_PULL_CONTROL_BLOCK_HPP
-

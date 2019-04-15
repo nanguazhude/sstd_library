@@ -22,4 +22,3 @@ Cumulative include for the Boost Sort library
 #include <sstd/boost/sort/parallel_stable_sort/parallel_stable_sort.hpp>
 
 #endif
-

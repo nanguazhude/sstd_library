@@ -32,4 +32,3 @@ namespace boost
   }
 
 #endif // BOOST_TTI_DETAIL_LAMBDA_HPP
-

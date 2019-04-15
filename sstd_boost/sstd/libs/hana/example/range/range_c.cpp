@@ -17,4 +17,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::back(hana::range_c<unsigned long, 0, 5>) == hana
 BOOST_HANA_CONSTANT_CHECK(hana::drop_front(hana::range_c<int, 0, 5>) == hana::make_range(hana::int_c<1>, hana::int_c<5>));
 
 int main() { }
-

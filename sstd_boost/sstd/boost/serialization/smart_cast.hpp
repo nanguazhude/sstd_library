@@ -273,4 +273,3 @@ T smart_cast_reference(U & u) {
 } // namespace boost
 
 #endif // BOOST_SERIALIZATION_SMART_CAST_HPP
-

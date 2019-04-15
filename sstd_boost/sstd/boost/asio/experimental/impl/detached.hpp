@@ -91,4 +91,3 @@ struct async_result<experimental::detached_t, Signature>
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_EXPERIMENTAL_IMPL_DETACHED_HPP
-

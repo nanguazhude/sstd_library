@@ -409,4 +409,3 @@ BOOST_AUTO_TEST_CASE(copy_to_vector_bool)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

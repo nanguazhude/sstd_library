@@ -876,4 +876,3 @@ struct areal_areal
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_RELATE_AREAL_AREAL_HPP
-

@@ -14,4 +14,3 @@
 #include <sstd/boost/fusion/view/nview/nview_iterator.hpp>
 
 #endif
-

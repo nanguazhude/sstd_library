@@ -28,4 +28,3 @@ struct close_in : handler_base_ext
 }}}}
 
 #endif
-

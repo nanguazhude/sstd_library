@@ -36,4 +36,3 @@ int main()
     basic_weak_from_raw_test();
     return boost::report_errors();
 }
-

@@ -1318,4 +1318,3 @@ namespace quickbook
         }
     }
 }
-

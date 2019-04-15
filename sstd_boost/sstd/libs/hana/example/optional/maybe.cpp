@@ -11,4 +11,3 @@ static_assert(hana::maybe('x', hana::_ + 1, hana::just(1)) == 2, "");
 static_assert(hana::maybe('x', hana::_ + 1, hana::nothing) == 'x', "");
 
 int main() { }
-

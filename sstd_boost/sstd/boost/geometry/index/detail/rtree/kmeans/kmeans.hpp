@@ -14,4 +14,3 @@
 #include <sstd/boost/geometry/index/rtree/kmeans/split.hpp>
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_RTREE_KMEANS_KMEANS_HPP
-

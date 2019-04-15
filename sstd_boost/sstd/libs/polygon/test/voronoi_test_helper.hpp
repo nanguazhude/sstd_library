@@ -258,4 +258,3 @@ void clean_segment_set(std::vector< segment_data<T> >& data) {
 }  // voronoi_test_helper
 
 #endif
-

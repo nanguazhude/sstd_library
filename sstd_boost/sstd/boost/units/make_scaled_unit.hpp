@@ -58,4 +58,3 @@ struct make_scaled_unit<unit<Dimension, heterogeneous_system<heterogeneous_syste
 }
 
 #endif
-

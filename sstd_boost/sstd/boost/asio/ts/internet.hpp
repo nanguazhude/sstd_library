@@ -38,4 +38,3 @@
 #include <sstd/boost/asio/ip/multicast.hpp>
 
 #endif // BOOST_ASIO_TS_INTERNET_HPP
-

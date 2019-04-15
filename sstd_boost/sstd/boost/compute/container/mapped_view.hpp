@@ -248,4 +248,3 @@ private:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_CONTAINER_MAPPED_VIEW_HPP
-

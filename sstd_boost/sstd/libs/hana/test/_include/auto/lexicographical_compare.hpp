@@ -107,4 +107,3 @@ TestCase test_lexicographical_compare{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_LEXICOGRAPHICAL_COMPARE_HPP
-

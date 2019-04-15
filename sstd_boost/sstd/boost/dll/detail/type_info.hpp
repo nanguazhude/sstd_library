@@ -85,4 +85,3 @@ const std::type_info& load_type_info(Lib & lib, Storage & storage)
 
 }}}
 #endif /* BOOST_DLL_DETAIL_TYPE_INFO_HPP_ */
-

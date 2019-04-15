@@ -11,4 +11,3 @@
 void    quaternion_mi2();
 
 #endif /* BOOST_QUATERNION_MULTIPLE_INCLUDE_TEST_2 */
-

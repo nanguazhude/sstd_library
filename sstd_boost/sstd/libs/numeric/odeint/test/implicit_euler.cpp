@@ -84,4 +84,3 @@ BOOST_AUTO_TEST_CASE( test_euler )
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

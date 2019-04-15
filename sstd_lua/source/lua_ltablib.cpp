@@ -1,4 +1,4 @@
-/*
+﻿/*
 ** $Id: ltablib.c,v 1.93.1.1 2017/04/19 17:20:42 roberto Exp $
 ** Library for Table Manipulation
 ** See Copyright Notice in lua.h
@@ -447,4 +447,3 @@ LUAMOD_API int luaopen_table (lua_State *L) {
 #endif
   return 1;
 }
-

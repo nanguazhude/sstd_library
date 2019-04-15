@@ -481,4 +481,3 @@ int main()
    test_destructor();
    return ::boost::report_errors();
 }
-

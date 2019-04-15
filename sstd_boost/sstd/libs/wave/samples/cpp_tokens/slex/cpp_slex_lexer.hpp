@@ -825,4 +825,3 @@ new_lexer_gen<IteratorT, PositionT>::new_lexer(IteratorT const &first,
 }   // namespace boost
 
 #endif // !defined(SLEX_LEXER_HPP_5E8E1DF0_BB41_4938_B7E5_A4BB68222FF6_INCLUDED)
-

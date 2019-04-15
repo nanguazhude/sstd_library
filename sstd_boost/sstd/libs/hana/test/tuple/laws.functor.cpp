@@ -62,4 +62,3 @@ int main() {
     hana::test::TestMonad<hana::tuple_tag>{eq_tuples, nested_eqs};
     hana::test::TestMonadPlus<hana::tuple_tag>{eq_tuples, predicates, eq_values};
 }
-

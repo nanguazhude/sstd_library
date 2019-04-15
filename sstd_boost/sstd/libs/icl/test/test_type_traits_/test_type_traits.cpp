@@ -130,5 +130,3 @@ BOOST_AUTO_TEST_CASE(test_miscellaneous_type_traits)
     BOOST_CHECK( !is_interval_set<std::set<int> >::value);
     BOOST_CHECK( !is_interval_set<std::set<int> >::value);
 }
-
-

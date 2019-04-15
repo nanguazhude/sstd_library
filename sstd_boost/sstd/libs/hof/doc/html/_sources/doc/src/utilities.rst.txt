@@ -17,4 +17,3 @@ Utilities
     ../../include/boost/hof/pack
     ../../include/boost/hof/returns
     ../../include/boost/hof/tap
-

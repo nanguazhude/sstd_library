@@ -18,4 +18,3 @@ int main()
     (void)x;            // warning suppression.
     return 0;
 }
-

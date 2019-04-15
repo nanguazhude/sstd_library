@@ -87,5 +87,3 @@ struct is_explicitly_convertible<number<Backend1, ExpressionTemplates1>, number<
 }}} // namespaces
 
 #endif
-
-

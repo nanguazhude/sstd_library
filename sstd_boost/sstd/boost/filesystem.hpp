@@ -19,4 +19,3 @@
 #  include <sstd/boost/filesystem/string_file.hpp>
 
 #endif  // BOOST_FILESYSTEM_FILESYSTEM_HPP
-

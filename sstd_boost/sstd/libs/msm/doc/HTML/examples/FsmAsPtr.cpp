@@ -166,5 +166,3 @@ int main()
     p.do_pause();
 	return 0;
 }
-
-

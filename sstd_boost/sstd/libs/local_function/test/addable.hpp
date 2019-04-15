@@ -23,5 +23,3 @@ private:
 };
 
 #endif // #include guard
-
-

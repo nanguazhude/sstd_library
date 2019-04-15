@@ -43,5 +43,3 @@ class unconstrained_map_view
 } // namespace boost
 
 #endif // BOOST_BIMAP_VIEWS_UNCONSTRAINED_MAP_VIEW_HPP
-
-

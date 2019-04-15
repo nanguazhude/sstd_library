@@ -128,8 +128,3 @@ BOOST_AUTO_TEST_CASE(test_move_for_user_defined_type_unaffected)
 #endif
     BOOST_CHECK(user_test_ns::move_called);
 }
-
-
-
-
-

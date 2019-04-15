@@ -26,4 +26,3 @@ bool test_implicit_conversion_to_bool()
 #else
 #  error "Test skipped: this compiler does not support explicit conversion operators."
 #endif
-

@@ -586,4 +586,3 @@ class avltree
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_AVLTREE_HPP
-

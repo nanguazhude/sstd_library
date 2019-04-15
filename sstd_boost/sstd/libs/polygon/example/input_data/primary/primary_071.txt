@@ -92,4 +92,3 @@
 -49018 -49876 -48988 -49875
 ../../SOC_2010/sweepline/libs/sweepline/test/sweepline_test.cpp(723): error in "segment_random_test2<double>": check test_output_small.num_vertex_records() == test_output_large.num_vertex_records() failed [476 != 526]
 ../../SOC_2010/sweepline/libs/sweepline/test/sweepline_test.cpp(725): error in "segment_random_test2<double>": check test_output_small.num_edge_records() == test_output_large.num_edge_records() failed [734 != 795]
-

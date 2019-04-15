@@ -458,5 +458,3 @@ public:
 } // namespace boost
 
 #endif // BOOST_MULTI_ARRAY_VIEW_RG071301_HPP
-
-

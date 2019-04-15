@@ -20,4 +20,3 @@ BOOST_AUTO_TEST_CASE( webkit )
 {
     BOOST_CHECK(QWebSettings::globalSettings());
 }
-

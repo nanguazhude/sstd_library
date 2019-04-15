@@ -18,4 +18,3 @@ static_assert(hana::is_convertible<hana::integral_constant<long, 1l>, long>::val
 static_assert(hana::to<long>(hana::integral_c<long, 1l>) == 1l, "");
 
 int main() { }
-

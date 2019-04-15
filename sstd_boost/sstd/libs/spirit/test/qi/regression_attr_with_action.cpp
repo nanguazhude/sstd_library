@@ -25,4 +25,3 @@ int main()
     qi::rule<char const*> x = qi::attr(source_mode()) [process];
     return 0;
 }
-

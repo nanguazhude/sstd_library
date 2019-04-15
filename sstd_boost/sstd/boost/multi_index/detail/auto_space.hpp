@@ -104,4 +104,3 @@ void swap(auto_space<T,Allocator>& x,auto_space<T,Allocator>& y)
 } /* namespace boost */
 
 #endif
-

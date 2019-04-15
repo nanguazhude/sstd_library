@@ -333,6 +333,3 @@ void container_assignment_test()
 
     BOOST_TEST_MESSAGE( "finished container assignment test" );
 }
-
-
-

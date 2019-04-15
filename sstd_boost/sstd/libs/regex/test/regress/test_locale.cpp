@@ -216,6 +216,3 @@ void test_en_locale()
    test_en_locale("en", 0x09);
 #endif
 }
-
-
-

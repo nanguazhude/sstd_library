@@ -39,4 +39,3 @@ struct default_area_result
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_DEFAULT_AREA_RESULT_HPP
-

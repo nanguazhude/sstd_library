@@ -39,4 +39,3 @@ namespace boost { namespace msm { namespace back
     };
 } } }//boost::msm::back
 #endif //BOOST_MSM_BACK_BIND_HELPERS_H
-

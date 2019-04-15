@@ -31,5 +31,3 @@ int main( int, char *[] )
 {
    return boost_no_explicit_function_template_arguments::test();
 }
-
-

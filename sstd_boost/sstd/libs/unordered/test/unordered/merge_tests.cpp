@@ -335,4 +335,3 @@ UNORDERED_TEST(merge_into_equiv_keys_test,
 }
 
 RUN_TESTS()
-

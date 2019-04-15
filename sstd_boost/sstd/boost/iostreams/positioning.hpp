@@ -115,4 +115,3 @@ inline stream_offset position_to_offset(std::streampos pos)
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>
 
 #endif // #ifndef BOOST_IOSTREAMS_POSITIONING_HPP_INCLUDED
-

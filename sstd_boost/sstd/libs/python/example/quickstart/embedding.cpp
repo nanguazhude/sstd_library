@@ -152,4 +152,3 @@ int main(int argc, char **argv)
   // Boost.Python doesn't support Py_Finalize yet, so don't call it!
   return boost::report_errors();
 }
-

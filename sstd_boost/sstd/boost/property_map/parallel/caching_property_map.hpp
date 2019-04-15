@@ -90,4 +90,3 @@ make_caching_property_map(const PropertyMap& pm)
 } } // end namespace boost::parallel
 
 #endif // BOOST_PARALLEL_CACHING_PROPERTY_MAP_HPP
-

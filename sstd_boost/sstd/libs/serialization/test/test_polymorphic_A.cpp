@@ -56,4 +56,3 @@ void data::serialize(boost::archive::polymorphic_oarchive & ar, const unsigned i
 void data::serialize(boost::archive::polymorphic_iarchive & ar, const unsigned int /* file_version */){
     ar & BOOST_SERIALIZATION_NVP(a);
 }
-

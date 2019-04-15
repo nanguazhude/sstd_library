@@ -104,4 +104,3 @@ int main()
 }
 
 #endif // !defined( BOOST_NO_CXX11_RVALUE_REFERENCES )
-

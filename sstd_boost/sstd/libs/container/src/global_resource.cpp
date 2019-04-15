@@ -104,4 +104,3 @@ BOOST_CONTAINER_DECL memory_resource* get_default_resource() BOOST_NOEXCEPT
 }  //namespace pmr {
 }  //namespace container {
 }  //namespace boost {
-

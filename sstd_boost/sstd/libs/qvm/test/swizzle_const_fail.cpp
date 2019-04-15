@@ -16,4 +16,3 @@ main()
     XY(cv)*=2;
     return 1;
     }
-

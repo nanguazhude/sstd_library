@@ -52,4 +52,3 @@ if(COMMAND boost_test)
     add_subdirectory(test)
 
 endif()
-

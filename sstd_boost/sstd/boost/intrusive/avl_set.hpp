@@ -1071,4 +1071,3 @@ class avl_multiset
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_AVL_SET_HPP
-

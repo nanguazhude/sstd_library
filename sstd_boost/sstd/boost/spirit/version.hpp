@@ -12,4 +12,3 @@
 #include <sstd/boost/spirit/include/version.hpp>
 
 #endif
-

@@ -20,4 +20,3 @@ class aligned_allocator;
 } /* boost */
 
 #endif
-

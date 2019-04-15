@@ -180,4 +180,3 @@ test_suite* init_unit_test_suite(int, char* [])
 }
 
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>
-

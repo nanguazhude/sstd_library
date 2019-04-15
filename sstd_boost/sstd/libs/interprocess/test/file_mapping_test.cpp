@@ -162,4 +162,3 @@ int main ()
 }
 
 #include <sstd/boost/interprocess/detail/config_end.hpp>
-

@@ -40,4 +40,3 @@ inline bool none_of(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_NONE_OF_HPP
-

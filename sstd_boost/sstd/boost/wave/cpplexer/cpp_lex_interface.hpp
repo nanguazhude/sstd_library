@@ -71,4 +71,3 @@ struct lex_input_interface
 #endif
 
 #endif // !defined(CPP_LEX_INTERFACE_HPP_E83F52A4_90AC_4FBE_A9A7_B65F7F94C497_INCLUDED)
-

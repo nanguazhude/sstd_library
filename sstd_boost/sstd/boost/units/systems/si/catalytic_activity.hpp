@@ -35,4 +35,3 @@ BOOST_UNITS_STATIC_CONSTANT(katals,catalytic_activity);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_CATALYTIC_ACTIVITY_HPP
-

@@ -744,4 +744,3 @@ int main()
 #else
 #error "This platform doesn't support Boost.Chrono"
 #endif
-

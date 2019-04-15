@@ -39,5 +39,3 @@ void compile_and_link_test()
    check_result<long double>(boost::math::ibeta_inva<long double>(l, l, l));
 #endif
 }
-
-

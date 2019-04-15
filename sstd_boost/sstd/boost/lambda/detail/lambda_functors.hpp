@@ -355,4 +355,3 @@ template<> struct is_placeholder< lambda::lambda_functor< lambda::placeholder<la
 } // namespace boost
 
 #endif
-

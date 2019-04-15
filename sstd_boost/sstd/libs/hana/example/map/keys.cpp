@@ -28,4 +28,3 @@ int main() {
         hana::keys(m) ^hana::in^ hana::permutations(hana::make_tuple(hana::int_c<1>, hana::type_c<void>))
     );
 }
-

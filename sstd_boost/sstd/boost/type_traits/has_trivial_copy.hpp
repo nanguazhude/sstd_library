@@ -61,4 +61,3 @@ template <class T> struct has_trivial_copy_constructor : public has_trivial_copy
 } // namespace boost
 
 #endif // BOOST_TT_HAS_TRIVIAL_COPY_HPP_INCLUDED
-

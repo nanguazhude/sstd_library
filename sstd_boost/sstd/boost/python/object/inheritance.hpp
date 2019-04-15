@@ -129,4 +129,3 @@ inline void register_conversion(
 }}} // namespace boost::python::object
 
 #endif // INHERITANCE_DWA200216_HPP
-

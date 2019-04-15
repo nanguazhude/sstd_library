@@ -108,4 +108,3 @@
   } } }
 
 #endif // BOOST_MP_UTYPE_HELPER_HPP
-

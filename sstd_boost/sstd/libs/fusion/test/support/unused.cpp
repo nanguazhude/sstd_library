@@ -94,4 +94,3 @@ void only_unused()
     (void)my_unused;
     BOOST_STATIC_ASSERT((sizeof(test_unused(my_unused)) == sizeof(boost::type_traits::yes_type)));
 }
-

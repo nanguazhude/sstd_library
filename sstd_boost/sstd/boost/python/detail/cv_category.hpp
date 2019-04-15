@@ -34,4 +34,3 @@ struct cv_category
 }}} // namespace boost::python::detail
 
 #endif // CV_CATEGORY_DWA200222_HPP
-

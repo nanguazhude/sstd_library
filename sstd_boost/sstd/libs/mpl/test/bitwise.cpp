@@ -69,4 +69,3 @@ MPL_TEST_CASE()
     MPL_ASSERT_RELATION( (shift_left<_2,_1>::value), ==, 4 );
     MPL_ASSERT_RELATION( (shift_left<_8,_1>::value), ==, 16 );
 }
-

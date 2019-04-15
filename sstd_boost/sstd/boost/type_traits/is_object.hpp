@@ -26,4 +26,3 @@ template <class T> struct is_object
 } // namespace boost
 
 #endif // BOOST_TT_IS_OBJECT_HPP_INCLUDED
-

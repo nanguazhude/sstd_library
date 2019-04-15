@@ -90,4 +90,3 @@
 #include "segment_utils.hpp"
 
 #endif
-

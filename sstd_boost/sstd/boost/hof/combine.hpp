@@ -124,4 +124,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(combine, detail::make<combine_adaptor>);
 }} // namespace boost::hof
 
 #endif
-

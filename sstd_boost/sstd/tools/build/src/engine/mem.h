@@ -131,4 +131,3 @@
 #define BJAM_FREE_RAW(p) bjam_free_raw_x(p)
 
 #endif
-

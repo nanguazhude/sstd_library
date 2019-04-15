@@ -117,5 +117,3 @@ private:
 }}} // namespace boost::parameter::aux
 
 #endif // BOOST_PARAMETER_MAYBE_060211_HPP
-
-

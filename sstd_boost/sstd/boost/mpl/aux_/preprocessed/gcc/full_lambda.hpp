@@ -555,5 +555,3 @@ struct lambda<
 BOOST_MPL_AUX_NA_SPEC2(2, 3, lambda)
 
 }}
-
-

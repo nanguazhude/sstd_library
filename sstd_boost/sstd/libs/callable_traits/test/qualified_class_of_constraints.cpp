@@ -49,5 +49,3 @@ int main() {
     CT_ASSERT(is_substitution_failure_qualified_class_of<int (foo::* const *)()>::value);
     CT_ASSERT(is_substitution_failure_qualified_class_of<int (foo::* volatile *)()>::value);
 }
-
-

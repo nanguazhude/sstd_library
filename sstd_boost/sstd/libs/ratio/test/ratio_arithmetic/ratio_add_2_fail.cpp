@@ -26,4 +26,3 @@ struct numerator<boost::ratio<N,D> > {
 BOOST_RATIO_STATIC_ASSERT((
         numerator<boost::ratio_add<boost::ratio<1,2>,boost::ratio<1,3> > >::value == 1)
         , NOTHING, ());
-

@@ -669,4 +669,3 @@ BOOST_AUTO_TEST_CASE( test_all_empty_input_pointlike_areal )
             point_type
         >(point_segment_strategy());
 }
-

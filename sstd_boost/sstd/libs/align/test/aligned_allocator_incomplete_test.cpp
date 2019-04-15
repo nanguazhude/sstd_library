@@ -22,4 +22,3 @@ void rebind_test()
     boost::alignment::aligned_allocator<V>::rebind<S>::other r(a);
     (void)r;
 }
-

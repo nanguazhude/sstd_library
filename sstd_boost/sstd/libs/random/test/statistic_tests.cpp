@@ -501,4 +501,3 @@ int main(int argc, char* argv[])
     env.run_test<boost::mt19937>("lognormal", boost::lognormal_distribution<>(1, 1),
       boost::math::lognormal(std::log(1.0/std::sqrt(2.0)), std::sqrt(std::log(2.0))));
 }
-

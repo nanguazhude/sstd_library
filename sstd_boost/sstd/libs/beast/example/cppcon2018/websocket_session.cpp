@@ -124,4 +124,3 @@ on_write(error_code ec, std::size_t)
                 std::placeholders::_1,
                 std::placeholders::_2));
 }
-

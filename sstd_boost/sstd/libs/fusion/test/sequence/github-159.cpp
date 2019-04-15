@@ -14,4 +14,3 @@ int main()
     boost::fusion::vector<int, float> v2(v1);
     v1 = v2;
 }
-

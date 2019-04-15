@@ -191,4 +191,3 @@ struct segments_intersection_points
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_GEOMETRY_POLICIES_RELATE_INTERSECTION_POINTS_HPP
-

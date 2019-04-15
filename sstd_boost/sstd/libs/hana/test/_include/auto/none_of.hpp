@@ -88,4 +88,3 @@ TestCase test_none_of{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_NONE_OF_HPP
-

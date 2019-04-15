@@ -251,4 +251,3 @@ BOOST_AUTO_TEST_CASE( test_main )
   test<int>(n);
   test<custom>(n);
 }
-

@@ -21,12 +21,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_same< ::tt::conditional<true, int, long>
 BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_same< ::tt::conditional<false, int, long>::type, int>::value), false);
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

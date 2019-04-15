@@ -37,4 +37,3 @@ struct Configuring : sc::simple_state< Configuring, NotShooting >
 
 
 #endif
-

@@ -183,4 +183,3 @@ EXCEPTION_TESTS_REPEAT(5,
 // clang-format on
 
 RUN_TESTS()
-

@@ -28,4 +28,3 @@ Output:
 #include <sstd/boost/type_traits/is_same.hpp>
 
 BOOST_MPL_ASSERT((boost::is_same<boost::units::reduce_unit<boost::units::si::kelvin_base_unit::unit_type>::type, boost::units::si::kelvin_base_unit::unit_type>));
-

@@ -69,5 +69,3 @@ int main()
 
     return 0;  // makes Visual-C++ compiler happy
 }
-
-

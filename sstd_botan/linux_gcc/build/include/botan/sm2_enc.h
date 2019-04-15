@@ -1,4 +1,4 @@
-/*
+﻿/*
 * SM2 Encryption
 * (C) 2017 Ribose Inc
 *

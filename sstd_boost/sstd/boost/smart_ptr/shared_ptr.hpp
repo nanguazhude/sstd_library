@@ -1182,4 +1182,3 @@ template<class D, class T> D const * basic_get_local_deleter( D const *, shared_
 #endif
 
 #endif  // #ifndef BOOST_SMART_PTR_SHARED_PTR_HPP_INCLUDED
-

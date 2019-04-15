@@ -83,5 +83,3 @@ inline in_place_factory0 in_place()
 #undef N
 #endif
 #endif
-
-

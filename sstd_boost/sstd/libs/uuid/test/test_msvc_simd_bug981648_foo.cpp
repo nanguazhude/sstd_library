@@ -30,4 +30,3 @@ old_header_prop = header_prop;
 if (old_header_prop == 0) { fprintf(stderr, "ouch"); }
 }
 }
-

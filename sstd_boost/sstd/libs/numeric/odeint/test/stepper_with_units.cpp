@@ -326,4 +326,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( dense_ouput_test , Stepper , dense_output_stepper
 
 
 BOOST_AUTO_TEST_SUITE_END()
-

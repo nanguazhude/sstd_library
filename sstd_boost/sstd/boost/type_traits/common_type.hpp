@@ -150,4 +150,3 @@ template<class T1, class T2> struct common_type<T1, T2>: type_traits_detail::com
 } // namespace boost
 
 #endif // #ifndef BOOST_TYPE_TRAITS_COMMON_TYPE_HPP_INCLUDED
-

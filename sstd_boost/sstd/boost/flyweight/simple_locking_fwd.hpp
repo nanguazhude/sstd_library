@@ -24,4 +24,3 @@ struct simple_locking;
 } /* namespace boost */
 
 #endif
-

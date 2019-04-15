@@ -23,5 +23,3 @@
 #endif
 
 #endif // #include guard
-
-

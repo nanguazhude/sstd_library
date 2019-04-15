@@ -31,5 +31,3 @@
 // Helper for BOOST_concept, above.
 # define BOOST_CONCEPT_typename(r, ignored, index, t) \
     BOOST_PP_COMMA_IF(index) typename t
-
-

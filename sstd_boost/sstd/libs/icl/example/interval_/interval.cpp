@@ -108,5 +108,3 @@ int main()
 //right_open_interval<rational<int>>: [1/3,2/3)
 
 //]
-
-

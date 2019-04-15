@@ -53,4 +53,3 @@ BOOST_DATA_TEST_CASE( test_data_case, boost::unit_test::data::make(generate_vect
 }
 
 // EOF
-

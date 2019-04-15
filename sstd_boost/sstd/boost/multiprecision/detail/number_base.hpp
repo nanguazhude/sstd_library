@@ -1635,4 +1635,3 @@ namespace constants{
 #endif
 
 #endif // BOOST_MATH_BIG_NUM_BASE_HPP
-

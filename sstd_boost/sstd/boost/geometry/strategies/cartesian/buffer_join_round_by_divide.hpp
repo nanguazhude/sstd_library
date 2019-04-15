@@ -152,4 +152,3 @@ private :
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_CARTESIAN_BUFFER_JOIN_ROUND_BY_DIVIDE_HPP
-

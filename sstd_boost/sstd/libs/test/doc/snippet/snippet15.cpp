@@ -42,4 +42,3 @@ __BOOST_AUTO_TEST_CASE__( constructors_test )
   __BOOST_TEST__( cs_array[1] == "str2" );
 }
 //]
-

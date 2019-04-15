@@ -38,4 +38,3 @@ using boost::array;
 } // namespace boost
 
 #endif // BOOST_ASIO_DETAIL_ARRAY_HPP
-

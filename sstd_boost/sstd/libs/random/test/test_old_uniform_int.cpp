@@ -24,4 +24,3 @@
 #define BOOST_RANDOM_DISTRIBUTION_MAX b
 
 #include "test_real_distribution.ipp"
-

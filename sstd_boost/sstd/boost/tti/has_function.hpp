@@ -107,4 +107,3 @@
 /**/
 
 #endif // BOOST_TTI_HAS_FUNCTION_HPP
-

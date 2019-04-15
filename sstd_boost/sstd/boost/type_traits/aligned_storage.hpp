@@ -136,4 +136,3 @@ struct is_pod< ::boost::detail::aligned_storage::aligned_storage_imp<size_, alig
 } // namespace boost
 
 #endif // BOOST_ALIGNED_STORAGE_HPP
-

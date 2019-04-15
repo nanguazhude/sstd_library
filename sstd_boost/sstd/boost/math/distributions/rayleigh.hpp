@@ -299,4 +299,3 @@ inline RealType kurtosis_excess(const rayleigh_distribution<RealType, Policy>& /
 #include <sstd/boost/math/distributions/detail/derived_accessors.hpp>
 
 #endif // BOOST_STATS_rayleigh_HPP
-

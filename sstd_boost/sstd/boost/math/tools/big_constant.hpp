@@ -83,5 +83,3 @@ inline BOOST_MATH_CONSTEXPR T make_big_value(largest_float, const char* s, mpl::
 }}} // namespaces
 
 #endif
-
-

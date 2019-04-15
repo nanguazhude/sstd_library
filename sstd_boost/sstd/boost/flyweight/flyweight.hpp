@@ -496,4 +496,3 @@ std::size_t hash_value(const flyweight<T,BOOST_FLYWEIGHT_TEMPL_ARGS(_)>& x)
 #endif
 
 #endif
-

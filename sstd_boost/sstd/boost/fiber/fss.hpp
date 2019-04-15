@@ -105,4 +105,3 @@ public:
 #endif
 
 #endif //  BOOST_FIBERS_FSS_H
-

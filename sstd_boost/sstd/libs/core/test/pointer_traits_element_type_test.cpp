@@ -81,4 +81,3 @@ int main()
         boost::pointer_traits<E1<const int> >::element_type>));
     return boost::report_errors();
 }
-

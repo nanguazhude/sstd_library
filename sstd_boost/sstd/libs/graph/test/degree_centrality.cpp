@@ -119,4 +119,3 @@ main(int, char *[])
     test_influence<Digraph>();
     test_prestige<Digraph>();
 }
-

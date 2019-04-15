@@ -20,4 +20,3 @@ add_executable (http-server-fast
 )
 
 set_property(TARGET http-server-fast PROPERTY FOLDER "example-http-server")
-

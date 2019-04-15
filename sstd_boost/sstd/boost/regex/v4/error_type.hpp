@@ -57,4 +57,3 @@ enum error_type{
 #endif /* __cplusplus */
 
 #endif
-

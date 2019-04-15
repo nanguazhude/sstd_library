@@ -4104,4 +4104,3 @@ struct sobol
 } // namespace boost
 
 #endif // BOOST_RANDOM_DETAIL_SOBOL_TABLE_HPP
-

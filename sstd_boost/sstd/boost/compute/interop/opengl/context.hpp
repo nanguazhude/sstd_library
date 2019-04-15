@@ -137,4 +137,3 @@ inline context opengl_create_shared_context()
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_INTEROP_OPENGL_CONTEXT_HPP
-

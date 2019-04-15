@@ -131,4 +131,3 @@ BOOST_TYPEOF_REGISTER_TEMPLATE(boost::units::list, 2)
 #include <sstd/boost/units/dimensionless_type.hpp>
 
 #endif // BOOST_UNITS_DIMENSION_LIST_HPP
-

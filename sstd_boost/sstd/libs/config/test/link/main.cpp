@@ -15,6 +15,3 @@ int main()
 #endif
    return check_options(dyn_link, dyn_rtl, has_threads, debug, stl_debug) ? 0 : -1;
 }
-
-
-

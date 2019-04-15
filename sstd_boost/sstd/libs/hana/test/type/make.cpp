@@ -39,4 +39,3 @@ int main() {
         constexpr auto r2 = hana::make<hana::type_tag>(x); (void)r2;
     }
 }
-

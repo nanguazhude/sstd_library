@@ -40,5 +40,3 @@ int space::my_plugin::value = 42;
 
 
 #endif // BOOST_DLL_MY_PLUGIN_API_HPP
-
-

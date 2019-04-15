@@ -18,5 +18,3 @@
     #pragma warning (disable : 4180) // qualifier applied to function type has no meaning
 
 #endif   //BOOST_MSVC
-
-

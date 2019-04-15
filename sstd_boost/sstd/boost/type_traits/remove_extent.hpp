@@ -39,4 +39,3 @@ template <typename T> struct remove_extent<T const volatile[]> { typedef T const
 } // namespace boost
 
 #endif // BOOST_TT_REMOVE_BOUNDS_HPP_INCLUDED
-

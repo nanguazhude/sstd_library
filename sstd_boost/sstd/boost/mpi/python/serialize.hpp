@@ -538,4 +538,3 @@ register_serialized(const T& value, PyTypeObject* type)
 } } } // end namespace boost::mpi::python
 
 #endif // BOOST_MPI_PYTHON_SERIALIZE_HPP
-

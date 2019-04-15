@@ -30,4 +30,3 @@ typedef new_non_null_reference_t* new_non_null_reference;
 }}} // namespace boost::python::detail
 
 #endif // RAW_PYOBJECT_DWA2002628_HPP
-

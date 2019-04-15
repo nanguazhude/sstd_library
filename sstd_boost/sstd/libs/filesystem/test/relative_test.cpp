@@ -109,4 +109,3 @@ int test_main(int, char*[])
 
   return ::boost::report_errors();
 }
-

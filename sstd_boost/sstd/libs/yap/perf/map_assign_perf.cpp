@@ -160,4 +160,3 @@ BENCHMARK(BM_make_map_manually);
 BENCHMARK(BM_make_map_inializer_list);
 
 BENCHMARK_MAIN()
-

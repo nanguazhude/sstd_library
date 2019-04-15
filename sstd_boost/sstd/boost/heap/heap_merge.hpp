@@ -131,4 +131,3 @@ void heap_merge(Heap1 & lhs, Heap2 & rhs)
 } /* namespace boost */
 
 #endif /* BOOST_HEAP_MERGE_HPP */
-

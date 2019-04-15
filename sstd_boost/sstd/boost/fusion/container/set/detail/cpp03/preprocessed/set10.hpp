@@ -75,4 +75,3 @@ namespace boost { namespace fusion
         storage_type data;
     };
 }}
-

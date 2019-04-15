@@ -39,4 +39,3 @@ int main() {
     check(hana::make_tuple(hana::type_c<T>, hana::type_c<U>, hana::type_c<V>));
     check(hana::tuple_t<T, U, V>);
 }
-

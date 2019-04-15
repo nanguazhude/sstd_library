@@ -39,4 +39,3 @@ BOOST_PYTHON_MODULE(extending)
     // Also add invite() as a regular function to the module.
     def("invite", invite);
 }
-

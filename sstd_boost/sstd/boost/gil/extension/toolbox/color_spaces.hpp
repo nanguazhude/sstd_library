@@ -16,4 +16,3 @@
 #include <sstd/boost/gil/extension/toolbox/color_spaces/xyz.hpp>
 
 #endif
-

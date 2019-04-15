@@ -17,4 +17,3 @@
 #include <sstd/boost/mpl/begin_end.hpp>
 
 #endif // BOOST_MPL_BEGIN_HPP_INCLUDED
-

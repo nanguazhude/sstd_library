@@ -154,4 +154,3 @@ void GC_MacFreeTemporaryMemory()
   }
 
 #endif /* __option(far_data) */
-

@@ -289,4 +289,3 @@ inline void dimension_assert(const char* generator, std::size_t dim, std::size_t
 #include <sstd/boost/random/detail/enable_warnings.hpp>
 
 #endif // BOOST_RANDOM_DETAIL_QRNG_BASE_HPP
-

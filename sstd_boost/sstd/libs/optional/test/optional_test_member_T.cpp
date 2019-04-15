@@ -42,4 +42,3 @@ int main()
   test_member_T();
   return boost::report_errors();
 }
-

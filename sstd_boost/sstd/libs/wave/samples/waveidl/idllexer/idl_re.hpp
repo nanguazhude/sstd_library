@@ -33,4 +33,3 @@ boost::wave::token_id scan(
 }   // namespace boost
 
 #endif // !defined(IDL_RE_HPP_BD62775D_1659_4684_872C_03C02543C9A5_INCLUDED)
-

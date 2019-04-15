@@ -275,4 +275,3 @@ visitation_impl(
 #endif
 
 #endif // BOOST_VARIANT_DETAIL_VISITATION_IMPL_HPP
-

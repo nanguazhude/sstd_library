@@ -421,5 +421,3 @@ namespace boost
 #include <sstd/boost/function_types/detail/retag_default_cc.hpp>
 
 #endif
-
-

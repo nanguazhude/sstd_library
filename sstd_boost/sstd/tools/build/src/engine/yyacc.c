@@ -266,4 +266,3 @@ int cmp_literal(const void * a, const void * b)
 {
     return strcmp(((const literal *)a)->string,((const literal *)b)->string);
 }
-

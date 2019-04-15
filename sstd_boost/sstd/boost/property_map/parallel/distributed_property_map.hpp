@@ -691,4 +691,3 @@ make_distributed_property_map(const ProcessGroup& pg, GlobalMap global,
 #undef PBGL_DISTRIB_PMAP
 
 #endif // BOOST_PARALLEL_DISTRIBUTED_PROPERTY_MAP_HPP
-

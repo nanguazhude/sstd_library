@@ -284,5 +284,3 @@ inline typename detail::fraction_traits<Gen>::result_type continued_fraction_a(G
 } // namespace boost
 
 #endif // BOOST_MATH_TOOLS_FRACTION_INCLUDED
-
-

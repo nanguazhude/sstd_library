@@ -104,6 +104,3 @@ extern template BOOST_SYMBOL_IMPORT int tester<int>::test();
 #endif // BOOST_NO_CXX11_EXTERN_TEMPLATE
 
 #endif // BOOST_LINK_TEST_HPP
-
-
-

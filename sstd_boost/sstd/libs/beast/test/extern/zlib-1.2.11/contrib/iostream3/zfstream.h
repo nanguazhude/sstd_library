@@ -464,4 +464,3 @@ setcompression(int l, int s = Z_DEFAULT_STRATEGY)
 { return gzomanip2<int,int>(&setcompression, l, s); }
 
 #endif // ZFSTREAM_H
-

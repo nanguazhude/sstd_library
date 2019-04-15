@@ -876,4 +876,3 @@ namespace boost { namespace numeric { namespace ublas { namespace raw {
 }}}}
 
 #endif
-

@@ -128,4 +128,3 @@ struct is_nullary< custom_terminal< boost::log::expressions::format_terminal< Ch
 #include <sstd/boost/log/detail/footer.hpp>
 
 #endif // BOOST_LOG_EXPRESSIONS_FORMATTERS_FORMAT_HPP_INCLUDED_
-

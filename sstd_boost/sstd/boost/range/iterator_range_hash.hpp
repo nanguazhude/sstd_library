@@ -20,4 +20,3 @@ std::size_t hash_value(const iterator_range<T>& rng)
 }
 
 } // namespace boost
-

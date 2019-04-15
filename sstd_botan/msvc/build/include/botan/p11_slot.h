@@ -1,4 +1,4 @@
-/*
+﻿/*
 * PKCS#11 Slot
 * (C) 2016 Daniel Neus
 * (C) 2016 Philipp Weber

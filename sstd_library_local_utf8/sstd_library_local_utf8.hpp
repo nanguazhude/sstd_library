@@ -15,5 +15,3 @@ namespace sstd{
     SSTD_SYMBOL_DECL detail::localWstring utf8ToLocal(std::string_view );
 
 }/*namespace sstd*/
-
-

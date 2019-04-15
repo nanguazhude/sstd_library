@@ -542,4 +542,3 @@ struct concept_interface<
 }
 
 #endif
-

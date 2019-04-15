@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Byte Swapping Operations
 * (C) 1999-2011,2018 Jack Lloyd
 * (C) 2007 Yves Jerschow

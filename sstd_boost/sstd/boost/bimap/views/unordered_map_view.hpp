@@ -170,6 +170,3 @@ struct right_map_view_extra_typedefs< ::boost::bimaps::views::unordered_map_view
 } // namespace boost
 
 #endif // BOOST_BIMAP_VIEWS_UNOREDERED_MAP_VIEW_HPP
-
-
-

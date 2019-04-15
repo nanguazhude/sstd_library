@@ -8,4 +8,3 @@
 ==============================================================================*/
 #include <sstd/boost/phoenix/function/lazy_prelude.hpp>
 int main() {}
-

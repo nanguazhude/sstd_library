@@ -67,4 +67,3 @@ int main() {
         BOOST_HANA_CONSTEXPR_CHECK(m.nrows() == 2ul);
     }
 }
-

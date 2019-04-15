@@ -25,4 +25,3 @@ int main() {
         hana::make_tuple(1, '2', 3.3, "abcdef"s)
     );
 }
-

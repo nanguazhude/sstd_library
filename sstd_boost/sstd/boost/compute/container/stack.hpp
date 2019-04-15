@@ -79,4 +79,3 @@ private:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_CONTAINER_STACK_HPP
-

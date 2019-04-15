@@ -135,4 +135,3 @@ extern std::string internal_index_type;
 extern boost::regex debug;
 
 #endif
-

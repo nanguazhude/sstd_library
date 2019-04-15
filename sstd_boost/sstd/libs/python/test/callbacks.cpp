@@ -148,4 +148,3 @@ BOOST_PYTHON_MODULE(callbacks_ext)
 }
 
 #include "module_tail.cpp"
-

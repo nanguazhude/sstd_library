@@ -108,4 +108,3 @@ int main()
     std::cout << "\n\nGauss-Kronrod 40-81 Rule:\n";
     gauss_kronrod_rule<cpp_dec_float_100>(40);*/
 }
-

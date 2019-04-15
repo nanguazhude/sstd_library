@@ -31,5 +31,3 @@ int main () {
     }
     std::cout << hau << std::endl;
 }
-
-

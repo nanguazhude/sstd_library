@@ -17,14 +17,3 @@ extern void test_number_convert() {
     assert( "1"sv == sstd::detail::fromStringLongDouble(1) );
 
 }
-
-
-
-
-
-
-
-
-
-
-

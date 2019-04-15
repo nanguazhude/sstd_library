@@ -269,4 +269,3 @@ protected:
 
 
 #endif // BOOST_FIBONACCI_HEAP_HPP
-

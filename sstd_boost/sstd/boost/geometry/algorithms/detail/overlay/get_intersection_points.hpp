@@ -163,4 +163,3 @@ inline void get_intersection_points(Geometry1 const& geometry1,
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_GET_INTERSECTION_POINTS_HPP
-

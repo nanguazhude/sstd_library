@@ -101,4 +101,3 @@ openssl_init<Do_Init> openssl_init<Do_Init>::instance_;
 #endif // defined(BOOST_ASIO_HEADER_ONLY)
 
 #endif // BOOST_ASIO_SSL_DETAIL_OPENSSL_INIT_HPP
-

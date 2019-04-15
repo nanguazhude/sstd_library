@@ -73,4 +73,3 @@ struct parameter_type_of
 
 
 #endif // BOOST_GEOMETRY_UTIL_PARAMETER_TYPE_OF_HPP
-

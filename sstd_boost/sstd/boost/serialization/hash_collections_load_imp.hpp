@@ -75,4 +75,3 @@ inline void load_hash_collection(Archive & ar, Container &s)
 } // namespace boost
 
 #endif //BOOST_SERIALIZATION_HASH_COLLECTIONS_LOAD_IMP_HPP
-

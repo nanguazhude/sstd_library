@@ -1,4 +1,4 @@
-/*
+﻿/*
 * TLS Record Handling
 * (C) 2004-2012 Jack Lloyd
 *     2016 Matthias Gierlings

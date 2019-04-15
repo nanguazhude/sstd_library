@@ -182,4 +182,3 @@ namespace local_time {
 } } // namespaces
 
 #endif // BOOST_DATE_TIME_LOCAL_TIME_IO_HPP__
-

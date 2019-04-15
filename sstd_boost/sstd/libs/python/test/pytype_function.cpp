@@ -83,4 +83,3 @@ BOOST_PYTHON_MODULE(pytype_function_ext)
 }
 
 #include "module_tail.cpp"
-

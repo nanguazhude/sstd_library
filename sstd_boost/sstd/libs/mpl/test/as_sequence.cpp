@@ -21,4 +21,3 @@ MPL_TEST_CASE()
     MPL_ASSERT(( is_sequence< as_sequence<UDT>::type > ));
     MPL_ASSERT(( is_sequence< as_sequence< vector<> >::type > ));
 }
-

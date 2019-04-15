@@ -177,5 +177,3 @@ inline std::complex<typename detail::bessel_traits<T1, T2, policies::policy<> >:
 }} // namespaces
 
 #endif // BOOST_MATH_HANKEL_HPP
-
-

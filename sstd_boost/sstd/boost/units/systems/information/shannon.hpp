@@ -31,4 +31,3 @@ BOOST_UNITS_STATIC_CONSTANT(shannons, hu::shannon::info);
 } // namespace boost
 
 #endif // BOOST_UNITS_SYSTEMS_INFORMATION_SHANNON_HPP_INCLUDED
-

@@ -96,4 +96,3 @@ BOOST_UNITS_PHYSICAL_CONSTANT(gamma_p_prime,quantity<frequency_over_magnetic_flu
 } // namespace boost
 
 #endif // BOOST_UNITS_CODATA_PROTON_CONSTANTS_HPP
-

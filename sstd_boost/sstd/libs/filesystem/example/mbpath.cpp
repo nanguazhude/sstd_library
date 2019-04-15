@@ -78,4 +78,3 @@ namespace user
   }
 
 } // namespace user
-

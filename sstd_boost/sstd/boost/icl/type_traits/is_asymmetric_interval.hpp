@@ -50,6 +50,3 @@ template <class Type> struct is_discrete_asymmetric
 }} // namespace boost icl
 
 #endif
-
-
-

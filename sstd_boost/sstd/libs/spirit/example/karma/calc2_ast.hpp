@@ -175,4 +175,3 @@ boost::phoenix::function<unary_expr<'+'> > pos;
 boost::phoenix::function<unary_expr<'-'> > neg;
 
 #endif
-

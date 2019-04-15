@@ -99,4 +99,3 @@ UNORDERED_AUTO_TEST (next_prime_test) {
 }
 
 RUN_TESTS()
-

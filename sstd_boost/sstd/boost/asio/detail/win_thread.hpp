@@ -147,4 +147,3 @@ private:
        // && !defined(UNDER_CE)
 
 #endif // BOOST_ASIO_DETAIL_WIN_THREAD_HPP
-

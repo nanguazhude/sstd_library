@@ -978,4 +978,3 @@ private:
 
 #undef BOOST_HEAP_ASSERT
 #endif /* BOOST_HEAP_SKEW_HEAP_HPP */
-

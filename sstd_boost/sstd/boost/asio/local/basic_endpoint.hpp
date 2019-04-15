@@ -239,4 +239,3 @@ std::basic_ostream<Elem, Traits>& operator<<(
        //   || defined(GENERATING_DOCUMENTATION)
 
 #endif // BOOST_ASIO_LOCAL_BASIC_ENDPOINT_HPP
-

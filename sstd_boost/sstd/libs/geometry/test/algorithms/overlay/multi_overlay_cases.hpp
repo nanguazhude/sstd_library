@@ -1501,4 +1501,3 @@ static std::string mysql_regression_1_65_2017_08_31[2] =
     };
 
 #endif // BOOST_GEOMETRY_TEST_MULTI_OVERLAY_CASES_HPP
-

@@ -38,4 +38,3 @@ namespace boost
 }
 
 #endif // BOOST_END_CHECK_HPP
-

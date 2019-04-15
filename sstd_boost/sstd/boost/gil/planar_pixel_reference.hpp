@@ -181,4 +181,3 @@ void swap(const boost::gil::planar_pixel_reference<CR,CS> x, const boost::gil::p
 }   // namespace std
 
 #endif
-

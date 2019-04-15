@@ -28,5 +28,3 @@ void * real_malloc(size_t size)
     return(malloc(size));
 }
 #endif /* PCR */
-
-

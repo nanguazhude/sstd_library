@@ -97,4 +97,3 @@ inline void extract_devices(std::vector<device>& devices, connectivity_database&
 }
 
 #endif
-

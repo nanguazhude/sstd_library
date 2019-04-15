@@ -31,4 +31,3 @@ struct value_is_##name                                                  \
 }}} // namespace boost::python::detail
 
 #endif // VALUE_IS_XXX_DWA2003224_HPP
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Lightweight wrappers for SIMD operations
 * (C) 2009,2011,2016,2017 Jack Lloyd
 *

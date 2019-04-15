@@ -10,4 +10,3 @@
 //O -S$P(utf8-test-ßµ™∃)
 //E t_9_027.cpp(12): error: could not find include file: file.hpp
 #include <file.hpp>
-

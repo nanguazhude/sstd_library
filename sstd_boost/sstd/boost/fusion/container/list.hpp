@@ -15,4 +15,3 @@
 #include <sstd/boost/fusion/container/list/convert.hpp>
 
 #endif
-

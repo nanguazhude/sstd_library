@@ -49,4 +49,3 @@ enum value_error {
 #endif
 
 #endif // !defined(BOOST_WAVE_CPP_VALUE_ERROR_INCLUDED)
-

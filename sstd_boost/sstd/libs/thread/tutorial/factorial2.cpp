@@ -30,4 +30,3 @@ int main()
     thrd.join();
     std::cout << "10! = " << f.result() << std::endl;
 }
-

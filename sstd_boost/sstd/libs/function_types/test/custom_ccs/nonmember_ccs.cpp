@@ -42,5 +42,3 @@ BOOST_MPL_ASSERT((
     ft::function_reference<mpl::vector<void,int>, cc>::type
   >
 ));
-
-

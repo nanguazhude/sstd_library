@@ -240,4 +240,3 @@ namespace boost { namespace python {
 }} // namespace boost::python
 
 #endif // VECTOR_INDEXING_SUITE_JDG20036_HPP
-

@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_PARSE_TREE
 #include <sstd/boost/spirit/home/classic/tree/parse_tree.hpp>
 #endif
-

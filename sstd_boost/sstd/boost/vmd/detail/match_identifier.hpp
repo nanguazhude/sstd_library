@@ -158,4 +158,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_MATCH_IDENTIFIER_HPP */
-

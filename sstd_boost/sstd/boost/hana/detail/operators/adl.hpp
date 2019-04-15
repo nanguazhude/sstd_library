@@ -32,4 +32,3 @@ BOOST_HANA_NAMESPACE_BEGIN namespace detail { namespace operators {
 }} BOOST_HANA_NAMESPACE_END
 
 #endif // !BOOST_HANA_DETAIL_OPERATORS_ADL_HPP
-

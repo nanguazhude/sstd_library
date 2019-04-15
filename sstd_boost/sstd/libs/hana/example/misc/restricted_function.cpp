@@ -141,4 +141,3 @@ int main() {
     BOOST_HANA_CONSTANT_CHECK(is_injective(h));
     BOOST_HANA_CONSTANT_CHECK(hana::not_(is_injective(even)));
 }
-

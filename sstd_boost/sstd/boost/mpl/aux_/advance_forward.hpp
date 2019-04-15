@@ -125,4 +125,3 @@ struct advance_forward< BOOST_PP_FRAME_ITERATION(1) >
 
 #endif // BOOST_PP_ITERATION_DEPTH()
 #endif // BOOST_PP_IS_ITERATING
-

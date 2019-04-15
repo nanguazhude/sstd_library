@@ -450,4 +450,3 @@ int main() {
         BOOST_HANA_CONSTANT_CHECK(hana::equal(x, hana::int_c<0>));
     }
 }
-

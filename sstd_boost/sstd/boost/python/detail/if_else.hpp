@@ -79,4 +79,3 @@ struct if_<false>
 }}} // namespace boost::python::detail
 
 #endif // IF_ELSE_DWA2002322_HPP
-

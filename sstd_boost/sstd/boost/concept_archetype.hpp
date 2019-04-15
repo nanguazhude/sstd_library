@@ -668,4 +668,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_CONCEPT_ARCHETYPES_H
-

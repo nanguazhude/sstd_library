@@ -22,4 +22,3 @@ template< typename Sequence > struct back;
 }}
 
 #endif // BOOST_MPL_BACK_FWD_HPP_INCLUDED
-

@@ -14,4 +14,3 @@
 #include <sstd/boost/proto/proto_fwd.hpp>
 
 #endif //BOOST_MSM_PROTO_CONFIG_H
-

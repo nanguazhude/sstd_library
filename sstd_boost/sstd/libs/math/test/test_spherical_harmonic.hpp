@@ -211,4 +211,3 @@ void test_spots(T, const char* t)
    BOOST_CHECK_CLOSE_FRACTION(::boost::math::spherical_harmonic_r(53, 42, static_cast<T>(-8.75), static_cast<T>(-2.25)), static_cast<T>(-0.0008147976618889536159592309471859037113647L), tolerance);
    BOOST_CHECK_CLOSE_FRACTION(::boost::math::spherical_harmonic_i(53, 42, static_cast<T>(-8.75), static_cast<T>(-2.25)), static_cast<T>(0.0002099802242493057018193798824353982612756L), tolerance);
 }
-

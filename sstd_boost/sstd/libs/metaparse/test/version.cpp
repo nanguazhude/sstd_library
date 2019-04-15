@@ -17,5 +17,3 @@ BOOST_METAPARSE_TEST_CASE(version)
   // test_version_number
   BOOST_MPL_ASSERT((bool_<BOOST_METAPARSE_VERSION == 10000000>));
 }
-
-

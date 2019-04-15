@@ -848,4 +848,3 @@ private:
 
 
 #endif // BOOST_GEOMETRY_SRS_PROJECTIONS_DPAR_HPP
-

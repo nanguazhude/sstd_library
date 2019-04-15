@@ -91,5 +91,3 @@ and use library.
     - \ref special_thanks
 - \subpage changelog
 */
-
-

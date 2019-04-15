@@ -19,4 +19,3 @@ static_assert(hana::not_equal(pair, std::make_pair(3, 'z')), "");
 static_assert(hana::less(pair, std::make_pair(3, 'x')), "");
 
 int main() { }
-

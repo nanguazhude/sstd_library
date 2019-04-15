@@ -284,5 +284,3 @@ test_suite* init_unit_test_suite( int argc, char* argv[] )
     test->add(BOOST_TEST_CASE(&test7));
     return test;
 }
-
-

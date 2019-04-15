@@ -91,4 +91,3 @@ void connection::handle_write(const boost::system::error_code& e)
 
 } // namespace server2
 } // namespace http
-

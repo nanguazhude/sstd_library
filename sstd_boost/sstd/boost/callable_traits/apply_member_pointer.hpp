@@ -121,4 +121,3 @@ struct apply_member_pointer : detail::apply_member_pointer_impl<T, C> {};
 */
 //]
 #endif
-

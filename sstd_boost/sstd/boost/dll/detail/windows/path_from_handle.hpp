@@ -62,5 +62,3 @@ namespace boost { namespace dll { namespace detail {
 }}} // namespace boost::dll::detail
 
 #endif // BOOST_DLL_DETAIL_WINDOWS_PATH_FROM_HANDLE_HPP
-
-

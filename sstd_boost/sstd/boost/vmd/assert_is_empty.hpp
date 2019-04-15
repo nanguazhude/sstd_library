@@ -103,4 +103,3 @@
 
 #endif /* BOOST_PP_VARIADICS */
 #endif /* BOOST_VMD_ASSERT_IS_EMPTY_HPP */
-

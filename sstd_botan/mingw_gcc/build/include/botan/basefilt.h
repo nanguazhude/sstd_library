@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Basic Filters
 * (C) 1999-2007 Jack Lloyd
 * (C) 2013 Joel Low

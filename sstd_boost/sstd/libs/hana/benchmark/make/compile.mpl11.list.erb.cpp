@@ -15,4 +15,3 @@ using list = boost::mpl11::list<
 int main() {
 
 }
-

@@ -121,4 +121,3 @@ make_delayed(Args... args)
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_DATA_MONOMORPHIC_DELAYED_HPP_062018GER
-

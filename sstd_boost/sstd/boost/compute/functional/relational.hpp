@@ -37,4 +37,3 @@ BOOST_COMPUTE_DECLARE_BUILTIN_FUNCTION(all, int (T), class T)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_FUNCTIONAL_RELATIONAL_HPP
-

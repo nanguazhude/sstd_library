@@ -104,4 +104,3 @@ collection_load_impl(
 } // namespace boost
 
 #endif //BOOST_SERIALIZATION_COLLECTIONS_LOAD_IMP_HPP
-

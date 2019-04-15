@@ -225,4 +225,3 @@ void* pointer_holder_back_reference<Pointer, Value>::holds(type_info dst_t, bool
 
 #endif // BOOST_PP_ITERATION_DEPTH()
 #endif
-

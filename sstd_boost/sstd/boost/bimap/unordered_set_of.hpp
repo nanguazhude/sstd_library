@@ -227,5 +227,3 @@ struct unordered_set_of_relation : public ::boost::bimaps::detail::set_type_of_r
 
 
 #endif // BOOST_BIMAP_UNORDERED_SET_OF_HPP
-
-

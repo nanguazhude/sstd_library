@@ -23,4 +23,3 @@ struct parameter_requirements
 }}} // namespace boost::parameter::aux
 
 #endif // PARAMETER_REQUIREMENTS_050331_HPP
-

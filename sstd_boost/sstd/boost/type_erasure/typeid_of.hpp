@@ -68,4 +68,3 @@ const std::type_info& typeid_of(const binding<Concept>& binding_arg)
 }
 
 #endif
-

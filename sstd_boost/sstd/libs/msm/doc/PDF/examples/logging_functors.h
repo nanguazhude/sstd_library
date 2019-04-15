@@ -368,4 +368,3 @@ BOOST_MSM_EUML_ACTION(internal_guard2)
     }
 };
 #endif // LOGGING_FUNCTORS
-

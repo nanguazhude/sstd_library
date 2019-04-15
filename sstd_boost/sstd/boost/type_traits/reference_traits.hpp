@@ -13,4 +13,3 @@
 #include <sstd/boost/type_traits/is_reference.hpp>
 
 #endif // BOOST_TT_REFERENCE_TRAITS_HPP_INCLUDED
-

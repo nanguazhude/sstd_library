@@ -137,4 +137,3 @@ BOOST_AUTO_TEST_CASE( test_maximum_gap )
     intervals = uint_intervals(38,41)(3,10)(15,15)(15,18)(15,16)(20,30)(22,30)(23,30);
     test_one("case_07", intervals, 8);
 }
-

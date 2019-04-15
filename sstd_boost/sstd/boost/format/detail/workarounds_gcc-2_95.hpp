@@ -160,4 +160,3 @@ namespace boost {
 #endif // include guard
 
 #endif // if workaround
-

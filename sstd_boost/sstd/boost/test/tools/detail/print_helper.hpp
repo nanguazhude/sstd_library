@@ -246,4 +246,3 @@ struct print_log_value<the_type > {                         \
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_TOOLS_IMPL_COMMON_HPP_012705GER
-

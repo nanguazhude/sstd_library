@@ -309,4 +309,3 @@ struct default_strategy
 }}} // namespace boost::geometry::strategy
 
 #endif // BOOST_GEOMETRY_STRATEGIES_CARTESIAN_BOX_IN_BOX_HPP
-

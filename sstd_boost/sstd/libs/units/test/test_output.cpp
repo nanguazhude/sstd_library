@@ -497,4 +497,3 @@ BOOST_AUTO_TEST_CASE(test_output_typename_format)
     BOOST_UNITS_TEST_OUTPUT_DISPLAY(boost::units::absolute<meter_base_unit::unit_type>());
 #undef FORMATTERS
 }
-

@@ -73,4 +73,3 @@ void test_conv_iterators()
     BOOST_TEST(*it==*it1&&*it1==*it2&&*it2==*it);
   }
 }
-

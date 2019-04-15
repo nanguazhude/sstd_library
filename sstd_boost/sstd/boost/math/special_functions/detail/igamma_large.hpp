@@ -765,5 +765,3 @@ T igamma_temme_large(T a, T x, const Policy& pol, mpl::int_<113> const *)
 
 
 #endif // BOOST_MATH_DETAIL_IGAMMA_LARGE
-
-

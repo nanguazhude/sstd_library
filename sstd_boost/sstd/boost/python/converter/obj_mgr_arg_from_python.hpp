@@ -119,4 +119,3 @@ inline Ref object_manager_ref_arg_from_python<Ref>::operator()() const
 }}} // namespace boost::python::converter
 
 #endif // OBJ_MGR_ARG_FROM_PYTHON_DWA2002628_HPP
-

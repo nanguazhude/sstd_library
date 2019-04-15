@@ -89,4 +89,3 @@ struct is_simple<MultiPoint, multi_point_tag>
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_IS_SIMPLE_MULTIPOINT_HPP
-

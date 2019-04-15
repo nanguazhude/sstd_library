@@ -23,5 +23,3 @@ int main () {
         std::cout << row (m, i) << std::endl;
     }
 }
-
-

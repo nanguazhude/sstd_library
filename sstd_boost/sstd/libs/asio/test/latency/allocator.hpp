@@ -50,4 +50,3 @@ private:
 };
 
 #endif // ALLOCATOR_HPP
-

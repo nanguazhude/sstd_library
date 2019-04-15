@@ -62,4 +62,3 @@ namespace boost { namespace fusion { namespace detail
 #endif // BOOST_FUSION_DONT_USE_PREPROCESSED_FILES
 
 #endif
-

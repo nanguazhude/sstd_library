@@ -66,4 +66,3 @@ using boost::chrono::high_resolution_clock;
 } // namespace boost
 
 #endif // BOOST_ASIO_DETAIL_CHRONO_HPP
-

@@ -175,4 +175,3 @@ bool test_xor(
 }
 
 #endif // BOOST_TEST_XOR_HPP
-

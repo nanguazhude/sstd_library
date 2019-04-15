@@ -15,4 +15,3 @@ EXPORT void throw_bad_function_call()
 {
     throw boost::bad_function_call();
 }
-

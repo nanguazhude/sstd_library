@@ -191,5 +191,3 @@ void test_spots(T, const char* t)
    BOOST_CHECK_CLOSE(::boost::math::expint(static_cast<T>(-1)), static_cast<T>(-0.219383934395520273677163775460121649031047293406908207577979L), tolerance);
    BOOST_CHECK_CLOSE(::boost::math::expint(static_cast<T>(-50.5)), static_cast<T>(-2.27237132932219350440719707268817831250090574830769670186618e-24L), tolerance);
 }
-
-

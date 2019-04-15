@@ -39,4 +39,3 @@ BOOST_AUTO_TEST_CASE(partial_sum_int)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

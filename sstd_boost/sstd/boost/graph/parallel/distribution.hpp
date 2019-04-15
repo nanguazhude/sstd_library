@@ -612,5 +612,3 @@ class random_distribution
 } } // end namespace boost::parallel
 
 #endif // BOOST_PARALLEL_DISTRIBUTION_HPP
-
-

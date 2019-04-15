@@ -105,5 +105,3 @@ int main()
   test_completion_latch_reset();
   return boost::report_errors();
 }
-
-

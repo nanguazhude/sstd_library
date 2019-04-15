@@ -36,4 +36,3 @@ int main()
     std::vector<int> v(10);
     std::for_each(v.begin(), v.end(), generator(0));
 }
-

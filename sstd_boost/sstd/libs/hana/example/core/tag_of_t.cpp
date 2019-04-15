@@ -13,4 +13,3 @@ struct Person { using hana_tag = PersonTag; };
 static_assert(std::is_same<hana::tag_of_t<Person>, PersonTag>{}, "");
 
 int main() { }
-

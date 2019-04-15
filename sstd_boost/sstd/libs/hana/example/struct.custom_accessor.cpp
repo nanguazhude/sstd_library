@@ -66,4 +66,3 @@ int main() {
         hana::make_pair(age, 30)
     ));
 }
-

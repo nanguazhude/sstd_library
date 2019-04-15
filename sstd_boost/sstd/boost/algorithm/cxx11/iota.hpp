@@ -63,4 +63,3 @@ BOOST_CXX14_CONSTEXPR OutputIterator iota_n ( OutputIterator out, T value, std::
 }}
 
 #endif  // BOOST_ALGORITHM_IOTA_HPP
-

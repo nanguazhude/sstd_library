@@ -221,4 +221,3 @@ private:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_DETAIL_PARAMETER_CACHE_HPP
-

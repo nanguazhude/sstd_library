@@ -10,4 +10,3 @@ int main()
 {
     boost::yap::make_expression<boost::yap::expr_kind::plus>(boost::yap::make_terminal(1));
 }
-

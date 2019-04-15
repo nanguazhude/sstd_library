@@ -46,4 +46,3 @@ private:
 } // namespace http
 
 #endif // HTTP_CONNECTION_MANAGER_HPP
-

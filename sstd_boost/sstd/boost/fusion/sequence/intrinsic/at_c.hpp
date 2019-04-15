@@ -11,5 +11,3 @@
 #include <sstd/boost/fusion/sequence/intrinsic/at.hpp>
 
 #endif
-
-

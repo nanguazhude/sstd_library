@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_CLASSIC_ACTIONS
 #include <sstd/boost/spirit/home/classic/core/composite/actions.hpp>
 #endif
-

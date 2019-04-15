@@ -14,4 +14,3 @@ static_assert(hana::fold_left(hana::make_pair(1, 3), 0, hana::plus) == 4, "");
 static_assert(hana::fold_right(hana::make_pair(1, 3), 0, hana::minus) == -2, "");
 
 int main() { }
-

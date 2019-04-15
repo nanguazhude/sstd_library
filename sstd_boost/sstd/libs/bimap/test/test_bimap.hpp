@@ -607,5 +607,3 @@ void test_bimap_init_copy_swap(const Data&d)
 }
 
 #endif // LIBS_BIMAP_TEST_BIMAP_TEST_HPP
-
-

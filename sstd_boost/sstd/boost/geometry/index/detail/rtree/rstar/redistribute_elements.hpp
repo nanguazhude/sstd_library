@@ -470,4 +470,3 @@ struct redistribute_elements<Value, Options, Translator, Box, Allocators, rstar_
 }}} // namespace boost::geometry::index
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_RTREE_RSTAR_REDISTRIBUTE_ELEMENTS_HPP
-

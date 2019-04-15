@@ -60,4 +60,3 @@ struct resize_impl< blaze::DynamicVector< T1 , TF1 > , blaze::DynamicVector< T2 
 
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_BLAZE_BLAZE_RESIZE_HPP_INCLUDED
-

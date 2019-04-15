@@ -103,4 +103,3 @@ TestCase test_insert_range{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_INSERT_RANGE_HPP
-

@@ -388,4 +388,3 @@ struct strategy_convex_hull<InputGeometry, OutputPoint, cartesian_tag>
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_AGNOSTIC_CONVEX_GRAHAM_ANDREW_HPP
-

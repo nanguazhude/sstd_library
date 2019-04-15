@@ -211,4 +211,3 @@ int main(){
     std::cout << (rval ? "success!" : "failure") << std::endl;
     return ! rval ;
 }
-

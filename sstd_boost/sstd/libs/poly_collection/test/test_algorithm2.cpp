@@ -18,4 +18,3 @@ void test_algorithm2()
     base_types::t1,base_types::t2,base_types::t3,
     base_types::t4,base_types::t5>();
 }
-

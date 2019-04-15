@@ -36,5 +36,3 @@ int main() {
     TEST_TRANSACTION_SAFE(int(foo::*)(int, ...));
     TEST_TRANSACTION_SAFE(int(foo::*)(int, ...) volatile);
 }
-
-

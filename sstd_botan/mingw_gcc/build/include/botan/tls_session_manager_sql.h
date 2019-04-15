@@ -1,4 +1,4 @@
-/*
+﻿/*
 * TLS Session Manager storing to encrypted SQL db table
 * (C) 2012,2014 Jack Lloyd
 *

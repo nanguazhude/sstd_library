@@ -73,4 +73,3 @@ false is defined
 //H 10: t_9_017.cpp(44): #ifndef
 //H 11: t_9_017.cpp(44): #ifndef false: 0
 //H 10: t_9_017.cpp(46): #else
-

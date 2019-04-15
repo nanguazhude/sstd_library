@@ -238,4 +238,3 @@ struct delete_array {
 } // namespace boost
 
 #endif
-

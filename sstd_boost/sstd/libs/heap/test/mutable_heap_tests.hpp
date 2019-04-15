@@ -323,4 +323,3 @@ void run_ordered_iterator_tests()
 {
     pri_queue_test_ordered_iterators<pri_queue>();
 }
-

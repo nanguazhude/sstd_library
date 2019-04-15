@@ -40,12 +40,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_volatile<volatile int&&>::value, false);
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

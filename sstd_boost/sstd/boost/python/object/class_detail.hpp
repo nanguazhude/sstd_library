@@ -17,4 +17,3 @@ BOOST_PYTHON_DECL type_handle class_type();
 }}} // namespace boost::python::object
 
 #endif // CLASS_DETAIL_DWA200295_HPP
-

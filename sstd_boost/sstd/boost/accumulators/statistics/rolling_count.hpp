@@ -78,4 +78,3 @@ using extract::rolling_count;
 }} // namespace boost::accumulators
 
 #endif
-

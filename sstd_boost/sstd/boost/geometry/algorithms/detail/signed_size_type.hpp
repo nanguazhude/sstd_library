@@ -26,4 +26,3 @@ typedef boost::make_signed<std::size_t>::type signed_size_type;
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_SIGNED_SIZE_TYPE_HPP
-

@@ -44,5 +44,3 @@ struct template_keyword
 }} // namespace boost::parameter
 
 #endif // BOOST_PARAMETER_TEMPLATE_KEYWORD_060203_HPP
-
-

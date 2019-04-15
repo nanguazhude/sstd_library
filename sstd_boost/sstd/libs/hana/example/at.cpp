@@ -15,4 +15,3 @@ static_assert(hana::at(xs, hana::size_t<1>{}) == '1', "");
 static_assert(hana::at(xs, hana::size_t<2>{}) == 2.0, "");
 
 int main() { }
-

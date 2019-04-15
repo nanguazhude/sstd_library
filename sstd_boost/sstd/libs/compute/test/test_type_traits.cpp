@@ -129,4 +129,3 @@ BOOST_AUTO_TEST_CASE(is_device_iterator)
     BOOST_STATIC_ASSERT(is_device_iterator<std::vector<int>::iterator>::value == false);
     BOOST_STATIC_ASSERT(is_device_iterator<const std::vector<int>::iterator>::value == false);
 }
-

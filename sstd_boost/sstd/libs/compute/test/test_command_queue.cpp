@@ -350,4 +350,3 @@ BOOST_AUTO_TEST_CASE(set_as_default_device_queue)
 #endif
 
 BOOST_AUTO_TEST_SUITE_END()
-

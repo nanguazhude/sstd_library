@@ -26,5 +26,3 @@ int main()
    UChar32 c = ::u_charFromName(U_UNICODE_CHAR_NAME, "GREEK SMALL LETTER ALPHA", &err);
    return err;
 }
-
-

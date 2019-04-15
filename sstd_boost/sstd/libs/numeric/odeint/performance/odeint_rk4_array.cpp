@@ -61,4 +61,3 @@ int main()
     }
     std::cout << "Minimal Runtime: " << min_time << std::endl;
 }
-

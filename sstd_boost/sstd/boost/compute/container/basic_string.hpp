@@ -329,4 +329,3 @@ operator<<(std::ostream& stream,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_CONTAINER_BASIC_STRING_HPP
-

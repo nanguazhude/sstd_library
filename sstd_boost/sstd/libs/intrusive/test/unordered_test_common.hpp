@@ -67,4 +67,3 @@ struct unordered_rebinder_common
 }  //namespace boost {
 
 #endif   //BOOST_INTRUSIVE_TEST_UNORDERED_TEST_COMMON_HPP
-

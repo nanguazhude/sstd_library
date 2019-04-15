@@ -136,4 +136,3 @@ logic::tribool operator!=(const interval<T, Policies>& x, const T& y)
 
 
 #endif // BOOST_NUMERIC_INTERVAL_COMPARE_TRIBOOL_HPP
-

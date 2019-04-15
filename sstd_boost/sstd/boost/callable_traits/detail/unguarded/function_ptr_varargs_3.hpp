@@ -95,5 +95,3 @@ struct function<BOOST_CLBL_TRTS_ST Return(BOOST_CLBL_TRTS_VARARGS_CC *)(Args...,
 
     using is_member_pointer = std::false_type;
 };
-
-

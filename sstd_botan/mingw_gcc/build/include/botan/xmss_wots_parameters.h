@@ -1,4 +1,4 @@
-/*
+﻿/*
  * XMSS WOTS Parameters
  * (C) 2016 Matthias Gierlings
  *

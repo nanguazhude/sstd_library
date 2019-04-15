@@ -143,5 +143,3 @@ struct lambda<
 /**/
 
 #endif // BOOST_PARAMETER_NAME_060806_HPP
-
-

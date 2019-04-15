@@ -44,4 +44,3 @@ template <class T> struct add_volatile<T&>{ typedef T& type; };
 } // namespace boost
 
 #endif // BOOST_TT_ADD_VOLATILE_HPP_INCLUDED
-

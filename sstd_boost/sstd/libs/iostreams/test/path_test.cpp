@@ -23,4 +23,3 @@ boost::unit_test::test_suite* init_unit_test_suite(int, char* [])
     test->add(BOOST_TEST_CASE(&path_test));
     return test;
 }
-

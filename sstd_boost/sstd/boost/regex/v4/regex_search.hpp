@@ -213,6 +213,3 @@ inline bool regex_search(const std::basic_string<wchar_t>& s,
 } // namespace boost
 
 #endif  // BOOST_REGEX_V4_REGEX_SEARCH_HPP
-
-
-

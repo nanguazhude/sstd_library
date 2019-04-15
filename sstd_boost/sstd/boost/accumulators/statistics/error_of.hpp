@@ -97,4 +97,3 @@ struct as_weighted_feature<tag::error_of<Feature> >
 }} // namespace boost::accumulators
 
 #endif
-

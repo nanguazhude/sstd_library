@@ -1,4 +1,4 @@
-/*
+﻿/*
 ** $Id: ldebug.c,v 2.121.1.2 2017/07/10 17:21:50 roberto Exp $
 ** Debug Interface
 ** See Copyright Notice in lua.h
@@ -696,4 +696,3 @@ void luaG_traceexec (lua_State *L) {
     luaD_throw(L, LUA_YIELD);
   }
 }
-

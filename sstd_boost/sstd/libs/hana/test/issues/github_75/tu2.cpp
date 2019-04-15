@@ -3,4 +3,3 @@
 // (See accompanying file LICENSE.md or copy at http://boost.org/LICENSE_1_0.txt)
 
 #include <sstd/boost/hana.hpp>
-

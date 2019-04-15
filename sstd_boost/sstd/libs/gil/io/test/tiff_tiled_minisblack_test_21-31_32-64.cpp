@@ -56,4 +56,3 @@ BOOST_AUTO_TEST_CASE( read_tile_and_compare_with_minisblack_strip_64 )
 #endif // BOOST_GIL_IO_USE_TIFF_GRAPHICSMAGICK_TEST_SUITE_IMAGES
 
 BOOST_AUTO_TEST_SUITE_END()
-

@@ -173,6 +173,3 @@ Tolerance for type class boost::math::concepts::real_concept is 2.22e-014 (or 2.
 *** No errors detected
 
 */
-
-
-

@@ -39,12 +39,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::extent<int&&>::value, 0);
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

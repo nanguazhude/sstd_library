@@ -47,4 +47,3 @@ struct strategy_tag_distance_segment_box {};
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_TAGS_HPP
-

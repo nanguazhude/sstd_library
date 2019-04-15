@@ -38,4 +38,3 @@ BOOST_MPL_AUX_NA_SPEC(1, min_element)
 }}
 
 #endif // BOOST_MPL_MIN_ELEMENT_HPP_INCLUDED
-

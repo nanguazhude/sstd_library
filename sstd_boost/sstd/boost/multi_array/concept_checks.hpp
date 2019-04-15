@@ -219,4 +219,3 @@ namespace detail {
 
 
 #endif // BOOST_MULTI_ARRAY_CONCEPT_CHECKS_RG110101_HPP
-

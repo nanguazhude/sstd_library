@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Interface for AEAD modes
 * (C) 2013 Jack Lloyd
 *

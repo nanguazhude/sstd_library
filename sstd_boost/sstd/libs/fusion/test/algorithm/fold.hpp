@@ -209,5 +209,3 @@ main()
 }
 
 #undef BOOST_FUSION_TEST_FOLD_NAME
-
-

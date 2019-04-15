@@ -34,4 +34,3 @@ void test_filtering_ostream_flush()
         );
     }
 }
-

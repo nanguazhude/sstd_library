@@ -16,4 +16,3 @@
 #include <sstd/boost/spirit/home/support/attributes_fwd.hpp>
 
 #endif
-

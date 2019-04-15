@@ -72,4 +72,3 @@ struct hashed_non_unique;
 } /* namespace boost */
 
 #endif
-

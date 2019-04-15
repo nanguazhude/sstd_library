@@ -54,4 +54,3 @@ Version number available as major, minor, and patch.
 
 #include <sstd/boost/predef/detail/test.h>
 BOOST_PREDEF_DECLARE_TEST(BOOST_LIB_C_ZOS,BOOST_LIB_C_ZOS_NAME)
-

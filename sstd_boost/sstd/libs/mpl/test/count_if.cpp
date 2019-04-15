@@ -34,4 +34,3 @@ MPL_TEST_CASE()
     MPL_ASSERT_RELATION( (count_if< values, equal_to<int_<0>,_>  >::value), ==, 2 );
     MPL_ASSERT_RELATION( (count_if< values, equal_to<int_<-1>,_> >::value), ==, 0 );
 }
-

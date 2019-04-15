@@ -29,4 +29,3 @@ struct has_constraints
 }} // namespace boost::concept_checking
 
 #endif // BOOST_CONCEPT_CHECK_HAS_CONSTRAINTS_DWA2006429_HPP
-

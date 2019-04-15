@@ -45,4 +45,3 @@ int main() {
     hana::test::TestComparable<hana::ext::boost::tuple_tag>{eq_tuples};
     hana::test::TestOrderable<hana::ext::boost::tuple_tag>{ord_tuples};
 }
-

@@ -135,5 +135,3 @@ struct apply_wrap5< int,int,int,int,int,int >
 };
 
 }}
-
-

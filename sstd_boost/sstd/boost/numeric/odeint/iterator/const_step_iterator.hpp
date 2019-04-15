@@ -178,4 +178,3 @@ namespace odeint {
 //#include <sstd/boost/numeric/odeint/iterator/impl/const_step_iterator_dense_output_impl.hpp>
 
 #endif // BOOST_NUMERIC_ODEINT_ITERATOR_CONST_STEP_ODE_ITERATOR_HPP_INCLUDED
-

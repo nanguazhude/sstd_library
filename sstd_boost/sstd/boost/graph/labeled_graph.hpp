@@ -814,4 +814,3 @@ remove_vertex(typename LABELED_GRAPH::label_type const& l, LABELED_GRAPH& g)
 #include <sstd/boost/graph/detail/labeled_graph_traits.hpp>
 
 #endif // BOOST_GRAPH_LABELED_GRAPH_HPP
-

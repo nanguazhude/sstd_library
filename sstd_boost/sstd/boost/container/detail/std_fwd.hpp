@@ -57,4 +57,3 @@ BOOST_MOVE_STD_NS_END
 #include <sstd/boost/move/detail/std_ns_end.hpp>
 
 #endif //#ifndef BOOST_CONTAINER_DETAIL_STD_FWD_HPP
-

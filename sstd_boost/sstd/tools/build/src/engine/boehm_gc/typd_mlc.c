@@ -720,4 +720,3 @@ DCL_LOCK_STATE;
    }
    return((void *) op);
 }
-

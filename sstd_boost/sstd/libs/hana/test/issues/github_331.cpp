@@ -55,4 +55,3 @@ int main() {
         copy = std::move(move); // move assign
     }
 }
-

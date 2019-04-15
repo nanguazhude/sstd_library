@@ -67,4 +67,3 @@
 
 #endif /* BOOST_VMD_MSVC */
 #endif /* BOOST_VMD_DETAIL_ASSERT_HPP */
-

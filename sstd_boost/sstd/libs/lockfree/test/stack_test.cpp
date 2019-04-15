@@ -217,4 +217,3 @@ BOOST_AUTO_TEST_CASE( reserve_test )
     ms.reserve(1);
     ms.reserve_unsafe(1);
 }
-

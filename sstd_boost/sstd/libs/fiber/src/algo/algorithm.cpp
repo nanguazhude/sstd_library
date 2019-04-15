@@ -33,4 +33,3 @@ algorithm_with_properties_base::set_properties( context * ctx, fiber_properties 
 #ifdef BOOST_HAS_ABI_HEADERS
 #  include BOOST_ABI_SUFFIX
 #endif
-

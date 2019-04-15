@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Filter interface for compression
 * (C) 2014,2015,2016 Jack Lloyd
 *

@@ -131,4 +131,3 @@ struct geodesic_measure
 } /* namespace boost */
 
 #endif
-

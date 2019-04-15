@@ -49,4 +49,3 @@ struct static_unsigned_max
 
 
 #endif  // BOOST_INTEGER_STATIC_MIN_MAX_HPP
-

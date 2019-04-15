@@ -202,4 +202,3 @@ struct image_write_info< raw_tag >
 } // namespace boost
 
 #endif
-

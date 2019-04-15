@@ -105,4 +105,3 @@ namespace boost {
 
 
 #endif  // BOOST_STRING_UTIL_DETAIL_HPP
-

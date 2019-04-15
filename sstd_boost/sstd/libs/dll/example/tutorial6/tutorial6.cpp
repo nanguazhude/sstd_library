@@ -36,5 +36,3 @@ int main(int argc, char* argv[]) {
     std::cout << "After library unload." << std::endl;
 }
 //]
-
-

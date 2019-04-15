@@ -15,4 +15,3 @@ TestA::TestA()
     TestLibX aTestLibX;
     aTestLibX.do_something();
 }
-

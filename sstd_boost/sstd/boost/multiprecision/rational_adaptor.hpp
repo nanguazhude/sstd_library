@@ -365,4 +365,3 @@ BOOST_CONSTEXPR_OR_CONST bool numeric_limits<boost::multiprecision::number<boost
 }
 
 #endif
-

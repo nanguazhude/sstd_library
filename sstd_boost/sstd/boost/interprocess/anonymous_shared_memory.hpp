@@ -123,4 +123,3 @@ anonymous_shared_memory(std::size_t size, void *address = 0)
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_ANONYMOUS_SHARED_MEMORY_HPP
-

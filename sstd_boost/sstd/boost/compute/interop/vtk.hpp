@@ -17,4 +17,3 @@
 #include <sstd/boost/compute/interop/vtk/points.hpp>
 
 #endif // BOOST_COMPUTE_INTEROP_VTK_HPP
-

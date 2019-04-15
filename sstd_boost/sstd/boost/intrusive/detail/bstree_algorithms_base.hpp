@@ -182,4 +182,3 @@ class bstree_algorithms_base
 }  //namespace boost
 
 #endif //BOOST_INTRUSIVE_BSTREE_ALGORITHMS_BASE_HPP
-

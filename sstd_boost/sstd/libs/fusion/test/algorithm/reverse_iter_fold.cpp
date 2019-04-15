@@ -10,4 +10,3 @@
 #include "fold.hpp"
 #undef BOOST_FUSION_TEST_ITER_FOLD
 #undef BOOST_FUSION_TEST_REVERSE_FOLD
-

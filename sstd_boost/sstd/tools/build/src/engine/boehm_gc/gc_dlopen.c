@@ -84,7 +84,3 @@
     return(result);
 }
 # endif  /* GC_PTHREADS || GC_SOLARIS_THREADS ... */
-
-
-
-

@@ -104,4 +104,3 @@ struct default_strategy<geographic_tag, CalculationType>
 }} //namepsace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_GEOGRAPHIC_ENVELOPE_SEGMENT_HPP
-

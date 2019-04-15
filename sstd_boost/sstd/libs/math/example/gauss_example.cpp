@@ -140,4 +140,3 @@ int main()
    gauss_kronrod_examples();
    return 0;
 }
-

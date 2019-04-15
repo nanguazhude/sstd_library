@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_PARSER_CONTEXT
 #include <sstd/boost/spirit/home/classic/core/non_terminal/parser_context.hpp>
 #endif
-

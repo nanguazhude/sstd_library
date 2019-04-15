@@ -71,4 +71,3 @@ int main() {
     constexpr auto r = hana::metafunction_class<f>(t);
     (void)r;
 }
-

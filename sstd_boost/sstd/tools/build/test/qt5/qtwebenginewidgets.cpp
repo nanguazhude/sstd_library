@@ -38,4 +38,3 @@ BOOST_AUTO_TEST_CASE( webengine_widgets )
     defaultSettings->setAttribute(QWebEngineSettings::FullScreenSupportEnabled, true);
     defaultProfile->setPersistentCookiesPolicy(QWebEngineProfile::NoPersistentCookies);
 }
-

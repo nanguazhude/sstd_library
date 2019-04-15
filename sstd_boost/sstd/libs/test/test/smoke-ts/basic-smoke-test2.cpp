@@ -23,4 +23,3 @@ typedef boost::mpl::list<ns::X> test_types;
 BOOST_AUTO_TEST_CASE_TEMPLATE(test, T, test_types)
 {
 }
-

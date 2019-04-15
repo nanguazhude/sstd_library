@@ -166,4 +166,3 @@ inline void sort_by_key(KeyIterator keys_first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_SORT_BY_KEY_HPP
-

@@ -8,4 +8,3 @@
 #include <sstd/boost/spirit/home/lex.hpp>
 #include <sstd/boost/spirit/home/qi.hpp>
 int main() {}
-

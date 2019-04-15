@@ -31,4 +31,3 @@ template <class T> struct add_lvalue_reference<T&&>
 }
 
 #endif  // BOOST_TYPE_TRAITS_EXT_ADD_LVALUE_REFERENCE__HPP
-

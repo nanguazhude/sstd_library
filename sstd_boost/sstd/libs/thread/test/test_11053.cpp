@@ -65,7 +65,3 @@ int main(int ac, char** av)
     std::cout << "test stopping\n";
     return 0;
 }
-
-
-
-

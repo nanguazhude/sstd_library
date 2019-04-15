@@ -621,4 +621,3 @@ namespace boost {
 #endif
 
 #endif // BOOST_GRAPH_DIJKSTRA_HPP
-

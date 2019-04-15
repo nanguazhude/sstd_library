@@ -15,5 +15,3 @@ VAR(std::map<int, char>, 2);    // Error.
 //]
 
 int main() { return 0; }
-
-

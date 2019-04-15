@@ -631,4 +631,3 @@ int main()
    test_get_release();
    return ::boost::report_errors();
 }
-

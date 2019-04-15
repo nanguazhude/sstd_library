@@ -7,4 +7,3 @@
 #include <sstd/boost/assert.hpp>
 #define BOOST_QVM_ASSERT BOOST_ASSERT
 #endif
-

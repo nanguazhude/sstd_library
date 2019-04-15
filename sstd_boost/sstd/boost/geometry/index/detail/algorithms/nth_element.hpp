@@ -60,4 +60,3 @@ void nth_element(RandomIt first, RandomIt nth, RandomIt last, Compare comp)
 }}}} // namespace boost::geometry::index::detail
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_ALGORITHMS_NTH_ELEMENT_HPP
-

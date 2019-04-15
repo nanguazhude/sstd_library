@@ -76,5 +76,3 @@ struct synthesize_mop
 } } } // namespace ::boost::function_types::detail
 
 #endif
-
-

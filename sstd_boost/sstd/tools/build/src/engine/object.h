@@ -42,4 +42,3 @@ unsigned int object_hash ( OBJECT * );
 #endif
 
 #endif
-

@@ -295,4 +295,3 @@ test_suite* init_unit_test_suite( int argc, char* argv[] )
     test->add(BOOST_TEST_CASE(&test_env_var_tfx));
     return test;
 }
-

@@ -132,4 +132,3 @@ struct is_adaptable_input_device< FormatTag
 } // namespace boost
 
 #endif
-

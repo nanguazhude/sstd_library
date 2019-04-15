@@ -74,4 +74,3 @@ int main()
     check_zero<boost::chrono::duration<Rep> >();
     return boost::report_errors();
 }
-

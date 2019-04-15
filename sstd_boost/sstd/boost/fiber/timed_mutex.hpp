@@ -83,4 +83,3 @@ public:
 #endif
 
 #endif // BOOST_FIBERS_TIMED_MUTEX_H
-

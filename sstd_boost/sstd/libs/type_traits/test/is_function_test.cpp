@@ -109,12 +109,3 @@ test_cv_qual(&X::rvalue_f);
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

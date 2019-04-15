@@ -612,4 +612,3 @@ bool read_graphviz_spirit(MultiPassIterator begin, MultiPassIterator end,
 } // namespace boost
 
 #endif // BOOST_READ_GRAPHVIZ_SPIRIT_HPP
-

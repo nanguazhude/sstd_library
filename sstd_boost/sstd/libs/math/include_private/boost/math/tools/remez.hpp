@@ -662,7 +662,3 @@ polynomial<T> remez_minimax<T>::denominator()const
 }}} // namespaces
 
 #endif // BOOST_MATH_TOOLS_REMEZ_HPP
-
-
-
-

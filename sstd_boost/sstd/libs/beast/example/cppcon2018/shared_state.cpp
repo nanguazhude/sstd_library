@@ -39,4 +39,3 @@ send(std::string message)
     for(auto session : sessions_)
         session->send(ss);
 }
-

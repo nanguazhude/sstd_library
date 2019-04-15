@@ -43,4 +43,3 @@ struct rb_hooks
 }  //namespace boost {
 
 #endif   //BOOST_INTRUSIVE_TEST_RB_TEST_COMMON_HPP
-

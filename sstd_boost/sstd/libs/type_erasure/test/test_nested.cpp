@@ -60,4 +60,3 @@ BOOST_AUTO_TEST_CASE(test_relaxed)
 
     any<dest_concept, _b> z(x);
 }
-

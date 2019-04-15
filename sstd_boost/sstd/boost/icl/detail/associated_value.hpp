@@ -40,5 +40,3 @@ co_equal(typename Type::const_iterator, typename CoType::const_iterator,
 }} // namespace icl boost
 
 #endif
-
-

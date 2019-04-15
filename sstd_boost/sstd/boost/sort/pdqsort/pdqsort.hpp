@@ -630,4 +630,3 @@ inline void pdqsort_branchless(Iter first, Iter last) {
 #undef BOOST_PDQSORT_PREFER_MOVE
 
 #endif
-

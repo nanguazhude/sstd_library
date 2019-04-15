@@ -173,4 +173,3 @@ inline bool prev_permutation(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_PREV_PERMUTATION_HPP
-

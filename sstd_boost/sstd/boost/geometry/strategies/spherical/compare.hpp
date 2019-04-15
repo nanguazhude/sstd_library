@@ -319,4 +319,3 @@ struct default_strategy
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_SPHERICAL_COMPARE_HPP
-

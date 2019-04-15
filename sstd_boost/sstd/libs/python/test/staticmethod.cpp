@@ -46,4 +46,3 @@ BOOST_PYTHON_MODULE(staticmethod_ext)
 }
 
 #include "module_tail.cpp"
-

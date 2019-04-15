@@ -229,4 +229,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_INCREMENTAL_COMPONENTS_HPP
-

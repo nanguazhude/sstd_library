@@ -552,4 +552,3 @@ void test(boost::basic_regex<charT, traits>& r, const test_regex_search_tag&)
 
 
 #endif
-

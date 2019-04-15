@@ -19,4 +19,3 @@ BOOST_AUTO_TEST_CASE(test1, * utf::tolerance(0.00001))
   BOOST_TEST(x == z); // relevant difference
 }
 //]
-

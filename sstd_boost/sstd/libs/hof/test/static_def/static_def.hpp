@@ -59,4 +59,3 @@ T fit_sum(T x, T y)
 }
 
 #endif
-

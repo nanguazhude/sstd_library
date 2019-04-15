@@ -243,4 +243,3 @@
                     >::result_type
                 type;
         };
-

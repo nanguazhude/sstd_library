@@ -13,4 +13,3 @@ foreach(name
   target_link_libraries(gil_test_${name} PRIVATE Boost::boost)
   add_test(gil.tests.core.${name} gil_test_${name})
 endforeach()
-

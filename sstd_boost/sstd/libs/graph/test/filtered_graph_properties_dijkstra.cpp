@@ -109,4 +109,3 @@ template void UndirectedGraph::dijkstra( LengthEvaluator<UndirectedGraph> const&
                                          EdgeFilter<UndirectedGraph> const& ) const;
 
 int main(int, char**) {return 0;} // Tests above will fail to compile if anything is broken
-

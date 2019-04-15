@@ -28,4 +28,3 @@ using protected_fixedsize_stack = boost::context::protected_fixedsize_stack;
 #endif
 
 #endif // BOOST_FIBERS_PROTECTED_FIXEDSIZE_STACK_H
-

@@ -186,4 +186,3 @@ basic_binary_oprimitive<Archive, Elem, Tr>::save_binary(
 #include <sstd/boost/archive/detail/abi_suffix.hpp> // pop pragmas
 
 #endif // BOOST_ARCHIVE_BASIC_BINARY_OPRIMITIVE_HPP
-

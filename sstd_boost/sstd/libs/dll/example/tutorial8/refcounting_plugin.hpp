@@ -12,7 +12,3 @@
 my_refcounting_api* create(); // defined in plugin
 BOOST_DLL_ALIAS(create, create_refc_plugin)
 //]
-
-
-
-

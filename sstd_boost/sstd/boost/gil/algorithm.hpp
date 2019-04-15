@@ -1016,4 +1016,3 @@ F transform_pixel_positions(const View1& src1,const View2& src2,const View3& dst
 } }  // namespace boost::gil
 
 #endif
-

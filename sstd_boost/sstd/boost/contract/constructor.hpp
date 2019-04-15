@@ -105,5 +105,3 @@ specify_old_postcondition_except<> constructor(Class* obj) {
 } } // namespace
 
 #endif // #include guard
-
-

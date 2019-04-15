@@ -12,5 +12,3 @@
 
 #include <cstddef>
 #include <gmpfrxx.h>
-
-

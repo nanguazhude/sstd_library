@@ -179,4 +179,3 @@ void strand_executor_service::defer(const implementation_type& impl,
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_IMPL_STRAND_EXECUTOR_SERVICE_HPP
-

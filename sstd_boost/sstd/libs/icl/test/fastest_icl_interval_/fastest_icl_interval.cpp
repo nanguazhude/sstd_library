@@ -167,4 +167,3 @@ BOOST_AUTO_TEST_CASE
 {            interval_subtract_4_bicremental_types<bicremental_type_5>(); }
 
 #endif // ndef BOOST_ICL_USE_STATIC_BOUNDED_INTERVALS
-

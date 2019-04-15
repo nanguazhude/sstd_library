@@ -34,4 +34,3 @@ int main() {
 
     BOOST_HANA_RUNTIME_CHECK(mammals == hana::make_tuple(Cat{"Garfield"}, Dog{"Beethoven"}));
 }
-

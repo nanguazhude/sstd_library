@@ -483,4 +483,3 @@ inline CoordinateType longitude_interval_distance_signed(CoordinateType const& l
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_UTIL_NORMALIZE_SPHEROIDAL_COORDINATES_HPP
-

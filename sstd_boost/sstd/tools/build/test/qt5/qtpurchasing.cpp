@@ -42,4 +42,3 @@ BOOST_AUTO_TEST_CASE (purchase)
   BOOST_TEST(product.price() == QLatin1String("One"));
   BOOST_TEST(product.identifier() == QLatin1String("DummyProduct"));
 }
-

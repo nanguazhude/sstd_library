@@ -63,5 +63,3 @@ struct is_set_type_of_relation :
 #endif // BOOST_BIMAP_DOXYGEN_WILL_NOT_PROCESS_THE_FOLLOWING_LINES
 
 #endif // BOOST_BIMAP_DETAIL_IS_SET_TYPE_OF_HPP
-
-

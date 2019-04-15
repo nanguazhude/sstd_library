@@ -69,4 +69,3 @@ struct interior_ring_iterator
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_INTERIOR_ITERATOR_HPP
-

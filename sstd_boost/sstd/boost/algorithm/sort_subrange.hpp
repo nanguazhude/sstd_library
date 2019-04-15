@@ -107,4 +107,3 @@ namespace boost { namespace algorithm {
 }}
 
 #endif // BOOST_ALGORITHM_SORT_SUBRANGE_HPP
-

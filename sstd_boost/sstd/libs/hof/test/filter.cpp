@@ -50,6 +50,3 @@ BOOST_HOF_TEST_CASE()
     BOOST_HOF_STATIC_TEST_CHECK(filter_integers()(boost::hof::pack_basic(1, 2, 2.0, 3)) == std::make_tuple(1, 2, 3));
 #endif
 }
-
-
-

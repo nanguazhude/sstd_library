@@ -537,4 +537,3 @@ int test_main(int, char* [])
     test_ratios<bg::model::point<int, 2, bg::cs::cartesian> >();
     return 0;
 }
-

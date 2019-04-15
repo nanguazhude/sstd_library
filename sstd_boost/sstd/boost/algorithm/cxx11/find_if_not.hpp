@@ -49,4 +49,3 @@ BOOST_CXX14_CONSTEXPR typename boost::range_iterator<const Range>::type find_if_
 
 }}
 #endif  // BOOST_ALGORITHM_FIND_IF_NOT_HPP
-

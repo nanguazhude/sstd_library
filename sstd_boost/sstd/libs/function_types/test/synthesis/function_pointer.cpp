@@ -21,5 +21,3 @@ typedef int (* expected)(int,int);
 BOOST_MPL_ASSERT((
   is_same< ft::function_pointer< mpl::vector<int,int,int> >::type, expected >
 ));
-
-

@@ -134,7 +134,3 @@ inline typename laguerre_result<T1, T2>::type
 } // namespace boost
 
 #endif // BOOST_MATH_SPECIAL_LAGUERRE_HPP
-
-
-
-

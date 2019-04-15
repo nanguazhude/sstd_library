@@ -253,5 +253,3 @@ int main()
   test_concurrent_pull_on_queue();
   return boost::report_errors();
 }
-
-

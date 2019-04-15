@@ -179,4 +179,3 @@ struct dynamic_x_step_type<interleaved_ptr<ChannelPtr,Layout> > {
 } }  // namespace boost::gil
 
 #endif
-

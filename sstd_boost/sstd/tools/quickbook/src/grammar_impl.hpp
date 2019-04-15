@@ -166,4 +166,3 @@ namespace quickbook
 }
 
 #endif // BOOST_SPIRIT_QUICKBOOK_GRAMMARS_HPP
-

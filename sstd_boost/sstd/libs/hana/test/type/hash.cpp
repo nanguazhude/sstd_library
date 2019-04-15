@@ -22,4 +22,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::equal(
 ));
 
 int main() { }
-

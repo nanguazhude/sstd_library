@@ -293,4 +293,3 @@ struct reverse_iter_fold_impl
 };
 
 }}}
-

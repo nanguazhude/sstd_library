@@ -70,4 +70,3 @@ inline void svm_free(const context &context, svm_ptr<T> ptr)
 #endif // BOOST_COMPUTE_CL_VERSION_2_0
 
 #endif // BOOST_COMPUTE_PIPE_HPP
-

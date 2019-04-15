@@ -547,5 +547,3 @@ inline void swap(shared_library& lhs, shared_library& rhs) BOOST_NOEXCEPT {
 }} // boost::dll
 
 #endif // BOOST_DLL_SHARED_LIBRARY_HPP
-
-

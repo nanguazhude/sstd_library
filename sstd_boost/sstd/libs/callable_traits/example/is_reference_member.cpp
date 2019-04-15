@@ -30,4 +30,3 @@ static_assert(!ct::is_reference_member<int(foo::*)()>::value, "");
 int main() {}
 //]
 #endif
-

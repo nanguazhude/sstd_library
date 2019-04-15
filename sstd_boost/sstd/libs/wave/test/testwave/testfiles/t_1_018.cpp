@@ -40,4 +40,3 @@ scan(scan(scan(scan(scan(expr)))))
 //R #line 42 "t_1_018.cpp"
 //R macro_2 par ()
 scan(scan(scan(scan(scan(scan(expr))))))
-

@@ -203,5 +203,3 @@ int main() {
     #undef BOOST_CONTRACT_TEST_entry_inv
     return boost::report_errors();
 }
-
-

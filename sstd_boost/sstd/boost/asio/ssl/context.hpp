@@ -758,4 +758,3 @@ private:
 #endif // defined(BOOST_ASIO_HEADER_ONLY)
 
 #endif // BOOST_ASIO_SSL_CONTEXT_HPP
-

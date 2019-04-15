@@ -33,4 +33,3 @@ BOOST_AUTO_TEST_CASE(test_relaxed)
     any<test_concept> y;
     BOOST_CHECK(is_empty(y));
 }
-

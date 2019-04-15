@@ -15,6 +15,3 @@ extern "C" double BOOST_MATH_TR1_DECL boost_atanh BOOST_PREVENT_MACRO_SUBSTITUTI
 {
    return c_policies::atanh BOOST_PREVENT_MACRO_SUBSTITUTION(x);
 }
-
-
-

@@ -23,4 +23,3 @@ using detected_or_t = typename detected_or<Default, Op, Args...>::type;
 } /* boost */
 
 #endif
-

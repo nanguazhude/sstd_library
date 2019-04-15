@@ -35,4 +35,3 @@ using boost::container::flat_multiset;
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif //   #ifndef  BOOST_INTERPROCESS_CONTAINERS_FLAT_SET_HPP
-

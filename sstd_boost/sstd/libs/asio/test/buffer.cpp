@@ -563,4 +563,3 @@ BOOST_ASIO_TEST_SUITE
   BOOST_ASIO_COMPILE_TEST_CASE(buffer_compile::test)
   BOOST_ASIO_TEST_CASE(buffer_copy_runtime::test)
 )
-

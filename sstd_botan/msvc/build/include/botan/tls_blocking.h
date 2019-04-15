@@ -1,4 +1,4 @@
-/*
+﻿/*
 * TLS Blocking API
 * (C) 2013 Jack Lloyd
 *     2016 Matthias Gierlings

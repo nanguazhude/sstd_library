@@ -60,4 +60,3 @@ BOOST_UNITS_STATIC_CONSTANT(name, typeof(value)) = (value)
 #endif // BOOST_UNITS_HAS_TYPEOF
 
 #endif // BOOST_UNITS_STATIC_CONSTANT_HPP
-

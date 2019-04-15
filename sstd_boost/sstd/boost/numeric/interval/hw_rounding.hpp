@@ -70,4 +70,3 @@ struct rounded_math<long double>
 } // namespace boost
 
 #endif // BOOST_NUMERIC_INTERVAL_HW_ROUNDING_HPP
-

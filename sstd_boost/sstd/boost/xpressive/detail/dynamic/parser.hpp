@@ -357,4 +357,3 @@ inline sequence<BidiIter> make_independent_end_xpression(bool pure)
 #endif
 
 #endif
-

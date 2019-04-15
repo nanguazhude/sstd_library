@@ -41,4 +41,3 @@ template<class M, class K> using mp_map_find = typename detail::mp_map_find_impl
 } // namespace boost
 
 #endif // #ifndef BOOST_MP11_DETAIL_MP_MAP_FIND_HPP_INCLUDED
-

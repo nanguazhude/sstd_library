@@ -88,4 +88,3 @@ void server::handle_stop()
 
 } // namespace server3
 } // namespace http
-

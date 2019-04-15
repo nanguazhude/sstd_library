@@ -19,4 +19,3 @@ int main() {
         hana::make_tuple("my", "dog", "my", "car", "my", "house")
     );
 }
-

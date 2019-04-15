@@ -176,4 +176,3 @@ inline int range_in_geometry(Point1 const& first_point1,
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_RANGE_IN_GEOMETRY_HPP
-

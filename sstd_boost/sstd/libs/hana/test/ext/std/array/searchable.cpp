@@ -29,4 +29,3 @@ int main() {
 
     hana::test::TestSearchable<hana::ext::std::array_tag>{eq_arrays, eq_keys};
 }
-

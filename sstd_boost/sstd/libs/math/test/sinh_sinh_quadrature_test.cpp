@@ -305,4 +305,3 @@ BOOST_AUTO_TEST_CASE(sinh_sinh_quadrature_test)
 
 
 }
-

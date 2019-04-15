@@ -24,6 +24,3 @@ namespace interval_combine
 }} // namespace boost icl
 
 #endif
-
-
-

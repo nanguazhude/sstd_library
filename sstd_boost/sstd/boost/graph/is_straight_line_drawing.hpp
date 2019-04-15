@@ -248,4 +248,3 @@ namespace boost
 }
 
 #endif // __IS_STRAIGHT_LINE_DRAWING_HPP__
-

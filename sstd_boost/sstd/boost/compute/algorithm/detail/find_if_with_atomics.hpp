@@ -211,4 +211,3 @@ inline InputIterator find_if_with_atomics(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_FIND_IF_WITH_ATOMICS_HPP
-

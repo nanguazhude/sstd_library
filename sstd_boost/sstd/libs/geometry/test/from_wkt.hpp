@@ -26,4 +26,3 @@ inline Geometry from_wkt(std::string const& wkt)
 }
 
 #endif // BOOST_GEOMETRY_TEST_FROM_WKT_HPP
-

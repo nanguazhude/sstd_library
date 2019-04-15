@@ -16,4 +16,3 @@ BOOST_AUTO_TEST_CASE( test_message )
   BOOST_TEST(a != 10, "value of a=" << a);
 }
 //]
-

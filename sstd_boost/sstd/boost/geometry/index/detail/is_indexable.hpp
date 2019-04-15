@@ -45,4 +45,3 @@ struct is_indexable<Segment, geometry::segment_tag>
 }}}} // namespave boost::geometry::index::detail
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_IS_INDEXABLE_HPP
-

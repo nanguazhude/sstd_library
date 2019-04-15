@@ -32,5 +32,3 @@ int main()
     // unplug the whole test's life support system.
     return test::live_code != 0;
 }
-
-

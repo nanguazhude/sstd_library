@@ -115,4 +115,3 @@ namespace boost { namespace type_of {
 }}//namespace
 
 #endif//BOOST_TYPEOF_INT_ENCODING_HPP_INCLUDED
-

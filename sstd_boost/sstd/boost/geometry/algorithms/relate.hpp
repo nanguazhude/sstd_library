@@ -15,4 +15,3 @@
 #include <sstd/boost/geometry/algorithms/detail/relate/implementation.hpp>
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_RELATE_HPP
-

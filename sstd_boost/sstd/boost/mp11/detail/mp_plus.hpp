@@ -79,4 +79,3 @@ template<class... T> using mp_plus = typename detail::mp_plus_impl<T...>::type;
 } // namespace boost
 
 #endif // #ifndef BOOST_MP11_DETAIL_MP_PLUS_HPP_INCLUDED
-

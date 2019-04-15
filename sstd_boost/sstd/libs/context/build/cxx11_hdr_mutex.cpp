@@ -8,4 +8,3 @@
 #ifdef BOOST_NO_CXX11_HDR_MUTEX
 #error "C++11 <mutex> is not available."
 #endif
-

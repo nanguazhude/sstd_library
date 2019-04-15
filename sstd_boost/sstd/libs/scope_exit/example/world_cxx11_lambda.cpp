@@ -54,5 +54,3 @@ int main(void) {
 }
 
 #endif // LAMBDAS
-
-

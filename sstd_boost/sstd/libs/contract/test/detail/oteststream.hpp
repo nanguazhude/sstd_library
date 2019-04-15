@@ -79,5 +79,3 @@ struct oteststream :
 } } } } // namespace
 
 #endif // #include guard
-
-

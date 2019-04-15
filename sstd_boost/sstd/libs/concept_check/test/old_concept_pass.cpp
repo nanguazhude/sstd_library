@@ -32,4 +32,3 @@ main()
     boost::ignore_unused_variable_warning(x);
     return 0;
 }
-

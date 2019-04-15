@@ -53,4 +53,3 @@ main()
     test<2,3,4>();
     return boost::report_errors();
     }
-

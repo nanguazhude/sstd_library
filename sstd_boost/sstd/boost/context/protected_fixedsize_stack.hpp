@@ -11,4 +11,3 @@
 #else
 # include <sstd/boost/context/posix/protected_fixedsize_stack.hpp>
 #endif
-

@@ -268,4 +268,3 @@ namespace detail {
 } // namesapce boost
 
 #endif /* BOOST_PROPERTY_HPP */
-

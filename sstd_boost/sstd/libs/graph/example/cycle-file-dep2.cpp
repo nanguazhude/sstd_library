@@ -148,4 +148,3 @@ main()
   assert(has_cycle(g) == false);
   return 0;
 }
-

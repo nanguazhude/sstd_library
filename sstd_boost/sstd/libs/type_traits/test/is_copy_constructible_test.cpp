@@ -301,7 +301,3 @@ BOOST_CHECK_SOFT_INTEGRAL_CONSTANT(::tt::is_copy_constructible<nothrow_move_UDT>
 
 
 TT_TEST_END
-
-
-
-

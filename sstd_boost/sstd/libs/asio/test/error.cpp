@@ -87,4 +87,3 @@ BOOST_ASIO_TEST_SUITE
   "error",
   BOOST_ASIO_TEST_CASE(error_test)
 )
-

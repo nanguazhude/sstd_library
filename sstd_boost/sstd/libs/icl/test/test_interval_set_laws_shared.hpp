@@ -179,5 +179,3 @@ void interval_set_check_abelian_group_plus_prot_inv_4_bicremental_types()
 }
 
 #endif // LIBS_ICL_TEST_TEST_INTERVAL_SET_LAWS_SHARED_HPP_JOFA_090201
-
-

@@ -89,4 +89,3 @@ struct sequenced;
 } /* namespace boost */
 
 #endif
-

@@ -25,4 +25,3 @@
 #include <sstd/boost/accumulators/framework/accumulators/value_accumulator.hpp>
 
 #endif
-

@@ -180,4 +180,3 @@ struct equal_to<void, Dimension>
 
 
 #endif // BOOST_GEOMETRY_POLICIES_COMPARE_HPP
-

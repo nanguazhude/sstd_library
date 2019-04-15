@@ -68,4 +68,3 @@ bool is_list_ok(std::list<char> const& l)
 }
 
 #endif
-

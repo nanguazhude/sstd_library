@@ -16,4 +16,3 @@ int main()
     xt.sec += 1;
     boost::thread::sleep(xt); // Sleep for 1 second
 }
-

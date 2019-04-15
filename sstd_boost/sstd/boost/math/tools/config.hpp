@@ -463,8 +463,3 @@ namespace boost{ namespace math{
 
 
 #endif // BOOST_MATH_TOOLS_CONFIG_HPP
-
-
-
-
-

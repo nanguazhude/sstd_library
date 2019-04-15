@@ -100,5 +100,3 @@ int main()
     find_test();
     return boost::report_errors();
 }
-
-

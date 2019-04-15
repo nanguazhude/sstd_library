@@ -42,4 +42,3 @@ using boost::container::transform_iterator;
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTERPROCESS_DETAIL_TRANSFORM_ITERATORS_HPP
-

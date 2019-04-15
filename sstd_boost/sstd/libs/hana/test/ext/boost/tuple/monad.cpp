@@ -50,4 +50,3 @@ int main() {
     hana::test::TestApplicative<hana::ext::boost::tuple_tag>{eq_tuples};
     hana::test::TestMonad<hana::ext::boost::tuple_tag>{eq_tuples, eq_tuples_tuples};
 }
-

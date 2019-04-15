@@ -1944,6 +1944,3 @@ inline void perl_matcher<BidiIterator, Allocator, traits>::push_parenthesis_push
 #endif
 
 #endif
-
-
-

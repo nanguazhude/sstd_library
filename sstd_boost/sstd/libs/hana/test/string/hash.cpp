@@ -31,4 +31,3 @@ int main() {
         hana::type_c<hana::string<'a', 'b', 'c'>>
     ));
 }
-

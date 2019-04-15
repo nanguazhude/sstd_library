@@ -65,4 +65,3 @@ get(const tuples::cons<HT, TT>& c) {
 
 
 #endif // BOOST_TUPLE_HPP
-

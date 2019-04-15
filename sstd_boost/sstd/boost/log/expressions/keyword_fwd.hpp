@@ -51,4 +51,3 @@ BOOST_LOG_CLOSE_NAMESPACE // namespace log
 } // namespace boost
 
 #endif // BOOST_LOG_EXPRESSIONS_KEYWORD_FWD_HPP_INCLUDED_
-

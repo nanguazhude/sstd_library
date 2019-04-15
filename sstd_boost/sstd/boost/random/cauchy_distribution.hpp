@@ -212,4 +212,3 @@ using random::cauchy_distribution;
 } // namespace boost
 
 #endif // BOOST_RANDOM_CAUCHY_DISTRIBUTION_HPP
-

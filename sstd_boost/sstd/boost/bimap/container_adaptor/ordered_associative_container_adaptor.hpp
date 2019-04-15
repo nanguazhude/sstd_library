@@ -310,4 +310,3 @@ class ordered_associative_container_adaptor :
 
 
 #endif // BOOST_BIMAP_CONTAINER_ADAPTOR_ORDERED_ASSOCIATIVE_CONTAINER_ADAPTOR_HPP
-

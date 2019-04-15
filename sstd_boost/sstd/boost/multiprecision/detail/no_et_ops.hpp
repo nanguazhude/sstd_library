@@ -658,4 +658,3 @@ BOOST_MP_FORCEINLINE typename enable_if_c<is_integral<I>::value && (number_categ
 #endif
 
 #endif // BOOST_MP_NO_ET_OPS_HPP
-

@@ -10,4 +10,3 @@
 // Verify fix of regression #6838: Adding include file with force_include makes
 // Wave fail to emit #line directive
 int func() { return 42; }
-

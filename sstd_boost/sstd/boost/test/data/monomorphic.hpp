@@ -25,5 +25,3 @@
 #include <sstd/boost/test/data/monomorphic/delayed.hpp>
 
 #endif // BOOST_TEST_DATA_MONOMORPHIC_HPP_102211GER
-
-

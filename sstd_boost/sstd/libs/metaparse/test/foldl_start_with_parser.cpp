@@ -85,5 +85,3 @@ namespace
 #define TEST_NAME foldl_start_with_parser_as_foldl
 
 #include "repeated_test.hpp"
-
-

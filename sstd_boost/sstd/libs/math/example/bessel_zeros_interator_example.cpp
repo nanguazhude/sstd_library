@@ -86,4 +86,3 @@ int main()
 
  nu = 1, sum = 0.12499, exact = 0.125
 */
-

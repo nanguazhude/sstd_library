@@ -415,4 +415,3 @@ std::streamsize code_converter<Device, Codevt, Alloc>::write
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp> // Borland 5.x
 
 #endif // #ifndef BOOST_IOSTREAMS_CODE_CONVERTER_HPP_INCLUDED
-

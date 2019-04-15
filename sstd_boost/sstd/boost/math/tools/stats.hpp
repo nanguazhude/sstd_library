@@ -85,5 +85,3 @@ private:
 } // namespace boost
 
 #endif
-
-

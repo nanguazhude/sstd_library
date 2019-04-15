@@ -107,4 +107,3 @@ private:
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_BINARY_BUFFER_OPRIMITIVE_HPP
-

@@ -85,4 +85,3 @@ public:
 }}} // namespace boost::geometry::index
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_RTREE_KMEANS_SPLIT_HPP
-

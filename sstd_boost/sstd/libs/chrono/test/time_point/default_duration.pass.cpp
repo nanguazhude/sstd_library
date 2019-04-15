@@ -22,4 +22,3 @@ void test()
     BOOST_CHRONO_STATIC_ASSERT((boost::is_same<boost::chrono::system_clock::duration,
                    boost::chrono::time_point<boost::chrono::system_clock>::duration>::value), NOTHING, ());
 }
-

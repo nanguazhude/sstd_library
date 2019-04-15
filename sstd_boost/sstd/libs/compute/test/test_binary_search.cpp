@@ -100,4 +100,3 @@ BOOST_AUTO_TEST_CASE(range_bounds_int)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

@@ -146,4 +146,3 @@ public:
 } // namespace boost
 
 #endif  // #ifndef BOOST_SMART_PTR_DETAIL_LOCAL_COUNTED_BASE_HPP_INCLUDED
-

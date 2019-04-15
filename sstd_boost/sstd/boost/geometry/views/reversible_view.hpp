@@ -72,4 +72,3 @@ struct reversible_view<Range, iterate_reverse>
 
 
 #endif // BOOST_GEOMETRY_VIEWS_REVERSIBLE_VIEW_HPP
-

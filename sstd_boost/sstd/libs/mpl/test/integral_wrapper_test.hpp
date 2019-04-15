@@ -60,5 +60,3 @@
     INTEGRAL_WRAPPER_RUNTIME_TEST(i, T) \
 /**/
 #endif
-
-

@@ -94,5 +94,3 @@ namespace
   foldl_reject_incomplete_start_with_parser_as_foldl_reject_incomplete
 
 #include "repeated_reject_incomplete_test.hpp"
-
-

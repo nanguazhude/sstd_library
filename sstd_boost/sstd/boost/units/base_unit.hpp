@@ -126,4 +126,3 @@ class base_unit :
 } // namespace boost
 
 #endif // BOOST_UNITS_BASE_UNIT_HPP
-

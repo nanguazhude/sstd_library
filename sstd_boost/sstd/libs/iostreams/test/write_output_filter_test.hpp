@@ -112,4 +112,3 @@ void write_output_filter_test()
 }
 
 #endif // #ifndef BOOST_IOSTREAMS_TEST_WRITE_OUTPUT_FILTER_HPP_INCLUDED
-

@@ -240,4 +240,3 @@ BOOST_LOG_CLOSE_NAMESPACE // namespace log
 #include <sstd/boost/log/detail/footer.hpp>
 
 #endif // BOOST_LOG_SOURCES_CHANNEL_FEATURE_HPP_INCLUDED_
-

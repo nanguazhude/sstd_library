@@ -40,4 +40,3 @@
 #include <sstd/boost/pool/pool_alloc.hpp>
 
 #endif // !defined(CPP_HPP_920D0370_741F_44AF_BF86_F6104BDACF75_INCLUDED)
-

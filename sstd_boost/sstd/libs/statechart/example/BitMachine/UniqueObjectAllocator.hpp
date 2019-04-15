@@ -76,4 +76,3 @@ typename UniqueObjectAllocator< T >::storage
 
 
 #endif
-

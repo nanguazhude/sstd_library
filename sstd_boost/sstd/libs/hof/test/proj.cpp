@@ -162,4 +162,3 @@ BOOST_HOF_TEST_CASE()
     static_assert(!boost::hof::is_invocable<decltype(f), int, int, int>::value, "Not sfinae friendly");
     static_assert(!boost::hof::is_invocable<decltype(f)>::value, "Not sfinae friendly");
 }
-

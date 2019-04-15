@@ -91,4 +91,3 @@ inline int xtime_cmp(const ::boost::xtime& xt1, const ::boost::xtime& xt2)
 #include <sstd/boost/config/abi_suffix.hpp>
 #endif
 #endif //BOOST_XTIME_WEK070601_HPP
-

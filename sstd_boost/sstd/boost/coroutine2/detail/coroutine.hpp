@@ -43,4 +43,3 @@ class push_coroutine;
 #endif
 
 #endif // BOOST_COROUTINES2_DETAIL_COROUTINE_HPP
-

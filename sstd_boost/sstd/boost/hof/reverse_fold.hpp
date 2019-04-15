@@ -171,4 +171,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(reverse_fold, detail::make<reverse_fold_adaptor>);
 }} // namespace boost::hof
 
 #endif
-

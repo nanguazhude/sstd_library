@@ -189,4 +189,3 @@ class pool_resource
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //BOOST_CONTAINER_POOL_RESOURCE_HPP
-

@@ -81,4 +81,3 @@ struct sum_factory
 
 BOOST_HOF_STATIC_FUNCTION(sum) = boost::hof::indirect(sum_factory{});
 ```
-

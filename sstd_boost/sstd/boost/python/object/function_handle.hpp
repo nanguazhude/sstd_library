@@ -42,4 +42,3 @@ handle<> make_function_handle(F f)
 }}} // namespace boost::python::objects
 
 #endif // FUNCTION_HANDLE_DWA2002725_HPP
-

@@ -84,4 +84,3 @@ T& (* target(R (T::*)(BOOST_PP_ENUM_PARAMS_Z(1, N, A)) Q) )()
 
 #endif // BOOST_PP_ITERATION_DEPTH()
 #endif
-

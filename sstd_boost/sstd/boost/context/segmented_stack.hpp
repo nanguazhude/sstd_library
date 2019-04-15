@@ -11,4 +11,3 @@
 #  include <sstd/boost/context/posix/segmented_stack.hpp>
 # endif
 #endif
-

@@ -217,4 +217,3 @@ namespace boost
   }
 
 #endif // BOOST_TTI_DETAIL_MEM_DATA_HPP
-

@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/sequence/intrinsic/back.hpp>
 
 #endif
-

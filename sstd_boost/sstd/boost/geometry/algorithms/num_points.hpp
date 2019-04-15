@@ -209,4 +209,3 @@ inline std::size_t num_points(Geometry const& geometry, bool add_for_open = fals
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_NUM_POINTS_HPP
-

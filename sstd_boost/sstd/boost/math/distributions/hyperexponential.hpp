@@ -632,4 +632,3 @@ RealT mode(hyperexponential_distribution<RealT,PolicyT> const& /*dist*/)
 #include <sstd/boost/math/distributions/detail/generic_quantile.hpp>
 
 #endif // BOOST_MATH_DISTRIBUTIONS_HYPEREXPONENTIAL
-

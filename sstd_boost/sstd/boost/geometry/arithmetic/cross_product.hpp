@@ -126,4 +126,3 @@ inline P cross_product(P const& p1, P const& p2)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ARITHMETIC_CROSS_PRODUCT_HPP
-

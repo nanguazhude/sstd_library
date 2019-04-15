@@ -95,4 +95,3 @@ void test_capacity()
   rs.shrink_to_fit();
   BOOST_TEST(rs.capacity()==0);
 }
-

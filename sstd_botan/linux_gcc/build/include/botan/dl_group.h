@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Discrete Logarithm Group
 * (C) 1999-2008,2018 Jack Lloyd
 *

@@ -4,5 +4,3 @@ We use Boost.Math's own test data for these and test at various precisions which
 different code inside the Math lib.  We don't test at very high precision here as
 Boost.Math's test data doesn't go much beyond 35 digits (for good reason, some compilers
 choke when attempting to parse higher precision numbers as double's).
-
-

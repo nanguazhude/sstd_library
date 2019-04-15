@@ -106,6 +106,3 @@ template <class T> struct is_scaled_distribution : public boost::integral_consta
 }}}
 
 #endif
-
-
-

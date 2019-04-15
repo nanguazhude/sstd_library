@@ -12,5 +12,3 @@
 #pragma warning(pop)
 #endif
 #include <sstd/boost/config/abi_suffix.hpp> // pops abi_suffix.hpp pragmas
-
-

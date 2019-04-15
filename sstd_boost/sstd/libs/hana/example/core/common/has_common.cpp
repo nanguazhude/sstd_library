@@ -10,4 +10,3 @@ static_assert(hana::has_common<int, float>{}, "");
 static_assert(!hana::has_common<void, float>{}, "");
 
 int main() { }
-

@@ -29,4 +29,3 @@ typedef derived_dimension<mass_base_dimension,1,
 } // namespace boost
 
 #endif // BOOST_UNITS_SURFACE_TENSION_DERIVED_DIMENSION_HPP
-

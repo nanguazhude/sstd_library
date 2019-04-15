@@ -360,4 +360,3 @@ public:
 } // std
 
 #endif // BOOST_NUMERIC_SAFE_BASE_HPP
-

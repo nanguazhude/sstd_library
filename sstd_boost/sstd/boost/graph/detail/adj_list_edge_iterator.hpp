@@ -115,4 +115,3 @@ namespace boost {
 #undef BOOST_GRAPH_MEMBER
 
 #endif // BOOST_GRAPH_DETAIL_ADJ_LIST_EDGE_ITERATOR_HPP
-

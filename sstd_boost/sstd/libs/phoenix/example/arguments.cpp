@@ -19,4 +19,3 @@ main()
     std::cout << arg2(i, s) << std::endl;     // prints "Hello World"
     return 0;
 }
-

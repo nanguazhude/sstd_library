@@ -260,4 +260,3 @@ TT_TEST_BEGIN(BOOST_TT_TRAIT_NAME)
    BOOST_CHECK_INTEGRAL_CONSTANT((::boost::has_plus< C110, C110 const &, ret const >::value), 0);
    BOOST_CHECK_INTEGRAL_CONSTANT((::boost::has_plus< C110 const, C110, ret >::value), 1);
 TT_TEST_END
-

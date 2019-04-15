@@ -234,4 +234,3 @@ struct feature_of<tag::lazy_weighted_variance>
 }} // namespace boost::accumulators
 
 #endif
-

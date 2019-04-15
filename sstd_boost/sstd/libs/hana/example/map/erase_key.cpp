@@ -31,4 +31,3 @@ int main() {
 
     BOOST_HANA_RUNTIME_CHECK(hana::erase_key(m, hana::type_c<char>) == m);
 }
-

@@ -461,4 +461,3 @@ BOOST_AUTO_TEST_CASE(stop_reset_local)
 }
 
 #endif // !defined(BOOST_LOG_NO_THREADS)
-

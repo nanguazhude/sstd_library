@@ -63,4 +63,3 @@ Py_intptr_t multi_iter::shape(int n) const
 }
 
 }}} // namespace boost::python::numpy
-

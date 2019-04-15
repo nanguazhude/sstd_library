@@ -320,4 +320,3 @@ void test_generic_multiset<ContainerDefiner>::test_find(value_cont_type& values)
 }}}   //namespace boost::intrusive::test
 
 #include <sstd/boost/intrusive/detail/config_end.hpp>
-

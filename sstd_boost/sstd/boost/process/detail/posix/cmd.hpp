@@ -102,4 +102,3 @@ std::vector<Char*> cmd_setter_<Char>::make_cmd(std::vector<std::basic_string<Cha
 }}}}
 
 #endif
-

@@ -48,4 +48,3 @@ using make_index_sequence = typename make_index_sequence_t<I...>::type;
 }}} // namespace boost::callable_traits::detail
 
 #endif // #ifndef BOOST_CLBL_TRTS_DETAIL_POLYFILLS_MAKE_INDEX_SEQUENCE_HPP
-

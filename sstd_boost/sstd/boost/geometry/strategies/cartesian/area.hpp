@@ -144,4 +144,3 @@ namespace services
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_CARTESIAN_AREA_HPP
-

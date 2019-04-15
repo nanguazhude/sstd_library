@@ -570,4 +570,3 @@ void circular_buffer<Value_t, Power2>
 };// End namespace boost
 //****************************************************************************
 #endif
-

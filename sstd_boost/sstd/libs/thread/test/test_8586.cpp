@@ -16,4 +16,3 @@ int main()
     boost::thread my_thread(&hello_world);
     my_thread.join();
 }
-

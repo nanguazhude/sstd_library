@@ -163,4 +163,3 @@ inline void serial_insertion_sort_by_key(KeyIterator keys_first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_INSERTION_SORT_HPP
-

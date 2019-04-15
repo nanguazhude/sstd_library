@@ -508,4 +508,3 @@ private:
 #endif // defined(BOOST_ASIO_WINDOWS_RUNTIME)
 
 #endif // BOOST_ASIO_DETAIL_NULL_SOCKET_SERVICE_HPP
-

@@ -74,4 +74,3 @@ Here are a few suggestions:
 
 --
 Cosmin Truta <cosmint@cs.ubbcluj.ro>
-

@@ -118,4 +118,3 @@ int main() {
 //Now you know how to map a user type to the library point concept
 //and how to write a generic function parameterized by point type
 //using the library interfaces to access it.
-

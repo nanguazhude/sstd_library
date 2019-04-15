@@ -11,4 +11,3 @@
 static_assert(boost::hana::Sequence<TUPLE_TAG>::value, "");
 
 #endif // !BOOST_HANA_TEST_AUTO_SEQUENCE_HPP
-

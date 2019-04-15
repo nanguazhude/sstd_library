@@ -24,4 +24,3 @@ int main() {
         hana::make_tuple("1", "2", "345", "67")
     );
 }
-

@@ -27,4 +27,3 @@ namespace detail
 }}} // namespace boost::python::detail
 
 #endif // IS_WRAPPER_DWA2004723_HPP
-

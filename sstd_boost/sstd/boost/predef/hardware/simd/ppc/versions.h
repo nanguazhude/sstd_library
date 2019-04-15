@@ -49,4 +49,3 @@ http://www.boost.org/LICENSE_1_0.txt)
 #define BOOST_HW_SIMD_PPC_QPX_VERSION BOOST_VERSION_NUMBER(2, 0, 0)
 
 #endif
-

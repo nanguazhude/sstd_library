@@ -12,4 +12,3 @@
 #include <sstd/boost/fusion/adapted/adt/adapt_adt.hpp>
 
 #endif
-

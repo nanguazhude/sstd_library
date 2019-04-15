@@ -119,4 +119,3 @@ struct radius_access<srs::spheroid<RadiusType>, Dimension>
 
 
 #endif // BOOST_GEOMETRY_SRS_SPHEROID_HPP
-

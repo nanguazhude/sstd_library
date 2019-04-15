@@ -63,4 +63,3 @@ typename boost::range_iterator<Range>::type partition_point ( Range &r, Predicat
 }}
 
 #endif  // BOOST_ALGORITHM_PARTITION_POINT_HPP
-

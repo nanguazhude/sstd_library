@@ -31,4 +31,3 @@
 BEGIN BOOST_PP_IS_SELFISH == 1 END
 
 # endif
-

@@ -109,6 +109,3 @@ by setting defines in this file.
 //------------------------------------------------------------------------------
 
 #endif // BOOST_ICL_DESIGN_CONFIG_HPP_JOFA_090214
-
-
-

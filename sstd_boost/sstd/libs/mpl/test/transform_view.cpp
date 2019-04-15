@@ -38,4 +38,3 @@ MPL_TEST_CASE()
 
     MPL_ASSERT_RELATION( deref<iter>::type::value, ==, 50 );
 }
-

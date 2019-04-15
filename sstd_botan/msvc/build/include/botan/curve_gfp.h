@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Elliptic curves over GF(p)
 *
 * (C) 2007 Martin Doering, Christoph Ludwig, Falko Strenzke

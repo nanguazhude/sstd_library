@@ -66,4 +66,3 @@ int main() {
         (void)copy_explicit;
     }
 }
-

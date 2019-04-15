@@ -847,5 +847,3 @@ signed_word size;
     GC_large_free_bytes += size;
     GC_add_to_fl(hbp, hhdr);
 }
-
-

@@ -44,4 +44,3 @@ struct order_as_direction<counterclockwise>
 
 
 #endif // BOOST_GEOMETRY_UTIL_ORDER_AS_DIRECTION_HPP
-

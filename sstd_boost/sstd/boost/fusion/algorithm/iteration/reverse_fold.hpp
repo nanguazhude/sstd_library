@@ -58,4 +58,3 @@
 #undef BOOST_FUSION_REVERSE_FOLD
 
 #endif
-

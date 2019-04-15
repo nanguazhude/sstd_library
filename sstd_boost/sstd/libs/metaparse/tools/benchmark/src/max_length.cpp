@@ -18,5 +18,3 @@ TEST_STRING(BOOST_METAPARSE_STRING("\x0$j"))
 #for j in range(10, 100)
 TEST_STRING(BOOST_METAPARSE_STRING("\x$j"))
 #end for
-
-

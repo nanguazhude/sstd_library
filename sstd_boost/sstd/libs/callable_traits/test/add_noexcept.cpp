@@ -42,5 +42,3 @@ int main() {
 }
 
 #endif // #ifndef BOOST_CLBL_TRTS_ENABLE_NOEXCEPT_TYPES
-
-

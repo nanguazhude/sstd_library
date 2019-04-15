@@ -23,4 +23,3 @@ int ZEXPORT gzclose(file)
     return gzclose_r(file);
 #endif
 }
-

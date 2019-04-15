@@ -3130,4 +3130,3 @@ inline void swap(circular_buffer<T, Alloc>& lhs, circular_buffer<T, Alloc>& rhs)
 } // namespace boost
 
 #endif // #if !defined(BOOST_CIRCULAR_BUFFER_BASE_HPP)
-

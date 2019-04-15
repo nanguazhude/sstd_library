@@ -411,4 +411,3 @@ struct stream_base<false> : stream_prng
 } // boost
 
 #endif
-

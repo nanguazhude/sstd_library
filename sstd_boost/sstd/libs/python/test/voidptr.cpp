@@ -41,4 +41,3 @@ BOOST_PYTHON_MODULE(voidptr_ext)
     bpl::def("use", &::use);
     bpl::def("useany", &::useany);
 }
-

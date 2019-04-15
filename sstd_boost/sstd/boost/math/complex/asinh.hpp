@@ -30,4 +30,3 @@ inline std::complex<T> asinh(const std::complex<T>& x)
 } } // namespaces
 
 #endif // BOOST_MATH_COMPLEX_ASINH_INCLUDED
-

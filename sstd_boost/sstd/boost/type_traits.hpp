@@ -153,4 +153,3 @@
 #endif
 
 #endif // BOOST_TYPE_TRAITS_HPP
-

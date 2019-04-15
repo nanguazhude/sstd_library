@@ -72,4 +72,3 @@ inline const RandomAccessRange& nth_element(const RandomAccessRange& rng,
 } // namespace boost
 
 #endif // include guard
-

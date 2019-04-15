@@ -59,4 +59,3 @@ namespace boost
 // 20.8.2.6 hash support
 
 #endif // header
-

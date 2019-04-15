@@ -54,4 +54,3 @@ inline bool asio_handler_is_continuation(...)
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_HANDLER_CONTINUATION_HOOK_HPP
-

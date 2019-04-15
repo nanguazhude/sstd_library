@@ -200,4 +200,3 @@ BOOST_AUTO_TEST_CASE( test_main )
     trim_all_test();
     trim_fill_test();
 }
-

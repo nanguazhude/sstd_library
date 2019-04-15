@@ -24,4 +24,3 @@
 #define BOOST_MATH_DISTRIBUTION_INIT (0, b)
 
 #include "test_real_distribution.ipp"
-

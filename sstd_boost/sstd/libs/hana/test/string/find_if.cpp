@@ -34,4 +34,3 @@ int main() {
         hana::just(hana::char_c<'d'>)
     ));
 }
-

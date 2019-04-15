@@ -128,4 +128,3 @@ struct resize_impl_sfinae< T1 , T2 ,
 
 
 #endif // BOOST_NUMERIC_ODEINT_UTIL_MULTI_ARRAY_ADAPTION_HPP_DEFINED
-

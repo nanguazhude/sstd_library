@@ -75,4 +75,3 @@ void server::handle_stop()
 
 } // namespace server2
 } // namespace http
-

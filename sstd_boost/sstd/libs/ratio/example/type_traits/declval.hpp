@@ -42,4 +42,3 @@ namespace boost_ex {
 }  // namespace boost
 
 #endif  // BOOST_EX_TYPE_TRAITS_EXT_DECLVAL__HPP
-

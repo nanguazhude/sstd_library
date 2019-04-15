@@ -84,4 +84,3 @@ using it_based_value_type_t = typename iterator_traits<InputIterator>::value_typ
 }  //namespace boost {
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_ITERATORS_HPP
-

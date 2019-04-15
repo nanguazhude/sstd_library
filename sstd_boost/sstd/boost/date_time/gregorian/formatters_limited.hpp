@@ -78,5 +78,3 @@ namespace gregorian {
 
 
 #endif
-
-

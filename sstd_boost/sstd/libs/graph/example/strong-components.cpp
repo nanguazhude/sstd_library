@@ -38,4 +38,3 @@ main()
       << " is in component " << *i << std::endl;
   return EXIT_SUCCESS;
 }
-

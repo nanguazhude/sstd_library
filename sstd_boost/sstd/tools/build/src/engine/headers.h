@@ -23,4 +23,3 @@ LIST * headers1( LIST *l, OBJECT * file, int rec, struct regexp *re[] );
 #endif
 
 #endif
-

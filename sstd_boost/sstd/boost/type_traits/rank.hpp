@@ -85,4 +85,3 @@ template <class T> struct rank : public integral_constant<std::size_t, (::boost:
 } // namespace boost
 
 #endif // BOOST_TT_IS_MEMBER_FUNCTION_POINTER_HPP_INCLUDED
-

@@ -361,4 +361,3 @@ comparable_distance(Geometry1 const& geometry1, Geometry2 const& geometry2)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_COMPARABLE_DISTANCE_INTERFACE_HPP
-

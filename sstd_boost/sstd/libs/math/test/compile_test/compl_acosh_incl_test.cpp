@@ -24,6 +24,3 @@ void compile_and_link_test()
    check_result<std::complex<long double> >(boost::math::acosh(std::complex<long double>()));
 #endif
 }
-
-
-

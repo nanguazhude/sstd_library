@@ -51,5 +51,3 @@ struct BOOST_TEST_DECL auto_test_unit_registrar {
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_TREE_AUTO_REGISTRATION_HPP_100211GER
-
-

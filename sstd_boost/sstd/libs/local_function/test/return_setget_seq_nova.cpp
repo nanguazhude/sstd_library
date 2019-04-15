@@ -7,5 +7,3 @@
 
 #include "nova.hpp"
 #include "return_setget_seq.cpp"
-
-

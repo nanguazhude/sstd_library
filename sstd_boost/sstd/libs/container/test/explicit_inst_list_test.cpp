@@ -23,4 +23,3 @@ int main()
    ::boost::container::list<empty> dummy;
    return 0;
 }
-

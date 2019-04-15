@@ -230,4 +230,3 @@ inline void serialize(
 
 #endif // BOOST_HAS_HASH
 #endif // BOOST_SERIALIZATION_HASH_MAP_HPP
-

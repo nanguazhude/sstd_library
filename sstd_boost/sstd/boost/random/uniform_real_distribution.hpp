@@ -239,4 +239,3 @@ private:
 } // namespace boost
 
 #endif // BOOST_RANDOM_UNIFORM_INT_HPP
-

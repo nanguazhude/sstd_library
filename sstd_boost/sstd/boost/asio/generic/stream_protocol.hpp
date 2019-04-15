@@ -127,4 +127,3 @@ private:
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_GENERIC_STREAM_PROTOCOL_HPP
-

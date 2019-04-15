@@ -22,5 +22,3 @@ namespace
 #define TEST_NAME foldr1
 
 #include "repeated1_test.hpp"
-
-

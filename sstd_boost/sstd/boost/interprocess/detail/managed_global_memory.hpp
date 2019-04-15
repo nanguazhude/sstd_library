@@ -117,4 +117,3 @@ class basic_managed_global_memory
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTERPROCESS_BASIC_GLOBAL_MEMORY_HPP
-

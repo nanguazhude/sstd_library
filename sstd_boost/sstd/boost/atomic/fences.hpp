@@ -65,4 +65,3 @@ using atomics::atomic_signal_fence;
 } // namespace boost
 
 #endif // BOOST_ATOMIC_FENCES_HPP_INCLUDED_
-

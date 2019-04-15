@@ -232,6 +232,3 @@ BOOST_AUTO_TEST_CASE( test_main )
    test_real_concept_extra();
 #endif
 }
-
-
-

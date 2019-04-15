@@ -39,4 +39,3 @@ BOOST_MPL_AUX_NA_SPEC(2, contains)
 }}
 
 #endif // BOOST_MPL_CONTAINS_HPP_INCLUDED
-

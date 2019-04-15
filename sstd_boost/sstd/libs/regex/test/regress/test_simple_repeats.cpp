@@ -497,5 +497,3 @@ void test_pocessive_repeats()
    TEST_INVALID_REGEX("(ab + + ?)", perl | mod_x);
 
 }
-
-

@@ -1251,4 +1251,3 @@ inline BOOST_CXX14_CONSTEXPR quaternion<T> operator / (const quaternion<T>& a, c
 }
 
 #endif /* BOOST_QUATERNION_HPP */
-

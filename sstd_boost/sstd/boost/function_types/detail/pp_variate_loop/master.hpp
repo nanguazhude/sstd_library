@@ -149,5 +149,3 @@ BOOST_PP_EXPAND(#)   undef BOOST_FT_flags
 BOOST_PP_EXPAND(#) endif
 BOOST_PP_EXPAND(#) endif
 #endif
-
-

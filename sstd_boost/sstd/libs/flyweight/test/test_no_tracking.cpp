@@ -33,4 +33,3 @@ void test_no_tracking()
 {
   test_basic_template<no_tracking_flyweight_specifier>();
 }
-

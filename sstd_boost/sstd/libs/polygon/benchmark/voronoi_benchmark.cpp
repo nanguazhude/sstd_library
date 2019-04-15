@@ -154,4 +154,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(benchmark_test_segments, T, test_types) {
     bench_file << "Static test of " << segments.size() << " segments: " << elapsed_time << std::endl;
     bench_file.close();
 }
-

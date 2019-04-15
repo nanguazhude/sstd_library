@@ -372,4 +372,3 @@ struct associated_executor<
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_SSL_DETAIL_IO_HPP
-

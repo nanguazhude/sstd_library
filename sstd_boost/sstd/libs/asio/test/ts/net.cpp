@@ -28,4 +28,3 @@ BOOST_ASIO_TEST_SUITE
   "ts/net",
   BOOST_ASIO_TEST_CASE(null_test)
 )
-

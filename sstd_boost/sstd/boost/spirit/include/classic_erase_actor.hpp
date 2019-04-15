@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_ERASE_ACTOR
 #include <sstd/boost/spirit/home/classic/actor/erase_actor.hpp>
 #endif
-

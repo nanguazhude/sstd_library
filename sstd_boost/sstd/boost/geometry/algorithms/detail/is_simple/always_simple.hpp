@@ -83,4 +83,3 @@ struct is_simple<Box, box_tag>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_IS_SIMPLE_ALWAYS_SIMPLE_HPP
-

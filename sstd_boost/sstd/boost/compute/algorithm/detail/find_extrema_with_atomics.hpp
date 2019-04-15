@@ -106,4 +106,3 @@ inline InputIterator find_extrema_with_atomics(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_FIND_EXTREMA_WITH_ATOMICS_HPP
-

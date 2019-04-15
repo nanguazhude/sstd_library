@@ -47,4 +47,3 @@ struct as_to_python_function
 }}} // namespace boost::python::converter
 
 #endif // AS_TO_PYTHON_FUNCTION_DWA2002121_HPP
-

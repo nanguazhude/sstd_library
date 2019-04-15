@@ -24,4 +24,3 @@ int main()
   boost::basic_string_view<char> sv(makeatemp());
   return 0;
 }
-

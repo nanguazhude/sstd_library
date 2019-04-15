@@ -88,5 +88,3 @@ typename Dist::value_type generic_quantile(const Dist& dist, const typename Dist
 }}} // namespaces
 
 #endif // BOOST_MATH_DISTIBUTIONS_DETAIL_GENERIC_QUANTILE_HPP
-
-

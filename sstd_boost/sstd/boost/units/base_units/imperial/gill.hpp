@@ -38,4 +38,3 @@ struct base_unit_info<imperial::gill_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNITS_BASE_UNITS_IMPERIAL_GILL_HPP_INCLUDED
-

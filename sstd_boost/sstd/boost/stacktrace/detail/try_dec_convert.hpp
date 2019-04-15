@@ -27,4 +27,3 @@ inline bool try_dec_convert(const char* s, std::size_t& res) BOOST_NOEXCEPT {
 }}} // namespace boost::stacktrace::detail
 
 #endif // BOOST_STACKTRACE_DETAIL_TRY_DEC_CONVERT_HPP
-

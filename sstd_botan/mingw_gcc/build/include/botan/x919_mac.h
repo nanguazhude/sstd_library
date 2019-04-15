@@ -1,4 +1,4 @@
-/*
+﻿/*
 * ANSI X9.19 MAC
 * (C) 1999-2007 Jack Lloyd
 *

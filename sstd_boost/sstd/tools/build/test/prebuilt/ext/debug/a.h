@@ -11,4 +11,3 @@
 __declspec(dllimport)
 #endif
 void debug();
-

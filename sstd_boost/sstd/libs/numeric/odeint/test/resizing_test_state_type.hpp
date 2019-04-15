@@ -67,4 +67,3 @@ namespace odeint {
 
 
 #endif // LIBS_NUMERIC_ODEINT_TEST_RESIZING_TEST_STATE_TYPE_HPP_DEFINED
-

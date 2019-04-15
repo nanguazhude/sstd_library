@@ -20,4 +20,3 @@ BOOST_AUTO_TEST_CASE( empty_engine)
 {
     QHelpEngine engine(QString());
 }
-

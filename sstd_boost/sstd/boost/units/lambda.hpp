@@ -591,4 +591,3 @@ namespace units {
 } // namespace boost
 
 #endif // BOOST_UNITS_LAMBDA_HPP
-

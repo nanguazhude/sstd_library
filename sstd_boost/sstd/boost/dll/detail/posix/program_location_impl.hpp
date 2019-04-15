@@ -137,5 +137,3 @@ namespace boost { namespace dll { namespace detail {
 #endif
 
 #endif // BOOST_DLL_DETAIL_POSIX_PROGRAM_LOCATION_IMPL_HPP
-
-

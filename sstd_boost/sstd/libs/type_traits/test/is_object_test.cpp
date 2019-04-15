@@ -28,12 +28,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_object<incomplete_type>::value, true);
 
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

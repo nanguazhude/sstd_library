@@ -82,4 +82,3 @@ inline typeinfo assert_array_typeid_compiles()
 
 # endif // BOOST_INTEL_CXX_VERSION
 #endif // MSVC_TYPEINFO_DWA200222_HPP
-

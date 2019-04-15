@@ -15,4 +15,3 @@ int main()
    test_integer_type<boost::multiprecision::cpp_int>();
    return 0;
 }
-

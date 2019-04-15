@@ -549,5 +549,3 @@ structured_pair<FirstType,SecondType,::boost::mpl::na,Layout>
 } // namespace boost
 
 #endif // BOOST_BIMAP_RELATION_STRUCTURED_PAIR_HPP
-
-

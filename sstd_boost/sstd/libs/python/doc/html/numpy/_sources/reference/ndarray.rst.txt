@@ -379,5 +379,3 @@ Example(s)
 
   np::ndarray mul_data_ex = np::from_data(mul_data,dt1, p::make_tuple(3,4),p::make_tuple(4,1),p::object());
   mul_data_ex = np::from_data(mul_data,dt1, shape,stride,p::object());
-
-

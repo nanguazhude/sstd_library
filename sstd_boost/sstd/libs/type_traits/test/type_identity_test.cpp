@@ -58,4 +58,3 @@ TT_TEST_BEGIN(type_identity)
    type_identity_test_20();
 
 TT_TEST_END
-

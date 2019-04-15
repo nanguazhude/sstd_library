@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_KLEENE_STAR
 #include <sstd/boost/spirit/home/classic/core/composite/kleene_star.hpp>
 #endif
-

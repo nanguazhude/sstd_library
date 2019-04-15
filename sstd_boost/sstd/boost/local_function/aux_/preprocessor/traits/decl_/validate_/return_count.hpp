@@ -29,5 +29,3 @@
             ERROR_cannot_specify_more_than_one_return_type BOOST_PP_EMPTY)
 
 #endif // #include guard
-
-

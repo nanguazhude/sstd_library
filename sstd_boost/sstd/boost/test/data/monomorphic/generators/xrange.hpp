@@ -222,4 +222,3 @@ xrange( SampleType const& begin_val, SampleType const& end_val, StepType const& 
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_DATA_MONOMORPHIC_GENERATORS_XRANGE_HPP_112011GER
-

@@ -17,4 +17,3 @@
 #pragma pop_macro("atomic_store_explicit")
 
 #endif // #if defined(BOOST_INTEL)
-

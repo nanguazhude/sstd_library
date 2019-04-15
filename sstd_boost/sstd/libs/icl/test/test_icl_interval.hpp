@@ -105,4 +105,3 @@ void coverable_asymmetric_interval_4_bicremental_types()
 
 
 #endif // BOOST_ICL_TEST_ICL_INTERVAL_HPP_JOFA_100930
-

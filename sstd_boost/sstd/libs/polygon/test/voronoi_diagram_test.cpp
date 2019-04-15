@@ -123,4 +123,3 @@ int main()
     voronoi_diagram_test();
     return boost::report_errors();
 }
-

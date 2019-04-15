@@ -38,4 +38,3 @@ template<std::size_t N> using mp_size_t = std::integral_constant<std::size_t, N>
 } // namespace boost
 
 #endif // #ifndef BOOST_MP11_INTEGRAL_HPP_INCLUDED
-

@@ -12,4 +12,3 @@ static_assert(hana::extract(hana::make_lazy(1)) == 1, "");
 static_assert(hana::extract(hana::make_lazy(hana::_ + 1)(3)) == 4, "");
 
 int main() { }
-

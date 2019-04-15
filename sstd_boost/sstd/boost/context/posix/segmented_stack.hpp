@@ -80,4 +80,3 @@ typedef segmented_stack default_stack;
 #endif
 
 #endif // BOOST_CONTEXT_SEGMENTED_H
-

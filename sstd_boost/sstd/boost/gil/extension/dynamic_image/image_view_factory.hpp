@@ -252,4 +252,3 @@ typename color_converted_view_type<any_image_view<ViewTypes>, DstP>::type any_co
 } }  // namespace boost::gil
 
 #endif
-

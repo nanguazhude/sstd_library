@@ -30,4 +30,3 @@ int main()
   machine.initiate();
   return 0;
 }
-

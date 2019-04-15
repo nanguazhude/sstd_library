@@ -123,4 +123,3 @@ int main(int argc, char* argv[])
   else
     io_context.run();
 }
-

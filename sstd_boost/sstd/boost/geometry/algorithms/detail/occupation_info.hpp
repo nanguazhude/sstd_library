@@ -217,4 +217,3 @@ inline void add_incoming_and_outgoing_angles(
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OCCUPATION_INFO_HPP
-

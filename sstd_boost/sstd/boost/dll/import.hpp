@@ -274,5 +274,3 @@ BOOST_DLL_IMPORT_RESULT_TYPE import_alias(BOOST_RV_REF(shared_library) lib, cons
 }} // boost::dll
 
 #endif // BOOST_DLL_IMPORT_HPP
-
-

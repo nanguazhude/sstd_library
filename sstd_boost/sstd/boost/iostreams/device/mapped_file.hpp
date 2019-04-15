@@ -607,4 +607,3 @@ operator^=(mapped_file::mapmode& a, mapped_file::mapmode b)
 #endif
 
 #endif // #ifndef BOOST_IOSTREAMS_MAPPED_FILE_HPP_INCLUDED
-

@@ -162,5 +162,3 @@ int main()
   histograms<boost::mt19937>();
   // histograms<boost::lagged_fibonacci607>();
 }
-
-

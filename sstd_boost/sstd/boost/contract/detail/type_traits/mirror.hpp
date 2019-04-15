@@ -108,5 +108,3 @@ template<typename F, F> class check_function;
 } } } } // namespace
 
 #endif // #include guard
-
-

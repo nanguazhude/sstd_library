@@ -14,4 +14,3 @@ BOOST_STATIC_ASSERT((boost::is_same<boost::detail::reference_content<int&>, boos
 BOOST_STATIC_ASSERT((boost::has_nothrow_copy<boost::detail::make_reference_content<int&>::type>::value));
 
 int main() {}
-

@@ -37,4 +37,3 @@ main()
     r = ::BOOST_SPIRIT_CLASSIC_NS::if_p(r)[r];
     r = ::BOOST_SPIRIT_CLASSIC_NS::if_p(r)[r].else_p[r];
 }
-

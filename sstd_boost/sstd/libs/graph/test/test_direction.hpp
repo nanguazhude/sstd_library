@@ -128,4 +128,3 @@ void test_undirected_graph(Graph const&, VertexSet const&, boost::mpl::false_)
 //@}
 
 #endif
-

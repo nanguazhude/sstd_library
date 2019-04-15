@@ -48,4 +48,3 @@
 #define BOOST_TEST_DS_ASSERT( cond, msg ) BOOST_TEST_I_ASSRT( cond, std::logic_error( msg ) )
 
 #endif // BOOST_TEST_DATA_CONFIG_HPP_112611GER
-

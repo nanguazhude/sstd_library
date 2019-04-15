@@ -49,5 +49,3 @@ find_flow_cost(const Graph &g) {
 } //boost
 
 #endif /* BOOST_GRAPH_FIND_FLOW_COST_HPP */
-
-

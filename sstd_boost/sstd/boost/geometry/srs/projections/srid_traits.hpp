@@ -30,5 +30,3 @@ struct AUTH##_traits<CODE> \
 
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_SRID_TRAITS_HPP
-
-

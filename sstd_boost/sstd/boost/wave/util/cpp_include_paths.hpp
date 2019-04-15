@@ -546,4 +546,3 @@ BOOST_CLASS_VERSION(boost::wave::util::include_paths,
 #endif
 
 #endif // !defined(CPP_INCLUDE_PATHS_HPP_AF620DA4_B3D2_4221_AD91_8A1ABFFB6944_INCLUDED)
-

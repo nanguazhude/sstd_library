@@ -373,4 +373,3 @@ string UaryOPNode::toString(int level)
 }
 
 } /* namespace AutoDiff */
-

@@ -45,4 +45,3 @@ void timestamp_done();
 double timestamp_delta_seconds( timestamp const * const, timestamp const * const );
 
 #endif
-

@@ -22,4 +22,3 @@ struct base_template<int, int> {
 };
 
 int main() { }
-

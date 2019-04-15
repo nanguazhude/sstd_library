@@ -96,4 +96,3 @@
                 >::make(obj, ptr, BOOST_PHOENIX_a);
             }
 #endif
-

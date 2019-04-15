@@ -195,4 +195,3 @@ BOOST_AUTO_TEST_CASE(index_image_view_test)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

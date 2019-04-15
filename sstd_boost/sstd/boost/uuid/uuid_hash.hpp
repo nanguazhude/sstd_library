@@ -38,4 +38,3 @@ namespace std
 
 #endif /* !BOOST_NO_CXX11_HDR_FUNCTIONAL */
 #endif /* !BOOST_UUID_HASH_HPP */
-

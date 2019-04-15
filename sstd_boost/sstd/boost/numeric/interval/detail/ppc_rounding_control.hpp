@@ -97,4 +97,3 @@ struct rounding_control<long double>:
 #endif
 
 #endif /* BOOST_NUMERIC_INTERVAL_DETAIL_PPC_ROUNDING_CONTROL_HPP */
-

@@ -125,4 +125,3 @@ void test(boost::basic_regex<charT, traits>& r, const test_invalid_regex_tag&)
 
 
 #endif
-

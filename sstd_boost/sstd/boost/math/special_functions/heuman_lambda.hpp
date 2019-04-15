@@ -84,5 +84,3 @@ inline typename tools::promote_args<T1, T2>::type heuman_lambda(T1 k, T2 phi)
 }} // namespaces
 
 #endif // BOOST_MATH_ELLINT_D_HPP
-
-

@@ -25,4 +25,3 @@ int main( int ac, char const* av[] )
 
     return boost::report_errors();
 }
-

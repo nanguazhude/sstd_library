@@ -28,5 +28,3 @@ BOOST_METAPARSE_TEST_CASE(is_error)
   // test_error
   BOOST_MPL_ASSERT((is_error<apply_wrap2<fail<int11>, int1, int13> >));
 }
-
-

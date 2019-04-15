@@ -96,4 +96,3 @@ template class basic_binary_oprimitive<
 
 } // namespace archive
 } // namespace boost
-

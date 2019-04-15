@@ -23,4 +23,3 @@ int test_main(int,char*[])
   add_edge(0, 5, g);
   return 0;
 }
-

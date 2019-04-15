@@ -392,5 +392,3 @@ int main()
 }
 
 #endif
-
-

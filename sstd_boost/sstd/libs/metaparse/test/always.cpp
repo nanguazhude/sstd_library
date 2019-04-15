@@ -40,5 +40,3 @@ BOOST_METAPARSE_TEST_CASE(always)
   // test_fail
   BOOST_MPL_ASSERT((is_error<apply_wrap2<always_digit_13, str_a, start> >));
 }
-
-

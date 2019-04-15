@@ -17,4 +17,3 @@ int main()
     BOOST_TEST(&Py_REFCNT(boost::python::upcast<PyObject>(&y)) == &Py_REFCNT(&y));
     return boost::report_errors();
 }
-

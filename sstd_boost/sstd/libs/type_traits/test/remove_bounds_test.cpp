@@ -57,12 +57,3 @@ TT_TEST_BEGIN(remove_bounds)
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

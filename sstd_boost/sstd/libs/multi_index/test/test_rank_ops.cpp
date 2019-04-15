@@ -152,4 +152,3 @@ void test_rank_ops()
 
   local_test_rank_ops<biranked_set>();
 }
-

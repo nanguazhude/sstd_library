@@ -145,4 +145,3 @@ template struct test_blas_2<ublas::vector<std::complex<float> >, ublas::matrix<s
 template struct test_blas_2<ublas::vector<std::complex<double> >, ublas::matrix<std::complex<double> >, 3>;
 #endif
 #endif
-

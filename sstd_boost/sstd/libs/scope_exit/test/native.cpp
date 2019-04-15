@@ -191,5 +191,3 @@ int main(void) {
     test_capture_all();
     return boost::report_errors();
 }
-
-

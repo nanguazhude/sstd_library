@@ -293,4 +293,3 @@ namespace impl {
 #endif
 
 #endif // !defined(UNPUT_QUEUE_ITERATOR_HPP_76DA23D0_4893_4AD5_ABCC_6CED7CFB89BC_INCLUDED)
-

@@ -173,8 +173,3 @@ inline typename tools::promote_args<T>::type cbrt(T z)
 } // namespace boost
 
 #endif // BOOST_MATH_SF_CBRT_HPP
-
-
-
-
-

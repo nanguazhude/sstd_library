@@ -81,4 +81,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(formatting, CharT, char_types)
         BOOST_CHECK(equal_strings(strm1.str(), strm2.str()));
     }
 }
-

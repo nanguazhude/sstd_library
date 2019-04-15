@@ -6,4 +6,3 @@
 #include <auto/slice.hpp>
 
 int main() { }
-

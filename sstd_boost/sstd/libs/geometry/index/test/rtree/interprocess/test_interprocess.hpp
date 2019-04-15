@@ -99,4 +99,3 @@ void modifiers_and_additional(Parameters const& parameters = Parameters())
 }
 
 }}
-

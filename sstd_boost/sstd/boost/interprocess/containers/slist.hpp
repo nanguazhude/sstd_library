@@ -34,4 +34,3 @@ using boost::container::slist;
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif //   #ifndef  BOOST_INTERPROCESS_CONTAINERS_SLIST_HPP
-

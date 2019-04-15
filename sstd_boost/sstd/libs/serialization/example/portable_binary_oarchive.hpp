@@ -189,4 +189,3 @@ public:
 #endif
 
 #endif // PORTABLE_BINARY_OARCHIVE_HPP
-

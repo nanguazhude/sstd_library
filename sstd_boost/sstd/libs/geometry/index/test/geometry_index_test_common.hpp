@@ -26,4 +26,3 @@ namespace boost { namespace geometry { namespace index {}}}
 namespace bgi = boost::geometry::index;
 
 #endif // GEOMETRY_TEST_GEOMETRY_INDEX_TEST_COMMON_HPP
-

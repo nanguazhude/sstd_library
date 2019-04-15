@@ -136,4 +136,3 @@ struct feature_of<tag::weighted_sum_of_variates_kahan<VariateType, VariateTag> >
 }} // namespace boost::accumulators
 
 #endif
-

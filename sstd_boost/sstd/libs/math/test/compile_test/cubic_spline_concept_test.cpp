@@ -13,4 +13,3 @@ void compile_and_link_test()
    s(1.0);
    s.prime(1.0);
 }
-

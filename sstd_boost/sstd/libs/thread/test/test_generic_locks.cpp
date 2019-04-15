@@ -575,5 +575,3 @@ BOOST_AUTO_TEST_CASE(test_try_lock_five)
         }
     }
 }
-
-

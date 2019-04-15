@@ -154,5 +154,3 @@ main()
     closure_tests();
     return boost::report_errors();
 }
-
-

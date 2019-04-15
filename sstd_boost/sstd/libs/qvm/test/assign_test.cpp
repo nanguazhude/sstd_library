@@ -68,4 +68,3 @@ main()
     test_quaternion();
     return boost::report_errors();
     }
-

@@ -94,4 +94,3 @@ BOOST_CONTAINER_FORCEINLINE void assign_in_place(DstIt dest, emplace_iterator<U,
 }  //namespace boost {
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_CONSTRUCT_IN_PLACE_HPP
-

@@ -30,4 +30,3 @@ template <int n>
 int test_class<n>::counter;
 
 #endif // TEST_CLASS_DWA2002326_HPP
-

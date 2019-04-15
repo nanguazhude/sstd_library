@@ -26,6 +26,3 @@
 # endif /* _AMIGA && !GC_AMIGA_MAKINGLIB */
 
 #endif /* GC_AMIGA_REDIRECTS_H */
-
-
-

@@ -24,4 +24,3 @@ BOOST_PYTHON_MODULE(bienstman3_ext)
   class_<B>("B", init<const V&>());
 
 }
-

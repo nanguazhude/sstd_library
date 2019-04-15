@@ -573,4 +573,3 @@ struct is_nullary< custom_terminal< boost::log::expressions::channel_severity_fi
 #include <sstd/boost/log/detail/footer.hpp>
 
 #endif // BOOST_LOG_EXPRESSIONS_PREDICATES_CHANNEL_SEVERITY_FILTER_HPP_INCLUDED_
-

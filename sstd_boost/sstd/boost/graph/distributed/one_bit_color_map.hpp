@@ -114,4 +114,3 @@ put(one_bit_color_map<
 } // end namespace boost
 
 #endif // BOOST_DISTRIBUTED_ONE_BIT_COLOR_MAP_HPP
-

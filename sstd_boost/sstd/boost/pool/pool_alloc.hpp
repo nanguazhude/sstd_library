@@ -510,4 +510,3 @@ public:
 } // namespace boost
 
 #endif
-

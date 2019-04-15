@@ -47,4 +47,3 @@ class std::list<class boost::geometry::model::ring<class boost::array<short,3>,1
 ]
 */
 //]
-

@@ -53,4 +53,3 @@ BEAST_DEFINE_TESTSUITE(beast,core,ostream);
 
 } // beast
 } // boost
-

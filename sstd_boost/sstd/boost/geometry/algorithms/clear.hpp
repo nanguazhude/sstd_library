@@ -195,4 +195,3 @@ inline void clear(Geometry& geometry)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_CLEAR_HPP
-

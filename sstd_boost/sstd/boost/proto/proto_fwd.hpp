@@ -884,4 +884,3 @@ namespace boost { namespace proto
 }} // namespace boost::proto
 
 #endif
-

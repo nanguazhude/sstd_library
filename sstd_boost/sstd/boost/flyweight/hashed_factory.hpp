@@ -123,4 +123,3 @@ struct hashed_factory:factory_marker
 } /* namespace boost */
 
 #endif
-

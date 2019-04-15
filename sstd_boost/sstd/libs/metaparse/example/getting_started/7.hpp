@@ -46,5 +46,3 @@ using exp_parser13 =
 //    exp_parser13::apply<BOOST_METAPARSE_STRING("1 + 2 - 3")>::type
 
 #endif
-
-

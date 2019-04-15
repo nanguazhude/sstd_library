@@ -101,4 +101,3 @@ struct v_mask<Base,1>
 }}
 
 #endif // BOOST_MPL_VECTOR_AUX_ITEM_HPP_INCLUDED
-

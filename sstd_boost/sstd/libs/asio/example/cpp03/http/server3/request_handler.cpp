@@ -120,4 +120,3 @@ bool request_handler::url_decode(const std::string& in, std::string& out)
 
 } // namespace server3
 } // namespace http
-

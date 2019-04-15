@@ -16,4 +16,3 @@
     && !defined(BOOST_MSVC)
     #define BOOST_RANDOM_NO_STREAM_OPERATORS
 #endif
-

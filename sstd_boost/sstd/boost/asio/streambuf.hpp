@@ -33,4 +33,3 @@ typedef basic_streambuf<> streambuf;
 #endif // !defined(BOOST_ASIO_NO_IOSTREAM)
 
 #endif // BOOST_ASIO_STREAMBUF_HPP
-

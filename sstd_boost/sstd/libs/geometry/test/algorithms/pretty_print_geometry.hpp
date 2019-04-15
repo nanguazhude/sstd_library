@@ -67,4 +67,3 @@ struct pretty_print_geometry<Ring, boost::geometry::ring_tag>
 
 
 #endif // BOOST_GEOMETRY_TEST_PRETTY_PRINT_GEOMETRY_HPP
-

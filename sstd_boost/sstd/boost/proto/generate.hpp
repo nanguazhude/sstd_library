@@ -468,4 +468,3 @@ namespace boost
 #endif
 
 #endif // BOOST_PROTO_GENERATE_HPP_EAN_02_13_2007
-

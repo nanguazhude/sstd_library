@@ -23,4 +23,3 @@ BOOST_ACCUMULATORS_IGNORE_GLOBAL(covariate2)
 }} // namespace boost::accumulators
 
 #endif
-

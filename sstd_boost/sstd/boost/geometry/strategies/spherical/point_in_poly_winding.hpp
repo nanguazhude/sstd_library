@@ -578,4 +578,3 @@ struct default_strategy<PointLike, Geometry, AnyTag1, AnyTag2, pointlike_tag, li
 
 
 #endif // BOOST_GEOMETRY_STRATEGY_SPHERICAL_POINT_IN_POLY_WINDING_HPP
-

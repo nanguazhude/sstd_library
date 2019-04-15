@@ -116,4 +116,3 @@ BOOST_AUTO_TEST_CASE(test_overload)
         BOOST_CHECK_EQUAL(any_cast<double>(z), 3);
     }
 }
-

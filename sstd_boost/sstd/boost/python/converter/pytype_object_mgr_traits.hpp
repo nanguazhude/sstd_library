@@ -40,4 +40,3 @@ inline python::detail::new_reference pytype_object_manager_traits<pytype,T>::ado
 }}} // namespace boost::python::converter
 
 #endif // PYTYPE_OBJECT_MANAGER_TRAITS_DWA2002716_HPP
-

@@ -55,4 +55,3 @@ struct type_list<
 # undef N
 
 #endif // BOOST_PP_IS_ITERATING
-

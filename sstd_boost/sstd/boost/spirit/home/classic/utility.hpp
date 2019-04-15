@@ -40,4 +40,3 @@
 
 
 #endif // !defined(BOOST_SPIRIT_UTILITY_MAIN_HPP)
-

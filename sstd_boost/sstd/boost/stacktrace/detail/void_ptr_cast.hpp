@@ -43,5 +43,3 @@ To void_ptr_cast(From* v) BOOST_NOEXCEPT {
 }}} // boost::stacktrace::detail
 
 #endif // BOOST_STACKTRACE_DETAIL_VOID_PTR_CAST_HPP
-
-

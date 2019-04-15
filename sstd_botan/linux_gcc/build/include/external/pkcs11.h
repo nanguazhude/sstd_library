@@ -1,4 +1,4 @@
-/*
+﻿/*
  * PKCS #11 Cryptographic Token Interface Base Specification Version 2.40 Errata 01
  * Committee Specification Draft 01 / Public Review Draft 01
  * 09 December 2015
@@ -261,4 +261,3 @@ struct CK_FUNCTION_LIST {
 #endif
 
 #endif /* _PKCS11_H_ */
-

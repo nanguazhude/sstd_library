@@ -46,4 +46,3 @@ TestCase test_length{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_LENGTH_HPP
-

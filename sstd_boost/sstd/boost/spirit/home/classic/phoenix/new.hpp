@@ -1313,4 +1313,3 @@ new_(
 }   //  namespace phoenix
 
 #endif // PHOENIX_NEW_HPP
-

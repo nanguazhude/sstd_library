@@ -9,4 +9,3 @@ example.
 
 Note that this example requires Python. If cygwin Python on Windows is to be
 used, please go to "verbatim.jam" and follow instructions there.
-

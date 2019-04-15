@@ -96,4 +96,3 @@ struct channel_type< any_image_pixel_t >
 } // namespace boost
 
 #endif
-

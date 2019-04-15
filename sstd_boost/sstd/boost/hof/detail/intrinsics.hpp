@@ -111,4 +111,3 @@ struct is_constructible<T>
 }} // namespace boost::hof
 
 #endif
-

@@ -62,4 +62,3 @@ BOOST_SERIALIZATION_USE_ARRAY_OPTIMIZATION(boost::archive::binary_iarchive)
 #endif
 
 #endif // BOOST_ARCHIVE_BINARY_IARCHIVE_HPP
-

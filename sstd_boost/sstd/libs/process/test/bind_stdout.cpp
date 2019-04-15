@@ -164,4 +164,3 @@ BOOST_AUTO_TEST_CASE(file_io, *boost::unit_test::timeout(2))
     boost::filesystem::remove(pth);
 
 }
-

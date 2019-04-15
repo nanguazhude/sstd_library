@@ -56,4 +56,3 @@ inline bool lexicographical_compare(const SinglePassRange1& rng1,
 } // namespace boost
 
 #endif // include guard
-

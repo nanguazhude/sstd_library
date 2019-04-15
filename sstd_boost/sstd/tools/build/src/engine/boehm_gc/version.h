@@ -28,4 +28,3 @@
 unsigned GC_version = ((GC_VERSION_MAJOR << 16) | (GC_VERSION_MINOR << 8) | GC_TMP_ALPHA_VERSION);
 
 #endif /* GC_NO_VERSION_VAR */
-

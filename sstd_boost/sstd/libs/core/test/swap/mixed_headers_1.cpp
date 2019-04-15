@@ -8,5 +8,3 @@
 
 #include <sstd/boost/swap.hpp>
 #include <sstd/boost/utility/swap.hpp>
-
-

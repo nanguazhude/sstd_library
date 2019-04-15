@@ -170,4 +170,3 @@ private:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_UTILITY_PROGRAM_CACHE_HPP
-

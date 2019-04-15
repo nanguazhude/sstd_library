@@ -508,4 +508,3 @@ void GC_free_inner(void * p)
 #   endif
   }
 # endif  /* REDIRECT_MALLOC */
-

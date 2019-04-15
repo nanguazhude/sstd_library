@@ -158,12 +158,3 @@ BOOST_CHECK_SOFT_INTEGRAL_CONSTANT(::tt::is_stateless<empty_POD_UDT>::value, tru
 
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

@@ -249,4 +249,3 @@ private:
 #include <sstd/boost/asio/impl/buffered_write_stream.hpp>
 
 #endif // BOOST_ASIO_BUFFERED_WRITE_STREAM_HPP
-

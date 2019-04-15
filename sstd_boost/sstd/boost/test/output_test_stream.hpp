@@ -12,4 +12,3 @@
 
 // Boost.Test
 #include <sstd/boost/test/tools/output_test_stream.hpp>
-

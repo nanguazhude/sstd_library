@@ -28,4 +28,3 @@ int main() {
     auto result = fusion::find_if<is_last>(ints);
     (void)result;
 }
-

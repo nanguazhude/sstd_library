@@ -7,5 +7,3 @@
 
 #include "nova.hpp"
 #include "typeof_seq.cpp"
-
-

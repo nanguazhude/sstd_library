@@ -24,4 +24,3 @@ namespace boost { namespace msm { namespace front { namespace euml
 }}}}
 
 #endif //BOOST_MSM_FRONT_EUML_PHOENIX_PLACEHOLDERS_H
-

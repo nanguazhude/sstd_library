@@ -11,4 +11,3 @@
 // several testcases using the same source files.
 
 #include "testwave_app.cpp"
-

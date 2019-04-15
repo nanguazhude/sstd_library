@@ -38,4 +38,3 @@ MPL_TEST_CASE()
     typedef inherit<empty_base,empty_base>::type empty;
     MPL_ASSERT(( is_same<empty, empty_base> ));
 }
-

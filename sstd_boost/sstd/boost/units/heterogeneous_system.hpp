@@ -426,4 +426,3 @@ struct check_system<heterogeneous_system<heterogeneous_system_impl<System, Dimen
 } // namespace boost
 
 #endif
-

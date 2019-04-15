@@ -35,4 +35,3 @@ namespace boost
 }
 
 #endif // BOOST_TAB_CHECK_HPP
-

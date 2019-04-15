@@ -170,4 +170,3 @@ BOOST_LOG_CLOSE_NAMESPACE // namespace log
 #include <sstd/boost/log/detail/footer.hpp>
 
 #endif // BOOST_LOG_SINKS_TEXT_IPC_MESSAGE_QUEUE_BACKEND_HPP_INCLUDED_
-

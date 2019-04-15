@@ -40,5 +40,3 @@ namespace ast
 }
 
 #endif
-
-

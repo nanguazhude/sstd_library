@@ -263,4 +263,3 @@ namespace date_time {
 } } // namespaces
 
 #endif // _DATE_TIME_DATE_GENERATOR_FORMATTER__HPP___
-

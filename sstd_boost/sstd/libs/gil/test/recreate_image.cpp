@@ -104,4 +104,3 @@ BOOST_AUTO_TEST_SUITE_END()
 #if BOOST_WORKAROUND(BOOST_MSVC, >= 1400)
 #pragma warning(pop)
 #endif
-

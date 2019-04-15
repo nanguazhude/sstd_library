@@ -166,4 +166,3 @@ BOOST_AUTO_TEST_CASE(test_main)
     test_apply_permutation();
     test_apply_reverse_permutation();
 }
-

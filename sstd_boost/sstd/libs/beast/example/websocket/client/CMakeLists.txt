@@ -16,4 +16,3 @@ if (OPENSSL_FOUND)
     add_subdirectory (coro-ssl)
     add_subdirectory (sync-ssl)
 endif()
-

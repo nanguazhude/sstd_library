@@ -606,4 +606,3 @@ boost::unit_test_framework::test_suite* init_unit_test_suite(int, char*[]) {
 
     return test;
 }
-

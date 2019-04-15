@@ -544,7 +544,3 @@ inline T fast_students_t_quantile(T df, T p, const Policy& pol)
 }}} // namespaces
 
 #endif // BOOST_MATH_SF_DETAIL_INV_T_HPP
-
-
-
-

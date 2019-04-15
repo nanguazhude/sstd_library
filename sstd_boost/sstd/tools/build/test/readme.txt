@@ -4,4 +4,3 @@
 
   See test_system.html for detailed information on using the Boost Build test
 system.
-

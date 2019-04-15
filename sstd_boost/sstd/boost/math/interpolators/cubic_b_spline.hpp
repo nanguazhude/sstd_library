@@ -76,4 +76,3 @@ Real cubic_b_spline<Real>::prime(Real x) const
 
 }}
 #endif
-

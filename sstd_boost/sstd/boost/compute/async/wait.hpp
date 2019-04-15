@@ -54,4 +54,3 @@ inline void wait_for_all(Events&&... events)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ASYNC_WAIT_HPP
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
  * GMAC
  * (C) 2016 Matthias Gierlings, René Korthaus
  * (C) 2017 Jack Lloyd

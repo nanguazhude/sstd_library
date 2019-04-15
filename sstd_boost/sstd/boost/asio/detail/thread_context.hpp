@@ -42,4 +42,3 @@ public:
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_THREAD_CONTEXT_HPP
-

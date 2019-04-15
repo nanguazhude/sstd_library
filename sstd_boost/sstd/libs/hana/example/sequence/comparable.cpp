@@ -13,4 +13,3 @@ static_assert(hana::make_tuple(1, 2, 3) == hana::make_tuple(1, 2, 3), "");
 BOOST_HANA_CONSTANT_CHECK(hana::make_tuple(1, 2, 3) != hana::make_tuple(1, 2, 3, 4));
 
 int main() { }
-

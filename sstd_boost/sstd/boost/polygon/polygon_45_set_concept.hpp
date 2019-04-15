@@ -439,4 +439,3 @@ namespace boost { namespace polygon{
 }
 #include "detail/polygon_45_set_view.hpp"
 #endif
-

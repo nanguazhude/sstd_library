@@ -175,4 +175,3 @@ public :
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_SIDE_INFO_HPP
-

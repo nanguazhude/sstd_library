@@ -16,4 +16,3 @@
 #include <sstd/boost/spirit/home/karma/nonterminal/rule.hpp>
 
 #endif
-

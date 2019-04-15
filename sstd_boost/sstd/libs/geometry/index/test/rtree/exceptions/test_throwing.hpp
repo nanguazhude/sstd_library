@@ -159,4 +159,3 @@ struct container_from_elements_type<throwing_varray<OldValue, N>, NewValue>
 }}} // namespace boost::geometry::index
 
 #endif // BOOST_GEOMETRY_INDEX_TEST_THROWING_HPP
-

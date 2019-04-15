@@ -23,5 +23,3 @@ read_from_file(char const* infile)
     return std::string(std::istreambuf_iterator<char>(instream.rdbuf()),
                        std::istreambuf_iterator<char>());
 }
-
-

@@ -96,4 +96,3 @@ void test_envelope(std::string const& wkt,
 
 
 #endif
-

@@ -62,4 +62,3 @@ IntType log2(IntType value)
 } /* namespace boost */
 
 #endif /* BOOST_HEAP_DETAIL_ILOG2_HPP */
-

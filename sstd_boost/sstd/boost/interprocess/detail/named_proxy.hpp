@@ -314,4 +314,3 @@ class named_proxy
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif //#ifndef BOOST_INTERPROCESS_NAMED_PROXY_HPP
-

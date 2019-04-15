@@ -20,4 +20,3 @@ void pass()
   m.lock();
   boost::lock_guard<boost::mutex> lk(m, boost::adopt_lock);
 }
-

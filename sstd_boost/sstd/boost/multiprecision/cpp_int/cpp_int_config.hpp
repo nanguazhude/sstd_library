@@ -160,5 +160,3 @@ enum cpp_int_check_type
 #endif
 
 #endif // BOOST_MP_CPP_INT_CORE_HPP
-
-

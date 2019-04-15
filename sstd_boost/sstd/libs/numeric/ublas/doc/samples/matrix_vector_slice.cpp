@@ -24,5 +24,3 @@ int main () {
     matrix_vector_slice<matrix<double> > mvs (m, slice (0, 1, 3), slice (0, 1, 3));
     std::cout << mvs << std::endl;
 }
-
-

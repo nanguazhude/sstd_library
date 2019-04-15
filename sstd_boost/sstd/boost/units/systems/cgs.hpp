@@ -42,4 +42,3 @@
 #include <sstd/boost/units/systems/cgs/wavenumber.hpp>
 
 #endif // BOOST_UNITS_CGS_HPP
-

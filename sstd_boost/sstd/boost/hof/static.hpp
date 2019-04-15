@@ -95,4 +95,3 @@ struct static_
 }} // namespace boost::hof
 
 #endif
-

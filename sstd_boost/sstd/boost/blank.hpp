@@ -104,4 +104,3 @@ inline BOOST_TEMPLATED_STREAM(ostream, E,T)& operator<<(
 } // namespace boost
 
 #endif // BOOST_BLANK_HPP
-

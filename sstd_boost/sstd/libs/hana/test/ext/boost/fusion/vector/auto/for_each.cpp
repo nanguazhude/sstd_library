@@ -6,4 +6,3 @@
 #include <auto/for_each.hpp>
 
 int main() { }
-

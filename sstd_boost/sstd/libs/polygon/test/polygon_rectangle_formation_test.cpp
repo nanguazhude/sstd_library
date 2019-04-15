@@ -42,4 +42,3 @@ int main()
     rectangle_formation_test1();
     return boost::report_errors();
 }
-

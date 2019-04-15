@@ -89,4 +89,3 @@ private:
 } // namespace boost
 
 #endif // BOOST_ASIO_DETAIL_THREAD_GROUP_HPP
-

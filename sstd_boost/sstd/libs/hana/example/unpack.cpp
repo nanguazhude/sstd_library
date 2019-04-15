@@ -16,4 +16,3 @@ int main() {
 
     BOOST_HANA_CONSTEXPR_CHECK(hana::unpack(hana::make_tuple(1, 2, 3), add) == 6);
 }
-

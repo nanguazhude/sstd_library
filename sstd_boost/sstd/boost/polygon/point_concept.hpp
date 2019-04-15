@@ -467,4 +467,3 @@ PointType>::type& move(PointType& point, orientation_2d orient,
 }  // boost
 
 #endif  // BOOST_POLYGON_POINT_CONCEPT_HPP
-

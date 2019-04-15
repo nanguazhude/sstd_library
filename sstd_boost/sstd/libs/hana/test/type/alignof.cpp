@@ -30,4 +30,3 @@ int main() {
         constexpr auto r2 = hana::alignof_(x); (void)r2;
     }
 }
-

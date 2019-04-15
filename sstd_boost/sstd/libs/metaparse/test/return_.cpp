@@ -57,6 +57,3 @@ BOOST_METAPARSE_TEST_CASE(return)
   // test_get_position
   BOOST_MPL_ASSERT((equal_to<int3, get_position<acc>::type>));
 }
-
-
-

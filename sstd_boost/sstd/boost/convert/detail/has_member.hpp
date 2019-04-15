@@ -58,4 +58,3 @@
     }
 
 #endif // BOOST_CONVERT_HAS_MEMBER_HPP
-

@@ -17,4 +17,3 @@
 //H 11: t_2_013.cpp(13): #if 1: 1
 //H 10: t_2_013.cpp(14): #else
 //H 18: boost::wave::preprocess_exception
-

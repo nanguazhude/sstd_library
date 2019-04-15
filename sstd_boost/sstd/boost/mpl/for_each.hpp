@@ -121,4 +121,3 @@ void for_each(F f, Sequence* = 0)
 }}
 
 #endif // BOOST_MPL_FOR_EACH_HPP_INCLUDED
-

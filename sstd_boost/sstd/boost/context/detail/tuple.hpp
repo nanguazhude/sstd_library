@@ -127,4 +127,3 @@ tail( std::tuple< T ... > & tpl) {
 #endif
 
 #endif // BOOST_CONTEXT_DETAIL_TUPLE_H
-

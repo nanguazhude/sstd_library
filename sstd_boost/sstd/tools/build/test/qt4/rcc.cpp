@@ -18,4 +18,3 @@ BOOST_AUTO_TEST_CASE (check_exists)
 {
     BOOST_CHECK(QFile::exists(":/test/rcc.cpp"));
 }
-

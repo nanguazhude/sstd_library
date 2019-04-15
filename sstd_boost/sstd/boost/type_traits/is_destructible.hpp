@@ -67,4 +67,3 @@ namespace boost{
 } // namespace boost
 
 #endif // BOOST_TT_IS_DESTRUCTIBLE_HPP_INCLUDED
-

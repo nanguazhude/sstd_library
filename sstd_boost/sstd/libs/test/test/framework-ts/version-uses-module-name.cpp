@@ -16,4 +16,3 @@ BOOST_AUTO_TEST_CASE( check )
 {
   BOOST_TEST( true );
 }
-

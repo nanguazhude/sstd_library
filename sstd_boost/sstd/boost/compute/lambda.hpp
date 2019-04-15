@@ -20,4 +20,3 @@
 #include <sstd/boost/compute/lambda/result_of.hpp>
 
 #endif // BOOST_COMPUTE_LAMBDA_HPP
-

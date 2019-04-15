@@ -80,4 +80,3 @@ void distant_intervals_4_numeric_continuous_types()
 
 
 #endif // BOOST_ICL_TEST_ICL_INTERVAL_CONTINUOUS_HPP_JOFA_100930
-

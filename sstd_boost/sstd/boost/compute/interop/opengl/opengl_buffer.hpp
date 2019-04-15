@@ -104,4 +104,3 @@ struct set_kernel_arg<opengl_buffer> : set_kernel_arg<memory_object> { };
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_INTEROP_OPENGL_OPENGL_BUFFER_HPP
-

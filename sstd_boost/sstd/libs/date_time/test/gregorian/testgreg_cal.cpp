@@ -132,5 +132,3 @@ main()
   test_greg_calendar();
   return printTestStats();
 }
-
-

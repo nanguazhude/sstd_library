@@ -62,6 +62,3 @@ void test_constexpr5()
    static_assert(k == 347, "Expected result not integer in constexpr gcd.");
 }
 #endif
-
-
-

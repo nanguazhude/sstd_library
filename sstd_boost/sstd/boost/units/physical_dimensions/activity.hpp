@@ -26,4 +26,3 @@ typedef derived_dimension<time_base_dimension,-1>::type activity_dimension;
 } // namespace boost
 
 #endif // BOOST_UNITS_ACTIVITY_DERIVED_DIMENSION_HPP
-

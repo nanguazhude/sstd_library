@@ -161,5 +161,3 @@ int main(int, char* [])
     test_config_file();
     return 0;
 }
-
-

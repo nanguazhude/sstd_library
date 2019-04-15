@@ -1,4 +1,4 @@
-/*
+﻿/*
 * HOTP
 * (C) 2017 Jack Lloyd
 *

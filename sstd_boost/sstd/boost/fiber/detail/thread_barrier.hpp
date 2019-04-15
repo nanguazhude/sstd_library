@@ -61,4 +61,3 @@ public:
 }}}
 
 #endif // BOOST_FIBER_DETAIL_THREAD_BARRIER_H
-

@@ -404,4 +404,3 @@ private:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_CONTAINER_FLAT_MAP_HPP
-

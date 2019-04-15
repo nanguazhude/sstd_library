@@ -229,4 +229,3 @@ GIL_DEFINE_ALL_TYPEDEFS_INTERNAL(32f, float32_t, dev5n, devicen_t<5>, devicen_la
 }} // namespace boost::gil
 
 #endif
-

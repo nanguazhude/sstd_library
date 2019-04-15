@@ -25,4 +25,3 @@ int main() {
     auto result = hana::find_if(sequence, is_last{});
     (void)result;
 }
-

@@ -16,4 +16,3 @@ int main()
   test_serialization();
   return boost::report_errors();
 }
-

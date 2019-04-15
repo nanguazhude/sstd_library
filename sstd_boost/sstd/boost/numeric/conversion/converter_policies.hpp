@@ -192,4 +192,3 @@ struct UseInternalRangeChecker {} ;
 } } // namespace boost::numeric
 
 #endif
-

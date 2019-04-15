@@ -161,4 +161,3 @@ namespace boost {
 }
 
 #endif // BOOST_GRAPH_PARALLEL_BFS_HPP
-

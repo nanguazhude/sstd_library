@@ -580,4 +580,3 @@ inline void sym_difference(Geometry1 const& geometry1,
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_SYM_DIFFERENCE_HPP
-

@@ -95,4 +95,3 @@ void init_sequence()
                             sequence_transform, 1 );
     }
 }
-

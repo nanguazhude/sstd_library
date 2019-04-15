@@ -65,4 +65,3 @@
 # define BOOST_ENDIAN_INTRINSIC_MSG "no byte swap intrinsics"
 #endif  // BOOST_ENDIAN_NO_INTRINSICS
 #endif  // BOOST_ENDIAN_INTRINSIC_HPP
-

@@ -293,4 +293,3 @@ namespace boost { namespace python {
 }} // namespace boost::python
 
 #endif // INDEXING_SUITE_JDG20036_HPP
-

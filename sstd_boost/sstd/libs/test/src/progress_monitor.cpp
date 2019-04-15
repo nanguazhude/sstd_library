@@ -16,4 +16,3 @@
 #include <sstd/boost/test/impl/progress_monitor.ipp>
 
 // EOF
-

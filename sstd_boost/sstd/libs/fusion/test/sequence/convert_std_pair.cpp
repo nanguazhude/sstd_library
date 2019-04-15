@@ -11,5 +11,3 @@
 
 #define FUSION_SEQUENCE std::pair
 #include "convert.hpp"
-
-

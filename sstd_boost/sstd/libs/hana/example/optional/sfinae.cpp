@@ -19,4 +19,3 @@ int main() {
     struct invalid { };
     BOOST_HANA_CONSTANT_CHECK(hana::sfinae(incr)(invalid{}) == hana::nothing);
 }
-

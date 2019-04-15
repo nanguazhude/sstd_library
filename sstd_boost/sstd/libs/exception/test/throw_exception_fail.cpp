@@ -16,4 +16,3 @@ tester()
     //Must not compile, throw_exception requires exception types to derive std::exception.
     boost::throw_exception(my_exception());
     }
-

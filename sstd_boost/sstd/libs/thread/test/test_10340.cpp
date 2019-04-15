@@ -25,5 +25,3 @@ int main()
   const boost::future<foo>& fut = boost::make_ready_future( foo(42) );
   return 0;
 }
-
-

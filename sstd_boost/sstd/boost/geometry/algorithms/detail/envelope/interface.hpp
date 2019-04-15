@@ -222,4 +222,3 @@ inline Box return_envelope(Geometry const& geometry)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_ENVELOPE_INTERFACE_HPP
-

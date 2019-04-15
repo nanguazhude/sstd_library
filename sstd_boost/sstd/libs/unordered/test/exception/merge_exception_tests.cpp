@@ -106,4 +106,3 @@ UNORDERED_MULTI_TEST(map_merge_collisions, merge_exception_test,
 // clang-format on
 
 RUN_TESTS_QUIET()
-

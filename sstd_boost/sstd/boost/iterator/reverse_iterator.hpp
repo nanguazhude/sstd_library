@@ -75,4 +75,3 @@ using iterators::make_reverse_iterator;
 } // namespace boost
 
 #endif // BOOST_REVERSE_ITERATOR_23022003THW_HPP
-

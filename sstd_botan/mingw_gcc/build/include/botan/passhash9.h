@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Passhash9 Password Hashing
 * (C) 2010 Jack Lloyd
 *

@@ -87,4 +87,3 @@ int main() {
         g(hana::type_c<x0>, hana::type_c<x1>, hana::type_c<x2>, hana::type_c<x3>)
     ));
 }
-

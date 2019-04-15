@@ -460,4 +460,3 @@ auto get(const smart_library& sm, const std::string &name) -> typename detail::g
 } /* namespace boost */
 
 #endif /* BOOST_DLL_SMART_LIBRARY_HPP_ */
-

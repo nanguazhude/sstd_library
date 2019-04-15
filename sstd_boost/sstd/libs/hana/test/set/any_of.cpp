@@ -41,4 +41,3 @@ int main() {
         hana::equal.to(ct_eq<3>{})
     )));
 }
-

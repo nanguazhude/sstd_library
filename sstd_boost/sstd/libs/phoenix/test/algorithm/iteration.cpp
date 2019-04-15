@@ -55,4 +55,3 @@ int main()
     accumulate_test();
     boost::report_errors();
 }
-

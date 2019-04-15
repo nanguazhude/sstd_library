@@ -140,4 +140,3 @@ namespace boost
 #endif
 
 #endif // BOOST_ENDIAN_COVER_OPERATORS_HPP
-

@@ -24,4 +24,3 @@
 #endif
 
 #endif // BOOST_MPL_AUX_CONFIG_PP_COUNTER_HPP_INCLUDED
-

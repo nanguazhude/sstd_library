@@ -27,4 +27,3 @@
 /**/
 
 #endif // BOOST_MPL_AUX_TEST_ASSERT_HPP_INCLUDED
-

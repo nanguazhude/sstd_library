@@ -374,4 +374,3 @@ tiernan_circumference(const Graph& g)
 } /* namespace boost */
 
 #endif
-

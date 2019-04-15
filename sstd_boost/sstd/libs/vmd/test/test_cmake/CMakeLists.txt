@@ -14,5 +14,3 @@ add_subdirectory( ../.. ${CMAKE_CURRENT_BINARY_DIR}/libs/boost_vmd )
 
 add_executable( boost_vmd_cmake_self_test main.cpp )
 target_link_libraries( boost_vmd_cmake_self_test Boost::vmd )
-
-

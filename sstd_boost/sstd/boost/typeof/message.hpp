@@ -6,4 +6,3 @@
 #    pragma message(BOOST_TYPEOF_TEXT)
 #endif
 #undef BOOST_TYPEOF_TEXT
-

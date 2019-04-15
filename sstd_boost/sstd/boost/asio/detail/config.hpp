@@ -1452,4 +1452,3 @@
 #endif // !defined(BOOST_ASIO_HAS_CO_AWAIT)
 
 #endif // BOOST_ASIO_DETAIL_CONFIG_HPP
-

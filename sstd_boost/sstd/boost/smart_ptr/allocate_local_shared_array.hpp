@@ -226,4 +226,3 @@ allocate_local_shared_noinit(const A& allocator)
 } /* boost */
 
 #endif
-

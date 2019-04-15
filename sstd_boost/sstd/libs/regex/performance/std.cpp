@@ -71,4 +71,3 @@ std::string std_regex::name()
 }
 
 #endif
-

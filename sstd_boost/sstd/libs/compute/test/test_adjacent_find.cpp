@@ -66,4 +66,3 @@ BOOST_AUTO_TEST_CASE(adjacent_find_fill)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

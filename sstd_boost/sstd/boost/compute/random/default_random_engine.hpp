@@ -22,4 +22,3 @@ typedef mt19937 default_random_engine;
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_RANDOM_DEFAULT_RANDOM_ENGINE_HPP
-

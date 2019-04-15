@@ -81,5 +81,3 @@ BOOST_AUTO_TEST_CASE
 {                             itv_quantifier_check_length_complementarity_4_bicremental_types<bicremental_type_7, double, partial_absorber, interval_map>();}
 
 #endif // BOOST_ICL_FASTEST_PARTIAL_ICL_QUANTIFIER_CASES_HPP_JOFA_100819
-
-

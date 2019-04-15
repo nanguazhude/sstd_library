@@ -49,4 +49,3 @@ BOOST_MPL_AUX_NA_SPEC(1,not_)
 }}
 
 #endif // BOOST_MPL_NOT_HPP_INCLUDED
-

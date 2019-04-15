@@ -78,4 +78,3 @@ struct extract_fixed_sized
 } /* namespace boost */
 
 #endif /* BOOST_LOCKFREE_DETAIL_PARAMETER_HPP */
-

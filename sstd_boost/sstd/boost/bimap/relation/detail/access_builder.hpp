@@ -167,5 +167,3 @@ typename result_of::NAME<Tag,SymmetricType>::type
 
 
 #endif // BOOST_BIMAP_RELATION_ACCESS_BUILDER_HPP
-
-

@@ -52,4 +52,3 @@ namespace boost
 
 
 #endif // BOOST_SIGNALS2_DETAIL_VARIADIC_ARG_TYPE_HPP
-

@@ -120,4 +120,3 @@ using random::variate_generator;
 #include <sstd/boost/random/detail/enable_warnings.hpp>
 
 #endif // BOOST_RANDOM_RANDOM_GENERATOR_HPP
-

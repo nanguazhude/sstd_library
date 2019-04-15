@@ -213,4 +213,3 @@ struct close_reason
 #include <sstd/boost/beast/websocket/impl/rfc6455.ipp>
 
 #endif
-

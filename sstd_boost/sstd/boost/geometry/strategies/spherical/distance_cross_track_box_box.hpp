@@ -472,4 +472,3 @@ struct default_strategy
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_SPHERICAL_DISTANCE_CROSS_TRACK_BOX_BOX_HPP
-

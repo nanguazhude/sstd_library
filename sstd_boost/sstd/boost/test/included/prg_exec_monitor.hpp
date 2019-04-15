@@ -23,4 +23,3 @@
 #include <sstd/boost/test/prg_exec_monitor.hpp>
 
 #endif // BOOST_INCLUDED_PRG_EXEC_MONITOR_HPP_071894GER
-

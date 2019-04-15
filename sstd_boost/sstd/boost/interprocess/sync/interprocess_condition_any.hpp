@@ -135,4 +135,3 @@ class interprocess_condition_any
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif // BOOST_INTERPROCESS_CONDITION_ANY_HPP
-

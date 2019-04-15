@@ -568,5 +568,3 @@ inline typename Dist::value_type
 }}} // namespaces
 
 #endif // BOOST_MATH_DISTRIBUTIONS_DETAIL_INV_DISCRETE_QUANTILE
-
-

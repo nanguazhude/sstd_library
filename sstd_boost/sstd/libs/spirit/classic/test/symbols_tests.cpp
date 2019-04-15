@@ -316,4 +316,3 @@ main()
     free_add_find_functions_tests();
     return boost::report_errors();
 }
-

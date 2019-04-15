@@ -251,4 +251,3 @@ int main(int argc, char *argv[])
 }
 
 #include "resize_image.moc"
-

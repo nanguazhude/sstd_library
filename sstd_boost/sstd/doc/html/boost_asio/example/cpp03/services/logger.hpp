@@ -22,4 +22,3 @@ typedef basic_logger<logger_service> logger;
 } // namespace services
 
 #endif // SERVICES_LOGGER_HPP
-

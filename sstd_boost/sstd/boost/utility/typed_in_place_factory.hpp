@@ -74,5 +74,3 @@ in_place( BOOST_PP_ENUM_BINARY_PARAMS(N, A, const& a) )
 #undef N
 #endif
 #endif
-
-

@@ -173,4 +173,3 @@ inline bool next_permutation(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_NEXT_PERMUTATION_HPP
-

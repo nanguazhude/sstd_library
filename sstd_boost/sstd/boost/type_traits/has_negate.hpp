@@ -23,4 +23,3 @@
 #undef BOOST_TT_FORBIDDEN_IF
 
 #endif
-

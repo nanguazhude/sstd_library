@@ -57,12 +57,3 @@ TT_TEST_BEGIN(remove_all_extents)
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

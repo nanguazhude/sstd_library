@@ -11,4 +11,3 @@ int main()
    double d = psigamma(2.0, 4);
    return d != 0 ? 0 : 1;
 }
-

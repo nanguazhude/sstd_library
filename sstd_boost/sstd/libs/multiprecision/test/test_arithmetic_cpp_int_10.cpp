@@ -26,5 +26,3 @@ int main()
    test<boost::multiprecision::checked_cpp_rational>();
    return boost::report_errors();
 }
-
-

@@ -188,4 +188,3 @@ int main()
    test_do_is_equal();
    return ::boost::report_errors();
 }
-

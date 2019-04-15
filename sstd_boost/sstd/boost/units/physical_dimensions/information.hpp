@@ -42,4 +42,3 @@ typedef information_base_dimension::dimension_type information_dimension;
 } // namespace boost
 
 #endif
-

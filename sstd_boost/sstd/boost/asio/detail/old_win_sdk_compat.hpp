@@ -214,4 +214,3 @@ struct addrinfo_emulation
 #endif // defined(BOOST_ASIO_WINDOWS) || defined(__CYGWIN__)
 
 #endif // BOOST_ASIO_DETAIL_OLD_WIN_SDK_COMPAT_HPP
-

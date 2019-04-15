@@ -13,4 +13,3 @@
 #include <sstd/boost/phoenix/function/adapt_function.hpp>
 
 #endif
-

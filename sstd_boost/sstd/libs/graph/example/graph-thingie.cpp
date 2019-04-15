@@ -104,4 +104,3 @@ const char* dot =
 
   return 0;
 }
-

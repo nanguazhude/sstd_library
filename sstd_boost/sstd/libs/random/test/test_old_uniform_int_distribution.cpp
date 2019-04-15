@@ -76,4 +76,3 @@ BOOST_AUTO_TEST_CASE(test_random_shuffle)
         referenceVec.begin(), referenceVec.end());
 #endif
 }
-

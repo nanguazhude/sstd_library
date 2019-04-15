@@ -39,4 +39,3 @@ std::basic_ostream<CharType, CharTraits> &operator<<
 } // namespace boost
 
 #endif // BOOST_NUMERIC_INTERVAL_IO_HPP
-

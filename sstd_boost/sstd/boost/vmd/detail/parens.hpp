@@ -52,4 +52,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_PARENS_HPP */
-

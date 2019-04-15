@@ -37,4 +37,3 @@ int main() {
     using T3 = decltype(+cref)::type;
     using T4 = decltype(+rref)::type;
 }
-

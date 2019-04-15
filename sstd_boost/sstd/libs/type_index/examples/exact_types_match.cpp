@@ -72,4 +72,3 @@ int main() {
 }
 
 //] [/type_index_exact_type_match_example]
-

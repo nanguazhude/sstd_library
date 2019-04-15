@@ -115,4 +115,3 @@ struct less_seg_fraction_other_op
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_TURNS_COMPARE_TURNS_HPP
-

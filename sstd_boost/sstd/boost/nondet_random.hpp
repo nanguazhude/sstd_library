@@ -20,4 +20,3 @@
 #include <sstd/boost/random/random_device.hpp>
 
 #endif /* BOOST_NONDET_RANDOM_HPP */
-

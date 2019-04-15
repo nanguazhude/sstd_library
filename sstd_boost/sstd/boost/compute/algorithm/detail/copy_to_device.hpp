@@ -191,4 +191,3 @@ inline svm_ptr<T> copy_to_device_map(HostIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_COPY_TO_DEVICE_HPP
-

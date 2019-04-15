@@ -1,4 +1,4 @@
-/*
+﻿/*
 * EntropySource
 * (C) 2008,2009,2014,2015,2016 Jack Lloyd
 *

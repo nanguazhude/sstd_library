@@ -127,4 +127,3 @@ int main() {
 
     BOOST_HANA_RUNTIME_CHECK(actual == expected);
 }
-

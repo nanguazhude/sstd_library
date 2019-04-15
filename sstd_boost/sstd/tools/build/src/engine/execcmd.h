@@ -112,4 +112,3 @@ int check_cmd_for_too_long_lines( char const * command, int const max,
     int * const error_length, int * const error_max_length );
 
 #endif
-

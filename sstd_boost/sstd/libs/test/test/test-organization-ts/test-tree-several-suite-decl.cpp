@@ -10,4 +10,3 @@
 
 #include "test-tree-several-suite-decl-1.hpp"
 #include "test-tree-several-suite-decl-2.hpp"
-

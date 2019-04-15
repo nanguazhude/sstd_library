@@ -186,4 +186,3 @@ BOOST_FORCEINLINE BOOL_ CryptReleaseContext(HCRYPTPROV_ hProv, DWORD_ dwFlags)
 }
 
 #endif // BOOST_WINAPI_CRYPT_HPP_INCLUDED_
-

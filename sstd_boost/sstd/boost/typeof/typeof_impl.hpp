@@ -184,4 +184,3 @@ typedef BOOST_PP_CAT(_typeof_template_,name)<int> name;
 #endif
 
 #endif//BOOST_TYPEOF_COMPLIANT_TYPEOF_IMPL_HPP_INCLUDED
-

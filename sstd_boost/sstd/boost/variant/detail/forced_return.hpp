@@ -62,4 +62,3 @@ forced_return()
 #endif
 
 #endif // BOOST_VARIANT_DETAIL_FORCED_RETURN_HPP
-

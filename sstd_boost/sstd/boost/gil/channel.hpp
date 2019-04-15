@@ -660,4 +660,3 @@ struct base_channel_type : base_channel_type_impl<typename remove_cv<T>::type > 
 }} //namespace boost::gil
 
 #endif
-

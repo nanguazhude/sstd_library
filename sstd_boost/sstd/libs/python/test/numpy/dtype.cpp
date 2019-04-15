@@ -47,4 +47,3 @@ BOOST_PYTHON_MODULE(dtype_ext)
       p::def("accept_clongdouble", accept< std::complex<long double> >);
   }
 }
-

@@ -30,4 +30,3 @@ namespace quickbook
 }
 
 #endif // BOOST_SPIRIT_MARKUPS_HPP
-

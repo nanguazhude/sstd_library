@@ -68,4 +68,3 @@ typedef filtering_wstreambuf<output>  filtering_wostreambuf;
 } } // End namespaces iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_FILTERING_STREAMBUF_HPP_INCLUDED
-

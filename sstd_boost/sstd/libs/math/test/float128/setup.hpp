@@ -26,5 +26,3 @@ BOOST_STATIC_ASSERT_MSG(std::numeric_limits<boost::floatmax_t>::digits == 113, "
 #endif
 
 #endif
-
-

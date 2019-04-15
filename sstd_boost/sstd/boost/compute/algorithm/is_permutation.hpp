@@ -71,4 +71,3 @@ inline bool is_permutation(InputIterator1 first1,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_IS_PERMUTATION_HPP
-

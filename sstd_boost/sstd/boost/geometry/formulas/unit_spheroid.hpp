@@ -41,4 +41,3 @@ inline ResultSpheroid unit_spheroid(Spheroid const& spheroid)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_FORMULAS_UNIT_SPHEROID_HPP
-

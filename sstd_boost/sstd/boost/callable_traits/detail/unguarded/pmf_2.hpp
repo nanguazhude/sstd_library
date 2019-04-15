@@ -72,4 +72,3 @@ struct set_member_function_qualifiers_t<
 #undef BOOST_CLBL_TRTS_IS_TRANSACTION_SAFE
 
 #endif
-

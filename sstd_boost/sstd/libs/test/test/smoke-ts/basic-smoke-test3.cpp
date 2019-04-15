@@ -21,4 +21,3 @@ BOOST_AUTO_TEST_CASE(case2)
 {
   BOOST_TEST(true);
 }
-

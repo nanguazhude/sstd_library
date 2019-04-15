@@ -16,4 +16,3 @@
 #include <sstd/boost/spirit/home/qi/directive/no_case.hpp>
 
 #endif
-

@@ -27,4 +27,3 @@ constexpr bool is_detected_convertible_v = is_detected_convertible<To, Op,
 } /* boost */
 
 #endif
-

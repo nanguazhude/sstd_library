@@ -28,5 +28,3 @@ int main(void) {
     BOOST_TEST(inc1() == 3);
     return boost::report_errors();
 }
-
-

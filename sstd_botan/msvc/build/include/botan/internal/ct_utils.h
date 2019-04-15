@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Functions for constant time operations on data and testing of
 * constant time annotations using valgrind.
 *

@@ -316,5 +316,3 @@ int main() {
     // An alternate would be to create a :repeater" matrix and vector expression that can be used in other places as well. The latter is probably better,
     return 0;
 }
-
-

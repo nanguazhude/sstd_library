@@ -55,4 +55,3 @@ BOOST_HANA_CONSTANT_CHECK(!hana::int_c<0>);
 BOOST_HANA_CONSTANT_CHECK(!!hana::int_c<3>);
 
 int main() { }
-

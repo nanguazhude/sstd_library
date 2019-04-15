@@ -11,4 +11,3 @@ FileName=test.log
 AutoFlush=true
 Format="[%TimeStamp%] [%Severity%]\n%MyScopes%\n\t:: %Message%"
 Asynchronous=false
-

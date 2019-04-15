@@ -257,4 +257,3 @@ constexpr T round_out(const T & t){
 } // boost
 
 #endif  // BOOST_NUMERIC_UTILITY_HPP
-

@@ -165,4 +165,3 @@ template<class T> inline T * get_pointer(scoped_ptr<T> const & p) BOOST_SP_NOEXC
 #endif
 
 #endif // #ifndef BOOST_SMART_PTR_SCOPED_PTR_HPP_INCLUDED
-

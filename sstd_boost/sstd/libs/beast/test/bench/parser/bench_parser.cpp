@@ -291,5 +291,3 @@ BEAST_DEFINE_TESTSUITE(beast,benchmarks,parser);
 } // http
 } // beast
 } // boost
-
-

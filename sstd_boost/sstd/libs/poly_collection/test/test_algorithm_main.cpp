@@ -14,4 +14,3 @@ int main()
   test_algorithm();
   return boost::report_errors();
 }
-

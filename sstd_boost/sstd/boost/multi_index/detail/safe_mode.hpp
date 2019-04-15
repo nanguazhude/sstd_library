@@ -586,4 +586,3 @@ struct version<
 #endif /* BOOST_MULTI_INDEX_ENABLE_SAFE_MODE */
 
 #endif
-

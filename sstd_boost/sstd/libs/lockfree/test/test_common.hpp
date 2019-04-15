@@ -133,4 +133,3 @@ struct queue_stress_tester
 }
 
 using impl::queue_stress_tester;
-

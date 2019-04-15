@@ -30,4 +30,3 @@ void test()
     T2 t2(Duration2(3000));
     t1 == t2;
 }
-

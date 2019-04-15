@@ -90,5 +90,3 @@ struct member_invoker<N, M, R, T, Args>
 
 #undef BOOST_PARAMETER_PY_ARG_TYPES
 #undef N
-
-

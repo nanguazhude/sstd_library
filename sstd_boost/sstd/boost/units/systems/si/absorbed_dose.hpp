@@ -32,4 +32,3 @@ BOOST_UNITS_STATIC_CONSTANT(grays,absorbed_dose);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_ABSORBED_DOSE_HPP
-

@@ -69,4 +69,3 @@ invoke(const Function& function, command_queue& queue, const Args&... args);
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_UTILITY_INVOKE_HPP
-

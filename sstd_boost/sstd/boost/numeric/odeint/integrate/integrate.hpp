@@ -131,4 +131,3 @@ size_t integrate( System system , State &start_state , Time start_time , Time en
 
 
 #endif // BOOST_NUMERIC_ODEINT_INTEGRATE_INTEGRATE_HPP_INCLUDED
-

@@ -208,4 +208,3 @@ if(${BOOST_COMPUTE_HAVE_BOLT} AND ${BOOST_COMPUTE_USE_CPP11})
 elseif(${BOOST_COMPUTE_HAVE_BOLT} AND NOT ${BOOST_COMPUTE_USE_CPP11})
   message(WARNING "BOOST_COMPUTE_USE_CPP11 must be ON for building Bolt C++ Template Library performance tests.")
 endif()
-

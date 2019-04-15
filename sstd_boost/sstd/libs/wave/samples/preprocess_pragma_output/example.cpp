@@ -22,4 +22,3 @@
 
 A()   // this should produce: "some text" and more
 B()   // and this expands to 1.0
-

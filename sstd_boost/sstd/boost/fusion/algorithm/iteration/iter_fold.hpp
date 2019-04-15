@@ -58,4 +58,3 @@
 #undef BOOST_FUSION_ITER_FOLD
 
 #endif
-

@@ -73,4 +73,3 @@ void run_merge_tests(void)
 
     pri_queue_test_heap_merge<pri_queue, pri_queue>::run();
 }
-

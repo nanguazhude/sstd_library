@@ -99,4 +99,3 @@ typedef boost::gil::tiff_tag tag_t;
 
 
 #endif // BOOST_GIL_TIFF_TILED_READ_MACROS_HPP
-

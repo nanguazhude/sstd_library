@@ -27,4 +27,3 @@ int main()
 {
   (void)(boost::phoenix::arg_names::arg1 < foo());
 }
-

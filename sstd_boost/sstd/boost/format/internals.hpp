@@ -201,4 +201,3 @@ namespace detail {
 
 
 #endif // BOOST_FORMAT_INTERNALS_HPP
-

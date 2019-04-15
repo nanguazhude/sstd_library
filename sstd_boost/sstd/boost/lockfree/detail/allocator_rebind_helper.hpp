@@ -30,4 +30,3 @@ struct allocator_rebind_helper
 } /* namespace boost */
 
 #endif /* BOOST_LOCKFREE_ALLOCATOR_REBIND_HELPER_HPP_INCLUDED */
-

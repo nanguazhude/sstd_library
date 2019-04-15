@@ -48,4 +48,3 @@ BEGIN 1 + (4+5+6) BOOST_PP_REPEAT_FROM_TO(4, 7, F1, -) END
 # define MACRO(r, state) BOOST_PP_COMMA_IF(BOOST_PP_NOT_EQUAL(state, 1)) BOOST_PP_CAT(class T, state)
 
 template<BOOST_PP_FOR(1, PRED, OP, MACRO)> struct for_test;
-

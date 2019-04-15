@@ -33,4 +33,3 @@ struct apply_1st
 }}}
 
 #endif // BOOST_MPL_AUX_APPLY_1ST_HPP_INCLUDED
-

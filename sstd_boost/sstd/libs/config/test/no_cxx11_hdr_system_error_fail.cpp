@@ -34,5 +34,3 @@ int main( int, char *[] )
 {
    return boost_no_cxx11_hdr_system_error::test();
 }
-
-

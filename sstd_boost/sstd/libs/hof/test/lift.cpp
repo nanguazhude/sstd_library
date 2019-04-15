@@ -56,4 +56,3 @@ BOOST_HOF_TEST_CASE()
     BOOST_HOF_TEST_CHECK(psum(1, 2) == 3);
 }
 #endif
-

@@ -181,4 +181,3 @@ struct vector40_c
 };
 
 }}
-

@@ -77,9 +77,3 @@ inline typename tools::promote_args<T1, T2>::type
 #endif
 
 #endif // BOOST_MATH_POWM1
-
-
-
-
-
-

@@ -182,4 +182,3 @@ struct envelope<Box, box_tag, geographic_tag>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_ENVELOPE_BOX_HPP
-

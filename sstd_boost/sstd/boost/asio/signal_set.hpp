@@ -447,4 +447,3 @@ public:
 } // namespace boost
 
 #endif // BOOST_ASIO_SIGNAL_SET_HPP
-

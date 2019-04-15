@@ -42,4 +42,3 @@ int main(int argc, char *argv[]){
     test<std::int64_t, std::int64_t>(); // should fail to compile
     return 0;
 }
-

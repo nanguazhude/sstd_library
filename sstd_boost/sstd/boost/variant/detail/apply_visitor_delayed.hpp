@@ -149,4 +149,3 @@ inline  typename boost::disable_if<
 } // namespace boost
 
 #endif // BOOST_VARIANT_DETAIL_APPLY_VISITOR_DELAYED_HPP
-

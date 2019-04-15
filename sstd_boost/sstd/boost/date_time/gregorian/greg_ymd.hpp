@@ -30,5 +30,3 @@ namespace gregorian {
 
 
 #endif
-
-

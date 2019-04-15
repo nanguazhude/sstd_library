@@ -132,4 +132,3 @@ search(const ForwardRange1& rng1, const ForwardRange2& rng2, BinaryPredicate pre
 } // namespace boost
 
 #endif // include guard
-

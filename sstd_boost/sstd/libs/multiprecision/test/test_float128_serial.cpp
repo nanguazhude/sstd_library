@@ -21,7 +21,3 @@ int main()
    test<float128>();
    return boost::report_errors();
 }
-
-
-
-

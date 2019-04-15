@@ -67,4 +67,3 @@ int main()
   test_overloads<mpc_complex_100>();
   test_functional<mpc_complex_100>();
 }
-

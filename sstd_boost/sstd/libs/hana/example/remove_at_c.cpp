@@ -13,4 +13,3 @@ constexpr auto xs = hana::make_tuple(0, '1', 2.2, 3u);
 static_assert(hana::remove_at_c<2>(xs) == hana::make_tuple(0, '1', 3u), "");
 
 int main() { }
-

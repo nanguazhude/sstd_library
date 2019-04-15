@@ -37,4 +37,3 @@ struct on_exit_ : boost::process::detail::windows::async_handler
 
 }}}}
 #endif /* INCLUDE_BOOST_PROCESS_WINDOWS_ON_EXIT_HPP_ */
-

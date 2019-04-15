@@ -59,4 +59,3 @@ main()
 }
 
 #endif // defined(DONT_HAVE_BOOST)
-

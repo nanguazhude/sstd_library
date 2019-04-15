@@ -806,5 +806,3 @@ boost::math::ef::e_float bessel_i1(boost::math::ef::e_float x)
 
 }}
 #endif // BOOST_MATH_E_FLOAT_BINDINGS_HPP
-
-

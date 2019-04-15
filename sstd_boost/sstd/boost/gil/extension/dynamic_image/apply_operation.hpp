@@ -51,4 +51,3 @@ typename BinaryOp::result_type apply_operation(const variant<Types1>& arg1, cons
 #endif // defined(BOOST_GIL_REDUCE_CODE_BLOAT)
 
 #endif
-

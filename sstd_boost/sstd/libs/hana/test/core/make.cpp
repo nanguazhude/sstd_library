@@ -14,4 +14,3 @@ struct udt {
 static_assert(hana::make<udt>(1).value == 1, "");
 
 int main() { }
-

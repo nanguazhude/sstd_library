@@ -43,4 +43,3 @@ template void A::serialize<boost::archive::text_oarchive>(
     boost::archive::text_oarchive & ar,
     const unsigned int file_version
 );
-

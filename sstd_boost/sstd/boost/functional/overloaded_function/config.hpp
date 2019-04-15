@@ -47,5 +47,3 @@ order to define an overload).
 #endif
 
 #endif // #include guard
-
-

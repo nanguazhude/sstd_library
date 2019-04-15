@@ -18,4 +18,3 @@
     if (!device.platform().check_version(major, minor)) return
 
 #endif
-

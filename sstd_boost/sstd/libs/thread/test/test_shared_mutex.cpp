@@ -279,4 +279,3 @@ BOOST_AUTO_TEST_CASE(test_unlocking_last_reader_only_unblocks_one_writer)
     CHECK_LOCKED_VALUE_EQUAL(unblocked_count_mutex,max_simultaneous_readers,reader_count);
     CHECK_LOCKED_VALUE_EQUAL(unblocked_count_mutex,max_simultaneous_writers,1u);
 }
-

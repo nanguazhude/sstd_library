@@ -23,4 +23,3 @@ struct algebra_dispatcher<nt2::container::table<T,S> >
 } } }
 
 #endif
-

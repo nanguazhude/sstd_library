@@ -61,5 +61,3 @@ int main()
    instantiate((long double)(0));
 #endif
 }
-
-

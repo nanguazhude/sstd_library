@@ -26,12 +26,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::rank<int (&&)[5][10]>::value, 0);
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

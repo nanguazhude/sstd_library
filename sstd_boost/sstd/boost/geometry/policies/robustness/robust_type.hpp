@@ -65,4 +65,3 @@ struct robust_type
 
 
 #endif // BOOST_GEOMETRY_POLICIES_ROBUSTNESS_ROBUST_TYPE_HPP
-

@@ -47,4 +47,3 @@ void basic_tests()
    time_proc("Non-central T - arithmetic_backend<double> - no expression templates", test_nct<number<arithmetic_backend<double>, et_off> >);
 #endif
 }
-

@@ -329,4 +329,3 @@ class set_view_base
 } // namespace boost
 
 #endif // BOOST_BIMAP_DETAIL_SET_VIEW_BASE_HPP
-

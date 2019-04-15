@@ -109,5 +109,3 @@ basic_serializer_map::find(
 } // namespace detail
 } // namespace archive
 } // namespace boost
-
-

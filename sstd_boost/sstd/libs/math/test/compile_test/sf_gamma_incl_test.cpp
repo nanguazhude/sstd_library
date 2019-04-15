@@ -81,4 +81,3 @@ void compile_and_link_test()
    check_result<long double>(boost::math::tgamma_delta_ratio<long double>(l, l));
 #endif
 }
-

@@ -79,6 +79,3 @@ foo( p.release() );
 // don't generate destructor
 
 Does raw_storage iterator have an impact on in-place consrtcution
-
-
-

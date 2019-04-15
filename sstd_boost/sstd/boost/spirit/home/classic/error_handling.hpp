@@ -19,4 +19,3 @@
 #include <sstd/boost/spirit/home/classic/error_handling/exceptions.hpp>
 
 #endif // !defined(BOOST_SPIRIT_ERROR_HANDLING_MAIN_HPP)
-

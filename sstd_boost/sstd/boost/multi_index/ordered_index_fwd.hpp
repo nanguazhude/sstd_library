@@ -33,4 +33,3 @@ struct ordered_non_unique;
 } /* namespace boost */
 
 #endif
-

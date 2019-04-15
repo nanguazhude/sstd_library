@@ -37,4 +37,3 @@ inline T diff_abs(T const& v1, T const& v2)
 }}}} // namespace boost::geometry::index::detail
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_ALGORITHMS_DIFF_ABS_HPP
-

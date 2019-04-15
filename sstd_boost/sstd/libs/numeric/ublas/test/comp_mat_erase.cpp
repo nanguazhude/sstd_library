@@ -104,4 +104,3 @@ BOOST_AUTO_TEST_CASE( compressed_matrix_erase_in_the_middle )
     BOOST_CHECK_EQUAL( A.index1_data()[1], (std::size_t) 0 );
 
 }
-

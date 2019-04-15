@@ -157,4 +157,3 @@ namespace detail {
 #include <sstd/boost/stacktrace/detail/pop_options.h>
 
 #endif // BOOST_STACKTRACE_DETAIL_FRAME_DECL_HPP
-

@@ -593,4 +593,3 @@ namespace boost {
 #endif // BOOST_GRAPH_USE_MPI
 
 #endif // BOOST_GRAPH_RMAT_GENERATOR_HPP
-

@@ -67,4 +67,3 @@ MSVC_DBG_EXPORT char** backtrace_symbols(void*const addresses[], int count);
 #endif
 
 #endif/*_MSVC_DBG_H*/
-

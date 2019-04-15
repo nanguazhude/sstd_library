@@ -57,4 +57,3 @@ int main() {
         BOOST_HANA_CONSTANT_CHECK(hana::equal(string, hana::string_c<'a', 'b', 'c', 'd'>));
     }
 }
-

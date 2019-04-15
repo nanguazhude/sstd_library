@@ -72,4 +72,3 @@ inline const BidirectionalRange& inplace_merge(const BidirectionalRange& rng,
 } // namespace boost
 
 #endif // include guard
-

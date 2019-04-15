@@ -9,4 +9,3 @@
 #define ZI_TUPLE_GET(n) boost::fusion::at_c<n>
 
 #include "detail/zip_iterator_test_original.ipp"
-

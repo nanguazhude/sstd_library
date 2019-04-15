@@ -35,4 +35,3 @@ constexpr T&& forward(typename std::remove_reference<T>::type&& t) noexcept
 }} // namespace boost::hof
 
 #endif
-

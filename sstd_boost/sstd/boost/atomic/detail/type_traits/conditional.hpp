@@ -40,4 +40,3 @@ using boost::conditional;
 } // namespace boost
 
 #endif // BOOST_ATOMIC_DETAIL_TYPE_TRAITS_CONDITIONAL_HPP_INCLUDED_
-

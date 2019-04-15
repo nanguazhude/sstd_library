@@ -28,4 +28,3 @@ int main() {
 
     hana::test::TestSearchable<hana::ext::boost::mpl::list_tag>{lists, keys};
 }
-

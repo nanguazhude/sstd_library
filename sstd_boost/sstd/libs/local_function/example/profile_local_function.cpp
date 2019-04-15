@@ -42,5 +42,3 @@ int main(int argc, char* argv[]) {
     profile::display(size, trials, sum, trials_sec.count(), decl_sec.count());
     return 0;
 }
-
-

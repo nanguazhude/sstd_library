@@ -46,4 +46,3 @@ struct static_iau2000
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_SRS_PROJECTIONS_IAU2000_PARAMS_HPP
-

@@ -317,4 +317,3 @@ maximum_adjacency_search(const Graph& g, WeightMap weights, MASVisitor vis, cons
 #include <sstd/boost/graph/iteration_macros_undef.hpp>
 
 #endif // BOOST_GRAPH_MAXIMUM_ADJACENCY_SEARCH_H
-

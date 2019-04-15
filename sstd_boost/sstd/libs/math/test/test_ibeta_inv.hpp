@@ -271,5 +271,3 @@ void test_spots(T)
          static_cast<T>(0.125)),
       static_cast<T>(0.99999994039535522460937500000000000000000000000L), tolerance);
 }
-
-

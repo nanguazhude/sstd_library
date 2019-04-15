@@ -141,5 +141,3 @@ TT_TEST_BEGIN(remove_cv_ref)
 #endif
 
 TT_TEST_END
-
-

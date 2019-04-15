@@ -762,4 +762,3 @@ void instance_holder::deallocate(PyObject* self_, void* storage) throw()
 }
 
 }} // namespace boost::python
-

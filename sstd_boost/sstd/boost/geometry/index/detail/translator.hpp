@@ -58,4 +58,3 @@ struct indexable_type
 }}} // namespace boost::geometry::index
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_TRANSLATOR_HPP
-

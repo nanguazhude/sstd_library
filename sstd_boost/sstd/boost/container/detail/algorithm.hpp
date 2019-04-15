@@ -155,4 +155,3 @@ ForwardIt1 search(ForwardIt1 first1, ForwardIt1 last1,
 }  //namespace boost {
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_ALGORITHM_HPP
-

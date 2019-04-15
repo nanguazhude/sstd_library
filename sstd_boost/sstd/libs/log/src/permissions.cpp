@@ -92,4 +92,3 @@ BOOST_LOG_CLOSE_NAMESPACE // namespace log
 #endif // defined(BOOST_WINDOWS)
 
 #include <sstd/boost/log/detail/footer.hpp>
-

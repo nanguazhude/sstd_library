@@ -148,4 +148,3 @@ private:
 } /* namespace boost */
 
 #endif /* BOOST_HEAP_DETAIL_ORDERED_ADAPTOR_ITERATOR_HPP */
-

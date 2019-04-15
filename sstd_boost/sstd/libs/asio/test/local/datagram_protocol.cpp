@@ -234,4 +234,3 @@ BOOST_ASIO_TEST_SUITE
   "local/datagram_protocol",
   BOOST_ASIO_TEST_CASE(local_datagram_protocol_socket_compile::test)
 )
-

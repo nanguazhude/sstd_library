@@ -88,4 +88,3 @@ template <class InputIterator1, class InputIterator2>
 }  //namespace boost {
 
 #endif   //#ifndef BOOST_INTRUSIVE_DETAIL_ALGORITHM_HPP
-

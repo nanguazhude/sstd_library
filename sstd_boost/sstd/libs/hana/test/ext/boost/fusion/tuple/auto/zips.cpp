@@ -6,4 +6,3 @@
 #include <auto/zips.hpp>
 
 int main() { }
-

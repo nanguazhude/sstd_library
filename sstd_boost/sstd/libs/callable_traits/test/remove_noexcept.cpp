@@ -33,5 +33,3 @@ int main() {
     TEST_NOEXCEPT(int(foo::*)(int, ...));
     TEST_NOEXCEPT(int(foo::*)(int, ...) volatile);
 }
-
-

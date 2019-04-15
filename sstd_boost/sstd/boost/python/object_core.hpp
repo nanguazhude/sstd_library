@@ -478,4 +478,3 @@ inline PyObject* get_managed_object(object const& x, tag_t)
 # include <sstd/boost/python/slice_nil.hpp>
 
 #endif // OBJECT_CORE_DWA2002615_HPP
-

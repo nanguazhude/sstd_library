@@ -160,4 +160,3 @@ __declspec(selectany) use_future_t<> use_future;
        //   || defined(GENERATING_DOCUMENTATION)
 
 #endif // BOOST_ASIO_USE_FUTURE_HPP
-

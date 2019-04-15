@@ -37,4 +37,3 @@ main()
   boost::print_graph(g, name);
   return 0;
 }
-

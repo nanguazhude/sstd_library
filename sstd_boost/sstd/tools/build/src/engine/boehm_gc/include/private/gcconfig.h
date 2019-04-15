@@ -2348,4 +2348,3 @@
 #endif /* GC_PRIVATE_H */
 
 # endif /* GCCONFIG_H */
-

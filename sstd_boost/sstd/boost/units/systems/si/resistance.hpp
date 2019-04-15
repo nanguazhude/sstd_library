@@ -32,4 +32,3 @@ BOOST_UNITS_STATIC_CONSTANT(ohms,resistance);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_RESISTANCE_HPP
-

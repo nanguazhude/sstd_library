@@ -114,4 +114,3 @@ stringtok (Container &l, std::string const &s, char const * const ws = " \t\n")
 } // namespace boost
 
 #endif // BOOST_STRINGTOK_HPP
-

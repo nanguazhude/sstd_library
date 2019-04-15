@@ -245,4 +245,3 @@ Value* vartempl_placement_new(Value*x,Args&&... args)
 
 #endif
 #endif
-

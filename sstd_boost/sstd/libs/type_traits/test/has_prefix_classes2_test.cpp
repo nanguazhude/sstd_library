@@ -110,4 +110,3 @@ TT_TEST_BEGIN(BOOST_TT_TRAIT_NAME)
    BOOST_CHECK_INTEGRAL_CONSTANT((::boost::has_pre_increment< C042 const &, ret & >::value), 0);
    BOOST_CHECK_INTEGRAL_CONSTANT((::boost::has_pre_increment< C042 const &, ret const & >::value), 0);
 TT_TEST_END
-

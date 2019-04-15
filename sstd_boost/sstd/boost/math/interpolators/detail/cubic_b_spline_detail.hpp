@@ -285,4 +285,3 @@ Real cubic_b_spline_imp<Real>::prime(Real x) const
 
 }}}
 #endif
-

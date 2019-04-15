@@ -120,4 +120,3 @@ namespace boost {
 } // namespace boost
 
 #endif  // BOOST_STRING_FIND_DETAIL_HPP
-

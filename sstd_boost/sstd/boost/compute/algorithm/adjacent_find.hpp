@@ -167,4 +167,3 @@ adjacent_find(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_ADJACENT_FIND_HPP
-

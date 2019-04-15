@@ -30,4 +30,3 @@ template< BOOST_MPL_AUX_NTTP_DECL(long, N) > struct vector_tag;
 }}}
 
 #endif // BOOST_MPL_VECTOR_AUX_TAG_HPP_INCLUDED
-

@@ -35,4 +35,3 @@
 #define BOOST_RANDOM_TEST2_MIN 50
 
 #include "test_distribution.ipp"
-

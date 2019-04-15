@@ -985,5 +985,3 @@ void PBGL_DISTRIB_ADJLIST_TYPE::save(std::string const& filename) const
 } // namespace boost
 
 #endif // BOOST_GRAPH_DISTRIBUTED_ADJLIST_SERIALIZATION_070925_HPP
-
-

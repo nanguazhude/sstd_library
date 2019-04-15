@@ -47,4 +47,3 @@ struct algebra_dispatcher_sfinae< Derived ,
 
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_EIGEN_EIGEN_ALGEBRA_DISPATCHER_HPP_INCLUDED
-

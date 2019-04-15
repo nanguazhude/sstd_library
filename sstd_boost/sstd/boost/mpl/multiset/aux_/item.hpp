@@ -112,4 +112,3 @@ struct ms_item
 }}
 
 #endif // BOOST_MPL_MULTISET_AUX_ITEM_HPP_INCLUDED
-

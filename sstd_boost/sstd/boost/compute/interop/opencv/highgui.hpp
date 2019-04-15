@@ -31,4 +31,3 @@ inline void opencv_imshow(const std::string &winname,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_INTEROP_OPENCV_HIGHGUI_HPP
-

@@ -2472,4 +2472,3 @@ inline unsigned long get_tick_count()
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif //#ifdef BOOST_INTERPROCESS_WIN32_API_HPP
-

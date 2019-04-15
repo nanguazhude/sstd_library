@@ -34,4 +34,3 @@ struct base_unit_info<metric::nautical_mile_base_unit> {
 }
 
 #endif // BOOST_UNIT_SYSTEMS_METRIC_NAUTICAL_MILE_HPP_INCLUDED
-

@@ -22,4 +22,3 @@ BOOST_AUTO_TEST_CASE( test )
   BOOST_TEST( output.match_pattern() ); /*< This line generates the error Line:YYY != Line:XXX >*/
 }
 //]
-

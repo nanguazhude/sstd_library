@@ -79,4 +79,3 @@ struct default_constructible_unary_fn_gen
 } // namespace boost
 
 #endif // include guard
-

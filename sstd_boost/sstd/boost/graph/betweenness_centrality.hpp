@@ -614,4 +614,3 @@ central_point_dominance(const Graph& g, CentralityMap centrality
 } // end namespace boost
 
 #endif // BOOST_GRAPH_BRANDES_BETWEENNESS_CENTRALITY_HPP
-

@@ -87,4 +87,3 @@ namespace boost {
 } // namespace boost
 
 #endif  // BOOST_STRING_FIND_FORMAT_STORE_DETAIL_HPP
-

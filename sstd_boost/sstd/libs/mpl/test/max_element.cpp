@@ -24,4 +24,3 @@ MPL_TEST_CASE()
 
     MPL_ASSERT_RELATION( max_value::value, ==, 8 );
 }
-

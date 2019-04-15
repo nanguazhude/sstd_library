@@ -59,4 +59,3 @@ constexpr ::boost::process::detail::windows::create_no_window_ create_no_window;
 }}}
 
 #endif /* BOOST_PROCESS_WINDOWS_HPP_ */
-

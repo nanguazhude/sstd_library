@@ -17,4 +17,3 @@ add_executable (http-server-sync
 )
 
 set_property(TARGET http-server-sync PROPERTY FOLDER "example-http-server")
-

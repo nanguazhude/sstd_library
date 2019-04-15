@@ -127,4 +127,3 @@ void connect_graph(Graph& g, VertexSet const& verts, boost::mpl::true_) {
 //@}
 
 #endif
-

@@ -119,4 +119,3 @@ inline std::pair<RealType, int> generate_int_float_pair(Engine& eng)
 } // namespace boost
 
 #endif // BOOST_RANDOM_DETAIL_INT_FLOAT_PAIR_HPP
-

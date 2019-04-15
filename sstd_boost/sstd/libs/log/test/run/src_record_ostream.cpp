@@ -447,4 +447,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(operator_return_type, CharT, char_types)
 
     BOOST_CHECK(equal_strings(rec_message, strm_correct.str()));
 }
-

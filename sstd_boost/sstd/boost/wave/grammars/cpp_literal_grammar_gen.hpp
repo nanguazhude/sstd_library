@@ -75,4 +75,3 @@ struct BOOST_WAVE_DECL chlit_grammar_gen {
 #endif
 
 #endif // !defined(CPP_LITERAL_GRAMMAR_GEN_HPP_67794A6C_468A_4AAB_A757_DEDDB182F5A0_INCLUDED)
-

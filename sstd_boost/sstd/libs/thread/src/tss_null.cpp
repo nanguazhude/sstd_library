@@ -36,4 +36,3 @@ namespace boost
 }
 
 #endif //defined(BOOST_THREAD_WIN32) && defined(BOOST_THREAD_BUILD_LIB) && !defined(_MSC_VER)
-

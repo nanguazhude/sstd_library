@@ -895,5 +895,3 @@ inline mpfr::mpreal bessel_i1(mpfr::mpreal x)
 }
 
 #endif // BOOST_MATH_MPLFR_BINDINGS_HPP
-
-

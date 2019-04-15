@@ -89,5 +89,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE
 {         interval_map_element_iter_4_discrete_types<T, int, partial_absorber, INTERVAL_MAP>();}
 
 #endif // BOOST_ICL_TEST_INTERVAL_MAP_CASES_HPP_JOFA_090701
-
-

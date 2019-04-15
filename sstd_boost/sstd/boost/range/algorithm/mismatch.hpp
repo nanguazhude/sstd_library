@@ -193,4 +193,3 @@ mismatch(const SinglePassRange1& rng1, SinglePassRange2& rng2, BinaryPredicate p
 } // namespace boost
 
 #endif // include guard
-

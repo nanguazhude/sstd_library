@@ -55,5 +55,3 @@
     )(tokens, removing_postfix)
 
 #endif // #include guard
-
-

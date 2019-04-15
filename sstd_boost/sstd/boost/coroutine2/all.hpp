@@ -14,4 +14,3 @@
 #include <sstd/boost/coroutine2/segmented_stack.hpp>
 
 #endif // BOOST_COROUTINES2_ALL_H
-

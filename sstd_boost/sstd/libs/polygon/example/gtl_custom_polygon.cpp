@@ -144,4 +144,3 @@ int main() {
   test_polygon<CPolygon>(); //woot!
   return 0;
 }
-

@@ -104,5 +104,3 @@ int main()
     operator_arrow_test();
     return 0;
 }
-
-

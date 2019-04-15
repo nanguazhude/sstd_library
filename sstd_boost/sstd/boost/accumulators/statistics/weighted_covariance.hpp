@@ -131,4 +131,3 @@ using extract::weighted_covariance;
 }} // namespace boost::accumulators
 
 #endif
-

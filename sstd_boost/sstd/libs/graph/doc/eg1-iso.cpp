@@ -104,4 +104,3 @@ int test_main(int, char* [])
   test_isomorphism();
   return boost::report_errors();
 }
-

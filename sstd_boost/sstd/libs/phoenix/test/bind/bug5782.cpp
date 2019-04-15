@@ -21,4 +21,3 @@ int main()
 {
     bind(&foo, arg1)(4);
 }
-

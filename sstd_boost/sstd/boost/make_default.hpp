@@ -38,4 +38,3 @@ namespace boost
 }
 
 #endif // BOOST_MAKE_DEFAULT_HPP
-

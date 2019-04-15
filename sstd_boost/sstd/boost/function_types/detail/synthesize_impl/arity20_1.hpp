@@ -524,5 +524,3 @@ typename mpl::deref< iter_1 > ::type > ::type
 };
 # undef BOOST_FT_make_type
 # undef BOOST_FT_make_type_impl
-
-

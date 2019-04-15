@@ -10,4 +10,3 @@ int main()
 {
     boost::yap::make_terminal(boost::yap::make_terminal(1));
 }
-

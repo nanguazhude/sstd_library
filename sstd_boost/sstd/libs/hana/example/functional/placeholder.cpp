@@ -19,4 +19,3 @@ static_assert(twice(1) == 2, "");
 static_assert(twice(1, "ignored") == 2, "");
 
 int main() { }
-

@@ -10,5 +10,3 @@
     #error "build must define BOOST_NO_CXX11_VARIADIC_TEMPLATES"
 #endif
 #include "max_args.hpp"
-
-

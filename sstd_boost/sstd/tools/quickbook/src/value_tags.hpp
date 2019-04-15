@@ -88,4 +88,3 @@
         return BOOST_PP_SEQ_ELEM(1, value);
 
 #endif
-

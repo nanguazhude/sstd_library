@@ -74,4 +74,3 @@ BOOST_PYTHON_MODULE(opaque_ext)
 }
 
 # include "module_tail.cpp"
-

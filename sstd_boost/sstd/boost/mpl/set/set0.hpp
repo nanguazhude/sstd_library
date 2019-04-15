@@ -34,4 +34,3 @@
 #include <sstd/boost/mpl/set/aux_/tag.hpp>
 
 #endif // BOOST_MPL_SET_SET0_HPP_INCLUDED
-

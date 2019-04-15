@@ -281,4 +281,3 @@ void * GC_post_incr (void **p, size_t how_much)
     *p = result;
     return(initial);
 }
-

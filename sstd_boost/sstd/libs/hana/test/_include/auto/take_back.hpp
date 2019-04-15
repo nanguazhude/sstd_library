@@ -80,4 +80,3 @@ TestCase test_take_back{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_TAKE_BACK_HPP
-

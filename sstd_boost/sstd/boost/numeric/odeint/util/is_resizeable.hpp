@@ -81,4 +81,3 @@ struct is_resizeable_sfinae<
 
 
 #endif // BOOST_NUMERIC_ODEINT_UTIL_IS_RESIZEABLE_HPP_INCLUDED
-

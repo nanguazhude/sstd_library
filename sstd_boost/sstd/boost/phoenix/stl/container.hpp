@@ -11,4 +11,3 @@
 #include <sstd/boost/phoenix/stl/container/container.hpp>
 
 #endif // BOOST_PHOENIX_STL_CONTAINER_HPP
-

@@ -55,4 +55,3 @@ int main() {
 
     hana::test::TestFoldable<hana::ext::boost::mpl::list_tag>{lists};
 }
-

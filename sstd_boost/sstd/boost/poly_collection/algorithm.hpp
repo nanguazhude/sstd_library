@@ -1184,4 +1184,3 @@ using detail::algorithm::partition_point;
 } /* namespace boost */
 
 #endif
-

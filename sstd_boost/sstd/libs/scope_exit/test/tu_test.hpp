@@ -45,5 +45,3 @@ inline int template_f(int i) {
     return i;
 }
 #endif
-
-

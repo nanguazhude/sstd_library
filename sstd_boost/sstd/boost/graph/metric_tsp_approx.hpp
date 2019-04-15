@@ -311,4 +311,3 @@ namespace boost
 } //boost
 
 #endif // BOOST_GRAPH_METRIC_TSP_APPROX_HPP
-

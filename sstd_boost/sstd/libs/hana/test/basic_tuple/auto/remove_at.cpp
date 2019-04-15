@@ -6,4 +6,3 @@
 #include <auto/remove_at.hpp>
 
 int main() { }
-

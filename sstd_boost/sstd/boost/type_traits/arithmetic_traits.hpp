@@ -18,4 +18,3 @@
 #include <sstd/boost/type_traits/is_void.hpp>
 
 #endif // BOOST_TT_ARITHMETIC_TRAITS_HPP_INCLUDED
-

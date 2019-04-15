@@ -1,4 +1,4 @@
-/*
+﻿/*
 * PKCS #1 v1.5 signature padding
 * (C) 1999-2008 Jack Lloyd
 *

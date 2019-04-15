@@ -34,4 +34,3 @@ BOOST_AUTO_TEST_CASE(test_simple)
     any<src_concept> y(2.0);
     BOOST_CHECK_THROW(x + y, bad_function_call);
 }
-

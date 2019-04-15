@@ -36,5 +36,3 @@ struct lanczos<multiprecision::number<Backend, ExpressionTemplates>, Policy>
 }} // namespaces
 
 #endif
-
-

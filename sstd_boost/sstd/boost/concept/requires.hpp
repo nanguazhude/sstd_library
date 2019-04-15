@@ -91,4 +91,3 @@ struct Requires_ : ::boost::ccheck_aux::unaryfunptr_arg_type<Result>
 } // namespace boost::concept_check
 
 #endif // BOOST_CONCEPT_REQUIRES_DWA2006430_HPP
-

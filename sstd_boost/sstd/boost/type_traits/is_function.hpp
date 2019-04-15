@@ -25,4 +25,3 @@
 #endif
 
 #endif // BOOST_TT_IS_FUNCTION_HPP_INCLUDED
-

@@ -44,4 +44,3 @@ void compile_move_only_types()
     auto transformed_expr = transform(std::move(expr_2), double_to_float);
     (void)transformed_expr;
 }
-

@@ -11,4 +11,3 @@ int main(int argc, char* /*argv*/ [])
       compile_and_link_test(); // should never actually be called.
    return 0;
 }
-

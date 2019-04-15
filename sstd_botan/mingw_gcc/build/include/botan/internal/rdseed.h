@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Entropy Source Using Intel's rdseed instruction
 * (C) 2015 Jack Lloyd, Daniel Neus
 *

@@ -299,4 +299,3 @@ struct disjoint<Segment, Areal, 2, segment_tag, areal_tag, false>
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_DISJOINT_LINEAR_AREAL_HPP
-

@@ -144,4 +144,3 @@ inline void view_multiplies_scalar(const SrcView& src,const Scalar& scalar,const
 }} // namespace boost::gil
 
 #endif
-

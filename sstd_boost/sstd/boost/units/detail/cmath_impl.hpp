@@ -152,4 +152,3 @@ inline Y trunc BOOST_PREVENT_MACRO_SUBSTITUTION(const Y& val)
 }
 
 #endif // BOOST_UNITS_CMATH_IMPL_HPP
-

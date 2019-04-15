@@ -143,4 +143,3 @@ operator<<( custom_printer<cdata> const& p, const_string value )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_UTILS_XML_PRINTER_HPP
-

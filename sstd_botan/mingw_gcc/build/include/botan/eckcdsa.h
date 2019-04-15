@@ -1,4 +1,4 @@
-/*
+﻿/*
 * ECKCDSA (ISO/IEC 14888-3:2006/Cor.2:2009)
 * (C) 2016 René Korthaus, Sirrix AG
 *

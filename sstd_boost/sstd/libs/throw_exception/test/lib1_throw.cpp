@@ -11,4 +11,3 @@ void lib1::f()
 {
     throw lib1::exception();
 }
-

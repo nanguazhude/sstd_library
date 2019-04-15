@@ -216,5 +216,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_convertible<int, incomplete_type[]>::val
 #endif
 
 TT_TEST_END
-
-

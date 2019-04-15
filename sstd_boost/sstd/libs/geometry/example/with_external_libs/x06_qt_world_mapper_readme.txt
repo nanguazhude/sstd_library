@@ -20,5 +20,3 @@ Using Linux/gcc
    - run qmake
    - edit the generated Makefile, if necessary, and add -I../../../.. to include Boost and Boost.Geometry
    - run make
-
-

@@ -13,4 +13,3 @@
 #  include <sstd/boost/coroutine/posix/segmented_stack_allocator.hpp>
 # endif
 #endif
-

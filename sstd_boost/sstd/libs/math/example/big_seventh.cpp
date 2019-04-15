@@ -86,5 +86,3 @@ We can also use constants, guaranteed to be initialized with the very last bit o
 //]
 
 */
-
-

@@ -47,4 +47,3 @@ inline Container& insert( Container& on, const Range& from )
 } // namespace boost
 
 #endif // include guard
-

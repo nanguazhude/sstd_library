@@ -148,4 +148,3 @@ struct single_tag_of<multi_polygon_tag>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_CORE_TAGS_HPP
-

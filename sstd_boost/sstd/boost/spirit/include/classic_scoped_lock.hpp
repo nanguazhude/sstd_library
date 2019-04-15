@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_SCOPED_LOCK
 #include <sstd/boost/spirit/home/classic/utility/scoped_lock.hpp>
 #endif
-

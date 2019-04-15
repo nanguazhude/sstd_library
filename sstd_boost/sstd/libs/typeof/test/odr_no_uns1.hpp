@@ -17,4 +17,3 @@ struct odr_test_1
 BOOST_TYPEOF_REGISTER_TYPE(odr_test_1)
 
 #endif//BOOST_TYPEOF_ODR_NO_UNS1_HPP_INCLUDED
-

@@ -92,4 +92,3 @@ T const& do_unforward(T const& x, ...)
 }}} // namespace boost::python::objects
 
 #endif // FORWARD_DWA20011215_HPP
-

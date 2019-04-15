@@ -24,4 +24,3 @@ int main() {
         hana::drop_while(BOOST_HANA_STRING("aioubcd"), is_vowel) == BOOST_HANA_STRING("bcd")
     );
 }
-

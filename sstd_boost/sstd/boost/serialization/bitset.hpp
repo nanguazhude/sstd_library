@@ -73,4 +73,3 @@ struct tracking_level<std::bitset<size> >
 } //boost
 
 #endif // BOOST_SERIALIZATION_BITSET_HPP
-

@@ -326,4 +326,3 @@ struct handler_type< fibers::asio::yield_t, ReturnType( boost::system::error_cod
 #endif
 
 #endif // BOOST_FIBERS_ASIO_DETAIL_YIELD_HPP
-

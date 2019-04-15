@@ -77,4 +77,3 @@ make_binary_object(const void * t, std::size_t size){
 } // boost
 
 #endif // BOOST_SERIALIZATION_BINARY_OBJECT_HPP
-

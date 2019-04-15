@@ -18,5 +18,3 @@ int main () {
     zero_vector<double> v (3);
     std::cout << v << std::endl;
 }
-
-

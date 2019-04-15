@@ -45,6 +45,3 @@ int main()
     pt_parse("abcd", test_grammar());
     ast_parse("abcd", test_grammar());
 }
-
-
-

@@ -41,4 +41,3 @@ class circular_buffer_space_optimized;
 } // namespace boost
 
 #endif // #if !defined(BOOST_CIRCULAR_BUFFER_FWD_HPP)
-

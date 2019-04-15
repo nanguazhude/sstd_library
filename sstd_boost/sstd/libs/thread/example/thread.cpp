@@ -35,4 +35,3 @@ int main()
     boost::thread thrd(alarm);
     thrd.join();
 }
-

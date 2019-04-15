@@ -289,4 +289,3 @@ class container_adaptor
 
 
 #endif // BOOST_BIMAP_CONTAINER_ADAPTOR_CONTAINER_ADAPTOR_HPP
-

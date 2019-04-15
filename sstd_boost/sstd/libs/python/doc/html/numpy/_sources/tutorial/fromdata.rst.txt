@@ -53,5 +53,3 @@ Next, change an element of the source C++ array and see if it is reflected in th
   }
 
 As we can see, the changes are reflected across the ends. This happens because the from_data method passes the C++ array by reference to create the ndarray, and thus uses the same locations for storing data.
-
-

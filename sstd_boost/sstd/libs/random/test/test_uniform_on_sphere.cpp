@@ -43,4 +43,3 @@ static const double pi = 3.14159265358979323846;
 #define BOOST_MATH_DISTRIBUTION_INIT (-pi, pi)
 
 #include "test_real_distribution.ipp"
-

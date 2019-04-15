@@ -361,4 +361,3 @@ basic_zstd_decompressor<Alloc>::basic_zstd_decompressor
 #endif
 
 #endif // #ifndef BOOST_IOSTREAMS_ZSTD_HPP_INCLUDED
-

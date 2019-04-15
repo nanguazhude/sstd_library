@@ -605,4 +605,3 @@ namespace boost { namespace mpl
 }} // namespace boost
 
 #endif // BOOST_MPL_STRING_HPP_INCLUDED
-

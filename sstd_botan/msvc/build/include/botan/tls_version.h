@@ -1,4 +1,4 @@
-/*
+﻿/*
 * TLS Protocol Version Management
 * (C) 2012 Jack Lloyd
 *
@@ -146,4 +146,3 @@ class BOTAN_PUBLIC_API(2,0) Protocol_Version final
 }
 
 #endif
-

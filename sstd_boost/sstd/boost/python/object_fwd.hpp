@@ -16,4 +16,3 @@ using api::object;
 }} // namespace boost::python
 
 #endif // OBJECT_FWD_DWA2002724_HPP
-

@@ -290,4 +290,3 @@ BOOST_AUTO_TEST_CASE( test_pointlike_areal_all )
     test_pointlike_areal<ttmath_big>();
 #endif
 }
-

@@ -29,4 +29,3 @@ void test_serialization()
 {
   test_serialization_template<serialization_flyweight_specifier>();
 }
-

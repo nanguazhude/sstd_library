@@ -226,4 +226,3 @@ make_reader( Device&                 file
 } // namespace boost
 
 #endif
-

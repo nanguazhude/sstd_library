@@ -77,4 +77,3 @@ inline BOOST_ASIO_INITFN_RESULT_TYPE(CompletionToken, void()) defer(
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IMPL_DEFER_HPP
-

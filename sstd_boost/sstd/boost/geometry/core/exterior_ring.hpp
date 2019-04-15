@@ -143,4 +143,3 @@ inline typename ring_return_type<Polygon const>::type exterior_ring(
 
 
 #endif // BOOST_GEOMETRY_CORE_EXTERIOR_RING_HPP
-

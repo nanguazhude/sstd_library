@@ -22,5 +22,3 @@ struct state_tag{};
 
 } } // boost::msm
 #endif //BOOST_MSM_COMMON_H
-
-

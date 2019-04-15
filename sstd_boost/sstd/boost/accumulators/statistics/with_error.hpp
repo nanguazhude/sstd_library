@@ -42,4 +42,3 @@ struct with_error
 }} // namespace boost::accumulators
 
 #endif
-

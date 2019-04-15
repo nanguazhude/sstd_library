@@ -10,4 +10,3 @@ int main()
    double d = gsl_sf_bessel_Jn(2, 1.0);
    return d != 0 ? 0 : 1;
 }
-

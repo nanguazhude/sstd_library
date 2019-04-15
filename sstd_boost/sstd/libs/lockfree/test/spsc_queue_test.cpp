@@ -405,4 +405,3 @@ BOOST_AUTO_TEST_CASE( spsc_queue_reset_test )
 
     BOOST_REQUIRE(f.empty());
 }
-

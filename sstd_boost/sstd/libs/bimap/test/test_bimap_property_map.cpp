@@ -73,5 +73,3 @@ int test_main( int, char* [] )
     test_bimap_property_map();
     return 0;
 }
-
-

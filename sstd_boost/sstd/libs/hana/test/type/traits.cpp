@@ -152,4 +152,3 @@ int main() {
     ///////////////////////
     using Z = decltype(hana::traits::declval(hana::type_c<Structure>));
 }
-

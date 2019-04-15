@@ -7,5 +7,3 @@ constexpr void check_symmetry(const T (&value)[N]) {
     for(unsigned int j = 0; j < N; j++)
         assert(value[i][j] == value[j][i]);
 }
-
-

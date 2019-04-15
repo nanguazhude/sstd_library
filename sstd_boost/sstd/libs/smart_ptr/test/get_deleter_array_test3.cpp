@@ -60,4 +60,3 @@ int main()
 struct deleter2
 {
 };
-

@@ -224,4 +224,3 @@ struct ring_return_type
 
 
 #endif // BOOST_GEOMETRY_CORE_RING_TYPE_HPP
-

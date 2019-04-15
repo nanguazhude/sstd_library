@@ -142,5 +142,3 @@ struct SampleGraph {
 } //boost
 
 #endif /* SAMPLE_GRAPH_UNDIRECTED_HPP */
-
-

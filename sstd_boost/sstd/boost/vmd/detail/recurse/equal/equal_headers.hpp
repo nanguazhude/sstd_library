@@ -21,4 +21,3 @@
 #include <sstd/boost/vmd/detail/modifiers.hpp>
 
 #endif /* BOOST_VMD_DETAIL_EQUAL_HEADERS_HPP */
-

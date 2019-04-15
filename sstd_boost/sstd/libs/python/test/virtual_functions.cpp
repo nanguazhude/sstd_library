@@ -123,4 +123,3 @@ BOOST_PYTHON_MODULE(virtual_functions_ext)
 }
 
 #include "module_tail.cpp"
-

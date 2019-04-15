@@ -345,4 +345,3 @@ struct static_root_impl<0> {
 } // namespace boost
 
 #endif // BOOST_UNITS_DIMENSION_IMPL_HPP
-

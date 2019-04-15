@@ -82,4 +82,3 @@ public:
 #endif // !defined(BOOST_ASIO_NO_DEPRECATED)
 
 #endif // ARCHETYPES_DEPRECATED_ASYNC_RESULT_HPP
-

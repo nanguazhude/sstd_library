@@ -1,4 +1,4 @@
-/*
+﻿/*
 * X.509 Certificates
 * (C) 1999-2007,2015,2017 Jack Lloyd
 *

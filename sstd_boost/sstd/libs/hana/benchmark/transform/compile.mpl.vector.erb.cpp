@@ -20,4 +20,3 @@ using result = boost::mpl::transform<vector, boost::mpl::quote1<f>>::type;
 
 
 int main() { }
-

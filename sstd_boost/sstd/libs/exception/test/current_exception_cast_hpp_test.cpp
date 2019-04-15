@@ -5,4 +5,3 @@
 
 #include <sstd/boost/exception/current_exception_cast.hpp>
 #include <sstd/boost/exception/current_exception_cast.hpp>
-

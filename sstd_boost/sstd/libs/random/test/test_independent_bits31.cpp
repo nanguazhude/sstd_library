@@ -24,4 +24,3 @@ typedef boost::random::independent_bits_engine<boost::random::minstd_rand0, 31, 
 #define BOOST_RANDOM_GENERATE_VALUES { 0xC1A63AF0U, 0xD66C0614U, 0xADE076B1U, 0xC1DAE13FU }
 
 #include "test_generator.ipp"
-

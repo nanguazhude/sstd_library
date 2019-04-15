@@ -13,4 +13,3 @@ Introduction
     gettingstarted
     examples
     point_free
-

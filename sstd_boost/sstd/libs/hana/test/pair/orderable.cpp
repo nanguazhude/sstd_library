@@ -44,4 +44,3 @@ int main() {
         , hana::make_pair(ct_ord<4>{}, ct_ord<4>{})
     )};
 }
-

@@ -25,5 +25,3 @@
   maintains an internal event queue, which requires an additional
   layer of runtime dispatching to sort out the next event to be
   processed.
-
-

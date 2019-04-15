@@ -225,4 +225,3 @@ using is_fields = typename detail::is_fields_helper<T>::type;
 } // boost
 
 #endif
-

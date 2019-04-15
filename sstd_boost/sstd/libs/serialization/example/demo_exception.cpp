@@ -256,4 +256,3 @@ int main(int argc, char *argv[]){
     std::remove(filename.c_str());
     return Student::count + Course::count;
 }
-

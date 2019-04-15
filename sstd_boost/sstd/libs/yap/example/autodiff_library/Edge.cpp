@@ -52,4 +52,3 @@ string Edge::toString()
 }
 
 } /* namespace AutoDiff */
-

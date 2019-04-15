@@ -43,4 +43,3 @@
 template struct boost::wave::cpplexer::xlex::new_lexer_gen<std::string::iterator>;
 
 #endif // BOOST_WAVE_SEPARATE_LEXER_INSTANTIATION != 0
-

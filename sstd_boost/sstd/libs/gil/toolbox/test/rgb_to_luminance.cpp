@@ -31,4 +31,3 @@ BOOST_AUTO_TEST_CASE( rgb_to_luminance_test )
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

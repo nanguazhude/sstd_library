@@ -70,4 +70,3 @@ using ::boost::move_detail::max_align_t;
 }  //namespace boost {
 
 #endif   //#ifndef BOOST_CONTAINER_CONTAINER_DETAIL_TYPE_TRAITS_HPP
-

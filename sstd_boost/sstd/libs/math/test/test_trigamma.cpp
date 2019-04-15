@@ -53,5 +53,3 @@ BOOST_AUTO_TEST_CASE( test_main )
    test_trigamma(boost::math::concepts::real_concept(0.1), "real_concept");
 #endif
 }
-
-

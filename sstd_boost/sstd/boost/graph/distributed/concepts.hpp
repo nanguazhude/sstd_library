@@ -211,4 +211,3 @@ struct DistributedEdgeListGraphConcept
 #endif
 
 #endif // BOOST_GRAPH_DISTRIBUTED_CONCEPTS_HPP
-

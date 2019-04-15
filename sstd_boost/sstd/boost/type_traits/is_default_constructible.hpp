@@ -96,4 +96,3 @@ namespace boost{
 } // namespace boost
 
 #endif // BOOST_TT_IS_DEFAULT_CONSTRUCTIBLE_HPP_INCLUDED
-

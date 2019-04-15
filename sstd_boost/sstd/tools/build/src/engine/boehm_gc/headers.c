@@ -392,4 +392,3 @@ struct hblk * GC_prev_block(struct hblk *h)
     }
     return(0);
 }
-

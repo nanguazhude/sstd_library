@@ -175,4 +175,3 @@ void transform_width<Base, BitsOut, BitsIn, CharType>::fill() {
 } // namespace boost
 
 #endif // BOOST_ARCHIVE_ITERATORS_TRANSFORM_WIDTH_HPP
-

@@ -114,4 +114,3 @@ inline void objattribute_policies::del(
 }}} // namespace boost::python::api
 
 #endif // OBJECT_ATTRIBUTES_DWA2002615_HPP
-

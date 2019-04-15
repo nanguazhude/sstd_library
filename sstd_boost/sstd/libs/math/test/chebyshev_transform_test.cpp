@@ -259,6 +259,3 @@ BOOST_AUTO_TEST_CASE(chebyshev_transform_test)
 #endif
 #endif
 }
-
-
-

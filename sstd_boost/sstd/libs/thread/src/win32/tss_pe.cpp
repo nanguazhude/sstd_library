@@ -335,4 +335,3 @@ namespace boost
 #endif //defined(_MSC_VER) && !defined(UNDER_CE)
 
 #endif //defined(BOOST_THREAD_WIN32) && defined(BOOST_THREAD_BUILD_LIB)
-

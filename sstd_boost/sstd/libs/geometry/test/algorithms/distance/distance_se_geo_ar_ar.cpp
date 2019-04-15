@@ -936,4 +936,3 @@ BOOST_AUTO_TEST_CASE( test_all_areal_areal )
     test_all_ar_ar<geo_point>(thomas_pp(), thomas_ps(), thomas_bb(), thomas_sb());
     test_all_ar_ar<geo_point>(andoyer_pp(), andoyer_ps(), andoyer_bb(), andoyer_sb());
 }
-

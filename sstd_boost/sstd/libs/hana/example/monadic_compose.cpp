@@ -31,4 +31,3 @@ int main() {
     BOOST_HANA_CONSTANT_CHECK(h(1.2)  == hana::nothing); // fails inside f; 1.2 has type double
     BOOST_HANA_CONSTEXPR_CHECK(h('x') == hana::just('x')); // ok; 'x' has type char
 }
-

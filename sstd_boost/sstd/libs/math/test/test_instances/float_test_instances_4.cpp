@@ -24,5 +24,3 @@
 #define BOOST_MATH_TEST_TYPE float
 #define TEST_GROUP_4
 #include "test_instances.hpp"
-
-

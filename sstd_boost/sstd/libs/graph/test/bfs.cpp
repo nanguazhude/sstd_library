@@ -195,4 +195,3 @@ int test_main(int argc, char* argv[])
   bfs_test< adjacency_list<vecS, vecS, undirectedS> >::go(max_V);
   return 0;
 }
-

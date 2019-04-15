@@ -92,6 +92,3 @@ to use.
 If you already have Cygwin - just use gettext tools provided with it.
 
 */
-
-
-

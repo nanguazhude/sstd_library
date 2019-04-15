@@ -802,5 +802,3 @@ const unsigned max_factorial<T>::value;
 } // namespace boost
 
 #endif // BOOST_MATH_SP_UC_FACTORIALS_HPP
-
-

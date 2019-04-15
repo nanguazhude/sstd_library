@@ -84,5 +84,3 @@ void test_cbrt(T, const char* name)
    do_test_cbrt<T>(cbrt_data, name, "cbrt Function");
 
 }
-
-

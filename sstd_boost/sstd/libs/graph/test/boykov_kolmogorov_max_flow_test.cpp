@@ -463,4 +463,3 @@ int test_main(int argc, char* argv[])
   BOOST_CHECK(flow_overloads == flow_invariants);
   return 0;
 }
-

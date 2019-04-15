@@ -64,4 +64,3 @@ struct has_member_size
 }// namespace boost
 
 #endif // include guard
-

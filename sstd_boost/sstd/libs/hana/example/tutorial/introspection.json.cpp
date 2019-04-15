@@ -79,4 +79,3 @@ auto tuple = hana::make_tuple(john, audi, bmw);
 std::cout << to_json(tuple) << std::endl;
 //! [usage]
 }
-

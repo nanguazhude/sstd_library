@@ -292,4 +292,3 @@ BOOST_NOEXCEPT {
 #include <sstd/boost/config/abi_suffix.hpp>
 
 #endif
-

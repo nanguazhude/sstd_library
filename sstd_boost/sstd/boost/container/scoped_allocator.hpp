@@ -905,4 +905,3 @@ inline bool operator!=(const scoped_allocator_adaptor<OuterA1, BOOST_CONTAINER_S
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif //  BOOST_CONTAINER_ALLOCATOR_SCOPED_ALLOCATOR_HPP
-

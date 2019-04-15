@@ -42,4 +42,3 @@ struct locking:parameter::template_keyword<locking<>,T>
 } /* namespace boost */
 
 #endif
-

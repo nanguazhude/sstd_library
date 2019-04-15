@@ -60,5 +60,3 @@ There is no output from this example.
 //] [/circular_buffer_example_output]
 
  */
-
-

@@ -41,4 +41,3 @@ BOOST_MOVE_STD_NS_END
 #include <sstd/boost/move/detail/std_ns_end.hpp>
 
 #endif //#ifndef BOOST_INTRUSIVE_DETAIL_STD_FWD_HPP
-

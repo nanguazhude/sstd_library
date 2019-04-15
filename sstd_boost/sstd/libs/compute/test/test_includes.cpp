@@ -58,4 +58,3 @@ BOOST_AUTO_TEST_CASE(includes_string)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

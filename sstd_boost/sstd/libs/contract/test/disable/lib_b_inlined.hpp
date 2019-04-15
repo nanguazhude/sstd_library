@@ -121,5 +121,3 @@ bool b::test_disable_failure() {
 }
 
 #endif // #include guard
-
-

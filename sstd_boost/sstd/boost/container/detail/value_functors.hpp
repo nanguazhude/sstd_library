@@ -34,4 +34,3 @@ struct value_equal
 };
 
 #endif   //BOOST_CONTAINER_DETAIL_VALUE_FUNCTORS_HPP
-

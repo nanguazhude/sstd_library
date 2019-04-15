@@ -14,4 +14,3 @@ int main()
   test_emplacement();
   return boost::report_errors();
 }
-

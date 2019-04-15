@@ -221,7 +221,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::has_nothrow_destructor<throwing_derived>::va
 BOOST_CHECK_INTEGRAL_CONSTANT(::tt::has_nothrow_destructor<throwing_contained>::value, false);
 
 TT_TEST_END
-
-
-
-

@@ -1492,5 +1492,3 @@ void GC_notify_all_marker(void)
 #endif /* PARALLEL_MARK */
 
 # endif /* GC_LINUX_THREADS and friends */
-
-

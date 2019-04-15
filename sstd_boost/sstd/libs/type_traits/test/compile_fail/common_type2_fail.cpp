@@ -11,6 +11,3 @@ int main()
 {
    return sizeof(boost::common_type<int, incomplete_type>::type);
 }
-
-
-

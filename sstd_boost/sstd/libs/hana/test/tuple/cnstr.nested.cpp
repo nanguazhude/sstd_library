@@ -17,4 +17,3 @@ constexpr hana::tuple<std::decay_t<Xs>...> f(Xs&& ...xs)
 int main() {
     f(f(f(f(f(f(f(f(f(f(f(f(1))))))))))));
 }
-

@@ -1067,4 +1067,3 @@ class bs_multiset
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_BS_SET_HPP
-

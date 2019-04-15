@@ -1,4 +1,4 @@
-/*
+﻿/*
 ** $Id: ldump.c,v 2.37.1.1 2017/04/19 17:20:42 roberto Exp $
 ** save precompiled Lua chunks
 ** See Copyright Notice in lua.h
@@ -212,4 +212,3 @@ int luaU_dump(lua_State *L, const Proto *f, lua_Writer w, void *data,
   DumpFunction(f, NULL, &D);
   return D.status;
 }
-

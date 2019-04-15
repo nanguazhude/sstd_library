@@ -26,6 +26,3 @@ std::string platform_name();
 
 
 #endif
-
-
-

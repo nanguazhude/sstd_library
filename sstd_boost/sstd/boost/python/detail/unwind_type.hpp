@@ -168,4 +168,3 @@ unwind_type(boost::type<U>*p =0, Generator* =0)
 }}} // namespace boost::python::detail
 
 #endif // UNWIND_TYPE_DWA200222_HPP
-

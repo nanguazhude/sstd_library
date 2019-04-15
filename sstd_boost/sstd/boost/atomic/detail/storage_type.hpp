@@ -205,4 +205,3 @@ struct storage_size_of
 } // namespace boost
 
 #endif // BOOST_ATOMIC_DETAIL_STORAGE_TYPE_HPP_INCLUDED_
-

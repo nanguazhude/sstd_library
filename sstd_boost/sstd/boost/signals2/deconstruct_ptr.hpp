@@ -84,4 +84,3 @@ namespace boost
 }
 
 #endif // BOOST_SIGNALS2_DECONSTRUCT_PTR_HPP
-

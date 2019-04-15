@@ -39,4 +39,3 @@ int main()
         boost::pointer_traits<E<const int> >::difference_type>));
     return boost::report_errors();
 }
-

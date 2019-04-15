@@ -365,6 +365,3 @@ int main(int argc, char** argv) {
         << "[endsect]\n\n";
     return 0;
 }
-
-
-

@@ -16,4 +16,3 @@ void pass()
   m0.lock();
   m0.unlock();
 }
-

@@ -21,4 +21,3 @@ BOOST_AUTO_TEST_CASE( test_macro_overview )
   BOOST_TEST(a + 0.1 == b - 0.8, tt::tolerance(0.01));
 }
 //]
-

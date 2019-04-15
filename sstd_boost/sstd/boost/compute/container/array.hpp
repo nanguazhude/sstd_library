@@ -315,4 +315,3 @@ meta_kernel& operator<<(meta_kernel &k, const array<T, N> &array)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_CONTAINER_ARRAY_HPP
-

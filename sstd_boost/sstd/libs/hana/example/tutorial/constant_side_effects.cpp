@@ -34,4 +34,3 @@ static_assert(hana::value(x), "");
 }
 
 int main() { }
-

@@ -145,4 +145,3 @@ void bcp_implementation::scan_svn_path(const fs::path& p)
       } // while
    }
 }
-

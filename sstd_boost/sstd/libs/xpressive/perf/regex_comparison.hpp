@@ -137,4 +137,3 @@ inline void test_find_all(const std::string& re, const std::string& text)
 #define REPEAT_COUNT 10
 
 #endif
-

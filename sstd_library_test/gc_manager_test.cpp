@@ -78,7 +78,7 @@ void testGCManager() {
         varObject->markAsRoot();
         varObject->construct();
     }
-    
+
     varManager->gc();
     varManager->gc();
 
@@ -88,5 +88,3 @@ void testGCManager() {
     varManager->gc();
 
 }
-
-

@@ -39,5 +39,3 @@ typedef boost::wave::cpplexer::xlex::xlex_iterator<
 template struct boost::wave::grammars::defined_grammar_gen<lexer_type>;
 
 #endif // #if BOOST_WAVE_SEPARATE_GRAMMAR_INSTANTIATION != 0
-
-

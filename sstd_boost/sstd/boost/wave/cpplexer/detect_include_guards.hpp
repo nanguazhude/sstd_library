@@ -261,4 +261,3 @@ include_guards<Token>::state_5(Token& t)
 #endif
 
 #endif // !DETECT_INCLUDE_GUARDS_HK060304_INCLUDED
-

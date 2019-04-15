@@ -31,5 +31,3 @@ int main( int, char *[] )
 {
    return boost_no_two_phase_name_lookup::test();
 }
-
-

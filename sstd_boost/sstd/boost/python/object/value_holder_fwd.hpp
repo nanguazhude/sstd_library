@@ -14,4 +14,3 @@ template <class CallbackType = no_back_reference> struct value_holder_generator;
 }}} // namespace boost::python::object
 
 #endif // VALUE_HOLDER_FWD_DWA2002311_HPP
-

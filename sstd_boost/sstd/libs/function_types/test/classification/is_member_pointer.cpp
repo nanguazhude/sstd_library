@@ -85,5 +85,3 @@ BOOST_MPL_ASSERT_NOT((
 BOOST_MPL_ASSERT_NOT((
   ft::is_member_pointer< int& >
 ));
-
-

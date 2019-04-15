@@ -45,4 +45,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_SEQUENCE_TO_ARRAY_HPP */
-

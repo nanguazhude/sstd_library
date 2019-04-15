@@ -618,4 +618,3 @@ using boost::concepts::DegreeMeasureConcept;
 #include <sstd/boost/concept/detail/concept_undef.hpp>
 
 #endif /* BOOST_GRAPH_CONCEPTS_H */
-

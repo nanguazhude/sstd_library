@@ -32,4 +32,3 @@ BOOST_UNITS_STATIC_CONSTANT(coulombs,electric_charge);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_ELECTRIC_CHARGE_HPP
-

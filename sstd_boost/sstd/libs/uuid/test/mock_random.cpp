@@ -113,4 +113,3 @@ CryptReleaseContext(
 } // end extern "C"
 
 #endif
-

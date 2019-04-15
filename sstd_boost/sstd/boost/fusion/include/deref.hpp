@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/iterator/deref.hpp>
 
 #endif
-

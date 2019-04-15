@@ -39,4 +39,3 @@ void compile_and_link_test()
    check_result<long double>(boost::math::erfc_inv<long double>(l));
 #endif
 }
-

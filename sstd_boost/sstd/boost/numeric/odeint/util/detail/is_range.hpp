@@ -132,4 +132,3 @@ struct is_range< const wchar_t* const > : boost::mpl::true_
 
 
 #endif // BOOST_NUMERIC_ODEINT_UTIL_DETAIL_IS_RANGE_HPP_INCLUDED
-

@@ -25,4 +25,3 @@
 #include <sstd/boost/exception_ptr.hpp>
 #endif
 #endif
-

@@ -13,6 +13,3 @@ BOOST_AUTO_TEST_CASE(test_hardware_concurrency_is_non_zero)
 {
     BOOST_CHECK(boost::thread::hardware_concurrency()!=0);
 }
-
-
-

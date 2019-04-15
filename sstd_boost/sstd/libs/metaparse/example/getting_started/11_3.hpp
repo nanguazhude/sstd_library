@@ -46,5 +46,3 @@ using exp_parser20 = build_parser<plus_exp3>;
 //    exp_parser20::apply<BOOST_METAPARSE_STRING("hello")>::type
 
 #endif
-
-

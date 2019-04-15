@@ -49,4 +49,3 @@ void seek_test()
 }
 
 #endif // #ifndef BOOST_IOSTREAMS_TEST_SEEK_HPP_INCLUDED
-

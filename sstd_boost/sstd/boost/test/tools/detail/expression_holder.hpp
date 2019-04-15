@@ -68,4 +68,3 @@ hold_expression( E const& e )
 #endif
 
 #endif // BOOST_TEST_TOOLS_DETAIL_EXPRESSION_HOLDER_HPP_012705GER
-

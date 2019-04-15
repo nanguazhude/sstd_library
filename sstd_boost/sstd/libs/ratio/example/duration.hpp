@@ -797,4 +797,3 @@ typename boost::enable_if <
 }
 }
 #endif // BOOST_EX_CHRONO_DURATION_HPP
-

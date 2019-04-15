@@ -195,4 +195,3 @@ public:
 #endif
 
 #endif // BOOST_FIBERS_DETAIL_CONTEXT_SPMC_QUEUE_H
-

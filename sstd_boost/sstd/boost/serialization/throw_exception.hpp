@@ -42,4 +42,3 @@ template<class E> inline void throw_exception(E const & e){
 } // namespace boost
 
 #endif // #ifndef BOOST_SERIALIZATION_THROW_EXCEPTION_HPP_INCLUDED
-

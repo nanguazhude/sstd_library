@@ -160,4 +160,3 @@ public:
 } // namespace boost
 
 #endif
-

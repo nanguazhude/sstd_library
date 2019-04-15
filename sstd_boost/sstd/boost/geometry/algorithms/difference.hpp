@@ -404,4 +404,3 @@ inline void difference(Geometry1 const& geometry1,
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DIFFERENCE_HPP
-

@@ -204,4 +204,3 @@ BOOST_PYTHON_MODULE(MODULE)
        ;
 // ------
 }
-

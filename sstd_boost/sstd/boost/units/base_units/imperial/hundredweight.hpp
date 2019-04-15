@@ -37,4 +37,3 @@ struct base_unit_info<imperial::hundredweight_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNIT_SYSTEMS_IMPERIAL_HUNDREDWEIGHT_HPP_INCLUDED
-

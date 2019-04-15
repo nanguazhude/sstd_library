@@ -69,5 +69,3 @@ struct member_function_types<C, none> {
 } } } // namespace
 
 #endif // #include guard
-
-

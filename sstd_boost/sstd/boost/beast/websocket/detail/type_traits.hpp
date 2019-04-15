@@ -34,4 +34,3 @@ using is_response_decorator =
 } // boost
 
 #endif
-

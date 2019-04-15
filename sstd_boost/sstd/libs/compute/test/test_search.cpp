@@ -70,4 +70,3 @@ BOOST_AUTO_TEST_CASE(search_string)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

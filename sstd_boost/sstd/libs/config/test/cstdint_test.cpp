@@ -236,4 +236,3 @@ int main(int, char*[])
   std::cout << "OK\n";
   return boost::report_errors();
 }
-

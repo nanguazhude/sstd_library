@@ -74,4 +74,3 @@ inline const RandomAccessRange& partial_sort(const RandomAccessRange& rng,
 } // namespace boost
 
 #endif // include guard
-

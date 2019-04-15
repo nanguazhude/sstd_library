@@ -191,4 +191,3 @@ typedef boost::asio::ip::detail::socket_option::multicast_enable_loopback<
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IP_MULTICAST_HPP
-

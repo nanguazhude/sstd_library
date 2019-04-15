@@ -224,4 +224,3 @@ struct packed_dynamic_channels565
 };
 
 }}}} // namespace boost::gil::test::fixture
-

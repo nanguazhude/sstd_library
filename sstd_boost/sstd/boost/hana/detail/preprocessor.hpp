@@ -32,4 +32,3 @@ Distributed under the Boost Software License, Version 1.0.
 #define BOOST_HANA_PP_DROP_FRONT(e0, ...) __VA_ARGS__
 
 #endif // !BOOST_HANA_DETAIL_PREPROCESSOR_HPP
-

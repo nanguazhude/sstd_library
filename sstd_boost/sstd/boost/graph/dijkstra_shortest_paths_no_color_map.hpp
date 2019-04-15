@@ -248,4 +248,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_GRAPH_DIJKSTRA_NO_COLOR_MAP_HPP
-

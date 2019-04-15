@@ -538,4 +538,3 @@ BOOST_AUTO_TEST_CASE( test_no_params )
 
 } // test_no_params
 #endif
-

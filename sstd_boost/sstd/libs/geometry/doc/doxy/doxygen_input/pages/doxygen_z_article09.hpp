@@ -236,4 +236,3 @@ The Generic Geometry Library as described and published in preview is an extensi
 */
 
 #endif // _DOXYGEN_ARTICLE2009_HPP
-

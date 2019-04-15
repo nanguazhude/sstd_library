@@ -711,4 +711,3 @@ inline std::size_t hash_value(const cpp_int_backend<MinBits1, MaxBits1, SignType
 }}} // namespaces
 
 #endif
-

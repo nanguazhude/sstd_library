@@ -293,4 +293,3 @@ struct feature_of<tag::weighted_extended_p_square>
 }} // namespace boost::accumulators
 
 #endif
-

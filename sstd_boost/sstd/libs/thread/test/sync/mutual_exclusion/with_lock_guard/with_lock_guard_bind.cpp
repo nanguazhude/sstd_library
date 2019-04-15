@@ -143,4 +143,3 @@ int main() {
   test_bind_non_const();
   return boost::report_errors();
 }
-

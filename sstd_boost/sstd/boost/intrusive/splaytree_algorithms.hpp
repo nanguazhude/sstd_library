@@ -752,4 +752,3 @@ struct get_node_checker<SplayTreeAlgorithms, ValueTraits, NodePtrCompare, ExtraC
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_SPLAYTREE_ALGORITHMS_HPP
-

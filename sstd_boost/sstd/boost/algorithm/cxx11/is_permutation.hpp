@@ -183,4 +183,3 @@ is_permutation ( const Range &r, ForwardIterator first2, BinaryPredicate pred )
 }}
 
 #endif  // BOOST_ALGORITHM_IS_PERMUTATION11_HPP
-

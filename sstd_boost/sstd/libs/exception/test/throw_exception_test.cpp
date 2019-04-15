@@ -146,4 +146,3 @@ main()
     tester<boost::exception_test::derives_std_exception>();
     return boost::report_errors();
     }
-

@@ -116,4 +116,3 @@ inline void windows_mutex::unlock(void)
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_DETAIL_WINDOWS_MUTEX_HPP
-

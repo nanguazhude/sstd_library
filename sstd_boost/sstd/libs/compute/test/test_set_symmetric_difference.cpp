@@ -61,4 +61,3 @@ BOOST_AUTO_TEST_CASE(set_symmetric_difference_string)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

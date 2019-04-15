@@ -86,4 +86,3 @@ queried(Predicates const& pred)
 }}} // namespace boost::geometry::index
 
 #endif // BOOST_GEOMETRY_INDEX_ADAPTORS_QUERY_HPP
-

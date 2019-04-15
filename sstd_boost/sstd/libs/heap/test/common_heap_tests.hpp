@@ -518,4 +518,3 @@ public:
 
 
 #endif // COMMON_HEAP_TESTS_HPP_INCLUDED
-

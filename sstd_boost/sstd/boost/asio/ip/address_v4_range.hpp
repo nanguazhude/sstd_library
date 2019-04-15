@@ -134,4 +134,3 @@ typedef basic_address_range<address_v4> address_v4_range;
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IP_ADDRESS_V4_RANGE_HPP
-

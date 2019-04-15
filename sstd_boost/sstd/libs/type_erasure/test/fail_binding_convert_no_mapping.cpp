@@ -23,4 +23,3 @@ int main()
         make_binding<boost::mpl::map<boost::mpl::pair<_a, int>, boost::mpl::pair<_b, int> > >());
     binding< typeid_<_a> > b2(b1, make_binding<boost::mpl::map<> >());
 }
-

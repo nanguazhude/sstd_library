@@ -81,4 +81,3 @@ struct promotes_2nd_arg:
 
 #endif
 #endif
-

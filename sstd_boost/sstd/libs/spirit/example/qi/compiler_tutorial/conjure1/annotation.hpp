@@ -92,5 +92,3 @@ namespace client
 }
 
 #endif
-
-

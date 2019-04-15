@@ -391,6 +391,3 @@ BOOST_HOF_TEST_CASE()
     BOOST_HOF_TEST_CHECK(p(select_i()) == 3);
     BOOST_HOF_STATIC_TEST_CHECK(boost::hof::pack_basic(not_default_constructible(1), not_default_constructible(1), not_default_constructible(1))(select_i()) == 3);
 }
-
-
-

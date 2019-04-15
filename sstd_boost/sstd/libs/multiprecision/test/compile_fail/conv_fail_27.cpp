@@ -14,4 +14,3 @@ int main()
    cpp_int i(3);
    i |= a * b;
 }
-

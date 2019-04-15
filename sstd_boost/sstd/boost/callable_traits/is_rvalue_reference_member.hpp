@@ -95,4 +95,3 @@ constexpr bool is_rvalue_reference_member_v = //see below
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_IS_RVALUE_REFERENCE_MEMBER_HPP
-

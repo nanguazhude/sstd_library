@@ -390,4 +390,3 @@ PBGL_DISTRIB_ADJLIST_TYPE
 }
 
 } // end namespace boost
-

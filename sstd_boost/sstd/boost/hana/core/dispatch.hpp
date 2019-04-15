@@ -16,4 +16,3 @@ Distributed under the Boost Software License, Version 1.0.
 #include <sstd/boost/hana/core/when.hpp>
 
 #endif // !BOOST_HANA_CORE_DISPATCH_HPP
-

@@ -474,4 +474,3 @@ class transformation {
 }  // boost
 
 #endif  // BOOST_POLYGON_TRANSFORM_HPP
-

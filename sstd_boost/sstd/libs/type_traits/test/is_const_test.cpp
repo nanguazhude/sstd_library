@@ -39,12 +39,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_const<const int[]>::value, true);
 BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_const<int[]>::value, false);
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

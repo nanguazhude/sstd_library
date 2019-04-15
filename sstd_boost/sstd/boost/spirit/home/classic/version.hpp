@@ -28,4 +28,3 @@
 #define SPIRIT_PIZZA_VERSION SPIRIT_MEGA_VEGGI  // :-)
 
 #endif // defined(SPIRIT_VERSION_HPP)
-

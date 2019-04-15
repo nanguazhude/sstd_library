@@ -206,4 +206,3 @@ int robust_mutex_test(int argc, char *argv[])
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_TEST_ROBUST_EMULATION_TEST_HEADER
-

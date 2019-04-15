@@ -183,4 +183,3 @@ public :
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_GEOGRAPHIC_MAPPING_SSF_HPP
-

@@ -52,4 +52,3 @@ TestCase test_intersperse{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_INTERSPERSE_HPP
-

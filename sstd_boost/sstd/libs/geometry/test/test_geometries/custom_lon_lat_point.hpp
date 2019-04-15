@@ -131,4 +131,3 @@ struct access<ro_lon_lat_point<CoordinateType, CoordinateSystem>, Dimension>
 
 
 #endif // BOOST_GEOMETRY_TEST_TEST_GEOMETRIES_CUSTOM_LON_LAT_POINT_HPP
-

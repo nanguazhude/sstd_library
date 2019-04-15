@@ -31,4 +31,3 @@ BOOST_MPL_ASSERT_NOT((is_placeholder<int>));
 BOOST_MPL_ASSERT_NOT((is_placeholder<void>));
 BOOST_MPL_ASSERT((is_placeholder<t_placeholder<int> >));
 BOOST_MPL_ASSERT_NOT((is_placeholder<t_incomplete<int> >));
-

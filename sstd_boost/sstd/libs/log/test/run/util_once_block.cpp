@@ -291,4 +291,3 @@ BOOST_AUTO_TEST_CASE(once_block_retried_on_exception)
 }
 
 #endif // BOOST_LOG_NO_THREADS
-

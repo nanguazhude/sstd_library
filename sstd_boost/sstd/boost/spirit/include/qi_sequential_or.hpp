@@ -16,4 +16,3 @@
 #include <sstd/boost/spirit/home/qi/operator/sequential_or.hpp>
 
 #endif
-

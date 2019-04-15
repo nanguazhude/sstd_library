@@ -14,4 +14,3 @@ int main()
     boost::chrono::steady_clock::now();
     boost::timer::cpu_timer cpt;
 }
-

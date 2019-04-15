@@ -32,4 +32,3 @@ BOOST_TYPEOF_REGISTER_TYPE(boost::units::imperial::pound_base_unit)
 #endif
 
 #endif // BOOST_UNIT_SYSTEMS_IMPERIAL_POUND_HPP_INCLUDED
-

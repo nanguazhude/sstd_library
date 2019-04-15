@@ -182,4 +182,3 @@ inline type_info type_id<const volatile void>()
 }} // namespace boost::python
 
 #endif // TYPE_ID_DWA2002517_HPP
-

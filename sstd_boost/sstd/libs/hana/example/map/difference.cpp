@@ -43,4 +43,3 @@ int main() {
         hana::make_pair(BOOST_HANA_STRING("key5"), hana::type_c<std::string>)
     ));
 }
-

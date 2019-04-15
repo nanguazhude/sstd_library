@@ -21,5 +21,3 @@ Install at least the following files:
 
 For new shapelibs:
 - safileio.c
-
-

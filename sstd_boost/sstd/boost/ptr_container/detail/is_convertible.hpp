@@ -71,4 +71,3 @@ struct is_smart_ptr_convertible
 } } }         // End namespaces ptr_container_detail, move_ptrs, boost.
 
 #endif      // #ifndef BOOST_MOVE_PTR_ARRAYS_HPP_INCLUDED
-

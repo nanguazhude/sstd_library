@@ -10,5 +10,3 @@ namespace
 {
   typedef BOOST_METAPARSE_STRING("abcde") too_long;
 }
-
-

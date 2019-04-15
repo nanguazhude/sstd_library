@@ -249,4 +249,3 @@ struct PlayingMode_ : public msm::front::state_machine_def<PlayingMode_>
 typedef msm::back::state_machine<PlayingMode_> PlayingMode;
 
 #endif // PLAYING_MODE_HPP
-

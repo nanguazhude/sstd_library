@@ -339,4 +339,3 @@ inline Policy get_rescale_policy(Geometry1 const& geometry1, Geometry2 const& ge
 
 
 #endif // BOOST_GEOMETRY_POLICIES_ROBUSTNESS_GET_RESCALE_POLICY_HPP
-

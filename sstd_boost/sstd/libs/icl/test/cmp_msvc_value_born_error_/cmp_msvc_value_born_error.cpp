@@ -36,5 +36,3 @@ BOOST_AUTO_TEST_CASE(dummy)
 {
     BOOST_CHECK( meta_predicate<int>::value );
 }
-
-

@@ -30,4 +30,3 @@ char* foo()
     return "foo";
 }
 /*]*/
-

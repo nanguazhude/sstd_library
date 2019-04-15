@@ -82,4 +82,3 @@ private:
 } } } } // end namespace boost::graph::distributed::detail
 
 #endif // BOOST_GRAPH_DISTRIBUTED_TAG_ALLOCATOR_HPP
-

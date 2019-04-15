@@ -145,4 +145,3 @@ TYPE PNode::getType()
 	return PNode_Type;
 }
 }
-

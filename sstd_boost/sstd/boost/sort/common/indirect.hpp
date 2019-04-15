@@ -151,4 +151,3 @@ static void indirect_sort(func method, Iter_t first, Iter_t last, Compare comp)
 //****************************************************************************
 //
 #endif
-

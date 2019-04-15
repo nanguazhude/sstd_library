@@ -188,6 +188,3 @@ BOOST_AUTO_TEST_CASE(test_call_once_retried_on_exception)
     BOOST_CHECK_EQUAL(throw_before_third_pass::pass_counter,3u);
     BOOST_CHECK_EQUAL(exception_counter,2u);
 }
-
-
-

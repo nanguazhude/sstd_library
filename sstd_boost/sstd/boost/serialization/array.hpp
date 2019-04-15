@@ -46,4 +46,3 @@ void serialize(Archive& ar, std::array<T,N>& a, const unsigned int /* version */
 #endif // BOOST_NO_CXX11_HDR_ARRAY
 
 #endif //BOOST_SERIALIZATION_ARRAY_HPP
-

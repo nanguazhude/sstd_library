@@ -39,4 +39,3 @@ BOOST_AUTO_TEST_CASE( test_compare_c_arrays_element_wise )
   BOOST_TEST(c < a, boost::test_tools::per_element());
 }
 //]
-

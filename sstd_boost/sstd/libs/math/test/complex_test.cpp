@@ -916,7 +916,3 @@ BOOST_AUTO_TEST_CASE( test_main )
    std::cout << "Running complex trig boundary and accuracy tests." << std::endl;
    test_boundaries();
 }
-
-
-
-

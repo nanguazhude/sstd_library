@@ -25,4 +25,3 @@ BOOST_AUTO_TEST_CASE( stack_test_bounded )
     boost::lockfree::stack<long> q(128);
     tester->run(q);
 }
-

@@ -40,4 +40,3 @@ BOOST_MPL_AUX_NA_SPEC(2, iterator_range)
 }}
 
 #endif // BOOST_MPL_ITERATOR_RANGE_HPP_INCLUDED
-

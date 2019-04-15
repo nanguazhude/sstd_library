@@ -237,4 +237,3 @@ inline bool shm_named_condition::remove(const char *name)
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif // BOOST_INTERPROCESS_SHM_NAMED_CONDITION_HPP
-

@@ -15,4 +15,3 @@ void bessel_tests_5()
    time_proc("mpf_float_100 (no expression templates", test_bessel<number<gmp_float<100>, et_off> >);
 #endif
 }
-

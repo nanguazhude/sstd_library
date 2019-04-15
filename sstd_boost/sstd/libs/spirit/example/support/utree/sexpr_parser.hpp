@@ -247,5 +247,3 @@ struct parser : qi::grammar<Iterator, utree(), whitespace<Iterator> >
 //]
 
 #endif // BOOST_SPIRIT_UTREE_EXAMPLE_SEXPR_PARSER_HPP
-
-

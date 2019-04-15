@@ -640,4 +640,3 @@ struct voronoi_ctype_traits<int32> {
 }  // boost
 
 #endif  // BOOST_POLYGON_DETAIL_VORONOI_CTYPES
-

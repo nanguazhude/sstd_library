@@ -58,4 +58,3 @@ struct node : node_base
 };
 
 #endif // NODE_DWA2004110_HPP
-

@@ -64,4 +64,3 @@ make_shared_noinit(std::size_t size)
 } /* boost */
 
 #endif
-

@@ -248,4 +248,3 @@ struct feature_of<tag::weighted_density>
 }} // namespace boost::accumulators
 
 #endif
-

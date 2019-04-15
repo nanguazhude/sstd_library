@@ -1,4 +1,4 @@
-/*
+﻿/*
 * SHAKE hash functions
 * (C) 2010,2016 Jack Lloyd
 *

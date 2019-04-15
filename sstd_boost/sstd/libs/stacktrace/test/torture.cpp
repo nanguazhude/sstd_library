@@ -24,4 +24,3 @@ int main() {
 
   std::cerr << "OK\nLines count " << result;
 }
-

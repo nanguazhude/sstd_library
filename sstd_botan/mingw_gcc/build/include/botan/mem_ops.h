@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Memory Operations
 * (C) 1999-2009,2012,2015 Jack Lloyd
 *

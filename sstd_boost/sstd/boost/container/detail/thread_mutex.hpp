@@ -179,4 +179,3 @@ class thread_mutex
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif // #ifndef BOOST_CONTAINER_DETAIL_THREAD_MUTEX_HPP
-

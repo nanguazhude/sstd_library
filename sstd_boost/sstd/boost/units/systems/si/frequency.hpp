@@ -31,4 +31,3 @@ BOOST_UNITS_STATIC_CONSTANT(hertz,frequency);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_FREQUENCY_HPP
-

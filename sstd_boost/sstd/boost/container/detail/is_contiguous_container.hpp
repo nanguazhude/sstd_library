@@ -45,4 +45,3 @@ struct is_contiguous_container
 }  //namespace boost {
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_IS_CONTIGUOUS_CONTAINER_HPP
-

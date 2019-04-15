@@ -19,6 +19,3 @@ extern "C" long BOOST_MATH_TR1_DECL boost_lround BOOST_PREVENT_MACRO_SUBSTITUTIO
 }
 
 }}}
-
-
-

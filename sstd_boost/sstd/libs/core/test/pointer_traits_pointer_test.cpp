@@ -28,4 +28,3 @@ int main()
         boost::pointer_traits<P<const int> >::pointer>));
     return boost::report_errors();
 }
-

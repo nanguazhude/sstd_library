@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/adapted/boost_array.hpp>
 
 #endif
-

@@ -183,4 +183,3 @@ struct global_fun:
 } /* namespace boost */
 
 #endif
-

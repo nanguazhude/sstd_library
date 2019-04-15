@@ -2201,4 +2201,3 @@ operator||(actor<BaseT0> const& _0, actor<BaseT1> const& _1)
 
 #undef CREF
 #endif
-

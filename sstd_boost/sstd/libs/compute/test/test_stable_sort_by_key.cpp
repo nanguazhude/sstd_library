@@ -204,4 +204,3 @@ BOOST_AUTO_TEST_CASE(stable_sort_mid_uint_by_uint)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

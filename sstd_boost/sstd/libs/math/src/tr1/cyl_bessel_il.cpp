@@ -15,6 +15,3 @@ extern "C" long double BOOST_MATH_TR1_DECL boost_cyl_bessel_il BOOST_PREVENT_MAC
 {
    return c_policies::cyl_bessel_i BOOST_PREVENT_MACRO_SUBSTITUTION(nu, x);
 }
-
-
-

@@ -26,4 +26,3 @@ MPL_TEST_CASE()
     MPL_ASSERT_RELATION( sizeof_<double>::value, ==, sizeof(double) );
     MPL_ASSERT_RELATION( sizeof_<my>::value, ==, sizeof(my) );
 }
-

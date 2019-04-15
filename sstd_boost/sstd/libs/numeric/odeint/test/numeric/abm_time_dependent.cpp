@@ -83,4 +83,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( abm_time_dependent_test , Stepper, adams_bashfort
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

@@ -561,4 +561,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(test_leading_coefficient, T, all_test_types)
     polynomial<T> a(d0a.begin(), d0a.end());
     BOOST_CHECK_EQUAL(leading_coefficient(a), T(d0a.back()));
 }
-

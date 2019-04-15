@@ -35,4 +35,3 @@ struct base_unit_info<metric::minute_base_unit> {
 }
 
 #endif // BOOST_UNIT_SYSTEMS_METRIC_MINUTE_HPP_INCLUDED
-

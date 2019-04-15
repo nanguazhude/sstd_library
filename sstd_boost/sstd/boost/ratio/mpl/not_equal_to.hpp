@@ -28,4 +28,3 @@ struct not_equal_to_impl< rational_c_tag,rational_c_tag >
 }
 
 #endif  // BOOST_RATIO_MPL_NOT_EQUAL_TO_HPP
-

@@ -500,4 +500,3 @@ namespace boost {
 
 
 #endif  // BOOST_STRING_DETAIL_COLLECTION_HPP
-

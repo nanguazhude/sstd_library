@@ -13,4 +13,3 @@
  */
 
 extern char *jambase[];
-

@@ -194,4 +194,3 @@ namespace boost {
 } // end namespace boost
 
 #endif // BOOST_SIGNALS2_SLOT_CALL_ITERATOR_HPP
-

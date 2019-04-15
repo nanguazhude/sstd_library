@@ -27,4 +27,3 @@
   } } } } // namespace boost::multiprecision::backends::detail
 
 #endif // BOOST_MP_DETAIL_DYNAMIC_ARRAY_HPP
-

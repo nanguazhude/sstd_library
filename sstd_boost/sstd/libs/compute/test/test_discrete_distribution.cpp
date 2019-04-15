@@ -235,4 +235,3 @@ BOOST_AUTO_TEST_CASE(discrete_distribution_uchar)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

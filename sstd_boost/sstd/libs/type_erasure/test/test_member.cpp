@@ -240,4 +240,3 @@ BOOST_AUTO_TEST_CASE(test_named_member_1_const) {
 }
 
 #endif
-

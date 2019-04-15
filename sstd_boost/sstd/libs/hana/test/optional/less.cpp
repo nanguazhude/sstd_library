@@ -50,4 +50,3 @@ int main() {
         hana::just(ct_ord<3>{})
     )));
 }
-

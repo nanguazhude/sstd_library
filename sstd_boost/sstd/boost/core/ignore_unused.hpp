@@ -68,4 +68,3 @@ BOOST_FORCEINLINE BOOST_CXX14_CONSTEXPR void ignore_unused()
 } // namespace boost
 
 #endif // BOOST_CORE_IGNORE_UNUSED_HPP
-

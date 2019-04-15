@@ -48,4 +48,3 @@ MPL_TEST_CASE()
         _
     )
 }
-

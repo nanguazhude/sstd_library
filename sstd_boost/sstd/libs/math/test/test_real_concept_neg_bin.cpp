@@ -50,4 +50,3 @@ int main()
   test_spot(boost::math::concepts::real_concept(0.)); // Test real concept.
   return 0;
 }
-

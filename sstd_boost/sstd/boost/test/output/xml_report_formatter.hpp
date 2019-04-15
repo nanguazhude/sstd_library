@@ -50,4 +50,3 @@ public:
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_XML_REPORT_FORMATTER_HPP_020105GER
-

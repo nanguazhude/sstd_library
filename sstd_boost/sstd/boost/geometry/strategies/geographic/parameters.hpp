@@ -166,4 +166,3 @@ struct default_order<vincenty>
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_GEOGRAPHIC_PARAMETERS_HPP
-

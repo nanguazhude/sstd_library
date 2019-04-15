@@ -126,4 +126,3 @@ private:
        //   || defined(GENERATING_DOCUMENTATION)
 
 #endif // BOOST_ASIO_PACKAGED_TASK_HPP
-

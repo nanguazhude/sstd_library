@@ -107,4 +107,3 @@ double perf_rate(const size_t count, perf_timer::nanosecond_type time)
 }
 
 #endif // PERF_HPP
-

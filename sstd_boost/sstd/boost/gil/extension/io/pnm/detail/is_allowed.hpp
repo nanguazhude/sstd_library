@@ -47,4 +47,3 @@ bool is_allowed( const image_read_info< pnm_tag >& /* info */
 } // namespace boost
 
 #endif
-

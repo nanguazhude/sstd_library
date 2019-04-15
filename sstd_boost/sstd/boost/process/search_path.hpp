@@ -52,4 +52,3 @@ inline boost::filesystem::path search_path(const boost::filesystem::path &filena
 }}
 
 #endif
-

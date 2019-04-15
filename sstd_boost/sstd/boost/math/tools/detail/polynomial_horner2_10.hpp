@@ -87,5 +87,3 @@ inline V evaluate_polynomial_c_imp(const T* a, const V& x, const mpl::int_<10>*)
 }}}} // namespaces
 
 #endif // include guard
-
-

@@ -42,4 +42,3 @@ BOOST_AUTO_TEST_CASE(vector_string)
     stream << boost::compute::int2_(1, 2);
     BOOST_CHECK_EQUAL(stream.str(), std::string("int2(1, 2)"));
 }
-

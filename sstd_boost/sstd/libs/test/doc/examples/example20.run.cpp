@@ -26,4 +26,3 @@ BOOST_AUTO_TEST_CASE( test_case )
   BOOST_TEST( true );
 }
 //]
-

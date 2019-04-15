@@ -219,4 +219,3 @@ typedef basic_line_filter<wchar_t>  wline_filter;
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>
 
 #endif // #ifndef BOOST_IOSTREAMS_LINE_FILTER_HPP_INCLUDED
-

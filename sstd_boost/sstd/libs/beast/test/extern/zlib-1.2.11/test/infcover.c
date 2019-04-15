@@ -669,4 +669,3 @@ int main(void)
     cover_fast();
     return 0;
 }
-

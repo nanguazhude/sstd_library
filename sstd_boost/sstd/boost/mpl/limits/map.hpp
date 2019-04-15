@@ -19,4 +19,3 @@
 #endif
 
 #endif // BOOST_MPL_LIMITS_MAP_HPP_INCLUDED
-

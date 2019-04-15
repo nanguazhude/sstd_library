@@ -179,4 +179,3 @@ inline void interprocess_recursive_mutex::unlock()
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_RECURSIVE_MUTEX_HPP
-

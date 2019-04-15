@@ -229,9 +229,3 @@ template BOOST_REGEX_DECL bool perl_matcher<std::basic_string<BOOST_REGEX_CHAR_T
 } // namespace boost
 
 #endif // BOOST_REGEX_NO_EXTERNAL_TEMPLATES
-
-
-
-
-
-

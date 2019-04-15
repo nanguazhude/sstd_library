@@ -158,4 +158,3 @@ namespace boost { namespace detail {
 }}
 
 #endif // BOOST_NUMERIC_TRAITS_HPP_DWA20001901
-

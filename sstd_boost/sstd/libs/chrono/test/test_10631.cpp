@@ -59,4 +59,3 @@ int main()
     std::cout << MyMillenniumClock::now() << std::endl;
     return 0;
 }
-

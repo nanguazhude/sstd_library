@@ -86,4 +86,3 @@ using boost::true_type;
 } // namespace boost
 
 #endif // BOOST_ASIO_DETAIL_TYPE_TRAITS_HPP
-

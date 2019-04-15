@@ -45,4 +45,3 @@ namespace boost { namespace mpl {
 #endif // BOOST_MPL_CFG_USE_PREPROCESSED_HEADERS
 
 #endif // BOOST_MPL_VECTOR_VECTOR30_C_HPP_INCLUDED
-

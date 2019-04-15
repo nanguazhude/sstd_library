@@ -20,4 +20,3 @@ object BOOST_PYTHON_DECL import(str name);
 }
 
 #endif
-

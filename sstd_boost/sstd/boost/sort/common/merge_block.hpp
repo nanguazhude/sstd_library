@@ -416,4 +416,3 @@ void merge_block<Iter_t, Compare, Power2>
 };//    End namespace boost
 //****************************************************************************
 #endif
-

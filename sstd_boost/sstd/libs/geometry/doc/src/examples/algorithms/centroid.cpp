@@ -48,4 +48,3 @@ centroid: (4.04663, 1.6349)
 Note that the centroid might be located in a hole or outside a polygon, easily.
 */
 //]
-

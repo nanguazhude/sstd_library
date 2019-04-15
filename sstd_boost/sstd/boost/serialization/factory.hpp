@@ -100,4 +100,3 @@ namespace serialization {                                \
 /**/
 
 #endif // BOOST_SERIALIZATION_FACTORY_HPP
-

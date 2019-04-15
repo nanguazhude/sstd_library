@@ -233,4 +233,3 @@ MPL_TEST_CASE()
     MPL_ASSERT_RELATION(size<little_map>::value, ==, 1);
     MPL_ASSERT_RELATION(size<little_map::type>::value, ==, 1);
 }
-

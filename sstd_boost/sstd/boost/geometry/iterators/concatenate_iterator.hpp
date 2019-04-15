@@ -150,4 +150,3 @@ private:
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ITERATORS_CONCATENATE_ITERATOR_HPP
-

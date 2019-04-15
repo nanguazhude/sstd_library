@@ -52,4 +52,3 @@ namespace boost { namespace hana {
 }}
 
 #endif // !BOOST_HANA_TEST_STRUCT_MINIMAL_STRUCT_HPP
-

@@ -514,4 +514,3 @@ typedef message_queue_t<offset_ptr<void> > message_queue;
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif //#ifndef BOOST_INTERPROCESS_FWD_HPP
-

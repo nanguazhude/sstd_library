@@ -817,4 +817,3 @@ inline typename enable_if_c<is_compatible_arithmetic_type<V, typename detail::ex
 }} // namespaces
 
 #endif
-

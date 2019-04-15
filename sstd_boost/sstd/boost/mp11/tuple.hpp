@@ -94,4 +94,3 @@ template<class Tp, class F> BOOST_MP11_CONSTEXPR F tuple_for_each( Tp && tp, F &
 #endif
 
 #endif // #ifndef BOOST_TUPLE_HPP_INCLUDED
-

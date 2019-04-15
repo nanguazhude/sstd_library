@@ -548,4 +548,3 @@ namespace boost { namespace polygon{
 }
 #include "detail/polygon_90_set_view.hpp"
 #endif
-

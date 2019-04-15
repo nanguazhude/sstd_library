@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Symmetric Algorithm Base Class
 * (C) 1999-2007 Jack Lloyd
 *

@@ -434,4 +434,3 @@ class remove_shared_memory_on_destroy
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_SHARED_MEMORY_OBJECT_HPP
-

@@ -19,4 +19,3 @@ OBJECT      //R ab
 //H 01: t_1_036.cpp(12): OBJECT
 //H 02: ab
 //H 03: ab
-

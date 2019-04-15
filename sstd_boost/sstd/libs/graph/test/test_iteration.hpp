@@ -53,4 +53,3 @@ void test_edge_list_graph(Graph const& g) {
 //@}
 
 #endif
-

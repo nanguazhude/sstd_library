@@ -168,5 +168,3 @@ struct algebra_dispatcher< openmp_state< T > >
 
 
 #endif
-
-

@@ -453,4 +453,3 @@ public:
 } // boost
 
 #endif // BOOST_NUMERIC_AUTOMATIC_HPP
-

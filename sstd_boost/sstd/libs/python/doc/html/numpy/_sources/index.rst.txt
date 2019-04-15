@@ -11,5 +11,3 @@ Welcome to the documentation of the Boost.Python NumPy extension!
 
    Tutorial <tutorial/index>
    Reference <reference/index>
-
-

@@ -383,4 +383,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(reveal, detail::make<reveal_adaptor>);
 }} // namespace boost::hof
 
 #endif
-

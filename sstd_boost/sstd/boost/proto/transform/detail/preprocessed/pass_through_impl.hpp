@@ -417,4 +417,3 @@
             return proto_generator()(that);
         }
     };
-

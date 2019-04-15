@@ -128,4 +128,3 @@ private:
 } /* namespace boost */
 
 #endif
-

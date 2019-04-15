@@ -491,4 +491,3 @@ void test_pool_resource()
    test_release<PoolResource>();
    test_destructor<PoolResource>();
 }
-

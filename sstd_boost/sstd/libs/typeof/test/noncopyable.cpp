@@ -34,4 +34,3 @@ void foo()
     BOOST_AUTO(const& v2, make_const_ref());
     v2.bar();
 }
-

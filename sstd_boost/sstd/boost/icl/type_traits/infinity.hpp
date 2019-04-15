@@ -177,6 +177,3 @@ struct infinity<std::string>
 }} // namespace boost icl
 
 #endif
-
-
-

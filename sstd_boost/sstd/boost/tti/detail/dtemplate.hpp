@@ -65,4 +65,3 @@
 /**/
 
 #endif // !BOOST_TTI_DETAIL_TEMPLATE_HPP
-

@@ -22,4 +22,3 @@ void check_bidirectional_range_concept(const BidirectionalRng& rng)
 {
     BOOST_RANGE_CONCEPT_ASSERT(( boost::BidirectionalRangeConcept<BidirectionalRng> ));
 }
-

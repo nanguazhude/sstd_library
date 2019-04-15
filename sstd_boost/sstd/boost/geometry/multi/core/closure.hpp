@@ -17,4 +17,3 @@
 #include <sstd/boost/geometry/core/closure.hpp>
 
 #endif // BOOST_GEOMETRY_MULTI_CORE_CLOSURE_HPP
-

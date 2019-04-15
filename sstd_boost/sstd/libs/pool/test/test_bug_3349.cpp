@@ -25,4 +25,3 @@ int main()
     BOOST_TEST(p.release_memory());
     return boost::report_errors();
 }
-

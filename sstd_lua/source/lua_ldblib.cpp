@@ -1,4 +1,4 @@
-/*
+﻿/*
 ** $Id: ldblib.c,v 1.151.1.1 2017/04/19 17:20:42 roberto Exp $
 ** Interface from Lua to its debug API
 ** See Copyright Notice in lua.h
@@ -453,4 +453,3 @@ LUAMOD_API int luaopen_debug (lua_State *L) {
   luaL_newlib(L, dblib);
   return 1;
 }
-

@@ -103,4 +103,3 @@ struct hashed_index_args
 } /* namespace boost */
 
 #endif
-

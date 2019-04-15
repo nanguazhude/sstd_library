@@ -37,4 +37,3 @@ work()
     if( error )
         boost::rethrow_exception(error);
     }
-

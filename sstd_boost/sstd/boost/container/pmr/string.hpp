@@ -48,4 +48,3 @@ typedef basic_string_of<wchar_t>::type wstring;
 }  //namespace boost {
 
 #endif   //BOOST_CONTAINER_PMR_STRING_HPP
-

@@ -154,6 +154,3 @@ int main()
   test_string("abc");
   test_string("aba");
 }
-
-
-

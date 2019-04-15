@@ -22,4 +22,3 @@ struct bounds : boundsdetail::get_impl<N>::type
 } } // namespace boost::numeric
 
 #endif
-

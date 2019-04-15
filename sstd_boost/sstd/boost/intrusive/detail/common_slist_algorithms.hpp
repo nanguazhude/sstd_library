@@ -196,4 +196,3 @@ struct get_algo<CommonSListAlgorithms, NodeTraits>
 } //namespace boost
 
 #endif //BOOST_INTRUSIVE_COMMON_SLIST_ALGORITHMS_HPP
-

@@ -15,4 +15,3 @@ EXPORT boost::core::typeinfo const & get_typeid_int()
 {
     return BOOST_CORE_TYPEID( int );
 }
-

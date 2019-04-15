@@ -249,4 +249,3 @@ struct radius_access<srs_spheroid_tag, Geometry, Dimension, boost::false_type>
 
 
 #endif // BOOST_GEOMETRY_CORE_RADIUS_HPP
-

@@ -60,4 +60,3 @@ int main()
         << std::endl;
     return fail_count;
 }
-

@@ -73,4 +73,3 @@ struct class_of : detail::class_of_impl<T> {};
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_class_of_HPP
-

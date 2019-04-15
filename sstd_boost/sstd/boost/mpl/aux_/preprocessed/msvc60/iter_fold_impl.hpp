@@ -291,4 +291,3 @@ struct iter_fold_impl
 };
 
 }}}
-

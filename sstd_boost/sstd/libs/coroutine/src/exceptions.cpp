@@ -35,4 +35,3 @@ system::error_category const& coroutine_category() BOOST_NOEXCEPT
 }
 
 }}
-

@@ -7,5 +7,3 @@
 
 #include "nova.hpp"
 #include "world_tpl_seq.cpp"
-
-

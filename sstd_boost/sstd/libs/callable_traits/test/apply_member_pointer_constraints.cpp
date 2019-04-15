@@ -29,5 +29,3 @@ int main() {
     CT_ASSERT(is_substitution_failure_apply_member_pointer<int,  int>::value);
     CT_ASSERT(is_substitution_failure_apply_member_pointer<void, int>::value);
 }
-
-

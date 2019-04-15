@@ -244,4 +244,3 @@ struct feature_of<tag::non_coherent_weighted_tail_mean<LeftRight> >
 #endif
 
 #endif
-

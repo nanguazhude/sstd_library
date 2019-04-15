@@ -20,4 +20,3 @@
 #undef BGL_FORALL_INEDGES
 
 #endif
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
  * XMSS Address
  * (C) 2016 Matthias Gierlings
  *

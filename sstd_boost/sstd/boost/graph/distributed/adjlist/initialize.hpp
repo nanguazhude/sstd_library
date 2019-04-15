@@ -317,4 +317,3 @@ initialize(EdgeIterator first, EdgeIterator last,
 }   // end namespace boost
 
 #endif // BOOST_GRAPH_DISTRIBUTED_ADJLIST_INITIALIZE_HPP
-

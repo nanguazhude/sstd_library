@@ -164,4 +164,3 @@ bool operator!=(const polymorphic_allocator<T1>& a, const polymorphic_allocator<
 }  //namespace boost {
 
 #endif   //BOOST_CONTAINER_PMR_POLYMORPHIC_ALLOCATOR_HPP
-

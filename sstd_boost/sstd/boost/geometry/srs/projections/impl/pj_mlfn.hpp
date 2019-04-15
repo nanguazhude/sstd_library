@@ -131,4 +131,3 @@ inline T pj_inv_mlfn(T const& arg, T const& es, detail::en<T> const& en)
 }}} // namespace boost::geometry::projections
 
 #endif
-

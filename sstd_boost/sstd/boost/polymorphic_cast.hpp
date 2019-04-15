@@ -98,4 +98,3 @@ namespace boost
 } // namespace boost
 
 #endif  // BOOST_POLYMORPHIC_CAST_HPP
-

@@ -35,4 +35,3 @@ ZEXTERN int ZEXPORT inflateBack9Init_ OF((z_stream FAR *strm,
 #ifdef __cplusplus
 }
 #endif
-

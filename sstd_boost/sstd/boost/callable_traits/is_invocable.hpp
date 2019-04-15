@@ -101,4 +101,3 @@ constexpr bool is_invocable_r_v = //see below
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_IS_INVOCABLE_HPP
-

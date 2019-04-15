@@ -38,4 +38,3 @@ void connection_manager::stop_all()
 
 } // namespace server
 } // namespace http
-

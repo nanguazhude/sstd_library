@@ -15,4 +15,3 @@ static_assert(std::is_same<hana::common<int, float>::type, float>{}, "");
 static_assert(std::is_same<hana::common<Person, Employee>::type, Person>{}, "");
 
 int main() { }
-

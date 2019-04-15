@@ -459,4 +459,3 @@ inline RealType kurtosis(const inverse_gamma_distribution<RealType, Policy>& dis
 #include <sstd/boost/math/distributions/detail/derived_accessors.hpp>
 
 #endif // BOOST_STATS_INVERSE_GAMMA_HPP
-

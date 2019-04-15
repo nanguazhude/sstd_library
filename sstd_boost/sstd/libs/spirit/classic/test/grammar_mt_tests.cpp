@@ -316,4 +316,3 @@ static BOOST_SPIRIT_CLASSIC_NS::parse_info<char const *> pi;
 
 
 #endif // MT mode
-

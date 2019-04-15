@@ -363,4 +363,3 @@ return_point_on_surface(Geometry const& geometry)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_POINT_ON_SURFACE_HPP
-

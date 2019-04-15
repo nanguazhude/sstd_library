@@ -278,4 +278,3 @@ BOOST_AUTO_TEST_CASE(erasure)
     BOOST_CHECK(set2.empty());
     BOOST_CHECK_EQUAL(set2.size(), 0UL);
 }
-

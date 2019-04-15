@@ -134,4 +134,3 @@ int main()
         std::cout << "Function calls: " << mc.calls() << std::endl;
     }
 }
-

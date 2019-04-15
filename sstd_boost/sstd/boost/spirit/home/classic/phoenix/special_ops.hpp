@@ -272,4 +272,3 @@ struct binary_operator<index_op, T0 const, T1>
 #undef PHOENIX_SSTREAM
 #undef PHOENIX_STD
 #endif
-

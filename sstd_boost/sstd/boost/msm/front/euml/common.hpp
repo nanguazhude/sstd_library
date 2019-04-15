@@ -2712,4 +2712,3 @@ namespace boost { namespace msm{
 }}
 
 #endif // BOOST_MSM_FRONT_EUML_COMMON_H
-

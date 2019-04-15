@@ -244,4 +244,3 @@ TT_TEST_BEGIN(BOOST_TT_TRAIT_NAME)
    common();
    specific();
 TT_TEST_END
-

@@ -64,4 +64,3 @@ struct referent_storage
 }}} // namespace boost::python::detail
 
 #endif // REFERENT_STORAGE_DWA200278_HPP
-

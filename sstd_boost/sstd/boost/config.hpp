@@ -65,4 +65,3 @@
 #endif
 
 #endif  // BOOST_CONFIG_HPP
-

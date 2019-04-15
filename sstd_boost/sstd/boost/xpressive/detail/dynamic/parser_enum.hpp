@@ -79,4 +79,3 @@ enum compiler_token_type
 }}} // namespace boost::xpressive::regex_constants
 
 #endif
-

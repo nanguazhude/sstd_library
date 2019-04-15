@@ -50,4 +50,3 @@ struct group_ref : handler_base_ext
 
 
 #endif /* BOOST_PROCESS_DETAIL_POSIX_GROUP_REF_HPP_ */
-

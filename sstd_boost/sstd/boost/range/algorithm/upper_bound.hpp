@@ -125,4 +125,3 @@ upper_bound( const ForwardRange& rng, Value val, SortPredicate pred )
 } // namespace boost
 
 #endif // include guard
-

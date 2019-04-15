@@ -74,5 +74,3 @@ comparable_distance_centroid(Point const& pt, Indexable const& i)
 }}}} // namespace boost::geometry::index::detail
 
 #endif // #define BOOST_GEOMETRY_INDEX_DETAIL_ALGORITHMS_COMPARABLE_DISTANCE_CENTROID_HPP
-
-

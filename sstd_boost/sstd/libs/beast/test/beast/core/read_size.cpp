@@ -48,4 +48,3 @@ BEAST_DEFINE_TESTSUITE(beast,core,read_size);
 
 } // beast
 } // boost
-

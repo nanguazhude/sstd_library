@@ -51,4 +51,3 @@ int main(int, char*[])
     test_optional();
     return 0;
 }
-

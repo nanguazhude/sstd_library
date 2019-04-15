@@ -589,4 +589,3 @@ struct missing_virtual_destructor< ::boost::movelib::default_delete<T>, U >
 }  //namespace boost {
 
 #endif //#ifndef BOOST_MOVE_UNIQUE_PTR_DETAIL_META_UTILS_HPP
-

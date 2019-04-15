@@ -385,4 +385,3 @@ public:
 } // namespace boost
 
 #endif // SUBARRAY_RG071801_HPP
-

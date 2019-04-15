@@ -40,4 +40,3 @@ class unconstrained_set_view
 } // namespace boost
 
 #endif // BOOST_BIMAP_VIEWS_UNCONSTRAINED_SET_VIEW_HPP
-

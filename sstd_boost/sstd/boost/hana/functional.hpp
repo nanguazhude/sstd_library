@@ -31,4 +31,3 @@ Distributed under the Boost Software License, Version 1.0.
 #include <sstd/boost/hana/functional/reverse_partial.hpp>
 
 #endif // !BOOST_HANA_FUNCTIONAL_HPP
-

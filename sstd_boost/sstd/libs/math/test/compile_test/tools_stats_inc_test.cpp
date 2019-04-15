@@ -9,4 +9,3 @@
 #include <sstd/boost/math/tools/stats.hpp>
 
 template class boost::math::tools::stats<double>;
-

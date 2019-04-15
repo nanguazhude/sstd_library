@@ -17,4 +17,3 @@
 #include <sstd/boost/uuid/random_generator.hpp>
 
 #endif //BOOST_UUID_GENERATORS_HPP
-

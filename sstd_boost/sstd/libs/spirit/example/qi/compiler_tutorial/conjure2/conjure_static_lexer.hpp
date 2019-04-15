@@ -482,4 +482,3 @@ struct lexer_conjure_static
 }}}}}  // namespace boost::spirit::lex::lexertl::static_
 
 #endif
-

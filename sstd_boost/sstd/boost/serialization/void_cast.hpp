@@ -297,4 +297,3 @@ class BOOST_SYMBOL_VISIBLE void_caster :
 #include <sstd/boost/config/abi_suffix.hpp> // pops abi_suffix.hpp pragmas
 
 #endif // BOOST_SERIALIZATION_VOID_CAST_HPP
-

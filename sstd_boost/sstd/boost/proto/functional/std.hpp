@@ -13,4 +13,3 @@
 #include <sstd/boost/proto/functional/std/iterator.hpp>
 
 #endif
-

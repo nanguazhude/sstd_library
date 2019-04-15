@@ -151,4 +151,3 @@ typedef employee_set::index<
 #endif
 
 #endif
-

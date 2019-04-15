@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_PHOENIX_OPERATOR
 #include <sstd/boost/phoenix/operator.hpp>
 #endif
-

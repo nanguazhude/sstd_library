@@ -16,4 +16,3 @@ BOOST_HANA_CONSTANT_CHECK(is_void(hana::type_c<void>));
 BOOST_HANA_CONSTANT_CHECK(hana::not_(is_void(hana::type_c<int>)));
 
 int main() { }
-

@@ -73,4 +73,3 @@ Output:
   tgamma(my_value, my_policy() = 1.#QNAN
   tgamma(my_value, make_policy(domain_error<errno_on_error>(), pole_error<errno_on_error>(), overflow_error<errno_on_error>(), evaluation_error<errno_on_error>() ) = 1.#QNAN
 */
-

@@ -36,4 +36,3 @@ int main() {
     hana::test::TestSearchable<hana::ext::std::tuple_tag>{tuples, keys};
     hana::test::TestSearchable<hana::ext::std::tuple_tag>{bool_tuples, bool_keys};
 }
-

@@ -129,4 +129,3 @@ BEAST_DEFINE_TESTSUITE(beast,http,verb);
 } // http
 } // beast
 } // boost
-

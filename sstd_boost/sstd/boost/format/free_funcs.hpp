@@ -68,4 +68,3 @@ namespace boost {
 
 
 #endif // BOOST_FORMAT_FUNCS_HPP
-

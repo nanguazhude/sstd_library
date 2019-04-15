@@ -7,5 +7,3 @@
 // #includes all the files that it needs to.
 //
 #include <sstd/boost/math/tools/minima.hpp>
-
-

@@ -31,4 +31,3 @@ MPL_TEST_CASE()
     typedef list8_c<int,1,4,0,2,0,0,3,0>::type answer;
     MPL_ASSERT(( equal< answer,result,equal_to<_1,_2> > ));
 }
-

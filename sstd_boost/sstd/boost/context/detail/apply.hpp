@@ -72,4 +72,3 @@ apply( Fn && fn, Tpl && tpl)
 #endif
 
 #endif // BOOST_CONTEXT_DETAIL_APPLY_H
-

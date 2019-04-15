@@ -34,4 +34,3 @@ ERROR_internal_hpp_is_for_internal_use_only
     PyTypeObject const * object_manager_traits<manager>::get_pytype() { return &pytype; }
 
 #endif
-

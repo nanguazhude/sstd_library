@@ -21,4 +21,3 @@ struct is_shared_ptr<std::shared_ptr<T> > : std::true_type {};
 }}} // namespace boost::python::detail
 
 #endif
-

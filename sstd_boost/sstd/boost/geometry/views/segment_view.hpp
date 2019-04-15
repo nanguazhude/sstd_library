@@ -98,4 +98,3 @@ struct tag<segment_view<Segment> >
 
 
 #endif // BOOST_GEOMETRY_VIEWS_SEGMENT_VIEW_HPP
-

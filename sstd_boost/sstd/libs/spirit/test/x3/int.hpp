@@ -59,4 +59,3 @@ struct custom_int
 };
 
 #endif
-

@@ -43,4 +43,3 @@ namespace boost { namespace hana {
 }}
 
 #endif // !TEST_SUPPORT_TRACKED_MOVE_ONLY_HPP
-

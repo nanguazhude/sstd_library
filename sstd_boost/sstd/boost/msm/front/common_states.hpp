@@ -34,5 +34,3 @@ struct polymorphic_state
 }}}
 
 #endif //BOOST_MSM_FRONT_COMMON_STATES_H
-
-

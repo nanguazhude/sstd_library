@@ -119,5 +119,3 @@ struct RealTypeConcept
 }}} // namespaces
 
 #endif
-
-

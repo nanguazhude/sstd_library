@@ -180,4 +180,3 @@ struct select_most_precise<T1, void, void>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_UTIL_SELECT_MOST_PRECISE_HPP
-

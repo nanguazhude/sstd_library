@@ -782,4 +782,3 @@ namespace gregorian {
 } } // namespaces
 
 #endif // DATE_TIME_GREGORIAN_IO_HPP__
-

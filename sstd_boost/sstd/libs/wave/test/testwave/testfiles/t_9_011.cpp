@@ -28,4 +28,3 @@ PRIMITIVE_CAT3(ABC, 1, ABC)   //R ABC1ABC
 //H 00: t_9_011.cpp(19): PRIMITIVE_CAT3(ABC, 1, ABC), [t_9_011.cpp(15): PRIMITIVE_CAT3(a, b, c)=a ## b ## c]
 //H 02: ABC1ABC
 //H 03: ABC1ABC
-

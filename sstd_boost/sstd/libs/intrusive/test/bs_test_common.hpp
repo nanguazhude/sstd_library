@@ -61,4 +61,3 @@ struct tree_rebinder_common
 }  //namespace boost {
 
 #endif //BOOST_INTRUSIVE_TEST_BS_TEST_COMMON_HPP
-

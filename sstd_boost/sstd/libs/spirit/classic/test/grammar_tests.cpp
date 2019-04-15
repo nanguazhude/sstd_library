@@ -154,5 +154,3 @@ main()
     grammar_tests();
     return boost::report_errors();
 }
-
-

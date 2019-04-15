@@ -13,4 +13,3 @@ struct incomplete;
 BOOST_STATIC_ASSERT(!boost::fusion::traits::is_view<incomplete>::value);
 
 int main() { }
-

@@ -27,4 +27,3 @@ namespace date_time {
 } }//namespace date_time
 
 #endif
-

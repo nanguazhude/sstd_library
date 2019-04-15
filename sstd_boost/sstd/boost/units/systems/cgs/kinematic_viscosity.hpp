@@ -32,4 +32,3 @@ BOOST_UNITS_STATIC_CONSTANT(stokes,kinematic_viscosity);
 } // namespace boost
 
 #endif // BOOST_UNITS_CGS_KINEMATIC_VISCOSITY_HPP
-

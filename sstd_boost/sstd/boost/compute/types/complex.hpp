@@ -194,4 +194,3 @@ struct type_name_trait<std::complex<T> >
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_TYPES_COMPLEX_HPP
-

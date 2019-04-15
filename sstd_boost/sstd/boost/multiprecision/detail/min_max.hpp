@@ -112,4 +112,3 @@ inline typename detail::expression<tag, A1, A2, A3, A4>::result_type (max)(const
 }} // namespaces
 
 #endif
-

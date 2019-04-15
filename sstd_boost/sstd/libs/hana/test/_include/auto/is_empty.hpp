@@ -53,4 +53,3 @@ TestCase test_is_empty{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_IS_EMPTY_HPP
-

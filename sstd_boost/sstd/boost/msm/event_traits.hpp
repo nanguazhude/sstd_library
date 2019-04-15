@@ -34,4 +34,3 @@ struct is_kleene_event< boost::any >
 
 } } // boost::msm
 #endif //BOOST_MSM_EVENT_TRAITS_H
-

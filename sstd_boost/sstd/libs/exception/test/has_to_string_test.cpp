@@ -55,4 +55,3 @@ main()
     BOOST_TEST( has_to_string<int>::value );
     return boost::report_errors();
     }
-

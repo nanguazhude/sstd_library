@@ -1089,4 +1089,3 @@ class state_machine : noncopyable
 
 
 #endif
-

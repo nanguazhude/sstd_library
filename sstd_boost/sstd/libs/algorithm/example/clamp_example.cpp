@@ -52,4 +52,3 @@ int main ( int /*argc*/, char * /*argv*/ [] ) {
     std::cout << "Expected:     clamp ((double)12, 14.7, 15.9 ) --> " << ba::clamp ((double) 12, 14.7, 15.9 ) << std::endl;
     return 0;
     }
-

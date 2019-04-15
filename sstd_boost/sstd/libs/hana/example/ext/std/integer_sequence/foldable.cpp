@@ -23,4 +23,3 @@ int main() {
 
     BOOST_HANA_RUNTIME_CHECK(sum == 6.3);
 }
-

@@ -234,4 +234,3 @@ private:
 }}} // namespace boost::geometry::index
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_RTREE_RSTAR_CHOOSE_NEXT_NODE_HPP
-

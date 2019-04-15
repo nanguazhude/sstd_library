@@ -156,4 +156,3 @@ MPL_TEST_CASE()
 
     HAS_XXX_TEMPLATE_ASSERT(( has_xxx_template<c1> ));
 }
-

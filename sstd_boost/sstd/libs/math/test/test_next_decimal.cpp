@@ -203,6 +203,3 @@ BOOST_AUTO_TEST_CASE( test_main )
    // Faster, but no good for diagnising the cause of any issues:
    test_values(boost::multiprecision::cpp_dec_float_50(0), "cpp_dec_float_50");
 }
-
-
-

@@ -63,4 +63,3 @@ inline void vtk_copy_buffer_to_data_array(buffer_iterator<T> first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_INTEROP_VTK_DATA_ARRAY_HPP
-

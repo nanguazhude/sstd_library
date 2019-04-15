@@ -128,4 +128,3 @@ struct unwrap_recursive< recursive_wrapper<T> >
 } // namespace boost
 
 #endif // BOOST_VARIANT_RECURSIVE_WRAPPER_FWD_HPP
-

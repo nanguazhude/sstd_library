@@ -38,4 +38,3 @@ struct is_index_list
 } /* namespace boost */
 
 #endif
-

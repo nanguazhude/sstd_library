@@ -11,6 +11,3 @@ int main()
 {
    return boost::is_constructible<incomplete_type, int>::value;
 }
-
-
-

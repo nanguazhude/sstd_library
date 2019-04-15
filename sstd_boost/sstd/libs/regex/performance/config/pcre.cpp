@@ -15,4 +15,3 @@ int main()
    pcre2_match_data_free(pdata);
    return 0;
 }
-

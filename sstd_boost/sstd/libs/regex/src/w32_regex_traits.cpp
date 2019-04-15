@@ -649,5 +649,3 @@ BOOST_REGEX_DECL bool BOOST_REGEX_CALL w32_is(lcid_type idx, boost::uint32_t m, 
 } // boost
 
 #endif
-
-

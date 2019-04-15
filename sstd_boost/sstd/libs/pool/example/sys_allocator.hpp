@@ -107,4 +107,3 @@ struct new_delete_allocator
 #endif
 
 #endif
-

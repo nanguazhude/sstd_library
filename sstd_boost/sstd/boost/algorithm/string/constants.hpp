@@ -33,5 +33,3 @@ namespace boost {
 } // namespace boost
 
 #endif  // BOOST_STRING_CONSTANTS_HPP
-
-

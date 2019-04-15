@@ -148,4 +148,3 @@ void test_xml_parser()
 }
 
 #endif
-

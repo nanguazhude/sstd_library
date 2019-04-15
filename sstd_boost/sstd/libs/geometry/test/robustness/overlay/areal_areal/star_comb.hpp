@@ -127,5 +127,3 @@ inline void make_comb(Polygon& polygon, AddFunctor functor,
 
 
 #endif // BOOST_GEOMETRY_STAR_COMB_HPP
-
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * EAX Mode
 * (C) 1999-2007,2013 Jack Lloyd
 * (C) 2016 Daniel Neus, Rohde & Schwarz Cybersecurity

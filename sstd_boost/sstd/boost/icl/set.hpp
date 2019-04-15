@@ -22,5 +22,3 @@ Copyright (c) 2007-2011: Joachim Faulhaber
 #include <sstd/boost/icl/functors.hpp>
 
 #endif // BOOST_ICL_SET_HPP_JOFA_070519
-
-

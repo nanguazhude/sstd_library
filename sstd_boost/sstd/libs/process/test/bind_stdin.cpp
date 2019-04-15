@@ -255,4 +255,3 @@ BOOST_AUTO_TEST_CASE(file_io_C, *boost::unit_test::timeout(2))
     c.wait();
     boost::filesystem::remove(pth);
 }
-

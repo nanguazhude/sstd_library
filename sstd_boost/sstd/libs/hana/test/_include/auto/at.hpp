@@ -89,4 +89,3 @@ TestCase test_at{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_AT_HPP
-

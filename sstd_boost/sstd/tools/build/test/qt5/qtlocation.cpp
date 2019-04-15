@@ -28,4 +28,3 @@ BOOST_AUTO_TEST_CASE( geo_location )
 
     BOOST_CHECK_EQUAL(geolocation.address(), address);
 }
-

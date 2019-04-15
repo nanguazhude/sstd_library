@@ -86,4 +86,3 @@ class xsi_shared_memory_file_wrapper
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_XSI_SHARED_MEMORY_FILE_WRAPPER_HPP
-

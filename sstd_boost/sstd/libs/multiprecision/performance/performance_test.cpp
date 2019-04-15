@@ -849,5 +849,3 @@ int main()
    quickbook_results();
    return 0;
 }
-
-

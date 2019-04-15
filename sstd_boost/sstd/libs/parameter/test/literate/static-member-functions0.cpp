@@ -12,4 +12,3 @@ struct somebody
         std::cout << arg1 << std::endl;
     }
 };
-

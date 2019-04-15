@@ -207,12 +207,12 @@ extern void luaFullTest() {
             }
         };
 
-       
+
         ::lua_createtable(L,3,3);
         auto varTable = ::lua_gettop(L);
 
         ::lua_settable_userdata(L,varTable,
-            new Test112, [](void *arg)->void {  
+            new Test112, [](void *arg)->void {
             delete reinterpret_cast< Test112 * >(arg);  },"",0);
 
         reinterpret_cast<Test112 *>(
@@ -235,8 +235,8 @@ extern void luaFullTest() {
 
     {
         auto var = luaBuildString(L,
-            u8R"1( return function(  a , b )  
-                            return a + b;  
+            u8R"1( return function(  a , b )
+                            return a + b;
                           end    )1"sv);
         luaCallString(L, var);
 
@@ -278,4 +278,3 @@ extern void luaFullTest() {
 
     ::lua_close(L);
 }
-

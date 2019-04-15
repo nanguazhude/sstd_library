@@ -16,4 +16,3 @@ void f(boost::function0<void> f, boost::function0<void> g)
 {
   BOOST_STATIC_ASSERT((boost::is_same<boost::function0<void>, BOOST_TYPEOF(f = g)>::value));
 }
-

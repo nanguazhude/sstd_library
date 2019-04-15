@@ -1026,4 +1026,3 @@ public:
 
 
 #endif /* BOOST_LOCKFREE_SPSC_QUEUE_HPP_INCLUDED */
-

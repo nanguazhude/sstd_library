@@ -148,4 +148,3 @@ Boost.Geometry approach to support high precision:
 */
 
 #endif // _DOXYGEN_ROBUSTNESS_HPP
-

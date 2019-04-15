@@ -24,4 +24,3 @@ int main()
     out.flush();
     assert(result == "Hello World!");
 }
-

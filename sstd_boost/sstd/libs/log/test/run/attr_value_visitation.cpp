@@ -236,4 +236,3 @@ BOOST_AUTO_TEST_CASE(visit_function)
     recv.set_expected("Hello, world!");
     BOOST_CHECK(logging::visit< std::string >(data::attr3(), values2, recv));
 }
-

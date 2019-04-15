@@ -51,4 +51,3 @@ public:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALLOCATOR_PINNED_ALLOCATOR_HPP
-

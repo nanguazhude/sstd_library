@@ -498,5 +498,3 @@ namespace boost {
 #undef BOOST_TT_DEF_CALL
 
 #endif // BOOST_TT_IS_FUNCTION_CXX_11_HPP_INCLUDED
-
-

@@ -403,4 +403,3 @@ distance(Geometry1 const& geometry1,
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_DISTANCE_INTERFACE_HPP
-

@@ -120,5 +120,3 @@ int main()
 //right_open_interval<string>: [Barcelona,Boston) does NOT contain 'Boston'
 //right_open_interval<Time>  : [mon:08:31,mon:17:20)
 //]
-
-

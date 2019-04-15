@@ -279,4 +279,3 @@ initialized_value_t const initialized_value = {} ;
 #endif
 
 #endif
-

@@ -66,8 +66,3 @@ main()
     test_get_allocator(data);
     return boost::report_errors();
 }
-
-
-
-
-

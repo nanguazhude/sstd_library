@@ -43,4 +43,3 @@ int main()
     rectangle_concept_test1();
     return boost::report_errors();
 }
-

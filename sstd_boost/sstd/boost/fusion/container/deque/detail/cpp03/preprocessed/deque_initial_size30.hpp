@@ -16,4 +16,3 @@ namespace boost { namespace fusion { namespace detail
         typedef typename mpl::distance<typename mpl::begin<args>::type, first_void>::type type;
     };
 }}}
-

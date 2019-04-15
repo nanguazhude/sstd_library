@@ -50,4 +50,3 @@ struct handler_type
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_HANDLER_TYPE_HPP
-

@@ -82,4 +82,3 @@ namespace boost { namespace parallel {
 #include <sstd/boost/graph/parallel/detail/inplace_all_to_all.hpp>
 
 #endif // BOOST_PARALLEL_ALGORITHM_HPP
-

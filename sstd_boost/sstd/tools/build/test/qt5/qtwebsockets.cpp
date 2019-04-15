@@ -22,4 +22,3 @@ BOOST_AUTO_TEST_CASE( websocket )
 
     BOOST_TEST(socket.isValid() == false);
 }
-

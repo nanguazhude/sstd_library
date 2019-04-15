@@ -303,4 +303,3 @@ int main(int argc, char*argv [])
    std::cout << "processed, ok\n";
    return 0;
 }
-

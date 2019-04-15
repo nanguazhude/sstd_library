@@ -239,4 +239,3 @@ namespace detail {
 } // namespace boost
 
 #endif // BOOST_RANDOM_DISCARD_BLOCK_HPP
-

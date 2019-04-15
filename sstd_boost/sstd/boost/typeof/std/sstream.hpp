@@ -30,4 +30,3 @@ BOOST_TYPEOF_REGISTER_TYPE(std::ostringstream)
 BOOST_TYPEOF_REGISTER_TYPE(std::stringstream)
 
 #endif//BOOST_TYPEOF_STD_sstream_hpp_INCLUDED
-

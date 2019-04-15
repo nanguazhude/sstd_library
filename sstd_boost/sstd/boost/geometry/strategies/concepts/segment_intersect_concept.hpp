@@ -76,4 +76,3 @@ public :
 }}} // namespace boost::geometry::concepts
 
 #endif // BOOST_GEOMETRY_STRATEGIES_CONCEPTS_SEGMENT_INTERSECT_CONCEPT_HPP
-

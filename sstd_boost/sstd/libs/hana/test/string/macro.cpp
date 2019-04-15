@@ -29,4 +29,3 @@ int main() {
         static_assert(std::is_same<decltype(s1), decltype(s2)>::value, "");
     }
 }
-

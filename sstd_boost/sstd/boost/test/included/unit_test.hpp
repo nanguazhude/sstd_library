@@ -38,4 +38,3 @@
 #include <sstd/boost/test/unit_test.hpp>
 
 #endif // BOOST_INCLUDED_UNIT_TEST_FRAMEWORK_HPP_071894GER
-

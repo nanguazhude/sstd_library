@@ -22,4 +22,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_TT_IS_COMPOUND_HPP_INCLUDED
-

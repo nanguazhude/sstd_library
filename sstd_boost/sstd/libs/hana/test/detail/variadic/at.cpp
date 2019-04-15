@@ -91,4 +91,3 @@ int main() {
     int const i = 1;
     vd::at<0>(i);
 }
-

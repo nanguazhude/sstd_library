@@ -99,4 +99,3 @@ int main()
     unwrap_test();
     return boost::report_errors();
 }
-

@@ -80,4 +80,3 @@ st_connected(const Graph& g,
 } } // end namespace boost::graph
 
 #endif // BOOST_GRAPH_DISTRIBUTED_ST_CONNECTED_HPP
-

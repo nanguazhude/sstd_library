@@ -17,4 +17,3 @@ int main() {
     constexpr auto ys = hana::make<hana::tuple_tag>(1, '2', 3.456);
     static_assert(ys == hana::make_tuple(1, '2', 3.456), "");
 }
-

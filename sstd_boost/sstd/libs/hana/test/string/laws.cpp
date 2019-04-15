@@ -93,4 +93,3 @@ int main() {
         hana::test::TestSearchable<hana::string_tag>{strings, keys};
     }
 }
-

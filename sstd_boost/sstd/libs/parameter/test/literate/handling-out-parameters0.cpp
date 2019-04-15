@@ -27,5 +27,3 @@ BOOST_PARAMETER_FUNCTION((void), f, tag,
       default_color_map(num_vertices(graph), index_map) )
 )
 ) {}
-
-

@@ -105,4 +105,3 @@ int main()
 
     return info.full ? 0 : 1;
 }
-

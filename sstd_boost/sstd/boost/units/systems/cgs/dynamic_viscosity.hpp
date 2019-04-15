@@ -31,4 +31,3 @@ BOOST_UNITS_STATIC_CONSTANT(poise,dynamic_viscosity);
 } // namespace boost
 
 #endif // BOOST_UNITS_CGS_DYNAMIC_VISCOSITY_HPP
-

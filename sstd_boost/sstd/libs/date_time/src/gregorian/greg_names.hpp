@@ -41,4 +41,3 @@ namespace gregorian {
 #endif // BOOST_NO_STD_WSTRING
 } } // boost::gregorian
 #endif // DATE_TIME_SRC_GREG_NAMES_HPP___
-

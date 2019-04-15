@@ -316,11 +316,3 @@ inline result_type_to_sig<F> std_functor(const F& f) { return f; }
 } // namespace boost
 
 #endif
-
-
-
-
-
-
-
-

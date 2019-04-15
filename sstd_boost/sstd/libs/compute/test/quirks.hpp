@@ -126,4 +126,3 @@ inline bool pocl_bug_issue_577(const boost::compute::device &device)
 }
 
 #endif // BOOST_COMPUTE_TEST_QUIRKS_HPP
-

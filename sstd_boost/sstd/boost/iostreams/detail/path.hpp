@@ -212,4 +212,3 @@ inline bool operator==(const path& lhs, const path& rhs)
 } } } // End namespaces detail, iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_PATH_HPP_INCLUDED
-

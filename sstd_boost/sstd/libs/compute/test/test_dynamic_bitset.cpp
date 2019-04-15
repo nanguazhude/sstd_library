@@ -94,4 +94,3 @@ BOOST_AUTO_TEST_CASE(none_and_any)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

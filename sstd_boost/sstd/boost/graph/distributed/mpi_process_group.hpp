@@ -808,4 +808,3 @@ BOOST_CLASS_TRACKING(boost::graph::distributed::mpi_process_group::outgoing_mess
 #include <sstd/boost/graph/distributed/detail/mpi_process_group.ipp>
 
 #endif // BOOST_PARALLEL_MPI_MPI_PROCESS_GROUP_HPP
-

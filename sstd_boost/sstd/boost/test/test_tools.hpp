@@ -66,4 +66,3 @@
 #endif
 
 #endif // BOOST_TEST_TOOLS_HPP_111812GER
-

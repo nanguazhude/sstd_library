@@ -34,4 +34,3 @@ void_ void_::copy() const
 }
 
 }}} // namespace boost::python::numpy
-

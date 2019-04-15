@@ -194,4 +194,3 @@ class shm_named_condition_any
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif // BOOST_INTERPROCESS_SHM_NAMED_CONDITION_ANY_HPP
-

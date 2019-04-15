@@ -24,4 +24,3 @@ int main() {
     hana::test::TestComparable<hana::ext::boost::mpl::integral_c_tag<int>>{ints};
     hana::test::TestHashable<hana::ext::boost::mpl::integral_c_tag<void>>{ints};
 }
-

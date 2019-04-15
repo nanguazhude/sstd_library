@@ -14,4 +14,3 @@ int main()
   test_erasure();
   return boost::report_errors();
 }
-

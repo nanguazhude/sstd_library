@@ -98,4 +98,3 @@ inline event opengl_enqueue_release_buffer(const opengl_buffer &buffer,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_INTEROP_OPENGL_ACQUIRE_HPP
-

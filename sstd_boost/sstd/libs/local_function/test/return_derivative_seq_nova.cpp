@@ -7,5 +7,3 @@
 
 #include "nova.hpp"
 #include "return_derivative_seq.cpp"
-
-

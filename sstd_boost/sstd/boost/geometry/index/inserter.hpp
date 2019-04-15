@@ -81,4 +81,3 @@ insert_iterator<Container> inserter(Container & c)
 }}} // namespace boost::geometry::index
 
 #endif // BOOST_GEOMETRY_INDEX_INSERTER_HPP
-

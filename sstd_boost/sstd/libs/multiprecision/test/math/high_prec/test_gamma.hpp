@@ -88,6 +88,3 @@ void test_gamma(T, const char* name)
    do_test_gamma<T>(gamma_neg, name, "Negative arguments");
 
 }
-
-
-

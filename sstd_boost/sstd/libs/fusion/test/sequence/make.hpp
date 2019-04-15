@@ -86,4 +86,3 @@ test()
         FUSION_MAKE(&make_tuple_test);
     }
 }
-

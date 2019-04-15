@@ -737,4 +737,3 @@ void rule_localize( RULE * rule, module_t * m )
         rule->procedure = procedure;
     }
 }
-

@@ -57,4 +57,3 @@ main()
     BOOST_TEST(n == 0);
     return boost::report_errors();
 }
-

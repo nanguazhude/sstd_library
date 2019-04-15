@@ -185,4 +185,3 @@ namespace boost
 } // end namespace boost
 
 #undef BOOST_SIGNALS2_NUM_ARGS
-

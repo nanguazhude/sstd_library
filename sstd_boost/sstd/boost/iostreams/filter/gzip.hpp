@@ -755,4 +755,3 @@ gzip_params basic_gzip_decompressor<Alloc>::make_params(int window_bits)
 #endif
 
 #endif // #ifndef BOOST_IOSTREAMS_GZIP_HPP_INCLUDED
-

@@ -47,4 +47,3 @@ BOOST_AUTO_TEST_CASE(using_named_parameters_and_bundled_params_on_edmonds_karp_m
 
   BOOST_CHECK_EQUAL(flow_value,4);
 }
-

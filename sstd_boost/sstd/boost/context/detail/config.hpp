@@ -116,4 +116,3 @@ static constexpr std::size_t prefetch_stride{ 4 * cacheline_length };
 #endif
 
 #endif // BOOST_CONTEXT_DETAIL_CONFIG_H
-

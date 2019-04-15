@@ -277,4 +277,3 @@
             )(proto::eval(proto::child_c< 2>( expr), context) , proto::eval(proto::child_c< 3>( expr), context) , proto::eval(proto::child_c< 4>( expr), context) , proto::eval(proto::child_c< 5>( expr), context) , proto::eval(proto::child_c< 6>( expr), context) , proto::eval(proto::child_c< 7>( expr), context) , proto::eval(proto::child_c< 8>( expr), context) , proto::eval(proto::child_c< 9>( expr), context));
         }
     };
-

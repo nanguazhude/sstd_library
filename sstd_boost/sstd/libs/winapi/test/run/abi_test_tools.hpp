@@ -93,4 +93,3 @@ inline void test_equal_signatures(Windows_SDK_Signature*, BoostWinAPI_Signature*
 #endif
 
 #endif // BOOST_WINAPI_TEST_RUN_ABI_TEST_TOOLS_HPP_INCLUDED_
-

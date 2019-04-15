@@ -50,4 +50,3 @@ int main() {
         hana::tuple_t<F<x1>, F<x2>, F<x3>, F<x4>>
     ));
 }
-

@@ -87,4 +87,3 @@ struct default_result_converter::apply<PyObject*>
 }} // namespace boost::python
 
 #endif // DEFAULT_CALL_POLICIES_DWA2002131_HPP
-

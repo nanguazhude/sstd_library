@@ -196,5 +196,3 @@ struct map_val
 }} // namespace boost icl
 
 #endif
-
-

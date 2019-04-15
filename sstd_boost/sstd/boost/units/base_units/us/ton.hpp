@@ -37,4 +37,3 @@ struct base_unit_info<us::ton_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNIT_BASE_UNITS_US_TON_HPP_INCLUDED
-

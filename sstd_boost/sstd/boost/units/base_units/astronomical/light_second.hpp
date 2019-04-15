@@ -25,4 +25,3 @@ BOOST_TYPEOF_REGISTER_TYPE(boost::units::astronomical::light_second_base_unit)
 #endif
 
 #endif // BOOST_UNIT_SYSTEMS_ASTRONOMICAL_LIGHT_SECOND_HPP_INCLUDED
-

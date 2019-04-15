@@ -19,4 +19,3 @@
 #include <sstd/boost/test/impl/debug.ipp>
 
 #endif // BOOST_INCLUDED_EXECUTION_MONITOR_HPP_051410GER
-

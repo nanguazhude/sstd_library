@@ -108,4 +108,3 @@ struct lacks_placeholder {
 } // namespace boost
 
 #endif
-

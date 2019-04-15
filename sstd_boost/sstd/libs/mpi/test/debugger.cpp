@@ -31,5 +31,3 @@ void wait_for_debugger(std::vector<int> const& processes, boost::mpi::communicat
     }
   }
 }
-
-

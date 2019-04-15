@@ -86,4 +86,3 @@ inline std::string symbol_string(const reduce_unit<si::resistance>::type&) { ret
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_IO_HPP
-

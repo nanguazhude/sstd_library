@@ -4064,4 +4064,3 @@ bind(ClassT const* obj,RT(ClassT::*fptr)(A, B, C, D, E, F, G, H, I, J, K, L, M, 
 }   //  namespace phoenix
 
 #endif
-

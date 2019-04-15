@@ -36,4 +36,3 @@ BOOST_MPL_AUX_NA_SPEC(2, find)
 }}
 
 #endif // BOOST_MPL_FIND_HPP_INCLUDED
-

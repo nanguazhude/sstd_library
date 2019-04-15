@@ -110,4 +110,3 @@ BOOST_ASIO_TEST_SUITE
   BOOST_ASIO_TEST_CASE(exception_test)
   BOOST_ASIO_TEST_CASE(fall_off_end_test)
 )
-

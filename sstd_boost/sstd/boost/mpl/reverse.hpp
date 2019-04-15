@@ -36,4 +36,3 @@ BOOST_MPL_AUX_NA_SPEC(1, reverse)
 }}
 
 #endif // BOOST_MPL_REVERSE_HPP_INCLUDED
-

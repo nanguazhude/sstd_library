@@ -9,5 +9,3 @@
 
 // Tests the #include directive.
 #define MACRO_005_007 abc
-
-

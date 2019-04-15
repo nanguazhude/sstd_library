@@ -126,4 +126,3 @@
 			 *(void **)result = (void *)(first)); \
     ((void **)(result))[1] = (void *)(second);	\
 }
-

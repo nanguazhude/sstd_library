@@ -469,4 +469,3 @@ struct node_alloc_holder
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif // BOOST_CONTAINER_DETAIL_NODE_ALLOC_HPP_
-

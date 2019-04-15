@@ -116,4 +116,3 @@ struct resize_impl_sfinae< FusionSeq , FusionSeq ,
 
 
 #endif // BOOST_NUMERIC_ODEINT_UTIL_RESIZE_HPP_INCLUDED
-

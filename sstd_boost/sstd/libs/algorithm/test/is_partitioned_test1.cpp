@@ -75,4 +75,3 @@ BOOST_AUTO_TEST_CASE( test_main )
   BOOST_CXX14_CONSTEXPR bool constexpr_res = test_constexpr ();
   BOOST_CHECK ( constexpr_res );
 }
-

@@ -30,4 +30,3 @@ typedef derived_dimension<length_base_dimension,2,
 } // namespace boost
 
 #endif // BOOST_UNITS_SPECIFIC_HEAT_CAPACITY_DERIVED_DIMENSION_HPP
-

@@ -97,4 +97,3 @@ private:
 } } } // End namespaces example, iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_UNIX2DOS_FILTER_FILTER_HPP_INCLUDED
-

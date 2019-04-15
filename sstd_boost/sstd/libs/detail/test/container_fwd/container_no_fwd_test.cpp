@@ -12,4 +12,3 @@ int main()
     std::set<int> x;
     std::vector<std::string> y;
 }
-

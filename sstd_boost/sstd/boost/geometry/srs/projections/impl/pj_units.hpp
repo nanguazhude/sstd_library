@@ -87,4 +87,3 @@ static const pj_units_type pj_units[] =
 }}} // namespace boost::geometry::projections
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_IMPL_PJ_UNITS_HPP
-

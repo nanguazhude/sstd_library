@@ -101,4 +101,3 @@ inline T inner_product(InputIterator1 first1,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_INNER_PRODUCT_HPP
-

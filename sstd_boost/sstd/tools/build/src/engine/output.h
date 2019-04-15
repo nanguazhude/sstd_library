@@ -39,4 +39,3 @@ OBJECT * outf_double( double const value );
 OBJECT * outf_time( timestamp const * const value );
 
 #endif
-

@@ -505,5 +505,3 @@ BOOST_AUTO_TEST_CASE(test_tss_cleanup_not_called_for_null_pointer)
 //    BOOST_CHECK(!tss_cleanup_called);
 //  }
 //}
-
-

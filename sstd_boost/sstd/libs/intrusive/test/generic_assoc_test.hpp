@@ -370,4 +370,3 @@ void test_generic_assoc<ContainerDefiner>::test_insert_before
 }}}   //namespace boost::intrusive::test
 
 #include <sstd/boost/intrusive/detail/config_end.hpp>
-

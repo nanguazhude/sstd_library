@@ -236,4 +236,3 @@ struct extra_operations< Base, Size, Signed, false > :
 #endif
 
 #endif // BOOST_ATOMIC_DETAIL_EXTRA_OPS_EMULATED_HPP_INCLUDED_
-

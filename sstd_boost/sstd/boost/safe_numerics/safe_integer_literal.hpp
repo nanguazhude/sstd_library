@@ -249,4 +249,3 @@ public:
 } // std
 
 #endif // BOOST_NUMERIC_SAFE_INTEGER_LITERAL_HPP
-

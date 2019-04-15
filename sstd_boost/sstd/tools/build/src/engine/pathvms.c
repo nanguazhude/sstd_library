@@ -251,5 +251,3 @@ void path_done( void )
 }
 
 #endif
-
-

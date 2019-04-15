@@ -11,4 +11,3 @@
 #else
 # include <sstd/boost/coroutine/posix/protected_stack_allocator.hpp>
 #endif
-

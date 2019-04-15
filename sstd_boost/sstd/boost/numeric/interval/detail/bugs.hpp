@@ -46,4 +46,3 @@
 #endif
 
 #endif // BOOST_NUMERIC_INTERVAL_DETAIL_BUGS
-

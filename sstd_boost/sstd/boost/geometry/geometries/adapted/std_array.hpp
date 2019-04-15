@@ -112,5 +112,3 @@ struct access<std::array<CoordinateType, DimensionCount>, Dimension>
 
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_ADAPTED_STD_ARRAY_HPP
-
-

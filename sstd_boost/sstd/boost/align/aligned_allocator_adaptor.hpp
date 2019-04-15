@@ -172,4 +172,3 @@ operator!=(const aligned_allocator_adaptor<A, Alignment>& a,
 } /* boost */
 
 #endif
-

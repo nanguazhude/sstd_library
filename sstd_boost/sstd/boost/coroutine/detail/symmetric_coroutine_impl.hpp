@@ -447,4 +447,3 @@ protected:
 #endif
 
 #endif // BOOST_COROUTINES_DETAIL_SYMMETRIC_COROUTINE_IMPL_H
-

@@ -23,4 +23,3 @@ namespace boost
 } // boost
 
 #endif  // BOOST_CHRONO_CLOCK_STRING_HPP
-

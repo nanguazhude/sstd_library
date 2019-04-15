@@ -149,4 +149,3 @@ operator >=( boost::unit_test::basic_cstring<CharT> const& x,
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_BASIC_CSTRING_COMPARE_HPP_071894GER
-

@@ -13,4 +13,3 @@ int main(int, char*[])
     mm = _mm_shuffle_epi8(_mm_alignr_epi8(mm, mm, 10), mm);
     return 0;
 }
-

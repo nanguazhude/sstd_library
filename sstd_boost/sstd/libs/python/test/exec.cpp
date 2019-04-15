@@ -195,4 +195,3 @@ int main(int argc, char **argv)
 // the debugger immediately, rather than being translated into structured
 // exceptions that can interfere with debugging.
 #include "module_tail.cpp"
-

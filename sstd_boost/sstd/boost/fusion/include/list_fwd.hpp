@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/container/list/list_fwd.hpp>
 
 #endif
-

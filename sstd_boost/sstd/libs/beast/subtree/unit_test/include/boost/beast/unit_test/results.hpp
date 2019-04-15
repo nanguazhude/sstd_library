@@ -244,4 +244,3 @@ public:
 } // boost
 
 #endif
-

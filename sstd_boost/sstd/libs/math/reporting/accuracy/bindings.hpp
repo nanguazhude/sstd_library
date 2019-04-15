@@ -762,5 +762,3 @@ template <class T> T do_nc_t_ccdf(T df, T nc, T x){ return cdf(complement(boost:
 
 
 #endif
-
-

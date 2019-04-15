@@ -206,5 +206,3 @@ int main() {
 }
 
 #endif // MSVC
-
-

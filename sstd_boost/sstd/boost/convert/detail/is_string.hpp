@@ -32,4 +32,3 @@ namespace boost { namespace cnv
 }}
 
 #endif // BOOST_CONVERT_DETAIL_IS_STRING_HPP
-

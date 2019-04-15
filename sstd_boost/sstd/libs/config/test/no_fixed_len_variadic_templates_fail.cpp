@@ -34,5 +34,3 @@ int main( int, char *[] )
 {
    return boost_no_cxx11_fixed_length_variadic_template_expansion_packs::test();
 }
-
-

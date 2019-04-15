@@ -5,5 +5,3 @@ in the root directory:
      b2 --toolset=msvc-10.0express --build-type=complete --with-regex stage
 
 boost-no-inspect
-
-

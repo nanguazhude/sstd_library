@@ -24,5 +24,3 @@ void test()
     copy<FUSION_SEQUENCE<TEST_TYPE> >();
     copy<FUSION_SEQUENCE<TEST_TYPE, TEST_TYPE> >();
 }
-
-

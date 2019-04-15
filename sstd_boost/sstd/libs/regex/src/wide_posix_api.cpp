@@ -306,8 +306,3 @@ BOOST_REGEX_DECL void BOOST_REGEX_CCALL regfreeW(regex_tW* expression)
 } // namespace boost;
 
 #endif
-
-
-
-
-

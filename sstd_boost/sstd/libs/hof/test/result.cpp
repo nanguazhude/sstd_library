@@ -24,4 +24,3 @@ BOOST_HOF_TEST_CASE()
 {
     STATIC_ASSERT_SAME(decltype(unary_void(false)), void);
 }
-

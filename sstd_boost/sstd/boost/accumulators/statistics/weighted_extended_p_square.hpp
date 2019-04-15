@@ -288,4 +288,3 @@ using extract::weighted_extended_p_square;
 }} // namespace boost::accumulators
 
 #endif
-

@@ -121,4 +121,3 @@ struct tag<model::linestring<Point, Container, Allocator> >
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_LINESTRING_HPP
-

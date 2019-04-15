@@ -32,4 +32,3 @@
 #endif
 
 #endif // BOOST_MPL_AUX_CONFIG_HAS_XXX_HPP_INCLUDED
-

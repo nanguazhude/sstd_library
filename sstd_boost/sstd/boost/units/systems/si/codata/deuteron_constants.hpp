@@ -80,4 +80,3 @@ BOOST_UNITS_PHYSICAL_CONSTANT(mu_d_over_mu_n,quantity<dimensionless>,-0.44820652
 } // namespace boost
 
 #endif // BOOST_UNITS_CODATA_DEUTERON_CONSTANTS_HPP
-

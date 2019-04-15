@@ -66,4 +66,3 @@ bool is_self_turn(Turn const& turn)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_IS_SELF_TURN_HPP
-

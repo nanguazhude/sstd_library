@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Prefetching Operations
 * (C) 2009 Jack Lloyd
 *

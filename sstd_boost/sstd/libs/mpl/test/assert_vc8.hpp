@@ -26,4 +26,3 @@ bool func()
 
     return true;
 }
-

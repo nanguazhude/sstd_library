@@ -38,4 +38,3 @@ namespace objects
 }} // namespace boost::python::objects
 
 #endif // FUNCTION_OBJECT_DWA2002725_HPP
-

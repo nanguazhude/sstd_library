@@ -30,4 +30,3 @@
             rng_tuple_t(BOOST_PP_ENUM(n, BOOST_RANGE_combined_seq, begin)), \
             rng_tuple_t(BOOST_PP_ENUM(n, BOOST_RANGE_combined_seq, end))); \
     }
-

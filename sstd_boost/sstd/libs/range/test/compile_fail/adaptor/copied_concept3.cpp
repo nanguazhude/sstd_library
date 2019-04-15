@@ -21,4 +21,3 @@ int main(int, const char**)
     return boost::adaptors::copy(
         mock_range<boost::bidirectional_traversal_tag>(), 0, 1).front();
 }
-

@@ -23,4 +23,3 @@
 
 #define HASH_TEST_CAT(x, y) HASH_TEST_CAT2(x, y)
 #define HASH_TEST_CAT2(x, y) x##y
-

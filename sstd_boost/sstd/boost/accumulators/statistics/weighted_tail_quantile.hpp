@@ -144,4 +144,3 @@ using extract::weighted_tail_quantile;
 #endif
 
 #endif
-

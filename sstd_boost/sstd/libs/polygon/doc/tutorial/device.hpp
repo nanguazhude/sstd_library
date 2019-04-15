@@ -36,4 +36,3 @@ inline std::istream& operator >> (std::istream& i, device& r)
 }
 
 #endif
-

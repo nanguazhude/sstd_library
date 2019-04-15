@@ -826,4 +826,3 @@ public:
 #undef BOOST_HEAP_ASSERT
 
 #endif /* BOOST_HEAP_D_ARY_HEAP_HPP */
-

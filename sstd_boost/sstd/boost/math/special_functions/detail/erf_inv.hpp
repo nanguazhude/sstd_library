@@ -546,5 +546,3 @@ inline typename tools::promote_args<T>::type erf_inv(T z)
 #endif
 
 #endif // BOOST_MATH_SF_ERF_INV_HPP
-
-

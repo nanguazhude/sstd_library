@@ -20,4 +20,3 @@ int main() {
     boost::make_variant_over<boost::fusion::vector<int, char> >::type t;
     (void)t;
 }
-

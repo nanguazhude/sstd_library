@@ -39,4 +39,3 @@ namespace boost { namespace hana {
 }}
 
 #endif // !TEST_SUPPORT_CONSTEXPR_MOVE_ONLY_HPP
-

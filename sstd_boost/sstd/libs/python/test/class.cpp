@@ -26,4 +26,3 @@ BOOST_PYTHON_MODULE(class_ext)
 }
 
 #include "module_tail.cpp"
-

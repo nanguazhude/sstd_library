@@ -648,4 +648,3 @@ pdf(mypoisson, 2.) == 0.14652511110987343
 *** No errors detected
 
 */
-

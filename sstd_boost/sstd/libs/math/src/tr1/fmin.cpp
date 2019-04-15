@@ -19,6 +19,3 @@ extern "C" double BOOST_MATH_TR1_DECL boost_fmin BOOST_PREVENT_MACRO_SUBSTITUTIO
       return x;
    return (std::min)(x, y);
 }
-
-
-

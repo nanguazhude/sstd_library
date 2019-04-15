@@ -24,4 +24,3 @@ std::string error_string(int err_code);
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_ERROR_STRING_HPP
-

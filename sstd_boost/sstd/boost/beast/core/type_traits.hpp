@@ -477,4 +477,3 @@ struct is_file<T, detail::void_t<decltype(
 } // boost
 
 #endif
-

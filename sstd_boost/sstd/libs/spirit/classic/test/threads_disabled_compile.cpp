@@ -17,4 +17,3 @@
 #include <sstd/boost/spirit/include/classic.hpp>
 
 int main() { return 0; }
-

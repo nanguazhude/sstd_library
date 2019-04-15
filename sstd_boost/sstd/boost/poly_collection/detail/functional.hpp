@@ -199,4 +199,3 @@ struct transparent_equal_to
 } /* namespace boost */
 
 #endif
-

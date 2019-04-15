@@ -8,4 +8,3 @@
 #define BOOST_STACKTRACE_LINK
 #include <sstd/boost/stacktrace/detail/frame_msvc.ipp>
 #include <sstd/boost/stacktrace/safe_dump_to.hpp>
-

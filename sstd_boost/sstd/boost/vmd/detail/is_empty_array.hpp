@@ -18,4 +18,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_IS_EMPTY_ARRAY_HPP */
-

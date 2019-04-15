@@ -42,4 +42,3 @@ static const allocation_type zero_memory        = boost::container::zero_memory;
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif //   #ifndef  BOOST_INTERPROCESS_CONTAINERS_ALLOCATION_TYPE_HPP
-

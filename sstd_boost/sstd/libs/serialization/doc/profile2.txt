@@ -201,4 +201,3 @@ Index by function name
    [9] void test_transform_width<6, 8>(unsigned int) [11] boost::archive::iterators::xml_unescape<char const*>::drain_residue(char const*) [17] char* std::string::_S_construct<char*>(char*, char*, std::allocator<char> const&, std::forward_iterator_tag)
   [15] void test_stream_iterators<char>(char const*, unsigned int) [10] boost::archive::iterators::xml_unescape<char const*>::drain() [18] std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<char*>(char*, char*, std::allocator<char> const&)
   [12] __static_initialization_and_destruction_0(int, int) (performance_iterators.cpp) [6] boost::archive::iterators::transform_width<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, 8, 6, char>::fill() [7] std::vector<char, std::allocator<char> >::_M_insert_aux(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, char const&)
-

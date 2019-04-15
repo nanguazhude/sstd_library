@@ -31,4 +31,3 @@ struct is_stateless
 } // namespace boost
 
 #endif // BOOST_TT_IS_STATELESS_HPP_INCLUDED
-

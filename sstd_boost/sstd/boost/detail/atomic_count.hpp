@@ -19,4 +19,3 @@
 #include <sstd/boost/smart_ptr/detail/atomic_count.hpp>
 
 #endif // #ifndef BOOST_DETAIL_ATOMIC_COUNT_HPP_INCLUDED
-

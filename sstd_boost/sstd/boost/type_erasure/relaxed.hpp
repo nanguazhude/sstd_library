@@ -89,4 +89,3 @@ struct is_relaxed< ::boost::type_erasure::relaxed> :
 }
 
 #endif
-

@@ -36,4 +36,3 @@
 //H 01: t_2_006.cpp(12): PRAGMA_BODY
 //H 02: preprocessed pragma body
 //H 03: preprocessed pragma body
-

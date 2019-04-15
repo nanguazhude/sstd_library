@@ -63,4 +63,3 @@ template <typename T> std::size_t get_num_channels(const T& a) { return a.num_ch
 #define pix_bytestep pixel_size
 
 #endif
-

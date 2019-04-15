@@ -276,4 +276,3 @@ struct is_nullary< custom_terminal< boost::log::expressions::attribute_terminal<
 #endif
 
 #endif // BOOST_LOG_EXPRESSIONS_ATTR_HPP_INCLUDED_
-

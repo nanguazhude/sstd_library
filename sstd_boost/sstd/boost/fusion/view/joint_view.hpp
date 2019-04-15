@@ -12,4 +12,3 @@
 #include <sstd/boost/fusion/view/joint_view/joint_view_iterator.hpp>
 
 #endif
-

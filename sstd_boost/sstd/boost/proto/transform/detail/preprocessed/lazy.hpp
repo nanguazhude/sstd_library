@@ -405,4 +405,3 @@
             >::template impl<Expr, State, Data>
         {};
     };
-

@@ -559,4 +559,3 @@ struct is_nullary< custom_terminal< boost::log::expressions::aux::max_size_decor
 #include <sstd/boost/log/detail/footer.hpp>
 
 #endif // BOOST_LOG_EXPRESSIONS_FORMATTERS_MAX_SIZE_DECORATOR_HPP_INCLUDED_
-

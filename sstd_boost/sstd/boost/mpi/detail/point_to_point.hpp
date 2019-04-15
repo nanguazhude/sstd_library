@@ -50,4 +50,3 @@ packed_archive_recv(MPI_Comm comm, int source, int tag, packed_iarchive& ar,
 } } } // end namespace boost::mpi::detail
 
 #endif // BOOST_MPI_DETAIL_POINT_TO_POINT_HPP
-

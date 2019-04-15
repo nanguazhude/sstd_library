@@ -1630,4 +1630,3 @@ namespace boost { namespace spirit
 # pragma warning(pop)
 #endif
 #endif
-

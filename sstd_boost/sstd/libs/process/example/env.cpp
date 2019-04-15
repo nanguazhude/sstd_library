@@ -22,4 +22,3 @@ int main()
 
     bp::system("test.exe", bp::env["PATH"]+="/bar");
 }
-

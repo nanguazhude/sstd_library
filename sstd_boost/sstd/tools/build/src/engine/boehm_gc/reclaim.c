@@ -606,4 +606,3 @@ GC_bool GC_reclaim_all(GC_stop_func stop_func, GC_bool ignore_old)
     }
     return(TRUE);
 }
-

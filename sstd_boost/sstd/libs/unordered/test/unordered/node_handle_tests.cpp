@@ -422,4 +422,3 @@ UNORDERED_AUTO_TEST (insert_node_handle_unique_tests2) {
 }
 
 RUN_TESTS()
-

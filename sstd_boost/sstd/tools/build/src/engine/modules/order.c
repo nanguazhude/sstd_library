@@ -158,4 +158,3 @@ void init_order()
         declare_native_rule( "class@order", "order", args, order, 1 );
     }
 }
-

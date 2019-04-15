@@ -61,4 +61,3 @@ struct codecvt_holder<default_codecvt> {
 } } } // End namespaces detail, iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_CODECVT_HOLDER_HPP_INCLUDED
-

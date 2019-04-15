@@ -20,5 +20,3 @@ using lib::_index;
 
 int x = lib::f(_name = "jill", _index = 1);
 int main() {}
-
-

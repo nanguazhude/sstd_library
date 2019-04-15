@@ -30,4 +30,3 @@ CAT( MACRO(*) )
 //H 00: t_1_011.cpp(19): CAT( MACRO(*) ), [t_1_011.cpp(14): CAT(x)=X ## x]
 //H 02: XMACRO(*)
 //H 03: XMACRO(*)
-

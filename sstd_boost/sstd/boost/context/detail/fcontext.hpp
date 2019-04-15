@@ -43,5 +43,3 @@ transfer_t BOOST_CONTEXT_CALLDECL ontop_fcontext( fcontext_t const to, void * vp
 #endif
 
 #endif // BOOST_CONTEXT_DETAIL_FCONTEXT_H
-
-

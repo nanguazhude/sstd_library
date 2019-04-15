@@ -356,4 +356,3 @@ gursoy_atun_layout(const VertexListAndIncidenceGraph& graph,
 } // namespace boost
 
 #endif // BOOST_GRAPH_GURSOY_ATUN_LAYOUT_HPP
-

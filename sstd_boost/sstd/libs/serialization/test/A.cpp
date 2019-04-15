@@ -216,4 +216,3 @@ A::operator<(const A &rhs) const {
     #endif
     return false;
 }
-

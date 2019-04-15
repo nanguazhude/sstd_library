@@ -24,5 +24,3 @@ BOOST_MPL_ASSERT((
   is_same< ft::member_object_pointer< mpl::vector<int,C> >::type
          , expected >
 ));
-
-

@@ -16,5 +16,3 @@ class C;
 typedef ft::result_type<C>::type error_1;
 typedef ft::result_type<char>::type error_2;
 typedef ft::result_type<void>::type error_3;
-
-

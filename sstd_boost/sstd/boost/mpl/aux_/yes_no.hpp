@@ -56,4 +56,3 @@ template<> struct weighted_tag<0>
 }}}
 
 #endif // BOOST_MPL_AUX_YES_NO_HPP_INCLUDED
-

@@ -69,4 +69,3 @@ std::error_category const& future_category() noexcept {
 }
 
 }}
-

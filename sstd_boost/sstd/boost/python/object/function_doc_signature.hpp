@@ -34,4 +34,3 @@ public:
 }}}//end of namespace boost::python::objects
 
 #endif //FUNCTION_SIGNATURE_20070531_HPP
-

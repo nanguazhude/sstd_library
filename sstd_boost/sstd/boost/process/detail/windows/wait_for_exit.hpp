@@ -121,4 +121,3 @@ inline bool wait_for(
 }}}}
 
 #endif
-

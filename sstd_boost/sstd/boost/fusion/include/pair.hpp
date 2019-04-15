@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/support/pair.hpp>
 
 #endif
-

@@ -165,10 +165,3 @@ namespace gregorian {
 #endif // BOOST_DATE_TIME_NO_LOCALE
 
 } } //namespace gregorian
-
-
-
-
-
-
-

@@ -254,5 +254,3 @@ namespace boost
 
    } // namespace tiny_xml
 } // namespace boost
-
-

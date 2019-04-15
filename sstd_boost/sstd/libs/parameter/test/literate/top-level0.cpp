@@ -36,4 +36,3 @@ smart_ptr<
    Foo
  , deleter<Deallocate<Foo> >
  , copy_policy<DeepCopy> > p(new Foo);
-

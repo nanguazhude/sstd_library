@@ -73,4 +73,3 @@ typedef basic_standard_stack_allocator< stack_traits >  standard_stack_allocator
 #endif
 
 #endif // BOOST_COROUTINES_STANDARD_STACK_ALLOCATOR_H
-

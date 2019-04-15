@@ -48,4 +48,3 @@ BOOST_MPL_AUX_NA_SPEC(3, reverse_fold)
 }}
 
 #endif // BOOST_MPL_REVERSE_FOLD_HPP_INCLUDED
-

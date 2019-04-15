@@ -16,4 +16,3 @@
 #include <sstd/boost/spirit/home/karma/directive/no_delimit.hpp>
 
 #endif
-

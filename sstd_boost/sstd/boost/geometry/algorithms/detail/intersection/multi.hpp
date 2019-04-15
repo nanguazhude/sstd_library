@@ -418,5 +418,3 @@ struct intersection_insert
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_INTERSECTION_MULTI_HPP
-
-

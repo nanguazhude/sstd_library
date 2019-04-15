@@ -164,4 +164,3 @@ private:
 #endif // defined(BOOST_ASIO_HEADER_ONLY)
 
 #endif // BOOST_ASIO_DETAIL_SERVICE_REGISTRY_HPP
-

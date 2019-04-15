@@ -45,4 +45,3 @@ struct points_end
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ITERATORS_DISPATCH_POINT_ITERATOR_HPP
-

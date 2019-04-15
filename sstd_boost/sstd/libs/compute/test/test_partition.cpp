@@ -80,4 +80,3 @@ BOOST_AUTO_TEST_CASE(partition_small_vector)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

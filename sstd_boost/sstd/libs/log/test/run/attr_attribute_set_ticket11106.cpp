@@ -49,4 +49,3 @@ BOOST_AUTO_TEST_CASE(ticket11106)
         BOOST_CHECK_EQUAL(j, i);
     }
 }
-

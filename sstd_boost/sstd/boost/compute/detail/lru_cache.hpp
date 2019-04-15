@@ -137,4 +137,3 @@ private:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_DETAIL_LRU_CACHE_HPP
-

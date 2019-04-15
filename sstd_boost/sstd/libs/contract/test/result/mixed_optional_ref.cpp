@@ -8,5 +8,3 @@
 
 #define BOOST_CONTRACT_TEST_REF
 #include "mixed_optional.hpp"
-
-

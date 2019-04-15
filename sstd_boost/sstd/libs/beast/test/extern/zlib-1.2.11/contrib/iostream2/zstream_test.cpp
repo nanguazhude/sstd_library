@@ -23,4 +23,3 @@ void main() {
 
     delete[] x; delete[] y;
 }
-

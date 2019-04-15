@@ -15,4 +15,3 @@ int main()
    d = ::lgamma(d);
    return d != 0 ? 0 : 1;
 }
-

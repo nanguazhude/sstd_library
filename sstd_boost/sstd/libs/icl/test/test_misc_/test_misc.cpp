@@ -264,4 +264,3 @@ BOOST_AUTO_TEST_CASE(test_chrono_identity_elements)
     BOOST_CHECK(( boost::is_same<              boost::chrono::duration<int>
                                 , size_type_of<boost::chrono::duration<int> >::type >::value ));
 }
-

@@ -242,4 +242,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(first_of, detail::make<first_of_adaptor>);
 }} // namespace boost::hof
 
 #endif
-

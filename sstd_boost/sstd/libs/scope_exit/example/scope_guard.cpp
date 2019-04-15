@@ -43,5 +43,3 @@ int main(void) {
 }
 
 #endif // variadic macros
-
-

@@ -137,4 +137,3 @@ spawn(F0&& f, FN&&... fn)
 } // boost
 
 #endif
-

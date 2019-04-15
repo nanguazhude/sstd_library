@@ -11,6 +11,3 @@ int main()
 {
    cpp_bin_float<50> a;
 }
-
-
-

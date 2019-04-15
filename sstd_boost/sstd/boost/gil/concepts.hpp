@@ -2280,4 +2280,3 @@ struct ImageConcept {
 } }  // namespace boost::gil
 
 #endif
-

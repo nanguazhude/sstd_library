@@ -909,4 +909,3 @@ using namespace operators_impl;
 
 #endif // BOOST_NO_OPERATORS_IN_NAMESPACE
 #endif // BOOST_OPERATORS_HPP
-

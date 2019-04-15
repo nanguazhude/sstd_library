@@ -20,4 +20,3 @@ void compile_and_link_test()
    boost::math::complement(f, f, d, l);
    boost::math::complement(f, f, d, l, i);
 }
-

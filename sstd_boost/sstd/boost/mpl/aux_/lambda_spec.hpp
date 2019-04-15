@@ -47,4 +47,3 @@ struct lambda< \
 #endif
 
 #endif // BOOST_MPL_AUX_LAMBDA_SPEC_HPP_INCLUDED
-

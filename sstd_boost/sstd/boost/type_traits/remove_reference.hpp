@@ -57,4 +57,3 @@ template <class T> struct remove_reference<T&const volatile>{ typedef T type; };
 } // namespace boost
 
 #endif // BOOST_TT_REMOVE_REFERENCE_HPP_INCLUDED
-

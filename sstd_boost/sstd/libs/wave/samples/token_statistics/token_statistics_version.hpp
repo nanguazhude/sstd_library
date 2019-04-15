@@ -18,4 +18,3 @@
 #define TOKEN_STATISTICS_VERSION_SUBMINOR        0
 
 #endif // !defined(TOKEN_STATISTICS_VERSION_HPP)
-

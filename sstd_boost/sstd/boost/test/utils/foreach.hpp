@@ -314,4 +314,3 @@ for( bool BOOST_TEST_FE_CON_VAR = true;                                         
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_UTILS_FOREACH_HPP
-

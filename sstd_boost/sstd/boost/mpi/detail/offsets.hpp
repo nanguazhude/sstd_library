@@ -45,4 +45,3 @@ int* make_skipped_slots(communicator const& comm, int const* sizes, int const* d
 }}// end namespace boost::mpi
 
 #endif // BOOST_MPI_OFFSETS_HPP
-

@@ -211,4 +211,3 @@ inline negate_type<Real, F> negate(F f)
 }
 
 #endif
-

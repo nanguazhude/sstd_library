@@ -316,4 +316,3 @@ struct pointer_traits<T*>
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif // ! defined(BOOST_INTRUSIVE_POINTER_TRAITS_HPP)
-

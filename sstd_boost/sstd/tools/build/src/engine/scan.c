@@ -742,4 +742,3 @@ void yyinput_last_read_token( OBJECT * * name, int * line )
     *name = yylval.file;
     *line = yylval.line;
 }
-

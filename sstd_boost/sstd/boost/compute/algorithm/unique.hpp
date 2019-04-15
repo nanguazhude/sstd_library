@@ -71,4 +71,3 @@ inline InputIterator unique(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_UNIQUE_HPP
-

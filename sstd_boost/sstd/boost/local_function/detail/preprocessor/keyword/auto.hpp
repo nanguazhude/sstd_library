@@ -55,5 +55,3 @@
             BOOST_LOCAL_FUNCTION_DETAIL_PP_KEYWORD_IS_AUTO_BACK, auto)
 
 #endif // #include guard
-
-

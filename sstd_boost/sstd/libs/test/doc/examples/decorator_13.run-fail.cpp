@@ -44,4 +44,3 @@ BOOST_AUTO_TEST_CASE(test5,
   BOOST_TEST( 1.100 == 1.101 );
 }
 //]
-

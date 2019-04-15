@@ -187,4 +187,3 @@ flush_buffer(Buffer& buf, Device& dev, bool flush)
 } } } // End namespaces detail, iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_FUNCTIONAL_HPP_INCLUDED
-

@@ -46,4 +46,3 @@ namespace boost { namespace msm { namespace back
 
 
 #endif //BOOST_MSM_BACK_MPL_GRAPH_FSM_CHECK_H
-

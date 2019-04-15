@@ -11,6 +11,3 @@ int main()
 {
    return boost::is_polymorphic<incomplete_type>::value;
 }
-
-
-

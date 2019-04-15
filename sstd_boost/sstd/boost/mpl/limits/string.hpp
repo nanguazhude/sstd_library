@@ -19,4 +19,3 @@
 #endif
 
 #endif // BOOST_MPL_LIMITS_STRING_HPP_INCLUDED
-

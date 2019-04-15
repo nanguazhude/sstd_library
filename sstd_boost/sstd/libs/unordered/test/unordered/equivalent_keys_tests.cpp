@@ -75,4 +75,3 @@ UNORDERED_AUTO_TEST (map_tests) {
 }
 
 RUN_TESTS()
-

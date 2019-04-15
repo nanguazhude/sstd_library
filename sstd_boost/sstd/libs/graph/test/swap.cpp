@@ -19,4 +19,3 @@ int main()
     test_member_swap<boost::directed_graph<> >();
     test_member_swap<boost::undirected_graph<> >();
 }
-

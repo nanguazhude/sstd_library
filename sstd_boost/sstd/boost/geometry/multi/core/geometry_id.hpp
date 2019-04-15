@@ -18,4 +18,3 @@
 #include <sstd/boost/geometry/core/geometry_id.hpp>
 
 #endif // BOOST_GEOMETRY_MULTI_CORE_GEOMETRY_ID_HPP
-

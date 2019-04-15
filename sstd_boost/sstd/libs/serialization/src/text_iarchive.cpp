@@ -31,4 +31,3 @@ template class text_iarchive_impl<text_iarchive> ;
 
 } // namespace archive
 } // namespace boost
-

@@ -15,4 +15,3 @@ int main()
   my_example.do_something();
   return 0;
 }
-

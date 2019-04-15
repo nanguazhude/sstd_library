@@ -119,4 +119,3 @@ singleton_default<T>::create_object;
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //BOOST_CONTAINER_DETAIL_SINGLETON_DETAIL_HPP
-

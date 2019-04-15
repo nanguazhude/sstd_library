@@ -53,4 +53,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_GRAPH_EXCEPTION_HPP
-

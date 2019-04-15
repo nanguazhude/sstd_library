@@ -427,4 +427,3 @@ basic_bzip2_decompressor<Alloc>::basic_bzip2_decompressor
 #endif
 
 #endif // #ifndef BOOST_IOSTREAMS_BZIP2_HPP_INCLUDED
-

@@ -13,4 +13,3 @@
 #define MAKE_TUPLE boost::fusion::make_vector
 
 #include "detail/zip_iterator_test.ipp"
-

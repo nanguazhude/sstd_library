@@ -68,4 +68,3 @@ BOOST_MPL_AUX_NA_SPEC(1, second)
 }}
 
 #endif // BOOST_MPL_PAIR_HPP_INCLUDED
-

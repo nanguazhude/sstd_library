@@ -76,4 +76,3 @@ minmax_element(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_MINMAX_ELEMENT_HPP
-

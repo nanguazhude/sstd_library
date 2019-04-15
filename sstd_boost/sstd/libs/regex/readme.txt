@@ -17,6 +17,3 @@ This library is part of boost (see www.boost.org), the latest version
 of the library is available from the boost web site, or development
 snapshots from the boost cvs repository at
 http://sourceforge.net/project/?group_id=7586
-
-
-

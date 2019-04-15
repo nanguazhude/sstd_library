@@ -51,4 +51,3 @@ inline Iterator remove_if(Iterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_REMOVE_IF_HPP
-

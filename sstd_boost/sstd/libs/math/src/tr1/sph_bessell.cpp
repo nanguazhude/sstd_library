@@ -15,6 +15,3 @@ extern "C" long double BOOST_MATH_TR1_DECL boost_sph_bessell BOOST_PREVENT_MACRO
 {
    return c_policies::sph_bessel BOOST_PREVENT_MACRO_SUBSTITUTION(n, x);
 }
-
-
-

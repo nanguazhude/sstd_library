@@ -34,4 +34,3 @@ BOOST_UNITS_STATIC_CONSTANT(square_centimetres,area);
 } // namespace boost
 
 #endif // BOOST_UNITS_CGS_AREA_HPP
-

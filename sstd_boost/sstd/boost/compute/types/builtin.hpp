@@ -10,4 +10,3 @@
 
 // deprecated, use <sstd/boost/compute/types/fundamental.hpp> instead
 #include <sstd/boost/compute/types/fundamental.hpp>
-

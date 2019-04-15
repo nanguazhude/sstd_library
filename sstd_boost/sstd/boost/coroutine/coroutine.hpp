@@ -11,4 +11,3 @@
 #include <sstd/boost/coroutine/symmetric_coroutine.hpp>
 
 #endif // BOOST_COROUTINES_COROUTINE_H
-

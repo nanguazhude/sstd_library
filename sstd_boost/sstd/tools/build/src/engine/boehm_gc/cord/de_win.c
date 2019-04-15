@@ -367,5 +367,3 @@ void invalidate_line(int i)
     get_line_rect(i, COLS*char_width, &line);
     InvalidateRect(hwnd, &line, FALSE);
 }
-
-

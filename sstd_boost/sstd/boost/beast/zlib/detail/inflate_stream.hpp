@@ -1308,4 +1308,3 @@ inflate_fast(ranges& r, error_code& ec)
 } // boost
 
 #endif
-

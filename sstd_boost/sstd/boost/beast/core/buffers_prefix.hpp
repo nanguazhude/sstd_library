@@ -237,4 +237,3 @@ buffers_front(BufferSequence const& buffers)
 #include <sstd/boost/beast/core/impl/buffers_prefix.ipp>
 
 #endif
-

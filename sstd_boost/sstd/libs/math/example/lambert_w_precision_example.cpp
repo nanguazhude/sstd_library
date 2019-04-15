@@ -258,8 +258,3 @@ Lambert W (10.0000000) = 1.74552800
     std::cout << ex.what() << std::endl;
   }
 }  // int main()
-
-
-
-
-

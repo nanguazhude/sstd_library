@@ -27,4 +27,3 @@ struct static_holder;
 } /* namespace boost */
 
 #endif
-

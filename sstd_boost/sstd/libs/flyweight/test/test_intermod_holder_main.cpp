@@ -16,4 +16,3 @@ int main()
   test_intermodule_holder();
   return boost::report_errors();
 }
-

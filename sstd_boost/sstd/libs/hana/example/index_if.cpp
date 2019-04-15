@@ -20,4 +20,3 @@ static_assert(hana::index_if(xs, hana::is_a<double>) == hana::just(hana::size_c<
 static_assert(hana::index_if(xs, hana::is_a<hana::tuple_tag>) == hana::nothing, "");
 
 int main() { }
-

@@ -125,4 +125,3 @@ BOOST_LOG_CLOSE_NAMESPACE // namespace log
 #endif
 
 #endif // BOOST_LOG_TRIVIAL_HPP_INCLUDED_
-

@@ -116,4 +116,3 @@ swap(queue<_Tp, _Sequence>& __x, queue<_Tp, _Sequence>& __y)
 } /* namespace boost */
 
 #endif /* BOOST_QUEUE_HPP */
-

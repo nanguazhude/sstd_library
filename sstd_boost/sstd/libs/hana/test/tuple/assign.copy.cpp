@@ -41,4 +41,3 @@ int main() {
         BOOST_HANA_RUNTIME_CHECK(hana::at_c<2>(t) == "some text");
     }
 }
-

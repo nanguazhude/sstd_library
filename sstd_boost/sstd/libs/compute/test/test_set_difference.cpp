@@ -60,4 +60,3 @@ BOOST_AUTO_TEST_CASE(set_difference_string)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

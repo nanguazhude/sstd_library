@@ -26,4 +26,3 @@ static std::string Ls_data_sph[] = {"LINESTRING(0 0,180 0,180 180)",
                                                 180 140,180 150,180 160,180 170,180 180)"};
 
 #endif // LINESTRING_CASES_HPP
-

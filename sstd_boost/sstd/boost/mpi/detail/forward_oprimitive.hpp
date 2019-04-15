@@ -71,4 +71,3 @@ private:
 } } } // end namespace boost::mpi::detail
 
 #endif // BOOST_MPI_DETAIL_FORWARD_OPRIMITIVE_HPP
-

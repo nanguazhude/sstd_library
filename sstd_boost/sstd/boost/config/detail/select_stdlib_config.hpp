@@ -107,5 +107,3 @@
 #  include "sstd/boost/config/stdlib/modena.hpp"
 #  include "sstd/boost/config/stdlib/dinkumware.hpp"
 #endif
-
-

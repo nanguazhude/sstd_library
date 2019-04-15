@@ -15,4 +15,3 @@ constexpr auto xs = hana::make_set(hana::int_c<1>, hana::type_c<void>);
 BOOST_HANA_CONSTANT_CHECK(xs == hana::make<hana::set_tag>(hana::int_c<1>, hana::type_c<void>));
 
 int main() { }
-

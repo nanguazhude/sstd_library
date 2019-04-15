@@ -62,4 +62,3 @@ struct is_msvc_eti_arg<int>
 }}}
 
 #endif // BOOST_MPL_AUX_IS_MSVC_ETI_ARG_HPP_INCLUDED
-

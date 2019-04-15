@@ -262,4 +262,3 @@ main(int argc, char * argv[]){
 #endif
 
 #endif // BOOST_SERIALIZATION_TEST_TOOLS_HPP
-

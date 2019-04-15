@@ -32,4 +32,3 @@ BOOST_UNITS_STATIC_CONSTANT(newtons,force);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_FORCE_HPP
-

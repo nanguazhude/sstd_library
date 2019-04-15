@@ -54,4 +54,3 @@ int main()
     //~ test<BOOST_RATIO_INTMAX_T_MAX, -127, -BOOST_RATIO_INTMAX_T_MAX, 127>();
     //~ test<-BOOST_RATIO_INTMAX_T_MAX, -127, BOOST_RATIO_INTMAX_T_MAX, 127>();
 }
-

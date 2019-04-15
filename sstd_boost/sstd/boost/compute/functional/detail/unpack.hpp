@@ -141,4 +141,3 @@ inline unpacked<Function> unpack(const Function &f)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_FUNCTIONAL_DETAIL_UNPACK_HPP
-

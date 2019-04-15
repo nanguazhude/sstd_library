@@ -17,4 +17,3 @@ add_executable (http-server-small
 )
 
 set_property(TARGET http-server-small PROPERTY FOLDER "example-http-server")
-

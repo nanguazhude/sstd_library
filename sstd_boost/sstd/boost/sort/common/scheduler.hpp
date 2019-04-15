@@ -274,4 +274,3 @@ std::ostream & operator <<(std::ostream &out,
 };// end namespace boost
 //***************************************************************************
 #endif
-

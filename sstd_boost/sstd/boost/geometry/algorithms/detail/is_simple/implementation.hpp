@@ -16,4 +16,3 @@
 #include <sstd/boost/geometry/algorithms/detail/is_simple/multipoint.hpp>
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_IS_SIMPLE_IMPLEMENTATION_HPP
-

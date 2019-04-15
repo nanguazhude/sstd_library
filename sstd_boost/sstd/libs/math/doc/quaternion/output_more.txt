@@ -63,5 +63,3 @@ k*i: (0,0,1,0) ; i*k: (0,0,-1,0) .
 
 
 *** No errors detected
-
-

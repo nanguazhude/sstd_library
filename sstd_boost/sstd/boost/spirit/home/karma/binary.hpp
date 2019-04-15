@@ -14,4 +14,3 @@
 #include <sstd/boost/spirit/home/karma/binary/padding.hpp>
 
 #endif
-

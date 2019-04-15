@@ -19,4 +19,3 @@ int main() {
         hana::make_range(hana::integral_c<int, 1>, hana::integral_c<int, 4>)
     ));
 }
-

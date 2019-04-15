@@ -208,4 +208,3 @@ interpret_pragma(ContextT &ctx, typename ContextT::token_type const &act_token,
 #endif
 
 #endif // !defined(INTERPRET_PRAGMA_HPP_B1F2315E_C5CE_4ED1_A343_0EF548B7942A_INCLUDED)
-

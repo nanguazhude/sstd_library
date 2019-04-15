@@ -15,6 +15,3 @@ extern "C" float BOOST_MATH_TR1_DECL boost_assoc_laguerref BOOST_PREVENT_MACRO_S
 {
    return c_policies::laguerre BOOST_PREVENT_MACRO_SUBSTITUTION(n, m, x);
 }
-
-
-

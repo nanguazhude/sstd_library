@@ -104,4 +104,3 @@ int main( int argc, char * argv[])
     { std::cerr << "unhandled exception" << std::endl; }
     return EXIT_FAILURE;
 }
-

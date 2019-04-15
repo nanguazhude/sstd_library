@@ -162,4 +162,3 @@ int test_main(int argc, char* argv[])
   test_skeleton_and_content(comm, 1);
   return 0;
 }
-

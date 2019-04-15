@@ -12,4 +12,3 @@ int main()
    boost::static_log2_result_type result = boost::static_log2<30>::value;
    (void)result;
 }
-

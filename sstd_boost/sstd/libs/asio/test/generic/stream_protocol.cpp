@@ -250,4 +250,3 @@ BOOST_ASIO_TEST_SUITE
   "generic/stream_protocol",
   BOOST_ASIO_TEST_CASE(generic_stream_protocol_socket_compile::test)
 )
-

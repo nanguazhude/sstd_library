@@ -309,4 +309,3 @@ inline object make_setter(D const& x)
 }} // namespace boost::python
 
 #endif // DATA_MEMBERS_DWA2002328_HPP
-

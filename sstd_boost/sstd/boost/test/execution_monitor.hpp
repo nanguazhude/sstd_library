@@ -581,4 +581,3 @@ unsigned BOOST_TEST_DECL disable( unsigned mask );
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif
-

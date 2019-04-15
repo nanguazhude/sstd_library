@@ -220,4 +220,3 @@ void swap( promise< R > & l, promise< R > & r) noexcept {
 }}
 
 #endif // BOOST_FIBERS_PROMISE_HPP
-

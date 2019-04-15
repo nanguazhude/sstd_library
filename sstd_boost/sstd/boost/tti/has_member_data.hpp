@@ -104,4 +104,3 @@
 /**/
 
 #endif // BOOST_TTI_HAS_MEMBER_DATA_HPP
-

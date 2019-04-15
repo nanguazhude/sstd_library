@@ -196,4 +196,3 @@ namespace boost { namespace date_time {
  } } //namespace boost::date_time
 
 #endif // DATETIME_PERIOD_PARSER_HPP___
-

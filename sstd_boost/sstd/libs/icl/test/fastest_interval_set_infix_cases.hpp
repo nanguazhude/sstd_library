@@ -29,7 +29,3 @@ BOOST_AUTO_TEST_CASE
 {            interval_set_infix_caret_overload_4_bicremental_types<INTERVAL_SET, bicremental_type_5>();}
 
 #endif // BOOST_ICL_FASTEST_INTERVAL_SET_INFIX_CASES_HPP_JOFA_090702
-
-
-
-

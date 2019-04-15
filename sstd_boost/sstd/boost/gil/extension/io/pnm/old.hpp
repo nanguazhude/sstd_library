@@ -158,4 +158,3 @@ void pnm_write_view( const String& filename
 } // namespace boost
 
 #endif
-

@@ -364,4 +364,3 @@ inline void merge_sort_by_key_on_cpu(KeyIterator keys_first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_MERGE_SORT_ON_CPU_HPP
-

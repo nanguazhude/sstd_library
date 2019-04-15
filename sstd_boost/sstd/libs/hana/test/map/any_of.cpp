@@ -50,4 +50,3 @@ int main() {
         hana::equal.to(key<3>())
     )));
 }
-

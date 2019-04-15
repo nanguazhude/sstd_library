@@ -325,6 +325,3 @@ inline RealType kurtosis_excess(const normal_distribution<RealType, Policy>& /*d
 #include <sstd/boost/math/distributions/detail/derived_accessors.hpp>
 
 #endif // BOOST_STATS_NORMAL_HPP
-
-
-

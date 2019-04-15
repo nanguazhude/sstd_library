@@ -37,4 +37,3 @@ struct base_unit_info<imperial::ounce_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNIT_SYSTEMS_IMPERIAL_OUNCE_HPP_INCLUDED
-

@@ -100,4 +100,3 @@ public:
 } // namespace boost
 
 #endif // BOOST_ARCHIVE_ITERATORS_DATAFLOW_HPP
-

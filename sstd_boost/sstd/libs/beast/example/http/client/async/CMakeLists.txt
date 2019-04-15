@@ -17,4 +17,3 @@ add_executable (http-client-async
 )
 
 set_property(TARGET http-client-async PROPERTY FOLDER "example-http-client")
-

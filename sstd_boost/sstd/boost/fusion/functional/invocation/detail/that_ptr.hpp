@@ -96,5 +96,3 @@ namespace adl_barrier
 }}}
 
 #endif
-
-

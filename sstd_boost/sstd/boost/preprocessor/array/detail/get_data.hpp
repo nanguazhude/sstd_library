@@ -53,4 +53,3 @@
 /**/
 #
 # endif /* BOOST_PREPROCESSOR_ARRAY_DETAIL_GET_DATA_HPP */
-

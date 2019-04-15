@@ -43,4 +43,3 @@ BOOST_AUTO_TEST_CASE(platform_supports_extension)
     BOOST_CHECK(platform.supports_extension(first_extension) == true);
     BOOST_CHECK(platform.supports_extension("invalid_extension_name") == false);
 }
-

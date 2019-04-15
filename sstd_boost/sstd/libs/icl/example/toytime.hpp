@@ -71,5 +71,3 @@ std::basic_ostream<CharType, CharTraits> &operator<<
 #ifdef BOOST_MSVC
 #pragma warning(pop)
 #endif
-
-

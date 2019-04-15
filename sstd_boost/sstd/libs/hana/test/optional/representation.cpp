@@ -17,4 +17,3 @@ int main() {
     auto nothing = hana::nothing;
     static_assert(std::is_same<decltype(nothing), hana::optional<>>{}, "");
 }
-

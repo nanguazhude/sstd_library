@@ -69,5 +69,3 @@ bool bcp_implementation::is_jam_file(const fs::path& p)
       );
    return boost::regex_match(p.filename().generic_string(), e);
 }
-
-

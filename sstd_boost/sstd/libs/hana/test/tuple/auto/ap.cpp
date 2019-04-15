@@ -6,4 +6,3 @@
 #include <auto/ap.hpp>
 
 int main() { }
-

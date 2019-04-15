@@ -32,4 +32,3 @@ BOOST_NUMPY_DECL void initialize(bool register_scalar_converters=true);
 }}} // namespace boost::python::numpy
 
 #endif
-

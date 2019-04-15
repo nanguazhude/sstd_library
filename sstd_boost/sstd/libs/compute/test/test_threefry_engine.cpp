@@ -85,4 +85,3 @@ BOOST_AUTO_TEST_CASE(generate_float)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

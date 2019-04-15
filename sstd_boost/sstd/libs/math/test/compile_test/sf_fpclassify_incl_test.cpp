@@ -39,6 +39,3 @@ void compile_and_link_test()
    check_result<bool>(boost::math::isnormal BOOST_NO_MACRO_EXPAND<long double>(l));
 #endif
 }
-
-
-

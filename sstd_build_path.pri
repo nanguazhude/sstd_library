@@ -4,7 +4,3 @@ win32-msvc*{
 } else {
     SSTD_LIBRARY_OUTPUT_PATH = $$PWD/binary/general
 }
-
-
-
-

@@ -457,4 +457,3 @@ class unordered_set_member_hook
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_UNORDERED_SET_HOOK_HPP
-

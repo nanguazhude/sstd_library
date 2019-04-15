@@ -37,4 +37,3 @@ inline typename std::iterator_traits< T* >::difference_type distance(T (&left)[N
 } // namespace boost
 
 #endif // ITERATOR_DWA122600_HPP_
-

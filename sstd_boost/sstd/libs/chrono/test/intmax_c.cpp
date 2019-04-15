@@ -17,4 +17,3 @@ boost::intmax_t i = BOOST_INTMAX_C(1000000000);
 int main() {
     return (i);
 }
-

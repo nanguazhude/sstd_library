@@ -74,4 +74,3 @@ inline void print_constant(const char* name, generator_type(*f)(const mpl::int_<
 }}} // namespaces
 
 #endif // BOOST_MATH_CONSTANTS_GENERATE_INCLUDED
-

@@ -51,4 +51,3 @@
 #endif  // auto-linking disabled
 
 #endif // BOOST_TEST_EXEC_MONITOR_HPP_071894GER
-

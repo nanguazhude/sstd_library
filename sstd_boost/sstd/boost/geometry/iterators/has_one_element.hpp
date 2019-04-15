@@ -27,4 +27,3 @@ inline bool has_one_element(Iterator first, Iterator beyond)
 
 
 #endif // BOOST_GEOMETRY_ITERATORS_HAS_ONE_ELEMENT_HPP
-

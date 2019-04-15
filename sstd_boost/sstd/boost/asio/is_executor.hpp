@@ -46,4 +46,3 @@ struct is_executor
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IS_EXECUTOR_HPP
-

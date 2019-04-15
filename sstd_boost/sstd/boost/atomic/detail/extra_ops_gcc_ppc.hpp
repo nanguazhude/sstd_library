@@ -838,4 +838,3 @@ struct extra_operations< Base, 8u, Signed, true > :
 } // namespace boost
 
 #endif // BOOST_ATOMIC_DETAIL_EXTRA_OPS_GCC_ARM_PPC_INCLUDED_
-

@@ -55,4 +55,3 @@ int main () {
   std::cout << B.shape()[0] << ", " << B.shape()[1] << '\n';
 
 }
-

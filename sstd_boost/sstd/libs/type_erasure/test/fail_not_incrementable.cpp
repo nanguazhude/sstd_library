@@ -25,4 +25,3 @@ int main()
     any<test_concept> a(x);
     ++a;
 }
-

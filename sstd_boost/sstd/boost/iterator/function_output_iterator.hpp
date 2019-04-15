@@ -60,4 +60,3 @@ using iterators::make_function_output_iterator;
 } // namespace boost
 
 #endif // BOOST_ITERATOR_FUNCTION_OUTPUT_ITERATOR_HPP
-

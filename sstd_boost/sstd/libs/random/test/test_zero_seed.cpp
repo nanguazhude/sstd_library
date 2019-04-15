@@ -27,4 +27,3 @@ BOOST_AUTO_TEST_CASE(test_zero_seed)
     BOOST_CHECK(boost::random::ranlux_base_01(0) == boost::random::ranlux_base_01 ());
     BOOST_CHECK(boost::random::ranlux64_base_01(0) == boost::random::ranlux64_base_01 ());
 }
-

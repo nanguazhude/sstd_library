@@ -259,14 +259,3 @@ BOOST_LAMBDA_POSTFIX_UNARY_ACTION(--, post_increment_decrement_action<decrement_
 } // namespace boost
 
 #endif
-
-
-
-
-
-
-
-
-
-
-

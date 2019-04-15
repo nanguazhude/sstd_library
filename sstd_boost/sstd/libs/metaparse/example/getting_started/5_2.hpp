@@ -21,5 +21,3 @@ using exp_parser7 =
 //    exp_parser7::apply<BOOST_METAPARSE_STRING("1 + 2 + 3 + 4")>::type
 
 #endif
-
-

@@ -83,4 +83,3 @@ int main()
     lexicographical_compare_test();
     return boost::report_errors();
 }
-

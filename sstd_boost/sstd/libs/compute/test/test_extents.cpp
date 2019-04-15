@@ -98,4 +98,3 @@ BOOST_AUTO_TEST_CASE(copy_to_vector)
 #endif
 
 BOOST_AUTO_TEST_SUITE_END()
-

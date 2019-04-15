@@ -99,4 +99,3 @@ struct add_member_cv : detail::add_member_cv_impl<T> {};
 //]
 
 #endif
-

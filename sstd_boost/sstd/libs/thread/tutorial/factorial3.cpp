@@ -34,4 +34,3 @@ int main()
     for (int j=0; j < NUM_CALCS; ++j)
         std::cout << j*10 << "! = " << results[j] << std::endl;
 }
-

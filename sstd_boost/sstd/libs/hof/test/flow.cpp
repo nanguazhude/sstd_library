@@ -167,4 +167,3 @@ BOOST_HOF_TEST_CASE()
     BOOST_HOF_STATIC_TEST_CHECK(boost::hof::flow(boost::hof::_1 + boost::hof::_1, boost::hof::_1 * boost::hof::_1)(3) == 36);
 }
 }
-

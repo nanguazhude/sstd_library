@@ -205,4 +205,3 @@ int main()
 }
 
 #endif // #if defined( BOOST_NO_CXX11_RVALUE_REFERENCES ) || defined( BOOST_NO_CXX11_SMART_PTR )
-

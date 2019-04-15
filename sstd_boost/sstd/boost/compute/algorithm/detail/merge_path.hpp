@@ -114,4 +114,3 @@ private:
 } //end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_MERGE_PATH_HPP
-

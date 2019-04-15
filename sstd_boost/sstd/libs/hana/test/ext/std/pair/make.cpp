@@ -24,4 +24,3 @@ int main() {
         std::make_pair(ct_eq<3>{}, ct_eq<4>{})
     ));
 }
-

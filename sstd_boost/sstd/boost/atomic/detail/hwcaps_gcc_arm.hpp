@@ -65,4 +65,3 @@
 #endif // defined(__GNUC__) && defined(__arm__) && (BOOST_ATOMIC_DETAIL_ARM_ARCH+0) >= 6
 
 #endif // BOOST_ATOMIC_DETAIL_HWCAPS_GCC_ARM_HPP_INCLUDED_
-

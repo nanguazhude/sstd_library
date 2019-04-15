@@ -35,4 +35,3 @@ int main()
   assert( result2.first  == std::min_element(L.begin(), L.end()) );
   assert( result2.second == std::max_element(L.begin(), L.end()) );
 }
-

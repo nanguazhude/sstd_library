@@ -105,5 +105,3 @@ int main()
     test_with_xtime();
     return 0;
 }
-
-

@@ -155,4 +155,3 @@ inline bool pj_apply_gridshift_3(StreamPolicy const& stream_policy,
 }}} // namespace boost::geometry::projections
 
 #endif // BOOST_GEOMETRY_SRS_PROJECTIONS_IMPL_PJ_APPLY_GRIDSHIFT_SHARED_HPP
-

@@ -26,4 +26,3 @@ struct shared_memory_buffer
    int items[NumItems];
 };
 //]
-

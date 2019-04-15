@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_GRAMMAR_DEF
 #include <sstd/boost/spirit/home/classic/utility/grammar_def.hpp>
 #endif
-

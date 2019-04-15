@@ -36,4 +36,3 @@ namespace btt = boost::test_tools;
 namespace but = boost::unit_test;
 
 #endif
-

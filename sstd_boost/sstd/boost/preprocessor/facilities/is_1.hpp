@@ -21,4 +21,3 @@
 # define BOOST_PP_IS_1_HELPER_1
 #
 # endif
-

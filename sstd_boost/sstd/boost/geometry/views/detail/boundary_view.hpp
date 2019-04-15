@@ -14,4 +14,3 @@
 #include <sstd/boost/geometry/views/detail/boundary_view/implementation.hpp>
 
 #endif // BOOST_GEOMETRY_VIEWS_DETAIL_BOUNDARY_VIEW_HPP
-

@@ -151,4 +151,3 @@ BOOST_AUTO_TEST_CASE( test_variant )
     variant_geometry = mpoly;
     tester::apply(variant_geometry, 2);
 }
-

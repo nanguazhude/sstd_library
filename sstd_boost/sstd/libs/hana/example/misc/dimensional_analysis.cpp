@@ -69,4 +69,3 @@ int main() {
     quantity<acceleration> a{3.9};
     quantity<force>        f{m * a};
 }
-

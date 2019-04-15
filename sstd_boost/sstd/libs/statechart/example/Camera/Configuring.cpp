@@ -22,4 +22,3 @@ Configuring::~Configuring()
 {
   std::cout << "Exiting Configuring\n";
 }
-

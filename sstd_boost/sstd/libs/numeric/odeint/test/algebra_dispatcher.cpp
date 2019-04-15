@@ -80,4 +80,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( vector_space_algebra_with_floating_point , T , fp
 
 
 BOOST_AUTO_TEST_SUITE_END()
-

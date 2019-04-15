@@ -142,5 +142,3 @@ operator<<( std::basic_ostream<CharT1,Tr>& os, data::size_t const& s )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_DATA_SIZE_HPP_102211GER
-
-

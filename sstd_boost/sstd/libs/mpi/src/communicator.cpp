@@ -345,4 +345,3 @@ bool operator==(const communicator& comm1, const communicator& comm2)
 }
 
 } } // end namespace boost::mpi
-

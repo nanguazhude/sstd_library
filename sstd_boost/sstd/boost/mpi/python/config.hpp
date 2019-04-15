@@ -45,4 +45,3 @@
 #endif
 
 #endif // BOOST_MPI_PYTHON_CONFIG_HPP
-

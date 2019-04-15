@@ -44,4 +44,3 @@ main()
     std::cout << factorial(arg1)(i) << std::endl;
     return 0;
 }
-

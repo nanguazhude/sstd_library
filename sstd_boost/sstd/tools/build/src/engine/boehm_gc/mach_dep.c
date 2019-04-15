@@ -240,4 +240,3 @@ void GC_push_regs_and_stack(ptr_t cold_gc_frame)
     /* The real version is in a .S file */
 # endif
 #endif /* ASM_CLEAR_CODE */
-

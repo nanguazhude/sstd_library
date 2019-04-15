@@ -10,4 +10,3 @@
 
 // deprecated, use <sstd/boost/compute/utility/wait_list.hpp> instead
 #include <sstd/boost/compute/utility/wait_list.hpp>
-

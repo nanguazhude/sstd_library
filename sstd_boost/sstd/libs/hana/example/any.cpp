@@ -14,4 +14,3 @@ static_assert(hana::any(hana::make_tuple(false, hana::false_c, true)), "");
 static_assert(!hana::any(hana::make_tuple(false, hana::false_c, hana::false_c)), "");
 
 int main() { }
-

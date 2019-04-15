@@ -25,4 +25,3 @@ BOOST_TYPEOF_REGISTER_TYPE(std::ofstream)
 BOOST_TYPEOF_REGISTER_TYPE(std::fstream)
 
 #endif//BOOST_TYPEOF_STD_fstream_hpp_INCLUDED
-

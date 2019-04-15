@@ -147,6 +147,3 @@ double-width encodings like Shift-JIS, due to the stateless problem described ab
 
 
 */
-
-
-

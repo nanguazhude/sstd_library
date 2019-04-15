@@ -31,4 +31,3 @@ struct shall_use_vfork
 }}}}
 
 #endif /* BOOST_PROCESS_DETAIL_POSIX_USE_VFORK_HPP_ */
-

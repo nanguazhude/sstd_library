@@ -65,5 +65,3 @@ int main(int , char* [])
    print_captures("^(\\w+)\\W+(?>(\\w+)\\W+(?:(\\w+)\\W+){0,2})*(\\w+)$", "now is the time for all good men to come to the aid of the party");
    return 0;
 }
-
-

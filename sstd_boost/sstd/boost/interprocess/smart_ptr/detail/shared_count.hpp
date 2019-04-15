@@ -341,4 +341,3 @@ bool operator<(weak_count<T, VoidAllocator, Deleter> const & a, weak_count<T2, V
 
 
 #endif  // #ifndef BOOST_INTERPROCESS_DETAIL_SHARED_COUNT_HPP_INCLUDED
-

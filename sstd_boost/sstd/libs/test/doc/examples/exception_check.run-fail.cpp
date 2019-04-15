@@ -17,4 +17,3 @@ BOOST_AUTO_TEST_CASE( test )
   BOOST_CHECK_THROW( i++, my_exception );
 }
 //]
-

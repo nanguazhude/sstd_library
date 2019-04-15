@@ -32,4 +32,3 @@ int main()
   x.insert(n);
 #endif
 }
-

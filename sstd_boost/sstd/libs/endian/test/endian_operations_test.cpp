@@ -502,4 +502,3 @@ int cpp_main(int, char * [])
 
   return boost::report_errors();
 }
-

@@ -122,5 +122,3 @@ namespace boost
 }
 
 #endif /* BOOST_SINC_HPP */
-
-

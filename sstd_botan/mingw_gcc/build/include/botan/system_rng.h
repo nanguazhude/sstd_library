@@ -1,4 +1,4 @@
-/*
+﻿/*
 * System RNG interface
 * (C) 2014,2015 Jack Lloyd
 *

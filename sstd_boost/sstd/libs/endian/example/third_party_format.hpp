@@ -17,4 +17,3 @@ namespace third_party
       // ...  data members whose endianness is not a concern
     };
 }
-

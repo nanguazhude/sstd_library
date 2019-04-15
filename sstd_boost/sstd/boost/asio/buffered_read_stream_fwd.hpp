@@ -25,4 +25,3 @@ class buffered_read_stream;
 } // namespace boost
 
 #endif // BOOST_ASIO_BUFFERED_READ_STREAM_FWD_HPP
-

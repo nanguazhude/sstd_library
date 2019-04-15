@@ -13,4 +13,3 @@ static_assert(hana::min(1, 4) == 1, "");
 BOOST_HANA_CONSTANT_CHECK(hana::min(hana::int_c<7>, hana::int_c<5>) == hana::int_c<5>);
 
 int main() { }
-

@@ -108,4 +108,3 @@ struct convert_ring<polygon_tag>
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_CONVERT_RING_HPP
-

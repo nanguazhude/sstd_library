@@ -33,4 +33,3 @@ int main() {
         fusion::make_list("Moby Dick", "Garfield", "Snoopy")
     ));
 }
-

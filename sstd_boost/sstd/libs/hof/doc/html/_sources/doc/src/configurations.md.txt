@@ -27,4 +27,3 @@ There are several configuration macros that control the behavior of Boost.Higher
 |                                         | can increase compile times.                                                    |
 +-----------------------------------------+--------------------------------------------------------------------------------+
 ```
-

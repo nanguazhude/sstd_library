@@ -61,5 +61,3 @@ void test_sinc(T, const char* name)
 
    do_test_sinc<T>(sinc_data, name, "Sinc Function");
 }
-
-

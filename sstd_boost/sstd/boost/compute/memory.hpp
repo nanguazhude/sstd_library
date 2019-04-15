@@ -19,4 +19,3 @@
 #include <sstd/boost/compute/memory/svm_ptr.hpp>
 
 #endif // BOOST_COMPUTE_MEMORY_HPP
-

@@ -14,4 +14,3 @@ int main()
     sregex drx = sregex::compile(".+");
     return f();
 }
-

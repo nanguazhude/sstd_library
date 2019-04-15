@@ -106,4 +106,3 @@ public:
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_CORE_EXCEPTION_HPP
-

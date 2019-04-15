@@ -418,4 +418,3 @@ inline void assign_parents(Geometry const& geometry,
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_ASSIGN_PARENTS_HPP
-

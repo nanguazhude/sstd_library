@@ -319,4 +319,3 @@ namespace detail {
 
 
 #endif //  BOOST_FORMAT_FEED_ARGS_HPP
-

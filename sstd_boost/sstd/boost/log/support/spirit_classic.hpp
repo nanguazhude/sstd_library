@@ -110,4 +110,3 @@ BOOST_LOG_CLOSE_NAMESPACE // namespace log
 #include <sstd/boost/log/detail/footer.hpp>
 
 #endif // BOOST_LOG_SUPPORT_SPIRIT_CLASSIC_HPP_INCLUDED_
-

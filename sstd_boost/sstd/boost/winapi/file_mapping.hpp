@@ -257,4 +257,3 @@ using ::UnmapViewOfFile;
 }
 
 #endif // BOOST_WINAPI_FILE_MAPPING_HPP_INCLUDED_
-

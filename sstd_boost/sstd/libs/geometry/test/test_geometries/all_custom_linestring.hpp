@@ -135,4 +135,3 @@ inline std::size_t range_calculate_size(all_custom_linestring<Point> const& als)
 
 
 #endif // GEOMETRY_TEST_TEST_GEOMETRIES_ALL_CUSTOM_LINESTRING_HPP
-

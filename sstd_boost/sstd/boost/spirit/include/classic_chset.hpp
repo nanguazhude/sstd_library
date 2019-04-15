@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_CHSET
 #include <sstd/boost/spirit/home/classic/utility/chset.hpp>
 #endif
-

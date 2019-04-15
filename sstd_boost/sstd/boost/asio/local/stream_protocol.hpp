@@ -90,4 +90,3 @@ public:
        //   || defined(GENERATING_DOCUMENTATION)
 
 #endif // BOOST_ASIO_LOCAL_STREAM_PROTOCOL_HPP
-

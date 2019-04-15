@@ -31,4 +31,3 @@ BOOST_SYSTEM_DECL void dummy_exported_function()
 } // namespace system
 
 } // namespace boost
-

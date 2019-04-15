@@ -112,4 +112,3 @@ void def(char const* name, F f, A1 const& a1, A2 const& a2, A3 const& a3)
 }} // namespace boost::python
 
 #endif // DEF_DWA200292_HPP
-

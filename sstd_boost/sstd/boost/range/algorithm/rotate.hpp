@@ -49,4 +49,3 @@ inline const ForwardRange& rotate(const ForwardRange& rng,
 } // namespace boost
 
 #endif // include guard
-

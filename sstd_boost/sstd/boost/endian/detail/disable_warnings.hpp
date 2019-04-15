@@ -31,4 +31,3 @@
 # pragma warning( disable : 4986 )  // ... exception specification does not match previous declaration
 # pragma warning( disable : 4711 )  // ... selected for automatic inline expansion
 #endif
-

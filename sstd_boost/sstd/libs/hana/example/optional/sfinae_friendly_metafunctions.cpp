@@ -42,4 +42,3 @@ static_assert(!has_type<common_type<int, int*>>{}, "");
 static_assert(std::is_same<common_type<int, float>::type, float>{}, "");
 
 int main() { }
-

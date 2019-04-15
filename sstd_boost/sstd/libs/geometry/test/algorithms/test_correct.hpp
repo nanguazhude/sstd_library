@@ -52,4 +52,3 @@ void test_geometry(std::string const& wkt, std::string const& expected)
 
 
 #endif
-

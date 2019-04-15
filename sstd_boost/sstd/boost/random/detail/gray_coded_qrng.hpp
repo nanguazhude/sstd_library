@@ -164,4 +164,3 @@ private:
 } // namespace boost
 
 #endif // BOOST_RANDOM_DETAIL_GRAY_CODED_QRNG_HPP
-

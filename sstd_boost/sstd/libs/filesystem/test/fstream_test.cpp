@@ -167,4 +167,3 @@ int cpp_main(int argc, char*[])
 
   return ::boost::report_errors();
 }
-

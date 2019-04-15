@@ -48,4 +48,3 @@ class init_disposer
 }  //namespace boost{
 
 #endif //BOOST_INTRUSIVE_DETAIL_SIMPLE_DISPOSERS_HPP
-

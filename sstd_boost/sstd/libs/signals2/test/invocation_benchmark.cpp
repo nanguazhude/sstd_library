@@ -56,4 +56,3 @@ int main(int argc, const char **argv)
   threads.join_all();
   return 0;
 }
-

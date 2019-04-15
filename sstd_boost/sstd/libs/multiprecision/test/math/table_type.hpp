@@ -37,5 +37,3 @@ struct table_type<boost::multiprecision::number<Backend, ExpressionTemplates> >
 #define SC_(x) string_table_entry(BOOST_STRINGIZE(x))
 
 #endif
-
-

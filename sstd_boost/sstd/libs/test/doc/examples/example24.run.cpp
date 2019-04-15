@@ -16,4 +16,3 @@ int cpp_main( int, char* [] ) // note name cpp_main, not main.
   return 0;
 }
 //]
-

@@ -33,4 +33,3 @@ int main() {
     hana::test::TestFoldable<hana::basic_tuple_tag>{eq_tuples};
     hana::test::TestIterable<hana::basic_tuple_tag>{eq_tuples};
 }
-

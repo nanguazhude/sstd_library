@@ -28,4 +28,3 @@
 #include <openssl/x509v3.h>
 
 #endif // BOOST_ASIO_SSL_DETAIL_OPENSSL_TYPES_HPP
-

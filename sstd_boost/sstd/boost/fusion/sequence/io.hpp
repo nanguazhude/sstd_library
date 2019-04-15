@@ -12,4 +12,3 @@
 #include <sstd/boost/fusion/sequence/io/out.hpp>
 
 #endif
-

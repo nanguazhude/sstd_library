@@ -93,4 +93,3 @@ BOOST_ASIO_TEST_SUITE
   "windows/overlapped_ptr",
   BOOST_ASIO_TEST_CASE(windows_overlapped_ptr_compile::test)
 )
-

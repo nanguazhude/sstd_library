@@ -620,4 +620,3 @@ end( buffered_channel< T > &) {
 #endif
 
 #endif // BOOST_FIBERS_BUFFERED_CHANNEL_H
-

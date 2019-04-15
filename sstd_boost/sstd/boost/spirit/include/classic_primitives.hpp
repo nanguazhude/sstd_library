@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_PRIMITIVES
 #include <sstd/boost/spirit/home/classic/core/primitives/primitives.hpp>
 #endif
-

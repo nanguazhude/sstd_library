@@ -35,4 +35,3 @@ struct detector<Default, detector_t<Op<Args...> >, Op, Args...> {
 } /* boost */
 
 #endif
-

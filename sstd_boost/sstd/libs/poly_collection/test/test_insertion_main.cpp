@@ -14,4 +14,3 @@ int main()
   test_insertion();
   return boost::report_errors();
 }
-

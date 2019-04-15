@@ -181,5 +181,3 @@ enum class Strategy
 } // boost
 
 #endif
-
-

@@ -140,4 +140,3 @@ inline std::size_t range_calculate_size(all_custom_ring<Point> const& acr)
 
 
 #endif // GEOMETRY_TEST_TEST_GEOMETRIES_ALL_CUSTOM_RING_HPP
-

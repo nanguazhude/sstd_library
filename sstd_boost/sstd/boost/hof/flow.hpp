@@ -164,4 +164,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(flow, detail::make<flow_adaptor>);
 }} // namespace boost::hof
 
 #endif
-

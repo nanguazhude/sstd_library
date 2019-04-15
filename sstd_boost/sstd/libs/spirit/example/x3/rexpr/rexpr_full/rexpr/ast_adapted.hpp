@@ -20,4 +20,3 @@ BOOST_FUSION_ADAPT_STRUCT(rexpr::ast::rexpr,
 )
 
 #endif
-

@@ -28,4 +28,3 @@
 #endif
 
 #endif /* BOOST_LOCKFREE_PREFIX_HPP_INCLUDED */
-

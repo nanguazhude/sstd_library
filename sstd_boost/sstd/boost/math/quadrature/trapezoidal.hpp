@@ -123,4 +123,3 @@ auto trapezoidal(F f, Real a, Real b, Real tol = boost::math::tools::root_epsilo
 
 }}}
 #endif
-

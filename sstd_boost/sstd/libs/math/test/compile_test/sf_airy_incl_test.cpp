@@ -40,4 +40,3 @@ void compile_and_link_test()
 #endif
 
 }
-

@@ -31,4 +31,3 @@ BOOST_UNITS_STATIC_CONSTANT(amperes,current);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_CURRENT_HPP
-

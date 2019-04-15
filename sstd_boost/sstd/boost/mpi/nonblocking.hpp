@@ -742,4 +742,3 @@ test_some(BidirectionalIterator first, BidirectionalIterator last)
 
 
 #endif // BOOST_MPI_NONBLOCKING_HPP
-

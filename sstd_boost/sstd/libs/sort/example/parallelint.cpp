@@ -113,4 +113,3 @@ int main(int argc, const char ** argv) {
     printf("spreadsort clock time %lf\n", elapsed/CLOCKS_PER_SEC/threadCount);
   return 0;
 }
-

@@ -193,4 +193,3 @@ void test_accuracy(T, const char* type_name)
    // quantile_sanity_check(ncbeta_big, type_name, "Non Central Beta, large parameters");
 #endif
 }
-

@@ -80,4 +80,3 @@ struct imbue_impl<localizable_tag> {
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>
 
 #endif // #ifndef BOOST_IOSTREAMS_IMBUE_HPP_INCLUDED
-

@@ -28,4 +28,3 @@ void foo(boost::unordered_set<int>& x1, boost::unordered_map<int, int>& x2,
   x3.insert(3);
   x4.insert(std::make_pair(4, 5));
 }
-

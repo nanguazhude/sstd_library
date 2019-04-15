@@ -42,4 +42,3 @@ int main() {
     hana::test::TestOrderable<hana::ext::std::vector_tag>{ords};
     // hana::test::TestFunctor<hana::ext::std::vector_tag>{eqs, eq_values};
 }
-

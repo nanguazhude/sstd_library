@@ -13,4 +13,3 @@
 bool dummy_function() {
     return true;
 }
-

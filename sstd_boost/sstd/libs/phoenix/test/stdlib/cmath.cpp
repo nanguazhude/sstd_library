@@ -29,4 +29,3 @@ int main()
     BOOST_TEST(std::fabs(z-1.) < eps );
     return boost::report_errors();
 }
-

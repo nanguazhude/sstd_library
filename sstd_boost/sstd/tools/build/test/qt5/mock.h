@@ -19,4 +19,3 @@ class Mock : public QObject
 
     Mock();
 };
-

@@ -18,4 +18,3 @@ void test_algorithm1()
     any_types::t1,any_types::t2,any_types::t3,
     any_types::t4,any_types::t5>();
 }
-

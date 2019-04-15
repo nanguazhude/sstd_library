@@ -34,4 +34,3 @@
 #include <sstd/boost/mpl/multiset/aux_/tag.hpp>
 
 #endif // BOOST_MPL_MULTISET_MULTISET0_HPP_INCLUDED
-

@@ -695,4 +695,3 @@ using namespace hpl;
 }
 
 }
-

@@ -127,4 +127,3 @@ sub_range(Geometry const& geometry, Id const& id)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_SUB_RANGE_HPP
-

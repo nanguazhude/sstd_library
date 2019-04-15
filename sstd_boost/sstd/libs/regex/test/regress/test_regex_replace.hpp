@@ -77,5 +77,3 @@ void test(boost::basic_regex<charT, traits>& r, const test_regex_replace_tag&)
 }
 
 #endif
-
-

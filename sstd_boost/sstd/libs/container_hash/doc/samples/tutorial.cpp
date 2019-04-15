@@ -25,4 +25,3 @@ int main() {
     assert(hashes[0] = boost::hash<int>()(values[0]));
     assert(hashes[1] = boost::hash<int>()(values[1]));
 }
-

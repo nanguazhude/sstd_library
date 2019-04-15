@@ -156,4 +156,3 @@ void broadcast(const communicator& comm, T* values, int n, int root)
 #endif
 
 #endif // BOOST_MPI_BROADCAST_HPP
-

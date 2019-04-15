@@ -14,4 +14,3 @@
 #include <sstd/boost/geometry/index/detail/rtree/linear/redistribute_elements.hpp>
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_RTREE_LINEAR_LINEAR_HPP
-

@@ -19,4 +19,3 @@ BOOST_TYPEOF_REGISTER_TEMPLATE(std::mask_array, 1)
 BOOST_TYPEOF_REGISTER_TEMPLATE(std::indirect_array, 1)
 
 #endif//BOOST_TYPEOF_STD_valarray_hpp_INCLUDED
-

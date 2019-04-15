@@ -82,4 +82,3 @@ TestCase test_insert{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_INSERT_HPP
-

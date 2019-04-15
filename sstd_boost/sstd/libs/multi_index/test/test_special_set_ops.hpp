@@ -9,4 +9,3 @@
  */
 
 void test_special_set_ops();
-

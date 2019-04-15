@@ -76,4 +76,3 @@ void serialize(Archive& ar,pair_of_ints& p,const unsigned int)
 #endif
 
 #endif
-

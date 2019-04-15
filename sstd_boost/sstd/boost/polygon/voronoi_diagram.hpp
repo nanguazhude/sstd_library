@@ -618,4 +618,3 @@ class voronoi_diagram {
 }  // boost
 
 #endif  // BOOST_POLYGON_VORONOI_DIAGRAM
-

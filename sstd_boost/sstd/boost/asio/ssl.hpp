@@ -25,4 +25,3 @@
 #include <sstd/boost/asio/ssl/verify_mode.hpp>
 
 #endif // BOOST_ASIO_SSL_HPP
-

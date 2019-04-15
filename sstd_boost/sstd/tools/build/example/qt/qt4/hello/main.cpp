@@ -24,5 +24,3 @@ int main(int ac, char* av[])
     app.exec();
     return 0;
 }
-
-

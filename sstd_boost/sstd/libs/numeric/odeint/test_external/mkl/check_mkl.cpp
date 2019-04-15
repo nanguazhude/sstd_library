@@ -49,4 +49,3 @@ BOOST_AUTO_TEST_CASE( test_mkl )
     BOOST_CHECK_SMALL( abs( x[0] - 0.1 ) , eps );
 
 }
-

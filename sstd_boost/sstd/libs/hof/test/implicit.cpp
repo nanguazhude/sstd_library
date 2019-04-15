@@ -54,4 +54,3 @@ BOOST_HOF_TEST_CASE()
     static_assert(noexcept(int(lauto_cast(f))), "noexcept implicit");
 }
 #endif
-

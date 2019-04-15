@@ -71,4 +71,3 @@ private:
 #endif // defined(BOOST_ASIO_HAS_STD_THREAD)
 
 #endif // BOOST_ASIO_DETAIL_STD_THREAD_HPP
-

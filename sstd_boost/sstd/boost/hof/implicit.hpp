@@ -153,4 +153,3 @@ struct implicit
 }} // namespace boost::hof
 
 #endif
-

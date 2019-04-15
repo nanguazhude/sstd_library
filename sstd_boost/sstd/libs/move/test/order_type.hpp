@@ -170,4 +170,3 @@ inline bool is_buffer(T *elements, std::size_t element_count)
 
 
 #endif   //BOOST_MOVE_TEST_ORDER_TYPE_HPP
-

@@ -29,5 +29,3 @@
 #endif
 
 #endif // BOOST_VARIANT_MULTIVISITORS_HPP
-
-

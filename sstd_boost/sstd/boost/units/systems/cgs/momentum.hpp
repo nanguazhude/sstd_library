@@ -29,4 +29,3 @@ typedef unit<momentum_dimension,cgs::system>     momentum;
 } // namespace boost
 
 #endif // BOOST_UNITS_CGS_MOMENTUM_HPP
-

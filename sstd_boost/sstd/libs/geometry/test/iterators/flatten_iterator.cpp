@@ -366,4 +366,3 @@ BOOST_AUTO_TEST_CASE( test_flatten_iterator_all )
     test_case_all_containers<2>("case2");
     test_case_all_containers<3>("case3");
 }
-

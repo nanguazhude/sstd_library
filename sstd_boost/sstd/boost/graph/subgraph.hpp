@@ -1068,4 +1068,3 @@ struct graph_mutability_traits< subgraph<G> > {
 } // namespace boost
 
 #endif // BOOST_SUBGRAPH_HPP
-

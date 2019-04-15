@@ -15,4 +15,3 @@ void remove_unused_warning()
   //(void)boost::system::native_ecat;
 
 }
-

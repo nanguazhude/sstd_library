@@ -36,4 +36,3 @@ int main() {
     i = 99;
     BOOST_HANA_RUNTIME_CHECK(traverse(xs, hana::range_c<int, 0, 4>) == 99);
 }
-

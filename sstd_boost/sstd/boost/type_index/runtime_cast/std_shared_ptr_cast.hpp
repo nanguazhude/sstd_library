@@ -44,4 +44,3 @@ std::shared_ptr<T> runtime_pointer_cast(std::shared_ptr<U> const& u) {
 }} // namespace boost::typeindex
 
 #endif // BOOST_TYPE_INDEX_RUNTIME_CAST_STD_SHARED_PTR_CAST_HPP
-

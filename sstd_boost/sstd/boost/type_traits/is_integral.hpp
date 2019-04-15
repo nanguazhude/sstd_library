@@ -87,4 +87,3 @@ template<> struct is_integral<char32_t> : public true_type{};
 } // namespace boost
 
 #endif // BOOST_TT_IS_INTEGRAL_HPP_INCLUDED
-

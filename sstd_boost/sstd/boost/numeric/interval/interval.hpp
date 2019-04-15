@@ -448,4 +448,3 @@ bool interval<T, Policies>::operator!= (const number_holder& r) const
 } // namespace boost
 
 #endif // BOOST_NUMERIC_INTERVAL_INTERVAL_HPP
-

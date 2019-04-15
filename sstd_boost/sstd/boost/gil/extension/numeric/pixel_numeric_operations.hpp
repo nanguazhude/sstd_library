@@ -172,4 +172,3 @@ struct pixel_assigns_t {
 }} // namespace boost::gil
 
 #endif
-

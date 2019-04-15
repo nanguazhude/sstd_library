@@ -39,4 +39,3 @@ MPL_TEST_CASE()
     MPL_ASSERT_NOT(( mpl::not_< true_ > ));
     MPL_ASSERT(( mpl::not_< false_ > ));
 }
-

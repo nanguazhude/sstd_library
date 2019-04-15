@@ -30,4 +30,3 @@ inline boost::log::record_view make_record_view(boost::log::attribute_set const&
 }
 
 #endif // BOOST_LOG_TESTS_MAKE_RECORD_HPP_INCLUDED_
-

@@ -1607,5 +1607,3 @@ void test_powm1_sqrtp1m1(T, const char* type_name)
    handle_test_result(result, powm1_big_data[result.worst()], result.worst(), type_name, "boost::math::powm1", "powm1");
 
 }
-
-

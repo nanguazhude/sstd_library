@@ -181,4 +181,3 @@ private:
    DistributionConcept< boost::math::dist##_distribution<float> >::constraints();\
    DistributionConcept< boost::math::dist##_distribution<double> >::constraints();
 #endif
-

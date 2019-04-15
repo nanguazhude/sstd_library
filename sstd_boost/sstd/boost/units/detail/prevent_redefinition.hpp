@@ -54,4 +54,3 @@ boost_units_unit_is_registered(const T&)
 } // namespace boost
 
 #endif // BOOST_UNITS_PREVENT_ORDINAL_REDEFINITION_IMPL_HPP
-

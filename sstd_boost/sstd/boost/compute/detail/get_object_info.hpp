@@ -282,4 +282,3 @@ struct get_object_info_type;
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_DETAIL_GET_OBJECT_INFO_HPP
-

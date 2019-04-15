@@ -92,4 +92,3 @@ operator<<( assertion_type const& at, T const& ) { return at; }
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_TOOLS_DETAIL_INDIRECTIONS_HPP_112812GER
-

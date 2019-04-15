@@ -82,5 +82,3 @@ struct get_above_view_functor
 
 
 #endif // BOOST_BIMAP_RELATION_SUPPORT_GET_PAIR_FUNCTOR_HPP
-
-

@@ -28,4 +28,3 @@ int main() {
     BOOST_HANA_RUNTIME_CHECK(hana::extract(i_plus_one) == 3);
     BOOST_HANA_RUNTIME_CHECK(hana::extract(i_plus_one) == 4);
 }
-

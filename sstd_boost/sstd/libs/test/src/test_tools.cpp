@@ -16,4 +16,3 @@
 #include <sstd/boost/test/impl/test_tools.ipp>
 
 // EOF
-

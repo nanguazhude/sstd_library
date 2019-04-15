@@ -129,4 +129,3 @@ void read_bidirectional_filter_test()
 }
 
 #endif // #ifndef BOOST_IOSTREAMS_TEST_READ_BIDIRECTIONAL_FILTER_HPP_INCLUDED
-

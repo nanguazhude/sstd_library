@@ -6,4 +6,3 @@
 #include <auto/permutations.hpp>
 
 int main() { }
-

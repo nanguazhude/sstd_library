@@ -39,5 +39,3 @@
     BOOST_UNITS_DEFINE_CONVERSION_FACTOR(boost::units::temperature::celsius_base_unit, boost::units::temperature::fahrenheit_base_unit, double, 9.0/5.0);
     BOOST_UNITS_DEFINE_CONVERSION_OFFSET(boost::units::temperature::celsius_base_unit, boost::units::temperature::fahrenheit_base_unit, double, 32.0);
 #endif
-
-

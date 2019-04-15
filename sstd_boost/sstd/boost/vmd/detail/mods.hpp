@@ -705,4 +705,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_MODS_HPP */
-

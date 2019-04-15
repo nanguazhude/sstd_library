@@ -24,4 +24,3 @@
 #endif
 
 #endif // CYCLE_H
-

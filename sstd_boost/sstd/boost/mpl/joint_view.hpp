@@ -63,4 +63,3 @@ BOOST_MPL_AUX_NA_SPEC(2, joint_view)
 }}
 
 #endif // BOOST_MPL_JOINT_VIEW_HPP_INCLUDED
-

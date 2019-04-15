@@ -29,4 +29,3 @@ int main(int argc, char* argv[])
     threads.join_all();
     assert(value == 1);
 }
-

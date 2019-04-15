@@ -286,4 +286,3 @@ int main()
   test_allocator3();
   return boost::report_errors();
 }
-

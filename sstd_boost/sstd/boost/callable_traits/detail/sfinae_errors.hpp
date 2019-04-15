@@ -87,4 +87,3 @@ namespace boost { namespace callable_traits {
 }} // namespace boost::callable_traits
 
 #endif // #ifndef BOOST_CLBL_TRTS_SFINAE_ERRORS_HPP
-

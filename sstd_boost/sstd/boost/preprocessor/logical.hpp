@@ -27,4 +27,3 @@
 # include <sstd/boost/preprocessor/logical/xor.hpp>
 #
 # endif
-

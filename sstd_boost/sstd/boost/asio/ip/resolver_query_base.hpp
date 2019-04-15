@@ -43,4 +43,3 @@ protected:
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IP_RESOLVER_QUERY_BASE_HPP
-

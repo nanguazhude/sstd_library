@@ -763,4 +763,3 @@ struct pointer_to_other
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif //#ifndef BOOST_INTERPROCESS_OFFSET_PTR_HPP
-

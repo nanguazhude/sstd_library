@@ -59,4 +59,3 @@
 #include <sstd/boost/accumulators/statistics/variates/covariate.hpp>
 
 #endif
-

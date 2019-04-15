@@ -62,5 +62,3 @@ extern boost::scope_exit::detail::undeclared
     )(id, typename01, decl_traits)
 
 #endif // #include guard
-
-

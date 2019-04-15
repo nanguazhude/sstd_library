@@ -89,4 +89,3 @@ const MyClass & MyClassHolder::GetLastObject() const
 //]
 
 #include <sstd/boost/container/detail/config_end.hpp>
-

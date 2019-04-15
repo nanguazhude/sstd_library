@@ -8,4 +8,3 @@
 #define BOOST_MATH_OVERFLOW_ERROR_POLICY ignore_error
 #include <sstd/boost/math/special_functions.hpp>
 #endif
-

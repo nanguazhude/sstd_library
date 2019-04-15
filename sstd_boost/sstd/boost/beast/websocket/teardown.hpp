@@ -172,4 +172,3 @@ async_teardown(
 #include <sstd/boost/beast/websocket/impl/teardown.ipp>
 
 #endif
-

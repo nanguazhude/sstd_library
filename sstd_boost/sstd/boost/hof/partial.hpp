@@ -290,4 +290,3 @@ struct partial_adaptor<static_<pipable_adaptor<F>>, void>
 }} // namespace boost::hof
 
 #endif
-

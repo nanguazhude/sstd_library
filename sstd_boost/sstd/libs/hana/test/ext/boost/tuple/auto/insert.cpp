@@ -6,4 +6,3 @@
 #include <auto/insert.hpp>
 
 int main() { }
-

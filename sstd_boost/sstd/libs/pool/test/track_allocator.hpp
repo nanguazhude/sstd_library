@@ -102,4 +102,3 @@ struct track_allocator
 std::set<char*> track_allocator::allocated_blocks;
 
 #endif // BOOST_POOL_TRACK_ALLOCATOR_HPP
-

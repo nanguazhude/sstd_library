@@ -426,4 +426,3 @@ int test_main(int, char *[]) {
   test_abstract();
   return 0;
 }
-

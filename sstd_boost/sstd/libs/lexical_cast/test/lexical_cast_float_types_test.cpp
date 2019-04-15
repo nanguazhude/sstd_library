@@ -519,11 +519,3 @@ void test_conversion_from_to_long_double()
 #endif
     BOOST_CHECK(true);
 }
-
-
-
-
-
-
-
-

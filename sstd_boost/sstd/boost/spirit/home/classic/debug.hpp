@@ -151,5 +151,3 @@
 #endif // BOOST_SPIRIT_DEBUG
 
 #endif
-
-

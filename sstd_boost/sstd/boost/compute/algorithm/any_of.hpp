@@ -44,4 +44,3 @@ inline bool any_of(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_ANY_OF_HPP
-

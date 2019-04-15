@@ -23,4 +23,3 @@ BOOST_ASIO_TEST_SUITE
   "associated_allocator",
   BOOST_ASIO_TEST_CASE(null_test)
 )
-

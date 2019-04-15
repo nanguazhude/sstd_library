@@ -22,5 +22,3 @@ int main () {
 
     std::cout << prod (m1, m2) << std::endl;
 }
-
-

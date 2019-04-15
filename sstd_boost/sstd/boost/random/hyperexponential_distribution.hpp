@@ -870,4 +870,3 @@ class hyperexponential_distribution
 
 
 #endif // BOOST_RANDOM_HYPEREXPONENTIAL_DISTRIBUTION_HPP
-

@@ -35,6 +35,3 @@ using namespace boost::icl;
 
 #define INTERVAL_MAP interval_map
 #include "../fast_stat_interval_map_cases.hpp"
-
-
-

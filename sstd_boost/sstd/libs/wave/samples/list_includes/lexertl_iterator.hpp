@@ -225,4 +225,3 @@ public:
 #undef BOOST_WAVE_EOF_PREFIX
 
 #endif // !defined(BOOST_WAVE_LEXERTL_ITERATOR_HPP_INCLUDED)
-

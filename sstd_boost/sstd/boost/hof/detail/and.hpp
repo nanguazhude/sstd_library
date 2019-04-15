@@ -53,4 +53,3 @@ BOOST_HOF_USING(and_, std::is_same<bool_seq<Ts::value...>, bool_seq<(Ts::value, 
 }}} // namespace boost::hof
 
 #endif
-

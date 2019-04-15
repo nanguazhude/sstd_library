@@ -25,4 +25,3 @@ inline void suppress_unused_variable_warnings(const T&) {}
 }
 
 #endif
-

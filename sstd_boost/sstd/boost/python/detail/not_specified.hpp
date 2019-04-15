@@ -12,4 +12,3 @@ namespace boost { namespace python { namespace detail {
 }}} // namespace boost::python::detail
 
 #endif // NOT_SPECIFIED_DWA2002321_HPP
-

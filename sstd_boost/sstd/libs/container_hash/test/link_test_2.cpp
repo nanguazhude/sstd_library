@@ -8,4 +8,3 @@
 #include <sstd/boost/container_hash/hash.hpp>
 
 int f() { return 0; }
-

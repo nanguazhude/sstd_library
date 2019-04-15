@@ -1051,4 +1051,3 @@ void * GC_debug_realloc_replacement(void *p, size_t lb)
 {
     return GC_debug_realloc(p, lb, RA "unknown", 0);
 }
-

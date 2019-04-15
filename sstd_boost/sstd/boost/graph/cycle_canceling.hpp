@@ -178,5 +178,3 @@ void cycle_canceling(Graph &g) {
 }
 
 #endif /* BOOST_GRAPH_CYCLE_CANCELING_HPP */
-
-

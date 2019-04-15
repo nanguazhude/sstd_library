@@ -113,4 +113,3 @@ namespace boost { namespace spirit
 }} // namespace boost::spirit
 
 #endif // BOOST_SPIRIT_INTEGER_COVER_OPERATORS_HPP
-

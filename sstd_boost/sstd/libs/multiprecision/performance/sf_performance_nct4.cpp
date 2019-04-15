@@ -13,4 +13,3 @@ void nct_tests_4()
    time_proc("static_mpfr_float_100", test_nct<static_mpfr_float_100>);
 #endif
 }
-

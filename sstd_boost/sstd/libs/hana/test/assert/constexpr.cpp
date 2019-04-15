@@ -28,4 +28,3 @@ int main() {
     BOOST_HANA_CONSTEXPR_ASSERT_MSG(rt_yes, "message");
     BOOST_HANA_CONSTEXPR_ASSERT_MSG(cx_yes, "message");
 }
-

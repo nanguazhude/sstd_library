@@ -256,4 +256,3 @@
 #else
 #  define BOOST_STDLIB "Dinkumware standard library version 1.x"
 #endif
-

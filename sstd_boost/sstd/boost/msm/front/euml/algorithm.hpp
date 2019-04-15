@@ -17,4 +17,3 @@
 
 
 #endif //BOOST_MSM_FRONT_EUML_ALGORITHM_H
-

@@ -48,4 +48,3 @@ int main()
     boost::singleton_pool<boost::pool_allocator_tag,
         sizeof(int)>::release_memory();
 }
-

@@ -1060,4 +1060,3 @@ async_connect(basic_socket<Protocol BOOST_ASIO_SVC_TARG>& s,
 #include <sstd/boost/asio/impl/connect.hpp>
 
 #endif
-

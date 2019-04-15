@@ -15,5 +15,3 @@
 #for j in range(0, 128)
 TEST_STRING($random_string($n))
 #end for
-
-

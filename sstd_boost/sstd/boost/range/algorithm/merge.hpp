@@ -59,4 +59,3 @@ inline OutputIterator merge(const SinglePassRange1& rng1,
 } // namespace boost
 
 #endif // include guard
-

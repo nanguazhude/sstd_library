@@ -43,4 +43,3 @@ duration_type overhead_clock()
 }
 
 #endif // CLOCK_H
-

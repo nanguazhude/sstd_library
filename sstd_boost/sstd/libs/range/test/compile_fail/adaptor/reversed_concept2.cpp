@@ -20,5 +20,3 @@ int main(int, const char**)
     // enabled since the adaptor takes at least a BidirectionalRange.
     return (mock_const_range<boost::forward_traversal_tag>() | reversed).front();
 }
-
-

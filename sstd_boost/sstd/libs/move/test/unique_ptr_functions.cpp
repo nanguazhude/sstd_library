@@ -393,4 +393,3 @@ int main()
    //Test results
    return boost::report_errors();
 }
-

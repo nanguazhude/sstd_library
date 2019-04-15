@@ -106,6 +106,3 @@ namespace boost
     }
   } // namespace inspect
 } // namespace boost
-
-
-

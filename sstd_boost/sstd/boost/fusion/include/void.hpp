@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/support/void.hpp>
 
 #endif
-

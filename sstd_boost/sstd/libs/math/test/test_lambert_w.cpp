@@ -1142,5 +1142,3 @@ BOOST_AUTO_TEST_CASE( test_range_of_double_values )
     tolerance);// OK
 #endif
 } // BOOST_AUTO_TEST_CASE(test_range_of_double_values)
-
-

@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_NO_ACTIONS
 #include <sstd/boost/spirit/home/classic/core/composite/no_actions.hpp>
 #endif
-

@@ -85,4 +85,3 @@ void system_executor::defer(
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IMPL_SYSTEM_EXECUTOR_HPP
-

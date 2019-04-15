@@ -201,4 +201,3 @@ foreach(_ts IN LISTS BOOST_UTF_TESTS_IND_FILES)
   unset(_boost_utf_current_tsuite)
 
 endforeach() # test suite
-

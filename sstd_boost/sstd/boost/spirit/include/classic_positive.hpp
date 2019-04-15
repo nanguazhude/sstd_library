@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_POSITIVE
 #include <sstd/boost/spirit/home/classic/core/composite/positive.hpp>
 #endif
-

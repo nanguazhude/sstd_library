@@ -179,4 +179,3 @@ int main()
            <<c.capacity<goblin>()<<"\n"; // prints 1000, 1000, 1000
 //]
 }
-

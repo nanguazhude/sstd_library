@@ -81,4 +81,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_CREATE_CONDENSATION_GRAPH_HPP
-

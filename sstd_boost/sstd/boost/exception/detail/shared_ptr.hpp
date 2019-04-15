@@ -15,4 +15,3 @@ namespace boost { namespace exception_detail { using boost::shared_ptr; } }
 #endif
 
 #endif
-

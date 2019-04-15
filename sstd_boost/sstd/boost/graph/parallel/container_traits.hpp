@@ -43,4 +43,3 @@ process_group_adl(const Container& container)
 } } } // end namespace boost::graph::parallel
 
 #endif // BOOST_GRAPH_PARALLEL_CONTAINER_TRAITS_HPP
-

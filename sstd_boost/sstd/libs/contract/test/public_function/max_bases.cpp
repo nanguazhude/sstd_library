@@ -56,5 +56,3 @@ int main() {
 
 #undef BOOST_CONTRACT_TEST_base_decl
 #undef BOOST_CONTRACT_TEST_public_base
-
-

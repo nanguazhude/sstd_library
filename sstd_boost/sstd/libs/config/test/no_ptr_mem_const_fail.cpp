@@ -31,5 +31,3 @@ int main( int, char *[] )
 {
    return boost_no_pointer_to_member_const::test();
 }
-
-

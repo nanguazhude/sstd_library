@@ -165,4 +165,3 @@ public:
 };
 
 #endif // BOOST_SIMPLE_LOG_ARCHIVE_HPP
-

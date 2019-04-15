@@ -104,4 +104,3 @@ protected:
 #endif
 
 #endif // BOOST_ARCHIVE_BINARY_OARCHIVE_IMPL_HPP
-

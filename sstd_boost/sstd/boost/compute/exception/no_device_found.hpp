@@ -46,4 +46,3 @@ public:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_EXCEPTION_NO_DEVICE_FOUND_HPP
-

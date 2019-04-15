@@ -111,4 +111,3 @@ struct dynamic_xy_step_transposed_type<any_image_view<IVTypes> > {
 }}  // namespace boost::gil
 
 #endif
-

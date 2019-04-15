@@ -48,4 +48,3 @@ typedef std_event event;
 } // namespace boost
 
 #endif // BOOST_ASIO_DETAIL_EVENT_HPP
-

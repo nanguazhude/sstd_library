@@ -11,4 +11,3 @@ typedef std::ofstream test_ostream;
 #include <sstd/boost/archive/text_iarchive.hpp>
 typedef boost::archive::text_iarchive test_iarchive;
 typedef std::ifstream test_istream;
-

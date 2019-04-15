@@ -217,4 +217,3 @@ struct alias_empty
 #endif
 
 #endif
-

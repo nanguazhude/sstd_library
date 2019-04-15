@@ -270,4 +270,3 @@ template <class T>
 #endif // 1/0
 
 #endif // header guard
-

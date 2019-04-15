@@ -62,4 +62,3 @@ struct Shooting : sc::simple_state< Shooting, Camera, Focusing >
 
 
 #endif
-

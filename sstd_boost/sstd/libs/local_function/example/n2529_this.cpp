@@ -44,5 +44,3 @@ int main(void) {
     BOOST_TEST(vn.nums.at(2) == -3);
     return boost::report_errors();
 }
-
-

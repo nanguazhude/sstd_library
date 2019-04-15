@@ -19,4 +19,3 @@ inline python::detail::borrowed<T>* borrowed(T* p)
 }} // namespace boost::python
 
 #endif // BORROWED_DWA2002614_HPP
-

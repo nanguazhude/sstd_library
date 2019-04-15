@@ -93,5 +93,3 @@ namespace detail {
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_COMMUNICATOR_SC_HPP
-
-

@@ -15,4 +15,3 @@ constexpr auto str = hana::unpack(vowels, hana::make<hana::string_tag>);
 BOOST_HANA_CONSTANT_CHECK(str == BOOST_HANA_STRING("aeiouy"));
 
 int main() { }
-

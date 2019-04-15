@@ -7,5 +7,3 @@
 
 #include "nova.hpp"
 #include "world_checkpoint_all_seq.cpp"
-
-

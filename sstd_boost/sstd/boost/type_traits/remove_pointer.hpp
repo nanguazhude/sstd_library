@@ -82,4 +82,3 @@ template <class T> struct remove_pointer<T*const volatile>{ typedef T type; };
 } // namespace boost
 
 #endif // BOOST_TT_REMOVE_POINTER_HPP_INCLUDED
-

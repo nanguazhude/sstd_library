@@ -159,6 +159,3 @@ namespace client
         return -1;
     }
 }
-
-
-

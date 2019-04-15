@@ -37,4 +37,3 @@ namespace boost
 } // namespace boost
 
 #undef BOOST_SIGNALS2_NUM_ARGS
-

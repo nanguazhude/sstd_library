@@ -976,4 +976,3 @@ BOOST_AUTO_TEST_CASE( test_failure_variant )
     vg = invalid_polygon;
     test::apply("v04", vg, bg::failure_not_closed);
 }
-

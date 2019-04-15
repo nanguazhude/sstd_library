@@ -1,4 +1,4 @@
-/*
+﻿/*
 * HTTP utilities
 * (C) 2013 Jack Lloyd
 *

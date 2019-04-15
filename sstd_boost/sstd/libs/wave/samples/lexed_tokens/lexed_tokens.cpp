@@ -149,4 +149,3 @@ boost::wave::util::file_position_type current_position;
     }
     return 0;
 }
-

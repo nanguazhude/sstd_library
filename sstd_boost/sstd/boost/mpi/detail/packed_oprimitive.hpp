@@ -125,4 +125,3 @@ private:
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_PACKED_OPRIMITIVE_HPP
-

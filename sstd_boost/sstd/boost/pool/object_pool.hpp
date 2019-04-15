@@ -285,4 +285,3 @@ object_pool<T, UserAllocator>::~object_pool()
 #endif
 
 #endif
-

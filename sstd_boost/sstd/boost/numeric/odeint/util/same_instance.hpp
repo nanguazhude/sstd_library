@@ -54,4 +54,3 @@ bool same_instance( const T1 &x1 , const T2 &x2 )
 } // namespace boost
 
 #endif
-

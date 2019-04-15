@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_CLOSURE_FWD
 #include <sstd/boost/spirit/home/classic/attribute/closure_fwd.hpp>
 #endif
-

@@ -25,4 +25,3 @@
 #include <sstd/boost/numeric/odeint/external/compute/compute_resize.hpp>
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_COMPUTE_COMPUTE_HPP_DEFINED
-

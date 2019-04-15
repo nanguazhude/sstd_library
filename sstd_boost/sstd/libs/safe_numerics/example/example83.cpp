@@ -35,4 +35,3 @@ int main(int, const char *[]){
     std::cout << "z = " << safe_format(z) << std::endl;
     return 0;
 }
-

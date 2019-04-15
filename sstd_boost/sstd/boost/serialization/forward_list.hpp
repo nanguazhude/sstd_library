@@ -122,4 +122,3 @@ inline void serialize(
 BOOST_SERIALIZATION_COLLECTION_TRAITS(std::forward_list)
 
 #endif  // BOOST_SERIALIZATION_FORWARD_LIST_HPP
-

@@ -591,4 +591,3 @@ int map_test_copyable ()
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTERPROCESS_TEST_MAP_TEST_HEADER
-

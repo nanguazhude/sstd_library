@@ -23,4 +23,3 @@ int main() {
     Person john{"John", 30};
     BOOST_HANA_RUNTIME_CHECK(hana::members(john) == hana::make_tuple("John", 30));
 }
-

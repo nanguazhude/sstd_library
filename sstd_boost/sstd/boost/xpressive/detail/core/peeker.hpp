@@ -282,4 +282,3 @@ private:
 }}} // namespace boost::xpressive::detail
 
 #endif
-

@@ -549,4 +549,3 @@ connect(stream& to, Arg1&& arg1, ArgN&&... argn);
 #include <sstd/boost/beast/experimental/test/impl/stream.ipp>
 
 #endif
-

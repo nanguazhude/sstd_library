@@ -22,4 +22,3 @@ int main() {
     // negate
     static_assert(hana::negate(6) == -6, "");
 }
-

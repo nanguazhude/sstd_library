@@ -109,5 +109,3 @@ values(Name const& n, Value const& v, Index const& i)
 #endif
 
 #endif // BASICS_050424_HPP
-
-

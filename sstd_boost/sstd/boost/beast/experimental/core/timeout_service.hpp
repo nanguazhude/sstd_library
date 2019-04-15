@@ -38,4 +38,3 @@ set_timeout_service_options(
 #include <sstd/boost/beast/experimental/core/impl/timeout_service.ipp>
 
 #endif
-

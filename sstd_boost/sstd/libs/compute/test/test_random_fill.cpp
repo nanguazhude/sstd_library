@@ -74,4 +74,3 @@ BOOST_AUTO_TEST_CASE(random_fill_float)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

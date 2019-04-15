@@ -39,4 +39,3 @@ void cmp_view( const View_1& v1
 }
 
 #endif
-

@@ -215,4 +215,3 @@ struct default_delete
 #include <sstd/boost/move/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_MOVE_DEFAULT_DELETE_HPP_INCLUDED
-

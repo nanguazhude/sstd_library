@@ -78,4 +78,3 @@ protected:
 } } } // end namespace boost::mpi::detail
 
 #endif // BOOST_MPI_DETAIL_FORWARD_SKELETON_IARCHIVE_HPP
-

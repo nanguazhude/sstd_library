@@ -6,4 +6,3 @@
 #include <auto/length.hpp>
 
 int main() { }
-

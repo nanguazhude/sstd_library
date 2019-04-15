@@ -217,4 +217,3 @@ void backbone< Block_size, Iter_t, Compare >::exec (atomic_t &counter)
 }; //    End namespace boost
 //****************************************************************************
 #endif
-

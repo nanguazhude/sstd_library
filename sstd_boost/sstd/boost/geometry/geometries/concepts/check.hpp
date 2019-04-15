@@ -242,4 +242,3 @@ inline void check_concepts_and_equal_dimensions()
 
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_CONCEPTS_CHECK_HPP
-

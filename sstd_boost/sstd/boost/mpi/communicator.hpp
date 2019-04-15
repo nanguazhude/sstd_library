@@ -2046,4 +2046,3 @@ request communicator::irecv(int source, int tag, T* values, int n) const
 #endif
 
 #endif // BOOST_MPI_COMMUNICATOR_HPP
-

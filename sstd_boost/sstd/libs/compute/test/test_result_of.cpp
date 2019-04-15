@@ -38,4 +38,3 @@ BOOST_AUTO_TEST_CASE(result_of_operators)
         boost::is_same<result_of<minus<int>(int, int)>::type, int>::value
     ));
 }
-

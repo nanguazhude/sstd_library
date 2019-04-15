@@ -58,4 +58,3 @@ buffers_to_string(ConstBufferSequence const& buffers)
 } // boost
 
 #endif
-

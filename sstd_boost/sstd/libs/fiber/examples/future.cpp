@@ -48,4 +48,3 @@ int main()
 	{ std::cerr << "unhandled exception" << std::endl; }
 	return EXIT_FAILURE;
 }
-

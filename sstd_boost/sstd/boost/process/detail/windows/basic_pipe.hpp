@@ -223,4 +223,3 @@ inline bool operator!=(const basic_pipe<Char, Traits> & lhs, const basic_pipe<Ch
 }}}}
 
 #endif
-

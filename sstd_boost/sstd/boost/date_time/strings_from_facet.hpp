@@ -123,4 +123,3 @@ gather_weekday_strings(const std::locale& locale, bool short_strings=true)
 
 
 #endif
-

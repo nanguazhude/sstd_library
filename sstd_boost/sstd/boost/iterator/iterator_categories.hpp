@@ -214,4 +214,3 @@ using iterators::pure_traversal_tag;
 #include <sstd/boost/iterator/detail/config_undef.hpp>
 
 #endif // BOOST_ITERATOR_CATEGORIES_HPP
-

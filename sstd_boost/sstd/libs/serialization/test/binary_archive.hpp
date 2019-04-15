@@ -22,4 +22,3 @@ typedef std::ifstream test_istream;
 
 //#define TEST_STREAM_FLAGS (std::ios::binary | std::ios::in | std::ios::out)
 #define TEST_STREAM_FLAGS (std::ios::binary)
-

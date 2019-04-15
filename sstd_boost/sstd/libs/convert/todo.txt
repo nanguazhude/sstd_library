@@ -8,6 +8,3 @@ in the  reference section.  Users will find this helpful too.
 
 * The reference section could be much improved by adding brief Doxygen comments to
 the files, functions etc.
-
-
-

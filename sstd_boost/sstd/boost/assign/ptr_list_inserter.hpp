@@ -188,4 +188,3 @@ namespace assign
 #endif
 
 #endif
-

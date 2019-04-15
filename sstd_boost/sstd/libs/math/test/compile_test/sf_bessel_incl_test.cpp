@@ -51,4 +51,3 @@ void compile_and_link_test()
    check_result<long double>(boost::math::sph_neumann<long double>(u, l));
 #endif
 }
-

@@ -592,4 +592,3 @@ struct is_interval_container<icl::interval_base_set<SubType,DomainT,Compare,Inte
 }} // namespace icl boost
 
 #endif
-

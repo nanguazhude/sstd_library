@@ -149,4 +149,3 @@ struct empty_system
 
 
 #endif // LIBS_NUMERIC_ODEINT_TEST_DUMMY_ODES_HPP_DEFINED
-

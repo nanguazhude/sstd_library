@@ -20,4 +20,3 @@ BOOST_AUTO_TEST_CASE( serialport )
     QSerialPort serialPort;
     serialPort.setPortName(QStringLiteral("test serialport"));
 }
-

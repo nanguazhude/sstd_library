@@ -1183,4 +1183,3 @@ inline boost::mpl::true_* boost_foreach_is_noncopyable(
 #undef BOOST_MULTI_INDEX_RND_INDEX_CHECK_INVARIANT_OF
 
 #endif
-

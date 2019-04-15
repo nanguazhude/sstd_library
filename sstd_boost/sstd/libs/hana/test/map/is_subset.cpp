@@ -49,4 +49,3 @@ int main() {
         hana::make_map(p<1, 1>(), p<2, 2>())
     )));
 }
-

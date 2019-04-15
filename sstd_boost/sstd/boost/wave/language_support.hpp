@@ -220,4 +220,3 @@ BOOST_WAVE_OPTION(no_newline_at_end_of_file) // support_no_newline_at_end_of_fil
 #endif
 
 #endif // !defined(LANGUAGE_SUPPORT_HPP_93EDD057_2DEF_44BC_BC9F_FDABB9F51AFA_INCLUDED)
-

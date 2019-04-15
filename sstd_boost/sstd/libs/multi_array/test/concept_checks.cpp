@@ -63,4 +63,3 @@ boost::function_requires<
 
   return 0;
 }
-

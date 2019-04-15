@@ -85,4 +85,3 @@ namespace boost
 } // namespace boost
 
 #endif // BOOST_IDENTIFIER_HPP
-

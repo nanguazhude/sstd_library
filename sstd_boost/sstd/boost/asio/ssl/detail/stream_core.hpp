@@ -134,4 +134,3 @@ struct stream_core
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_SSL_DETAIL_STREAM_CORE_HPP
-

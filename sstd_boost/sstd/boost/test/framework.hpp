@@ -299,4 +299,3 @@ struct nothing_to_test {
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_FRAMEWORK_HPP_020805GER
-

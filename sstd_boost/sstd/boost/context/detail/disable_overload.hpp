@@ -38,4 +38,3 @@ using disable_overload =
 #endif
 
 #endif // BOOST_CONTEXT_DETAIL_DISABLE_OVERLOAD_H
-

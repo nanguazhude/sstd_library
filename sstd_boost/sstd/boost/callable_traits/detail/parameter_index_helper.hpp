@@ -49,4 +49,3 @@ struct parameter_index_helper {
 }}} // namespace boost::callable_traits::detail
 
 #endif // #ifndef BOOST_CLBL_TRTS_PARAMETER_INDEX_HELPER_HPP
-

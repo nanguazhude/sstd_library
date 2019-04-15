@@ -189,4 +189,3 @@ inline OutputIterator set_difference(InputIterator1 first1,
 } //end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_SET_DIFFERENCE_HPP
-

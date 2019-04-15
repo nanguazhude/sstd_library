@@ -30,4 +30,3 @@ BOOST_AUTO_TEST_CASE( test )
     // boost.thread, eg. for std::min).
     BOOST_CHECK_CLOSE(1.1, 1.2, 1e-5);
 }
-

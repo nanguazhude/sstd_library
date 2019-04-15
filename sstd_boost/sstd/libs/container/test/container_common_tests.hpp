@@ -84,4 +84,3 @@ bool test_nth_index_of(Container &c)
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif //#ifndef BOOST_CONTAINER_TEST_CONTAINER_COMMON_TESTS_HPP
-

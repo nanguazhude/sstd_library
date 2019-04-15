@@ -128,5 +128,3 @@ inline bool lexicographical_equal(const SetType& left, const SetType& right)
 }} // namespace icl boost
 
 #endif
-
-

@@ -127,4 +127,3 @@ class windows_condition
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_DETAIL_WINDOWS_CONDITION_HPP
-

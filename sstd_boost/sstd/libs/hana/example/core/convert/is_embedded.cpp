@@ -18,4 +18,3 @@ static_assert(!hana::is_embedded<int, float>{}, "");
 static_assert(hana::is_embedded<float, double>{}, "");
 
 int main() { }
-

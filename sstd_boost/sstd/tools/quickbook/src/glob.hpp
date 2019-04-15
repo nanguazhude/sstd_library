@@ -32,4 +32,3 @@ namespace quickbook
 }
 
 #endif
-

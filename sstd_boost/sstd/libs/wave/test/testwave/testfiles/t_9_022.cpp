@@ -15,5 +15,3 @@
 # EMPTY define M 1
 
 //E t_9_022.cpp(15): error: ill formed preprocessor directive: # EMPTY define M 1
-
-

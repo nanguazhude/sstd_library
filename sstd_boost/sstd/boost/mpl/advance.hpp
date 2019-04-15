@@ -74,4 +74,3 @@ BOOST_MPL_AUX_NA_SPEC(2, advance)
 }}
 
 #endif // BOOST_MPL_ADVANCE_HPP_INCLUDED
-

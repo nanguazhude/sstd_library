@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/container/generation/make_cons.hpp>
 
 #endif
-

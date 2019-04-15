@@ -322,4 +322,3 @@ unsigned short FAR *work;
     *bits = root;
     return 0;
 }
-

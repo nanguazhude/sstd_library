@@ -119,5 +119,3 @@ struct ls_zeros<1>
 }  //namespace boost {
 
 #endif   //#ifndef BOOST_INTERPROCESS_DETAIL_MPL_HPP
-
-

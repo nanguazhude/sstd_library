@@ -131,4 +131,3 @@ array_adapter<Mode, Ch>::output_sequence()
 } } // End namespaces iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_ARRAY_HPP_INCLUDED
-

@@ -69,4 +69,3 @@ throw_exception(E const& e) { throw e; }
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_DETAIL_THROW_EXCEPTION_HPP
-

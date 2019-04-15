@@ -46,4 +46,3 @@ struct get_controller< runge_kutta_cash_karp54_classic< State , Value , Deriv , 
 
 
 #endif // BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_GENERATION_RUNGE_KUTTA_CASH_KARP54_CLASSIC_HPP_INCLUDED
-

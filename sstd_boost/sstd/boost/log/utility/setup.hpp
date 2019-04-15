@@ -35,4 +35,3 @@
 #endif
 
 #endif // BOOST_LOG_UTILITY_SETUP_HPP_INCLUDED_
-

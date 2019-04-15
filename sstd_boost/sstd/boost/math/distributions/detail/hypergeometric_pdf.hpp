@@ -485,5 +485,3 @@ inline typename tools::promote_args<T>::type
 }}} // namespaces
 
 #endif
-
-

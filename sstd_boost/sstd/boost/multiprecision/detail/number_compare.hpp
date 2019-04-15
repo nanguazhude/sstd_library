@@ -661,5 +661,3 @@ isunordered BOOST_PREVENT_MACRO_SUBSTITUTION(const detail::expression<Tag, A1, A
 }} // namespaces
 
 #endif // BOOST_MP_COMPARE_HPP
-
-

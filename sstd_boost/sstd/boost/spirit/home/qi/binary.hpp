@@ -14,4 +14,3 @@
 #include <sstd/boost/spirit/home/qi/binary/binary.hpp>
 
 #endif
-

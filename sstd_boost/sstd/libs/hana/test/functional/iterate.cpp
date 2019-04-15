@@ -149,4 +149,3 @@ int main() {
     static_assert(hana::iterate<58>(incr, 0) == 58, "");
     static_assert(hana::iterate<59>(incr, 0) == 59, "");
 }
-

@@ -39,4 +39,3 @@ struct pointee
 }} // namespace boost::python
 
 #endif // POINTEE_DWA2002323_HPP
-

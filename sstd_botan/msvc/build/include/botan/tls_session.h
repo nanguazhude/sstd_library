@@ -1,4 +1,4 @@
-/*
+﻿/*
 * TLS Session
 * (C) 2011-2012,2015 Jack Lloyd
 *

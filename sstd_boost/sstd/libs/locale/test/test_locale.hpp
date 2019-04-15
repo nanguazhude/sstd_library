@@ -116,4 +116,3 @@ std::basic_string<Char> to(std::string const &utf8)
 
 
 // vim: tabstop=4 expandtab shiftwidth=4 softtabstop=4
-

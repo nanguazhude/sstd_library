@@ -79,4 +79,3 @@ void test_serialization2()
     test_serialization(m);
   }
 }
-

@@ -82,5 +82,3 @@ struct function_type {
 } } // namespace
 
 #endif // #include guard
-
-

@@ -145,5 +145,3 @@ void eval_exp(cpp_bin_float<Digits, DigitBase, Allocator, Exponent, MinE, MaxE> 
 }}} // namespaces
 
 #endif
-
-

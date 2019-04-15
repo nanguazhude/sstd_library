@@ -38,4 +38,3 @@ struct push_back_impl< aux::vector_tag >
 #endif
 
 #endif // BOOST_MPL_VECTOR_AUX_PUSH_BACK_HPP_INCLUDED
-

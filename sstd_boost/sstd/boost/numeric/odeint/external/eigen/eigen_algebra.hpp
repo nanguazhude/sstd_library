@@ -107,4 +107,3 @@ struct vector_space_norm_inf< Eigen::Matrix<B,S1,S2,O,M1,M2> >
 } } } // end boost::numeric::odeint namespace
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_EIGEN_EIGEN_ALGEBRA_HPP_INCLUDED
-

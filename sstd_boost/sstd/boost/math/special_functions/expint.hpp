@@ -1674,6 +1674,3 @@ inline typename tools::promote_args<T>::type
 #endif
 
 #endif // BOOST_MATH_EXPINT_HPP
-
-
-

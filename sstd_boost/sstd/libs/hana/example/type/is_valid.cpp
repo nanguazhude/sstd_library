@@ -29,4 +29,3 @@ int main() {
     static_assert(has_value_type(hana::type_c<std::vector<int>>), "");
     static_assert(!has_value_type(hana::type_c<Person>), "");
 }
-

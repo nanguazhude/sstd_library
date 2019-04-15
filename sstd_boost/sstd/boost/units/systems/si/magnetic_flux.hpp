@@ -32,4 +32,3 @@ BOOST_UNITS_STATIC_CONSTANT(webers,magnetic_flux);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_MAGNETIC_FLUX_HPP
-

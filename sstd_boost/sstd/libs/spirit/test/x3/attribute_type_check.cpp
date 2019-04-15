@@ -111,4 +111,3 @@ int main()
     make_test<int, std::string>(123, "hello");
     return boost::report_errors();
 }
-

@@ -257,4 +257,3 @@
             , const A0 , const A1 , const A2 , const A3 , const A4 , const A5 , const A6 , const A7 , const A8 , const A9
         >()(a0 , a1 , a2 , a3 , a4 , a5 , a6 , a7 , a8 , a9);
     }
-

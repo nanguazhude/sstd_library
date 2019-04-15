@@ -67,4 +67,3 @@ struct default_deleter
 } } } // End namespaces ptr_container_detail, move_ptrs, boost.
 
 #endif // #ifndef BOOST_MOVE_PTR_DEFAULT_DELETER_HPP_INCLUDED
-

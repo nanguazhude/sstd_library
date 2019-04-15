@@ -13,6 +13,3 @@ int main(int argc, char* argv[])
     boost::detail::nullary_function<void ()> f1;
     auto f2 = f1;
 }
-
-
-

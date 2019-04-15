@@ -132,4 +132,3 @@ UNORDERED_AUTO_TEST (simple_tests) {
 }
 
 RUN_TESTS()
-

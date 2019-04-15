@@ -29,4 +29,3 @@ typedef unit<frequency_dimension,cgs::system>        frequency;
 } // namespace boost
 
 #endif // BOOST_UNITS_CGS_FREQUENCY_HPP
-

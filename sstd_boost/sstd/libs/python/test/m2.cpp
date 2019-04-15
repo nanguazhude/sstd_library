@@ -106,4 +106,3 @@ BOOST_PYTHON_MODULE(m2)
 }
 
 #include "module_tail.cpp"
-

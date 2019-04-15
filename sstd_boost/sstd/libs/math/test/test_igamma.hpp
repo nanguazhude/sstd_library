@@ -230,5 +230,3 @@ void test_spots(T)
       BOOST_CHECK_CLOSE(::boost::math::tgamma(static_cast<T>(164.5), static_cast<T>(0.125)), static_cast<T>(2.5649307433687542701168405519538910e292L), tolerance * 10);
    }
 }
-
-

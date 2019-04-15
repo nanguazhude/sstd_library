@@ -84,4 +84,3 @@ void load(Archive& ar, ptr_container_detail::reversible_ptr_container<Config, Cl
 } // namespace boost
 
 #endif
-

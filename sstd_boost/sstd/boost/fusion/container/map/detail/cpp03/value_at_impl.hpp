@@ -33,4 +33,3 @@ namespace boost { namespace fusion
 }}
 
 #endif //BOOST_FUSION_MAP_DETAIL_VALUE_AT_IMPL_HPP
-

@@ -46,4 +46,3 @@ BOOST_HOF_TEST_CASE()
     std::vector<int> r2 = filter(data, boost::hof::_1 > 1);
     BOOST_HOF_TEST_CHECK(r2.size() == 4);
 }
-

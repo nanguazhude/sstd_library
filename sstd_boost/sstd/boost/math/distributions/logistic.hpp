@@ -297,4 +297,3 @@ namespace boost { namespace math {
 #include <sstd/boost/math/distributions/detail/derived_accessors.hpp>
 
 #endif // BOOST_MATH_DISTRIBUTIONS_LOGISTIC
-

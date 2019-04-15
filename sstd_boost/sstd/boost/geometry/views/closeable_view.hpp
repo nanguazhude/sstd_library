@@ -107,4 +107,3 @@ struct closeable_view<Range, open>
 
 
 #endif // BOOST_GEOMETRY_VIEWS_CLOSEABLE_VIEW_HPP
-

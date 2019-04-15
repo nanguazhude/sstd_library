@@ -39,6 +39,3 @@ void compile_and_link_test()
    check_result<long double>(boost::math::spherical_harmonic_i<long double>(u, i, l, l));
 #endif
 }
-
-
-

@@ -803,6 +803,3 @@ std::ostream& write_code(std::ostream& os,
 
 
 #endif // BOOST_MATH_TOOLS_TEST_DATA_HPP
-
-
-

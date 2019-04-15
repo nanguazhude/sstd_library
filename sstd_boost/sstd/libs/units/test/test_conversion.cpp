@@ -108,4 +108,3 @@ BOOST_AUTO_TEST_CASE(test_dimensionless_conversions) {
     BOOST_CONSTEXPR_OR_CONST bu::quantity<bu::divide_typeof_helper<bu::cgs::mass, bu::si::mass>::type> dimensionless_test5(dimensionless_test4);
     BOOST_UNITS_CHECK_CLOSE(dimensionless_test5.value(), 2e5);
 }
-

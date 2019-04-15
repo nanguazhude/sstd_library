@@ -39,4 +39,3 @@ void testall()
     test<long double>();
     test<A>();
 }
-

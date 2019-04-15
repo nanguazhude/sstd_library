@@ -53,4 +53,3 @@ distinct ASCII NUL characters.
 ------
 
 Interesting idea. Use iconv to create shift-jis or other mbcs test cases.
-

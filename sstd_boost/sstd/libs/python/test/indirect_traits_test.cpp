@@ -113,5 +113,3 @@ BOOST_MPL_ASSERT((tt::is_reference_to_member_function_pointer<pmf const volatile
 BOOST_MPL_ASSERT_NOT((tt::is_reference_to_member_function_pointer<pmf[2]>));
 BOOST_MPL_ASSERT_NOT((tt::is_reference_to_member_function_pointer<pmf(&)[2]>));
 BOOST_MPL_ASSERT_NOT((tt::is_reference_to_member_function_pointer<pmf>));
-
-

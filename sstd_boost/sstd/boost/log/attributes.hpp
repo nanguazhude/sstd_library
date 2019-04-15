@@ -36,4 +36,3 @@
 #endif
 
 #endif // BOOST_LOG_ATTRIBUTES_HPP_INCLUDED_
-

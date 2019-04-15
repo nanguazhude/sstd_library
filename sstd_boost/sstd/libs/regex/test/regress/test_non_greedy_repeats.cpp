@@ -42,5 +42,3 @@ void test_non_greedy_repeats()
    TEST_INVALID_REGEX("a{1,3}{1}", perl);
    TEST_INVALID_REGEX("a**", perl);
 }
-
-

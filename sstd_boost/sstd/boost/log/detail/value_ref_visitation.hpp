@@ -105,4 +105,3 @@ struct apply_visitor_dispatch< SequenceT, VisitorT, BOOST_LOG_AUX_SWITCH_SIZE >
 #undef BOOST_LOG_AUX_SWITCH_SIZE
 
 #endif // BOOST_PP_IS_ITERATING
-

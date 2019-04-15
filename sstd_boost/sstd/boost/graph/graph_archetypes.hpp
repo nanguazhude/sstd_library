@@ -296,4 +296,3 @@ namespace boost { // should use a different namespace for this
 
 
 #endif // BOOST_GRAPH_ARCHETYPES_HPP
-

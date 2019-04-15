@@ -56,4 +56,3 @@ BOOST_TYPEOF_REGISTER_TEMPLATE(std::ostreambuf_iterator, 1)
 BOOST_TYPEOF_REGISTER_TEMPLATE(std::ostreambuf_iterator, 2)
 
 #endif//BOOST_TYPEOF_STD_iterator_hpp_INCLUDED
-

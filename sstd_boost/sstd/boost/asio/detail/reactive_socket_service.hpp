@@ -526,4 +526,3 @@ public:
 #endif // !defined(BOOST_ASIO_HAS_IOCP)
 
 #endif // BOOST_ASIO_DETAIL_REACTIVE_SOCKET_SERVICE_HPP
-

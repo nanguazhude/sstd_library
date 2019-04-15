@@ -60,5 +60,3 @@ struct node {
 } // boost
 
 #endif // BOOST_SERIALIZATION_XML_PERFORMANCE_NODE_HPP
-
-

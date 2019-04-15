@@ -1,4 +1,4 @@
-/*
+﻿/*
 * STL standards compatibility functions
 * (C) 2017 Tomasz Frydrych
 *

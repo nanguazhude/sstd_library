@@ -33,4 +33,3 @@ namespace boost
 }
 
 #endif  // header
-

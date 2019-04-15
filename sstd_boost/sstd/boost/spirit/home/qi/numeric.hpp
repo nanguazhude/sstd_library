@@ -17,4 +17,3 @@
 #include <sstd/boost/spirit/home/qi/numeric/real.hpp>
 
 #endif
-

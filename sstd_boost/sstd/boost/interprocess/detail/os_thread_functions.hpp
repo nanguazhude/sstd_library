@@ -632,4 +632,3 @@ inline int thread_launch( OS_thread_t & pt, F f )
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_DETAIL_OS_THREAD_FUNCTIONS_HPP
-

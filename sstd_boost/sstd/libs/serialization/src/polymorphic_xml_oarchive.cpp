@@ -28,4 +28,3 @@ template class detail::archive_serializer_map<polymorphic_xml_oarchive>;
 } // detail
 } // archive
 } // boost
-

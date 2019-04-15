@@ -15,4 +15,3 @@ struct context_result_converter {};
 }}} // namespace boost::python::converter
 
 #endif // CONTEXT_RESULT_CONVERTER_DWA2003917_HPP
-

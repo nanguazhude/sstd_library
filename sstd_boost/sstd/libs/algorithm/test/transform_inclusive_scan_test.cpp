@@ -231,4 +231,3 @@ BOOST_AUTO_TEST_CASE( test_main )
   test_transform_inclusive_scan();
   test_transform_inclusive_scan_init();
 }
-

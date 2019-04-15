@@ -37,4 +37,3 @@ struct base_unit_info<us::grain_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNIT_BASE_UNITS_US_GRAIN_HPP_INCLUDED
-

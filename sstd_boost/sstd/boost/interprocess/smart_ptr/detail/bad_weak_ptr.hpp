@@ -46,4 +46,3 @@ class bad_weak_ptr
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif  // #ifndef BOOST_INTERPROCESS_BAD_WEAK_PTR_HPP_INCLUDED
-

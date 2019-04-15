@@ -113,4 +113,3 @@ See [@../../example/nc_chi_sq_example.cpp nc_chi_sq_example.cpp] for the full C+
 */
 
 //]
-

@@ -15,6 +15,3 @@ int main()
    number<cpp_int_backend<128, 128, signed_magnitude, checked, void>, et_off> d;
    number<cpp_int_backend<500, 500, signed_magnitude, checked, void>, et_off> e;
 }
-
-
-

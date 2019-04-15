@@ -448,4 +448,3 @@ class beach_line_node_data {
 }  // boost
 
 #endif  // BOOST_POLYGON_DETAIL_VORONOI_STRUCTURES
-

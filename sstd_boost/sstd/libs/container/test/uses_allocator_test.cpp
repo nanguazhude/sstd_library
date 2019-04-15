@@ -82,4 +82,3 @@ int main()
                            < allocator_argument_tester<ErasedTypeSuffix, 0> >::value ));
    return 0;
 }
-

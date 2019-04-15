@@ -18,4 +18,3 @@ target_link_libraries(boost_throw_exception
         Boost::assert
         Boost::config
 )
-

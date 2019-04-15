@@ -16,4 +16,3 @@ int main()
   test_assoc_container_factory();
   return boost::report_errors();
 }
-

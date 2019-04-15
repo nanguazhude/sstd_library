@@ -82,4 +82,3 @@ BOOST_RANDOM_DETAIL_CONSTEXPR int integer_log2(T t)
 } // namespace boost
 
 #endif // BOOST_RANDOM_DETAIL_INTEGER_LOG2_HPP
-

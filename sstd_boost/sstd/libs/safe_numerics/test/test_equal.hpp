@@ -148,4 +148,3 @@ bool test_equal(
 }
 
 #endif // BOOST_TEST_SUBTRACT
-

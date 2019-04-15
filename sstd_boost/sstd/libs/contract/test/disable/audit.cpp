@@ -8,5 +8,3 @@
     #error "build must define AUDITS"
 #endif
 #include "audit.hpp"
-
-

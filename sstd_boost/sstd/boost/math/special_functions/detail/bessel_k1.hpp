@@ -548,5 +548,3 @@ namespace boost { namespace math { namespace detail{
 #endif
 
 #endif // BOOST_MATH_BESSEL_K1_HPP
-
-

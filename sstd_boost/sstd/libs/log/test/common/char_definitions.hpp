@@ -114,4 +114,3 @@ inline bool equal_strings(std::wstring const& left, std::wstring const& right)
 #endif // BOOST_LOG_USE_WCHAR_T
 
 #endif // BOOST_LOG_TESTS_CHAR_DEFINITIONS_HPP_INCLUDED_
-

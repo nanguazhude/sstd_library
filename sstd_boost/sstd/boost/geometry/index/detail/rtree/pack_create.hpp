@@ -465,4 +465,3 @@ private:
 }}}}} // namespace boost::geometry::index::detail::rtree
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_RTREE_PACK_CREATE_HPP
-

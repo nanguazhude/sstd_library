@@ -45,4 +45,3 @@ double find_root( double             (*f)(double),
     return solution;
 }
 //]
-

@@ -387,4 +387,3 @@ template<class R, class T> _mfi::dm<R, T> mem_fn(R T::*f)
 } // namespace boost
 
 #endif // #ifndef BOOST_BIND_MEM_FN_HPP_INCLUDED
-

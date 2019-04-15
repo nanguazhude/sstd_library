@@ -94,5 +94,3 @@ struct advance_backward
 };
 
 }}}
-
-

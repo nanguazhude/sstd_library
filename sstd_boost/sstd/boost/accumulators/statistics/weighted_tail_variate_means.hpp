@@ -244,4 +244,3 @@ struct as_feature<tag::weighted_tail_variate_means<LeftRight, VariateType, Varia
 #endif
 
 #endif
-

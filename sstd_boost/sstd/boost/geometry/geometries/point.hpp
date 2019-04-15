@@ -301,4 +301,3 @@ struct access<model::point<CoordinateType, DimensionCount, CoordinateSystem>, Di
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_POINT_HPP
-

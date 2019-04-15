@@ -47,6 +47,3 @@ BOOST_MPL_ASSERT_RELATION(
 BOOST_MPL_ASSERT((
   boost::is_same< ft::member_function_pointer< mpl::vector<int,C &,int> >::type, mem_func_ptr >
 ));
-
-
-

@@ -116,4 +116,3 @@ BOOST_AUTO_TEST_CASE(sort_float_array)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

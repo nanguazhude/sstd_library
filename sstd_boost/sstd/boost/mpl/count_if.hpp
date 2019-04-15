@@ -77,4 +77,3 @@ BOOST_MPL_AUX_NA_SPEC(2, count_if)
 }}
 
 #endif // BOOST_MPL_COUNT_IF_HPP_INCLUDED
-

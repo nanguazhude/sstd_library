@@ -58,4 +58,3 @@ int main() {
     BOOST_HANA_CONSTANT_CHECK(hana::equal(const_m[key<1>()], val<1>()));
     BOOST_HANA_CONSTANT_CHECK(hana::equal(std::move(m)[key<1>()], val<1>()));
 }
-

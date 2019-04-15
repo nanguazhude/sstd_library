@@ -226,4 +226,3 @@ public:
 };
 
 #endif // BUFFERED_CHANNEL_H
-

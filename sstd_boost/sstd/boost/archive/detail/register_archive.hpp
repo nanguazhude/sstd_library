@@ -89,4 +89,3 @@ instantiate_ptr_serialization( Serializable*, Archive*, adl_tag );              
 }}} // namespace boost::archive::detail
 
 #endif // BOOST_ARCHIVE_DETAIL_INSTANTIATE_SERIALIZE_DWA2006521_HPP
-

@@ -82,4 +82,3 @@ TimeT time_from_ftime(const FileTimeT& ft)
 #endif // BOOST_HAS_FTIME
 
 #endif // DATE_TIME_FILETIME_FUNCTIONS_HPP__
-

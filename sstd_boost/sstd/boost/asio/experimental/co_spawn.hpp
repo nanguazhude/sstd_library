@@ -226,4 +226,3 @@ inline auto co_spawn(const await_token<Executor>& parent,
 #endif // defined(BOOST_ASIO_HAS_CO_AWAIT) || defined(GENERATING_DOCUMENTATION)
 
 #endif // BOOST_ASIO_EXPERIMENTAL_CO_SPAWN_HPP
-

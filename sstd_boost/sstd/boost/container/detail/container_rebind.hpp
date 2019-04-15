@@ -256,4 +256,3 @@ namespace dtl {
 }  //namespace boost {
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_CONTAINER_REBIND_HPP
-

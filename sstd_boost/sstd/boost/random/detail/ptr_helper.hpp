@@ -65,4 +65,3 @@ struct ptr_helper<T*>
 # define BOOST_RANDOM_PTR_HELPER_SPEC(T)
 
 #endif // BOOST_RANDOM_DETAIL_PTR_HELPER_HPP
-

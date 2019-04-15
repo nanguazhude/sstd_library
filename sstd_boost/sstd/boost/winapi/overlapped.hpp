@@ -49,4 +49,3 @@ typedef struct BOOST_MAY_ALIAS _OVERLAPPED {
 } // namespace boost
 
 #endif // BOOST_WINAPI_OVERLAPPED_HPP_INCLUDED_
-

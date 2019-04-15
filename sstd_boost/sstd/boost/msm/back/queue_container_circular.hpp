@@ -30,4 +30,3 @@ namespace boost { namespace msm { namespace back
 
 
 #endif //BOOST_MSM_BACK_QUEUE_CONTAINER_CIRCULAR_H
-

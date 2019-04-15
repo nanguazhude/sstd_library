@@ -43,4 +43,3 @@ int main()
     pointer_tests();
     return boost::report_errors();
 }
-

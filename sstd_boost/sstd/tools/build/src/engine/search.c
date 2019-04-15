@@ -273,4 +273,3 @@ void search_done( void )
         hashdone( explicit_bindings );
     }
 }
-

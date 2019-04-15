@@ -379,4 +379,3 @@ namespace boost {
 }
 
 #endif /// BOOST_GRAPH_BIPARTITE_HPP
-

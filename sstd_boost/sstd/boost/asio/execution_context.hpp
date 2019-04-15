@@ -411,4 +411,3 @@ service_id<Type> execution_context_service_base<Type>::id;
 #endif // defined(BOOST_ASIO_HEADER_ONLY)
 
 #endif // BOOST_ASIO_EXECUTION_CONTEXT_HPP
-

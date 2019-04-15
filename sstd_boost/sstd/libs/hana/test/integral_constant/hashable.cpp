@@ -24,4 +24,3 @@ int main() {
 
     hana::test::TestHashable<hana::integral_constant_tag<void>>{ints};
 }
-

@@ -16,4 +16,3 @@ int main()
   test_range();
   return boost::report_errors();
 }
-

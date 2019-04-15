@@ -52,4 +52,3 @@ namespace detail {
 #endif
 
 #endif // BOOST_CHRONO_DETAIL_NO_WARNING_SIGNED_UNSIGNED_CMP_HPP
-

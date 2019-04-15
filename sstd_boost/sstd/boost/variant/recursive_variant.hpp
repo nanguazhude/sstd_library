@@ -207,4 +207,3 @@ public: // metafunction result
 } // namespace boost
 
 #endif // BOOST_VARIANT_RECURSIVE_VARIANT_HPP
-

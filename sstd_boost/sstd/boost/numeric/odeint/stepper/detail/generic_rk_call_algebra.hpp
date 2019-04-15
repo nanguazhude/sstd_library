@@ -261,4 +261,3 @@ struct generic_rk_call_algebra< 13 , Algebra >
 }
 
 #endif // BOOST_NUMERIC_ODEINT_STEPPER_DETAIL_GENERIC_RK_CALL_ALGEBRA_HPP_INCLUDED
-

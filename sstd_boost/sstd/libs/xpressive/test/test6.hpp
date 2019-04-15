@@ -122,4 +122,3 @@ boost::iterator_range<xpr_test_case<BidiIterT> const *> get_test_cases()
 
     return boost::make_iterator_range(test_cases);
 }
-

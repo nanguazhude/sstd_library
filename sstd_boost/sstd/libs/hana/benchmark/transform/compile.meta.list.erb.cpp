@@ -21,4 +21,3 @@ using result = meta::transform<list, f>;
 int main() {
 
 }
-

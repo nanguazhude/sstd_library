@@ -914,5 +914,3 @@ typedef typename detail::BOOST_FT_make_type(BOOST_FT_flags,BOOST_FT_cc_id,40)
 };
 # undef BOOST_FT_make_type
 # undef BOOST_FT_make_type_impl
-
-

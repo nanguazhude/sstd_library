@@ -343,4 +343,3 @@ struct dynamic_y_step_type<memory_based_2d_locator<SI> > {
 } }  // namespace boost::gil
 
 #endif
-

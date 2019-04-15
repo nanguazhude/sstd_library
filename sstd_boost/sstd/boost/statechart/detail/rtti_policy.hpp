@@ -206,4 +206,3 @@ struct rtti_policy
 
 
 #endif
-

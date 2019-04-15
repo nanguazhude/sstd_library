@@ -24,4 +24,3 @@ int main()
 #else
 #error Requires rvalue references and deleted functions
 #endif
-

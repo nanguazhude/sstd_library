@@ -90,4 +90,3 @@ public:
 #endif // defined(BOOST_ASIO_WINDOWS) && !defined(UNDER_CE)
 
 #endif // BOOST_ASIO_DETAIL_WIN_FENCED_BLOCK_HPP
-

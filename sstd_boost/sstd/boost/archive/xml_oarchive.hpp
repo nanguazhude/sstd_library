@@ -135,4 +135,3 @@ BOOST_SERIALIZATION_REGISTER_ARCHIVE(boost::archive::xml_oarchive)
 #endif
 
 #endif // BOOST_ARCHIVE_XML_OARCHIVE_HPP
-

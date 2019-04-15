@@ -246,4 +246,3 @@ inline void debug_iterator_base::unregister_self() {
 } // namespace boost
 
 #endif // #if !defined(BOOST_CIRCULAR_BUFFER_DEBUG_HPP)
-

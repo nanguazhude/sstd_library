@@ -168,4 +168,3 @@ struct default_color_converter_impl<lab_t,rgb_t>
 } // namespace boost
 
 #endif
-

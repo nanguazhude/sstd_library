@@ -40,4 +40,3 @@ inline bool compare_handles(int lhs, int rhs)
 
 
 #endif /* BOOST_PROCESS_DETAIL_POSIX_COMPARE_HANDLES_HPP_ */
-

@@ -30,4 +30,3 @@ struct dim2 : boost::units::base_dimension<dim2, 1> {};
 int main()
 {
 }
-

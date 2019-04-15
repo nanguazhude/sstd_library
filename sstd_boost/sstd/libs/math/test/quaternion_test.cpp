@@ -828,5 +828,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(sinh_test, T, test_types)
              -::boost::math::quaternion<T>(0,0,0,1)))
         (4*numeric_limits<T>::epsilon()));
 }
-
-

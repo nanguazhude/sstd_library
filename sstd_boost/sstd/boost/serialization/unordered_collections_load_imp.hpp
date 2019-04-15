@@ -71,4 +71,3 @@ inline void load_unordered_collection(Archive & ar, Container &s)
 } // namespace boost
 
 #endif //BOOST_SERIALIZATION_UNORDERED_COLLECTIONS_LOAD_IMP_HPP
-

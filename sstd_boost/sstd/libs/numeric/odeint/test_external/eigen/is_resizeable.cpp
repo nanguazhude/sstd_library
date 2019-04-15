@@ -45,4 +45,3 @@ BOOST_AUTO_TEST_CASE( test_compile_time_array )
 
 
 BOOST_AUTO_TEST_SUITE_END()
-

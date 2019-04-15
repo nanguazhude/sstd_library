@@ -102,4 +102,3 @@ struct conversion_helper<quantity<absolute<Unit1>, T1>, quantity<absolute<Unit2>
 } // namespace boost
 
 #endif // BOOST_UNITS_ABSOLUTE_IMPL_HPP
-

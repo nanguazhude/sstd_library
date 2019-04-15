@@ -191,4 +191,3 @@ class resource_adaptor
 }  //namespace boost {
 
 #endif   //BOOST_CONTAINER_PMR_RESOURCE_ADAPTOR_HPP
-

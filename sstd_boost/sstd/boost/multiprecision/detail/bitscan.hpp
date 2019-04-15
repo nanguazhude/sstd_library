@@ -262,5 +262,3 @@ BOOST_FORCEINLINE unsigned find_msb(Unsigned mask)
 }}}
 
 #endif
-
-

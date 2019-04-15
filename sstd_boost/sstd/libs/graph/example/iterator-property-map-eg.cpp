@@ -19,4 +19,3 @@ main()
   std::cout << "x[0] = " << pmap[0] << std::endl;
   return 0;
 }
-

@@ -83,5 +83,3 @@ void push_button::on_bn_clicked(boost::contract::virtual_* v) {
 
 #endif // #include guard
 //]
-
-

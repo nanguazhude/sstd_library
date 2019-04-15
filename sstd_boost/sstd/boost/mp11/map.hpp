@@ -117,4 +117,3 @@ template<class M> using mp_is_map = typename detail::mp_is_map_impl<M>::type;
 } // namespace boost
 
 #endif // #ifndef BOOST_MP11_MAP_HPP_INCLUDED
-

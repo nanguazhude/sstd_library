@@ -108,4 +108,3 @@ int main()
    B::D< int > bd;
    A::f( bd );
 }
-

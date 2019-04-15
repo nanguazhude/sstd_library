@@ -992,4 +992,3 @@ class unordered_multiset
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_UNORDERED_SET_HPP
-

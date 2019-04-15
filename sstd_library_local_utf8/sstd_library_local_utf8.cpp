@@ -1,6 +1,6 @@
 ﻿#include "sstd_library_local_utf8.hpp"
 
-#if defined( _WIN32 ) 
+#if defined( _WIN32 )
 
 #include <Windows.h>
 
@@ -14,7 +14,7 @@ namespace sstd {
         auto varCharSize =
             ::WideCharToMultiByte(CP_UTF8, 0,
                 arg.data(), static_cast<int>(arg.size()),
-                nullptr, 0, 
+                nullptr, 0,
                 nullptr, nullptr);
 
         detail::utf8String varAns;
@@ -33,15 +33,15 @@ namespace sstd {
             return {};
         }
 
-        int varCharSize = ::MultiByteToWideChar(CP_UTF8, 0, 
-            arg.data(), static_cast<int>( arg.size() ), 
+        int varCharSize = ::MultiByteToWideChar(CP_UTF8, 0,
+            arg.data(), static_cast<int>( arg.size() ),
             nullptr, 0);
 
         detail::localWstring varAns;
         varAns.resize(varCharSize);
 
-        ::MultiByteToWideChar(CP_UTF8, 0, 
-            arg.data(), static_cast<int>(arg.size()), 
+        ::MultiByteToWideChar(CP_UTF8, 0,
+            arg.data(), static_cast<int>(arg.size()),
             varAns.data(), varCharSize);
 
         return std::move(varAns);

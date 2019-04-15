@@ -163,4 +163,3 @@ void test_owens_t(T, const char* name)
 
    do_test_owens_t<T>(owens_t_large_data, name, "Owens T (large and diverse values)");
 }
-

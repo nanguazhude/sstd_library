@@ -160,4 +160,3 @@ pausation::emplace(CompletionHandler&& handler)
 } // boost
 
 #endif
-

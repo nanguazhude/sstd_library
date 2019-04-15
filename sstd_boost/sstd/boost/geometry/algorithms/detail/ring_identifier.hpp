@@ -83,4 +83,3 @@ struct ring_identifier
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_RING_IDENTIFIER_HPP
-

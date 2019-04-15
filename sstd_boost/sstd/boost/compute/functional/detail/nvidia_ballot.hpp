@@ -46,4 +46,3 @@ public:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_FUNCTIONAL_DETAIL_NVIDIA_BALLOT_HPP
-

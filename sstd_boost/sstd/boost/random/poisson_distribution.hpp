@@ -358,4 +358,3 @@ using random::poisson_distribution;
 #include <sstd/boost/random/detail/enable_warnings.hpp>
 
 #endif // BOOST_RANDOM_POISSON_DISTRIBUTION_HPP
-

@@ -31,17 +31,3 @@ public:
     static TableUserData * mallocUserData(void *, void(*)(void *),const char*,size_t);
     static void freeUserData(TableUserData *);
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-

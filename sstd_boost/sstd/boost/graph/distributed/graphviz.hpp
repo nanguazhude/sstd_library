@@ -290,4 +290,3 @@ write_graphviz(std::ostream& out, const Graph& g,
 } // end namespace boost
 
 #endif // BOOST_GRAPH_PARALLEL_GRAPHVIZ_HPP
-

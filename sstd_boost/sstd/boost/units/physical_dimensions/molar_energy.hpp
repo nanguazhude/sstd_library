@@ -32,4 +32,3 @@ typedef derived_dimension<length_base_dimension,2,
 } // namespace boost
 
 #endif // BOOST_UNITS_MOLAR_ENERGY_DERIVED_DIMENSION_HPP
-

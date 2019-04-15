@@ -100,4 +100,3 @@ struct newdelete_allocator_adaptor:Allocator
 } /* namespace boost */
 
 #endif
-

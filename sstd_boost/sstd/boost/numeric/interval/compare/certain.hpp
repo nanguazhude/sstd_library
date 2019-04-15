@@ -111,4 +111,3 @@ bool operator!=(const interval<T, Policies>& x, const T& y)
 
 
 #endif // BOOST_NUMERIC_INTERVAL_COMPARE_CERTAIN_HPP
-

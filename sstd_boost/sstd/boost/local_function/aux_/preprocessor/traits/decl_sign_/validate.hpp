@@ -29,5 +29,3 @@
         BOOST_LOCAL_FUNCTION_AUX_PP_DECL_TRAITS_SIGN_VALIDATE_DEFAULTS(sign))
 
 #endif // #include guard
-
-

@@ -55,5 +55,3 @@ template <class Sum, class Item>
 //    >::type
 
 #endif
-
-

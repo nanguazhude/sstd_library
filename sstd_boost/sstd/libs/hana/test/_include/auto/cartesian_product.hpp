@@ -232,4 +232,3 @@ TestCase test_cartesian_product{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_CARTESIAN_PRODUCT_HPP
-

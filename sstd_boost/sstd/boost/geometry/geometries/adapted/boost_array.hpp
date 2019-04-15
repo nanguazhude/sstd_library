@@ -117,5 +117,3 @@ struct access<boost::array<CoordinateType, DimensionCount>, Dimension>
 
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_ADAPTED_BOOST_ARRAY_HPP
-
-

@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_ITERATOR
 #include <sstd/boost/spirit/home/classic/iterator.hpp>
 #endif
-

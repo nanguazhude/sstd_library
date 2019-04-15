@@ -46,4 +46,3 @@ template< typename T > struct nested_type_wknd
 #endif
 
 #endif // BOOST_MPL_AUX_NESTED_TYPE_WKND_HPP_INCLUDED
-

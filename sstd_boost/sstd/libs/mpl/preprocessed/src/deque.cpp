@@ -14,4 +14,3 @@
 #define BOOST_MPL_PREPROCESSING_MODE
 #include <sstd/boost/config.hpp>
 #include <sstd/boost/mpl/deque.hpp>
-

@@ -23,4 +23,3 @@ static_assert(hana::flatten(hana::just(hana::just(1))) == hana::just(1), "");
 BOOST_HANA_CONSTANT_CHECK(hana::flatten(hana::just(hana::nothing)) == hana::nothing);
 
 int main() { }
-

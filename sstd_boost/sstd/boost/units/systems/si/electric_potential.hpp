@@ -32,4 +32,3 @@ BOOST_UNITS_STATIC_CONSTANT(volts,electric_potential);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_ELECTRIC_POTENTIAL_HPP
-

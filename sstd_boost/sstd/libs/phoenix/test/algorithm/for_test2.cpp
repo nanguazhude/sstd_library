@@ -50,4 +50,3 @@ int main()
     for_test();
     boost::report_errors();
 }
-

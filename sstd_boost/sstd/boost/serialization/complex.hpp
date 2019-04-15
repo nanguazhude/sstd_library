@@ -79,4 +79,3 @@ struct tracking_level<std::complex< T > >
 } // namespace boost
 
 #endif // BOOST_SERIALIZATION_COMPLEX_HPP
-

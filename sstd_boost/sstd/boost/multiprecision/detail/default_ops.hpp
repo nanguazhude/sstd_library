@@ -3820,5 +3820,3 @@ using boost::multiprecision::lcm;
 #include <sstd/boost/multiprecision/detail/min_max.hpp>
 
 #endif
-
-

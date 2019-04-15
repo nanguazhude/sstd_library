@@ -96,4 +96,3 @@ int test_main( int, char* [] )
   machine.terminate();
   return 0;
 }
-

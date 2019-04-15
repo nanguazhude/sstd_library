@@ -503,4 +503,3 @@ BOOST_AUTO_TEST_CASE( test_ttmath_all )
     test_big_2d_string<tt, tt>();
 }
 #endif
-

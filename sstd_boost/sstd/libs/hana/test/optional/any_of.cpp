@@ -21,4 +21,3 @@ int main() {
     BOOST_HANA_CONSTANT_CHECK(hana::not_(hana::any_of(hana::just(x), hana::equal.to(y))));
     BOOST_HANA_CONSTANT_CHECK(hana::not_(hana::any_of(hana::nothing, hana::equal.to(x))));
 }
-

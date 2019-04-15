@@ -90,5 +90,3 @@ void test(T, const char* type_name)
 #endif
    }
 }
-
-

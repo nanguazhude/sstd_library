@@ -143,4 +143,3 @@ BOOST_TYPEOF_REGISTER_TEMPLATE(boost::units::scale, (long)(class))
 #endif
 
 #endif
-

@@ -11,6 +11,3 @@ int main()
 {
    return boost::has_nothrow_assign<incomplete_type>::value;
 }
-
-
-

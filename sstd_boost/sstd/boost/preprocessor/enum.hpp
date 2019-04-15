@@ -15,4 +15,3 @@
 # include <sstd/boost/preprocessor/repetition/enum.hpp>
 #
 # endif
-

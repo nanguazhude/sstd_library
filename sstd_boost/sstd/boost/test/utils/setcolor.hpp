@@ -316,4 +316,3 @@ private:
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_UTILS_SETCOLOR_HPP
-

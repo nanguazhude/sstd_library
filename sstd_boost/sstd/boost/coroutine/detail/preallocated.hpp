@@ -43,4 +43,3 @@ struct preallocated {
 #endif
 
 #endif // BOOST_COROUTINES_DETAIL_PREALLOCATED_H
-

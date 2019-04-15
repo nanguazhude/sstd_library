@@ -128,4 +128,3 @@ TestCase test_remove_at{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_REMOVE_AT_HPP
-

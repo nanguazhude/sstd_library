@@ -58,4 +58,3 @@ int main() {
         std::cout << roll_die() << std::endl;
     }
 }
-

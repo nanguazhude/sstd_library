@@ -195,4 +195,3 @@ using string_body = basic_string_body<char>;
 } // boost
 
 #endif
-

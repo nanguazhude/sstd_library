@@ -104,4 +104,3 @@ BOOST_AUTO_TEST_CASE(multiply_matrix4)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

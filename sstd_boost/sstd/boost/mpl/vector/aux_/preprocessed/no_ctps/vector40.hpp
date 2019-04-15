@@ -2442,4 +2442,3 @@ struct clear_impl< aux::vector_tag<40> >
 };
 
 }}
-

@@ -100,6 +100,3 @@ namespace boost
 }
 
 #endif /* BOOST_ACOSH_HPP */
-
-
-

@@ -635,4 +635,3 @@ int main()
     issue_2492_test();
     return boost::report_errors();
 }
-

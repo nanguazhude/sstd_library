@@ -41,4 +41,3 @@ struct default_distance_result
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_DEFAULT_DISTANCE_RESULT_HPP
-

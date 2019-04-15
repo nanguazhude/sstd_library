@@ -54,4 +54,3 @@ finalize_arguments( parameters_store const& params, runtime::arguments_store& ar
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_UTILS_RUNTIME_FINALIZE_HPP
-

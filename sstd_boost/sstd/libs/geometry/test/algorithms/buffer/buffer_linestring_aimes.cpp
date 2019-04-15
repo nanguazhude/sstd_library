@@ -508,4 +508,3 @@ int test_main(int, char* [])
     test_aimes<bg::model::point<double, 2, bg::cs::cartesian> >();
     return 0;
 }
-

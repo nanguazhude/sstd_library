@@ -17,4 +17,3 @@
 #include <sstd/boost/graph/edmonds_karp_max_flow.hpp>
 
 #endif // BOOST_DEPRECATED_INCLUDE_EDMONDS_KARP_MAX_FLOW_HPP
-

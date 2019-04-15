@@ -213,5 +213,3 @@
 #endif  // auto-linking disabled
 #endif // BOOST_CHRONO_HEADER_ONLY
 #endif // BOOST_CHRONO_CONFIG_HPP
-
-

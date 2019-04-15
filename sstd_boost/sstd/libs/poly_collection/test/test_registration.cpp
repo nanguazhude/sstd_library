@@ -117,4 +117,3 @@ void test_registration()
   test_registration<base_types::collection,base_types::t1>();
   test_registration<function_types::collection,function_types::t1>();
 }
-

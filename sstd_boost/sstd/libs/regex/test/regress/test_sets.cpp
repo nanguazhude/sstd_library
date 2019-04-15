@@ -403,5 +403,3 @@ void test_sets2b()
    TEST_INVALID_REGEX("\\N{invalid-name}", boost::regex::extended);
    TEST_INVALID_REGEX("\\N{zero", boost::regex::extended);
 }
-
-

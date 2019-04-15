@@ -86,5 +86,3 @@ int main() {
     assert(*(r.begin()) == 1);
     return 0;
 }
-
-

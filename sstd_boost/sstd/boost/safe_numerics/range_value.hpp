@@ -74,4 +74,3 @@ operator<<(
 }
 
 #endif  // BOOST_RANGE_VALUE_HPP
-

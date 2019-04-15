@@ -16,5 +16,3 @@ int main()
    test<boost::multiprecision::number<boost::multiprecision::logged_adaptor<boost::multiprecision::cpp_dec_float<50> > > >();
    return boost::report_errors();
 }
-
-

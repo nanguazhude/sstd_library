@@ -26,5 +26,3 @@ static_assert(std::is_same<not_ts, ts_removed>{}, "");
 int main() {}
 //]
 #endif //#ifndef BOOST_CLBL_TRTS_ENABLE_TRANSACTION_SAFE
-
-

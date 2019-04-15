@@ -155,4 +155,3 @@ namespace std
 #endif // BOOST_DETAIL_TEST_CONFIG_ONLY
 
 #endif
-

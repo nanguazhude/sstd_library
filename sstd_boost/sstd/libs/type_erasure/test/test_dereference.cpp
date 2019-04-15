@@ -58,4 +58,3 @@ BOOST_AUTO_TEST_CASE(test_any_result_const)
     any<test_concept, const _a&> y(*x);
     BOOST_CHECK_EQUAL(any_cast<const int*>(&y), &i);
 }
-

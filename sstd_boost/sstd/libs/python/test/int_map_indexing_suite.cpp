@@ -14,4 +14,3 @@ void int_map_indexing_suite()
         .def(map_indexing_suite<std::map<int, int> >())
     ;
 }
-

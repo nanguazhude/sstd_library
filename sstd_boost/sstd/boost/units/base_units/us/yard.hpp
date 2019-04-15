@@ -30,4 +30,3 @@ BOOST_TYPEOF_REGISTER_TYPE(boost::units::us::yard_base_unit)
 #endif
 
 #endif // BOOST_UNITS_SYSTEMS_US_YARD_BASE_UNIT_HPP
-

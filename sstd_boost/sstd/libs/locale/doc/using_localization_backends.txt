@@ -192,6 +192,3 @@ for all others:
 \endcode
 
 */
-
-
-

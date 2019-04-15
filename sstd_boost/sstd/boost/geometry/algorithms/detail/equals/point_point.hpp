@@ -50,4 +50,3 @@ inline bool equals_point_point(Point1 const& point1, Point2 const& point2)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_EQUALS_POINT_POINT_HPP
-

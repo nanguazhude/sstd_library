@@ -77,4 +77,3 @@ public:
 #endif
 
 #endif // BOOST_FIBERS_PROPERTIES_HPP
-

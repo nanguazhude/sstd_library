@@ -658,4 +658,3 @@ to enable the tests:
 .. _TARGA_TEST_FILES: http://www.fileformat.info/format/tga/sample/index.htm
 .. _TIFF_LIB_TIFF_TEST_FILES: http://www.remotesensing.org/libtiff/images.html
 .. _TIFF_GRAPHICSMAGICK_TEST_FILES: ftp://ftp.graphicsmagick.org/pub/tiff-samples/tiff-sample-images-be.tar.gz
-

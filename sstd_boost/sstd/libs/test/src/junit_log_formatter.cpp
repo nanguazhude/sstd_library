@@ -11,4 +11,3 @@
 #include <sstd/boost/test/impl/junit_log_formatter.ipp>
 
 // EOF
-

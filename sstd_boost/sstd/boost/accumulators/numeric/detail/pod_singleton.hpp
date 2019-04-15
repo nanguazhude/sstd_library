@@ -18,4 +18,3 @@ T pod_singleton<T>::instance;
 }} // namespace boost::detail
 
 #endif // BOOST_DETAIL_POD_SINGLETON_DWA200655_HPP
-

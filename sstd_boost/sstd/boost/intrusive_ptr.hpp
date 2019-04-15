@@ -16,4 +16,3 @@
 #include <sstd/boost/smart_ptr/intrusive_ptr.hpp>
 
 #endif  // #ifndef BOOST_INTRUSIVE_PTR_HPP_INCLUDED
-

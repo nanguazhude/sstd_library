@@ -69,4 +69,3 @@ BOOST_HOF_TEST_CASE()
 {
     BOOST_HOF_TEST_CHECK(boost::hof::rotate(f())(nullptr, 2) == 2);
 }
-

@@ -75,4 +75,3 @@ namespace boost { namespace icl
 //]
 
 #endif
-

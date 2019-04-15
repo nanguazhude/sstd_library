@@ -81,4 +81,3 @@ cycle_type overhead_cycle()
 }
 
 #endif // CYCLE_I386_H
-

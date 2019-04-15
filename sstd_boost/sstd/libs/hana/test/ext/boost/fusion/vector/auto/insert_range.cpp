@@ -6,4 +6,3 @@
 #include <auto/insert_range.hpp>
 
 int main() { }
-

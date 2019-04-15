@@ -122,4 +122,3 @@ public:
 }}}
 
 #endif // BOOST_FIBERS_SPINLOCK_TTAS_ADAPTIVE_H
-

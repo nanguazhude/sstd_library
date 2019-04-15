@@ -211,4 +211,3 @@ struct row_buffer_helper_view< View
 } // namespace boost
 
 #endif
-

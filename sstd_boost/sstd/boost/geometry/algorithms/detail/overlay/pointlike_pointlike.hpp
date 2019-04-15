@@ -438,4 +438,3 @@ struct union_pointlike_pointlike_point
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_POINTLIKE_POINTLIKE_HPP
-

@@ -64,4 +64,3 @@ class destruct_n
 }} //namespace boost {  namespace movelib{
 
 #endif //#ifndef BOOST_MOVE_DETAIL_DESTRUCT_N_HPP
-

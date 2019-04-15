@@ -65,4 +65,3 @@ wrap( Fn1 && fn1, Fn2 && fn2) {
 #endif
 
 #endif // BOOST_COROUTINE2_DETAIL_WRAP_H
-

@@ -39,4 +39,3 @@ BOOST_MPL_AUX_NA_SPEC(2,erase_key)
 }}
 
 #endif // BOOST_MPL_ERASE_KEY_HPP_INCLUDED
-

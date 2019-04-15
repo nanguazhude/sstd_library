@@ -79,4 +79,3 @@ struct is_stateful_value_traits
 #endif
 
 #endif   //@ifndef BOOST_INTRUSIVE_DETAIL_IS_STATEFUL_VALUE_TRAITS_HPP
-

@@ -15,4 +15,3 @@
 # include <sstd/boost/preprocessor/slot/slot.hpp>
 #
 # endif
-

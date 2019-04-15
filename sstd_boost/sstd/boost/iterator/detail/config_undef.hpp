@@ -22,4 +22,3 @@
 #else
 # error missing or nested #include config_def
 #endif
-

@@ -113,5 +113,3 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 #include <sstd/boost/spirit/home/classic/tree/impl/tree_to_xml.ipp>
 
 #endif // !defined(TREE_TO_XML_HPP)
-
-

@@ -316,4 +316,3 @@ void convert_from_string(Backend& b, const char* p)
 }}} // namespaces
 
 #endif
-

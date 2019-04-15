@@ -21,4 +21,3 @@ main()
     boost::function_requires< old::EqualityComparableConcept<foo> >();
     return 0;
 }
-

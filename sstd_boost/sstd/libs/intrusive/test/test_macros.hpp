@@ -79,4 +79,3 @@ void test_intrusive_maybe_unique(const Container &c, Vector &v)
 }  //namespace intrusive{
 
 #endif
-

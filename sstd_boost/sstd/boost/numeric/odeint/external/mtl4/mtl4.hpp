@@ -21,4 +21,3 @@
 #include <sstd/boost/numeric/odeint/external/mtl4/mtl4_resize.hpp>
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_MTL4_MTL4_INCLUDED
-

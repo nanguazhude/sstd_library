@@ -118,12 +118,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_member_function_pointer<volatile mf3>::va
 BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_member_function_pointer<const volatile mf3>::value, true);
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

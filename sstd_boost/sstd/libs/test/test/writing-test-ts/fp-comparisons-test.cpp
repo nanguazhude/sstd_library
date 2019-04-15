@@ -279,4 +279,3 @@ BOOST_AUTO_TEST_CASE( test_close_at_tolerance )
 }
 
 // EOF
-

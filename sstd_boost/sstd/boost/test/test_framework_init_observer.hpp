@@ -59,4 +59,3 @@ BOOST_TEST_SINGLETON_INST( framework_init_observer )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_FRAMEWORK_INIT_OBSERVER_HPP_071894GER
-

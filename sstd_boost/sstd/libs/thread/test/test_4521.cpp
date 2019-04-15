@@ -29,4 +29,3 @@ fi.wait(); // wait for it to finish
 //assert(fi.get_state()==boost::future_state::ready);
 //assert(fi.get()==42);
 }
-

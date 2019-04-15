@@ -75,4 +75,3 @@ namespace boost {
 } // namespace detail
 
 #endif // BOOST_GRAPH_DETAIL_INCREMENTAL_COMPONENTS_HPP
-

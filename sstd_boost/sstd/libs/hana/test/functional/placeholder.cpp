@@ -117,4 +117,3 @@ int main() {
     static_assert(!valid_call(_(invalid), invalid), "");
     static_assert(!valid_call(_(1), invalid), "");
 }
-

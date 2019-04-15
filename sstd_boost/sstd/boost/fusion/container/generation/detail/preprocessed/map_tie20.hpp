@@ -470,4 +470,3 @@ namespace boost { namespace fusion
             fusion::pair_tie<K0>(arg0) , fusion::pair_tie<K1>(arg1) , fusion::pair_tie<K2>(arg2) , fusion::pair_tie<K3>(arg3) , fusion::pair_tie<K4>(arg4) , fusion::pair_tie<K5>(arg5) , fusion::pair_tie<K6>(arg6) , fusion::pair_tie<K7>(arg7) , fusion::pair_tie<K8>(arg8) , fusion::pair_tie<K9>(arg9) , fusion::pair_tie<K10>(arg10) , fusion::pair_tie<K11>(arg11) , fusion::pair_tie<K12>(arg12) , fusion::pair_tie<K13>(arg13) , fusion::pair_tie<K14>(arg14) , fusion::pair_tie<K15>(arg15) , fusion::pair_tie<K16>(arg16) , fusion::pair_tie<K17>(arg17) , fusion::pair_tie<K18>(arg18) , fusion::pair_tie<K19>(arg19));
     }
 }}
-

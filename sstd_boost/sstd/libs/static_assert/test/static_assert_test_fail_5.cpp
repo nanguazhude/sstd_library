@@ -33,8 +33,3 @@ struct Bill
 };
 
 Bill<int, char> b;
-
-
-
-
-

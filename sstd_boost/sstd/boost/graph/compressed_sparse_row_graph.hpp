@@ -1604,4 +1604,3 @@ put(graph_all_t,
 } // end namespace boost
 
 #endif // BOOST_GRAPH_COMPRESSED_SPARSE_ROW_GRAPH_HPP
-

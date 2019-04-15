@@ -33,4 +33,3 @@ BOOST_AUTO_TEST_CASE(test_random_shuffle)
     std::random_shuffle(testVec.begin(), testVec.end(), generator);
 #endif
 }
-

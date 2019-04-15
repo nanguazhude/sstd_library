@@ -82,4 +82,3 @@ inline typename select_coordinate_type<Point1, Point2>::type dot_product(
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ARITHMETIC_DOT_PRODUCT_HPP
-

@@ -15,4 +15,3 @@ int main()
 {
    foo(2.3); // conversion from float is explicit
 }
-

@@ -14,4 +14,3 @@ struct callable2
  private:
     void call_impl(int, int); // implemented elsewhere.
 };
-

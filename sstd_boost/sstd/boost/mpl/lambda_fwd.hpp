@@ -55,4 +55,3 @@ struct lambda;
 #endif
 
 #endif // BOOST_MPL_LAMBDA_FWD_HPP_INCLUDED
-

@@ -17,4 +17,3 @@ static_assert(hana::iterate<3>(hana::make_tuple, xs) ==
               hana::make_tuple(hana::make_tuple(hana::make_tuple(xs))), "");
 
 int main() { }
-

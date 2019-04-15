@@ -30,4 +30,3 @@ using namespace boost;
 using namespace mpl;
 
 #endif // BOOST_MPL_AUX_TEST_HPP_INCLUDED
-

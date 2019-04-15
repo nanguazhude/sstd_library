@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_LISTS_FWD
 #include <sstd/boost/spirit/home/classic/utility/lists_fwd.hpp>
 #endif
-

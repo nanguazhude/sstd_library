@@ -35,4 +35,3 @@ BOOST_AUTO_TEST_CASE(tabulate_negative_int)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

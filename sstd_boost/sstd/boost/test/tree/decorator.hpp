@@ -278,4 +278,3 @@ using decorator::precondition;
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_TREE_DECORATOR_HPP_091911GER
-

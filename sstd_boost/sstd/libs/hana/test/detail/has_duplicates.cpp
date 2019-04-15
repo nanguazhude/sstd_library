@@ -55,4 +55,3 @@ static_assert(hana::detail::has_duplicates<
 >::value, "");
 
 int main() { }
-

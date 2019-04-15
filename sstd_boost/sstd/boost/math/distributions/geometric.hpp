@@ -514,4 +514,3 @@ namespace boost
 #endif
 
 #endif // BOOST_MATH_SPECIAL_GEOMETRIC_HPP
-

@@ -21,4 +21,3 @@ void test()
     const boost::intmax_t t1 = boost::ratio<1, 0>::num;
     (void)t1;
 }
-

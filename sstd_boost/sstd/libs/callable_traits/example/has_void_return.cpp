@@ -16,4 +16,3 @@ static_assert(!ct::has_void_return<int()>::value, "");
 
 int main() {}
 //]
-

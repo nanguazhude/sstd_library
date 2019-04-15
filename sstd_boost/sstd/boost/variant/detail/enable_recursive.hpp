@@ -131,4 +131,3 @@ struct quoted_enable_recursive
 } // namespace boost
 
 #endif // BOOST_VARIANT_DETAIL_ENABLE_RECURSIVE_HPP
-

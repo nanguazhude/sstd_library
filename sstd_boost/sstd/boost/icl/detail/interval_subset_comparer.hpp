@@ -365,5 +365,3 @@ int subset_compare
 }} // namespace icl boost
 
 #endif
-
-

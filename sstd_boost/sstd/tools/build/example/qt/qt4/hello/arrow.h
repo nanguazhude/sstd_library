@@ -28,4 +28,3 @@ private:
 private:
     int color_;
 };
-

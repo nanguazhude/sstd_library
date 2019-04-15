@@ -429,5 +429,3 @@ is_bind_helper(bind5< F,T1,T2,T3,T4,T5 >*);
 BOOST_MPL_AUX_ARITY_SPEC(6, bind5)
 BOOST_MPL_AUX_TEMPLATE_ARITY_SPEC(6, bind5)
 }}
-
-

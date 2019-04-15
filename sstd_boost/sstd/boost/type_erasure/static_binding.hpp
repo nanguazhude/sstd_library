@@ -34,4 +34,3 @@ static_binding<Map> make_binding() { return static_binding<Map>(); }
 }
 
 #endif
-

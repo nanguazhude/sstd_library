@@ -26,4 +26,3 @@ int main() {
 
     hana::test::TestComparable<hana::ext::boost::mpl::list_tag>{lists};
 }
-

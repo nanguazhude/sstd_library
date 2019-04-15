@@ -80,5 +80,3 @@ make( T (&a)[size] )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_DATA_MONOMORPHIC_ARRAY_HPP_121411GER
-
-

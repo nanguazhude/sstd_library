@@ -795,4 +795,3 @@ private:
 } /* namespace boost */
 
 #endif /* BOOST_LOCKFREE_STACK_HPP_INCLUDED */
-

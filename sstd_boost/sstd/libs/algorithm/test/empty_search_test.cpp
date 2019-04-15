@@ -79,4 +79,3 @@ BOOST_AUTO_TEST_CASE( test_main )
         == std::make_pair(str.begin(), str.begin())
         );
 }
-

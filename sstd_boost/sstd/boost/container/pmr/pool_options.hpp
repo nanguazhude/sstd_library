@@ -50,4 +50,3 @@ struct pool_options
 }  //namespace boost {
 
 #endif   //BOOST_CONTAINER_PMR_POOL_OPTIONS_HPP
-

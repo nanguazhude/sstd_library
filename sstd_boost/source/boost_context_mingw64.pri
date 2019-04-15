@@ -11,7 +11,3 @@ asm_gcc.commands =      g++ -x assembler-with-cpp -m64 -mthreads -O3 -finline-fu
 
 QMAKE_EXTRA_COMPILERS += asm_gcc
 export(QMAKE_EXTRA_COMPILERS)
-
-
-
-

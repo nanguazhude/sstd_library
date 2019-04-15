@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_CLOSURE
 #include <sstd/boost/spirit/home/classic/attribute/closure.hpp>
 #endif
-

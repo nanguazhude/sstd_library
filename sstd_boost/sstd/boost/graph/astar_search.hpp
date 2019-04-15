@@ -563,4 +563,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_GRAPH_ASTAR_SEARCH_HPP
-

@@ -27,4 +27,3 @@ MPL_TEST_CASE()
     typedef list<int,float,char,int,double>::type answer;
     MPL_ASSERT(( equal< result,answer > ));
 }
-

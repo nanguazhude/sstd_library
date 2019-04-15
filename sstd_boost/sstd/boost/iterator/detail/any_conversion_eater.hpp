@@ -19,4 +19,3 @@ struct any_conversion_eater
 }}} // namespace boost::iterators::detail
 
 #endif // ANY_CONVERSION_EATER_DWA20031117_HPP
-

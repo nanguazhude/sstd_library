@@ -180,4 +180,3 @@ inline std::size_t range_calculate_size(polygon_data<CoordinateType> const& poly
 
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_ADAPTED_BOOST_POLYGON_RING_HPP
-

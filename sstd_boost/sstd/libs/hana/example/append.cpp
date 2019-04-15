@@ -13,4 +13,3 @@ static_assert(hana::append(hana::make_tuple(1, '2'), 3.3) == hana::make_tuple(1,
 static_assert(hana::append(hana::append(hana::append(hana::make_tuple(), 1), '2'), 3.3) == hana::make_tuple(1, '2', 3.3), "");
 
 int main() { }
-

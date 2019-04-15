@@ -1,4 +1,4 @@
-/*
+﻿/*
 ** $Id: ltm.c,v 2.38.1.1 2017/04/19 17:39:34 roberto Exp $
 ** Tag methods
 ** See Copyright Notice in lua.h
@@ -162,4 +162,3 @@ int luaT_callorderTM (lua_State *L, const TValue *p1, const TValue *p2,
   else
     return !l_isfalse(L->top);
 }
-

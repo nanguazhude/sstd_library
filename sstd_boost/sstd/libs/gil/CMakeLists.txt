@@ -176,4 +176,3 @@ endif()
 if(GIL_BUILD_EXAMPLES AND GIL_ENABLE_IO)
   add_subdirectory(example)
 endif()
-

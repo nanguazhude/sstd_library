@@ -110,4 +110,3 @@ async( Policy policy, std::allocator_arg_t, StackAllocator salloc, Allocator all
 }}
 
 #endif // BOOST_FIBERS_ASYNC_HPP
-

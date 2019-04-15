@@ -45,5 +45,3 @@ struct is_restricted_conversion
 }}} // namespaces
 
 #endif // BOOST_MP_RESTRICTED_CONVERSION_HPP
-
-

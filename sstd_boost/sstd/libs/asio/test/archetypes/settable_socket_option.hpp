@@ -47,4 +47,3 @@ public:
 } // namespace archetypes
 
 #endif // ARCHETYPES_SETTABLE_SOCKET_OPTION_HPP
-

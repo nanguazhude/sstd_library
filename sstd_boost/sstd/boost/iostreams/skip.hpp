@@ -110,4 +110,3 @@ void skip( Filter& flt, Device& dev, stream_offset off,
 } } // End namespaces iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_SKIP_HPP_INCLUDED //------------------------//
-

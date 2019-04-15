@@ -190,4 +190,3 @@ BEAST_DEFINE_TESTSUITE(beast,core,buffers_adapter);
 
 } // beast
 } // boost
-

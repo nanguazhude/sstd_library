@@ -15,4 +15,3 @@
 
 //H 10: t_3_001.cpp(14): #undef
 //H 18: boost::wave::preprocess_exception
-

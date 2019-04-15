@@ -28,4 +28,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_TYPE_TRAITS_IS_FLOAT_HPP_INCLUDED
-

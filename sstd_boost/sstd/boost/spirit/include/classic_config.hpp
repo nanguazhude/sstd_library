@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_CONFIG
 #include <sstd/boost/spirit/home/classic/core/config.hpp>
 #endif
-

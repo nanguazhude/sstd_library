@@ -29,4 +29,3 @@ int main() {
       , hana::make_pair(ct_eq<4>{}, ct_eq<4>{})
     )};
 }
-

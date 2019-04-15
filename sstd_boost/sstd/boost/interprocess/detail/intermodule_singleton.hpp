@@ -51,4 +51,3 @@ class intermodule_singleton
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif
-

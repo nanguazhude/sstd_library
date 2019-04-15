@@ -134,4 +134,3 @@ BOOST_PYTHON_INPLACE_OPERATOR(|=)
 #include <sstd/boost/iterator/detail/config_undef.hpp>
 
 #endif // OBJECT_OPERATORS_DWA2002617_HPP
-

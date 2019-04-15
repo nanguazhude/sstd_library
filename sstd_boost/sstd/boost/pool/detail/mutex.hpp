@@ -142,4 +142,3 @@ typedef cs_mutex default_mutex;
 #endif
 
 #endif // #ifndef BOOST_POOL_MUTEX_HPP
-

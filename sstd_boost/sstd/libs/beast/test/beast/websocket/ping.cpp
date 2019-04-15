@@ -483,4 +483,3 @@ BEAST_DEFINE_TESTSUITE(beast,websocket,ping);
 } // websocket
 } // beast
 } // boost
-

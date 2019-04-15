@@ -15,4 +15,3 @@ int main() {
     auto types = hana::experimental::types<void, void>{};
     hana::replace_if(types, predicate{}, hana::type<struct anything>{});
 }
-

@@ -13,4 +13,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::zero<hana::integral_constant_tag<int>>() == hana
 static_assert(hana::zero<long>() == 0l, "");
 
 int main() { }
-

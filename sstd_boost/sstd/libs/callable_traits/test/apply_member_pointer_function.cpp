@@ -112,4 +112,3 @@ int main() {
 #endif //#ifndef BOOST_CLBL_TRTS_MSVC
 
 }
-

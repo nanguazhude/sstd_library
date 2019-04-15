@@ -32,5 +32,3 @@ int main(int argc, char* argv[])
     BOOST_TEST(thrown);
     return boost::report_errors();
 }
-
-

@@ -53,4 +53,3 @@ struct not_same_as
 }}
 
 #endif // BOOST_MPL_SAME_AS_HPP_INCLUDED
-

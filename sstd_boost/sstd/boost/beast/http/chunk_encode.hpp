@@ -734,4 +734,3 @@ make_chunk_last(
 #include <sstd/boost/beast/http/impl/chunk_encode.ipp>
 
 #endif
-

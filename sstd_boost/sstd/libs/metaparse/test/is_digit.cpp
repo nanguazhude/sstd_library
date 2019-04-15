@@ -26,6 +26,3 @@ BOOST_METAPARSE_TEST_CASE(util_is_digit)
   // test_non_digit
   BOOST_MPL_ASSERT((not_<apply_wrap1<is_digit<>, char_a> >));
 }
-
-
-

@@ -23,4 +23,3 @@
 #include <sstd/boost/proto/generate.hpp> // attempt to fix problems in intel 14.0.1
 
 #endif
-

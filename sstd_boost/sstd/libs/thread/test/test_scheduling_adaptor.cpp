@@ -52,4 +52,3 @@ int main()
   BOOST_TEST(diff > seconds(5));
   return boost::report_errors();
 }
-

@@ -233,4 +233,3 @@ Example showing how to get polygons from PostGIS using SOCI and use them in GGL 
 */
 
 #endif // _DOXYGEN_EXAMPLES_HPP
-

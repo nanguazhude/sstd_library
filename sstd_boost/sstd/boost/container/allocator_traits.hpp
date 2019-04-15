@@ -475,4 +475,3 @@ struct allocator_traits
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif // ! defined(BOOST_CONTAINER_ALLOCATOR_ALLOCATOR_TRAITS_HPP)
-

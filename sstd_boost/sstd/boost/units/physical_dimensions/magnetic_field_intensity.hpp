@@ -28,4 +28,3 @@ typedef derived_dimension<length_base_dimension,-1,
 } // namespace boost
 
 #endif // BOOST_UNITS_MAGNETIC_FIELD_INTENSITY_DERIVED_DIMENSION_HPP
-

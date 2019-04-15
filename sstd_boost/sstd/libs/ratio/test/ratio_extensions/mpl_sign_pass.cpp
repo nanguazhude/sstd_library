@@ -49,4 +49,3 @@ void test()
     BOOST_RATIO_STATIC_ASSERT(R::value == -1, NOTHING, ());
     }
 }
-

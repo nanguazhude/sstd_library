@@ -24,4 +24,3 @@
 #  include <sstd/boost/preprocessor/inc.hpp>
 #  include <sstd/boost/type_traits/is_void.hpp>
 #endif // BOOST_FUNCTION_PROLOGUE_HPP
-

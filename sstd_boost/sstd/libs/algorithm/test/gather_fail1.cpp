@@ -36,4 +36,3 @@ int main ()
   test_sequence1 ();
   return 0;
 }
-

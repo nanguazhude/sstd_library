@@ -103,5 +103,3 @@ void test_spots(T, const char* t)
    BOOST_CHECK_CLOSE_FRACTION(::boost::math::hermite(3, static_cast<T>(-1000)), static_cast<T>(-7.999988000000000E+9L), tolerance);
    BOOST_CHECK_CLOSE_FRACTION(::boost::math::hermite(3, static_cast<T>(-1000000)), static_cast<T>(-7.999999999988000E+18L), tolerance);
 }
-
-

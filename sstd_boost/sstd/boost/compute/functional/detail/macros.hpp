@@ -33,4 +33,3 @@
     };
 
 #endif // BOOST_COMPUTE_FUNCTIONAL_MACROS_HPP
-

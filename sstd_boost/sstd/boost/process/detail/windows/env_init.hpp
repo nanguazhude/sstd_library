@@ -52,4 +52,3 @@ struct env_init : public ::boost::process::detail::handler_base
 
 
 #endif /* BOOST_PROCESS_DETAIL_WINDOWS_ENV_INIT_HPP_ */
-

@@ -224,4 +224,3 @@ ll_sizeof(const lambda_functor<Arg1>& a1) {
 } // namespace boost
 
 #endif
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * CECPQ1 (x25519 + NewHope)
 * (C) 2016 Jack Lloyd
 *

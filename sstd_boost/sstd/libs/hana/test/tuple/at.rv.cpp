@@ -38,4 +38,3 @@ int main() {
         Tracked b = hana::at_c<1>(hana::at_c<0>(std::move(xs))); (void)b;
     }
 }
-

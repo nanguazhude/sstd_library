@@ -22,4 +22,3 @@ int main() {
 
     BOOST_HANA_CONSTEXPR_CHECK(hana::eval(hana::if_(hana::false_c, f(0), g(0))) == 0 + 1);
 }
-

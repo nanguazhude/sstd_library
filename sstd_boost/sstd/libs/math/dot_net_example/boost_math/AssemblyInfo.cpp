@@ -42,4 +42,3 @@ using namespace System::Security::Permissions;
 [assembly:CLSCompliantAttribute(true)];
 // Deprecated:
 //[assembly:SecurityPermission(SecurityAction::RequestMinimum, UnmanagedCode = true)];
-

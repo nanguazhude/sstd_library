@@ -21,4 +21,3 @@ using std::alignment_of;
 } /* boost */
 
 #endif
-

@@ -15,4 +15,3 @@
 #include <sstd/boost/type_traits/is_convertible.hpp>
 
 #endif // BOOST_TT_CONVERSION_TRAITS_HPP_INCLUDED
-

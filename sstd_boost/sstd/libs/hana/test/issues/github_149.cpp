@@ -10,4 +10,3 @@ namespace hana = boost::hana;
 auto opt = hana::just(hana::make_map());
 
 int main() { }
-

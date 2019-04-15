@@ -17,5 +17,3 @@ main(int, char const* [])
     int    i = convert<int>("123").value();
     string s = convert<string>(123).value();
 }
-
-

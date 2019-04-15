@@ -272,4 +272,3 @@ struct char_converter<char, std::initializer_list<wchar_t * >>
 
 }}}
 #endif /* BOOST_PROCESS_DETAIL_TRAITS_WCHAR_T_HPP_ */
-

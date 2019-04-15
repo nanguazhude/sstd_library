@@ -169,4 +169,3 @@ reverse_iterator<Iterator> make_reverse_iterator( Iterator i )
 #include <sstd/boost/move/detail/config_end.hpp>
 
 #endif //BOOST_MOVE_DETAIL_REVERSE_ITERATOR_HPP
-

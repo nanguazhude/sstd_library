@@ -69,5 +69,3 @@ BOOST_ST_API BOOST_NOINLINE boost::stacktrace::stacktrace make_some_stacktrace2(
     boost::stacktrace::stacktrace result = make_some_stacktrace2_impl();
     return result;
 }
-
-

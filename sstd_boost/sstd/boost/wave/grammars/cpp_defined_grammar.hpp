@@ -183,4 +183,3 @@ defined_grammar_gen<LexIteratorT>::parse_operator_defined (
 #endif
 
 #endif // !defined(CPP_DEFINED_GRAMMAR_HPP_F48287B2_DC67_40A8_B4A1_800EFBD67869_INCLUDED)
-

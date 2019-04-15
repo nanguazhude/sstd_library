@@ -41,4 +41,3 @@ int test_main(int /*argc*/, char* /*argv*/ [])
     run();
     return boost::exit_success;
 }
-

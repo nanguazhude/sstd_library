@@ -351,4 +351,3 @@ namespace boost {
 
 
 #endif  // BOOST_STRING_CLASSIFICATION_DETAIL_HPP
-

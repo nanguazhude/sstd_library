@@ -72,5 +72,3 @@
   }
 
   # endif  // BOOST_WINDOWS_API
-
-

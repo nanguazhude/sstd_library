@@ -53,4 +53,3 @@ bool has_non_finite_coordinate(Point const& point)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_UTIL_HAS_NON_FINITE_COORDINATE_HPP
-

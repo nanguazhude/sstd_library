@@ -36,4 +36,3 @@ a category to indicate that either `BOOST_ARCH_X86_32` or
 
 #include <sstd/boost/predef/detail/test.h>
 BOOST_PREDEF_DECLARE_TEST(BOOST_ARCH_X86,BOOST_ARCH_X86_NAME)
-

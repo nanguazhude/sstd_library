@@ -26,4 +26,3 @@ typedef void(*fun2_type)(...);
 
 BOOST_STATIC_ASSERT((boost::is_same<tpl1<void>::type, fun1_type>::value));
 BOOST_STATIC_ASSERT((boost::is_same<tpl2<void>::type, fun2_type>::value));
-

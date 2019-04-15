@@ -201,4 +201,3 @@ public:
 
 
 #endif // BOOST_GEOMETRY_TEST_UNION1_HPP
-

@@ -49,4 +49,3 @@ int main() {
    BOOST_PP_LIST_FOR_EACH(CATCH, _, BUILTIN_TYPES)
    return 0;
 }
-

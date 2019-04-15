@@ -152,4 +152,3 @@ struct BOOST_PP_CAT(extract_concept, N)
 #undef N
 
 #endif
-

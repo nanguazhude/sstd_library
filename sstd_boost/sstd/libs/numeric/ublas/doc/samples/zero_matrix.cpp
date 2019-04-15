@@ -18,5 +18,3 @@ int main () {
     zero_matrix<double> m (3, 3);
     std::cout << m << std::endl;
 }
-
-

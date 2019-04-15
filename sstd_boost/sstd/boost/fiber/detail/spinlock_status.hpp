@@ -19,4 +19,3 @@ enum class spinlock_status {
 }}}
 
 #endif // BOOST_FIBERS_SPINLOCK_STATUS_H
-

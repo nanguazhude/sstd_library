@@ -44,4 +44,3 @@ struct tag:parameter::template_keyword<tag<>,T>,detail::tag_marker
 } /* namespace boost */
 
 #endif
-

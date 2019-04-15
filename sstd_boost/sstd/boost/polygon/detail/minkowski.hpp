@@ -129,4 +129,3 @@ struct minkowski_offset {
   }
 
 }}
-

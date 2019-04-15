@@ -194,8 +194,3 @@ void test()
         BOOST_TEST(&*advance_c<3>(begin(t)) == &at_c<3>(t));
     }
 }
-
-
-
-
-

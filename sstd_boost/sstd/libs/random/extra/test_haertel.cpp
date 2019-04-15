@@ -60,4 +60,3 @@ BOOST_AUTO_TEST_CASE(test_haertel)
   // I trace the source of this generator. --SJW
   validate<MRG_Fib2>(1234567u, "MRG_Fib2");
 }
-

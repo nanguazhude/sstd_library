@@ -838,4 +838,3 @@ void interval_set_move_4_discrete_types()
 
 
 #endif // LIBS_ICL_TEST_TEST_INTERVAL_SET_SHARED_HPP_JOFA_080920
-

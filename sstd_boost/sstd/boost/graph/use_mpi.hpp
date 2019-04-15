@@ -13,4 +13,3 @@
 #define BOOST_GRAPH_USE_MPI
 
 #endif // BOOST_GRAPH_USE_MPI_HPP
-

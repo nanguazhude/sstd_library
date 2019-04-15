@@ -276,4 +276,3 @@ inline void test_##QRNG##_max_discard() \
 /**/
 
 #endif // TEST_QRNG_FUNCTIONS_HPP_INCLUDED
-

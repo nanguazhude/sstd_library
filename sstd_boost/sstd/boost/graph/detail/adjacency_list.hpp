@@ -2830,4 +2830,3 @@ namespace boost {
   to the various helpers instead of using inheritance.
 
  */
-

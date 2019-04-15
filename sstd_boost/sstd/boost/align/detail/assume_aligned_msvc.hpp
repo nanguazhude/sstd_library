@@ -17,4 +17,3 @@ Distributed under the Boost Software License, Version 1.0.
 __assume((reinterpret_cast<std::size_t>(ptr) & ((alignment) - 1)) == 0)
 
 #endif
-

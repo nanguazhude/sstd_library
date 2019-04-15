@@ -598,4 +598,3 @@ namespace quickbook
             to_original_pos(find_section(pos), pos - source().begin()));
     }
 }
-

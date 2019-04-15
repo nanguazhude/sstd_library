@@ -129,5 +129,3 @@ void test_spots(T, const char* type_name)
     } };
     do_test_ellint_e2<T>(small_angles, type_name, "Elliptic Integral E: Small Angles");
 }
-
-

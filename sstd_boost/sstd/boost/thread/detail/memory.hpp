@@ -46,4 +46,3 @@ namespace boost
   } //namespace thread_detail
 }
 #endif //  BOOST_THREAD_DETAIL_MEMORY_HPP
-

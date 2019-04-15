@@ -44,4 +44,3 @@ int main() {
         hana::equal.to(hana::int_c<2>)
     )));
 }
-

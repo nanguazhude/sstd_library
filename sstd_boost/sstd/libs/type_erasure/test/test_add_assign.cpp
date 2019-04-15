@@ -138,4 +138,3 @@ BOOST_AUTO_TEST_CASE(test_overload)
         BOOST_CHECK_EQUAL(&x, &z);
     }
 }
-

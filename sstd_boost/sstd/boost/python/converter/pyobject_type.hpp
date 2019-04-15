@@ -38,4 +38,3 @@ struct pyobject_type
 }}} // namespace boost::python::converter
 
 #endif // PYOBJECT_TYPE_DWA2002720_HPP
-

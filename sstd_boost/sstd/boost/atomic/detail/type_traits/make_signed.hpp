@@ -41,4 +41,3 @@ using boost::make_signed;
 } // namespace boost
 
 #endif // BOOST_ATOMIC_DETAIL_TYPE_TRAITS_MAKE_SIGNED_HPP_INCLUDED_
-

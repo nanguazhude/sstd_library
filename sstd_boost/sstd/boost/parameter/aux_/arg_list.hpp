@@ -434,5 +434,3 @@ namespace mpl
 } // namespace boost
 
 #endif // ARG_LIST_050329_HPP
-
-

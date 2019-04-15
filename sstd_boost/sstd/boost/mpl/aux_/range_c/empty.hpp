@@ -35,4 +35,3 @@ struct empty_impl< aux::half_open_range_tag >
 }}
 
 #endif // BOOST_MPL_AUX_RANGE_C_EMPTY_HPP_INCLUDED
-

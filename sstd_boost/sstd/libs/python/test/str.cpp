@@ -82,4 +82,3 @@ BOOST_PYTHON_MODULE(str_ext)
 }
 
 #include "module_tail.cpp"
-

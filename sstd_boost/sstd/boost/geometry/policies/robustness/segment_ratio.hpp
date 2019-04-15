@@ -265,4 +265,3 @@ private :
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_POLICIES_ROBUSTNESS_SEGMENT_RATIO_HPP
-

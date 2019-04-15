@@ -25,4 +25,3 @@ namespace boost { namespace interprocess { namespace test {
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_TEST_CHECK_HEADER
-

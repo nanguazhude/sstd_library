@@ -15,5 +15,3 @@
 #for j in range(0, $n)
 TEST_STRING($random_string(32))
 #end for
-
-

@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/iterator/value_of.hpp>
 
 #endif
-

@@ -605,4 +605,3 @@ namespace boost
 #endif
 
 #endif // BOOST_MATH_SPECIAL_NEGATIVE_BINOMIAL_HPP
-

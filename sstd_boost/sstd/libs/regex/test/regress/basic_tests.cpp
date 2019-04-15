@@ -208,6 +208,3 @@ void test_nosubs()
    TEST_REGEX_SEARCH("(.*).*", perl|nosubs, "abcdef", match_default, make_array(0, 6, -2, 6, 6, -2, -2));
    TEST_REGEX_SEARCH("(a*)*", perl|nosubs, "bc", match_default, make_array(0, 0, -2, 1, 1, -2, 2, 2, -2, -2));
 }
-
-
-

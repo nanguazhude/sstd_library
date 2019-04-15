@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Entropy Source Using Intel's rdrand instruction
 * (C) 2012 Jack Lloyd
 *

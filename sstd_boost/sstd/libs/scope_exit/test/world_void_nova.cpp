@@ -8,5 +8,3 @@
 
 #include "nova.hpp"
 #include "world_void.cpp"
-
-

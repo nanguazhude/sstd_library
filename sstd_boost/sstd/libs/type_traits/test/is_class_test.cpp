@@ -59,12 +59,3 @@ TT_TEST_BEGIN(is_class)
    BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_class<void>::value, false);
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

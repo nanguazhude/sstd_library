@@ -25,4 +25,3 @@ BOOST_AUTO_TEST_CASE( queue_test_unbounded )
     boost::lockfree::queue<long> q(128);
     tester->run(q);
 }
-

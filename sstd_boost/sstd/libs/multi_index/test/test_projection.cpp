@@ -133,4 +133,3 @@ void test_projection()
     *cit==*cit1&&*cit1==*cit2&&*cit2==*cit3&&*cit3==*cit4&&*cit4==*cit5&&
     citbis==cit);
 }
-

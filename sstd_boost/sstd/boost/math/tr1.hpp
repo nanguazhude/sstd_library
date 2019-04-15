@@ -1115,5 +1115,3 @@ inline typename tools::promote_args<T>::type sph_neumann BOOST_PREVENT_MACRO_SUB
 #endif // __cplusplus
 
 #endif // BOOST_MATH_TR1_HPP
-
-

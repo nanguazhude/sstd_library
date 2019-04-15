@@ -227,4 +227,3 @@ public:
 } // namespace boost
 
 #endif // !defined(BOOST_SPIRIT_DISTINCT_HPP)
-

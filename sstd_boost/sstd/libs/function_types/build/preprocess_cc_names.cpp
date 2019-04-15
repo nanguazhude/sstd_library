@@ -24,5 +24,3 @@ timestamp file
 #include <sstd/boost/function_types/detail/pp_cc_loop/master.hpp>
 #pragma wave option(output: null)
 #undef  BOOST_FT_OUT_FILE
-
-

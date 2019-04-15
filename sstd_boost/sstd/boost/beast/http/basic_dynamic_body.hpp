@@ -160,4 +160,3 @@ struct basic_dynamic_body
 } // boost
 
 #endif
-

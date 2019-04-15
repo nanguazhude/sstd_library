@@ -19,6 +19,3 @@ void optional_reference__test_no_converting_ctor()
   boost::optional<short&> opt1 ;
   boost::optional<int&> opt2 = opt1 ;
 }
-
-
-

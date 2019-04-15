@@ -63,4 +63,3 @@ class unwrap_pointer<pointer_wrapper<T> >
 }} // namespace boost::python
 
 #endif
-

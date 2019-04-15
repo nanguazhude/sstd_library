@@ -39,5 +39,3 @@ inline int iconv(T v, Policy const& pol)
 }}} // namespaces
 
 #endif // BOOST_MATH_ICONV_HPP
-
-

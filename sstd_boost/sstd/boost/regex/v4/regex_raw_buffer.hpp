@@ -202,10 +202,3 @@ inline raw_storage::raw_storage(size_type n)
 } // namespace boost
 
 #endif
-
-
-
-
-
-
-

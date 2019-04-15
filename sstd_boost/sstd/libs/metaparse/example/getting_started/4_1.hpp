@@ -24,5 +24,3 @@ using exp_parser4 = build_parser<sequence<token<int_>, token<lit_c<'+'>>, token<
 //    exp_parser4::apply<BOOST_METAPARSE_STRING("11 + 2")>::type
 
 #endif
-
-

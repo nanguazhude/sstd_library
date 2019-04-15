@@ -43,4 +43,3 @@ BOOST_AUTO_TEST_CASE
 BOOST_AUTO_TEST_CASE
 (fastest_icl_interval_map_mixed_infix_et_overload_4_bicremental_types)
 {            interval_map_mixed_infix_et_overload_4_bicremental_types<bicremental_type_4, int>(); }
-

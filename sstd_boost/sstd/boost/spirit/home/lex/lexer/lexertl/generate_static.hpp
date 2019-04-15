@@ -1025,4 +1025,3 @@ namespace boost { namespace spirit { namespace lex { namespace lexertl
 }}}}
 
 #endif
-

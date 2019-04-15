@@ -74,4 +74,3 @@ private:
 #include <sstd/boost/random/detail/enable_warnings.hpp>
 
 #endif // BOOST_RANDOM_DETAIL_UNIFORM_INT_FLOAT_HPP
-

@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_ASSIGN_KEY_ACTOR
 #include <sstd/boost/spirit/home/classic/actor/assign_key_actor.hpp>
 #endif
-

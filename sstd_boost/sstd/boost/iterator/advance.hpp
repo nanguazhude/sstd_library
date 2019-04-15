@@ -82,4 +82,3 @@ using namespace iterators::advance_adl_barrier;
 } // namespace boost
 
 #endif
-

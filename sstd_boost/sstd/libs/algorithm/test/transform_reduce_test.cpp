@@ -186,4 +186,3 @@ BOOST_AUTO_TEST_CASE( test_main )
   test_transform_reduce_init_bop_uop();
   test_transform_reduce_init_bop_bop();
 }
-

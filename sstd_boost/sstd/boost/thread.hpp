@@ -24,4 +24,3 @@
 #include <sstd/boost/thread/future.hpp>
 
 #endif
-

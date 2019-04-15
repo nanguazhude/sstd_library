@@ -21,4 +21,3 @@ BOOST_ACCUMULATORS_IGNORE_GLOBAL(quantile_probability)
 }} // namespace boost::accumulators
 
 #endif
-

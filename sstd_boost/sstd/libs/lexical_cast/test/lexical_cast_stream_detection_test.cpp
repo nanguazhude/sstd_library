@@ -305,4 +305,3 @@ void test_mixed_stream_character_detection() {
     boost::lexical_cast<istreamble_wostreamable>(istreamble_wostreamable::value);
     BOOST_CHECK_EQUAL(boost::lexical_cast<int>(istreamble_wostreamable()), istreamble_wostreamable::value);
 }
-

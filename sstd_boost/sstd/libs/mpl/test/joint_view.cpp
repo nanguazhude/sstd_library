@@ -54,4 +54,3 @@ MPL_TEST_CASE()
     test_is_empty< joint_view< list<>,list<> > >();
     test_is_empty< joint_view< list<>, joint_view< list0<>,list0<> > > >();
 }
-

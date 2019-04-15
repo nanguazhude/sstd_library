@@ -185,4 +185,3 @@ struct custom_raw
 };
 
 #endif // BOOST_GEOMETRY_TEST_UTIL_NUMBER_TYPES_HPP
-

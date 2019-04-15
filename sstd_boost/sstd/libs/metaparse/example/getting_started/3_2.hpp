@@ -11,5 +11,3 @@
 //    exp_parser1::apply<BOOST_METAPARSE_STRING("thirteen")>::type
 
 #endif
-
-

@@ -100,4 +100,3 @@ struct parameters< void >
 #endif
 
 #endif // BOOST_COROUTINES_DETAIL_PARAMETERS_H
-

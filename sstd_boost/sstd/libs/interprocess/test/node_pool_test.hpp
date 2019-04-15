@@ -161,4 +161,3 @@ bool test_all_node_pool()
 }  //namespace boost {
 
 #include <sstd/boost/interprocess/detail/config_end.hpp>
-

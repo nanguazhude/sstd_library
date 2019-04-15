@@ -54,4 +54,3 @@ template <class T> inline void ignore_unused_variable_warning(const T&) {}
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_WORKAROUND_HPP_021005GER
-

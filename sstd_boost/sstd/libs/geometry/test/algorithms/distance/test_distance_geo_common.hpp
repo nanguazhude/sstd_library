@@ -572,4 +572,3 @@ void test_empty_input(Geometry1 const& geometry1,
 }
 
 #endif // BOOST_GEOMETRY_TEST_DISTANCE_GEO_COMMON_HPP
-

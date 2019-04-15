@@ -32,4 +32,3 @@ BOOST_UNITS_STATIC_CONSTANT(newton_meters,torque);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_TORQUE_HPP
-

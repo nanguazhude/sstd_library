@@ -89,5 +89,3 @@ Example(s)
   np::dtype dtype = np::dtype::get_builtin<double>();
   p::tuple for_custom_dtype = p::make_tuple("ha",dtype);
   np::dtype custom_dtype = np::dtype(list_for_dtype);
-
-

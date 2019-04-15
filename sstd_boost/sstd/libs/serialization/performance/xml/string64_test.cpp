@@ -21,5 +21,3 @@ typedef std::string string;
 #include "harness.hpp"
 
 BSL_MAIN
-
-

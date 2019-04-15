@@ -83,5 +83,3 @@ struct default_strategy<spherical_polar_tag, CalculationType>
 }} //namepsace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_SPHERICAL_ENVELOPE_SEGMENT_HPP
-
-

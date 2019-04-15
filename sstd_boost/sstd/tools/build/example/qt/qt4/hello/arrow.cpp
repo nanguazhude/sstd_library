@@ -155,5 +155,3 @@ void Arrow_widget::paintEvent(QPaintEvent*)
     draw_arrow(1000, 400, 50, 450, p);
 
 }
-
-

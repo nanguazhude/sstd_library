@@ -104,5 +104,3 @@ namespace boost { namespace numeric { namespace odeint {
 #endif // THRUST_VERSION >= 100600
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_THRUST_THRUST_ALGEBRA_DISPATCHER_HPP_DEFINED
-
-

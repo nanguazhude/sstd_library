@@ -29,4 +29,3 @@ typedef unit<impedance_dimension,si::system>    impedance;
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_IMPEDANCE_HPP
-

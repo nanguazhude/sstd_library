@@ -134,4 +134,3 @@ inline void inplace_reduce(Iterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_INPLACE_REDUCE_HPP
-

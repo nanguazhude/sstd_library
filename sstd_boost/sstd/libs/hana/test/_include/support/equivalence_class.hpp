@@ -32,4 +32,3 @@ namespace boost { namespace hana {
 }} // end namespace boost::hana
 
 #endif // !TEST_SUPPORT_EQUIVALENCE_CLASS_HPP
-

@@ -97,4 +97,3 @@ TestCase test_drop_back{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_DROP_BACK_HPP
-

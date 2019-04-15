@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_PHOENIX1_BINDERS
 #include <sstd/boost/spirit/home/classic/phoenix/binders.hpp>
 #endif
-

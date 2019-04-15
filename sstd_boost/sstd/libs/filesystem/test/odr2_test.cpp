@@ -16,4 +16,3 @@ namespace boost
     void tu2() {}
   }
 }
-

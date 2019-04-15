@@ -46,4 +46,3 @@ BOOST_PYTHON_DECL void register_exception_handler(handler_function const& f);
 }}} // namespace boost::python::detail
 
 #endif // EXCEPTION_HANDLER_DWA2002810_HPP
-

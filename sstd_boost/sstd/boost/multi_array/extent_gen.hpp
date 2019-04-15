@@ -73,4 +73,3 @@ public:
 
 
 #endif // BOOST_EXTENT_GEN_RG071801_HPP
-

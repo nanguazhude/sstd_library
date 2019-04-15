@@ -39,4 +39,3 @@ int main() {
     hana::test::TestFoldable<hana::ext::std::pair_tag>{eqs};
     hana::test::TestProduct<hana::ext::std::pair_tag>{eq_elems};
 }
-

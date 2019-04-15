@@ -11,6 +11,3 @@ int main()
 {
    return boost::is_nothrow_move_assignable<incomplete_type>::value;
 }
-
-
-

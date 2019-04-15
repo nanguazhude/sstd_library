@@ -134,4 +134,3 @@ using iterators::make_filter_iterator;
 } // namespace boost
 
 #endif // BOOST_FILTER_ITERATOR_23022003THW_HPP
-

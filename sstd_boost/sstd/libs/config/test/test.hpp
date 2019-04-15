@@ -18,5 +18,3 @@ int test()
 }
 
 #endif
-
-

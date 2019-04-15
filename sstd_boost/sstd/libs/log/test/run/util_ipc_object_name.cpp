@@ -164,4 +164,3 @@ BOOST_AUTO_TEST_CASE(name_equivalence)
         BOOST_CHECK_NE(name1, name2);
     }
 }
-

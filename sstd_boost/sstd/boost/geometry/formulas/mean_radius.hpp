@@ -69,4 +69,3 @@ inline ResultType mean_radius(Geometry const& geometry)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_FORMULAS_MEAN_RADIUS_HPP
-

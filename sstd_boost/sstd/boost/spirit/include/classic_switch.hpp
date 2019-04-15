@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_SWITCH
 #include <sstd/boost/spirit/home/classic/dynamic/switch.hpp>
 #endif
-

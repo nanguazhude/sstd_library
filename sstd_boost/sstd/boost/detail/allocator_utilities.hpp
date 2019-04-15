@@ -191,4 +191,3 @@ void destroy(const Type* p)
 } /* namespace boost */
 
 #endif
-

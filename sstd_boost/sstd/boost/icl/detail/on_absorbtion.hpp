@@ -39,6 +39,3 @@ struct on_absorbtion<Type, Combiner, true>
 }} // namespace boost icl
 
 #endif
-
-
-

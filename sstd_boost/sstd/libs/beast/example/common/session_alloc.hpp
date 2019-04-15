@@ -444,4 +444,3 @@ struct associated_executor<
 } // boost
 
 #endif
-

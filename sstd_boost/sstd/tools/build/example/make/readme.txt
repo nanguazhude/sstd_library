@@ -5,4 +5,3 @@ Distributed under the Boost Software License, Version 1.0.
 
 Example of using custom command to create one file from another, using the
 built-in 'make' rule.
-

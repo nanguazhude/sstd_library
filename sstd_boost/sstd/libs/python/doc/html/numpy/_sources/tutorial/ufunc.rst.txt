@@ -117,5 +117,3 @@ And print the output ::
 
     std::cout << "Square of list with binary ufunc is " << p::extract<char const *>(p::str(result_array)) << std::endl;
   }
-
-

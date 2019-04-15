@@ -99,4 +99,3 @@ using extract::weighted_skewness;
 }} // namespace boost::accumulators
 
 #endif
-

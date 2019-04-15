@@ -7,5 +7,3 @@
 
 #include "nova.hpp"
 #include "try_catch_seq.cpp"
-
-

@@ -251,4 +251,3 @@ namespace boost {
 } // end namespace boost
 
 #endif // BOOST_GRAPH_PLOD_GENERATOR_HPP
-

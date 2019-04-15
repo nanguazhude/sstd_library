@@ -27,4 +27,3 @@ void frame_free( FRAME * frame )
 {
     lol_free( frame->args );
 }
-

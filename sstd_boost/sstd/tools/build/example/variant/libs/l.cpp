@@ -7,4 +7,3 @@
 __declspec(dllexport)
 #endif
 void l() {}
-

@@ -137,4 +137,3 @@ int test_main( int /* argc */, char* /* argv */[] )
     test_hash_multimap();
     return EXIT_SUCCESS;
 }
-

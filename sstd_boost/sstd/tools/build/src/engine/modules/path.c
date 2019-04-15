@@ -23,4 +23,3 @@ void init_path()
     char const * args[] = { "location", 0 };
     declare_native_rule( "path", "exists", args, path_exists, 1 );
 }
-

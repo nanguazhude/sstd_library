@@ -67,5 +67,3 @@ namespace some_namespace {
     }
 #endif
 }
-
-

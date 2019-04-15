@@ -172,4 +172,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(always_ref, always_detail::always_ref_f);
 }} // namespace boost::hof
 
 #endif
-

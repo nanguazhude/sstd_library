@@ -182,4 +182,3 @@ BOOST_AUTO_TEST_CASE(test_rebind_and_convert_with_binding_from_value)
     any<dst_concept, _a&> z(x, table);
     BOOST_CHECK_EQUAL(any_cast<int*>(&z), ip);
 }
-

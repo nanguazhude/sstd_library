@@ -125,4 +125,3 @@ target_include_directories(callable_traits INTERFACE
 install(TARGETS callable_traits     EXPORT CallableTraitsConfig)
 install(EXPORT CallableTraitsConfig DESTINATION lib/cmake/CallableTraits)
 install(DIRECTORY include/boost     DESTINATION include FILES_MATCHING PATTERN "*.hpp")
-

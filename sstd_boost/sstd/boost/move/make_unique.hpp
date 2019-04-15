@@ -236,4 +236,3 @@ inline BOOST_MOVE_DOC1ST(unspecified,
 #include <sstd/boost/move/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_MOVE_MAKE_UNIQUE_HPP_INCLUDED
-

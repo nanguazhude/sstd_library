@@ -23,4 +23,3 @@
 #include <sstd/boost/compute/types/size_t.hpp>
 
 #endif // BOOST_COMPUTE_TYPES_HPP
-

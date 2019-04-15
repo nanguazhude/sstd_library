@@ -191,4 +191,3 @@ struct iterator_add_deref<dereference_iterator_adaptor<Iterator, PREV_DEREF>,Der
 }}  // namespace boost::gil
 
 #endif
-

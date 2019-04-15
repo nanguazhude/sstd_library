@@ -29,4 +29,3 @@ int main() {
         std::cout << name_of(type) << std::endl;
     });
 }
-

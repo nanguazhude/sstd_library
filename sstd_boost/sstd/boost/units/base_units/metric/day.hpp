@@ -37,4 +37,3 @@ struct base_unit_info<metric::day_base_unit> {
 } // namespace boost
 
 #endif
-

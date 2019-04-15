@@ -103,4 +103,3 @@ private:
 #endif // defined(BOOST_ASIO_HAS_IOCP)
 
 #endif // BOOST_ASIO_DETAIL_WIN_IOCP_HANDLE_WRITE_OP_HPP
-

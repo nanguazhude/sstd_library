@@ -35,4 +35,3 @@
 #endif
 
 #endif // BOOST_COMPUTE_DETAIL_GLOBAL_STATIC_HPP
-

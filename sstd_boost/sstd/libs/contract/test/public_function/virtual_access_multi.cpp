@@ -280,5 +280,3 @@ int main() {
 }
 
 #endif // MSVC
-
-

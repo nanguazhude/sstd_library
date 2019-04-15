@@ -1,4 +1,4 @@
-/*
+﻿/*
 * BigInt
 * (C) 1999-2008,2012,2018 Jack Lloyd
 *     2007 FlexSecure

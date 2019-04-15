@@ -117,5 +117,3 @@ main()
     loops_tests();
     return boost::report_errors();
 }
-
-

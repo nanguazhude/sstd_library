@@ -165,12 +165,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_fundamental<boost::float128_type>::value,
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

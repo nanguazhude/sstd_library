@@ -80,5 +80,3 @@ namespace boost { namespace fusion { namespace detail
 #endif
 
 #endif
-
-

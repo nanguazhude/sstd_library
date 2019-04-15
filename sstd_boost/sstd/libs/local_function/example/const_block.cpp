@@ -15,5 +15,3 @@ int main(void) {
     } CONST_BLOCK_END
     return 0;
 }
-
-

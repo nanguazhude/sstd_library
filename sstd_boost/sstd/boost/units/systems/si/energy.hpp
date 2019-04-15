@@ -32,4 +32,3 @@ BOOST_UNITS_STATIC_CONSTANT(joules,energy);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_ENERGY_HPP
-

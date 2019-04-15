@@ -1013,4 +1013,3 @@ namespace boost {
 #undef BOOST_GRID_GRAPH_TRAITS_T
 
 #endif // BOOST_GRAPH_GRID_GRAPH_HPP
-

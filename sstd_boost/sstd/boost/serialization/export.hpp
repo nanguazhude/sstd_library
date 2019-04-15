@@ -220,5 +220,3 @@ namespace {                                                                    \
     /**/
 
 #endif // BOOST_SERIALIZATION_EXPORT_HPP
-
-

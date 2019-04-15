@@ -372,4 +372,3 @@ namespace boost
 }
 
 #endif  // BOOST_SIGNALS2_CONNECTION_HPP
-

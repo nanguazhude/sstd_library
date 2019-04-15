@@ -72,4 +72,3 @@ remove(const ForwardRange& rng, const Value& val)
 } // namespace boost
 
 #endif // include guard
-

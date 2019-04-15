@@ -115,4 +115,3 @@ inline visitor_ptr_t<T,R> visitor_ptr(R (*visitor)(T))
 } // namespace boost
 
 #endif// BOOST_VISITOR_VISITOR_PTR_HPP
-

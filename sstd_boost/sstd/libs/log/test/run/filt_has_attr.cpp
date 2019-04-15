@@ -100,4 +100,3 @@ BOOST_AUTO_TEST_CASE(composition_check)
     BOOST_CHECK(!f(values2));
     BOOST_CHECK(f(values3));
 }
-

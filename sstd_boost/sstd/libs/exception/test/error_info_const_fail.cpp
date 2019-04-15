@@ -12,4 +12,3 @@ test( boost::exception const * e )
     {
     ++*boost::get_error_info<foo>(*e);
     }
-

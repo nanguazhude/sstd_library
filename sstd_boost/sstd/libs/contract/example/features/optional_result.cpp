@@ -38,5 +38,3 @@ int main() {
     assert(v[1] == -456);
     return 0;
 }
-
-

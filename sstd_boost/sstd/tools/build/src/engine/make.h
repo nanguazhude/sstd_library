@@ -42,4 +42,3 @@ LIST * targets_to_update();
 void clear_targets_to_update();
 
 #endif
-

@@ -51,4 +51,3 @@ UWP and is deprecated.  Use one of the other `BOOST_PLAT_WINDOWS_*`definitions i
 
 #include <sstd/boost/predef/detail/test.h>
 BOOST_PREDEF_DECLARE_TEST(BOOST_PLAT_WINDOWS_RUNTIME,BOOST_PLAT_WINDOWS_RUNTIME_NAME)
-

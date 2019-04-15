@@ -41,4 +41,3 @@ bool is_allowed( const image_read_info< jpeg_tag >& /* info */
 } // namespace boost
 
 #endif
-

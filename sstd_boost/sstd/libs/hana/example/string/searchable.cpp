@@ -19,4 +19,3 @@ int main() {
         hana::find(BOOST_HANA_STRING("abcxefg"), hana::char_c<'x'>) == hana::just(hana::char_c<'x'>)
     );
 }
-

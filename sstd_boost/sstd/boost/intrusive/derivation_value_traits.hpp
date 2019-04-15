@@ -75,4 +75,3 @@ struct derivation_value_traits
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_DERIVATION_VALUE_TRAITS_HPP
-

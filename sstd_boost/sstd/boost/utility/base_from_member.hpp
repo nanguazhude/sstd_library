@@ -170,4 +170,3 @@ protected:
 
 
 #endif  // BOOST_UTILITY_BASE_FROM_MEMBER_HPP
-

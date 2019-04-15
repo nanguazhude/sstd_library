@@ -106,4 +106,3 @@ swap(filtered_queue<Buffer, Predicate>& x,
 } // end namespace boost
 
 #endif // BOOST_FILTERED_QUEUE_HPP
-

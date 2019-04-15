@@ -294,4 +294,3 @@ struct associated_allocator<
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_EXPERIMENTAL_IMPL_REDIRECT_ERROR_HPP
-

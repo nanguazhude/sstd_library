@@ -15,4 +15,3 @@ BOOST_AUTO_TEST_CASE( test )
   BOOST_TEST( BOOST_IS_DEFINED(SYMBOL2(arg)) );
 }
 //]
-

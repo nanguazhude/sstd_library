@@ -193,4 +193,3 @@ inline T prior(T x, Distance n)
 } // namespace boost
 
 #endif  // BOOST_NEXT_PRIOR_HPP_INCLUDED
-

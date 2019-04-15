@@ -334,4 +334,3 @@ namespace detail {
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_GET_MPI_OP_HPP
-

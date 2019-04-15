@@ -71,4 +71,3 @@ template<class T> std::string typename_string(const T&);
 #endif
 
 #endif // BOOST_UNITS_UNITS_FWD_HPP
-

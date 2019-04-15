@@ -80,4 +80,3 @@ BOOST_CXX14_CONSTEXPR bool none_of_equal ( const Range &r, const V & val )
 }} // namespace boost and algorithm
 
 #endif // BOOST_ALGORITHM_NONE_OF_HPP
-

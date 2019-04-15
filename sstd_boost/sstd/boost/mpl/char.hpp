@@ -20,4 +20,3 @@
 #include <sstd/boost/mpl/aux_/integral_wrapper.hpp>
 
 #endif // BOOST_MPL_CHAR_HPP_INCLUDED
-

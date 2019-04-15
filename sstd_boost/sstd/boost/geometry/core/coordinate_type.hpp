@@ -106,4 +106,3 @@ struct fp_coordinate_type
 
 
 #endif // BOOST_GEOMETRY_CORE_COORDINATE_TYPE_HPP
-

@@ -357,4 +357,3 @@ inline typename detail::bessel_traits<T, T, policies::policy<> >::result_type sp
 } // namespace boost
 
 #endif // BOOST_MATH_BESSEL_DERIVATIVES_HPP
-

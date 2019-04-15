@@ -234,4 +234,3 @@ std::size_t frame::source_line() const {
 }} // namespace boost::stacktrace
 
 #endif // BOOST_STACKTRACE_DETAIL_LIBBACKTRACE_IMPLS_HPP
-

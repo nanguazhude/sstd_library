@@ -27,4 +27,3 @@ public:
 } // end namespace foo
 
 #endif /* ACTNODE_H_ */
-

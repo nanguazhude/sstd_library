@@ -62,5 +62,3 @@ void assign_action_test()
     assign_test();
     assign_test_ref();
 }
-
-

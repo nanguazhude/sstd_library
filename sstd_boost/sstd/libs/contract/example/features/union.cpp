@@ -133,5 +133,3 @@ int main() {
     assert(positive::instances() == 0);
     return 0;
 }
-
-

@@ -513,5 +513,3 @@ sub_match<BidiIterator>::operator unsigned int()const
 #endif
 
 #endif
-
-

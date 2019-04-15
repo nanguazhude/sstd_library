@@ -207,5 +207,3 @@ int element_compare
 }} // namespace icl boost
 
 #endif
-
-

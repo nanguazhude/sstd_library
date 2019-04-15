@@ -350,4 +350,3 @@ write_graphml(std::ostream& out, const Graph& g, const dynamic_properties& dp,
 } // boost namespace
 
 #endif // BOOST_GRAPH_GRAPHML_HPP
-

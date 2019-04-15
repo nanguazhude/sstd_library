@@ -22,4 +22,3 @@ int main()
     getline(in, output);
     assert(input == output);
 }
-

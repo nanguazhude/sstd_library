@@ -317,6 +317,3 @@ iterator BOOST_REGEX_CALL re_is_set_member(iterator next,
 #endif
 
 #endif
-
-
-

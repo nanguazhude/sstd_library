@@ -19,4 +19,3 @@ enum flag_unwind_t
 }}
 
 #endif // BOOST_COROUTINES_FLAGS_H
-

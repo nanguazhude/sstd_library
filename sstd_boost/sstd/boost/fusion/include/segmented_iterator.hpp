@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/iterator/segmented_iterator.hpp>
 
 #endif
-

@@ -28,5 +28,3 @@ int main()
    test<boost::rational<boost::multiprecision::cpp_int> >();
    return boost::report_errors();
 }
-
-

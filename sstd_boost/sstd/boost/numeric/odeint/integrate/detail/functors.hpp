@@ -68,4 +68,3 @@ struct obs_caller_time {
 } // namespace boost
 
 #endif // BOOST_NUMERIC_ODEINT_INTEGRATE_DETAIL_FUNCTORS_HPP_INCLUDED
-

@@ -28,4 +28,3 @@ using ::GetLastError;
 }
 
 #endif // BOOST_WINAPI_GET_LAST_ERROR_HPP_INCLUDED_
-

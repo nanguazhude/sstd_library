@@ -175,4 +175,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_DETAIL_NAMED_TEMPLATE_PARAMS_HPP
-

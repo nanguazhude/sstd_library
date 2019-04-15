@@ -115,4 +115,3 @@ NUMPY_OBJECT_MANAGER_TRAITS(numpy::dtype);
 }}} // namespace boost::python::converter
 
 #endif
-

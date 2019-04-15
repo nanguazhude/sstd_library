@@ -39,4 +39,3 @@ BOOST_CONTAINER_FORCEINLINE T* addressof(T& obj)
 }  //namespace boost {
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_ADDRESSOF_HPP
-

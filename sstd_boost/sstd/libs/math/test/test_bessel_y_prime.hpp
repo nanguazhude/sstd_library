@@ -218,5 +218,3 @@ void test_bessel_prime(T, const char* name)
 #include "sph_neumann_prime_data.ipp"
     do_test_sph_neumann_y_prime<T>(sph_neumann_prime_data, name, "y': Random Data");
 }
-
-

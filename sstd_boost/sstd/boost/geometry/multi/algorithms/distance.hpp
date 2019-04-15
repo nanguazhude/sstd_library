@@ -25,4 +25,3 @@
 #include <sstd/boost/geometry/algorithms/distance.hpp>
 
 #endif // BOOST_GEOMETRY_MULTI_ALGORITHMS_DISTANCE_HPP
-

@@ -36,4 +36,3 @@ int main() {
     hana::test::TestIterable<hana::range_tag>{ranges};
     hana::test::TestSearchable<hana::range_tag>{ranges, integers};
 }
-

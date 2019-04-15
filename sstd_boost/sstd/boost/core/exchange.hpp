@@ -47,4 +47,3 @@ BOOST_CXX14_CONSTEXPR inline T exchange(T& t, U&& u)
 } /* boost */
 
 #endif
-

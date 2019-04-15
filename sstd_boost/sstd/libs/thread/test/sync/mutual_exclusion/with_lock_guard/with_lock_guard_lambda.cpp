@@ -57,4 +57,3 @@ int main() {
   test_lambda();
   return boost::report_errors();
 }
-

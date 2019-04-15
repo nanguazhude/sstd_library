@@ -337,6 +337,3 @@ struct const_local_map_view_iterator :
 } // namespace boost
 
 #endif // BOOST_BIMAP_DETAIL_MAP_VIEW_ITERATOR_HPP
-
-
-

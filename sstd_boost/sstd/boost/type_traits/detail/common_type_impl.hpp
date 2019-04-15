@@ -105,4 +105,3 @@ template<class T, class U> struct common_type_impl5: public common_arithmetic_ty
 } // namespace boost
 
 #endif // #ifndef BOOST_TYPE_TRAITS_DETAIL_COMMON_TYPE_IMPL_HPP_INCLUDED
-

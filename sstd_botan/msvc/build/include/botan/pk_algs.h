@@ -1,4 +1,4 @@
-/*
+﻿/*
 * PK Key Factory
 * (C) 1999-2010,2016 Jack Lloyd
 *

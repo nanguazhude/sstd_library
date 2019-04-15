@@ -172,4 +172,3 @@ struct function_traits :
 }
 
 #endif // BOOST_TT_FUNCTION_TRAITS_HPP_INCLUDED
-

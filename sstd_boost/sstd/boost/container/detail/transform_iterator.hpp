@@ -178,4 +178,3 @@ make_transform_iterator(Iterator it, UnaryFunc fun)
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_TRANSFORM_ITERATORS_HPP
-

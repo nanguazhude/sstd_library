@@ -299,4 +299,3 @@ struct feature_of<tag::with_p_square_cumulative_distribution_weighted_median>
 }} // namespace boost::accumulators
 
 #endif
-

@@ -67,4 +67,3 @@ template< typename Dummy = na > struct set0
 }}
 
 #endif // BOOST_MPL_SET_AUX_SET0_HPP_INCLUDED
-

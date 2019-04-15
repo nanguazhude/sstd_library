@@ -1123,4 +1123,3 @@
                     >::result_type
                 type;
         };
-

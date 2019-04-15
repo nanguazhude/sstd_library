@@ -134,5 +134,3 @@ wmanaged_external_buffer;
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_MANAGED_EXTERNAL_BUFFER_HPP
-
-

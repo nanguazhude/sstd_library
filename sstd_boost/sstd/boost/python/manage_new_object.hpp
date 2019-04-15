@@ -39,4 +39,3 @@ struct manage_new_object
 }} // namespace boost::python
 
 #endif // MANAGE_NEW_OBJECT_DWA200222_HPP
-

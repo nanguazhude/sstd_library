@@ -43,4 +43,3 @@ struct deque_of
 }  //namespace boost {
 
 #endif   //BOOST_CONTAINER_PMR_DEQUE_HPP
-

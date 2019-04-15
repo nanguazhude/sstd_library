@@ -123,4 +123,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_ARRAY_STORAGE_RG071801_HPP
-

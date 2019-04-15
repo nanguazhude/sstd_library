@@ -128,4 +128,3 @@ private:
 #endif // !defined(BOOST_ASIO_WINDOWS) && !defined(__CYGWIN__)
 
 #endif // BOOST_ASIO_DETAIL_DESCRIPTOR_WRITE_OP_HPP
-

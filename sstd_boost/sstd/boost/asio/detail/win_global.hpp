@@ -74,4 +74,3 @@ T& win_global()
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_WIN_GLOBAL_HPP
-

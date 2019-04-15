@@ -75,4 +75,3 @@ struct iterator_facade_to_base<Iterator,Iterator>
 
 
 #endif // BOOST_BIMAP_CONTAINER_ADAPTOR_DETAIL_ITERATOR_FACADE_CONVERTERS_HPP
-

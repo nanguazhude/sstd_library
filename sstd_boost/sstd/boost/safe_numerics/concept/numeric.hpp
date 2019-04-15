@@ -32,4 +32,3 @@ struct Numeric {
 } // boost
 
 #endif // BOOST_NUMERIC_CONCEPT_NUMERIC_HPP
-

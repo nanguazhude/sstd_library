@@ -183,4 +183,3 @@ struct compare_array_node {
 } // namespace boost
 
 #endif /* BOOST_ARRAY_BINARY_TREE_HPP */
-

@@ -76,4 +76,3 @@ int main()
 
     integrate_const( runge_kutta4< state_type >() , lattice , x , 0.0 , 10.0 , 0.1 );
 }
-

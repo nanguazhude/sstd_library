@@ -9,4 +9,3 @@
 #ifdef BOOST_HAS_LONG_LONG
 template void do_test_spots<float, boost::ulong_long_type>(float, boost::ulong_long_type);
 #endif
-

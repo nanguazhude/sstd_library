@@ -22,5 +22,3 @@ Usage:
     	    MACH_TYPE, OS_TYPE);
     return(1);
 }
-
-

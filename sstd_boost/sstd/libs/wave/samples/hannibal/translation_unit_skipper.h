@@ -49,4 +49,3 @@ struct translation_unit_skipper
 };
 
 #endif // HANNIBAL_TRANSLATION_UNIT_SKIPPER_H_INCLUDED
-

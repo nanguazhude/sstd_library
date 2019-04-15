@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_TYPEOF
 #include <sstd/boost/spirit/home/classic/actor/typeof.hpp>
 #endif
-

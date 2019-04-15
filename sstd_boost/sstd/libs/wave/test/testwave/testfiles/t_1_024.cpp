@@ -110,4 +110,3 @@ NOT_EQUAL(3, 3)       //R 0
 EQUAL(2, 3)           //R 0
 EQUAL(3, 2)           //R 0
 EQUAL(3, 3)           //R 1
-

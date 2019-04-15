@@ -151,4 +151,3 @@ using namespace time_conversion;
 #endif
 
 #endif // !defined(TIME_CONVERSION_HELPER_HPP_DA97E389_1797_43BA_82AE_B071064B3EF4_INCLUDED)
-

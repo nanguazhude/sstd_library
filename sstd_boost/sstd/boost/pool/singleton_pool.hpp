@@ -249,4 +249,3 @@ typename singleton_pool<Tag, RequestedSize, UserAllocator, Mutex, NextSize, MaxS
 } // namespace boost
 
 #endif
-

@@ -52,4 +52,3 @@ struct node_slist
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTERPROCESS_DETAIL_NODE_TOOLS_HPP
-

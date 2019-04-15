@@ -23,5 +23,3 @@ int main ()
 	printf("Final heap size is %ld\n", GC_get_heap_size());
 	return 0;
 }
-
-

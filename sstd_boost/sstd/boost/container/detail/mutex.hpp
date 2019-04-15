@@ -281,4 +281,3 @@ class scoped_lock
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif
-

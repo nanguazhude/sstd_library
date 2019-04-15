@@ -145,4 +145,3 @@ BOOST_AUTO_TEST_CASE(chebyshev_test)
     test_derivatives<long double>();
     test_derivatives<cpp_bin_float_quad>();
 }
-

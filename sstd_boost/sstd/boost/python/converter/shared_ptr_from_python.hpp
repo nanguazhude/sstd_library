@@ -63,4 +63,3 @@ struct shared_ptr_from_python
 }}} // namespace boost::python::converter
 
 #endif
-

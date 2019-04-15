@@ -119,4 +119,3 @@ equal_impl( char const* left, char const* right );
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_TOOLS_DETAIL_FWD_HPP_012705GER
-

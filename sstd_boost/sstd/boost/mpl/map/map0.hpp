@@ -35,4 +35,3 @@
 #include <sstd/boost/mpl/map/aux_/tag.hpp>
 
 #endif // BOOST_MPL_MAP_MAP0_HPP_INCLUDED
-

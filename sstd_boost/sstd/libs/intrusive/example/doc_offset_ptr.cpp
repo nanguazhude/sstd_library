@@ -113,5 +113,3 @@ int main()
 //]
 
 #endif //BOOST_NO_EXCEPTIONS
-
-

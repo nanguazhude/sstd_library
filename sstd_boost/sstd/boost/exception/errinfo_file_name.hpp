@@ -24,4 +24,3 @@ boost
     }
 
 #endif
-

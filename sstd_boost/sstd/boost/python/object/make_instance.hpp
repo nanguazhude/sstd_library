@@ -77,4 +77,3 @@ struct make_instance
 }}} // namespace boost::python::object
 
 #endif // MAKE_INSTANCE_DWA200296_HPP
-

@@ -53,4 +53,3 @@ int main() {
     hana::test::TestMonad<hana::ext::std::tuple_tag>{tuples, nested_tuples};
     hana::test::TestMonadPlus<hana::ext::std::tuple_tag>{tuples, predicates, values};
 }
-

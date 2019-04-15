@@ -6,4 +6,3 @@
 #include <auto/unfolds.hpp>
 
 int main() { }
-

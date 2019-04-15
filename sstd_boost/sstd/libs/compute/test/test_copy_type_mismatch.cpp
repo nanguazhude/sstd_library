@@ -1378,4 +1378,3 @@ BOOST_AUTO_TEST_CASE(copy_to_host_svm_float_to_int_transform)
 #endif
 
 BOOST_AUTO_TEST_SUITE_END()
-

@@ -182,4 +182,3 @@ void test_ring(std::string const& wkt_point,
 */
 
 #endif
-

@@ -75,4 +75,3 @@ inline scope::scope(scope const& new_scope)
 }} // namespace boost::python
 
 #endif // SCOPE_DWA2002724_HPP
-

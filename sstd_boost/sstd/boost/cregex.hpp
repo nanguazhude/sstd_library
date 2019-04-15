@@ -27,14 +27,3 @@
 #include <sstd/boost/regex/v4/cregex.hpp>
 
 #endif /* include guard */
-
-
-
-
-
-
-
-
-
-
-

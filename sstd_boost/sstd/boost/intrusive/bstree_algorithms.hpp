@@ -2095,4 +2095,3 @@ struct get_node_checker<BsTreeAlgorithms, ValueTraits, NodePtrCompare, ExtraChec
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_BSTREE_ALGORITHMS_HPP
-

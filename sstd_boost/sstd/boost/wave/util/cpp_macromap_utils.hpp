@@ -573,4 +573,3 @@ to_string(Src const& src)
 #endif
 
 #endif // !defined(CPP_MACROMAP_UTIL_HPP_HK041119)
-

@@ -151,4 +151,3 @@ object make_function(
 
 
 #endif // MAKE_FUNCTION_DWA20011221_HPP
-

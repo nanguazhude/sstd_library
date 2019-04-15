@@ -57,12 +57,3 @@ TT_TEST_BEGIN(remove_cv)
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

@@ -19,5 +19,3 @@ namespace iterator_range_test_detail
         boost::ignore_unused_variable_warning(rng);
     }
 }
-
-

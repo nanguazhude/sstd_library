@@ -65,5 +65,3 @@ BOOST_HOF_TEST_CASE()
     static_assert(noexcept(boost::hof::identity(boost::hof::move(ct))), "Noexcept identity");
     static_assert(!noexcept(boost::hof::identity(copy_throws{})), "Noexcept identity");
 }
-
-

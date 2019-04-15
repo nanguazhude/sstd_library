@@ -42,5 +42,3 @@ using exp_parser6 =
 //    exp_parser6::apply<BOOST_METAPARSE_STRING("11 + 2")>::type
 
 #endif
-
-

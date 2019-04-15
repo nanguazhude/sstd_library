@@ -33,4 +33,3 @@ int main()
     // character.
     symbols_.find(scanner(begin, end));
 }
-

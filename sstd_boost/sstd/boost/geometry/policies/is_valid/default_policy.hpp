@@ -57,4 +57,3 @@ public:
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_POLICIES_IS_VALID_DEFAULT_POLICY_HPP
-

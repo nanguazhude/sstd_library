@@ -17,4 +17,3 @@
 #include <sstd/boost/spirit/home/karma/detail/generate_auto.hpp>
 
 #endif
-

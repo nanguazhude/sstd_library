@@ -61,5 +61,3 @@ BOOST_AUTO_TEST_CASE(test_main)
 
 #endif
 }
-
-

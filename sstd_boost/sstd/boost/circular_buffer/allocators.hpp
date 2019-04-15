@@ -87,4 +87,3 @@ struct allocator_traits {
 } // boost
 
 #endif
-

@@ -24,4 +24,3 @@ void compile_and_link_test()
    check_result<long double>(lsl(l));
 #endif
 }
-

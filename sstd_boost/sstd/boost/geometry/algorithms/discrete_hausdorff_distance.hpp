@@ -348,4 +348,3 @@ discrete_hausdorff_distance(Geometry1 const& geometry1,
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DISCRETE_HAUSDORFF_DISTANCE_HPP
-

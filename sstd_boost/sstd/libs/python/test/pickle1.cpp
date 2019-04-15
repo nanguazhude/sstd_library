@@ -60,4 +60,3 @@ BOOST_PYTHON_MODULE(pickle1_ext)
   // To support test of "pickling not enabled" error message.
   class_<noop>("noop");
 }
-

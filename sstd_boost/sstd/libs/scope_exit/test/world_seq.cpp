@@ -48,5 +48,3 @@ int main(void) {
     BOOST_TEST(w.population() == 1);
     return boost::report_errors();
 }
-
-

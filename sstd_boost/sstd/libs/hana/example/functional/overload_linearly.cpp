@@ -20,4 +20,3 @@ int main() {
     BOOST_HANA_RUNTIME_CHECK(f("abc") == "abcd");
     BOOST_HANA_RUNTIME_CHECK(f(2.2) == static_cast<int>(2.2) + 1);
 }
-

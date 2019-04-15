@@ -98,4 +98,3 @@ struct add_member_volatile : detail::add_member_volatile_impl<T> {};
 //]
 
 #endif
-

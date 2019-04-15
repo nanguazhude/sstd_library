@@ -54,6 +54,3 @@ template<> bool BOOST_MATH_TR1_DECL isnormal<float> BOOST_PREVENT_MACRO_SUBSTITU
 #if defined (_MSC_VER)
 #  pragma warning(pop)
 #endif
-
-
-

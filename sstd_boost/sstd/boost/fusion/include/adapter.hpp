@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/functional/adapter.hpp>
 
 #endif
-

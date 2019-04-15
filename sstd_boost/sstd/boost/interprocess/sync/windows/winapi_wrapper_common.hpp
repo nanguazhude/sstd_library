@@ -95,4 +95,3 @@ inline bool winapi_wrapper_timed_wait_for_single_object(void *handle, const boos
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_DETAIL_WINAPI_MUTEX_WRAPPER_HPP
-

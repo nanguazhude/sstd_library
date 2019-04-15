@@ -29,4 +29,3 @@ typedef scaled_base_unit<boost::units::cgs::gram_base_unit, scale<10, static_rat
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_KILOGRAM_BASE_UNIT_HPP
-

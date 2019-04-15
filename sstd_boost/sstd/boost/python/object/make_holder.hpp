@@ -107,4 +107,3 @@ struct make_holder<N>
 
 #endif // BOOST_PP_ITERATION_DEPTH()
 #endif
-

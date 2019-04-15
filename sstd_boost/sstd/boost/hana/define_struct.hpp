@@ -15,4 +15,3 @@ Distributed under the Boost Software License, Version 1.0.
 #include <sstd/boost/hana/detail/struct_macros.hpp>
 
 #endif // !BOOST_HANA_DEFINE_STRUCT_HPP
-

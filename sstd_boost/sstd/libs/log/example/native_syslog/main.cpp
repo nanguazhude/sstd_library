@@ -107,4 +107,3 @@ int main (int, char*[])
 }
 
 #endif // defined(BOOST_LOG_USE_NATIVE_SYSLOG)
-

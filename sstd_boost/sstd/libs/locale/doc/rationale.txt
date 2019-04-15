@@ -234,6 +234,3 @@ So basically it is impossible to use non-C++ characters with the C++'s locales f
 The best and the most portable solution is to use the C++'s \c char type and UTF-8 encodings.
 
 */
-
-
-

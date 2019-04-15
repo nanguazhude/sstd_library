@@ -265,5 +265,3 @@ struct apply
 };
 
 }}
-
-

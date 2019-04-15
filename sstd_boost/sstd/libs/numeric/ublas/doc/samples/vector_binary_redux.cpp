@@ -20,5 +20,3 @@ int main () {
 
     std::cout << inner_prod (v1, v2) << std::endl;
 }
-
-

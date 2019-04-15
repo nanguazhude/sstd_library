@@ -51,5 +51,3 @@ struct boost::cnv::spirit : public boost::cnv::cnvbase<boost::cnv::spirit>
 };
 
 #endif // BOOST_CONVERT_SPIRIT_BASED_CONVERTER_HPP
-
-

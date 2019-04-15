@@ -147,4 +147,3 @@ struct pmf<Return(BOOST_CLBL_TRTS_VARARGS_CC T::*)(Args..., ...)
 
     using is_member_pointer = std::true_type;
 };
-

@@ -50,4 +50,3 @@ auto safe_format(const T & t){
 }
 
 #endif // BOOST_SAFE_FORMAT_HPP
-

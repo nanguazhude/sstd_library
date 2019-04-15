@@ -304,4 +304,3 @@ struct within<MultiPolygon1, MultiPolygon2, multi_polygon_tag, multi_polygon_tag
 #include <sstd/boost/geometry/index/rtree.hpp>
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_WITHIN_IMPLEMENTATION_HPP
-

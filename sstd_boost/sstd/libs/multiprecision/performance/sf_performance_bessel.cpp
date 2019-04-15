@@ -40,4 +40,3 @@ void bessel_tests()
    bessel_tests_5();
    bessel_tests_6();
 }
-

@@ -45,4 +45,3 @@ inline std::string typestr(T const&)
 { return typestr<T>(); }
 
 #endif
-

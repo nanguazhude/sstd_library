@@ -71,4 +71,3 @@ private:
 } // namespace http
 
 #endif // HTTP_SERVER4_SERVER_HPP
-

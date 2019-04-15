@@ -861,4 +861,3 @@ two_graphs_common_spanning_trees
 
 
 #endif // BOOST_GRAPH_TWO_GRAPHS_COMMON_SPANNING_TREES_HPP
-

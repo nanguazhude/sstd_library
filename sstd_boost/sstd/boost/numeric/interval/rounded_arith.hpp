@@ -118,4 +118,3 @@ struct rounded_arith_opp: Rounding {
 } // namespace boost
 
 #endif // BOOST_NUMERIC_INTERVAL_ROUNDED_ARITH_HPP
-

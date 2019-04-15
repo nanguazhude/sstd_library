@@ -30,5 +30,3 @@ int main(void) {
     BOOST_TEST(nums[2] == -1);
     return boost::report_errors();
 }
-
-

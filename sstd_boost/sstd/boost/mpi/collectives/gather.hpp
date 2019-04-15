@@ -174,4 +174,3 @@ void gather(const communicator& comm, const T* in_values, int n, int root)
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_GATHER_HPP
-

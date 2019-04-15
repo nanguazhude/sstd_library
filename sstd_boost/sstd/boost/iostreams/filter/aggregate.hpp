@@ -166,4 +166,3 @@ BOOST_IOSTREAMS_PIPABLE(aggregate_filter, 1)
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>  // MSVC.
 
 #endif // #ifndef BOOST_IOSTREAMS_AGGREGATE_FILTER_HPP_INCLUDED
-

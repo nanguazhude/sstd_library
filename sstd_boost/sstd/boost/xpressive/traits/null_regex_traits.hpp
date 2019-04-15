@@ -229,4 +229,3 @@ struct null_regex_traits
 }}
 
 #endif
-

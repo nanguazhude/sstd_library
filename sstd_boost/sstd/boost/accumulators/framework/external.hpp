@@ -25,4 +25,3 @@
 //}} // namespace boost::accumulators
 
 #endif
-

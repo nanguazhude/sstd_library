@@ -41,4 +41,3 @@ private:
 } } } // end namespace boost::mpi::python
 
 #endif // BOOST_MPI_PYTHON_UTILITY_HPP
-

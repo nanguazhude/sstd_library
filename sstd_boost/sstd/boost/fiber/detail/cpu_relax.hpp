@@ -80,4 +80,3 @@ namespace detail {
 #endif
 
 #endif // BOOST_FIBERS_DETAIL_CPU_RELAX_H
-

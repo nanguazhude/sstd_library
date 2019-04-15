@@ -68,4 +68,3 @@ ResultType eccentricity_sqr(Geometry const& geometry)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_FORMULAS_ECCENCRICITY_SQR_HPP
-

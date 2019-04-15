@@ -122,4 +122,3 @@ inline const char* type_name()
     }}}
 
 #endif // BOOST_COMPUTE_TYPE_TRAITS_TYPE_NAME_HPP
-

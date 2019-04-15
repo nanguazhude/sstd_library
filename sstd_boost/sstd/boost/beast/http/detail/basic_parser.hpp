@@ -905,4 +905,3 @@ struct basic_parser_base
 } // boost
 
 #endif
-

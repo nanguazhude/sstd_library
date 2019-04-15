@@ -63,4 +63,3 @@ struct dense_output_factory< Stepper , dense_output_runge_kutta< controlled_rung
 
 
 #endif // BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_GENERATION_DENSE_OUTPUT_RUNGE_KUTTA_HPP_INCLUDED
-

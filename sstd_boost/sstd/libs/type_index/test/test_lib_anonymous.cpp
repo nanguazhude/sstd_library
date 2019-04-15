@@ -24,5 +24,3 @@ boost::typeindex::type_index get_const_anonymous_user_defined_class() {
 }
 
 }
-
-

@@ -38,4 +38,3 @@ BOOST_UNITS_STATIC_CONSTANT(degrees,temperature);
 } // namespace boost
 
 #endif // BOOST_UNITS_TEMPERATURE_FAHRENHEIT_HPP
-

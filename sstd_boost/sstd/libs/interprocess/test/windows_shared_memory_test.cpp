@@ -78,4 +78,3 @@ int main()
 #endif   //#ifdef BOOST_INTERPROCESS_WINDOWS
 
 #include <sstd/boost/interprocess/detail/config_end.hpp>
-

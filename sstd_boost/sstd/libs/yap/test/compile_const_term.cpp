@@ -75,4 +75,3 @@ void compile_const_term()
         (void)unevaluated_expr;
     }
 }
-

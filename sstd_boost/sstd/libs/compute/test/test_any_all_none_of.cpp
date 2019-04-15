@@ -87,4 +87,3 @@ boost::compute::any_of(v.begin(), v.end(), _1 < 0, queue);
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

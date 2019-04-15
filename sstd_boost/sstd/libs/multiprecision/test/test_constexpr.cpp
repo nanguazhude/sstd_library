@@ -59,4 +59,3 @@ template void test1<float128>();
 #endif
 
 #endif
-

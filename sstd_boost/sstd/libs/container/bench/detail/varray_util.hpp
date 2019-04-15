@@ -644,4 +644,3 @@ private:
 }}} // namespace boost::container::varray_detail
 
 #endif // BOOST_CONTAINER_DETAIL_VARRAY_UTIL_HPP
-

@@ -13,5 +13,3 @@ int main()
    uint256_t j;
    j = i;
 }
-
-

@@ -92,4 +92,3 @@ int main() {
         static_assert(!std::is_copy_constructible<Pair2>::value, "");
     }
 }
-

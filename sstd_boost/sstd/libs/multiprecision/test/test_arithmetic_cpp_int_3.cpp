@@ -26,5 +26,3 @@ int main()
    test<boost::multiprecision::uint1024_t >();
    return boost::report_errors();
 }
-
-

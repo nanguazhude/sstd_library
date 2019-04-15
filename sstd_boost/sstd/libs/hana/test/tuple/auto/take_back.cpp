@@ -6,4 +6,3 @@
 #include <auto/take_back.hpp>
 
 int main() { }
-

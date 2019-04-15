@@ -13,4 +13,3 @@
 #include <sstd/boost/fiber/numa/topology.hpp>
 
 #endif // BOOST_FIBERS_NUMA_H
-

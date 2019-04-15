@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/functional/adapter/fused_procedure.hpp>
 
 #endif
-

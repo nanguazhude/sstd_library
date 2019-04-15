@@ -51,4 +51,3 @@
    #pragma warning (disable : 4996) // "function": was declared deprecated
 
 #endif   //BOOST_MSVC
-

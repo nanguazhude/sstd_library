@@ -59,5 +59,3 @@ class simple_seq_fit
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTERPROCESS_SIMPLE_SEQ_FIT_HPP
-
-

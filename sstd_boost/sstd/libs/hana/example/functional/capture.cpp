@@ -16,4 +16,3 @@ int main() {
     BOOST_HANA_CONSTEXPR_CHECK(hana::capture(1, 2, 3)(sum)() == 6);
     BOOST_HANA_CONSTEXPR_CHECK(hana::capture(1, 2)(sum)(3) == 6);
 }
-

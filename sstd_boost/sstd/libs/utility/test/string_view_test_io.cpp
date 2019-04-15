@@ -182,4 +182,3 @@ int main()
     test<wchar_t>();
     return boost::report_errors();
 }
-

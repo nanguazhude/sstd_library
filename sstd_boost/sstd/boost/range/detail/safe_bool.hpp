@@ -70,4 +70,3 @@ private:
 } // namespace boost
 
 #endif // include guard
-

@@ -55,4 +55,3 @@ struct allocator:
 }
 
 #endif /* BOOST_LOCKFREE_POLICIES_HPP_INCLUDED */
-

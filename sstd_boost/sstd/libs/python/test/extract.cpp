@@ -140,5 +140,3 @@ BOOST_PYTHON_MODULE(extract_ext)
 
 
 #include "module_tail.cpp"
-
-

@@ -39,4 +39,3 @@ TestCase test_make{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_MAKE_HPP
-

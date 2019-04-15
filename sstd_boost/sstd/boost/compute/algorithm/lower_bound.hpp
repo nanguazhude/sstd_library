@@ -48,4 +48,3 @@ lower_bound(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_LOWER_BOUND_HPP
-

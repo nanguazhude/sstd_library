@@ -79,4 +79,3 @@ TestCase test_index_if{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_INDEX_IF_HPP
-

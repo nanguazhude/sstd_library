@@ -293,4 +293,3 @@ struct default_strategy
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_CARTESIAN_POINT_IN_BOX_HPP
-

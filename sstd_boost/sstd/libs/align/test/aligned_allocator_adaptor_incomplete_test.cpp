@@ -72,4 +72,3 @@ void rebind_test()
     boost::alignment::aligned_allocator_adaptor<A<V> >::rebind<S>::other r(a);
     (void)r;
 }
-

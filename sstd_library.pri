@@ -25,6 +25,3 @@ win32-msvc*{
 }else{
     QMAKE_CXXFLAGS += -Wno-deprecated-declarations
 }
-
-
-

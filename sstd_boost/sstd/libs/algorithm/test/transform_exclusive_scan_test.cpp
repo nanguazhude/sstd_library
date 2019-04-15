@@ -135,4 +135,3 @@ BOOST_AUTO_TEST_CASE( test_main )
 {
   test_transform_exclusive_scan_init();
 }
-

@@ -125,4 +125,3 @@ public:
 }}}
 
 #endif // BOOST_FIBERS_spinlock_ttas_futex_FUTEX_H
-

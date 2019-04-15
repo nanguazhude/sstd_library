@@ -91,7 +91,3 @@ BOOST_AUTO_TEST_CASE( test_main )
    //test_polygamma(BOOST_FLOAT128_C(0.0), "float128_t");
 #endif
 }
-
-
-
-

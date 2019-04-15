@@ -41,4 +41,3 @@ struct symmetric_coroutine
 #endif
 
 #endif // BOOST_COROUTINES_SYMMETRIC_COROUTINE_H
-

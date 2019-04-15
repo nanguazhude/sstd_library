@@ -35,4 +35,3 @@ BOOST_AUTO_TEST_CASE(image3d_type_name)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

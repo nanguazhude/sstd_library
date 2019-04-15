@@ -239,4 +239,3 @@ void test_geometry(std::string const& wkt,
 }
 
 #endif
-

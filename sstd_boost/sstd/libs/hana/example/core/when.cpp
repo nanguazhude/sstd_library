@@ -17,4 +17,3 @@ struct base_template<T, hana::when<std::is_integral<T>::value>> {
 };
 
 int main() { }
-

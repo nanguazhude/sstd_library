@@ -26,4 +26,3 @@ int main() {
     BOOST_HANA_RUNTIME_CHECK(hana::equal(john, john));
     BOOST_HANA_RUNTIME_CHECK(hana::not_equal(john, kevin));
 }
-

@@ -70,4 +70,3 @@ struct output_sequence_impl<direct_tag> {
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>
 
 #endif // #ifndef BOOST_IOSTREAMS_OUTPUT_SEQUENCE_HPP_INCLUDED
-

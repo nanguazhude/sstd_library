@@ -302,4 +302,3 @@ template<class F> _bi::protected_bind_t<F> protect(F f)
 } // namespace boost
 
 #endif // #ifndef BOOST_BIND_PROTECT_HPP_INCLUDED
-

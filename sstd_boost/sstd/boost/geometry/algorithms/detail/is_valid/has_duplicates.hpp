@@ -78,4 +78,3 @@ struct has_duplicates
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_IS_VALID_HAS_DUPLICATES_HPP
-

@@ -718,4 +718,3 @@ namespace boost { namespace mpl
 #endif
 
 #endif
-

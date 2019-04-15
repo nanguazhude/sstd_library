@@ -30,6 +30,3 @@ namespace std {
     };
 
 }/*namespace std*/
-
-
-

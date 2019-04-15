@@ -352,4 +352,3 @@ Given
 | ``f::apply<args...>::type`` | The type is the result of the metafunction |
 +-----------------------------+--------------------------------------------+
 ```
-

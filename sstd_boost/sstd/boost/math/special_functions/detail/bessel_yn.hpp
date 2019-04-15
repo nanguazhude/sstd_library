@@ -109,5 +109,3 @@ T bessel_yn(int n, T x, const Policy& pol)
 }}} // namespaces
 
 #endif // BOOST_MATH_BESSEL_YN_HPP
-
-

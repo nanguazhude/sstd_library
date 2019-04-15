@@ -46,5 +46,3 @@ int test_main( int, char* [] )
     test_bimap_info_1();
     return 0;
 }
-
-

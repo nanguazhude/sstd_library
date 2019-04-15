@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_COMMON_FWD
 #include <sstd/boost/spirit/home/classic/tree/common_fwd.hpp>
 #endif
-

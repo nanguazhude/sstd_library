@@ -57,4 +57,3 @@ BOOST_LOG_CLOSE_NAMESPACE // namespace log
 #include <sstd/boost/log/detail/footer.hpp>
 
 #endif // BOOST_DEFAULT_FORMATTER_FACTORY_HPP_INCLUDED_
-

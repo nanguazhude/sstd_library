@@ -521,4 +521,3 @@ inline buffers_iterator<BufferSequence> buffers_end(
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_BUFFERS_ITERATOR_HPP
-

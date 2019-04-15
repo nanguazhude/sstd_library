@@ -31,5 +31,3 @@ int main( int, char *[] )
 {
    return boost_no_ms_int64_numeric_limits::test();
 }
-
-

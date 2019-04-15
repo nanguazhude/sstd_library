@@ -39,5 +39,3 @@ boost::shared_ptr<my_plugin_api> create_plugin() {
 } // namespace my_namespace
 
 //]
-
-

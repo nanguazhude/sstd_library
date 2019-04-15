@@ -29,4 +29,3 @@
 
 
 #endif  // BOOST_STRING_ALGO_HPP
-

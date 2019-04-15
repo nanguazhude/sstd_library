@@ -183,5 +183,3 @@ struct vector_of_relation : public ::boost::bimaps::detail::set_type_of_relation
 
 
 #endif // BOOST_BIMAP_VECTOR_OF_HPP
-
-

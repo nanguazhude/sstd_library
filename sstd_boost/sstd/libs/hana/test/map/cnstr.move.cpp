@@ -121,4 +121,3 @@ int main() {
         static_assert(!std::is_move_constructible<Map2>::value, "");
     }
 }
-

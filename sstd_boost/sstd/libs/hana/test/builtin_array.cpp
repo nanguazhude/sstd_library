@@ -119,4 +119,3 @@ int main() {
         static_assert(hana::Searchable<int[3]>::value, "");
     }
 }
-

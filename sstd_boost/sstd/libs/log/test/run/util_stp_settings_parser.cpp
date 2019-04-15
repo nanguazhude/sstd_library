@@ -292,4 +292,3 @@ BOOST_AUTO_TEST_CASE(invalid)
 }
 
 #endif // !defined(BOOST_LOG_WITHOUT_SETTINGS_PARSERS)
-

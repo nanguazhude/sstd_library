@@ -195,5 +195,3 @@ int main()
     basic_examples();
     return 0;
 }
-
-

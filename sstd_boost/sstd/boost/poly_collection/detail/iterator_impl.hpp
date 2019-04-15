@@ -240,4 +240,3 @@ struct poly_collection_of<local_iterator_impl<PolyCollection,BaseIterator>>
 } /* namespace boost */
 
 #endif
-

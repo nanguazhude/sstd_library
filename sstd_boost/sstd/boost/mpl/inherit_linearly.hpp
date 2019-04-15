@@ -37,4 +37,3 @@ BOOST_MPL_AUX_NA_SPEC(2, inherit_linearly)
 }}
 
 #endif // BOOST_MPL_INHERIT_FRONT_TO_BACK_HPP_INCLUDED
-

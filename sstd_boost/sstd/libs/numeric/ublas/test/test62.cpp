@@ -216,4 +216,3 @@ void test_matrix_vector () {
 #endif
 #endif
 }
-

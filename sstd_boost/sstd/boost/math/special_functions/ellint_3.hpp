@@ -373,5 +373,3 @@ inline typename tools::promote_args<T1, T2>::type ellint_3(T1 k, T2 v)
 }} // namespaces
 
 #endif // BOOST_MATH_ELLINT_3_HPP
-
-

@@ -242,4 +242,3 @@ BOOST_AUTO_TEST_CASE( test_difference_multipoint_multipoint )
          from_wkt<MP>("MULTIPOINT()")
          );
 }
-

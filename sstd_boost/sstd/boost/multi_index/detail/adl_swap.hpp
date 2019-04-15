@@ -42,4 +42,3 @@ void adl_swap(T& x,T& y)
 } /* namespace boost */
 
 #endif
-

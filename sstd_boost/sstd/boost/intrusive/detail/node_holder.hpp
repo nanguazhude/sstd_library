@@ -33,4 +33,3 @@ struct node_holder
 }  //namespace boost{
 
 #endif //BOOST_INTRUSIVE_DETAIL_NODE_HOLDER_HPP
-

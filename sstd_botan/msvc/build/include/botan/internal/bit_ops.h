@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Bit/Word Operations
 * (C) 1999-2008 Jack Lloyd
 * (C) Copyright Projet SECRET, INRIA, Rocquencourt

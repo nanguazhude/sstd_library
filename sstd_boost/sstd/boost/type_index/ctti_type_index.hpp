@@ -210,5 +210,3 @@ inline std::size_t ctti_type_index::hash_code() const BOOST_NOEXCEPT {
 }} // namespace boost::typeindex
 
 #endif // BOOST_TYPE_INDEX_CTTI_TYPE_INDEX_HPP
-
-

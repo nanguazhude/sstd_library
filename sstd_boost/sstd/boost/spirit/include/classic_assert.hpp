@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_ASSERT
 #include <sstd/boost/spirit/home/classic/core/assert.hpp>
 #endif
-

@@ -18,5 +18,3 @@ main()
     test<test_detail::can_copy>();
     return boost::report_errors();
 }
-
-

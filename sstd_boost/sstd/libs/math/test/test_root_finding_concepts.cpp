@@ -251,5 +251,3 @@ BOOST_AUTO_TEST_CASE( test_main )
    BOOST_CHECK_CLOSE_FRACTION(expected, result, tolerance);
 #endif
 } // BOOST_AUTO_TEST_CASE( test_main )
-
-

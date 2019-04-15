@@ -214,4 +214,3 @@ private:
 #include <sstd/boost/random/detail/enable_warnings.hpp>
 
 #endif // BOOST_RANDOM_CONST_MOD_HPP
-

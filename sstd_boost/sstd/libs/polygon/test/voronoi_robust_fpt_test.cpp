@@ -403,4 +403,3 @@ int main()
     mpz_sqrt_evaluator_test();
     return boost::report_errors();
 }
-

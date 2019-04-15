@@ -410,5 +410,3 @@ namespace boost {
 #endif
 
 #endif // BOOST_GRAPH_BREADTH_FIRST_SEARCH_HPP
-
-

@@ -156,4 +156,3 @@ private:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_EXCEPTION_OPENCL_ERROR_HPP
-

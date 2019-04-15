@@ -34,4 +34,3 @@ namespace quickbook
 }
 
 #endif // BOOST_QUICKBOOK_BOOSTBOOK_TO_HTML_HPP
-

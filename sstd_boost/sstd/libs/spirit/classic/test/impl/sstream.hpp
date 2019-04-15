@@ -44,4 +44,3 @@ void use_getstring_to_avoid_compiler_warnings_about_unused_functions()
         use_getstring_to_avoid_compiler_warnings_about_unused_functions();
     }
 }
-

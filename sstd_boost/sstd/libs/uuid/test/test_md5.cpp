@@ -45,4 +45,3 @@ int main(int, char**)
 
     return boost::report_errors();
 }
-

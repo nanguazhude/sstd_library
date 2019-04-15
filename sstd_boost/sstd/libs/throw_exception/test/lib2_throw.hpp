@@ -33,4 +33,3 @@ LIB2_DECL void f();
 } // namespace lib2
 
 #endif // #ifndef LIB2_THROW_HPP_INCLUDED
-

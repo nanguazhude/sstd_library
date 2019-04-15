@@ -25,5 +25,3 @@ int main()
   BOOST_TEST(id != boost::thread::id());
   return boost::report_errors();
 }
-
-

@@ -21,4 +21,3 @@ struct multiset_tag;
 }}}
 
 #endif // BOOST_MPL_MULTISET_AUX_TAG_HPP_INCLUDED
-

@@ -6,4 +6,3 @@
 #include <auto/transform.hpp>
 
 int main() { }
-

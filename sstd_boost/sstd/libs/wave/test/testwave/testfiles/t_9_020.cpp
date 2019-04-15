@@ -46,4 +46,3 @@ A(2)                  //R 1 2 3
 STRINGIZE(A(2))       //R "1 2 3"
 STRINGIZE(B(2))       //R "(1)2(3)"
 STRINGIZE(B( 2 ))     //R "(1) 2 (3)"
-

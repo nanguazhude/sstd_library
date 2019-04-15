@@ -43,4 +43,3 @@ tag_allocator::token::~token()
 }
 
 } } } } // end namespace boost::graph::distributed::detail
-

@@ -20,5 +20,3 @@ int main()
     BOOST_TEST(name.find("empty") != std::string::npos);
     return boost::report_errors();
 }
-
-

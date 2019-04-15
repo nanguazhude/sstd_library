@@ -154,4 +154,3 @@ short AType::DSMember(5622);
 AType::AStructType AnotherType::AnStat;
 
 #endif // TEST_STRUCTS_HPP
-

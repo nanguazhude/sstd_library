@@ -31,4 +31,3 @@ SCAN( MACRO EMPTY() )(1)    //R (1)
 //H 00: t_1_030.cpp(17): MACRO(1), [t_1_030.cpp(14): MACRO(x)=(x)]
 //H 02: (1)
 //H 03: (1)
-

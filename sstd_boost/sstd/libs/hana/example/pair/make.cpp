@@ -15,4 +15,3 @@ static_assert(hana::second(hana::make<hana::pair_tag>(1, 'x')) == 'x', "");
 static_assert(hana::make_pair(1, 'x') == hana::make<hana::pair_tag>(1, 'x'), "");
 
 int main() { }
-

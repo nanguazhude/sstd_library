@@ -23,4 +23,3 @@ BOOST_ASIO_TEST_SUITE
   "executor_work_guard",
   BOOST_ASIO_TEST_CASE(null_test)
 )
-

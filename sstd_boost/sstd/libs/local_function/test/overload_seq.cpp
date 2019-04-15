@@ -39,5 +39,3 @@ int main(void) {
     BOOST_TEST(add(1, 2) == 3);
     return boost::report_errors();
 }
-
-

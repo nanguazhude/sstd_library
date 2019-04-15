@@ -61,4 +61,3 @@ typename boost::range_iterator<const Range>::type is_partitioned_until ( const R
 }}
 
 #endif  // BOOST_ALGORITHM_IS_PARTITIONED_UNTIL_HPP
-

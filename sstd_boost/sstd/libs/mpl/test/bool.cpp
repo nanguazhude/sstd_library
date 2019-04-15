@@ -36,4 +36,3 @@ MPL_TEST_CASE()
     BOOL_TEST(true)
     BOOL_TEST(false)
 }
-

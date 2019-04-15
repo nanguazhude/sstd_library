@@ -64,4 +64,3 @@
 #endif
 
 #endif // !defined(BOOST_LOG_ENABLE_WARNINGS)
-

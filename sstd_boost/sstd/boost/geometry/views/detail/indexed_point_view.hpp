@@ -121,4 +121,3 @@ struct access
 
 
 #endif // BOOST_GEOMETRY_VIEWS_DETAIL_INDEXED_POINT_VIEW_HPP
-

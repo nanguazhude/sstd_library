@@ -169,7 +169,3 @@ int main()
    test<number<debug_adaptor<cpp_int_backend<> > > >();
    return boost::report_errors();
 }
-
-
-
-

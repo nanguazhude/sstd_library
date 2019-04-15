@@ -119,4 +119,3 @@ struct geometry_concept<segment_data<CType> > {
 }  // boost
 
 #endif  // BOOST_POLYGON_SEGMENT_DATA_HPP
-

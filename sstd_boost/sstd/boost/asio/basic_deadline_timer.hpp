@@ -628,4 +628,3 @@ public:
        // || defined(GENERATING_DOCUMENTATION)
 
 #endif // BOOST_ASIO_BASIC_DEADLINE_TIMER_HPP
-

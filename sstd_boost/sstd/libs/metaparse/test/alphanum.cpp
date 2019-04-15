@@ -47,5 +47,3 @@ BOOST_METAPARSE_TEST_CASE(alphanum)
   // test_with_empty_string
   BOOST_MPL_ASSERT((is_error<apply_wrap2<digit, str_, start> >));
 }
-
-

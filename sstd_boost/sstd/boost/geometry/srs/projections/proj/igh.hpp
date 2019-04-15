@@ -368,5 +368,3 @@ namespace projections
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_IGH_HPP
-
-

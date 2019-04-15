@@ -130,4 +130,3 @@ struct disable_if_same : disable_if<is_same<T, U>, R> {};
 }  //namespace boost {
 
 #endif //#ifndef BOOST_MOVE_DETAIL_META_UTILS_CORE_HPP
-

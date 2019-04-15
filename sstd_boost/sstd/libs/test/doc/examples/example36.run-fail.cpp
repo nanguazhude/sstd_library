@@ -17,4 +17,3 @@ BOOST_AUTO_TEST_CASE( test )
   BOOST_CHECK_EQUAL_COLLECTIONS( col1, col1+7, col2, col2+7 );
 }
 //]
-

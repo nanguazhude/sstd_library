@@ -119,4 +119,3 @@ const array_wrapper< T > make_array(T* t, S s){
 
 
 #endif //BOOST_SERIALIZATION_ARRAY_WRAPPER_HPP
-

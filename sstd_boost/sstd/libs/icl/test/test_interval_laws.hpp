@@ -82,4 +82,3 @@ check_border_containedness(const Type& itv)
 }} // namespace boost icl
 
 #endif // BOOST_ICL_TEST_INTERVAL_LAWS_HPP_JOFA_100908
-

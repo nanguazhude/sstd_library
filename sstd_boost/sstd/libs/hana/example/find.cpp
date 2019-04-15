@@ -29,4 +29,3 @@ constexpr auto m = hana::make_map(
 static_assert(hana::find(m, hana::type_c<float>) == hana::just(3.3), "");
 
 int main() { }
-

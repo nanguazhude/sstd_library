@@ -92,4 +92,3 @@ struct same_size_impl< vex::multivector< T , N > , vex::multivector< T , N > >
 
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_VEXCL_VEXCL_RESIZE_HPP_INCLUDED
-

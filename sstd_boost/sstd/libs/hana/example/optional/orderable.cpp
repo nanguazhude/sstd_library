@@ -15,4 +15,3 @@ static_assert(hana::just(1) < hana::just(3), "");
 static_assert(hana::just(3) > hana::just(2), "");
 
 int main() { }
-

@@ -105,4 +105,3 @@ class base_dimension :
 } // namespace boost
 
 #endif // BOOST_UNITS_BASE_DIMENSION_HPP
-

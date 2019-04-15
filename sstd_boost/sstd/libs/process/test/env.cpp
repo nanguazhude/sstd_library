@@ -178,4 +178,3 @@ BOOST_AUTO_TEST_CASE(append, *boost::unit_test::timeout(5))
 #endif
     c.wait();
 }
-

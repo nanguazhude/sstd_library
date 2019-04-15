@@ -110,4 +110,3 @@ namespace detail
 }} // namespace boost::python
 
 #endif // TO_PYTHON_INDIRECT_DWA200221_HPP
-

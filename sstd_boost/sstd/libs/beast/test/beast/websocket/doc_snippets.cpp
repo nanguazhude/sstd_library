@@ -282,5 +282,3 @@ boost::asio::ip::tcp::socket sock{ios};
 } // doc_wss_snippets
 
 #endif
-
-

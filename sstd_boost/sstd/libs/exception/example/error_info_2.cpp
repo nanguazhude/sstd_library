@@ -43,4 +43,3 @@ parse_file( char const * file_name )
         throw;
         }
     }
-

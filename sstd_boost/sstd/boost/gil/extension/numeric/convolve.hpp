@@ -206,4 +206,3 @@ void convolve_cols_fixed(const SrcView& src, const Kernel& ker, const DstView& d
 }} // namespace boost::gil
 
 #endif
-

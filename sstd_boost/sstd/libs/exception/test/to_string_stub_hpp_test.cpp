@@ -5,4 +5,3 @@
 
 #include <sstd/boost/exception/to_string_stub.hpp>
 #include <sstd/boost/exception/to_string_stub.hpp>
-

@@ -35,4 +35,3 @@ BOOST_PYTHON_MODULE(skeleton_content)
 
   boost::parallel::mpi::python::register_skeleton_and_content<std::list<int> >();
 }
-

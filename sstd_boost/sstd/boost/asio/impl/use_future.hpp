@@ -937,4 +937,3 @@ public:
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IMPL_USE_FUTURE_HPP
-

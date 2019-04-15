@@ -223,5 +223,3 @@ bool miller_rabin_test(const detail::expression<tag, Arg1, Arg2, Arg3, Arg4> & n
 }} // namespaces
 
 #endif
-
-

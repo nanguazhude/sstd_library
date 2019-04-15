@@ -56,4 +56,3 @@ private:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_EXCEPTION_PROGRAM_BUILD_FAILURE_HPP
-

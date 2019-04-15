@@ -20,4 +20,3 @@ void compile_and_link_test()
    check_result<double>(s(1.0));
    check_result<double>(s.prime(1.0));
 }
-

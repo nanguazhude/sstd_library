@@ -451,4 +451,3 @@ BEAST_DEFINE_TESTSUITE(beast,core,variant);
 } // detail
 } // beast
 } // boost
-

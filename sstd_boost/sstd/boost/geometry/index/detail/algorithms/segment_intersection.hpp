@@ -144,4 +144,3 @@ bool segment_intersection(Indexable const& b,
 }}}} // namespace boost::geometry::index::detail
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_ALGORITHMS_SEGMENT_INTERSECTION_HPP
-

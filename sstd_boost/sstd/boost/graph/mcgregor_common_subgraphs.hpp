@@ -1135,4 +1135,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_GRAPH_MCGREGOR_COMMON_SUBGRAPHS_HPP
-

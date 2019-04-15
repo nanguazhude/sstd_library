@@ -290,4 +290,3 @@ int main()
 		BOOST_UBLAS_TEST_DO( check_matrix_rel_close );
 	BOOST_UBLAS_TEST_END();
 }
-

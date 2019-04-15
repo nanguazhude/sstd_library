@@ -28,4 +28,3 @@ typedef derived_dimension<luminous_intensity_base_dimension,1,
 } // namespace boost
 
 #endif // BOOST_UNITS_LUMINOUS_FLUX_DERIVED_DIMENSION_HPP
-

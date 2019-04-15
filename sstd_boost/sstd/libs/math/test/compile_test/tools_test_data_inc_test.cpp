@@ -17,6 +17,3 @@ template boost::math::tools::parameter_info<T> boost::math::tools::make_power_pa
 template class boost::math::tools::test_data<T>;
 
 template bool boost::math::tools::get_user_parameter_info<T>(boost::math::tools::parameter_info<T>& info, const char* param_name);
-
-
-

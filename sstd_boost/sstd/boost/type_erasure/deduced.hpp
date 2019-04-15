@@ -55,4 +55,3 @@ struct deduced : ::boost::type_erasure::placeholder
 }
 
 #endif
-

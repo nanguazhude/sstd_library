@@ -32,4 +32,3 @@ inline std::complex<T> acosh(const std::complex<T>& z)
 } } // namespaces
 
 #endif // BOOST_MATH_COMPLEX_ACOSH_INCLUDED
-

@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_EPSILON
 #include <sstd/boost/spirit/home/classic/core/composite/epsilon.hpp>
 #endif
-

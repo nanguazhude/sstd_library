@@ -194,4 +194,3 @@ operator!=(chacha<R> const& lhs, chacha<R> const& rhs)
 } // boost
 
 #endif
-

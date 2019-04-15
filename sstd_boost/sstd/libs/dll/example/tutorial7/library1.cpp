@@ -19,4 +19,3 @@ void print(const std::string& s) {
 
 BOOST_DLL_ALIAS_SECTIONED(print, print_hello, Anna)
 //]
-

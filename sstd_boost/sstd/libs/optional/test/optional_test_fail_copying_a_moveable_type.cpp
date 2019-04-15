@@ -32,6 +32,3 @@ void test_copying_optional_with_noncopyable_T()
   boost::optional<MoveOnly> opt1 ;
   boost::optional<MoveOnly> opt2(opt1) ;
 }
-
-
-

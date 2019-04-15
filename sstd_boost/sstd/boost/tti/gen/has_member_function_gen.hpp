@@ -29,4 +29,3 @@
 /**/
 
 #endif // BOOST_TTI_MEMBER_FUNCTION_GEN_HPP
-

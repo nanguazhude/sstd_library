@@ -60,4 +60,3 @@ BOOST_STATIC_CONSTEXPR boost::arg<9> _9;
 } // namespace boost
 
 #endif // #ifndef BOOST_BIND_PLACEHOLDERS_HPP_INCLUDED
-

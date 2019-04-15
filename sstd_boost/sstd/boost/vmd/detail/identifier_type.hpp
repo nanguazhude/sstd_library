@@ -116,4 +116,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_IDENTIFIER_TYPE_HPP */
-

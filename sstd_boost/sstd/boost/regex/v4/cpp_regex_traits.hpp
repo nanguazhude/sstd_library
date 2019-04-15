@@ -1150,6 +1150,3 @@ static_mutex& cpp_regex_traits<charT>::get_mutex_inst()
 #endif
 
 #endif
-
-
-

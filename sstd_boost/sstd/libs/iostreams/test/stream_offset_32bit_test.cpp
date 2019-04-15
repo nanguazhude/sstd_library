@@ -49,4 +49,3 @@ test_suite* init_unit_test_suite(int, char* [])
     test->add(BOOST_TEST_CASE(&stream_offset_32bit_test));
     return test;
 }
-

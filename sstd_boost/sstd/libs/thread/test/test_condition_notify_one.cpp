@@ -146,4 +146,3 @@ BOOST_AUTO_TEST_CASE(test_condition_notify_one)
     timed_test(&do_test_condition_notify_one_wakes_from_relative_timed_wait_with_predicate, timeout_seconds, execution_monitor::use_mutex);
     timed_test(&do_test_multiple_notify_one_calls_wakes_multiple_threads, timeout_seconds, execution_monitor::use_mutex);
 }
-

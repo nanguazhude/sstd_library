@@ -305,4 +305,3 @@ using random::uniform_smallint;
 } // namespace boost
 
 #endif // BOOST_RANDOM_UNIFORM_SMALLINT_HPP
-

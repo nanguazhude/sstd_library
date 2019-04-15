@@ -12,5 +12,3 @@ int main() {
     ctti_type_index::type_info_t t;
     (void)t;
 }
-
-

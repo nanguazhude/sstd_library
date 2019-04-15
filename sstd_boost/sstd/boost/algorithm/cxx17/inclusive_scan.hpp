@@ -58,4 +58,3 @@ OutputIterator inclusive_scan(InputIterator first, InputIterator last,
 }} // namespace boost and algorithm
 
 #endif // BOOST_ALGORITHM_TRANSFORM_REDUCE_HPP
-

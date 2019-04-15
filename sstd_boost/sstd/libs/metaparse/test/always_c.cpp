@@ -38,5 +38,3 @@ BOOST_METAPARSE_TEST_CASE(always_c)
     is_error<apply_wrap2<always_c<'1', int13>, str_a, start> >
   ));
 }
-
-

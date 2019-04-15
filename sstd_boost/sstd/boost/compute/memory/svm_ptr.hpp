@@ -182,4 +182,3 @@ struct is_device_iterator<svm_ptr<T> > : boost::true_type {};
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_MEMORY_SVM_PTR_HPP
-

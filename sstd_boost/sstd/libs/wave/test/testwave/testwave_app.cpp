@@ -1483,5 +1483,3 @@ testwave_app::preprocess_file(std::string filename, std::string const& instr,
 
     return true;
 }
-
-

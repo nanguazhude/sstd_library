@@ -32,4 +32,3 @@ is_aligned(std::size_t alignment, const void* ptr) BOOST_NOEXCEPT
 } /* boost */
 
 #endif
-

@@ -33,4 +33,3 @@ int main() {
         BOOST_HANA_STRING("abcdef")
     ));
 }
-

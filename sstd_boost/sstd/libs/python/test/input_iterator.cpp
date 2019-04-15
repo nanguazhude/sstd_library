@@ -46,4 +46,3 @@ BOOST_PYTHON_MODULE(input_iterator)
 }
 
 #include "module_tail.cpp"
-

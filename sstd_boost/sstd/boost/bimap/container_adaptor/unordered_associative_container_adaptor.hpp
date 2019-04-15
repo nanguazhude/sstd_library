@@ -291,4 +291,3 @@ class unordered_associative_container_adaptor :
 
 
 #endif // BOOST_BIMAP_CONTAINER_ADAPTOR_UNORDERED_ASSOCIATIVE_CONTAINER_ADAPTOR_HPP
-

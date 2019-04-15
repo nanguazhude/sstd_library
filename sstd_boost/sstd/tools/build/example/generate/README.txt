@@ -9,4 +9,3 @@ The rule is similar to 'make' and 'notfile', but unlike those, you can operate
 in terms of Boost.Build 'virtual targets', which is more flexible.
 
 Please consult the docs for more explanations.
-

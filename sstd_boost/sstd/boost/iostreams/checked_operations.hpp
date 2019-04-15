@@ -156,4 +156,3 @@ struct seek_if_impl<any_tag> {
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>  // MSVC.
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_CHECKED_OPERATIONS_HPP_INCLUDED
-

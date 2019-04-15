@@ -198,4 +198,3 @@ intrusive_ptr_release(macro_definition<TokenT, ContainerT>* p)
 #endif
 
 #endif // !defined(MACRO_DEFINITION_HPP_D68A639E_2DA5_4E9C_8ACD_CFE6B903831E_INCLUDED)
-

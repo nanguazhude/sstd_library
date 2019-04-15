@@ -68,4 +68,3 @@ main( int argc, char* argv[] )
 #endif // BOOST_TEST_DYN_LINK && BOOST_TEST_MAIN && !BOOST_TEST_NO_MAIN
 
 #endif // BOOST_TEST_UNIT_TEST_HPP_071894GER
-

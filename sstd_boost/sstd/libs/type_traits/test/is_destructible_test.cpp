@@ -187,7 +187,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_destructible<deleted_destruct>::value, fa
 #endif
 
 TT_TEST_END
-
-
-
-

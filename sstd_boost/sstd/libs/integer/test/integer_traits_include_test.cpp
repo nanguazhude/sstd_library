@@ -35,4 +35,3 @@ int main()
    check<boost::ulong_long_type>();
 #endif
 }
-

@@ -20,4 +20,3 @@
 #include <sstd/boost/mp11/tuple.hpp>
 
 #endif // #ifndef BOOST_MP11_HPP_INCLUDED
-

@@ -100,4 +100,3 @@ namespace boost
 #endif
 
 #endif
-

@@ -234,5 +234,3 @@ namespace boost{ namespace BOOST_REGEX_DETAIL_NS{
 #endif // __cplusplus
 
 #endif // include guard
-
-

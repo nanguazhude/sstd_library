@@ -58,6 +58,3 @@ BOOST_DEDUCED_TYPENAME base_::iterator                                        \
 /*****************************************************************************/
 
 #endif // BOOST_BIMAP_CONTAINER_ADAPTOR_DETAIL_NON_UNIQUE_CONTAINER_HELPER_HPP
-
-
-

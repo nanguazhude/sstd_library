@@ -492,4 +492,3 @@ namespace spreadsort {
 }
 
 #endif
-

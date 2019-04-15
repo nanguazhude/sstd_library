@@ -63,4 +63,3 @@
 #endif // defined(BOOST_MSVC)
 
 #endif // !defined(IDL_CONFIG_HPP_012D7524_FF3F_482F_9123_91966C72F4EA_INCLUDED)
-

@@ -33,4 +33,3 @@ class match_results;
 #endif // defined(BOOST_ASIO_HAS_BOOST_REGEX)
 
 #endif // BOOST_ASIO_DETAIL_REGEX_FWD_HPP
-

@@ -220,4 +220,3 @@ private:
 } } }       // End namespaces example, iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_SHELL_COMMENTS_FILTER_HPP_INCLUDED
-

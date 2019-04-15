@@ -44,4 +44,3 @@ TT_TEST_BEGIN(cxx14_aliases_test)
 #endif
 }
 TT_TEST_END
-

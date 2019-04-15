@@ -15,4 +15,3 @@
 # include <sstd/boost/preprocessor/selection/max.hpp>
 #
 # endif
-

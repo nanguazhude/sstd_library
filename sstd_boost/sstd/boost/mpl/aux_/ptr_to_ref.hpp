@@ -44,4 +44,3 @@ template< typename T > static T const& ptr_to_ref(T*);
 }}}
 
 #endif // BOOST_MPL_AUX_PTR_TO_REF_HPP_INCLUDED
-

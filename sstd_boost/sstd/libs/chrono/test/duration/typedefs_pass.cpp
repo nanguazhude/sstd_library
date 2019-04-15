@@ -40,4 +40,3 @@ void test()
     check_duration<boost::chrono::microseconds, 54, boost::micro >();
     check_duration<boost::chrono::nanoseconds, 63, boost::nano >();
 }
-

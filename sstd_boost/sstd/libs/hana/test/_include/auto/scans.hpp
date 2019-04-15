@@ -214,4 +214,3 @@ TestCase test_scan_right{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_SCANS_HPP
-

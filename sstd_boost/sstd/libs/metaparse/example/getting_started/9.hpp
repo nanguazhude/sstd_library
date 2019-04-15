@@ -39,5 +39,3 @@ using exp_parser17 =
 //    exp_parser17::apply<BOOST_METAPARSE_STRING("8 / 4 / 2")>::type
 
 #endif
-
-

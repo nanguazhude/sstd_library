@@ -80,4 +80,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_ALGORITHM_HPP
-

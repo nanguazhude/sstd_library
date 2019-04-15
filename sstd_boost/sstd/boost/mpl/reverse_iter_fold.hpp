@@ -54,4 +54,3 @@ BOOST_MPL_AUX_NA_SPEC(3, reverse_iter_fold)
 }}
 
 #endif // BOOST_MPL_ITER_FOLD_BACKWARD_HPP_INCLUDED
-

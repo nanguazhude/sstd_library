@@ -19,4 +19,3 @@ int main() {
     std::string foo{"foo"};
     BOOST_HANA_RUNTIME_CHECK(hana::make<std::string>("foo") == foo);
 }
-

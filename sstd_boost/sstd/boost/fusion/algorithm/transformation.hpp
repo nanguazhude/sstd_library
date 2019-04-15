@@ -30,4 +30,3 @@
 #include <sstd/boost/fusion/algorithm/transformation/flatten.hpp>
 
 #endif
-

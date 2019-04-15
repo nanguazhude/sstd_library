@@ -112,4 +112,3 @@ struct num_edges :
 } // boost
 
 #endif // BOOST_MSM_MPL_GRAPH_MPL_GRAPH_HPP_INCLUDED
-

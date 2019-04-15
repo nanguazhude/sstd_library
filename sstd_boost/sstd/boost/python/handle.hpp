@@ -235,4 +235,3 @@ inline PyObject* get_managed_object(handle<T> const& h, tag_t)
 
 
 #endif // HANDLE_DWA200269_HPP
-

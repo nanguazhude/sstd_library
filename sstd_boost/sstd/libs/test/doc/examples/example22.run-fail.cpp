@@ -37,4 +37,3 @@ void foo( int i )
 #pragma optimize("", on)
 #endif
 //]
-

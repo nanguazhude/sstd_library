@@ -45,4 +45,3 @@ BOOST_AUTO_TEST_CASE(closed)
     BOOST_CHECK_EQUAL(EXIT_SUCCESS, WEXITSTATUS(exit_code));
 #endif
 }
-

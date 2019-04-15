@@ -562,6 +562,3 @@ key is missing in the dictionary.
     -#  The GNU Gettext runtime library distributed under LGPL license which may be not convenient for some users.
 
 */
-
-
-

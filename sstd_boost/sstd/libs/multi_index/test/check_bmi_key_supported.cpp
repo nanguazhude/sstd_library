@@ -11,4 +11,3 @@
 #if !defined(BOOST_MULTI_INDEX_KEY_SUPPORTED)
 #error BOOST_MULTI_INDEX_KEY_SUPPORTED macro not defined
 #endif
-

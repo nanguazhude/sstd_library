@@ -37,4 +37,3 @@ struct base_unit_info<imperial::furlong_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNITS_IMPERIAL_FURLONG_BASE_UNIT_HPP
-

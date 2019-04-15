@@ -27,4 +27,3 @@ example :
 #endif
 
 constexpr const auto z = \uacc1GetChar0("test");
-

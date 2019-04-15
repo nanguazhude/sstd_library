@@ -14,4 +14,3 @@ BOOST_AUTO_TEST_CASE( test )
   BOOST_FAIL( "Test is not ready yet" );
 }
 //]
-

@@ -23,4 +23,3 @@ typedef basic_string<char_> string;
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_CONTAINER_STRING_HPP
-

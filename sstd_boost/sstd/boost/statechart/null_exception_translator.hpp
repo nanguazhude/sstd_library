@@ -42,4 +42,3 @@ class null_exception_translator
 
 
 #endif
-

@@ -53,4 +53,3 @@ int main() {
         hana::false_c, hana::true_c
     )};
 }
-

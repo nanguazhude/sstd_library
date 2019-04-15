@@ -37,4 +37,3 @@ struct A {
 void f4(text_oarchive & oa, A * const & a){
     oa << BOOST_SERIALIZATION_NVP(a);
 }
-

@@ -64,4 +64,3 @@
 # define BOOST_PP_ENUM_M_3_I(z, n, m, d) BOOST_PP_COMMA_IF(n) m(z, n, d)
 #
 # endif
-

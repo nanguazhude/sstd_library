@@ -187,5 +187,3 @@ int main() {
     #undef BOOST_CONTRACT_TEST_old
     return boost::report_errors();
 }
-
-

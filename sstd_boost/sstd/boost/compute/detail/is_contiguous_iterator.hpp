@@ -116,4 +116,3 @@ struct is_contiguous_iterator<
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_DETAIL_IS_CONTIGUOUS_ITERATOR_HPP
-

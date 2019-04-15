@@ -119,4 +119,3 @@ namespace insert_hint {
 }
 
 RUN_TESTS()
-

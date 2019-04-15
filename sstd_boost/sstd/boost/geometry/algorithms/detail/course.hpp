@@ -38,4 +38,3 @@ inline ReturnType course(Point1 const& p1, Point2 const& p2)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_COURSE_HPP
-

@@ -46,4 +46,3 @@ BOOST_CONSTEXPR_OR_CONST T integral_constant<T, Value>::value;
 } /* boost */
 
 #endif
-

@@ -31,4 +31,3 @@ BOOST_UNITS_STATIC_CONSTANT(radians,plane_angle);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_PLANE_ANGLE_HPP
-

@@ -22,4 +22,3 @@
 #include <sstd/boost/compute/interop/opengl/opengl_texture.hpp>
 
 #endif // BOOST_COMPUTE_INTEROP_OPENGL_HPP
-

@@ -308,4 +308,3 @@ BEAST_DEFINE_TESTSUITE(beast,core,buffers_cat);
 
 } // beast
 } // boost
-

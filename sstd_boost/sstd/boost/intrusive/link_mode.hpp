@@ -61,4 +61,3 @@ struct is_safe_autounlink
 } //namespace boost
 
 #endif //BOOST_INTRUSIVE_LINK_MODE_HPP
-

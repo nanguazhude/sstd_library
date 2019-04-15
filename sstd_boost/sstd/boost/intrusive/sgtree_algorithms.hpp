@@ -418,4 +418,3 @@ struct get_node_checker<SgTreeAlgorithms, ValueTraits, NodePtrCompare, ExtraChec
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_SGTREE_ALGORITHMS_HPP
-

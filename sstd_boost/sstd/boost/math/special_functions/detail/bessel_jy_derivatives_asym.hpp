@@ -139,4 +139,3 @@ inline bool asymptotic_bessel_derivative_large_x_limit(const T& v, const T& x)
 }}} // namespaces
 
 #endif // BOOST_MATH_SF_DETAIL_BESSEL_JY_DERIVATIVES_ASYM_HPP
-

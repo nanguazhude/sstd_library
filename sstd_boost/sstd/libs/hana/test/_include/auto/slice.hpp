@@ -180,4 +180,3 @@ TestCase test_slice{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_SLICE_HPP
-

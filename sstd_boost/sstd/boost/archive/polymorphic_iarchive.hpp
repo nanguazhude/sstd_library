@@ -166,4 +166,3 @@ public:
 BOOST_SERIALIZATION_REGISTER_ARCHIVE(boost::archive::polymorphic_iarchive)
 
 #endif // BOOST_ARCHIVE_POLYMORPHIC_IARCHIVE_HPP
-

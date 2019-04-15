@@ -54,4 +54,3 @@ main()
     BOOST_TEST( "42"==to_string(42) );
     return boost::report_errors();
     }
-

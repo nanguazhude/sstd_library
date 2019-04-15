@@ -114,4 +114,3 @@ struct v_at
 }}
 
 #endif // BOOST_MPL_VECTOR_AUX_AT_HPP_INCLUDED
-

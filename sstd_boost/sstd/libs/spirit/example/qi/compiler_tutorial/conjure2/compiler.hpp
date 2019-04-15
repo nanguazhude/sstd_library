@@ -121,4 +121,3 @@ namespace client { namespace code_gen
 }}
 
 #endif
-

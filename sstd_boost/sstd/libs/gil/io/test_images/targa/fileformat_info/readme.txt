@@ -3,4 +3,3 @@
 # See www.boost.org/LICENSE_1_0.txt
 
 taken from http://www.fileformat.info/format/tga/sample/index.htm
-

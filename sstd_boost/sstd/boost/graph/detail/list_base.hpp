@@ -218,4 +218,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_LIST_BASE_HPP
-

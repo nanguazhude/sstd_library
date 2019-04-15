@@ -15,4 +15,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::equal(std::ratio<3, 4>{}, std::ratio<15, 20>{}))
 BOOST_HANA_CONSTANT_CHECK(hana::not_equal(std::ratio<3, 4>{}, std::ratio<3, 5>{}));
 
 int main() { }
-

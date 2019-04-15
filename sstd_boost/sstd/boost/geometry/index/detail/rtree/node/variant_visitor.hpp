@@ -66,4 +66,3 @@ inline void apply_visitor(Visitor & v,
 }}} // namespace boost::geometry::index
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_RTREE_NODE_VARIANT_VISITOR_HPP
-

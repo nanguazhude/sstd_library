@@ -29,4 +29,3 @@ BOOST_AUTO_TEST_CASE(test_move_from_function_return_local)
     x.join();
     BOOST_CHECK_EQUAL(the_id,x_id);
 }
-

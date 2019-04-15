@@ -52,7 +52,3 @@ Intel 9.1 (flags = /MD /O2 /EHsc /GS)
     medium list time:                   1.141000e-006
     big vector time:                    1.140000e-006
     big list time:                      1.141000e-006
-
-
-
-

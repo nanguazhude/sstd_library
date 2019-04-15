@@ -20,4 +20,3 @@ int main()
    std::cout << *ptr << std::endl; // uninitialized read
    return 0;
 }
-

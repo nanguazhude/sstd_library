@@ -22,5 +22,3 @@ BOOST_AUTO_TEST_CASE( norm_inf )
     BOOST_CHECK_EQUAL( norm(x), 41 );
     BOOST_CHECK_EQUAL( norm(y), 42 );
 }
-
-

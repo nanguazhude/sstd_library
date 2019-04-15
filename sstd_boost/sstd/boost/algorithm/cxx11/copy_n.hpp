@@ -33,4 +33,3 @@ BOOST_CXX14_CONSTEXPR OutputIterator copy_n ( InputIterator first, Size n, Outpu
 }} // namespace boost and algorithm
 
 #endif  // BOOST_ALGORITHM_COPY_IF_HPP
-

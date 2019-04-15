@@ -154,4 +154,3 @@ bool test_less_than(
 }
 
 #endif // BOOST_TEST_SUBTRACT
-

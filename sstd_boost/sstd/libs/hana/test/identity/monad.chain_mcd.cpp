@@ -4,4 +4,3 @@
 
 #define BOOST_HANA_TEST_MONAD_CHAIN_MCD
 #include "main.hpp"
-

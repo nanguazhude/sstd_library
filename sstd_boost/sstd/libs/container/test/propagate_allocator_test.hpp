@@ -366,4 +366,3 @@ void test_propagate_allocator_allocator_arg()
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_CONTAINER_PROPAGATE_ALLOCATOR_TEST_HPP
-

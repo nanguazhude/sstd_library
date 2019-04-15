@@ -170,4 +170,3 @@ public:
 }
 
 #endif // BOOST_DETAIL_CALL_TRAITS_HPP
-

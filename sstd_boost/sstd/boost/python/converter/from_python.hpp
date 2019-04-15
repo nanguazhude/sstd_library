@@ -39,4 +39,3 @@ BOOST_PYTHON_DECL void throw_no_reference_from_python(PyObject*, registration co
 }}} // namespace boost::python::converter
 
 #endif // FIND_FROM_PYTHON_DWA2002223_HPP
-

@@ -88,4 +88,3 @@ namespace boost{
 } // namespace boost
 
 #endif // BOOST_TT_IS_CONSTRUCTIBLE_HPP_INCLUDED
-

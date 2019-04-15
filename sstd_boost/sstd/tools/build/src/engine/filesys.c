@@ -711,4 +711,3 @@ file_info_t * filelist_back(  FILELIST * list )
 
     return list->tail->value;
 }
-

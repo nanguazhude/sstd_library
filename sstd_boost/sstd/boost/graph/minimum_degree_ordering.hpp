@@ -653,4 +653,3 @@ namespace boost {
 } // namespace boost
 
 #endif // MINIMUM_DEGREE_ORDERING_HPP
-

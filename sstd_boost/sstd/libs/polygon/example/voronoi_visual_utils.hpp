@@ -184,4 +184,3 @@ class voronoi_visual_utils {
 }
 
 #endif  // BOOST_POLYGON_VORONOI_VISUAL_UTILS
-

@@ -48,5 +48,3 @@ typedef boost::date_time::microsec_clock<boost::posix_time::ptime> microsec_cloc
 #endif   //#ifdef _WIN32
 
 #endif   //#ifndef BOOST_INTERPROCESS_POSIX_TIMES_WRK_HPP
-
-

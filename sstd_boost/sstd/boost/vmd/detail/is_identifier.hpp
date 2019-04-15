@@ -94,4 +94,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_IS_IDENTIFIER_HPP */
-

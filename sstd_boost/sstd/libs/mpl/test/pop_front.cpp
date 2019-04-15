@@ -34,4 +34,3 @@ MPL_TEST_CASE()
     MPL_ASSERT(( is_same< front<result2>::type, long > ));
     MPL_ASSERT(( is_same< front<result3>::type, int > ));
 }
-

@@ -67,4 +67,3 @@ struct select_coordinate_type<T1, void, void>
 
 
 #endif // BOOST_GEOMETRY_UTIL_SELECT_COORDINATE_TYPE_HPP
-

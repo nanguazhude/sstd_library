@@ -46,4 +46,3 @@ BOOST_TYPEOF_REGISTER_TYPE(boost::units::angle::radian_base_unit)
 //#include <sstd/boost/units/base_units/angle/conversions.hpp>
 
 #endif // BOOST_UNITS_ANGLE_RADIAN_BASE_UNIT_HPP
-

@@ -428,4 +428,3 @@ typedef pe_info<boost::dll::detail::ULONGLONG_>  pe_info64;
 }}} // namespace boost::dll::detail
 
 #endif // BOOST_DLL_DETAIL_WINDOWS_PE_INFO_HPP
-

@@ -55,4 +55,3 @@ int main() {
         BOOST_HANA_RUNTIME_CHECK(hana::at_key(map0, test::ct_eq<2>{}) == "abc");
     }
 }
-

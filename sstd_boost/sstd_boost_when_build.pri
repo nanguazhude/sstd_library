@@ -27,4 +27,3 @@ linux-g++*{
 win32-msvc*{
     include($$PWD/source/boost_context_win64_msvc.pri)
 }
-

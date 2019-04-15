@@ -53,4 +53,3 @@ inline void vtk_copy_points_to_buffer(const vtkPoints *points,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_INTEROP_VTK_POINTS_HPP
-

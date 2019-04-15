@@ -105,4 +105,3 @@ struct version<boost::optional<T> > {
 } // boost
 
 #endif // BOOST_SERIALIZATION_OPTIONAL_HPP_
-

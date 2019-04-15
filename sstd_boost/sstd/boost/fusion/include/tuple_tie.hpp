@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/tuple/tuple_tie.hpp>
 
 #endif
-

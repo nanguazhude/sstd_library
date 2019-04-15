@@ -77,4 +77,3 @@ int main()
     << boost::this_thread::get_id()  << "MAIN>" << BOOST_THREAD_END_LOG;
   return 0;
 }
-

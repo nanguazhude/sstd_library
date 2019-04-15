@@ -30,4 +30,3 @@ struct is_similar< packed_channel_reference< B,  I, S, M >
 } // namespace boost
 
 #endif
-

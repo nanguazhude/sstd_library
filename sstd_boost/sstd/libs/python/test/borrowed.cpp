@@ -31,4 +31,3 @@ int main()
     assert_not_borrowed_ptr(0);
     return 0;
 }
-

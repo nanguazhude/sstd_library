@@ -83,4 +83,3 @@ struct operation_from_overlay<overlay_dissolve>
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_OVERLAY_TYPE_HPP
-

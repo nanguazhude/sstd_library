@@ -7,4 +7,3 @@
 
 struct foo;
 typedef boost::qvm::deduce_scalar<foo,int>::type user_defined_types_require_specialization;
-

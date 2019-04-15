@@ -281,4 +281,3 @@ const bool independent_bits_engine<Engine, w, UIntType>::has_fixed_range;
 } // namespace boost
 
 #endif // BOOST_RANDOM_INDEPENDENT_BITS_HPP
-

@@ -27,4 +27,3 @@ int main() {
         hana::equal.to(hana::char_c<'z'>)
     )));
 }
-

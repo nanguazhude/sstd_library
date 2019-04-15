@@ -94,4 +94,3 @@ RealType generate_canonical(URNG& g)
 } // namespace boost
 
 #endif // BOOST_RANDOM_GENERATE_CANONICAL_HPP
-

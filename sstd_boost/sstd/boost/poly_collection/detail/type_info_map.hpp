@@ -201,4 +201,3 @@ void swap(type_info_map<T,Allocator>& x,type_info_map<T,Allocator>& y)
 } /* namespace boost */
 
 #endif
-

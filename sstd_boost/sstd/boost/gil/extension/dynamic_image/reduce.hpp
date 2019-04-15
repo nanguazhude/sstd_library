@@ -777,4 +777,3 @@ namespace detail {
 #endif // defined(BOOST_GIL_REDUCE_CODE_BLOAT)
 
 #endif
-

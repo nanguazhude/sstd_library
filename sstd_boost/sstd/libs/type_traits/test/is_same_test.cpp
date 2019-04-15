@@ -33,12 +33,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_same<int*, int[2]>::value), false);
 BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_same<int[4], int[2]>::value), false);
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

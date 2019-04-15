@@ -1558,4 +1558,3 @@ void interval_map_mixed_infix_et_overload_4_bicremental_types()
 
 
 #endif // LIBS_ICL_TEST_TEST_ICL_interval_map_mixed_hpp_JOFA_081005__
-

@@ -71,5 +71,3 @@
             const bind)
 
 #endif // #include guard
-
-

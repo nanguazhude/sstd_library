@@ -466,4 +466,3 @@ struct get_algo<CircularListAlgorithms, NodeTraits>
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_CIRCULAR_LIST_ALGORITHMS_HPP
-

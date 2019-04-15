@@ -168,4 +168,3 @@ int main()
   test_ode_table<float> test_float;
   test_float();
 }
-

@@ -55,4 +55,3 @@ struct function_param_limit<F, typename detail::holder<typename F::fit_function_
 }} // namespace boost::hof
 
 #endif
-

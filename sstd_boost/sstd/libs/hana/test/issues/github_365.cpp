@@ -59,4 +59,3 @@ int main() {
         BOOST_HANA_RUNTIME_CHECK(array[2] == 3.0f);
     }
 }
-

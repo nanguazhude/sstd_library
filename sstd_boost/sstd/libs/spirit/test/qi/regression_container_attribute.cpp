@@ -21,4 +21,3 @@ int main()
   qi::rule < std::string::const_iterator, std::string() > const u =
     qi::lexeme[keywords >> !( qi::alnum | '_' )] >> qi::attr( std::string() );
 }
-

@@ -23,5 +23,3 @@
             BOOST_PP_CAT(BOOST_CONTRACT_DETAIL_NAME_INFIX, name2)))
 
 #endif // #include guard
-
-

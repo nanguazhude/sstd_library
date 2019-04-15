@@ -23,4 +23,3 @@ template class boost::math::triangular_distribution<double, boost::math::policie
 #ifndef BOOST_MATH_NO_LONG_DOUBLE_MATH_FUNCTIONS
 template class boost::math::triangular_distribution<long double, boost::math::policies::policy<> >;
 #endif
-

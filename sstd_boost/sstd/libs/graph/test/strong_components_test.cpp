@@ -113,4 +113,3 @@ int main(int, char*[])
     std::cout << "tests passed" << std::endl;
   return ret;
 }
-

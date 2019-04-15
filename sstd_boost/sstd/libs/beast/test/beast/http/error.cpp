@@ -72,4 +72,3 @@ BEAST_DEFINE_TESTSUITE(beast,http,error);
 } // http
 } // beast
 } // boost
-

@@ -61,4 +61,3 @@ struct get_write_device< String
 } // namespace boost
 
 #endif
-

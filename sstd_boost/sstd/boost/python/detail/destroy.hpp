@@ -61,4 +61,3 @@ inline void destroy_referent(void* p, T(*)() = 0)
 }}} // namespace boost::python::detail
 
 #endif // DESTROY_DWA2002221_HPP
-

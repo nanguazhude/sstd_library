@@ -40,4 +40,3 @@ typedef class select_reactor reactor;
 } // namespace boost
 
 #endif // BOOST_ASIO_DETAIL_REACTOR_FWD_HPP
-

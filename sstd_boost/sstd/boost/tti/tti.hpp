@@ -18,4 +18,3 @@
 #include "member_type.hpp"
 
 #endif // BOOST_TTI_INTROSPECTION_HPP
-

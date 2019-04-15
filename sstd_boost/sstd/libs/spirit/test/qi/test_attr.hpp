@@ -121,4 +121,3 @@ namespace spirit_test
 #undef N
 
 #endif
-

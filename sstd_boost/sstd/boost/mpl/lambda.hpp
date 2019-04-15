@@ -27,4 +27,3 @@
 #endif
 
 #endif // BOOST_MPL_LAMBDA_HPP_INCLUDED
-

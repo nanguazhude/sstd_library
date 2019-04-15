@@ -442,4 +442,3 @@ InputIterator find_extrema_with_reduce(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_FIND_EXTREMA_WITH_REDUCE_HPP
-

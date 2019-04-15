@@ -88,5 +88,3 @@ BOOST_METAPARSE_TEST_CASE(keyword)
   // test_no_match_in_the_middle
   BOOST_MPL_ASSERT((is_error<apply_wrap2<keyword_hello, str_hxllo, start> >));
 }
-
-

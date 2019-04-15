@@ -252,5 +252,3 @@ BOOST_AUTO_TEST_CASE(test_timed_lock_times_out_but_read_lock_succeeds_if_read_lo
     finish_lock.unlock();
     reader.join();
 }
-
-

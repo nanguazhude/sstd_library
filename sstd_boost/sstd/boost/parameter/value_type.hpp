@@ -79,5 +79,3 @@ struct lazy_value_type
 }} // namespace boost::parameter
 
 #endif // BOOST_PARAMETER_VALUE_TYPE_060921_HPP
-
-

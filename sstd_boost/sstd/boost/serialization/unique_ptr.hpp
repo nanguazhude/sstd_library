@@ -66,4 +66,3 @@ inline void serialize(
 
 
 #endif // BOOST_SERIALIZATION_UNIQUE_PTR_HPP
-

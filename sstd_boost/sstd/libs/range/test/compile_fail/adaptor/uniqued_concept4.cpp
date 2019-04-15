@@ -20,4 +20,3 @@ int main(int, const char**)
     return boost::adaptors::unique(
         mock_const_range<boost::single_pass_traversal_tag>()).front();
 }
-

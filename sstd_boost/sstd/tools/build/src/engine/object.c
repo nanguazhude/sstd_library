@@ -395,4 +395,3 @@ void object_done()
                 strcount_out, strcount_in );
     }
 }
-

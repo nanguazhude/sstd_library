@@ -488,5 +488,3 @@ Distribution* DistributionConcept<Distribution>::pd = 0;
 } // namespace boost
 
 #endif // BOOST_MATH_DISTRIBUTION_CONCEPT_HPP
-
-

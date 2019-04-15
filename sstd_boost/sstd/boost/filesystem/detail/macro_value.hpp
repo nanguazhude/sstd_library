@@ -42,4 +42,3 @@ namespace boost
 #define BOOST_MACRO_VALUE(X) boost::detail::macro_value(#X, BOOST_STRINGIZE(=X))
 
 #endif  // BOOST_FILESYSTEM_MACRO_VALUE_HPP
-

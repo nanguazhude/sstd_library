@@ -115,4 +115,3 @@ int main()
 
     std::cout << (con1.size())(v) << " == " << v.size() << "\n";
 }
-

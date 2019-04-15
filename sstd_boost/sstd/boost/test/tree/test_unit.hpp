@@ -291,4 +291,3 @@ make_test_case( void (UserTestCase::*           test_method )(),
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_TREE_TEST_UNIT_HPP_100211GER
-

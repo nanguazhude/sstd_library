@@ -24,4 +24,3 @@
 #include <sstd/boost/make_shared.hpp>
 
 #endif // #ifndef BOOST_SMART_PTR_HPP_INCLUDED
-

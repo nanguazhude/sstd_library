@@ -27,5 +27,3 @@ namespace test_impl
 }
 
 #endif
-
-

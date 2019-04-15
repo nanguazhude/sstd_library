@@ -149,5 +149,3 @@ namespace converter
 }}   // namespace boost::python
 
 #endif
-
-

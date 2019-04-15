@@ -54,4 +54,3 @@ constexpr bool constexpr_context() {
 static_assert(constexpr_context(), "");
 
 int main() { }
-

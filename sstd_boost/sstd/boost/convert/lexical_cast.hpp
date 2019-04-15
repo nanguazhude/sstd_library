@@ -38,4 +38,3 @@ struct boost::cnv::lexical_cast
 };
 
 #endif // BOOST_CONVERT_LEXICAL_CAST_HPP
-

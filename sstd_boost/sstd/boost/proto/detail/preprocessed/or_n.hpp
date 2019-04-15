@@ -121,4 +121,3 @@
     {
         typedef G0 which;
     };
-

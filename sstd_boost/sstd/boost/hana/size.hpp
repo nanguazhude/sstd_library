@@ -15,4 +15,3 @@ Distributed under the Boost Software License, Version 1.0.
 #include <sstd/boost/hana/length.hpp>
 
 #endif // !BOOST_HANA_SIZE_HPP
-

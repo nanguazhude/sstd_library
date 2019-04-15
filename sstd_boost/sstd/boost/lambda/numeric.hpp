@@ -117,4 +117,3 @@ struct adjacent_difference {
 
 
 #endif
-

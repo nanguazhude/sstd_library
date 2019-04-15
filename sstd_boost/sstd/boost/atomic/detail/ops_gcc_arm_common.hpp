@@ -132,4 +132,3 @@ struct gcc_arm_operations_base
 } // namespace boost
 
 #endif // BOOST_ATOMIC_DETAIL_OPS_GCC_ARM_COMMON_HPP_INCLUDED_
-

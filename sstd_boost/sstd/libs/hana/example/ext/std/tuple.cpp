@@ -30,4 +30,3 @@ int main() {
         std::make_tuple("Moby Dick", "Garfield", "Snoopy")
     ));
 }
-

@@ -28,4 +28,3 @@ template <class T> struct is_final : public integral_constant<bool, false> {};
 } // namespace boost
 
 #endif // BOOST_TT_IS_FINAL_HPP_INCLUDED
-

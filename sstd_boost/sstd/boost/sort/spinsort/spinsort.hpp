@@ -562,4 +562,3 @@ inline void indirect_spinsort (Iter_t first, Iter_t last,
 //****************************************************************************
 //
 #endif
-

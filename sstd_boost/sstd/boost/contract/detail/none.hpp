@@ -25,5 +25,3 @@ template<> struct none_if_void<void> { typedef none type; };
 } } } // namespace
 
 #endif // #include guard
-
-

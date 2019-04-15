@@ -18,9 +18,3 @@ void f()
 {
   BOOST_STATIC_ASSERT(sizeof(a1) == sizeof(a2)); // should not compile
 }
-
-
-
-
-
-

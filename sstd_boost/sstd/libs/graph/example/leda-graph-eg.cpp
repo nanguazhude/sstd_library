@@ -26,4 +26,3 @@ main()
     std::cout << node_name_map[*vi] << std::endl;
   return EXIT_SUCCESS;
 }
-

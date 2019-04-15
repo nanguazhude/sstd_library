@@ -46,4 +46,3 @@ BOOST_TYPEOF_REGISTER_TYPE(boost::units::temperature::fahrenheit_base_unit)
 #include <sstd/boost/units/base_units/temperature/conversions.hpp>
 
 #endif // BOOST_UNITS_TEMPERATURE_FAHRENHEIT_BASE_UNIT_HPP
-

@@ -421,4 +421,3 @@ new_lexer_gen<IteratorT, PositionT, TokenT>::new_lexer(IteratorT const &first,
 #endif
 
 #endif // !defined(CPP_RE2C_LEXER_HPP_B81A2629_D5B1_4944_A97D_60254182B9A8_INCLUDED)
-

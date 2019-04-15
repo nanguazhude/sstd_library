@@ -645,5 +645,3 @@ void subtract(Type& object, const typename Type::value_type& minuend)
 }} // namespace icl boost
 
 #endif
-
-

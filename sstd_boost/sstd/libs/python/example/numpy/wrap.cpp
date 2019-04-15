@@ -131,6 +131,3 @@ int main(int argc, char **argv)
     );
     Py_Finalize();
 }
-
-
-

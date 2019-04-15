@@ -75,4 +75,3 @@ make_sec_ws_accept(sec_ws_accept_type& accept,
 } // boost
 
 #endif
-

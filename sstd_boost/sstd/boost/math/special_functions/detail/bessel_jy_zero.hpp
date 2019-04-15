@@ -615,4 +615,3 @@
   } } } // namespace boost::math::detail
 
 #endif // _BESSEL_JY_ZERO_2013_01_18_HPP_
-

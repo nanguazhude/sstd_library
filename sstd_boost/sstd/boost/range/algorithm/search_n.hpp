@@ -358,4 +358,3 @@ search_n(const ForwardRange& rng, Integer count, const Value& value,
 } // namespace boost
 
 #endif // include guard
-

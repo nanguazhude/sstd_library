@@ -74,4 +74,3 @@ struct win_static_mutex
 #endif // defined(BOOST_ASIO_WINDOWS)
 
 #endif // BOOST_ASIO_DETAIL_WIN_STATIC_MUTEX_HPP
-

@@ -80,4 +80,3 @@ class fast_pool_allocator;
 } // namespace boost
 
 #endif
-

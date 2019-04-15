@@ -20,4 +20,3 @@ struct is_arithmetic : public integral_constant<bool, is_integral<T>::value || i
 } // namespace boost
 
 #endif // BOOST_TT_IS_ARITHMETIC_HPP_INCLUDED
-

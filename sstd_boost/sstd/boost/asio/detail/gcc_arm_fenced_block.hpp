@@ -91,4 +91,3 @@ private:
 #endif // defined(__GNUC__) && defined(__arm__)
 
 #endif // BOOST_ASIO_DETAIL_GCC_ARM_FENCED_BLOCK_HPP
-

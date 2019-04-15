@@ -16,4 +16,3 @@ BOOST_TYPEOF_REGISTER_TEMPLATE(std::basic_ios, 1)
 BOOST_TYPEOF_REGISTER_TEMPLATE(std::basic_ios, 2)
 
 #endif//BOOST_TYPEOF_STD_iostream_hpp_INCLUDED
-

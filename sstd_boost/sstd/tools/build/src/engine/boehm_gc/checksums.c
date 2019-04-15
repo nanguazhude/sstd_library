@@ -194,4 +194,3 @@ extern int GC_quiet;
 	/* So we guarantee this one is nonempty.		*/
 
 # endif /* CHECKSUMS */
-

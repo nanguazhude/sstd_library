@@ -61,4 +61,3 @@ template<> struct trait<int> \
 /**/
 
 #endif // BOOST_MPL_AUX_TRAITS_LAMBDA_SPEC_HPP_INCLUDED
-

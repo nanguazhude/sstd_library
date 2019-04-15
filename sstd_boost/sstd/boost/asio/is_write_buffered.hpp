@@ -59,4 +59,3 @@ public:
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IS_WRITE_BUFFERED_HPP
-

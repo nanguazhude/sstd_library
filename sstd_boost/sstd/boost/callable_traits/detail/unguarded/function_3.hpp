@@ -258,4 +258,3 @@ struct function<Return (Args..., ...)
 
     using is_member_pointer = std::false_type;
 };
-

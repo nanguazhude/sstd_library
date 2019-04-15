@@ -67,4 +67,3 @@ int main()
    boost::uintmax_t uim = 0;
    (void)uim;
 }
-

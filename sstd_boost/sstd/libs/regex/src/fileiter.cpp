@@ -914,16 +914,3 @@ bool _fi_FindClose(_fi_find_handle dat)
 } // namspace boost
 
 #endif    // BOOST_REGEX_NO_FILEITER
-
-
-
-
-
-
-
-
-
-
-
-
-

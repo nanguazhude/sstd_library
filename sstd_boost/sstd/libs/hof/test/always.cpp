@@ -63,4 +63,3 @@ BOOST_HOF_TEST_CASE()
     auto ctf = boost::hof::always(copy_throws{});
     static_assert(!noexcept(ctf()), "noexcept always");
 }
-

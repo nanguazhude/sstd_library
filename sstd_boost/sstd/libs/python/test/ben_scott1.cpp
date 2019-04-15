@@ -52,4 +52,3 @@ BOOST_PYTHON_MODULE(ben_scott1_ext)
 }
 
 #include "../test/module_tail.cpp"
-

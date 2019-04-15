@@ -59,4 +59,3 @@ int main() {
     node3 x3 = func<node3(*)(node3&, const node3&)>();
     (void)x3;
 }
-

@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_DECREMENT_ACTOR
 #include <sstd/boost/spirit/home/classic/actor/decrement_actor.hpp>
 #endif
-

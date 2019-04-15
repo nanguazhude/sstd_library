@@ -25,4 +25,3 @@ BOOST_TYPEOF_REGISTER_TYPE(boost::units::angle::gradian_base_unit)
 #endif
 
 #endif // BOOST_UNITS_ANGLE_GRADIAN_BASE_UNIT_HPP
-

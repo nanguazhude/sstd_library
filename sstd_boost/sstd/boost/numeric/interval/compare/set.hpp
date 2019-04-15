@@ -99,4 +99,3 @@ bool operator!=(const interval<T, Policies>& , const T& )
 } // namespace boost
 
 #endif // BOOST_NUMERIC_INTERVAL_COMPARE_SET_HPP
-

@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_STATIC
 #include <sstd/boost/spirit/home/classic/core/non_terminal/impl/static.hpp>
 #endif
-

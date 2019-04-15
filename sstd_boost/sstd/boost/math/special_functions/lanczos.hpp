@@ -1290,8 +1290,3 @@ struct lanczos
 #endif
 
 #endif // BOOST_MATH_SPECIAL_FUNCTIONS_LANCZOS
-
-
-
-
-

@@ -11,5 +11,3 @@ int main()
     boost::any const a;
     boost::any_cast<int&>(a);
 }
-
-

@@ -1017,5 +1017,3 @@ bool perl_matcher<BidiIterator, Allocator, traits>::find_restart_lit()
 #endif
 
 #endif
-
-

@@ -130,4 +130,3 @@ swap_ranges(const SinglePassRange1& range1, const SinglePassRange2& range2)
 } // namespace boost
 
 #endif // include guard
-

@@ -52,4 +52,3 @@ BOOST_MPL_AUX_NA_SPEC(1, is_even)
 }}
 
 #endif // BOOST_MPL_MATH_IS_EVEN_HPP_INCLUDED
-

@@ -30,6 +30,3 @@ using namespace boost::icl;
 
 #define INTERVAL_SET interval_set
 #include "../fastest_interval_set_cases.hpp"
-
-
-

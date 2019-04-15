@@ -664,4 +664,3 @@ class splaytree
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_SPLAYTREE_HPP
-

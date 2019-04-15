@@ -93,4 +93,3 @@ BOOST_HOF_TEST_CASE()
     BOOST_HOF_STATIC_TEST_CHECK(boost::hof::repeat_while(not_limit())(increment())(1) == BOOST_HOF_RECURSIVE_CONSTEXPR_DEPTH+4);
 #endif
 }
-

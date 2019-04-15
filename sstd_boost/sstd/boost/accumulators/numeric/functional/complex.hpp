@@ -80,4 +80,3 @@ namespace boost { namespace numeric
 }} // namespace boost::numeric
 
 #endif
-

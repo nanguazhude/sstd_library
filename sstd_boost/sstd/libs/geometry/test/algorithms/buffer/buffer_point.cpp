@@ -34,4 +34,3 @@ int test_main(int, char* [])
     test_all<false, bg::model::point<double, 2, bg::cs::cartesian> >();
     return 0;
 }
-

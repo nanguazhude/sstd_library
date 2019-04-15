@@ -211,4 +211,3 @@ boost::compute::buffer buf(context, 32 * sizeof(float));
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

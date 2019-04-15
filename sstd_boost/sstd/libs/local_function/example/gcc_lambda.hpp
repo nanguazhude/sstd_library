@@ -126,5 +126,3 @@
 #endif
 
 #endif // #include guard
-
-

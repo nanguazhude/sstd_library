@@ -16,4 +16,3 @@
 #include <sstd/boost/gil.hpp> // FIXME: Include what you use!
 
 #endif
-

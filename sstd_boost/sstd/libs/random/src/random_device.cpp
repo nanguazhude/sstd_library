@@ -248,4 +248,3 @@ BOOST_RANDOM_DECL unsigned int boost::random_device::operator()()
 {
   return pimpl->next();
 }
-

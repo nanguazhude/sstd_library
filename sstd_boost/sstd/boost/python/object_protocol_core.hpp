@@ -51,4 +51,3 @@ using api::delslice;
 }} // namespace boost::python
 
 #endif // OBJECT_PROTOCOL_CORE_DWA2002615_HPP
-

@@ -136,4 +136,3 @@ struct geometry_concept< point_data<CType> > {
 }  // boost
 
 #endif  // BOOST_POLYGON_POINT_DATA_HPP
-

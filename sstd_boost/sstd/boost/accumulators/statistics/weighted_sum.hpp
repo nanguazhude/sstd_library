@@ -114,4 +114,3 @@ struct feature_of<tag::weighted_sum_of_variates<VariateType, VariateTag> >
 }} // namespace boost::accumulators
 
 #endif
-

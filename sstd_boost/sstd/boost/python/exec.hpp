@@ -61,4 +61,3 @@ exec_file(char const *filename, object global = object(), object local = object(
 }
 
 #endif
-

@@ -32,4 +32,3 @@ struct back_inserter
 }}
 
 #endif // BOOST_MPL_BACK_INSERTER_HPP_INCLUDED
-

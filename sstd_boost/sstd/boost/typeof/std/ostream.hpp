@@ -16,4 +16,3 @@ BOOST_TYPEOF_REGISTER_TEMPLATE(std::basic_ostream, 2)
 BOOST_TYPEOF_REGISTER_TYPE(std::ostream)
 
 #endif//BOOST_TYPEOF_STD_ostream_hpp_INCLUDED
-

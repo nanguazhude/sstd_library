@@ -88,4 +88,3 @@ int main() {
         hana::make_set(ct_eq<0>{}, ct_eq<1>{}, ct_eq<2>{}, ct_eq<3>{})
     ));
 }
-

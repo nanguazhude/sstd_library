@@ -25,4 +25,3 @@ class buffered_write_stream;
 } // namespace boost
 
 #endif // BOOST_ASIO_BUFFERED_WRITE_STREAM_FWD_HPP
-

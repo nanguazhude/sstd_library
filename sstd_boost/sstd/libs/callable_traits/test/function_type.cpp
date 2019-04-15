@@ -94,4 +94,3 @@ int main() {
         CT_ASSERT(std::is_same<TRAIT(function_type, G), F>::value);
     }
 }
-

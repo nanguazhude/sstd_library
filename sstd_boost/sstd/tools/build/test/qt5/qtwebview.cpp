@@ -29,4 +29,3 @@ BOOST_AUTO_TEST_CASE( webview )
 
     QtWebView::initialize();
 }
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Word Rotation Operations
 * (C) 1999-2008,2017 Jack Lloyd
 *

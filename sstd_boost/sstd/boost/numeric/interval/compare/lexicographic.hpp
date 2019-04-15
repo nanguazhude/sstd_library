@@ -120,4 +120,3 @@ bool operator!=(const interval<T, Policies>& x, const T& y)
 } // namespace boost
 
 #endif // BOOST_NUMERIC_INTERVAL_COMPARE_LEXICOGRAPHIC_HPP
-

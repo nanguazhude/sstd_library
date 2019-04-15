@@ -19,4 +19,3 @@ BOOST_AUTO_TEST_CASE( empty_assistant)
 {
     QAssistantClient client(QString());
 }
-

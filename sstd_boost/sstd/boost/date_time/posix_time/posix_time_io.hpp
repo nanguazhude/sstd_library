@@ -234,4 +234,3 @@ namespace posix_time {
 
 } } // namespaces
 #endif // DATE_TIME_POSIX_TIME_IO_HPP__
-

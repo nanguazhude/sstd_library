@@ -93,4 +93,3 @@ constexpr bool is_lvalue_reference_member_v = //see below
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_IS_LVALUE_REFERENCE_MEMBER_HPP
-

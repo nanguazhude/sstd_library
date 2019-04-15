@@ -24,5 +24,3 @@
 #include <sstd/boost/range/rend.hpp>
 
 #endif
-
-

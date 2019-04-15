@@ -50,5 +50,3 @@ void create_svg(std::string const& filename, Geometry1 const& a, Geometry2 const
 
 
 #endif // CREATE_SVG_TWO_HPP
-
-

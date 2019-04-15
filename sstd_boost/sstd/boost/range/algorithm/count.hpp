@@ -48,4 +48,3 @@ count(const SinglePassRange& rng, const Value& val)
 } // namespace boost
 
 #endif // include guard
-

@@ -25,4 +25,3 @@ int main() {
   test<process_system_cpu_clock>();
   return 1;
 }
-

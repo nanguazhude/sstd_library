@@ -95,4 +95,3 @@ namespace boost { namespace graph { namespace distributed {
 } } } // end namespace boost::graph::distributed
 
 #endif // BOOST_PROPERTY_MAP_PARALLEL_PROCESS_GROUP_HPP
-

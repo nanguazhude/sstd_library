@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/support/sequence_base.hpp>
 
 #endif
-

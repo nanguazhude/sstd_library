@@ -53,4 +53,3 @@ int main() {
         BOOST_HANA_RUNTIME_CHECK(age == 99);
     }
 }
-

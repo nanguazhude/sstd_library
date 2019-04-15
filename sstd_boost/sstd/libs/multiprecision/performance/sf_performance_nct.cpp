@@ -37,4 +37,3 @@ void nct_tests()
    nct_tests_5();
    nct_tests_6();
 }
-

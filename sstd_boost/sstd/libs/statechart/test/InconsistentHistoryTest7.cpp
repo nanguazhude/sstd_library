@@ -34,4 +34,3 @@ int main()
   machine.clear_deep_history< A, 0 >();
   return 0;
 }
-

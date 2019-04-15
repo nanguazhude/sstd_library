@@ -27,5 +27,3 @@ int main () {
     std::cout << trans (m) << std::endl;
     std::cout << herm (m) << std::endl;
 }
-
-

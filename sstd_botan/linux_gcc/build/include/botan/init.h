@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Library Initialization
 * (C) 1999-2008,2015 Jack Lloyd
 *

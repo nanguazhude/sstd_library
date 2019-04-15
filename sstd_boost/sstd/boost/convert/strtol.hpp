@@ -218,4 +218,3 @@ boost::cnv::strtol::str_to_d(cnv::range<string_type> range, optional<out_type>& 
 }
 
 #endif // BOOST_CONVERT_STRTOL_CONVERTER_HPP
-

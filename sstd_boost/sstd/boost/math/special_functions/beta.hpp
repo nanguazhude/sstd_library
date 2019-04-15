@@ -1589,9 +1589,3 @@ inline typename tools::promote_args<RT1, RT2, RT3>::type
 #include <sstd/boost/math/special_functions/detail/ibeta_inv_ab.hpp>
 
 #endif // BOOST_MATH_SPECIAL_BETA_HPP
-
-
-
-
-
-

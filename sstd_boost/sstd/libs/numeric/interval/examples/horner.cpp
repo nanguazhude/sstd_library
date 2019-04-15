@@ -45,4 +45,3 @@ int main() {
   std::cout << horner(x, p, 3) << std::endl;
   return 0;
 }
-

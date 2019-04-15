@@ -372,4 +372,3 @@ namespace boost
 }                               // namespace boost
 
 #endif // BOOST_GRAPH_TRANSITIVE_CLOSURE_HPP
-

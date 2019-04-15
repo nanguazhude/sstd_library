@@ -83,4 +83,3 @@ namespace boost{
 } // namespace boost
 
 #endif // BOOST_TT_IS_ASSIGNABLE_HPP_INCLUDED
-

@@ -12,4 +12,3 @@ INCLUDEPATH += $$PWD
 
 SOURCES += $$PWD/sstd_library_double_conversion.cpp
 HEADERS += $$PWD/sstd_library_double_conversion.hpp
-

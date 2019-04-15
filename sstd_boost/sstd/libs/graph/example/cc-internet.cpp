@@ -39,4 +39,3 @@ main()
   write_graphviz("figs/cc-internet-out.dot", g);
 
 }
-

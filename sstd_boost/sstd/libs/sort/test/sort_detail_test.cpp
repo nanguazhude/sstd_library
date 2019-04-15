@@ -292,4 +292,3 @@ int test_main( int, char*[] )
   swap_loop_test();
   return 0;
 }
-

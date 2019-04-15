@@ -22,4 +22,3 @@ static_assert(!ct::has_varargs<int()>::value, "");
 int main() {}
 //]
 #endif
-

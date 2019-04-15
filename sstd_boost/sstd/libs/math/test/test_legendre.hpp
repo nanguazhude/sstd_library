@@ -365,4 +365,3 @@ int test_legendre_p_zeros_double_ulp(int min_x, int max_n)
 
     return (int) max_float_distance;
 }
-

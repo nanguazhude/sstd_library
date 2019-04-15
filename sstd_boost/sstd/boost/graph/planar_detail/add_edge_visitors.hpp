@@ -57,4 +57,3 @@ namespace boost
 } // namespace boost
 
 #endif //__ADD_EDGE_VISITORS_HPP__
-

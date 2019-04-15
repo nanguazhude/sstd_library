@@ -303,4 +303,3 @@ template <typename Iter>    // everything else
 BOOST_CXX14_CONSTEXPR inline Iter base(Iter i) { return i; }
 
 #endif  // ITERATORS_H
-

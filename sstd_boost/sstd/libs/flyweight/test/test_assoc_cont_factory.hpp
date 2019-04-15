@@ -9,4 +9,3 @@
  */
 
 void test_assoc_container_factory();
-

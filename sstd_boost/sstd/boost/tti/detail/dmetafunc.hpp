@@ -27,4 +27,3 @@ namespace boost
   }
 
 #endif // BOOST_TTI_DETAIL_METAFUNC_HPP
-

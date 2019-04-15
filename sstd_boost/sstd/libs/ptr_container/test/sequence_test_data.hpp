@@ -340,4 +340,3 @@ void random_access_algorithms_test()
 #if defined(BOOST_PTR_CONTAINER_DISABLE_DEPRECATED)
 #pragma GCC diagnostic pop
 #endif
-

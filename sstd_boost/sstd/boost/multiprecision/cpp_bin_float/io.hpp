@@ -697,5 +697,3 @@ std::string cpp_bin_float<Digits, DigitBase, Allocator, Exponent, MinE, MaxE>::s
 }}} // namespaces
 
 #endif
-
-

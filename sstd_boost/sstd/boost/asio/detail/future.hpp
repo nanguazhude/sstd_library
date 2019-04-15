@@ -31,4 +31,3 @@
 #endif // defined(BOOST_ASIO_HAS_STD_FUTURE)
 
 #endif // BOOST_ASIO_DETAIL_FUTURE_HPP
-

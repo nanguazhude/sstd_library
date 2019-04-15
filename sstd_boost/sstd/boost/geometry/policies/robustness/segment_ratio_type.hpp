@@ -26,4 +26,3 @@ struct segment_ratio_type {}; // : not_implemented<> {};
 
 
 #endif // BOOST_GEOMETRY_POLICIES_ROBUSTNESS_SEGMENT_RATIO_TYPE_HPP
-

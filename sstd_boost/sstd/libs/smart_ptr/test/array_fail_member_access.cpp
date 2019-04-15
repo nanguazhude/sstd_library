@@ -18,4 +18,3 @@ int main()
     boost::shared_ptr<X[]> px( new X[ 1 ] );
     px->m = 0;
 }
-

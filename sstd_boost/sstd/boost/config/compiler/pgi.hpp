@@ -21,4 +21,3 @@
 
 // __int128 is not supported.
 #undef BOOST_HAS_INT128
-

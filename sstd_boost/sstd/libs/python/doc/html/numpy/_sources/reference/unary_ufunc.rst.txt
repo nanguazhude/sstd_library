@@ -100,5 +100,3 @@ Example(s)
   p::object ud = p::class_<UnarySquare, boost::shared_ptr<UnarySquare> >("UnarySquare").def("__call__", np::unary_ufunc<UnarySquare>::make());
   p::object inst = ud();
   std::cout << "Square of unary scalar 1.0 is " << p::extract <char const * > (p::str(inst.attr("__call__")(1.0))) << std::endl ;
-
-

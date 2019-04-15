@@ -5,4 +5,3 @@
 ==============================================================================*/
 #include <sstd/boost/phoenix/stl/container/container.hpp>
 int main() {}
-

@@ -15,4 +15,3 @@ using ::boost::fusion::detail::make_index_sequence;
 }}}
 
 #endif
-

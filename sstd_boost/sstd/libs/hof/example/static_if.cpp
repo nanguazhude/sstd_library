@@ -41,4 +41,3 @@ int main()
     decrement_kindof(i);
     assert(i == 3);
 }
-

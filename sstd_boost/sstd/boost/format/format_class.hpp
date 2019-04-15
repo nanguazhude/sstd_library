@@ -178,4 +178,3 @@ namespace boost {
 
 
 #endif // BOOST_FORMAT_CLASS_HPP
-

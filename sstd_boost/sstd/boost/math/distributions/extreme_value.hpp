@@ -298,4 +298,3 @@ inline RealType kurtosis_excess(const extreme_value_distribution<RealType, Polic
 #include <sstd/boost/math/distributions/detail/derived_accessors.hpp>
 
 #endif // BOOST_STATS_EXTREME_VALUE_HPP
-

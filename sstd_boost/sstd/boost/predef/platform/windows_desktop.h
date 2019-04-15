@@ -49,4 +49,3 @@ old to support UWP.
 
 #include <sstd/boost/predef/detail/test.h>
 BOOST_PREDEF_DECLARE_TEST(BOOST_PLAT_WINDOWS_DESKTOP,BOOST_PLAT_WINDOWS_DESKTOP_NAME)
-

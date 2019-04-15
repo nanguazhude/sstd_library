@@ -33,4 +33,3 @@
 #include <sstd/boost/asio/use_future.hpp>
 
 #endif // BOOST_ASIO_TS_EXECUTOR_HPP
-

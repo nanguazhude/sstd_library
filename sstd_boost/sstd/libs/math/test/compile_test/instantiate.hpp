@@ -1434,4 +1434,3 @@ void instantiate_mixed(RealType)
 
 
 #endif // BOOST_LIBS_MATH_TEST_INSTANTIATE_HPP
-

@@ -109,4 +109,3 @@ typename premultiplied_view_type<View,DstP>::type premultiply_view(const View& s
 }} // namespace boost::gil
 
 #endif
-

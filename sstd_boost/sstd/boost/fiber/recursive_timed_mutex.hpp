@@ -89,4 +89,3 @@ public:
 #endif
 
 #endif // BOOST_FIBERS_RECURSIVE_TIMED_MUTEX_H
-

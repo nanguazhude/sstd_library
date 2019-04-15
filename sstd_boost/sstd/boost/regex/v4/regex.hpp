@@ -169,35 +169,3 @@ typedef match_results<std::wstring::const_iterator> wsmatch;
 #endif  // __cplusplus
 
 #endif  // include
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

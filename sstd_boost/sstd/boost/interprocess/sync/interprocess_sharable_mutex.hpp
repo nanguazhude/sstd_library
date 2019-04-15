@@ -347,4 +347,3 @@ inline void interprocess_sharable_mutex::unlock_sharable()
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_SHARABLE_MUTEX_HPP
-

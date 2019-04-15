@@ -106,4 +106,3 @@ struct add_noexcept : detail::add_noexcept_impl<T> {};
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_ADD_NOEXCEPT_HPP
-

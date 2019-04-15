@@ -22,4 +22,3 @@ void pass()
   }
   boost::lock_guard<boost::mutex> lk1(m);
 }
-

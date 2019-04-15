@@ -53,4 +53,3 @@ int main() {
         by_ref(hana::back(xs));
     }
 }
-

@@ -57,4 +57,3 @@ BOOST_NORETURN void quick_exit( int code ) BOOST_NOEXCEPT
 } // namespace boost
 
 #endif  // #ifndef BOOST_CORE_QUICK_EXIT_HPP_INCLUDED
-

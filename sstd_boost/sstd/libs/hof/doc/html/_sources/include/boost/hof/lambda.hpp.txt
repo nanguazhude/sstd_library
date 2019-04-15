@@ -242,4 +242,3 @@ BOOST_HOF_STATIC_AUTO_REF name = BOOST_HOF_DETAIL_MAKE_REVEAL_STATIC(fit_private
 #endif
 
 #endif
-

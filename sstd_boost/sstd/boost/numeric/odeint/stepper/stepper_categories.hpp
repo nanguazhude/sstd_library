@@ -66,4 +66,3 @@ template< > struct base_tag< dense_output_stepper_tag > { typedef dense_output_s
 
 
 #endif // BOOST_NUMERIC_ODEINT_STEPPER_STEPPER_CATEGORIES_HPP_INCLUDED
-

@@ -73,6 +73,3 @@ int main(int argc, char* argv[])
     xx = boost::apply_visitor(ab_are_equals(), timeTableEvent1.GetABType(), timeTableEvent1.GetABType());;
     xx = boost::apply_visitor(ab_are_equals(), timeTableEvent2.GetABType(), timeTableEvent2.GetABType());;
 }
-
-
-

@@ -206,5 +206,3 @@ the entire precision of the result in double is preserved.
   float_distance = 0.000000
 
  */
-
-

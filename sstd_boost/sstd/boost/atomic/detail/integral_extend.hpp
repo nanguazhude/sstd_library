@@ -103,4 +103,3 @@ BOOST_FORCEINLINE Output integral_extend(Input input) BOOST_NOEXCEPT
 } // namespace boost
 
 #endif // BOOST_ATOMIC_DETAIL_INTEGRAL_EXTEND_HPP_INCLUDED_
-

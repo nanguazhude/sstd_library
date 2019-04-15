@@ -296,4 +296,3 @@ namespace boost
 #endif
 
 #endif
-

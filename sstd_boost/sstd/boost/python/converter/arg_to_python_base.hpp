@@ -22,4 +22,3 @@ namespace detail
 }}} // namespace boost::python::converter
 
 #endif // ARG_TO_PYTHON_BASE_DWA200237_HPP
-

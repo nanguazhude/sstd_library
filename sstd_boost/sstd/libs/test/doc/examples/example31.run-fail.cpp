@@ -32,4 +32,3 @@ BOOST_AUTO_TEST_CASE( test_list_comparison )
   BOOST_TEST( compare_lists( l1, l2 ) );
 }
 //]
-

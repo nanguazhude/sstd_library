@@ -108,4 +108,3 @@ int main()
 }
 
 #endif // BOOST_HASH_TEST_EXTENSIONS
-

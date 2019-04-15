@@ -24,4 +24,3 @@ int main()
   boost::basic_string_ref<char> sv(makeatemp());
   return 0;
 }
-

@@ -34,5 +34,3 @@ int main( int, char *[] )
 {
    return boost_no_cxx11_function_template_default_args::test();
 }
-
-

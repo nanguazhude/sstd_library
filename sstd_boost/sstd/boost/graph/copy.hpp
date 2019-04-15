@@ -509,4 +509,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_GRAPH_COPY_HPP
-

@@ -429,4 +429,3 @@ int module_get_fixed_var( struct module_t * m_, OBJECT * name )
     v = (struct fixed_variable *)hash_find( m->variable_indices, name );
     return v && v->n < m_->num_fixed_variables ? v->n : -1;
 }
-

@@ -167,6 +167,3 @@ template <class Type> struct is_singelizable
 }} // namespace boost icl
 
 #endif
-
-
-

@@ -115,4 +115,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( adams_bashforth_test , Stepper, adams_bashforth_s
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

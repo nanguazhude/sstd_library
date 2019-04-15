@@ -101,4 +101,3 @@ struct geometry_id : core_dispatch::geometry_id<typename tag<Geometry>::type>
 
 
 #endif // BOOST_GEOMETRY_CORE_GEOMETRY_ID_HPP
-

@@ -139,5 +139,3 @@ void instanitate()
   test_v_non_c(& C::v_non_c);
   test_cv(& C::cv);
 }
-
-

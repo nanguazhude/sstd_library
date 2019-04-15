@@ -215,4 +215,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( stepper_test2 , Stepper, stepper_combinations2 )
 
 
 BOOST_AUTO_TEST_SUITE_END()
-

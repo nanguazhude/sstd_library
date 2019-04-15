@@ -88,4 +88,3 @@ struct copy_impl< boost::compute::vector< T, A > , boost::compute::vector< T, A 
 
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_COMPUTE_COMPUTE_RESIZE_HPP_DEFINED
-

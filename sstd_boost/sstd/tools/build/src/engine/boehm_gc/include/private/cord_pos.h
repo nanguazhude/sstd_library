@@ -116,4 +116,3 @@ void CORD__prev(CORD_pos);
 	/* address of current character in cache.	*/
 
 #endif
-

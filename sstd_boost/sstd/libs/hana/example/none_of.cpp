@@ -33,4 +33,3 @@ int main() {
         hana::none_of(hana::make_tuple(hana::type_c<void>, hana::type_c<char&>), hana::trait<std::is_integral>)
     );
 }
-

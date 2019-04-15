@@ -380,8 +380,3 @@ max factorial for real_concept 100
 *** No errors detected
 
 */
-
-
-
-
-

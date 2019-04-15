@@ -10,4 +10,3 @@
 #define __BOOST_TEST_MODULE__ const_string test
 #include <sstd/boost/test/unit_test.hpp>
 //]
-

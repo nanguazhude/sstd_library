@@ -127,4 +127,3 @@ struct set_kernel_arg<opengl_renderbuffer> : public set_kernel_arg<image_object>
 BOOST_COMPUTE_TYPE_NAME(boost::compute::opengl_renderbuffer, image2d_t)
 
 #endif // BOOST_COMPUTE_INTEROP_OPENGL_OPENGL_RENDERBUFFER_HPP
-

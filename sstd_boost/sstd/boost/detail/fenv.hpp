@@ -99,4 +99,3 @@
 #endif
 
 #endif /* BOOST_DETAIL_FENV_HPP */
-

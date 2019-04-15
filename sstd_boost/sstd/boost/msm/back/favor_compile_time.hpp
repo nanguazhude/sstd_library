@@ -318,4 +318,3 @@ dispatch_table<Fsm,Stt, Event,favor_compile_time>::instance;
 }}} // boost::msm::back
 
 #endif //BOOST_MSM_BACK_FAVOR_COMPILE_TIME_H
-

@@ -3399,4 +3399,3 @@ struct has_trivial_destructor_after_move<boost::container::vector<T, Allocator> 
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif //   #ifndef  BOOST_CONTAINER_CONTAINER_VECTOR_HPP
-

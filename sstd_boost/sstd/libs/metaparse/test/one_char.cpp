@@ -13,5 +13,3 @@ namespace
 #define TEST_NAME one_char
 
 #include "one_char_test.hpp"
-
-

@@ -158,4 +158,3 @@ namespace quickbook
 }
 
 #endif // BOOST_QUICKBOOK_FILES_HPP
-

@@ -37,4 +37,3 @@ struct base_unit_info<imperial::mile_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNITS_IMPERIAL_MILE_BASE_UNIT_HPP
-

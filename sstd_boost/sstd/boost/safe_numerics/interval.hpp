@@ -313,4 +313,3 @@ operator<<(
 
 
 #endif // BOOST_NUMERIC_INTERVAL_HPP
-

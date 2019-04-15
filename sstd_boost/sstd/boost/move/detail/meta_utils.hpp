@@ -585,4 +585,3 @@ template< class T > struct remove_rvalue_reference { typedef T type; };
 #include <sstd/boost/move/detail/config_end.hpp>
 
 #endif //#ifndef BOOST_MOVE_DETAIL_META_UTILS_HPP
-

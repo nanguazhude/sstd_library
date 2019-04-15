@@ -103,4 +103,3 @@ void test_serialization(const MultiIndexContainer& m)
   BOOST_TEST(it_end==it2);
   BOOST_TEST(it_end==boost::multi_index::project<0>(m2,it2));
 }
-

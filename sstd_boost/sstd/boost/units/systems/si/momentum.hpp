@@ -29,4 +29,3 @@ typedef unit<momentum_dimension,si::system>  momentum;
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_MOMENTUM_HPP
-

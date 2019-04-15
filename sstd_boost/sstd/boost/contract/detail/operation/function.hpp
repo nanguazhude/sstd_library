@@ -79,5 +79,3 @@ public:
 } } } // namespace
 
 #endif // #include guard
-
-

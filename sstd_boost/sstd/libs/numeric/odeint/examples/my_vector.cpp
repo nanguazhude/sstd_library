@@ -112,4 +112,3 @@ int main()
 
     integrate_const( runge_kutta4< state_type >() , lorenz , x , 0.0 , 10.0 , 0.1 );
 }
-

@@ -17,4 +17,3 @@
 #include <sstd/boost/units/systems/si/codata/universal_constants.hpp>
 
 #endif // BOOST_UNITS_CODATA_CONSTANTS_HPP
-

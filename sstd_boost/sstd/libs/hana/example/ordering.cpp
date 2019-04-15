@@ -18,4 +18,3 @@ constexpr auto sorted = hana::sort.by(hana::ordering(hana::sizeof_),
 BOOST_HANA_CONSTANT_CHECK(sorted == hana::tuple_t<char[1], char[2], char[3], char[15]>);
 
 int main() { }
-

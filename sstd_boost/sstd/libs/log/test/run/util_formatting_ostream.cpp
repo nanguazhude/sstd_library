@@ -467,4 +467,3 @@ BOOST_AUTO_TEST_CASE(character_code_conversion)
 }
 
 #endif
-

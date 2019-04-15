@@ -69,5 +69,3 @@ void test_forward_lookahead_asserts()
    TEST_INVALID_REGEX("(?<*", perl);
    TEST_INVALID_REGEX("(?", perl);
 }
-
-

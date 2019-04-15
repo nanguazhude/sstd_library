@@ -10,5 +10,3 @@
     #error "build must define PRECONDITIONS_DISABLE_NO_ASSERTION"
 #endif
 #include "prog.hpp"
-
-

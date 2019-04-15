@@ -27,4 +27,3 @@ struct registered_pointee
 }}} // namespace boost::python::converter
 
 #endif // REGISTERED_POINTEE_DWA2002710_HPP
-

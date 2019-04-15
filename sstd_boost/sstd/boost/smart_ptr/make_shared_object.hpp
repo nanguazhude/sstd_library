@@ -799,4 +799,3 @@ typename boost::detail::sp_if_not_array< T >::type allocate_shared( A const & a,
 } // namespace boost
 
 #endif // #ifndef BOOST_SMART_PTR_MAKE_SHARED_OBJECT_HPP_INCLUDED
-

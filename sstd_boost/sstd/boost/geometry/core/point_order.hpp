@@ -185,4 +185,3 @@ struct point_order
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_CORE_POINT_ORDER_HPP
-

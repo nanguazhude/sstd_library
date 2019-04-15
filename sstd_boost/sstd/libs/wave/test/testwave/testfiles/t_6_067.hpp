@@ -45,4 +45,3 @@ int dummy = 0;
  */
 
  /* unterminated comment ...
-

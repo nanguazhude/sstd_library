@@ -26,5 +26,3 @@ int main () {
     std::cout << solve (m, v, lower_tag ()) << std::endl;
     std::cout << solve (v, m, lower_tag ()) << std::endl;
 }
-
-

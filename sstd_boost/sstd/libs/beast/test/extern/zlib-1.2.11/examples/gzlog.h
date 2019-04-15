@@ -89,4 +89,3 @@ int gzlog_compress(gzlog *log);
 int gzlog_close(gzlog *log);
 
 #endif
-

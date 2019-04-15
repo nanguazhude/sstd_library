@@ -1,4 +1,4 @@
-/*
+﻿/*
 * TLS Handshake Message
 * (C) 2012 Jack Lloyd
 *     2016 Matthias Gierlings

@@ -306,4 +306,3 @@ void report_unexpected_exception(const E& e, int severity, const char* file, int
 #define BOOST_REQUIRE_THROW(x, E) BOOST_MT_CHECK_THROW_IMP(x, E, abort_on_fail)
 
 #endif
-

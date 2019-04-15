@@ -48,5 +48,3 @@ template<typename T> T& member_deref(T* data) { return *data; }
 } } } // namespace
 
 #endif // #include guard
-
-

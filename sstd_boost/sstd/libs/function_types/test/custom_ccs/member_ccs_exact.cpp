@@ -68,5 +68,3 @@ BOOST_MPL_ASSERT_NOT((
 BOOST_MPL_ASSERT_NOT((
   ft::is_callable_builtin< ft::member_function_pointer<mpl::vector<int, C &>, cc>::type, dc >
 ));
-
-

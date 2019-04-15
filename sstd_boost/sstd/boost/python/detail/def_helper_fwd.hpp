@@ -15,4 +15,3 @@ struct def_helper;
 }}} // namespace boost::python::detail
 
 #endif // DEF_HELPER_FWD_DWA2003810_HPP
-

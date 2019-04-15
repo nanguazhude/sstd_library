@@ -336,4 +336,3 @@ int test_main(int, char* [])
     test_array();
     return 0;
 }
-

@@ -283,4 +283,3 @@ template<class L, class T> using mp_replace_third = typename detail::mp_replace_
 } // namespace boost
 
 #endif // #ifndef BOOST_MP11_LIST_HPP_INCLUDED
-

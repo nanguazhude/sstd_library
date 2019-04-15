@@ -106,4 +106,3 @@ using tag::external;
 }} // namespace boost::accumulators
 
 #endif
-

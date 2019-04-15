@@ -40,4 +40,3 @@ int main()
     boost::basic_thread_pool executor{1};
     stepTwo(executor).get();
 }
-

@@ -506,5 +506,3 @@ template<typename TYPE_FLOAT>
 }
 
 #endif /* TEST_HSO3_HPP */
-
-

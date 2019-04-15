@@ -19,4 +19,3 @@ using result = meta::find_if<list, is_last>;
 int main() {
 
 }
-

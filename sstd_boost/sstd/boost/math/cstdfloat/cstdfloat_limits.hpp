@@ -73,4 +73,3 @@
   #endif // Not BOOST_CSTDFLOAT_NO_LIBQUADMATH_SUPPORT (i.e., the user would like to have libquadmath support)
 
 #endif // _BOOST_CSTDFLOAT_LIMITS_2014_01_09_HPP_
-

@@ -151,4 +151,3 @@ BOOST_AUTO_TEST_CASE( test_math_sqrt_custom )
     check_sqrt<custom5, custom5>::apply(custom5(2.0), custom5(sqrt2));
 #endif
 }
-

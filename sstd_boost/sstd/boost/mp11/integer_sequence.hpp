@@ -95,4 +95,3 @@ template<class... T> using index_sequence_for = make_integer_sequence<std::size_
 } // namespace boost
 
 #endif // #ifndef BOOST_MP11_INTEGER_SEQUENCE_HPP_INCLUDED
-

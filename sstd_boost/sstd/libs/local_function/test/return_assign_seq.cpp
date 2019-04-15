@@ -37,5 +37,3 @@ int main(void) {
     call();
     return boost::report_errors();
 }
-
-

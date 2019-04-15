@@ -50,4 +50,3 @@ BOOST_MPL_AUX_NA_SPEC(2, at)
 }}
 
 #endif // BOOST_MPL_AT_HPP_INCLUDED
-

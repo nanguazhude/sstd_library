@@ -369,15 +369,3 @@ int main(int argc, char**argv)
 #if defined(_WIN32) && defined(BOOST_REGEX_USE_WIN32_LOCALE) && !defined(UNDER_CE)
 #pragma comment(lib, "user32.lib")
 #endif
-
-
-
-
-
-
-
-
-
-
-
-

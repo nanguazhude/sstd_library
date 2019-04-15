@@ -203,4 +203,3 @@ private:
 #endif
 
 #endif      // #ifndef BOOST_STATIC_MOVE_PTR_HPP_INCLUDED
-

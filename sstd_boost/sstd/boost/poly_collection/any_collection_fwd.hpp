@@ -54,4 +54,3 @@ using poly_collection::any_collection;
 } /* namespace boost */
 
 #endif
-

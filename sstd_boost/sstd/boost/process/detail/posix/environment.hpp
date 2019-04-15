@@ -320,4 +320,3 @@ inline int native_handle()  {return getpid(); }
 
 
 #endif /* BOOST_PROCESS_DETAIL_WINDOWS_ENV_STORAGE_HPP_ */
-

@@ -136,4 +136,3 @@ BOOST_AUTO_TEST_CASE(type_dispatch)
     vis.set_expected();
     BOOST_CHECK(!val3.dispatch(disp));
 }
-

@@ -403,4 +403,3 @@ namespace any_tests // test definitions
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
 //
-

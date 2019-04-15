@@ -45,4 +45,3 @@ struct is_iec559< boost::float128_type >
 } // namespace boost
 
 #endif // BOOST_ATOMIC_DETAIL_TYPE_TRAITS_IS_IEC559_HPP_INCLUDED_
-

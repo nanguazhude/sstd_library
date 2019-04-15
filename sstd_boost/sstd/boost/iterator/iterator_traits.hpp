@@ -59,4 +59,3 @@ using iterators::iterator_category;
 } // namespace boost
 
 #endif // ITERATOR_TRAITS_DWA200347_HPP
-

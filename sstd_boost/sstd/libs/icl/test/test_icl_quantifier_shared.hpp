@@ -306,4 +306,3 @@ void icl_quantifier_check_containedness_4_bicremental_types()
 
 
 #endif // LIBS_ICL_TEST_TEST_ICL_QUANTIFIER_SHARED_HPP_JOFA_100819
-

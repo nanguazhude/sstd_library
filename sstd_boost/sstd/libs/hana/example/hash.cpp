@@ -42,4 +42,3 @@ static_assert(!contains<Set, hana::int_<3>>{}, "");
 static_assert(!contains<Set, hana::type<float>>{}, "");
 
 int main() { }
-

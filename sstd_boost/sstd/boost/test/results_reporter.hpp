@@ -119,5 +119,3 @@ inline void             detailed_report( test_unit_id id = INV_TEST_UNIT_ID )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_RESULTS_REPORTER_HPP_021205GER
-
-

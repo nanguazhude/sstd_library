@@ -162,5 +162,3 @@ inline void set_class(compound_charset<Traits> &chset, typename Traits::char_cla
 }}} // namespace boost::xpressive::detail
 
 #endif
-
-

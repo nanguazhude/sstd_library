@@ -84,4 +84,3 @@ class memory_resource_logger
 };
 
 #endif   //#ifndef BOOST_CONTAINER_TEST_MEMORY_RESOURCE_TESTER_HPP
-

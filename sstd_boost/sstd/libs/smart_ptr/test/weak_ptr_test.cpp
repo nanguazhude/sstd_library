@@ -1363,4 +1363,3 @@ boost::shared_ptr<incomplete> create_incomplete()
     boost::shared_ptr<incomplete> px(new incomplete);
     return px;
 }
-

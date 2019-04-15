@@ -991,4 +991,3 @@ inline std::basic_string<typename remove_const<Char>::type> regex_replace
 }} // namespace boost::xpressive
 
 #endif
-

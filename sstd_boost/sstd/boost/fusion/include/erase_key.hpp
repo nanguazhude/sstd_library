@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/algorithm/transformation/erase_key.hpp>
 
 #endif
-

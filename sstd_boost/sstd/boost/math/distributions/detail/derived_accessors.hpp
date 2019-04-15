@@ -161,4 +161,3 @@ inline typename Dist::value_type median(const Dist& d)
 #endif
 
 #endif // BOOST_STATS_DERIVED_HPP
-

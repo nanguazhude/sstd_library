@@ -244,4 +244,3 @@ test_suite* init_unit_test_suite(int, char* [])
     test->add(BOOST_TEST_CASE(&multipart_test));
     return test;
 }
-

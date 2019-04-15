@@ -12,5 +12,3 @@
 
 #include <sstd/boost/spirit/include/classic_typeof.hpp>
 #include <sstd/boost/spirit/include/classic_debug.hpp>
-
-

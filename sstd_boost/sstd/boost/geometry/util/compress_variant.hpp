@@ -104,4 +104,3 @@ struct compress_variant:
 
 
 #endif // BOOST_GEOMETRY_UTIL_COMPRESS_VARIANT_HPP
-

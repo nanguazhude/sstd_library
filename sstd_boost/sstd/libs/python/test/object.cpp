@@ -390,4 +390,3 @@ BOOST_PYTHON_MODULE(object_ext)
 }
 
 #include "module_tail.cpp"
-

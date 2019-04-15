@@ -33,4 +33,3 @@ BOOST_TTI_TRAIT_HAS_MEMBER_FUNCTION(CVAnother,AnotherConstVolatileFunction) // c
 BOOST_TTI_HAS_MEMBER_FUNCTION(StillCV) // const volatile
 
 #endif // TEST_HAS_MEMBER_FUNCTION_HPP
-

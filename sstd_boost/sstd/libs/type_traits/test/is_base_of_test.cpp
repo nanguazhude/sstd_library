@@ -48,13 +48,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_base_of<Base,virtual_inherit1>::value), 
 BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_base_of<virtual_inherit1,Base>::value), false);
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-
-

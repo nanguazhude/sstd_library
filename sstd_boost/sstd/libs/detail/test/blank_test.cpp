@@ -30,4 +30,3 @@ int main() {
     assert(s.str() == "()");
 #endif
 }
-

@@ -32,4 +32,3 @@ void test_intermodule_holder()
     create_intermodule_flyweight_string("boost");
   BOOST_TEST(str==intermodule_flyweight_string("boost"));
 }
-

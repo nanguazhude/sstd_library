@@ -106,4 +106,3 @@ inline bool prev_permutation(const BidirectionalRange& rng,
 } // namespace boost
 
 #endif // include guard
-

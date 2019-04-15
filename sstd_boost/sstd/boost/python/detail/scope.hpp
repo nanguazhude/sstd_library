@@ -14,4 +14,3 @@ void BOOST_PYTHON_DECL scope_setattr_doc(char const* name, object const& obj, ch
 }}} // namespace boost::python::detail
 
 #endif // SCOPE_DWA2002927_HPP
-

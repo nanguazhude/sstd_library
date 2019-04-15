@@ -34,4 +34,3 @@ inline std::string file_to_string(std::string const& filename)
 
 
 #endif // FILE_TO_STRING_HPP
-

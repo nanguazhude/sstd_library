@@ -14,4 +14,3 @@ template <class T = PyObject> class handle;
 }} // namespace boost::python
 
 #endif // HANDLE_FWD_DWA2002615_HPP
-

@@ -126,4 +126,3 @@ BOOST_AUTO_TEST_CASE( check_string_compare )
 }
 
 // EOF
-

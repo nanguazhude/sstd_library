@@ -30,4 +30,3 @@ BOOST_MPL_ASSERT((boost::is_same<boost::units::static_rational<-2,1>::type, boos
 
 int main() {
 }
-

@@ -169,5 +169,3 @@ BOOST_PYTHON_MODULE(python_test_ext)
         )
         .def_readonly("value", &X::value);
 }
-
-

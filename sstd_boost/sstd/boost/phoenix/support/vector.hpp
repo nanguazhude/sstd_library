@@ -164,4 +164,3 @@ BOOST_FUSION_ADAPT_TPL_STRUCT_NO_PARTIAL(
 #ifdef BOOST_MSVC
 #pragma warning(pop)
 #endif
-

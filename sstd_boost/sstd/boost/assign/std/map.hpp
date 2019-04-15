@@ -43,4 +43,3 @@ namespace assign
 }
 
 #endif
-

@@ -58,4 +58,3 @@ inline void move_alloc(AllocatorType &l, AllocatorType &r, dtl::true_type)
 }  //namespace boost {
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_ALLOC_TRAITS_HPP
-

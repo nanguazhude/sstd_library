@@ -360,4 +360,3 @@ public:
        //   || defined(GENERATING_DOCUMENTATION)
 
 #endif // BOOST_ASIO_POSIX_STREAM_DESCRIPTOR_HPP
-

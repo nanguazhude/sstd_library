@@ -153,4 +153,3 @@ class null_mutex
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_NULL_MUTEX_HPP
-

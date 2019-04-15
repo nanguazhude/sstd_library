@@ -86,4 +86,3 @@ struct any_greater
 }  //namespace boost      {
 
 #endif
-

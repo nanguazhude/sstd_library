@@ -184,4 +184,3 @@ inline void reverse(Geometry& geometry)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_REVERSE_HPP
-

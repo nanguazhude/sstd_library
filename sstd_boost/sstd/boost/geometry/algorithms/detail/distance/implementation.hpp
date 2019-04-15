@@ -35,4 +35,3 @@
 #include <sstd/boost/geometry/algorithms/detail/distance/backward_compatibility.hpp>
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_DISTANCE_IMPLEMENTATION_HPP
-

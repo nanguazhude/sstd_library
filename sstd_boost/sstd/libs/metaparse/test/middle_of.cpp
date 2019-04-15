@@ -77,6 +77,3 @@ BOOST_METAPARSE_TEST_CASE(middle_of)
     is_error<apply_wrap2<middle_of<lit_h, lit_e, lit_l>, str_, start> >
   ));
 }
-
-
-

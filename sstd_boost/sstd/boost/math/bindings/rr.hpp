@@ -880,6 +880,3 @@ ntl::RR digamma_imp(ntl::RR x, const mpl::int_<0>* , const Policy& pol)
 } // namespace boost
 
 #endif // BOOST_MATH_REAL_CONCEPT_HPP
-
-
-

@@ -649,6 +649,3 @@ void test_integral_conversions_on_min_max()
 #endif
 
 }
-
-
-

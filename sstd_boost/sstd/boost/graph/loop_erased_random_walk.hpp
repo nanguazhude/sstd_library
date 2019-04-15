@@ -117,4 +117,3 @@ namespace boost {
 }
 
 #endif // BOOST_GRAPH_LOOP_ERASED_RANDOM_WALK_HPP
-

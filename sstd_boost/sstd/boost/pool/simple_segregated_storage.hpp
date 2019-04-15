@@ -375,4 +375,3 @@ void * simple_segregated_storage<SizeType>::malloc_n(const size_type n,
 #endif
 
 #endif
-

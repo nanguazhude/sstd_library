@@ -156,4 +156,3 @@ BOOST_HANA_CONSTANT_CHECK(is_binary_template(hana::template_<Foo>));
 BOOST_HANA_CONSTANT_CHECK(!is_binary_template(hana::template_<Bar>));
 //! [template_specialization]
 }
-

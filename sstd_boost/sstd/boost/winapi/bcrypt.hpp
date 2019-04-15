@@ -81,4 +81,3 @@ using ::BCryptOpenAlgorithmProvider;
 #endif // BOOST_USE_WINAPI_VERSION >= BOOST_WINAPI_VERSION_WIN6
 
 #endif // BOOST_WINAPI_BCRYPT_HPP_INCLUDED_
-

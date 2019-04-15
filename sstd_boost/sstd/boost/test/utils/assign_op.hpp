@@ -36,5 +36,3 @@ assign_op( T& t, S const& s, long )
 } // namespace boost
 
 #endif // BOOST_TEST_UTILS_ASSIGN_OP_HPP
-
-

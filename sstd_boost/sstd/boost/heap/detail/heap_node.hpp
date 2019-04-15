@@ -388,4 +388,3 @@ Node * find_max_child(List const & list, Cmp const & cmp)
 
 #undef BOOST_HEAP_ASSERT
 #endif /* BOOST_HEAP_DETAIL_HEAP_NODE_HPP */
-

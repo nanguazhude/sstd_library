@@ -261,4 +261,3 @@ namespace boost { namespace algorithm {
 }}
 
 #endif  // BOOST_ALGORITHM_KNUTH_MORRIS_PRATT_SEARCH_HPP
-

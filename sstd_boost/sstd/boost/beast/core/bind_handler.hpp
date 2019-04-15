@@ -76,4 +76,3 @@ bind_handler(Handler&& handler, Args&&... args)
 } // boost
 
 #endif
-

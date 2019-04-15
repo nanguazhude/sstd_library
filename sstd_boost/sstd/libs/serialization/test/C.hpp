@@ -66,4 +66,3 @@ inline void load(Archive & ar, boost::archive::version_type file_version){
 }
 
 #endif // BOOST_SERIALIZATION_TEST_C_HPP
-

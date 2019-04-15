@@ -569,4 +569,3 @@ struct version<boost::wave::context<Iterator, LexIterator, InputPolicy, Hooks> >
 #endif
 
 #endif // !defined(CPP_CONTEXT_HPP_907485E2_6649_4A87_911B_7F7225F3E5B8_INCLUDED)
-

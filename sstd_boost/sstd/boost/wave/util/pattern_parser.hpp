@@ -65,4 +65,3 @@ namespace util {
 #endif
 
 #endif // defined(BOOST_SPIRIT_PATTERN_PARSER_HPP)
-

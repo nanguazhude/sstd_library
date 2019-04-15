@@ -18,4 +18,3 @@
 
 #define FUSION_SEQUENCE std::tuple
 #include "convert.hpp"
-

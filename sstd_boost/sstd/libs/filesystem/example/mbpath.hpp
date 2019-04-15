@@ -42,4 +42,3 @@ namespace boost
       { static const bool value = true; };
   }
 }
-

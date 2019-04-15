@@ -2859,4 +2859,3 @@ pts.push_back(Point(12344171, 6695983 )); pts.push_back(Point(12287208, 6672388 
 }
 }
 #endif
-

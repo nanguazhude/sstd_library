@@ -110,4 +110,3 @@ struct pointer_plus_bits<T*, NumBits>
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_POINTER_PLUS_BITS_HPP
-

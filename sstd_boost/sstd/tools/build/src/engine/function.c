@@ -5342,4 +5342,3 @@ void function_done( void )
 {
     BJAM_FREE( stack );
 }
-

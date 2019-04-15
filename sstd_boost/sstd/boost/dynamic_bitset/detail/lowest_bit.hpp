@@ -37,4 +37,3 @@ namespace detail {
 
 
 #endif // include guard
-

@@ -220,4 +220,3 @@ BOOST_FORCEINLINE std::size_t safe_dump_to(std::size_t skip, std::size_t max_dep
 #endif
 
 #endif // BOOST_STACKTRACE_SAFE_DUMP_TO_HPP
-

@@ -20,4 +20,3 @@ int main()
   c.do_something();
   return 0;
 }
-

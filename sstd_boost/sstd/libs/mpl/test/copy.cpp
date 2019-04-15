@@ -209,4 +209,3 @@ MPL_TEST_CASE()
 
     MPL_ASSERT((equal< numbers, result >));
 }
-

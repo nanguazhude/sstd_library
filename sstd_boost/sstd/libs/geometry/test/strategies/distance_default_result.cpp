@@ -268,4 +268,3 @@ BOOST_AUTO_TEST_CASE( test_point_box_or_box )
     test_box_all<3>();
     test_box_all<4>();
 }
-

@@ -20,4 +20,3 @@
 
 
 #endif // BOOST_GEOMETRY_MULTI_CORE_TAGS_HPP
-

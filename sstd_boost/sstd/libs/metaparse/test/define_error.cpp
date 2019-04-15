@@ -25,5 +25,3 @@ BOOST_AUTO_TEST_CASE(test_define_error)
 
   BOOST_CHECK_EQUAL("test error", test_error::get_value());
 }
-
-

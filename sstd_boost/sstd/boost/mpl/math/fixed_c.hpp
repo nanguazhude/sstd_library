@@ -34,4 +34,3 @@ struct fixed_c
 }}
 
 #endif // BOOST_MPL_FIXED_C_HPP_INCLUDED
-

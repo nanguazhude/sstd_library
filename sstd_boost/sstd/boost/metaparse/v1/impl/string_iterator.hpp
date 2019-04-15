@@ -156,5 +156,3 @@ namespace boost
 }
 
 #endif
-
-

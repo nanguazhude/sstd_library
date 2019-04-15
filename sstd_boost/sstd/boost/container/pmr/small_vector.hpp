@@ -43,4 +43,3 @@ struct small_vector_of
 }  //namespace boost {
 
 #endif   //BOOST_CONTAINER_PMR_SMALL_VECTOR_HPP
-

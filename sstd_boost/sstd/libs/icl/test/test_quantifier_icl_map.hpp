@@ -235,5 +235,3 @@ void itv_quantifier_check_abelian_group_plus_prot_inv_4_bicremental_types()
 }
 
 #endif // LIBS_ICL_TEST_TEST_QUANTIFIER_ICL_MAP_HPP_JOFA_090119
-
-

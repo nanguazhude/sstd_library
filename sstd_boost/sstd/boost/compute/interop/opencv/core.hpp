@@ -139,4 +139,3 @@ inline image2d opencv_create_image2d_with_mat(const cv::Mat &mat,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_INTEROP_OPENCV_CORE_HPP
-

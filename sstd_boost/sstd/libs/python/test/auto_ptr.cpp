@@ -87,5 +87,3 @@ BOOST_PYTHON_MODULE(auto_ptr_ext)
 }
 
 #include "module_tail.cpp"
-
-

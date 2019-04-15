@@ -221,4 +221,3 @@ BOOST_AUTO_TEST_CASE(triangle_area)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

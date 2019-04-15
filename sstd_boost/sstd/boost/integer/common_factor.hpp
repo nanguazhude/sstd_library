@@ -14,4 +14,3 @@
 #include <sstd/boost/integer/common_factor_rt.hpp>
 
 #endif  // BOOST_INTEGER_COMMON_FACTOR_HPP
-

@@ -2173,5 +2173,3 @@ T lambert_wm1_imp(const T z, const Policy&  pol)
 }} //boost::math namespaces
 
 #endif // #ifdef BOOST_MATH_SF_LAMBERT_W_HPP
-
-

@@ -199,4 +199,3 @@ int main( int argc , char **argv )
 Plot with gnuplot:
 p "solar_system.dat" u 2:4 w l,"solar_system.dat" u 5:7 w l,"solar_system.dat" u 8:10 w l,"solar_system.dat" u 11:13 w l,"solar_system.dat" u 14:16 w l,"solar_system.dat" u 17:19 w l
  */
-

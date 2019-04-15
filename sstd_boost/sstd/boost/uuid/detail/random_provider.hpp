@@ -89,4 +89,3 @@ public:
 } // boost
 
 #endif // BOOST_UUID_DETAIL_RANDOM_PROVIDER_HPP
-

@@ -45,4 +45,3 @@ protected:
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_WAIT_OP_HPP
-

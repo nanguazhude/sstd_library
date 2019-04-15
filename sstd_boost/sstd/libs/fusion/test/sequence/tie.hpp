@@ -83,4 +83,3 @@ test()
     ti = FUSION_SEQUENCE<int&>(d);
     BOOST_TEST(&FUSION_AT<0>(ti) == &a);
 }
-

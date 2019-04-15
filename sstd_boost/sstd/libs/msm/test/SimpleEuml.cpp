@@ -194,5 +194,3 @@ namespace
                             "Stopped entry not called correctly");
     }
 }
-
-

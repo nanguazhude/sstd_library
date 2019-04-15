@@ -140,4 +140,3 @@ BOOST_AUTO_TEST_CASE( skew_heap_handle_as_member )
 {
     run_handle_as_member_test<skew_heap<skew_heap_data, mutable_<true> > >();
 }
-

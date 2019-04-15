@@ -218,4 +218,3 @@ public:
 } // namespace boost
 
 #endif // #ifndef BOOST_TYPE_TRAITS_DETAIL_COMMON_ARITHMETIC_TYPE_HPP_INCLUDED
-

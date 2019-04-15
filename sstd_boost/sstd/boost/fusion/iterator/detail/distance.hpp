@@ -64,4 +64,3 @@ namespace boost { namespace fusion { namespace distance_detail
 }}}
 
 #endif
-

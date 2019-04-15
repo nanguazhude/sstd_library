@@ -494,6 +494,3 @@ using concepts::iround;
 } // namespace boost
 
 #endif // BOOST_MATH_REAL_CONCEPT_HPP
-
-
-

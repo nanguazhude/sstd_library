@@ -94,5 +94,3 @@ boost::intmax_t test_conversion() {
             ()
             );
 }
-
-

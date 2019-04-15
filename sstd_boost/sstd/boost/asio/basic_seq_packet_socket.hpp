@@ -618,4 +618,3 @@ public:
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_BASIC_SEQ_PACKET_SOCKET_HPP
-

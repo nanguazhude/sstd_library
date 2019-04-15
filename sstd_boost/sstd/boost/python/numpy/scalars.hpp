@@ -56,4 +56,3 @@ NUMPY_OBJECT_MANAGER_TRAITS(numpy::void_);
 }}} // namespace boost::python::converter
 
 #endif
-

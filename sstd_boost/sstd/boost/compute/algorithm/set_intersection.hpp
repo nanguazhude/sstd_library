@@ -177,4 +177,3 @@ inline OutputIterator set_intersection(InputIterator1 first1,
 } //end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_SET_INTERSECTION_HPP
-

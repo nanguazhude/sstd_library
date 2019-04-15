@@ -68,4 +68,3 @@ int main() {
     hana::test::TestComparable<unsigned long>{hana::make_tuple(0ul,1ul,2ul,3ul,4ul,5ul)};
     hana::test::TestComparable<eq1>{hana::make_tuple(eq1{0}, eq1{1}, eq1{2}, eq1{3}, eq1{4})};
 }
-

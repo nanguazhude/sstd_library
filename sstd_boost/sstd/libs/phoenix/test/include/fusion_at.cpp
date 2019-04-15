@@ -9,4 +9,3 @@
 #include <sstd/boost/phoenix/fusion/at.hpp>
 
 int main() {}
-

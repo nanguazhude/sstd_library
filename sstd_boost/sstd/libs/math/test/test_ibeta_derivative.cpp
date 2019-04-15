@@ -179,4 +179,3 @@ BOOST_AUTO_TEST_CASE( test_main )
 #if defined(__GNUC__)
 #pragma GCC diagnostic pop
 #endif
-

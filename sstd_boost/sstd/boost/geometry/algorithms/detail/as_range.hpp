@@ -103,4 +103,3 @@ inline Range const& as_range(Geometry const& input)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_AS_RANGE_HPP
-

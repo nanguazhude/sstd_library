@@ -118,6 +118,3 @@ namespace boost { namespace fusion
 #include <sstd/boost/fusion/view/nview/detail/nview_impl.hpp>
 
 #endif
-
-
-

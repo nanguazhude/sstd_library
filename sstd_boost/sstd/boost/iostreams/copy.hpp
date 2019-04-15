@@ -246,4 +246,3 @@ copy( Source& src, Sink& snk,
 } } // End namespaces iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_COPY_HPP_INCLUDED
-

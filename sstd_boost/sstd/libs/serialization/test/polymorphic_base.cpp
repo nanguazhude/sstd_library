@@ -37,4 +37,3 @@ template POLYMORPHIC_BASE_DLL_DECL void polymorphic_base::serialize(
     const unsigned int
 );
 BOOST_CLASS_EXPORT_IMPLEMENT(polymorphic_base)
-

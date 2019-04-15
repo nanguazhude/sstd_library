@@ -761,4 +761,3 @@ struct pointer_traits<T *>;
 #endif   //#if !defined(BOOST_INTRUSIVE_DOXYGEN_INVOKED)
 
 #endif   //#ifndef BOOST_INTRUSIVE_FWD_HPP
-

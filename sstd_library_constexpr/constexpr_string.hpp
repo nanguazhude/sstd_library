@@ -21,26 +21,3 @@ namespace sstd {
     };
 
 }/*namespace sstd*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

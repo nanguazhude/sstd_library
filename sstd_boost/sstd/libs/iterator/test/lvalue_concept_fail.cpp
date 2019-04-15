@@ -18,4 +18,3 @@ int main()
     boost_concepts::LvalueIteratorConcept<Iter> >();
   return boost::exit_success;
 }
-

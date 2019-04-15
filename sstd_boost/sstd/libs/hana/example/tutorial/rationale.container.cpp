@@ -50,4 +50,3 @@ Result result = fusion::find_if<Predicate>(tuple);
 }
 
 }
-

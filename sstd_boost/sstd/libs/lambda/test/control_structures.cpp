@@ -121,4 +121,3 @@ int test_main(int, char *[])
   simple_ifs();
   return 0;
 }
-

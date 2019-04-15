@@ -231,4 +231,3 @@ static void debug_compile( int which, char const * s, FRAME * frame )
 
     level += which;
 }
-

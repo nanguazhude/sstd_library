@@ -25,4 +25,3 @@ BOOST_AUTO_TEST_CASE(vector_with_pinned_allocator)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

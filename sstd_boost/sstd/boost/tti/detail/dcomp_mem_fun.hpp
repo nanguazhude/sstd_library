@@ -76,4 +76,3 @@
 
 
 #endif // BOOST_TTI_DETAIL_COMP_MEM_FUN_HPP
-

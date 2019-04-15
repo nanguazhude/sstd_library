@@ -468,4 +468,3 @@ using random::rand48;
 #include <sstd/boost/random/detail/enable_warnings.hpp>
 
 #endif // BOOST_RANDOM_LINEAR_CONGRUENTIAL_HPP
-

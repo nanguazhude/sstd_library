@@ -43,6 +43,3 @@ void clear_action_test()
     BOOST_CHECK_EQUAL(scan.first, scan.last);
     BOOST_CHECK( c.empty() );
 }
-
-
-

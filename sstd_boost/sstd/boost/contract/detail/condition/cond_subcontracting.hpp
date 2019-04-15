@@ -469,5 +469,3 @@ private:
 } } } // namespace
 
 #endif // #include guard
-
-

@@ -26,5 +26,3 @@ int main () {
     std::cout << prod (m, v) << std::endl;
     std::cout << prod (v, m) << std::endl;
 }
-
-

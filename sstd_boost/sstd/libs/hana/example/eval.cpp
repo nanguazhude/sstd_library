@@ -11,4 +11,3 @@ namespace hana = boost::hana;
 static_assert(hana::eval(hana::make_lazy(hana::_ + 1)(3)) == 4, "");
 
 int main() { }
-

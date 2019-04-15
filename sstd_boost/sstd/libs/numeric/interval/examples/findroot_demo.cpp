@@ -169,4 +169,3 @@ int main()
   find_zeros(f, test_func2d<I>(), I(-20, 20), I(-20, 20));
   std::cout << "Use gnuplot, command 'plot \"func2d.data\" with dots'   to plot\n";
 }
-

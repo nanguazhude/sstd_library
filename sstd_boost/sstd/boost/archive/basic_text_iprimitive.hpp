@@ -140,4 +140,3 @@ public:
 #include <sstd/boost/archive/detail/abi_suffix.hpp> // pop pragmas
 
 #endif // BOOST_ARCHIVE_BASIC_TEXT_IPRIMITIVE_HPP
-

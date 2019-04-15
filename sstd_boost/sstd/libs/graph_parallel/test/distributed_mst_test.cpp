@@ -149,4 +149,3 @@ int test_main(int argc, char** argv)
   test_distributed_dense_boruvka();
   return 0;
 }
-

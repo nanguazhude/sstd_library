@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Load/Store Operators
 * (C) 1999-2007,2015,2017 Jack Lloyd
 *     2007 Yves Jerschow

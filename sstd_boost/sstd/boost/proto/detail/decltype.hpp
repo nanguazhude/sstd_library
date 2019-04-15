@@ -451,4 +451,3 @@ namespace boost { namespace proto
 #endif
 
 #endif
-

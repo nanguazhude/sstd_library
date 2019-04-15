@@ -120,4 +120,3 @@ namespace date_time {
 #endif //BOOST_DATE_TIME_NO_LOCALE
 
 #endif
-

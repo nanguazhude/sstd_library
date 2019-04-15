@@ -381,4 +381,3 @@ std::vector<int>& cartesian_dimensions(int nb_proc, std::vector<int>&  dims);
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_CARTESIAN_COMMUNICATOR_HPP
-

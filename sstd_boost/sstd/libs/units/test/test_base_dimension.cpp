@@ -29,4 +29,3 @@ struct dimension : boost::units::base_dimension<dimension, 1> {
 
 int main() {
 }
-

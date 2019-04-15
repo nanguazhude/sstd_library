@@ -179,4 +179,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(unpack, detail::make<unpack_adaptor>);
 }} // namespace boost::hof
 
 #endif
-

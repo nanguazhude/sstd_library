@@ -207,4 +207,3 @@ using concurrent::queue_adaptor;
 #include <sstd/boost/config/abi_suffix.hpp>
 
 #endif
-

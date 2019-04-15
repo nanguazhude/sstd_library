@@ -1128,5 +1128,3 @@ bool perl_matcher<BidiIterator, Allocator, traits>::skip_until_paren(int index, 
 #endif
 
 #endif
-
-

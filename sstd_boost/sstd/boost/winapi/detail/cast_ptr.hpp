@@ -35,4 +35,3 @@ public:
 }
 
 #endif // BOOST_WINAPI_DETAIL_CAST_PTR_HPP_INCLUDED_
-

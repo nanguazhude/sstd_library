@@ -84,4 +84,3 @@ inline void save_unordered_collection(Archive & ar, const Container &s)
 } // namespace boost
 
 #endif //BOOST_SERIALIZATION_UNORDERED_COLLECTIONS_SAVE_IMP_HPP
-

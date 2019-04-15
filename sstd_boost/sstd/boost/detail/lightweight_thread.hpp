@@ -186,4 +186,3 @@ template<class F> int lw_thread_create( lw_thread_t & th, F f )
 } // namespace boost
 
 #endif // #ifndef BOOST_DETAIL_LIGHTWEIGHT_THREAD_HPP_INCLUDED
-

@@ -33,4 +33,3 @@ void TuTest::unconsumed_event( const sc::event_base & )
 {
   throw std::runtime_error( "Event was not consumed!" );
 }
-

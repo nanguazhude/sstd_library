@@ -19,5 +19,3 @@ add_executable (http-crawl
 )
 
 set_property(TARGET http-crawl PROPERTY FOLDER "example-http-client")
-
-

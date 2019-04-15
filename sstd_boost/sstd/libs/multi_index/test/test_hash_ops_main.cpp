@@ -16,4 +16,3 @@ int main()
   test_hash_ops();
   return boost::report_errors();
 }
-

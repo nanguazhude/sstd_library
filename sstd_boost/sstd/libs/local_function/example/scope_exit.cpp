@@ -107,5 +107,3 @@ int main(void) {
     BOOST_TEST(oss.str() == "world(3, { person(1, 2),  person(2, 2), })");
     return boost::report_errors();
 }
-
-

@@ -38,4 +38,3 @@ struct pop_back_impl< aux::vector_tag >
 #endif // BOOST_MPL_CFG_TYPEOF_BASED_SEQUENCES
 
 #endif // BOOST_MPL_VECTOR_AUX_POP_BACK_HPP_INCLUDED
-

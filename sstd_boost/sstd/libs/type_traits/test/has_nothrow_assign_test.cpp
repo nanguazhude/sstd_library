@@ -233,7 +233,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::has_nothrow_assign<noexcept_assignable>::val
 #endif
 
 TT_TEST_END
-
-
-
-

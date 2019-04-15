@@ -10,4 +10,3 @@ static_assert(hana::always(1)() == 1, "");
 static_assert(hana::always('2')(1, 2, 3) == '2', "");
 
 int main() { }
-

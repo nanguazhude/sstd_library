@@ -105,4 +105,3 @@ algorithm.
 --
 Cosmin Truta
 Last updated: 2006-May-28
-

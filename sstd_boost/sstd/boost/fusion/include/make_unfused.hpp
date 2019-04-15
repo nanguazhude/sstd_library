@@ -12,4 +12,3 @@
 #include <sstd/boost/fusion/functional/generation/make_unfused.hpp>
 
 #endif
-

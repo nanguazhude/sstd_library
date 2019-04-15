@@ -72,4 +72,3 @@ namespace detail { namespace overlay
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_STREAM_INFO_HPP
-

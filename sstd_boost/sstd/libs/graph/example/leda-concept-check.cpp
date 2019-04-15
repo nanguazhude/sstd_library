@@ -20,4 +20,3 @@ main()
   BOOST_CONCEPT_ASSERT(( EdgeMutableGraphConcept<Graph> ));
   return EXIT_SUCCESS;
 }
-

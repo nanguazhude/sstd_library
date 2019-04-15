@@ -198,5 +198,3 @@
     BOOST_LOCAL_FUNCTION_AUX_NAME_PARSE_RECURSIVE_(typename01, qualified_name)
 
 #endif // #include guard
-
-

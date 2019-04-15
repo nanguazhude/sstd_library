@@ -17,4 +17,3 @@ add_executable (http-server-coro
 )
 
 set_property(TARGET http-server-coro PROPERTY FOLDER "example-http-server")
-

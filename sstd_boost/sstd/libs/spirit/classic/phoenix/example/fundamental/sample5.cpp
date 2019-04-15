@@ -41,4 +41,3 @@ main()
     cout << (int_const<5>() + int_const<6>())() << endl;
     return 0;
 }
-

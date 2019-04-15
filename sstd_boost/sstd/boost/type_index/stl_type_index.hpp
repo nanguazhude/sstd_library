@@ -276,4 +276,3 @@ inline stl_type_index stl_type_index::type_id_runtime(const T& value) BOOST_NOEX
 #undef BOOST_TYPE_INDEX_STD_TYPE_INDEX_HAS_HASH_CODE
 
 #endif // BOOST_TYPE_INDEX_STL_TYPE_INDEX_HPP
-

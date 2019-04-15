@@ -67,5 +67,3 @@ directories therein) has a size of zero bytes, fixing is needed.
  <path-to-boost-sourcedir>/boost/mpl/set/aux_/preprocessed/
  <path-to-boost-sourcedir>/boost/mpl/map/aux_/preprocessed/
  <path-to-boost-sourcedir>/boost/mpl/aux_/preprocessed/
-
-

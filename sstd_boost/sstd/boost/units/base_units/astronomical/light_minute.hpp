@@ -37,4 +37,3 @@ struct base_unit_info<astronomical::light_minute_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNIT_SYSTEMS_ASTRONOMICAL_LIGHT_MINUTE_HPP_INCLUDED
-

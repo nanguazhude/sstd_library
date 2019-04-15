@@ -245,4 +245,3 @@ struct disjoint<Point1, Point2, DimensionCount, point_tag, point_tag, false>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_DISJOINT_POINT_POINT_HPP
-

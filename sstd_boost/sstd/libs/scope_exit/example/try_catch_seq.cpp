@@ -58,5 +58,3 @@ int main(void) {
     good();
     return 0;
 }
-
-

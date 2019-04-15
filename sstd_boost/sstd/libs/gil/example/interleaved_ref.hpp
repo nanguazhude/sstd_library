@@ -148,4 +148,3 @@ struct channel_type<interleaved_ref<ChannelReference,Layout> > {
 } }  // namespace boost::gil
 
 #endif
-

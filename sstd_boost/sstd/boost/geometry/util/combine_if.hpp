@@ -90,4 +90,3 @@ struct combine_if
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_UTIL_COMBINE_IF_HPP
-

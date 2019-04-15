@@ -34,4 +34,3 @@ BOOST_UNITS_STATIC_CONSTANT(metres_per_second,velocity);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_VELOCITY_HPP
-

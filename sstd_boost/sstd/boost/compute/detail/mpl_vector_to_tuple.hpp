@@ -63,4 +63,3 @@ struct mpl_vector_to_tuple
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_DETAIL_MPL_VECTOR_TO_TUPLE_HPP
-

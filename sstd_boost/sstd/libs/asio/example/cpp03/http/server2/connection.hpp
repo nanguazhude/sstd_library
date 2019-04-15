@@ -73,4 +73,3 @@ typedef boost::shared_ptr<connection> connection_ptr;
 } // namespace http
 
 #endif // HTTP_SERVER2_CONNECTION_HPP
-

@@ -34,4 +34,3 @@ int main() {
         f(g(ct_eq<1>{}), h(ct_eq<2>{}), i(ct_eq<3>{}))
     ));
 }
-

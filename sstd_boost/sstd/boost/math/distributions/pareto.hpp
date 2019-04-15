@@ -440,6 +440,3 @@ namespace boost
 #include <sstd/boost/math/distributions/detail/derived_accessors.hpp>
 
 #endif // BOOST_STATS_PARETO_HPP
-
-
-

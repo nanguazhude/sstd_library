@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_POSITION_ITERATOR_FWD
 #include <sstd/boost/spirit/home/classic/iterator/position_iterator_fwd.hpp>
 #endif
-

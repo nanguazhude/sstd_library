@@ -98,4 +98,3 @@ int main() {
         f(ct_eq<77>{}, ct_eq<88>{}, ct_eq<99>{}, ct_eq<0>{}, ct_eq<1>{}, ct_eq<2>{})
     ));
 }
-

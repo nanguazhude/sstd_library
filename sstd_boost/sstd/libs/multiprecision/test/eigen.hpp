@@ -554,5 +554,3 @@ void test_complex_type()
    // example23<Num>();  //requires comparisons.
    example24<Num>();
 }
-
-

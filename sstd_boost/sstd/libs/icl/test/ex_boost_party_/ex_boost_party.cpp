@@ -130,6 +130,3 @@ BOOST_AUTO_TEST_CASE(icl_example_boost_party)
     BOOST_CHECK(party_equality);
     //BOOST_CHECK_EQUAL(boost_party(), check_party());
 }
-
-
-

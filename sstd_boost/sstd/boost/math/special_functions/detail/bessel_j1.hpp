@@ -196,5 +196,3 @@ T bessel_j1(T x)
 }}} // namespaces
 
 #endif // BOOST_MATH_BESSEL_J1_HPP
-
-

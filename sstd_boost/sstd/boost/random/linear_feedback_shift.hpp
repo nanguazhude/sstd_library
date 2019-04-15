@@ -215,4 +215,3 @@ public:
 } // namespace boost
 
 #endif // BOOST_RANDOM_LINEAR_FEEDBACK_SHIFT_HPP
-

@@ -90,6 +90,3 @@ accessors
   Py_intptr_t const shape(int n) const;
 
 :Returns: the shape of the broadcasted array expression in the nth dimension.
-
-
-

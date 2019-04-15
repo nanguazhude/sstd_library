@@ -375,4 +375,3 @@ int main()
     BOOST_TEST(fusion::fold(t, true, nonmodifying_fold_functor()) == true);
     return boost::report_errors();
 }
-

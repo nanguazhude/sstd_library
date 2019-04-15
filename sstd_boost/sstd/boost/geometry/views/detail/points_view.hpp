@@ -139,4 +139,3 @@ private :
 
 
 #endif // BOOST_GEOMETRY_VIEWS_DETAIL_POINTS_VIEW_HPP
-

@@ -13,4 +13,3 @@
 
 #define BOOST_XPRESSIVE_TEST_WREGEX
 #include "./regress.ipp"
-

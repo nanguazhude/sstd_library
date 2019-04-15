@@ -64,4 +64,3 @@ struct reverse_dispatch : detail::reverse_dispatch
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_CORE_REVERSE_DISPATCH_HPP
-

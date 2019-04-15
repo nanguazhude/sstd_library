@@ -29,4 +29,3 @@ static_assert(hana::value(minimal_constant<int, 3>{}) == hana::value<minimal_con
 
 
 int main() { }
-

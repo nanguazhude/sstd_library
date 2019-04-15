@@ -49,4 +49,3 @@ static_assert(std::is_same<
 >::value, "");
 
 int main() { }
-

@@ -241,4 +241,3 @@ int test_main(int, char *[]) {
   BOOST_CHECK((test_subeq1<I2>()));
   return 0;
 }
-

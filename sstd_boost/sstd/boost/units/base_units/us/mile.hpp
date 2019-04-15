@@ -37,4 +37,3 @@ struct base_unit_info<us::mile_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNITS_US_MILE_BASE_UNIT_HPP
-

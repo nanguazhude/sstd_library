@@ -19,4 +19,3 @@ using bar = decltype(hana::to_tuple(std::array<Foo, 2>()));
 
 int main()
 { }
-

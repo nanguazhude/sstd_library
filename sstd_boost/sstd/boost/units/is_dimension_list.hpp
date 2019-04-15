@@ -45,4 +45,3 @@ struct is_dimension_list<dimensionless_type> :
 } // namespace boost
 
 #endif // BOOST_UNITS_IS_DIMENSION_LIST_HPP
-

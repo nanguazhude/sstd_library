@@ -11,4 +11,3 @@
 #include <sstd/boost/spirit/home/classic.hpp>
 
 #endif // !defined(SPIRIT_CLASSIC_HPP)
-

@@ -74,5 +74,3 @@ inline void log_iterations(const char* file, const char* function, unsigned long
 }}} // namespaces
 
 #endif // BOOST_MATH_TOOLS_ITERATION_LOGGER
-
-

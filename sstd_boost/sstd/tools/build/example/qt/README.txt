@@ -18,4 +18,3 @@ All examples assumes that you just installed Boost.Build and that QTDIR
 environment variables is set (typical values can be /usr/share/qt3 and
 /usr/share/qt4). After adding "using qt ..." to your user-config.jam, you would
 have to remove "using qt ; " statements from example Jamroot files.
-

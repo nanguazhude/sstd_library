@@ -810,5 +810,3 @@ BOOST_HOF_TEST_CASE()
 
     // TODO: Test post increment and decrement
 }
-
-

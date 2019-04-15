@@ -33,4 +33,3 @@ BOOST_UNITS_STATIC_CONSTANT(kilogrammes,mass);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_MASS_HPP
-

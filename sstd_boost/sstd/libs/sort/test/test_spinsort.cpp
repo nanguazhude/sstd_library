@@ -178,4 +178,3 @@ int test_main (int, char *[])
     test4 ( );
     return 0;
 };
-

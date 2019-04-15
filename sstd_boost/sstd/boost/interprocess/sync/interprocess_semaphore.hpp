@@ -147,4 +147,3 @@ inline void interprocess_semaphore::post()
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_SEMAPHORE_HPP
-

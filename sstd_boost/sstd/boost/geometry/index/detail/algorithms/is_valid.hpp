@@ -89,4 +89,3 @@ inline bool is_valid(Indexable const& b)
 }}}} // namespace boost::geometry::index::detail
 
 #endif // BOOST_GEOMETRY_DETAIL_INDEX_ALGORITHMS_IS_VALID_HPP
-

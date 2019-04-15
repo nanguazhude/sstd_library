@@ -215,4 +215,3 @@ namespace boost {
 } // namespace boost
 
 #endif  // BOOST_STRING_TRIM_ALL_HPP
-

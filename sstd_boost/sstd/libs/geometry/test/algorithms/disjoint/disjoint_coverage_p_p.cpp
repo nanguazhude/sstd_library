@@ -185,4 +185,3 @@ BOOST_AUTO_TEST_CASE( test_pointlike_pointlike_all )
     test_pointlike_pointlike<ttmath_big>();
 #endif
 }
-

@@ -31,4 +31,3 @@ namespace quickbook
 }
 
 #endif // BOOST_SPIRIT_QUICKBOOK_POST_PROCESS_HPP
-

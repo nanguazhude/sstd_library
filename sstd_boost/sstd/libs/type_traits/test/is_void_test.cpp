@@ -34,5 +34,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_void<int&&>::value, false);
 #endif
 
 TT_TEST_END
-
-

@@ -725,4 +725,3 @@ struct get_node_checker<AvlTreeAlgorithms, ValueTraits, NodePtrCompare, ExtraChe
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_AVLTREE_ALGORITHMS_HPP
-

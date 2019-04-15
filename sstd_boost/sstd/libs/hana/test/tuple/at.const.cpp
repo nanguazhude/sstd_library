@@ -48,4 +48,3 @@ int main() {
         BOOST_HANA_RUNTIME_CHECK(d == 2.5);
     }
 }
-

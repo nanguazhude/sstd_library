@@ -43,4 +43,3 @@ int main()
         mp_list<int>, mp_list<char> >));
     return boost::report_errors();
 }
-

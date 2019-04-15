@@ -242,4 +242,3 @@ template <class Base> struct is_base_and_derived<Base, Base> : public true_type{
 } // namespace boost
 
 #endif // BOOST_TT_IS_BASE_AND_DERIVED_HPP_INCLUDED
-

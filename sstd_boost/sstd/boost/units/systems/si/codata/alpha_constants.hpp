@@ -64,4 +64,3 @@ BOOST_UNITS_PHYSICAL_CONSTANT(M_alpha,quantity<mass_over_amount>,4.001506179127e
 } // namespace boost
 
 #endif // BOOST_UNITS_CODATA_ALPHA_CONSTANTS_HPP
-

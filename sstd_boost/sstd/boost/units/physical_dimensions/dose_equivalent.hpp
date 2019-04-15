@@ -28,4 +28,3 @@ typedef derived_dimension<length_base_dimension,2,
 } // namespace boost
 
 #endif // BOOST_UNITS_DOSE_EQUIVALENT_DERIVED_DIMENSION_HPP
-

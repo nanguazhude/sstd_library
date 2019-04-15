@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Blowfish
 * (C) 1999-2011 Jack Lloyd
 *

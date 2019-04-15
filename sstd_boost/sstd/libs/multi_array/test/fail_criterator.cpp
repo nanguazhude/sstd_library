@@ -31,4 +31,3 @@ int test_main(int,char*[]) {
 
     return boost::exit_success;
 }
-

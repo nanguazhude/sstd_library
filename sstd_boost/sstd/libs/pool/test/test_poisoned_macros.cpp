@@ -48,4 +48,3 @@ template class boost::fast_pool_allocator<int, boost::default_user_allocator_mal
 template class boost::simple_segregated_storage<unsigned>;
 
 template class boost::singleton_pool<int, 32>;
-

@@ -123,4 +123,3 @@ struct tracking_level<nvp< T > >
 /**/
 
 #endif // BOOST_SERIALIZATION_NVP_HPP
-

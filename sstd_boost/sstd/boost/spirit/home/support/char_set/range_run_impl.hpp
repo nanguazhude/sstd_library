@@ -183,4 +183,3 @@ namespace boost { namespace spirit { namespace support { namespace detail
 }}}}
 
 #endif
-

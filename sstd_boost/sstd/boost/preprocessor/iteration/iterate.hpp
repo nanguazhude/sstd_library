@@ -80,4 +80,3 @@
 # define BOOST_PP_ITERATE_5 <sstd/boost/preprocessor/iteration/detail/iter/forward5.hpp>
 #
 # endif
-

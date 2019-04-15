@@ -72,4 +72,3 @@ template< typename Dummy = na > struct map0
 }}
 
 #endif // BOOST_MPL_MAP_AUX_MAP0_HPP_INCLUDED
-

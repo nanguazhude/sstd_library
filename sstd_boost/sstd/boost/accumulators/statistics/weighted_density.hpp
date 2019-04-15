@@ -219,4 +219,3 @@ using extract::weighted_density;
 }} // namespace boost::accumulators
 
 #endif
-

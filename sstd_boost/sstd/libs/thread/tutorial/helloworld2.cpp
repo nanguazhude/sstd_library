@@ -22,4 +22,3 @@ int main()
     boost::thread thrd(helloworld("Bob"));
     thrd.join();
 }
-

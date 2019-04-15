@@ -233,4 +233,3 @@ inline void correct_closure(Geometry& geometry)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_CORRECT_CLOSURE_HPP
-

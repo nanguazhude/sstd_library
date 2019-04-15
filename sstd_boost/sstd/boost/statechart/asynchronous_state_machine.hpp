@@ -87,4 +87,3 @@ class asynchronous_state_machine : public state_machine<
 
 
 #endif
-

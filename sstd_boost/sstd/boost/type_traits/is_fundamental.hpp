@@ -24,4 +24,3 @@ template <class T> struct is_fundamental : public integral_constant<bool, ::boos
 } // namespace boost
 
 #endif // BOOST_TT_IS_FUNDAMENTAL_HPP_INCLUDED
-

@@ -23,4 +23,3 @@
 #define BOOST_TTI_NAMESPACE boost::tti
 
 #endif // BOOST_TTI_NAMESPACE_GEN_HPP
-

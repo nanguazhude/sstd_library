@@ -48,4 +48,3 @@ MPL_TEST_CASE()
 
     MPL_ASSERT_NOT(( has_push_front< no_push_front > ));
 }
-

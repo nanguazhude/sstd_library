@@ -81,4 +81,3 @@ private:
 } // namespace services
 
 #endif // SERVICES_BASIC_LOGGER_HPP
-

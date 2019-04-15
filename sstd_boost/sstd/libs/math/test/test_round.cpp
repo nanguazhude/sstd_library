@@ -465,4 +465,3 @@ BOOST_AUTO_TEST_CASE( test_main )
    BOOST_CHECK_EQUAL(boost::math::round(9007199254740993.0), 9007199254740993.0);
    test_round_number(9007199254740993.0);
 }
-

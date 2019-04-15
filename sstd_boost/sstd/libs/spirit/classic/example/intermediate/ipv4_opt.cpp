@@ -210,5 +210,3 @@ main()
     parse_ipv4(i3, sizeof(i3));
     return 0;
 }
-
-

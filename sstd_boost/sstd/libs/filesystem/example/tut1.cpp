@@ -21,4 +21,3 @@ int main(int argc, char* argv[])
   std::cout << argv[1] << " " << file_size(argv[1]) << '\n';
   return 0;
 }
-

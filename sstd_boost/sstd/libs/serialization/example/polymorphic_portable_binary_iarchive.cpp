@@ -32,4 +32,3 @@ template class detail::archive_pointer_iserializer<
 
 } // namespace archive
 } // namespace boost
-

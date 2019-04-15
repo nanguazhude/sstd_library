@@ -14,4 +14,3 @@
 #define BOOST_MPL_PREPROCESSING_MODE
 #include <sstd/boost/config.hpp>
 #include <sstd/boost/mpl/aux_/iter_fold_impl.hpp>
-

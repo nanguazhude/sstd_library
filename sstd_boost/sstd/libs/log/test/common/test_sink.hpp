@@ -90,4 +90,3 @@ public:
 };
 
 #endif // BOOST_LOG_TESTS_TEST_SINK_HPP_INCLUDED_
-

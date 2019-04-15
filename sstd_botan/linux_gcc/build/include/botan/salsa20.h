@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Salsa20 / XSalsa20
 * (C) 1999-2010 Jack Lloyd
 *

@@ -21,4 +21,3 @@ int main()
     ();
     BOOST_TEST( v.size() == 3);
 }
-

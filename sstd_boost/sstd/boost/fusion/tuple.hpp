@@ -14,5 +14,3 @@
 #include <sstd/boost/fusion/container/generation/ignore.hpp>
 
 #endif
-
-

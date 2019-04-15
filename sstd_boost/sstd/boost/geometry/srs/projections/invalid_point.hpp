@@ -36,4 +36,3 @@ inline bool is_invalid_point(Point const& point)
 }}} // namespace boost::geometry::projections
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_INVALID_POINT_HPP
-

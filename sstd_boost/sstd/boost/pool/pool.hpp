@@ -1021,5 +1021,3 @@ protected:
 #endif
 
 #endif // #ifdef BOOST_POOL_HPP
-
-

@@ -397,4 +397,3 @@ int main(int argc, char*argv[])
 
   distrib(iter, "lagged_fibonacci607", boost::lagged_fibonacci607());
 }
-

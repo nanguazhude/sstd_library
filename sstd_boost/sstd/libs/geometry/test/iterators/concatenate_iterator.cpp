@@ -257,4 +257,3 @@ BOOST_AUTO_TEST_CASE( test_concatenate_iterator_all )
     test_concatenation_of_containers(l, v, "LV");
     test_concatenation_of_containers(l, ll, "LL");
 }
-

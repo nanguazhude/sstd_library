@@ -171,4 +171,3 @@ namespace common_layer
 }; // namespace common_layer
 
 #endif // CONST_STRING_HPP
-

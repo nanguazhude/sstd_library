@@ -268,5 +268,3 @@ namespace projections
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_LCC_HPP
-
-

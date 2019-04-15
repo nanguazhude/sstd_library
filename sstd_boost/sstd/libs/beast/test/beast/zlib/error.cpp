@@ -63,4 +63,3 @@ BEAST_DEFINE_TESTSUITE(beast,zlib,error);
 } // zlib
 } // beast
 } // boost
-

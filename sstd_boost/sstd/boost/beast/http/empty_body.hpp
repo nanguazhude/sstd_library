@@ -129,4 +129,3 @@ struct empty_body
 } // boost
 
 #endif
-

@@ -10,4 +10,3 @@ int main()
 {
     boost::yap::argument(boost::yap::make_terminal(1), boost::hana::llong_c<0>);
 }
-

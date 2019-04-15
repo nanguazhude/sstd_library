@@ -156,4 +156,3 @@ inline void swap(recursive_wrapper<T>& lhs, recursive_wrapper<T>& rhs) BOOST_NOE
 } // namespace boost
 
 #endif // BOOST_VARIANT_RECURSIVE_WRAPPER_HPP
-

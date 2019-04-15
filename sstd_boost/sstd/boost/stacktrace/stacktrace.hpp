@@ -418,4 +418,3 @@ typedef basic_stacktrace<> stacktrace;
 #endif
 
 #endif // BOOST_STACKTRACE_STACKTRACE_HPP
-

@@ -100,5 +100,3 @@ void test_digamma(T, const char* name)
    BOOST_MATH_CHECK_THROW(boost::math::digamma(T(-1)), std::domain_error);
    BOOST_MATH_CHECK_THROW(boost::math::digamma(T(-2)), std::domain_error);
 }
-
-

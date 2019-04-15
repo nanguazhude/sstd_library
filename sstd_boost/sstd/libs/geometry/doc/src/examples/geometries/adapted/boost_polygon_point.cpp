@@ -37,4 +37,3 @@ Distance (using Boost.Polygon): 2.82843
 ]
 */
 //]
-

@@ -53,4 +53,3 @@ BOOST_AUTO_TEST_CASE(sync_io, *boost::unit_test::timeout(10))
 
     BOOST_CHECK(c.wait_for(std::chrono::seconds(3)));
 }
-

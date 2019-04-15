@@ -98,4 +98,3 @@ boost::compute::copy(
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

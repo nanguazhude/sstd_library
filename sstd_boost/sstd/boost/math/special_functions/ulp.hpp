@@ -102,5 +102,3 @@ inline typename tools::promote_args<T>::type ulp(const T& val)
 }} // namespaces
 
 #endif // BOOST_MATH_SPECIAL_ULP_HPP
-
-

@@ -13,4 +13,3 @@
 #include <sstd/boost/fusion/container/vector/convert.hpp>
 
 #endif
-

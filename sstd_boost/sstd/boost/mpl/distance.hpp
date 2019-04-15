@@ -76,4 +76,3 @@ BOOST_MPL_AUX_NA_SPEC(2, distance)
 }}
 
 #endif // BOOST_MPL_DISTANCE_HPP_INCLUDED
-

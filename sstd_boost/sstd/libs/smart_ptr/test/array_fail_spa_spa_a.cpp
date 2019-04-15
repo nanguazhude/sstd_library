@@ -21,4 +21,3 @@ int main()
     boost::shared_ptr<Y[]> px;
     boost::shared_ptr<X[]> px2; px2 = px;
 }
-

@@ -413,5 +413,3 @@ boost::asio::ip::tcp::socket sock{ioc};
 } // doc_wss_snippets
 
 #endif
-
-

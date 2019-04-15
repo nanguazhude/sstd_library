@@ -10,4 +10,3 @@
  */
 
 void test_conv_iterators();
-

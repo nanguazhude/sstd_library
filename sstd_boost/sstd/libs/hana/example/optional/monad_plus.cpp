@@ -16,4 +16,3 @@ static_assert(hana::concat(hana::just('x'), hana::just('y')) == hana::just('x'),
 BOOST_HANA_CONSTANT_CHECK(hana::empty<hana::optional_tag>() == hana::nothing);
 
 int main() { }
-

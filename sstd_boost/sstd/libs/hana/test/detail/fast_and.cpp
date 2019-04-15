@@ -30,4 +30,3 @@ static_assert(!hana::detail::fast_and<true, true, true, true, true, false>::valu
 static_assert(!hana::detail::fast_and<false, true, true, true, true, true>::value, "");
 
 int main() { }
-

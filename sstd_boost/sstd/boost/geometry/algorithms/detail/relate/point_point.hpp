@@ -266,4 +266,3 @@ struct multipoint_multipoint
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_RELATE_POINT_POINT_HPP
-

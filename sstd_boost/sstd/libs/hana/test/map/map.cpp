@@ -31,4 +31,3 @@ template struct check_map<pair<1>, pair<2>, pair<3>, pair<4>, pair<5>>;
 template struct check_map<pair<1>, pair<2>, pair<3>, pair<4>, pair<5>, pair<6>>;
 
 int main() { }
-

@@ -13,4 +13,3 @@ void compile_and_link_test()
    boost::math::barycentric_rational<boost::math::concepts::std_real_concept> s(x, y, 3, 3);
    s(1.0);
 }
-

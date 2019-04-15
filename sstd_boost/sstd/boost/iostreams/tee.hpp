@@ -230,4 +230,3 @@ tee_device<Device, Sink> tee(const Device& dev, const Sink& sink)
 } } // End namespaces iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_TEE_HPP_INCLUDED
-

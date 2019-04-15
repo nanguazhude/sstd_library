@@ -15,4 +15,3 @@
 #include <sstd/boost/phoenix/scope/local_variable.hpp>
 
 #endif
-

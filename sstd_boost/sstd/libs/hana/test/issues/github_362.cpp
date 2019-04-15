@@ -11,4 +11,3 @@ static constexpr auto x = 4'321'000_c;
 static_assert(decltype(x)::value == 4'321'000, "");
 
 int main() { }
-

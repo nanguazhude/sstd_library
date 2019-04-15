@@ -40,4 +40,3 @@ namespace detail
 }} // namespace boost::xpressive
 
 #endif
-

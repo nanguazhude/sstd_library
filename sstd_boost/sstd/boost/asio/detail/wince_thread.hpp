@@ -124,4 +124,3 @@ inline DWORD WINAPI wince_thread_function(LPVOID arg)
 #endif // defined(BOOST_ASIO_WINDOWS) && defined(UNDER_CE)
 
 #endif // BOOST_ASIO_DETAIL_WINCE_THREAD_HPP
-

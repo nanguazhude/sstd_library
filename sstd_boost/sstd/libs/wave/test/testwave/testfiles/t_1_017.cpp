@@ -29,4 +29,3 @@ scan(scan(expr))
 //R #line 31 "t_1_017.cpp"
 //R end
 scan(scan(scan(expr)))
-

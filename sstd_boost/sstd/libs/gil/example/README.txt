@@ -40,6 +40,3 @@ The following examples are included:
 
 9. dynamic_image.cpp
    Example of using images whose type is instantiated at run time
-
-
-

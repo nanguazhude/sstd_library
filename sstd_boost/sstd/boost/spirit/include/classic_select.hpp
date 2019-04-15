@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_SELECT
 #include <sstd/boost/spirit/home/classic/dynamic/select.hpp>
 #endif
-

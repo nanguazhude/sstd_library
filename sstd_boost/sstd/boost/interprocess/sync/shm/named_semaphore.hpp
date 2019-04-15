@@ -136,4 +136,3 @@ inline bool shm_named_semaphore::remove(const char *name)
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_SHM_NAMED_SEMAPHORE_HPP
-

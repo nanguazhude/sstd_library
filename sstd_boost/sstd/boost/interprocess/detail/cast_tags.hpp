@@ -29,4 +29,3 @@ struct reinterpret_cast_tag {};
 }}}  //namespace boost { namespace interprocess { namespace ipcdetail {
 
 #endif   //#ifndef BOOST_INTERPROCESS_DETAIL_CAST_TAGS_HPP
-

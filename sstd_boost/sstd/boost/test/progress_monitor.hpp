@@ -62,5 +62,3 @@ BOOST_TEST_SINGLETON_INST( progress_monitor )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_PROGRESS_MONITOR_HPP_020105GER
-
-

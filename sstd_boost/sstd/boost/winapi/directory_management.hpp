@@ -101,4 +101,3 @@ BOOST_FORCEINLINE BOOL_ remove_directory(LPCWSTR_ pPathName)
 } // namespace boost
 
 #endif // BOOST_WINAPI_DIRECTORY_MANAGEMENT_HPP_INCLUDED_
-

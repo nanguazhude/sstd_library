@@ -322,4 +322,3 @@ inline void remove_spikes(Geometry& geometry, Strategy const& strategy)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_REMOVE_SPIKES_HPP
-

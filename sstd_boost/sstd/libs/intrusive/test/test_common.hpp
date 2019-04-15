@@ -55,4 +55,3 @@ struct key_type_tester<void, Map>
 }  //namespace boost {
 
 #endif //BOOST_INTRUSIVE_TEST_TEST_COMMON_HPP
-

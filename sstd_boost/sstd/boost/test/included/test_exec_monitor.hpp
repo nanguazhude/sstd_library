@@ -38,4 +38,3 @@
 #include <sstd/boost/test/test_exec_monitor.hpp>
 
 #endif // BOOST_INCLUDED_TEST_EXEC_MONITOR_HPP_071894GER
-

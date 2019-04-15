@@ -773,6 +773,3 @@ struct lanczos61UDT
 }}} // namespaces
 
 #endif
-
-
-

@@ -205,5 +205,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_default_constructible<std::pair<private_
 #endif
 
 TT_TEST_END
-
-

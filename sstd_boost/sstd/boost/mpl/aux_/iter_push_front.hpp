@@ -34,4 +34,3 @@ struct iter_push_front
 }}}
 
 #endif // BOOST_MPL_ITER_PUSH_FRONT_HPP_INCLUDED
-

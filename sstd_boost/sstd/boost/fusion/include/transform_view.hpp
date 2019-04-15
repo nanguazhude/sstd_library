@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/view/transform_view.hpp>
 
 #endif
-

@@ -45,4 +45,3 @@ int main() {
     constexpr char const* c_str = hana::to<char const*>(str);
     (void)c_str;
 }
-

@@ -163,4 +163,3 @@ public:
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_INTERCOMMUNICATOR_HPP
-

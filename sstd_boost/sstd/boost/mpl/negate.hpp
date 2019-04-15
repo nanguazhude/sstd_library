@@ -79,4 +79,3 @@ struct negate_impl<integral_c_tag>
 }}
 
 #endif // BOOST_MPL_NEGATE_HPP_INCLUDED
-

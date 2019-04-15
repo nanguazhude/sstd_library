@@ -300,4 +300,3 @@ void interval_subtract_4_bicremental_types()
 
 
 #endif // LIBS_ICL_TEST_TEST_ICL_interval_shared_hpp_JOFA_100306__
-

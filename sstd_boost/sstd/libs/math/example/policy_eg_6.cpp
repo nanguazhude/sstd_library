@@ -118,5 +118,3 @@ or set  project wide build macros (possibly fragile and easy to forget).
 
 */
 //] //[/policy_eg_6]
-
-

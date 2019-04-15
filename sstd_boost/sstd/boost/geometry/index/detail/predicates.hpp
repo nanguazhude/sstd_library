@@ -829,4 +829,3 @@ struct predicates_find_distance< boost::tuples::cons<Head, Tail> >
 }}}} // namespace boost::geometry::index::detail
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_PREDICATES_HPP
-

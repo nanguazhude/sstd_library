@@ -513,4 +513,3 @@ BOOST_AUTO_TEST_CASE(gauss_quadrature_test)
 int main() { return 0; }
 
 #endif
-

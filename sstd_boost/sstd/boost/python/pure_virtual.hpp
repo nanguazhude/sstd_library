@@ -122,4 +122,3 @@ pure_virtual(PointerToMemberFunction pmf)
 }} // namespace boost::python
 
 #endif // PURE_VIRTUAL_DWA2003810_HPP
-

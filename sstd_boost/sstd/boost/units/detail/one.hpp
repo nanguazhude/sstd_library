@@ -115,4 +115,3 @@ struct one_to_double_type<one> { typedef double type; };
 } // namespace boost
 
 #endif
-

@@ -57,4 +57,3 @@ namespace boost { namespace fusion
     struct BOOST_PP_CAT(vector, BOOST_PP_ITERATION());
 
 #endif
-

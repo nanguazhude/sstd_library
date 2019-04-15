@@ -46,4 +46,3 @@ typedef pipe_select_interrupter select_interrupter;
 #endif // !defined(BOOST_ASIO_WINDOWS_RUNTIME)
 
 #endif // BOOST_ASIO_DETAIL_SELECT_INTERRUPTER_HPP
-

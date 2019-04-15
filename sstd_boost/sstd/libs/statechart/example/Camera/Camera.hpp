@@ -62,4 +62,3 @@ struct NotShooting : sc::simple_state< NotShooting, Camera, Idle >
 
 
 #endif
-

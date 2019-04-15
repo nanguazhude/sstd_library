@@ -38,4 +38,3 @@ void compile_and_link_test()
    check_result<long double>(boost::math::legendre_q<long double>(u, l));
 #endif
 }
-

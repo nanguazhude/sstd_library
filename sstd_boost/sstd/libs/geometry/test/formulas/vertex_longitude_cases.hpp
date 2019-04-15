@@ -455,4 +455,3 @@ expected_results expected[] =
 size_t const expected_size = sizeof(expected) / sizeof(expected_results);
 
 #endif // BOOST_GEOMETRY_TEST_VERTEX_LONGITUDE_CASES_HPP
-

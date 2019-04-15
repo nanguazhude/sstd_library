@@ -344,6 +344,3 @@ namespace boost{ namespace math
 #include <sstd/boost/math/constants/calculate_constants.hpp>
 
 #endif // BOOST_MATH_CONSTANTS_CONSTANTS_INCLUDED
-
-
-

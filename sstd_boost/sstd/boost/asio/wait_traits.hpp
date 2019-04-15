@@ -56,4 +56,3 @@ struct wait_traits
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_WAIT_TRAITS_HPP
-

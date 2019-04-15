@@ -22,4 +22,3 @@ void test()
     typedef boost::chrono::duration<boost::chrono::milliseconds> D;
     D d;
 }
-

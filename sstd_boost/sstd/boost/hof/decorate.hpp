@@ -215,4 +215,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(decorate, detail::make<decorate_adaptor>);
 }} // namespace boost::hof
 
 #endif
-

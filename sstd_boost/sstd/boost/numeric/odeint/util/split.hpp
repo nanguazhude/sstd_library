@@ -61,5 +61,3 @@ void unsplit( const Container1 &from , Container2 &to )
 
 
 #endif // BOOST_NUMERIC_ODEINT_UTIL_COPY_HPP_INCLUDED
-
-

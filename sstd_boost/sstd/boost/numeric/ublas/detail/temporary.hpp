@@ -31,4 +31,3 @@ struct matrix_temporary_traits {
 } } }
 
 #endif
-

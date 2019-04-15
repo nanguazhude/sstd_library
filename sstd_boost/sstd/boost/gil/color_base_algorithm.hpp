@@ -695,4 +695,3 @@ Op static_for_each(const P1& p1,const P2& p2,const P3& p3,Op op) { return detail
 } }  // namespace boost::gil
 
 #endif
-

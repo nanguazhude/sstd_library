@@ -66,4 +66,3 @@ MPL_TEST_CASE()
     typedef push_front<l1,long>::type l2;
     MPL_ASSERT(( is_same<front<l2>::type,long> ));
 }
-

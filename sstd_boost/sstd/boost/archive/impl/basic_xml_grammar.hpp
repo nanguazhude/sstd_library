@@ -171,4 +171,3 @@ public:
 } // namespace boost
 
 #endif // BOOST_ARCHIVE_BASIC_XML_GRAMMAR_HPP
-

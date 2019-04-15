@@ -47,4 +47,3 @@ inline bool binary_search(const ForwardRange& rng, const Value& val,
 } // namespace boost
 
 #endif // include guard
-

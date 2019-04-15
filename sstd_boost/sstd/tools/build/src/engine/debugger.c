@@ -2798,4 +2798,3 @@ static void debug_listen( void )
 struct debug_child_data_t debug_child_data;
 const char debugger_opt[] = "--b2db-internal-debug-handle=";
 int debug_interface;
-

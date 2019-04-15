@@ -278,4 +278,3 @@ build_internal_stt(Expr const&)
 
 }}}}
 #endif //BOOST_MSM_FRONT_EUML_STT_GRAMMAR_H
-

@@ -472,7 +472,3 @@ mutant_relation<TA,TB,::boost::mpl::na,force_mutable>
 
 
 #endif // BOOST_BIMAP_RELATION_MUTANT_RELATION_HPP
-
-
-
-

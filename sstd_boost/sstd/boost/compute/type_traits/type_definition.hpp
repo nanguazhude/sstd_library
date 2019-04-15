@@ -40,4 +40,3 @@ inline std::string type_definition()
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_TYPE_TRAITS_TYPE_DEFINITION_HPP
-

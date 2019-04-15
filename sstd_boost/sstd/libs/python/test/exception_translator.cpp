@@ -25,5 +25,3 @@ BOOST_PYTHON_MODULE(exception_translator_ext)
 
   def("throw_error", throw_error);
 }
-
-

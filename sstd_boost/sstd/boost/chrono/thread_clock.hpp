@@ -73,4 +73,3 @@ struct clock_string<thread_clock, CharT>
 #endif
 
 #endif  // BOOST_CHRONO_THREAD_CLOCK_HPP
-

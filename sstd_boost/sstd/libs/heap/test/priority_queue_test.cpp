@@ -47,4 +47,3 @@ BOOST_AUTO_TEST_CASE( std_pri_queue_leak_test )
     typedef boost::heap::priority_queue<boost::shared_ptr<int> > pri_queue;
     run_leak_check_test<pri_queue>();
 }
-

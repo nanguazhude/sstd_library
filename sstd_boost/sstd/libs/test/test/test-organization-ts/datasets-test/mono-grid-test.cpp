@@ -184,5 +184,3 @@ BOOST_AUTO_TEST_CASE( test_mono_grid_variadic_dimension )
 //____________________________________________________________________________//
 
 // EOF
-
-

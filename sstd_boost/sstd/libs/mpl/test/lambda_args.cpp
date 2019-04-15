@@ -46,4 +46,3 @@ MPL_TEST_CASE()
     AUX_LAMBDA_TEST( mem_ptr );
     AUX_LAMBDA_TEST( mem_fun_ptr );
 }
-

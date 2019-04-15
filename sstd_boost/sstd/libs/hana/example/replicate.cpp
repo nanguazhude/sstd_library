@@ -16,4 +16,3 @@ static_assert(hana::replicate<hana::tuple_tag>('x', hana::size_c<2>) == hana::ma
 static_assert(hana::replicate<hana::optional_tag>('x', hana::size_c<2>) == hana::just('x'), "");
 
 int main() { }
-

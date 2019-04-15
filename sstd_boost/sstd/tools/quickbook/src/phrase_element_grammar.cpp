@@ -209,4 +209,3 @@ namespace quickbook
         // clang-format on
     }
 }
-

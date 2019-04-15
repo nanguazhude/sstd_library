@@ -19,4 +19,3 @@ Distributed under the Boost Software License, Version 1.0.
 #include <sstd/boost/hana/ext/boost/mpl/vector.hpp>
 
 #endif // !BOOST_HANA_EXT_BOOST_MPL_HPP
-

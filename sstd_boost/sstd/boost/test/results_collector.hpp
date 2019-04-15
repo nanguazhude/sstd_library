@@ -146,4 +146,3 @@ BOOST_TEST_SINGLETON_INST( results_collector )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_RESULTS_COLLECTOR_HPP_071894GER
-

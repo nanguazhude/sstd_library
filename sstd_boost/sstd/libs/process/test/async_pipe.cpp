@@ -83,4 +83,3 @@ BOOST_AUTO_TEST_CASE(multithreaded_async_pipe)
     for (auto &t : threads)
         t.join();
 }
-

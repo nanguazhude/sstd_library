@@ -376,4 +376,3 @@ struct is_intrusive_index
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTERPROCESS_IUNORDERED_SET_INDEX_HPP
-

@@ -26,4 +26,3 @@ const exec_ontop_arg_t exec_ontop_arg{};
 # endif
 
 #endif // BOOST_CONTEXT_FLAGS_H
-

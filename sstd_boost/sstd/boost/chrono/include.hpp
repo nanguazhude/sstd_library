@@ -21,4 +21,3 @@
 #include <sstd/boost/chrono/round.hpp>
 
 #endif  // BOOST_CHRONO_INCLUDE_HPP
-

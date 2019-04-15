@@ -30,5 +30,3 @@ void out(std::string const& text) {
 } } } }
 
 #endif // #include guard
-
-

@@ -34,4 +34,3 @@ namespace boost {
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif //   #ifndef  BOOST_INTERPROCESS_CONTAINERS_STABLE_VECTOR_HPP
-

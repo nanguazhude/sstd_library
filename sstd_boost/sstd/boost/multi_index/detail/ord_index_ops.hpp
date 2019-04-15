@@ -264,4 +264,3 @@ inline std::pair<Node*,Node*> ordered_index_equal_range(
 } /* namespace boost */
 
 #endif
-

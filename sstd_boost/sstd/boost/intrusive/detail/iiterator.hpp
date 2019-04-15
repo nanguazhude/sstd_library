@@ -120,4 +120,3 @@ struct iiterator_members<NodePtr, StoredPointer, false>
 } //namespace boost
 
 #endif //BOOST_INTRUSIVE_DETAIL_IITERATOR_HPP
-

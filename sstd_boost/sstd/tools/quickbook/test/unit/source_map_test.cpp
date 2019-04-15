@@ -442,4 +442,3 @@ int main()
     indented_map_mixed_test();
     return boost::report_errors();
 }
-

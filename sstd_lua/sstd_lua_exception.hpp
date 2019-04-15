@@ -7,4 +7,3 @@ namespace sstd{
     };
 
 }/*namespace sstd*/
-

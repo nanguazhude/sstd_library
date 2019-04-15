@@ -107,6 +107,3 @@ class unordered_multimap_adaptor :
 
 
 #endif // BOOST_BIMAP_CONTAINER_ADAPTOR_UNORDERED_MULTIMAP_ADAPTOR_HPP
-
-
-

@@ -111,4 +111,3 @@ inline void debug_print_boundary_points(Linear const&)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_IS_SIMPLE_DEBUG_PRINT_BOUNDARY_POINTS_HPP
-

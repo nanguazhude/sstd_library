@@ -24,4 +24,3 @@ BOOST_ASIO_TEST_SUITE
   "windows/basic_random_access_handle",
   BOOST_ASIO_TEST_CASE(null_test)
 )
-

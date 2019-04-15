@@ -13,5 +13,3 @@ int main()
    cpp_dec_float_50 f2;
    f2 = f;
 }
-
-

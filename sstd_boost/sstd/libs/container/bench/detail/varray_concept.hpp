@@ -58,4 +58,3 @@ public :
 }}}} // namespace boost::container::dtl::concept
 
 #endif //BOOST_CONTAINER_VARRAY_CONCEPT_HPP
-

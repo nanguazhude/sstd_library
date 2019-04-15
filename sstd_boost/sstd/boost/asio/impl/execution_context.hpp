@@ -107,4 +107,3 @@ inline execution_context& execution_context::service::context()
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IMPL_EXECUTION_CONTEXT_HPP
-

@@ -870,5 +870,3 @@ boykov_kolmogorov_max_flow(Graph& g,
 } // namespace boost
 
 #endif // BOOST_BOYKOV_KOLMOGOROV_MAX_FLOW_HPP
-
-

@@ -26,5 +26,3 @@ template <class T> struct is_rvalue_reference<T&&> : public true_type {};
 #endif
 
 #endif // BOOST_TT_IS_REFERENCE_HPP_INCLUDED
-
-

@@ -61,4 +61,3 @@ thread_local yield_t yield{};
 #include "detail/yield.hpp"
 
 #endif // BOOST_FIBERS_ASIO_YIELD_HPP
-

@@ -14,4 +14,3 @@
 #include <sstd/boost/spirit/home/karma/stream/stream.hpp>
 
 #endif
-

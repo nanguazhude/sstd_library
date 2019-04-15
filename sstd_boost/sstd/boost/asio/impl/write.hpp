@@ -674,4 +674,3 @@ async_write(AsyncWriteStream& s,
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IMPL_WRITE_HPP
-

@@ -56,4 +56,3 @@ namespace errc = boost::system::errc;
 } // boost
 
 #endif
-

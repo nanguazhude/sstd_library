@@ -19,4 +19,3 @@ static_assert(!ct::has_member_qualifiers<int(foo::*)()>::value, "");
 
 int main() {}
 //]
-

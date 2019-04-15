@@ -331,4 +331,3 @@ inline T *to_raw_pointer(boost::interprocess::intrusive_ptr<T, VP> p) BOOST_NOEX
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif  // #ifndef BOOST_INTERPROCESS_INTRUSIVE_PTR_HPP_INCLUDED
-

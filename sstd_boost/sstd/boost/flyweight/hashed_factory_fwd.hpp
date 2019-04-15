@@ -38,4 +38,3 @@ struct hashed_factory;
 } /* namespace boost */
 
 #endif
-

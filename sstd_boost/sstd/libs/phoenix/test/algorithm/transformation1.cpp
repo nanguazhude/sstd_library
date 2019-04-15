@@ -401,4 +401,3 @@ int main()
     reverse_copy_test();
     boost::report_errors();
 }
-

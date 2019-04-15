@@ -69,4 +69,3 @@ typedef boost::asio::detail::socket_option::boolean<
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IP_V6_ONLY_HPP
-

@@ -57,4 +57,3 @@ int main() {
   static_assert(has_name(animals[0_c]), "");
   static_assert(!has_name(1), "");
 }
-

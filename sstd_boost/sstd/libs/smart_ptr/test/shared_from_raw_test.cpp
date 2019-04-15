@@ -168,4 +168,3 @@ void test3()
         BOOST_ERROR("shared_from_raw( p.get() ) threw bad_weak_ptr after *p = V()");
     }
 }
-

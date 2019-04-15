@@ -66,4 +66,3 @@ type_info pointer_type_id(T(*)() = 0)
 }}} // namespace boost::python::converter
 
 #endif // POINTER_TYPE_ID_DWA2002222_HPP
-

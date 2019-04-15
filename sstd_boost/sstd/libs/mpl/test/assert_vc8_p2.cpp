@@ -17,4 +17,3 @@
 #include "assert_vc8.hpp"
 
 static bool a = func<int>();
-

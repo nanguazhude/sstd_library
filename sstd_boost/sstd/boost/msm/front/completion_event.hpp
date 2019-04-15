@@ -28,5 +28,3 @@ namespace boost { namespace msm { namespace front
 }}}
 
 #endif //BOOST_MSM_FRONT_COMMON_COMPLETION_EVENT_H
-
-

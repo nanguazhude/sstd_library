@@ -928,4 +928,3 @@ async_write(AsyncWriteStream& s, basic_streambuf<Allocator>& b,
 #include <sstd/boost/asio/impl/write.hpp>
 
 #endif // BOOST_ASIO_WRITE_HPP
-

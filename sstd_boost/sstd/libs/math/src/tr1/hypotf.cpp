@@ -19,6 +19,3 @@ extern "C" float BOOST_MATH_TR1_DECL boost_hypotf BOOST_PREVENT_MACRO_SUBSTITUTI
 }
 
 }}}
-
-
-

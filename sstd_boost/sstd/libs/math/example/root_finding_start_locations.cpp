@@ -446,5 +446,3 @@ int main()
       return boost::exit_failure;
    }
 } // int main()
-
-

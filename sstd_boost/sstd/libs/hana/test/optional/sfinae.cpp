@@ -69,4 +69,3 @@ int main() {
     hana::sfinae(undefined{})(Tracked{1});
     hana::sfinae([t = Tracked{1}](auto) { return 1; })(Tracked{1});
 }
-

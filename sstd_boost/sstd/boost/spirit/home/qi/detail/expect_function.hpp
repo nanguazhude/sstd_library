@@ -103,4 +103,3 @@ namespace boost { namespace spirit { namespace qi { namespace detail
 }}}}
 
 #endif
-

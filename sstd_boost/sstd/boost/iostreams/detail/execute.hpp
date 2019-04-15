@@ -133,4 +133,3 @@ Op execute_foreach(InIt first, InIt last, Op op)
 } } } // End namespaces detail, iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_EXECUTE_HPP_INCLUDED
-

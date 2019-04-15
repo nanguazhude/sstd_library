@@ -384,4 +384,3 @@ using random::exponential_distribution;
 } // namespace boost
 
 #endif // BOOST_RANDOM_EXPONENTIAL_DISTRIBUTION_HPP
-

@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/sequence/comparison/greater_equal.hpp>
 
 #endif
-

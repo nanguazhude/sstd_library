@@ -35,4 +35,3 @@ BOOST_AUTO_TEST_CASE( construct )
     QSqlDatabase database;
     BOOST_CHECK_EQUAL(database.isOpen(), false);
 }
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Semaphore
 * (C) 2013 Joel Low
 *

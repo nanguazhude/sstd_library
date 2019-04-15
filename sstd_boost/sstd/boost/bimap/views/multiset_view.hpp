@@ -107,5 +107,3 @@ class multiset_view
 } // namespace boost
 
 #endif // BOOST_BIMAP_VIEWS_MULTISET_VIEW_HPP
-
-

@@ -831,4 +831,3 @@ struct image_write_info< png_tag >  : public png_info_base
 } // namespace boost
 
 #endif
-

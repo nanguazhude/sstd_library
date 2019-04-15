@@ -79,4 +79,3 @@ struct tracking_level<boost::parallel::detail::untracked_pair<T, U> >
 } } // end namespace boost::serialization
 
 #endif // BOOST_PARALLEL_DETAIL_UNTRACKED_PAIR_HPP
-

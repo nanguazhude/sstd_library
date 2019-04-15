@@ -46,4 +46,3 @@ template <> struct has_trivial_destructor<void volatile> : public false_type{};
 } // namespace boost
 
 #endif // BOOST_TT_HAS_TRIVIAL_DESTRUCTOR_HPP_INCLUDED
-

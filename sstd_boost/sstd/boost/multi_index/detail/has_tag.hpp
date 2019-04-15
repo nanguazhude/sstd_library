@@ -40,4 +40,3 @@ struct has_tag
 } /* namespace boost */
 
 #endif
-

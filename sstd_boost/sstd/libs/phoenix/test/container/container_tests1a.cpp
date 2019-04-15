@@ -46,5 +46,3 @@ main()
     test_clear(data);
     return boost::report_errors();
 }
-
-

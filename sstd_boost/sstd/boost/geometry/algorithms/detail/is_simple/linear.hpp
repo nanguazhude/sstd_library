@@ -362,4 +362,3 @@ struct is_simple<MultiLinestring, multi_linestring_tag>
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_IS_SIMPLE_LINEAR_HPP
-

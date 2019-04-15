@@ -489,4 +489,3 @@ namespace endian
 }  // namespace boost
 
 #endif // BOOST_ENDIAN_CONVERSION_HPP
-

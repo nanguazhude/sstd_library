@@ -67,5 +67,3 @@ int main()
   test_latch();
   return boost::report_errors();
 }
-
-

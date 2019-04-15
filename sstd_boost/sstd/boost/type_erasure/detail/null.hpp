@@ -72,4 +72,3 @@ struct null_throw<R(BOOST_PP_ENUM_PARAMS(N, T))> {
 #undef N
 
 #endif
-

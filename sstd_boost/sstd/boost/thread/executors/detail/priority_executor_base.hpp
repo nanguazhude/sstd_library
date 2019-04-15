@@ -81,4 +81,3 @@ namespace detail
 } //end executors namespace
 } //end boost namespace
 #endif
-

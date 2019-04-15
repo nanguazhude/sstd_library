@@ -51,4 +51,3 @@ static_assert(hana::if_(Boolean<true>{}, NonCopyable<3>{}, NonCopyable<4>{}).val
 static_assert(hana::if_(Boolean<false>{}, NonCopyable<3>{}, NonCopyable<4>{}).value == 4, "");
 
 int main() { }
-

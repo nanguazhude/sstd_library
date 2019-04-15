@@ -62,5 +62,3 @@ BOOST_AUTO_TEST_CASE(dummy)
     bool result = test_ttp<sep::cont, int>();
     BOOST_CHECK( result );
 }
-
-

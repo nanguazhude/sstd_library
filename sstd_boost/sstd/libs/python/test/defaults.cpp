@@ -170,5 +170,3 @@ BOOST_PYTHON_MODULE(defaults_ext)
 }
 
 #include "module_tail.cpp"
-
-

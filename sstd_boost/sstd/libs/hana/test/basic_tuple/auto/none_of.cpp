@@ -6,4 +6,3 @@
 #include <auto/none_of.hpp>
 
 int main() { }
-

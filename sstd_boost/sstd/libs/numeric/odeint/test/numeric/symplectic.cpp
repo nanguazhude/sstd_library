@@ -93,4 +93,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( symplectic_test , Stepper, symplectic_steppers )
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

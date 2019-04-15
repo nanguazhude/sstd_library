@@ -110,4 +110,3 @@ stack_traits::maximum_size() BOOST_NOEXCEPT
 #ifdef UDEF_SIGSTKSZ
 # undef SIGSTKSZ
 #endif
-

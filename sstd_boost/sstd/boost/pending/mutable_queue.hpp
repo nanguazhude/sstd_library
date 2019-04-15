@@ -133,4 +133,3 @@ namespace boost {
 }
 
 #endif // BOOST_MUTABLE_QUEUE_HPP
-

@@ -4,4 +4,3 @@
 
 #define BOOST_HANA_TEST_ITERABLE
 #include <laws/templates/seq.hpp>
-

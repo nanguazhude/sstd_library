@@ -15,4 +15,3 @@
 #include <sstd/boost/core/noncopyable.hpp>
 
 #endif
-

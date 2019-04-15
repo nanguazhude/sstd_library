@@ -138,4 +138,3 @@ namespace boost { namespace spirit { namespace traits // classification
 }}}
 
 #endif
-

@@ -91,4 +91,3 @@ struct remove_transaction_safe : detail::remove_transaction_safe_impl<T> {};
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_REMOVE_TRANSACTION_SAFE_HPP
-

@@ -20,4 +20,3 @@ void test()
     boost::chrono::microseconds us(1);
     boost::chrono::milliseconds ms = us;
 }
-

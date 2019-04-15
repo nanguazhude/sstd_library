@@ -27,6 +27,3 @@ void register_ptr_to_python()
 }} // namespace boost::python
 
 #endif // REGISTER_PTR_TO_PYTHON_HPP
-
-
-

@@ -1278,4 +1278,3 @@ operator>=(const quantity<Unit,X>& val1,
 } // namespace boost
 
 #endif // BOOST_UNITS_QUANTITY_HPP
-

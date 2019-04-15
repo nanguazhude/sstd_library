@@ -20,5 +20,3 @@ Boost.HOF
     src/discussion
     src/acknowledgements
     src/license
-
-

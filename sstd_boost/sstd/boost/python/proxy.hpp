@@ -95,4 +95,3 @@ inline void proxy<Policies>::del() const
 }}} // namespace boost::python::api
 
 #endif // PROXY_DWA2002615_HPP
-

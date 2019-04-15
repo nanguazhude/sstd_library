@@ -41,4 +41,3 @@ void init_set()
     }
 
 }
-

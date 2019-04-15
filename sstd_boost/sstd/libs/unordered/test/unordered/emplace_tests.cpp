@@ -512,4 +512,3 @@ namespace emplace_tests {
 }
 
 RUN_TESTS()
-

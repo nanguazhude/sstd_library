@@ -743,4 +743,3 @@ static_mutex& w32_regex_traits<charT>::get_mutex_inst()
 #endif // BOOST_REGEX_NO_WIN32_LOCALE
 
 #endif
-

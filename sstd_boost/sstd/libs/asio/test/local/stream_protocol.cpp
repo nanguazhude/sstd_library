@@ -211,4 +211,3 @@ BOOST_ASIO_TEST_SUITE
   "local/stream_protocol",
   BOOST_ASIO_TEST_CASE(local_stream_protocol_socket_compile::test)
 )
-

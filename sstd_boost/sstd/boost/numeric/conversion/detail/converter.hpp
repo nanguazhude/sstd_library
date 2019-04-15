@@ -589,6 +589,3 @@ namespace boost { namespace numeric { namespace convdetail
 } } } // namespace boost::numeric::convdetail
 
 #endif
-
-
-

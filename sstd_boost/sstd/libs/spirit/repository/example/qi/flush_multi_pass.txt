@@ -5,5 +5,3 @@
 
 #define MACRO foo
 #undef MACRO
-
-

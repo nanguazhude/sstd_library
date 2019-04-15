@@ -41,4 +41,3 @@ Sample files
   Numeric extension)
 * :download:`convolution.cpp <../example/convolution.cpp>`:
   Blurring images (requires the optional Numeric extension)
-

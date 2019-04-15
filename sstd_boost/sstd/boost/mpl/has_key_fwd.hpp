@@ -23,4 +23,3 @@ template< typename AssociativeSequence, typename Key > struct has_key;
 }}
 
 #endif // BOOST_MPL_HAS_KEY_FWD_HPP_INCLUDED
-

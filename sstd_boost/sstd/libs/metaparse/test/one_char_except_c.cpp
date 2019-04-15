@@ -15,5 +15,3 @@ namespace
 #define TEST_NAME one_char_except_c
 
 #include "one_char_except_test.hpp"
-
-

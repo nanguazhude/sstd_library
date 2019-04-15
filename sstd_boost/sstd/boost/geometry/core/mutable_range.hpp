@@ -96,4 +96,3 @@ struct resize
 
 
 #endif // BOOST_GEOMETRY_CORE_MUTABLE_RANGE_HPP
-

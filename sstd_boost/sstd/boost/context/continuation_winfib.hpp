@@ -459,4 +459,3 @@ void swap( continuation & l, continuation & r) noexcept {
 #endif
 
 #endif // BOOST_CONTEXT_CONTINUATION_H
-

@@ -100,5 +100,3 @@ This program uses a user defined interval class:
 {[1,2) [3,4)     [6,7) [8,9)}  flipped between 2 and 7
 -----------------------------------------------------------------------------*/
 //]
-
-

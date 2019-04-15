@@ -79,4 +79,3 @@
 #endif // !defined(BOOST_SPIRIT_DEBUG_TRACE_GRAMMAR_NAME)
 
 #endif  // !defined(BOOST_SPIRIT_MINIMAL_DEBUG_HPP)
-

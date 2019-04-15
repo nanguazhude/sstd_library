@@ -82,4 +82,3 @@ main()
           << (capacity[*ei] - residual_capacity[*ei]) << std::endl;
   return EXIT_SUCCESS;
 }
-

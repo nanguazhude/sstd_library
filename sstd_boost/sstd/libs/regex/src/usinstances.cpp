@@ -77,6 +77,3 @@ template BOOST_REGEX_STDLIB_DECL bool __cdecl operator>(
 #include <sstd/boost/regex.hpp>
 
 #endif
-
-
-

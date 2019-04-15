@@ -43,7 +43,3 @@ static_assert(true)/*__VA_ARGS__*/
 #ifndef sstd_data_type
 #define sstd_data_type(...)      __VA_ARGS__##Data
 #endif
-
-
-
-

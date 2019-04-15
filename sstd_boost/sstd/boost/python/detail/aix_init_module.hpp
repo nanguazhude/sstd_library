@@ -24,4 +24,3 @@ void aix_init_module(so_load_function, char const* name, void (*init_module)());
 # endif
 
 #endif // AIX_INIT_MODULE_DWA2002529_HPP
-

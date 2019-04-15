@@ -14,4 +14,3 @@ static_assert(hana::sizeof_(1) == sizeof(1), "");
 static_assert(hana::sizeof_(hana::type_c<int>) == sizeof(int), "");
 
 int main() {}
-

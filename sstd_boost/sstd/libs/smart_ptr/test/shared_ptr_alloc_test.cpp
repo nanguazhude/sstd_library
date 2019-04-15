@@ -164,4 +164,3 @@ int main()
     test<Z>();
     test<Z>();
 }
-

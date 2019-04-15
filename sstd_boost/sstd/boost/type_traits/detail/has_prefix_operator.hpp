@@ -277,5 +277,3 @@ struct BOOST_TT_TRAIT_NAME : public integral_constant<bool, (::boost::detail::BO
 #endif
 
 #endif
-
-

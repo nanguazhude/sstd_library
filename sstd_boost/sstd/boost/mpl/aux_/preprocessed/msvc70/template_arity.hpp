@@ -43,5 +43,3 @@ struct template_arity<int>
 };
 
 }}}
-
-

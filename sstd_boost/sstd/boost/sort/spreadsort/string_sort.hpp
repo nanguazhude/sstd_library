@@ -739,4 +739,3 @@ inline void reverse_string_sort(Range& range, Get_char get_character, Get_length
 }
 
 #endif
-

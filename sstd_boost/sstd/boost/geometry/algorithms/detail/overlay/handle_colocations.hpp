@@ -859,4 +859,3 @@ inline void gather_cluster_properties(Clusters& clusters, Turns& turns,
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_HANDLE_COLOCATIONS_HPP
-

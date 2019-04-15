@@ -663,4 +663,3 @@ int ZEXPORT gzclose_w(file)
     free(state);
     return ret;
 }
-

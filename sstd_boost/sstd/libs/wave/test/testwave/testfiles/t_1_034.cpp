@@ -37,4 +37,3 @@ STR()         //R ""
 //H 03: ""
 
 // boostinspect:noascii    this file needs to contain non-ASCII characters
-

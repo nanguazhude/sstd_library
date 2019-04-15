@@ -172,4 +172,3 @@ protected:
 } /* namespace boost */
 
 #endif /* BOOST_LOCKFREE_TAGGED_PTR_PTRCOMPRESSION_HPP_INCLUDED */
-

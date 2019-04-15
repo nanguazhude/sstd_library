@@ -195,5 +195,3 @@ private:
 }} // namespace boost::uuids
 
 #endif //BOOST_UUID_STRING_GENERATOR_HPP
-
-

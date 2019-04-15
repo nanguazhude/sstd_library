@@ -170,4 +170,3 @@ BOOST_COMPUTE_DECLARE_VECTOR_TYPES(double)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_TYPES_FUNDAMENTAL_HPP
-

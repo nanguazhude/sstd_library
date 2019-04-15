@@ -14,5 +14,3 @@
 // currently not in the master header
 #include <sstd/boost/spirit/include/classic_switch.hpp>
 #include <sstd/boost/spirit/include/classic_select.hpp>
-
-

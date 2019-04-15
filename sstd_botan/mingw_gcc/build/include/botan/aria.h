@@ -1,4 +1,4 @@
-/*
+﻿/*
 * ARIA
 * (C) 2017 Jack Lloyd
 *

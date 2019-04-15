@@ -106,4 +106,3 @@ template <class T> struct is_function<T&> : public false_type {};
 #endif
 
 #endif // BOOST_TT_IS_FUNCTION_CXX_03_HPP_INCLUDED
-

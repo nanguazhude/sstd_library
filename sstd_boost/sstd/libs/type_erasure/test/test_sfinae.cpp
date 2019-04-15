@@ -56,4 +56,3 @@ BOOST_MPL_ASSERT_NOT((is_move_constructible<any<mutable_copy> >));
 #endif
 
 #endif
-

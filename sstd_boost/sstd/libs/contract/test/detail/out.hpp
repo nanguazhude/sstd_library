@@ -20,5 +20,3 @@ void BOOST_CONTRACT_TEST_DETAIL_OUT_DECLSPEC out(std::string const& text);
 } } } }
 
 #endif // #include guard
-
-

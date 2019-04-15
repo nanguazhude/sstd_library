@@ -174,5 +174,3 @@ main()
     parse(input.begin(), input.end(), conversion_grammar());
     return 0;
 }
-
-

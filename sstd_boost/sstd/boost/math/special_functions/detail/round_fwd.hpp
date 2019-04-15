@@ -90,5 +90,3 @@ namespace boost
 
 
 #endif // BOOST_MATH_SPECIAL_ROUND_FWD_HPP
-
-

@@ -418,4 +418,3 @@ BOOST_AUTO_TEST_CASE(test_main)
     test_find_if_not_backward();
     test_find_not_backward();
 }
-

@@ -47,4 +47,3 @@
 
 #endif /* BOOST_PP_VARIADICS */
 #endif /* BOOST_VMD_SEQ_TO_TUPLE_HPP */
-

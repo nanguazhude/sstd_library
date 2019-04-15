@@ -88,4 +88,3 @@ typedef assertion_result predicate_result;
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_PREDICATE_RESULT_HPP_012705GER
-

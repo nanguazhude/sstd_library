@@ -171,4 +171,3 @@ void test_comparison()
     function_types::t4,function_types::t5>();
   test_stateless_lambda_comparability_check();
 }
-

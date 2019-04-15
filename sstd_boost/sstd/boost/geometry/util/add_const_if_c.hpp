@@ -54,4 +54,3 @@ struct add_const_if_c
 
 
 #endif // BOOST_GEOMETRY_UTIL_ADD_CONST_IF_C_HPP
-

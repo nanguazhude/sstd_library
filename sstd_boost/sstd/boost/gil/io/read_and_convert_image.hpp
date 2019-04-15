@@ -343,4 +343,3 @@ void read_and_convert_image( Device&          device
 } // namespace boost
 
 #endif
-

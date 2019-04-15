@@ -291,7 +291,3 @@ BOOST_AUTO_TEST_CASE( test_main )
    test_spots(0.0Q);
    cout << "max factorial for __float128"  << boost::math::max_factorial<boost::floatmax_t>::value  << endl;
 }
-
-
-
-

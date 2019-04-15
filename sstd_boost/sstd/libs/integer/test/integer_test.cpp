@@ -262,4 +262,3 @@ int main(int, char*[])
 #endif // BOOST_NO_INTEGRAL_INT64_T
       return boost::report_errors();
 }
-

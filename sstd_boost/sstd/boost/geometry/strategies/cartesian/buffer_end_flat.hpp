@@ -110,4 +110,3 @@ public :
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_CARTESIAN_BUFFER_END_FLAT_HPP
-

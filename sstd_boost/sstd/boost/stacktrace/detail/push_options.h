@@ -28,5 +28,3 @@
 #elif !defined(BOOST_STACKTRACE_DOXYGEN_INVOKED)
 #   define BOOST_STACKTRACE_FUNCTION inline
 #endif
-
-

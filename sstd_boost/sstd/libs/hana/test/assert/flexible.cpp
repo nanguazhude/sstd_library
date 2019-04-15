@@ -32,4 +32,3 @@ int main() {
     BOOST_HANA_ASSERT(rt_yes);
     BOOST_HANA_ASSERT_MSG(rt_yes, "message");
 }
-

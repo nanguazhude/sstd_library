@@ -16,4 +16,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::remove(hana::just(hana::type_c<int>), hana::type
 BOOST_HANA_CONSTANT_CHECK(hana::remove(hana::just(hana::type_c<int>), hana::type_c<int>) == hana::nothing);
 
 int main() { }
-

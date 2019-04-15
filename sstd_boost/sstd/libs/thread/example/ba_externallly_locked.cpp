@@ -117,5 +117,3 @@ int main()
   mgr.Checking2Savings(100);
   return 0;
 }
-
-

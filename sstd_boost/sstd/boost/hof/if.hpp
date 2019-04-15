@@ -141,4 +141,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(if_, detail::if_f);
 }} // namespace boost::hof
 
 #endif
-

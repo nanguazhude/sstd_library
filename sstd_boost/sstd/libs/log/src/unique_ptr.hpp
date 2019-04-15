@@ -57,4 +57,3 @@ BOOST_LOG_CLOSE_NAMESPACE // namespace log
 #endif // !defined(BOOST_NO_CXX11_SMART_PTR)
 
 #endif // BOOST_LOG_UNIQUE_PTR_HPP_INCLUDED_
-

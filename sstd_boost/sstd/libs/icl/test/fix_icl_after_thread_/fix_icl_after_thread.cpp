@@ -28,5 +28,3 @@ BOOST_AUTO_TEST_CASE(dummy)
 {
     BOOST_CHECK(true);
 }
-
-

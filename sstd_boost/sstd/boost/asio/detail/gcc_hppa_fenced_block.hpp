@@ -68,4 +68,3 @@ private:
 #endif // defined(__GNUC__) && (defined(__hppa) || defined(__hppa__))
 
 #endif // BOOST_ASIO_DETAIL_GCC_HPPA_FENCED_BLOCK_HPP
-

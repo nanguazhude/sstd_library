@@ -98,4 +98,3 @@ BOOST_HANA_ADAPT_ADT(also_not_my_namespace::Person,
   (age, [](auto const& p) { return p.get_age(); })
 );
 //! [BOOST_HANA_ADAPT_ADT]
-

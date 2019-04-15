@@ -63,4 +63,3 @@ Output:
 [$img/io/svg_mapper.png]
 */
 //]
-

@@ -139,6 +139,3 @@ try to use boundary analysis or a calendar facet when the library does not suppo
 you would get an exception.
 
 */
-
-
-

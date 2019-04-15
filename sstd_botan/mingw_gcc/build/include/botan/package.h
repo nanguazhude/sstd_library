@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Rivest's Package Tranform
 * (C) 2009 Jack Lloyd
 *

@@ -180,4 +180,3 @@ public:
 #include <sstd/boost/config/abi_suffix.hpp> // pops abi_suffix.hpp pragmas
 
 #endif // BOOST_EXTENDED_TYPE_INFO_NO_RTTI_HPP
-

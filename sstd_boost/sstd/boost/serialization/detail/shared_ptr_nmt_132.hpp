@@ -180,4 +180,3 @@ template<class T> inline T * get_pointer(shared_ptr< T > const & p)
 } // namespace boost
 
 #endif  // #ifndef BOOST_DETAIL_SHARED_PTR_NMT_132_HPP_INCLUDED
-

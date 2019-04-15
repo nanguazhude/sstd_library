@@ -165,4 +165,3 @@ public:
 } // namespace boost
 
 #endif // BOOST_ARCHIVE_ITERATORS_REMOVE_WHITESPACE_HPP
-

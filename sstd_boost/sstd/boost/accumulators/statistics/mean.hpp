@@ -296,4 +296,3 @@ struct feature_of<tag::immediate_weighted_mean_of_variates<VariateType, VariateT
 }} // namespace boost::accumulators
 
 #endif
-

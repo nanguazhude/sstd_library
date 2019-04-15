@@ -77,4 +77,3 @@ internally works per range), plus a mechanism to pass ranges multiple times (it 
 */
 
 #endif // _DOXYGEN_STRATEGY_RATIONALE_HPP
-

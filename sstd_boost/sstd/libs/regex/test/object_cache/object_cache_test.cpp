@@ -73,6 +73,3 @@ int cpp_main(int /*argc*/, char * /*argv*/[])
    BOOST_CHECK(current_count == test_object::count());
    return 0;
 }
-
-
-

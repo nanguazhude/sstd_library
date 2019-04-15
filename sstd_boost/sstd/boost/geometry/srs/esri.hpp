@@ -68,4 +68,3 @@ public:
 
 
 #endif // BOOST_GEOMETRY_SRS_ESRI_HPP
-

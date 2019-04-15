@@ -52,4 +52,3 @@ BOOST_AUTO_TEST_CASE(shuffle_int_vector)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

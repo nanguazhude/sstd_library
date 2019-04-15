@@ -207,4 +207,3 @@ public:
 } // namespace boost
 
 #endif // BOOST_SERIALIZATION_SHARED_PTR_HELPER_HPP
-

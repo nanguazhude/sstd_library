@@ -297,4 +297,3 @@ BOOST_AUTO_TEST_CASE( test_all_empty_input_pointlike_pointlike )
             point_type
         >(comparable_point_point_strategy(earth_radius_miles));
 }
-

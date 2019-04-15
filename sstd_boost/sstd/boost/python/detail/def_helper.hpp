@@ -209,4 +209,3 @@ namespace detail
 }} // namespace boost::python::detail
 
 #endif // DEF_HELPER_DWA200287_HPP
-

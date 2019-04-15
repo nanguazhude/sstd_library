@@ -133,4 +133,3 @@ int main()
    test_inequality_operator();
    return ::boost::report_errors();
 }
-

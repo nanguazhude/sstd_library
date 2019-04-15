@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/container/deque/deque_fwd.hpp>
 
 #endif
-

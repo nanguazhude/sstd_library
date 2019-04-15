@@ -158,5 +158,3 @@ private: // No public API (so users cannot use it directly by mistake).
 } } // namespace
 
 #endif // #include guard
-
-

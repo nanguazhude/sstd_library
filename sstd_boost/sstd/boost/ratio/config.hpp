@@ -94,4 +94,3 @@
 //#define BOOST_RATIO_EXTENSIONS
 
 #endif  // header
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Threefish-512
 * (C) 2013,2014 Jack Lloyd
 *

@@ -92,4 +92,3 @@ inline bool in_group()
 }}}}
 
 #endif /* BOOST_PROCESS_DETAIL_WINDOWS_GROUP_HPP_ */
-

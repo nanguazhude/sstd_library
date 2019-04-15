@@ -18,4 +18,3 @@ static Type v2 = { };
 BOOST_STATIC_ASSERT(boost::addressof(v1) == &v1);
 BOOST_STATIC_ASSERT(boost::addressof(v2) == &v2);
 #endif
-

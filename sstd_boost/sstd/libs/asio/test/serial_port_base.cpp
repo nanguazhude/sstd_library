@@ -97,4 +97,3 @@ BOOST_ASIO_TEST_SUITE
   "serial_port_base",
   BOOST_ASIO_TEST_CASE(serial_port_base_compile::test)
 )
-

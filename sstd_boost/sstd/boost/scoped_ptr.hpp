@@ -13,4 +13,3 @@
 #include <sstd/boost/smart_ptr/scoped_ptr.hpp>
 
 #endif // #ifndef BOOST_SCOPED_PTR_HPP_INCLUDED
-

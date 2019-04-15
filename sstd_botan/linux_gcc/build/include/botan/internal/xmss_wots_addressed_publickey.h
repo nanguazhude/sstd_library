@@ -1,4 +1,4 @@
-/**
+﻿/**
  * XMSS WOTS Addressed Public Key
  * (C) 2016,2017 Matthias Gierlings
  *

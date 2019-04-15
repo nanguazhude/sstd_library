@@ -91,5 +91,3 @@ operator>>(std::basic_istream<CharType, CharTrait>& in, optional<T>& v)
 } // namespace boost
 
 #endif
-
-

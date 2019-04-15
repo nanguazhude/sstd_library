@@ -47,4 +47,3 @@ typedef time_base_dimension::dimension_type time_dimension;
 } // namespace boost
 
 #endif // BOOST_UNITS_TIME_BASE_DIMENSION_HPP
-

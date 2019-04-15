@@ -189,4 +189,3 @@ void test_multictor()
   BOOST_TEST(ff2.get().res==2);
 #endif
 }
-

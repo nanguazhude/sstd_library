@@ -159,5 +159,3 @@ struct a
 };
 
 #endif // #include guard
-
-

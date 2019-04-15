@@ -39,4 +39,3 @@
 #endif
 
 #endif // BOOST_LOG_COMMON_HPP_INCLUDED_
-

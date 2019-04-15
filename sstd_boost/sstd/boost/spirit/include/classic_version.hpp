@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_VERSION
 #include <sstd/boost/spirit/home/classic/version.hpp>
 #endif
-

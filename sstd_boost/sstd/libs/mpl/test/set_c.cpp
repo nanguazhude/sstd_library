@@ -104,4 +104,3 @@ MPL_TEST_CASE()
     typedef end<s2>::type last2;
     MPL_ASSERT_RELATION( (distance<first2, last2>::value), ==, 8 );
 }
-

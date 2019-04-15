@@ -19,4 +19,3 @@ int main() {
     BOOST_HANA_CONSTEXPR_CHECK(minus(3, 0, 1) == 3 - 0 - 1);
     BOOST_HANA_CONSTEXPR_CHECK(hana::flip(minus)(3, 0, 1) == 0 - 3 - 1);
 }
-

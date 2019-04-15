@@ -242,4 +242,3 @@ private:
 #endif // defined(BOOST_ASIO_HAS_KQUEUE)
 
 #endif // BOOST_ASIO_DETAIL_KQUEUE_REACTOR_HPP
-

@@ -68,4 +68,3 @@ int main() {
         (void)explicit_move;
     }
 }
-

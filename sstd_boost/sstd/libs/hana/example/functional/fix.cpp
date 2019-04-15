@@ -16,4 +16,3 @@ BOOST_HANA_CONSTEXPR_STATELESS_LAMBDA auto factorial = hana::fix([](auto fact, a
 int main() {
     BOOST_HANA_CONSTEXPR_CHECK(factorial(5) == 120);
 }
-

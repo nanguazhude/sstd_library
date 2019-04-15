@@ -356,4 +356,3 @@ bool test_graph(std::istream& dotfile, graph_t& graph,
 
 // return 0;
 // }
-

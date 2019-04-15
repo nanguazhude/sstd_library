@@ -1,4 +1,4 @@
-/*
+﻿/*
 * A minimal 128-bit integer type for curve25519-donna
 * (C) 2014 Jack Lloyd
 *

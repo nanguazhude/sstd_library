@@ -269,4 +269,3 @@ extern z_const char * const z_errmsg[10]; /* indexed by 2-zlib_error */
                     (((q) & 0xff00) << 8) + (((q) & 0xff) << 24))
 
 #endif /* ZUTIL_H */
-

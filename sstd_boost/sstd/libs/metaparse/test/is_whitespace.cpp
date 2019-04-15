@@ -29,5 +29,3 @@ BOOST_METAPARSE_TEST_CASE(util_is_whitespace)
   // test_non_whitespace
   BOOST_MPL_ASSERT((not_<apply_wrap1<is_whitespace<>, char_a> >));
 }
-
-

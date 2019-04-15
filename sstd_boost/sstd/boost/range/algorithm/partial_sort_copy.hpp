@@ -80,4 +80,3 @@ partial_sort_copy(const SinglePassRange& rng1, const RandomAccessRange& rng2,
 } // namespace boost
 
 #endif // include guard
-

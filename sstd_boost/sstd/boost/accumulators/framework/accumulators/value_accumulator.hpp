@@ -87,4 +87,3 @@ struct feature_of<tag::value<ValueType, Tag> >
 }} // namespace boost::accumulators
 
 #endif
-

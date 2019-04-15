@@ -385,5 +385,3 @@ int main(int, char* av[])
     test_unregistered();
     return 0;
 }
-
-

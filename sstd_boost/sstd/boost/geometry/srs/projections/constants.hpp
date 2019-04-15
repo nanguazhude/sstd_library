@@ -60,4 +60,3 @@ inline T two_thirds() { return boost::math::constants::two_thirds<T>(); }
 
 }}} // namespace boost::geometry::projections
 #endif // BOOST_GEOMETRY_PROJECTIONS_IMPL_PROJECTS_HPP
-

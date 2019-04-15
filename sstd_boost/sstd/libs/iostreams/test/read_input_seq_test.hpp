@@ -68,4 +68,3 @@ void read_input_sequence_test()
 }
 
 #endif // #ifndef BOOST_IOSTREAMS_TEST_READ_INPUT_SEQUENCE_HPP_INCLUDED
-

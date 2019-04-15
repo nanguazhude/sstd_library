@@ -173,4 +173,3 @@ inline OutputIterator unique_copy(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_UNIQUE_COPY_HPP
-

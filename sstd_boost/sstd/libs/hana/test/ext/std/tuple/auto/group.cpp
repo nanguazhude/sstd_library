@@ -6,4 +6,3 @@
 #include <auto/group.hpp>
 
 int main() { }
-

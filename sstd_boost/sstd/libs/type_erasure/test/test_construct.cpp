@@ -1196,4 +1196,3 @@ BOOST_AUTO_TEST_CASE(test_rebind_and_convert_with_binding_from_rref)
 }
 
 #endif
-

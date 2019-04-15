@@ -300,4 +300,3 @@ template<class T> BOOST_FORCEINLINE T* get_pointer( reference_wrapper<T> const &
 } // namespace boost
 
 #endif // #ifndef BOOST_CORE_REF_HPP
-

@@ -12,4 +12,3 @@ int main()
    checked_uint256_t i;
    i = -i;
 }
-

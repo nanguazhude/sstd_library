@@ -92,4 +92,3 @@ inline Op for_each_coordinate(Point const& point, Op operation)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_UTIL_FOR_EACH_COORDINATE_HPP
-

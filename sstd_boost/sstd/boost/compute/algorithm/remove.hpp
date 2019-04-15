@@ -58,4 +58,3 @@ inline Iterator remove(Iterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_REMOVE_HPP
-

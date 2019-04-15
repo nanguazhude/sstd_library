@@ -47,4 +47,3 @@ namespace boost
 
 
 #endif // BOOST_TT_DECAY_HPP_INCLUDED
-

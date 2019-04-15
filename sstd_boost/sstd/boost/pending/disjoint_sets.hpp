@@ -218,4 +218,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_DISJOINT_SETS_HPP
-

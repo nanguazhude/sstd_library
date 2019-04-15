@@ -93,4 +93,3 @@ BOOST_AUTO_TEST_CASE(qvector_iterator)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

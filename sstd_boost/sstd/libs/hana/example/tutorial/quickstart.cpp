@@ -99,4 +99,3 @@ serialize(std::cout, john);
 //! [serialization]
 
 }
-

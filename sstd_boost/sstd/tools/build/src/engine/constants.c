@@ -190,4 +190,3 @@ OBJECT * constant_extra_pythonpath;
 OBJECT * constant_MAIN_PYTHON;
 OBJECT * constant_FILE_ARCHIVESCAN;
 OBJECT * constant_BUILTIN_GLOB_ARCHIVE_BACK;
-

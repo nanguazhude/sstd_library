@@ -52,5 +52,3 @@ int main() {
         matrix(row(3, 4))
     )));
 }
-
-

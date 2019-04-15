@@ -134,4 +134,3 @@ struct default_strategy<geographic_tag>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DENSIFY_HPP
-

@@ -138,5 +138,3 @@
 #define isunordered(x) this_should_not_compile(x)}}}}}}}}}}}}}}}}}}}
 
 #endif
-
-

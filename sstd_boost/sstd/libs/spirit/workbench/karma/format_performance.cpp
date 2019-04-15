@@ -169,5 +169,3 @@ int main()
     format_performance_rule();
     return 0;
 }
-
-

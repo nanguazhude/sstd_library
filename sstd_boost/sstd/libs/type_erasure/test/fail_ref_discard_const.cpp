@@ -19,4 +19,3 @@ int main()
     const any<copy_constructible<> > x(1);
     any<copy_constructible<>, _self&> y(x);
 }
-

@@ -30,5 +30,3 @@ int main()
    test<boost::rational<boost::multiprecision::mpz_int> >();
    return boost::report_errors();
 }
-
-

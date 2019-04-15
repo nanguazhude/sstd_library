@@ -113,4 +113,3 @@ private:
 }}}}
 
 #endif /* BOOST_PROCESS_WINDOWS_IO_CONTEXT_REF_HPP_ */
-

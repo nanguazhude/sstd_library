@@ -33,4 +33,3 @@
 #endif
 
 #endif // BOOST_MPL_AUX_CONFIG_GPU_HPP_INCLUDED
-

@@ -22,5 +22,3 @@ int main () {
             project (m, slice (0, 1, 3), slice (0, 1, 3)) (i, j) = 3 * i + j;
     std::cout << project (m, slice (0, 1, 3), slice (0, 1, 3)) << std::endl;
 }
-
-

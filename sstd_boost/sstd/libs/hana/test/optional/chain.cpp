@@ -38,4 +38,3 @@ int main() {
         hana::nothing
     ));
 }
-

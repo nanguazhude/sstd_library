@@ -643,4 +643,3 @@ struct is_nullary< custom_terminal< boost::log::expressions::aux::char_decorator
 #include <sstd/boost/log/detail/footer.hpp>
 
 #endif // BOOST_LOG_EXPRESSIONS_FORMATTERS_CHAR_DECORATOR_HPP_INCLUDED_
-

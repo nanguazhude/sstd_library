@@ -49,4 +49,3 @@ int main()
     for_each_test();
     boost::report_errors();
 }
-

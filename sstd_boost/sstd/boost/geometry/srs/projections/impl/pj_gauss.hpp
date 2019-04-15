@@ -142,4 +142,3 @@ inline void gauss_inv(gauss<T> const& en, T& lam, T& phi)
 }}} // namespace boost::geometry::projections
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_IMPL_PJ_GAUSS_HPP
-

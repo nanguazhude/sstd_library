@@ -6,4 +6,3 @@
 #define BOOST_PHOENIX_NO_SPECIALIZE_CUSTOM_TERMINAL
 #include <sstd/boost/phoenix/scope/this.hpp>
 int main() {}
-

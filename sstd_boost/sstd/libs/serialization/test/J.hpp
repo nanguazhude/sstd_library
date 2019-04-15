@@ -49,4 +49,3 @@ bool J::operator==(const J &rhs) const
 }
 
 #endif // BOOST_SERIALIZATION_TEST_J_HPP
-

@@ -29,4 +29,3 @@ int main() {
     static_assert(hana::value(decltype(hana::index_if(c, pred(hana::size_c<5>)).value()){}) == 5, "");
     static_assert(hana::value(decltype(hana::index_if(c, pred(hana::size_c<6>)).value()){}) == 6, "");
 }
-

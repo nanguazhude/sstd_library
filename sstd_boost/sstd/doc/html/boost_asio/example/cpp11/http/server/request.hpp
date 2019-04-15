@@ -32,4 +32,3 @@ struct request
 } // namespace http
 
 #endif // HTTP_REQUEST_HPP
-

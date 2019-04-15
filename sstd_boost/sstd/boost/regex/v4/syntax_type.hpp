@@ -103,4 +103,3 @@ static const escape_syntax_type syntax_max = 60;
 
 
 #endif
-

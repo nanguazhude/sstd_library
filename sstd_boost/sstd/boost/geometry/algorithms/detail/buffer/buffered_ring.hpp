@@ -280,4 +280,3 @@ struct get_ring<detail::buffer::buffered_ring_collection_tag>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_BUFFER_BUFFERED_RING
-

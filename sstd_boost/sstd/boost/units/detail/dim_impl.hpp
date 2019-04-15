@@ -88,4 +88,3 @@ struct is_empty_dim< dim<T, V> > :
 } // namespace boost
 
 #endif // BOOST_UNITS_DIM_IMPL_HPP
-

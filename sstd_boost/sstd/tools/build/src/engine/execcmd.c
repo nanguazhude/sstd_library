@@ -120,4 +120,3 @@ void onintr( int disp )
     ++intr;
     out_printf( "...interrupted\n" );
 }
-

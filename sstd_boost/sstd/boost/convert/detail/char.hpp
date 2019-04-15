@@ -36,5 +36,3 @@ namespace boost { namespace cnv
 }}
 
 #endif // BOOST_CONVERT_DETAIL_IS_CHAR_HPP
-
-

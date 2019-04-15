@@ -16,4 +16,3 @@
 #include <sstd/boost/test/unit_test.hpp>
 
 #endif // BOOST_TEST_AUTO_UNIT_TEST_HPP_071894GER
-

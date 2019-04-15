@@ -15,6 +15,3 @@ extern "C" long double BOOST_MATH_TR1_DECL boost_hermitel BOOST_PREVENT_MACRO_SU
 {
    return c_policies::hermite BOOST_PREVENT_MACRO_SUBSTITUTION(n, x);
 }
-
-
-

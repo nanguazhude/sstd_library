@@ -252,4 +252,3 @@ enum class condition
 #include <sstd/boost/beast/websocket/impl/error.ipp>
 
 #endif
-

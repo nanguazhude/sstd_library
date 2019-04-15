@@ -99,4 +99,3 @@ struct rounded_math: save_state_nothing<rounded_arith_exact<T> >
 } // namespace boost
 
 #endif // BOOST_NUMERIC_INTERVAL_ROUNDING_HPP
-

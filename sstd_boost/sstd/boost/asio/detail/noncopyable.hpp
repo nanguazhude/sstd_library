@@ -43,4 +43,3 @@ using boost::asio::detail::noncopyable;
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_NONCOPYABLE_HPP
-

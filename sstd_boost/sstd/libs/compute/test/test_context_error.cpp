@@ -23,4 +23,3 @@ BOOST_AUTO_TEST_CASE(what)
     BOOST_CHECK(error.get_private_info_ptr() == 0);
     BOOST_CHECK(error.get_private_info_size() == 0);
 }
-

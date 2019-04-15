@@ -12,6 +12,3 @@ void other_test()
    instantiate(double(0));
    instantiate_mixed(double(0));
 }
-
-
-

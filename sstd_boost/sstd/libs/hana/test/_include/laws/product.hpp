@@ -44,4 +44,3 @@ namespace boost { namespace hana { namespace test {
 }}} // end namespace boost::hana::test
 
 #endif // !BOOST_HANA_TEST_LAWS_PRODUCT_HPP
-

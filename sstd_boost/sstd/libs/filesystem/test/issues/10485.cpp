@@ -12,4 +12,3 @@ int main()
   for (char c : dir.filename().string())
     printf("%c\n", c);
 }
-

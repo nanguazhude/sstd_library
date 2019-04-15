@@ -365,4 +365,3 @@ struct interior_rings
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_POLYGON_HPP
-

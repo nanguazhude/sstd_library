@@ -606,4 +606,3 @@ inline class_<W,X1,X2,X3>::class_(char const* name, char const* doc, no_init_t)
 # undef BOOST_PYTHON_NO_MEMBER_POINTER_ORDERING
 
 #endif // CLASS_DWA200216_HPP
-

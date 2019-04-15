@@ -81,4 +81,3 @@ int main() {
 
     hana::test::TestIterable<hana::ext::std::array_tag>{int_arrays};
 }
-

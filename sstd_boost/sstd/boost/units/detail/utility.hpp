@@ -55,4 +55,3 @@ inline std::string simplify_typename(const L& /*source*/)
 } // namespace boost
 
 #endif // BOOST_UNITS_UTILITY_HPP
-

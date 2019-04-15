@@ -27,4 +27,3 @@ MPL_TEST_CASE()
     back_test< range_c<int,0,10>, 9 >();
     back_test< range_c<int,-10,0>, -1 >();
 }
-

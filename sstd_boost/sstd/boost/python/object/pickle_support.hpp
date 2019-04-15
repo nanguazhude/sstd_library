@@ -122,4 +122,3 @@ namespace detail {
 }} // namespace boost::python
 
 #endif // BOOST_PYTHON_OBJECT_PICKLE_SUPPORT_RWGK20020603_HPP
-

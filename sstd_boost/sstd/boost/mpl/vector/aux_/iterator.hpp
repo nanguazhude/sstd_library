@@ -128,4 +128,3 @@ template<> struct distance_impl<aux::v_iter_tag>
 }}
 
 #endif // BOOST_MPL_AUX_VECTOR_ITERATOR_HPP_INCLUDED
-

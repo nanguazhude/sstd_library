@@ -51,4 +51,3 @@ struct concept_interface : Base {};
 }
 
 #endif
-

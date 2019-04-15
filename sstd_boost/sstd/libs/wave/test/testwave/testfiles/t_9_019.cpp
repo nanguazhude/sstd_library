@@ -19,4 +19,3 @@
 // 10: t_9_019.hpp(11): #include_next "t_9_019.hpp"
 // 04: "t_9_019.hpp" (include_next)
 // 18: boost::wave::preprocess_exception
-

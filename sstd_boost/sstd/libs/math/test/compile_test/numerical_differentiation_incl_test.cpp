@@ -22,4 +22,3 @@ void compile_and_link_test()
     auto g = [](std::complex<double> x){ return x;};
     check_result<double>(boost::math::tools::complex_step_derivative(g, x));
 }
-

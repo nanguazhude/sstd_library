@@ -37,4 +37,3 @@ struct base_unit_info<imperial::drachm_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNIT_SYSTEMS_IMPERIAL_DRACHM_HPP_INCLUDED
-

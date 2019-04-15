@@ -26,5 +26,3 @@ void test_proc()
    boost::regex exp(re);
    regex_match(text, exp);
 }
-
-

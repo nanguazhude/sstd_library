@@ -347,4 +347,3 @@ namespace quickbook
         return result;
     }
 }
-

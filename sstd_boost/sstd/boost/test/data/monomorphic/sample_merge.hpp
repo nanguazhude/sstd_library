@@ -100,5 +100,3 @@ sample_merge( T1 && a1, T2 && a2 )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_DATA_MONOMORPHIC_SAMPLE_MERGE_HPP
-
-

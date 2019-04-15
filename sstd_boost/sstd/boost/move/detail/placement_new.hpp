@@ -28,4 +28,3 @@ inline void operator delete(void *, void *, boost_move_new_t)
 {}
 
 #endif   //BOOST_MOVE_DETAIL_PLACEMENT_NEW_HPP
-

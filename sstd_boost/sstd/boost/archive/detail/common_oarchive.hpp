@@ -87,4 +87,3 @@ protected:
 #endif
 
 #endif // BOOST_ARCHIVE_DETAIL_COMMON_OARCHIVE_HPP
-

@@ -14,4 +14,3 @@ namespace boost { namespace fusion
     >
     struct tuple;
 }}
-

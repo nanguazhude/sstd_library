@@ -42,4 +42,3 @@
 # define BOOST_PP_ASSERT_MSG_D(cond, msg) BOOST_PP_EXPR_IIF(BOOST_PP_NOT(cond), msg)
 #
 # endif
-

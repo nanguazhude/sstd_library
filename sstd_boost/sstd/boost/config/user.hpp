@@ -3,7 +3,7 @@
 
 #ifndef BOOST_ALL_DYN_LINK
 #define BOOST_ALL_DYN_LINK               (1u)
-#endif 
+#endif
 
 #ifndef BOOST_ALL_NO_LIB
 #define BOOST_ALL_NO_LIB                 (1u)
@@ -15,9 +15,9 @@
 
 #ifndef BOOST_USE_WINDOWS_H
 #define BOOST_USE_WINDOWS_H              (1u)
-#endif  
+#endif
 
-#endif  
+#endif
 
 #endif
 
@@ -27,4 +27,3 @@
 //BOOST_SYSTEM_SOURCE
 //BOOST_THREAD_BUILD_DLL
 //BOOST_CONTEXT_SOURCE
-

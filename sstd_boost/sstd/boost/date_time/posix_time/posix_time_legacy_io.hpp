@@ -151,4 +151,3 @@ namespace posix_time {
 } } // namespaces
 
 #endif // POSIX_TIME_PRE133_OPERATORS_HPP___
-

@@ -24,4 +24,3 @@ MPL_TEST_CASE()
         , vector2<int,int>
         > ));
 }
-

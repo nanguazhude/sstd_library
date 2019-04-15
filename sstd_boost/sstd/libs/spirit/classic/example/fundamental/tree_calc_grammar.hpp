@@ -73,5 +73,3 @@ struct calculator : public grammar<calculator>
 };
 
 #endif
-
-

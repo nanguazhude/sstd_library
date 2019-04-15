@@ -84,4 +84,3 @@ main()
     test_vector<5>();
     return boost::report_errors();
     }
-

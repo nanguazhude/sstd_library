@@ -675,4 +675,3 @@ inline bool interprocess_upgradable_mutex::try_unlock_sharable_and_lock_upgradab
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_UPGRADABLE_MUTEX_HPP
-

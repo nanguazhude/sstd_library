@@ -135,6 +135,3 @@ convert_trigraphs(StringT const &value)
 #endif
 
 #endif // !defined(CONVERT_TRIGRAPHS_HK050403_INCLUDED)
-
-
-

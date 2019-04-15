@@ -31,4 +31,3 @@ static_assert(std::is_same<decltype(hana::just(hana::type_c<T>))::type, T>{}, ""
 static_assert(!has_type<decltype(hana::nothing)>{}, "");
 
 int main() { }
-

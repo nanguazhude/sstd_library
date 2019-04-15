@@ -19,4 +19,3 @@
 #include <sstd/boost/config.hpp>
 
 #endif // BOOST_MPL_AUX_CONFIG_MSVC_HPP_INCLUDED
-

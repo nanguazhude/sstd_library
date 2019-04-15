@@ -24,4 +24,3 @@ struct no_locking;
 } /* namespace boost */
 
 #endif
-

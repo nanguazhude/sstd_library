@@ -22,6 +22,3 @@ void test_no_implicit_conversion()
   // but not against another value
   if ( opt == 1 ) ;
 }
-
-
-

@@ -411,4 +411,3 @@ struct has_fold_case<c_regex_traits<char> >
 }}
 
 #endif
-

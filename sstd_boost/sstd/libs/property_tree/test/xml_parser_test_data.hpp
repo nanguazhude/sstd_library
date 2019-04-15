@@ -775,4 +775,3 @@ const char *bug_data_pr4840 =
     "<start a=\"hello &quot;world&quot;\"/>";
 
 #endif
-

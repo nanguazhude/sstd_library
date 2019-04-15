@@ -20,5 +20,3 @@ int main(void) {
     BOOST_TEST(access(nums, 3) == 3);
     return boost::report_errors();
 }
-
-

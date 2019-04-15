@@ -42,4 +42,3 @@ namespace boost {
 
 
 #endif  // BOOST_STRING_LIST_TRAITS_HPP
-

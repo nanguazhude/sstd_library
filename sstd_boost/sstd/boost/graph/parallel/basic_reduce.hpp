@@ -9,4 +9,3 @@
 
 // File moved
 #include <sstd/boost/property_map/parallel/basic_reduce.hpp>
-

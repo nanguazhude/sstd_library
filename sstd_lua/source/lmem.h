@@ -1,4 +1,4 @@
-/*
+﻿/*
 ** $Id: lmem.h,v 1.43.1.1 2017/04/19 17:20:42 roberto Exp $
 ** Interface to Memory Manager
 ** See Copyright Notice in lua.h
@@ -66,4 +66,3 @@ LUAI_FUNC void *luaM_growaux_ (lua_State *L, void *block, int *size,
                                const char *what);
 
 #endif
-

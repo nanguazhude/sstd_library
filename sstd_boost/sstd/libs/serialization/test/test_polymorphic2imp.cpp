@@ -42,4 +42,3 @@ void B::serialize(
     ar & BOOST_SERIALIZATION_BASE_OBJECT_NVP(A);
 }
 BOOST_CLASS_EXPORT(B)
-

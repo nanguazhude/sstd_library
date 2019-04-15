@@ -35,5 +35,3 @@ int test_main( int, char* [] )
     test_bimap_convenience_header();
     return 0;
 }
-
-

@@ -663,4 +663,3 @@ inline bernoulli_numbers_cache<T, Policy>& get_bernoulli_numbers_cache()
 }}}
 
 #endif // BOOST_MATH_BERNOULLI_DETAIL_HPP
-

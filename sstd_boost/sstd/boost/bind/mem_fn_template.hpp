@@ -1045,4 +1045,3 @@ public:
 };
 
 #undef BOOST_MEM_FN_ENABLE_CONST_OVERLOADS
-

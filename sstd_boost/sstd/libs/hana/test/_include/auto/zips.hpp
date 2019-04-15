@@ -340,4 +340,3 @@ TestCase test_zip_shortest{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_ZIPS_HPP
-

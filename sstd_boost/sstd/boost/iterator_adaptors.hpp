@@ -11,4 +11,3 @@
 #include <sstd/boost/iterator/iterator_adaptor.hpp>
 
 #endif // ITERATOR_ADAPTORS_DWA2004725_HPP
-

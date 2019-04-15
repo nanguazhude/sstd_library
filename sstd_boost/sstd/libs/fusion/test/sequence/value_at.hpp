@@ -98,4 +98,3 @@ test()
 
     dummy(i); dummy(i2); dummy(j); dummy(e); // avoid warns for unused variables
 }
-

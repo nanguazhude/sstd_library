@@ -47,5 +47,3 @@ BOOST_TYPEOF_REGISTER_TYPE(boost::units::si::meter_base_unit)
 //#include <sstd/boost/units/base_units/detail/conversions.hpp>
 
 #endif // BOOST_UNITS_SI_METER_BASE_UNIT_HPP
-
-

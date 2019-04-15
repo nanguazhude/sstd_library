@@ -23,5 +23,3 @@ int main(int
       instantiate(BOOST_FLOAT80_C(1.23));
 #endif
 }
-
-

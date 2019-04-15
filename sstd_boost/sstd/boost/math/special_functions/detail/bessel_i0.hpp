@@ -551,5 +551,3 @@ inline T bessel_i0(const T& x)
 }}} // namespaces
 
 #endif // BOOST_MATH_BESSEL_I0_HPP
-
-

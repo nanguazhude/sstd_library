@@ -64,4 +64,3 @@ inline char visited_char(detail::overlay::visit_info const& v)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_DEBUG_TURN_INFO_HPP
-

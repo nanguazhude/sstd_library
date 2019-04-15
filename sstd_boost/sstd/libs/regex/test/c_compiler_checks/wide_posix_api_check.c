@@ -83,8 +83,3 @@ int main()
 #else
 #  error "This library has not been configured for wide character support"
 #endif
-
-
-
-
-

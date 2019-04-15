@@ -36,4 +36,3 @@ struct decode_type_impl<boost::type_of::constant<std::size_t,PTR_DATA_MEM_ID>, I
 BOOST_TYPEOF_END_ENCODE_NS
 
 #endif//BOOST_TYPEOF_POINTERS_DATA_MEMBERS_HPP_INCLUDED
-

@@ -122,4 +122,3 @@ BOOST_HANA_RUNTIME_CHECK(distance(p1, p2) == 5); // same function works!
 int main() {
   now::test();
 }
-

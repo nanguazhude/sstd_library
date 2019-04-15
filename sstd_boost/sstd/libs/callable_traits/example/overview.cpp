@@ -76,4 +76,3 @@ static_assert(!has_varargs<pmf>{}, "");
 int main() {}
 
 #endif
-

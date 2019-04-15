@@ -449,4 +449,3 @@ public:
 } // namespace boost
 
 #endif
-

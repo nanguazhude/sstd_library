@@ -12,4 +12,3 @@
 #include <sstd/boost/fusion/iterator/value_of_data.hpp>
 
 #endif
-

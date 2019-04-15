@@ -43,4 +43,3 @@ int main()
   boost::shared_ptr<mynamespace::X> x = bs2::deconstruct<mynamespace::X>();
   return 0;
 }
-

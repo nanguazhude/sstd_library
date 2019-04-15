@@ -205,4 +205,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_IS_LIST_HPP */
-

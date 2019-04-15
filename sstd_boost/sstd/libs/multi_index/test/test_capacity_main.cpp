@@ -16,5 +16,3 @@ int main()
   test_capacity();
   return boost::report_errors();
 }
-
-

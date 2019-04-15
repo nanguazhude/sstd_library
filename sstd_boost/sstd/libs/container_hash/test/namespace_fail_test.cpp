@@ -14,4 +14,3 @@
 typedef list<int> foo;
 
 int main() {}
-

@@ -137,4 +137,3 @@ struct equal_transparent
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif //#ifndef BOOST_CONTAINER_TEST_CHECK_EQUAL_CONTAINER_HPP
-

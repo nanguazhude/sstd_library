@@ -15,6 +15,3 @@ int main()
 {
    return boost::is_list_constructible<incomplete_type>::value;
 }
-
-
-

@@ -43,4 +43,3 @@ typedef shared_ptr<basic_param> basic_param_ptr;
 } // namespace boost
 
 #endif // BOOST_TEST_UTILS_RUNTIME_FWD_HPP
-

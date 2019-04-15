@@ -131,6 +131,3 @@ xpressive_lexer<Iterator, Token, Callback>::next_token(
 }}}} // boost::wave::cpplexer::xlex
 
 #endif // !defined(XPRESSIVE_LEXER_HPP)
-
-
-

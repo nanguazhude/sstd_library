@@ -204,5 +204,3 @@ int main(int argc, char*[])
       instantiate(boost::math::concepts::std_real_concept(0));
 #endif
 }
-
-

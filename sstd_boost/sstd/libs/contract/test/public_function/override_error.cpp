@@ -11,5 +11,3 @@
 #ifdef BOOST_CONTRACT_NO_PUBLIC_FUNCTIONS
     #error "Forcing error even when public functions not checked"
 #endif
-
-

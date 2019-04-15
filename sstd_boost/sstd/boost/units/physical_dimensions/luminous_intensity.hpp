@@ -47,4 +47,3 @@ typedef luminous_intensity_base_dimension::dimension_type luminous_intensity_dim
 } // namespace boost
 
 #endif // BOOST_UNITS_LUMINOUS_INTENSITY_BASE_DIMENSION_HPP
-

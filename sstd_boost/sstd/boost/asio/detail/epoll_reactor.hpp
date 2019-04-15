@@ -266,4 +266,3 @@ private:
 #endif // defined(BOOST_ASIO_HAS_EPOLL)
 
 #endif // BOOST_ASIO_DETAIL_EPOLL_REACTOR_HPP
-

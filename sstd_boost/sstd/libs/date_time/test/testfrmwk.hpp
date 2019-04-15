@@ -111,4 +111,3 @@ inline int printTestStats()
 }
 
 #endif
-

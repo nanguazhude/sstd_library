@@ -44,4 +44,3 @@ template struct bench_1<boost::complex<boost::numeric::interval<double> >, 30>;
 template struct bench_1<boost::complex<boost::numeric::interval<double> >, 100>;
 #endif
 #endif
-

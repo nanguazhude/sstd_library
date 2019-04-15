@@ -19,4 +19,3 @@ int main()
     // "" will be returned.
     std::cout << "'" << m[10] << "'\n";
 }
-

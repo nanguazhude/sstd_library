@@ -32,4 +32,3 @@ template<class T = void> struct owner_less
 } // namespace boost
 
 #endif  // #ifndef BOOST_SMART_PTR_OWNER_LESS_HPP_INCLUDED
-

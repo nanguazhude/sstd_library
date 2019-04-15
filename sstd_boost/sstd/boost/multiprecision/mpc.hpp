@@ -1521,4 +1521,3 @@ struct complex_result_from_scalar<number<mpfr_float_backend<Digits10>, Expressio
 }  // namespaces
 
 #endif
-

@@ -201,4 +201,3 @@
 #endif
 
 #endif   //#ifndef BOOST_INTERPROCESS_DETAIL_WORKAROUND_HPP
-

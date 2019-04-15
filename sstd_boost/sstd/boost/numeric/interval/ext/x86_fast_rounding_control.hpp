@@ -68,4 +68,3 @@ struct x86_fast_rounding_control<long double>: detail::x86_rounding
 } // namespace boost
 
 #endif // BOOST_NUMERIC_INTERVAL_EXT_X86_FAST_ROUNDING_CONTROL_HPP
-

@@ -42,4 +42,3 @@ BOOST_CHECK_TYPE3(::tt::void_t<int, int>, void);
 #endif
 
 TT_TEST_END
-

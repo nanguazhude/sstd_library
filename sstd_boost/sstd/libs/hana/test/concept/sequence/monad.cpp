@@ -4,4 +4,3 @@
 
 #define BOOST_HANA_TEST_MONAD
 #include <laws/templates/seq.hpp>
-

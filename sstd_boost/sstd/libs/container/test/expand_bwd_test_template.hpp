@@ -216,4 +216,3 @@ bool test_all_expand_bwd()
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //BOOST_CONTAINER_TEST_ALLOCATION_TEST_TEMPLATE_HEADER
-

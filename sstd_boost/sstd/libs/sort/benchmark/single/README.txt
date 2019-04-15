@@ -13,4 +13,3 @@ Now we have the data file and only need to compile and run the programs.
 				benchmark_numbers.cpp
 
 They show a detailed information on the screen in a compact mode
-

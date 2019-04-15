@@ -126,4 +126,3 @@ void swap(
 } /* namespace boost */
 
 #endif
-

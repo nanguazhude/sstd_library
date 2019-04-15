@@ -83,4 +83,3 @@ inline void serialize(
 BOOST_SERIALIZATION_COLLECTION_TRAITS(std::list)
 
 #endif // BOOST_SERIALIZATION_LIST_HPP
-

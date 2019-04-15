@@ -175,4 +175,3 @@ struct tag< linestring_copy_on_dereference<Point> >
 
 
 #endif // GEOMETRY_TEST_TEST_GEOMETRIES_COPY_ON_DEREFERENCE_GEOMETRIES_HPP
-

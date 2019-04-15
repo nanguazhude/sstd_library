@@ -243,4 +243,3 @@ struct fold_impl
 };
 
 }}}
-

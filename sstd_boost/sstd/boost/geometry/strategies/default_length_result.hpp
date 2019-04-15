@@ -87,4 +87,3 @@ struct default_length_result
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_DEFAULT_LENGTH_RESULT_HPP
-

@@ -377,4 +377,3 @@ inline void assign(Geometry1& geometry1, Geometry2 const& geometry2)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_ASSIGN_HPP
-

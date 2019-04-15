@@ -63,4 +63,3 @@ struct is_placeholder_expression:
 } /* namespace boost */
 
 #endif
-

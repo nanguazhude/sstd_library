@@ -10,5 +10,3 @@
 #include "lib_b_inlined.hpp"
 #include "lib_ab.hpp"
 #include "../detail/out_inlined.hpp"
-
-

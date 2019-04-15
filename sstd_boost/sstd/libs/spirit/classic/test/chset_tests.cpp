@@ -328,5 +328,3 @@ main()
     chset_tests();
     return boost::report_errors();
 }
-
-

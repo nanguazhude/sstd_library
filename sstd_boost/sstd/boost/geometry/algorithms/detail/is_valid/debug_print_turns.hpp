@@ -76,4 +76,3 @@ inline void debug_print_turns(TurnIterator, TurnIterator)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_IS_VALID_DEBUG_PRINT_TURNS_HPP
-

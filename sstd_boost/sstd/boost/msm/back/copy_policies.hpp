@@ -28,4 +28,3 @@ namespace boost { namespace msm { namespace back
 
 
 #endif //BOOST_MSM_BACK_COPY_POLICIES_H
-

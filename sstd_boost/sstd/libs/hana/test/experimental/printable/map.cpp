@@ -49,4 +49,3 @@ int main() {
         BOOST_HANA_RUNTIME_CHECK(ss.str() == "{1 => x, 2 => y, 3 => z}");
     }
 }
-

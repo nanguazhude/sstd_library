@@ -49,7 +49,3 @@ void erase_action_test()
     scan.first = cp;
 
 }
-
-
-
-

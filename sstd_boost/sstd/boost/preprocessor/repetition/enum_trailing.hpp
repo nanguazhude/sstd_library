@@ -61,4 +61,3 @@
 # define BOOST_PP_ENUM_TRAILING_M_3_I(z, n, m, d) , m(z, n, d)
 #
 # endif
-

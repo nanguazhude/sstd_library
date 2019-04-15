@@ -129,5 +129,3 @@ template<typename T> struct cv_traits
 } } } // namespace boost::function_types::detail
 
 #endif
-
-

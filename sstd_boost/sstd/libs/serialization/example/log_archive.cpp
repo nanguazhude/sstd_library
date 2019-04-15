@@ -30,4 +30,3 @@ template class xml_oarchive_impl<log_archive> ;
 
 } // namespace archive
 } // namespace boost
-

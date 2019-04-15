@@ -15,4 +15,3 @@
 #include <sstd/boost/core/scoped_enum.hpp>
 
 #endif
-

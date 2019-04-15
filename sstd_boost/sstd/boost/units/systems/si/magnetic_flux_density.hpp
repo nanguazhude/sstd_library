@@ -32,4 +32,3 @@ BOOST_UNITS_STATIC_CONSTANT(teslas,magnetic_flux_density);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_MAGNETIC_FLUX_DENSITY_HPP
-

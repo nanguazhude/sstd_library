@@ -146,4 +146,3 @@ namespace boost
 #include <sstd/boost/config/abi_suffix.hpp>
 
 #endif
-

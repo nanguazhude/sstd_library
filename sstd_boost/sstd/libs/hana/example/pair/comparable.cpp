@@ -13,4 +13,3 @@ static_assert(hana::make_pair(2, 'x') != hana::make_pair(1, 'x'), "");
 static_assert(hana::make_pair(1, 'y') != hana::make_pair(1, 'x'), "");
 
 int main() { }
-

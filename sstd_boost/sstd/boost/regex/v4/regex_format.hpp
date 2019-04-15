@@ -1143,10 +1143,3 @@ inline std::basic_string<typename match_results<Iterator, Allocator>::char_type>
 } // namespace boost
 
 #endif  // BOOST_REGEX_FORMAT_HPP
-
-
-
-
-
-
-

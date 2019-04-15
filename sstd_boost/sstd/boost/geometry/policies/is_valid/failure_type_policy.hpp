@@ -81,4 +81,3 @@ private:
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_POLICIES_IS_VALID_FAILURE_TYPE_POLICY_HPP
-

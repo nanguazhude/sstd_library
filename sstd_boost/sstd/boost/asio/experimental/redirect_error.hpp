@@ -67,4 +67,3 @@ inline redirect_error_t<typename decay<CompletionToken>::type> redirect_error(
 #include <sstd/boost/asio/experimental/impl/redirect_error.hpp>
 
 #endif // BOOST_ASIO_EXPERIMENTAL_REDIRECT_ERROR_HPP
-

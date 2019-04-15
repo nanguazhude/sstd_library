@@ -85,4 +85,3 @@ inline T sph_neumann_derivative_linear(unsigned v, T x, Policy pol)
 }}} // namespaces
 
 #endif // BOOST_MATH_SF_DETAIL_BESSEL_DERIVATIVES_LINEAR_HPP
-

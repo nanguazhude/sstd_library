@@ -20,4 +20,3 @@ int main(int, const char**)
     // enabled since the adaptor takes at least a ForwardRange.
     return (mock_range<boost::single_pass_traversal_tag>() | uniqued).front();
 }
-

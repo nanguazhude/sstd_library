@@ -33,4 +33,3 @@ int main() {
 
     std::cout << hana::experimental::print(hana::type_c<Template<void, char const*>>) << std::endl;
 }
-

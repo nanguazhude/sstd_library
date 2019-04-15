@@ -228,6 +228,3 @@ struct type_to_string<icl::interval_set<DomainT,Compare,Interval,Alloc> >
 }} // namespace icl boost
 
 #endif
-
-
-

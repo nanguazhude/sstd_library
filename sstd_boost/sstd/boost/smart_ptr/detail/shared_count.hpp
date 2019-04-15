@@ -665,4 +665,3 @@ inline shared_count::shared_count( weak_count const & r, sp_nothrow_tag ): pi_( 
 #endif
 
 #endif  // #ifndef BOOST_SMART_PTR_DETAIL_SHARED_COUNT_HPP_INCLUDED
-

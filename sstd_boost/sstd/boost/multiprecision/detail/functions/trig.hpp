@@ -842,4 +842,3 @@ inline typename enable_if<is_arithmetic<A>, void>::type eval_atan2(T& result, co
 #ifdef BOOST_MSVC
 #pragma warning(pop)
 #endif
-

@@ -43,4 +43,3 @@ int main() {
 
     BOOST_HANA_CONSTANT_CHECK(hana::is_disjoint(vowels, consonants));
 }
-

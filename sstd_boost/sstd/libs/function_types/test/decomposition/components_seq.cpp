@@ -72,5 +72,3 @@ BOOST_MPL_ASSERT_RELATION( ::boost::mpl::size<c>::value, ==, 3 );
 // empty
 BOOST_MPL_ASSERT_NOT(( mpl::empty<c> ));
 BOOST_MPL_ASSERT(( mpl::empty< mpl::clear<c> > ));
-
-

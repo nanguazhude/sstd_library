@@ -18,4 +18,3 @@ BOOST_AUTO_TEST_CASE( test_op_reportings )
   BOOST_TEST(b > a - 1);
 }
 //]
-

@@ -122,4 +122,3 @@ int main()
     identity(phoenix::ref("blubb"));
     identity(phoenix::arg_names::_1);
 }
-

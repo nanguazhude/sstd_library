@@ -245,4 +245,3 @@ namespace assign
 #endif
 
 #endif
-

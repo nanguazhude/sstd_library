@@ -18,4 +18,3 @@ int main()
 #endif
     std::cout << name<boost::chrono::high_resolution_clock>::apply() << '\n';
 }
-

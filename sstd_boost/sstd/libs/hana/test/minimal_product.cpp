@@ -53,4 +53,3 @@ int main() {
     hana::test::TestFoldable<::MinimalProduct>{eqs};
     hana::test::TestProduct<::MinimalProduct>{eq_elems};
 }
-

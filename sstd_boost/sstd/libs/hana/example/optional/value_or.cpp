@@ -11,4 +11,3 @@ static_assert(hana::just(1).value_or('x') == 1, "");
 static_assert(hana::nothing.value_or('x') == 'x', "");
 
 int main() { }
-

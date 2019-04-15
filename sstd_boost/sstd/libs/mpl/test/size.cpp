@@ -24,4 +24,3 @@ MPL_TEST_CASE()
     MPL_ASSERT_RELATION( size<empty_list>::value, ==, 0 );
     MPL_ASSERT_RELATION( size<list>::value, ==, 4 );
 }
-

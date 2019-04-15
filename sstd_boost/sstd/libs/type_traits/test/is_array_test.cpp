@@ -45,12 +45,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_array<incomplete_type>::value, false);
 
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

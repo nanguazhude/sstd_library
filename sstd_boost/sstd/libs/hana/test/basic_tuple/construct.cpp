@@ -17,4 +17,3 @@ int main() {
     constexpr auto ys = hana::basic_tuple<int, float>{1, 2.3f};
     constexpr auto copy = ys; (void)copy;
 }
-

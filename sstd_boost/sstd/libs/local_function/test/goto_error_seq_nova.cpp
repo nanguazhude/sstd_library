@@ -7,5 +7,3 @@
 
 #include "nova.hpp"
 #include "goto_error_seq.cpp"
-
-

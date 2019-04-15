@@ -36,8 +36,3 @@ extern void constexpr_test() {
     static_assert((3.141592654 - sstd::toFloat< sstd::constexpr_float_pi >()) < 0.001);
 
 }
-
-
-
-
-

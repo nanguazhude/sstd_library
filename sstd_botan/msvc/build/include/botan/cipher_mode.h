@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Cipher Modes
 * (C) 2013,2016 Jack Lloyd
 *

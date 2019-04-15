@@ -21,4 +21,3 @@ int main() {
 
     BOOST_HANA_CONSTANT_CHECK(mpl::integral_c<int, 2>{} != hana::int_c<3>);
 }
-

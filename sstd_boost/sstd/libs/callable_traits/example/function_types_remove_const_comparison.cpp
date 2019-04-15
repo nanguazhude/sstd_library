@@ -19,4 +19,3 @@ static_assert(std::is_same<const_removed, void(foo::*)()>::value, "");
 int main(){}
 
 //]
-

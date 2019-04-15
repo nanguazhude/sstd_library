@@ -20,4 +20,3 @@ target_link_libraries(boost_align INTERFACE
     Boost::core
     Boost::static_assert
     Boost::throw_exception)
-

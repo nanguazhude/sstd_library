@@ -48,4 +48,3 @@ inline std::string symbol_string(const reduce_unit<cgs::wavenumber>::type&) { re
 } // namespace boost
 
 #endif // BOOST_UNITS_CGS_IO_HPP
-

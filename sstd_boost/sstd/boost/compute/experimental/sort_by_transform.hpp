@@ -64,4 +64,3 @@ inline void sort_by_transform(Iterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_EXPERIMENTAL_SORT_BY_TRANSFORM_HPP
-

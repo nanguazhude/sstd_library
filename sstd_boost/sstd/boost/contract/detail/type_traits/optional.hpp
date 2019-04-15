@@ -39,5 +39,3 @@ T& optional_get(boost::optional<T&>& x) { return x.get(); }
 } } } // namespace
 
 #endif // #include guard
-
-

@@ -319,5 +319,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_GRAPH_NEIGHBOR_BREADTH_FIRST_SEARCH_HPP
-
-

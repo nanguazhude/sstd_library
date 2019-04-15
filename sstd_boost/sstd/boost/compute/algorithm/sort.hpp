@@ -205,4 +205,3 @@ inline void sort(Iterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_SORT_HPP
-

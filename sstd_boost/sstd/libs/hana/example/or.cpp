@@ -13,4 +13,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::or_(hana::false_c, hana::false_c, hana::true_c))
 BOOST_HANA_CONSTANT_CHECK(!hana::or_(hana::false_c, hana::false_c, hana::false_c));
 
 int main() { }
-

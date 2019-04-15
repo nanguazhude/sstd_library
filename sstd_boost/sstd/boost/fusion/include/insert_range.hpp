@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/algorithm/transformation/insert_range.hpp>
 
 #endif
-

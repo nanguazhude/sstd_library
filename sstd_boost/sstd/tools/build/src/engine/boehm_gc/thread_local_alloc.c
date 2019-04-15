@@ -307,5 +307,3 @@ void GC_mark_thread_local_fls_for(GC_tlfs p)
 #   define GC_destroy_thread_local(t)
 
 # endif /* !THREAD_LOCAL_ALLOC */
-
-

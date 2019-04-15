@@ -760,4 +760,3 @@ namespace boost
 #include <sstd/boost/thread/detail/variadic_footer.hpp>
 
 #endif // header
-

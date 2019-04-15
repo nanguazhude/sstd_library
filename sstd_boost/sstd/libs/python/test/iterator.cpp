@@ -135,4 +135,3 @@ BOOST_PYTHON_MODULE(iterator_ext)
 }
 
 #include "module_tail.cpp"
-

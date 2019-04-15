@@ -15,4 +15,3 @@
 #include <sstd/boost/spirit/home/qi/copy.hpp>
 
 #endif
-

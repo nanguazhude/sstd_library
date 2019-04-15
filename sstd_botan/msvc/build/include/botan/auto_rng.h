@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Auto Seeded RNG
 * (C) 2008,2016 Jack Lloyd
 *

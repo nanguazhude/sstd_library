@@ -51,4 +51,3 @@
 #endif
 
 #endif   //#ifndef BOOST_INTRUSIVE_DETAIL_WORKAROUND_HPP
-

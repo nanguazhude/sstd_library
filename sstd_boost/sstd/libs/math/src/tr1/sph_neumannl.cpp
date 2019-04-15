@@ -15,6 +15,3 @@ extern "C" long double BOOST_MATH_TR1_DECL boost_sph_neumannl BOOST_PREVENT_MACR
 {
    return c_policies::sph_neumann BOOST_PREVENT_MACRO_SUBSTITUTION(n, x);
 }
-
-
-

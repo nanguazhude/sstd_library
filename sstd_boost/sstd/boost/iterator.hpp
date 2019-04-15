@@ -18,4 +18,3 @@ using std::iterator;
 } // namespace boost
 
 #endif // BOOST_ITERATOR_HPP
-

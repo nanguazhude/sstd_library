@@ -18,4 +18,3 @@ int main() {
     static_assert(hana::maximum(xs) == hana::int_c<2>, "");
     static_assert(hana::sum<>(xs) == hana::int_c<3>, "");
 }
-

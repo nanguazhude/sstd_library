@@ -122,4 +122,3 @@ struct gcd_impl<integral_c_tag, integral_c_tag>
 }}
 
 #endif // BOOST_MPL_GCD_HPP_INCLUDED
-

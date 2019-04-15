@@ -33,4 +33,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::IntegralConstant<hana::Sequence<T>>{});
 BOOST_HANA_CONSTANT_CHECK(hana::IntegralConstant<hana::Struct<T>>{});
 
 int main() { }
-

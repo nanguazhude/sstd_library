@@ -27,5 +27,3 @@ QtTest::toUpper()
 
 QTEST_MAIN(QtTest)
 #include "qttest.moc"
-
-

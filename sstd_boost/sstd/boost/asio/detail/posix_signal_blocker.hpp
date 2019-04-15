@@ -85,4 +85,3 @@ private:
 #endif // defined(BOOST_ASIO_HAS_PTHREADS)
 
 #endif // BOOST_ASIO_DETAIL_POSIX_SIGNAL_BLOCKER_HPP
-

@@ -32,5 +32,3 @@ main()
     test<skip_constructor_conversion>();
     return boost::report_errors();
 }
-
-

@@ -51,4 +51,3 @@ constexpr static ::boost::process::detail::on_exit_ on_exit{};
 
 }}
 #endif /* INCLUDE_BOOST_PROCESS_WINDOWS_ON_EXIT_HPP_ */
-

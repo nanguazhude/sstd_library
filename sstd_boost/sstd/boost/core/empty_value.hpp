@@ -134,4 +134,3 @@ using empty_::empty_value;
 } /* boost */
 
 #endif
-

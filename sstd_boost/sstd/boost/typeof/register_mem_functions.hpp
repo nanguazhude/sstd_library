@@ -30,4 +30,3 @@ struct decode_type_impl<boost::type_of::constant<std::size_t,BOOST_TYPEOF_id + n
 
 #undef BOOST_TYPEOF_id
 #undef BOOST_TYPEOF_qualifier
-

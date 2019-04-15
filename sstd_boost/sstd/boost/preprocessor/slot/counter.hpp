@@ -23,4 +23,3 @@
 # define BOOST_PP_UPDATE_COUNTER() <sstd/boost/preprocessor/slot/detail/counter.hpp>
 #
 # endif
-

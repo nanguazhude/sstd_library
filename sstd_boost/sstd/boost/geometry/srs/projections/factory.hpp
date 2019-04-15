@@ -293,4 +293,3 @@ inline detail::base_v<T, projections::parameters<T> >*
 }}} // namespace boost::geometry::projections
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_FACTORY_HPP
-

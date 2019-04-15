@@ -51,4 +51,3 @@ struct traversal_turn_info
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_TRAVERSAL_INFO_HPP
-

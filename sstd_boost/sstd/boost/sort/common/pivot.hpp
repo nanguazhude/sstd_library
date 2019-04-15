@@ -121,4 +121,3 @@ inline void pivot9 (Iter_t first, Iter_t last, Compare comp)
 };//    End namespace boost
 //****************************************************************************
 #endif
-

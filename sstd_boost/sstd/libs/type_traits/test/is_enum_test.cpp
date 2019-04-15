@@ -38,12 +38,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_enum<test_enum>::value, true);
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

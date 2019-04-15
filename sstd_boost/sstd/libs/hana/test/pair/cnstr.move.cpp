@@ -95,4 +95,3 @@ int main() {
         static_assert(!std::is_move_constructible<Pair2>::value, "");
     }
 }
-

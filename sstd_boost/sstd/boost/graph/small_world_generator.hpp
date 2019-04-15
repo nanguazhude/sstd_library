@@ -112,4 +112,3 @@ namespace boost {
 } // end namespace boost
 
 #endif // BOOST_GRAPH_SMALL_WORLD_GENERATOR_HPP
-

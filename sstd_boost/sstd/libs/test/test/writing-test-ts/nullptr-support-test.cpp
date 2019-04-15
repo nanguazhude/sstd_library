@@ -19,4 +19,3 @@ BOOST_AUTO_TEST_CASE(test2)
     int *p = nullptr;
     BOOST_CHECK_EQUAL(p, nullptr);
 }
-

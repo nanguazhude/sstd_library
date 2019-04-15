@@ -11,7 +11,3 @@ asm_cl64.commands =      ml64 /Cp /Cx /Zp4 /DBOOST_CONTEXT_EXPORT=EXPORT /Fo ${Q
 
 QMAKE_EXTRA_COMPILERS += asm_cl64
 export(QMAKE_EXTRA_COMPILERS)
-
-
-
-

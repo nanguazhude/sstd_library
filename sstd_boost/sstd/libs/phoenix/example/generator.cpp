@@ -32,4 +32,3 @@ int main()
       , std::cout << val('\n')
     ](v1);
 }
-

@@ -627,4 +627,3 @@ namespace boost { namespace fusion
         return at_c<N>(tup);
     }
 }}
-

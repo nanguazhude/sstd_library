@@ -394,4 +394,3 @@ template<class N, class F> inline BOOST_MP11_CONSTEXPR14 decltype(std::declval<F
 } // namespace boost
 
 #endif // #ifndef BOOST_MP11_DETAIL_MP_WITH_INDEX_HPP_INCLUDED
-

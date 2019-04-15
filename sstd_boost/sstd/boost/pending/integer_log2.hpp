@@ -7,4 +7,3 @@
 BOOST_HEADER_DEPRECATED("<sstd/boost/integer/integer_log2.hpp>");
 
 #endif
-

@@ -45,4 +45,3 @@ struct transition
 }}
 
 #endif // BOOST_FSM_TRANSITION_INCLUDED
-

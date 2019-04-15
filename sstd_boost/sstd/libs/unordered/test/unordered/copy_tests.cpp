@@ -207,4 +207,3 @@ namespace copy_tests {
 }
 
 RUN_TESTS()
-

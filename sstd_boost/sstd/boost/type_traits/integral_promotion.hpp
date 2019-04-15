@@ -184,5 +184,3 @@ public:
 }
 
 #endif // #ifndef FILE_boost_type_traits_integral_promotion_hpp_INCLUDED
-
-

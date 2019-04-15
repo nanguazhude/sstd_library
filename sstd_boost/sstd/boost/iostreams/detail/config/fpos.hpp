@@ -42,4 +42,3 @@
 # endif
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_CONFIG_FPOS_HPP_INCLUDED
-

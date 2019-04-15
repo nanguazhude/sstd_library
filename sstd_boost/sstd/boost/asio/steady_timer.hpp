@@ -42,4 +42,3 @@ typedef basic_waitable_timer<chrono::steady_clock> steady_timer;
 #endif // defined(BOOST_ASIO_HAS_CHRONO) || defined(GENERATING_DOCUMENTATION)
 
 #endif // BOOST_ASIO_STEADY_TIMER_HPP
-

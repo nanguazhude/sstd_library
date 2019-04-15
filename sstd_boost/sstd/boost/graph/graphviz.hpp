@@ -956,4 +956,3 @@ bool read_graphviz(std::istream& in, MutableGraph& graph,
 #endif
 
 #endif // BOOST_GRAPHVIZ_HPP
-

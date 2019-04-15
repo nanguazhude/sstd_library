@@ -179,4 +179,3 @@ struct mkl_operations
 } // boost
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_MKL_MKL_OPERATIONS_HPP_INCLUDED
-

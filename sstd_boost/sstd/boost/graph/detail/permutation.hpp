@@ -203,4 +203,3 @@ inline void sortv(Iter first, Iter last, IterP p, Cmp cmp, Alloc alloc)
 } // namespace boost
 
 #endif // BOOST_PERMUTATION_HPP
-

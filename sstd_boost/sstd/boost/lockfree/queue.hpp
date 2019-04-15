@@ -562,4 +562,3 @@ private:
 #endif
 
 #endif /* BOOST_LOCKFREE_FIFO_HPP_INCLUDED */
-

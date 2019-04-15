@@ -88,6 +88,3 @@ void    sinhc_pi_manual_check()
 
     BOOST_TEST_MESSAGE(" ");
 }
-
-
-

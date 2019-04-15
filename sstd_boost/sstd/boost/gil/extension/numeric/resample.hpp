@@ -132,4 +132,3 @@ void resize_view(const SrcMetaView& src, const DstMetaView& dst, const Sampler& 
 } }  // namespace boost::gil
 
 #endif // BOOST_GIL_EXTENSION_NUMERIC_RESAMPLE_HPP
-

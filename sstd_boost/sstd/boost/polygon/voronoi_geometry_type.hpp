@@ -46,4 +46,3 @@ inline bool belongs(
 }  // boost
 
 #endif  // BOOST_POLYGON_VORONOI_GEOMETRY_TYPE
-

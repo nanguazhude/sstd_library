@@ -1241,4 +1241,3 @@ inline void swap(static_vector<V, C1> & x, static_vector<V, C2> & y
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif // BOOST_CONTAINER_STATIC_VECTOR_HPP
-

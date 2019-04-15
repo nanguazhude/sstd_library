@@ -1406,4 +1406,3 @@ BOOST_AUTO_TEST_CASE( test_is_valid_variant )
     vg = invalid_polygon;
     test::apply("v04", vg, false);
 }
-

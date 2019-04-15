@@ -30,5 +30,3 @@ int main () {
     }
     std::cout << mu << std::endl;
 }
-
-

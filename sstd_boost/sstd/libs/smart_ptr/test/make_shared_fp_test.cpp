@@ -17,4 +17,3 @@ int main()
     typedef boost::shared_ptr<int>(*FP)();
     FP fp = boost::make_shared<int>;
 }
-

@@ -24,4 +24,3 @@ struct point_traits
 } } // end namespace boost::graph
 
 #endif // BOOST_GRAPH_POINT_TRAITS_HPP
-

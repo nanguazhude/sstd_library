@@ -93,4 +93,3 @@ namespace boost { namespace fusion
 }} // namespace boost::fusion
 
 #endif
-

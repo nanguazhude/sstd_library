@@ -111,5 +111,3 @@ defined for the specific compiler, and to <c>1</c> otherwise.
 #endif // DOXYGEN
 
 #endif // #include guard
-
-

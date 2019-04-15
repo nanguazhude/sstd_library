@@ -26,4 +26,3 @@ namespace boost
   }
 }
 #endif // header
-

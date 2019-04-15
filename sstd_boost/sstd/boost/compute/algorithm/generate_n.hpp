@@ -35,4 +35,3 @@ inline void generate_n(OutputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_GENERATE_N_HPP
-

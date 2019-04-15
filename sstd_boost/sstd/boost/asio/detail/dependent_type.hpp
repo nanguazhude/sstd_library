@@ -36,4 +36,3 @@ struct dependent_type
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_DEPENDENT_TYPE_HPP
-

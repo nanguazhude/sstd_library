@@ -30,4 +30,3 @@ http://www.boost.org/LICENSE_1_0.txt)
 #define BOOST_HW_SIMD_ARM_NEON_VERSION BOOST_VERSION_NUMBER(1, 0, 0)
 
 #endif
-

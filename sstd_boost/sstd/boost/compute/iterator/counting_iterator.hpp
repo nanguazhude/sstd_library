@@ -183,4 +183,3 @@ struct is_device_iterator<counting_iterator<T> > : boost::true_type {};
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ITERATOR_COUNTING_ITERATOR_HPP
-

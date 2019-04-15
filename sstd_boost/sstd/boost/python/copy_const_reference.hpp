@@ -41,4 +41,3 @@ struct copy_const_reference
 }} // namespace boost::python
 
 #endif // COPY_CONST_REFERENCE_DWA2002131_HPP
-

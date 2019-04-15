@@ -54,4 +54,3 @@ void print_banner()
     cout << " file_generator number_elements\n\n";
     cout << " The elements are 64 bits random numbers\n";
 };
-

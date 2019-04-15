@@ -293,4 +293,3 @@ inline void swap(basic_regex<BidiIter> &left, basic_regex<BidiIter> &right) // t
 }} // namespace boost::xpressive
 
 #endif // BOOST_XPRESSIVE_BASIC_REGEX_HPP_EAN_10_04_2005
-

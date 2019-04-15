@@ -18,4 +18,3 @@
 #endif
 
 #endif // BOOST_DETAIL_WINAPI_ERROR_HANDLING_HPP
-

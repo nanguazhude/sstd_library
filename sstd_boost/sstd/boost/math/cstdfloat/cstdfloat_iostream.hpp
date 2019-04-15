@@ -772,4 +772,3 @@
   #endif // Not BOOST_CSTDFLOAT_NO_LIBQUADMATH_SUPPORT (i.e., the user would like to have libquadmath support)
 
 #endif // _BOOST_CSTDFLOAT_IOSTREAM_2014_02_15_HPP_
-

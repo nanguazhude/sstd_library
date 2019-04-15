@@ -63,4 +63,3 @@ namespace boost { namespace proto { namespace detail
 }}}
 
 #endif
-

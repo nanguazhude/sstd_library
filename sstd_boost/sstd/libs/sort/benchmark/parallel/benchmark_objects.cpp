@@ -563,4 +563,3 @@ int Test (std::vector<IA> &B, rightshift shift, compare comp,std::vector<double>
 */
     return 0;
 };
-

@@ -6,4 +6,3 @@
 #include <auto/remove_range.hpp>
 
 int main() { }
-

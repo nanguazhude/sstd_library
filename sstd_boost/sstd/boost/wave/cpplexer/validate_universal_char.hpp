@@ -320,4 +320,3 @@ typename StringT::size_type pos = name.find_first_of('\\');
 #endif
 
 #endif // !defined(VALIDATE_UNIVERSAL_CHAR_HPP_55F1B811_CD76_4C72_8344_CBC69CF3B339_INCLUDED)
-

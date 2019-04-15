@@ -22,4 +22,3 @@ template< typename Sequence > struct front;
 }}
 
 #endif // BOOST_MPL_FRONT_FWD_HPP_INCLUDED
-

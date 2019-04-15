@@ -77,4 +77,3 @@ BOOST_AUTO_TEST_CASE(using_named_params_and_bundled_properties_with_find_max_flo
     .weight_map(cost));
   BOOST_CHECK_EQUAL(flow_cost, 29);
 }
-

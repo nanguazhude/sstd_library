@@ -317,4 +317,3 @@ struct default_strategy<Box, Linear, box_tag, LinearTag, 2, 1, cartesian_tag, ca
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_CARTESIAN_DISJOINT_SEGMENT_BOX_HPP
-

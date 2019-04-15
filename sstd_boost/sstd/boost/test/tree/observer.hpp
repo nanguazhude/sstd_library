@@ -113,5 +113,3 @@ protected:
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_TEST_OBSERVER_HPP_021005GER
-
-

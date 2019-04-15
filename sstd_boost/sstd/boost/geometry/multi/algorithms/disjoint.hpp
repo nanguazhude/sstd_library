@@ -19,4 +19,3 @@
 #include <sstd/boost/geometry/algorithms/disjoint.hpp>
 
 #endif // BOOST_GEOMETRY_MULTI_ALGORITHMS_DISJOINT_HPP
-

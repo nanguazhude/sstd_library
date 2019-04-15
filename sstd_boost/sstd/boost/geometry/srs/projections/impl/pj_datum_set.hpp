@@ -453,4 +453,3 @@ inline void pj_datum_init(Params const& params, parameters<T> & projdef)
 }}} // namespace boost::geometry::projections
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_IMPL_PJ_DATUM_SET_HPP
-

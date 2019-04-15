@@ -66,4 +66,3 @@ struct name<Clock, true, true, true>  {
 };
 
 #endif
-

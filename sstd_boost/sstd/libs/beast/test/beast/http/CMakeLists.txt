@@ -45,4 +45,3 @@ add_executable (tests-beast-http
 )
 
 set_property(TARGET tests-beast-http PROPERTY FOLDER "tests")
-

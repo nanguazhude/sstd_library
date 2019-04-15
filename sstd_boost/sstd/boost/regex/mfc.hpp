@@ -184,4 +184,3 @@ ATL::CSimpleStringT<B, b> regex_replace(const ATL::CSimpleStringT<B, b>& s,
 } // namespace boost.
 
 #endif
-

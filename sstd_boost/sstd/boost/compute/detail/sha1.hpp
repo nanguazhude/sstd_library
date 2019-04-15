@@ -56,4 +56,3 @@ class sha1 {
 
 
 #endif // BOOST_COMPUTE_DETAIL_SHA1_HPP
-

@@ -402,4 +402,3 @@ namespace boost {
 #endif
 
 #endif // BOOST_GRAPH_TRAITS_HPP
-

@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/algorithm/transformation/remove.hpp>
 
 #endif
-

@@ -56,4 +56,3 @@ int main(int,char*[])
 
   write_graphviz(std::cout, g, make_label_writer(name));
 }
-

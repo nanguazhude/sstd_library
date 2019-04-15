@@ -101,4 +101,3 @@ namespace boost
 } // namespace boost
 
 #endif // BOOST_DETAIL_ADJACENCY_ITERATOR_HPP
-

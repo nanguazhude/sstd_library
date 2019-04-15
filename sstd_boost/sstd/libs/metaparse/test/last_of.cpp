@@ -67,6 +67,3 @@ BOOST_METAPARSE_TEST_CASE(last_of)
     >
   ));
 }
-
-
-

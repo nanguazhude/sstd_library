@@ -37,4 +37,3 @@ struct base_unit_info<us::cup_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNITS_BASE_UNITS_US_CUP_HPP_INCLUDED
-

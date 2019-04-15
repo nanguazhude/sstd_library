@@ -46,4 +46,3 @@ struct static_esri
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_SRS_PROJECTIONS_ESRI_PARAMS_HPP
-

@@ -89,4 +89,3 @@ using extract::rolling_sum;
 }} // namespace boost::accumulators
 
 #endif
-

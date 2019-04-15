@@ -79,4 +79,3 @@ MPL_TEST_CASE()
     MPL_ASSERT_RELATION( deref<i2>::type::value, ==, 1 );
     MPL_ASSERT(( is_same< i3, end<l2>::type > ));
 }
-

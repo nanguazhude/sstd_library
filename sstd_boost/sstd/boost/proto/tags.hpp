@@ -155,4 +155,3 @@ namespace boost { namespace proto { namespace tagns_ { namespace tag
 }}}}
 
 #endif
-

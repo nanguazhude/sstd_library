@@ -243,4 +243,3 @@ BOOST_AUTO_TEST_CASE(test_input_overload_all)
         any<test_concept, const _b&> wis(get<1>(t));
     }
 }
-

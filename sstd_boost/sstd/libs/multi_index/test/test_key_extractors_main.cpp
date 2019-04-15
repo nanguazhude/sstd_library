@@ -16,4 +16,3 @@ int main()
   test_key_extractors();
   return boost::report_errors();
 }
-

@@ -91,4 +91,3 @@ namespace boost
 #endif
 
 #endif // include guard
-

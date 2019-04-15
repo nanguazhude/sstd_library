@@ -106,4 +106,3 @@ int main(int, const char **) {
   printf("spreadsort elapsed time %f\n", spreadsort_time);
   return 0;
 }
-

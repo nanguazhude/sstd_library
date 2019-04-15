@@ -23,4 +23,3 @@ int main() {
         hana::insert(xs, hana::int_c<0>) == hana::make_set(hana::int_c<0>, hana::type_c<int>)
     );
 }
-

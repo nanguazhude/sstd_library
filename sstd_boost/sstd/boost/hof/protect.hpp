@@ -78,4 +78,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(protect, detail::make<protect_adaptor>);
 
 }} // namespace boost::hof
 #endif
-

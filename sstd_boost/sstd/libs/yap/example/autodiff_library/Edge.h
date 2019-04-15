@@ -31,4 +31,3 @@ public:
 
 } /* namespace AutoDiff */
 #endif /* EDGE_H_ */
-

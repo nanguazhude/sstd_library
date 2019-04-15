@@ -29,4 +29,3 @@
 /**/
 
 #endif // BOOST_TTI_DATA_GEN_HPP
-

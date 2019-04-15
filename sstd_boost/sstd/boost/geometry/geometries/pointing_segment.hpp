@@ -140,4 +140,3 @@ struct indexed_access<model::pointing_segment<Point>, 1, Dimension>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_POINTING_SEGMENT_HPP
-

@@ -44,4 +44,3 @@ void reset_counters()
 {  A::count = 0; B::count = 0; I::count = 0; }
 
 #endif   //BOOST_MOVE_UNIQUE_PTR_TEST_UTILS_END_HPP
-

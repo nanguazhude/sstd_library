@@ -241,6 +241,3 @@ namespace boost { namespace spirit
 }} // namespace boost::spirit
 
 #endif
-
-
-

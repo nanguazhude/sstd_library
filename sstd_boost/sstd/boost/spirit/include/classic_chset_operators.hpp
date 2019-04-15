@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_CHSET_OPERATORS
 #include <sstd/boost/spirit/home/classic/utility/chset_operators.hpp>
 #endif
-

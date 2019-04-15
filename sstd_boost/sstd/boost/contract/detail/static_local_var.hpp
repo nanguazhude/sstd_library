@@ -38,5 +38,3 @@ struct static_local_var_init {
 } } } // namespace
 
 #endif // #include guard
-
-

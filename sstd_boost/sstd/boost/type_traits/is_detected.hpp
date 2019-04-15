@@ -27,4 +27,3 @@ constexpr bool is_detected_v = is_detected<Op, Args...>::value;
 } /* boost */
 
 #endif
-

@@ -52,4 +52,3 @@ struct disambiguater
 #endif // -__DECCXX_VER
 
 #endif // -BOOST_MSVC_DISAMBIGUATER_HPP
-

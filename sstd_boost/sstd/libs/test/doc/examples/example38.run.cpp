@@ -20,4 +20,3 @@ BOOST_AUTO_TEST_CASE( test )
                       "sin(45){" << res << "} is > 0.71. Arg is not in radian?" );
 }
 //]
-

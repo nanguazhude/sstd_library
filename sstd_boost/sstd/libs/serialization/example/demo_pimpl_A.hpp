@@ -22,4 +22,3 @@ struct A {
 };
 
 #endif // BOOST_SERIALIZATION_EXAMPLE_DEMO_PIMPL_A_HPP
-

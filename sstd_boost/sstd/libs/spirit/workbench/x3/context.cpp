@@ -48,5 +48,3 @@ void test()
 //      movl    $123,   _bb
 //      movl    $456,   _cc
 }
-
-

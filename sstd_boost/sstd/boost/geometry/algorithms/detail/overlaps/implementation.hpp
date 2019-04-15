@@ -154,4 +154,3 @@ struct overlaps<Box1, Box2, box_tag, box_tag>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAPS_IMPLEMENTATION_HPP
-

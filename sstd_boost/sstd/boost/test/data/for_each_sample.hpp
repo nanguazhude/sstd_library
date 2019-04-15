@@ -114,5 +114,3 @@ for_each_sample( DataSet &&     samples,
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_DATA_FOR_EACH_SAMPLE_HPP_102211GER
-
-

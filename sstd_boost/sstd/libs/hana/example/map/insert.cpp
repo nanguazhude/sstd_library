@@ -30,4 +30,3 @@ int main() {
 
     BOOST_HANA_RUNTIME_CHECK(hana::insert(m, hana::make_pair(hana::type_c<void>, 'x')) == m);
 }
-

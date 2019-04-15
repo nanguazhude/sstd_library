@@ -116,4 +116,3 @@ private:
        //   || defined(GENERATING_DOCUMENTATION)
 
 #endif // BOOST_ASIO_WINDOWS_OVERLAPPED_PTR_HPP
-

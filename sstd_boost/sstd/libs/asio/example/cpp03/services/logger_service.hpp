@@ -144,4 +144,3 @@ private:
 } // namespace services
 
 #endif // SERVICES_LOGGER_SERVICE_HPP
-

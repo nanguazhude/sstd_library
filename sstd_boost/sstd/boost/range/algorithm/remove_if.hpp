@@ -73,4 +73,3 @@ remove_if(const ForwardRange& rng, UnaryPredicate pred)
 } // namespace boost
 
 #endif // include guard
-

@@ -35,4 +35,3 @@
 #include <sstd/boost/spirit/home/classic/attribute/closure.hpp>
 
 #endif // !defined(BOOST_SPIRIT_ATTRIBUTE_MAIN_HPP)
-

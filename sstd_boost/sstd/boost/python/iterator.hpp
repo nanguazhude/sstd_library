@@ -133,4 +133,3 @@ struct iterator : object
 }} // namespace boost::python
 
 #endif // ITERATOR_DWA2002512_HPP
-

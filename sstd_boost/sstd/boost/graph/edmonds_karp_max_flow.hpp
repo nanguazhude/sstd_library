@@ -247,4 +247,3 @@ namespace boost {
 } // namespace boost
 
 #endif // EDMONDS_KARP_MAX_FLOW_HPP
-

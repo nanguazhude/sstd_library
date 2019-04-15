@@ -174,5 +174,3 @@ namespace boost { namespace spirit { namespace qi
 #undef N
 
 #endif
-
-

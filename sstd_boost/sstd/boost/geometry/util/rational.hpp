@@ -177,4 +177,3 @@ struct converter<double, rational<T>, Traits, OverflowHandler, Float2IntRounder,
 
 
 #endif // BOOST_GEOMETRY_UTIL_RATIONAL_HPP
-

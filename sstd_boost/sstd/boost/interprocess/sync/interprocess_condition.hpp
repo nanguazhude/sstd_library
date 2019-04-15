@@ -162,4 +162,3 @@ class interprocess_condition
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif // BOOST_INTERPROCESS_CONDITION_HPP
-

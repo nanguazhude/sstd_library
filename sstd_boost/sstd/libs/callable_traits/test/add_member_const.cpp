@@ -101,4 +101,3 @@ int main() {
     }
 #endif //#ifndef BOOST_CLBL_TRTS_DISABLE_ABOMINABLE_FUNCTIONS
 }
-

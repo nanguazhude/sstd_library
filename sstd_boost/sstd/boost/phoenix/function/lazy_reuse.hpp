@@ -294,4 +294,3 @@ struct Thunk4 : public ThunkImpl<R> {
 }
 
 #endif
-

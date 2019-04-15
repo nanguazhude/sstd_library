@@ -1360,4 +1360,3 @@ static void reportWindowsError( char const * const apiName, int slot )
 
 
 #endif /* USE_EXECNT */
-

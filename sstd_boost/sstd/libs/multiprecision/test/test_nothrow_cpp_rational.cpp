@@ -205,5 +205,3 @@ BOOST_STATIC_ASSERT(noexcept(std::declval<checked_urat512_t>() = std::declval<bo
 #endif
 #endif // little endian
 #endif // noexcept
-
-

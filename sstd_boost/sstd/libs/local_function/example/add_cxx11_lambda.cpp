@@ -31,5 +31,3 @@ int main(void) {                            // Some local scope.
 //]
 
 #endif
-
-

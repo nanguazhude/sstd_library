@@ -343,4 +343,3 @@ deprecated_async_op_ex_3(boost::asio::io_context& ctx,
 #endif // !defined(BOOST_ASIO_NO_DEPRECATED)
 
 #endif // ARCHETYPES_DEPRECATED_ASYNC_OPS_HPP
-

@@ -24,4 +24,3 @@ void print_bored(const std::string& s) {
 BOOST_DLL_ALIAS_SECTIONED(print_howdy, howdy, Anna)
 BOOST_DLL_ALIAS_SECTIONED(print_bored, are_you_bored, Anna)
 //]
-

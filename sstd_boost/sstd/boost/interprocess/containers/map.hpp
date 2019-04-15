@@ -35,4 +35,3 @@ using boost::container::multimap;
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif //   #ifndef  BOOST_INTERPROCESS_CONTAINERS_MAP_HPP
-

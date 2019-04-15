@@ -226,4 +226,3 @@
 #define BOOST_AUTO_TPL(Var, Expr) BOOST_TYPEOF_TPL(Expr) Var = Expr
 
 #endif//BOOST_TYPEOF_TYPEOF_HPP_INCLUDED
-

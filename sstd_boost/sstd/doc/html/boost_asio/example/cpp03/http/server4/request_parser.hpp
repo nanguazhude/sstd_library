@@ -76,4 +76,3 @@ private:
 } // namespace http
 
 #endif // HTTP_SERVER4_REQUEST_PARSER_HPP
-

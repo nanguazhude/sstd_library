@@ -143,4 +143,3 @@ int main() {
   printf("Number of Voronoi edges: %lu.\n", vd.num_edges());
   return 0;
 }
-

@@ -85,4 +85,3 @@ BOOST_AUTO_TEST_CASE(test_valid_output) {
         }
     }
 }
-

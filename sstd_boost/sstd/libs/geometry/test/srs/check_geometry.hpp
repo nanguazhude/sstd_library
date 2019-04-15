@@ -160,4 +160,3 @@ inline void check_geometry(Geometry const& g1, std::string const& wkt2, T tol)
 
 
 #endif // BOOST_GEOMETRY_TEST_SRS_CHECK_GEOMETRY_HPP
-

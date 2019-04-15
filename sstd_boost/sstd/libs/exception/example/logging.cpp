@@ -23,4 +23,3 @@ g()
         std::cerr << diagnostic_information(e);
         }
     }
-

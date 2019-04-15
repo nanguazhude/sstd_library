@@ -44,4 +44,3 @@ BOOST_PYTHON_BUILTIN_OBJECT_TRAITS(Tuple);
 }}} // namespace boost::python::converter
 
 #endif // PYOBJECT_TRAITS_DWA2002720_HPP
-

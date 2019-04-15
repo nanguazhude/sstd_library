@@ -12,6 +12,3 @@
 #include "../sstd/libs/thread/src/pthread/once.cpp"
 /*#include "../sstd/libs/thread/src/pthread/once_atomic.cpp"*/
 #endif
-
-
-

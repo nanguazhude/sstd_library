@@ -153,4 +153,3 @@ find_first_of(const SinglePassRange1 & rng1, const ForwardRange2& rng2,
 } // namespace boost
 
 #endif // include guard
-

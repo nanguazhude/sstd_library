@@ -26,4 +26,3 @@ BOOST_TYPEOF_REGISTER_TYPE(boost::units::us::pint_base_unit)
 #endif
 
 #endif // BOOST_UNITS_BASE_UNITS_US_PINT_HPP_INCLUDED
-

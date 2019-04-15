@@ -111,4 +111,3 @@ public:
 } // namespace boost
 
 #endif // #ifndef BOOST_TYPE_TRAITS_DETAIL_COMPOSITE_MEMBER_POINTER_TYPE_HPP_INCLUDED
-

@@ -187,4 +187,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(capture, detail::capture_f<detail::pack_f>);
 }} // namespace boost::hof
 
 #endif
-

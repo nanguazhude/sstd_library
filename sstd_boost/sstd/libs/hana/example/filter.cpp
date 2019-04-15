@@ -23,4 +23,3 @@ static_assert(hana::filter(hana::just(3), is_integral) == hana::just(3), "");
 BOOST_HANA_CONSTANT_CHECK(hana::filter(hana::just(3.0), is_integral) == hana::nothing);
 
 int main() { }
-

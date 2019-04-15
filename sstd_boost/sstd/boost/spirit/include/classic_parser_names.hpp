@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_PARSER_NAMES
 #include <sstd/boost/spirit/home/classic/debug/parser_names.hpp>
 #endif
-

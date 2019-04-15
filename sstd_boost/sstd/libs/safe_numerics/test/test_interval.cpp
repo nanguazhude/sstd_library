@@ -184,4 +184,3 @@ int main(int, char *[]){
     std::cout << (t.m_error_count == 0 ? "success!" : "failure") << std::endl;
     return t.m_error_count ;
 }
-

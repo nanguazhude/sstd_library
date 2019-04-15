@@ -22,4 +22,3 @@
 //H 03: "some_include_file.h"
 //H 04: "some_include_file.h"
 //H 18: boost::wave::preprocess_exception
-

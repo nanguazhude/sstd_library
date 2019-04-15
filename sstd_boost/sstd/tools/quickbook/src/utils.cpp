@@ -219,4 +219,3 @@ namespace quickbook
         }
     }
 }
-

@@ -40,4 +40,3 @@ work for a living.
 You can also of course use the Boost newsgroups
 to ask questions and make comments or suggestions
 about the library.
-

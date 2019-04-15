@@ -31,4 +31,3 @@ BOOST_UNITS_STATIC_CONSTANT(seconds,time);
 } // namespace boost
 
 #endif // BOOST_UNITS_CGS_TIME_HPP
-

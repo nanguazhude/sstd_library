@@ -140,4 +140,3 @@ inline std::size_t num_interior_rings(Geometry const& geometry)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_NUM_INTERIOR_RINGS_HPP
-

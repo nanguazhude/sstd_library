@@ -17,4 +17,3 @@
 #include <sstd/boost/spirit/home/qi/directive/as.hpp>
 
 #endif
-

@@ -168,4 +168,3 @@ BOOST_STATIC_ASSERT(! is_sync_write_stream<not_a_stream>::value);
 
 } // beast
 } // boost
-

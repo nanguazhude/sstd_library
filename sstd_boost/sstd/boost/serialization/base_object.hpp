@@ -98,4 +98,3 @@ base_object(Derived &d)
 } // namespace boost
 
 #endif // BOOST_SERIALIZATION_BASE_OBJECT_HPP
-

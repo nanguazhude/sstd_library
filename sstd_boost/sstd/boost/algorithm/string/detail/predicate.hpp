@@ -75,4 +75,3 @@ namespace boost {
 
 
 #endif  // BOOST_STRING_PREDICATE_DETAIL_HPP
-

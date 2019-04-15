@@ -64,5 +64,3 @@ using index_sequence_for = typename make_index_sequence<0, sizeof...(T)>::type;
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_DATA_INDEX_SEQUENCE_HPP
-
-

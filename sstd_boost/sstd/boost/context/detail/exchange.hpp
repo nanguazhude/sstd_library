@@ -34,4 +34,3 @@ T exchange( T & t, U && nv) {
 #endif
 
 #endif // BOOST_CONTEXT_DETAIL_EXCHANGE_H
-

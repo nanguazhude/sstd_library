@@ -45,4 +45,3 @@ int main() {
         obj(ct_eq<0>{}, ct_eq<1>{})
     )));
 }
-

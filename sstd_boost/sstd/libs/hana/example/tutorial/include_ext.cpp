@@ -14,4 +14,3 @@ int main() {
   static_assert(hana::front(xs) == 1, "");
 }
 //! [main]
-

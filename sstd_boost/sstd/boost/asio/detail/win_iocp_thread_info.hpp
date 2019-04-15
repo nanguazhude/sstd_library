@@ -34,4 +34,3 @@ struct win_iocp_thread_info : public thread_info_base
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_WIN_IOCP_THREAD_INFO_HPP
-

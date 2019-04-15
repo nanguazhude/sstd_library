@@ -169,4 +169,3 @@ using executors::inline_executor;
 #include <sstd/boost/config/abi_suffix.hpp>
 
 #endif
-

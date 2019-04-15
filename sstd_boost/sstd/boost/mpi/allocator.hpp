@@ -208,4 +208,3 @@ using std::allocator;
 } } /// end namespace boost::mpi
 
 #endif // BOOST_MPI_ALLOCATOR_HPP
-

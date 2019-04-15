@@ -12,4 +12,3 @@
 
 typedef std::string::const_iterator iterator_type;
 template struct client::parser::function<iterator_type>;
-

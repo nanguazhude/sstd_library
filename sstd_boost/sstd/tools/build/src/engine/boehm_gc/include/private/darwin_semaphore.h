@@ -66,4 +66,3 @@ static int sem_destroy(sem_t *sem) {
 }
 
 #endif
-

@@ -16,5 +16,3 @@ using std::shared_ptr;
 
 #include "shared_ptr.hpp"
 #include "module_tail.cpp"
-
-

@@ -78,5 +78,3 @@ suite_list::insert(
 } // boost
 
 #endif
-
-

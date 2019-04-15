@@ -75,8 +75,3 @@ BOOST_AUTO_TEST_CASE( test_main )
 
    test_gamma(mp_type(0), name);
 }
-
-
-
-
-

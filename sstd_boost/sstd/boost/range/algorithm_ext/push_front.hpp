@@ -39,4 +39,3 @@ inline Container& push_front( Container& on, const Range& from )
 } // namespace boost
 
 #endif // include guard
-

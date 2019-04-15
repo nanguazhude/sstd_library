@@ -186,4 +186,3 @@ int main()
 
     return detect_errors(mem_fn(&X::hash)(x) == 17610 && mem_fn(&X::hash)(sp) == 2155);
 }
-

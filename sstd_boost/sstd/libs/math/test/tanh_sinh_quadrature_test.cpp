@@ -986,4 +986,3 @@ BOOST_AUTO_TEST_CASE(tanh_sinh_quadrature_test)
 int main() { return 0; }
 
 #endif
-

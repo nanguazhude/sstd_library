@@ -39,4 +39,3 @@ struct dummy_observer
 
 
 #endif // LIBS_NUMERIC_ODEINT_TEST_DUMMY_OBSERVERS_HPP_DEFINED
-

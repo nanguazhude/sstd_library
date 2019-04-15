@@ -586,4 +586,3 @@ new_lexer_gen<Iterator, Position>::new_lexer(Iterator const &first,
 }   // namespace boost
 
 #endif // !defined(XLEX_LEXER_HPP)
-

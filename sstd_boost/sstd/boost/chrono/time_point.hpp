@@ -377,4 +377,3 @@ namespace chrono {
 #endif
 
 #endif // BOOST_CHRONO_TIME_POINT_HPP
-

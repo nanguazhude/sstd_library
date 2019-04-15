@@ -36,4 +36,3 @@ class mutex: public dummy_mutex
 } // namespace boost
 
 #endif // #ifndef BOOST_SIGNALS2_LWM_NOP_HPP
-

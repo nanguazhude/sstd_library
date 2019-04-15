@@ -576,4 +576,3 @@ public:
 #endif
 
 #endif  // BOOST_INTEGER_COMMON_FACTOR_RT_HPP
-

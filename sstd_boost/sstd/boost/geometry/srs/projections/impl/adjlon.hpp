@@ -68,4 +68,3 @@ inline T adjlon (T lon)
 }}} // namespace boost::geometry::projections
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_IMPL_ADJLON_HPP
-

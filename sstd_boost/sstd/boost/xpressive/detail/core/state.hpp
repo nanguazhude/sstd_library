@@ -399,4 +399,3 @@ inline Traits const &traits_cast(match_state<BidiIter> const &state)
 }}} // namespace boost::xpressive::detail
 
 #endif
-

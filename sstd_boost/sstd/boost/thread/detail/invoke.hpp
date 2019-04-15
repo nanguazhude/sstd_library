@@ -1602,4 +1602,3 @@ namespace boost
     }
 
 #endif // header
-

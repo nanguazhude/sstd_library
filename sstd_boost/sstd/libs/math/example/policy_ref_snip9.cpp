@@ -34,4 +34,3 @@ int main()
 Output:
      tgamma(12, my_pol_5() = 3.9917e+007
 */
-

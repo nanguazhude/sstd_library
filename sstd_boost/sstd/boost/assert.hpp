@@ -83,4 +83,3 @@ namespace boost
 # define BOOST_VERIFY_MSG(expr, msg) BOOST_ASSERT_MSG(expr,msg)
 
 #endif
-

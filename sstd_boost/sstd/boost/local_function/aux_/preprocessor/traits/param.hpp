@@ -33,5 +33,3 @@
             param_traits)(/* expand EMPTY */)
 
 #endif // #include guard
-
-

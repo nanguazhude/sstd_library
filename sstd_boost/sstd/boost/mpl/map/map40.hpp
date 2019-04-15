@@ -42,4 +42,3 @@ namespace boost { namespace mpl {
 #endif // BOOST_MPL_CFG_NO_PREPROCESSED_HEADERS
 
 #endif // BOOST_MPL_MAP_MAP40_HPP_INCLUDED
-

@@ -327,4 +327,3 @@ namespace detail {
 
 
 #endif  // BOOST_FORMAT_IMPLEMENTATION_HPP
-

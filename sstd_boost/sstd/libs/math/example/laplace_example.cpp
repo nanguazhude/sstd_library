@@ -166,5 +166,3 @@ Area for laplace z = 2 is 0.932332
 95% of laplace area has a z between 2.99573 and -2.99573
 
 */
-
-

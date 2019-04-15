@@ -511,4 +511,3 @@ delta_stepping_shortest_paths
 } } } // end namespace boost::graph::distributed
 
 #endif // BOOST_GRAPH_DELTA_STEPPING_SHORTEST_PATHS_HPP
-

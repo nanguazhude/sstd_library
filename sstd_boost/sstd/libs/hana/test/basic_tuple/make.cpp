@@ -16,4 +16,3 @@ int main() {
     auto xs3 = hana::make<hana::basic_tuple_tag>(x<0>{}, x<1>{}); (void)xs3;
     auto xs4 = hana::make<hana::basic_tuple_tag>(x<0>{}, x<1>{}, x<2>{}); (void)xs4;
 }
-

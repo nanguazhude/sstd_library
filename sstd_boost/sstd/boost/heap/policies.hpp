@@ -168,4 +168,3 @@ struct arity{};
 } /* namespace boost */
 
 #endif /* BOOST_HEAP_POLICIES_HPP */
-

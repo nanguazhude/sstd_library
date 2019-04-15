@@ -31,5 +31,3 @@ int main( int, char *[] )
 {
    return boost_no_integral_int64_t::test();
 }
-
-

@@ -277,4 +277,3 @@
 #endif
 
 #endif // BOOST_CONFIG_WORKAROUND_HPP
-

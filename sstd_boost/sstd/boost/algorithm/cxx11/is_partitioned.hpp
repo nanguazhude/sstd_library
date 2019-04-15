@@ -56,4 +56,3 @@ BOOST_CXX14_CONSTEXPR bool is_partitioned ( const Range &r, UnaryPredicate p )
 }}
 
 #endif  // BOOST_ALGORITHM_IS_PARTITIONED_HPP
-

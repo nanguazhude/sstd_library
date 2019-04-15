@@ -13,4 +13,3 @@ int main()
    test_complex_type<mpc_complex>();
    return 0;
 }
-

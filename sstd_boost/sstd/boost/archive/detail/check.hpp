@@ -167,4 +167,3 @@ inline void check_const_loading(){
 } // boost
 
 #endif // BOOST_ARCHIVE_DETAIL_CHECK_HPP
-

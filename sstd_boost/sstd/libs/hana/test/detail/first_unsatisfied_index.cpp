@@ -45,4 +45,3 @@ int main() {
     static_assert(decltype(Find{}(ct_eq<0>{}, ct_eq<1>{}, ct_eq<2>{}, ct_eq<9>{}))::value == 3, "");
     static_assert(decltype(Find{}(ct_eq<0>{}, ct_eq<1>{}, ct_eq<2>{}, ct_eq<3>{}))::value == 4, "");
 }
-

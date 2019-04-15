@@ -11,6 +11,3 @@ int main()
 {
    return boost::is_virtual_base_of<UDT, incomplete_type>::value;
 }
-
-
-

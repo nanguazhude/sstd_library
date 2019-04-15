@@ -108,4 +108,3 @@ inline UnaryFunction for_each(const SinglePassRange& rng, UnaryFunction fun)
 } // namespace boost
 
 #endif // include guard
-

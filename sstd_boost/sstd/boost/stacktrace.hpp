@@ -17,4 +17,3 @@
 #include <sstd/boost/stacktrace/safe_dump_to.hpp>
 
 #endif // BOOST_STACKTRACE_HPP
-

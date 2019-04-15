@@ -69,4 +69,3 @@ main()
   fout << "}\n";
   return EXIT_SUCCESS;
 }
-

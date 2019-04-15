@@ -9,4 +9,3 @@ struct class_type
 {};
 
 }}
-

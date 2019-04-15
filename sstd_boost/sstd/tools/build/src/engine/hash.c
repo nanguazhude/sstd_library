@@ -386,4 +386,3 @@ void hashdone( struct hash * hp )
         hashstat( hp );
     hash_free( hp );
 }
-

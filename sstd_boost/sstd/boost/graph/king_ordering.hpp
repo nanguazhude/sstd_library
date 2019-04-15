@@ -314,4 +314,3 @@ namespace boost {
 
 
 #endif // BOOST_GRAPH_KING_HPP
-

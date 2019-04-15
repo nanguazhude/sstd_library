@@ -27,5 +27,3 @@ std::string x = f((_s1="hello,", _s2=" world", _s3="hi world"));
 
 int main()
 {}
-
-

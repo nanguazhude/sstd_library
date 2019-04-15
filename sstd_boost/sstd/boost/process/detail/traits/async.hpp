@@ -32,4 +32,3 @@ template<> struct initializer_tag<::boost::asio::io_context> { typedef async_tag
 
 
 #endif /* BOOST_PROCESS_DETAIL_HANDLER_HPP_ */
-

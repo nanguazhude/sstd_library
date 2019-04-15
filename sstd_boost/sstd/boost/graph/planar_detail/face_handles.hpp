@@ -495,4 +495,3 @@ namespace boost { namespace graph { namespace detail {
 
 
 #endif //__FACE_HANDLES_HPP__
-

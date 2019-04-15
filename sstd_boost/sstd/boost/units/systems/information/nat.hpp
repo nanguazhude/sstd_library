@@ -31,4 +31,3 @@ BOOST_UNITS_STATIC_CONSTANT(nats, hu::nat::info);
 } // namespace boost
 
 #endif // BOOST_UNITS_SYSTEMS_INFORMATION_NAT_HPP_INCLUDED
-

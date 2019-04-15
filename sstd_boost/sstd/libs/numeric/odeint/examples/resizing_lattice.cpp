@@ -167,4 +167,3 @@ int main()
 
     cout << "final lattice size: " << distr.size() << ", final energy: " << lattice.energy( state.first , state.second ) << endl;
 }
-

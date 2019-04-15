@@ -217,4 +217,3 @@ inline bool windows_named_sync::remove(const char *name)
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_WINDOWS_NAMED_SYNC_HPP
-

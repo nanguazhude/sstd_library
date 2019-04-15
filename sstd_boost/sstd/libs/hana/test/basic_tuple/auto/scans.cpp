@@ -6,4 +6,3 @@
 #include <auto/scans.hpp>
 
 int main() { }
-

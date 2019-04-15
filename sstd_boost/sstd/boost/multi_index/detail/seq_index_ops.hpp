@@ -201,4 +201,3 @@ void sequenced_index_sort(Node* header,Compare comp)
 } /* namespace boost */
 
 #endif
-

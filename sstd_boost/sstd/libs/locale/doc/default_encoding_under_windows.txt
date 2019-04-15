@@ -62,5 +62,3 @@ then the default locale would be "en_US.windows-1252"
 \note \c winapi backend does not support ANSI encodings, thus UTF-8 encoding is always used for narrow characters.
 
 */
-
-

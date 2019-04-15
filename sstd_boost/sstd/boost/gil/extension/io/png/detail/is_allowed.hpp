@@ -43,4 +43,3 @@ bool is_allowed( const image_read_info< png_tag >& /* info */
 } // namespace boost
 
 #endif
-

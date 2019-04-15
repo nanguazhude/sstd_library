@@ -107,4 +107,3 @@ target_sources(gil_test_ext_io_tiff PRIVATE
 target_link_libraries(gil_test_ext_io_tiff PRIVATE ${_boost_deps} ${_tiff_deps} ${_tiffxx_library})
 target_include_directories(gil_test_ext_io_tiff PRIVATE ${_tiffxx_include_dir})
 add_test(tests.ext.io.tiff gil_test_ext_io_tiff)
-

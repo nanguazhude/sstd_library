@@ -103,4 +103,3 @@ struct async_in_buffer : ::boost::process::detail::windows::handler_base_ext,
 }}}}
 
 #endif
-

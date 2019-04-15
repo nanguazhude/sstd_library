@@ -86,4 +86,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( init_test , InitStepper,
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

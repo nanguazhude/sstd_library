@@ -223,4 +223,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(discrete_distributions, distribution_type, other_d
 }
 
 #endif
-

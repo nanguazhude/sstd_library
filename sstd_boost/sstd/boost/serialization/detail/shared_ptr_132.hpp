@@ -441,4 +441,3 @@ template<class D, class T> D * get_deleter(shared_ptr< T > const & p)
 #endif  // #if defined(BOOST_NO_MEMBER_TEMPLATES) && !defined(BOOST_MSVC6_MEMBER_TEMPLATES)
 
 #endif  // #ifndef BOOST_SHARED_PTR_132_HPP_INCLUDED
-

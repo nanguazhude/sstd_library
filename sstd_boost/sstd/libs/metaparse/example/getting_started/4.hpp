@@ -18,5 +18,3 @@ using exp_parser3 = build_parser<entire_input<token<int_>>>;
 //    exp_parser3::apply<BOOST_METAPARSE_STRING("11 ")>::type
 
 #endif
-
-

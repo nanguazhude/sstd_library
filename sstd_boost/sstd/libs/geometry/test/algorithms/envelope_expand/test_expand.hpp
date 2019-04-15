@@ -69,4 +69,3 @@ void test_expand_other_strategy(Box& box,
 
 
 #endif
-

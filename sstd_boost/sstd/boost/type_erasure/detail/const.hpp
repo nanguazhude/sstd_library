@@ -120,4 +120,3 @@ struct maybe_const_this_param<Placeholder&&, Base>
 }
 
 #endif
-

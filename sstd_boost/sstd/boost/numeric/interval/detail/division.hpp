@@ -192,4 +192,3 @@ interval<T, Policies> div_zero_part2(const interval<T, Policies>& x,
 } // namespace boost
 
 #endif // BOOST_NUMERIC_INTERVAL_DETAIL_DIVISION_HPP
-

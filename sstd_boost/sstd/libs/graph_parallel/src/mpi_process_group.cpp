@@ -1111,4 +1111,3 @@ int mpi_process_group::old_buffer_size=0;
 void* mpi_process_group::old_buffer=0;
 
 } } } // end namespace boost::graph::distributed
-

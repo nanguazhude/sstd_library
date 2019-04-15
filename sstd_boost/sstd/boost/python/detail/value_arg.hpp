@@ -24,4 +24,3 @@ struct value_arg
 }}} // namespace boost::python::detail
 
 #endif // VALUE_ARG_DWA2004312_HPP
-

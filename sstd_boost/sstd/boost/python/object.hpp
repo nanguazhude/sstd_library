@@ -25,4 +25,3 @@ namespace boost { namespace python {
 }} // namespace boost::python
 
 #endif // OBJECT_DWA2002612_HPP
-

@@ -177,4 +177,3 @@ BOOST_AUTO_TEST_CASE(detached, *boost::unit_test::timeout(5))
     if (c.running())
         c.terminate();
 }
-

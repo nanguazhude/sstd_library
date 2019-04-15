@@ -57,4 +57,3 @@ operator<<(std::ostream& s, amount const& t)
 } // boost
 
 #endif
-

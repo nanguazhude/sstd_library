@@ -122,4 +122,3 @@ BOOST_MPL_ASSERT((
 #endif
 
 BOOST_MPL_ASSERT((boost::is_same<c2::copyable, void>));
-

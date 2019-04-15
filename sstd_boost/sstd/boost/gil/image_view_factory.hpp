@@ -525,4 +525,3 @@ typename kth_channel_view_type<K,View>::type kth_channel_view(const View& src) {
 } }  // namespace boost::gil
 
 #endif
-

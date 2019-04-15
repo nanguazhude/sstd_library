@@ -184,4 +184,3 @@ conversion_factor(const FromUnit&,const ToUnit&)
 } // namespace boost
 
 #endif // BOOST_UNITS_CONVERSION_HPP
-

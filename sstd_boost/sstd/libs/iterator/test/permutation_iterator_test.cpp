@@ -101,4 +101,3 @@ int test_main(int, char *[])
   permutation_test();
   return 0;
 }
-

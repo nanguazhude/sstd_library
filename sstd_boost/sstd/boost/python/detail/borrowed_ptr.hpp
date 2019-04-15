@@ -78,4 +78,3 @@ inline T* get_managed_object(detail::borrowed<T> const volatile* p, tag_t)
 }} // namespace boost::python::detail
 
 #endif // #ifndef BORROWED_PTR_DWA20020601_HPP
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * CLMUL hook
 * (C) 2013 Jack Lloyd
 *

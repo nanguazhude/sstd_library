@@ -123,4 +123,3 @@ struct index_bind                                                             \
 /*===========================================================================*/
 
 #endif // BOOST_BIMAP_DETAIL_GENERATE_INDEX_BINDER_HPP
-

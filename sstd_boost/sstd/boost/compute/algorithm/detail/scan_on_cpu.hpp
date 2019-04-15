@@ -203,4 +203,3 @@ inline OutputIterator scan_on_cpu(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_SCAN_ON_CPU_HPP
-

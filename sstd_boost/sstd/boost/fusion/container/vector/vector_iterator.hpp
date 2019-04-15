@@ -59,5 +59,3 @@ namespace std
 #endif
 
 #endif
-
-

@@ -49,4 +49,3 @@ struct lockpool
 } // namespace boost
 
 #endif // BOOST_ATOMIC_DETAIL_LOCKPOOL_HPP_INCLUDED_
-

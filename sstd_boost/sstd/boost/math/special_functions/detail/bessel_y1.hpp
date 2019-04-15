@@ -199,5 +199,3 @@ T bessel_y1(T x, const Policy& pol)
 #endif
 
 #endif // BOOST_MATH_BESSEL_Y1_HPP
-
-

@@ -284,4 +284,3 @@ int main()
 
    //] [/lambert_w_graph_1_output]
    */
-

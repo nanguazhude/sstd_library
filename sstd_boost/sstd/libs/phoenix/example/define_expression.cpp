@@ -56,6 +56,3 @@ int main()
 
     std::cout << plus(5, 6)() << "\n";
 }
-
-
-

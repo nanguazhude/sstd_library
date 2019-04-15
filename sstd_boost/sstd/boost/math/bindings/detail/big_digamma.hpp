@@ -293,4 +293,3 @@ T big_digamma(T x)
 }}}
 
 #endif // include guard
-

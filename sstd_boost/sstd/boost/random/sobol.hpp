@@ -235,4 +235,3 @@ typedef sobol_engine<boost::uint_least64_t, 64u, default_sobol_table> sobol;
 } // namespace boost
 
 #endif // BOOST_RANDOM_SOBOL_HPP
-

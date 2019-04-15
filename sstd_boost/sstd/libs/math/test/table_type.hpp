@@ -27,4 +27,3 @@ struct table_type<boost::math::concepts::real_concept>
 };
 
 #endif
-

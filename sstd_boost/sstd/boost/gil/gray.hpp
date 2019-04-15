@@ -29,5 +29,3 @@ typedef layout<gray_t> gray_layout_t;
 } }  // namespace boost::gil
 
 #endif
-
-

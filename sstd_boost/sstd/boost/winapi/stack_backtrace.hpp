@@ -49,4 +49,3 @@ using ::RtlCaptureStackBackTrace;
 #endif // (BOOST_USE_NTDDI_VERSION > BOOST_WINAPI_NTDDI_WINXP)
 #endif // !defined( BOOST_WINAPI_IS_MINGW )
 #endif // BOOST_WINAPI_STACK_BACKTRACE_HPP_INCLUDED_
-

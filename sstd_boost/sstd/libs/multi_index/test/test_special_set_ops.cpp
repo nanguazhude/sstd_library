@@ -93,4 +93,3 @@ void test_special_set_ops()
   BOOST_TEST(es.count(2,employee::comp_id())==1);
   BOOST_TEST(es.count(5,employee::comp_id())==0);
 }
-

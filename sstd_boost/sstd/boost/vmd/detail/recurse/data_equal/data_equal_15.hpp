@@ -183,4 +183,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_DATA_EQUAL_15_HPP */
-

@@ -161,4 +161,3 @@ struct vector20_c
 };
 
 }}
-

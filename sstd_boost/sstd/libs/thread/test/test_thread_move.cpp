@@ -46,6 +46,3 @@ BOOST_AUTO_TEST_CASE(test_move_assign)
     y.join();
     BOOST_CHECK_EQUAL(the_id,y_id);
 }
-
-
-

@@ -411,4 +411,3 @@ std::size_t buffered_write_stream<Stream>::copy(
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IMPL_BUFFERED_WRITE_STREAM_HPP
-

@@ -89,4 +89,3 @@ struct random_access;
 } /* namespace boost */
 
 #endif
-

@@ -60,4 +60,3 @@ inline void test_disjoint_strategy(std::string const& wkt1,
     test_disjoint_check(bg::disjoint(geometry2, geometry1, strategy), expected_result,
                         geometry2, geometry1);
 }
-

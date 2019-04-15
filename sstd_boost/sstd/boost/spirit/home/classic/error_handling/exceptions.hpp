@@ -361,5 +361,3 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 
 #include <sstd/boost/spirit/home/classic/error_handling/impl/exceptions.ipp>
 #endif
-
-

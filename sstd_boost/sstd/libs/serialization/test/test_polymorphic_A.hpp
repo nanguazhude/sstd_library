@@ -27,5 +27,3 @@ struct data {
     ~data();
     bool operator==(const data & rhs) const;
 };
-
-

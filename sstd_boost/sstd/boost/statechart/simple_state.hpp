@@ -996,4 +996,3 @@ inline void intrusive_ptr_release( const ::boost::statechart::simple_state<
 
 
 #endif
-

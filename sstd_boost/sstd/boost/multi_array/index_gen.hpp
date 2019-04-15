@@ -79,4 +79,3 @@ public:
 
 
 #endif // BOOST_INDEX_GEN_RG071801_HPP
-

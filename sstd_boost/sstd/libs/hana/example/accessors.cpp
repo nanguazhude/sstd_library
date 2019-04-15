@@ -40,4 +40,3 @@ int main() {
     BOOST_HANA_RUNTIME_CHECK(get_name(john) == "John");
     BOOST_HANA_RUNTIME_CHECK(get_age(john) == 30);
 }
-

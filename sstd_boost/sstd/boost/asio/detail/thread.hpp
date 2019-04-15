@@ -60,4 +60,3 @@ typedef std_thread thread;
 } // namespace boost
 
 #endif // BOOST_ASIO_DETAIL_THREAD_HPP
-

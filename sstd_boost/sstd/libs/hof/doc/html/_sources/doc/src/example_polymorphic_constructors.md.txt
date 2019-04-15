@@ -35,4 +35,3 @@ has to be written over and over again for template classes:
 The [`construct`](include/boost/hof/construct) function takes care of all this boilerplate, and the above can be simply written like this:
 
     BOOST_HOF_STATIC_FUNCTION(make_tuple) = construct<std::tuple>();
-

@@ -311,8 +311,3 @@ The following bugs were fixed:
 
 Thanks to Christopher Currie, Pedro Ferreira and Michael Stevens, who
 contributed to this release.
-
-
-
-
-

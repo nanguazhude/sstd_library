@@ -31,5 +31,3 @@ int main( int, char *[] )
 {
    return boost_has_stdint_h::test();
 }
-
-

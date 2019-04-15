@@ -26,4 +26,3 @@
 #endif
 
 #endif // BOOST_TYPE_INDEX_RUNTIME_CAST_HPP
-

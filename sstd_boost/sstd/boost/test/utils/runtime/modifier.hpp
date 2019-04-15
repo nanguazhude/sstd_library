@@ -105,4 +105,3 @@ struct enum_values : unit_test::static_constant<
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_UTILS_RUNTIME_MODIFIER_HPP
-

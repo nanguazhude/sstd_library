@@ -125,4 +125,3 @@ class type_info;
 #endif /* ifndef BOOST_PP_VARIADICS */
 
 #endif // BOOST_TEST_CONFIG_HPP_071894GER
-

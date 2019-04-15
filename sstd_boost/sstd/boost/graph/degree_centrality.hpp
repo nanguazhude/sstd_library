@@ -127,6 +127,3 @@ inline void all_prestige_values(const Graph& g, CentralityMap cent)
 } /* namespace boost */
 
 #endif
-
-
-

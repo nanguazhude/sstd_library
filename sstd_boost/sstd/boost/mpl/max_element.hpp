@@ -70,4 +70,3 @@ BOOST_MPL_AUX_NA_SPEC(1, max_element)
 }}
 
 #endif // BOOST_MPL_MAX_ELEMENT_HPP_INCLUDED
-

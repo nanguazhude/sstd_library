@@ -644,4 +644,3 @@ BOOST_LOG_CLOSE_NAMESPACE // namespace log
 #endif
 
 #include <sstd/boost/log/detail/footer.hpp>
-

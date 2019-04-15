@@ -15,4 +15,3 @@
 #include "sstd/boost/dynamic_bitset/dynamic_bitset.hpp"
 
 #endif // include guard
-

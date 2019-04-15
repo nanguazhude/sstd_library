@@ -95,4 +95,3 @@
             proto::eval(proto::child_c< 0>(expr), ctx); proto::eval(proto::child_c< 1>(expr), ctx); proto::eval(proto::child_c< 2>(expr), ctx); proto::eval(proto::child_c< 3>(expr), ctx); proto::eval(proto::child_c< 4>(expr), ctx); proto::eval(proto::child_c< 5>(expr), ctx); proto::eval(proto::child_c< 6>(expr), ctx); proto::eval(proto::child_c< 7>(expr), ctx); proto::eval(proto::child_c< 8>(expr), ctx); proto::eval(proto::child_c< 9>(expr), ctx);
         }
     };
-

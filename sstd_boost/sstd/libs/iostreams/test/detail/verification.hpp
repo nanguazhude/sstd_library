@@ -381,4 +381,3 @@ bool test_dual_seekable(std::iostream& io)
 #endif
 
 #endif // #ifndef BOOST_IOSTREAMS_TEST_VERIFICATION_HPP_INCLUDED
-

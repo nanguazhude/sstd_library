@@ -71,4 +71,3 @@ inline std::string parameter_cache_path(bool create = false)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_DETAIL_PATH_HPP
-

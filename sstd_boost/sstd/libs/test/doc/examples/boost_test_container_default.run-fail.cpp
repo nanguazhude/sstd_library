@@ -25,4 +25,3 @@ BOOST_AUTO_TEST_CASE( test_collections_vectors )
   BOOST_TEST(a != c);
 }
 //]
-

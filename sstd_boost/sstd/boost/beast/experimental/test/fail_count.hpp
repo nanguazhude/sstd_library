@@ -63,4 +63,3 @@ public:
 #include <sstd/boost/beast/experimental/test/impl/fail_count.ipp>
 
 #endif
-

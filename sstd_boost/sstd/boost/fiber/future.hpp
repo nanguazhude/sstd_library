@@ -8,4 +8,3 @@
 #include <sstd/boost/fiber/future/future.hpp>
 #include <sstd/boost/fiber/future/packaged_task.hpp>
 #include <sstd/boost/fiber/future/promise.hpp>
-

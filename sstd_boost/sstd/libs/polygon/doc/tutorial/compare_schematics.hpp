@@ -94,4 +94,3 @@ inline bool compare_schematics(schematic_database& reference_schematic,
 }
 
 #endif
-

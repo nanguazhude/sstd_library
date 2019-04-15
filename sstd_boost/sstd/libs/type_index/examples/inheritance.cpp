@@ -45,4 +45,3 @@ int main() {
 }
 
 //] [/type_index_derived_example]
-

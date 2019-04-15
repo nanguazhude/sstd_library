@@ -55,4 +55,3 @@ random_fill(OutputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_RANDOM_FILL_HPP
-

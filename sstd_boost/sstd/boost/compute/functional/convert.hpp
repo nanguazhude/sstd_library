@@ -49,4 +49,3 @@ struct convert
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_FUNCTIONAL_CONVERT_HPP
-

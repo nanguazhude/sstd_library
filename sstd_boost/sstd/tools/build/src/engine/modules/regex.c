@@ -218,4 +218,3 @@ void init_regex()
         declare_native_rule( "regex", "transform", args, regex_transform, 2 );
     }
 }
-

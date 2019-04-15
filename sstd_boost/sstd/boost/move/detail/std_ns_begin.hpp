@@ -27,5 +27,3 @@
    #define BOOST_MOVE_STD_NS_BEG namespace std{
    #define BOOST_MOVE_STD_NS_END }
 #endif
-
-

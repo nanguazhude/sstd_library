@@ -101,4 +101,3 @@ int test_main(int argc, char* argv[])
   write_graphviz(out, g);
   return 0;
 }
-

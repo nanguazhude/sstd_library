@@ -120,5 +120,3 @@
 #endif  // auto-linking disabled
 
 #endif // BOOST_EX_CHRONO_CONFIG_HPP
-
-

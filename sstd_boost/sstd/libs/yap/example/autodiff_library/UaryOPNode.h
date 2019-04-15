@@ -50,4 +50,3 @@ private:
 
 } /* namespace AutoDiff */
 #endif /* UARYOPNODE_H_ */
-

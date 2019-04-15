@@ -366,4 +366,3 @@ inline void parse_charset
 }}} // namespace boost::xpressive::detail
 
 #endif
-

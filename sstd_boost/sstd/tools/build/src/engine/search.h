@@ -20,4 +20,3 @@ OBJECT * search( OBJECT * target, timestamp * const time,
 void search_done( void );
 
 #endif
-

@@ -131,4 +131,3 @@ struct set_kernel_arg<opengl_texture> : public set_kernel_arg<image_object> { };
 BOOST_COMPUTE_TYPE_NAME(boost::compute::opengl_texture, image2d_t)
 
 #endif // BOOST_COMPUTE_INTEROP_OPENGL_OPENGL_TEXTURE_HPP
-

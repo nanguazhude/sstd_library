@@ -62,4 +62,3 @@ private:
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_SSL_DETAIL_VERIFY_CALLBACK_HPP
-

@@ -17,4 +17,3 @@ add_executable (websocket-server-fast
 )
 
 set_property(TARGET websocket-server-fast PROPERTY FOLDER "example-websocket-server")
-

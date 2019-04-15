@@ -90,4 +90,3 @@ namespace function_detector {
                                        >::check
 
 #endif   //@ifndef BOOST_INTRUSIVE_DETAIL_FUNCTION_DETECTOR_HPP
-

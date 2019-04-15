@@ -16,4 +16,3 @@ inline void force_instantiate(T const&) {}
 }}} // namespace boost::python::detail
 
 #endif // FORCE_INSTANTIATE_DWA200265_HPP
-

@@ -218,4 +218,3 @@ private:
 #endif // defined(BOOST_ASIO_HAS_DEV_POLL)
 
 #endif // BOOST_ASIO_DETAIL_DEV_POLL_REACTOR_HPP
-

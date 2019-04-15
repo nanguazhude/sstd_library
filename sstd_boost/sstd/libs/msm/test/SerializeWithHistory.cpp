@@ -364,5 +364,3 @@ namespace
 // at the risk of a programming error creating duplicate objects.
 // this is to get rid of warning because p is not const
 BOOST_CLASS_TRACKING(player, boost::serialization::track_never)
-
-

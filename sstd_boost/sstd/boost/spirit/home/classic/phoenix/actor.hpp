@@ -603,4 +603,3 @@ actor<BaseT>::operator()(unpack_tuple<TupleT> const &t) const
 }   //  namespace phoenix
 
 #endif
-

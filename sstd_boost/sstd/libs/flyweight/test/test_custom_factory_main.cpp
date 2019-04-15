@@ -16,4 +16,3 @@ int main()
   test_custom_factory();
   return boost::report_errors();
 }
-

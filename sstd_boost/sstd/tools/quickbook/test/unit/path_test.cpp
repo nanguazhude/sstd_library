@@ -187,4 +187,3 @@ int main()
     path_difference_tests();
     return boost::report_errors();
 }
-

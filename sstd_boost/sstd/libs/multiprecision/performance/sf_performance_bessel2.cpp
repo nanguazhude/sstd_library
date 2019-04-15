@@ -18,4 +18,3 @@ void bessel_tests_2()
    time_proc("cpp_bin_float_50", test_bessel<cpp_bin_float_50>, 3);
 #endif
 }
-

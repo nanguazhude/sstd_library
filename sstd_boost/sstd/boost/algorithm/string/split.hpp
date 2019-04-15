@@ -160,5 +160,3 @@ namespace boost {
 
 
 #endif  // BOOST_STRING_SPLIT_HPP
-
-

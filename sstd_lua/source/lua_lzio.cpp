@@ -1,4 +1,4 @@
-/*
+﻿/*
 ** $Id: lzio.c,v 1.37.1.1 2017/04/19 17:20:42 roberto Exp $
 ** Buffered streams
 ** See Copyright Notice in lua.h
@@ -65,4 +65,3 @@ size_t luaZ_read (ZIO *z, void *b, size_t n) {
   }
   return 0;
 }
-

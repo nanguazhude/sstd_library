@@ -20,4 +20,3 @@ void f10(boost::static_log2_argument_type, boost::static_log2_result_type, boost
 void f11(boost::static_min_max_signed_type, boost::static_min_max_unsigned_type);
 void f12(boost::static_signed_min<1, 2>*, boost::static_signed_max<1,2>*);
 void f13(boost::static_unsigned_min<1,2>*, boost::static_unsigned_min<1,2>*);
-

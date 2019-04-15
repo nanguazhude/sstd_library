@@ -152,4 +152,3 @@ namespace boost { namespace graph {
 }} // namespace boost::graph
 
 #endif // BOOST_GRAPH_DISTRIBUTED_GRAPH_UTILITY_INCLUDE
-

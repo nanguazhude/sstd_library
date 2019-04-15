@@ -51,4 +51,3 @@ If available, the year of the standard is detected as YYYY.MM.1 from the Epoc da
 
 #include <sstd/boost/predef/detail/test.h>
 BOOST_PREDEF_DECLARE_TEST(BOOST_LANG_STDC,BOOST_LANG_STDC_NAME)
-

@@ -13,4 +13,3 @@
 #include <sstd/boost/ratio/mpl/comparison.hpp>
 
 #endif  // BOOST_RATIO_HPP
-

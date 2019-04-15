@@ -23,4 +23,3 @@
 #include <sstd/boost/compute/image/image_sampler.hpp>
 
 #endif // BOOST_COMPUTE_IMAGE_HPP
-

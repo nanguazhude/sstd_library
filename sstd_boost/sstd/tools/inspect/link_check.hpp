@@ -70,4 +70,3 @@ namespace boost
 }
 
 #endif // BOOST_LINK_CHECK_HPP
-

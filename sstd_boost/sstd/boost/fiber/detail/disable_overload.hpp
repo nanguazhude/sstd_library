@@ -32,4 +32,3 @@ using disable_overload = boost::context::detail::disable_overload< X, Y >;
 #endif
 
 #endif // BOOST_FIBER_DETAIL_DISABLE_OVERLOAD_H
-

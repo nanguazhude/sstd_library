@@ -82,4 +82,3 @@ BOOST_CXX14_CONSTEXPR bool any_of_equal ( const Range &r, const V &val )
 }} // namespace boost and algorithm
 
 #endif // BOOST_ALGORITHM_ANY_OF_HPP
-

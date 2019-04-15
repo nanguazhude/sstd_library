@@ -28,4 +28,3 @@ int main()
   std::cout << " lambert_wm1(" << z << ") = " << wm1 << std::endl; // lambert_wm1(-0.200000) = -2.54264
   return 0;
 } // int main()
-

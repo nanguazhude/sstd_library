@@ -75,4 +75,3 @@ struct requirement_<void(*)(Model)>
 }}
 
 #endif // BOOST_CONCEPT_DETAIL_GENERAL_DWA2006429_HPP
-

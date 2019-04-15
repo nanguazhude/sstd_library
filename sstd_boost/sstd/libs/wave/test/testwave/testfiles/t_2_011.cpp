@@ -19,4 +19,3 @@
 //H 10: t_2_011.cpp(14): #endif
 //H 10: t_2_011.cpp(15): #endif
 //H 18: boost::wave::preprocess_exception
-

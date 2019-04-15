@@ -143,4 +143,3 @@ class state_machine
 } // namespace fsm
 
 #endif // BOOST_FSM_STATE_MACHINE_INCLUDED
-

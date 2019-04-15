@@ -70,4 +70,3 @@ namespace boost { namespace detail {
 #endif
 
 #endif // include guard
-

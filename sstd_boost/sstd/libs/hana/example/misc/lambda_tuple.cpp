@@ -242,4 +242,3 @@ int main() {
     auto xs = lambda_tuple(1, '2', 3.3);
     static_assert(!decltype(hana::is_empty(xs))::value, "");
 }
-

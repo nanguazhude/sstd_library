@@ -31,4 +31,3 @@ BOOST_AUTO_TEST_SUITE(s, * utf::fixture<F>())
 
 BOOST_AUTO_TEST_SUITE_END()
 //]
-

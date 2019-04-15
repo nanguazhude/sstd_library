@@ -403,4 +403,3 @@ void swap(detail::homogeneous_color_base<E,L,N>& x, detail::homogeneous_color_ba
 } }  // namespace boost::gil
 
 #endif
-

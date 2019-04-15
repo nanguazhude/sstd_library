@@ -105,6 +105,3 @@ BOOST_AUTO_TEST_CASE(async_io, *boost::unit_test::timeout(2))
 
     io_context.run();
 }
-
-
-

@@ -101,4 +101,3 @@ inline void transform_units(GeometryIn const& geometry_in,
 }} // namespace boost:geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_ENVELOPE_TRANSFORM_UNITS_HPP
-

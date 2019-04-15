@@ -21,4 +21,3 @@ int main() {
         hana::make_tuple(0, 0, 0, 0, 1, 2, 3)
     );
 }
-

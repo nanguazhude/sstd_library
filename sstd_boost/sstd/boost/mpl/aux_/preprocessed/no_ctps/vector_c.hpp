@@ -531,5 +531,3 @@ struct vector_c
 };
 
 }}
-
-

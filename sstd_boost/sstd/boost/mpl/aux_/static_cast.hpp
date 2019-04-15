@@ -25,4 +25,3 @@
 #endif
 
 #endif // BOOST_MPL_AUX_STATIC_CAST_HPP_INCLUDED
-

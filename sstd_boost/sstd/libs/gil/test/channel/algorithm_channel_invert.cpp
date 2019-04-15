@@ -61,4 +61,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(
 
 // TODO: packed_channel_reference_const ?
 // TODO: packed_dynamic_channel_reference_const ?
-

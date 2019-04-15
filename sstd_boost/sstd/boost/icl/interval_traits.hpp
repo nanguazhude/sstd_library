@@ -54,6 +54,3 @@ struct size_type_of<interval_traits<Type> >
 }} // namespace boost icl
 
 #endif
-
-
-

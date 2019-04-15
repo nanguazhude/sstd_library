@@ -17,4 +17,3 @@ int main()
     boost::arg<1> a1(( boost::arg<2>() ));
     (void)a1;
 }
-

@@ -106,5 +106,3 @@ int test_main( int, char* [] )
     test_bimap_unconstrained();
     return 0;
 }
-
-

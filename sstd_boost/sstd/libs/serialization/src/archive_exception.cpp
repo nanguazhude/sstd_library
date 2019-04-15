@@ -152,4 +152,3 @@ archive_exception::archive_exception() BOOST_NOEXCEPT :
 
 } // archive
 } // boost
-

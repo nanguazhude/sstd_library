@@ -36,4 +36,3 @@ BOOST_AUTO_TEST_CASE(partition_point_int)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

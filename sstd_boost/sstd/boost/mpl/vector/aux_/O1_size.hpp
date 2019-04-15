@@ -54,4 +54,3 @@ struct O1_size_impl< aux::vector_tag<N> >
 }}
 
 #endif // BOOST_MPL_VECTOR_AUX_O1_SIZE_HPP_INCLUDED
-

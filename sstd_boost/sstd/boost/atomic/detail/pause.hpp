@@ -41,4 +41,3 @@ BOOST_FORCEINLINE void pause() BOOST_NOEXCEPT
 } // namespace boost
 
 #endif // BOOST_ATOMIC_DETAIL_PAUSE_HPP_INCLUDED_
-

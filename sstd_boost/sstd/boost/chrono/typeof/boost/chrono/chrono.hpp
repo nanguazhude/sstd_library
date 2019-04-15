@@ -30,4 +30,3 @@ BOOST_TYPEOF_REGISTER_TYPE(boost::chrono::high_resolution_clock)
 
 #endif
 #endif
-

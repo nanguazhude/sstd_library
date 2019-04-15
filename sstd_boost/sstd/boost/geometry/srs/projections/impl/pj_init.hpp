@@ -523,4 +523,3 @@ inline parameters<T> pj_init(Params const& params)
 }}} // namespace boost::geometry::projections
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_IMPL_PJ_INIT_HPP
-

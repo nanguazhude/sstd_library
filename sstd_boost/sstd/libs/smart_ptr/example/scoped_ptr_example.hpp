@@ -26,5 +26,3 @@ class example : private boost::noncopyable
   class implementation;
   boost::scoped_ptr< implementation > _imp; // hide implementation details
 };
-
-

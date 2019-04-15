@@ -11,5 +11,3 @@
 
 #define FUSION_SEQUENCE boost::tuples::tuple
 #include "convert.hpp"
-
-

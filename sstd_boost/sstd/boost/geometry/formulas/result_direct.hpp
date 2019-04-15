@@ -37,4 +37,3 @@ struct result_direct
 
 
 #endif // BOOST_GEOMETRY_FORMULAS_RESULT_DIRECT_HPP
-

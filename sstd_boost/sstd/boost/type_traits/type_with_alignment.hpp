@@ -256,6 +256,3 @@ template <> struct type_with_alignment<16>{ typedef tt_align_ns::a16 type; };
 #endif
 
 #endif // BOOST_TT_TYPE_WITH_ALIGNMENT_INCLUDED
-
-
-

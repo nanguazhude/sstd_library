@@ -202,4 +202,3 @@ namespace boost {
 } // end namespace boost
 
 #endif // BOOST_GRAPH_PARALLEL_DIJKSTRA_HPP
-

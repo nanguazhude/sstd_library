@@ -607,4 +607,3 @@ class private_adaptive_pool
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_CONTAINER_ADAPTIVE_POOL_HPP
-

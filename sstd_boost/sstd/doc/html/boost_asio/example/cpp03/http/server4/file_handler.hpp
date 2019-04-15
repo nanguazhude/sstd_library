@@ -42,4 +42,3 @@ private:
 } // namespace http
 
 #endif // HTTP_SERVER4_FILE_HANDLER_HPP
-

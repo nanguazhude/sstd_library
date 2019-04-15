@@ -68,4 +68,3 @@ inline void debug_print_complement_graph(OutputStream&,
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_IS_VALID_COMPLEMENT_GRAPH_HPP
-

@@ -401,5 +401,3 @@ void show_extra(
       ;
    }
 }
-
-

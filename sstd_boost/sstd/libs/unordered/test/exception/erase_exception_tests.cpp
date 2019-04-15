@@ -53,4 +53,3 @@ template <class T> struct erase_by_key_test1 : public erase_test_base<T>
 
 EXCEPTION_TESTS((erase_by_key_test1), CONTAINER_SEQ)
 RUN_TESTS()
-

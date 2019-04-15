@@ -44,4 +44,3 @@ partial_sum(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_PARTIAL_SUM_HPP
-

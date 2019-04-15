@@ -171,4 +171,3 @@ TestCase test_any_of{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_ANY_OF_HPP
-

@@ -31,5 +31,3 @@ void regerror( char const * s );
 #define MAGIC  0234
 
 #endif
-
-

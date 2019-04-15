@@ -309,4 +309,3 @@ symmetric_filter<SymmetricFilter, Alloc>::unconsumed_input() const
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>  // MSVC.
 
 #endif // #ifndef BOOST_IOSTREAMS_SYMMETRIC_FILTER_HPP_INCLUDED
-

@@ -99,4 +99,3 @@ BOOST_AUTO_TEST_CASE( test_clashing_cases_with_name )
         t_suite1->add( BOOST_TEST_CASE_NAME( boost::bind( test2, i ), "test-X-" + boost::unit_test::utils::string_cast(i) ) );
     }
 }
-

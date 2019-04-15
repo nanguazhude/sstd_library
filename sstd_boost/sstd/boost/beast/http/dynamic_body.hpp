@@ -28,4 +28,3 @@ using dynamic_body = basic_dynamic_body<multi_buffer>;
 } // boost
 
 #endif
-

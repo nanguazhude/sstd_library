@@ -21,4 +21,3 @@
 #include "sstd/boost/lambda/loops.hpp"
 
 #endif
-

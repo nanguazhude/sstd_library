@@ -91,4 +91,3 @@ inline void serialize(                          \
 /**/
 
 #endif // BOOST_SERIALIZATION_SPLIT_FREE_HPP
-

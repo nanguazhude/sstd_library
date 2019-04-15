@@ -138,4 +138,3 @@ bool is_palindrome(const char* str, Predicate p)
 }}
 
 #endif // BOOST_ALGORITHM_IS_PALINDROME_HPP
-

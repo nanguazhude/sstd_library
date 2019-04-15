@@ -60,4 +60,3 @@ public:
 } } // End namespace iostreams.
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_NON_BLOCKING_ADAPTER_HPP_INCLUDED
-

@@ -4,4 +4,3 @@
 
 #define HELD_BY_AUTO_PTR
 #include "polymorphism2.cpp"
-

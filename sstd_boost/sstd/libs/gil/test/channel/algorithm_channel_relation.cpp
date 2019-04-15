@@ -60,4 +60,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(packed_dynamic_channel_reference, BitField, fixtur
     test_channel_relation<typename channels565_t::fixture_5_t>();
     test_channel_relation<typename channels565_t::fixture_6_t>();
 }
-

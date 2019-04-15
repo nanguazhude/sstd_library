@@ -60,4 +60,3 @@ int main() {
     std::cout<<x(7)<<std::endl;
     std::cout << "done" << std::endl;
 }
-

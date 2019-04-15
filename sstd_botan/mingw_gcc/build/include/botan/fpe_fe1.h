@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Format Preserving Encryption (FE1 scheme)
 * (C) 2009,2018 Jack Lloyd
 *

@@ -37,4 +37,3 @@ struct base_unit_info<us::mil_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNITS_US_MIL_BASE_UNIT_HPP
-

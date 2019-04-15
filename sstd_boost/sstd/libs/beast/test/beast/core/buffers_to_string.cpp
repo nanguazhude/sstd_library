@@ -34,4 +34,3 @@ BEAST_DEFINE_TESTSUITE(beast,core,buffers_to_string);
 
 } // beast
 } // boost
-

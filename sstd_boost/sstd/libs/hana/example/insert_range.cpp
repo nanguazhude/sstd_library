@@ -20,4 +20,3 @@ int main() {
         hana::insert_range(xs, 1_c, hana::make_tuple(1, 2, 3)) == hana::make_tuple("Hello"s, 1, 2, 3, "world!"s)
     );
 }
-

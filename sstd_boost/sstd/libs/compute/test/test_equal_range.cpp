@@ -71,4 +71,3 @@ BOOST_AUTO_TEST_CASE(equal_range_int)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

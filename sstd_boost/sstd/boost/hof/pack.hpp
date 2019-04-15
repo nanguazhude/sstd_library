@@ -421,4 +421,3 @@ struct unpack_sequence<detail::pack_base<T, Ts...>>
 }} // namespace boost::hof
 
 #endif
-

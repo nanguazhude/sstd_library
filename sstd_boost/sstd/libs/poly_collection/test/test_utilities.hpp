@@ -383,4 +383,3 @@ layout_data<sizeof...(Types)> get_layout_data(const PolyCollection& p)
 } /* namespace test_utilities */
 
 #endif
-

@@ -32,4 +32,3 @@ struct multiset0
 }}
 
 #endif // BOOST_MPL_MULTISET_AUX_MULTISET0_HPP_INCLUDED
-

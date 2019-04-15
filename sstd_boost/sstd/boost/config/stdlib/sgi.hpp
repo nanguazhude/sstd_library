@@ -165,4 +165,3 @@
 #  define BOOST_NO_CXX17_ITERATOR_TRAITS
 
 #define BOOST_STDLIB "SGI standard library"
-

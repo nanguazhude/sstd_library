@@ -40,6 +40,3 @@ Per new algorithm (e.g. foo), one should add:
 7) in file doc/reference/foo.qbk (to be created), include the support status and write other text, and include examples (optionally)
 8) in file doc/imports.qbk, include the example foo.cpp (if any)
 9) create file doc/src/examples/algorithm/foo.cpp (optional)
-
-
-

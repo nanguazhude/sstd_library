@@ -96,4 +96,3 @@ constexpr bool is_reference_member_v = //see below
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_IS_REFERENCE_MEMBER_HPP
-

@@ -40,5 +40,3 @@ template <class R, class Arg1, class Arg2, class Arg3, class Arg4, class Arg5> s
 } // namespace boost
 
 #endif // BOOST_TT_IS_REFERENCE_HPP_INCLUDED
-
-

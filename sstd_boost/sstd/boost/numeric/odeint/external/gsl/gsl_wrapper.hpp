@@ -227,4 +227,3 @@ struct state_wrapper< gsl_vector* >
 
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_GSL_GSL_WRAPPER_HPP_INCLUDED
-

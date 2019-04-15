@@ -245,4 +245,3 @@ BOOST_AUTO_TEST_CASE( test_integrate_times_overshoot )
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

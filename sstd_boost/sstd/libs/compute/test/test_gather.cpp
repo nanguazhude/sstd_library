@@ -69,4 +69,3 @@ BOOST_AUTO_TEST_CASE(copy_index_then_gather)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

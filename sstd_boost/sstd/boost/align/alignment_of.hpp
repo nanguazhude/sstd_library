@@ -50,4 +50,3 @@ constexpr std::size_t alignment_of_v = alignment_of<T>::value;
 } /* boost */
 
 #endif
-

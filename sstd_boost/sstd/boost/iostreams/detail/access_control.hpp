@@ -85,4 +85,3 @@ struct access_control : public Base {
 } } // End namespaces iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_ACCESS_CONTROL_HPP_INCLUDED
-

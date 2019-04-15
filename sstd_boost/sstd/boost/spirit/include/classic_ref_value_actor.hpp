@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_REF_VALUE_ACTOR
 #include <sstd/boost/spirit/home/classic/actor/ref_value_actor.hpp>
 #endif
-

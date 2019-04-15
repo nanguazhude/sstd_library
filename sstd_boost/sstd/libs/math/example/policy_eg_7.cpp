@@ -71,4 +71,3 @@ Output:
   Result of quantile(complement(binom, 0.05)) is: 8
 
 */
-

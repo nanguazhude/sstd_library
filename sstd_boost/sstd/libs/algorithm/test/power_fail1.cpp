@@ -22,4 +22,3 @@ BOOST_AUTO_TEST_CASE( test_main )
 //  Second argument must be an integral value
     BOOST_CHECK ( ba::power(1, 1.0) == 1);
 }
-

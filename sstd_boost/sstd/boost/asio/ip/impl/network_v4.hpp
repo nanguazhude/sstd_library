@@ -54,4 +54,3 @@ std::basic_ostream<Elem, Traits>& operator<<(
 #endif // !defined(BOOST_ASIO_NO_IOSTREAM)
 
 #endif // BOOST_ASIO_IP_IMPL_NETWORK_V4_HPP
-

@@ -78,5 +78,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE
 // total    (-x)+ x == 0  (-x)+ x =d= 0   totality   of subtraction
 
 #endif // BOOST_ICL_TEST_TOTAL_ICL_QUANTIFIER_CASES_HPP_JOFA_100819
-
-

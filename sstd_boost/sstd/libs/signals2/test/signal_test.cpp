@@ -345,4 +345,3 @@ test_main(int, char* [])
   test_move();
   return 0;
 }
-

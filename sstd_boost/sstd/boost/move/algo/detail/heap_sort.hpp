@@ -109,4 +109,3 @@ BOOST_MOVE_FORCEINLINE void heap_sort(RandomAccessIterator first, RandomAccessIt
 #include <sstd/boost/move/detail/config_end.hpp>
 
 #endif //#ifndef BOOST_MOVE_DETAIL_HEAP_SORT_HPP
-

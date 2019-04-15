@@ -32,5 +32,3 @@ void test_noexcept(unsigned char a, unsigned char b)
 
 #endif
 #endif
-
-

@@ -57,12 +57,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_float<foo4_t>::value, false);
 BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_float<incomplete_type>::value, false);
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

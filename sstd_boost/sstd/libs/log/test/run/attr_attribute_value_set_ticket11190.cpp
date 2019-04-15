@@ -58,4 +58,3 @@ BOOST_AUTO_TEST_CASE(ticket11190)
     // Check that vset.size() is valid
     BOOST_CHECK_EQUAL(j, i);
 }
-

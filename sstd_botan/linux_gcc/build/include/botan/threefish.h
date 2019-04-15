@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Threefish
 * (C) 2013,2014 Jack Lloyd
 *

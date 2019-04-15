@@ -59,5 +59,3 @@ main()
     test_value_comp(data);
     return boost::report_errors();
 }
-
-

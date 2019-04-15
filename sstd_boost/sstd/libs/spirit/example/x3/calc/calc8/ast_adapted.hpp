@@ -31,4 +31,3 @@ BOOST_FUSION_ADAPT_STRUCT(client::ast::assignment,
 )
 
 #endif
-

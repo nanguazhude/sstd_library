@@ -75,4 +75,3 @@ struct is_nothrow_move_constructible_or_uncopyable
 #include <sstd/boost/move/detail/config_end.hpp>
 
 #endif //#ifndef BOOST_MOVE_TRAITS_HPP
-

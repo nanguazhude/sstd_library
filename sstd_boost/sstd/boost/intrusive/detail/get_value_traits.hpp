@@ -220,4 +220,3 @@ struct get_node_traits
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTRUSIVE_DETAIL_GET_VALUE_TRAITS_HPP
-

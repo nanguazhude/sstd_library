@@ -101,4 +101,3 @@
 
 #endif /* BOOST_PP_VARIADICS */
 #endif /* BOOST_VMD_ENUM_HPP */
-

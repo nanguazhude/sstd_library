@@ -76,4 +76,3 @@ using ::boost::process::detail::posix::async_pipe;
 
 
 #endif /* BOOST_PROCESS_DETAIL_POSIX_ASIO_FWD_HPP_ */
-

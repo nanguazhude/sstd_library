@@ -311,4 +311,3 @@ finish(sha1_context& ctx, void* digest) noexcept
 } // boost
 
 #endif
-

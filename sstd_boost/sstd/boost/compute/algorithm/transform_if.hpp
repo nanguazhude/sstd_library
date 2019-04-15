@@ -121,4 +121,3 @@ inline OutputIterator transform_if(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_TRANSFORM_IF_HPP
-

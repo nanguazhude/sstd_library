@@ -25,4 +25,3 @@ int main()
     boost::checked_delete(p);          // should cause compile time error
     return 0;
 }   // main
-

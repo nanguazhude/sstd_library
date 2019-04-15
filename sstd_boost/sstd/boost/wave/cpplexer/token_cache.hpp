@@ -70,4 +70,3 @@ private:
 #endif
 
 #endif // !defined(TOKEN_CACHE_HPP_4D2320B7_1D56_4113_A114_397E70FA438C_INCLUDED)
-

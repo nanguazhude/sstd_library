@@ -212,4 +212,3 @@ round). In some cases separate rings are produced. In some cases new holes are f
 */
 
 #endif // _DOXYGEN_SETS_HPP
-

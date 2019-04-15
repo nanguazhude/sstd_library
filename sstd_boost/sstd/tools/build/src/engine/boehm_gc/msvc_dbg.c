@@ -346,4 +346,3 @@ char** backtrace_symbols(void*const* addresses, int count)
 }
 
 #endif /* !_M_AMD64 */
-

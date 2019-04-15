@@ -529,4 +529,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_GRAPH_SGB_GRAPH_HPP
-

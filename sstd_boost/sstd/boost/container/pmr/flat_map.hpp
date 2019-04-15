@@ -61,4 +61,3 @@ struct flat_multimap_of
 }  //namespace boost {
 
 #endif   //BOOST_CONTAINER_PMR_FLAT_MAP_HPP
-

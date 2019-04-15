@@ -16,5 +16,3 @@
 #include <sstd/boost/test/data/monomorphic.hpp>
 
 #endif // BOOST_TEST_DATA_DATASET_HPP_102211GER
-
-

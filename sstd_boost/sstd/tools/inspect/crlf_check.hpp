@@ -38,4 +38,3 @@ namespace boost
 }
 
 #endif // BOOST_CRLF_CHECK_HPP
-

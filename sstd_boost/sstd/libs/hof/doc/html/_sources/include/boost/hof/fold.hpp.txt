@@ -169,4 +169,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(fold, detail::make<fold_adaptor>);
 }} // namespace boost::hof
 
 #endif
-

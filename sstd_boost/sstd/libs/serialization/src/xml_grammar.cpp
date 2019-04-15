@@ -71,5 +71,3 @@ template class basic_xml_grammar<char>;
 
 } // namespace archive
 } // namespace boost
-
-

@@ -129,4 +129,3 @@ inline void scatter_if(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_SCATTER_IF_HPP
-

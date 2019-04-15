@@ -175,4 +175,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( runge_kutta_error_test , Stepper, runge_kutta_err
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

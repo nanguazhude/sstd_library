@@ -370,4 +370,3 @@ int utf8_codecvt_facet_char::do_length(
 #endif
 
 #endif //BOOST_IOSTREAMS_NO_WIDE_STREAMS
-

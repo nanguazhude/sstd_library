@@ -32,4 +32,3 @@
 #include <sstd/boost/compute/functional/relational.hpp>
 
 #endif // BOOST_COMPUTE_FUNCTIONAL_HPP
-

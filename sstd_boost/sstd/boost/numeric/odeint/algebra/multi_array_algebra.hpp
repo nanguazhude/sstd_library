@@ -146,4 +146,3 @@ struct multi_array_algebra
 
 
 #endif // BOOST_NUMERIC_ODEINT_ALGEBRA_MULTI_ARRAY_ALGEBRA_HPP_DEFINED
-

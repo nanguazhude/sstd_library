@@ -53,4 +53,3 @@ struct clear_impl< aux::vector_tag<N> >
 }}
 
 #endif // BOOST_MPL_VECTOR_AUX_CLEAR_HPP_INCLUDED
-

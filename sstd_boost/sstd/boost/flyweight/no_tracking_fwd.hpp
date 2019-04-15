@@ -24,4 +24,3 @@ struct no_tracking;
 } /* namespace boost */
 
 #endif
-

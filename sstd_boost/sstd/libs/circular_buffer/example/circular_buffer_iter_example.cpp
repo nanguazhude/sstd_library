@@ -38,4 +38,3 @@ int main(int /*argc*/, char* /*argv*/[])
 }
 
 //] [/circular_buffer_iter_example_1]
-

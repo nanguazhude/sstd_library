@@ -56,4 +56,3 @@
 #endif
 
 #endif // BOOST_CONVERT_FORWARD_HPP
-

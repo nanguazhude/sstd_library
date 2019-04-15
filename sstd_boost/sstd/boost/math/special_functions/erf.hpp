@@ -1270,8 +1270,3 @@ inline typename tools::promote_args<T>::type erfc(T z)
 #include <sstd/boost/math/special_functions/detail/erf_inv.hpp>
 
 #endif // BOOST_MATH_SPECIAL_ERF_HPP
-
-
-
-
-

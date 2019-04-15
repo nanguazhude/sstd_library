@@ -66,4 +66,3 @@ struct vector_space_norm_inf< vex::multivector<T, N> > {
 
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_VEXCL_VEXCL_NORM_INF_HPP_DEFINED
-

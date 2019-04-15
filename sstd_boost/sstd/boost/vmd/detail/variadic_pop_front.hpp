@@ -22,4 +22,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_VARIADIC_POP_FRONT_HPP */
-

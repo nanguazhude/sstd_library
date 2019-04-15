@@ -1708,4 +1708,3 @@ namespace container {
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   // BOOST_CONTAINER_SET_HPP
-

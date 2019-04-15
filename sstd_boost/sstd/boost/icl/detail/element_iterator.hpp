@@ -330,7 +330,3 @@ private:
 }} // namespace icl boost
 
 #endif // BOOST_ICL_DETAIL_ELEMENT_ITERATOR_HPP_JOFA_091104
-
-
-
-

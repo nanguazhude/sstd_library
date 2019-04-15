@@ -15,4 +15,3 @@
 #include <sstd/boost/iostreams/write.hpp>
 
 #endif // #ifndef BOOST_IOSTREAMS_PUT_HPP_INCLUDED
-

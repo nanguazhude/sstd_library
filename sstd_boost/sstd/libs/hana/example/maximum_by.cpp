@@ -20,4 +20,3 @@ int main() {
         == hana::make_tuple(3.3, nullptr, 4)
     , "");
 }
-

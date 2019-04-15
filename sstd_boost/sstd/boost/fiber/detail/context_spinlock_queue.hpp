@@ -116,4 +116,3 @@ public:
 #endif
 
 #endif // BOOST_FIBERS_DETAIL_SPINLOCK_QUEUE_H
-

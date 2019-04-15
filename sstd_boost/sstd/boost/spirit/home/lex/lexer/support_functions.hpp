@@ -203,4 +203,3 @@ namespace boost { namespace spirit { namespace lex
 }}}
 
 #endif
-

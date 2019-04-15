@@ -146,4 +146,3 @@ static_assert(std::tuple_size<decltype(xs)>::value == 3u, "");
 }
 
 }
-

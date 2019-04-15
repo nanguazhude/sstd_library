@@ -24,4 +24,3 @@ namespace library
     bool operator==(book const&, book const&);
     std::size_t hash_value(book const&);
 }
-

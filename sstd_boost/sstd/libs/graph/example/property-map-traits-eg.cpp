@@ -23,4 +23,3 @@ main()
   std::cout << name_map[u] << std::endl;
   return EXIT_SUCCESS;
 }
-

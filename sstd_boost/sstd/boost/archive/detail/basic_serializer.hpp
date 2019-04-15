@@ -75,4 +75,3 @@ public:
 #endif
 
 #endif // BOOST_ARCHIVE_BASIC_SERIALIZER_HPP
-

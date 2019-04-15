@@ -28,5 +28,3 @@ private:
   class implementation;
   boost::shared_ptr< implementation > _imp; // hide implementation details
 };
-
-

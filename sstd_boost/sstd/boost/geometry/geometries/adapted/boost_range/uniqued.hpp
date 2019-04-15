@@ -37,5 +37,3 @@ struct tag<boost::range_detail::unique_range<Geometry> >
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_ADAPTED_BOOST_RANGE_UNIQUED_HPP
-
-

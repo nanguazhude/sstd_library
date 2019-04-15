@@ -40,4 +40,3 @@ MPL_TEST_CASE()
     MPL_ASSERT(( equal< r::first, vector_c<int,1,3,5,7,9> > ));
     MPL_ASSERT(( equal< r::second, vector_c<int,0,2,4,6,8> > ));
 }
-

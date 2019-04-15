@@ -18,4 +18,3 @@
 #include <sstd/boost/asio/io_context_strand.hpp>
 
 #endif // BOOST_ASIO_IO_SERVICE_STRAND_HPP
-

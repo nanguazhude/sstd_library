@@ -198,4 +198,3 @@ namespace boost
 }
 
 #endif // BOOST_PROTO_DEDUCE_DOMAIN_HPP_EAN_05_22_2010
-

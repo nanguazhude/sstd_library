@@ -706,4 +706,3 @@ struct has_fold_case<cpp_regex_traits<char> >
 }}
 
 #endif
-

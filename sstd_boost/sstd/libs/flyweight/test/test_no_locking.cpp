@@ -33,4 +33,3 @@ void test_no_locking()
 {
   test_basic_template<no_locking_flyweight_specifier>();
 }
-

@@ -708,4 +708,3 @@ struct graph_mutability_traits<UNDIRECTED_GRAPH> {
 } /* namespace boost */
 
 #endif
-

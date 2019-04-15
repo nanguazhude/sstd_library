@@ -18,5 +18,3 @@ int main () {
     identity_matrix<double> m (3);
     std::cout << m << std::endl;
 }
-
-

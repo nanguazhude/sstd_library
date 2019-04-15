@@ -143,4 +143,3 @@ token_is_valid(slex_token<Position> const& t)
 }   // namespace boost
 
 #endif // !defined(SLEX_TOKEN_HPP_53A13BD2_FBAA_444B_9B8B_FCB225C2BBA8_INCLUDED)
-

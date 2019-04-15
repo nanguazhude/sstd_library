@@ -35,4 +35,3 @@ int main() {
     hana::test::TestRing<hana::ext::std::ratio_tag>{ratios};
     hana::test::TestEuclideanRing<hana::ext::std::ratio_tag>{ratios};
 }
-

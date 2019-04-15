@@ -24,4 +24,3 @@ template<class Type> struct identity;
 } /* namespace boost */
 
 #endif
-

@@ -29,4 +29,3 @@
 #include <sstd/boost/range/pointer.hpp>
 
 #endif
-

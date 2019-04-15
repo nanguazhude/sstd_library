@@ -143,4 +143,3 @@ struct identity:
 } /* namespace boost */
 
 #endif
-

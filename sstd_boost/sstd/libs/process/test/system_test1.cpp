@@ -79,4 +79,3 @@ BOOST_AUTO_TEST_CASE(implicit_async_io, *boost::unit_test::timeout(2))
     BOOST_CHECK(boost::starts_with(
             fut.get(), "abc"));
 }
-

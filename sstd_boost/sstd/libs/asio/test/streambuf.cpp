@@ -60,4 +60,3 @@ BOOST_ASIO_TEST_SUITE
   "streambuf",
   BOOST_ASIO_TEST_CASE(streambuf_test)
 )
-

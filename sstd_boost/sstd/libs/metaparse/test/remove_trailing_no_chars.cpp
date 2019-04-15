@@ -61,5 +61,3 @@ BOOST_METAPARSE_TEST_CASE(remove_trailing_no_chars)
 }
 
 #endif
-
-

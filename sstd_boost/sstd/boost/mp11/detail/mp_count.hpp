@@ -113,4 +113,3 @@ template<class L, class Q> using mp_count_if_q = mp_count_if<L, Q::template fn>;
 } // namespace boost
 
 #endif // #ifndef BOOST_MP11_DETAIL_MP_COUNT_HPP_INCLUDED
-

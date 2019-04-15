@@ -436,11 +436,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_abstract<TTestAF<int>& >::value), false)
 BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_abstract<TTestAG<int>& >::value), false);
 #endif
 TT_TEST_END
-
-
-
-
-
-
-
-

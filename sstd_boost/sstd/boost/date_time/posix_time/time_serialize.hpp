@@ -244,4 +244,3 @@ inline void load_construct_data(Archive & /*ar*/,
 } // namespace boost
 
 #endif
-

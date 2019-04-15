@@ -97,5 +97,3 @@ struct argv_to_path_guard {
 } // namespace b2_workarounds
 
 #endif // BOOST_DLL_EXAMPLE_COMMON_B2_WORKAROUNDS_HPP
-
-

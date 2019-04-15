@@ -38,4 +38,3 @@ int main() {
         hana::make_range(hana::integral_c<T, 1>, hana::integral_c<T, 3>)
     ));
 }
-

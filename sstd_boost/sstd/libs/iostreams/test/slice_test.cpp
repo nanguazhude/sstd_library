@@ -15,4 +15,3 @@
 
 #define BOOST_IOSTREAMS_RESTRICT_USE_SLICE
 #include "restrict_test.cpp"
-

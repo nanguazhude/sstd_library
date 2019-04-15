@@ -32,4 +32,3 @@ int main() {
         std::ratio<6, 10>{}
     )));
 }
-

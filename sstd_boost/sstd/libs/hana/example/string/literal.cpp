@@ -26,4 +26,3 @@ using namespace hana::literals;
 #endif
 
 int main() { }
-

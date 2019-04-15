@@ -185,4 +185,3 @@ struct envelope_multi_range_on_spheroid
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_ENVELOPE_RANGE_HPP
-

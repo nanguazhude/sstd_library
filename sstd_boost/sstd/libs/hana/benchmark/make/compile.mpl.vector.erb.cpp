@@ -12,4 +12,3 @@ struct t { };
 using vector = <%= mpl_vector((1..input_size).to_a.map { |n| "t<#{n}>" }) %>;
 
 int main() { }
-

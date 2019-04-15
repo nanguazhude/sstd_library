@@ -447,4 +447,3 @@ namespace boost {
 
 
 #endif // BOOST_GRAPH_SLOAN_HPP
-

@@ -325,4 +325,3 @@ namespace quickbook
         return quickbook_path(full_path, 0, path);
     }
 }
-

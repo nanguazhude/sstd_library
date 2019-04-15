@@ -347,4 +347,3 @@ void read_and_convert_view( Device&          device
 } // namespace boost
 
 #endif
-

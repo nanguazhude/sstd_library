@@ -82,4 +82,3 @@ NUMPY_OBJECT_MANAGER_TRAITS(numpy::matrix);
 }}} // namespace boost::python::converter
 
 #endif
-

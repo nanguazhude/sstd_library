@@ -19,4 +19,3 @@ void test_serialization()
   test_serialization2();
   test_serialization3();
 }
-

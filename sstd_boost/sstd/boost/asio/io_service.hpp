@@ -33,4 +33,3 @@ typedef io_context io_service;
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IO_SERVICE_HPP
-

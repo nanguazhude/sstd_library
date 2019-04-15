@@ -111,12 +111,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::alignment_of<issue1946>::value, ALIGNOF(issu
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

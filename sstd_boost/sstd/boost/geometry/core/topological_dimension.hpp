@@ -99,4 +99,3 @@ struct topological_dimension
 
 
 #endif // BOOST_GEOMETRY_CORE_TOPOLOGICAL_DIMENSION_HPP
-

@@ -15,4 +15,3 @@ BOOST_TYPEOF_REGISTER_TEMPLATE(std::basic_streambuf, 1)
 BOOST_TYPEOF_REGISTER_TEMPLATE(std::basic_streambuf, 2)
 
 #endif//BOOST_TYPEOF_STD_streambuf_hpp_INCLUDED
-

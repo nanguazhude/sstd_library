@@ -273,4 +273,3 @@ class stateless_null_padded_codecvt
 } } } // End namespaces detail, iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_TEST_NULL_PADDED_CODECVT_HPP_INCLUDED
-

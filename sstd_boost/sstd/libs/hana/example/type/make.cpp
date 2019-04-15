@@ -17,4 +17,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::make_type(X{}) == hana::type_c<X>);
 BOOST_HANA_CONSTANT_CHECK(hana::make_type(hana::type_c<X>) == hana::type_c<X>);
 
 int main() { }
-

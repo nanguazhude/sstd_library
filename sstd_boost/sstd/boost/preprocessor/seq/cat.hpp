@@ -47,4 +47,3 @@
 # define BOOST_PP_SEQ_CAT_S_I_B(s, seq) BOOST_PP_SEQ_HEAD(seq)
 #
 # endif
-

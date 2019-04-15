@@ -43,4 +43,3 @@ inline Value norm_inf( Iterator1 first1 , Iterator1 last1 , Value init )
 
 
 #endif // BOOST_NUMERIC_ODEINT_ALGEBRA_DETAIL_NORM_INF_HPP_INCLUDED
-

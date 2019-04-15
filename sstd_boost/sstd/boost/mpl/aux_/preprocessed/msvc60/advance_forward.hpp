@@ -129,5 +129,3 @@ struct advance_forward
 };
 
 }}}
-
-

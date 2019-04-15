@@ -251,4 +251,3 @@ inline bool semaphore_timed_wait(sem_t *handle, const boost::posix_time::ptime &
 }  //namespace boost {
 
 #endif   //#ifndef BOOST_INTERPROCESS_POSIX_SEMAPHORE_WRAPPER_HPP
-

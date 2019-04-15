@@ -195,6 +195,3 @@ int main()
 {
    instantiate(boost::math::concepts::std_real_concept(0));
 }
-
-
-

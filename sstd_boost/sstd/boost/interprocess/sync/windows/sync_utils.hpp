@@ -238,4 +238,3 @@ class sync_handles
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_DETAIL_SYNC_UTILS_HPP
-

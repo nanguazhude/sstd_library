@@ -55,4 +55,3 @@ public:
 #include <sstd/boost/archive/detail/abi_suffix.hpp> // pops abi_suffix.hpp pragmas
 
 #endif //BOOST_XML_ARCHIVE_ARCHIVE_EXCEPTION_HPP
-

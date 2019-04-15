@@ -15,6 +15,3 @@
 //
 
 boost::optional<int&&> oi;
-
-
-

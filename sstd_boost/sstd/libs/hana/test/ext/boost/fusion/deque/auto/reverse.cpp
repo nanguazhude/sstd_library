@@ -6,4 +6,3 @@
 #include <auto/reverse.hpp>
 
 int main() { }
-

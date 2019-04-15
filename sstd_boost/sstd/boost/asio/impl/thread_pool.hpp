@@ -127,4 +127,3 @@ thread_pool::executor_type::running_in_this_thread() const BOOST_ASIO_NOEXCEPT
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IMPL_THREAD_POOL_HPP
-

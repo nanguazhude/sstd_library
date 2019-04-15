@@ -315,4 +315,3 @@ is_small( FPT fpv, FPT tolerance )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_FLOATING_POINT_COMAPARISON_HPP_071894GER
-

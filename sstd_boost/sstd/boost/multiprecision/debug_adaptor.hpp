@@ -523,4 +523,3 @@ struct precision< boost::multiprecision::number<boost::multiprecision::debug_ada
 
 
 #endif
-

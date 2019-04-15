@@ -15,4 +15,3 @@
 #include <sstd/boost/compute/interop/qt/qtgui.hpp>
 
 #endif // BOOST_COMPUTE_INTEROP_QT_HPP
-

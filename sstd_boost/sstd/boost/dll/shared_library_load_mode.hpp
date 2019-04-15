@@ -246,4 +246,3 @@ BOOST_CONSTEXPR inline type operator~(type left) BOOST_NOEXCEPT {
 }}} // boost::dll::load_mode
 
 #endif // BOOST_DLL_SHARED_LIBRARY_MODE_HPP
-

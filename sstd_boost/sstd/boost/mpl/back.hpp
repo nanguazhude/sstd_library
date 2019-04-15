@@ -37,4 +37,3 @@ BOOST_MPL_AUX_NA_SPEC(1, back)
 }}
 
 #endif // BOOST_MPL_BACK_HPP_INCLUDED
-

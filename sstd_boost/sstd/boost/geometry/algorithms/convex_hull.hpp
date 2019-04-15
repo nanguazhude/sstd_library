@@ -373,4 +373,3 @@ inline OutputIterator convex_hull_insert(Geometry const& geometry,
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_CONVEX_HULL_HPP
-

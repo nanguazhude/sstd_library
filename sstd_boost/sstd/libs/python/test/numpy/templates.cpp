@@ -61,4 +61,3 @@ BOOST_PYTHON_MODULE(templates_ext)
   np::initialize();
   p::def("fill", fill);
 }
-

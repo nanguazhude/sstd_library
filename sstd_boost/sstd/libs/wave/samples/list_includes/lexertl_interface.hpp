@@ -75,4 +75,3 @@ struct lexertl_input_interface
 }}}}   // namespace boost::wave::cpplexer::lexertl
 
 #endif // !defined(BOOST_WAVE_LEXERTL_INTERFACE_HPP_INCLUDED)
-

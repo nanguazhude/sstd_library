@@ -23,4 +23,3 @@ target_link_libraries(boost_circular_buffer INTERFACE
     Boost::static_assert
     Boost::throw_exception
     Boost::type_traits)
-

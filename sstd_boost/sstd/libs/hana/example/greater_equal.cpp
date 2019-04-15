@@ -13,4 +13,3 @@ static_assert(hana::greater_equal(1, 1), "");
 BOOST_HANA_CONSTANT_CHECK(!hana::greater_equal(hana::int_c<1>, hana::int_c<2>));
 
 int main() { }
-

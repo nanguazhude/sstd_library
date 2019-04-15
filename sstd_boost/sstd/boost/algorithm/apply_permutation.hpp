@@ -124,4 +124,3 @@ apply_reverse_permutation(Range1& item_range, Range2& ind_range)
 
 }}
 #endif //BOOST_ALGORITHM_APPLY_PERMUTATION_HPP
-

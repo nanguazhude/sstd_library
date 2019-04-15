@@ -24,6 +24,3 @@ void test_no_unsupported_conversion()
   boost::optional<B> opt2;
   opt2 = opt1 ; // Cannot convert from "A" to "B"
 }
-
-
-

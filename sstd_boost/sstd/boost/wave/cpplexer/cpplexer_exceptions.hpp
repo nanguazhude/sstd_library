@@ -288,4 +288,3 @@ is_recoverable(lexing_exception const& e)
 #endif
 
 #endif // !defined(CPPLEXER_EXCEPTIONS_HPP_1A09DE1A_6D1F_4091_AF7F_5F13AB0D31AB_INCLUDED)
-

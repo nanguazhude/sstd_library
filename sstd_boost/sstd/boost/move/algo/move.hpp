@@ -154,4 +154,3 @@ F uninitialized_move(I f, I l, F r,
 #include <sstd/boost/move/detail/config_end.hpp>
 
 #endif //#ifndef BOOST_MOVE_ALGO_MOVE_HPP
-

@@ -93,6 +93,3 @@ Output:
   Falling factorial: 56
 
 */
-
-
-

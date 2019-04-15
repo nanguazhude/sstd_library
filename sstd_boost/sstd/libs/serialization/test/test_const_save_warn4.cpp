@@ -34,5 +34,3 @@ struct A {
 void f4(text_oarchive & oa, A * const & a){
     oa << a;
 }
-
-

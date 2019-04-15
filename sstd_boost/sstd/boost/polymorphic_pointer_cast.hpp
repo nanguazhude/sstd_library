@@ -76,4 +76,3 @@ namespace boost
 } // namespace boost
 
 #endif  // BOOST_CONVERSION_POLYMORPHIC_POINTER_CAST_HPP
-

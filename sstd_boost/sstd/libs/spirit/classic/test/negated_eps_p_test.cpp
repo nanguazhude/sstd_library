@@ -35,6 +35,3 @@ int main()
     BOOST_TEST(f == false);
     return boost::report_errors();
 }
-
-
-

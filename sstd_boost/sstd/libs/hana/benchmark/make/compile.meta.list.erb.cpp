@@ -15,4 +15,3 @@ using list = meta::list<
 int main() {
 
 }
-

@@ -570,4 +570,3 @@ private:
 #endif
 
 #endif // BOOST_MULTI_ARRAY_RG071801_HPP
-

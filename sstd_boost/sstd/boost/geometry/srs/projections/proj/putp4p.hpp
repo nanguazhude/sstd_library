@@ -197,5 +197,3 @@ namespace projections
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_PUTP4P_HPP
-
-

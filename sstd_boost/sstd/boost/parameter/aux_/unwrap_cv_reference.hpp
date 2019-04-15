@@ -88,5 +88,3 @@ struct unwrap_cv_reference
 }}} // namespace boost::parameter::aux
 
 #endif // UNWRAP_CV_REFERENCE_050328_HPP
-
-

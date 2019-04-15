@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Arithmetic operations specialized for NIST ECC primes
 * (C) 2014,2015 Jack Lloyd
 *

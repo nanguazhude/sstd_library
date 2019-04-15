@@ -22,4 +22,3 @@ void static_interval_ctor_4_ordered_types()
 
 
 #endif // BOOST_ICL_TEST_ICL_STATIC_INTERVAL_HPP_JOFA_100930
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * PKCS#11 ECC
 * (C) 2016 Daniel Neus, Sirrix AG
 * (C) 2016 Philipp Weber, Sirrix AG

@@ -273,4 +273,3 @@ void test_list_ops()
 
   test_list_ops_non_unique_seq<int_vector>();
 }
-

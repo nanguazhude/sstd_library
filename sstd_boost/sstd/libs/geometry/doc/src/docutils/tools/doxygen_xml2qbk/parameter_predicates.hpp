@@ -59,4 +59,3 @@ struct sort_on_line
 
 
 #endif // PARAMETER_PREDICATES_HPP
-

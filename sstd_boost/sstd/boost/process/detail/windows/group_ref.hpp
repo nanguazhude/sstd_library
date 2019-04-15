@@ -49,4 +49,3 @@ struct group_ref : handler_base_ext
 
 
 #endif /* BOOST_PROCESS_DETAIL_WINDOWS_GROUP_HPP_ */
-

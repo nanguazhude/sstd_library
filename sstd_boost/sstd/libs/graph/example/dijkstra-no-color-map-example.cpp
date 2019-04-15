@@ -79,4 +79,3 @@ main(int, char *[])
   dot_file << "}";
   return EXIT_SUCCESS;
 }
-

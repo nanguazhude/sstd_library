@@ -30,4 +30,3 @@ main()
   std::cout << f(5) << std::endl; // Call x.foo(5)
   return 0;
 }
-

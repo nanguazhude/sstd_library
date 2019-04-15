@@ -75,4 +75,3 @@ struct placement_destroy :  public in_place_interface
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif //#ifndef BOOST_INTERPROCESS_IN_PLACE_INTERFACE_HPP
-

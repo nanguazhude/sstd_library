@@ -579,4 +579,3 @@ fi_adj_loop_k:++fi_adj.first;
 #endif
 
 #endif // BOOST_GRAPH_ISOMORPHISM_HPP
-

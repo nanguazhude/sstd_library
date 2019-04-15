@@ -92,4 +92,3 @@ void compute_checksum(icmp_header& header,
 }
 
 #endif // ICMP_HEADER_HPP
-

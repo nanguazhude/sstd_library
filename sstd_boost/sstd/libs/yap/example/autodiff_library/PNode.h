@@ -45,4 +45,3 @@ public:
 } // end namespace foo
 
 #endif /* PNODE_H_ */
-

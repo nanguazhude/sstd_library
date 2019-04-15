@@ -47,4 +47,3 @@ main()
     test<boost::is_output_streamable<int>::value>();
     return 0;
     }
-

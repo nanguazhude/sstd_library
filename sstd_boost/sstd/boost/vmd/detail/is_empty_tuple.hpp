@@ -72,4 +72,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_IS_EMPTY_TUPLE_HPP */
-

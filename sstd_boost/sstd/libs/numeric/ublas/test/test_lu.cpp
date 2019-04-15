@@ -68,4 +68,3 @@ int main () {
 
   return (getResults().second > 0) ? boost::exit_failure : boost::exit_success;
 }
-

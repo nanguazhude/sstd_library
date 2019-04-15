@@ -222,4 +222,3 @@ wmanaged_windows_shared_memory;
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_MANAGED_WINDOWS_SHARED_MEMORY_HPP
-

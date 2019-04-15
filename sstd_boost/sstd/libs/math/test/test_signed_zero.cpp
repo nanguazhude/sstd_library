@@ -263,5 +263,3 @@ test_signed_zero.cpp
   *** No errors detected
 
 */
-
-

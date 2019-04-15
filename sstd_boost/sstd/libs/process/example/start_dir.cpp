@@ -25,4 +25,3 @@ int main()
         bp::start_dir="../foo"
     );
 }
-

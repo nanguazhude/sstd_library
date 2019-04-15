@@ -66,5 +66,3 @@ inline void throw_on_empty_input(Geometry const& geometry)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_THROW_ON_EMPTY_INPUT_HPP
-
-

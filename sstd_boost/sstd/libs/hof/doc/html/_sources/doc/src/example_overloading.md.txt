@@ -142,4 +142,3 @@ Which is much simpler than the other implementations that were written, which we
 about 3 times the amount of code(see [here](https://gist.github.com/lefticus/6fdccb18084a1a3410d5)).
 
 The `has_pointer_operators` function works by first trying to call `has_pointer_member` which returns `true_type` if the type has member functions `operator*` and `operator->`, otherwise the function is not callable. The next function is only callable on pointers, which returns true if it is not a `void*` pointer(because `void*` pointers are not dereferenceable). Finally, if none of those functions matched then the last function will always return `false_type`.
-

@@ -137,4 +137,3 @@
         typedef U class_type;
         typedef T result_type;
     };
-

@@ -743,4 +743,3 @@ inline std::string get_temporary_path()
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_DETAIL_OS_FILE_FUNCTIONS_HPP
-

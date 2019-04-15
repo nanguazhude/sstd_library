@@ -4,4 +4,3 @@
 
 #define BOOST_HANA_TEST_FUNCTOR_ADJUST_MCD
 #include "main.hpp"
-

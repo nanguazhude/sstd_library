@@ -43,4 +43,3 @@ MPL_TEST_CASE()
         > ));
 
 }
-

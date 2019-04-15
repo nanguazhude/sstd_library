@@ -336,4 +336,3 @@ struct any_to_unordered_set_hook
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_ANY_HOOK_HPP
-

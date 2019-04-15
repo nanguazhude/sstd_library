@@ -13,4 +13,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::make<hana::tuple_tag>() == hana::make_tuple());
 static_assert(hana::make<hana::tuple_tag>(1, '2', 3.3) == hana::make_tuple(1, '2', 3.3), "");
 
 int main() { }
-

@@ -35,4 +35,3 @@ partial_cat(0, 0)(X, Y)     //R XY
 partial_cat(0, 1)(X, Y)     //R XToken2
 partial_cat(1, 0)(X, Y)     //R Token1Y
 partial_cat(1, 1)(X, Y)     //R Token1Token2
-

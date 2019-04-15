@@ -130,4 +130,3 @@ int main() {
     hana::test::TestSequence<::Seq>{};
 #endif
 }
-

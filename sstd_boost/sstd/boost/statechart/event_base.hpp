@@ -125,4 +125,3 @@ inline intrusive_ptr< const event_base > event_base::intrusive_from_this() const
 
 
 #endif
-

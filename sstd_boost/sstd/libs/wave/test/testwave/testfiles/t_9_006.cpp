@@ -44,4 +44,3 @@
 //H 10: t_9_006.cpp(33): #if
 //H 11: t_9_006.cpp(33): #if defined X: 1
 //H 10: t_9_006.cpp(35): #else
-

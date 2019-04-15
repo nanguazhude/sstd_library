@@ -57,4 +57,3 @@ main()
   BOOST_CONCEPT_ASSERT(( Mutable_LvaluePropertyMapConcept<pmap_t, int> ));
   return 0;
 }
-

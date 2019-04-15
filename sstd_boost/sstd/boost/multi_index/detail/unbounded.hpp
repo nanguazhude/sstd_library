@@ -64,4 +64,3 @@ struct both_unbounded_tag{};
 } /* namespace boost */
 
 #endif
-

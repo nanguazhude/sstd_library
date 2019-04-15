@@ -22,4 +22,3 @@
 #include <sstd/boost/core/noncopyable.hpp>
 
 #endif  // BOOST_UTILITY_HPP
-

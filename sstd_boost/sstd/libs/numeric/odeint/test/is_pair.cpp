@@ -47,4 +47,3 @@ BOOST_AUTO_TEST_CASE( test_is_pair )
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

@@ -32,4 +32,3 @@ namespace boost { namespace proto { namespace functional
 }}}
 
 #endif
-

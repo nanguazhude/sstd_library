@@ -10,4 +10,3 @@ typedef std::wofstream test_ostream;
 #include <sstd/boost/archive/polymorphic_xml_wiarchive.hpp>
 typedef boost::archive::polymorphic_xml_wiarchive test_iarchive;
 typedef std::wifstream test_istream;
-

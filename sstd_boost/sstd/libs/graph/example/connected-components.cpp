@@ -37,4 +37,3 @@ main()
   std::cout << std::endl;
   return EXIT_SUCCESS;
 }
-

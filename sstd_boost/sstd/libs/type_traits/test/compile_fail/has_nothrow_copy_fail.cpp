@@ -11,6 +11,3 @@ int main()
 {
    return boost::has_nothrow_copy<incomplete_type>::value;
 }
-
-
-

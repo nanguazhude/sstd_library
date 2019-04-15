@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Runtime assertion checking
 * (C) 2010,2018 Jack Lloyd
 *     2017 Simon Warta (Kullo GmbH)

@@ -137,4 +137,3 @@ int main() {
   test_variadic_templates();
   return boost::report_errors();
 }
-

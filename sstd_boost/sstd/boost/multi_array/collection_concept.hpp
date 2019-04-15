@@ -24,4 +24,3 @@ namespace multi_array { // Old location for this
 
 }
 #endif // COLLECTION_CONCEPT_RG103101_HPP
-

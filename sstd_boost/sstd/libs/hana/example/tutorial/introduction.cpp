@@ -78,4 +78,3 @@ static_assert(mpl::equal<
   mpl::vector<int const*, char const*, float const*, void const*>
 >::value, "");
 //! [type-level]
-

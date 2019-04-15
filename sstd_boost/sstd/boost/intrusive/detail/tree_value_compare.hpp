@@ -184,4 +184,3 @@ struct tree_value_compare<ValuePtr, KeyCompare, KeyOfValue, Ret, true>
 }  //namespace boost{
 
 #endif   //#ifdef BOOST_INTRUSIVE_DETAIL_TREE_VALUE_COMPARE_HPP
-

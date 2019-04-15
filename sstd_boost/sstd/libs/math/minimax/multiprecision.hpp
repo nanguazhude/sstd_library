@@ -217,9 +217,3 @@ namespace boost {
 
 
 #endif // BOOST_REMEZ_MULTIPRECISION_HPP
-
-
-
-
-
-

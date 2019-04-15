@@ -53,4 +53,3 @@ BOOST_PYTHON_DECL PyObject* pytype_check(PyTypeObject* pytype, PyObject* source)
 }} // namespace boost::python
 
 #endif // ERRORS_DWA052500_H_
-

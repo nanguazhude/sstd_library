@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_PHOENIX1_CASTS
 #include <sstd/boost/spirit/home/classic/phoenix/casts.hpp>
 #endif
-

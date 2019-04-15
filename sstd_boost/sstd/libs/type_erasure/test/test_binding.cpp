@@ -126,4 +126,3 @@ BOOST_AUTO_TEST_CASE(test_binding_two)
     BOOST_CHECK(b10.find<typeid_<_b> >()() == typeid(int));
     BOOST_CHECK(b10.find<typeid_<_a> >()() == typeid(char));
 }
-

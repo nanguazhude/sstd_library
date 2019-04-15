@@ -63,4 +63,3 @@ const int verify_client_once = SSL_VERIFY_CLIENT_ONCE;
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_SSL_VERIFY_MODE_HPP
-

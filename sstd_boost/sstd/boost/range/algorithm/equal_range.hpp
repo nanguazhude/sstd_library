@@ -78,4 +78,3 @@ equal_range(const ForwardRange& rng, const Value& val, SortPredicate pred)
 } // namespace boost
 
 #endif // include guard
-

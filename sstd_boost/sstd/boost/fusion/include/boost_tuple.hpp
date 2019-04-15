@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/adapted/boost_tuple.hpp>
 
 #endif
-

@@ -32,4 +32,3 @@ int main()
         io_context.run();
     }
 }
-

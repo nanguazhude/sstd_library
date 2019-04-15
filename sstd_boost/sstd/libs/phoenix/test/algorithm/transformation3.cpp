@@ -185,4 +185,3 @@ int main()
     set_symmetric_difference_test();
     return boost::report_errors();
 }
-

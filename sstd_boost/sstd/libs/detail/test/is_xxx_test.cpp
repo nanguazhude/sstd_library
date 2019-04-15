@@ -21,4 +21,3 @@ BOOST_STATIC_ASSERT((is_thing2<is_xxx_test::thing2<int> >::value));
 BOOST_STATIC_ASSERT((is_thing2<is_xxx_test::thing2<int, float> >::value));
 
 int main() {}
-

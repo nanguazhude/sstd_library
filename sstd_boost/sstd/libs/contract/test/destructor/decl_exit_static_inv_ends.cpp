@@ -208,5 +208,3 @@ int main() {
     #undef BOOST_CONTRACT_TEST_exit_inv
     return boost::report_errors();
 }
-
-

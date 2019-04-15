@@ -279,4 +279,3 @@ typedef basic_debug<wchar_t> wdebug;
 }
 
 #endif
-

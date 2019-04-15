@@ -35,4 +35,3 @@ using is_equality_comparable=std::integral_constant<
 } /* namespace boost */
 
 #endif
-

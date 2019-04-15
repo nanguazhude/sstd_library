@@ -56,4 +56,3 @@ BOOST_HANA_CONSTANT_CHECK(number_of_floats == hana::int_c<3>);
 }
 
 int main() { }
-

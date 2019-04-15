@@ -48,4 +48,3 @@ exists(../../../../../../boost-build.jam) {
 # Execute test once compiled.
 win32: QMAKE_POST_LINK = ./$${DESTDIR}/$${TARGET}.exe
 else: QMAKE_POST_LINK = ./$${DESTDIR}/$${TARGET}
-

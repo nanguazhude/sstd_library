@@ -278,4 +278,3 @@ BOOST_AUTO_TEST_CASE(barycentric_rational)
 #endif
 
 }
-

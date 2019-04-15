@@ -117,5 +117,3 @@ namespace test_detail
 {
    bool disable_rvo = true;
 }
-
-

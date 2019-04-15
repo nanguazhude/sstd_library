@@ -511,4 +511,3 @@ struct niederreiter_base2
 } // namespace boost
 
 #endif // BOOST_RANDOM_DETAIL_NIEDERREITER_BASE2_TABLE_HPP
-

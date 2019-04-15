@@ -56,5 +56,3 @@
     )(BOOST_LOCAL_FUNCTION_AUX_PP_DECL_TRAITS_PARAMS(decl_traits))
 
 #endif // #include guard
-
-

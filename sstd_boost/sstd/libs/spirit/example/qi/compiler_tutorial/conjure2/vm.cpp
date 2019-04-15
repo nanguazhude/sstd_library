@@ -156,6 +156,3 @@ namespace client
         }
     }
 }
-
-
-

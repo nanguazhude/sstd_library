@@ -13,4 +13,3 @@
 #include "../include/boost/fusion/support.hpp"
 #include "../include/boost/fusion/tuple.hpp"
 #include "../include/boost/fusion/view.hpp"
-

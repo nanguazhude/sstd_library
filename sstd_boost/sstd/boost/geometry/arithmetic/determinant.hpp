@@ -76,4 +76,3 @@ inline ReturnType determinant(U const& u, V const& v)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ARITHMETIC_DETERMINANT_HPP
-

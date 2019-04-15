@@ -30,4 +30,3 @@ int main()
     p = new int(42); // assignment must fail
     return 0;
 }
-

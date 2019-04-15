@@ -31,4 +31,3 @@ BOOST_UNITS_STATIC_CONSTANT(bits, hu::bit::info);
 } // namespace boost
 
 #endif // BOOST_UNITS_SYSTEMS_INFORMATION_BIT_HPP_INCLUDED
-

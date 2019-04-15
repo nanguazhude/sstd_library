@@ -520,4 +520,3 @@ BOOST_ATOMIC_INTERLOCKED_IMPORT void* __stdcall InterlockedExchangePointer(void*
 #endif // defined(_MSC_VER)
 
 #endif
-

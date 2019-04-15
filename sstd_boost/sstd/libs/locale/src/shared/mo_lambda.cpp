@@ -408,5 +408,3 @@ plural_ptr compile(char const *str)
 } // boost
 
 // vim: tabstop=4 expandtab shiftwidth=4 softtabstop=4
-
-

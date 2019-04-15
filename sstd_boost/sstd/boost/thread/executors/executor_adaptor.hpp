@@ -134,4 +134,3 @@ using executors::executor_adaptor;
 #include <sstd/boost/config/abi_suffix.hpp>
 
 #endif
-

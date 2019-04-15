@@ -36,4 +36,3 @@
 #include <sstd/boost/fiber/unbuffered_channel.hpp>
 
 #endif // BOOST_FIBERS_H
-

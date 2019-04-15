@@ -107,4 +107,3 @@ struct insertion_sort
 } // namespace boost
 
 #endif
-

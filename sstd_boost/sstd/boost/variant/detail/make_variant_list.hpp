@@ -71,4 +71,3 @@ public: // metafunction result
 } // namespace boost
 
 #endif // BOOST_VARIANT_DETAIL_MAKE_VARIANT_LIST_HPP
-

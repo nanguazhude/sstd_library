@@ -13,4 +13,3 @@
 #include <sstd/boost/qvm/vec_mat_operations.hpp>
 
 #endif
-

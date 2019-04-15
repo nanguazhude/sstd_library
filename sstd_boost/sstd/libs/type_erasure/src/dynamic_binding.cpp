@@ -55,4 +55,3 @@ BOOST_TYPE_ERASURE_DECL value_type boost::type_erasure::detail::lookup_function_
         throw bad_any_cast();
     }
 }
-

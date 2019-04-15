@@ -190,4 +190,3 @@ void class_done( void )
         classes = 0;
     }
 }
-

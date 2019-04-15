@@ -68,5 +68,3 @@ BOOST_METAPARSE_TEST_CASE(accept)
     is_same<start, get_position<accept<int, s, start> >::type>
   ));
 }
-
-

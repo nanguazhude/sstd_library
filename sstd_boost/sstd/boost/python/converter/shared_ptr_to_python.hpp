@@ -41,4 +41,3 @@ PyObject* shared_ptr_to_python(std::shared_ptr<T> const& x)
 }}} // namespace boost::python::converter
 
 #endif
-

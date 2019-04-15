@@ -163,5 +163,3 @@ BOOST_AUTO_TEST_CASE(test_string)
 #endif
 
 }
-
-

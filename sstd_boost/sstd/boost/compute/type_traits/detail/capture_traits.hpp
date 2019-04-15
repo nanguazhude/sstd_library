@@ -31,4 +31,3 @@ struct capture_traits
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_TYPE_TRAITS_DETAIL_CAPTURE_TRAITS_HPP
-

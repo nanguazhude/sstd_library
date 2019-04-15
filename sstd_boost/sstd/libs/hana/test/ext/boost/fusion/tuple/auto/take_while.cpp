@@ -6,4 +6,3 @@
 #include <auto/take_while.hpp>
 
 int main() { }
-

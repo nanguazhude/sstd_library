@@ -163,5 +163,3 @@ void test_emacs2()
    TEST_REGEX_SEARCH("\\s>+", emacs, "\n\f ", match_default, make_array(0, 2, -2, -2));
    TEST_REGEX_SEARCH("\\S>+", emacs, "\n\f ", match_default, make_array(2, 3, -2, -2));
 }
-
-

@@ -17,4 +17,3 @@ add_executable (http-server-stackless
 )
 
 set_property(TARGET http-server-stackless PROPERTY FOLDER "example-http-server")
-

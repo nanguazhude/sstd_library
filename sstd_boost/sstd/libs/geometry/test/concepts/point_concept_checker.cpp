@@ -74,4 +74,3 @@ int main()
     boost::geometry::concepts::check<const ro_point>();
     boost::geometry::concepts::check<rw_point>();
 }
-

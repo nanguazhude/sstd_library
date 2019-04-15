@@ -184,4 +184,3 @@ st_connected(const DistributedGraph& g,
 } } } // end namespace boost::graph::distributed
 
 #endif // BOOST_GRAPH_DISTRIBUTED_ST_CONNECTED_HPP
-

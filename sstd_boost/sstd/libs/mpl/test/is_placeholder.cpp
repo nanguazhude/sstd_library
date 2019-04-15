@@ -40,4 +40,3 @@ MPL_TEST_CASE()
         , unused
         )
 }
-

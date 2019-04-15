@@ -75,4 +75,3 @@ test_main( int /* argc */, char* /* argv */[] )
     BOOST_CHECK(boost::serialization::singleton<Foo>::get_const_instance().i == 42);
     return EXIT_SUCCESS;
 }
-

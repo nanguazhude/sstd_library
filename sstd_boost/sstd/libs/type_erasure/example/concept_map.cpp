@@ -48,4 +48,3 @@ struct less_than_comparable<std::type_info>
 //` [@boost:/libs/type_erasure/example/concept_map.cpp concept_map.cpp])
 //` [concept_map1]
 //]
-

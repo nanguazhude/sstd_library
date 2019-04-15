@@ -200,4 +200,3 @@ struct is_fields_helper : T
 } // boost
 
 #endif
-

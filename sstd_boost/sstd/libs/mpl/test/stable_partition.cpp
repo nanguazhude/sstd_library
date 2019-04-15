@@ -45,4 +45,3 @@ MPL_TEST_CASE()
     MPL_ASSERT(( equal< result::first,manual_second > ));
     MPL_ASSERT(( equal< result::second,manual_first > ));
 }
-

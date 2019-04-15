@@ -110,4 +110,3 @@ void test_geometry(std::string const& wkt1,
 }
 
 #endif // BOOST_GEOMETRY_TEST_DISJOINT_HPP
-

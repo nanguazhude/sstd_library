@@ -38,4 +38,3 @@ namespace boost { namespace property_tree { namespace info_parser
 } } }
 
 #endif
-

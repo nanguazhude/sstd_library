@@ -21,4 +21,3 @@ inline unsigned long digits2_2_10(unsigned long d2)
 }}} // namespaces
 
 #endif
-

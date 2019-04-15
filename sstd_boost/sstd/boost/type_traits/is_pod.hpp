@@ -57,4 +57,3 @@ template<class T> struct is_POD : public is_pod<T>{};
 #undef BOOST_INTERNAL_IS_POD
 
 #endif // BOOST_TT_IS_POD_HPP_INCLUDED
-

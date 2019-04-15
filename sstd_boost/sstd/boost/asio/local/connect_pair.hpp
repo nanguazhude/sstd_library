@@ -106,4 +106,3 @@ inline BOOST_ASIO_SYNC_OP_VOID connect_pair(
        //   || defined(GENERATING_DOCUMENTATION)
 
 #endif // BOOST_ASIO_LOCAL_CONNECT_PAIR_HPP
-

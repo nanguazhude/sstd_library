@@ -16,6 +16,3 @@ int main()
   std::cout << path("a/b/c/d/e/").stem() << std::endl;
   return 0;
 }
-
-
-

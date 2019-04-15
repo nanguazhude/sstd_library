@@ -897,4 +897,3 @@ namespace boost
 }//namespace boost
 
 #endif //BOOST_GRAPH_MAXIMUM_CARDINALITY_MATCHING_HPP
-

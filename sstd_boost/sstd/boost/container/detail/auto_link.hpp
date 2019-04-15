@@ -49,4 +49,3 @@
 #endif  // auto-linking disabled
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_AUTO_LINK_HPP_INCLUDED
-

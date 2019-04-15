@@ -98,5 +98,3 @@ private:
 
 #endif // #include guard
 //]
-
-

@@ -200,4 +200,3 @@ public:
 } // boost
 
 #endif // BOOST_NUMERIC_cpp_HPP
-

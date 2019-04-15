@@ -52,4 +52,3 @@ public:
 #include <sstd/boost/archive/detail/abi_suffix.hpp> // must be the last header
 
 #endif //BOOST_ARCHIVE_SERIALIZER_MAP_HPP
-

@@ -33,5 +33,3 @@ which adds a BOM to UTF-8 files by default.
 
 
 */
-
-

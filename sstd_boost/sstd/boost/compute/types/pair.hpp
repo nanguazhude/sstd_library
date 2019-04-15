@@ -115,4 +115,3 @@ struct type_definition_trait<std::pair<T1, T2> >
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_TYPES_PAIR_HPP
-

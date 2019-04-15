@@ -171,4 +171,3 @@ public:
 };
 
 #endif // BOOST_POOL_TEST_SIMP_SEG_STORE_HPP
-

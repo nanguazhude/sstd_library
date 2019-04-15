@@ -20,4 +20,3 @@
 #include <sstd/boost/ratio/mpl/lcm.hpp>
 
 #endif  // BOOST_RATIO_MPL_ARITHMETIC_HPP
-

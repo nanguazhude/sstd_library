@@ -170,4 +170,3 @@ using extract::rolling_window;
 }} // namespace boost::accumulators
 
 #endif
-

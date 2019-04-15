@@ -245,4 +245,3 @@ BOOST_HOF_TEST_CASE()
 #endif
     (void)r;
 }
-

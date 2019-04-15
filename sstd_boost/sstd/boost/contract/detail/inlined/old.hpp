@@ -31,5 +31,3 @@ old_pointer make_old(virtual_* v, old_value const& old) {
 } } // namespacd
 
 #endif // #include guard
-
-

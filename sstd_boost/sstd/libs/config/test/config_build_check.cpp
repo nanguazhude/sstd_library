@@ -17,5 +17,3 @@ int main( int, char *[] )
 {
    return boost_has_int128::test() || boost_no_cxx11_constexpr::test() || boost_no_cxx11_user_defined_literals::test();
 }
-
-

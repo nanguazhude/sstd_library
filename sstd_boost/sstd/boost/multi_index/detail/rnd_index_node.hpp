@@ -281,4 +281,3 @@ public:
 } /* namespace boost */
 
 #endif
-

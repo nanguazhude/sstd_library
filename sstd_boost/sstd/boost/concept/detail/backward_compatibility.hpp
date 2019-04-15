@@ -14,4 +14,3 @@ namespace boost
 } // namespace boost::concept
 
 #endif // BOOST_CONCEPT_BACKWARD_COMPATIBILITY_DWA200968_HPP
-

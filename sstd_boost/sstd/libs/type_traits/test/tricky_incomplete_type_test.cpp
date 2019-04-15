@@ -33,6 +33,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_member_pointer<incomplete_type>::value, f
 BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_member_object_pointer<incomplete_type>::value, false);
 
 TT_TEST_END
-
-
-

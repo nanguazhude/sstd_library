@@ -125,4 +125,3 @@ xml_unescape<Base>::drain(){
 } // namespace boost
 
 #endif // BOOST_ARCHIVE_ITERATORS_XML_UNESCAPE_HPP
-

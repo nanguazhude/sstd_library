@@ -13,4 +13,3 @@
 #include <sstd/boost/fusion/algorithm/transformation.hpp>
 
 #endif
-

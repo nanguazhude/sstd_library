@@ -14,5 +14,3 @@
 //E t_1_037.cpp(16): error: pasting the following two tokens does not give a valid preprocessing token: "/" and "/"
 #define _VARIANT_BOOL    /##/
 _VARIANT_BOOL bool;
-
-

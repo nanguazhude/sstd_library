@@ -43,4 +43,3 @@ int main() {
     CT_ASSERT(is_substitution_failure_remove_varargs<void*>::value);
     CT_ASSERT(is_substitution_failure_remove_varargs<void(**)()>::value);
 }
-

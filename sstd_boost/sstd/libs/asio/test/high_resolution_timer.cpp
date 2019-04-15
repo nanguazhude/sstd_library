@@ -28,4 +28,3 @@ BOOST_ASIO_TEST_SUITE
   "high_resolution_timer",
   BOOST_ASIO_TEST_CASE(null_test)
 )
-

@@ -178,4 +178,3 @@ T any_cast(const any<Concept, Tag>* arg)
 }
 
 #endif
-

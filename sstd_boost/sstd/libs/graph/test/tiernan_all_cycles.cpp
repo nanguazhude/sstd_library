@@ -75,4 +75,3 @@ main(int, char *[])
     std::cout << "*** directed ***\n";
     test<DiGraph>();
 }
-

@@ -42,5 +42,3 @@ int main() {
     CT_ASSERT(is_substitution_failure_class_of<int(&)()>::value);
     CT_ASSERT(is_substitution_failure_class_of<int (foo::** const)()>::value);
 }
-
-

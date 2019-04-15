@@ -39,5 +39,3 @@ int main()
     test_thread_clock();
     return 0;
 }
-
-

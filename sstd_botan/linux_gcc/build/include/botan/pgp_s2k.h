@@ -1,4 +1,4 @@
-/*
+﻿/*
 * OpenPGP PBKDF
 * (C) 1999-2007,2017 Jack Lloyd
 * (C) 2018 Ribose Inc

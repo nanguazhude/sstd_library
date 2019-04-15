@@ -38,4 +38,3 @@ main()
     BOOST_TEST(&A<3>(v)==&W(v));
     return boost::report_errors();
     }
-

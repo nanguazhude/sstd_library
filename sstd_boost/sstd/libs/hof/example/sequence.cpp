@@ -119,5 +119,3 @@ int main()
     run_filter();
     run_zip();
 }
-
-

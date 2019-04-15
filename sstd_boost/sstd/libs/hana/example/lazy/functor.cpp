@@ -15,4 +15,3 @@ int main() {
 
     hana::transform(hana::make_lazy(4 / _)(0), _ * 3); // never evaluated
 }
-

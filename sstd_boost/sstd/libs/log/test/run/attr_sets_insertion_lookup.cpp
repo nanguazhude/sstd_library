@@ -99,4 +99,3 @@ BOOST_AUTO_TEST_CASE(attribute_values)
 
     test_insertion_lookup(values, attr.get_value());
 }
-

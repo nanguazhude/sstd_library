@@ -52,4 +52,3 @@ inline bool barrier::wait()
 
 }  //namespace interprocess {
 }  //namespace boost {
-

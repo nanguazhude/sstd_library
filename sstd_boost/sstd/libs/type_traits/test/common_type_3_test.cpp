@@ -20,4 +20,3 @@ TT_TEST_BEGIN(common_type_3)
     (void)tmp;
 }
 TT_TEST_END
-

@@ -76,4 +76,3 @@ inline size_t count_if_with_ballot(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_COUNT_IF_WITH_BALLOT_HPP
-

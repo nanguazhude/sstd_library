@@ -167,4 +167,3 @@ namespace boost {
 } // end namespace boost
 
 #endif // BOOST_GRAPH_SSCA_GENERATOR_HPP
-

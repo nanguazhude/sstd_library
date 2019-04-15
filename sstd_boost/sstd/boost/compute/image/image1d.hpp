@@ -202,4 +202,3 @@ struct set_kernel_arg<image1d> : public set_kernel_arg<image_object> { };
 BOOST_COMPUTE_TYPE_NAME(boost::compute::image1d, image1d_t)
 
 #endif // BOOST_COMPUTE_IMAGE_IMAGE1D_HPP
-

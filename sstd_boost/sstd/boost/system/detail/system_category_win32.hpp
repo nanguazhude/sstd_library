@@ -322,4 +322,3 @@ inline error_condition system_category_default_error_condition_win32( int ev ) B
 } // namespace system
 
 } // namespace boost
-

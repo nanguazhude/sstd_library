@@ -57,4 +57,3 @@ template <class T>
 } // namespace boost
 
 #endif // BOOST_SINGLETON_MJM012402_HPP
-

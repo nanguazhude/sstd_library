@@ -101,4 +101,3 @@ inline OutputIterator serial_scan(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_SERIAL_SCAN_HPP
-

@@ -84,4 +84,3 @@ BOOST_FORCEINLINE To bitwise_fp_cast(From const& from) BOOST_NOEXCEPT
 } // namespace boost
 
 #endif // BOOST_ATOMIC_DETAIL_BITWISE_FP_CAST_HPP_INCLUDED_
-

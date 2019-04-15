@@ -354,4 +354,3 @@ class sequence_container_adaptor :
 
 
 #endif // BOOST_BIMAP_CONTAINER_ADAPTOR_SEQUENCE_CONTAINER_ADAPTOR_HPP
-

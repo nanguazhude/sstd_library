@@ -136,4 +136,3 @@ bool test_divide(
 }
 
 #endif // BOOST_TEST_DIVIDE
-

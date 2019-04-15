@@ -19,5 +19,3 @@
             BOOST_LOCAL_FUNCTION_AUX_PP_DECL_TRAITS_INDEX_RETURNS, decl_traits)
 
 #endif // #include guard
-
-

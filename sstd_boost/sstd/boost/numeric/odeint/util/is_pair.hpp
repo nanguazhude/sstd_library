@@ -43,4 +43,3 @@ struct is_pair< std::pair< T1 , T2 > > : public boost::mpl::true_
 
 
 #endif // BOOST_NUMERIC_ODEINT_UTIL_IS_PAIR_HPP_INCLUDED
-

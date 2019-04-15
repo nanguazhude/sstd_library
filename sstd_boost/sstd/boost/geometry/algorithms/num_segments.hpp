@@ -202,4 +202,3 @@ inline std::size_t num_segments(Geometry const& geometry)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_NUM_SEGMENTS_HPP
-

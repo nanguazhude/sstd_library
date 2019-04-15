@@ -30,4 +30,3 @@ int main(int argc, char **argv)
   // Print it again.
   std::cout << "Reshaped array:\n" << p::extract<char const *>(p::str(a)) << std::endl;
 }
-

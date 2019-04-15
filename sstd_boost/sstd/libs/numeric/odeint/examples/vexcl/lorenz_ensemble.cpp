@@ -84,4 +84,3 @@ int main( int argc , char **argv )
     for( size_t i=0 ; i<n ; ++i )
         cout << r[i] << "\t" << res[i] << "\t" << "\n";
 }
-

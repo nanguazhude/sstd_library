@@ -728,4 +728,3 @@ private:
 
 
 #endif // BOOST_GEOMETRY_SRS_TRANSFORMATION_HPP
-

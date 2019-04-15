@@ -145,4 +145,3 @@ gatherv(const communicator& comm, const std::vector<T>& in_values,
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_GATHERV_HPP
-

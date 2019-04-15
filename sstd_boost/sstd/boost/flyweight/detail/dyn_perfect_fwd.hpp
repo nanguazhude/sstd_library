@@ -112,4 +112,3 @@ BOOST_FLYWEIGHT_PERFECT_FWD_WITH_ARGS(name,body)
 
 #endif
 #endif
-

@@ -139,4 +139,3 @@ BOOST_AUTO_TEST_CASE(LegendreStieltjesZeros)
     test_legendre_stieltjes<cpp_bin_float_quad>();
     //test_legendre_stieltjes<boost::multiprecision::cpp_bin_float_100>();
 }
-

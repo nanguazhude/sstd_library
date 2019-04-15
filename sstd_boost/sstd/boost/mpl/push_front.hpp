@@ -50,4 +50,3 @@ BOOST_MPL_AUX_NA_SPEC(1, has_push_front)
 }}
 
 #endif // BOOST_MPL_PUSH_FRONT_HPP_INCLUDED
-

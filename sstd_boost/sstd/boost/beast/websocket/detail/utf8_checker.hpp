@@ -393,4 +393,3 @@ check_utf8(char const* p, std::size_t n)
 } // boost
 
 #endif
-

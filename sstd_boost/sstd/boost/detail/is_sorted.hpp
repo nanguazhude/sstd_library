@@ -53,5 +53,3 @@ inline bool is_sorted (Iterator first, Iterator last) {
 } // boost
 
 #endif // BOOST_DETAIL_SORTED_HPP
-
-

@@ -214,4 +214,3 @@ private:
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ITERATORS_EVER_CIRCLING_ITERATOR_HPP
-

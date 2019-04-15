@@ -30,4 +30,3 @@
 #define BOOST_HAS_UNISTD_H
 #define BOOST_HAS_DIRENT_H
 #define BOOST_HAS_NL_TYPES_H
-

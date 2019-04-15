@@ -183,4 +183,3 @@ protected:
 #include <sstd/boost/archive/detail/abi_suffix.hpp> // pops abi_suffix.hpp pragmas
 
 #endif // BOOST_ARCHIVE_BASIC_BINARY_OARCHIVE_HPP
-

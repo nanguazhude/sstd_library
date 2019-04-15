@@ -28,4 +28,3 @@ int main() {
 
     hana::test::TestSearchable<hana::ext::boost::mpl::vector_tag>{vectors, keys};
 }
-

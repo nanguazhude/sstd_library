@@ -113,5 +113,3 @@ void insert_key_action_test()
     insert_key_single_argument_test();
     insert_key_two_arguments_test();
 }
-
-

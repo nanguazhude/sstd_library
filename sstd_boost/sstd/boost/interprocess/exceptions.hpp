@@ -108,4 +108,3 @@ class BOOST_SYMBOL_VISIBLE bad_alloc : public interprocess_exception
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif // BOOST_INTERPROCESS_EXCEPTIONS_HPP
-

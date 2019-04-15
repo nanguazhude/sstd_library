@@ -27,4 +27,3 @@ BOOST_AUTO_TEST_CASE( test_collections_vectors_lex )
   BOOST_TEST(c == d); // no extended diagnostic
 }
 //]
-

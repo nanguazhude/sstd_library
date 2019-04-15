@@ -95,4 +95,3 @@ BOOST_AUTO_TEST_CASE( rgb_color_space_write_test )
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

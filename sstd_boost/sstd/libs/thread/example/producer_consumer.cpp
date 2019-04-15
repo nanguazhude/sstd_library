@@ -144,5 +144,3 @@ int main()
   mcout << "end of main" << std::endl;
   return 0;
 }
-
-

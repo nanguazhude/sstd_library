@@ -49,4 +49,3 @@ namespace foreach
 } // namespace boost
 
 #endif
-

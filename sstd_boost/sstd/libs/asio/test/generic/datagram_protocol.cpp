@@ -265,4 +265,3 @@ BOOST_ASIO_TEST_SUITE
   "generic/datagram_protocol",
   BOOST_ASIO_TEST_CASE(generic_datagram_protocol_socket_compile::test)
 )
-

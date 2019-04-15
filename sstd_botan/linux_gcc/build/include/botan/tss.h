@@ -1,4 +1,4 @@
-/*
+﻿/*
 * RTSS (threshold secret sharing)
 * (C) 2009,2018 Jack Lloyd
 *

@@ -340,4 +340,3 @@ main(int argc, char *argv[])
     std::cout << "method failed" << std::endl;
   return 0;
 }
-

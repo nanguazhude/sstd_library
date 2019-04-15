@@ -9,4 +9,3 @@
 
 // Test that header file is self-contained.
 #include <sstd/boost/beast/zlib.hpp>
-

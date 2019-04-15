@@ -42,4 +42,3 @@ struct default_strategy
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_AZIMUTH_HPP
-

@@ -207,4 +207,3 @@ namespace integer
 } // namespace boost::math::tools
 
 #endif
-

@@ -116,4 +116,3 @@ inline T aatan2(T const& n, T const& d)
 
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_IMPL_AASINCOS_HPP
-

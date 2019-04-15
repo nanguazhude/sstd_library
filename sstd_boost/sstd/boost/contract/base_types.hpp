@@ -197,5 +197,3 @@ BOOST_CONTRACT_ERROR_macro_BASE_TYPES_requires_variadic_macros_otherwise_manuall
 #endif
 
 #endif // #include guard
-
-

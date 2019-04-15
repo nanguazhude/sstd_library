@@ -61,4 +61,3 @@ BOOST_AUTO_TEST_CASE(test_can_use_function_object_for_exit_func)
     t.join();
     BOOST_CHECK(exit_func_thread_id==t_id);
 }
-

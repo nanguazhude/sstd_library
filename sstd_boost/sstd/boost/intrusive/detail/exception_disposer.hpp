@@ -88,4 +88,3 @@ class exception_array_disposer
 }  //namespace boost{
 
 #endif //BOOST_INTRUSIVE_DETAIL_EXCEPTION_DISPOSER_HPP
-

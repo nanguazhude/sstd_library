@@ -31,5 +31,3 @@ int main() {
     assert(x == 11);
     return 0;
 }
-
-

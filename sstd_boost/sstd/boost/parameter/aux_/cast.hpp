@@ -138,5 +138,3 @@ struct cast<void(T), Args>
 }}} // namespace boost::parameter::aux
 
 #endif // BOOST_PARAMETER_CAST_060902_HPP
-
-

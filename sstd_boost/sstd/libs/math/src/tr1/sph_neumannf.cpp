@@ -15,6 +15,3 @@ extern "C" float BOOST_MATH_TR1_DECL boost_sph_neumannf BOOST_PREVENT_MACRO_SUBS
 {
    return c_policies::sph_neumann BOOST_PREVENT_MACRO_SUBSTITUTION(n, x);
 }
-
-
-

@@ -173,4 +173,3 @@ std::vector<char*> exe_cmd_init<char>::make_cmd()
 }}}}
 
 #endif
-

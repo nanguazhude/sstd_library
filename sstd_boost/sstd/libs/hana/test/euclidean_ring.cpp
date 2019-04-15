@@ -26,4 +26,3 @@ int main() {
         static_assert(hana::mod(7, -3) == 7 % -3, "");
     }
 }
-

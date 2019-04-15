@@ -167,4 +167,3 @@ void spreadsort(Range& range)
 } // namespace boost
 
 #endif
-

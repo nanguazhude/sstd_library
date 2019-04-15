@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/view/filter_view.hpp>
 
 #endif
-

@@ -401,4 +401,3 @@ using graph::vertex_list_adaptor;
 } // end namespace boost
 
 #endif // BOOST_VERTEX_LIST_ADAPTOR_HPP
-

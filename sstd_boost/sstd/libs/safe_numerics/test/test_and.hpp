@@ -145,4 +145,3 @@ bool test_and(
 }
 
 #endif // BOOST_TEST_AND_HPP
-

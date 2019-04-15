@@ -7,5 +7,3 @@
 
 #include "nova.hpp"
 #include "add_params_only_seq.cpp"
-
-

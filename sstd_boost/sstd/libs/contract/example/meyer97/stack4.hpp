@@ -198,5 +198,3 @@ private:
 
 #endif // #include guard
 //]
-
-

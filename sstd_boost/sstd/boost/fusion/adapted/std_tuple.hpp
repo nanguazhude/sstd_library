@@ -22,4 +22,3 @@
 #include <sstd/boost/fusion/adapted/std_tuple/mpl/clear.hpp>
 
 #endif
-

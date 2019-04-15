@@ -79,4 +79,3 @@ struct get_radius<Point, point_tag>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_SPHERICAL_GET_RADIUS_HPP
-

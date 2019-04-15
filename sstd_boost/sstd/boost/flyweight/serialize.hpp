@@ -96,4 +96,3 @@ void load(
 } /* namespace boost */
 
 #endif
-

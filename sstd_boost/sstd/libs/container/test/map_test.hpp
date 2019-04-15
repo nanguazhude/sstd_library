@@ -1194,4 +1194,3 @@ bool instantiate_constructors()
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_CONTAINER_TEST_MAP_TEST_HEADER
-

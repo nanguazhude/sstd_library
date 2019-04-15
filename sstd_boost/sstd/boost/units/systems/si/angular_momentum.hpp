@@ -29,4 +29,3 @@ typedef unit<angular_momentum_dimension,si::system>      angular_momentum;
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_ANGULAR_MOMENTUM_HPP
-

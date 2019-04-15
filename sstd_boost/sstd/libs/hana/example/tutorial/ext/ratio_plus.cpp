@@ -13,4 +13,3 @@ auto r = hana::plus(std::ratio<3, 4>{}, std::ratio<4, 5>{});
 //! [main]
 
 int main() { }
-

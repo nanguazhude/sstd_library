@@ -30,4 +30,3 @@ namespace date_time {
 }} // namespace boost::date_time
 
 #endif // _STRING_CONVERT_HPP___
-

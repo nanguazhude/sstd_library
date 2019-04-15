@@ -542,4 +542,3 @@ BOOST_DEDUCED_TYPENAME BASE::const_reference back() const                     \
 
 
 #endif // BOOST_BIMAP_DETAIL_MAP_VIEW_BASE_HPP
-

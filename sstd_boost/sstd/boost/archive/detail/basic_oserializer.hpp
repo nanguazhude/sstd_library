@@ -87,4 +87,3 @@ public:
 #include <sstd/boost/archive/detail/abi_suffix.hpp> // pops abi_suffix.hpp pragmas
 
 #endif // BOOST_SERIALIZATION_BASIC_OSERIALIZER_HPP
-

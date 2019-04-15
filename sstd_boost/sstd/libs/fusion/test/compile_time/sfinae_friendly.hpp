@@ -50,5 +50,3 @@ namespace sfinae_friendly
 #endif
 
 #endif // FUSION_TEST_SFINAE_FRIENDLY_HPP
-
-

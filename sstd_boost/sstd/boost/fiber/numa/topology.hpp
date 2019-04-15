@@ -44,4 +44,3 @@ std::vector< node > topology();
 #endif
 
 #endif // BOOST_FIBERS_NUMA_TOPOLOGY_H
-

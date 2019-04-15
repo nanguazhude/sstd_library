@@ -45,4 +45,3 @@ struct is_dimensionless< quantity<Unit,Y> > :
 } // namespace boost
 
 #endif // BOOST_UNITS_IS_DIMENSIONLESS_HPP
-

@@ -46,4 +46,3 @@
 #endif
 
 #endif  // #ifndef BOOST_SMART_PTR_DETAIL_SP_NOEXCEPT_HPP_INCLUDED
-

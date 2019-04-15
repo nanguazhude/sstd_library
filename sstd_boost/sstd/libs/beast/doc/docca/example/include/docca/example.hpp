@@ -849,4 +849,3 @@ struct class_type
 } // other
 
 #endif
-

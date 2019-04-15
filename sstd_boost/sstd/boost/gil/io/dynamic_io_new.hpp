@@ -103,4 +103,3 @@ inline bool construct_matched(any_image<Images>& im,Pred pred) {
 } }  // namespace boost::gil
 
 #endif
-

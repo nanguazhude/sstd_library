@@ -60,4 +60,3 @@ private:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_CONTAINER_DETAIL_SCALAR_HPP
-

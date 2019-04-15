@@ -29,4 +29,3 @@ template< typename T > struct list0_c
 }}
 
 #endif // BOOST_MPL_LIST_LIST0_C_HPP_INCLUDED
-

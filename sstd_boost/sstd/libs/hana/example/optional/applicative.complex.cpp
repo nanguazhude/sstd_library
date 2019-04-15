@@ -48,4 +48,3 @@ int main() {
 
     static_assert(hana::lift<hana::optional_tag>(123) == hana::just(123), "");
 }
-

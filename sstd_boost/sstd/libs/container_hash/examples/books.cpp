@@ -49,4 +49,3 @@ namespace library
         return hasher(b.id);
     }
 }
-

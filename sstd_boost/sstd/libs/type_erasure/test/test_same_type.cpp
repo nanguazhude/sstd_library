@@ -85,4 +85,3 @@ BOOST_AUTO_TEST_CASE(test_convert)
     any<test_concept_dest, _c&> y2(*x2);
     BOOST_CHECK_EQUAL(&any_cast<int&>(y2), &i);
 }
-

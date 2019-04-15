@@ -31,4 +31,3 @@ struct norm_result_type {
 } } }
 
 #endif
-

@@ -739,4 +739,3 @@ struct is_dynamic_image_writer< dynamic_image_writer< Device
 } // namespace boost
 
 #endif
-

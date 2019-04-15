@@ -49,6 +49,3 @@ typedef metafunctions::get<_STR("times11")> times11;
 #endif
 
 #endif
-
-
-

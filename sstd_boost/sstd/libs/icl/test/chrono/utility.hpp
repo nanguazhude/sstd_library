@@ -47,4 +47,3 @@ struct clock_string<Now, CharT>
 }} //namespace boost chrono
 
 #endif //BOOST_LIBS_ICL_TEST_CHRONO_UTILITY_HPP_JOFA_20110314
-

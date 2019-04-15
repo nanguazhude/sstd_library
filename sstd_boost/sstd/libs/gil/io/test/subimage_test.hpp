@@ -49,4 +49,3 @@ void run_subimage_test( string filename
 }
 
 #endif // BOOST_GIL_IO_TEST_SUBIMAGE_TEST_HPP
-

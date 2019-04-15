@@ -95,4 +95,3 @@ namespace quickbook
 }
 
 #endif // BOOST_SPIRIT_QUICKBOOK_COLLECTOR_HPP
-

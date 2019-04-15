@@ -34,4 +34,3 @@ BOOST_UNITS_STATIC_CONSTANT(centimetres_per_second,velocity);
 } // namespace boost
 
 #endif // BOOST_UNITS_CGS_VELOCITY_HPP
-

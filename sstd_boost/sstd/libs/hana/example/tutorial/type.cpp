@@ -258,4 +258,3 @@ BOOST_HANA_CONSTANT_CHECK(
 );
 //! [template_]
 }
-

@@ -38,4 +38,3 @@ extern "C" __declspec(selectany) BOOL (WINAPI * const _pRawDllMainOrig)(HINSTANC
 #endif
 
 #endif
-

@@ -87,4 +87,3 @@ void write_bidirectional_test()
 }
 
 #endif // #ifndef BOOST_IOSTREAMS_TEST_WRITE_BIDIRECTIONAL_HPP_INCLUDED
-

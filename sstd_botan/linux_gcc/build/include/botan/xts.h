@@ -1,4 +1,4 @@
-/*
+﻿/*
 * XTS mode, from IEEE P1619
 * (C) 2009,2013 Jack Lloyd
 * (C) 2016 Daniel Neus, Rohde & Schwarz Cybersecurity

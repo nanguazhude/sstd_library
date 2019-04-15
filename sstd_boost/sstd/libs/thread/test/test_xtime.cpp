@@ -95,4 +95,3 @@ BOOST_AUTO_TEST_CASE(test_xtime_condvar_backwards_compatibility)
     cond_any.timed_wait(lk,boost::get_xtime(boost::get_system_time()+boost::posix_time::milliseconds(10)));
     cond_any.timed_wait(lk,boost::get_xtime(boost::get_system_time()+boost::posix_time::milliseconds(10)),predicate);
 }
-

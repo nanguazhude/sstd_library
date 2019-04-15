@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/algorithm/transformation/push_back.hpp>
 
 #endif
-

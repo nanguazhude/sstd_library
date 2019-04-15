@@ -27,4 +27,3 @@ int main() {
 
     BOOST_HANA_RUNTIME_CHECK(names == hana::make_tuple("Moby Dick", "Garfield", "Snoopy"));
 }
-

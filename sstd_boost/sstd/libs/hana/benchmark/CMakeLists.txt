@@ -89,4 +89,3 @@ foreach(benchmark IN LISTS BOOST_HANA_BENCHMARKS)
     add_custom_target(${target} DEPENDS "${CMAKE_CURRENT_BINARY_DIR}/${target}.json")
     add_dependencies(benchmarks ${target})
 endforeach()
-

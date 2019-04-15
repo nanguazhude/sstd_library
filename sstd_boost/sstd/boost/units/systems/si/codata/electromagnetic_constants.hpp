@@ -73,4 +73,3 @@ BOOST_UNITS_PHYSICAL_CONSTANT(mu_N,quantity<energy_over_magnetic_flux_density>,5
 } // namespace boost
 
 #endif // BOOST_UNITS_CODATA_ELECTROMAGNETIC_CONSTANTS_HPP
-

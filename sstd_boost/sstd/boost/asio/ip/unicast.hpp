@@ -70,4 +70,3 @@ typedef boost::asio::ip::detail::socket_option::unicast_hops<
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IP_UNICAST_HPP
-

@@ -13,4 +13,3 @@ int main() {
     auto xs = <%= fusion_list((1..input_size).map { |n| "x<#{n}>{}" }) %>;
     (void)xs;
 }
-

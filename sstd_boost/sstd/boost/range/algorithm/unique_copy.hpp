@@ -49,4 +49,3 @@ unique_copy( const SinglePassRange& rng, OutputIterator out_it,
 } // namespace boost
 
 #endif // include guard
-

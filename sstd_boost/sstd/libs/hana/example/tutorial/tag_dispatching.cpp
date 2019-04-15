@@ -168,4 +168,3 @@ constexpr print_t print{};
 
 static_assert(sizeof(print) || true, "remove unused variable print warning");
 }
-

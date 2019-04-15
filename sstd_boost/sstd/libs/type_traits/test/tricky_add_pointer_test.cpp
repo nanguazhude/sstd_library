@@ -41,12 +41,3 @@ TT_TEST_BEGIN(tricky_add_pointer_test)
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

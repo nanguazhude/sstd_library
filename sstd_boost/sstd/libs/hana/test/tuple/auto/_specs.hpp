@@ -13,4 +13,3 @@
 #define TUPLE_TAG ::boost::hana::tuple_tag
 
 #endif // !BOOST_HANA_TEST_TUPLE_AUTO_SPECS_HPP
-

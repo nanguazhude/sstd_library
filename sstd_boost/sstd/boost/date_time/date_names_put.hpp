@@ -319,4 +319,3 @@ namespace date_time {
 #endif //BOOST_NO_STD_LOCALE
 
 #endif
-

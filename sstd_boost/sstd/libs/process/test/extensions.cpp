@@ -96,7 +96,3 @@ BOOST_AUTO_TEST_CASE(overload)
     BOOST_CHECK_EQUAL(st, "posix");
 #endif
 }
-
-
-
-

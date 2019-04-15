@@ -328,4 +328,3 @@ inline OutputIterator scan_on_gpu(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_SCAN_ON_GPU_HPP
-

@@ -74,4 +74,3 @@ typedef uintptr_aux::type                         uintptr_type;
 } /* namespace boost */
 
 #endif
-

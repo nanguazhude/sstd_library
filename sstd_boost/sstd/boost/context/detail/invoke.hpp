@@ -48,4 +48,3 @@ invoke( Fn && fn, Args && ... args) {
 #endif
 
 #endif // BOOST_CONTEXT_DETAIL_INVOKE_H
-

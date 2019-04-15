@@ -76,4 +76,3 @@ inline Iterator stable_partition(Iterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_STABLE_PARTITION_HPP
-

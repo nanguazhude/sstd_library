@@ -1,4 +1,4 @@
-/*
+﻿/*
 * SQL database interface
 * (C) 2014 Jack Lloyd
 *

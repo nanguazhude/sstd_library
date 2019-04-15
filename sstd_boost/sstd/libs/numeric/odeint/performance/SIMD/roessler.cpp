@@ -123,4 +123,3 @@ std::cout << state[0][0] << std::endl;
 std::cout << s/n << std::endl;
 
 }
-

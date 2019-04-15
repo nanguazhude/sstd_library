@@ -58,4 +58,3 @@ MPL_TEST_CASE()
     typedef advance_c<first,5>::type iter;
     MPL_ASSERT_RELATION( deref<iter>::type::value, ==, 5 );
 }
-

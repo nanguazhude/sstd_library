@@ -31,5 +31,3 @@ int main()
    test<boost::rational<boost::multiprecision::tom_int> >();
    return boost::report_errors();
 }
-
-

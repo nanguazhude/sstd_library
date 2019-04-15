@@ -161,4 +161,3 @@ int test_main (int, char *[])
     test03 ( );
     return 0;
 }
-

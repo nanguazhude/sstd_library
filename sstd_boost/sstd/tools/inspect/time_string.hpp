@@ -53,4 +53,3 @@ bool time_string(std::string & result
 }
 
 #endif // include guard
-

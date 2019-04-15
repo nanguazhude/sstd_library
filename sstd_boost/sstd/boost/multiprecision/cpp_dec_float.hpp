@@ -3160,4 +3160,3 @@ struct precision< boost::multiprecision::number<boost::multiprecision::cpp_dec_f
 #endif
 
 #endif
-

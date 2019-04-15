@@ -48,5 +48,3 @@
     BOOST_LOCAL_FUNCTION_DETAIL_PP_KEYWORD_FACILITY_IS_(token, checking_postfix)
 
 #endif // #include guard
-
-

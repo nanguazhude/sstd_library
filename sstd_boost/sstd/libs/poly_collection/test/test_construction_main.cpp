@@ -14,4 +14,3 @@ int main()
   test_construction();
   return boost::report_errors();
 }
-

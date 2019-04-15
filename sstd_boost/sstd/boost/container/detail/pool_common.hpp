@@ -55,4 +55,3 @@ struct is_stateless_segment_manager
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_ADAPTIVE_NODE_POOL_IMPL_HPP
-

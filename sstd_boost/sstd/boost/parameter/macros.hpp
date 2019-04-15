@@ -96,5 +96,3 @@
     ret BOOST_PP_CAT(name, _with_named_params)(Params const& p)
 
 #endif // BOOST_PARAMETER_MACROS_050412_HPP
-
-

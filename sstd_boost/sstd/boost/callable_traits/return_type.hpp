@@ -88,4 +88,3 @@ struct return_type : detail::return_type_impl<T> {};
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_RESULT_OF_HPP
-

@@ -222,4 +222,3 @@ struct indexed_access<model::referring_segment<ConstOrNonConstPoint>, 1, Dimensi
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_SEGMENT_HPP
-

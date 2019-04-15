@@ -27,4 +27,3 @@ struct intermodule_holder;
 } /* namespace boost */
 
 #endif
-

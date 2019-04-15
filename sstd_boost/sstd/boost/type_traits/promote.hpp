@@ -23,5 +23,3 @@ template<class T> struct promote : public integral_promotion<typename floating_p
 }
 
 #endif // #ifndef FILE_boost_type_traits_promote_hpp_INCLUDED
-
-

@@ -848,4 +848,3 @@ template <class T> void interval_set_mixed_infix_caret_overload_4_bicremental_ty
 }
 
 #endif // LIBS_ICL_TEST_TEST_INTERVAL_SET_MIXED_HPP_JOFA_090702
-

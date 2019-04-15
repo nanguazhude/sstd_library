@@ -597,4 +597,3 @@ struct default_operations
 
 
 #endif // BOOST_NUMERIC_ODEINT_ALGEBRA_DEFAULT_OPERATIONS_HPP_INCLUDED
-

@@ -47,4 +47,3 @@ inline std::locale add_facet(const std::locale &l, Facet * f)
 } } } // End namespaces detail, iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_ADD_FACET_HPP_INCLUDED
-

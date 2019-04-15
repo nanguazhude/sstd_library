@@ -44,4 +44,3 @@ struct get_controller< runge_kutta_fehlberg78< State , Value , Deriv , Time , Al
 
 
 #endif // BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_GENERATION_RUNGE_KUTTA_FEHLBERG78_HPP_INCLUDED
-

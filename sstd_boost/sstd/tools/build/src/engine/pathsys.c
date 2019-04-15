@@ -300,4 +300,3 @@ int path_translate_to_os( char const * f, string * file )
 {
   return path_translate_to_os_( f, file );
 }
-

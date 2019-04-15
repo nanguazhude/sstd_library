@@ -80,4 +80,3 @@ struct ring_properties
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_RING_PROPERTIES_HPP
-

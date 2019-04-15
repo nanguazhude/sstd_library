@@ -350,4 +350,3 @@ BOOST_LAMBDA_POSTFIX_UE(operator--, post_increment_decrement_action<decrement_ac
 } // namespace boost
 
 #endif
-

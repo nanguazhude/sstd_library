@@ -192,4 +192,3 @@ struct parameters : public detail::pj_consts<T>
 
 }}} // namespace boost::geometry::projections
 #endif // BOOST_GEOMETRY_PROJECTIONS_IMPL_PROJECTS_HPP
-

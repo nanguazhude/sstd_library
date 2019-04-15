@@ -438,4 +438,3 @@ using distributed::eager_dijkstra_shortest_paths;
 } } // end namespace boost::graph
 
 #endif // BOOST_GRAPH_EAGER_DIJKSTRA_SHORTEST_PATHS_HPP
-

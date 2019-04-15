@@ -227,7 +227,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::has_trivial_assign<non_assignable2>::value, 
 BOOST_CHECK_INTEGRAL_CONSTANT(::tt::has_trivial_assign<non_assignable>::value, false);
 
 TT_TEST_END
-
-
-
-

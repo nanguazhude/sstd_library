@@ -68,5 +68,3 @@ int test_main(int, char* [])
     test_3d();
     return 0;
 }
-
-

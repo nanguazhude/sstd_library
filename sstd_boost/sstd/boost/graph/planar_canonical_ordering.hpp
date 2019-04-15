@@ -210,4 +210,3 @@ namespace boost
 } //namespace boost
 
 #endif //__PLANAR_CANONICAL_ORDERING_HPP__
-

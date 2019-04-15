@@ -10,4 +10,3 @@
 #include <sstd/boost/fusion/sequence/hash.hpp>
 
 #endif
-

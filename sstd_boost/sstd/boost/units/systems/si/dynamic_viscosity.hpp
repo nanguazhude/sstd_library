@@ -29,4 +29,3 @@ typedef unit<dynamic_viscosity_dimension,si::system>     dynamic_viscosity;
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_DYNAMIC_VISCOSITY_HPP
-

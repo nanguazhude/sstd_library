@@ -38,4 +38,3 @@ typedef scheduler_operation operation;
 } // namespace boost
 
 #endif // BOOST_ASIO_DETAIL_OPERATION_HPP
-

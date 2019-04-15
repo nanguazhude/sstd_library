@@ -74,4 +74,3 @@ private:
 }}}}
 
 #endif /* BOOST_PROCESS_DETAIL_WINDOWS_FILE_DESCRIPTOR_HPP_ */
-

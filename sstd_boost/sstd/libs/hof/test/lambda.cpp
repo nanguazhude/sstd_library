@@ -101,4 +101,3 @@ BOOST_HOF_TEST_CASE()
 }
 
 }
-

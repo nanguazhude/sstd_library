@@ -72,4 +72,3 @@ make_it_pair( T const* b, T const* e ) { return it_pair<T const*>( b, e ); }
 #endif // BOOST_TEST_NO_OLD_TOOLS
 
 #endif // BOOST_TEST_TOOLS_DETAIL_IT_PAIR_HPP_112812GER
-

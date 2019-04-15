@@ -29,4 +29,3 @@
 #endif
 
 #endif // BOOST_CONFIG_PRAGMA_MESSAGE_HPP_INCLUDED
-

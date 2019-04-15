@@ -38,4 +38,3 @@ namespace boost
 }
 
 #endif // BOOST_ASSERT_MACRO_CHECK_HPP
-

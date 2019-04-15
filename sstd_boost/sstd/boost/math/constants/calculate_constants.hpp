@@ -981,4 +981,3 @@ inline T constant_rayleigh_kurtosis<T>::compute(BOOST_MATH_EXPLICIT_TEMPLATE_TYP
 }}}} // namespaces
 
 #endif // BOOST_MATH_CALCULATE_CONSTANTS_CONSTANTS_INCLUDED
-

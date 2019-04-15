@@ -45,4 +45,3 @@ Output:
 
   quantile(my_norm(), 0.05) = -1.64485
 */
-

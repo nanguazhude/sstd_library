@@ -39,4 +39,3 @@ int main() {
     // All is good.
     BOOST_HANA_CONSTEXPR_CHECK(f(&john) == hana::just(30u));
 }
-

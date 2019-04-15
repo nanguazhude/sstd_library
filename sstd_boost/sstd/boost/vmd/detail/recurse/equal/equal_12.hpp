@@ -280,4 +280,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_EQUAL_12_HPP */
-

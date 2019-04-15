@@ -782,5 +782,3 @@ private:
 } // namespace boost
 
 #endif // BOOST_REGEX_UNICODE_ITERATOR_HPP
-
-

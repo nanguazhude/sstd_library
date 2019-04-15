@@ -565,5 +565,3 @@ inline T schroeder_iterate(F f, T guess, T min, T max, int digits) BOOST_NOEXCEP
 } // namespace boost
 
 #endif // BOOST_MATH_TOOLS_NEWTON_SOLVER_HPP
-
-

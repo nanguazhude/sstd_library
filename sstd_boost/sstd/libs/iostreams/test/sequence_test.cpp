@@ -22,4 +22,3 @@ test_suite* init_unit_test_suite(int, char* [])
     test->add(BOOST_TEST_CASE(&write_seekable_sequence_test));
     return test;
 }
-

@@ -200,4 +200,3 @@ BOOST_AUTO_TEST_CASE( test_union_multipoint_multipoint )
          from_wkt<MP>("MULTIPOINT(0 1,0 2,1 0,0 0,2 0,3 0)")
          );
 }
-

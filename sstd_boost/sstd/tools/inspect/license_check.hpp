@@ -38,4 +38,3 @@ namespace boost
 }
 
 #endif // BOOST_LICENSE_CHECK_HPP
-

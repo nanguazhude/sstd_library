@@ -98,4 +98,3 @@ void initialize_matrix (M &m, ublas::upper_tag) {
             m (i, j) = i * size1 + j + 1.f;
     }
 }
-

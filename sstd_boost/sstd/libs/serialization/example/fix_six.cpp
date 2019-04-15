@@ -35,4 +35,3 @@ int main(int argc, char *argv[]){
     fb.sputn(reinterpret_cast<const char *>(& lvt), sizeof(lvt));
     fb.close();
 }
-

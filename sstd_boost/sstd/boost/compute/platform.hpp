@@ -256,4 +256,3 @@ inline boost::compute::platform device::platform() const
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_PLATFORM_HPP
-

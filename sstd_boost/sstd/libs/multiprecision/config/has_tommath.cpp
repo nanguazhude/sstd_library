@@ -14,5 +14,3 @@ int main()
       mp_clear(&v);
    return 0;
 }
-
-

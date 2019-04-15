@@ -213,4 +213,3 @@ template<class Q, class... T> using mp_invoke = typename Q::template fn<T...>;
 } // namespace boost
 
 #endif // #ifndef BOOST_MP11_UTILITY_HPP_INCLUDED
-

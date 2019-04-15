@@ -35,5 +35,3 @@ int main() {
     BOOST_TEST_EQ(y, 'k');
     return boost::report_errors();
 }
-
-

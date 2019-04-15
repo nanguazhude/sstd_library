@@ -333,4 +333,3 @@ Transform_Helper const transform_;
 }}}}
 
 #endif //BOOST_MSM_FRONT_EUML_TRANSFORMATION_H
-

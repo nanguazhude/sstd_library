@@ -17,4 +17,3 @@ static_assert(std::is_same<decltype(ys), decltype(xs)>::value, "");
 static_assert(std::is_same<decltype(zs), decltype(xs)>::value, "");
 
 int main() { }
-

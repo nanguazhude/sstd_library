@@ -12,4 +12,3 @@ void lib3::f()
 {
     BOOST_THROW_EXCEPTION( lib3::exception() );
 }
-

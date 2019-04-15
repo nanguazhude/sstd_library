@@ -48,4 +48,3 @@ constexpr auto check_size_t() { return hana::size_c<0>; }
 
 
 int main() { }
-

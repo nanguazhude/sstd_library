@@ -1,4 +1,4 @@
-/*
+﻿/*
 * TLS Handshake State
 * (C) 2004-2006,2011,2012 Jack Lloyd
 *     2017 Harry Reimann, Rohde & Schwarz Cybersecurity

@@ -26,4 +26,3 @@ int main() {
     hana::test::TestComparable<hana::type_tag>{types};
     hana::test::TestHashable<hana::type_tag>{types};
 }
-

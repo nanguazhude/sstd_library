@@ -144,4 +144,3 @@ BOOST_AUTO_TEST_CASE( test_main )
     test_short_input ();
     test_nonhex_input ();
 }
-

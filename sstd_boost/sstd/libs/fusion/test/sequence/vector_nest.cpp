@@ -16,5 +16,3 @@ main()
     test<test_detail::can_nest>();
     return boost::report_errors();
 }
-
-

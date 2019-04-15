@@ -17,4 +17,3 @@
 #define SPIRIT_X3_VERSION 0x3003
 
 #endif
-

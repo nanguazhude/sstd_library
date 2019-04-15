@@ -40,4 +40,3 @@ replace_copy(const ForwardRange& rng, OutputIterator out_it, const Value& what,
 } // namespace boost
 
 #endif // include guard
-

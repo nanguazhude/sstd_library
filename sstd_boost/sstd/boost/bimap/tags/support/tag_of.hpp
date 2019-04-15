@@ -72,5 +72,3 @@ struct tag_of< tagged< Type, Tag > >
 #endif // BOOST_BIMAP_DOXYGEN_WILL_NOT_PROCESS_THE_FOLLOWING_LINES
 
 #endif // BOOST_BIMAP_TAGS_SUPPORT_TAG_OF_HPP
-
-

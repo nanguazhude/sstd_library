@@ -65,4 +65,3 @@ make_buffers_ref(BufferSequence const& buffers)
 } // boost
 
 #endif
-

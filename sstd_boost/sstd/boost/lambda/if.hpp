@@ -458,6 +458,3 @@ if_(CondT const& cond)
 } // boost
 
 #endif // BOOST_LAMBDA_IF_HPP
-
-
-

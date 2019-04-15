@@ -119,4 +119,3 @@ int main() {
     assert_not_volatile_qualified<int foo::*>();
     assert_not_volatile_qualified<void(&)()>();
 }
-

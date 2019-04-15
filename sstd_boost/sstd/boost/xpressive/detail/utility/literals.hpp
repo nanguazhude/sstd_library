@@ -83,4 +83,3 @@ struct string_literal<wchar_t>
 }}} // namespace boost::xpressive::detail
 
 #endif
-

@@ -92,4 +92,3 @@ struct greater_impl< integral_c_tag,integral_c_tag >
 };
 
 }}
-

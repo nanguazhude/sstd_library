@@ -127,4 +127,3 @@ http://www.boost.org/LICENSE_1_0.txt)
 #define BOOST_HW_SIMD_X86_MIC_VERSION BOOST_VERSION_NUMBER(9, 0, 0)
 
 #endif
-

@@ -257,4 +257,3 @@ inline int get_mark_number(basic_mark_tag const &mark)
 }}} // namespace boost::xpressive::detail
 
 #endif
-

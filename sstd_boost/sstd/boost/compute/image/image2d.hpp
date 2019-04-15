@@ -260,4 +260,3 @@ struct set_kernel_arg<image2d> : public set_kernel_arg<image_object> { };
 BOOST_COMPUTE_TYPE_NAME(boost::compute::image2d, image2d_t)
 
 #endif // BOOST_COMPUTE_IMAGE_IMAGE2D_HPP
-

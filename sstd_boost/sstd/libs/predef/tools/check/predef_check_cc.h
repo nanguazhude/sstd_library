@@ -17,4 +17,3 @@ int dummy()
 	static int d = 0;
 	return d++;
 }
-

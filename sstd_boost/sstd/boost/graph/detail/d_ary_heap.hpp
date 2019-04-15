@@ -317,4 +317,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_D_ARY_HEAP_HPP
-

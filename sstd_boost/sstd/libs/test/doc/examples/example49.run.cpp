@@ -17,4 +17,3 @@ BOOST_DATA_TEST_CASE( free_test_function, boost::unit_test::data::xrange(1000) )
   BOOST_TEST( true /* test assertion */ );
 }
 //]
-

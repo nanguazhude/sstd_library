@@ -30,4 +30,3 @@ int main() {
     BOOST_HANA_CONSTANT_CHECK(hana::count_if(types, hana::equal.to(hana::type_c<char>)) == hana::size_c<2>);
     BOOST_HANA_CONSTANT_CHECK(hana::count_if(types, hana::equal.to(hana::type_c<void>)) == hana::size_c<0>);
 }
-

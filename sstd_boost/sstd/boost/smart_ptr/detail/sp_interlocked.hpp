@@ -171,4 +171,3 @@ extern "C" __declspec(dllimport) long __stdcall InterlockedExchangeAdd( long vol
 #endif
 
 #endif // #ifndef BOOST_SMART_PTR_DETAIL_SP_INTERLOCKED_HPP_INCLUDED
-

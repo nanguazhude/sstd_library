@@ -46,4 +46,3 @@ inline timespec ptime_to_timespec (const boost::posix_time::ptime &tm)
 }  //namespace boost {
 
 #endif   //ifndef BOOST_INTERPROCESS_DETAIL_PTIME_TO_TIMESPEC_HPP
-

@@ -157,4 +157,3 @@ struct image_write_info< bmp_tag >
 } // namespace boost
 
 #endif
-

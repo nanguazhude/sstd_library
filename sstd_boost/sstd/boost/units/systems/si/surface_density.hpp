@@ -34,4 +34,3 @@ BOOST_UNITS_STATIC_CONSTANT(kilogrammes_per_square_metre,surface_density);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_SURFACE_DENSITY_HPP
-

@@ -49,4 +49,3 @@ MPL_TEST_CASE()
     MPL_ASSERT(( is_same<iter1, first> ));
     MPL_ASSERT(( is_same<iter2, first> ));
 }
-

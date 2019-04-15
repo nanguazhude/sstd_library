@@ -71,4 +71,3 @@ BOOST_ARCHIVE_IGNORE_IMPLEMENTATION(serialization::item_version_type)
 } } } // end namespace boost::mpi::detail
 
 #endif // BOOST_MPI_DETAIL_IGNORE_SKELETON_OARCHIVE_HPP
-

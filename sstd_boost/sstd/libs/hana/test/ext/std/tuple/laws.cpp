@@ -41,4 +41,3 @@ int main() {
     hana::test::TestIterable<hana::ext::std::tuple_tag>{eq_tuples};
     hana::test::TestSequence<hana::ext::std::tuple_tag>{};
 }
-

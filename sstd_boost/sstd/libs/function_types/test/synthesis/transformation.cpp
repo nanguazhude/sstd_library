@@ -70,7 +70,3 @@ BOOST_MPL_ASSERT(( is_same< mem_func_ptr2, ft::member_function_pointer<func2>::t
 BOOST_MPL_ASSERT(( is_same< mem_func_ptr2, ft::member_function_pointer<func_ptr2>::type > ));
 BOOST_MPL_ASSERT(( is_same< mem_func_ptr2, ft::member_function_pointer<func_ref2>::type > ));
 BOOST_MPL_ASSERT(( is_same< mem_func_ptr2, ft::member_function_pointer<mem_func_ptr2>::type > ));
-
-
-
-

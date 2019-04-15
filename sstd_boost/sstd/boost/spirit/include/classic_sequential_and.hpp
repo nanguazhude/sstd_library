@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_SEQUENTIAL_AND
 #include <sstd/boost/spirit/home/classic/core/composite/sequential_and.hpp>
 #endif
-

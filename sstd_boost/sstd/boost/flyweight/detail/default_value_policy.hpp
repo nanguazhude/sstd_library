@@ -83,4 +83,3 @@ struct default_value_policy:value_marker
 } /* namespace boost */
 
 #endif
-

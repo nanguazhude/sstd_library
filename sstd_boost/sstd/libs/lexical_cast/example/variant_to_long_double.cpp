@@ -39,4 +39,3 @@ int main() {
 }
 
 //] [/lexical_cast_variant_to_long_double]
-

@@ -128,5 +128,3 @@ namespace boost { namespace spirit { namespace karma { namespace detail
 }}}}
 
 #endif
-
-

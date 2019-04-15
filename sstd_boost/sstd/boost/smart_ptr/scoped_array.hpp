@@ -130,4 +130,3 @@ template<class T> inline void swap(scoped_array<T> & a, scoped_array<T> & b) BOO
 } // namespace boost
 
 #endif  // #ifndef BOOST_SMART_PTR_SCOPED_ARRAY_HPP_INCLUDED
-

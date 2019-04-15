@@ -168,5 +168,3 @@ bool contains(const IntervalMapT& super, const IntervalMapT& sub)
 }} // namespace icl boost
 
 #endif
-
-

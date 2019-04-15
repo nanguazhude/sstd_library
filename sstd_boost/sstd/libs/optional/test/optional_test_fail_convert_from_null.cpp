@@ -21,6 +21,3 @@ void test_conversion_from_null()
 {
   boost::optional<NoInitFromNull> opt = 0;
 }
-
-
-

@@ -29,4 +29,3 @@ int main() {
         BOOST_HANA_CONSTANT_CHECK(hana::contains(map, hana::integral_c<signed char, 'x'>));
     }
 }
-

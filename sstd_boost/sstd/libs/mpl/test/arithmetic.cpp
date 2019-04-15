@@ -48,4 +48,3 @@ MPL_TEST_CASE()
 
     MPL_ASSERT_RELATION( negate<_10>::value, ==, -10 );
 }
-

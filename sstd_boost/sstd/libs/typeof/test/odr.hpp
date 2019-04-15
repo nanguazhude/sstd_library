@@ -15,4 +15,3 @@ namespace
 {
     typedef foo::type type;
 }
-

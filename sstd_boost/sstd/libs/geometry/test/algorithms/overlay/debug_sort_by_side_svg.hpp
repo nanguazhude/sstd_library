@@ -121,4 +121,3 @@ inline void sorted_side_map(std::string const& case_id,
 }}} // namespace boost::geometry::debug
 
 #endif // BOOST_GEOMETRY_TEST_DEBUG_SORT_BY_SIDE_SVG_HPP
-

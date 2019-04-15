@@ -356,4 +356,3 @@ check_is_small( FPT fpv, FPT tolerance )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_TOOLS_OLD_IMPL_HPP_012705GER
-

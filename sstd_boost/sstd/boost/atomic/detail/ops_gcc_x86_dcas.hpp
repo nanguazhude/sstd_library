@@ -554,4 +554,3 @@ struct gcc_dcas_x86_64
 } // namespace boost
 
 #endif // BOOST_ATOMIC_DETAIL_OPS_GCC_X86_DCAS_HPP_INCLUDED_
-

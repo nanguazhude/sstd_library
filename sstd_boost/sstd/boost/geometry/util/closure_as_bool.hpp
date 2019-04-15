@@ -44,4 +44,3 @@ struct closure_as_bool<open>
 
 
 #endif // BOOST_GEOMETRY_UTIL_CLOSURE_AS_BOOL_HPP
-

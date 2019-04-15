@@ -373,4 +373,3 @@ void test_iterator_random(C &c)
 }
 
 }}}   //boost::container::test
-

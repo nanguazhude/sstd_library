@@ -2038,4 +2038,3 @@ extern void GC_reset_fault_handler(void);
 # endif /* Need to handle address faults.	*/
 
 # endif /* GC_PRIVATE_H */
-

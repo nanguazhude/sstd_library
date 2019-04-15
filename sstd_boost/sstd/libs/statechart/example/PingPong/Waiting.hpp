@@ -94,4 +94,3 @@ struct Waiting : sc::state< Waiting, Player >
 
 
 #endif
-

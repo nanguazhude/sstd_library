@@ -17,4 +17,3 @@ static_assert(hana::take_front(hana::make_tuple(1, '2', 3.3), hana::size_c<3>) =
 static_assert(hana::take_front(hana::make_tuple(1, '2', 3.3), hana::size_c<4>) == hana::make_tuple(1, '2', 3.3), "");
 
 int main() { }
-

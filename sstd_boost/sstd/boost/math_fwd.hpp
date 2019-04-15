@@ -40,4 +40,3 @@ template < >
 
 
 #endif  // BOOST_MATH_FWD_HPP
-

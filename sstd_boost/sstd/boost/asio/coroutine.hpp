@@ -328,4 +328,3 @@ private:
 #endif // defined(_MSC_VER)
 
 #endif // BOOST_ASIO_COROUTINE_HPP
-

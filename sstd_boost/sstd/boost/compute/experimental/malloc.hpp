@@ -49,4 +49,3 @@ inline void free(device_ptr<T> &ptr)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_EXPERIMENTAL_MALLOC_HPP
-

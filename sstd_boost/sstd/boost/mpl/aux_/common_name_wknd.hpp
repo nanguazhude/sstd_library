@@ -32,4 +32,3 @@ template< typename > void name(); \
 #endif // __BORLANDC__
 
 #endif // BOOST_MPL_AUX_COMMON_NAME_WKND_HPP_INCLUDED
-

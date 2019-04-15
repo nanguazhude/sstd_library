@@ -79,4 +79,3 @@ find_if( const SinglePassRange& rng, UnaryPredicate pred )
 } // namespace boost
 
 #endif // include guard
-

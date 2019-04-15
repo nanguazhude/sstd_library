@@ -121,4 +121,3 @@ struct get_ring<multi_polygon_tag>
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_GET_RING_HPP
-

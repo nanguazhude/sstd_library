@@ -352,4 +352,3 @@ void test_insertion()
     function_types::t1,function_types::t2,function_types::t3,
     function_types::t4,function_types::t5>();
 }
-

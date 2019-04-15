@@ -173,5 +173,3 @@ int test_main( int, char* [] )
     test_bimap();
     return 0;
 }
-
-

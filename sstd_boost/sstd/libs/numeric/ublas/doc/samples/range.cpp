@@ -19,5 +19,3 @@ int main () {
         std::cout << r (i) << std::endl;
     }
 }
-
-

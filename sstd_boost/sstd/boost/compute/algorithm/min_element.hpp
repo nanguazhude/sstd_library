@@ -80,4 +80,3 @@ min_element(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_MIN_ELEMENT_HPP
-

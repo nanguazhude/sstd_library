@@ -260,4 +260,3 @@ struct feature_of<tag::relative_weighted_tail_variate_means<LeftRight, VariateTy
 #endif
 
 #endif
-

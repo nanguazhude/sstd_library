@@ -18,4 +18,3 @@
 #include <sstd/boost/asio/io_context.hpp>
 
 #endif // BOOST_ASIO_TS_IO_CONTEXT_HPP
-

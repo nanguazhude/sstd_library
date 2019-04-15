@@ -297,4 +297,3 @@ int main(){
     std::cout << "end test\n";
     return result == success ? EXIT_SUCCESS : EXIT_FAILURE;
 }
-

@@ -112,4 +112,3 @@ template <class T> struct is_class<volatile T> : public is_class<T>{};
 } // namespace boost
 
 #endif // BOOST_TT_IS_CLASS_HPP_INCLUDED
-

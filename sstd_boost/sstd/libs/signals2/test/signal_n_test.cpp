@@ -350,4 +350,3 @@ test_main(int, char* [])
 }
 
 #endif // BOOST_NO_CXX11_VARIADIC_TEMPLATES
-

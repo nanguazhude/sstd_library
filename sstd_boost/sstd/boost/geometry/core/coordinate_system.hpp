@@ -98,4 +98,3 @@ struct coordinate_system
 
 
 #endif // BOOST_GEOMETRY_CORE_COORDINATE_SYSTEM_HPP
-

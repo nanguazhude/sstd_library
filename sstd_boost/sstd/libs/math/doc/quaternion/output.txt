@@ -26,5 +26,3 @@ Testing sinh for double.
 Testing sinh for long double.
 
 *** No errors detected
-
-

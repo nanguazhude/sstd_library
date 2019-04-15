@@ -44,4 +44,3 @@ MPL_TEST_CASE()
     MPL_ASSERT(( is_same< iter, end<types>::type > ));
     MPL_ASSERT_RELATION( (mpl::distance<first_,iter>::value), ==, size<types>::value );
 }
-

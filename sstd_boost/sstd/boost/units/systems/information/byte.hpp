@@ -43,4 +43,3 @@ typedef hu::byte::info info;
 } // namespace boost
 
 #endif // BOOST_UNITS_SYSTEMS_INFORMATION_BYTE_HPP_INCLUDED
-

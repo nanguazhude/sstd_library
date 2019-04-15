@@ -542,4 +542,3 @@ BOOST_AUTO_TEST_CASE(naive_monte_carlo_test)
 #endif
 
 }
-

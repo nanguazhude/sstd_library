@@ -231,4 +231,3 @@ struct constructible_with_allocator_suffix
 }  //namespace boost {
 
 #endif   //BOOST_CONTAINER_TEST_ALLOCATOR_ARGUMENT_TESTER_HPP
-

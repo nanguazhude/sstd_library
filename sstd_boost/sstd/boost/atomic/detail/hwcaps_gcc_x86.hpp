@@ -56,4 +56,3 @@
 #endif // defined(__GNUC__)
 
 #endif // BOOST_ATOMIC_DETAIL_HWCAPS_GCC_X86_HPP_INCLUDED_
-

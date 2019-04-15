@@ -133,5 +133,3 @@ inline typename tools::promote_args<T1, T2, T3>::type
 }} // namespaces
 
 #endif // BOOST_MATH_ELLINT_RG_HPP
-
-

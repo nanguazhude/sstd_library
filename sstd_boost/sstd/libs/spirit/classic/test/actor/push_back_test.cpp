@@ -53,5 +53,3 @@ void push_back_action_test()
     push_back_test< std::deque<std::string> >();
     push_back_test< std::vector<std::string> >();
 }
-
-

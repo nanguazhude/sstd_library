@@ -46,4 +46,3 @@ int test_main(int,char *[])
     BOOST_CHECK(E2.value() == sqrt(E_));
     return 0;
 }
-

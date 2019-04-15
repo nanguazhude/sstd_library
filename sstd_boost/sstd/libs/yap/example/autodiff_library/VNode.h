@@ -50,4 +50,3 @@ public:
 } // end namespace foo
 
 #endif /* VNODE_H_ */
-

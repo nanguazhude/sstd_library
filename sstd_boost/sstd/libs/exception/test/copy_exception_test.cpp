@@ -144,4 +144,3 @@ main()
     BOOST_TEST(!--exc_count);
     return boost::report_errors();
     }
-

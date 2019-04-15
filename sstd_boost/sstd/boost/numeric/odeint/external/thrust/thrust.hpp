@@ -25,4 +25,3 @@
 #include <sstd/boost/numeric/odeint/external/thrust/thrust_resize.hpp>
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_THRUST_HPP_DEFINED
-

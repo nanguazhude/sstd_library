@@ -39,5 +39,3 @@ BOOST_METAPARSE_TEST_CASE(fail_at_first_char_expected)
     is_error< fail_at_first_char_expected<accept_hello>::apply<str_h, start> >
   ));
 }
-
-

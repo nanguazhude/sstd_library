@@ -48,4 +48,3 @@ inline bool is_apple_platform_device(const device &device)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_DETAIL_VENDOR_HPP
-

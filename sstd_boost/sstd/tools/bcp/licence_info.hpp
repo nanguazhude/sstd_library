@@ -37,4 +37,3 @@ struct license_info
 std::pair<const license_info*, int> get_licenses();
 
 std::string format_authors_name(const std::string& name);
-

@@ -79,4 +79,3 @@ UNORDERED_AUTO_TEST (use_multimap_fwd_declared_function) {
 }
 
 RUN_TESTS()
-

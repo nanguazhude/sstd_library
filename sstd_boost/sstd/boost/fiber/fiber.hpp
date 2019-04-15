@@ -179,4 +179,3 @@ void swap( fiber & l, fiber & r) noexcept {
 #endif
 
 #endif // BOOST_FIBERS_FIBER_H
-

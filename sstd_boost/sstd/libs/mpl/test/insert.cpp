@@ -29,4 +29,3 @@ MPL_TEST_CASE()
     MPL_ASSERT_RELATION( size<range>::value, ==, 10 );
     MPL_ASSERT(( equal< range,range_c<int,0,10> > ));
 }
-

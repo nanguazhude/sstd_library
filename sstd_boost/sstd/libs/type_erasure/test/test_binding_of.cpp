@@ -38,4 +38,3 @@ BOOST_AUTO_TEST_CASE(test_binding_of)
         >());
     BOOST_CHECK(b == expected);
 }
-

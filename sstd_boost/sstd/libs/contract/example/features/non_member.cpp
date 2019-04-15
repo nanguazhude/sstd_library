@@ -37,5 +37,3 @@ int main() {
     assert(x == std::numeric_limits<int>::max());
     return 0;
 }
-
-

@@ -44,4 +44,3 @@ struct is_unit_of_dimension< absolute<unit<Dim,System> >,Dim > :
 } // namespace boost
 
 #endif // BOOST_UNITS_IS_UNIT_OF_DIMENSION_HPP
-

@@ -258,5 +258,3 @@ T bessel_yn_small_z(int n, T z, T* scale, const Policy& pol)
 }}} // namespaces
 
 #endif // BOOST_MATH_BESSEL_JN_SERIES_HPP
-
-

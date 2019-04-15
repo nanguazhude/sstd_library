@@ -118,4 +118,3 @@ struct attribute_placeholder
 #endif
 
 #endif
-

@@ -100,4 +100,3 @@ template< static_gcd_type Value1, static_gcd_type Value2 > static_gcd_type const
 
 
 #endif  // BOOST_INTEGER_COMMON_FACTOR_CT_HPP
-

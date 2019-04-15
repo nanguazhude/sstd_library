@@ -211,7 +211,3 @@ BOOST_AUTO_TEST_CASE(test_condition_notify_all)
     timed_test(&do_test_condition_notify_all_wakes_from_relative_timed_wait_with_predicate, timeout_seconds);
     timed_test(&do_test_notify_all_following_notify_one_wakes_all_threads, timeout_seconds);
 }
-
-
-
-

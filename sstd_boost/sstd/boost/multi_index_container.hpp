@@ -1405,4 +1405,3 @@ using multi_index::project;
 #undef BOOST_MULTI_INDEX_CHECK_INVARIANT_OF
 
 #endif
-

@@ -75,4 +75,3 @@ TestCase test_take{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_TAKE_FRONT_HPP
-

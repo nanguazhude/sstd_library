@@ -245,4 +245,3 @@
     struct as_mono_function<PolyFun(A0 , A1 , A2 , A3 , A4 , A5 , A6 , A7 , A8 , A9)>
       : as_mono_function_impl<PolyFun(A0 , A1 , A2 , A3 , A4 , A5 , A6 , A7 , A8 , A9), is_poly_function<PolyFun>::value>
     {};
-

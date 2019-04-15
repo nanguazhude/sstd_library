@@ -16,4 +16,3 @@ int main()
     std::unique_ptr<int> p1( new int );
     std::unique_ptr<int[]> p2 = boost::static_pointer_cast<int[]>( std::move( p1 ) );
 }
-

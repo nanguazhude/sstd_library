@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_MINIMAL
 #include <sstd/boost/spirit/home/classic/debug/minimal.hpp>
 #endif
-

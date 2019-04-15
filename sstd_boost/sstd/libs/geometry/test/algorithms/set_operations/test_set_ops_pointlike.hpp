@@ -327,4 +327,3 @@ public:
 
 
 #endif // BOOST_GEOMETRY_TEST_SET_OPS_POINTLIKE_HPP
-

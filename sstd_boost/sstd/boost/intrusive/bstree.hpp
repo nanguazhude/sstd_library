@@ -2244,4 +2244,3 @@ class bstree
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_BSTREE_HPP
-

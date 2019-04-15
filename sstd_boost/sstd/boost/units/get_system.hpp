@@ -49,4 +49,3 @@ struct get_system< quantity<Unit,Y> >
 } // namespace boost
 
 #endif // BOOST_UNITS_GET_SYSTEM_HPP
-

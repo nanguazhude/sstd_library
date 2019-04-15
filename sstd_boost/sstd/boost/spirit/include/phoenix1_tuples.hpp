@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_PHOENIX1_TUPLES
 #include <sstd/boost/spirit/home/classic/phoenix/tuples.hpp>
 #endif
-

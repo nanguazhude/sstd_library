@@ -213,4 +213,3 @@ struct is_device_iterator<detail::device_ptr<T> > : boost::true_type {};
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_DEVICE_PTR_HPP
-

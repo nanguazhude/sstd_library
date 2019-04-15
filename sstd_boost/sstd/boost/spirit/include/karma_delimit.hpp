@@ -16,4 +16,3 @@
 #include <sstd/boost/spirit/home/karma/directive/delimit.hpp>
 
 #endif
-

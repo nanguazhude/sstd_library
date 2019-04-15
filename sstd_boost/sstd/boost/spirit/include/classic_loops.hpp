@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_LOOPS
 #include <sstd/boost/spirit/home/classic/utility/loops.hpp>
 #endif
-

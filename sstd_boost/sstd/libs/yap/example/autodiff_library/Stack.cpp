@@ -56,4 +56,3 @@ void Stack::clear()
 	}
 }
 }
-

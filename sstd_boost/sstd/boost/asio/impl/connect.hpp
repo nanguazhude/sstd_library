@@ -860,4 +860,3 @@ async_connect(basic_socket<Protocol BOOST_ASIO_SVC_TARG>& s,
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IMPL_CONNECT_HPP
-

@@ -200,4 +200,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_DATA_EQUAL_HPP */
-

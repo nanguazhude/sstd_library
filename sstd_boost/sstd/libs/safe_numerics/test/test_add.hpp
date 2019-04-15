@@ -145,4 +145,3 @@ bool test_add(
 }
 
 #endif // BOOST_TEST_DIVIDE
-

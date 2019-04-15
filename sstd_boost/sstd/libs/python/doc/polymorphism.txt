@@ -218,6 +218,3 @@ Open questions:
   however. It rather depends on the linker, doesn't it? I wonder if
   this can be done in a backwards-compatible fashion by generating the
   delete function when it's not supplied?
-
-
-

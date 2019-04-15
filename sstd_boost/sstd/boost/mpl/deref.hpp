@@ -39,4 +39,3 @@ BOOST_MPL_AUX_NA_SPEC(1, deref)
 }}
 
 #endif // BOOST_MPL_DEREF_HPP_INCLUDED
-

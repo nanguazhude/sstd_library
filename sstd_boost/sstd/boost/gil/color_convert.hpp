@@ -300,4 +300,3 @@ inline void color_convert(const SrcP& src, DstP& dst) {
 } }  // namespace boost::gil
 
 #endif
-

@@ -155,4 +155,3 @@ class block_slist
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //BOOST_CONTAINER_DETAIL_BLOCK_SLIST_HEADER
-

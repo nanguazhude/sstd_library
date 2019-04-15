@@ -70,4 +70,3 @@ namespace boost {
 } // end namespace boost
 
 #endif // BOOST_SIGNALS2_RESULT_TYPE_WRAPPER_HPP
-

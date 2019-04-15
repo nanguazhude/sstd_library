@@ -74,4 +74,3 @@ struct make_ptr_instance
 }}} // namespace boost::python::object
 
 #endif // MAKE_PTR_INSTANCE_DWA200296_HPP
-

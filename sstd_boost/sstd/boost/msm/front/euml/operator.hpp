@@ -1564,4 +1564,3 @@ struct NotEqualTo_ : euml_action<NotEqualTo_<T1,T2> >
 }}}}
 
 #endif // BOOST_MSM_FRONT_EUML_OPERATOR_H
-

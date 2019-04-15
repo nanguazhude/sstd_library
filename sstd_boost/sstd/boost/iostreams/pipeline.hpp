@@ -112,4 +112,3 @@ operator|(const pipeline<Pipeline, Filter>& p, const Component& cmp)
 } } // End namespaces iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_PIPABLE_HPP_INCLUDED
-

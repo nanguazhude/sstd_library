@@ -23,4 +23,3 @@ main() {
     CHECK_LEAKS();
     return 0;
 }
-

@@ -50,5 +50,3 @@ template<
 struct bind5;
 
 }}
-
-

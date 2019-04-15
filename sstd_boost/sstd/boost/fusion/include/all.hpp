@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/algorithm/query/all.hpp>
 
 #endif
-

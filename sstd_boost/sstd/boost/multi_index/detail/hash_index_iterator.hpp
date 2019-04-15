@@ -164,4 +164,3 @@ struct version<
 } /* namespace boost */
 
 #endif
-

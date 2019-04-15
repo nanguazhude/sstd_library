@@ -7,4 +7,3 @@
 - b.qbk
 - sub1/b.qbk
 + sub2/b.qbk
-

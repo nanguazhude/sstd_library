@@ -37,4 +37,3 @@ struct trace_queue
 };
 //]
 #include <sstd/boost/interprocess/detail/config_end.hpp>
-

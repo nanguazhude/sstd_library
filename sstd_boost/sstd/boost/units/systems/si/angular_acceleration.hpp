@@ -29,4 +29,3 @@ typedef unit<angular_acceleration_dimension,si::system>      angular_acceleratio
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_ANGULAR_ACCELERATION_HPP
-

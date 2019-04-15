@@ -24,4 +24,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( my_tuple_test, T, test_types_w_tuples )
   BOOST_TEST( sizeof(T) == (unsigned)4 );
 }
 //]
-

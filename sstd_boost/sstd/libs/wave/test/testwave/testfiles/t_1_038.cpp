@@ -35,4 +35,3 @@ struct bar {};
 //H 00: t_1_038.cpp(16): BAZ(bool, value = true ), [t_1_038.cpp(12): BAZ(T, E)=T E]
 //H 02: bool  value = true
 //H 03: bool  value = true
-

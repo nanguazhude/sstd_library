@@ -41,6 +41,3 @@ timestamp file
 #pragma wave option(output: null)
 
 #undef  BOOST_FT_OUT_FILE
-
-
-

@@ -112,5 +112,3 @@ struct statefull_policy : boost::spirit::karma::real_policies<T>
 };
 
 #endif // BOOST_SPIRIT_TEST_REAL_NUMERICS_HPP
-
-

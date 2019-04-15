@@ -139,4 +139,3 @@ BOOST_MPL_AUX_NA_SPEC(2, upper_bound)
 }}
 
 #endif // BOOST_MPL_UPPER_BOUND_HPP_INCLUDED
-

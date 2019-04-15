@@ -45,4 +45,3 @@ BOOST_AUTO_TEST_CASE( script )
 
    debugger.detach();
 }
-

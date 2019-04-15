@@ -94,4 +94,3 @@ execution_context::service* service_registry::create(void* owner)
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_IMPL_SERVICE_REGISTRY_HPP
-

@@ -24,4 +24,3 @@ struct min_size
 } /* boost */
 
 #endif
-

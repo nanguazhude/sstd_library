@@ -20,5 +20,3 @@ Install wxWidgets (if not done before)
 Using Linux/gcc
    - check if installation is OK, http://wiki.wxwidgets.org/Installing_and_configuring_under_Ubuntu
    - compile using e.g. gcc -o x04_wxwidgets -I../../../.. x04_wxwidgets_world_mapper.cpp `wx-config --cxxflags` `wx-config --libs`
-
-

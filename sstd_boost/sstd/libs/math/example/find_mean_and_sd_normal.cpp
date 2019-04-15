@@ -408,7 +408,3 @@ Fraction of packs >= 2.9 with a mean of 3 and standard deviation of 0.0607957 is
 //] [/normal_find_location_and_scale_eg_output]
 
 */
-
-
-
-

@@ -1374,4 +1374,3 @@ namespace filesystem
 
 #include <sstd/boost/config/abi_suffix.hpp> // pops abi_prefix.hpp pragmas
 #endif // BOOST_FILESYSTEM3_OPERATIONS_HPP
-

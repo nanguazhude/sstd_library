@@ -119,4 +119,3 @@ wchar_t xml_escape<Base>::fill(
 } // namespace boost
 
 #endif // BOOST_ARCHIVE_ITERATORS_XML_ESCAPE_HPP
-

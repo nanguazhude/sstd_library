@@ -33,6 +33,3 @@ namespace boost{namespace icl
 }} // namespace icl boost
 
 #endif // BOOST_ICL_RELATION_STATE_HPP_JOFA_090214
-
-
-

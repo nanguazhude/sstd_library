@@ -74,5 +74,3 @@ struct state_base : public inherit_attributes<Attributes>, USERBASE
 }}}}
 
 #endif //BOOST_MSM_FRONT_DETAILS_COMMON_STATES_H
-
-

@@ -209,4 +209,3 @@ namespace swap_tests {
       (default_generator)(generate_collisions)(limited_range)))
 }
 RUN_TESTS()
-

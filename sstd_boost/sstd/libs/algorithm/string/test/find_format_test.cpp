@@ -160,4 +160,3 @@ BOOST_AUTO_TEST_CASE( test_main )
     find_format_test();
     find_format_all_test();
 }
-

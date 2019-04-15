@@ -21,4 +21,3 @@ BOOST_AUTO_TEST_CASE( test )
   BOOST_TEST( output.is_equal( "i=3" ) );
 }
 //]
-

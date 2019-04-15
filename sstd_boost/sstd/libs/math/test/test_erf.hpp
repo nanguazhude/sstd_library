@@ -212,5 +212,3 @@ void test_spots(T, const char* t)
       BOOST_CHECK_CLOSE(b, j, tolerance);
    }
 }
-
-

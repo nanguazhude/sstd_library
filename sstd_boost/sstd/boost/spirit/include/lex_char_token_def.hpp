@@ -16,4 +16,3 @@
 #include <sstd/boost/spirit/home/lex/lexer/char_token_def.hpp>
 
 #endif
-

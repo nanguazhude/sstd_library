@@ -60,4 +60,3 @@ struct MenuMode_ : public msm::front::state_machine_def<MenuMode_>
 typedef msm::back::state_machine<MenuMode_> MenuMode;
 
 #endif
-

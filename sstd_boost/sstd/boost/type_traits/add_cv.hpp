@@ -45,4 +45,3 @@ template <class T> struct add_cv<T&>{ typedef T& type; };
 } // namespace boost
 
 #endif // BOOST_TT_ADD_CV_HPP_INCLUDED
-

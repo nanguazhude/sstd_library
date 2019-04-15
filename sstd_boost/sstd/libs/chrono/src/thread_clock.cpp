@@ -18,5 +18,3 @@
 #endif  /*added ...*/
 
 #include <sstd/boost/chrono/detail/inlined/thread_clock.hpp>
-
-

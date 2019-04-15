@@ -205,4 +205,3 @@ inline bool is_empty(Geometry const& geometry)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_IS_EMPTY_HPP
-

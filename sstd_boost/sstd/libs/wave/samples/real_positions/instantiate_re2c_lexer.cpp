@@ -60,4 +60,3 @@ template struct boost::wave::cpplexer::new_lexer_gen<
 #endif
 
 #endif // BOOST_WAVE_SEPARATE_LEXER_INSTANTIATION != 0
-

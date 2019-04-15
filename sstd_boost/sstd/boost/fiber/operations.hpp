@@ -90,4 +90,3 @@ void use_scheduling_algorithm( Args && ... args) noexcept {
 #endif
 
 #endif // BOOST_THIS_FIBER_OPERATIONS_H
-

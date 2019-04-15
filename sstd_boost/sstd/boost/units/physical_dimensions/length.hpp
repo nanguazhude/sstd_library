@@ -47,4 +47,3 @@ typedef length_base_dimension::dimension_type length_dimension;
 } // namespace boost
 
 #endif // BOOST_UNITS_LENGTH_BASE_DIMENSION_HPP
-

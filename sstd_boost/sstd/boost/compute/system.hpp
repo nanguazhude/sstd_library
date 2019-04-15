@@ -286,4 +286,3 @@ private:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_SYSTEM_HPP
-

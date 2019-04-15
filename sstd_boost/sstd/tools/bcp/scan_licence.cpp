@@ -272,5 +272,3 @@ void bcp_implementation::scan_license(const fs::path& p, const fileview& v)
      }
    }
 }
-
-

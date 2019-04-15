@@ -125,4 +125,3 @@ struct result_from_distance<vincenty<Spheroid, CalculationType>, P1, P2 >
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_GEOGRAPHIC_VINCENTY_HPP
-

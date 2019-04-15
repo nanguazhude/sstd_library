@@ -48,4 +48,3 @@ struct promote_floating_point
 
 
 #endif // BOOST_GEOMETRY_UTIL_PROMOTE_FLOATING_POINT_HPP
-

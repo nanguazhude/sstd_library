@@ -191,4 +191,3 @@ template<> struct lambda_impl< int_<i_> >
 #undef i_
 
 #endif // BOOST_PP_IS_ITERATING
-

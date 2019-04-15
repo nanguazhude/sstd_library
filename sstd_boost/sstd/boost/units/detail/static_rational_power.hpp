@@ -199,4 +199,3 @@ typename detail::static_rational_power_impl<R, Y>::type static_rational_power(co
 } // namespace boost
 
 #endif
-

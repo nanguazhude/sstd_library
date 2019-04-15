@@ -28,4 +28,3 @@
 #endif
 
 #endif // BOOST_CHRONO_DETAIL_STATIC_ASSERT_HPP
-

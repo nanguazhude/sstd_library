@@ -312,11 +312,11 @@ namespace sstd::type_traits {
         std::remove_cv_t< std::remove_reference_t<T>>>::ReturnType > > :
         public detail::FunctionHelper< std::remove_cv_t< std::remove_reference_t< T> > > {
     };
-    
+
 }/*namespace sstd*/
 
-template< typename T  , 
-    typename = typename T::ClassType, 
+template< typename T  ,
+    typename = typename T::ClassType,
     typename = typename T::FunctionObject >
 class Caller {
 public:
@@ -330,10 +330,10 @@ public:
     std::remove_cv_t< std::remove_reference_t< FunctionObject > > thisFunction;
 
     template<typename U>
-    inline Caller( U && arg ) : 
+    inline Caller( U && arg ) :
         thisFunction(std::forward<U>(arg)) {
     }
-   
+
     template< typename ... Args >
     inline ReturnType call(Args && ... args) {
         return thisFunction(std::forward<Args>(args)...);
@@ -383,7 +383,5 @@ public:
     inline ReturnType call(ClassType * t,Args && ... args) {
         return (t->*thisFunction)(std::forward<Args>(args)...);
     }
-    
+
 };
-
-

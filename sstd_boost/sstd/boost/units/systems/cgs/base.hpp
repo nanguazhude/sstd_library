@@ -44,4 +44,3 @@ typedef unit<dimensionless_type,system>         dimensionless;
 } // namespace boost
 
 #endif // BOOST_UNITS_CGS_BASE_HPP
-

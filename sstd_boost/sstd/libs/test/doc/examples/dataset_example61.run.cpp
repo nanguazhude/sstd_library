@@ -25,4 +25,3 @@ BOOST_DATA_TEST_CASE(
   std::cout << integer_values << ", " << string_value << std::endl;
 }
 //]
-

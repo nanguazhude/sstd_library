@@ -225,4 +225,3 @@ inline iterator_range<NextPolicies,Iterator>::iterator_range(
 }}} // namespace boost::python::objects
 
 #endif // ITERATOR_DWA2002510_HPP
-

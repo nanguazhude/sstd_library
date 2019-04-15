@@ -125,4 +125,3 @@ read_image_info( const String&    file_name
 } // namespace boost
 
 #endif
-

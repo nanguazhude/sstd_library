@@ -219,4 +219,3 @@ BOOST_AUTO_TEST_CASE(string_literal_copy)
     BOOST_CHECK_EQUAL(lit.copy(t, 100), 8UL);
     BOOST_CHECK(std::strcmp(t, "yo-ho-ho") == 0);
 }
-

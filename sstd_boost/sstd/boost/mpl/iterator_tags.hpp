@@ -25,4 +25,3 @@ struct random_access_iterator_tag : int_<2> { typedef random_access_iterator_tag
 }}
 
 #endif // BOOST_MPL_ITERATOR_TAG_HPP_INCLUDED
-

@@ -23,4 +23,3 @@ int main() {
     constexpr auto result = hana::find_if(set, is_last{});
     (void)result;
 }
-

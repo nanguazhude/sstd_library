@@ -62,4 +62,3 @@ BOOST_WAVE_DECL void aq_terminate(aq_queue q);
 #endif
 
 #endif // !defined(AQ_HPP_A21D9145_B643_44C0_81E7_DB346DD67EE1_INCLUDED)
-

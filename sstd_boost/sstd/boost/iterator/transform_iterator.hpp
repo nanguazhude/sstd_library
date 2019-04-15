@@ -173,4 +173,3 @@ using iterators::make_transform_iterator;
 #include <sstd/boost/iterator/detail/config_undef.hpp>
 
 #endif // BOOST_TRANSFORM_ITERATOR_23022003THW_HPP
-

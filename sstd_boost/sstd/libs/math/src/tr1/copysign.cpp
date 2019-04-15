@@ -15,7 +15,3 @@ extern "C" double BOOST_MATH_TR1_DECL boost_copysign BOOST_PREVENT_MACRO_SUBSTIT
 {
    return boost::math::copysign BOOST_PREVENT_MACRO_SUBSTITUTION(x, y);
 }
-
-
-
-

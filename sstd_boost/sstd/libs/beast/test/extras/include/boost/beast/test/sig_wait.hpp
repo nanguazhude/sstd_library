@@ -36,4 +36,3 @@ sig_wait()
 } // boost
 
 #endif
-

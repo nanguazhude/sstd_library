@@ -41,4 +41,3 @@ struct default_comparable_distance_result
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_DEFAULT_COMPARABLE_DISTANCE_RESULT_HPP
-

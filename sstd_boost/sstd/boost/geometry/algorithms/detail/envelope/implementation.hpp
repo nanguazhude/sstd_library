@@ -37,4 +37,3 @@
 #include <sstd/boost/geometry/algorithms/dispatch/envelope.hpp>
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_ENVELOPE_IMPLEMENTATION_HPP
-

@@ -18,4 +18,3 @@ int main() {
     auto transformed = hana::experimental::transformed(storage, undefined{});
     (void)transformed;
 }
-

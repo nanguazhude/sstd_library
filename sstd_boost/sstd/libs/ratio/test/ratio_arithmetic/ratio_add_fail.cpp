@@ -25,4 +25,3 @@ typedef boost::ratio_add<R1, R2>::type RT;
 
 BOOST_RATIO_STATIC_ASSERT(RT::num==boost::integer_traits<boost::intmax_t>::const_max+1, NOTHING, (RT));
 BOOST_RATIO_STATIC_ASSERT(RT::den==1, NOTHING, (RT));
-

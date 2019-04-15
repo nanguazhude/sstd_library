@@ -172,4 +172,3 @@ BOOST_AUTO_TEST_CASE( test_main )
     test_ordered ();
     test_increasing_decreasing ();
 }
-

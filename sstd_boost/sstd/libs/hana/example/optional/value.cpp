@@ -18,4 +18,3 @@ int main() {
 
     // hana::nothing.value(); // compile-time error
 }
-

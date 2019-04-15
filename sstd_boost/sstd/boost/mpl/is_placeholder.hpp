@@ -65,4 +65,3 @@ struct is_placeholder
 }}
 
 #endif // BOOST_MPL_IS_PLACEHOLDER_HPP_INCLUDED
-

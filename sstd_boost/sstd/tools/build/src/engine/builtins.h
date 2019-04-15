@@ -71,4 +71,3 @@ void backtrace( FRAME *frame );
 extern int last_update_now_status;
 
 #endif
-

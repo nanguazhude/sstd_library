@@ -56,4 +56,3 @@ BOOST_AUTO_TEST_CASE( gsl )
     gsl_vector_free( x );
 
 }
-

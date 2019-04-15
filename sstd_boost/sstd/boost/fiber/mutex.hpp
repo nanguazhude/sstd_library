@@ -68,4 +68,3 @@ public:
 #endif
 
 #endif // BOOST_FIBERS_MUTEX_H
-

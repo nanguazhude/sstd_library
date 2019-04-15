@@ -70,6 +70,3 @@ struct value_type_of< tagged< Type, Tag > >
 #endif // BOOST_BIMAP_DOXYGEN_WILL_NOT_PROCESS_THE_FOLLOWING_LINES
 
 #endif // BOOST_BIMAP_TAGS_SUPPORT_VALUE_TYPE_OF_HPP
-
-
-

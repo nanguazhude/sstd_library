@@ -305,4 +305,3 @@ using as_param_t = typename ::boost::type_erasure::as_param<Any, T>::type;
 }
 
 #endif
-

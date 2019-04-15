@@ -1,4 +1,4 @@
-/*
+﻿/*
 * PK Operation Types Forward Decls
 * (C) 2016 Jack Lloyd
 *

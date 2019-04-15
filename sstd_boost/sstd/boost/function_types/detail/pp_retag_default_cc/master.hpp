@@ -100,5 +100,3 @@ namespace detail
 #   undef BOOST_FT_tester
 
 #endif
-
-

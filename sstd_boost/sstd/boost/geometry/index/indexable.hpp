@@ -195,4 +195,3 @@ struct indexable
 }}} // namespace boost::geometry::index
 
 #endif // BOOST_GEOMETRY_INDEX_INDEXABLE_HPP
-

@@ -382,4 +382,3 @@ fruchterman_reingold_force_directed_layout
 } } } // end namespace boost::graph::distributed
 
 #endif // BOOST_GRAPH_DISTRIBUTED_FRUCHTERMAN_REINGOLD_HPP
-

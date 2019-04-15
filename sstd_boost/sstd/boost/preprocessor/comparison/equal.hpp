@@ -32,4 +32,3 @@
 # define BOOST_PP_EQUAL_D(d, x, y) BOOST_PP_EQUAL(x, y)
 #
 # endif
-

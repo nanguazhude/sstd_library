@@ -70,4 +70,3 @@ public :
 }}} // namespace boost::geometry::formula
 
 #endif //BOOST_GEOMETRY_FORMULAS_MERIDIAN_SEGMENT_HPP
-

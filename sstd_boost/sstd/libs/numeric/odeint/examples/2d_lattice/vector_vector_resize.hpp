@@ -103,4 +103,3 @@ struct state_wrapper< std::vector< std::vector< double > > >
 } } }
 
 #endif
-

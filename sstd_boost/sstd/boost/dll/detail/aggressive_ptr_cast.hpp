@@ -132,5 +132,3 @@ BOOST_FORCEINLINE typename boost::disable_if_c<boost::is_member_pointer<To>::val
 }}} // boost::dll::detail
 
 #endif // BOOST_DLL_DETAIL_AGGRESSIVE_PTR_CAST_HPP
-
-

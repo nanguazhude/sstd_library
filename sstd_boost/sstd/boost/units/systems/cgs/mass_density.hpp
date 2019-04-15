@@ -29,4 +29,3 @@ typedef unit<mass_density_dimension,cgs::system>     mass_density;
 } // namespace boost
 
 #endif // BOOST_UNITS_CGS_MASS_DENSITY_HPP
-

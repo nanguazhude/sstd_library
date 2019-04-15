@@ -236,4 +236,3 @@ private:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_RANDOM_LINEAR_CONGRUENTIAL_ENGINE_HPP
-

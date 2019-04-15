@@ -97,4 +97,3 @@ void run_stable_heap_tests(void)
     pri_queue_stable_test_sequential_push<pri_queue>();
     pri_queue_stable_test_sequential_reverse_push<pri_queue>();
 }
-

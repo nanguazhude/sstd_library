@@ -65,4 +65,3 @@ __declspec(selectany) detached_t detached;
 #include <sstd/boost/asio/experimental/impl/detached.hpp>
 
 #endif // BOOST_ASIO_EXPERIMENTAL_DETACHED_HPP
-

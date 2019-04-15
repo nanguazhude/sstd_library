@@ -81,4 +81,3 @@ struct disjoint<Point, Box, DimensionCount, point_tag, box_tag, false>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_DISJOINT_POINT_BOX_HPP
-

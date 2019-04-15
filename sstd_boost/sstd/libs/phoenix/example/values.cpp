@@ -16,4 +16,3 @@ main()
     std::cout << val("Hello World")() << std::endl;
     return 0;
 }
-

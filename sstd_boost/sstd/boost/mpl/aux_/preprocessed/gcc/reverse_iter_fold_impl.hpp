@@ -229,4 +229,3 @@ struct reverse_iter_fold_impl< -1,Last,Last,State,BackwardOp,ForwardOp >
 };
 
 }}}
-

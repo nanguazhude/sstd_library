@@ -250,5 +250,3 @@ void test_convertible(bool has_seq_conversion)
         >(has_seq_conversion)
     ));
 }
-
-

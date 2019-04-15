@@ -155,4 +155,3 @@ namespace find_tests {
 }
 
 RUN_TESTS()
-

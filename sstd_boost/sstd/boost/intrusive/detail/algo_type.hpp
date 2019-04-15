@@ -51,4 +51,3 @@ struct get_node_checker;
 } //namespace boost
 
 #endif //BOOST_INTRUSIVE_DETAIL_ALGO_TYPE_HPP
-

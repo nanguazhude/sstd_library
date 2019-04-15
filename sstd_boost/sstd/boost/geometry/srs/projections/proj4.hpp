@@ -127,4 +127,3 @@ struct proj4_parameters
 
 
 #endif // BOOST_GEOMETRY_SRS_PROJECTIONS_PROJ4_HPP
-

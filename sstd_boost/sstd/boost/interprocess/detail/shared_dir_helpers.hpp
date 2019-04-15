@@ -210,4 +210,3 @@ inline void add_leading_slash(const char *name, std::string &new_name)
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //ifndef BOOST_INTERPROCESS_DETAIL_SHARED_DIR_HELPERS_HPP
-

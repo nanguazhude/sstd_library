@@ -4,4 +4,3 @@
 
 #define BOOST_HANA_TEST_APPLICATIVE_FULL_MCD
 #include "main.hpp"
-

@@ -38,4 +38,3 @@ void test_all(std::vector<T> const& expected, double precision = 0.01)
 
 
 #endif // GEOMETRY_TEST_MULTI_OVERLAY_COMMON_HPP
-

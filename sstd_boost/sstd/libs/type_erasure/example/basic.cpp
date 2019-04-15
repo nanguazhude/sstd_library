@@ -152,4 +152,3 @@ void read_line(any<has_getline<bool(std::istream&, _self&)>, _self&> str)
 //` [basic2]
 //` [basic3]
 //]
-

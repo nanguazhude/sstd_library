@@ -106,5 +106,3 @@ BOOST_AUTO_TEST_CASE(function_reference_element_iteration)
 
     BOOST_CHECK_EQUAL(tluser.str(), std::string("8 7 2 1 0 "));
 }
-
-

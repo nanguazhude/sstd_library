@@ -29,4 +29,3 @@ namespace boost { namespace numeric {
 #endif//!defined BOOST_NUMERIC_CONVERSION_RELAX_BUILT_IN_CAST_TRAITS
 
 #endif//BOOST_NUMERIC_CAST_TRAITS_HPP
-

@@ -43,4 +43,3 @@ struct avl_hooks
 }  //namespace boost {
 
 #endif   //BOOST_INTRUSIVE_TEST_AVL_TEST_COMMON_HPP
-

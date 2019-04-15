@@ -89,4 +89,3 @@ void test_assoc_container_factory()
   test_basic_template<assoc_container_factory_flyweight_specifier1>();
   test_basic_template<assoc_container_factory_flyweight_specifier2>();
 }
-

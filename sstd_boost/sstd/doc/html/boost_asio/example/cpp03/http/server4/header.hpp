@@ -26,4 +26,3 @@ struct header
 } // namespace http
 
 #endif // HTTP_SERVER4_HEADER_HPP
-

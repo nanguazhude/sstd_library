@@ -1,4 +1,4 @@
-/*
+﻿/*
 ** $Id: ldo.h,v 2.29.1.1 2017/04/19 17:20:42 roberto Exp $
 ** Stack and Call structure of Lua
 ** See Copyright Notice in lua.h
@@ -55,4 +55,3 @@ LUAI_FUNC l_noret luaD_throw (lua_State *L, int errcode);
 LUAI_FUNC int luaD_rawrunprotected (lua_State *L, Pfunc f, void *ud);
 
 #endif
-

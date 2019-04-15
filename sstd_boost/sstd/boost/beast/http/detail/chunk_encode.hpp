@@ -245,4 +245,3 @@ struct buffers_or_fields<T, false>
 } // boost
 
 #endif
-

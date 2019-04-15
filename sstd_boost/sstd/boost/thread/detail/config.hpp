@@ -529,4 +529,3 @@
 //      Usage of BOOST_HAS_DECLSPEC macro.
 //      Default again is static lib usage.
 //      BOOST_DYN_LINK only defined when autolink included.
-

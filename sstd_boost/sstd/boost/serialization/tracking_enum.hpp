@@ -39,4 +39,3 @@ enum tracking_type
 } // namespace boost
 
 #endif // BOOST_SERIALIZATION_TRACKING_ENUM_HPP
-

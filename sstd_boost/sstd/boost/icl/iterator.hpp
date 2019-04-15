@@ -105,6 +105,3 @@ inline insert_iterator<ContainerT> inserter(ContainerT& cont, IteratorT iter_)
 }} // namespace icl boost
 
 #endif // BOOST_ICL_ITERATOR_HPP_JOFA_091003
-
-
-

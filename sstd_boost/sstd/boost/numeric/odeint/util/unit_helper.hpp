@@ -149,4 +149,3 @@ namespace detail {
 
 
 #endif // BOOST_NUMERIC_ODEINT_UTIL_UNIT_HELPER_HPP_INCLUDED
-

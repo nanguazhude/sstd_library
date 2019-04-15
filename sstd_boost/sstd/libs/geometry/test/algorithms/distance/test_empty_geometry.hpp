@@ -211,4 +211,3 @@ void test_more_empty_input_areal_areal(Strategy const& strategy)
 }
 
 #endif // BOOST_GEOMETRY_TEST_EMPTY_GEOMETRY_HPP
-

@@ -911,4 +911,3 @@ template <class X, class T> void unordered_map_member_test(X& x, T& t)
   x1.begin()->second.dummy_member();
   x1.cbegin()->second.dummy_member();
 }
-

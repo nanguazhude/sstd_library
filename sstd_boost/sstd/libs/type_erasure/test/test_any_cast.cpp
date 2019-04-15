@@ -166,4 +166,3 @@ BOOST_AUTO_TEST_CASE(test_cref_to_pointer)
     // BOOST_CHECK_EQUAL(any_cast<double*>(&y), (double*)0);
     BOOST_CHECK_EQUAL(any_cast<const double*>(&y), (double*)0);
 }
-

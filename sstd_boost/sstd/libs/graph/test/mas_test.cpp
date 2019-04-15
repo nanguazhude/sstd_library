@@ -224,5 +224,3 @@ BOOST_AUTO_TEST_CASE(test1)
 }
 
 #include <sstd/boost/graph/iteration_macros_undef.hpp>
-
-

@@ -55,4 +55,3 @@ bool is_sorted_and_unique (ForwardIterator first, ForwardIterator last, Pred pre
 }  //namespace boost {
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_IS_SORTED_HPP
-

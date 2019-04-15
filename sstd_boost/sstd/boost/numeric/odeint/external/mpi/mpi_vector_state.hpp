@@ -91,5 +91,3 @@ struct unsplit_impl< mpi_state< InnerState >, Target,
 
 
 #endif
-
-

@@ -144,5 +144,3 @@ namespace boost { namespace function_types {
 } } // namespace boost::function_types
 
 #endif
-
-

@@ -82,4 +82,3 @@ typedef image< rgba64f_pixel_t      , true  > rgba64f_planar_image_t;
 } // namespace boost
 
 #endif
-

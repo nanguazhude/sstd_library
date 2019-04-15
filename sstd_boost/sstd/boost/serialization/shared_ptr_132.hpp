@@ -220,4 +220,3 @@ inline void serialize(
     /**/
 
 #endif // BOOST_SERIALIZATION_SHARED_PTR_132_HPP
-

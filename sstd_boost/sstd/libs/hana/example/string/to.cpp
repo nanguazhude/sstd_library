@@ -19,4 +19,3 @@ constexpr char const* s2 = hana::to<char const*>(str);
 static_assert(s2[0] == 'h' && s2[1] == 'i' && s2[2] == '\0', "");
 
 int main() { }
-

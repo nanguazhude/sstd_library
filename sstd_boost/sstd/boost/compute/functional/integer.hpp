@@ -28,4 +28,3 @@ BOOST_COMPUTE_DECLARE_BUILTIN_FUNCTION(min, T (T, T), class T)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_FUNCTIONAL_INTEGER_HPP
-

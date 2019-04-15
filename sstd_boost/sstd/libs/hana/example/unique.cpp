@@ -36,4 +36,3 @@ int main() {
             hana::make_tuple(1, "abc"s, 'd', "efg"s, 3.4f)
     );
 }
-

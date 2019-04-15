@@ -77,4 +77,3 @@ typedef divide_typeof_helper<electric_charge,amount>::type electric_charge_over_
 } // namespace boost
 
 #endif
-

@@ -129,5 +129,3 @@ struct init_invoker<0, T, Args>
 }}}} // namespace boost::parameter::python::aux
 
 #endif // BOOST_PARAMETER_INVOKER_051210_HPP
-
-

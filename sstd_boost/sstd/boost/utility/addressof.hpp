@@ -15,4 +15,3 @@
 #include <sstd/boost/core/addressof.hpp>
 
 #endif
-

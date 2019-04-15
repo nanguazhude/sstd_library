@@ -311,4 +311,3 @@ inline future<void> fill_async(BufferIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_FILL_HPP
-

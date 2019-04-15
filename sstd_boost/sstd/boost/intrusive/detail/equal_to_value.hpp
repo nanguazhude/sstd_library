@@ -48,4 +48,3 @@ class equal_to_value
 }  //namespace boost{
 
 #endif //BOOST_INTRUSIVE_DETAIL_EQUAL_TO_VALUE_HPP
-

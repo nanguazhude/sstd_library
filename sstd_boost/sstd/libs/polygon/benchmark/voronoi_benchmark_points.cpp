@@ -149,4 +149,3 @@ int main() {
   bf.close();
   return 0;
 }
-

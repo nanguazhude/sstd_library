@@ -222,4 +222,3 @@ Sample output on an AMD Quadcore running MSVC 10
   s.nan     7f f8 00 00 00 00 00 01
 
   */
-

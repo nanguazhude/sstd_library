@@ -33,4 +33,3 @@ main()
     A1(v);
     return 1;
     }
-

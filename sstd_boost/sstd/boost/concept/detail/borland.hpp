@@ -28,4 +28,3 @@ struct require<void(*)(Model)>
 }} // namespace boost::concept
 
 #endif // BOOST_CONCEPT_DETAIL_BORLAND_DWA2006429_HPP
-

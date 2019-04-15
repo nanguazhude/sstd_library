@@ -19,4 +19,3 @@
     && !defined(__PPCBROADWAY) && !defined(_XENON)
 #error "Not combined"
 #endif
-

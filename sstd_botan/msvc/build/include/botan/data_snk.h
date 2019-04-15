@@ -1,4 +1,4 @@
-/*
+﻿/*
 * DataSink
 * (C) 1999-2007 Jack Lloyd
 *     2017 Philippe Lieser

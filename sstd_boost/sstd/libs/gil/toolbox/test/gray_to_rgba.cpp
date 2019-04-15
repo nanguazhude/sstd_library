@@ -26,4 +26,3 @@ BOOST_AUTO_TEST_CASE( gray_to_rgba_test )
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

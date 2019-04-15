@@ -62,4 +62,3 @@ namespace detail {
 
 
 #endif //  BOOST_FORMAT_INTERNAL_FWD_HPP
-

@@ -611,4 +611,3 @@ struct associated_executor<executor_binder<T, Executor>, Executor1>
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_BIND_EXECUTOR_HPP
-

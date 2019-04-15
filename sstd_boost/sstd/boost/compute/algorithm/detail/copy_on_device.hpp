@@ -188,4 +188,3 @@ inline future<svm_ptr<T> > copy_on_device_async(svm_ptr<T> first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_COPY_ON_DEVICE_HPP
-

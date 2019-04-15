@@ -22,6 +22,3 @@ template <class Type> struct is_continuous_interval
 }} // namespace boost icl
 
 #endif
-
-
-

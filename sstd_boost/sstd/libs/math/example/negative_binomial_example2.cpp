@@ -180,4 +180,3 @@ Sum pdfs = 0.40025683281803692 , cdf = 0.40025683281803687, difference = 0.25 in
 //] [neg_binomial_example2_1 end of Quickbook]
 
 */
-

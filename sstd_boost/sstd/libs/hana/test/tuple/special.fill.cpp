@@ -34,4 +34,3 @@ int main() {
         hana::tuple_t<z, z, z>
     ));
 }
-

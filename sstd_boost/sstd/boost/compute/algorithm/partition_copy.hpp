@@ -70,4 +70,3 @@ partition_copy(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_PARTITION_COPY_HPP
-

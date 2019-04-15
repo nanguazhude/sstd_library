@@ -23,4 +23,3 @@ int main() {
 
     hana::test::TestOrderable<hana::ext::std::integral_constant_tag<int>>{ints};
 }
-

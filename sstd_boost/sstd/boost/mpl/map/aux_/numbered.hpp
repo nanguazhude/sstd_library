@@ -108,4 +108,3 @@ struct BOOST_PP_CAT(map,i_)
 #undef i_
 
 #endif // BOOST_PP_IS_ITERATING
-

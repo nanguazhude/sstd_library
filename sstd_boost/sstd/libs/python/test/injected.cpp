@@ -37,4 +37,3 @@ BOOST_PYTHON_MODULE(injected_ext)
         .def("value", &X::value)
         ;
 }
-

@@ -300,4 +300,3 @@ constexpr detail::construct_meta_template_f<Template> construct_meta() noexcept
 }} // namespace boost::hof
 
 #endif
-

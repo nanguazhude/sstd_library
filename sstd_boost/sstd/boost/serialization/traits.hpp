@@ -63,4 +63,3 @@ struct traits : public basic_traits {
 } // namespace boost
 
 #endif // BOOST_SERIALIZATION_TRAITS_HPP
-

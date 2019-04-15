@@ -12,4 +12,3 @@
 
 // Boost.Test
 #include <sstd/boost/test/tools/assertion_result.hpp>
-

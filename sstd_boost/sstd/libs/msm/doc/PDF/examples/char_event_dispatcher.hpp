@@ -90,4 +90,3 @@ struct char_event_dispatcher
 
 }}} // boost::msm::back
 #endif //BOOST_MSM_CHAR_EVENT_DISPATCHER_HPP
-

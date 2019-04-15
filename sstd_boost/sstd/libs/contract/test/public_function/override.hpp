@@ -38,5 +38,3 @@ int main() {
     aa.f();
     return 0;
 }
-
-

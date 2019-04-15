@@ -16,4 +16,3 @@ template<> struct binary<0>
     : mpl::long_<0>
 {
 };
-

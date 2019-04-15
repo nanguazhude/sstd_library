@@ -62,4 +62,3 @@ read_size_or_throw(DynamicBuffer& buffer,
 #include <sstd/boost/beast/core/impl/read_size.ipp>
 
 #endif
-

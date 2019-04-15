@@ -541,4 +541,3 @@ BOOST_AUTO_TEST_CASE(sort_partial_vector)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

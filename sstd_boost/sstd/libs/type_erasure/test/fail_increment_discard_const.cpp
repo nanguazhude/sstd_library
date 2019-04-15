@@ -19,4 +19,3 @@ int main()
     any<incrementable<>, const _self&> x(i);
     ++x;
 }
-

@@ -125,4 +125,3 @@ struct segments_intersection_ratios
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_GEOMETRY_POLICIES_RELATE_INTERSECTION_RATIOS_HPP
-

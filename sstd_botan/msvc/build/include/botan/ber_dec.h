@@ -1,4 +1,4 @@
-/*
+﻿/*
 * BER Decoder
 * (C) 1999-2010,2018 Jack Lloyd
 *

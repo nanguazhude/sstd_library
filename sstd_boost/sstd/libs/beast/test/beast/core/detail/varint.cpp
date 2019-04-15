@@ -51,4 +51,3 @@ BEAST_DEFINE_TESTSUITE(beast,core,varint);
 } // detail
 } // beast
 } // boost
-

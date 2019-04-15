@@ -150,4 +150,3 @@ find_end(const ForwardRange1& rng1, const ForwardRange2& rng2, BinaryPredicate p
 } // namespace boost
 
 #endif // include guard
-

@@ -212,4 +212,3 @@ BOOST_HANA_NAMESPACE_BEGIN namespace detail { namespace variadic {
 }} BOOST_HANA_NAMESPACE_END
 
 #endif // !BOOST_HANA_DETAIL_VARIADIC_FOLDL1_HPP
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * STL Utility Functions
 * (C) 1999-2007 Jack Lloyd
 * (C) 2015 Simon Warta (Kullo GmbH)

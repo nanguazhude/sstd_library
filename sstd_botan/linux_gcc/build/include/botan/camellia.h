@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Camellia
 * (C) 2012 Jack Lloyd
 *

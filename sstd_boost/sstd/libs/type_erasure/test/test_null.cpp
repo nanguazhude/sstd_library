@@ -42,4 +42,3 @@ BOOST_AUTO_TEST_CASE(test_copy) {
     any<common<> > val2(val);
     BOOST_CHECK(typeid_of(val2) == typeid(void));
 }
-

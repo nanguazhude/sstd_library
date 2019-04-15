@@ -252,4 +252,3 @@ int vector_test()
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif
-

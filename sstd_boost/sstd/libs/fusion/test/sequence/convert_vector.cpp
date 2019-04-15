@@ -10,5 +10,3 @@
 
 #define FUSION_SEQUENCE boost::fusion::vector
 #include "convert.hpp"
-
-

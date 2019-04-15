@@ -14,4 +14,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::transform(hana::nothing, hana::_ + 1) == hana::n
 static_assert(hana::transform(hana::just(1), hana::_ + 1) == hana::just(2), "");
 
 int main() { }
-

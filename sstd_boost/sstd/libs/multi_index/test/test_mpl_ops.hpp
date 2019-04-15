@@ -9,4 +9,3 @@
  */
 
 void test_mpl_ops();
-

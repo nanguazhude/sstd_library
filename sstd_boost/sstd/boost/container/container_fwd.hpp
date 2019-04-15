@@ -294,4 +294,3 @@ struct dummy
 }}  //namespace boost { namespace container {
 
 #endif //#ifndef BOOST_CONTAINER_CONTAINER_FWD_HPP
-

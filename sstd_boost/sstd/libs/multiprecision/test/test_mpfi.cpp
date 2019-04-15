@@ -279,7 +279,3 @@ int main()
    test_hyp();
    return boost::report_errors();
 }
-
-
-
-

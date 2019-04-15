@@ -18,4 +18,3 @@ int main()
     boost::thread thrd(boost::bind(&helloworld, "Bob"));
     thrd.join();
 }
-

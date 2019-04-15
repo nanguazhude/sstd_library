@@ -456,5 +456,3 @@ number of times Boost.Typeof is used to deduce types (see the
 #endif // DOXYGEN
 
 #endif // #include guard
-
-

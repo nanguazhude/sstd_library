@@ -56,4 +56,3 @@ planar_rgb_view(std::size_t width, std::size_t height,
 }}  // namespace boost::gil
 
 #endif
-

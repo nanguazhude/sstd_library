@@ -256,4 +256,3 @@ struct protoify< boost::reference_wrapper< const boost::log::expressions::attrib
 #endif
 
 #endif // BOOST_LOG_EXPRESSIONS_KEYWORD_HPP_INCLUDED_
-

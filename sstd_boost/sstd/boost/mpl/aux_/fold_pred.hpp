@@ -35,4 +35,3 @@ struct fold_pred
 }}}
 
 #endif // BOOST_MPL_AUX_FOLD_PRED_HPP_INCLUDED
-

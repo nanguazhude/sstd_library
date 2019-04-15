@@ -44,5 +44,3 @@ int test_main( int, char* [] )
     test_bimap_lambda();
     return 0;
 }
-
-

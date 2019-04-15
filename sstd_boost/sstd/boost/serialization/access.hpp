@@ -143,4 +143,3 @@ public:
 } // namespace boost
 
 #endif // BOOST_SERIALIZATION_ACCESS_HPP
-

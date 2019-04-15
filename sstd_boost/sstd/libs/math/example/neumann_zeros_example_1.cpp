@@ -81,6 +81,3 @@ cyl_neumann_zero<float>(2.F, 1,
 10.0235
 3.61544
 */
-
-
-

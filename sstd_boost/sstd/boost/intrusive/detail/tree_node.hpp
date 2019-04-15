@@ -78,4 +78,3 @@ struct tree_node_traits
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_TREE_NODE_HPP
-

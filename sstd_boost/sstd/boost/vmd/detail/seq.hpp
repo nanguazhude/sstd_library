@@ -234,4 +234,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_SEQ_HPP */
-

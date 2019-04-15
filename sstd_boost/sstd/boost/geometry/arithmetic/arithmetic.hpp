@@ -333,4 +333,3 @@ inline void assign_point(Point1& p1, Point2 const& p2)
 
 
 #endif // BOOST_GEOMETRY_ARITHMETIC_ARITHMETIC_HPP
-

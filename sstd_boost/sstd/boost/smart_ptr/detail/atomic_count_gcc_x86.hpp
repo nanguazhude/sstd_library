@@ -75,4 +75,3 @@ private:
 } // namespace boost
 
 #endif // #ifndef BOOST_SMART_PTR_DETAIL_ATOMIC_COUNT_GCC_X86_HPP_INCLUDED
-

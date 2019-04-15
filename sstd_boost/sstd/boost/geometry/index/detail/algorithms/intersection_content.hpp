@@ -44,4 +44,3 @@ inline typename default_content_result<Box>::type intersection_content(Box const
 }}}} // namespace boost::geometry::index::detail
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_ALGORITHMS_INTERSECTION_CONTENT_HPP
-

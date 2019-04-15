@@ -15,5 +15,3 @@ struct double_number :
 {};
 
 #endif
-
-

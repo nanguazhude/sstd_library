@@ -44,4 +44,3 @@ BOOST_MPL_AUX_NA_SPEC(2, max)
 }}
 
 #endif // BOOST_MPL_MIN_MAX_HPP_INCLUDED
-

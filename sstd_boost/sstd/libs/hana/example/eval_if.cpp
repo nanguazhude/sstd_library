@@ -36,4 +36,3 @@ int main() {
     BOOST_HANA_CONSTEXPR_CHECK(safe_divide(6, 3) == 2);
     BOOST_HANA_CONSTEXPR_CHECK(safe_divide(6, 0) == 0);
 }
-

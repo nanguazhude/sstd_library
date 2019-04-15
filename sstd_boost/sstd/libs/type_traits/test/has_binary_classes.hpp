@@ -250,4 +250,3 @@ class C411 { C411(); public: C411(int) { } };
 ret  const & operator+(C411 const &, C411 const &) { return ret_val; }
 
 #endif
-

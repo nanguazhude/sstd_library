@@ -12,4 +12,3 @@ void lib2::f()
 {
     boost::throw_exception( lib2::exception() );
 }
-

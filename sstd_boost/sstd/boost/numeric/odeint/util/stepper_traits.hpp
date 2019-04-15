@@ -61,4 +61,3 @@ struct value_type
 
 
 #endif // BOOST_NUMERIC_ODEINT_UTIL_STEPPER_TRAITS_HPP_DEFINED
-

@@ -27,4 +27,3 @@ BOOST_DATA_TEST_CASE(
   BOOST_TEST((sample <= 4 && sample >= 0));
 }
 //]
-

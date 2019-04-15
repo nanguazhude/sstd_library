@@ -66,4 +66,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(mutable_, detail::make<mutable_adaptor>);
 
 
 #endif
-

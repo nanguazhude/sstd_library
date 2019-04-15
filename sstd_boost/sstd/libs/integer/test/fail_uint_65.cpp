@@ -11,4 +11,3 @@ int main()
  std::cout << std::numeric_limits<boost::uint_t<65>::least>::digits;
  return 0;
 }
-

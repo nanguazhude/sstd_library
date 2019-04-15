@@ -129,4 +129,3 @@ template<> struct arg<-1>
 
 #undef i_
 #endif // BOOST_PP_IS_ITERATING
-

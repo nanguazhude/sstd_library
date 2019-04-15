@@ -15,4 +15,3 @@ int main(){
     f(y);   // Would be OK, but will invoke compile time error
     return 0;
 }
-

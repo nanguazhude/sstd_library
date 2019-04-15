@@ -22,4 +22,3 @@ int main() {
         std::ratio<0>{}
     ));
 }
-

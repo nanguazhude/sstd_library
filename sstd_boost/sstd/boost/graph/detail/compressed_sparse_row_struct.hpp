@@ -645,4 +645,3 @@ namespace detail {
 } // namespace boost
 
 #endif // BOOST_GRAPH_COMPRESSED_SPARSE_ROW_STRUCT_HPP
-

@@ -24,4 +24,3 @@ target_link_libraries(test_executable ${Boost_UNIT_TEST_FRAMEWORK_LIBRARY})
 
 # declares a test with our executable
 add_test(NAME test1 COMMAND test_executable)
-

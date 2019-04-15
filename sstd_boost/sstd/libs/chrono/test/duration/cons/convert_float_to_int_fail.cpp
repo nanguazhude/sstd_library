@@ -20,4 +20,3 @@ void test()
     boost::chrono::duration<double> d;
     boost::chrono::duration<int> i = d;
 }
-

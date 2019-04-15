@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/adapted/struct.hpp>
 
 #endif
-

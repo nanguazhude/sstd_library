@@ -507,4 +507,3 @@ using iterators::traversal_archetype_base;
 } // namespace boost
 
 #endif // BOOST_ITERATOR_ARCHETYPES_HPP
-

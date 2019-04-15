@@ -57,4 +57,3 @@
 #include <sstd/boost/format/detail/unset_macros.hpp>
 
 #endif // BOOST_FORMAT_HPP
-

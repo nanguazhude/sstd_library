@@ -115,4 +115,3 @@ struct radius_access<srs::sphere<RadiusType>, Dimension>
 
 
 #endif // BOOST_GEOMETRY_SRS_SPHERE_HPP
-

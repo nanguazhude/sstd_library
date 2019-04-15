@@ -54,4 +54,3 @@ public:
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_SSL_DETAIL_SHUTDOWN_OP_HPP
-

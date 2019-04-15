@@ -17,5 +17,3 @@ int main(void) {
         s = "";
     } BOOST_SCOPE_EXIT_END
 }
-
-

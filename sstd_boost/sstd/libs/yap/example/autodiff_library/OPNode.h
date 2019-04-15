@@ -35,4 +35,3 @@ private:
 }
 
 #endif /* OPNODE_H_ */
-

@@ -890,4 +890,3 @@ inline T1 pow(T1 const& a, T2 const& b)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_UTIL_MATH_HPP
-

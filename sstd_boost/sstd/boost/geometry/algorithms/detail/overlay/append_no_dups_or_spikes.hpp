@@ -199,4 +199,3 @@ inline void clean_closing_dups_and_spikes(Range& range,
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_APPEND_NO_DUPS_OR_SPIKES_HPP
-

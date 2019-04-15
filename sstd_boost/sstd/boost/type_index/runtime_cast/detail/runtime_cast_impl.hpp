@@ -55,4 +55,3 @@ T const* runtime_cast_impl(U const* u, boost::false_type) BOOST_NOEXCEPT {
 }} // namespace boost::typeindex
 
 #endif // BOOST_TYPE_INDEX_RUNTIME_CAST_DETAIL_RUNTIME_CAST_IMPL_HPP
-

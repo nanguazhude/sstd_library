@@ -730,4 +730,3 @@ struct default_strategy
 
 }} // namespace boost::geometry
 #endif // BOOST_GEOMETRY_STRATEGIES_GEOGRAPHIC_DISTANCE_CROSS_TRACK_HPP
-

@@ -41,6 +41,3 @@ operator >= (const Type& left, const Type& right)
 }} // namespace boost icl
 
 #endif
-
-
-

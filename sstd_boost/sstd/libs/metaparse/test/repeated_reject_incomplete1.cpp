@@ -10,5 +10,3 @@ using boost::metaparse::repeated_reject_incomplete1;
 #define TEST_NAME repeated_reject_incomplete1
 
 #include "repeated_reject_incomplete1_test.hpp"
-
-

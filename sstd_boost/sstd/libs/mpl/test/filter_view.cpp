@@ -40,4 +40,3 @@ MPL_TEST_CASE()
 
     MPL_ASSERT((is_same<mpl::deref<iter::base>::type, long double>));
 }
-

@@ -29,4 +29,3 @@ typedef unit<power_dimension,cgs::system>    power;
 } // namespace boost
 
 #endif // BOOST_UNITS_CGS_POWER_HPP
-

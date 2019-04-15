@@ -41,4 +41,3 @@ bool operator<(Key const& k, map_entry<Key,Value> const& e)
 }}} // namespace boost::python::detail
 
 #endif // MAP_ENTRY_DWA2002118_HPP
-

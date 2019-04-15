@@ -7,4 +7,3 @@
 
 //  This header is no longer used. The contents have been moved to path.hpp.
 //  It is provided so that user code #includes do not have to be changed.
-

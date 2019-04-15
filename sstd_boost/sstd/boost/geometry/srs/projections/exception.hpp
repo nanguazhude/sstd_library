@@ -111,4 +111,3 @@ private:
 
 }} // namespace boost::geometry
 #endif // BOOST_GEOMETRY_PROJECTIONS_EXCEPTION_HPP
-

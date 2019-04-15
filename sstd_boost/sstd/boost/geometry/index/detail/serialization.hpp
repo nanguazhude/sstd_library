@@ -583,4 +583,3 @@ void serialize(Archive & ar, boost::geometry::index::rtree<V, P, I, E, A> const&
 }} // boost::serialization
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_SERIALIZATION_HPP
-

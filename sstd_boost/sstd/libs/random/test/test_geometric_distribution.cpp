@@ -29,4 +29,3 @@
 #define BOOST_RANDOM_TEST2_MIN 1
 
 #include "test_distribution.ipp"
-

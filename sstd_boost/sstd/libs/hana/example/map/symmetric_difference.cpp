@@ -31,4 +31,3 @@ int main() {
             hana::symmetric_difference(m1, m2) == result_m
     );
 }
-

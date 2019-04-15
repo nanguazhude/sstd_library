@@ -43,4 +43,3 @@ foreach(example ${_examples})
 endforeach()
 
 unset(_examples)
-

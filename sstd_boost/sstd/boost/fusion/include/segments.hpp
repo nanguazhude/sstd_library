@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/sequence/intrinsic/segments.hpp>
 
 #endif
-

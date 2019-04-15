@@ -10,4 +10,3 @@ namespace hana = boost::hana;
 static_assert(hana::first(hana::make_pair(1, 'x')) == 1, "");
 
 int main() { }
-

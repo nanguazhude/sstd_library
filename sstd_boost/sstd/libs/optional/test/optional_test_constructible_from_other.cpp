@@ -55,4 +55,3 @@ int main()
     boost::optional< wrapper< int > > res = foo();
     return 0;
 }
-

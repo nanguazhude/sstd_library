@@ -87,4 +87,3 @@ public:
 } // namespace boost
 
 #endif // BOOST_ARCHIVE_ITERATORS_UNESCAPE_HPP
-

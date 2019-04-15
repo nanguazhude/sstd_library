@@ -40,4 +40,3 @@ class node_iterator
 
 
 #endif // NODE_ITERATOR1_DWA2004110_HPP
-

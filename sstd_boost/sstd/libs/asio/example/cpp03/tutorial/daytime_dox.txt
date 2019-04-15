@@ -500,4 +500,3 @@ Previous: \ref tutdaytime6
 \include daytime7/server.cpp
 Return to \ref tutdaytime7
 */
-

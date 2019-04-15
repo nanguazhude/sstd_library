@@ -54,4 +54,3 @@ public:
 #endif
 
 #endif // BOOST_FIBER_PREALLOCATED_STACK_ALLOCATOR_H
-

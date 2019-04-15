@@ -1201,4 +1201,3 @@ local void bi_windup(s)
     s->bits_sent = (s->bits_sent+7) & ~7;
 #endif
 }
-

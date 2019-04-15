@@ -49,4 +49,3 @@ template<class L, class Q> using mp_max_element_q = mp_max_element<L, Q::templat
 } // namespace boost
 
 #endif // #ifndef BOOST_MP11_DETAIL_MP_MIN_ELEMENT_HPP_INCLUDED
-

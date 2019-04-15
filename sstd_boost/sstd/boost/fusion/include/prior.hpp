@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/iterator/prior.hpp>
 
 #endif
-

@@ -15,4 +15,3 @@
 #include "../../../boost/mpl/print.hpp"
 
 typedef int x;
-

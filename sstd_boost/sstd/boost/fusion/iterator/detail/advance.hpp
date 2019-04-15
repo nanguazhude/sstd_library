@@ -105,4 +105,3 @@ namespace boost { namespace fusion { namespace advance_detail
 }}}
 
 #endif
-

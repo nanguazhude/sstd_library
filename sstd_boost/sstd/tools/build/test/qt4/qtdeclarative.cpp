@@ -25,4 +25,3 @@ BOOST_AUTO_TEST_CASE( declarative )
                      boost::unit_test::framework::master_test_suite().argv);
     QDeclarativeView view;
 }
-

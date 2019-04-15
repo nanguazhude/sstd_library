@@ -1,4 +1,4 @@
-/*
+﻿/*
 * TLS Cipher Suites
 * (C) 2004-2011,2012 Jack Lloyd
 *

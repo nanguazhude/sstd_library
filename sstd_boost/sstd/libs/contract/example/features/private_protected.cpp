@@ -74,5 +74,3 @@ int main() {
     assert(cnt.get() == -1);
     return 0;
 }
-
-

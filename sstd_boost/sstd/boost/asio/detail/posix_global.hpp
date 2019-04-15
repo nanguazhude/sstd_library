@@ -80,4 +80,3 @@ T& posix_global()
 #endif // defined(BOOST_ASIO_HAS_PTHREADS)
 
 #endif // BOOST_ASIO_DETAIL_POSIX_GLOBAL_HPP
-

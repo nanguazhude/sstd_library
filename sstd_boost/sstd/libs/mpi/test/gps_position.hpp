@@ -67,4 +67,3 @@ namespace boost { namespace mpi {
 
 } }
 #endif
-

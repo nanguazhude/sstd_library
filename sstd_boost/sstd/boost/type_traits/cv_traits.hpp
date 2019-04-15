@@ -22,4 +22,3 @@
 #include <sstd/boost/type_traits/remove_cv.hpp>
 
 #endif // BOOST_TT_CV_TRAITS_HPP_INCLUDED
-

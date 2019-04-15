@@ -162,4 +162,3 @@ template<class... L> using mp_append = typename detail::mp_append_impl<L...>::ty
 } // namespace boost
 
 #endif // #ifndef BOOST_MP11_DETAIL_MP_APPEND_HPP_INCLUDED
-

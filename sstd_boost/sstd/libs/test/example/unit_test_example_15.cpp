@@ -30,4 +30,3 @@ BOOST_DATA_TEST_CASE( data_driven_test, data::make(x_samples) * y_samples, x, y 
 //____________________________________________________________________________//
 
 // EOF
-

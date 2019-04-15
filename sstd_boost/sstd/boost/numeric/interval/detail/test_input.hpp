@@ -74,4 +74,3 @@ bool test_input(const T& x, const T& y) {
 } // namespace boost
 
 #endif // BOOST_NUMERIC_INTERVAL_DETAIL_TEST_INPUT_HPP
-

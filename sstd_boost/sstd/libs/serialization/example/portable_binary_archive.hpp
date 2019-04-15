@@ -44,4 +44,3 @@ reverse_bytes(char size, char *address){
 }
 
 #endif // PORTABLE_BINARY_ARCHIVE_HPP
-

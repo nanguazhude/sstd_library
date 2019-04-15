@@ -173,4 +173,3 @@ inline sequence<BidiIter> operator |(sequence<BidiIter> left, sequence<BidiIter>
 }}} // namespace boost::xpressive::detail
 
 #endif
-

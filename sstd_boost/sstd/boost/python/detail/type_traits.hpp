@@ -109,4 +109,3 @@ namespace boost { namespace python { namespace detail {
 
 
 #endif //BOOST_DETAIL_TYPE_TRAITS_HPP
-

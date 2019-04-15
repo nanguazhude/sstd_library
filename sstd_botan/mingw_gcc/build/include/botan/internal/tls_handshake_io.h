@@ -1,4 +1,4 @@
-/*
+﻿/*
 * TLS Handshake Serialization
 * (C) 2012,2014 Jack Lloyd
 *

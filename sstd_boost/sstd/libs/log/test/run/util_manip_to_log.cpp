@@ -132,4 +132,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(operator_overrides, CharT, char_types)
     tests< CharT, std::basic_ostringstream< CharT > >::operator_overrides();
     tests< CharT, logging::basic_formatting_ostream< CharT > >::operator_overrides();
 }
-

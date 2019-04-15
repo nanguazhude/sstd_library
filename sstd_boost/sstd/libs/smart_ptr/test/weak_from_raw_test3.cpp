@@ -44,4 +44,3 @@ int main()
     boost::shared_ptr< X > px( new X );
     return boost::report_errors();
 }
-

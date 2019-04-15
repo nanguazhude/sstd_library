@@ -19,4 +19,3 @@
 #include <sstd/boost/spirit/home/classic/symbols/symbols.hpp>
 
 #endif // !defined(BOOST_SPIRIT_SYMBOLS_MAIN_HPP)
-

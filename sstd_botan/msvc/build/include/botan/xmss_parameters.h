@@ -1,4 +1,4 @@
-/*
+﻿/*
  * XMSS Parameters
  * (C) 2016 Matthias Gierlings
  *

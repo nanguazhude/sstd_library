@@ -49,12 +49,3 @@ TT_TEST_BEGIN(add_volatile)
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

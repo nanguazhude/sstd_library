@@ -5,4 +5,3 @@
 
 #include <sstd/boost/exception/error_info.hpp>
 #include <sstd/boost/exception/error_info.hpp>
-

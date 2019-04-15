@@ -36,4 +36,3 @@ int main()
        index_map = "hello, world", color_map = false));
      return 0;
 }
-

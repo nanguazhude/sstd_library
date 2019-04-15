@@ -15,4 +15,3 @@ int main()
     std::cout << "Bye!\n";
     return EXIT_FAILURE
 }
-

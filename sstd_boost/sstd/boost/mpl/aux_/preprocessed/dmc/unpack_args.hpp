@@ -91,5 +91,3 @@ struct unpack_args
 BOOST_MPL_AUX_PASS_THROUGH_LAMBDA_SPEC(1, unpack_args)
 
 }}
-
-

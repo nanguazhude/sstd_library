@@ -58,4 +58,3 @@ struct distance
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_DISTANCE_BOX_TO_BOX_HPP
-

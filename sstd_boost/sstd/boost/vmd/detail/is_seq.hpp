@@ -25,4 +25,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_IS_SEQ_HPP */
-

@@ -101,4 +101,3 @@ BOOST_CONTAINER_DECL void dlmalloc_global_sync_unlock();
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //BOOST_CONTAINER_DETAIL_ALLOC_LIB_HPP
-

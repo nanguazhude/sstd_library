@@ -27,4 +27,3 @@ int main() {
 
     hana::test::TestComparable<hana::ext::std::array_tag>{int_arrays};
 }
-

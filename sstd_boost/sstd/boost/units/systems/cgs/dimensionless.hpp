@@ -28,4 +28,3 @@ BOOST_UNITS_STATIC_CONSTANT(cgs_dimensionless,dimensionless);
 } // namespace boost
 
 #endif // BOOST_UNITS_CGS_DIMENSIONLESS_HPP
-

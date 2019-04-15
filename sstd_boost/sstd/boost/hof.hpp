@@ -61,4 +61,3 @@ namespace boost { namespace hof {
 }} // namespace boost::hof
 
 #endif
-

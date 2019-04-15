@@ -14,4 +14,3 @@ static_assert(hana::alignof_(1) == alignof(decltype(1)), "");
 static_assert(hana::alignof_(hana::type_c<int>) == alignof(int), "");
 
 int main() { }
-

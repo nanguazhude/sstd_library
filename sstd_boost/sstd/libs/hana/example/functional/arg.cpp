@@ -13,4 +13,3 @@ static_assert(hana::arg<3>(1, '2', 3.3) == 3.3, "");
 // hana::arg<4>(1, '2', 3.3); // static assertion
 
 int main() { }
-

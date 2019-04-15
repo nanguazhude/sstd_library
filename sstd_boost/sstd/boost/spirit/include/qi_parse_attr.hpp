@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_QI_PARSE_ATTR
 #include <sstd/boost/spirit/home/qi/parse_attr.hpp>
 #endif
-

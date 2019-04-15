@@ -146,4 +146,3 @@ bool test_or(
 }
 
 #endif // BOOST_TEST_DIVIDE
-

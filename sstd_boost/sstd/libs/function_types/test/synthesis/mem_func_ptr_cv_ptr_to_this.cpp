@@ -32,7 +32,3 @@ BOOST_MPL_ASSERT((
   is_same< ft::member_function_pointer< mpl::vector<int,C * const volatile> >::type
          ,  expected >
 ));
-
-
-
-

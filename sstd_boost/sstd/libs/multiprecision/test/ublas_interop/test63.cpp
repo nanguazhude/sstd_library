@@ -221,4 +221,3 @@ void test_matrix () {
 #endif
 #endif
 }
-

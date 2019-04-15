@@ -87,4 +87,3 @@ int main()
     integrate_adaptive( dopri5 , rhs , x3 , t , 100.0 , dt , write_out );
     out.close();
 }
-

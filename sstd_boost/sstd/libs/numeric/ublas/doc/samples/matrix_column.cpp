@@ -24,5 +24,3 @@ int main () {
         std::cout << mc << std::endl;
     }
 }
-
-

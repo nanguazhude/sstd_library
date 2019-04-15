@@ -42,4 +42,3 @@
     #undef N
 
 #endif
-

@@ -757,4 +757,3 @@ namespace boost { namespace python { namespace detail {
 } // namespace boost
 
 #endif // INDEXING_SUITE_DETAIL_JDG20036_HPP
-

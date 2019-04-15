@@ -36,4 +36,3 @@ struct base_unit_info<metric::year_base_unit> {
 }
 
 #endif
-

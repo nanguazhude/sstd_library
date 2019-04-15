@@ -73,4 +73,3 @@ public:
 
 
 #endif // BOOST_NUMERIC_INTERVAL_POLICIES_HPP
-

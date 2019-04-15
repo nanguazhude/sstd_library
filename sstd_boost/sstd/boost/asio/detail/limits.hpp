@@ -24,4 +24,3 @@
 #endif // defined(BOOST_ASIO_HAS_BOOST_LIMITS)
 
 #endif // BOOST_ASIO_DETAIL_LIMITS_HPP
-

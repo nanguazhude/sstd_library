@@ -38,4 +38,3 @@ public:
 } // namespace boost
 
 #endif // #ifndef BOOST_TYPE_TRAITS_COPY_CV_HPP_INCLUDED
-

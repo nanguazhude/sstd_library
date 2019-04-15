@@ -26,4 +26,3 @@ struct header
 } // namespace http
 
 #endif // HTTP_SERVER3_HEADER_HPP
-

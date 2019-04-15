@@ -71,7 +71,3 @@ inline typename tools::promote_args<T>::type
 } // namespace boost
 
 #endif // BOOST_MATH_SPECIAL_HERMITE_HPP
-
-
-
-

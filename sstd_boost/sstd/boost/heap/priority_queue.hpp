@@ -418,4 +418,3 @@ public:
 } /* namespace boost */
 
 #endif /* BOOST_HEAP_PRIORITY_QUEUE_HPP */
-

@@ -177,4 +177,3 @@ public:\
     BOOST_TT_AUX_BOOL_TRAIT_SPEC1(trait,sp,value) \
     /**/
 #endif
-

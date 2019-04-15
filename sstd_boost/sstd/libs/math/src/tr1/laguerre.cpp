@@ -15,6 +15,3 @@ extern "C" double BOOST_MATH_TR1_DECL boost_laguerre BOOST_PREVENT_MACRO_SUBSTIT
 {
    return c_policies::laguerre BOOST_PREVENT_MACRO_SUBSTITUTION(n, x);
 }
-
-
-

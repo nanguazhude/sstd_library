@@ -105,4 +105,3 @@ BOOST_AUTO_TEST_CASE(find_point_by_distance)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

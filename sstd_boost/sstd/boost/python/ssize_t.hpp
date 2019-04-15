@@ -27,4 +27,3 @@ ssize_t const ssize_t_min = INT_MIN;
 }} // namespace boost::python
 
 #endif // BOOST_PYTHON_SSIZE_T_RWGK20060924_HPP
-

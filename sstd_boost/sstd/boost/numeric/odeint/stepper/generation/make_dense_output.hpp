@@ -98,4 +98,3 @@ typename result_of::make_dense_output< Stepper >::type make_dense_output(
 
 
 #endif // BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_MAKE_DENSE_OUTPUT_HPP_INCLUDED
-

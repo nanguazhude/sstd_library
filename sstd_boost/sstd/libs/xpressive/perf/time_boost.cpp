@@ -103,4 +103,3 @@ double time_find_all(const std::string& re, const std::string& text)
 }
 
 }
-

@@ -466,5 +466,3 @@ Name(boost::logic::tribool x,                                           \
 { return x.value == boost::logic::tribool::indeterminate_value; }
 
 #endif // BOOST_LOGIC_TRIBOOL_HPP
-
-

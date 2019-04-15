@@ -78,4 +78,3 @@ void cycle_test(Algorithm const& algorithm) {
 }
 
 #endif // !BOOST_GRAPH_TEST_CYCLE_TEST_HPP
-

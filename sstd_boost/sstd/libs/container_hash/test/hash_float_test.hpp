@@ -307,4 +307,3 @@ void float_tests(char const* name, T* = 0)
 #if defined(BOOST_MSVC)
 #pragma warning(pop)
 #endif
-

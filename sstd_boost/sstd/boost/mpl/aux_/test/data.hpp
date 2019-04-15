@@ -23,4 +23,3 @@ class abstract { public: virtual ~abstract() = 0; };
 using boost::noncopyable;
 
 #endif // BOOST_MPL_AUX_TEST_DATA_HPP_INCLUDED
-

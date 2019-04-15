@@ -18,4 +18,3 @@ typedef client::lexer::conjure_tokens<base_iterator_type> lexer_type;
 typedef lexer_type::iterator_type iterator_type;
 
 template struct client::parser::function<iterator_type, lexer_type>;
-

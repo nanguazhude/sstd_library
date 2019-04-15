@@ -105,4 +105,3 @@ namespace traits {
 }
 
 #endif
-

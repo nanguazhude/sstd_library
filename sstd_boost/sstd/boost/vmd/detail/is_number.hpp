@@ -36,4 +36,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_IS_NUMBER_HPP */
-

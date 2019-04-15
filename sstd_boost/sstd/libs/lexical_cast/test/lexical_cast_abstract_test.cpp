@@ -59,5 +59,3 @@ void test_abstract()
     const A &a = B();
     BOOST_CHECK(boost::lexical_cast<std::string>(a) == "B");
 }
-
-

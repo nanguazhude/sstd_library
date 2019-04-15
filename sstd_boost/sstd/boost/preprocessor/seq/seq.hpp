@@ -42,4 +42,3 @@
 # define BOOST_PP_SEQ_NIL(x) (x)
 #
 # endif
-

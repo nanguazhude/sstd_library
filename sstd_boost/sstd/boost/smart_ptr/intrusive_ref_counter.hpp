@@ -186,4 +186,3 @@ using sp_adl_block::thread_safe_counter;
 #endif
 
 #endif // BOOST_SMART_PTR_INTRUSIVE_REF_COUNTER_HPP_INCLUDED_
-

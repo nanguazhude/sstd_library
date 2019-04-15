@@ -91,4 +91,3 @@ struct default_strategy<Box1, Box2, box_tag, box_tag, 2, 2>
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_DISJOINT_HPP
-

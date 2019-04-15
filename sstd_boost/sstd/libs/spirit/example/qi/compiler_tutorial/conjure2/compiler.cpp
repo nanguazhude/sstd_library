@@ -619,5 +619,3 @@ namespace client { namespace code_gen
             return i->second;
     }
 }}
-
-

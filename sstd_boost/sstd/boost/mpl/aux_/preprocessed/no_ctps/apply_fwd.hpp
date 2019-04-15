@@ -47,5 +47,3 @@ template<
 struct apply5;
 
 }}
-
-

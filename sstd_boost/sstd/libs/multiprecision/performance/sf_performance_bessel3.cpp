@@ -14,4 +14,3 @@ void bessel_tests_3()
    time_proc("mpfr::mpreal", test_bessel<mpfr::mpreal>, mpfr_buildopt_tls_p() ? 3 : 1);
 #endif
 }
-

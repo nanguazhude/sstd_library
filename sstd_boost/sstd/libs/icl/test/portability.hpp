@@ -69,4 +69,3 @@ template<class tp_T, class tp_U, \
 #endif //ICL_INTERVAL_BITSET_IMPL
 
 #endif // BOOST_ICL_TEST_PORTABILITY_HPP_JOFA_101111
-

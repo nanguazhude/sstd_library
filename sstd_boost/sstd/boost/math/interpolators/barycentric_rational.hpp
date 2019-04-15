@@ -76,4 +76,3 @@ Real barycentric_rational<Real>::prime(Real x) const
 
 }}
 #endif
-

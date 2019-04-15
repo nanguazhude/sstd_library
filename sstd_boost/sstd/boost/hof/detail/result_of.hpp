@@ -80,4 +80,3 @@ struct result_of
 #endif
 
 #endif
-

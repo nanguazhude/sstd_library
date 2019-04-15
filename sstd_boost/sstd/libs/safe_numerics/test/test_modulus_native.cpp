@@ -90,4 +90,3 @@ int main(int, char * []){
     std::cout << (rval ? "success!" : "failure") << std::endl;
     return ! rval ;
 }
-

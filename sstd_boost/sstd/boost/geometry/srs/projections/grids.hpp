@@ -186,4 +186,3 @@ struct transformation_grids<detail::empty_grids_storage>
 
 
 #endif // BOOST_GEOMETRY_SRS_PROJECTIONS_GRIDS_HPP
-

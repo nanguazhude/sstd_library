@@ -69,4 +69,3 @@ inline bool is_sorted(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_IS_SORTED_HPP
-

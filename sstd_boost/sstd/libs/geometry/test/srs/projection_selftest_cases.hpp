@@ -3933,4 +3933,3 @@ static const projection_case projection_cases[] = {
 };
 
 #endif // BOOST_GEOMETRY_TEST_SRS_PROJECTION_SELFTEST_CASES_HPP
-

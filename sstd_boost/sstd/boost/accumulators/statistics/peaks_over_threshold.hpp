@@ -403,4 +403,3 @@ struct feature_of<tag::weighted_peaks_over_threshold_prob<LeftRight> >
 #endif
 
 #endif
-

@@ -60,4 +60,3 @@
 #undef BOOST_CB_ASSERT
 
 #endif // #if !defined(BOOST_CIRCULAR_BUFFER_HPP)
-

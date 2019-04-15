@@ -23,4 +23,3 @@ BOOST_AUTO_TEST_CASE( test_list )
   BOOST_CHECK_EQUAL( p1, p2 );
 }
 //]
-

@@ -45,4 +45,3 @@ struct iter_apply2
 }}}
 
 #endif // BOOST_MPL_ITER_APPLY_HPP_INCLUDED
-

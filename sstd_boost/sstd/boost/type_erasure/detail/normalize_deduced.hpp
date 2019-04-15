@@ -64,4 +64,3 @@ struct normalize_deduced<M, T<BOOST_PP_ENUM_PARAMS(N, U)> >
 #undef N
 
 #endif
-

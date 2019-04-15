@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_SEQUENCE
 #include <sstd/boost/spirit/home/classic/core/composite/sequence.hpp>
 #endif
-

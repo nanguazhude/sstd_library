@@ -333,4 +333,3 @@ void autodiff_cleanup()
 }
 
 } //AutoDiff namespace end
-

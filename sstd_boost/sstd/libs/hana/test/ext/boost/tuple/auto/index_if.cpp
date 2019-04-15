@@ -7,4 +7,3 @@
 #include <auto/index_if.hpp>
 
 int main() { }
-

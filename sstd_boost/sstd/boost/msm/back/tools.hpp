@@ -66,4 +66,3 @@ struct display_type
 
 } } }//boost::msm::back
 #endif //BOOST_MSM_BACK_TOOLS_H
-

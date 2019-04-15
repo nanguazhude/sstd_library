@@ -146,5 +146,3 @@ int main()
 //     invalidate_out_edges<LVD>();
 //     invalidate_adj_verts<LVD>();
 }
-
-

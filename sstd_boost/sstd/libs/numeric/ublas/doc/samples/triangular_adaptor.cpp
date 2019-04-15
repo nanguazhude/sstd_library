@@ -27,5 +27,3 @@ int main () {
             tau (i, j) = 3 * i + j;
     std::cout << tau << std::endl;
 }
-
-

@@ -47,4 +47,3 @@ int main() {
         BOOST_HANA_CONSTANT_CHECK(hana::not_(hana::is_empty(sliced)));
     }
 }
-

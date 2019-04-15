@@ -8,4 +8,3 @@
 #define BOOST_FUSION_TEST_REVERSE_FOLD
 #include "fold.hpp"
 #undef BOOST_FUSION_TEST_REVERSE_FOLD
-

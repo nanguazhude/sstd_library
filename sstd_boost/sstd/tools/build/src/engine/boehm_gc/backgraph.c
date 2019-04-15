@@ -467,4 +467,3 @@ void GC_print_back_graph_stats(void)
 }
 
 #endif /* MAKE_BACK_GRAPH */
-

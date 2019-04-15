@@ -62,4 +62,3 @@ class non_copy_movable
 #include <sstd/boost/move/detail/config_end.hpp>
 
 #endif //BOOST_MOVE_TEST_COPYMOVABLE_HPP
-

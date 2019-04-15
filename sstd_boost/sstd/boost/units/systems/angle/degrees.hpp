@@ -40,4 +40,3 @@ BOOST_UNITS_STATIC_CONSTANT(degrees,plane_angle);
 } // namespace boost
 
 #endif // BOOST_UNITS_ANGLE_DEGREE_HPP
-

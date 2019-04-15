@@ -145,4 +145,3 @@ struct channel_assigns_t : public std::binary_function<Channel1,Channel2,Channel
 }}  // namespace boost::gil
 
 #endif
-

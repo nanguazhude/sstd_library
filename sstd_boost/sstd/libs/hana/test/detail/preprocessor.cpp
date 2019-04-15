@@ -63,4 +63,3 @@ int main() {
         BOOST_HANA_RUNTIME_CHECK(args == Vector{1, 2, 3, 4});
     }
 }
-

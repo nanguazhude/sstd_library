@@ -697,4 +697,3 @@ int main()
   test_construct_destroy_count();
   return boost::report_errors();
 }
-

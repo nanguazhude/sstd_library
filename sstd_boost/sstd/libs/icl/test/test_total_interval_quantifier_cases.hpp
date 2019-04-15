@@ -97,5 +97,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE
 {                        itv_quantifier_check_length_complementarity_4_bicremental_types<T, double, total_absorber, interval_map>();}
 
 #endif // BOOST_ICL_TEST_TOTAL_INTERVAL_QUANTIFIER_CASES_HPP_JOFA_090701
-
-

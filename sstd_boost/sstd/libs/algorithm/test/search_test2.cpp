@@ -151,4 +151,3 @@ BOOST_AUTO_TEST_CASE( test_main )
     std::cout << "--- Not found ---" << std::endl;
     check_one ( c1, p1n, -1 );      //  Not found
     }
-

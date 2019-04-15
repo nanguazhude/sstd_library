@@ -19,5 +19,3 @@
     BOOST_LOCAL_FUNCTION_AUX_SYMBOL_POSTFIX( (name)(typeof_type) )
 
 #endif // #include guard
-
-

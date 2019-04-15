@@ -106,4 +106,3 @@ int main()
 
 
 // boostinspect:noascii
-

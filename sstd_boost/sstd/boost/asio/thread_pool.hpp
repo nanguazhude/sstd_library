@@ -232,4 +232,3 @@ private:
 #endif // defined(BOOST_ASIO_HEADER_ONLY)
 
 #endif // BOOST_ASIO_THREAD_POOL_HPP
-

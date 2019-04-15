@@ -43,5 +43,3 @@ So if we call `sum(1)`, there is no compiler error, not until we try to pipe in 
     auto i = 2 | f; // Compile error
 
 Of course, the goal may not be to use the pipable call, which could lead to some confusing errors. Currently, there is not a good solution to this.
-
-

@@ -87,4 +87,3 @@ int main(){
     test_compare_result();
     return 0;
 }
-

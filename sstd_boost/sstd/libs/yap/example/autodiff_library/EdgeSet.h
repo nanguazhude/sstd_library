@@ -31,4 +31,3 @@ public:
 
 } /* namespace AutoDiff */
 #endif /* EDGESET_H_ */
-

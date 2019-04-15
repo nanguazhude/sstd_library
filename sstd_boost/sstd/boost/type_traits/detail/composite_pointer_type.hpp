@@ -151,4 +151,3 @@ template<class T, class U> struct composite_pointer_type<T*, U*>
 } // namespace boost
 
 #endif // #ifndef BOOST_TYPE_TRAITS_DETAIL_COMPOSITE_POINTER_TYPE_HPP_INCLUDED
-

@@ -77,4 +77,3 @@ cycle_type overhead_cycle()
 }
 
 #endif // CYCLE_X86_64_H
-

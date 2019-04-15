@@ -37,4 +37,3 @@ struct base_unit_info<imperial::stone_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNIT_SYSTEMS_IMPERIAL_STONE_HPP_INCLUDED
-

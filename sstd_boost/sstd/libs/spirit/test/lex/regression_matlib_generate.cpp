@@ -29,5 +29,3 @@ int main(int argc, char* argv[])
     BOOST_TEST(boost::spirit::lex::lexertl::generate_static_dfa(matrix, out, "matlib"));
     return boost::report_errors();
 }
-
-

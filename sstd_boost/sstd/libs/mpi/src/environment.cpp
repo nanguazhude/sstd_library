@@ -255,4 +255,3 @@ std::pair<int, int> environment::version()
 }
 
 } } // end namespace boost::mpi
-

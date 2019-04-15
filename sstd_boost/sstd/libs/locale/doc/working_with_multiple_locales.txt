@@ -42,6 +42,3 @@ Then these locales can be imbued to \c iostreams or used directly as parameters 
 
 
 */
-
-
-

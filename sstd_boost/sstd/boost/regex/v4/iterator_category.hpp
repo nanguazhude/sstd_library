@@ -88,5 +88,3 @@ const bool is_random_access_iterator<I>::value;
 }
 
 #endif
-
-

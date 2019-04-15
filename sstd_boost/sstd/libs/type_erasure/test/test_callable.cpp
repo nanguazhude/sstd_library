@@ -534,4 +534,3 @@ BOOST_AUTO_TEST_CASE(test_rvalue_int_result)
 }
 
 #endif
-

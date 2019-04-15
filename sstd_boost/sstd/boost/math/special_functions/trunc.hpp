@@ -109,4 +109,3 @@ inline boost::long_long_type lltrunc(const T& v)
 }} // namespaces
 
 #endif // BOOST_MATH_TRUNC_HPP
-

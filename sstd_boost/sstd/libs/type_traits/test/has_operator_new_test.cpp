@@ -211,4 +211,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::has_new_operator<empty_UDT>::value, false);
 BOOST_CHECK_INTEGRAL_CONSTANT(::tt::has_new_operator<void>::value, false);
 
 TT_TEST_END
-

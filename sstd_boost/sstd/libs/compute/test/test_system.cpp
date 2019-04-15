@@ -36,4 +36,3 @@ BOOST_AUTO_TEST_CASE(find_device)
     const std::string &name = device.name();
     BOOST_CHECK(boost::compute::system::find_device(name).name() == device.name());
 }
-

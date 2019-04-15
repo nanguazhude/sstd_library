@@ -26,4 +26,3 @@ BOOST_AUTO_TEST_CASE( test_update )
   BOOST_TEST_MESSAGE( "Update " << field_name << " with " << value );
 }
 //]
-

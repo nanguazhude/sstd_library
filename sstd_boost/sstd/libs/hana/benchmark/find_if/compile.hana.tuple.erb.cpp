@@ -22,4 +22,3 @@ int main() {
     constexpr auto result = boost::hana::find_if(tuple, is_last{});
     (void)result;
 }
-

@@ -21,4 +21,3 @@ int main() {
         hana::tuple<std::weak_ptr  <char[]>> wp;
     }
 }
-

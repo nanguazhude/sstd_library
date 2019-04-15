@@ -100,4 +100,3 @@ inline T pj_authlat(T const& beta, detail::apa<T> const& apa)
 }}} // namespace boost::geometry::projections
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_IMPL_PJ_AUTH_HPP
-

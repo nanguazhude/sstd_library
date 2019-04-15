@@ -36,4 +36,3 @@ align(std::size_t alignment, std::size_t size, void*& ptr,
 } /* boost */
 
 #endif
-

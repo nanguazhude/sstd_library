@@ -151,4 +151,3 @@
 #endif // #if VC6, VC7.0, Borland 5.x
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_PUSH_HPP_INCLUDED
-

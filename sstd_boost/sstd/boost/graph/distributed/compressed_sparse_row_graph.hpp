@@ -1985,4 +1985,3 @@ namespace serialization {
 } // end namespace boost
 
 #endif // BOOST_GRAPH_DISTRIBUTED_CSR_HPP
-

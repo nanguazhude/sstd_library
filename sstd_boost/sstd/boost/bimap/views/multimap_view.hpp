@@ -120,5 +120,3 @@ struct right_map_view_extra_typedefs< ::boost::bimaps::views::multimap_view<Tag,
 } // namespace boost
 
 #endif // BOOST_BIMAP_VIEWS_MAP_VIEW_HPP
-
-

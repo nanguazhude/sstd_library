@@ -699,4 +699,3 @@ struct graph_mutability_traits<DIRECTED_GRAPH> {
 } /* namespace boost */
 
 #endif
-

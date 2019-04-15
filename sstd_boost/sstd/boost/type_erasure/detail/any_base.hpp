@@ -29,4 +29,3 @@ struct any_base
 }
 
 #endif
-

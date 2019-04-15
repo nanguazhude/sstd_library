@@ -437,4 +437,3 @@ private:
 
 
 #endif  // BOOST_IO_IOS_STATE_HPP
-

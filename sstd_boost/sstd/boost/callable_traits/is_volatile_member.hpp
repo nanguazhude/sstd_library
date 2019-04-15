@@ -98,4 +98,3 @@ constexpr bool is_volatile_member_v = //see below
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_IS_VOLATILE_MEMBER_HPP
-

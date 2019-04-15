@@ -154,4 +154,3 @@ int BOOST_TEST_CALL_DECL main( int argc, char* argv[] )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_MINIMAL_HPP_071894GER
-

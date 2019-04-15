@@ -55,4 +55,3 @@ namespace boost { namespace spirit { namespace repository
 }}}
 
 #endif
-

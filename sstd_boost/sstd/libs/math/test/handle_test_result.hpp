@@ -217,5 +217,3 @@ void print_test_result(const boost::math::tools::test_result<T>& result,
 }
 
 #endif // BOOST_MATH_HANDLE_TEST_RESULT
-
-

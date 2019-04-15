@@ -152,5 +152,3 @@ inline unsigned int regex_grep(bool (*foo)(const match_results<std::basic_string
 } // namespace boost
 
 #endif  // BOOST_REGEX_V4_REGEX_GREP_HPP
-
-

@@ -163,4 +163,3 @@ struct mathematical_policy
 
 
 #endif // GEOMETRY_TEST_GEOMETRY_TEST_COMMON_HPP
-

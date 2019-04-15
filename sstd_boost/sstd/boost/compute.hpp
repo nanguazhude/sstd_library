@@ -42,4 +42,3 @@
 #endif
 
 #endif // BOOST_COMPUTE_HPP
-

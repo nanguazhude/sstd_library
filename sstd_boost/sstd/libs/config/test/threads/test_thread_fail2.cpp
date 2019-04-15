@@ -11,4 +11,3 @@
 // this should now be a compiler error:
 #include <sstd/boost/config/requires_threads.hpp>
 // we should never get here...
-

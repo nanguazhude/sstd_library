@@ -23,4 +23,3 @@ BOOST_ASIO_TEST_SUITE
   "completion_condition",
   BOOST_ASIO_TEST_CASE(null_test)
 )
-

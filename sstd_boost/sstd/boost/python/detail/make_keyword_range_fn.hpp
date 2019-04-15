@@ -70,4 +70,3 @@ object make_keyword_range_constructor(
 }}} // namespace boost::python::detail
 
 #endif // MAKE_KEYWORD_RANGE_FN_DWA2002927_HPP
-

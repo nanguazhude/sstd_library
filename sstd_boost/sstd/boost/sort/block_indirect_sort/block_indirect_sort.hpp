@@ -501,4 +501,3 @@ void block_indirect_sort (Iter_t first, Iter_t last, Compare comp,
 //****************************************************************************
 //
 #endif
-

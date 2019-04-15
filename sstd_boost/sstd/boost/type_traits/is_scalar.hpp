@@ -25,4 +25,3 @@ struct is_scalar
 } // namespace boost
 
 #endif // BOOST_TT_IS_SCALAR_HPP_INCLUDED
-

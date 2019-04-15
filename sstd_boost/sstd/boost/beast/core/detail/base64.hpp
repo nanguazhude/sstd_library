@@ -249,4 +249,3 @@ base64_decode(std::string const& data)
 } // boost
 
 #endif
-

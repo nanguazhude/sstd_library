@@ -121,4 +121,3 @@ int main()
 }
 
 #endif // #if defined( BOOST_NO_AUTO_PTR )
-

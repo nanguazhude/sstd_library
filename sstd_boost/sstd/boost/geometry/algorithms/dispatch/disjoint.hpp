@@ -91,4 +91,3 @@ struct disjoint<Geometry1, Geometry2, DimensionCount, Tag1, Tag2, true>
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DISPATCH_DISJOINT_HPP
-

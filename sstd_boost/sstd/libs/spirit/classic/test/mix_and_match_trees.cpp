@@ -80,4 +80,3 @@ int main()
     pt_parse(begin, end, my_grammar());
     ast_parse(begin, end, my_grammar());
 }
-

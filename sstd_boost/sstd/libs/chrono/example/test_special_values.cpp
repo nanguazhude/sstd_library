@@ -48,5 +48,3 @@ int main()
     test_special_values();
     return 0;
 }
-
-

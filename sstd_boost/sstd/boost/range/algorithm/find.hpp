@@ -78,4 +78,3 @@ find( const SinglePassRange& rng, const Value& val )
 }
 
 #endif // include guard
-

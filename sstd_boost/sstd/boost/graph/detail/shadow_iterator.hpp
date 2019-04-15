@@ -137,4 +137,3 @@ namespace std {
 }
 
 #endif // BOOST_SHADOW_ITERATOR_HPP
-

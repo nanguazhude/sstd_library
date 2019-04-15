@@ -32,4 +32,3 @@ BOOST_AUTO_TEST_CASE( bluetooth )
         BOOST_TEST(localAdapters.size() == 0);
     }
 }
-

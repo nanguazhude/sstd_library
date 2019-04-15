@@ -162,5 +162,3 @@ private:
 
 #endif // #include guard
 //]
-
-

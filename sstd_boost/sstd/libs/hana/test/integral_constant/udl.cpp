@@ -73,4 +73,3 @@ static_assert(123'456 == 123456, ""); // test the test
 BOOST_HANA_CONSTANT_CHECK(123'456_c == hana::llong_c<123456>);
 
 int main() { }
-

@@ -35,5 +35,3 @@ template class text_wiarchive_impl<text_wiarchive> ;
 } // namespace boost
 
 #endif // BOOST_NO_STD_WSTREAMBUF
-
-

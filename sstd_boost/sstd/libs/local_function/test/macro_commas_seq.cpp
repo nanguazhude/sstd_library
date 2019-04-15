@@ -41,5 +41,3 @@ int main(void) {
     f(m, sign);
     return 0;
 }
-
-

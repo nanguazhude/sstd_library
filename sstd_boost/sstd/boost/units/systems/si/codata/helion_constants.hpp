@@ -76,4 +76,3 @@ BOOST_UNITS_PHYSICAL_CONSTANT(gamma_h_prime,quantity<frequency_over_magnetic_flu
 } // namespace boost
 
 #endif // BOOST_UNITS_CODATA_HELION_CONSTANTS_HPP
-

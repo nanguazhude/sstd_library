@@ -232,4 +232,3 @@ inline bool named_sharable_mutex::remove(const char *name)
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_NAMED_SHARABLE_MUTEX_HPP
-

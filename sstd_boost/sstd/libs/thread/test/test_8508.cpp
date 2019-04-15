@@ -17,5 +17,3 @@ int main(void)
         t.join();
         return 0;
 }
-
-

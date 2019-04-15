@@ -32,4 +32,3 @@ int main()
   BOOST_TEST(!lk.owns_lock(&m2) == true);
   return boost::report_errors();
 }
-

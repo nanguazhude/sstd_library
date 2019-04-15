@@ -40,4 +40,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(popcount, T, popcount_test_types)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

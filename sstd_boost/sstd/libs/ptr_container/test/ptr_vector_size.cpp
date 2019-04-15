@@ -22,6 +22,3 @@ boost::ptr_vector<char>;
 
 template class
 boost::ptr_vector<char*>;
-
-
-

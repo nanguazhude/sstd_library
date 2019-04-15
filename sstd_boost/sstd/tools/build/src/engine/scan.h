@@ -68,4 +68,3 @@ void yyinput_last_read_token( OBJECT * * name, int * line );
 #define SCAN_CONDB   7  /* The beginning of a condition (ignores leading comparison operators, so that if <x> in $(y) works.)*/
 #define SCAN_ASSIGN  8  /* The list may be terminated by an assignment operator. */
 #define SCAN_XASSIGN 9  /* The next token might be an assignment, but to token afterwards cannot. */
-

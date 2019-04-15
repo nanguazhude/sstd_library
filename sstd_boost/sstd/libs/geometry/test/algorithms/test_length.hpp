@@ -97,4 +97,3 @@ void test_empty_input(Geometry const& geometry)
 }
 
 #endif
-

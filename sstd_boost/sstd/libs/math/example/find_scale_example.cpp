@@ -178,4 +178,3 @@ Normal distribution with mean = 0.946339 has fraction > -2 = 0.999
 ]
 */
 //] [/find_scale_example_output]
-

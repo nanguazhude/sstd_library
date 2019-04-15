@@ -39,4 +39,3 @@ inline InputIterator find_if(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_FIND_IF_HPP
-

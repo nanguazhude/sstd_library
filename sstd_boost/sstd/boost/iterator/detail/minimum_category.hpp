@@ -17,4 +17,3 @@ using iterators::minimum_category;
 } // namespace boost
 
 #endif // MINIMUM_CATEGORY_DWA20031119_HPP
-

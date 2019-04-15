@@ -32,4 +32,3 @@ struct incidence_list_graph {
 }
 
 #endif // BOOST_MSM_MPL_GRAPH_INCIDENCE_LIST_GRAPH_HPP_INCLUDED
-

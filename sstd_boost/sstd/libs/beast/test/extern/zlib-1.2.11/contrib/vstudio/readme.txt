@@ -76,4 +76,3 @@ info@winimage.com
 
 Visual Studio 2013 and 2015 Projects from Sean Hunt
 seandhunt_7@yahoo.com
-

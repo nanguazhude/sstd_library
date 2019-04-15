@@ -210,4 +210,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( controlled_stepper_test , ControlledStepper , all
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

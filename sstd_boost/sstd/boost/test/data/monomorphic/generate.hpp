@@ -108,5 +108,3 @@ struct is_dataset<generated_by<Generator>> : mpl::true_ {};
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_DATA_MONOMORPHIC_GENERATE_HPP_112011GER
-
-

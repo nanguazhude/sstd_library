@@ -46,7 +46,3 @@ BOOST_PYTHON_MODULE(nested_ext)
 
 
 #include "module_tail.cpp"
-
-
-
-

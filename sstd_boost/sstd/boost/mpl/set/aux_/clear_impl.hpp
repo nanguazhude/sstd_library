@@ -33,4 +33,3 @@ struct clear_impl< aux::set_tag >
 }}
 
 #endif // BOOST_MPL_SET_AUX_CLEAR_IMPL_HPP_INCLUDED
-

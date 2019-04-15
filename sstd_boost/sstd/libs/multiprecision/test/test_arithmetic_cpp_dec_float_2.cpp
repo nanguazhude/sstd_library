@@ -18,5 +18,3 @@ int main()
    test<boost::multiprecision::number<boost::multiprecision::cpp_dec_float<100, long long>, boost::multiprecision::et_off> >();
    return boost::report_errors();
 }
-
-

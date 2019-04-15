@@ -16,4 +16,3 @@ int main()
    d = std::comp_ellint_1(d);
    return d != 0 ? 0 : 1;
 }
-

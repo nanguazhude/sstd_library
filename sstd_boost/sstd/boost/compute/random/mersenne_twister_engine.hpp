@@ -252,4 +252,3 @@ typedef mersenne_twister_engine<uint_> mt19937;
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_RANDOM_MERSENNE_TWISTER_ENGINE_HPP
-

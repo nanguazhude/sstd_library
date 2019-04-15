@@ -63,4 +63,3 @@ void test()
     BOOST_RATIO_STATIC_ASSERT(R::num == 15519594064236LL && R::den == 5177331081415LL, NOTHING, ());
     }
 }
-

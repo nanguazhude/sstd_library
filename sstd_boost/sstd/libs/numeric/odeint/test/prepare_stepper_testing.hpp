@@ -72,4 +72,3 @@ namespace boost { namespace numeric { namespace odeint {
 } } }
 
 #endif /* PREPARE_STEPPER_TESTING_HPP_ */
-

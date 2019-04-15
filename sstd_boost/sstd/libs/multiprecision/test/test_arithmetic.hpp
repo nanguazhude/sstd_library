@@ -3012,4 +3012,3 @@ void test()
    BOOST_CHECK_EQUAL(a, 8);
 #endif
 }
-

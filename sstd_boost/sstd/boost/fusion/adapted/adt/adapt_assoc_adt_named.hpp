@@ -27,4 +27,3 @@
         WRAPPED_TYPE,(boost)(fusion)(adapted),NAME,ATTRIBUTES)
 
 #endif
-

@@ -45,4 +45,3 @@ Output:
   quantile(complement(dist_type(20, 0.3), 0.05)) 68
 
 */
-

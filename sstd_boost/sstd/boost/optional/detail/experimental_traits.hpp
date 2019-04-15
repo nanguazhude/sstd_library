@@ -102,4 +102,3 @@ struct optional_uses_direct_storage_for_
 }} // boost::optional_detail
 
 #endif
-

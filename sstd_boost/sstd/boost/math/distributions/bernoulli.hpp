@@ -331,7 +331,3 @@ namespace boost
 #include <sstd/boost/math/distributions/detail/derived_accessors.hpp>
 
 #endif // BOOST_MATH_SPECIAL_BERNOULLI_HPP
-
-
-
-

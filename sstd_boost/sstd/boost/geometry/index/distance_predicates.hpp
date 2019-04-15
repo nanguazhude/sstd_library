@@ -202,4 +202,3 @@ points are further than some distance and closer than some other distance.
 }}} // namespace boost::geometry::index
 
 #endif // BOOST_GEOMETRY_INDEX_DISTANCE_PREDICATES_HPP
-

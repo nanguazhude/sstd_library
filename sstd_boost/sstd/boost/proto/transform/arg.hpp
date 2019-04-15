@@ -357,4 +357,3 @@ namespace boost { namespace proto
 }}
 
 #endif
-

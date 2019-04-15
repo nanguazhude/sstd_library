@@ -4,4 +4,3 @@ Distributed under the Boost Software License, Version 1.0.
 
 
 This test checks for correct properties of generated and used targets.
-

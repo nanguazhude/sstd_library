@@ -31,4 +31,3 @@
 #endif
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_FSTREAM_HPP_INCLUDED
-

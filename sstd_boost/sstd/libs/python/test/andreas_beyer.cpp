@@ -59,4 +59,3 @@ BOOST_PYTHON_MODULE(andreas_beyer_ext) {
      .def("get", get_b_a)
   ;
 }
-

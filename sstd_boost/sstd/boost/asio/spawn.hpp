@@ -336,4 +336,3 @@ void spawn(ExecutionContext& ctx,
 #include <sstd/boost/asio/impl/spawn.hpp>
 
 #endif // BOOST_ASIO_SPAWN_HPP
-

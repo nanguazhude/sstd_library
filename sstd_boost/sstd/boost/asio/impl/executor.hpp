@@ -386,4 +386,3 @@ const Executor* executor::target() const BOOST_ASIO_NOEXCEPT
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IMPL_EXECUTOR_HPP
-

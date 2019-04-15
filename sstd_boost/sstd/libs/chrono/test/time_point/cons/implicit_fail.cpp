@@ -21,4 +21,3 @@ void test()
     typedef boost::chrono::milliseconds Duration;
     boost::chrono::time_point<Clock, Duration> t = Duration(3);
 }
-

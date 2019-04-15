@@ -53,4 +53,3 @@ struct coordinate_cast
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_UTIL_COORDINATE_CAST_HPP
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 ** $Id: lobject.h,v 2.117.1.1 2017/04/19 17:39:34 roberto Exp $
 ** Type definitions for Lua objects
 ** See Copyright Notice in lua.h
@@ -546,4 +546,3 @@ LUAI_FUNC void luaO_chunkid (char *out, const char *source, size_t len);
 
 
 #endif
-

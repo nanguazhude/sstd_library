@@ -17,4 +17,3 @@ add_executable (http-client-sync
 )
 
 set_property(TARGET http-client-sync PROPERTY FOLDER "example-http-client")
-

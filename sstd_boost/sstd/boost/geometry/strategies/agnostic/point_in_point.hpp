@@ -83,4 +83,3 @@ struct default_strategy<PointLike1, PointLike2, Tag1, Tag2, pointlike_tag, point
 
 
 #endif // BOOST_GEOMETRY_STRATEGY_AGNOSTIC_POINT_IN_POINT_HPP
-

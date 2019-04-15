@@ -124,4 +124,3 @@ inline bool lexicographical_compare(InputIterator1 first1,
 
 } // end compute namespace
 } // end boost namespac
-

@@ -119,4 +119,3 @@ struct nonhook_node_member_value_traits
 }
 
 #endif
-

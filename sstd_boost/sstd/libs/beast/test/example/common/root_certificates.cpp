@@ -13,5 +13,3 @@
 #include "example/common/root_certificates.hpp"
 
 #endif
-
-

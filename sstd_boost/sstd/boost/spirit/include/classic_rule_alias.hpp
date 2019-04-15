@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_RULE_ALIAS
 #include <sstd/boost/spirit/home/classic/dynamic/rule_alias.hpp>
 #endif
-

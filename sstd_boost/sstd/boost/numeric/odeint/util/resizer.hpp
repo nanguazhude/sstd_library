@@ -91,4 +91,3 @@ struct never_resizer
 }
 
 #endif // BOOST_NUMERIC_ODEINT_UTIL_RESIZER_HPP_INCLUDED
-

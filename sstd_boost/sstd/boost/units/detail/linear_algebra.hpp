@@ -1058,4 +1058,3 @@ struct calculate_base_unit_exponents {
 } // namespace boost
 
 #endif
-

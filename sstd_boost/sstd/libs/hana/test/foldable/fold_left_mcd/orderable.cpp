@@ -5,4 +5,3 @@
 #define BOOST_HANA_TEST_FOLDABLE_FOLD_LEFT_MCD
 #define BOOST_HANA_TEST_ORDERABLE
 #include <laws/templates/seq.hpp>
-

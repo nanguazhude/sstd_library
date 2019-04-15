@@ -218,7 +218,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::has_nothrow_constructor<noexcept_default_con
 #endif
 
 TT_TEST_END
-
-
-
-

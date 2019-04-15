@@ -22,4 +22,3 @@ struct set_tag;
 }}}
 
 #endif // BOOST_MPL_SET_AUX_TAG_HPP_INCLUDED
-

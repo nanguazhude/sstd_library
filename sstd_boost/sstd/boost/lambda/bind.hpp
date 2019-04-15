@@ -17,4 +17,3 @@
 #include "sstd/boost/lambda/detail/bind_functions.hpp"
 
 #endif
-

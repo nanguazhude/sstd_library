@@ -113,4 +113,3 @@ main()
     construct_string_from<functor_multi_pass_t>();
     return boost::report_errors();
 }
-

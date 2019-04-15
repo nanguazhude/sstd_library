@@ -21,4 +21,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::union_(xs, ys) == hana::make_set(
 ));
 
 int main() { }
-

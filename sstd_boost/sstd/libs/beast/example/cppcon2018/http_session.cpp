@@ -347,4 +347,3 @@ on_write(error_code ec, std::size_t, bool close)
             std::placeholders::_1,
             std::placeholders::_2));
 }
-

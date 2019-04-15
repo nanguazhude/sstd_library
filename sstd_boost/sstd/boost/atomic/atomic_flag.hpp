@@ -31,4 +31,3 @@ using atomics::atomic_flag;
 } // namespace boost
 
 #endif // BOOST_ATOMIC_ATOMIC_FLAG_HPP_INCLUDED_
-

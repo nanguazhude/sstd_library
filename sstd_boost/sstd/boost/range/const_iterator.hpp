@@ -74,4 +74,3 @@ struct range_const_iterator
 
 
 #endif
-

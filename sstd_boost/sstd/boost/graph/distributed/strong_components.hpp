@@ -980,4 +980,3 @@ strong_components
 } /* end namespace boost */
 
 #endif // BOOST_GRAPH_DISTRIBUTED_SCC_HPP
-

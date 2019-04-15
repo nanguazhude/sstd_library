@@ -171,4 +171,3 @@ struct vector30_c
 };
 
 }}
-

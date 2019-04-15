@@ -342,5 +342,3 @@ int cpp_main(int argc, char* argv[])
    write_build_check_jamfile();
    return 0;
 }
-
-

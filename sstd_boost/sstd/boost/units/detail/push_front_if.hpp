@@ -46,4 +46,3 @@ struct push_front_if<false> {
 }
 
 #endif
-

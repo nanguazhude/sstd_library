@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_OPERATORS
 #include <sstd/boost/spirit/home/classic/core/composite/operators.hpp>
 #endif
-

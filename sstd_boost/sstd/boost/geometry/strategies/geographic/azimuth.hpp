@@ -148,4 +148,3 @@ struct default_strategy<geographic_tag, CalculationType>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_GEOGRAPHIC_AZIMUTH_HPP
-

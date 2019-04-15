@@ -48,4 +48,3 @@ const iterator_range<mock_iterator<TraversalTag> >&
 } // namespace boost
 
 #endif // include guard
-

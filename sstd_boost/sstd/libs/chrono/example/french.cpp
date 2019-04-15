@@ -128,4 +128,3 @@ int main()
     cout << hours(0) << ", " << minutes(0) << ", " << s << " et " << ms << '\n';
     return 0;
 }
-

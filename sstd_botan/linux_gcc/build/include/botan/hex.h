@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Hex Encoding and Decoding
 * (C) 2010 Jack Lloyd
 *

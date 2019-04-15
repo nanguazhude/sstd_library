@@ -14,4 +14,3 @@ int main(int, char*[])
 
   return i; // expect to see: error: no viable conversion from returned value of type 'boost::logic::tribool' to function return type 'int'
 }
-

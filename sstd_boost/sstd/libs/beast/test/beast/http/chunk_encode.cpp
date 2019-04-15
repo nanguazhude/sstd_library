@@ -296,4 +296,3 @@ BEAST_DEFINE_TESTSUITE(beast,http,chunk_encode);
 } // http
 } // beast
 } // boost
-

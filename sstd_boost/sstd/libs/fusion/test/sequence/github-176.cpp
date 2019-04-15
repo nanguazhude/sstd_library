@@ -88,4 +88,3 @@ int main()
     test_at_key<map<pair<int[3], int[3]> > >();
     return boost::report_errors();
 }
-

@@ -436,4 +436,3 @@ BOOST_SPIRIT_DEFINE_CHAR_CODES(unicode)
 #endif
 
 #endif
-

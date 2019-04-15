@@ -16,6 +16,3 @@ int main()
   test_modifiers();
   return boost::report_errors();
 }
-
-
-

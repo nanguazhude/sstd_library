@@ -196,4 +196,3 @@ random( Params const& params )
 
 
 #endif // BOOST_TEST_DATA_MONOMORPHIC_GENERATORS_RANDOM_HPP_101512GER
-

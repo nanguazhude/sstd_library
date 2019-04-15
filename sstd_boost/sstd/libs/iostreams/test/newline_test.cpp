@@ -484,4 +484,3 @@ test_suite* init_unit_test_suite(int, char* [])
     test->add(BOOST_TEST_CASE(&write_newline_checker));
     return test;
 }
-

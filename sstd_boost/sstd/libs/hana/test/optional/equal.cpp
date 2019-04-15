@@ -28,4 +28,3 @@ int main() {
     BOOST_HANA_CONSTANT_CHECK(hana::just(x) != hana::nothing);
     BOOST_HANA_CONSTANT_CHECK(hana::nothing != hana::just(x));
 }
-

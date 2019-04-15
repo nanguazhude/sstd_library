@@ -21,4 +21,3 @@ void compile_and_link_test()
     double b = 1;
     check_result<double>(boost::math::quadrature::trapezoidal(func, a, b));
 }
-

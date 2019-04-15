@@ -94,5 +94,3 @@ typedef mpl::_ _relation;
 
 
 #endif // BOOST_BIMAP_DETAIL_CONCEPT_TAGS_HPP
-
-

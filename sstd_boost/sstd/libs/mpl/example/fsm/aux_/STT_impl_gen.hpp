@@ -143,4 +143,3 @@ struct STT_impl_gen
 }}
 
 #endif // BOOST_FSM_HANDLER_INCLUDED
-

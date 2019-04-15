@@ -299,4 +299,3 @@ ndarray from_object(python::object const & obj, int nd_min, int nd_max, ndarray:
 }
 
 }}} // namespace boost::python::numpy
-

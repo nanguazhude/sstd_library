@@ -15,4 +15,3 @@ static_assert(!hana::is_convertible<Person, Employee>{}, "");
 static_assert(hana::is_convertible<int, float>{}, "");
 
 int main() { }
-

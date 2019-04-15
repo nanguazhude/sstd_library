@@ -22,4 +22,3 @@ MPL_TEST_CASE()
     MPL_ASSERT(( contains< types,short > ));
     MPL_ASSERT_NOT(( contains< types,unsigned > ));
 }
-

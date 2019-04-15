@@ -48,4 +48,3 @@ struct segment_mutable_traits {
 }  // boost
 
 #endif  // BOOST_POLYGON_SEGMENT_TRAITS_HPP
-

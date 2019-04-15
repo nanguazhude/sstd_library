@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_SEQUENTIAL_OR
 #include <sstd/boost/spirit/home/classic/core/composite/sequential_or.hpp>
 #endif
-

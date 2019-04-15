@@ -254,4 +254,3 @@ struct hook_defaults
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTRUSIVE_OPTIONS_HPP
-

@@ -85,4 +85,3 @@ void test_pow() {
     check_same(pow<static_rational<2, 3> >(length_constant), pow<static_rational<2, 3> >(unwrap(length_constant)));
     check_same(root<static_rational<2, 3> >(length_constant), root<static_rational<2, 3> >(unwrap(length_constant)));
 }
-

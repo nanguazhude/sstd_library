@@ -102,4 +102,3 @@ struct point_in_box_by_side
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_AGNOSTIC_POINT_IN_BOX_BY_SIDE_HPP
-

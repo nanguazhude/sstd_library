@@ -120,4 +120,3 @@ template<class T, class U> std::unique_ptr<T> reinterpret_pointer_cast( std::uni
 #endif // #if !defined( BOOST_NO_CXX11_SMART_PTR )
 
 #endif   //BOOST_POINTER_CAST_HPP
-

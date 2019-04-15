@@ -35,4 +35,3 @@ static std::string multipoly_data[] = {
 };
 
 #endif // PERIMETER_POLYGON_CASES_HPP
-

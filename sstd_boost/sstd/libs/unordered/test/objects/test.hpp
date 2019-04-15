@@ -698,4 +698,3 @@ namespace test {
 }
 
 #endif
-

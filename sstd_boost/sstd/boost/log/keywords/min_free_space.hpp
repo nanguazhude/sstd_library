@@ -38,4 +38,3 @@ BOOST_LOG_CLOSE_NAMESPACE // namespace log
 } // namespace boost
 
 #endif // BOOST_LOG_KEYWORDS_MIN_FREE_SPACE_HPP_INCLUDED_
-

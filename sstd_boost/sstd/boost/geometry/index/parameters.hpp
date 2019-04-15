@@ -256,4 +256,3 @@ private:
 }}} // namespace boost::geometry::index
 
 #endif // BOOST_GEOMETRY_INDEX_PARAMETERS_HPP
-

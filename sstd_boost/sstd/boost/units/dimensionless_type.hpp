@@ -53,4 +53,3 @@ BOOST_TYPEOF_REGISTER_TYPE(boost::units::dimensionless_type)
 #endif
 
 #endif // BOOST_UNITS_DIMENSIONLESS_TYPE_HPP
-

@@ -53,4 +53,3 @@
     >::type name = ParameterSpec ()
 
 #endif // BOOST_PARAMETER_MATCH_DWA2005714_HPP
-

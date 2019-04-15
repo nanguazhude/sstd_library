@@ -16,4 +16,3 @@ int main()
    l2 += f2 + boost::low_bits_mask_t<12>::bit_count;
    (void)l2;
 }
-

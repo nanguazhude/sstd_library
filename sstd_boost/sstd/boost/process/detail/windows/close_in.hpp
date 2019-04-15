@@ -29,4 +29,3 @@ struct close_in : public ::boost::process::detail::handler_base
 }}}}
 
 #endif
-

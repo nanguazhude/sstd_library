@@ -97,4 +97,3 @@ BOOST_AUTO_TEST_CASE(test_relaxed)
 
     BOOST_CONCEPT_ASSERT((boost::ForwardIterator<any<test_concept> >));
 }
-

@@ -10,4 +10,3 @@ int main()
 {
 	newlocale(LC_ALL_MASK,"",0);
 }
-

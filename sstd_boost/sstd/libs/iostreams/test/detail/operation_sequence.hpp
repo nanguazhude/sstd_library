@@ -222,4 +222,3 @@ inline void operation_sequence::remove_operation(int id)
 } } } // End namespace boost::iostreams::test.
 
 #endif // #ifndef BOOST_IOSTREAMS_TEST_OPERATION_SEQUENCE_HPP_INCLUDED
-

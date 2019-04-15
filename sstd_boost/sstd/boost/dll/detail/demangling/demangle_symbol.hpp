@@ -107,4 +107,3 @@ using ::boost::dll::detail::demangle_symbol;
 #endif
 
 #endif /* BOOST_DEMANGLE_HPP_ */
-

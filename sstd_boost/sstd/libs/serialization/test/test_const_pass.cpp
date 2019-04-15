@@ -51,5 +51,3 @@ void f5(boost::archive::text_oarchive & oa, const A * & a){
     oa << BOOST_SERIALIZATION_NVP(a);
 }
 #endif
-
-

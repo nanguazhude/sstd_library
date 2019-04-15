@@ -186,4 +186,3 @@ inline void interprocess_mutex::unlock()
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_MUTEX_HPP
-

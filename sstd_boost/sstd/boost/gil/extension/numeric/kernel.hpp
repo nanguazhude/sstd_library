@@ -91,4 +91,3 @@ inline Kernel reverse_kernel(const Kernel& kernel) {
 }} // namespace boost::gil
 
 #endif
-

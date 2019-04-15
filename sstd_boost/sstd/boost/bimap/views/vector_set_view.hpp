@@ -310,5 +310,3 @@ class vector_set_view
 
 
 #endif // BOOST_BIMAP_VIEWS_VECTOR_SET_VIEW_HPP
-
-

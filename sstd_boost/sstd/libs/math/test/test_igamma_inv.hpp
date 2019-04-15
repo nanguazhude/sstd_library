@@ -230,5 +230,3 @@ void test_spots(T, const char* type_name)
    BOOST_CHECK_CLOSE(::boost::math::gamma_q_inv(static_cast<T>(10000), static_cast<T>(1.0/2)), static_cast<T>(9999.6666686420474237369661574633153551436435884101L), tolerance);
    BOOST_CHECK_CLOSE(::boost::math::gamma_q_inv(static_cast<T>(10000), static_cast<T>(1.0-1.0/128)), static_cast<T>(9759.8597223369324083191194574874497413261589080204L), tolerance);
 }
-
-

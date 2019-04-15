@@ -315,5 +315,3 @@ int main()
 }
 
 #endif
-
-

@@ -282,4 +282,3 @@ namespace boost { namespace xpressive { namespace detail
 }}} // namespace boost::xpressive::detail
 
 #endif
-

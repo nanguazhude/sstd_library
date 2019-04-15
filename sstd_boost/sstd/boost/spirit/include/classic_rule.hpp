@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_RULE
 #include <sstd/boost/spirit/home/classic/core/non_terminal/rule.hpp>
 #endif
-

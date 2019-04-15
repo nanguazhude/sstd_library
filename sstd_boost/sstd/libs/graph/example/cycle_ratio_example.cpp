@@ -80,5 +80,3 @@ int main(int argc, char* argv[])
     assert(std::abs(cr.first / cr.second - min_cr) < epsilon);
     return EXIT_SUCCESS;
 }
-
-

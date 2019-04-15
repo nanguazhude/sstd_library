@@ -747,4 +747,3 @@ operator+( std::basic_string<CharT1> const& lhs, basic_cstring<CharT2> const& rh
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_UTILS_BASIC_CSTRING_HPP
-

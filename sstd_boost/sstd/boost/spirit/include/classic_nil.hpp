@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_NIL
 #include <sstd/boost/spirit/home/classic/core/nil.hpp>
 #endif
-

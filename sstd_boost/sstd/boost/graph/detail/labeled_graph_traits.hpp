@@ -235,4 +235,3 @@ struct graph_mutability_traits< LABELED_GRAPH > {
 } // namespace boost
 
 #endif
-

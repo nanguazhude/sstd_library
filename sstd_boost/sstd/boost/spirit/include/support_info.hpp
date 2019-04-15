@@ -15,4 +15,3 @@
 #include <sstd/boost/spirit/home/support/info.hpp>
 
 #endif
-

@@ -24,4 +24,3 @@
 #include <sstd/boost/geometry/algorithms/detail/expand/implementation.hpp>
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_EXPAND_HPP
-

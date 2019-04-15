@@ -34,4 +34,3 @@ int main()
    boost::uint_value_t<2000>::least v6 = 0;
    (void)v6;
 }
-

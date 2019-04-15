@@ -258,5 +258,3 @@ void successive_shortest_path_nonnegative_weights(
 
 }//boost
 #endif /* BOOST_GRAPH_SUCCESSIVE_SHORTEST_PATH_HPP */
-
-

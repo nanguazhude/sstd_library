@@ -26,4 +26,3 @@
 #endif
 
 #endif  // BOOST_STRING_CONFIG_HPP
-

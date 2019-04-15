@@ -167,5 +167,3 @@ int main(void) {
     s().f();
     return 0;
 }
-
-

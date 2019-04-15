@@ -137,4 +137,3 @@ BOOST_TYPEOF_REGISTER_TEMPLATE(boost::proto::list20, 20)
 #define BOOST_PROTO_AUTO_TPL(Var, Expr) BOOST_AUTO_TPL(Var, boost::proto::deep_copy(Expr))
 
 #endif
-

@@ -79,4 +79,3 @@ namespace std {
 } // End namespace std.
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_CONFIG_CODECVT_HPP_INCLUDED
-

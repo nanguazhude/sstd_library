@@ -1615,4 +1615,3 @@ BOOST_AUTO_TEST_CASE( test_intersection_ml_ml_spikes )
          "mlmli-spikes-19"
          );
 }
-

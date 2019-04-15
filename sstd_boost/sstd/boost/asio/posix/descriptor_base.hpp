@@ -90,4 +90,3 @@ protected:
        //   || defined(GENERATING_DOCUMENTATION)
 
 #endif // BOOST_ASIO_POSIX_DESCRIPTOR_BASE_HPP
-

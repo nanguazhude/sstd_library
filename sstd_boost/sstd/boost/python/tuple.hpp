@@ -67,5 +67,3 @@ inline tuple make_tuple() { return tuple(); }
 }}  // namespace boost::python
 
 #endif
-
-

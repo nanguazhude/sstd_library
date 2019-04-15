@@ -131,4 +131,3 @@ BOOST_AUTO_TEST_CASE( read_reference_images_image_iterator_test )
 #endif // BOOST_GIL_IO_TEST_ALLOW_READING_IMAGES
 
 BOOST_AUTO_TEST_SUITE_END()
-

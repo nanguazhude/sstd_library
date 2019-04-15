@@ -75,4 +75,3 @@
         BOOST_PROTO_USE_GET_POINTER();
         return (BOOST_PROTO_GET_POINTER(V, obj) ->* pmf)(a0 , a1 , a2 , a3 , a4 , a5 , a6 , a7 , a8 , a9);
     }
-

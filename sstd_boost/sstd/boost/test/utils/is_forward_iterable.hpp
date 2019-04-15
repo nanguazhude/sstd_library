@@ -265,4 +265,3 @@ struct bt_iterator_traits< T [N], true > {
 } // namespace boost
 
 #endif // BOOST_TEST_UTILS_IS_FORWARD_ITERABLE_HPP
-

@@ -158,4 +158,3 @@ TestCase test_drop_front_exactly{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_DROP_FRONT_HPP
-

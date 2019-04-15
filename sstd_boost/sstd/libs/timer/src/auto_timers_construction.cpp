@@ -44,4 +44,3 @@ namespace boost
 
   } // namespace timer
 } // namespace boost
-

@@ -35,4 +35,3 @@ int main()
         threads.create_thread(&thread_proc);
     threads.join_all();
 }
-

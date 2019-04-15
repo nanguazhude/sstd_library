@@ -119,4 +119,3 @@ int main()
    test_stored_size_type<unsigned short>();
    return ::boost::report_errors();
 }
-

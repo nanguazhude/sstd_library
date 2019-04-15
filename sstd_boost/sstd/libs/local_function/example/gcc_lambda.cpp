@@ -33,5 +33,3 @@ int main(void) {
 }
 
 #endif // GCC
-
-

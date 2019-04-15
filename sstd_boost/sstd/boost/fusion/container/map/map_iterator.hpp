@@ -173,4 +173,3 @@ namespace std
 #endif
 
 #endif
-

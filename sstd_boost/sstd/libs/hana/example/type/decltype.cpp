@@ -18,4 +18,3 @@ static int const& i = 1;
 BOOST_HANA_CONSTANT_CHECK(hana::decltype_(i) == hana::type_c<int const>);
 
 int main() { }
-

@@ -251,5 +251,3 @@ lexem const lexems[] =
     { "?", boost::wave::T_QUESTION_MARK },
     { NULL, boost::wave::token_id(0) }
 };
-
-

@@ -199,5 +199,3 @@ int main() {
     assert(l.str() == "abc\nx\n10\n\t20\n");
     return 0;
 }
-
-

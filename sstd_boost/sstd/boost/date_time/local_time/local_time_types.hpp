@@ -50,4 +50,3 @@ namespace local_time {
 }} // namespaces
 
 #endif // LOCAL_TIME_LOCAL_TIME_TYPES_HPP__
-

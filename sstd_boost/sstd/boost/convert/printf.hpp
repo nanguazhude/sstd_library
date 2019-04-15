@@ -85,4 +85,3 @@ struct boost::cnv::printf : boost::cnv::cnvbase<boost::cnv::printf>
 };
 
 #endif // BOOST_CONVERT_PRINTF_HPP
-

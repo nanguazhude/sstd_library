@@ -24,5 +24,3 @@ BOOST_AUTO_TEST_CASE(test_empty_string)
   // test_value
   BOOST_REQUIRE_EQUAL(string(), empty_string<>::value);
 }
-
-

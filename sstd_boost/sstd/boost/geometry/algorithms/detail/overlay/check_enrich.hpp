@@ -166,4 +166,3 @@ inline bool check_graph(TurnPoints& turn_points, operation_type for_operation)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_CHECK_ENRICH_HPP
-

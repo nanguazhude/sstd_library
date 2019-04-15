@@ -69,4 +69,3 @@ inline mp_t relative_error(mp_t a, mp_t b)
 
 
 #endif // BOOST_MATH_TOOLS_MP_T
-

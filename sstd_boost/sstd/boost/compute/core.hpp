@@ -30,4 +30,3 @@
 #include <sstd/boost/compute/version.hpp>
 
 #endif // BOOST_COMPUTE_CORE_HPP
-

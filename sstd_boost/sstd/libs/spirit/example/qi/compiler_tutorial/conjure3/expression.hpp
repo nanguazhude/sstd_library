@@ -55,6 +55,3 @@ namespace client { namespace parser
 }}
 
 #endif
-
-
-

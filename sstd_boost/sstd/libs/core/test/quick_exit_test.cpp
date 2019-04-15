@@ -15,4 +15,3 @@ int main()
     boost::quick_exit( 0 );
     return 1;
 }
-

@@ -16,5 +16,3 @@ int main()
   test_safe_mode();
   return boost::report_errors();
 }
-
-

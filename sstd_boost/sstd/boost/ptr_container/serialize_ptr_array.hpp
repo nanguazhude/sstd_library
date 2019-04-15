@@ -45,4 +45,3 @@ void serialize(Archive& ar, ptr_array<T, N, CloneAllocator>& c, const unsigned i
 } // namespace boost
 
 #endif
-

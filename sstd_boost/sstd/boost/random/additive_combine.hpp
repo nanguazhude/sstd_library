@@ -281,4 +281,3 @@ using random::ecuyer1988;
 } // namespace boost
 
 #endif // BOOST_RANDOM_ADDITIVE_COMBINE_HPP
-

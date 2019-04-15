@@ -140,4 +140,3 @@ struct is_nullary< custom_terminal< boost::log::expressions::aux::unary_function
 #include <sstd/boost/log/detail/footer.hpp>
 
 #endif // BOOST_LOG_DETAIL_UNARY_FUNCTION_TERMINAL_HPP_INCLUDED_
-

@@ -23,5 +23,3 @@
 - \subpage special_thanks
 
 */
-
-

@@ -764,4 +764,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_SEQUENCE_COMMON_HPP */
-

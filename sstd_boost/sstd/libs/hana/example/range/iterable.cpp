@@ -22,4 +22,3 @@ BOOST_HANA_CONSTANT_CHECK(!hana::is_empty(r));
 BOOST_HANA_CONSTANT_CHECK(hana::is_empty(hana::make_range(hana::int_c<3>, hana::int_c<3>)));
 
 int main() { }
-

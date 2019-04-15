@@ -31,4 +31,3 @@ struct lorenz
 
 
 #endif /* LORENZ_HPP_ */
-

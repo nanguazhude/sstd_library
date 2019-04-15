@@ -126,4 +126,3 @@ MPL_TEST_CASE()
 
     MPL_ASSERT_RELATION( res::value, ==, 5 );
 }
-

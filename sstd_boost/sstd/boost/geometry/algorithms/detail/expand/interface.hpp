@@ -197,4 +197,3 @@ inline void expand(Box& box, Geometry const& geometry)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_EXPAND_INTERFACE_HPP
-

@@ -114,4 +114,3 @@ struct deduce_cstring {
 } // namespace boost
 
 #endif // BOOST_TEST_UTILS_IS_CSTRING_HPP
-

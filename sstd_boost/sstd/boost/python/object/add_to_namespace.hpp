@@ -21,4 +21,3 @@ BOOST_PYTHON_DECL void add_to_namespace(
 }}} // namespace boost::python::objects
 
 #endif // ADD_TO_NAMESPACE_DWA200286_HPP
-

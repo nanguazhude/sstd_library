@@ -467,4 +467,3 @@ bool test_list_methods_with_initializer_list_as_argument_for()
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif
-

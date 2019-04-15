@@ -53,4 +53,3 @@ bool is_sorted_and_unique(ForwardIt first, ForwardIt last, Pred pred)
 }  //namespace boost {
 
 #endif   //BOOST_MOVE_DETAIL_IS_SORTED_HPP
-

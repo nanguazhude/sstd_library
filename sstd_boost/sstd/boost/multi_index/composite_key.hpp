@@ -1511,4 +1511,3 @@ struct hash<boost::multi_index::composite_key_result<CompositeKey> >:
 #undef BOOST_MULTI_INDEX_COMPOSITE_KEY_SIZE
 
 #endif
-

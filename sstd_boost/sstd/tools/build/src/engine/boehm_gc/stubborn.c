@@ -56,4 +56,3 @@ void GC_change_stubborn(void *p)
 }
 
 #endif /* !MANUAL_VDB */
-

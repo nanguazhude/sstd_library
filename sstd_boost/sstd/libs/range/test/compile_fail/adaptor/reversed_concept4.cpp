@@ -20,5 +20,3 @@ int main(int, const char**)
     return boost::adaptors::reverse(
         mock_const_range<boost::forward_traversal_tag>()).front();
 }
-
-

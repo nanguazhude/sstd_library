@@ -21,12 +21,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_stateless<test_abc1>::value, false);
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

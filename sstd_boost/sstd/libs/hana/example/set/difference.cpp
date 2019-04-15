@@ -18,4 +18,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::difference(xs, ys) == hana::make_set(hana::int_c
 BOOST_HANA_CONSTANT_CHECK(hana::difference(ys, xs) == hana::make_set(hana::type_c<void>));
 
 int main() { }
-

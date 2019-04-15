@@ -338,4 +338,3 @@ template<> BOOST_MPI_DECL group group::exclude(int* first, int* last);
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_GROUP_HPP
-

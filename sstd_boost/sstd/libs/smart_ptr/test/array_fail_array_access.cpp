@@ -21,4 +21,3 @@ int main()
     boost::shared_ptr<X> px( new X );
     f( px[ 0 ] );
 }
-

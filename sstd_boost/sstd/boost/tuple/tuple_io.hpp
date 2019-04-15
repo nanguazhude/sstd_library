@@ -337,4 +337,3 @@ operator>>(std::basic_istream<CharType, CharTrait>& is, cons<T1, T2>& t1) {
 } // end of namespace boost
 
 #endif // BOOST_TUPLE_IO_HPP
-

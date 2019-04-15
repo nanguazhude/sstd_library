@@ -75,4 +75,3 @@ namespace boost {
 } // end namespace boost
 
 #endif // BOOST_SIGNALS2_SIGNALS_COMMON_HPP
-

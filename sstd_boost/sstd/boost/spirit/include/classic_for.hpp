@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_FOR
 #include <sstd/boost/spirit/home/classic/dynamic/for.hpp>
 #endif
-

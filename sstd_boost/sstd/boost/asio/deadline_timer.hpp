@@ -38,4 +38,3 @@ typedef basic_deadline_timer<boost::posix_time::ptime> deadline_timer;
        // || defined(GENERATING_DOCUMENTATION)
 
 #endif // BOOST_ASIO_DEADLINE_TIMER_HPP
-

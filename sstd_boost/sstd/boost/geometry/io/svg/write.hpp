@@ -416,4 +416,3 @@ inline svg_manipulator<Geometry> svg(Geometry const& geometry,
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_IO_SVG_WRITE_HPP
-

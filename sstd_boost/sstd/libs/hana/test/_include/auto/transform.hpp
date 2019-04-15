@@ -72,4 +72,3 @@ TestCase test_transform{[] {
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_TRANSFORM_HPP
-

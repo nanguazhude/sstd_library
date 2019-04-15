@@ -165,5 +165,3 @@ namespace boost { namespace date_time {
 } } //namespace
 
 #endif // DATE_TIME_SPECIAL_VALUES_PARSER_HPP__
-
-

@@ -81,4 +81,3 @@ inline void save_collection(Archive & ar, const Container &s)
 } // namespace boost
 
 #endif //BOOST_SERIALIZATION_COLLECTIONS_SAVE_IMP_HPP
-

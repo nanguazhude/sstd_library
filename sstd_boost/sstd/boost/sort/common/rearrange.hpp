@@ -166,4 +166,3 @@ void rearrange(Iter_data global_first, Iter_index itx_first,
 //****************************************************************************
 //
 #endif
-

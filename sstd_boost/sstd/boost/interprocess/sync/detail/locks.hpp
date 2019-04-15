@@ -99,4 +99,3 @@ class lock_to_wait
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_DETAIL_LOCKS_HPP
-

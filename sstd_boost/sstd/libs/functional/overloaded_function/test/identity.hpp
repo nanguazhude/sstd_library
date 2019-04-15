@@ -26,5 +26,3 @@ boost::function<double (double)> identity_d = identity_d_impl; // Functor.
 //]
 
 #endif // #include guard
-
-

@@ -10,4 +10,3 @@
 
 // deprecated, use <sstd/boost/compute/image/image_format.hpp> instead
 #include <sstd/boost/compute/image/image_format.hpp>
-

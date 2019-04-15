@@ -43,5 +43,3 @@
             bind_this_traits)(/* expand EMPTY */)
 
 #endif // #include guard
-
-

@@ -204,4 +204,3 @@ typedef struct bi {
 /* h.  Assumes hhdr == HDR(h) and IS_FORWARDING_ADDR(hhdr).		*/
 # define FORWARDED_ADDR(h, hhdr) ((struct hblk *)(h) - (size_t)(hhdr))
 # endif /*  GC_HEADERS_H */
-

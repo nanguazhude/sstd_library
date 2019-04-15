@@ -32,4 +32,3 @@ class array;
 #endif // defined(BOOST_ASIO_HAS_STD_ARRAY)
 
 #endif // BOOST_ASIO_DETAIL_ARRAY_FWD_HPP
-

@@ -10,5 +10,3 @@
 #define BOOST_TYPEOF_EMULATION
 #include <sstd/boost/spirit/include/classic_typeof.hpp>
 #include <sstd/boost/spirit/include/classic_error_handling.hpp>
-
-

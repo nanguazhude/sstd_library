@@ -558,4 +558,3 @@ namespace boost {
 
 
 #endif // BOOST_FILTERED_GRAPH_HPP
-

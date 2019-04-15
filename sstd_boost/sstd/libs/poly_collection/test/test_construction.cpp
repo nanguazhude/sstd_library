@@ -261,4 +261,3 @@ void test_construction()
     function_types::t4,function_types::t5>();
   test_scoped_allocator();
 }
-

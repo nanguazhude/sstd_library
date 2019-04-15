@@ -43,5 +43,3 @@ boost::lambda::placeholder1_type & _data = boost::lambda::_1;
 
 
 #endif // BOOST_BIMAP_SUPPORT_LAMBDA_HPP
-
-

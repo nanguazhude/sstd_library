@@ -5,4 +5,3 @@
 
 #include <sstd/boost/exception/diagnostic_information.hpp>
 #include <sstd/boost/exception/diagnostic_information.hpp>
-

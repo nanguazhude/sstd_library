@@ -390,4 +390,3 @@ namespace boost { namespace spirit { namespace detail
 #undef BOOST_SPIRIT_ASSERT_FSQ_SIZE
 
 #endif
-

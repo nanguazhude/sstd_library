@@ -187,7 +187,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE
 {            interval_infix_intersect_4_bicremental_types<T>(); }
 
 #endif // ndef BOOST_ICL_USE_STATIC_BOUNDED_INTERVALS
-
-
-
-

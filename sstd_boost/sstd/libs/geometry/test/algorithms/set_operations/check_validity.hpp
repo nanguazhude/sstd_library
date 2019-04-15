@@ -48,4 +48,3 @@ struct check_validity<Geometry, void>
 
 
 #endif // BOOST_GEOMETRY_TEST_SETOP_CHECK_VALIDITY_HPP
-

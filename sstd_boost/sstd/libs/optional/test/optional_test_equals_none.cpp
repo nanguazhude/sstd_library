@@ -41,4 +41,3 @@ int main()
   test_equal_to_none_of_noncomparable_T();
   return boost::report_errors();
 }
-

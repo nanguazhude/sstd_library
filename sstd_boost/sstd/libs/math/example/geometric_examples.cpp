@@ -352,14 +352,3 @@ Output is:
   geometric::find_upper_bound_on_p(100, 0.005) = 0.052
 
 */
-
-
-
-
-
-
-
-
-
-
-

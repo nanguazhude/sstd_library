@@ -13,4 +13,3 @@ Distributed under the Boost Software License, Version 1.0.
 #include <sstd/boost/hana/fwd/integral_constant.hpp>
 
 #endif // !BOOST_HANA_FWD_BOOL_HPP
-

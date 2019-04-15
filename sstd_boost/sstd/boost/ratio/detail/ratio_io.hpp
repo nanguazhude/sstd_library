@@ -1340,4 +1340,3 @@ struct ratio_string<exbi, wchar_t>
 }
 
 #endif  // BOOST_RATIO_RATIO_IO_HPP
-

@@ -275,4 +275,3 @@ main()
     parse(bad_input);
     return 0;
 }
-

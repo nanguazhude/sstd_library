@@ -42,4 +42,3 @@ TT_TEST_BEGIN(copy_cv)
     BOOST_CHECK_TYPE3(tt::copy_cv<long, int const volatile&>::type, long);
 }
 TT_TEST_END
-

@@ -50,4 +50,3 @@ static_assert(hana::value<constant<3>>() == 3, "");
 
 
 int main() { }
-

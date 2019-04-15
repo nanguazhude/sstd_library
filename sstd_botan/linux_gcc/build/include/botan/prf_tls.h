@@ -1,4 +1,4 @@
-/*
+﻿/*
 * TLS v1.0 and v1.2 PRFs
 * (C) 2004-2010 Jack Lloyd
 *

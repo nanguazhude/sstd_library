@@ -185,4 +185,3 @@ struct range_adapter_impl<std::random_access_iterator_tag> {
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>  // MSVC.
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_RANGE_ADAPTER_HPP_INCLUDED //---------------//
-

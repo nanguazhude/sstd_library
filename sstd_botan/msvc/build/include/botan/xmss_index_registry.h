@@ -1,4 +1,4 @@
-/*
+﻿/*
  * XMSS Index Registry
  * (C) 2016 Matthias Gierlings
  *

@@ -224,4 +224,3 @@ select geometry::STGeomFromText('POLYGON((0 0,0 100,100 100,100 0,0 0))',0) as p
 -- select p from viewy union all select q from viewy
 select p.STTouches(q) from viewy
 */
-

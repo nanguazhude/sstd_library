@@ -435,4 +435,3 @@ struct life_count< non_copymovable_int >
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_CONTAINER_TEST_MOVABLE_INT_HEADER
-

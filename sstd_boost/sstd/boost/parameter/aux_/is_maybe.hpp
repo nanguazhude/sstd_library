@@ -24,4 +24,3 @@ struct is_maybe
 } // namespace boost
 
 #endif // BOOST_PARAMETER_IS_MAYBE_050329_HPP
-

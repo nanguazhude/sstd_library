@@ -34,4 +34,3 @@ struct packed {};
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_MPI_DATATYPE_FWD_HPP
-

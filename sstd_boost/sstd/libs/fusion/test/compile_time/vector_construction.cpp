@@ -26,4 +26,3 @@ namespace
 }
 
 #include "./driver.hpp"
-

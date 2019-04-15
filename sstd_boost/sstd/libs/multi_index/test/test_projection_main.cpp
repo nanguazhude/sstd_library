@@ -16,6 +16,3 @@ int main()
   test_projection();
   return boost::report_errors();
 }
-
-
-

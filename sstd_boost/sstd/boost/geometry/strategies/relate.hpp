@@ -175,4 +175,3 @@ struct default_strategy<Geometry1, Geometry2, 2, 2>
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_RELATE_HPP
-

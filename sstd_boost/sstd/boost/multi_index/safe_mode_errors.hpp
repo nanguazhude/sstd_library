@@ -46,4 +46,3 @@ enum error_code
 } /* namespace boost */
 
 #endif
-

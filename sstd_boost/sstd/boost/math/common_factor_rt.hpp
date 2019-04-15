@@ -24,4 +24,3 @@ namespace boost {
 }
 
 #endif  // BOOST_MATH_COMMON_FACTOR_RT_HPP
-

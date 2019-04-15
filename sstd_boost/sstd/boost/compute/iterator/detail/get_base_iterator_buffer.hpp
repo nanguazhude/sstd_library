@@ -50,4 +50,3 @@ get_base_iterator_buffer(const Iterator &iter,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ITERATOR_DETAIL_GET_BASE_ITERATOR_BUFFER_HPP
-

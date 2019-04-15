@@ -15,4 +15,3 @@
 #include <sstd/boost/process/detail/traits/wchar_t.hpp>
 
 #endif /* BOOST_PROCESS_TRAITS_HPP_ */
-

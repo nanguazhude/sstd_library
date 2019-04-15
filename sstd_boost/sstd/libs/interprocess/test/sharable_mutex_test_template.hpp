@@ -289,4 +289,3 @@ void test_all_sharable_mutex()
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTERPROCESS_TEST_SHARABLE_MUTEX_TEST_TEMPLATE_HEADER
-

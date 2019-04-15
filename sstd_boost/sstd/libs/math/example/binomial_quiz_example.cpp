@@ -522,5 +522,3 @@ Deciles 1.349 to 5.758
 If guessing, then percentiles 1 to 99% will get 0 to 7.788 right.
 
 */
-
-

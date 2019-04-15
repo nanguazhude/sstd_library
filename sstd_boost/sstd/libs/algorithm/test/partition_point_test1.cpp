@@ -98,4 +98,3 @@ BOOST_AUTO_TEST_CASE( test_main )
 {
   test_sequence1 ();
 }
-

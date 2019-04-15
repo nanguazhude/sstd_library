@@ -66,4 +66,3 @@ TestCase test_take_while{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_TAKE_WHILE_HPP
-

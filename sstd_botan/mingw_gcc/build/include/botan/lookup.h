@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Algorithm Lookup
 * (C) 1999-2007,2015 Jack Lloyd
 *

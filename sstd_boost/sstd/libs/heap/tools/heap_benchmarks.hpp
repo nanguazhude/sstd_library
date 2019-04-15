@@ -275,4 +275,3 @@ inline double run_benchmark(benchmark & b)
 
     return results.at(results.size()/2); // median
 }
-

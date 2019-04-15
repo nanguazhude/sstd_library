@@ -74,4 +74,3 @@ int main()
     bg::concepts::check<const ro_point>();
     bg::concepts::check<rw_point>();
 }
-

@@ -213,4 +213,3 @@ bool is_allowed( const image_read_info< tiff_tag >& /* info */
 } // namespace boost
 
 #endif
-

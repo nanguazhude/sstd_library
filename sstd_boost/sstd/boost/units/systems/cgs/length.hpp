@@ -33,4 +33,3 @@ BOOST_UNITS_STATIC_CONSTANT(centimetres,length);
 } // namespace boost
 
 #endif // BOOST_UNITS_CGS_LENGTH_HPP
-

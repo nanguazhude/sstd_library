@@ -80,4 +80,3 @@ typedef basic_counter<wchar_t>  wcounter;
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>
 
 #endif // #ifndef BOOST_IOSTREAMS_COUNTER_HPP_INCLUDED
-

@@ -157,4 +157,3 @@ unsigned char halfdome[][3174]={
 using namespace boost::gil;
 extern rgb8c_planar_view_t sample_view;
 rgb8c_planar_view_t sample_view = planar_rgb_view(69,46,halfdome[0],halfdome[1],halfdome[2],69);
-

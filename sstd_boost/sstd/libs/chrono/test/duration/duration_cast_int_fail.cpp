@@ -19,4 +19,3 @@ void test()
 {
     boost::chrono::duration_cast<int>(boost::chrono::milliseconds(3));
 }
-

@@ -750,4 +750,3 @@ private:
 
 #undef BOOST_HEAP_ASSERT
 #endif /* BOOST_HEAP_PAIRING_HEAP_HPP */
-

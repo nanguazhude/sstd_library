@@ -23,4 +23,3 @@
 #include <sstd/boost/geometry/algorithms/within.hpp>
 
 #endif // BOOST_GEOMETRY_MULTI_ALGORITHMS_WITHIN_HPP
-

@@ -272,4 +272,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_SEQUENCE_TYPE_HPP */
-

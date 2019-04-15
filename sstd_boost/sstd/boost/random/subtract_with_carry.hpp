@@ -611,4 +611,3 @@ struct generator_bits<subtract_with_carry_01<RealType, w, s, r, v> > {
 } // namespace boost
 
 #endif // BOOST_RANDOM_SUBTRACT_WITH_CARRY_HPP
-

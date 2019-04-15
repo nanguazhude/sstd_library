@@ -21,4 +21,3 @@ add_executable (bench-buffers
 )
 
 set_property(TARGET bench-buffers PROPERTY FOLDER "tests-bench")
-

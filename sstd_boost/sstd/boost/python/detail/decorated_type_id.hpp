@@ -74,4 +74,3 @@ BOOST_PYTHON_DECL std::ostream& operator<<(std::ostream&, decorated_type_info co
 }}} // namespace boost::python::detail
 
 #endif // DECORATED_TYPE_ID_DWA2002517_HPP
-

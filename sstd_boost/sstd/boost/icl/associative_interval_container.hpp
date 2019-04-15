@@ -19,6 +19,3 @@ Copyright (c) 2010-2010: Joachim Faulhaber
 #include <sstd/boost/icl/iterator.hpp>
 
 #endif
-
-
-

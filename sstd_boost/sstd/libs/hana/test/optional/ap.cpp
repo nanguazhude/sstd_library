@@ -32,4 +32,3 @@ int main() {
         hana::just(f(ct_eq<3>{}))
     ));
 }
-

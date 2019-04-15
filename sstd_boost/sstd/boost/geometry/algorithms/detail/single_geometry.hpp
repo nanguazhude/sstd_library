@@ -92,4 +92,3 @@ single_geometry(Geometry const& geometry, Id const& id)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_SINGLE_GEOMETRY_HPP
-

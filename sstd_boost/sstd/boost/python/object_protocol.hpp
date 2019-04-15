@@ -88,4 +88,3 @@ void delslice(object const& target, Begin const& begin, End const& end)
 }}} // namespace boost::python::api
 
 #endif // OBJECT_PROTOCOL_DWA2002615_HPP
-

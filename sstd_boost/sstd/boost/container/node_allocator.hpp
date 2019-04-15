@@ -339,4 +339,3 @@ class node_allocator
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_CONTAINER_POOLED_NODE_ALLOCATOR_HPP
-

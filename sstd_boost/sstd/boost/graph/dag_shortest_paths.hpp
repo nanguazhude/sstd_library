@@ -157,4 +157,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_GRAPH_DAG_SHORTEST_PATHS_HPP
-

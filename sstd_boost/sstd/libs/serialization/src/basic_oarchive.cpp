@@ -468,4 +468,3 @@ basic_oarchive::get_helper_collection(){
 #ifdef BOOST_MSVC
 #pragma warning(pop)
 #endif
-

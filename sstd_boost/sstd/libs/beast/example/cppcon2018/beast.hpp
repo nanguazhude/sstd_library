@@ -17,4 +17,3 @@ namespace http = boost::beast::http;            // from <sstd/boost/beast/http.h
 namespace websocket = boost::beast::websocket;  // from <sstd/boost/beast/websocket.hpp>
 
 #endif
-

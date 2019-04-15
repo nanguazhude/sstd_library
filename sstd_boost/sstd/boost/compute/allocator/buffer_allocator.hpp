@@ -116,4 +116,3 @@ private:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALLOCATOR_BUFFER_ALLOCATOR_HPP
-

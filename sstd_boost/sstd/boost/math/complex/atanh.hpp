@@ -212,4 +212,3 @@ std::complex<T> atanh(const std::complex<T>& z)
 } } // namespaces
 
 #endif // BOOST_MATH_COMPLEX_ATANH_INCLUDED
-

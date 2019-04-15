@@ -70,4 +70,3 @@ struct is_invocable<F(Ts...), Us...>
 }} // namespace boost::hof
 
 #endif
-

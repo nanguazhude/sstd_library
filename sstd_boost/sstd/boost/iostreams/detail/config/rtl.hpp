@@ -70,4 +70,3 @@
 #endif
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_CONFIG_RTL_HPP_INCLUDED
-

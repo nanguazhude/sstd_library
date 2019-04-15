@@ -87,4 +87,3 @@ namespace detail
 }} // namespace boost::python
 
 #endif // WRAPPER_BASE_DWA2004722_HPP
-

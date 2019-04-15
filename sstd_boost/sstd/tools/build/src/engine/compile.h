@@ -57,4 +57,3 @@ LIST * call_rule( OBJECT * rulename, FRAME * caller_frame, ... );
 #define EXPR_IN      10  /* arg in arg */
 
 #endif
-

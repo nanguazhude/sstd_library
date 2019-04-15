@@ -46,4 +46,3 @@ int main(int argc, char* argv[]) {
 
     load_and_execute(&libraries[0], libraries.size());
 }
-

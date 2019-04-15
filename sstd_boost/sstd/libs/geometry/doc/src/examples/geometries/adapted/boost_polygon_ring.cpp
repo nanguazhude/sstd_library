@@ -50,4 +50,3 @@ Area (using Boost.Polygon): 100
 ]
 */
 //]
-

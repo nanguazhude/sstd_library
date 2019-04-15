@@ -117,5 +117,3 @@ struct value_size<icl::open_interval<DomainT,Compare> >
 }} // namespace icl boost
 
 #endif
-
-

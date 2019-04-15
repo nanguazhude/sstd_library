@@ -36,4 +36,3 @@ main()
   std::cout << "avg = " << avg << std::endl;
   return 0;
 }
-

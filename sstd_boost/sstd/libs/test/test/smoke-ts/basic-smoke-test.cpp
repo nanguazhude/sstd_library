@@ -23,4 +23,3 @@ BOOST_DATA_TEST_CASE(
   std::cout << "test 1: " << xr1 << ", " << xr2 << std::endl;
   BOOST_TEST((xr1 <= 2 && xr2 <= 3));
 }
-

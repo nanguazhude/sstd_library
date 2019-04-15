@@ -214,4 +214,3 @@ BOOST_LOG_CLOSE_NAMESPACE // namespace log
 #include <sstd/boost/log/detail/footer.hpp>
 
 #endif // BOOST_LOG_UTILITY_SETUP_FORMATTER_PARSER_HPP_INCLUDED_
-

@@ -43,4 +43,3 @@ namespace boost {
 } /* namespace boost */
 
 #endif /* BOOST_TREE_STRUCTURE_HPP */
-

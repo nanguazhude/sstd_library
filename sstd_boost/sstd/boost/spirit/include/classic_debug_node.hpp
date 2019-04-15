@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_DEBUG_NODE
 #include <sstd/boost/spirit/home/classic/debug/debug_node.hpp>
 #endif
-

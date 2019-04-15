@@ -182,5 +182,3 @@ inline u32regex_iterator<const UChar*> make_u32regex_iterator(const U_NAMESPACE_
 } // namespace boost
 
 #endif // BOOST_REGEX_V4_REGEX_ITERATOR_HPP
-
-

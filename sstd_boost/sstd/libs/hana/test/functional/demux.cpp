@@ -62,4 +62,3 @@ int main() {
         hana::demux(f)(g)(MoveOnly{}, MoveOnly{}, MoveOnly{});
     }
 }
-

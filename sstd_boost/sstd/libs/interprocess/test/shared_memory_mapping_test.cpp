@@ -237,4 +237,3 @@ int main ()
    shared_memory_object::remove(process_id.c_str());
    return 0;
 }
-

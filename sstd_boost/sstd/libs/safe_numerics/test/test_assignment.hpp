@@ -103,4 +103,3 @@ bool test_assignment(
 }
 
 #endif // BOOST_TEST_ASSIGNMENT_HPP
-

@@ -51,4 +51,3 @@ std::string make_literal(T x)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_DETAIL_LITERAL_HPP
-

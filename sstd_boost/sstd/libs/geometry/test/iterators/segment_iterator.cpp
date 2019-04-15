@@ -750,4 +750,3 @@ BOOST_AUTO_TEST_CASE( test_linestring_copy_on_dereference )
                   ( ba::tuple_list_of(8,-8)(9,-9) )
                   );
 }
-

@@ -30,4 +30,3 @@ template< typename T > struct set0_c
 }}
 
 #endif // BOOST_MPL_SET_SET0_C_HPP_INCLUDED
-

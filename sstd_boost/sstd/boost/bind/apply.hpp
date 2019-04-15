@@ -72,4 +72,3 @@ template<class R> struct apply
 } // namespace boost
 
 #endif // #ifndef BOOST_BIND_APPLY_HPP_INCLUDED
-

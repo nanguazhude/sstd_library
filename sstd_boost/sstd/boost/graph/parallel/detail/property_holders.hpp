@@ -150,4 +150,3 @@ struct tracking_level<
 } } // end namespace boost::serialization
 
 #endif // BOOST_PARALLEL_DETAIL_PROPERTY_HOLDERS_HPP
-

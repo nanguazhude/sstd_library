@@ -121,4 +121,3 @@ BEAST_DEFINE_TESTSUITE(beast,core,handler_ptr);
 
 } // beast
 } // boost
-

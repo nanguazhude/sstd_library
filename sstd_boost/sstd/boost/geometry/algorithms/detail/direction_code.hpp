@@ -253,4 +253,3 @@ inline int direction_code(Point1 const& segment_a, Point1 const& segment_b,
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_DIRECITON_CODE_HPP
-

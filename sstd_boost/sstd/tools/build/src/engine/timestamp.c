@@ -279,4 +279,3 @@ double timestamp_delta_seconds( timestamp const * const a , timestamp const * co
 {
 	return ((b->secs*1000000.0+b->nsecs)-(a->secs*1000000.0+a->nsecs))/1000000.0;
 }
-

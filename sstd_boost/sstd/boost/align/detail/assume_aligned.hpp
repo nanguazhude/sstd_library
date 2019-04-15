@@ -14,4 +14,3 @@ Distributed under the Boost Software License, Version 1.0.
 #define BOOST_ALIGN_ASSUME_ALIGNED(ptr, alignment)
 
 #endif
-

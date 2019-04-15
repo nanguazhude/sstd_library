@@ -31,4 +31,3 @@ struct get_signature {
 }
 
 #endif
-

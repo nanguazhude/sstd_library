@@ -165,5 +165,3 @@ int main()
     //test_set<nat64,bits64>();
     return 0;
 }
-
-

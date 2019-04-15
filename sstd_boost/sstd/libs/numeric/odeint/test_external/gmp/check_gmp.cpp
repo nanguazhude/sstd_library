@@ -163,4 +163,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( controlled_stepper_test , Stepper , controlled_st
     perform_controlled_test< Stepper > tester;
     tester();
 }
-

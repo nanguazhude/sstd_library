@@ -219,4 +219,3 @@ inline bool within_no_turns(Geometry1 const& geometry1, Geometry2 const& geometr
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_WITHIN_WITHIN_NO_TURNS_HPP
-

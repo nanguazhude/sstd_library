@@ -500,4 +500,3 @@ void test_with_custom_strategies(std::string const& caseid,
 }
 
 #endif
-

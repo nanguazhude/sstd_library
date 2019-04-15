@@ -241,4 +241,3 @@ struct experimental_elliptic_segments
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_GEOGRAPHIC_INTERSECTION_ELLIPTIC_HPP
-

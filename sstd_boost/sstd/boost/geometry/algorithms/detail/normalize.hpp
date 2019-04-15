@@ -313,4 +313,3 @@ inline GeometryOut return_normalized(GeometryIn const& geometry_in)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_NORMALIZE_HPP
-

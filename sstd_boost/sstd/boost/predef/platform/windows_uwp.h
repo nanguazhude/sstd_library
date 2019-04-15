@@ -58,4 +58,3 @@ UWP development.
 
 #include <sstd/boost/predef/detail/test.h>
 BOOST_PREDEF_DECLARE_TEST(BOOST_PLAT_WINDOWS_UWP, BOOST_PLAT_WINDOWS_UWP_NAME)
-

@@ -255,4 +255,3 @@ struct default_color_converter_impl<hsl_t,rgb_t>
 } // namespace boost
 
 #endif
-

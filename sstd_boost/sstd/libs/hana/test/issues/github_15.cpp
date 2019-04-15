@@ -19,4 +19,3 @@ int main() {
     auto copy = call_always(Tracked{1});
     (void)copy;
 }
-

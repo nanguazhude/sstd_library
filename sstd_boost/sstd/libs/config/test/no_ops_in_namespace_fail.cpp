@@ -31,5 +31,3 @@ int main( int, char *[] )
 {
    return boost_no_operators_in_namespace::test();
 }
-
-

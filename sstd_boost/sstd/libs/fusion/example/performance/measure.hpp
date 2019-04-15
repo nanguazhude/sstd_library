@@ -83,4 +83,3 @@ namespace test
       return time.elapsed() / repeats;  // return the time of one iteration
   }
 }
-

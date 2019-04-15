@@ -189,4 +189,3 @@ BOOST_AUTO_TEST_CASE( test_readwrite_property )
 
 
 // EOF
-

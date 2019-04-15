@@ -111,4 +111,3 @@ using extract::rolling_moment;
 }} // namespace boost::accumulators
 
 #endif
-

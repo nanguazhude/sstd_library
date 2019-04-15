@@ -249,4 +249,3 @@ struct default_color_converter_impl<ycbcr_709__t, rgb_t>
 } // namespace boost
 
 #endif
-

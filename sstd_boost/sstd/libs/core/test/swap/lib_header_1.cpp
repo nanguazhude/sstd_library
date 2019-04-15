@@ -7,5 +7,3 @@
 // Tests that the swap header compiles as a standalone translation unit
 
 #include <sstd/boost/utility/swap.hpp>
-
-

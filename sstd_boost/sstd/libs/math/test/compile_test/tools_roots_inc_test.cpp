@@ -37,5 +37,3 @@ void compile_and_link_test()
    check_result<double>(boost::math::tools::halley_iterate<F3, double>(f3, d, d, d, i, max_iter));
    check_result<double>(boost::math::tools::schroder_iterate<F3, double>(f3, d, d, d, i, max_iter));
 }
-
-

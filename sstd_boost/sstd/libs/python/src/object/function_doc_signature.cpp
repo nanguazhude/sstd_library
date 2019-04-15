@@ -341,5 +341,3 @@ namespace boost { namespace python { namespace objects {
 
 
 }}}
-
-

@@ -25,4 +25,3 @@ struct max_objects
 } /* boost */
 
 #endif
-

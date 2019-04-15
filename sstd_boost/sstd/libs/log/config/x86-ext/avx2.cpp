@@ -14,4 +14,3 @@ int main(int, char*[])
     _mm256_zeroupper();
     return 0;
 }
-

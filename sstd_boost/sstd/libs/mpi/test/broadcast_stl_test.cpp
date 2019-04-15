@@ -76,4 +76,3 @@ int test_main(int argc, char* argv[])
   broadcast_test(comm, s, "sparse");
   return 0;
 }
-

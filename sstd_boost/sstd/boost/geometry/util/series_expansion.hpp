@@ -744,4 +744,3 @@ namespace boost { namespace geometry { namespace series_expansion {
 }}} // namespace boost::geometry::series_expansion
 
 #endif // BOOST_GEOMETRY_UTIL_SERIES_EXPANSION_HPP
-

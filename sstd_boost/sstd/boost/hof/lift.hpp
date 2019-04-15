@@ -108,4 +108,3 @@ struct name \
 }
 
 #endif
-

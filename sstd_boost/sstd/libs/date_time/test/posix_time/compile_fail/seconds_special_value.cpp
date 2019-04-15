@@ -17,4 +17,3 @@ int main()
     boost::ignore_unused(seconds(pos_infin));                              // won't compile: not an integral
     return 1;                                                              // return an error if we actually run for some reason
 }
-

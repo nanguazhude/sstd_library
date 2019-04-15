@@ -12,5 +12,3 @@ SOURCES += $$PWD/source/lua_lua.cpp
 
 TARGET = lua
 DESTDIR = $$SSTD_LIBRARY_OUTPUT_PATH
-
-

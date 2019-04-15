@@ -123,4 +123,3 @@ struct flush_filter_impl<any_tag> {
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>
 
 #endif // #ifndef BOOST_IOSTREAMS_FLUSH_HPP_INCLUDED
-

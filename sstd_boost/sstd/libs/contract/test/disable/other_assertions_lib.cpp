@@ -7,5 +7,3 @@
 // Test assertion checking disables other assertion checking (in libraries).
 
 #include "lib_ab.hpp"
-
-

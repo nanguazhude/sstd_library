@@ -24,4 +24,3 @@ void test_converitng_assignment_of_different_enums()
 }
 
 int main() {}
-

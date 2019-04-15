@@ -157,4 +157,3 @@ namespace boost {
 } // namespace boost
 
 #endif  // BOOST_STRING_REPLACE_STORAGE_DETAIL_HPP
-

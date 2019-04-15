@@ -5,4 +5,3 @@
 ==============================================================================*/
 #include <sstd/boost/phoenix/operator/bitwise.hpp>
 int main() {}
-

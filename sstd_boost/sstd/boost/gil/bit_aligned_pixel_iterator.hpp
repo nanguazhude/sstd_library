@@ -180,4 +180,3 @@ boost::gil::bit_aligned_pixel_iterator<NonAlignedPixelReference> uninitialized_c
 
 }   // namespace std
 #endif
-

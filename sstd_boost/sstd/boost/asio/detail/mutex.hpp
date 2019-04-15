@@ -48,4 +48,3 @@ typedef std_mutex mutex;
 } // namespace boost
 
 #endif // BOOST_ASIO_DETAIL_MUTEX_HPP
-

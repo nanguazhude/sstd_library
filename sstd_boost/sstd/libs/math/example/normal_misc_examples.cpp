@@ -507,4 +507,3 @@ Fraction too long [ P(X > 4.10) ] is 0.0668
 95% of bolts are shorter than 4.11
 
 */
-

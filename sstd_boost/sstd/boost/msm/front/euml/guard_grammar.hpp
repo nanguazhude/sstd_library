@@ -354,4 +354,3 @@ struct BuildGuards
 }}}}
 
 #endif //BOOST_MSM_FRONT_EUML_GUARD_GRAMMAR_H
-

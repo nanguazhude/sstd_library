@@ -32,4 +32,3 @@ namespace boost
 } // namespace boost
 
 #endif // BOOST_SIGNALS2_PREPROCESSED_ARG_TYPE_HPP
-

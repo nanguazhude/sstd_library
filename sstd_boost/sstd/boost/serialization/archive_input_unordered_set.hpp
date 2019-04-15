@@ -70,4 +70,3 @@ struct archive_input_unordered_multiset
 } // boost
 
 #endif // BOOST_SERIALIZATION_ARCHIVE_INPUT_UNORDERED_SET_HPP
-

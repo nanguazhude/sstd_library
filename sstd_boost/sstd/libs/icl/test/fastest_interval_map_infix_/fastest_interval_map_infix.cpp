@@ -31,6 +31,3 @@ using namespace boost::icl;
 
 #define INTERVAL_MAP interval_map
 #include "../test_interval_map_infix_cases.hpp"
-
-
-

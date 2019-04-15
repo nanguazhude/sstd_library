@@ -37,4 +37,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_TT_IS_BASE_AND_DERIVED_HPP_INCLUDED
-

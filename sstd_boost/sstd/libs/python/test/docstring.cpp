@@ -114,4 +114,3 @@ BOOST_PYTHON_MODULE(docstring_ext)
 }
 
 #include "module_tail.cpp"
-

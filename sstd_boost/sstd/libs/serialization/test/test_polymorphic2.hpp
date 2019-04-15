@@ -41,4 +41,3 @@ struct B : A {
         const unsigned int /*version*/
     );
 };
-

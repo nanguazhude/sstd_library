@@ -308,4 +308,3 @@ construct(A_const_ref_a(N))                                       \
 #define BOOST_PROTO_LOCAL_ITERATE() <sstd/boost/proto/detail/local.hpp>
 
 #endif
-

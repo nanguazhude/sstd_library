@@ -53,4 +53,3 @@ namespace boost { namespace xpressive { namespace detail
 }}}
 
 #endif
-

@@ -1126,4 +1126,3 @@ hohberg_biconnected_components(const Graph& g, ComponentMap component)
 } } } // end namespace boost::graph::distributed
 
 #endif // BOOST_GRAPH_DISTRIBUTED_HOHBERG_BICONNECTED_COMPONENTS_HPP
-

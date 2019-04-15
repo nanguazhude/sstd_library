@@ -43,4 +43,3 @@ struct is_strict_lock : is_strict_lock_sur_parole<Lock> {};
 #include <sstd/boost/config/abi_suffix.hpp>
 
 #endif
-

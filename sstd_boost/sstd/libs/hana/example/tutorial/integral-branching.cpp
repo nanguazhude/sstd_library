@@ -53,4 +53,3 @@ int main() {
     std::unique_ptr<Student> b = ns2::make_unique<Student>("Bob", 25);
   }
 }
-

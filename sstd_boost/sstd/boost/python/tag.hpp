@@ -16,4 +16,3 @@ enum tag_t { tag };
 }} // namespace boost::python
 
 #endif // TAG_DWA2002720_HPP
-

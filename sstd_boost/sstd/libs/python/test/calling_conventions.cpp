@@ -158,4 +158,3 @@ namespace BOOST_PP_CAT(test, TESTED_CALLING_CONVENTION) {
 # endif // defined(TEST_WRAP_FUNCTIONS)
 
 #endif // !defined(TEST_INCLUDE_RECURSION)
-

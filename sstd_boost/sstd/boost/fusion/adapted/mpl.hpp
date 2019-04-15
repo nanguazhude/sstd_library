@@ -21,4 +21,3 @@
 #include <sstd/boost/fusion/adapted/mpl/detail/empty_impl.hpp>
 
 #endif
-

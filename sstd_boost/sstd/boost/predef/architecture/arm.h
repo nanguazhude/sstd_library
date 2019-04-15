@@ -78,4 +78,3 @@ http://www.boost.org/LICENSE_1_0.txt)
 
 #include <sstd/boost/predef/detail/test.h>
 BOOST_PREDEF_DECLARE_TEST(BOOST_ARCH_ARM,BOOST_ARCH_ARM_NAME)
-

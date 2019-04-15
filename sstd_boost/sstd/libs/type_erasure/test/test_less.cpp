@@ -258,4 +258,3 @@ BOOST_AUTO_TEST_CASE(test_overload)
     BOOST_CHECK(!(y <= x));
     BOOST_CHECK(!(x >= y));
 }
-

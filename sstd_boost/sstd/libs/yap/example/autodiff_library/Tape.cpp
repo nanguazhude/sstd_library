@@ -14,4 +14,3 @@ namespace AutoDiff
 	template<> Tape<unsigned int>* Tape<unsigned int>::indexTape = NULL;
 	template<> Tape<double>* Tape<double>::valueTape = NULL;
 }
-

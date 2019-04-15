@@ -32,4 +32,3 @@ BOOST_UNITS_STATIC_CONSTANT(lumens,luminous_flux);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_LUMINOUS_FLUX_HPP
-

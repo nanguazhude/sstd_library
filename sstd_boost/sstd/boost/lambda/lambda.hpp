@@ -27,4 +27,3 @@
 #include "sstd/boost/lambda/detail/member_ptr.hpp"
 
 #endif
-

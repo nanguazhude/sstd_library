@@ -12,4 +12,3 @@ int main() {
     static_assert(hana::value<decltype(i)>() == 3, "");
     static_assert(hana::value(i) == 3, "value(i) is always a constant expression!");
 }
-

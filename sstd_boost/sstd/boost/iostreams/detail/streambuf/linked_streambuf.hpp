@@ -112,4 +112,3 @@ private:
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp> // MSVC.
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_LINKED_STREAMBUF_HPP_INCLUDED
-

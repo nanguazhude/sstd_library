@@ -499,4 +499,3 @@ protected:
 } // namespace boost
 
 #endif // BASE_RG071801_HPP
-

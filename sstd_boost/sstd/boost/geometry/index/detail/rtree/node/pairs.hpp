@@ -69,4 +69,3 @@ make_exclusive_ptr_pair(First const& f, Pointer s)
 }}} // namespace boost::geometry::index
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_RTREE_NODE_PAIRS_HPP
-

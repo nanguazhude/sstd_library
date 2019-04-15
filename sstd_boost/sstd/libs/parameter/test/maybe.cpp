@@ -32,5 +32,3 @@ int main()
     assert(f((kw = maybe<int>(2), unused = 0)) == 2);
     return 0;
 }
-
-

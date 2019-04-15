@@ -35,4 +35,3 @@ template<> struct initializer_tag_t<::boost::process::group> { typedef group_tag
 
 
 #endif /* BOOST_PROCESS_DETAIL_HANDLER_HPP_ */
-

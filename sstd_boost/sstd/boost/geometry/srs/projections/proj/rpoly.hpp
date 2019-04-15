@@ -168,5 +168,3 @@ namespace projections
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_RPOLY_HPP
-
-

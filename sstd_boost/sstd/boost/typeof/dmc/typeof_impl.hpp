@@ -98,4 +98,3 @@ namespace boost
 }
 
 #endif//BOOST_TYPEOF_MSVC_TYPEOF_IMPL_HPP_INCLUDED
-

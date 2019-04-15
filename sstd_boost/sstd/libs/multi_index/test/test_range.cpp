@@ -123,4 +123,3 @@ void test_range()
   CHECK_VOID_RANGE(p);
   BOOST_TEST(p.first!=is.end());
 }
-

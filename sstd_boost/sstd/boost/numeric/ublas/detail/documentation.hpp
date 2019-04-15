@@ -31,4 +31,3 @@
 /** \defgroup blas3 Level 3 BLAS
         \brief level 3 basic linear algebra subroutines
 */
-

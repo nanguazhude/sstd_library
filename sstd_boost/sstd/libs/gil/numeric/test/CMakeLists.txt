@@ -22,4 +22,3 @@ target_link_libraries(gil_test_ext_numeric
   Boost::disable_autolinking
   Boost::unit_test_framework)
 add_test(gil.tests.ext.numeric gil_test_ext_numeric)
-

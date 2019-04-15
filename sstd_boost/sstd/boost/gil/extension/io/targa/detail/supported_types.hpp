@@ -96,4 +96,3 @@ struct is_write_supported< Pixel
 
 
 #endif
-

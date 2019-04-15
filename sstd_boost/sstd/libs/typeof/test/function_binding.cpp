@@ -20,4 +20,3 @@ FREF3 fref3 = *foo3;
 BOOST_STATIC_ASSERT((boost::is_same<BOOST_TYPEOF(fref1), int(double)>::value));
 BOOST_STATIC_ASSERT((boost::is_same<BOOST_TYPEOF(fref2), int(...)>::value));
 BOOST_STATIC_ASSERT((boost::is_same<BOOST_TYPEOF(fref3), int(int,...)>::value));
-

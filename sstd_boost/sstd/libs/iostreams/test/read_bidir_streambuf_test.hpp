@@ -75,4 +75,3 @@ void read_bidirectional_streambuf_test()
 }
 
 #endif // #ifndef BOOST_IOSTREAMS_TEST_READ_BIDIRECTIONAL_STREAMBUF_HPP_INCLUDED
-

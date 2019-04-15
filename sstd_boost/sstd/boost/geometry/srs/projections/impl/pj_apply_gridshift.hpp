@@ -427,4 +427,3 @@ inline bool pj_apply_gridshift_2(Par const& , Range & , srs::detail::empty_proje
 }}} // namespace boost::geometry::projections
 
 #endif // BOOST_GEOMETRY_SRS_PROJECTIONS_IMPL_PJ_APPLY_GRIDSHIFT_HPP
-

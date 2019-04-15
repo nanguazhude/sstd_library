@@ -238,4 +238,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_GRAPH_BELLMAN_FORD_SHORTEST_PATHS_HPP
-

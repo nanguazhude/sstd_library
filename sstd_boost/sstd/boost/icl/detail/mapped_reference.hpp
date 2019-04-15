@@ -190,4 +190,3 @@ inline mapped_reference<FirstT, SecondT> make_mapped_reference(const FirstT& lef
 }} // namespace icl boost
 
 #endif // BOOST_ICL_DETAIL_MAPPED_REFERENCE_HPP_JOFA_091108
-

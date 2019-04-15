@@ -21,5 +21,3 @@ int main () {
 
     std::cout << outer_prod (v1, v2) << std::endl;
 }
-
-

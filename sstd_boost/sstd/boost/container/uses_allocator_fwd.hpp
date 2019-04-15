@@ -71,4 +71,3 @@ struct uses_allocator;
 }} // namespace boost { namespace container {
 
 #endif   //BOOST_CONTAINER_USES_ALLOCATOR_HPP
-

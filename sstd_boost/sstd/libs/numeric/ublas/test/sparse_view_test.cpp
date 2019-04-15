@@ -104,4 +104,3 @@ BOOST_AUTO_TEST_CASE( test_construction_from_pointers )
     delete[] ia;
 
 }
-

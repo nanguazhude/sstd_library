@@ -60,5 +60,3 @@ BOOST_MPL_ASSERT(( is_same<
     ft::member_function_pointer<mpl::vector<int,C>, ft::non_variadic>::type
   , expected_nv_2
 > ));
-
-

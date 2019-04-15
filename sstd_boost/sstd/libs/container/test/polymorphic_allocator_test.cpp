@@ -196,4 +196,3 @@ int main()
    test_resource();
    return ::boost::report_errors();
 }
-

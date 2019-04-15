@@ -42,4 +42,3 @@ int main() {
         (void)r1; (void)r2; (void)r3;
     }
 }
-

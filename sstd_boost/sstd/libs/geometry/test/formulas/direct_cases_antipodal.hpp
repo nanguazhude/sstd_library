@@ -341,4 +341,3 @@ expected_results_antipodal expected_antipodal[] =
 size_t const expected_size_antipodal = sizeof(expected_antipodal) / sizeof(expected_results_antipodal);
 
 #endif // BOOST_GEOMETRY_TEST_DIRECT_CASES_ANTIPODAL_HPP
-

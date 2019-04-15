@@ -417,4 +417,3 @@ static struct register_str_pytype_ptr
 }register_str_pytype_ptr_;
 
 }}}  // namespace boost::python
-

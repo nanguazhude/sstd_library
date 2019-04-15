@@ -146,4 +146,3 @@ namespace boost { namespace callable_traits { namespace detail {
 }}} // namespace boost::callable_traits::detail
 
 #endif // #ifndef BOOST_CLBL_TRTS_IS_INVOCABLE_IMPL_HPP
-

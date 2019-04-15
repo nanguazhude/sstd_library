@@ -290,4 +290,3 @@ struct BOOST_PP_CAT(AUX778076_SEQUENCE_NAME,_chooser)<i_>
 
 #undef i_
 #endif // BOOST_PP_IS_ITERATING
-

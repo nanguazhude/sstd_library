@@ -69,4 +69,3 @@ sc::result Focusing::react( const EvInFocus & evt )
 {
   return transit< Focused >( &Shooting::DisplayFocused, evt );
 }
-

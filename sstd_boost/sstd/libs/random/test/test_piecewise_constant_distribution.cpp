@@ -244,4 +244,3 @@ BOOST_AUTO_TEST_CASE(test_generation) {
         BOOST_CHECK_LT(value_r_param, 2.0);
     }
 }
-

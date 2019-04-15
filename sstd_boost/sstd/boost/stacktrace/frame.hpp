@@ -65,4 +65,3 @@ std::basic_ostream<CharT, TraitsT>& operator<<(std::basic_ostream<CharT, TraitsT
 
 
 #endif // BOOST_STACKTRACE_FRAME_HPP
-

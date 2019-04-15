@@ -24,4 +24,3 @@ BOOST_ASIO_TEST_SUITE
   "windows/basic_stream_handle",
   BOOST_ASIO_TEST_CASE(null_test)
 )
-

@@ -266,5 +266,3 @@ namespace
         BOOST_CHECK_MESSAGE(p.get_state<player_::Playing&>().get_state<player_::Playing_::Song1&>().data_ == 8,"Wrong Open value");
     }
 }
-
-

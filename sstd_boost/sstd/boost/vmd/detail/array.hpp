@@ -187,4 +187,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_ARRAY_HPP */
-

@@ -81,4 +81,3 @@ int main()
     STATIC_ASSERT_SAME(boost::pointee<std::list<X>::const_iterator >::type, X const);
     return 0;
 }
-

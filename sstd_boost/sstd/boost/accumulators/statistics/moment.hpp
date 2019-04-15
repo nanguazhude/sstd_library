@@ -123,4 +123,3 @@ struct feature_of<tag::weighted_moment<N> >
 }} // namespace boost::accumulators
 
 #endif
-

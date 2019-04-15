@@ -1019,4 +1019,3 @@ using mp_starts_with = typename detail::mp_starts_with_impl<L1, L2>::type;
 } // namespace boost
 
 #endif // #ifndef BOOST_MP11_ALGORITHM_HPP_INCLUDED
-

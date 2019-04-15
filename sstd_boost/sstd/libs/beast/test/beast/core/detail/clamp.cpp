@@ -38,4 +38,3 @@ BEAST_DEFINE_TESTSUITE(beast,core,clamp);
 } // detail
 } // beast
 } // boost
-

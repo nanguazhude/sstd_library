@@ -174,5 +174,3 @@ void test_spots(T, const char* t)
 #pragma warning(pop)
 #endif
 }
-
-

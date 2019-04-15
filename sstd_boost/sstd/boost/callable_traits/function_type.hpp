@@ -95,4 +95,3 @@ struct function_type : detail::function_type_impl<T> {};
 //]
 
 #endif
-

@@ -33,4 +33,3 @@ struct extra_operations;
 } // namespace boost
 
 #endif // BOOST_ATOMIC_DETAIL_EXTRA_OPERATIONS_FWD_HPP_INCLUDED_
-

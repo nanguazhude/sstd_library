@@ -766,4 +766,3 @@ char * executable_path( char const * argv0 )
     return argv0[ 0 ] == '/' ? strdup( argv0 ) : NULL;
 }
 #endif
-

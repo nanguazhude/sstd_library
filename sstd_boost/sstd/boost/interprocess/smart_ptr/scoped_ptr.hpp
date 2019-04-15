@@ -174,4 +174,3 @@ T *to_raw_pointer(boost::interprocess::scoped_ptr<T, D> const & p)
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif // #ifndef BOOST_INTERPROCESS_SCOPED_PTR_HPP_INCLUDED
-

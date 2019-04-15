@@ -172,4 +172,3 @@ int test_main(int, char*[])
   deconstruct_test();
   return 0;
 }
-

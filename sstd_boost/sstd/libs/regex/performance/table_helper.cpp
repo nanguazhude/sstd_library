@@ -417,5 +417,3 @@ std::string get_compiler_options_name()
    return "Unknown";
 #endif
 }
-
-

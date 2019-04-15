@@ -2581,4 +2581,3 @@ inline void swap(
 #endif // BOOST_NO_IOSTREAM
 
 #endif // BOOST_VARIANT_VARIANT_HPP
-

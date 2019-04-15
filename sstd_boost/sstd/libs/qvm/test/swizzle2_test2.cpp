@@ -47,4 +47,3 @@ main()
     BOOST_TEST(called==1);
     return boost::report_errors();
     }
-

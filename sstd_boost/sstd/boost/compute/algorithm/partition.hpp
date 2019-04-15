@@ -43,4 +43,3 @@ inline Iterator partition(Iterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_PARTITION_HPP
-

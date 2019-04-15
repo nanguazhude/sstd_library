@@ -19,4 +19,3 @@ linux-g++*{
 
 
 INCLUDEPATH += $$PWD
-

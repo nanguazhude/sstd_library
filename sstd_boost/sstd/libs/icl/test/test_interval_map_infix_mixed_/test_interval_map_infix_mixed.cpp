@@ -91,5 +91,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(test_icl_interval_map_mixed_infix_et_overload_4_bi
     BOOST_CHECK_EQUAL(join_a & split_a, (split_b = split_a) &= join_a);
     BOOST_CHECK_EQUAL(join_a & split_a, split_b);
 }
-
-

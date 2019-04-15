@@ -1301,4 +1301,3 @@ FE45..FE46    ; Pattern_Syntax # Po   [2] SESAME DOT..WHITE SESAME DOT
 # Total code points: 2760
 
 # EOF
-

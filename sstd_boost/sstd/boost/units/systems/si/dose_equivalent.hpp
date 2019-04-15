@@ -32,4 +32,3 @@ BOOST_UNITS_STATIC_CONSTANT(sieverts,dose_equivalent);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_DOSE_EQUIVALENT_HPP
-

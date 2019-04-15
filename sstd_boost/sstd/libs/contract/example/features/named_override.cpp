@@ -101,5 +101,3 @@ int main() {
     assert(u._1() == 123);
     return 0;
 }
-
-

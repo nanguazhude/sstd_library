@@ -175,4 +175,3 @@ int test_main(int, char**)
 #endif // defined(BOOST_ASIO_MSVC)
 
 #endif // UNIT_TEST_HPP
-

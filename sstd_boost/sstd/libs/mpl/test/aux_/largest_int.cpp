@@ -23,4 +23,3 @@ MPL_TEST_CASE()
     MPL_ASSERT(( is_same< mpl::aux::largest_int<int,unsigned>::type, unsigned > ));
     MPL_ASSERT(( is_same< mpl::aux::largest_int<unsigned,long>::type, long > ));
 }
-

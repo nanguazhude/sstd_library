@@ -52,4 +52,3 @@ struct event
 }}
 
 #endif // BOOST_FSM_EVENT_INCLUDED
-

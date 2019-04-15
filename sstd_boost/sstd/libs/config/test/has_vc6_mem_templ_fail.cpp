@@ -31,5 +31,3 @@ int main( int, char *[] )
 {
    return boost_msvc6_member_templates::test();
 }
-
-

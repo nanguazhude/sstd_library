@@ -16,4 +16,3 @@ int main()
   test_no_tracking();
   return boost::report_errors();
 }
-

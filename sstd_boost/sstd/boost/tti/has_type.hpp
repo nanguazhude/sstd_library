@@ -163,4 +163,3 @@
 /**/
 
 #endif // BOOST_TTI_HAS_TYPE_HPP
-

@@ -32,4 +32,3 @@ struct data_t
 #endif
 
 #endif // BOOST_COROUTINES_DETAIL_DATA_H
-

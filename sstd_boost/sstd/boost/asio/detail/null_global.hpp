@@ -59,4 +59,3 @@ T& null_global()
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_NULL_GLOBAL_HPP
-

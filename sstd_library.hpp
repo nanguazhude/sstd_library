@@ -54,7 +54,7 @@ namespace sstd {
 }/*namespace sstd*/
 
 #ifndef sstd_decltype
-#define sstd_decltype(...) std::remove_cv_t< std::remove_reference_t< decltype( __VA_ARGS__ ) > > 
+#define sstd_decltype(...) std::remove_cv_t< std::remove_reference_t< decltype( __VA_ARGS__ ) > >
 #endif
 
 #ifndef sstd_friend
@@ -198,4 +198,3 @@ inline std::shared_ptr<T> sstd_make_shared(Args && ... args) {
 #include "sstd_library_double_conversion/sstd_library_double_conversion.hpp"
 #include "sstd_library_integer_conversion/sstd_library_integer_conversion.hpp"
 #include "sstd_library_application/sstd_library_application.hpp"
-

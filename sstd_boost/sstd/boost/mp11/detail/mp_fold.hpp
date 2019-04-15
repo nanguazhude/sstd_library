@@ -60,4 +60,3 @@ template<class L, class V, class Q> using mp_fold_q = mp_fold<L, V, Q::template 
 } // namespace boost
 
 #endif // #ifndef BOOST_MP11_DETAIL_MP_FOLD_HPP_INCLUDED
-

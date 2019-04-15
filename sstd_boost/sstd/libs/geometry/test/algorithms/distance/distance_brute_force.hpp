@@ -1354,4 +1354,3 @@ distance_brute_force(Geometry1 const& geometry1,
 
 }} // namespace boost::geometry
 #endif // BOOST_GEOMETRY_TEST_DISTANCE_BRUTE_FORCE_HPP
-

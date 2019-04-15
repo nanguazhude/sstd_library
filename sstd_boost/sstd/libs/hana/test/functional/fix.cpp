@@ -39,4 +39,3 @@ template <> void test<-1>() { }
 int main() {
     test<15>();
 }
-

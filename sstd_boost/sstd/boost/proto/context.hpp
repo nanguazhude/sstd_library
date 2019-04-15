@@ -14,4 +14,3 @@
 #include <sstd/boost/proto/context/callable.hpp>
 
 #endif
-

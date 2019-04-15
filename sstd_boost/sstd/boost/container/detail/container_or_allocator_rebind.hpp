@@ -47,4 +47,3 @@ struct container_or_allocator_rebind
 }  //namespace boost {
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_CONTAINER_OR_ALLOCATOR_REBIND_HPP
-

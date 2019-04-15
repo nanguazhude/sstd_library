@@ -1,23 +1,21 @@
 ﻿
 http://www.lua.org/manual/5.3/manual.html#2.2
 
-Lua provides a registry, 
-a predefined table that can be used by any C code to store whatever Lua values it needs to store. 
-The registry table is always located at pseudo-index LUA_REGISTRYINDEX. 
-Any C library can store data into this table, but it must take care to choose keys that are different from those used by other libraries, 
-to avoid collisions. Typically, you should use as key a string containing your library name, 
-or a light userdata with the address of a C object in your code, 
-or any Lua object created by your code. As with variable names, 
+Lua provides a registry,
+a predefined table that can be used by any C code to store whatever Lua values it needs to store.
+The registry table is always located at pseudo-index LUA_REGISTRYINDEX.
+Any C library can store data into this table, but it must take care to choose keys that are different from those used by other libraries,
+to avoid collisions. Typically, you should use as key a string containing your library name,
+or a light userdata with the address of a C object in your code,
+or any Lua object created by your code. As with variable names,
 string keys starting with an underscore followed by uppercase letters are reserved for Lua.
 
-The integer keys in the registry are used by the reference mechanism (see luaL_ref) and by some predefined values. 
+The integer keys in the registry are used by the reference mechanism (see luaL_ref) and by some predefined values.
 Therefore, integer keys must not be used for other purposes.
 
-When you create a new Lua state, its registry comes with some predefined values. 
-These predefined values are indexed with integer keys defined as constants in lua.h. 
+When you create a new Lua state, its registry comes with some predefined values.
+These predefined values are indexed with integer keys defined as constants in lua.h.
 The following constants are defined:
 
     LUA_RIDX_MAINTHREAD: At this index the registry has the main thread of the state. (The main thread is the one created together with the state.)
     LUA_RIDX_GLOBALS: At this index the registry has the global environment.
-
-

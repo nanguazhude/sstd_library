@@ -69,4 +69,3 @@ class aligned_storage
 } // namespace boost
 
 #endif // header guard
-

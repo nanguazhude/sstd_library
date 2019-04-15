@@ -60,4 +60,3 @@
   int errored_clock::errno_;
 
 #endif
-

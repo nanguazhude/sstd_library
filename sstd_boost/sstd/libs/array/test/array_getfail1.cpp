@@ -47,4 +47,3 @@ BOOST_AUTO_TEST_CASE( test_main )
     BOOST_STATIC_ASSERT ( false );  // fail on C++03 systems.
 #endif
 }
-

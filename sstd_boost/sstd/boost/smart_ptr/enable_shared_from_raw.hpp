@@ -163,4 +163,3 @@ namespace detail
 } // namespace boost
 
 #endif  // #ifndef BOOST_ENABLE_SHARED_FROM_RAW_HPP_INCLUDED
-

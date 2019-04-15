@@ -235,4 +235,3 @@ Probability of getting upto (<=) heads
 ]
 */
 //][/binomial_coinflip_example_output]
-

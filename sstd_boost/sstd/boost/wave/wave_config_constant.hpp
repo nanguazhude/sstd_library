@@ -89,4 +89,3 @@ namespace boost { namespace wave {
     /**/
 
 #endif // !BOOST_WAVE_CONFIG_CONSTANT_HPP
-

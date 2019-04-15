@@ -263,4 +263,3 @@ struct is_dynamic_buffer
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_IS_BUFFER_SEQUENCE_HPP
-

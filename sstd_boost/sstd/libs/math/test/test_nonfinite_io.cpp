@@ -339,5 +339,3 @@ test_nonfinite_io.cpp
   *** No errors detected
 
 */
-
-

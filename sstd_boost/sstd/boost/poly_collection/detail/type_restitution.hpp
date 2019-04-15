@@ -197,4 +197,3 @@ auto binary_restitute_iterator(const F& f,Args&&... args)
 } /* namespace boost */
 
 #endif
-

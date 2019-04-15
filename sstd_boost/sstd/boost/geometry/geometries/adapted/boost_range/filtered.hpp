@@ -37,5 +37,3 @@ struct tag<boost::range_detail::filter_range<Filter, Geometry> >
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_ADAPTED_BOOST_RANGE_FILTERED_HPP
-
-

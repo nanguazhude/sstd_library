@@ -153,5 +153,3 @@ namespace projections
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_WINK1_HPP
-
-

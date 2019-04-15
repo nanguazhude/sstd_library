@@ -47,5 +47,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_TT_IS_REFERENCE_HPP_INCLUDED
-
-

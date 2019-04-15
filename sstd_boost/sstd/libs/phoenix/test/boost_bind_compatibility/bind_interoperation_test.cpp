@@ -140,4 +140,3 @@ int main()
   member_test();
   return boost::report_errors();
 }
-

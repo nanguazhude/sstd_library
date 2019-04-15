@@ -47,6 +47,3 @@ int main()
   // This causes an error
   // apply<test_parser, invalid_input>::type();
 }
-
-
-

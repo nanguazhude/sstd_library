@@ -306,4 +306,3 @@ points_end(Geometry& geometry)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ITERATORS_POINT_ITERATOR_HPP
-

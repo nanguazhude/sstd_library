@@ -147,4 +147,3 @@ namespace detail
 }}} // namespace boost::geometry::projections
 
 #endif
-

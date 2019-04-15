@@ -167,4 +167,3 @@ typename default_margin_result<Geometry>::type comparable_margin(Geometry const&
 }}}} // namespace boost::geometry::index::detail
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_ALGORITHMS_MARGIN_HPP
-

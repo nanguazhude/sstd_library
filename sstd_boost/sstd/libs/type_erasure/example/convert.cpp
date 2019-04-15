@@ -57,4 +57,3 @@ void convert1() {
 //` [@boost:/libs/type_erasure/example/convert.cpp convert.cpp])
 //` [convert1]
 //]
-

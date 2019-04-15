@@ -173,5 +173,3 @@ make_test_case( void (UserTestCase::*test_method )( ParamType ),
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_PARAMETERIZED_TEST_HPP_021102GER
-
-

@@ -1108,4 +1108,3 @@ class splay_multiset
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_SPLAY_SET_HPP
-

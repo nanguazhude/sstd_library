@@ -149,4 +149,3 @@ all_to_all(const communicator& comm, const std::vector<T>& in_values, int n,
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_ALL_TO_ALL_HPP
-

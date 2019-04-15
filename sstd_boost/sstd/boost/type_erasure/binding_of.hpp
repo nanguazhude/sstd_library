@@ -33,4 +33,3 @@ const binding<Concept>& binding_of(const any<Concept, T>& arg)
 }
 
 #endif
-

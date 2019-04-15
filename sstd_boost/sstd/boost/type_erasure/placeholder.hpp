@@ -73,4 +73,3 @@ struct _self : placeholder {};
 }
 
 #endif
-

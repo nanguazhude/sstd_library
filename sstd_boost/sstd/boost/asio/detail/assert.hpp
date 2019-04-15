@@ -30,4 +30,3 @@
 #endif // defined(BOOST_ASIO_HAS_BOOST_ASSERT)
 
 #endif // BOOST_ASIO_DETAIL_ASSERT_HPP
-

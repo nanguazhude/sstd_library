@@ -80,4 +80,3 @@ struct is_homogeneous<const bit_aligned_pixel_reference<B,C,L,M> >
 } // namespace boost
 
 #endif
-

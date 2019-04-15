@@ -42,5 +42,3 @@ int main(void) {
     this_tester<int>().check();
     return boost::report_errors();
 }
-
-

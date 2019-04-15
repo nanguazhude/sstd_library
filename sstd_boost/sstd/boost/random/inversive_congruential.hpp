@@ -265,4 +265,3 @@ using random::hellekalek1995;
 #include <sstd/boost/random/detail/enable_warnings.hpp>
 
 #endif // BOOST_RANDOM_INVERSIVE_CONGRUENTIAL_HPP
-

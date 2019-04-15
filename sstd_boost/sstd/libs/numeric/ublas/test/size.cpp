@@ -273,4 +273,3 @@ int main()
 
     BOOST_UBLAS_TEST_END();
 }
-

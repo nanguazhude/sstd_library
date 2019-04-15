@@ -157,4 +157,3 @@ void png_write_view( const String& filename
 }  // namespace boost
 
 #endif
-

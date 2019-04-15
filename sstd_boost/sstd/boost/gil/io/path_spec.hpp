@@ -118,4 +118,3 @@ inline const char* convert_to_native_string( const std::wstring& str )
 } // namespace boost
 
 #endif
-

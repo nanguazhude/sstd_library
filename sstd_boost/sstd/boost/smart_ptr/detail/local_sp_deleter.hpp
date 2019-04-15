@@ -89,4 +89,3 @@ inline void * get_local_deleter( local_sp_deleter<void> * /*p*/ )
 } // namespace boost
 
 #endif  // #ifndef BOOST_SMART_PTR_DETAIL_LOCAL_SP_DELETER_HPP_INCLUDED
-

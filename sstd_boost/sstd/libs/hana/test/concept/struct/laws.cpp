@@ -41,4 +41,3 @@ int main() {
     hana::test::TestSearchable<minimal_struct_tag<1>>{eq1, hana::make_tuple(hana::int_c<0>)};
     hana::test::TestSearchable<minimal_struct_tag<2>>{eq2, hana::make_tuple(hana::int_c<0>, hana::int_c<1>)};
 }
-

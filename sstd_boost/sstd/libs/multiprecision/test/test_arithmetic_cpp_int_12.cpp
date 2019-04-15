@@ -29,5 +29,3 @@ int main()
    test<boost::multiprecision::number<boost::multiprecision::cpp_int_backend<500, 500, boost::multiprecision::signed_magnitude, boost::multiprecision::checked, void> > >();
    return boost::report_errors();
 }
-
-

@@ -105,4 +105,3 @@ BOOST_DATA_TEST_CASE( test_case_2, data::make(m), var1)
   std::cout << var1.first << " -- " << var1.second << std::endl;
   BOOST_TEST(true);
 }
-

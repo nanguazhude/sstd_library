@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/container/map/convert.hpp>
 
 #endif
-

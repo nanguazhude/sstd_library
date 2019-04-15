@@ -30,5 +30,3 @@ namespace boost{ namespace multiprecision{ namespace detail{
 }}} // namespaces
 
 #endif // BOOST_IS_BYTE_CONTAINER_HPP
-
-

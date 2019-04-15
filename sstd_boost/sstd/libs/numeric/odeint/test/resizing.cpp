@@ -108,4 +108,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( test_resize , T, resize_check_types )
 
 
 BOOST_AUTO_TEST_SUITE_END()
-

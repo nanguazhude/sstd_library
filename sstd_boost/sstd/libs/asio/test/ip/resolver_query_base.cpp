@@ -23,4 +23,3 @@ BOOST_ASIO_TEST_SUITE
   "ip/resolver_query_base",
   BOOST_ASIO_TEST_CASE(null_test)
 )
-

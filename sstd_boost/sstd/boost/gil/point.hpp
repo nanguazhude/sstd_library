@@ -275,4 +275,3 @@ inline point<std::ptrdiff_t> iceil(point<double> const& p)
 }} // namespace boost::gil
 
 #endif
-

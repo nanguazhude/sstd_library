@@ -78,4 +78,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(
     fixture::channel_minmax_value<std::uint16_t> exp;
     BOOST_TEST(fix.data_ == exp.max_v_);
 }
-

@@ -374,5 +374,3 @@ void testing_std_array_input_conversion()
 
     BOOST_CHECK(true);
 }
-
-

@@ -84,5 +84,3 @@ void test_trig(T, const char* name)
 
    do_test_trig<T>(trig_data2, name, "sin_pi and cos_pi near integers and half integers");
 }
-
-

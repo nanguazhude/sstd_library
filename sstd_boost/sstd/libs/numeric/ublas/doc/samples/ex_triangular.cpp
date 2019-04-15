@@ -54,6 +54,3 @@ int main(int argc, char * argv[] ) {
   std::cout << "M = U + SL ? " << ((norm_inf( M - (U + SL) ) == 0.0)?"ok":"failed") << "\n";
 
 }
-
-
-

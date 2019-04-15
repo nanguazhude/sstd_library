@@ -291,4 +291,3 @@ class extrapolation_stepper : public explicit_error_stepper_base
 }
 }
 #endif
-

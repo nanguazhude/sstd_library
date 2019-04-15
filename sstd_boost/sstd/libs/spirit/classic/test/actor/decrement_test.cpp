@@ -37,5 +37,3 @@ void decrement_action_test()
     --h;
     BOOST_CHECK_EQUAL( hm,h);
 }
-
-

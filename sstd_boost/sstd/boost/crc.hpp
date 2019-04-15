@@ -2303,5 +2303,3 @@ augmented_crc
 
 
 #endif  // BOOST_CRC_HPP
-
-

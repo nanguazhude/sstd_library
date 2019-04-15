@@ -34,4 +34,3 @@ using default_stack = boost::context::default_stack;
 #endif
 
 #endif // BOOST_COROUTINES2_FIXEDSIZE_H
-

@@ -26,4 +26,3 @@ BOOST_AUTO_TEST_CASE( queue_test_fixed_size )
     boost::lockfree::queue<long, boost::lockfree::capacity<8> > q;
     tester->run(q);
 }
-

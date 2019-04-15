@@ -345,4 +345,3 @@ polymorphic_get(
 } // namespace boost
 
 #endif // BOOST_VARIANT_POLYMORPHIC_GET_HPP
-

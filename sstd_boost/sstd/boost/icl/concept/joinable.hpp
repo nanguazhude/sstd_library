@@ -37,6 +37,3 @@ namespace segmental
 }} // namespace boost icl
 
 #endif
-
-
-

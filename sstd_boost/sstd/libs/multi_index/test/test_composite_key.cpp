@@ -668,4 +668,3 @@ void test_composite_key()
   test_composite_key_template<std_tuple_maker>();
 #endif
 }
-

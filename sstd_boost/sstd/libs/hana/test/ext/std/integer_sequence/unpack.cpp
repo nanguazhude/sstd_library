@@ -45,4 +45,3 @@ int main() {
           std::integral_constant<int, 2>{}, std::integral_constant<int, 3>{})
     ));
 }
-

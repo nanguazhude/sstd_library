@@ -698,4 +698,3 @@ namespace boost { namespace spirit { namespace repository { namespace qi { names
 }}}}}
 
 #endif
-

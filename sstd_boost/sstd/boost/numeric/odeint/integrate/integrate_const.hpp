@@ -193,4 +193,3 @@ size_t integrate_const(
 
 
 #endif // BOOST_NUMERIC_ODEINT_INTEGRATE_INTEGRATE_CONST_HPP_INCLUDED
-

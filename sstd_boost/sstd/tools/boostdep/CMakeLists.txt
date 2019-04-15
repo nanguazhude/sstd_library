@@ -13,4 +13,3 @@ find_package( Boost COMPONENTS filesystem REQUIRED )
 target_link_libraries( boostdep Boost::filesystem )
 
 install( TARGETS boostdep RUNTIME DESTINATION bin )
-

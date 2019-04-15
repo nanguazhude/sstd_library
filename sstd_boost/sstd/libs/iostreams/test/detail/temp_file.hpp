@@ -90,4 +90,3 @@ struct lowercase_file : public temp_file {
 } } } // End namespaces test, iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_TEST_FILES_HPP_INCLUDED
-

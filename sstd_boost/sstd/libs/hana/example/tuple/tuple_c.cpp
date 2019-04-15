@@ -20,4 +20,3 @@ int main() {
 
     BOOST_HANA_CONSTANT_CHECK(hana::front(hana::tuple_c<int, 0, 1, 2>) == hana::int_c<0>);
 }
-

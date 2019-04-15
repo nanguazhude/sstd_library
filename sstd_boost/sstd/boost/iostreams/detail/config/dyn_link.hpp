@@ -44,4 +44,3 @@
 #endif
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_CONFIG_DYN_LINK_HPP_INCLUDED
-

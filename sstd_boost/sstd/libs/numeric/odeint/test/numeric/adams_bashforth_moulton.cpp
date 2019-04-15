@@ -117,4 +117,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( adams_bashforth_moulton_test , Stepper, adams_bas
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

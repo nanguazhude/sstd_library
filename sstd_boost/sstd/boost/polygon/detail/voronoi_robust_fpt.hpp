@@ -505,4 +505,3 @@ class robust_sqrt_expr {
 }  // boost
 
 #endif  // BOOST_POLYGON_DETAIL_VORONOI_ROBUST_FPT
-

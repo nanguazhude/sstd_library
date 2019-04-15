@@ -45,5 +45,3 @@ int main(void) {
     BOOST_TEST(calc.results[2] == 24);
     return boost::report_errors();
 }
-
-

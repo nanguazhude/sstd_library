@@ -70,4 +70,3 @@ BOOST_AUTO_TEST_CASE( test_main )
   test_exclusive_scan_init();
   test_exclusive_scan_init_op();
 }
-

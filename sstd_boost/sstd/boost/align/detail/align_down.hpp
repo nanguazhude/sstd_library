@@ -26,4 +26,3 @@ align_down(void* ptr, std::size_t alignment) BOOST_NOEXCEPT
 } /* boost */
 
 #endif
-

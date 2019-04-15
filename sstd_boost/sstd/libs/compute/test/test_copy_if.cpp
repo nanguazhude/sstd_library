@@ -117,4 +117,3 @@ BOOST_AUTO_TEST_CASE(copy_index_if_int)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

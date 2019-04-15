@@ -271,4 +271,3 @@ namespace boost_concepts
 #include <sstd/boost/concept/detail/concept_undef.hpp>
 
 #endif // BOOST_ITERATOR_CONCEPTS_HPP
-

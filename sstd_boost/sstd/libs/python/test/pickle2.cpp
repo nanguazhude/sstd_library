@@ -95,4 +95,3 @@ BOOST_PYTHON_MODULE(pickle2_ext)
         .def_pickle(world_pickle_suite())
         ;
 }
-

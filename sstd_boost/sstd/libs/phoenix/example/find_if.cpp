@@ -26,4 +26,3 @@ main()
         std::cout << *it << std::endl;    //  if found, print the result
     return 0;
 }
-

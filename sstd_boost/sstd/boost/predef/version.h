@@ -13,4 +13,3 @@ http://www.boost.org/LICENSE_1_0.txt)
 #define BOOST_PREDEF_VERSION BOOST_VERSION_NUMBER(1,9,0)
 
 #endif
-

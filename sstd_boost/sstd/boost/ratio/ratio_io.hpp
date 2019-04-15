@@ -1074,4 +1074,3 @@ struct ratio_string<exbi, wchar_t>
 
 #endif  // BOOST_RATIO_PROVIDES_DEPRECATED_FEATURES_SINCE_V2_0_0
 #endif  // BOOST_RATIO_RATIO_IO_HPP
-

@@ -41,4 +41,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_GRAPH_PROFILE_HPP
-

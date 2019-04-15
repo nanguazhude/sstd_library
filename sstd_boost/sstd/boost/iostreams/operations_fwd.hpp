@@ -39,4 +39,3 @@ struct operations : detail::custom_tag { };
 } } // End namespaces iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_OPERATIONS_FWD_HPP_INCLUDED //--------------//
-

@@ -37,4 +37,3 @@ int main( int argc, char * argv[] )
   std::cout << (eq ? "Paths are equivalent\n" : "Paths are not equivalent\n");
   return !eq;
 }
-

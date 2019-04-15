@@ -24,5 +24,3 @@ struct unprotected_commas {
 } } } } // namespace
 
 #endif // #include guard
-
-

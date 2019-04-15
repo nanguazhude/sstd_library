@@ -59,4 +59,3 @@ void foo(char *&)                   //R void foo(char *&)
 void foo(CHAR()AND()COMMA() CHAR()) //R void foo(char&, char)
 void foo(CHAR() STAR())             //R void foo(char *)
 void foo(CHAR() STAR()AND())        //R void foo(char *&)
-

@@ -94,5 +94,3 @@ BOOST_METAPARSE_TEST_CASE(nth_of)
     is_error<apply_wrap2<nth_of_c<1, lit_h, lit_e, lit_x>, str_hello, start> >
   ));
 }
-
-

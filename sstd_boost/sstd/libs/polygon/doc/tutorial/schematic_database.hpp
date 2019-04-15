@@ -56,4 +56,3 @@ inline void parse_schematic_database(schematic_database& schematic,
 }
 
 #endif
-

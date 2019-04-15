@@ -282,7 +282,3 @@ class associative_container_adaptor :
 
 
 #endif // BOOST_BIMAP_CONTAINER_ADAPTOR_ASSOCIATIVE_CONTAINER_ADAPTOR_HPP
-
-
-
-

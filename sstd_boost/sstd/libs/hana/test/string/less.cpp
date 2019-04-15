@@ -63,4 +63,3 @@ int main() {
         BOOST_HANA_STRING("abcd") >= BOOST_HANA_STRING("abc")
     );
 }
-

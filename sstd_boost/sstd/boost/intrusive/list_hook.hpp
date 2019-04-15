@@ -287,4 +287,3 @@ class list_member_hook
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_LIST_HOOK_HPP
-

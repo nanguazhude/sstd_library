@@ -17,5 +17,3 @@ namespace lib
 }
 int x = lib::f(lib::_name = "jill", lib::_index = 1);
 int main() {}
-
-

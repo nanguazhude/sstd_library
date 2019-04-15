@@ -7,4 +7,3 @@
 // http://www.boost.org/LICENSE_1_0.txt)
 
 int test[sizeof(void*) == 8? 1 : -1];
-

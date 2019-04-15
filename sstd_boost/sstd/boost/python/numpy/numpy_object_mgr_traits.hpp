@@ -35,5 +35,3 @@ struct BOOST_NUMPY_DECL object_manager_traits<manager>			\
 }
 
 #endif
-
-

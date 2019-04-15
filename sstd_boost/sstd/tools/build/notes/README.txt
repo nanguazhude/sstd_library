@@ -6,4 +6,3 @@ Distributed under the Boost Software License, Version 1.0.
 This directory contains various development notes. Some of them
 may eventually find the way into documentation, so are purely
 implementation comments.
-

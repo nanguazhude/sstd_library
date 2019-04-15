@@ -98,4 +98,3 @@ int main()
 }
 
 #endif//#if !defined(BOOST_INTERPROCESS_MAPPED_FILES)
-

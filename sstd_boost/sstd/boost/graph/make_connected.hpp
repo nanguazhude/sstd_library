@@ -97,4 +97,3 @@ namespace boost
 } // namespace boost
 
 #endif //__MAKE_CONNECTED_HPP__
-

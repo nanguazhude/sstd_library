@@ -248,4 +248,3 @@ BEAST_DEFINE_TESTSUITE(beast,core,buffered_read_stream);
 
 } // beast
 } // boost
-

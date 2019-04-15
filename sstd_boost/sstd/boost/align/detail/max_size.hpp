@@ -24,4 +24,3 @@ struct max_size
 } /* boost */
 
 #endif
-

@@ -51,4 +51,3 @@ struct pmd<D T::*> : default_callable_traits<> {
 }}} // namespace boost::callable_traits::detail
 
 #endif
-

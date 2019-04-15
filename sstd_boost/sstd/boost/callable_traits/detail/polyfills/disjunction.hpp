@@ -29,4 +29,3 @@ struct disjunction<T, Ts...>
 }}} // namespace boost::callable_traits::detail
 
 #endif // #ifndef BOOST_CLBL_TRTS_DETAIL_POLYFILLS_DISJUNCTION_HPP
-

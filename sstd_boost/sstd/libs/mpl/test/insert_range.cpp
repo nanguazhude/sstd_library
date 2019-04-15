@@ -71,4 +71,3 @@ MPL_TEST_CASE()
             > pointers_to_const;
     test_associative<pointers, pointers_to_const>();
 }
-

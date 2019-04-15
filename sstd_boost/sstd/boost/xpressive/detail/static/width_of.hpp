@@ -268,4 +268,3 @@ namespace boost { namespace xpressive { namespace detail
 #undef UNREF
 
 #endif
-

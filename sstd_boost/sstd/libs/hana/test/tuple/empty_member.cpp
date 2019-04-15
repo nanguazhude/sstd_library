@@ -31,4 +31,3 @@ int main() {
         static_assert(sizeof(T) == sizeof(int), "");
     }
 }
-

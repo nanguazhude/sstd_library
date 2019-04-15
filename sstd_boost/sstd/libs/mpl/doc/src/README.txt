@@ -43,4 +43,3 @@ Building
 .. _HTML/frames writer: http://docutils.sourceforge.net/sandbox/agurtovoy/html_frames/
 .. _Sandbox snapshot: http://docutils.sourceforge.net/docutils-sandbox-snapshot.tgz
 .. _Docutils' Subversion repository: http://docutils.sourceforge.net/docs/dev/repository.html
-

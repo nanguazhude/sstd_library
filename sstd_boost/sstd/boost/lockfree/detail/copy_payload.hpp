@@ -81,4 +81,3 @@ struct consume_noop
 #endif
 
 #endif  /* BOOST_LOCKFREE_DETAIL_COPY_PAYLOAD_HPP_INCLUDED */
-

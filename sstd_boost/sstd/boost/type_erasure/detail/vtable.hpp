@@ -304,4 +304,3 @@ struct make_vtable_init_impl<N>
 #undef N
 
 #endif
-

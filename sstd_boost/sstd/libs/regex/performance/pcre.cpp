@@ -93,4 +93,3 @@ std::string pcre_regex::name()
 }
 
 #endif
-

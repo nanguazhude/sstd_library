@@ -284,4 +284,3 @@ int main()
     binary_search_test();
     return boost::report_errors();
 }
-

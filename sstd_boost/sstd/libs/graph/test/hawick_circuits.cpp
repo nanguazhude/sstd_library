@@ -30,4 +30,3 @@ int main() {
     std::cout << "\n\n---------hawick_unique_circuits---------\n";
     cycle_test(call_hawick_unique_circuits());
 }
-

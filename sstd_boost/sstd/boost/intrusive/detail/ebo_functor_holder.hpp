@@ -290,4 +290,3 @@ class ebo_functor_holder<T, false>
 }  //namespace boost {
 
 #endif   //#ifndef BOOST_INTRUSIVE_DETAIL_EBO_HOLDER_HPP
-

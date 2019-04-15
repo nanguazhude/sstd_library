@@ -68,5 +68,3 @@ private:
 
 #endif // #include guard
 //]
-
-

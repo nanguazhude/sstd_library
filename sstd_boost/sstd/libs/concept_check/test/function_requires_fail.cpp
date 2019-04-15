@@ -24,4 +24,3 @@ main()
     boost::function_requires< boost::EqualityComparable<foo> >();
     return 0;
 }
-

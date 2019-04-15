@@ -82,4 +82,3 @@ extern GC_bool GC_in_thread_creation;
 
 #endif /* GC_PTHREADS && !GC_SOLARIS_THREADS.... etc */
 #endif /* GC_PTHREAD_SUPPORT_H */
-

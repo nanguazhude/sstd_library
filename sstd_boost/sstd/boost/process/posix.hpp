@@ -73,4 +73,3 @@ using ::boost::process::detail::posix::sighandler_t;
 }}}
 
 #endif /* BOOST_PROCESS_POSIX_HPP_ */
-

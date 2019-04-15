@@ -27,4 +27,3 @@ int main() {
 
     hana::test::TestOrderable<hana::ext::std::array_tag>{int_arrays};
 }
-

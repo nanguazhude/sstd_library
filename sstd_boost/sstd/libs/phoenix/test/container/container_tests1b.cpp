@@ -48,5 +48,3 @@ main()
     test_max_size(data);
     return boost::report_errors();
 }
-
-

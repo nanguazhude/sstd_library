@@ -265,4 +265,3 @@ namespace erase_tests {
 }
 
 RUN_TESTS()
-

@@ -315,4 +315,3 @@ namespace boost { namespace numeric { namespace ublas {
 }}}
 
 #endif
-

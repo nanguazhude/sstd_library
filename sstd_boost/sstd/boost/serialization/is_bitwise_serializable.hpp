@@ -44,4 +44,3 @@ struct is_bitwise_serializable< T > : mpl::true_ {};  \
 /**/
 
 #endif //BOOST_SERIALIZATION_IS_BITWISE_SERIALIZABLE_HPP
-

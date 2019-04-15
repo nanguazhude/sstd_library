@@ -146,4 +146,3 @@ struct iequal
 } // boost
 
 #endif
-

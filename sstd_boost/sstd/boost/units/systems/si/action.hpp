@@ -29,4 +29,3 @@ typedef unit<action_dimension,si::system>    action;
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_ACTION_HPP
-

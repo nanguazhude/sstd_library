@@ -109,5 +109,3 @@ enable_testing()
 add_subdirectory("include/boost/safe_numerics")
 add_subdirectory("example")
 add_subdirectory("test")
-
-

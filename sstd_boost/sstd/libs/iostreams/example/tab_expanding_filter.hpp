@@ -153,4 +153,3 @@ private:
 } } } // End namespaces example, iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_TAB_EXPANDING_FILTER_HPP_INCLUDED
-

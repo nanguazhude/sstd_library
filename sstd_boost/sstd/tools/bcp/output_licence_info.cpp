@@ -408,4 +408,3 @@ void bcp_implementation::output_license_info()
    }
 
 }
-

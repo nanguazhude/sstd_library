@@ -472,4 +472,3 @@ future< void >::share() {
 }}
 
 #endif
-

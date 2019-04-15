@@ -175,5 +175,3 @@ void test_operators()
 }
 
 #endif
-
-

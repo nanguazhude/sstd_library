@@ -382,4 +382,3 @@ inline polynomial mod_pow_x(boost::uintmax_t exponent, polynomial mod)
 }
 
 #endif // BOOST_RANDOM_DETAIL_POLYNOMIAL_HPP
-

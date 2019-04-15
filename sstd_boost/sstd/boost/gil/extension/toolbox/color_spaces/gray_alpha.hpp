@@ -91,4 +91,3 @@ struct default_color_converter_impl<gray_alpha_t,gray_t> {
 } // namespace boost
 
 #endif
-

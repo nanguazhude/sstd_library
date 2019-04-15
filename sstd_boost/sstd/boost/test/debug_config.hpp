@@ -22,4 +22,3 @@
 // #define BOOST_TEST_STAT_LINE_MAX
 
 #endif
-

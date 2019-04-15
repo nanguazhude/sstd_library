@@ -162,4 +162,3 @@ int main(int /* argc */, char * /*argv*/[])
     // as smart_ptr goes out of scope
     return 0;
 }
-

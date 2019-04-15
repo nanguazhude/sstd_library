@@ -9,5 +9,3 @@
 // Definitions of section 8.1
 
 #endif
-
-

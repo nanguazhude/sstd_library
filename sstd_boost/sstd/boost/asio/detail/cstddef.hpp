@@ -31,4 +31,3 @@ struct nullptr_t {};
 } // namespace boost
 
 #endif // BOOST_ASIO_DETAIL_CSTDDEF_HPP
-

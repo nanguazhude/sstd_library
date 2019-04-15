@@ -325,4 +325,3 @@ int main(void)
     svg_convex_hull_cities();
     return 0;
 }
-

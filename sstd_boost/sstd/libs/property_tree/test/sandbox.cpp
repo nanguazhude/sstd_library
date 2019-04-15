@@ -20,4 +20,3 @@ int main()
     read_xml("simple_all.xml", pt);
     write_info(std::cout, pt);
 }
-

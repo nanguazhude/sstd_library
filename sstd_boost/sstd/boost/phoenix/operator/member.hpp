@@ -96,4 +96,3 @@ namespace boost { namespace phoenix
 #include <sstd/boost/phoenix/operator/detail/undef_operator.hpp>
 
 #endif
-

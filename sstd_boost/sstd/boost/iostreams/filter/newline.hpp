@@ -439,4 +439,3 @@ BOOST_IOSTREAMS_PIPABLE(newline_checker, 0)
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>
 
 #endif // #ifndef BOOST_IOSTREAMS_NEWLINE_FILTER_HPP_INCLUDED
-

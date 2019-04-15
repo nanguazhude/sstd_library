@@ -154,4 +154,3 @@ BOOST_THREAD_DECL boost::detail::win32::detail::gettickcount64_t gettickcount64 
 } // namespace win32
 } // namespace detail
 } // namespace boost
-

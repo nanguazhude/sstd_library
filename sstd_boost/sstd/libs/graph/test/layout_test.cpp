@@ -368,4 +368,3 @@ int test_main(int, char*[])
   test_disconnected((Graph*)0);
   return 0;
 }
-

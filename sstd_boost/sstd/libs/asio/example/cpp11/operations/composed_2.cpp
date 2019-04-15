@@ -146,4 +146,3 @@ int main()
   test_callback();
   test_future();
 }
-

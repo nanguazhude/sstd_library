@@ -30,4 +30,3 @@ void compile_and_link_test()
    check_result<long double>(boost::math::laguerre<long double, def_pol>(u, u, l, p));
 #endif
 }
-

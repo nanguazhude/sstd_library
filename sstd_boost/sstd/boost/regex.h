@@ -94,8 +94,3 @@ using boost::reg_errcode_t;
 #endif /* __cplusplus */
 
 #endif /* BOOST_RE_REGEX_H */
-
-
-
-
-

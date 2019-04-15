@@ -219,5 +219,3 @@ BOOST_AUTO_TEST_CASE(test_swap)
     BOOST_CHECK(t.get_id()==id1);
     BOOST_CHECK(t2.get_id()==id2);
 }
-
-

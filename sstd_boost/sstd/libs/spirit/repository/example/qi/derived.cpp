@@ -156,4 +156,3 @@ main()
     std::for_each(result.begin(),result.end(),phx::delete_(arg1));
     return 0;
 }
-

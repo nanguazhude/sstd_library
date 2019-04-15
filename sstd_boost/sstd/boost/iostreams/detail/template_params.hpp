@@ -24,4 +24,3 @@
     /**/
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_BUFFERS_HPP_INCLUDED
-

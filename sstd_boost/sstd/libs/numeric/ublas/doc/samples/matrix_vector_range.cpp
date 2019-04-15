@@ -24,5 +24,3 @@ int main () {
     matrix_vector_range<matrix<double> > mvr (m, range (0, 3), range (0, 3));
     std::cout << mvr << std::endl;
 }
-
-

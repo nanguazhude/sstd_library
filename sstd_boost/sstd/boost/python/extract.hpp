@@ -257,4 +257,3 @@ namespace converter
 }} // namespace boost::python::converter
 
 #endif // EXTRACT_DWA200265_HPP
-

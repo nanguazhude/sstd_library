@@ -163,4 +163,3 @@ struct lattice2d {
 };
 
 #endif
-

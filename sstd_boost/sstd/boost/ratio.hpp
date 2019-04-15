@@ -12,4 +12,3 @@
 #include <sstd/boost/ratio/include.hpp>
 
 #endif  // BOOST_RATIO_HPP
-

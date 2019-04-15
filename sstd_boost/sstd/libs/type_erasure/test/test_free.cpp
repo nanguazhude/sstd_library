@@ -144,4 +144,3 @@ BOOST_AUTO_TEST_CASE(test_named_free_1) {
 }
 
 #endif
-

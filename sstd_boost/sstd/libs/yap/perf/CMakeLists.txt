@@ -53,4 +53,3 @@ add_custom_target(perf
 
     DEPENDS ${disassemble_dump_targets}
 )
-

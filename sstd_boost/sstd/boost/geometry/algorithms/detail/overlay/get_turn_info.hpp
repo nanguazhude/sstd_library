@@ -1141,4 +1141,3 @@ struct get_turn_info
 #endif
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_GET_TURN_INFO_HPP
-

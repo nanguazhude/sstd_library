@@ -65,4 +65,3 @@ BOOST_TT_AUX_TYPE_TRAIT_DEF1(add_rvalue_reference,T,typename boost_ex::type_trai
 #include <sstd/boost/type_traits/detail/type_trait_undef.hpp>
 
 #endif  // BOOST_EX_TYPE_TRAITS_EXT_ADD_RVALUE_REFERENCE__HPP
-

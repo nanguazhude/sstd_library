@@ -2766,4 +2766,3 @@ struct BOOST_HANA_ADAPT_ADT_must_be_called_in_the_global_namespace;
 
 
 #endif // !BOOST_HANA_DETAIL_STRUCT_MACROS_HPP
-

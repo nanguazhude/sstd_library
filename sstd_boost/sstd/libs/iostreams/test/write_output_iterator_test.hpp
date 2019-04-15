@@ -83,4 +83,3 @@ void write_output_iterator_test()
 }
 
 #endif // #ifndef BOOST_IOSTREAMS_TEST_WRITE_OUTPUT_ITERATOR_HPP_INCLUDED
-

@@ -39,4 +39,3 @@ struct reduce_unit {
 }
 
 #endif
-

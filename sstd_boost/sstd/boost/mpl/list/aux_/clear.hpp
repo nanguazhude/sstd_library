@@ -32,4 +32,3 @@ struct clear_impl< aux::list_tag >
 }}
 
 #endif // BOOST_MPL_LIST_AUX_CLEAR_HPP_INCLUDED
-

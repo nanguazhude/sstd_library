@@ -377,4 +377,3 @@ BOOST_AUTO_TEST_CASE( validate_niederreiter_base2_discard )
   test_niederreiter_base2_discard(niederreiter_base2_07_100, 4095);
   test_niederreiter_base2_discard(niederreiter_base2_16_100, 4095);
 }
-

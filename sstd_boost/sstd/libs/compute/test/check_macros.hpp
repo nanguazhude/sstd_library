@@ -82,4 +82,3 @@ equal_close_impl(Left left_begin,
     }
 
 #endif // BOOST_COMPUTE_TEST_CHECK_MACROS_HPP
-

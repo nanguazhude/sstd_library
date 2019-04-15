@@ -215,4 +215,3 @@ int main()
    generate_html();
    return 0;
 }
-

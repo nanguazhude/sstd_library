@@ -491,4 +491,3 @@ composite_device<Filter, Device, Mode>::optimal_buffer_size() const
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>
 
 #endif // #ifndef BOOST_IOSTREAMS_COMPOSE_HPP_INCLUDED
-

@@ -399,4 +399,3 @@ BOOST_AUTO_TEST_CASE(build_with_source_file_exception)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

@@ -16,4 +16,3 @@ int main()
   test_multictor();
   return boost::report_errors();
 }
-

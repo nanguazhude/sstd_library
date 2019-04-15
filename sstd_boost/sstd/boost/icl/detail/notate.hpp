@@ -31,6 +31,3 @@ namespace boost{namespace icl
 
 
 #endif // BOOST_ICL_DETAIL_NOTATE_HPP_JOFA_990119
-
-
-

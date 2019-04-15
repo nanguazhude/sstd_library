@@ -48,4 +48,3 @@
 #endif
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_CONFIG_ZLIB_HPP_INCLUDED
-

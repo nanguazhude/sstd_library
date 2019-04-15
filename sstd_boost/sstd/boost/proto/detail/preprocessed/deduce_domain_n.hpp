@@ -117,4 +117,3 @@
             typename domain_of<E0 >::type , typename domain_of<E1 >::type , typename domain_of<E2 >::type , typename domain_of<E3 >::type , typename domain_of<E4 >::type , typename domain_of<E5 >::type , typename domain_of<E6 >::type , typename domain_of<E7 >::type , typename domain_of<E8 >::type , typename domain_of<E9 >::type
         >
     {};
-

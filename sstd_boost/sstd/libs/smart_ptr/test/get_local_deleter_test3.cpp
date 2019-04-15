@@ -57,4 +57,3 @@ struct deleter2
 };
 
 #endif
-

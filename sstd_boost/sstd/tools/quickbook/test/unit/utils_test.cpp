@@ -65,4 +65,3 @@ int main()
     escape_uri_test();
     return boost::report_errors();
 }
-

@@ -229,4 +229,3 @@ struct default_strategy<geographic_tag>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_GEOGRAPHIC_AREA_HPP
-

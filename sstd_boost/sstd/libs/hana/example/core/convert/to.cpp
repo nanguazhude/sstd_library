@@ -35,4 +35,3 @@ int main() {
         hana::to<hana::tuple_tag>(triple(1, '2', 3.3)) == hana::make_tuple(1, '2', 3.3)
     );
 }
-

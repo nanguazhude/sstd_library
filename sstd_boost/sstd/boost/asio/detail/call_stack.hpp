@@ -125,4 +125,3 @@ call_stack<Key, Value>::top_;
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_CALL_STACK_HPP
-

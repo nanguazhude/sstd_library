@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_ESCAPE_CHAR_FWD
 #include <sstd/boost/spirit/home/classic/utility/escape_char_fwd.hpp>
 #endif
-

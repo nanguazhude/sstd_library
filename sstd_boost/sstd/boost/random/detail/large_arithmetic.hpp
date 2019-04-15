@@ -120,4 +120,3 @@ inline boost::uintmax_t mulmod(boost::uintmax_t a, boost::uintmax_t b, boost::ui
 #include <sstd/boost/random/detail/enable_warnings.hpp>
 
 #endif // BOOST_RANDOM_DETAIL_LARGE_ARITHMETIC_HPP
-

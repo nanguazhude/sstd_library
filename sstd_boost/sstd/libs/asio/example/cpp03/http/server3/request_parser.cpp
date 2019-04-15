@@ -313,4 +313,3 @@ bool request_parser::is_digit(int c)
 
 } // namespace server3
 } // namespace http
-

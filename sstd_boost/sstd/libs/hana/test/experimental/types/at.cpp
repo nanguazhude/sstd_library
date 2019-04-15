@@ -78,4 +78,3 @@ int main() {
         hana::type_c<x<4>>
     ));
 }
-

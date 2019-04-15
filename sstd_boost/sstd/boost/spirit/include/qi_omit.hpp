@@ -16,4 +16,3 @@
 #include <sstd/boost/spirit/home/qi/directive/omit.hpp>
 
 #endif
-

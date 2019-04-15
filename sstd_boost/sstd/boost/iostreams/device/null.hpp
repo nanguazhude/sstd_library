@@ -64,4 +64,3 @@ typedef basic_null_sink<wchar_t>  wnull_sink;
 } } // End namespaces iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_NULL_HPP_INCLUDED
-

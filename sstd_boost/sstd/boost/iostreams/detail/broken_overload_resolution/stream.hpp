@@ -182,4 +182,3 @@ private:
 } } // End namespaces iostreams, boost.
 
 #endif BOOST_IOSTREAMS_DETAIL_BROKEN_OVERLOAD_RESOLUTION_STREAM_HPP_INCLUDED
-

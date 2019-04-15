@@ -180,4 +180,3 @@ BOOST_FORCEINLINE HANDLE_ create_anonymous_mutex(SECURITY_ATTRIBUTES_* lpAttribu
 }
 
 #endif // BOOST_WINAPI_MUTEX_HPP_INCLUDED_
-

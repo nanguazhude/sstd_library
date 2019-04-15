@@ -30,4 +30,3 @@
 #endif
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_ENABLE_IF_STREAM_HPP_INCLUDED
-

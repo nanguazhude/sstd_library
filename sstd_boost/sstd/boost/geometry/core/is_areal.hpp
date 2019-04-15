@@ -57,4 +57,3 @@ struct is_areal : core_dispatch::is_areal<typename tag<Geometry>::type>
 
 
 #endif // BOOST_GEOMETRY_CORE_IS_AREAL_HPP
-

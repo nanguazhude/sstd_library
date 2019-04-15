@@ -22,4 +22,3 @@
 #include <sstd/boost/geometry/algorithms/detail/distance/implementation.hpp>
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_COMPARABLE_DISTANCE_IMPLEMENTATION_HPP
-

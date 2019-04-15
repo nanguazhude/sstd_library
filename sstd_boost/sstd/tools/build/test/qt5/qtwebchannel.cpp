@@ -27,4 +27,3 @@ BOOST_AUTO_TEST_CASE( webchannel )
     QObject dummy;
     channel.registerObject(QStringLiteral("dummy"), &dummy);
 }
-

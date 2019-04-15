@@ -16,4 +16,3 @@ BOOST_AUTO_TEST_CASE(unsupported_extension_error_what)
     boost::compute::unsupported_extension_error error("CL_DUMMY_EXTENSION");
     BOOST_CHECK_EQUAL(std::string(error.what()), std::string("OpenCL extension CL_DUMMY_EXTENSION not supported"));
 }
-

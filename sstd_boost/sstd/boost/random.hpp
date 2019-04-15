@@ -89,4 +89,3 @@
 #include <sstd/boost/random/generate_canonical.hpp>
 
 #endif // BOOST_RANDOM_HPP
-

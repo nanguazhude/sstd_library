@@ -928,5 +928,3 @@ struct parameters
 } // namespace boost
 
 #endif // BOOST_PARAMETERS_031014_HPP
-
-

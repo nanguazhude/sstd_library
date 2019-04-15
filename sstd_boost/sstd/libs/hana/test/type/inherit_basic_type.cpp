@@ -15,4 +15,3 @@ static_assert(std::is_base_of<hana::basic_type<T>, decltype(hana::type_c<T>)>{},
 static_assert(std::is_base_of<hana::basic_type<T>, hana::type<T>>{}, "");
 
 int main() { }
-

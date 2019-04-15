@@ -352,4 +352,3 @@ typedef void* native_handle_t;
 
 
 #endif /* BOOST_PROCESS_DETAIL_WINDOWS_ENV_STORAGE_HPP_ */
-

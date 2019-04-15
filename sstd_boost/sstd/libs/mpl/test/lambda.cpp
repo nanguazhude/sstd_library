@@ -76,4 +76,3 @@ MPL_TEST_CASE()
 
     MPL_ASSERT(( apply_wrap1< f,int_<3> > ));
 }
-

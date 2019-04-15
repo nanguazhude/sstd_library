@@ -112,4 +112,3 @@ namespace boost
 #endif // !defined(BOOST_RANGE_MFC_NO_CPAIR)
 
 #endif
-

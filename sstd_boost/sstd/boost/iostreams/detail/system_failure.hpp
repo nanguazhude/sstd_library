@@ -82,4 +82,3 @@ inline void throw_system_failure(const std::string& msg)
 } } } // End namespaces detail, iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_SYSTEM_FAILURE_HPP_INCLUDED
-

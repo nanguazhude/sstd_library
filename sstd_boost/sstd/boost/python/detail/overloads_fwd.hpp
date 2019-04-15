@@ -16,4 +16,3 @@ inline void define_with_defaults(char const* name, OverloadsT const&, NameSpaceT
 }}} // namespace boost::python::detail
 
 #endif // OVERLOADS_FWD_DWA2002101_HPP
-

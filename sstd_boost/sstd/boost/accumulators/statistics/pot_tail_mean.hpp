@@ -209,4 +209,3 @@ struct feature_of<tag::weighted_pot_tail_mean_prob<LeftRight> >
 }} // namespace boost::accumulators
 
 #endif
-

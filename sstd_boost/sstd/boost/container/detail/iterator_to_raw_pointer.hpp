@@ -31,4 +31,3 @@ using ::boost::movelib::iterator_to_raw_pointer;
 }  //namespace boost {
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_ITERATOR_TO_RAW_POINTER_HPP
-

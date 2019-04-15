@@ -80,4 +80,3 @@ public:
 } // namespace boost
 
 #endif // BOOST_RANDOM_UNIFORM_REAL_HPP
-

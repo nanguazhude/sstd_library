@@ -177,6 +177,3 @@ namespace client { namespace parser
             annotation_function(error_handler.iters)(_val, _1));
     }
 }}
-
-
-

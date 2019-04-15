@@ -16,5 +16,3 @@ void another() {
   std::cout << t2-t1 << std::endl;
   return ;
 }
-
-

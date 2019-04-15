@@ -164,4 +164,3 @@ template <class T> struct is_enum : public integral_constant<bool, BOOST_IS_ENUM
 } // namespace boost
 
 #endif // BOOST_TT_IS_ENUM_HPP_INCLUDED
-

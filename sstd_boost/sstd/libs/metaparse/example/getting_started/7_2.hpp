@@ -32,5 +32,3 @@ using exp_parser14 =
 //    exp_parser14::apply<BOOST_METAPARSE_STRING("1 + 2 * 3")>::type
 
 #endif
-
-

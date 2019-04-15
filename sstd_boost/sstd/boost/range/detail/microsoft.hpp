@@ -930,4 +930,3 @@ namespace boost { namespace range_detail_microsoft {
 
 
 #endif
-

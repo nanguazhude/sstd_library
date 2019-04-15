@@ -21,4 +21,3 @@ BOOST_AUTO_TEST_CASE(test_bitwise)
   BOOST_TEST( a == b, tt::bitwise() );
 }
 //]
-

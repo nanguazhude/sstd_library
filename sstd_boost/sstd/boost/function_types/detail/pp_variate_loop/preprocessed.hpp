@@ -281,4 +281,3 @@
 # endif
 # undef BOOST_FT_syntax
 # undef BOOST_FT_mfp
-

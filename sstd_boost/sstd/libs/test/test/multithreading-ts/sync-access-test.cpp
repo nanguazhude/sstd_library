@@ -55,4 +55,3 @@ BOOST_AUTO_TEST_CASE( test_multiple_assertion_faults)
 }
 
 // EOF
-

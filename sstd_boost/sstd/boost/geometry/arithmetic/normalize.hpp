@@ -69,4 +69,3 @@ inline bool vec_normalize(Point & pt)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ARITHMETIC_NORMALIZE_HPP
-

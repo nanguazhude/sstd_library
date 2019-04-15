@@ -17,4 +17,3 @@
 # define BOOST_PP_SEQ_PUSH_BACK(seq, elem) seq(elem)
 #
 # endif
-

@@ -30,5 +30,3 @@ BOOST_METAPARSE_TEST_CASE(BOOST_PP_CAT(TEST_NAME, _except))
 }
 
 #include "one_char_test.hpp"
-
-

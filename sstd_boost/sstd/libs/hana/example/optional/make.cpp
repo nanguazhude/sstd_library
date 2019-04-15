@@ -18,4 +18,3 @@ int main() {
     static_assert(just_x == hana::make_optional('x'), "");
     BOOST_HANA_CONSTANT_CHECK(hana::is_just(just_x));
 }
-

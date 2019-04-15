@@ -20,4 +20,3 @@ int main()
     oss << std::hex;
     std::for_each(data.begin(),data.end(), static_cast_<unsigned int>(_1) );
 }
-

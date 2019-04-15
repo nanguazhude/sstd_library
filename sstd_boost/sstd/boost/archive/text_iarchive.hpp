@@ -130,4 +130,3 @@ BOOST_SERIALIZATION_REGISTER_ARCHIVE(boost::archive::text_iarchive)
 #endif
 
 #endif // BOOST_ARCHIVE_TEXT_IARCHIVE_HPP
-

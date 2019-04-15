@@ -1607,5 +1607,3 @@ void IOHBTerminate(const char* message)
    fprintf(stderr,"%s",message);
    exit(1);
 }
-
-

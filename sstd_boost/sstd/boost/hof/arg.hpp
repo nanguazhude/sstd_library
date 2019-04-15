@@ -124,4 +124,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(arg, detail::arg_f);
 }} // namespace boost::hof
 
 #endif
-

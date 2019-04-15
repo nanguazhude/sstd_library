@@ -187,5 +187,3 @@ void test_spots(T, const char* type_name)
     BOOST_CHECK_CLOSE_FRACTION(boost::math::jacobi_sn(T(0.5), T(0.5), pol), static_cast<T>(0.475082936028536510082218324703870258745078171807428948028252L), tol);
 
 }
-
-

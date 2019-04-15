@@ -429,6 +429,3 @@ typedef int              locale_t;                     // locale_t is a POSIX-ex
 #else
 #  define BOOST_ASIO_DISABLE_SERIAL_PORT
 #endif
-
-
-

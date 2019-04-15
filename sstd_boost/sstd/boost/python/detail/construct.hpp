@@ -34,4 +34,3 @@ void construct_referent(void* storage, Arg& x, T(*tag)() = 0)
 }}} // namespace boost::python::detail
 
 #endif // CONSTRUCT_REFERENCE_DWA2002716_HPP
-

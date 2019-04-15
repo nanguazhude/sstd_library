@@ -96,4 +96,3 @@ template< typename Set, typename Tail > struct s_iter
 }}
 
 #endif // BOOST_MPL_SET_AUX_ITERATOR_HPP_INCLUDED
-

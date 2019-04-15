@@ -123,5 +123,3 @@ namespace detail {
 } // namespace detail
 
 } } // namespace ::boost::function_types
-
-

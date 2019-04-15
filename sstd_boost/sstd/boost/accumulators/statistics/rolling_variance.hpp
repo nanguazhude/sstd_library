@@ -245,4 +245,3 @@ struct feature_of<tag::immediate_rolling_variance>
 }} // namespace boost::accumulators
 
 #endif
-

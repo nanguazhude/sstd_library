@@ -530,4 +530,3 @@ public:
 } /* namespace boost */
 
 #endif /* BOOST_HEAP_DETAIL_MUTABLE_HEAP_HPP */
-

@@ -76,4 +76,3 @@ T max_abs( T t1 , T t2 )
 } } } }
 
 #endif
-

@@ -1394,5 +1394,3 @@ Disable Contract Compilation}).
 #endif
 
 #endif // #include guard
-
-

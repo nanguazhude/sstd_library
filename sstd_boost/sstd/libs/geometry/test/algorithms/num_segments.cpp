@@ -289,4 +289,3 @@ BOOST_AUTO_TEST_CASE( test_variant )
     variant_geometry = p_closed;
     tester::apply(variant_geometry, 4);
 }
-

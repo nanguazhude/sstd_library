@@ -362,22 +362,3 @@ inline bool regex_match(const std::basic_string<wchar_t>& s,
 } // namespace boost
 
 #endif   // BOOST_REGEX_MATCH_HPP
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

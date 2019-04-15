@@ -42,5 +42,3 @@ namespace boost { namespace fusion
 
 #undef BOOST_FUSION_CLASS_TPL_NAME
 #undef BOOST_FUSION_FUNC_NAME
-
-

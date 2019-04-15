@@ -19,4 +19,3 @@
 #include <sstd/boost/mpl/not.hpp>
 
 #endif // BOOST_MPL_LOGICAL_HPP_INCLUDED
-

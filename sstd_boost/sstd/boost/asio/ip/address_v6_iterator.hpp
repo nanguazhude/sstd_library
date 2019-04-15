@@ -183,4 +183,3 @@ typedef basic_address_iterator<address_v6> address_v6_iterator;
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IP_ADDRESS_V6_ITERATOR_HPP
-

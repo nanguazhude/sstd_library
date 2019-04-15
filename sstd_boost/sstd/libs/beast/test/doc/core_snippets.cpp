@@ -66,4 +66,3 @@ void write_string(SyncWriteStream& stream, string_view s)
 //]
 
 } // doc_core_snippets
-

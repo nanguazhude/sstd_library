@@ -27,4 +27,3 @@
 #define BOOST_RANDOM_ARG2_DISTRIBUTION(lambda) boost::uniform_real<>(0.00001, lambda)
 
 #include "test_real_distribution.ipp"
-

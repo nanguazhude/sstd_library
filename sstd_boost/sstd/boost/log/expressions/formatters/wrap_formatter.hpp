@@ -340,4 +340,3 @@ struct is_nullary< custom_terminal< boost::log::expressions::wrapped_formatter_t
 #include <sstd/boost/log/detail/footer.hpp>
 
 #endif // BOOST_LOG_EXPRESSIONS_FORMATTERS_WRAP_FORMATTER_HPP_INCLUDED_
-

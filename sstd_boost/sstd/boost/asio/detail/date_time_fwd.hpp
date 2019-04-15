@@ -32,4 +32,3 @@ class ptime;
 } // namespace boost
 
 #endif // BOOST_ASIO_DETAIL_DATE_TIME_FWD_HPP
-

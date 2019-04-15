@@ -948,4 +948,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_GRAPH_LEDA_HPP
-

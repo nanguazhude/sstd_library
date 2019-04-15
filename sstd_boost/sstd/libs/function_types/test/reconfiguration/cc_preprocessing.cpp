@@ -8,5 +8,3 @@
 
 #define BOOST_FT_CC_PREPROCESSING 1
 #include "simple_test.hpp"
-
-

@@ -26,4 +26,3 @@ void register_exception_translator(Translate translate, boost::type<ExceptionTyp
 }} // namespace boost::python
 
 #endif // EXCEPTION_TRANSLATOR_DWA2002810_HPP
-

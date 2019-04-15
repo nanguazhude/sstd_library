@@ -47,4 +47,3 @@ BOOST_UNITS_STATIC_CONSTANT(pascals,pressure);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_PRESSURE_HPP
-

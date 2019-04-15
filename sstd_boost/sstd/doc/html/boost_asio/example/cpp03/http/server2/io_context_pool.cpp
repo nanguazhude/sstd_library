@@ -68,4 +68,3 @@ boost::asio::io_context& io_context_pool::get_io_context()
 
 } // namespace server2
 } // namespace http
-

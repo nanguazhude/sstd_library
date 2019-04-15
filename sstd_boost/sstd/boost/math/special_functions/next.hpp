@@ -855,5 +855,3 @@ inline typename tools::promote_args<T>::type float_advance(const T& val, int dis
 }} // boost math namespaces
 
 #endif // BOOST_MATH_SPECIAL_NEXT_HPP
-
-

@@ -71,5 +71,3 @@ inline bool pop_context_match(match_state<BidiIter> &state)
 }}} // namespace boost::xpressive::detail
 
 #endif
-
-

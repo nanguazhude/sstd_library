@@ -28,4 +28,3 @@ typedef derived_dimension<length_base_dimension,1,
 } // namespace boost
 
 #endif // BOOST_UNITS_ACCELERATION_DERIVED_DIMENSION_HPP
-

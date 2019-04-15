@@ -330,5 +330,3 @@ const T& get_constant_one_over_epsilon()
 
    return result;
 }
-
-

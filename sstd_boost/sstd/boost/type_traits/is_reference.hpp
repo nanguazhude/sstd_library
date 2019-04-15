@@ -27,5 +27,3 @@ template <class T> struct is_reference
 } // namespace boost
 
 #endif // BOOST_TT_IS_REFERENCE_HPP_INCLUDED
-
-

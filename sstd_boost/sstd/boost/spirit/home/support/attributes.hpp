@@ -1402,4 +1402,3 @@ namespace boost { namespace spirit { namespace result_of
 
 
 #endif
-

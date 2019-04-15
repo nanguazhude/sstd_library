@@ -38,4 +38,3 @@ struct get_mem_fn_type<const volatile Class, Return(Args...)> {
 
 
 #endif /* BOOST_DLL_SMART_LIBRARY_HPP_ */
-

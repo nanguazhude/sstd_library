@@ -119,4 +119,3 @@ int main() {
     assert_not_cv_qualified<int foo::*>();
     assert_not_cv_qualified<void(&)()>();
 }
-

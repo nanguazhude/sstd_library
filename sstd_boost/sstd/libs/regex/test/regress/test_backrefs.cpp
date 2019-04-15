@@ -104,5 +104,3 @@ void test_backrefs()
    TEST_REGEX_SEARCH("^(?'foo'.)\\g{foo}", perl, "abc", match_default, make_array(-2, -2));
    TEST_REGEX_SEARCH("a(?'foo'[bc])\\g{foo}d", perl, "abcdabbd", match_default, make_array(4, 8, 5, 6, -2, -2));
 }
-
-

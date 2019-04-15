@@ -1095,7 +1095,3 @@ inline typename tools::promote_args<T>::type zeta(T s)
 }} // namespaces
 
 #endif // BOOST_MATH_ZETA_HPP
-
-
-
-

@@ -441,4 +441,3 @@ struct insert_return_type_base
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //BOOST_CONTAINER_NODE_HANDLE_HPP
-

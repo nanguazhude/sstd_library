@@ -348,5 +348,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_GRAPH_CORE_NUMBERS_HPP
-
-

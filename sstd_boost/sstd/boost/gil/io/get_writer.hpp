@@ -119,4 +119,3 @@ struct get_dynamic_image_writer< Device
 } // namespace boost
 
 #endif
-

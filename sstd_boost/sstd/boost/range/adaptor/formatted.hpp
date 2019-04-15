@@ -227,4 +227,3 @@ format(const SinglePassRange& rng)
 } // namespace boost
 
 #endif // include guard
-

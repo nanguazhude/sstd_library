@@ -22,4 +22,3 @@ BOOST_AUTO_TEST_CASE(test_net,
   BOOST_TEST(true);
 }
 //]
-

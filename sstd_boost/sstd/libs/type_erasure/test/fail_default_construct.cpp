@@ -17,4 +17,3 @@ int main()
 {
     any<copy_constructible<> > y;
 }
-

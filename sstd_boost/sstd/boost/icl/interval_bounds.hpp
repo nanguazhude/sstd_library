@@ -77,5 +77,3 @@ private:
 }} // namespace icl boost
 
 #endif
-
-

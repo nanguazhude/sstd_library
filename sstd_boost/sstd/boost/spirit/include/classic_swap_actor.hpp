@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_SWAP_ACTOR
 #include <sstd/boost/spirit/home/classic/actor/swap_actor.hpp>
 #endif
-

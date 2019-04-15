@@ -194,4 +194,3 @@ inline bool posix_condition::do_timed_wait
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTERPROCESS_POSIX_CONDITION_HPP
-

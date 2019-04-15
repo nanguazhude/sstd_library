@@ -27,4 +27,3 @@
 
 
 #endif // BOOST_GEOMETRY_SRS_SRS_HPP
-

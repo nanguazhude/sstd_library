@@ -97,4 +97,3 @@ Now create the new ndarray using the shape and strides and print out the array w
   }
 
 .. note:: The from_data method will throw ``error_already_set`` if the number of elements dictated by the shape and the corresponding strides don't match.
-

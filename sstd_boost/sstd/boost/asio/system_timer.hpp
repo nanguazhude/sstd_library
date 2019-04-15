@@ -42,4 +42,3 @@ typedef basic_waitable_timer<chrono::system_clock> system_timer;
 #endif // defined(BOOST_ASIO_HAS_CHRONO) || defined(GENERATING_DOCUMENTATION)
 
 #endif // BOOST_ASIO_SYSTEM_TIMER_HPP
-

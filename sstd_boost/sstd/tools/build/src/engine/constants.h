@@ -73,4 +73,3 @@ extern OBJECT * constant_FILE_ARCHIVESCAN;          /* "FILE_ARCHIVESCAN" */
 extern OBJECT * constant_BUILTIN_GLOB_ARCHIVE_BACK; /* "BUILTIN_GLOB_ARCHIVE_BACK" */
 
 #endif
-

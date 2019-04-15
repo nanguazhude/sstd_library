@@ -184,4 +184,3 @@ void invoke_matching_array(ndarray const & array_, Function f)
 }}} // namespace boost::python::numpy
 
 #endif
-

@@ -6,4 +6,3 @@
 #include <sstd/boost/qvm/deduce_scalar.hpp>
 
 typedef boost::qvm::deduce_scalar<char,int>::type char_scalars_not_supported_use_signed_char_instead;
-

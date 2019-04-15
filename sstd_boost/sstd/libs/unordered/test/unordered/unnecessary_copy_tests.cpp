@@ -580,4 +580,3 @@ namespace unnecessary_copy_tests {
 }
 
 RUN_TESTS()
-

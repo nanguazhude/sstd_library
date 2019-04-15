@@ -469,4 +469,3 @@ void test_key_extractors()
     ++j;
   }
 }
-

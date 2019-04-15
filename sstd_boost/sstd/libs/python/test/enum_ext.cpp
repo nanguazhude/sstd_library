@@ -53,4 +53,3 @@ BOOST_PYTHON_MODULE(enum_ext)
 }
 
 #include "module_tail.cpp"
-

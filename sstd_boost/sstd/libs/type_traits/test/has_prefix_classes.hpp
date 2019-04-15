@@ -70,4 +70,3 @@ class C051 { C051(); public: C051(int) { } };
 ret  const & operator++(C051 const &) { return ret_val; }
 
 #endif
-

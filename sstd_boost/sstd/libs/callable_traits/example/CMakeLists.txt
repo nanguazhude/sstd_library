@@ -23,4 +23,3 @@ foreach(_file IN LISTS EXAMPLES)
     callable_traits_add_test(${_target} ${CMAKE_CURRENT_BINARY_DIR}/${_target})
     add_dependencies(examples ${_target})
 endforeach()
-

@@ -76,4 +76,3 @@ inline value_with_epsilon< T > approx(T value)
 }
 
 #endif // BOOST_ATOMIC_TESTS_VALUE_WITH_EPSILON_H_INCLUDED_
-

@@ -37,4 +37,3 @@ BOOST_AUTO_TEST_CASE(copy_with_identity_transform)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

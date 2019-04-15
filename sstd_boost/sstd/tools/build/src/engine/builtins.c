@@ -2713,4 +2713,3 @@ LIST * builtin_glob_archive( FRAME * frame, int flags )
 
     return globbing.results;
 }
-

@@ -98,4 +98,3 @@ int main() {
         hana::experimental::types<>{}
     ));
 }
-

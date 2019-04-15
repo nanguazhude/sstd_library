@@ -402,4 +402,3 @@ deflate_upper_bound(std::size_t bytes)
 } // boost
 
 #endif
-

@@ -172,4 +172,3 @@ int test_main(int, char* [])
     test_coordinate_type<double>();
     return 0;
 }
-

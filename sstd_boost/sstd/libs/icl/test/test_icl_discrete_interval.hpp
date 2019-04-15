@@ -96,4 +96,3 @@ void distant_intervals_4_discrete_types()
 
 
 #endif // BOOST_ICL_TEST_ICL_DISCRETE_INTERVAL_HPP_JOFA_100930
-

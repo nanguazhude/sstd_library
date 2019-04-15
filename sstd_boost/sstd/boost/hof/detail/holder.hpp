@@ -25,4 +25,3 @@ struct template_holder
 }}} // namespace boost::hof
 
 #endif
-

@@ -230,4 +230,3 @@ BOOST_AUTO_TEST_CASE(zip_constant_iterator)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

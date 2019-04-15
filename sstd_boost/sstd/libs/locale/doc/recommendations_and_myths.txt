@@ -52,6 +52,3 @@ So UTF-16 can be used for Unicode, in fact ICU and many other applications use U
 you should be very careful and never assume one-code-point == one-utf16-character.
 
 */
-
-
-

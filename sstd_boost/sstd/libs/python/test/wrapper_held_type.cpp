@@ -67,4 +67,3 @@ BOOST_PYTHON_MODULE(wrapper_held_type_ext)
 }
 
 #include "module_tail.cpp"
-

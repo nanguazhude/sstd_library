@@ -254,4 +254,3 @@ const_(actor<BaseT> const& v);  //  This is undefined and not allowed.
 }   //  namespace phoenix
 
 #endif
-

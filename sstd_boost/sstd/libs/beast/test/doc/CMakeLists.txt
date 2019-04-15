@@ -27,4 +27,3 @@ add_executable (tests-doc
 )
 
 set_property(TARGET tests-doc PROPERTY FOLDER "tests")
-

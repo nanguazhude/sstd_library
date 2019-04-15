@@ -52,4 +52,3 @@ int main()
     BOOST_TEST( 1 == f( boost::intrusive_ptr<Z>() ) );
     return boost::report_errors();
 }
-

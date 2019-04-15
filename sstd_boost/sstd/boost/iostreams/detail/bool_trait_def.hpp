@@ -47,4 +47,3 @@
     /**/
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_BOOL_TRAIT_DEF_HPP_INCLUDED
-

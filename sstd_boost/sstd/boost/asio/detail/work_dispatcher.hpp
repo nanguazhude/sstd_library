@@ -72,4 +72,3 @@ private:
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_WORK_DISPATCHER_HPP
-

@@ -65,4 +65,3 @@ template<class T> struct is_nothrow_swappable: type_traits_swappable_detail::is_
 #endif
 
 #endif // #ifndef BOOST_TYPE_TRAITS_IS_NOTHROW_SWAPPABLE_HPP_INCLUDED
-

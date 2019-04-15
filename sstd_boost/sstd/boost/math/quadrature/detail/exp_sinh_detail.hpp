@@ -513,4 +513,3 @@ void exp_sinh_detail<Real, Policy>::init(const mpl::int_<4>&)
 }
 }
 #endif
-

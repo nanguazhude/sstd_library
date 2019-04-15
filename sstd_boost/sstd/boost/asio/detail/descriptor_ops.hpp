@@ -121,4 +121,3 @@ BOOST_ASIO_DECL int poll_error(int d,
        //   && !defined(__CYGWIN__)
 
 #endif // BOOST_ASIO_DETAIL_DESCRIPTOR_OPS_HPP
-

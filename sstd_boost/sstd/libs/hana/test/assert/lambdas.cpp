@@ -23,4 +23,3 @@ int main() {
     BOOST_HANA_ASSERT([] { return constant_bool<true>(); }());
     BOOST_HANA_ASSERT([] { return runtime_bool<true>(); }());
 }
-

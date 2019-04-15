@@ -40,4 +40,3 @@ std::nothrow_t *nothrow<Dummy>::pnothrow =
 }}  //namespace boost{ namespace interprocess {
 
 #endif //#ifndef BOOST_INTERPROCESS_DETAIL_NOTHROW_HPP
-

@@ -47,4 +47,3 @@ BOOST_MPL_AUX_NA_SPEC(2, switch_)
 }}
 
 #endif // BOOST_MPL_SWITCH_HPP_INCLUDED
-

@@ -32,4 +32,3 @@ void declare_native_rule( char const * module, char const * rule,
         np->version = version;
     }
 }
-

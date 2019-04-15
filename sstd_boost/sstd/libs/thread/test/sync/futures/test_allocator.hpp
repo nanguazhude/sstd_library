@@ -156,4 +156,3 @@ public:
 };
 
 #endif  // BOOST_THREAD_TEST_ALLOCATOR_HPP
-

@@ -163,4 +163,3 @@ struct concept_interface< ::bar_concept<T, U>, Base, U, typename boost::disable_
 //` [overload1]
 //` [overload2]
 //]
-

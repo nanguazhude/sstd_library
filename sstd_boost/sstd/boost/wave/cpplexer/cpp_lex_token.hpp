@@ -333,4 +333,3 @@ operator<< (std::ostream &stream, lex_token<PositionT> const &object)
 #endif
 
 #endif // !defined(CPP_TOKEN_HPP_53A13BD2_FBAA_444B_9B8B_FCB225C2BBA8_INCLUDED)
-

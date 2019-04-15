@@ -137,5 +137,3 @@ int main()
 //----- Here we are NOT using the library default for intervals --------------
 //{[mon:09:00,mon:09:59][mon:10:00,mon:10:59][mon:11:00,mon:11:59]}
 //]
-
-

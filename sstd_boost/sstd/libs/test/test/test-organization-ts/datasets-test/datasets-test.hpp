@@ -205,4 +205,3 @@ make_copy_count_const_collection()
 //____________________________________________________________________________//
 
 #endif // BOOST_TEST_TEST_DATASETS_HPP
-

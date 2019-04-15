@@ -59,4 +59,3 @@ int main() {
     constexpr auto r = hana::template_<f>(t);
     (void)r;
 }
-

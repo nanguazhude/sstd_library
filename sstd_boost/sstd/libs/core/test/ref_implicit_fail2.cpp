@@ -18,4 +18,3 @@ int main()
 {
     f( 1 ); // should fail
 }
-

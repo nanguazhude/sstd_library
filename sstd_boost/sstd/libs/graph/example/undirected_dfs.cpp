@@ -78,4 +78,3 @@ int main(int, char*[])
 
   return boost::exit_success;
 }
-

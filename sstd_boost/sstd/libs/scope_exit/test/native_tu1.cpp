@@ -9,5 +9,3 @@
 #include "tu_test.hpp"
 
 int tu1(void) { return inline_f() + template_f(1); }
-
-

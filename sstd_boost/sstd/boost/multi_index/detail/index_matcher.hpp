@@ -247,4 +247,3 @@ private:
 } /* namespace boost */
 
 #endif
-

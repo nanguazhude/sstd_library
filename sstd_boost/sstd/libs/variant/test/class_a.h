@@ -38,4 +38,3 @@ std::ostream& operator<<(std::ostream& strm, const class_a& a);
 
 
 #endif //_CLASSA_H_INC_
-

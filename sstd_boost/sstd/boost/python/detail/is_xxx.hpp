@@ -11,4 +11,3 @@
     BOOST_DETAIL_IS_XXX_DEF(name, qualified_name, nargs)
 
 #endif // IS_XXX_DWA2003224_HPP
-

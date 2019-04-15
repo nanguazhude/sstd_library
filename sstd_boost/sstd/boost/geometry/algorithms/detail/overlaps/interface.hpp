@@ -122,4 +122,3 @@ inline bool overlaps(Geometry1 const& geometry1, Geometry2 const& geometry2)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAPS_INTERFACE_HPP
-

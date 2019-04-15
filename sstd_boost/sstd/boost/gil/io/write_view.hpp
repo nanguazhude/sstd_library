@@ -321,4 +321,3 @@ void write_view( const String&                      file_name
 } // namespace boost
 
 #endif
-

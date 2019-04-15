@@ -67,4 +67,3 @@ I div(const typename I::base_type& x, const typename I::base_type& y)
 } // namespace boost
 
 #endif // BOOST_NUMERIC_INTERVAL_ARITH3_HPP
-

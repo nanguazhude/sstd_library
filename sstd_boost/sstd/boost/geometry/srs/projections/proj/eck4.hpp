@@ -173,5 +173,3 @@ namespace projections
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_ECK4_HPP
-
-

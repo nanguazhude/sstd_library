@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_CONFIX
 #include <sstd/boost/spirit/home/classic/utility/confix.hpp>
 #endif
-

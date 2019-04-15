@@ -35,4 +35,3 @@ void string_rtrim( string * );
 void string_unit_test();
 
 #endif
-

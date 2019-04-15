@@ -385,4 +385,3 @@ struct get_vtable_signature<R(BOOST_PP_ENUM_PARAMS(N, T))>
 #undef N
 
 #endif
-

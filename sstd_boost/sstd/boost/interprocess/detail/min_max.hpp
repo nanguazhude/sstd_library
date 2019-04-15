@@ -41,5 +41,3 @@ const T &min_value(const T &a, const T &b)
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTERPROCESS_DETAIL_MIN_MAX_HPP
-
-

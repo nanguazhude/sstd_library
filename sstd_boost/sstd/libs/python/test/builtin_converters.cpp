@@ -149,5 +149,3 @@ BOOST_PYTHON_MODULE(builtin_converters_ext)
     def("rewrap_const_reference_object", by_const_reference<object>::rewrap);
     def("rewrap_reference_object", by_reference<object>::rewrap);
 }
-
-

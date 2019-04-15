@@ -247,4 +247,3 @@ struct divides_impl<boost::units::scale_dim_tag, boost::units::detail::static_ra
 } // namespace boost
 
 #endif
-

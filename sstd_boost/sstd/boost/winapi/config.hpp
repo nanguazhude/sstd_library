@@ -228,4 +228,3 @@
 #endif
 
 #endif // BOOST_WINAPI_CONFIG_HPP_INCLUDED_
-

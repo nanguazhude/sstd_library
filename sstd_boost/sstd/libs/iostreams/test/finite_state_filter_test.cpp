@@ -180,4 +180,3 @@ test_suite* init_unit_test_suite(int, char* [])
 }
 
 #endif // #ifdef BOOST_NO_STD_LOCALE //---------------------------------------//
-

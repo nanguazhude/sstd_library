@@ -74,4 +74,3 @@ struct sum_for_indexable<Geometry, Indexable, IndexableTag, AlgoTag, 1>
 }}}} // namespace boost::geometry::index::detail
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_ALGORITHMS_SUM_FOR_INDEXABLE_HPP
-

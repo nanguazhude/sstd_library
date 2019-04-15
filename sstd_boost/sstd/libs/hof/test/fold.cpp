@@ -91,4 +91,3 @@ BOOST_HOF_TEST_CASE()
 {
     BOOST_HOF_TEST_CHECK(boost::hof::fold(sum_f(), std::string())("hello", "-", "world") == "hello-world");
 }
-

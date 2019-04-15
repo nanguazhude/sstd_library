@@ -2720,4 +2720,3 @@ int main( int argc, char const* argv[] )
         output_html_footer( html_footer );
     }
 }
-

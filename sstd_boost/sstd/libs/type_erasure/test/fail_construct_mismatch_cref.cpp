@@ -20,4 +20,3 @@ int main()
     int i;
     any<copy_constructible<>, _self&> x(i, make_binding<mpl::map<mpl::pair<_self, char> > >());
 }
-

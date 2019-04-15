@@ -431,4 +431,3 @@ The library can also be downloaded from Geodan SVN. <i>This will be moved to osg
 
 
 #endif // _DOXYGEN_PAGES_HPP
-

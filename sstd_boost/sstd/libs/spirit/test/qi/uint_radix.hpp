@@ -140,4 +140,3 @@ char const* unsigned_overflow_base36 =          "1Z141Z4";
 char const* digit_overflow_base36 =             "1Z141Z30";
 
 #endif
-

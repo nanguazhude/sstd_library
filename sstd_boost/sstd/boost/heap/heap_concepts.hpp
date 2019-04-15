@@ -108,4 +108,3 @@ struct MutablePriorityQueue:
 }}
 
 #endif /* BOOST_HEAP_CONCEPTS_HPP */
-

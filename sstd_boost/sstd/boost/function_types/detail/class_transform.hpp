@@ -57,5 +57,3 @@ template<typename T, typename U> struct class_transform< T, mpl::always<U> >
 } } } // namespace ::boost::function_types::detail
 
 #endif
-
-

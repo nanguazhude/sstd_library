@@ -329,4 +329,3 @@ void property_set_done()
 {
     ps_map_destroy( &all_property_sets );
 }
-

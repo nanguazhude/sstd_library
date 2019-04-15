@@ -39,4 +39,3 @@ namespace boost
   using ::boost::csbl::default_delete;
 }
 #endif // header
-

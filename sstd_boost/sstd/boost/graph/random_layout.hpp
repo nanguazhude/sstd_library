@@ -34,4 +34,3 @@ random_graph_layout
 } // end namespace boost
 
 #endif // BOOST_GRAPH_RANDOM_LAYOUT_HPP
-

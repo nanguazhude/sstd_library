@@ -24,4 +24,3 @@ int main() {
 
     BOOST_HANA_CONSTANT_CHECK(hana::fold_right(numbers, hana::tuple_c<int>, keep_negatives) == negatives);
 }
-

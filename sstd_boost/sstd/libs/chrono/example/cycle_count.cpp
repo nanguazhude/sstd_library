@@ -137,5 +137,3 @@ int main()
     cycle_count_delay();
     return 0;
 }
-
-

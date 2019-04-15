@@ -247,5 +247,3 @@ namespace boost
 #endif
 
 #endif
-
-

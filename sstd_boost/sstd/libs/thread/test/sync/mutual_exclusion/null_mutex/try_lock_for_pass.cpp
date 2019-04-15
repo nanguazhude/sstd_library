@@ -64,5 +64,3 @@ int main()
 #else
 #error "Test not applicable: BOOST_THREAD_USES_CHRONO not defined for this platform as not supported"
 #endif
-
-

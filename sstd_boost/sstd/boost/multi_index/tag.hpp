@@ -86,4 +86,3 @@ struct tag:private detail::tag_marker
 #undef BOOST_MULTI_INDEX_TAG_SIZE
 
 #endif
-

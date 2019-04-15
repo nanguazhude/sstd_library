@@ -1,4 +1,4 @@
-/*
+﻿/*
 ** $Id: linit.c,v 1.39.1.1 2017/04/19 17:20:42 roberto Exp $
 ** Initialization of libraries for lua.c and other clients
 ** See Copyright Notice in lua.h
@@ -65,4 +65,3 @@ LUALIB_API void luaL_openlibs (lua_State *L) {
     lua_pop(L, 1);  /* remove lib */
   }
 }
-

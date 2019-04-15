@@ -549,4 +549,3 @@ inline shared_count::shared_count(weak_count const & r): pi_(r.pi_)
 BOOST_SERIALIZATION_ASSUME_ABSTRACT(boost_132::detail::sp_counted_base)
 
 #endif  // #ifndef BOOST_DETAIL_SHARED_COUNT_HPP_INCLUDED
-

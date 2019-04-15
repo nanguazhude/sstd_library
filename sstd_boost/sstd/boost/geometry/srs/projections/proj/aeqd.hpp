@@ -624,5 +624,3 @@ namespace projections
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_AEQD_HPP
-
-

@@ -192,4 +192,3 @@ boost::asio::io_service::id round_robin::service::id;
 #endif
 
 #endif // BOOST_FIBERS_ASIO_ROUND_ROBIN_H
-

@@ -89,5 +89,3 @@ With point-free style programming, we can recognize this is a [fold](https://en.
     auto m = max(0.1, 0.2, 0.5, 0.4); // Returns 0.5
 
 By using [`fold`](/include/boost/hof/fold), `max(1, 2, 4, 3)` will call `std::max` like `std::max(std::max(std::max(1, 2), 4), 3)` and `max(0.1, 0.2, 0.5, 0.4)` will be called like `std::max(std::max(std::max(0.1, 0.2), 0.5), 0.4)`.
-
-

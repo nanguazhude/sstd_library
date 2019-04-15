@@ -232,4 +232,3 @@ struct BOOST_PP_CAT(apply_wrap_impl,i_)<
 
 #endif // BOOST_PP_ITERATION_DEPTH()
 #endif // BOOST_PP_IS_ITERATING
-

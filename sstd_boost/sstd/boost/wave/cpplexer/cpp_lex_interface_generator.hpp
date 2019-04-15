@@ -108,4 +108,3 @@ struct lex_input_interface_generator
 #endif
 
 #endif // !defined(BOOST_WAVE_LEX_INTERFACE_GENERATOR_HPP_INCLUDED)
-

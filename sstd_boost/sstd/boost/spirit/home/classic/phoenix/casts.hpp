@@ -1468,4 +1468,3 @@ construct_(
 }   //  namespace phoenix
 
 #endif // PHOENIX_CASTS_HPP
-

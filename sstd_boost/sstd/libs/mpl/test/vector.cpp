@@ -122,4 +122,3 @@ MPL_TEST_CASE()
     MPL_ASSERT_RELATION( size<v2>::value, ==, 2 );
     MPL_ASSERT_RELATION( size<v9>::value, ==, 9 );
 }
-

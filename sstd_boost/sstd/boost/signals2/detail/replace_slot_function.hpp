@@ -30,4 +30,3 @@ namespace boost
 } // namespace boost
 
 #endif // BOOST_SIGNALS2_DETAIL_REPLACE_SLOT_FUNCTION_HPP
-

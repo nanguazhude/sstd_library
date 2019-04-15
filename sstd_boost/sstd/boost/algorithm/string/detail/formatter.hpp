@@ -117,4 +117,3 @@ namespace boost {
 } // namespace boost
 
 #endif  // BOOST_STRING_FORMATTER_DETAIL_HPP
-

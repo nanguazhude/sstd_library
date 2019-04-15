@@ -57,4 +57,3 @@ int main()
   BOOST_STATIC_ASSERT((is_same<e::result_of<mem_func_ptr_cv(X,char)>::type, int>::value));
   return 0;
 }
-

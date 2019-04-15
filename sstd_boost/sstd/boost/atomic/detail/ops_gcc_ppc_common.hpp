@@ -68,4 +68,3 @@ struct gcc_ppc_operations_base
 } // namespace boost
 
 #endif // BOOST_ATOMIC_DETAIL_OPS_GCC_PPC_COMMON_HPP_INCLUDED_
-

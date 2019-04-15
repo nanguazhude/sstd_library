@@ -66,4 +66,3 @@ BOOST_AUTO_TEST_CASE(amd_template_function)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

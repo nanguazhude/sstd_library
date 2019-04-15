@@ -17,5 +17,3 @@
 #include <sstd/boost/test/data/monomorphic/generators/random.hpp>
 
 #endif // BOOST_TEST_DATA_MONOMORPHIC_GENERATORS_HPP_112011GER
-
-

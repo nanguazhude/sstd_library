@@ -36,4 +36,3 @@ inline std::basic_ostream<Char, Traits>& operator<<
 }
 
 #endif // BOOST_GEOMETRY_IO_WKT_STREAM_HPP
-

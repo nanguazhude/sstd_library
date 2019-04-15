@@ -30,4 +30,3 @@ MPL_TEST_CASE()
     MPL_ASSERT(( is_same<int, boost::mpl::get_a_tag<test_type_get_tag_def>::type> ));
     MPL_ASSERT(( is_same<test_type_get_tag_def::a_tag, boost::mpl::get_a_tag<test_type_get_tag_def>::type> ));
 }
-

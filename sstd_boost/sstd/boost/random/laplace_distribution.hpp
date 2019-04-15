@@ -173,4 +173,3 @@ private:
 } // namespace boost
 
 #endif // BOOST_RANDOM_LAPLACE_DISTRIBUTION_HPP
-

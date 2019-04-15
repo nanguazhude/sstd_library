@@ -142,4 +142,3 @@ BOOST_ASIO_TEST_SUITE
   "ip/address",
   BOOST_ASIO_TEST_CASE(ip_address_compile::test)
 )
-

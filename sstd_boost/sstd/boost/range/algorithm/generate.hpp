@@ -47,4 +47,3 @@ inline const ForwardRange& generate( const ForwardRange& rng, Generator gen )
 } // namespace boost
 
 #endif // include guard
-

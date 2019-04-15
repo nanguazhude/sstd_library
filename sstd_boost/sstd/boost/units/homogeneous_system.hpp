@@ -103,4 +103,3 @@ BOOST_TYPEOF_REGISTER_TEMPLATE(boost::units::homogeneous_system, (class))
 #endif
 
 #endif
-

@@ -73,4 +73,3 @@ struct L_comp
 };//    End namespace boost
 //***************************************************************************
 #endif // end of int_array.hpp
-

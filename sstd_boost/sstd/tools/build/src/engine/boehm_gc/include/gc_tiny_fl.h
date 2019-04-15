@@ -87,4 +87,3 @@
 #define RAW_BYTES_FROM_INDEX(i) ((i) * GC_GRANULE_BYTES)
 
 #endif /* GC_TINY_FL_H */
-

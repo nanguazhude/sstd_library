@@ -442,4 +442,3 @@ my_test(0.001F) is true
 
 my_test(0.001F) is false//] [/compare_floats_output]
 */
-

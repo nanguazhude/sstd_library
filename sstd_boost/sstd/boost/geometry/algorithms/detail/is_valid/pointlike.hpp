@@ -90,4 +90,3 @@ struct is_valid<MultiPoint, multi_point_tag, AllowEmptyMultiGeometries>
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_IS_VALID_POINTLIKE_HPP
-

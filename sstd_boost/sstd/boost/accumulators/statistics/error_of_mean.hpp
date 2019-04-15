@@ -71,4 +71,3 @@ namespace tag
 }} // namespace boost::accumulators
 
 #endif
-

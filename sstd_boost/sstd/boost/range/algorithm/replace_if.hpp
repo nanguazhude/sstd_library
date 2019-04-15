@@ -52,4 +52,3 @@ inline const ForwardRange&
 } // namespace boost
 
 #endif // include guard
-

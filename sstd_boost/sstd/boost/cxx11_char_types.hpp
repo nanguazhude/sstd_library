@@ -68,4 +68,3 @@ namespace boost
 }  // namespace boost
 
 #endif  // !defined(BOOST_CXX11_CHAR_TYPES_HPP)
-

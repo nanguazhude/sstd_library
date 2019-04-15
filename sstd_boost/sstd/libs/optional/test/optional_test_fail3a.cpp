@@ -21,6 +21,3 @@ void test_no_unsupported_conversion()
   boost::optional<int> opt1(1) ;
   boost::optional< std::string > opt2( opt1 ) ; // Cannot convert from "int" to "std::string"
 }
-
-
-

@@ -173,4 +173,3 @@ void check_out_of_range(typename Distro::value_type p1, typename Distro::value_t
 #endif
 
 #endif // BOOST_MATH_TEST_OUT_OF_RANGE_HPP
-

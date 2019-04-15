@@ -303,4 +303,3 @@ namespace quickbook
 }
 
 #endif // BOOST_QUICKBOOK_SCOPED_BLOCK_HPP
-

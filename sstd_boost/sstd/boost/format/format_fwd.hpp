@@ -41,4 +41,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_FORMAT_FWD_HPP
-

@@ -62,5 +62,3 @@ const_rbegin( const T& r )
 } // namespace 'boost'
 
 #endif
-
-

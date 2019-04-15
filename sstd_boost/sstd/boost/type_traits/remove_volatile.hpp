@@ -37,4 +37,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_TT_REMOVE_VOLATILE_HPP_INCLUDED
-

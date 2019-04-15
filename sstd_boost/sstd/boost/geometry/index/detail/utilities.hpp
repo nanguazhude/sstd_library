@@ -44,4 +44,3 @@ void swap_cond(T &, T &, boost::mpl::bool_<false> const&) {}
 }}}} // namespace boost::geometry::index::detail
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_UTILITIES_HPP
-

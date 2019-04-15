@@ -2379,4 +2379,3 @@ BOOST_AUTO_TEST_CASE(test_move_assignable_with_conversion)
 }
 
 #endif
-

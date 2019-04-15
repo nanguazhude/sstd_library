@@ -46,4 +46,3 @@ struct range_c
 }}
 
 #endif // BOOST_MPL_RANGE_C_HPP_INCLUDED
-

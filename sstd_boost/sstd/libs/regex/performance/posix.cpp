@@ -95,4 +95,3 @@ std::string posix_regex::name()
 }
 
 #endif
-

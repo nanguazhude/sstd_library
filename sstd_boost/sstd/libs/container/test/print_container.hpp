@@ -44,4 +44,3 @@ void PrintContainers(MyBoostCont *boostcont, MyStdCont *stdcont)
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif //#ifndef BOOST_PRINTCONTAINER_HPP
-

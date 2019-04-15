@@ -25,4 +25,3 @@ MPL_TEST_CASE()
     typedef list<int,double,char,double,double,double> answer;
     MPL_ASSERT(( equal< result,answer > ));
 }
-

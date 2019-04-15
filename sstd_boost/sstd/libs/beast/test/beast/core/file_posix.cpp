@@ -39,4 +39,3 @@ BEAST_DEFINE_TESTSUITE(beast,core,file_posix);
 } // boost
 
 #endif
-

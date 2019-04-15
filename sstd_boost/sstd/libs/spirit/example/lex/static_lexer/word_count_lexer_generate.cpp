@@ -43,4 +43,3 @@ int main(int argc, char* argv[])
     return lex::lexertl::generate_static_dfa(word_count, out, "wcl") ? 0 : -1;
 }
 //]
-

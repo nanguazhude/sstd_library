@@ -37,4 +37,3 @@ void assertion_failed(
 
 
 #endif
-

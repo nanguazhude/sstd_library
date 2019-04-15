@@ -42,4 +42,3 @@ namespace boost {
 }  // namespace boost
 
 #endif  // BOOST_TYPE_TRAITS_DECLVAL_HPP_INCLUDED
-

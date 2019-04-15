@@ -14,4 +14,3 @@
 #include <sstd/boost/compute/interop/eigen/core.hpp>
 
 #endif // BOOST_COMPUTE_INTEROP_EIGEN_HPP
-

@@ -24,4 +24,3 @@ int main() {
     constexpr auto result = hana::fold_left(tuple, state{}, f{});
     (void)result;
 }
-

@@ -30,4 +30,3 @@ BOOST_TYPEOF_REGISTER_TYPE(boost::units::imperial::yard_base_unit)
 #endif
 
 #endif // BOOST_UNITS_SYSTEMS_IMPERIAL_YARD_BASE_UNIT_HPP
-

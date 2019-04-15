@@ -20,4 +20,3 @@ int main() {
     BOOST_HANA_CONSTANT_CHECK(hana::fill(hana::nothing, 'x') == hana::nothing);
     static_assert(hana::fill(hana::just('y'), 'x') == hana::just('x'), "");
 }
-

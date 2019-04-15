@@ -280,4 +280,3 @@ struct default_strategy<cartesian_tag, CalculationType>
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_CARTESIAN_SIDE_BY_TRIANGLE_HPP
-

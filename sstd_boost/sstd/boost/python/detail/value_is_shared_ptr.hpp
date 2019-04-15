@@ -26,4 +26,3 @@ struct value_is_shared_ptr
 }}} // namespace boost::python::detail
 
 #endif // VALUE_IS_SHARED_PTR_DWA2003224_HPP
-

@@ -22,4 +22,3 @@
 #include <sstd/boost/geometry/geometry.hpp>
 
 #endif // BOOST_GEOMETRY_MULTI_HPP
-

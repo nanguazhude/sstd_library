@@ -85,4 +85,3 @@ namespace boost {
 
 
 #endif // GGCL_INDIRECT_CMP_HPP
-

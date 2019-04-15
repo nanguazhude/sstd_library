@@ -234,4 +234,3 @@ namespace boost { namespace fusion { namespace detail
         typedef nil_ type;
     };
 }}}
-

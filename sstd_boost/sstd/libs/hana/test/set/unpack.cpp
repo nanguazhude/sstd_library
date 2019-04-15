@@ -36,4 +36,3 @@ int main() {
     check(ct_eq<1>{}, ct_eq<2>{}, ct_eq<3>{});
     check(ct_eq<1>{}, ct_eq<2>{}, ct_eq<3>{}, ct_eq<4>{});
 }
-

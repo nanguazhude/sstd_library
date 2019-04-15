@@ -69,4 +69,3 @@ private:
 };
 
 #endif // !defined(COLLECT_TOKEN_STATISTICS_VERSION_HPP)
-

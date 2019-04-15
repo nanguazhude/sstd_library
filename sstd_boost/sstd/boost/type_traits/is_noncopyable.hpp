@@ -37,4 +37,3 @@ template<class T> struct is_noncopyable: is_base_and_derived<noncopyable_::base_
 } // namespace boost
 
 #endif // #ifndef BOOST_TYPE_TRAITS_IS_NONCOPYABLE_HPP_INCLUDED
-

@@ -402,4 +402,3 @@ inline void to_svg(std::string const& wkt1, std::string const& wkt2, std::string
 }
 
 #endif // BOOST_GEOMETRY_TEST_TO_SVG_HPP
-

@@ -1237,4 +1237,3 @@ protected:
 } } } // end namespace boost::graph::distributed
 
 #endif // BOOST_GRAPH_DISTRIBUTED_NAMED_GRAPH_HPP
-

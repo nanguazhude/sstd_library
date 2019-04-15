@@ -137,4 +137,3 @@ main()
     // non-POD's even if they can't do things like isalpha().
     test_type<nonpod_gram, non_pod>();
 }
-

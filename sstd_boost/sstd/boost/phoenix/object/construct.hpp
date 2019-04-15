@@ -80,5 +80,3 @@ namespace boost { namespace phoenix
 }}
 
 #endif
-
-

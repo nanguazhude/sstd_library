@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_TRAVERSE
 #include <sstd/boost/spirit/home/classic/meta/traverse.hpp>
 #endif
-

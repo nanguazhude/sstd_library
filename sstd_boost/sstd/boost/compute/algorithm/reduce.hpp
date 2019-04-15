@@ -308,4 +308,3 @@ inline void reduce(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_REDUCE_HPP
-

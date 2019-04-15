@@ -22,4 +22,3 @@ template< typename Sequence, typename Pos, typename Range > struct insert_range;
 }}
 
 #endif // BOOST_MPL_INSERT_RANGE_FWD_HPP_INCLUDED
-

@@ -42,5 +42,3 @@ private: // Non (publicly) copyable type.
 };
 
 #endif // #include guard
-
-

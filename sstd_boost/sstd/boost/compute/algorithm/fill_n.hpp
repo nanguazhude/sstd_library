@@ -40,4 +40,3 @@ inline void fill_n(BufferIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_FILL_N_HPP
-

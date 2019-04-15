@@ -628,4 +628,3 @@ inline void load(Archive & ar, T &t){
 } // namespace boost
 
 #endif // BOOST_ARCHIVE_DETAIL_ISERIALIZER_HPP
-

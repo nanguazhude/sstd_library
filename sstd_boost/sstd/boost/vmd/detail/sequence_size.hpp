@@ -19,4 +19,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_SEQUENCE_SIZE_HPP */
-

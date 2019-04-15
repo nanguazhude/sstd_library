@@ -903,4 +903,3 @@
                     >::result_type
                 type;
         };
-

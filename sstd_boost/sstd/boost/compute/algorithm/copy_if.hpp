@@ -65,4 +65,3 @@ inline OutputIterator copy_if(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_COPY_IF_HPP
-

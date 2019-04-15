@@ -26,4 +26,3 @@ int main() {
     BOOST_HANA_CONSTANT_CHECK(hana::not_(hana::is_empty(hana::tuple_c<int, 0, 1>)));
     BOOST_HANA_CONSTANT_CHECK(hana::not_(hana::is_empty(hana::tuple_c<int, 0, 1, 2>)));
 }
-

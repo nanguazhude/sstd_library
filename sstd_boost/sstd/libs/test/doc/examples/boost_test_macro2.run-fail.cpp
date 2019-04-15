@@ -26,4 +26,3 @@ BOOST_AUTO_TEST_CASE( test_op_right_associative )
   BOOST_TEST(--a);
 }
 //]
-

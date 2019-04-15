@@ -104,4 +104,3 @@ typedef basic_protected_fixedsize_stack< stack_traits > protected_fixedsize_stac
 #endif
 
 #endif // BOOST_CONTEXT_PROTECTED_FIXEDSIZE_H
-

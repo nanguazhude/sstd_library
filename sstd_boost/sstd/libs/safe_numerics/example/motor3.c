@@ -193,4 +193,3 @@ void initialize() {
     INTCONbits.RBIF = literal(0);
     ei();                // enable_interrupts(GLOBAL);
 } // initialize()
-

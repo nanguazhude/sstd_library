@@ -59,4 +59,3 @@ int main() {
 
   return status ? EXIT_SUCCESS : EXIT_FAILURE;
 }
-

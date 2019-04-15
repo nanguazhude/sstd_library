@@ -306,4 +306,3 @@ namespace boost
 } // namespace boost
 
 #endif  // BOOST_OLD_NUMERIC_CAST_HPP
-

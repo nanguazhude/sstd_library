@@ -88,4 +88,3 @@ int test_main(int, char*[])
   simple_test<sig0_st_type>();
   return 0;
 }
-

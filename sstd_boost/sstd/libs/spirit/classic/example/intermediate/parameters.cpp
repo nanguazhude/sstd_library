@@ -213,5 +213,3 @@ char const *pbegin = "int  var1";
     }
     return 0;
 }
-
-

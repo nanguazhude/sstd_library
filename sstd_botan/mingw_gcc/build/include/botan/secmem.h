@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Secure Memory Buffers
 * (C) 1999-2007,2012 Jack Lloyd
 *

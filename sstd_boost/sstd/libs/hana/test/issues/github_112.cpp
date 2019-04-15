@@ -27,4 +27,3 @@ int main() {
     (void)person_members;
     (void)employee_members;
 }
-

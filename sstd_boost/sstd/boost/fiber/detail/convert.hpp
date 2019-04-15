@@ -41,4 +41,3 @@ std::chrono::steady_clock::time_point convert(
 #endif
 
 #endif // BOOST_FIBERS_DETAIL_CONVERT_H
-

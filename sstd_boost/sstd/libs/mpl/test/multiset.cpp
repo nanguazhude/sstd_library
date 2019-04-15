@@ -105,4 +105,3 @@ MPL_TEST_CASE()
     // find_test<myset>();
     // find_test<myset::type>();
 }
-

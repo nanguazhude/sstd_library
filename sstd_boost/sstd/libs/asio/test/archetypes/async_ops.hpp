@@ -413,4 +413,3 @@ async_op_ex_3(bool ok, BOOST_ASIO_MOVE_ARG(CompletionToken) token)
 } // namespace archetypes
 
 #endif // ARCHETYPES_ASYNC_OPS_HPP
-

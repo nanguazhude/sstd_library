@@ -437,5 +437,3 @@ int file_collect_archive_content_( file_archive_info_t * const archive )
 }
 
 #endif  /* OS_VMS */
-
-

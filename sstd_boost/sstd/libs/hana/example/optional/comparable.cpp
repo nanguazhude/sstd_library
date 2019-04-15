@@ -15,4 +15,3 @@ static_assert(hana::just('x') != hana::just('y'), "");
 BOOST_HANA_CONSTANT_CHECK(hana::just('x') != hana::nothing);
 
 int main() { }
-

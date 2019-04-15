@@ -22,4 +22,3 @@ template< typename Sequence, typename Key > struct erase_key;
 }}
 
 #endif // BOOST_MPL_ERASE_KEY_FWD_HPP_INCLUDED
-

@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/algorithm/auxiliary/copy.hpp>
 
 #endif
-

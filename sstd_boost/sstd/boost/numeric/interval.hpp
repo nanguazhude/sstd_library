@@ -30,4 +30,3 @@
 #include <sstd/boost/numeric/interval/transc.hpp>
 
 #endif // BOOST_NUMERIC_INTERVAL_HPP
-

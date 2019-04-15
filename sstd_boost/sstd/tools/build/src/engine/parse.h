@@ -78,4 +78,3 @@ void parse_free( PARSE * );
 LIST * parse_evaluate( PARSE *, FRAME * );
 
 #endif
-

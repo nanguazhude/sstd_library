@@ -17,4 +17,3 @@ template<class T> struct value
 int main()
 {
 }
-

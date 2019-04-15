@@ -380,4 +380,3 @@ struct ranked_non_unique
 } /* namespace boost */
 
 #endif
-

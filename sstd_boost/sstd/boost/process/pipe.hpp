@@ -473,4 +473,3 @@ typedef basic_pstream<wchar_t> wpstream;
 
 
 #endif
-

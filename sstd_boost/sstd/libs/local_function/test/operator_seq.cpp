@@ -26,5 +26,3 @@ int main(void) {
     BOOST_TEST(equal(a, b));
     return boost::report_errors();
 }
-
-

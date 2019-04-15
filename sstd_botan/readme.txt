@@ -7,5 +7,3 @@ python configure.py --os=mingw --cc=gcc --amalgamation --single-amalgamation-fil
 
 linux:
 python configure.py --cc=gcc --amalgamation --single-amalgamation-file
-
-

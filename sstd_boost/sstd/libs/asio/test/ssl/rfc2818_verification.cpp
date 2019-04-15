@@ -23,4 +23,3 @@ BOOST_ASIO_TEST_SUITE
   "ssl/rfc2818_verification",
   BOOST_ASIO_TEST_CASE(null_test)
 )
-

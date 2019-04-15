@@ -113,4 +113,3 @@ inline void stable_sort(Iterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_STABLE_SORT_HPP
-

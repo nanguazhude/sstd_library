@@ -3,4 +3,3 @@
 
 /home/ubuntu/boost/libs/gil/include/boost/gil/concepts.hpp:131: warning: Found unknown command `\codeauto'
 /home/ubuntu/boost/libs/gil/include/boost/gil/concepts.hpp:135: warning: unexpected command endcode
-

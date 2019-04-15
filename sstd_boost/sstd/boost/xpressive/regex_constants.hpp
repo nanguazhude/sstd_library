@@ -292,4 +292,3 @@ inline match_flag_type operator ~(match_flag_type b)
 #endif
 
 #endif
-

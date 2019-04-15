@@ -243,4 +243,3 @@ inline bool operator!=(const traceable_allocator<GC_T1>&, const traceable_alloca
 }
 
 #endif /* GC_ALLOCATOR_H */
-

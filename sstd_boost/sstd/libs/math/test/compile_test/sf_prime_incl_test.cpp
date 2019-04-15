@@ -24,5 +24,3 @@ void compile_and_link_test()
    check_result<boost::uint32_t>(ce_f);
 #endif
 }
-
-

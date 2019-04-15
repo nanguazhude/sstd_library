@@ -19,4 +19,3 @@
 #include <sstd/boost/mpl/bind.hpp>
 
 #endif // BOOST_MPL_AUX_BASIC_BIND_HPP_INCLUDED
-

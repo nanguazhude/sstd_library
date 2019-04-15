@@ -241,6 +241,3 @@ void bcp_implementation::create_path(const fs::path& p)
       fs::create_directory(m_dest_path / p);
    }
 }
-
-
-

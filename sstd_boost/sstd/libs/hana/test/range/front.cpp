@@ -34,4 +34,3 @@ int main() {
         hana::long_c<5>
     ));
 }
-

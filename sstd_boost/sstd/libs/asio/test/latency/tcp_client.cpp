@@ -122,4 +122,3 @@ int main(int argc, char* argv[])
   for (int i = 0; i < num_samples; ++i) total += samples[i] * scale;
   std::printf("  mean\t%f\n", total / num_samples);
 }
-

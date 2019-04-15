@@ -13,4 +13,3 @@ Distributed under the Boost Software License, Version 1.0.
 #include <sstd/boost/hana/bool.hpp>
 
 #endif // !BOOST_HANA_INTEGRAL_CONSTANT_HPP
-

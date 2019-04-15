@@ -159,4 +159,3 @@ template<unsigned Size> struct select_by_size;
 #define SELECT_BY_SIZE_MAX_SPECIALIZED BOOST_SELECT_BY_SIZE_MAX_CASE
 
 #endif
-

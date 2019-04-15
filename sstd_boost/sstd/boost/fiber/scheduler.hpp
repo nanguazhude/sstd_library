@@ -161,4 +161,3 @@ public:
 #endif
 
 #endif // BOOST_FIBERS_FIBER_MANAGER_H
-

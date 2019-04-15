@@ -24,4 +24,3 @@ void optional_reference__test_no_assign_from_Urefref()
 #else
 #  error "Test skipped. This cannot be implemented w/o rvalue references."
 #endif
-

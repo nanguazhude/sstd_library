@@ -64,4 +64,3 @@ void test_serialization1()
     test_serialization(m);
   }
 }
-

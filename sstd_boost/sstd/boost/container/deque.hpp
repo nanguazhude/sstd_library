@@ -2268,4 +2268,3 @@ struct has_trivial_destructor_after_move<boost::container::deque<T, Allocator> >
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif //   #ifndef  BOOST_CONTAINER_DEQUE_HPP
-

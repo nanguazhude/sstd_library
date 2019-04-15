@@ -36,4 +36,3 @@ typedef name_generator_sha1 name_generator_latest;
 } // boost
 
 #endif // BOOST_UUID_NAME_GENERATOR_HPP
-

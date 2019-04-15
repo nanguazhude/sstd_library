@@ -102,5 +102,3 @@ namespace boost { namespace msm { namespace front
 }}}
 
 #endif //BOOST_MSM_INTERNAL_ROW_HPP
-
-

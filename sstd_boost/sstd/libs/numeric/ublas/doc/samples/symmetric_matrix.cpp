@@ -26,5 +26,3 @@ int main () {
             mu (i, j) = 3 * i + j;
     std::cout << mu << std::endl;
 }
-
-

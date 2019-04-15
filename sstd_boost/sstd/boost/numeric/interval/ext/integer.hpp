@@ -68,4 +68,3 @@ interval<T, Policies> operator/ (int x, const interval<T, Policies>& y)
 } // namespace boost
 
 #endif // BOOST_NUMERIC_INTERVAL_EXT_INTEGER_HPP
-

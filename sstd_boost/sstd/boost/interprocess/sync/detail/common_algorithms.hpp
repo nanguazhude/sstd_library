@@ -122,4 +122,3 @@ void timed_based_timed_lock(MutexType &m, const boost::posix_time::ptime &abs_ti
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_SYNC_DETAIL_COMMON_ALGORITHMS_HPP
-

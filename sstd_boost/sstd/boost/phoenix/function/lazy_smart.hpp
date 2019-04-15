@@ -151,4 +151,3 @@ struct smart_function3 : public smart_functoid3,
 
 
 #endif
-

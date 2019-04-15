@@ -34,4 +34,3 @@ int main() {
         hana::make<hana::optional_tag>(ct_eq<3>{})
     ));
 }
-

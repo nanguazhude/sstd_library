@@ -80,5 +80,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE
 BOOST_AUTO_TEST_CASE_TEMPLATE
 (test_icl_interval_map_mixed_erase_if_4_integral_types, T, integral_types)
 {         interval_map_mixed_erase_if_4_integral_types<T, int>(); }
-
-

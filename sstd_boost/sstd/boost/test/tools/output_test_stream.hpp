@@ -105,4 +105,3 @@ private:
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_OUTPUT_TEST_STREAM_HPP_012705GER
-

@@ -32,4 +32,3 @@
 //H 10: a_nonexisting_file.cpp(8): #error
 //H 16: This error should occur at line 8 of "a_nonexisting_file.cpp"
 //H 18: boost::wave::preprocess_exception
-

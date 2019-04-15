@@ -1242,5 +1242,3 @@ std::vector<std::pair<T, T> > const & trivial_gcd_test_cases()
    static const std::vector<std::pair<T, T> > data(a, a + sizeof(a) / sizeof(a[0]));
    return data;
 }
-
-

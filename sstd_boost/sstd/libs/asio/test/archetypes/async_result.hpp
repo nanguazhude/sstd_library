@@ -78,4 +78,3 @@ private:
 } // namespace boost
 
 #endif // ARCHETYPES_ASYNC_RESULT_HPP
-

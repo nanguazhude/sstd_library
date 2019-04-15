@@ -155,4 +155,3 @@ operator<<(std::ostream& os, verb v)
 #include <sstd/boost/beast/http/impl/verb.ipp>
 
 #endif
-

@@ -79,4 +79,3 @@ namespace boost {
 } // end namespace boost
 
 #endif // BOOST_PROPERTY_MAP_UNSAFE_SERIALIZE_HPP
-

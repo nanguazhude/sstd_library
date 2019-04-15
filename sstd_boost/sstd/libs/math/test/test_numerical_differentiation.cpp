@@ -270,4 +270,3 @@ BOOST_AUTO_TEST_CASE(numerical_differentiation_test)
     test_order<long double, 8>(points_to_test);
 #endif
 }
-

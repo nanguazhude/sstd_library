@@ -163,4 +163,3 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 } // namespace boost
 
 #endif // !defined(BOOST_SPIRIT_NO_ACTIONS_HPP)
-

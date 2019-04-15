@@ -323,4 +323,3 @@ BOOST_ASIO_TEST_SUITE
   BOOST_ASIO_TEST_CASE(strand_test)
   BOOST_ASIO_TEST_CASE(strand_wrap_test)
 )
-

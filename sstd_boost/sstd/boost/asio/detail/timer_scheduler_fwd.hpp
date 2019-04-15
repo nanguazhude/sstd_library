@@ -40,4 +40,3 @@ typedef class select_reactor timer_scheduler;
 } // namespace boost
 
 #endif // BOOST_ASIO_DETAIL_TIMER_SCHEDULER_FWD_HPP
-

@@ -14,4 +14,3 @@ installation).
 
 The integration between Python and bjam is very basic now, but enough to be
 useful.
-

@@ -27,4 +27,3 @@ int main() {
     constexpr auto result = hana::find_if(map, is_last{});
     (void)result;
 }
-

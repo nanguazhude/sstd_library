@@ -41,4 +41,3 @@ struct base_type_traits<PyMethodObject>
 }} // namespace boost::python
 
 #endif // BASE_TYPE_TRAITS_DWA2002614_HPP
-

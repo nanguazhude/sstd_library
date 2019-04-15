@@ -566,4 +566,3 @@ typename subchroma_image< Pixel
 } // namespace boost
 
 #endif
-

@@ -26,5 +26,3 @@ BOOST_AUTO_TEST_CASE( writer_construct)
     QXmlStreamWriter writer;
     BOOST_CHECK_EQUAL(writer.device(), static_cast<QIODevice*>(0));
 }
-
-

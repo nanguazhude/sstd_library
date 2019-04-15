@@ -196,4 +196,3 @@ inline std::wstring to_wstring(uuid const& u)
 #endif
 
 #endif // BOOST_UUID_IO_HPP
-

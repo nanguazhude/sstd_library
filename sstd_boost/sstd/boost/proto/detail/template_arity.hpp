@@ -65,4 +65,3 @@ namespace boost { namespace proto { namespace detail
 
 #endif // BOOST_PROTO_EXTENDED_TEMPLATE_PARAMETERS_MATCHING
 #endif // BOOST_PROTO_DETAIL_TEMPLATE_ARITY_HPP_EAN_2011_05_07
-

@@ -45,4 +45,3 @@ struct segments_end
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ITERATORS_DISPATCH_SEGMENT_ITERATOR_HPP
-

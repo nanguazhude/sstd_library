@@ -26,7 +26,3 @@ void some_proc()
    instantiate(static_cast<long double>(0));
    instantiate(static_cast<boost::math::concepts::real_concept>(0));
 }
-
-
-
-

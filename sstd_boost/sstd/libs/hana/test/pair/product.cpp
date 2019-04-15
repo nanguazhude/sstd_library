@@ -27,4 +27,3 @@ int main() {
         ct_eq<3>{}, ct_eq<4>{}, ct_eq<5>{}
     )};
 }
-

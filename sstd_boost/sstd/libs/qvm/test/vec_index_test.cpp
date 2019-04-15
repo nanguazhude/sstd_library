@@ -26,4 +26,3 @@ main()
     BOOST_TEST(&vec_traits<V>::write_element_idx(3,v)==&v.a[3]);
     return boost::report_errors();
     }
-

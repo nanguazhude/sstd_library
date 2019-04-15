@@ -17,4 +17,3 @@
 #include <sstd/boost/endian/arithmetic.hpp>
 
 #endif  //BOOST_ENDIAN_ENDIAN_HPP
-

@@ -65,4 +65,3 @@ namespace at_tests {
 }
 
 RUN_TESTS()
-

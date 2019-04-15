@@ -40,4 +40,3 @@ int main()
                "mailing list.\n";
   return 1;
 }
-

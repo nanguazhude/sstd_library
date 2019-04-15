@@ -62,4 +62,3 @@ public:
 #endif // defined(BOOST_ASIO_HAS_STD_ATOMIC)
 
 #endif // BOOST_ASIO_DETAIL_STD_FENCED_BLOCK_HPP
-

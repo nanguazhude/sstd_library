@@ -28,4 +28,3 @@ namespace test
   BOOST_MPL_ASSERT((is_same<unwrap_cv_reference<reference_wrapper<foo> volatile>::type,foo>));
   BOOST_MPL_ASSERT((is_same<unwrap_cv_reference<reference_wrapper<foo> const volatile>::type,foo>));
 }
-

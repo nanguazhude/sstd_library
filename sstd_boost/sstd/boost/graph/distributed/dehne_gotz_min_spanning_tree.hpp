@@ -935,4 +935,3 @@ using distributed::boruvka_mixed_merge;
 
 
 #endif // BOOST_DEHNE_GOTZ_MIN_SPANNING_TREE_HPP
-

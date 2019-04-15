@@ -32,4 +32,3 @@ struct is_dimensionless_quantity :
 } // namespace boost
 
 #endif // BOOST_UNITS_IS_DIMENSIONLESS_QUANTITY_HPP
-

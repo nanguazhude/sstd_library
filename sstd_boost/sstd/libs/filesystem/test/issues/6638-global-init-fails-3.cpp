@@ -34,4 +34,3 @@ int cpp_main(int, char* [])
 {
   return 0;
 }
-

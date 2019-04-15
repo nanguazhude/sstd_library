@@ -76,4 +76,3 @@ BOOST_AUTO_TEST_CASE( test_main )
 {
     join_test();
 }
-

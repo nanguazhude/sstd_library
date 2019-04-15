@@ -379,4 +379,3 @@ void hawick_unique_circuits(BOOST_FWD_REF(Graph) graph,
 } // end namespace boost
 
 #endif // !BOOST_GRAPH_HAWICK_CIRCUITS_HPP
-

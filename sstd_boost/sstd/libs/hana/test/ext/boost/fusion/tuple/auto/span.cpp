@@ -6,4 +6,3 @@
 #include <auto/span.hpp>
 
 int main() { }
-

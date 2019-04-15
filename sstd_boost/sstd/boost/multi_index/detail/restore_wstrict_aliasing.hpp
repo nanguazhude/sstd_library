@@ -9,4 +9,3 @@
 #define BOOST_MULTI_INDEX_DETAIL_RESTORE_WSTRICT_ALIASING
 #include <sstd/boost/multi_index/detail/ignore_wstrict_aliasing.hpp>
 #undef BOOST_MULTI_INDEX_DETAIL_RESTORE_WSTRICT_ALIASING
-

@@ -17,4 +17,3 @@ constexpr auto ys = hana::make_set(hana::int_c<2>, hana::type_c<int>, hana::int_
 BOOST_HANA_CONSTANT_CHECK(hana::intersection(xs, ys) == hana::make_set(hana::int_c<2>));
 
 int main() { }
-

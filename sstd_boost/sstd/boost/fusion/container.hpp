@@ -16,4 +16,3 @@
 #include <sstd/boost/fusion/container/generation.hpp>
 
 #endif
-

@@ -17,4 +17,3 @@ MACRO(1,, 3)
 //H 10: t_9_013.cpp(12): #define
 //H 08: t_9_013.cpp(12): MACRO(a, b, c)=a ## b ## c
 //H 18: boost::wave::preprocess_exception
-

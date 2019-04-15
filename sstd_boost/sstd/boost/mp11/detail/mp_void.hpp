@@ -30,4 +30,3 @@ template<class... T> using mp_void = typename detail::mp_void_impl<T...>::type;
 } // namespace boost
 
 #endif // #ifndef BOOST_MP11_DETAIL_MP_VOID_HPP_INCLUDED
-

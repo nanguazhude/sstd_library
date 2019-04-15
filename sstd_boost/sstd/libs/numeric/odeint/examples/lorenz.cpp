@@ -29,4 +29,3 @@ int main(int argc, char **argv)
     state_type x = {{ 10.0 , 1.0 , 1.0 }}; // initial conditions
     integrate( lorenz , x , 0.0 , 25.0 , 0.1 , write_lorenz );
 }
-

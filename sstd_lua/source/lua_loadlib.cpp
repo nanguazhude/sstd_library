@@ -1,4 +1,4 @@
-/*
+﻿/*
 ** $Id: loadlib.c,v 1.130.1.1 2017/04/19 17:20:42 roberto Exp $
 ** Dynamic library loader for Lua
 ** See Copyright Notice in lua.h
@@ -787,4 +787,3 @@ LUAMOD_API int luaopen_package (lua_State *L) {
   lua_pop(L, 1);  /* pop global table */
   return 1;  /* return 'package' table */
 }
-

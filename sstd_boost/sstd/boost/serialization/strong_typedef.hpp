@@ -48,4 +48,3 @@ struct D                                                                        
 };
 
 #endif // BOOST_SERIALIZATION_STRONG_TYPEDEF_HPP
-

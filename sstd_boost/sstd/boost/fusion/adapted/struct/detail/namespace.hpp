@@ -50,4 +50,3 @@
             BOOST_PP_SEQ_TAIL(NAMESPACE_SEQ))
 
 #endif
-

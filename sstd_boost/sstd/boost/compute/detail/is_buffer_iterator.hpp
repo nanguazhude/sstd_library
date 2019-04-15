@@ -28,4 +28,3 @@ struct is_buffer_iterator : public boost::false_type {};
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_DETAIL_IS_BUFFER_ITERATOR_HPP
-

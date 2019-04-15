@@ -70,4 +70,3 @@ class spsc_queue;
 #endif // BOOST_DOXYGEN_INVOKED
 
 #endif // BOOST_LOCKFREE_FORWARD_HPP_INCLUDED
-

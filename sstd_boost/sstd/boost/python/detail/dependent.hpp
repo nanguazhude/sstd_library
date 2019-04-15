@@ -25,4 +25,3 @@ struct dependent
 }}} // namespace boost::python::detail
 
 #endif // DEPENDENT_DWA200286_HPP
-

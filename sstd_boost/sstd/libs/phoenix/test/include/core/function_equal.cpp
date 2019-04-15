@@ -5,4 +5,3 @@
 ==============================================================================*/
 #include <sstd/boost/phoenix/core/function_equal.hpp>
 int main() {}
-

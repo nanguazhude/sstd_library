@@ -32,5 +32,3 @@
     BOOST_PP_CAT(BOOST_CONTRACT_DETAIL_PP_KEYWORD_PRIVATE_CAT_TO_EMPTY, tokens)
 
 #endif // #include guard
-
-

@@ -12,4 +12,3 @@ int main() {
     auto i = (boost::hof::flip(boost::hof::_1 - boost::hof::_2) * boost::hof::_1)(3, 6);
     (void)i;
 }
-

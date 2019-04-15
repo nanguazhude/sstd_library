@@ -217,4 +217,3 @@ int main()
     sum_with_moving(50);
     return boost::report_errors();
 }
-

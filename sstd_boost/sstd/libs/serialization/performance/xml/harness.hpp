@@ -185,5 +185,3 @@ struct result_set {
 } // boost
 
 #endif // BOOST_SERIALIZATION_XML_PERFORMANCE_HARNESS_HPP
-
-

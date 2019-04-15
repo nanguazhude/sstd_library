@@ -123,4 +123,3 @@ struct is_node_index
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTERPROCESS_UNORDERED_MAP_INDEX_HPP
-

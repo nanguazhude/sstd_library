@@ -170,6 +170,3 @@ inline std::size_t regex_split(OutputIterator out,
 } // namespace boost
 
 #endif
-
-
-

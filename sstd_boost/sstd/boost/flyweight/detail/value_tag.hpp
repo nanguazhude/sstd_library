@@ -48,4 +48,3 @@ struct value:parameter::template_keyword<value<>,T>
 } /* namespace boost */
 
 #endif
-

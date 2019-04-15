@@ -153,4 +153,3 @@ BOOST_AUTO_TEST_CASE( test_bulirsch_stoer_adjust_size )
 
 
 BOOST_AUTO_TEST_SUITE_END()
-

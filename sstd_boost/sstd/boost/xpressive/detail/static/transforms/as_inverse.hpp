@@ -92,4 +92,3 @@ namespace boost { namespace xpressive { namespace grammar_detail
 #undef UNCVREF
 
 #endif
-

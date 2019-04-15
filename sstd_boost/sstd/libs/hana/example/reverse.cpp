@@ -11,4 +11,3 @@ namespace hana = boost::hana;
 static_assert(hana::reverse(hana::make_tuple(1, '2', 3.3)) == hana::make_tuple(3.3, '2', 1), "");
 
 int main() { }
-

@@ -336,5 +336,3 @@ BOOST_METAPARSE_TEST_CASE(source_position)
     >
   ));
 }
-
-

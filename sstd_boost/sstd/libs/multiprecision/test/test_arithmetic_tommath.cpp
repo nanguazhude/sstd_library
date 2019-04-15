@@ -19,5 +19,3 @@ int main()
    test<boost::multiprecision::tom_int>();
    return boost::report_errors();
 }
-
-

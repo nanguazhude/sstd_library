@@ -305,4 +305,3 @@ BOOST_IS_BITWISE_SERIALIZABLE(boost::archive::object_reference_type)
 BOOST_IS_BITWISE_SERIALIZABLE(boost::archive::tracking_type)
 
 #endif //BOOST_ARCHIVE_BASIC_ARCHIVE_HPP
-

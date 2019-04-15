@@ -211,12 +211,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT((::tt::has_trivial_constructor<std::pair<deleted_c
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

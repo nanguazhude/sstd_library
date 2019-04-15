@@ -146,5 +146,3 @@ BOOST_PP_EXPAND(#) include BOOST_FT_AL_PREPROCESSED
 #else
 #   error "attempt to nest arity loops"
 #endif
-
-

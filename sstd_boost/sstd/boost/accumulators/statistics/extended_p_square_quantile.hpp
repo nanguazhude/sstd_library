@@ -318,4 +318,3 @@ struct feature_of<tag::weighted_extended_p_square_quantile_quadratic>
 #endif
 
 #endif
-

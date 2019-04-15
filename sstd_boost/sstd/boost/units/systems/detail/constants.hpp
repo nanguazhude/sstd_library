@@ -276,4 +276,3 @@ std::basic_ostream<Char,Traits>& operator<<(std::basic_ostream<Char,Traits>& os,
 } // namespace boost
 
 #endif // BOOST_UNITS_CONSTANTS_HPP
-

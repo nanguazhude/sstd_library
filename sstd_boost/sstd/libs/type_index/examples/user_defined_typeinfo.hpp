@@ -210,5 +210,3 @@ namespace boost { namespace typeindex {
 
 
 #endif // USER_DEFINED_TYPEINFO_HPP
-
-

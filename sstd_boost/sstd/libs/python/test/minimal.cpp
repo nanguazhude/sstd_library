@@ -14,4 +14,3 @@ BOOST_PYTHON_MODULE(minimal_ext)
 }
 
 #include "module_tail.cpp"
-

@@ -42,4 +42,3 @@ BOOST_LOG_CLOSE_NAMESPACE // namespace log
 } // namespace boost
 
 #endif // BOOST_LOG_DETAIL_DATE_TIME_FMT_GEN_TRAITS_FWD_HPP_INCLUDED_
-

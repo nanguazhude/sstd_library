@@ -106,4 +106,3 @@ inline Windows::Storage::Streams::IBuffer^ buffer_dup(
 #endif // defined(BOOST_ASIO_WINDOWS_RUNTIME)
 
 #endif // BOOST_ASIO_DETAIL_WINRT_UTILS_HPP
-

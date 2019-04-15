@@ -200,4 +200,3 @@ struct closure
 
 
 #endif // BOOST_GEOMETRY_CORE_CLOSURE_HPP
-

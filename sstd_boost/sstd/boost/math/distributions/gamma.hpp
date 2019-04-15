@@ -345,6 +345,3 @@ inline RealType kurtosis(const gamma_distribution<RealType, Policy>& dist)
 #include <sstd/boost/math/distributions/detail/derived_accessors.hpp>
 
 #endif // BOOST_STATS_GAMMA_HPP
-
-
-

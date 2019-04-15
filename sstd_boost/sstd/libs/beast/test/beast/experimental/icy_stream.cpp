@@ -125,4 +125,3 @@ BEAST_DEFINE_TESTSUITE(beast,http,icy_stream);
 } // http
 } // beast
 } // boost
-

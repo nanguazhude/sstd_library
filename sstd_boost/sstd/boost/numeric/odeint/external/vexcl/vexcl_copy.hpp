@@ -53,4 +53,3 @@ struct copy_impl< vex::multivector<T1, N>, vex::multivector<T2, N> >
 
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_VEXCL_VEXCL_COPY_HPP_INCLUDED
-

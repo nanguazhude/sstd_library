@@ -679,4 +679,3 @@ async_write_at(AsyncRandomAccessWriteDevice& d, uint64_t offset,
 #include <sstd/boost/asio/impl/write_at.hpp>
 
 #endif // BOOST_ASIO_WRITE_AT_HPP
-

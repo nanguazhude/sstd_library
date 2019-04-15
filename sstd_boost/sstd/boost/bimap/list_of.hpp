@@ -178,5 +178,3 @@ struct list_of_relation : public ::boost::bimaps::detail::set_type_of_relation_t
 
 
 #endif // BOOST_BIMAP_LIST_OF_HPP
-
-

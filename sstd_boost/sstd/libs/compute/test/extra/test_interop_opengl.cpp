@@ -26,4 +26,3 @@ BOOST_AUTO_TEST_CASE(type_name)
         boost::compute::type_name<boost::compute::opengl_renderbuffer>(), "image2d_t"
     );
 }
-

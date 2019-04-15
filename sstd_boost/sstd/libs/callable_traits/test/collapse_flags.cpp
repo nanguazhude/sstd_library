@@ -36,4 +36,3 @@ int main() {
     using const_plus_lref = collapse_flags<const_, lref_>;
     CT_ASSERT(const_plus_lref::value == (const_ | lref_));
 }
-

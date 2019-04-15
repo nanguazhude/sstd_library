@@ -507,4 +507,3 @@ int main(int argc, char* argv[]) {
 }
 
 #include "voronoi_visualizer.moc"
-

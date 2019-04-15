@@ -146,4 +146,3 @@ typedef std::tuple<
 BOOST_AUTO_TEST_CASE_TEMPLATE(odd_or_above_5, T, range_special) {
     BOOST_TEST( (T::value % 2 || T::value >= 5 ) );
 }
-

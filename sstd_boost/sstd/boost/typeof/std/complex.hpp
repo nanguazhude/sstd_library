@@ -13,4 +13,3 @@
 BOOST_TYPEOF_REGISTER_TEMPLATE(std::complex, 1)
 
 #endif//BOOST_TYPEOF_STD_complex_hpp_INCLUDED
-

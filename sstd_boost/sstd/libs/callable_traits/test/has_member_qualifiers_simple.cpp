@@ -56,4 +56,3 @@ int main() {
     assert_unqualified<int foo::*>();
     assert_unqualified<void(&)()>();
 }
-

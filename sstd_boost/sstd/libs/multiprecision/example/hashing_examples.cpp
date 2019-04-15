@@ -74,5 +74,3 @@ int main()
    t2();
    return 0;
 }
-
-

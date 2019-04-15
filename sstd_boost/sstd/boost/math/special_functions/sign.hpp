@@ -190,6 +190,3 @@ inline typename tools::promote_args_permissive<T, U>::type
 
 
 #endif // BOOST_MATH_TOOLS_SIGN_HPP
-
-
-

@@ -416,5 +416,3 @@ clock_t get_cpu_time()
 
 
 # endif /* VMS */
-
-

@@ -173,4 +173,3 @@ make_local_subgraph(DistributedGraph& g)
 } // end namespace boost
 
 #endif // BOOST_GRAPH_LOCAL_SUBGRAPH_HPP
-

@@ -729,10 +729,3 @@ operator->*(const Arg1& a1, const lambda_functor<Arg2>& a2)
 
 
 #endif
-
-
-
-
-
-
-

@@ -49,4 +49,3 @@ struct value_init
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_VALUE_INIT_HPP
-

@@ -150,4 +150,3 @@ void initialize() {
     INTCONbits.RBIF = 0;
     ei();         // enable_interrupts(GLOBAL);
 } // initialize()
-

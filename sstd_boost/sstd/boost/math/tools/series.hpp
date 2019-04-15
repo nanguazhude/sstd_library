@@ -155,5 +155,3 @@ inline typename Functor::result_type kahan_sum_series(Functor& func, int bits, b
 } // namespace boost
 
 #endif // BOOST_MATH_TOOLS_SERIES_INCLUDED
-
-

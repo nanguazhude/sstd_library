@@ -74,4 +74,3 @@ template<class T> T * get_pointer( std::shared_ptr<T> const& p )
 } // namespace boost
 
 #endif // GET_POINTER_DWA20021219_HPP
-

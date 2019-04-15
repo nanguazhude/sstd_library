@@ -758,4 +758,3 @@ function<OperationT>::operator()(
 }   //  namespace phoenix
 
 #endif
-

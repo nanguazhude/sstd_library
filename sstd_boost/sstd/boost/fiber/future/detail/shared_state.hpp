@@ -311,4 +311,3 @@ public:
 #endif
 
 #endif // BOOST_FIBERS_DETAIL_SHARED_STATE_H
-

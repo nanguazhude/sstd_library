@@ -37,4 +37,3 @@ int main()
     threads.join_all();
     assert(value == 1);
 }
-

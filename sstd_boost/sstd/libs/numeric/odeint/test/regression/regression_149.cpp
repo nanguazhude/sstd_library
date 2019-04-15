@@ -91,4 +91,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( regression_147_test , Stepper,
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

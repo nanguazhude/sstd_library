@@ -1,4 +1,4 @@
-/*
+﻿/*
 * ECC Domain Parameters
 *
 * (C) 2007 Falko Strenzke, FlexSecure GmbH

@@ -39,4 +39,3 @@ BOOST_TYPEOF_REGISTER_TYPE(boost::units::information::bit_base_unit)
 #endif
 
 #endif // BOOST_UNITS_BASE_UNITS_INFORMATION_BIT_HPP_INCLUDED
-

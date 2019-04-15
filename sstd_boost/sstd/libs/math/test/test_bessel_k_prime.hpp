@@ -176,5 +176,3 @@ void test_bessel(T, const char* name)
 #include "bessel_k_prime_data.ipp"
     do_test_cyl_bessel_k_prime<T>(bessel_k_prime_data, name, "Bessel K'v: Random Data");
 }
-
-

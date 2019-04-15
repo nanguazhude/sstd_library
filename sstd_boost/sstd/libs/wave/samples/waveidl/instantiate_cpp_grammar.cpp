@@ -42,5 +42,3 @@ typedef std::list<token_type, boost::fast_pool_allocator<token_type> >
 template struct boost::wave::grammars::cpp_grammar_gen<lexer_type, token_sequence_type>;
 
 #endif // #if BOOST_WAVE_SEPARATE_GRAMMAR_INSTANTIATION != 0
-
-

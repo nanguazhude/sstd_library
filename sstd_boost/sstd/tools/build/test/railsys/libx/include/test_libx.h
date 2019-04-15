@@ -23,4 +23,3 @@ public:
     // in some cases.
     void do_something() {}
 };
-

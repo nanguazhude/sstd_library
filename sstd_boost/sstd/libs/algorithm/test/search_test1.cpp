@@ -283,4 +283,3 @@ BOOST_AUTO_TEST_CASE( test_main )
 
     check_one ( mikhail_corpus, mikhail_pattern, 8 );
     }
-

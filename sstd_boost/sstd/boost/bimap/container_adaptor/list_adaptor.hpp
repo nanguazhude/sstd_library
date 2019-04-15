@@ -245,6 +245,3 @@ class list_adaptor :
 
 
 #endif // BOOST_BIMAP_CONTAINER_ADAPTOR_SET_ADAPTOR_HPP
-
-
-

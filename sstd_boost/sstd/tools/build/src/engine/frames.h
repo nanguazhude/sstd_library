@@ -43,4 +43,3 @@ void frame_init( FRAME * );
 void frame_free( FRAME * );
 
 #endif
-

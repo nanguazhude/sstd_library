@@ -124,4 +124,3 @@ typename any_image<Types>::const_view_t const_view(const any_image<Types>& anyIm
 #endif
 
 #endif
-

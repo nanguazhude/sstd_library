@@ -372,4 +372,3 @@ BOOST_AUTO_TEST_CASE(stable_sort_vector_int2)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

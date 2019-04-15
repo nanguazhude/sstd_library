@@ -97,9 +97,3 @@ BOOST_PP_REPEAT_2ND(4,BOOST_LAMBDA_HELPER,FOO)
 } // boost
 
 #endif
-
-
-
-
-
-

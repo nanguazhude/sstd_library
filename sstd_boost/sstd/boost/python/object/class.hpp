@@ -61,4 +61,3 @@ struct BOOST_PYTHON_DECL class_base : python::api::object
 }}} // namespace boost::python::objects
 
 #endif // CLASS_DWA20011214_HPP
-

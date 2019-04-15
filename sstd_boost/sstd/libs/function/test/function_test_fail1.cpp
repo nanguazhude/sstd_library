@@ -16,4 +16,3 @@ void test()
 
     if( f1 == f2 ) {}
 }
-

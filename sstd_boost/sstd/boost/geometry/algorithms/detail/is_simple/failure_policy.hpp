@@ -51,4 +51,3 @@ struct simplicity_failure_policy
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_IS_SIMPLE_FAILURE_POLICY_HPP
-

@@ -265,4 +265,3 @@ inline Real finite_difference_derivative(const F f, Real x, Real* error = nullpt
 
 }}}  // namespaces
 #endif
-

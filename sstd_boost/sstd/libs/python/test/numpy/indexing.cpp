@@ -26,4 +26,3 @@ BOOST_PYTHON_MODULE(indexing_ext)
   p::def("indexslice", indexslice);
 
 }
-

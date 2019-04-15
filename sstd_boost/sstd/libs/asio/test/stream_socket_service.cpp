@@ -23,4 +23,3 @@ BOOST_ASIO_TEST_SUITE
   "stream_socket_service",
   BOOST_ASIO_TEST_CASE(null_test)
 )
-

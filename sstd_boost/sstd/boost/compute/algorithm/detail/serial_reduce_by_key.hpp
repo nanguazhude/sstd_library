@@ -104,4 +104,3 @@ inline size_t serial_reduce_by_key(InputKeyIterator keys_first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_SERIAL_REDUCE_BY_KEY_HPP
-

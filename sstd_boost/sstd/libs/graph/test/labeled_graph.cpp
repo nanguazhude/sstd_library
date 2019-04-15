@@ -143,4 +143,3 @@ void test_bacon() {
         add_edge_by_label(bacon, slater, murder, g);
     }
 }
-

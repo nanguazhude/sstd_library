@@ -12,5 +12,3 @@ int main() {
     auto c = boost::contract::function(); // Error (can't use auto).
     return 0;
 }
-
-

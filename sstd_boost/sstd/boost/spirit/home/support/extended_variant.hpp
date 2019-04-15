@@ -183,4 +183,3 @@ namespace boost
 #undef BOOST_SPIRIT_EXTENDED_VARIANT_LIMIT_TYPES
 
 #endif
-

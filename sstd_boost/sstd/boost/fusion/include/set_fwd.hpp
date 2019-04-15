@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/container/set/set_fwd.hpp>
 
 #endif
-

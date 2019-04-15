@@ -177,5 +177,3 @@ void test_bessel(T, const char* name)
     if(0 != static_cast<T>(ldexp(0.5, -700)))
       do_test_cyl_bessel_i<T>(iv_large_data, name, "Bessel Iv: Mathworld Data (large values)");
 }
-
-

@@ -28,4 +28,3 @@ typedef derived_dimension<length_base_dimension,-3,
 } // namespace boost
 
 #endif // BOOST_UNITS_MASS_DENSITY_DERIVED_DIMENSION_HPP
-

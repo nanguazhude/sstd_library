@@ -312,4 +312,3 @@ BOOST_AUTO_TEST_CASE( test_is_simple_variant )
     vg = non_simple_polygon;
     test_simple(vg, false);
 }
-

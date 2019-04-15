@@ -718,5 +718,3 @@ std::string format_authors_name(const std::string& name)
 
    return boost::regex_replace(name, e, formatter, boost::match_default | boost::format_all);
 }
-
-

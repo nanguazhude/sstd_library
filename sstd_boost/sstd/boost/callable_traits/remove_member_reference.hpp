@@ -83,4 +83,3 @@ struct remove_member_reference
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_REMOVE_MEMBER_REFERENCE_HPP
-

@@ -485,4 +485,3 @@ struct is_planar<image<Pixel,IsPlanar,Alloc> > : public mpl::bool_<IsPlanar> {};
 }}  // namespace boost::gil
 
 #endif
-

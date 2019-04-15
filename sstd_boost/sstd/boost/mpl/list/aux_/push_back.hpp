@@ -34,4 +34,3 @@ struct has_push_back_impl< aux::list_tag >
 }}
 
 #endif // BOOST_MPL_LIST_AUX_PUSH_BACK_HPP_INCLUDED
-

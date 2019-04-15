@@ -13,4 +13,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::power(hana::int_c<3>, hana::int_c<2>) == hana::i
 static_assert(hana::power(2, hana::int_c<4>) == 16, "");
 
 int main() { }
-

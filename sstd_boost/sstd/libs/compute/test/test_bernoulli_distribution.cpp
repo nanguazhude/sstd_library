@@ -37,4 +37,3 @@ distribution.generate(vec.begin(), vec.end(), engine, queue);
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

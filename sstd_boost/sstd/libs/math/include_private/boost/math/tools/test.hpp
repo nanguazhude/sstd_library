@@ -303,6 +303,3 @@ void test_check_throw(Val v, boost::math::rounding_error const* e)
 #endif
 
 #endif
-
-
-

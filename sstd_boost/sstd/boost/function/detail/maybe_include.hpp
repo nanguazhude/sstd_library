@@ -367,4 +367,3 @@
 #else
 #  error Cannot handle Boost.Function objects that accept more than 50 arguments!
 #endif
-

@@ -28,4 +28,3 @@ int main() {
     hana::test::TestRing<hana::ext::boost::mpl::integral_c_tag<int>>{ints};
     hana::test::TestEuclideanRing<hana::ext::boost::mpl::integral_c_tag<int>>{ints};
 }
-

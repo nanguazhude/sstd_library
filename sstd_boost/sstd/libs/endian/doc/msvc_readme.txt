@@ -29,4 +29,3 @@ IMPORTANT: If Preprocessor macros are supplied via a common property page,
 Copyright Beman Dawes, 2013
 Distributed under the Boost Software License, Version 1.0.
 See http://www.boost.org/LICENSE_1_0.txt
-

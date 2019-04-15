@@ -23,4 +23,3 @@ template< typename Sequence, typename T > struct contains;
 }}
 
 #endif // BOOST_MPL_CONTAINS_FWD_HPP_INCLUDED
-

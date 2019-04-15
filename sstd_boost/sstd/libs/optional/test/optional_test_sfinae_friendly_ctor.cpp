@@ -47,4 +47,3 @@ BOOST_STATIC_ASSERT(( !boost::is_constructible<optional<Resource>, const optiona
 #endif
 
 int main() { }
-

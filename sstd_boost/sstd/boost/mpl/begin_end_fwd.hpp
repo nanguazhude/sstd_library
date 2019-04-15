@@ -25,4 +25,3 @@ template< typename Sequence > struct end;
 }}
 
 #endif // BOOST_MPL_BEGIN_END_FWD_HPP_INCLUDED
-

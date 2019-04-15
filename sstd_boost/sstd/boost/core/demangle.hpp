@@ -124,4 +124,3 @@ inline std::string demangle( char const * name )
 #undef BOOST_CORE_HAS_CXXABI_H
 
 #endif // #ifndef BOOST_CORE_DEMANGLE_HPP_INCLUDED
-

@@ -5,4 +5,3 @@
 ==============================================================================*/
 #include <sstd/boost/phoenix/stl/algorithm/querying.hpp>
 int main() {}
-

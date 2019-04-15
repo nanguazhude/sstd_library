@@ -1124,4 +1124,3 @@ BOOST_AUTO_TEST_CASE( expand_box_with_height )
     test_expand_box_with_height<bg::cs::spherical_equatorial<bg::degree> >();
     test_expand_box_with_height<bg::cs::geographic<bg::degree> >();
 }
-

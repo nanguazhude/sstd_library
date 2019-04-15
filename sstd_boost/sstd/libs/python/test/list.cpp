@@ -152,4 +152,3 @@ BOOST_PYTHON_MODULE(list_ext)
 }
 
 #include "module_tail.cpp"
-

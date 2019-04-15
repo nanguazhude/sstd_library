@@ -95,5 +95,3 @@ class unordered_set_adaptor :
 
 
 #endif // BOOST_BIMAP_CONTAINER_ADAPTOR_UNORDERED_SET_ADAPTOR_HPP
-
-

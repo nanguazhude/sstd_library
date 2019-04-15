@@ -507,4 +507,3 @@ namespace boost { namespace proto
 #endif
 
 #endif // BOOST_PROTO_MAKE_EXPR_HPP_EAN_04_01_2005
-

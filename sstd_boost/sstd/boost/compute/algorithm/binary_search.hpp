@@ -41,4 +41,3 @@ inline bool binary_search(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_BINARY_SEARCH_HPP
-

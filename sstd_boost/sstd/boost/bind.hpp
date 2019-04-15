@@ -39,4 +39,3 @@ using namespace boost::placeholders;
 #endif // #ifndef BOOST_BIND_NO_PLACEHOLDERS
 
 #endif // #ifndef BOOST_BIND_HPP_INCLUDED
-

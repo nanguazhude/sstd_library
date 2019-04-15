@@ -325,4 +325,3 @@ range<Value_t *> uninit_full_merge4(const range<Value_t *> &dest,
 //****************************************************************************
 //
 #endif
-

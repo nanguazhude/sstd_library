@@ -14,4 +14,3 @@
 #include <memory>
 
 #endif // header
-

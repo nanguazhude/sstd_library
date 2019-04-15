@@ -87,4 +87,3 @@ struct abs_impl<integral_c_tag>
 }}
 
 #endif // BOOST_MPL_ABS_HPP_INCLUDED
-

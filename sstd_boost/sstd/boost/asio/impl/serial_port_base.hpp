@@ -59,4 +59,3 @@ inline unsigned int serial_port_base::character_size::value() const
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IMPL_SERIAL_PORT_BASE_HPP
-

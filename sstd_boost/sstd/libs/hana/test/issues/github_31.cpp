@@ -51,4 +51,3 @@ int main() {
         hana::just(hana::int_c<4>)
     ));
 }
-

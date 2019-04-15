@@ -15,6 +15,3 @@ int main()
 {
    return boost::is_convertible<incomplete_type, UDT>::value;
 }
-
-
-

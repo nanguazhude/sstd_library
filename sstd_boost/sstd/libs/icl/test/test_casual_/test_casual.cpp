@@ -91,6 +91,3 @@ BOOST_AUTO_TEST_CASE(casual)
 
     BOOST_CHECK_EQUAL(true, true);
 }
-
-
-

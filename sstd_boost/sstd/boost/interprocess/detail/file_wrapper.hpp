@@ -211,4 +211,3 @@ inline void file_wrapper::priv_close()
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_DETAIL_FILE_WRAPPER_HPP
-

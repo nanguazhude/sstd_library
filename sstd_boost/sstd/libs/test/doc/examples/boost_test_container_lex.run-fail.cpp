@@ -37,4 +37,3 @@ BOOST_AUTO_TEST_CASE( test_compare_c_arrays_lexicographic )
   BOOST_TEST(c < a, boost::test_tools::lexicographic());
 }
 //]
-

@@ -375,4 +375,3 @@ class scoped_lock
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif // BOOST_INTERPROCESS_SCOPED_LOCK_HPP
-

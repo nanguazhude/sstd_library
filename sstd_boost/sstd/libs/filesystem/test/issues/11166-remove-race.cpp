@@ -36,4 +36,3 @@ int main()
     r1.interrupt(); r1.join();
     r2.interrupt(); r2.join();
 }
-

@@ -119,4 +119,3 @@ BOOST_HOF_USING(can_be_called, can_be_called_impl<F, detail::callable_args<Ts...
 }}} // namespace boost::hof
 
 #endif
-

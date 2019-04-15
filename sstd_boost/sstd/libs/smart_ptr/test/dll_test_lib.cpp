@@ -40,4 +40,3 @@ EXPORT boost::shared_ptr<int[]> dll_test_45()
 {
     return boost::allocate_shared<int[1]>( std::allocator<int>(), 45 );
 }
-

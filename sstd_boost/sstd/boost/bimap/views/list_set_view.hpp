@@ -106,5 +106,3 @@ class list_set_view
 
 
 #endif // BOOST_BIMAP_VIEWS_LIST_SET_VIEW_HPP
-
-

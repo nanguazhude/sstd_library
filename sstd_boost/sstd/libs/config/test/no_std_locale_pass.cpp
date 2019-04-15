@@ -31,5 +31,3 @@ int main( int, char *[] )
 {
    return boost_no_std_locale::test();
 }
-
-

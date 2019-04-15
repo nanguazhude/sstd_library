@@ -1067,4 +1067,3 @@ inline U_NAMESPACE_QUALIFIER UnicodeString u32regex_replace(const U_NAMESPACE_QU
 #include <sstd/boost/regex/v4/u32regex_token_iterator.hpp>
 
 #endif
-

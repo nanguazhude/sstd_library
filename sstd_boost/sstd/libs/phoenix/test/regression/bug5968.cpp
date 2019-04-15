@@ -24,5 +24,3 @@ int main()
                         boost::phoenix::placeholders::arg1,
                         boost::phoenix::placeholders::arg2));
 }
-
-

@@ -6,4 +6,3 @@
 #include <auto/make.hpp>
 
 int main() { }
-

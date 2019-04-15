@@ -9,5 +9,3 @@
 // Definitions of section 1
 
 #endif
-
-

@@ -60,4 +60,3 @@ int main()
 //]
   }catch(boost::poly_collection::not_equality_comparable&){}
 }
-

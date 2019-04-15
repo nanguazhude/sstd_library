@@ -55,4 +55,3 @@ struct x86_rounding
 } // namespace boost
 
 #endif /* BOOST_NUMERIC_INTERVAL_DETAIL_BCC_ROUNDING_CONTROL_HPP */
-

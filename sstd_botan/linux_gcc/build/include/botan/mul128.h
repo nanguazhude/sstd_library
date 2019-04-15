@@ -1,4 +1,4 @@
-/*
+﻿/*
 * 64x64->128 bit multiply operation
 * (C) 2013,2015 Jack Lloyd
 *

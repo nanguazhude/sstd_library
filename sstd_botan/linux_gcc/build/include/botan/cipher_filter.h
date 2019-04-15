@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Filter interface for ciphers
 * (C) 2013,2016 Jack Lloyd
 *

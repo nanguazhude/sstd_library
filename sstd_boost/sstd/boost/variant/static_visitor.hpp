@@ -93,4 +93,3 @@ public:
 } // namespace boost
 
 #endif // BOOST_VARIANT_STATIC_VISITOR_HPP
-

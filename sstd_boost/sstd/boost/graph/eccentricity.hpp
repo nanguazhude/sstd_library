@@ -112,4 +112,3 @@ diameter(const Graph& g, EccentricityMap ecc)
 } /* namespace boost */
 
 #endif
-

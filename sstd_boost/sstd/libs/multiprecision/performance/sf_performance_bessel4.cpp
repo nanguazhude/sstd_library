@@ -13,4 +13,3 @@ void bessel_tests_4()
    time_proc("static_mpfr_float_100", test_bessel<static_mpfr_float_100>);
 #endif
 }
-

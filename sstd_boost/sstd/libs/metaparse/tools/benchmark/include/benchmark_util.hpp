@@ -278,5 +278,3 @@ struct to_upper<boost::metaparse::string<Cs...>> :
 #define CAT(a, b) CAT_IMPL(a, b)
 
 #define TEST_STRING(...) to_upper< __VA_ARGS__ >::type CAT(v, __LINE__);
-
-

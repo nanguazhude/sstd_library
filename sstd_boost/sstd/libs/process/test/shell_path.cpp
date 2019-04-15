@@ -28,4 +28,3 @@ BOOST_AUTO_TEST_CASE(shell_throw_on_error)
     BOOST_CHECK_NO_THROW(bp::shell());
     BOOST_CHECK(boost::filesystem::exists(bp::shell()));
 }
-

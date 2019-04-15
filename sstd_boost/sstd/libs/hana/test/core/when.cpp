@@ -22,4 +22,3 @@ template struct base_template<First>;
 template struct base_template<Second>;
 
 int main() { }
-

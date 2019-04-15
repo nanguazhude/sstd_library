@@ -92,4 +92,3 @@ namespace quickbook
 }
 
 #endif
-

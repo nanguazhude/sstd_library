@@ -14,5 +14,3 @@
 #define BOOST_NO_CHAR EOF
 
 #endif
-
-

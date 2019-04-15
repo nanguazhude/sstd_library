@@ -44,4 +44,3 @@ namespace boost
 }
 
 #endif // BOOST_SIGNALS2_PREDESTRUCTIBLE_HPP
-

@@ -23,4 +23,3 @@ void nct_tests_6()
    time_proc("mpfr::mpreal", test_nct<mpfr::mpreal>);
 #endif
 }
-

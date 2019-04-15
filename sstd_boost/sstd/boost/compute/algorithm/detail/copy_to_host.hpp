@@ -196,4 +196,3 @@ inline HostIterator copy_to_host_map(svm_ptr<T> first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_COPY_TO_HOST_HPP
-

@@ -187,4 +187,3 @@ namespace boost { namespace fusion
         return detail::fold<Seq const, State, F>(seq, state, f);
     }
 }}
-

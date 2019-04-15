@@ -48,4 +48,3 @@ struct const_range
 };
 
 #endif // LIBS_NUMERIC_ODEINT_TEST_CONST_RANGE_HPP_DEFINED
-

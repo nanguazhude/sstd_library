@@ -11,4 +11,3 @@
 
 // File moved
 #include <sstd/boost/property_map/parallel/simple_trigger.hpp>
-

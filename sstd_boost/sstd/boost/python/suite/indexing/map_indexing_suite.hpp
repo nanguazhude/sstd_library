@@ -179,4 +179,3 @@ namespace boost { namespace python {
 }} // namespace boost::python
 
 #endif // MAP_INDEXING_SUITE_JDG20038_HPP
-

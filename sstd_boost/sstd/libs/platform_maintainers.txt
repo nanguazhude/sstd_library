@@ -36,4 +36,3 @@ Huang-Vista-x64        msvc-8.0_x86_64         Sean Huang <huangsean -at- hotmai
 IBM_Canada_Ltd         vacpp                   Chris Cambly <ccambly -at- ca.ibm.com>
 RW_WinXP_VC            msvc-7.1                Richard Webb <richard.webb -at- boldonjames.com>
 RW_WinXP_VC            msvc-9.0                Richard Webb <richard.webb -at- boldonjames.com>
-

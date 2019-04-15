@@ -394,4 +394,3 @@ bool rel_close_to(::std::complex<T1> const& x, ::std::complex<T2> const& y, T3 t
 #endif
 
 #endif // BOOST_NUMERIC_UBLAS_TEST_UTILS_HPP
-

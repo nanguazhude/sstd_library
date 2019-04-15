@@ -1279,4 +1279,3 @@ matrix_expression_assigner<matrix_expression<E1> > operator<<=(matrix_expression
 } } }
 
 #endif // ASSIGNMENT_HPP
-

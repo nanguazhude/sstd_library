@@ -32,4 +32,3 @@ BOOST_UNITS_STATIC_CONSTANT(newtons_per_meter,surface_tension);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_SURFACE_TENSION_HPP
-

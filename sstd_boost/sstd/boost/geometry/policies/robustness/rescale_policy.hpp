@@ -86,4 +86,3 @@ struct segment_ratio_type<Point, detail::robust_policy<FpPoint, IntPoint, Calcul
 
 
 #endif // BOOST_GEOMETRY_POLICIES_ROBUSTNESS_RESCALE_POLICY_HPP
-

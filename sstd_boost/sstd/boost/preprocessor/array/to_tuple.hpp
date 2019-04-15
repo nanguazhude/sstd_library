@@ -31,4 +31,3 @@
 #    define BOOST_PP_ARRAY_TO_TUPLE_EMPTY(array)
 #
 # endif
-

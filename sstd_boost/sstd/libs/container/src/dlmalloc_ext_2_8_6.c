@@ -1482,4 +1482,3 @@ void boost_cont_global_sync_unlock()
 #ifdef _MSC_VER
 #pragma warning (pop)
 #endif
-

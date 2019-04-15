@@ -74,4 +74,3 @@ int main() {
         "foo:1", "foo:2", "bar:1", "baz:1"
     });
 }
-

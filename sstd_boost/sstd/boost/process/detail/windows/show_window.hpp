@@ -42,5 +42,3 @@ struct create_no_window_ : public ::boost::process::detail::handler_base
 }}}}
 
 #endif
-
-

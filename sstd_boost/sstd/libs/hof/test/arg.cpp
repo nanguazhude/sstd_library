@@ -51,4 +51,3 @@ BOOST_HOF_TEST_CASE()
     static_assert(!noexcept(boost::hof::arg(std::integral_constant<int, 3>())(1,2,copy_throws{},4,5)), "noexcept arg");
 }
 #endif
-

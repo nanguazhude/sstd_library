@@ -143,5 +143,3 @@ int main() {
     constexpr_test();
     return boost::report_errors();
 }
-
-

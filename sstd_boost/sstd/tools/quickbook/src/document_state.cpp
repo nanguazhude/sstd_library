@@ -498,4 +498,3 @@ namespace quickbook
             current_file->document->current_section->parent;
     }
 }
-

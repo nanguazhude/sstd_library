@@ -19,4 +19,3 @@ void compile_and_link_test()
     boost::math::quadrature::sinh_sinh<double> integrator;
     check_result<double>(integrator.integrate(f));
 }
-

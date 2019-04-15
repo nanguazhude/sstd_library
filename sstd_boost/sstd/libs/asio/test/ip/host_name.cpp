@@ -53,4 +53,3 @@ BOOST_ASIO_TEST_SUITE
   "ip/host_name",
   BOOST_ASIO_TEST_CASE(ip_host_name_compile::test)
 )
-

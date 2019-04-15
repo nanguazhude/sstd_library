@@ -153,4 +153,3 @@ operator!=(const aligned_allocator<T, Alignment>&,
 } /* boost */
 
 #endif
-

@@ -189,4 +189,3 @@ struct indexed_access<model::box<Point>, max_corner, Dimension>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_BOX_HPP
-

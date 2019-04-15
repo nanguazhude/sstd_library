@@ -29,5 +29,3 @@ namespace local_time {
 }} // namespace
 
 #endif // BOOST_DATE_TIME_TZ_DATABASE_HPP__
-
-

@@ -216,4 +216,3 @@ struct clear_impl< aux::vector_tag<i_> >
 #undef i_
 
 #endif // BOOST_PP_IS_ITERATING
-

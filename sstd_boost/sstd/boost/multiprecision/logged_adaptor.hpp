@@ -619,4 +619,3 @@ struct precision< boost::multiprecision::number<boost::multiprecision::logged_ad
 #undef NON_MEMBER_OP4
 
 #endif
-

@@ -151,4 +151,3 @@ BOOST_AUTO_TEST_CASE(detaching_from_thread)
     boost::intrusive_ptr< logging::attribute_value::impl > p2 = p1->detach_from_thread();
     BOOST_CHECK(!!p2);
 }
-

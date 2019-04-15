@@ -20,4 +20,3 @@ public:
     // Needed to suppress 'unused variable' varning.
     void do_something() { }
 };
-

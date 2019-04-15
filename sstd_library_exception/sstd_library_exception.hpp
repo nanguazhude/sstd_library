@@ -31,4 +31,3 @@ namespace sstd {
 #ifndef sstd_throw
 #define sstd_throw(...) throw __VA_ARGS__;
 #endif
-

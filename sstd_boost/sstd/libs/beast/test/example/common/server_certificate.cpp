@@ -13,4 +13,3 @@
 #include "example/common/server_certificate.hpp"
 
 #endif
-

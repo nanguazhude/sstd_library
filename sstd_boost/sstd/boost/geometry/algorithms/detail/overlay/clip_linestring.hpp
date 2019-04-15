@@ -248,4 +248,3 @@ OutputIterator clip_range_with_box(Box const& b, Range const& range,
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_CLIP_LINESTRING_HPP
-

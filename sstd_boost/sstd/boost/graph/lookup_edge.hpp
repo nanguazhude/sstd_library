@@ -48,4 +48,3 @@ namespace boost {
 }
 
 #endif // BOOST_GRAPH_LOOKUP_EDGE_HPP
-

@@ -353,5 +353,3 @@ int main(int argc, char * argv[]) {
         test_opti_nullstream();
     return 0;
 }
-
-

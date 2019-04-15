@@ -27,4 +27,3 @@ BOOST_AUTO_TEST_CASE( test_exception_predicate )
   BOOST_CHECK_EXCEPTION( some_func(1), my_exception, is_critical );
 }
 //]
-

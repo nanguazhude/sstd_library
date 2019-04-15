@@ -20,4 +20,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::drop_front_exactly(xs, hana::size_c<3>) == hana:
 static_assert(hana::drop_front_exactly(xs) == hana::make_tuple('1', 2.0), "");
 
 int main() { }
-

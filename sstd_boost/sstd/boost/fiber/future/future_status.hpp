@@ -25,4 +25,3 @@ enum class future_status {
 }}
 
 #endif // BOOST_FIBERS_FUTURE_STATUS_HPP
-

@@ -34,5 +34,3 @@ int main( int, char *[] )
 {
    return boost_no_cxx11_non_public_defaulted_functions::test();
 }
-
-

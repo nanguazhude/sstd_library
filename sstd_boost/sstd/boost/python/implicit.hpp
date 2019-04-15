@@ -34,4 +34,3 @@ void implicitly_convertible(boost::type<Source>* = 0, boost::type<Target>* = 0)
 }} // namespace boost::python
 
 #endif // IMPLICIT_DWA2002325_HPP
-

@@ -35,4 +35,3 @@ void pin_thread( std::uint32_t cpuid);
 #endif
 
 #endif // BOOST_FIBERS_NUMA_PIN_THREAD_H
-

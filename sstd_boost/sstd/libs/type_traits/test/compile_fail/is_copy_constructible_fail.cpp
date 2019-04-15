@@ -11,6 +11,3 @@ int main()
 {
    return boost::is_copy_constructible<incomplete_type>::value;
 }
-
-
-

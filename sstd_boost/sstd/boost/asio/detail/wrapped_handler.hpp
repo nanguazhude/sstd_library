@@ -291,4 +291,3 @@ inline void asio_handler_invoke(const Function& function,
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_WRAPPED_HANDLER_HPP
-

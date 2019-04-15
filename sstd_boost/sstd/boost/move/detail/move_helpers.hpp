@@ -254,4 +254,3 @@
 #endif
 
 #endif //#ifndef BOOST_MOVE_MOVE_HELPERS_HPP
-

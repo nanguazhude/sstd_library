@@ -95,4 +95,3 @@ struct args : detail::args_impl<T, Container> {};
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_ARGS_HPP
-

@@ -333,5 +333,3 @@ BOOST_AUTO_TEST_SUITE_END()                                             \
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_DATA_TEST_CASE_HPP_102211GER
-
-

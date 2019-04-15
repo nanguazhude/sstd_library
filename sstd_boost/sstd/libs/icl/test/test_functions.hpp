@@ -64,5 +64,3 @@ void test_interval_map_copy_via_inserter(const SequenceT& segments,
 }} // namespace icl boost
 
 #endif // BOOST_ICL_TEST_FUNCTIONS_H_JOFA_091003
-
-

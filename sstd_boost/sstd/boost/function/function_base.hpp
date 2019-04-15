@@ -884,4 +884,3 @@ namespace detail {
 #endif
 
 #endif // BOOST_FUNCTION_BASE_HEADER
-

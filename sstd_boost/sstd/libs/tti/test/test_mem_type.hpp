@@ -22,4 +22,3 @@ BOOST_TTI_TRAIT_MEMBER_TYPE(SomethingElse,someOtherType)
 BOOST_TTI_MEMBER_TYPE(NoExistType)
 
 #endif // TEST_MEMBER_TYPE_HPP
-

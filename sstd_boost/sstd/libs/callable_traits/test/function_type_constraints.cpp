@@ -43,5 +43,3 @@ int main() {
     CT_ASSERT(!is_substitution_failure_function_type<decltype(lambda)&>::value);
     CT_ASSERT(is_substitution_failure_function_type<void>::value);
 }
-
-

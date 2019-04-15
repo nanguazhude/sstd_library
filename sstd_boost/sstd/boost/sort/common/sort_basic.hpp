@@ -332,4 +332,3 @@ static void range_sort_buffer(const range<Iter1_t> & rng_data,
 //****************************************************************************
 //
 #endif
-

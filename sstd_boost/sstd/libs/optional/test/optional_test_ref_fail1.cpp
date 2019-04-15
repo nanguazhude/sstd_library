@@ -21,6 +21,3 @@ void optional_reference__test_no_converting_assignment()
   double& r = v ;
   opt = r ;
 }
-
-
-

@@ -945,4 +945,3 @@ void test_value_comp(Container c)
 }
 
 #endif
-

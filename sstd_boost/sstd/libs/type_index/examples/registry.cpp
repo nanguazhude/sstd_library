@@ -51,4 +51,3 @@ int main() {
 }
 
 //] [/type_index_registry_example]
-

@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_RULE_PARSER
 #include <sstd/boost/spirit/home/classic/utility/rule_parser.hpp>
 #endif
-

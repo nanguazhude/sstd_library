@@ -133,4 +133,3 @@ private:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_IMAGE_IMAGE_FORMAT_HPP
-

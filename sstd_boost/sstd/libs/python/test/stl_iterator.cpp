@@ -31,4 +31,3 @@ BOOST_PYTHON_MODULE(stl_iterator_ext)
 }
 
 #include "module_tail.cpp"
-

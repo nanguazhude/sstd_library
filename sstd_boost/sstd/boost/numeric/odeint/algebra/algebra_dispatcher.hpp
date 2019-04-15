@@ -108,4 +108,3 @@ struct algebra_dispatcher< std::array< T , N > >
 
 
 #endif
-

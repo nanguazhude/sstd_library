@@ -430,4 +430,3 @@ struct kahan {};
 }} // namespace boost::accumulators
 
 #endif
-

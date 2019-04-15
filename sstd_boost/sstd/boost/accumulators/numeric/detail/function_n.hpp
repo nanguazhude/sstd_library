@@ -146,4 +146,3 @@ struct function_name
 }} // namespace boost::detail
 
 //#endif // BOOST_DETAIL_FUNCTION_N_DWA2006514_HPP
-

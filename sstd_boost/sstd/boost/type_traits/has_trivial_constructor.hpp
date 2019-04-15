@@ -55,4 +55,3 @@ template <class T> struct has_trivial_default_constructor : public has_trivial_c
 } // namespace boost
 
 #endif // BOOST_TT_HAS_TRIVIAL_CONSTRUCTOR_HPP_INCLUDED
-

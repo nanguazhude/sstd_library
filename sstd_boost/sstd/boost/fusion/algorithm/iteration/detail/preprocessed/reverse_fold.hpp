@@ -186,4 +186,3 @@ namespace boost { namespace fusion
         return detail::reverse_fold<Seq const, State, F>(seq, state, f);
     }
 }}
-

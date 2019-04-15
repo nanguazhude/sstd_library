@@ -68,6 +68,3 @@ private:
    struct implementation;
    boost::shared_ptr<implementation> pimpl;
 };
-
-
-

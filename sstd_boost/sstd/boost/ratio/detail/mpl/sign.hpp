@@ -87,4 +87,3 @@ struct sign_impl<integral_c_tag>
 }}
 
 #endif // BOOST_MPL_SIGN_HPP_INCLUDED
-

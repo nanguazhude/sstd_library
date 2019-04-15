@@ -19,6 +19,3 @@ extern "C" double BOOST_MATH_TR1_DECL boost_tgamma BOOST_PREVENT_MACRO_SUBSTITUT
 }
 
 }}}
-
-
-

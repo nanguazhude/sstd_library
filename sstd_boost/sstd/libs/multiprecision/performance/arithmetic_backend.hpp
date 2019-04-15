@@ -668,4 +668,3 @@ public:
 #include <sstd/boost/multiprecision/detail/integer_ops.hpp>
 
 #endif
-

@@ -357,6 +357,3 @@ interface_x ::vtable const interface_x ::vtable_holder<T>::val_vtable =
 // helper macros to map 'const_qualified' to 'const' an 'non_const' to ''
 #define BOOST_EXAMPLE_INTERFACE___const_qualified BOOST_PP_IDENTITY(const)
 #define BOOST_EXAMPLE_INTERFACE___non_const BOOST_PP_EMPTY
-
-
-

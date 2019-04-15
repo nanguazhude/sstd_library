@@ -62,4 +62,3 @@ private:
 } // namespace http
 
 #endif // HTTP_SERVER_HPP
-

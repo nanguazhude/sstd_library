@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Define useful compiler-specific macros
 * (C) 2016 Jack Lloyd
 *

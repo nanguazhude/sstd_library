@@ -27,4 +27,3 @@ namespace boost { namespace hana { namespace benchmark {
 }}}
 
 #endif
-

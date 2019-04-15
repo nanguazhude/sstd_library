@@ -108,5 +108,3 @@ struct error_handler
 } // sexpr
 
 #endif // BOOST_SPIRIT_UTREE_EXAMPLE_ERROR_HANDLER_HPP
-
-

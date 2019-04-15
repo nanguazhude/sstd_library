@@ -21,4 +21,3 @@ BOOST_AUTO_TEST_CASE( is_similar_test )
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

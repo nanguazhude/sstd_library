@@ -12,4 +12,3 @@
 //R #line 10 "file.hpp"
 //R "$P(utf8-test-ßµ™∃/file.hpp)"
 #include <file.hpp>
-

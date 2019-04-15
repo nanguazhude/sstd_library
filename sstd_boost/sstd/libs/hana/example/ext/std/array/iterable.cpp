@@ -18,4 +18,3 @@ static_assert(hana::at_c<2>(a) == 2, "");
 static_assert(hana::equal(hana::drop_front(a), std::array<int, 4>{{1, 2, 3, 4}}), "");
 
 int main() { }
-

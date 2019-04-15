@@ -263,4 +263,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_STRING_COLLECTION_TRAITS_HPP
-

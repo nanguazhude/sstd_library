@@ -31,4 +31,3 @@ BOOST_UNITS_STATIC_CONSTANT(hartleys, hu::hartley::info);
 } // namespace boost
 
 #endif // BOOST_UNITS_SYSTEMS_INFORMATION_HARTLEY_HPP_INCLUDED
-

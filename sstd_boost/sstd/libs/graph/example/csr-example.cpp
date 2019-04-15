@@ -58,4 +58,3 @@ int main()
   write_graphviz(out, g, dp, std::string(), get(vertex_index, g));
   return 0;
 }
-

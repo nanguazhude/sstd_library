@@ -130,5 +130,3 @@ defining macros similar to the one above.
     BOOST_CONTRACT_DETAIL_NOEVAL(cond)
 
 #endif // #include guard
-
-

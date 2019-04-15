@@ -68,4 +68,3 @@ boost::compute::reduce(view.begin(), view.end(), &sum, queue);
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

@@ -51,12 +51,3 @@ TT_TEST_BEGIN(add_const)
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

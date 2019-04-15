@@ -319,5 +319,3 @@ int cpp_main( int, char* [] )
    test(v);
    return 0;
 }
-
-

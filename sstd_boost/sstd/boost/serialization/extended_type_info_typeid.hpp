@@ -165,4 +165,3 @@ public:
 #include <sstd/boost/config/abi_suffix.hpp> // pops abi_suffix.hpp pragmas
 
 #endif // BOOST_SERIALIZATION_EXTENDED_TYPE_INFO_TYPEID_HPP
-

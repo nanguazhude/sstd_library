@@ -22,4 +22,3 @@ BOOST_TYPEOF_REGISTER_TYPE(std::string)
 #endif
 
 #endif//BOOST_TYPEOF_STD_string_hpp_INCLUDED
-

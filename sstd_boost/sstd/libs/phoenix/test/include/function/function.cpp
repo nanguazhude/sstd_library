@@ -5,4 +5,3 @@
 ==============================================================================*/
 #include <sstd/boost/phoenix/function/function.hpp>
 int main() {}
-

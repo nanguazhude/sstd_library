@@ -4,4 +4,3 @@
 
 #define BOOST_HANA_TEST_GROUP_NEGATE_MCD
 #include "main.hpp"
-

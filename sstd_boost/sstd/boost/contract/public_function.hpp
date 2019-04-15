@@ -873,5 +873,3 @@ specify_precondition_old_postcondition_except<> public_function(Class* obj) {
 } } // namespace
 
 #endif // #include guard
-
-

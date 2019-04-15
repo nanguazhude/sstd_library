@@ -187,4 +187,3 @@ struct as_feature<tag::weighted_mean_of_variates<VariateType, VariateTag>(immedi
 }} // namespace boost::accumulators
 
 #endif
-

@@ -75,4 +75,3 @@
 #include <sstd/boost/units/systems/si/wavenumber.hpp>
 
 #endif // BOOST_UNITS_SI_HPP
-

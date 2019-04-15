@@ -536,4 +536,3 @@ BOOST_AUTO_TEST_CASE( test_linear_areal_all )
     test_linear_areal<ttmath_big>();
 #endif
 }
-

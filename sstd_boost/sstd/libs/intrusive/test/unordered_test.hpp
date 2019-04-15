@@ -749,4 +749,3 @@ void test_unordered<ContainerDefiner>::test_clone(value_cont_type& values)
 }  //namespace test{
 }  //namespace intrusive{
 }  //namespace boost{
-

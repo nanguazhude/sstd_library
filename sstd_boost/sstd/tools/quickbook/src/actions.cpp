@@ -1971,4 +1971,3 @@ namespace quickbook
         state.anchors.swap(saved_anchors);
     }
 }
-

@@ -35,4 +35,3 @@ InputIterator for_each_n(InputIterator first, Size n, Function f)
 }} // namespace boost and algorithm
 
 #endif // BOOST_ALGORITHM_FOR_EACH_N_HPP
-

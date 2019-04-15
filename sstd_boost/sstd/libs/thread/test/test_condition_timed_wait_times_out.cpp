@@ -165,6 +165,3 @@ BOOST_AUTO_TEST_CASE(test_timed_wait_times_out)
     timed_test(&do_test_cv_any_relative_timed_wait_with_predicate_times_out, timeout_seconds+timeout_grace, execution_monitor::use_mutex);
     timed_test(&do_test_cv_any_timed_wait_relative_times_out, timeout_seconds+timeout_grace, execution_monitor::use_mutex);
 }
-
-
-

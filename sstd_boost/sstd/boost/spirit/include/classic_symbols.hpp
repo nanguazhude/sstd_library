@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_SYMBOLS
 #include <sstd/boost/spirit/home/classic/symbols.hpp>
 #endif
-

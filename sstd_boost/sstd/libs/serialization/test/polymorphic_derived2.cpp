@@ -53,4 +53,3 @@ BOOST_SERIALIZATION_MWERKS_BASE_AND_DERIVED(polymorphic_base, polymorphic_derive
 
 // note: export has to be AFTER #includes for all archive classes
 BOOST_CLASS_EXPORT_IMPLEMENT(polymorphic_derived2)
-

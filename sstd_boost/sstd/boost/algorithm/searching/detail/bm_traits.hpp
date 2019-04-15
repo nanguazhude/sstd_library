@@ -111,4 +111,3 @@ namespace boost { namespace algorithm { namespace detail {
 }}} // namespaces
 
 #endif  //  BOOST_ALGORITHM_SEARCH_DETAIL_BM_TRAITS_HPP
-

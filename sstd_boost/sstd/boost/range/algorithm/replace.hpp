@@ -51,4 +51,3 @@ replace(const ForwardRange& rng, const Value& what,
 } // namespace boost;
 
 #endif // include guard
-

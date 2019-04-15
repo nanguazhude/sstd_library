@@ -41,4 +41,3 @@ BOOST_PYTHON_MODULE(raw_ctor_ext)
 }
 
 #include "module_tail.cpp"
-

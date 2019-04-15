@@ -5895,4 +5895,3 @@ namespace detail
 
 #endif // BOOST_NO_EXCEPTIONS
 #endif // header
-

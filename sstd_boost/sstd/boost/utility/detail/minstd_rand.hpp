@@ -56,4 +56,3 @@ public:
 } // namespace boost
 
 #endif // #ifndef BOOST_UTILITY_DETAIL_MINSTD_RAND_HPP_INCLUDED
-

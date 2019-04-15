@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Botan 2.10.0 Amalgamation
 * (C) 1999-2018 The Botan Authors
 *

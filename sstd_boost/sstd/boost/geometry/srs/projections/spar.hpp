@@ -1181,4 +1181,3 @@ struct pick_o_proj_tag
 
 
 #endif // BOOST_GEOMETRY_SRS_PROJECTIONS_SPAR_HPP
-

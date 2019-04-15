@@ -177,5 +177,3 @@ namespace regex_constants{
 #endif
 
 #endif
-
-

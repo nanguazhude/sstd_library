@@ -24,4 +24,3 @@ int main() {
         "abc"s ^hana::in^ hana::make_tuple(1, '2', 3.3, "abc"s)
     );
 }
-

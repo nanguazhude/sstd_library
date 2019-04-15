@@ -65,4 +65,3 @@ BOOST_MPL_ASSERT(( boost::is_same< int5, char > ));
 BOOST_MPL_ASSERT(( boost::is_same< int15, short > ));
 BOOST_MPL_ASSERT(( boost::is_same< int32, int > ));
 BOOST_MPL_ASSERT(( boost::is_same< int100, big_int<100> > ));
-

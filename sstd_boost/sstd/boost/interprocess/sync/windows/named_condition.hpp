@@ -36,4 +36,3 @@ typedef windows_named_condition_any windows_named_condition;
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_WINDOWS_NAMED_CONDITION_HPP
-

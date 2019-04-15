@@ -103,4 +103,3 @@ typedef basic_protected_stack_allocator< stack_traits > protected_stack_allocato
 #endif
 
 #endif // BOOST_COROUTINES_PROTECTED_STACK_ALLOCATOR_H
-

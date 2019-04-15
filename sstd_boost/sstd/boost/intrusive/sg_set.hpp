@@ -1092,4 +1092,3 @@ class sg_multiset
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_SG_SET_HPP
-

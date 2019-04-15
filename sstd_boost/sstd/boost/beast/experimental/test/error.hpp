@@ -35,4 +35,3 @@ enum class error
 #include <sstd/boost/beast/experimental/test/impl/error.ipp>
 
 #endif
-

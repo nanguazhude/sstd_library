@@ -48,7 +48,7 @@ namespace _theSSTDLuaFile {
             auto varTable = pushRegistryTable(L);
             ::lua_rawgetp(L, varTable, varFromPoiner);
             ::lua_rawsetp(L, varTable, varToPoiner);
-            return 0;  
+            return 0;
         }
 
     }/*detail*/
@@ -161,21 +161,3 @@ namespace sstd {
     }
 
 }/*namespace sstd*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

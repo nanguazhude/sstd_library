@@ -200,4 +200,3 @@ public:
 }} // namespace boost::gil
 
 #endif // BOOST_GIL_PROMOTE_INTEGRAL_HPP
-

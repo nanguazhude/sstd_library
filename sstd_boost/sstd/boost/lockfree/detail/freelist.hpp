@@ -654,4 +654,3 @@ struct select_tagged_handle
 
 
 #endif /* BOOST_LOCKFREE_FREELIST_HPP_INCLUDED */
-

@@ -193,4 +193,3 @@ struct default_strategy<spherical_polar_tag>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_SPHERICAL_AREA_HPP
-

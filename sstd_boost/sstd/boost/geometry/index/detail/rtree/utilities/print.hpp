@@ -217,4 +217,3 @@ void print(std::ostream & os, Rtree const& tree)
 }}}} // namespace boost::geometry::index::detail
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_RTREE_UTILITIES_PRINT_HPP
-

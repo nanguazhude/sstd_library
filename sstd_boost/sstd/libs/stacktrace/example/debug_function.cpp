@@ -29,6 +29,3 @@ int main() {
     ::signal(SIGSEGV, &my_signal_handler);
     print_signal_handler_and_exit();
 }
-
-
-

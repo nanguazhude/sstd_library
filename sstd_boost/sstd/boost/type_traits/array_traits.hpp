@@ -13,4 +13,3 @@
 #include <sstd/boost/type_traits/is_array.hpp>
 
 #endif // BOOST_TT_ARRAY_TRAITS_HPP_INCLUDED
-

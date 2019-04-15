@@ -17,4 +17,3 @@ int main() {
     static_assert(!std::is_constructible<hana::tuple<int[3]>, int[3]>{}, "");
     static_assert(!std::is_constructible<hana::tuple<int[3], float[4]>, int[3], float[4]>{}, "");
 }
-

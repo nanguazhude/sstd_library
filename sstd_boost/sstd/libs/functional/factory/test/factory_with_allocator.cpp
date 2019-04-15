@@ -81,5 +81,3 @@ int main()
     BOOST_TEST(counting_allocator<sum>::n_deallocated == 2);
     return boost::report_errors();
 }
-
-

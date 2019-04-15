@@ -130,4 +130,3 @@ BOOST_PYTHON_MODULE(data_members_ext)
 }
 
 #include "module_tail.cpp"
-

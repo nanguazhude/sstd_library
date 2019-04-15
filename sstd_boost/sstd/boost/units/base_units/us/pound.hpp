@@ -30,4 +30,3 @@ BOOST_TYPEOF_REGISTER_TYPE(boost::units::us::pound_base_unit)
 #endif
 
 #endif // BOOST_UNIT_SYSTEMS_US_POUND_HPP_INCLUDED
-

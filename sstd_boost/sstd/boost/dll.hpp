@@ -24,5 +24,3 @@
 #endif
 
 #endif // BOOST_DLL_DLL_HPP
-
-

@@ -221,4 +221,3 @@ inline bool check_finite(
 #endif
 
 #endif // BOOST_MATH_DISTRIBUTIONS_COMMON_ERROR_HANDLING_HPP
-

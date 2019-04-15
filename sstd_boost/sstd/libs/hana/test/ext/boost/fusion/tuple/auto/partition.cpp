@@ -6,4 +6,3 @@
 #include <auto/partition.hpp>
 
 int main() { }
-

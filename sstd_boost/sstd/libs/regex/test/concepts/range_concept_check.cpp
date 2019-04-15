@@ -39,4 +39,3 @@ int main()
    check <boost::sub_match<const char*> >();
    return 0;
 }
-

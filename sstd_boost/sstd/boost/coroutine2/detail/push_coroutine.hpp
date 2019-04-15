@@ -252,4 +252,3 @@ end( push_coroutine< T > &) {
 #endif
 
 #endif // BOOST_COROUTINES2_DETAIL_PUSH_COROUTINE_HPP
-

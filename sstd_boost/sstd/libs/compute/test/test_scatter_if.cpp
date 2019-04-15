@@ -139,4 +139,3 @@ BOOST_AUTO_TEST_CASE(scatter_if_counting_iterator)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

@@ -45,7 +45,3 @@ BOOST_AUTO_TEST_CASE( test_main )
 
 
 } // BOOST_AUTO_TEST_CASE( test_main )
-
-
-
-

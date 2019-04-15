@@ -15,4 +15,3 @@ BOOST_STATIC_ASSERT(!boost::fusion::traits::is_sequence<incomplete>::value);
 BOOST_STATIC_ASSERT(!boost::fusion::traits::is_native_fusion_sequence<incomplete>::value);
 
 int main() { }
-

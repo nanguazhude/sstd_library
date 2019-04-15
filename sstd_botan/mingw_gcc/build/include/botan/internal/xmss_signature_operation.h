@@ -1,4 +1,4 @@
-/*
+﻿/*
  * XMSS Signature Operation
  * (C) 2016,2017 Matthias Gierlings
  *
@@ -92,4 +92,3 @@ class XMSS_Signature_Operation final : public virtual PK_Ops::Signature,
 }
 
 #endif
-

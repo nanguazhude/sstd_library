@@ -68,4 +68,3 @@ struct iterator_selector<MultiPoint, multi_point_tag>
 
 
 #endif // BOOST_GEOMETRY_ALGORITHS_DETAIL_DISTANCE_ITERATOR_SELECTOR_HPP
-

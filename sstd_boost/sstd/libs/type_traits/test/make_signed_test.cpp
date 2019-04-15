@@ -107,6 +107,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_signed< ::tt::make_signed<wchar_t>::type>
 BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_integral< ::tt::make_signed<enum_UDT>::type>::value, true);
 BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_signed< ::tt::make_signed<enum_UDT>::type>::value, true);
 TT_TEST_END
-
-
-

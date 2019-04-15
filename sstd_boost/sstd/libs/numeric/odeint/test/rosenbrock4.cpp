@@ -138,4 +138,3 @@ BOOST_AUTO_TEST_CASE( test_rosenbrock4_copy_dense_output )
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

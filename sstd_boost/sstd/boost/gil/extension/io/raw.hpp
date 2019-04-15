@@ -11,4 +11,3 @@
 #include <sstd/boost/gil/extension/io/raw/read.hpp>
 
 #endif
-

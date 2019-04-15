@@ -476,5 +476,3 @@ int main()
     std::cout << "msm(3) took in s:" << time_match(input) <<"\n" <<std::endl;
     return 0;
 }
-
-

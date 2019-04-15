@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Atomic
  * (C) 2016 Matthias Gierlings
  *

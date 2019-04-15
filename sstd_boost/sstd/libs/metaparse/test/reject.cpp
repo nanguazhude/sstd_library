@@ -55,5 +55,3 @@ BOOST_METAPARSE_TEST_CASE(reject)
   // test_get_position_of_reject
   BOOST_MPL_ASSERT((is_same<start, get_position<reject<int, start> >::type>));
 }
-
-

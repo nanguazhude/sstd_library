@@ -54,4 +54,3 @@ template<typename T1, typename T2>
 void assert_same() {
     CT_ASSERT(std::is_same<T1, T2>::value);
 }
-

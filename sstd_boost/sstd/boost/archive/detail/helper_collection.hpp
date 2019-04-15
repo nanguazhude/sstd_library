@@ -97,4 +97,3 @@ public:
 } // namespace boost
 
 #endif // BOOST_ARCHIVE_DETAIL_HELPER_COLLECTION_HPP
-

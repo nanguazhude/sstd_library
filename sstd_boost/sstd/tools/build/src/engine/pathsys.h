@@ -84,4 +84,3 @@ char * executable_path( char const * argv0 );
 void path_done( void );
 
 #endif
-

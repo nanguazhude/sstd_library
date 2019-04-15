@@ -564,6 +564,3 @@ struct is_binary_inter_combinable
 }} // namespace icl boost
 
 #endif
-
-
-

@@ -46,4 +46,3 @@ BOOST_AUTO_TEST_CASE(test_dbl_min_max) {
     BOOST_CHECK_GE(val, min);
     BOOST_CHECK_LE(val, max);
 }
-

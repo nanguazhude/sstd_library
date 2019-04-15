@@ -48,4 +48,3 @@ struct ForwardTimer{};
 struct PlayingMiddleButton{};
 
 #endif // EVENTS_HPP
-

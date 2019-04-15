@@ -1246,4 +1246,3 @@ typedef atomic< uintptr_t > atomic_uintptr_t;
 #endif
 
 #endif // BOOST_ATOMIC_DETAIL_ATOMIC_TEMPLATE_HPP_INCLUDED_
-

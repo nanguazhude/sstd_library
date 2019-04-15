@@ -25,5 +25,3 @@
     ) /* no ; here */
 
 #endif // #include guard
-
-

@@ -66,4 +66,3 @@ struct is_final:std::integral_constant<
 } /* namespace boost */
 
 #endif
-

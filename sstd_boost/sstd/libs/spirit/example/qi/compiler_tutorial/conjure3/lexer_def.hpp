@@ -97,5 +97,3 @@ namespace client { namespace lexer
         return p.second;
     }
 }}
-
-

@@ -15,6 +15,3 @@ extern "C" double BOOST_MATH_TR1_DECL boost_beta BOOST_PREVENT_MACRO_SUBSTITUTIO
 {
    return c_policies::beta BOOST_PREVENT_MACRO_SUBSTITUTION(x, y);
 }
-
-
-

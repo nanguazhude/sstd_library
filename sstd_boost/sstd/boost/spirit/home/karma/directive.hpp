@@ -73,4 +73,3 @@
 #include <sstd/boost/spirit/home/karma/directive/as.hpp>
 
 #endif
-

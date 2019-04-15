@@ -137,4 +137,3 @@ void merge_sort( RandIt first, RandIt last, Compare comp
 #include <sstd/boost/move/detail/config_end.hpp>
 
 #endif //#ifndef BOOST_MOVE_DETAIL_MERGE_SORT_HPP
-

@@ -9,4 +9,3 @@ int f(boost::python::object const& x)
     x._("hello") = 1;
     return 0;
 }
-

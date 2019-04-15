@@ -40,4 +40,3 @@ using allocator_traits = std::allocator_traits<Alloc>;
 } // boost
 
 #endif
-

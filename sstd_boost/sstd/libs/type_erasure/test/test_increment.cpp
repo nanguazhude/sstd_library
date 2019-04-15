@@ -49,4 +49,3 @@ BOOST_AUTO_TEST_CASE(test_reference)
     BOOST_CHECK_EQUAL(i, 3);
     BOOST_CHECK_EQUAL(any_cast<int>(y), 2);
 }
-

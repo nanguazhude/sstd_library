@@ -43,4 +43,3 @@ inline BOOST_IOSTREAMS_FAILURE bad_seek()
 } } } // End namespaces detail, iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_ERROR_HPP_INCLUDED
-

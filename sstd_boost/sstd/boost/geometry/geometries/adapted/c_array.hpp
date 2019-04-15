@@ -109,4 +109,3 @@ struct access<CoordinateType[DimensionCount], Dimension>
 
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_ADAPTED_C_ARRAY_HPP
-

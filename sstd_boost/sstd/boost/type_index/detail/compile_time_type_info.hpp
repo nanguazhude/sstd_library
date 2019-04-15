@@ -297,4 +297,3 @@ struct ctti {
 }} // namespace boost::detail
 
 #endif // BOOST_TYPE_INDEX_DETAIL_COMPILE_TIME_TYPE_INFO_HPP
-

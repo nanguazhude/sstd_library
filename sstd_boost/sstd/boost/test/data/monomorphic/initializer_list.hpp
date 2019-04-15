@@ -142,5 +142,3 @@ make( T&& arg0, Args&&... args )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_DATA_MONOMORPHIC_INITIALIZATION_LIST_HPP_091515GER
-
-

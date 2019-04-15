@@ -54,4 +54,3 @@ BOOST_AUTO_TEST_CASE(text_ipc_message_queue_backend)
     BOOST_CHECK(queue.try_receive(msg));
     BOOST_CHECK(equal_strings(msg, message));
 }
-

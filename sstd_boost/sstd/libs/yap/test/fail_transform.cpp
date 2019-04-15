@@ -13,4 +13,3 @@ int main()
 {
     boost::yap::transform(xform{}, boost::yap::make_terminal(1));
 }
-

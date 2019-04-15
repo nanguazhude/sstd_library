@@ -31,4 +31,3 @@ inline std::istream& operator >> (std::istream& i, layout_pin& r)
 }
 
 #endif
-

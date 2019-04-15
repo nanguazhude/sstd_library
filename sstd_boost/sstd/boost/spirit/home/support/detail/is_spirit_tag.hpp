@@ -14,4 +14,3 @@
 #define BOOST_SPIRIT_IS_TAG() typedef void is_spirit_tag;
 
 #endif
-

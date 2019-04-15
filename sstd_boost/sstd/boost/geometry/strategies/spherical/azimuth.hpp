@@ -128,4 +128,3 @@ struct default_strategy<spherical_polar_tag, CalculationType>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_SPHERICAL_AZIMUTH_HPP
-

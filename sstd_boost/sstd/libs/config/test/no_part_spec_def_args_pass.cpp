@@ -34,5 +34,3 @@ int main( int, char *[] )
 {
    return boost_no_partial_specialization_implicit_default_args::test();
 }
-
-

@@ -175,5 +175,3 @@ void test_assert()
         // Ensure the month actually has that many days.
         [ check( ref(days_per_month)[as<int>(month)-1] >= as<int>(day) ) ]);
 }
-
-

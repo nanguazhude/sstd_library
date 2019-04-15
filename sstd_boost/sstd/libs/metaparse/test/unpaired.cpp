@@ -33,5 +33,3 @@ BOOST_METAPARSE_TEST_CASE(unpaired)
     >
   ));
 }
-
-

@@ -72,4 +72,3 @@ namespace boost { namespace spirit { namespace karma
 }}}
 
 #endif
-

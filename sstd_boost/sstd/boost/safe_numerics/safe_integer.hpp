@@ -44,4 +44,3 @@ using safe = safe_base<
 
 
 #endif // BOOST_NUMERIC_SAFE_INTEGER_HPP
-

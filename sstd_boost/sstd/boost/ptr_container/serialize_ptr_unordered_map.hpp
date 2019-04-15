@@ -37,4 +37,3 @@ void serialize(Archive& ar, ptr_unordered_multimap<Key, T, Hash, Pred, CloneAllo
 } // namespace boost
 
 #endif
-

@@ -19,4 +19,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_IDENTIFIER_CONCAT_HPP */
-

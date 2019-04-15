@@ -66,4 +66,3 @@ BOOST_IS_BITWISE_SERIALIZABLE(item_version_type)
 BOOST_CLASS_IMPLEMENTATION(item_version_type, primitive_type)
 
 #endif //BOOST_SERIALIZATION_ITEM_VERSION_TYPE_HPP
-

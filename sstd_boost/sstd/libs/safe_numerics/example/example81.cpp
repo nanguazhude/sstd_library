@@ -16,4 +16,3 @@ int main(int argc, const char * argv[]){
     safe_t z = x + y; // will fail to compile !
     return 0;
 }
-

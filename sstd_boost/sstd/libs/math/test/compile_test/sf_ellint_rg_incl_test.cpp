@@ -21,4 +21,3 @@ void compile_and_link_test()
    check_result<long double>(boost::math::ellint_rg<long double>(l, l, l));
 #endif
 }
-

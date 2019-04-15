@@ -73,4 +73,3 @@ main()
     test<5,5>();
     return boost::report_errors();
     }
-

@@ -92,4 +92,3 @@
 #include <sstd/boost/compute/algorithm/upper_bound.hpp>
 
 #endif // BOOST_COMPUTE_ALGORITHM_HPP
-

@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_ERROR_HANDLING
 #include <sstd/boost/spirit/home/classic/error_handling.hpp>
 #endif
-

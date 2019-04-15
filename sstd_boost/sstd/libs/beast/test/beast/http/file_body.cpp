@@ -115,4 +115,3 @@ BEAST_DEFINE_TESTSUITE(beast,http,file_body);
 } // http
 } // beast
 } // boost
-

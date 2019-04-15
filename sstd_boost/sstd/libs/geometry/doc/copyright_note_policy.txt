@@ -39,4 +39,3 @@ Exceptions:
 
 The copyright note for other (source) files as .py, Jamfiles, etc is similar
 and comments are changed accordingly.
-

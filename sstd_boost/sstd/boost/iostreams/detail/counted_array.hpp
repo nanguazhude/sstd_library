@@ -72,4 +72,3 @@ private:
 } } } // End namespaces iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_COUNTED_ARRAY_HPP_INCLUDED
-

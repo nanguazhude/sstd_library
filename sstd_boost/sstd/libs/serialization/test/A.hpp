@@ -95,4 +95,3 @@ public:
 };
 
 #endif // BOOST_SERIALIZATION_TEST_A_HPP
-

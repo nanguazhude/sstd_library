@@ -81,4 +81,3 @@ using ::HeapDestroy;
 }
 
 #endif // BOOST_WINAPI_HEAP_MEMORY_HPP_INCLUDED_
-

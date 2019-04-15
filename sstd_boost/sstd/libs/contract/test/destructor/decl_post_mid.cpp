@@ -179,5 +179,3 @@ int main() {
     #undef BOOST_CONTRACT_TEST_post
     return boost::report_errors();
 }
-
-

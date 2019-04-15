@@ -42,4 +42,3 @@ using boost::container::ordered_unique_range;
 #endif   //#ifndef BOOST_INTERPROCESS_DOXYGEN_INVOKED
 
 #endif //   #ifndef  BOOST_INTERPROCESS_CONTAINERS_CONTAINERS_FWD_HPP
-

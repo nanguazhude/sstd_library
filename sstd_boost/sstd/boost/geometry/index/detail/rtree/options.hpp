@@ -153,4 +153,3 @@ struct options_type< index::dynamic_rstar >
 }}} // namespace boost::geometry::index
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_RTREE_OPTIONS_HPP
-

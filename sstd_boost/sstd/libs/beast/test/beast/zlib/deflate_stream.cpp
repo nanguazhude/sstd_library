@@ -318,4 +318,3 @@ BEAST_DEFINE_TESTSUITE(beast,zlib,deflate_stream);
 } // zlib
 } // beast
 } // boost
-

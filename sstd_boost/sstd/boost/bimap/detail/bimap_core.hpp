@@ -475,4 +475,3 @@ struct right_map_view_type
 } // namespace boost
 
 #endif // BOOST_BIMAP_DETAIL_BIMAP_CORE_HPP
-

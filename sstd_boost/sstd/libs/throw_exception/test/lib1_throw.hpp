@@ -33,4 +33,3 @@ LIB1_DECL void f();
 } // namespace lib1
 
 #endif // #ifndef LIB1_THROW_HPP_INCLUDED
-

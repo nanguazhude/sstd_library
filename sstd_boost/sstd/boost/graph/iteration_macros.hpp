@@ -138,4 +138,3 @@ for (boost::graph_traits<GraphType>::edge_descriptor ENAME; \
    ++BGL_FIRST(__LINE__))
 
 #endif // BOOST_GRAPH_ITERATION_MACROS_HPP
-

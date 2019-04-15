@@ -15,4 +15,3 @@
 #define TUPLE_TAG ::boost::hana::ext::std::tuple_tag
 
 #endif // !BOOST_HANA_TEST_EXT_STD_TUPLE_AUTO_SPECS_HPP
-

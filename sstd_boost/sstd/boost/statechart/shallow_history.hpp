@@ -61,4 +61,3 @@ class shallow_history
 
 
 #endif
-

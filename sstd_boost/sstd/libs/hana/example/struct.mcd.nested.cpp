@@ -55,4 +55,3 @@ int main() {
         hana::make_pair(BOOST_HANA_STRING("age"), 30)
     ));
 }
-

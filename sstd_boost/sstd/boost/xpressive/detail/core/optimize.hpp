@@ -114,4 +114,3 @@ void common_compile
 }}} // namespace boost::xpressive
 
 #endif
-

@@ -59,13 +59,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_base_and_derived<marker, mem_type>::valu
 BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_base_and_derived<marker, mem2_type>::value), true);
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-
-

@@ -385,4 +385,3 @@ private:
 }}}}}} // namespace boost::geometry::index::detail::rtree::iterators
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_RTREE_QUERY_ITERATORS_HPP
-

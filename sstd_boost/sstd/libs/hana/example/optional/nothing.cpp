@@ -11,4 +11,3 @@ constexpr auto x = hana::nothing;
 BOOST_HANA_CONSTANT_CHECK(hana::is_nothing(x));
 
 int main() { }
-

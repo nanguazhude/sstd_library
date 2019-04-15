@@ -43,4 +43,3 @@ BOOST_MPL_AUX_NA_SPEC_NO_ETI(1, make_identity)
 }}
 
 #endif // BOOST_MPL_IDENTITY_HPP_INCLUDED
-

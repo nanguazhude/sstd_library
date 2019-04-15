@@ -89,4 +89,3 @@ struct demote_iterator_traversal_tag
 } // namespace boost
 
 #endif // include guard
-

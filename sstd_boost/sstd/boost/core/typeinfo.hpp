@@ -165,4 +165,3 @@ inline std::string demangled_name( core::typeinfo const & ti )
 #endif
 
 #endif  // #ifndef BOOST_CORE_TYPEINFO_HPP_INCLUDED
-

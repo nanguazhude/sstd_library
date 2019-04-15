@@ -523,6 +523,3 @@ inline RealType kurtosis_excess(const inverse_gaussian_distribution<RealType, Po
 #include <sstd/boost/math/distributions/detail/derived_accessors.hpp>
 
 #endif // BOOST_STATS_INVERSE_GAUSSIAN_HPP
-
-
-

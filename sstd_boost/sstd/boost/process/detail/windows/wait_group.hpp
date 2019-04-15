@@ -130,4 +130,3 @@ inline bool wait_for(
 }}}}
 
 #endif /* BOOST_PROCESS_DETAIL_WINDOWS_WAIT_GROUP_HPP_ */
-

@@ -121,4 +121,3 @@ struct transposed_type<virtual_2d_locator<D,IsTransposed> > {
 }}  // namespace boost::gil
 
 #endif
-

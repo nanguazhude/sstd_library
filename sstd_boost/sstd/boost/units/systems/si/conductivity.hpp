@@ -29,4 +29,3 @@ typedef unit<conductivity_dimension,si::system>    conductivity;
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_CONDUCTIVITY_HPP
-

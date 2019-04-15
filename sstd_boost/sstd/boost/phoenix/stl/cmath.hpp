@@ -80,4 +80,3 @@ BOOST_PHOENIX_MATH_FUNCTION(tanh, 1)
 }
 
 #endif
-

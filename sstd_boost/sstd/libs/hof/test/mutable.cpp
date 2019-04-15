@@ -69,5 +69,3 @@ BOOST_HOF_TEST_CASE()
     BOOST_HOF_TEST_CHECK(by_5() == 6);
     BOOST_HOF_TEST_CHECK(by_5() == 11);
 }
-
-

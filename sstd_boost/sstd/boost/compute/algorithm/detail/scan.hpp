@@ -43,4 +43,3 @@ inline OutputIterator scan(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_SCAN_HPP
-

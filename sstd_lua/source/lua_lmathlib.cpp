@@ -1,4 +1,4 @@
-/*
+﻿/*
 ** $Id: lmathlib.c,v 1.119.1.1 2017/04/19 17:20:42 roberto Exp $
 ** Standard mathematical library
 ** See Copyright Notice in lua.h
@@ -407,4 +407,3 @@ LUAMOD_API int luaopen_math (lua_State *L) {
   lua_setfield(L, -2, "mininteger");
   return 1;
 }
-

@@ -61,4 +61,3 @@ BOOST_HOF_TEST_CASE()
     BOOST_HOF_TEST_CHECK(*boost::hof::apply_eval(&moveable, boost::hof::always(1)) == 1);
     BOOST_HOF_TEST_CHECK(*boost::hof::apply_eval(&moveable, boost::hof::always(3)) == 3);
 }
-

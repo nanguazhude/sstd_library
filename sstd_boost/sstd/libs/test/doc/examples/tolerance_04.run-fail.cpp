@@ -34,4 +34,3 @@ BOOST_AUTO_TEST_CASE(test1, * utf::tolerance(ratio(1, 1000)))
   BOOST_TEST(x != z, tt::tolerance(ratio(2, 1000)));
 }
 //]
-

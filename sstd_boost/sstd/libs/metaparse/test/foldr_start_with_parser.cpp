@@ -64,5 +64,3 @@ BOOST_METAPARSE_TEST_CASE(foldr_start_with_parser)
   // test_ac
   BOOST_MPL_ASSERT((is_error<apply_wrap2<p, str_ac, start> >));
 }
-
-

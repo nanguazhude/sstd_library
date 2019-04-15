@@ -7,5 +7,3 @@
 
 #include "nova.hpp"
 #include "ten_void.cpp"
-
-

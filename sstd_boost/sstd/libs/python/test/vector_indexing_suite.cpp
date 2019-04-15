@@ -59,5 +59,3 @@ BOOST_PYTHON_MODULE(vector_indexing_suite_ext)
         .def(vector_indexing_suite<std::vector<std::string> >())
     ;
 }
-
-

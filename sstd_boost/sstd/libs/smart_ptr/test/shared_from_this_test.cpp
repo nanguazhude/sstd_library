@@ -167,4 +167,3 @@ void test3()
         BOOST_ERROR("p->shared_from_this() threw bad_weak_ptr after *p = V()");
     }
 }
-

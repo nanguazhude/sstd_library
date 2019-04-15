@@ -759,4 +759,3 @@ namespace boost
     && !defined(BOOST_FUNCTIONAL_HASH_EXTENSIONS_HPP)
 #include <sstd/boost/container_hash/extensions.hpp>
 #endif
-

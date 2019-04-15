@@ -92,4 +92,3 @@ inline void nth_element(Iterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_NTH_ELEMENT_HPP
-

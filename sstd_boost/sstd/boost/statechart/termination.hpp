@@ -69,4 +69,3 @@ class termination< event_base >
 
 
 #endif
-

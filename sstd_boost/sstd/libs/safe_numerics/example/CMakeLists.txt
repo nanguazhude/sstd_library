@@ -52,4 +52,3 @@ set_target_properties(miscellaneous PROPERTIES FOLDER "examples")
 
 # end headers in IDE
 ####################
-

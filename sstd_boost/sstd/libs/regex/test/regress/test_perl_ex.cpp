@@ -1017,4 +1017,3 @@ void test_verbs()
    TEST_REGEX_SEARCH("(?>(*COMMIT)(?>yes|no)(*THEN)(*F))?", perl, "yes", match_default, make_array(-2, -2));
    TEST_REGEX_SEARCH("(?>(*COMMIT)(yes|no)(*THEN)(*F))?", perl, "yes", match_default, make_array(-2, -2));
 }
-

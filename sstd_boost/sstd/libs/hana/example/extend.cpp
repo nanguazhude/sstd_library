@@ -33,4 +33,3 @@ int main() {
     BOOST_HANA_RUNTIME_CHECK(hana::extract(from_stream) == 3);
     BOOST_HANA_RUNTIME_CHECK(hana::extract(from_stream) == 4);
 }
-

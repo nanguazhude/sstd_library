@@ -36,4 +36,3 @@ extern "C" void _ReadWriteBarrier(void);
 #endif
 
 #endif // BOOST_ATOMIC_DETAIL_OPS_MSVC_COMMON_HPP_INCLUDED_
-

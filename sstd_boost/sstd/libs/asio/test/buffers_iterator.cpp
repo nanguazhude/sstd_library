@@ -290,4 +290,3 @@ BOOST_ASIO_TEST_SUITE
   "buffers_iterator",
   BOOST_ASIO_TEST_CASE(buffers_iterator_compile::test)
 )
-

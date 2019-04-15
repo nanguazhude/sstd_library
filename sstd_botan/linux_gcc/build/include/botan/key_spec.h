@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Symmetric Key Length Specification
 * (C) 2010 Jack Lloyd
 *

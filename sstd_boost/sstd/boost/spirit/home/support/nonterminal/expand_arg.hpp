@@ -86,4 +86,3 @@ namespace boost { namespace spirit { namespace detail
 }}}
 
 #endif
-

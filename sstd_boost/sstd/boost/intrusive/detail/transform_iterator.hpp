@@ -170,4 +170,3 @@ class transform_iterator
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_DETAIL_TRANSFORM_ITERATOR_HPP
-

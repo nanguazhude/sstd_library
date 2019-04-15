@@ -113,4 +113,3 @@ struct root_typeof_helper<T,static_rational<N,D> >
 } // namespace boost
 
 #endif // BOOST_UNITS_STATIC_RATIONAL_HPP
-

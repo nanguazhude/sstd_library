@@ -34,7 +34,7 @@ inline std::string getHelper(std::size_t arg) {
         }
     }
 
-    var << u8R"( ,auto ... Args >  
+    var << u8R"( ,auto ... Args >
 class string_constexpr_builder_helper< )"sv
         << arg << u8R"(, A0)" << endl;
 
@@ -50,7 +50,7 @@ class string_constexpr_builder_helper< )"sv
 
     var << u8R"( ,Args ... > {
 public:)"sv;
-    var << u8R"( 
+    var << u8R"(
 using type = constexpr_string_literal< A0  )"sv;
 
     for (std::size_t i = 1, j = 0; i < arg; ++j, ++i) {
@@ -83,15 +83,15 @@ public:
 int main(int, char **) {
 
     ofstream varAns{ "string_constexpr.hpp"  };
-  
+
     varAns << "#pragma once"sv << endl;
 
-    varAns << u8R"( 
+    varAns << u8R"(
 
 #include <string_view>
 #include "constexpr_string.hpp"
 
-namespace sstd{ 
+namespace sstd{
 
 template<auto ... Args>
 class constexpr_string_literal {
@@ -155,8 +155,8 @@ public:
                 ofstream varAnsPart{ varFileName };
                 varAnsPart << getHelper(i);
             }
-            varAns << u8R"(#include ")"sv 
-                << varFileName 
+            varAns << u8R"(#include ")"sv
+                << varFileName
                 << u8R"(")"sv<<endl;
         }
     }
@@ -165,7 +165,7 @@ public:
 }/*namespace _detail_sstd_string*/
 )"sv << endl;
 
-    varAns << u8R"( 
+    varAns << u8R"(
 }/*namespace sstd*/
 
  )"sv << endl;
@@ -195,11 +195,8 @@ public:
 
     }
 
-    varAns << u8R"(>::type 
+    varAns << u8R"(>::type
 #endif)"sv;
     varAns << endl;
 
 }
-
-
-

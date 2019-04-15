@@ -28,4 +28,3 @@ namespace boost
 } // boost
 
 #endif  // header
-

@@ -140,4 +140,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(limit, detail::limit_f);
 }} // namespace boost::hof
 
 #endif
-

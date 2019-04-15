@@ -99,5 +99,3 @@ BOOST_AUTO_TEST_CASE( test_math_abs )
     }
 #endif
 }
-
-

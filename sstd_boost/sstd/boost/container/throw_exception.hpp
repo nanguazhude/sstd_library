@@ -179,4 +179,3 @@ namespace container {
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif //#ifndef BOOST_CONTAINER_THROW_EXCEPTION_HPP
-

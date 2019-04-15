@@ -325,5 +325,3 @@ bool operator!=(const cached_node_allocator<T, S, NPC> &alloc1,
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTERPROCESS_CACHED_NODE_ALLOCATOR_HPP
-
-

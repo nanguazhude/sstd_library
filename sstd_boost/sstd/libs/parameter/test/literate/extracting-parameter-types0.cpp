@@ -25,5 +25,3 @@ int main()
     assert(a1 == 42);
     assert(a2 == 3);
 }
-
-

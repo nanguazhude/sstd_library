@@ -115,4 +115,3 @@ void mode_adapter<Mode, T>::close(BOOST_IOS::openmode which)
 } } } // End namespaces detail, iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_MODE_ADAPTER_HPP_INCLUDED //-----//
-

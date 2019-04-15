@@ -259,4 +259,3 @@ void output_xml_results(bool show_description, const std::string& title, const s
     std::ofstream file(filename.c_str());
     file << os.str();
 }
-

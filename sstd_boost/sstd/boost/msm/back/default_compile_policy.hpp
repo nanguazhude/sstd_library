@@ -23,4 +23,3 @@ struct favor_runtime_speed
 
 }}}// boost::msm::back
 #endif // BOOST_MSM_BACK_DEFAULT_COMPILE_POLICY_HPP
-

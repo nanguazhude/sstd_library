@@ -66,4 +66,3 @@ BOOST_AUTO_TEST_CASE( test_nine )
     check_equal_range( irange(0, 10) | split(1, 3), irange(4, 7) );
     check_equal_range( irange(0, 10) | split(2, 3), irange(7, 10) );
 }
-

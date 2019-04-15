@@ -304,5 +304,3 @@ struct has_trivial_destructor
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_ALLOCATOR_HPP
-
-

@@ -96,4 +96,3 @@
 /**/
 
 #endif // BOOST_TTI_HAS_DATA_HPP
-

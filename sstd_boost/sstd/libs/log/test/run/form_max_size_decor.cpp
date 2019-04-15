@@ -175,4 +175,3 @@ BOOST_AUTO_TEST_CASE(character_boundary_maintenance)
         BOOST_CHECK(equal_strings(strm1.str(), strm2.str()));
     }
 }
-

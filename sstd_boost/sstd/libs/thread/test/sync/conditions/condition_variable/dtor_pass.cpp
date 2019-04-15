@@ -66,5 +66,3 @@ int main()
   th2.join();
   return boost::report_errors();
 }
-
-

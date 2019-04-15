@@ -15,6 +15,3 @@ extern "C" long double BOOST_MATH_TR1_DECL boost_expm1l BOOST_PREVENT_MACRO_SUBS
 {
    return c_policies::expm1 BOOST_PREVENT_MACRO_SUBSTITUTION(x);
 }
-
-
-

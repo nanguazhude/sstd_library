@@ -1834,5 +1834,3 @@ build_explicit_entry_state()
 }}}}
 
 #endif //BOOST_MSM_FRONT_EUML_STATE_GRAMMAR_H
-
-

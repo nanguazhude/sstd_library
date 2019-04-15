@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_AS_PARSER
 #include <sstd/boost/spirit/home/classic/meta/as_parser.hpp>
 #endif
-

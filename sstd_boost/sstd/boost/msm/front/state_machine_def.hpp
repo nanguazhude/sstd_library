@@ -213,5 +213,3 @@ protected:
 
 } } }// boost::msm::front
 #endif //BOOST_MSM_FRONT_STATEMACHINE_DEF_H
-
-

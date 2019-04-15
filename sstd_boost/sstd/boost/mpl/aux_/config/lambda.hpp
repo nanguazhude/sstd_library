@@ -30,4 +30,3 @@
 #endif
 
 #endif // BOOST_MPL_AUX_CONFIG_LAMBDA_HPP_INCLUDED
-

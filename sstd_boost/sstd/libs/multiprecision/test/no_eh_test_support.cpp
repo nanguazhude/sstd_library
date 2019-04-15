@@ -26,5 +26,3 @@ namespace boost {
 namespace boost { namespace detail { void dummy_proc() {} } }
 
 #endif
-
-

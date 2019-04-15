@@ -118,4 +118,3 @@ struct has_nothrow_copy<
 } // namespace boost
 
 #endif // BOOST_DETAIL_REFERENCE_CONTENT_HPP
-

@@ -14,4 +14,3 @@ int main()
   test_registration();
   return boost::report_errors();
 }
-

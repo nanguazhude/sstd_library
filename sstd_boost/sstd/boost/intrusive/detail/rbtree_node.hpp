@@ -203,4 +203,3 @@ struct rbtree_node_traits
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_RBTREE_NODE_HPP
-

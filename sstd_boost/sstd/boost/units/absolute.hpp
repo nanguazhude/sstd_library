@@ -151,4 +151,3 @@ namespace units {
 } // namespace boost
 
 #endif // BOOST_UNITS_ABSOLUTE_HPP
-

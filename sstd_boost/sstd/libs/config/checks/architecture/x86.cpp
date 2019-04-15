@@ -14,4 +14,3 @@
     && !defined(__x86_64) && !defined(_M_X64)
 #error "Not x86"
 #endif
-

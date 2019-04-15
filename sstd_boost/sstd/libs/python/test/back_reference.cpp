@@ -110,4 +110,3 @@ BOOST_PYTHON_MODULE(back_reference_ext)
 }
 
 #include "module_tail.cpp"
-

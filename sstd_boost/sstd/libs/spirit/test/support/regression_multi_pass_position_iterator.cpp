@@ -28,5 +28,3 @@ int main()
 
     return first == last; // just to silence unused variable warnings
 }
-
-

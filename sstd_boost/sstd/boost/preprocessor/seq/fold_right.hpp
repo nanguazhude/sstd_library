@@ -286,4 +286,3 @@
 # define BOOST_PP_SEQ_FOLD_RIGHT_256(op, st, ss) BOOST_PP_SEQ_FOLD_LEFT_I_256(op, st, BOOST_PP_SEQ_REVERSE_S(257, ss), BOOST_PP_SEQ_SIZE(ss))
 #
 # endif
-

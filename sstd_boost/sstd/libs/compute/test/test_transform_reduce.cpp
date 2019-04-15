@@ -99,4 +99,3 @@ BOOST_AUTO_TEST_CASE(mean_and_std_dev)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

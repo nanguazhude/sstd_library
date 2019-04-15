@@ -78,4 +78,3 @@ struct is_dereferenceable
 } // End namespaces detail, iostreams, boost.
 
 #endif // BOOST_IOSTREAMS_DETAIL_IS_DEREFERENCEABLE_HPP_INCLUDED
-

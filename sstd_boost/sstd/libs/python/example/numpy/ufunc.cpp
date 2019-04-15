@@ -83,5 +83,3 @@ int main(int argc, char **argv)
   result_array = inst.attr("__call__")(demo_array,demo_array) ;
   std::cout << "Square of list with binary ufunc is " << p::extract <char const * > (p::str(result_array)) << std::endl ;
 }
-
-

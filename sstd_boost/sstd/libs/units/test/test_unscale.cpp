@@ -56,4 +56,3 @@ BOOST_MPL_ASSERT((boost::is_same<
                         >
                     >
 >));
-

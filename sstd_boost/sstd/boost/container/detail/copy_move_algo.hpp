@@ -1167,4 +1167,3 @@ void move_assign_range_alloc_n( Allocator &a, I inp_start, typename allocator_tr
 #endif
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_COPY_MOVE_ALGO_HPP
-

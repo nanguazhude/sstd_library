@@ -178,4 +178,3 @@ namespace boost
 } // namespace boost
 
 #endif  // BOOST_SIGNALS2_FOREIGN_PTR_HPP
-

@@ -154,5 +154,3 @@ BEAST_DEFINE_TESTSUITE(beast,benchmarks,utf8_checker);
 
 } // beast
 } // boost
-
-

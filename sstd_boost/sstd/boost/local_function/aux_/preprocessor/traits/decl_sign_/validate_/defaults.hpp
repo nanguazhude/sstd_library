@@ -122,5 +122,3 @@ BOOST_LOCAL_FUNCTION_AUX_PP_DECL_TRAITS_SIGN_VALIDATE_DEFAULTS_PRED_DATA_( \
             (sign, 0, BOOST_PP_EMPTY)))
 
 #endif // #include guard
-
-

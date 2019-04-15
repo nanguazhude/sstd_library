@@ -46,4 +46,3 @@ void main() {
         while (run_flg);
     }
 } // main()
-

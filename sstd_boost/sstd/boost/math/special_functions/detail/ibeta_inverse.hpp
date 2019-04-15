@@ -987,8 +987,3 @@ inline typename tools::promote_args<RT1, RT2, RT3>::type
 } // namespace boost
 
 #endif // BOOST_MATH_SPECIAL_FUNCTIONS_IGAMMA_INVERSE_HPP
-
-
-
-
-

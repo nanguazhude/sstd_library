@@ -103,4 +103,3 @@ using BOOST_MPL_AUX_ADL_BARRIER_NAMESPACE::_6;
 }
 
 }}
-

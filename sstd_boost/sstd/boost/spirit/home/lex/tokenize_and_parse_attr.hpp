@@ -111,5 +111,3 @@ namespace boost { namespace spirit { namespace lex
 #undef N
 
 #endif
-
-

@@ -124,4 +124,3 @@ make_suite_info(
 } // boost
 
 #endif
-

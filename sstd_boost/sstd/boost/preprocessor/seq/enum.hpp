@@ -286,4 +286,3 @@
 # define BOOST_PP_SEQ_ENUM_256(x) x, BOOST_PP_SEQ_ENUM_255
 #
 # endif
-

@@ -86,4 +86,3 @@ public:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_EVENT_HPP
-

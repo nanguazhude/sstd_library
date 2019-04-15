@@ -33,4 +33,3 @@ int main() {
         fusion::make_tuple("Moby Dick", "Garfield", "Snoopy")
     ));
 }
-

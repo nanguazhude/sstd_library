@@ -180,4 +180,3 @@ class BOOST_CONTAINER_DECL monotonic_buffer_resource
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //BOOST_CONTAINER_PMR_MONOTONIC_BUFFER_RESOURCE_HPP
-

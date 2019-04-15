@@ -267,4 +267,3 @@ namespace boost { namespace spirit { namespace x3 { namespace testing
 }}}}
 
 #endif
-

@@ -44,4 +44,3 @@ private:
 } // boost
 
 #endif // BOOST_UUID_RANDOM_ENTROPY_ERROR_HPP
-

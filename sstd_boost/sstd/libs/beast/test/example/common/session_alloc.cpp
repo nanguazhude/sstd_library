@@ -9,5 +9,3 @@
 
 // Test that header file is self-contained.
 #include "example/common/session_alloc.hpp"
-
-

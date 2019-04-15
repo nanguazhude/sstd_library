@@ -56,4 +56,3 @@ namespace hash_examples
 }
 
 #endif
-

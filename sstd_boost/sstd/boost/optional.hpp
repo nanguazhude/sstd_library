@@ -15,5 +15,3 @@
 #include "sstd/boost/optional/optional.hpp"
 
 #endif
-
-

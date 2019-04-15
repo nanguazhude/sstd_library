@@ -50,4 +50,3 @@ int main()
     polygon_90_data_test();
     return boost::report_errors();
 }
-

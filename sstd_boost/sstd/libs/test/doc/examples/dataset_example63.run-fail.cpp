@@ -35,4 +35,3 @@ BOOST_DATA_TEST_CASE(
   BOOST_TEST(random_sample < 1.7); // 30% chance of failure
 }
 //]
-

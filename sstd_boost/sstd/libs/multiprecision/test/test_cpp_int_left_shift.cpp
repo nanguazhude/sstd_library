@@ -97,7 +97,3 @@ int main()
    test(boost::mpl::int_<24>());
    return boost::report_errors();
 }
-
-
-
-

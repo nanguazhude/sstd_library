@@ -225,4 +225,3 @@ bool check_equal_collections(I a, I b, J x, J y)
 #define BOOST_REQUIRE_EQUAL_COLLECTIONS(a, b, x, y) BOOST_MT_CHECK_EQ_COLLECTIONS(a, b, x, y, abort_on_fail)
 
 #endif
-

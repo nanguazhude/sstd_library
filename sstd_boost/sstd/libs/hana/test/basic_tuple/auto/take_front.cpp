@@ -6,4 +6,3 @@
 #include <auto/take_front.hpp>
 
 int main() { }
-

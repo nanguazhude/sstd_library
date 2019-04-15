@@ -44,4 +44,3 @@ int main() {
         hana::tuple_c<int, 1, 2>
     ));
 }
-

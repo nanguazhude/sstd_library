@@ -74,4 +74,3 @@ struct default_color_converter_impl<cmyka_t,cmyka_t> {
 } // namespace boost
 
 #endif
-

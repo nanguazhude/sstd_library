@@ -71,4 +71,3 @@ struct version<boost::multi_index::detail::serialization_version<T> >
 } /* namespace boost */
 
 #endif
-

@@ -28,4 +28,3 @@ struct return_by_value
 }} // namespace boost::python
 
 #endif // BY_VALUE_DWA20021015_HPP
-

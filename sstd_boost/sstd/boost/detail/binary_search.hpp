@@ -214,4 +214,3 @@ bool binary_search(ForwardIter first, ForwardIter last,
 }} // namespace boost::detail
 
 #endif // BINARY_SEARCH_DWA_122600_H_
-

@@ -47,4 +47,3 @@ typedef temperature_base_dimension::dimension_type temperature_dimension;
 } // namespace boost
 
 #endif // BOOST_UNITS_TEMPERATURE_BASE_DIMENSION_HPP
-

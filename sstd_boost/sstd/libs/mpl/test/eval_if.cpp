@@ -31,4 +31,3 @@ MPL_TEST_CASE()
     MPL_ASSERT(( is_same<t3,long> ));
     MPL_ASSERT(( is_same<t4,long> ));
 }
-

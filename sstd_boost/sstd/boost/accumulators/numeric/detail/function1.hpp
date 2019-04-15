@@ -73,4 +73,3 @@ struct function1
 }} // namespace boost::detail
 
 #endif // BOOST_DETAIL_FUNCTION1_DWA200655_HPP
-

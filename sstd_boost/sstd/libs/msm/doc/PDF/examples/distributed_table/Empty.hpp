@@ -41,4 +41,3 @@ struct Empty : public msm::front::state<>
 };
 
 #endif
-

@@ -57,4 +57,3 @@ sum_exceeds(U1 x, U2 y, U3 z)
 } // boost
 
 #endif
-

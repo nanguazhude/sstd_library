@@ -67,4 +67,3 @@ operator<<( assertion_type const&, lexicographic )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_TOOLS_DETAIL_LEXICOGRAPHIC_MANIP_HPP_050815GER
-

@@ -43,4 +43,3 @@ int main() {
         static_assert(std::is_same<typename T::value_type, int>{}, "");
     });
 }
-

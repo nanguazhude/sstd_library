@@ -106,4 +106,3 @@ load_root_certificates(ssl::context& ctx)
 }
 
 #endif
-

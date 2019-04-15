@@ -47,4 +47,3 @@ set_target_properties(include PROPERTIES FOLDER "tests")
 
 # end headers in IDE
 ####################
-

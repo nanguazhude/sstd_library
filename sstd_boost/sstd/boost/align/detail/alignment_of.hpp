@@ -29,4 +29,3 @@ struct alignment_of
 } /* boost */
 
 #endif
-

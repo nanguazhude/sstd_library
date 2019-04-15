@@ -37,6 +37,3 @@ namespace other{
 
 
 #endif
-
-
-

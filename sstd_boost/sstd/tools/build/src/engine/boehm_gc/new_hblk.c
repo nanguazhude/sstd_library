@@ -198,5 +198,3 @@ void GC_new_hblk(size_t gran, int kind)
 	GC_build_fl(h, GRANULES_TO_WORDS(gran), clear,
 		    GC_obj_kinds[kind].ok_freelist[gran]);
 }
-
-

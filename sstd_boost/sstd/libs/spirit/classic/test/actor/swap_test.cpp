@@ -43,6 +43,3 @@ void swap_action_test()
     BOOST_CHECK_EQUAL(v1[0],2);
     BOOST_CHECK_EQUAL(v1[1],3);
 }
-
-
-

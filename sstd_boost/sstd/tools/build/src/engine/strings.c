@@ -249,4 +249,3 @@ void string_unit_test()
     }
 }
 #endif
-

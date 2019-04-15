@@ -46,5 +46,3 @@ using executors::scheduled_thread_pool;
 
 } //end boost
 #endif
-
-

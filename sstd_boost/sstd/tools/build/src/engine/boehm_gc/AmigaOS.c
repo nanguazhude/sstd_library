@@ -619,6 +619,3 @@ void *GC_amiga_realloc(void *old_object,size_t new_size_in_bytes){
 }
 
 #endif //GC_AMIGA_AM
-
-
-

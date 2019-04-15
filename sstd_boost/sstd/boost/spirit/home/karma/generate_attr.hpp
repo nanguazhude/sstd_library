@@ -209,5 +209,3 @@ namespace boost { namespace spirit { namespace karma
 #undef N
 
 #endif // defined(BOOST_PP_IS_ITERATING)
-
-

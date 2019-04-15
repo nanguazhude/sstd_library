@@ -89,4 +89,3 @@ planar_devicen_view(std::size_t width, std::size_t height, IC c0, IC c1, IC c2, 
 } }  // namespace boost::gil
 
 #endif
-

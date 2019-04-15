@@ -29,5 +29,3 @@ void Node::hess_reverse_1_clear_index()
 }
 
 }
-
-

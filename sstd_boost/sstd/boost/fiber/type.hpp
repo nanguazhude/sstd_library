@@ -104,4 +104,3 @@ operator^=( type & l, type r) {
 #endif
 
 #endif // BOOST_FIBERS_TYPE_H
-

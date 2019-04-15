@@ -188,5 +188,3 @@ private:
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_TREE_FIXTURE_HPP_100311GER
-
-

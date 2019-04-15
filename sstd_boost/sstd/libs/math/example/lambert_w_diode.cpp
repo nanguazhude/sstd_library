@@ -162,5 +162,3 @@ int main()
 
 //] [/lambert_w_output_1]
 */
-
-

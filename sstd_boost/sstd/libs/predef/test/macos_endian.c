@@ -19,4 +19,3 @@ http://www.boost.org/LICENSE_1_0.txt)
 #   include <sstd/boost/predef/os/macos.h>
 #   include <sstd/boost/predef/other/endian.h>
 #endif
-

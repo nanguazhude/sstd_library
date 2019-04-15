@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_PHOENIX_FUSION
 #include <sstd/boost/phoenix/fusion.hpp>
 #endif
-

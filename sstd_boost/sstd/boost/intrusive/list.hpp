@@ -1514,4 +1514,3 @@ class list
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_LIST_HPP
-

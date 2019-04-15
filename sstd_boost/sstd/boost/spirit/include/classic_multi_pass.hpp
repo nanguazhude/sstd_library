@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_MULTI_PASS
 #include <sstd/boost/spirit/home/classic/iterator/multi_pass.hpp>
 #endif
-

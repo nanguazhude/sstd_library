@@ -33,4 +33,3 @@ BOOST_MPL_AUX_NA_SPEC(1, iterator_category)
 }}
 
 #endif // BOOST_MPL_ITERATOR_CATEGORY_HPP_INCLUDED
-

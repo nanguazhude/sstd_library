@@ -74,4 +74,3 @@ inline arg_from_python<T>::arg_from_python(PyObject* source)
 }} // namespace boost::python
 
 #endif // ARG_FROM_PYTHON_DWA2002128_HPP
-

@@ -98,4 +98,3 @@ struct set_initializer
 }}} // namespace boost::xpressive::detail
 
 #endif
-

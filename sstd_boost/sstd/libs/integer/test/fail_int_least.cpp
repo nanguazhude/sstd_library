@@ -6,4 +6,3 @@
 #include <sstd/boost/integer.hpp>
 
 typedef boost::int_t<sizeof(boost::intmax_t)*CHAR_BIT + 1>::least fail_int_least;
-

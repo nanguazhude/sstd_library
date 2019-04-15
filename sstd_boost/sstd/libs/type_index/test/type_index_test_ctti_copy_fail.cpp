@@ -12,5 +12,3 @@ int main() {
     ctti_type_index::type_info_t t = ctti_type_index::type_id<int>().type_info();
     (void)t;
 }
-
-

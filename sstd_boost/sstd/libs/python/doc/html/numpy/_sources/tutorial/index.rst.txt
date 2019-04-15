@@ -9,5 +9,3 @@
    ndarray
    ufunc
    fromdata
-
-

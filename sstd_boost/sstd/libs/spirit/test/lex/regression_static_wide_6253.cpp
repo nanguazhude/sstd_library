@@ -42,4 +42,3 @@ int main()
     BOOST_TEST(lex::lexertl::generate_static_switch(lexer, output_switch, L"test_switch"));
     return boost::report_errors();
 }
-

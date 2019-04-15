@@ -62,4 +62,3 @@ template struct BOOST_SYMBOL_VISIBLE boost::wave::cpplexer::new_lexer_gen<std::s
 #endif
 
 #endif // BOOST_WAVE_SEPARATE_LEXER_INSTANTIATION != 0
-

@@ -79,6 +79,3 @@ struct predecessor
 }} // namespace boost icl
 
 #endif
-
-
-

@@ -535,4 +535,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(function_name_does_not_affect_non_function_scopes,
         BOOST_CHECK(check_formatting(data::function_name_format(), rec, strm.str()));
     }
 }
-

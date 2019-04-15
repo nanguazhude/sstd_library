@@ -13,5 +13,3 @@ add_subdirectory( .. ${CMAKE_CURRENT_BINARY_DIR}/boost_preprocessor )
 
 add_executable( boost_preprocessor_cmake_self_test config_info.cpp )
 target_link_libraries( boost_preprocessor_cmake_self_test Boost::preprocessor )
-
-

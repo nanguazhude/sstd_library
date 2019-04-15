@@ -485,4 +485,3 @@ boost_type_erasure_find_interface(concept_name<Sig>);
 #endif
 
 #endif
-

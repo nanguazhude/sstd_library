@@ -550,8 +550,3 @@ INT#_C macros if they're not already defined (John Maddock).
 # endif // Borland/Microsoft specific width suffixes
 
 #endif // INT#_C macros.
-
-
-
-
-

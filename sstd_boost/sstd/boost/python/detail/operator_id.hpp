@@ -61,4 +61,3 @@ enum operator_id
 }}} // namespace boost::python::detail
 
 #endif // OPERATOR_ID_DWA2002531_HPP
-

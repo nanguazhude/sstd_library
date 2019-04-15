@@ -49,4 +49,3 @@ namespace boost {
 }
 
 #endif // BOOST_DISTRIBUTED_FILTERED_GRAPH_HPP
-

@@ -18,4 +18,3 @@ int main() {
     BOOST_TEST(!f(ptr_hasher(&x), &x));
     return boost::report_errors();
 }
-

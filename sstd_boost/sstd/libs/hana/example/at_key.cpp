@@ -25,4 +25,3 @@ int main() {
     BOOST_HANA_RUNTIME_CHECK(m[hana::type<int>{}] == "int");
     BOOST_HANA_RUNTIME_CHECK(m[hana::int_<3>{}] == "3");
 }
-

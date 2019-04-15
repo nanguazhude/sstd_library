@@ -22,5 +22,3 @@ int main () {
         vs (i) = i;
     std::cout << vs << std::endl;
 }
-
-

@@ -21,4 +21,3 @@ void test()
 {
     boost::chrono::duration<Rep> d(1);
 }
-

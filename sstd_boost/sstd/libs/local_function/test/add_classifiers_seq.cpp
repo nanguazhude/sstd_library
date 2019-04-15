@@ -23,5 +23,3 @@ int main(void) {
 }
 
 #endif // AUTO_DECLARATIONS
-
-

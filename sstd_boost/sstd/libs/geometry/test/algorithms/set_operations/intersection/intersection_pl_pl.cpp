@@ -198,5 +198,3 @@ BOOST_AUTO_TEST_CASE( test_intersection_multipoint_multipoint )
          from_wkt<MP>("MULTIPOINT(1 0,0 0,2 0)")
          );
 }
-
-

@@ -87,4 +87,3 @@ BOOST_AUTO_TEST_CASE( test_dense_vector_compressed2D_resize )
     BOOST_CHECK( m.num_cols() == mtl::size( v ) );
     BOOST_CHECK( m.num_rows() == mtl::size( v ) );
 }
-

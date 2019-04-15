@@ -19,4 +19,3 @@ struct copy_ctor_mutates_rhs
 }}} // namespace boost::python::detail
 
 #endif // COPY_CTOR_MUTATES_RHS_DWA2003219_HPP
-

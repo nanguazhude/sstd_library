@@ -133,5 +133,3 @@ public:
 } // namespace boost
 
 #endif // BOOST_TT_ADD_REFERENCE_HPP_INCLUDED
-
-

@@ -28,4 +28,3 @@ int main()
   test_assignment_to_empty();
   return boost::report_errors();
 }
-

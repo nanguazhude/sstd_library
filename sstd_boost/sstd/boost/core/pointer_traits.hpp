@@ -231,4 +231,3 @@ to_address(const T& v) BOOST_NOEXCEPT
 } /* boost */
 
 #endif
-

@@ -70,4 +70,3 @@ inline UnaryFunction for_each(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_FOR_EACH_HPP
-

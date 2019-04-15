@@ -1688,4 +1688,3 @@ typename iterator_traits<RandIt>::size_type
 #include <sstd/boost/move/detail/config_end.hpp>
 
 #endif   //#define BOOST_MOVE_ADAPTIVE_SORT_MERGE_HPP
-

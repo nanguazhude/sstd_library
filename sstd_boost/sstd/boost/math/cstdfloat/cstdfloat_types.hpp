@@ -438,4 +438,3 @@
   // namespace boost
 
 #endif // _BOOST_CSTDFLOAT_BASE_TYPES_2014_01_09_HPP_
-

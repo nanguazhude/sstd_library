@@ -88,4 +88,3 @@ return_ref_or_bounds(Geometry const& g)
 }}}} // namespace boost::geometry::index::detail
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_ALGORITHMS_BOUNDS_HPP
-

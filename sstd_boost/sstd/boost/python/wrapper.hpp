@@ -33,4 +33,3 @@ class wrapper : public detail::wrapper_base
 }} // namespace boost::python
 
 #endif // WRAPPER_DWA2004720_HPP
-

@@ -130,4 +130,3 @@ inline boost::long_long_type llround(const T& v)
 }} // namespaces
 
 #endif // BOOST_MATH_ROUND_HPP
-

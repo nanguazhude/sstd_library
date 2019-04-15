@@ -196,5 +196,3 @@ void serialize(Archive & ar, mp::cpp_int_backend<MinBits, MaxBits, SignType, Che
 }} // namespaces
 
 #endif // BOOST_MP_CPP_INT_SERIALIZE_HPP
-
-

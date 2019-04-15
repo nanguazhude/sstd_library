@@ -75,4 +75,3 @@ BOOST_UNITS_STATIC_CONSTANT(yotta,long double) = (1e24);        ///< metric pref
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_PREFIXES_HPP
-

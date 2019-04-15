@@ -28,4 +28,3 @@ BOOST_CLASS_IMPLEMENTATION(std::wstring, boost::serialization::primitive_type)
 #endif
 
 #endif // BOOST_SERIALIZATION_STRING_HPP
-

@@ -16,4 +16,3 @@
 #include <sstd/boost/test/impl/xml_report_formatter.ipp>
 
 // EOF
-

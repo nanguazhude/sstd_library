@@ -359,4 +359,3 @@ BOOST_AUTO_TEST_CASE(self_contained_exception_types_nothrow)
     BOOST_CHECK(*pExceptionType == typeid(void));
     pExceptionType = 0;
 }
-

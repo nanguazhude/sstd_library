@@ -45,4 +45,3 @@ int main()
   std::cout << "  error: failed to catch boost::system::system_error\n";
   return 1;
 }
-

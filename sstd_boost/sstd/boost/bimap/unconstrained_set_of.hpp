@@ -147,5 +147,3 @@ struct is_unconstrained_set_of;
 
 
 #endif // BOOST_BIMAP_UNCONSTRAINED_SET_OF_HPP
-
-

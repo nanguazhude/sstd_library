@@ -133,4 +133,3 @@ struct is_transparent<
 
 #endif
 #endif
-

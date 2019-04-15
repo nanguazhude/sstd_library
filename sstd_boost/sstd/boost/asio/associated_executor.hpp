@@ -149,4 +149,3 @@ using associated_executor_t = typename associated_executor<T, Executor>::type;
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_ASSOCIATED_EXECUTOR_HPP
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Bcrypt Password Hashing
 * (C) 2011 Jack Lloyd
 *

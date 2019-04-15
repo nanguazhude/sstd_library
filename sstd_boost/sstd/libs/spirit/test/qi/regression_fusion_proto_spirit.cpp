@@ -28,4 +28,3 @@ int main()
     qi::rule<std::string::const_iterator, int()> r2 =
         r(boost::phoenix::ref(vars)) > qi::eps;
 }
-

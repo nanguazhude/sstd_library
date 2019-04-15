@@ -59,4 +59,3 @@ operator<<( std::ostream& ostr, custom_manip<Uniq> const& ) { return custom_prin
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_UTILS_CUSTOM_MANIP_HPP
-

@@ -24,4 +24,3 @@
 #endif
 
 #endif  // BOOST_STRING_STD_CONTAINERS_TRAITS_HPP
-

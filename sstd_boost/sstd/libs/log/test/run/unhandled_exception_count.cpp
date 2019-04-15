@@ -51,4 +51,3 @@ BOOST_AUTO_TEST_CASE(in_destructor)
 
     BOOST_CHECK_NE(root_count, level1_count);
 }
-

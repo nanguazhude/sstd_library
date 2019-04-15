@@ -30,4 +30,3 @@ void f(){
 }
 
 int main(){}
-

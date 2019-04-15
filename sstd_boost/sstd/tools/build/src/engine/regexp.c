@@ -1328,4 +1328,3 @@ strcspn(
     return(count);
 }
 #endif
-

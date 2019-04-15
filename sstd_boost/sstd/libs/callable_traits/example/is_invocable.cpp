@@ -22,4 +22,3 @@ static_assert(!ct::is_invocable<foo, double>::value, "");
 
 int main() {}
 //]
-

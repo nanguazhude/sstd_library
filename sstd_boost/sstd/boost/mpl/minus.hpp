@@ -19,4 +19,3 @@
 #include <sstd/boost/mpl/aux_/arithmetic_op.hpp>
 
 #endif // BOOST_MPL_MINUS_HPP_INCLUDED
-

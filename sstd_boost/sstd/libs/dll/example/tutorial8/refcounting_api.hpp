@@ -73,6 +73,3 @@ inline boost::shared_ptr<my_refcounting_api> get_plugin(
 }
 
 //]
-
-
-

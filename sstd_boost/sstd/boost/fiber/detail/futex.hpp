@@ -59,4 +59,3 @@ int futex_wait( std::atomic< std::int32_t > * addr, std::int32_t x) {
 }}}
 
 #endif // BOOST_FIBERS_DETAIL_FUTEX_H
-

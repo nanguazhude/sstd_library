@@ -497,5 +497,3 @@ BOOST_GEOMETRY_PROJECTIONS_DETAIL_SRID_TRAITS_BEG(esri, 104305) srs::spar::param
 
 
 #endif
-
-

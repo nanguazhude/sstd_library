@@ -1,4 +1,4 @@
-/*
+﻿/*
 * OS specific utility functions
 * (C) 2015,2016,2017 Jack Lloyd
 *

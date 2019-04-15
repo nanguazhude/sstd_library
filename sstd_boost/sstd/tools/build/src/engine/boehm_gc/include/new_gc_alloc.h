@@ -482,4 +482,3 @@ __STL_END_NAMESPACE
 #endif /* __STL_USE_STD_ALLOCATORS */
 
 #endif /* GC_ALLOC_H */
-

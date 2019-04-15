@@ -105,4 +105,3 @@ test_suite* init_unit_test_suite( int argc, char* argv[] )
     test->add(BOOST_TEST_CASE(&test_dynamic_grammar2));
     return test;
 }
-

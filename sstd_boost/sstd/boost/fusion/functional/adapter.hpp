@@ -15,4 +15,3 @@
 #include <sstd/boost/fusion/functional/adapter/unfused.hpp>
 #include <sstd/boost/fusion/functional/adapter/unfused_typed.hpp>
 #endif
-

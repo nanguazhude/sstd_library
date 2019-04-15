@@ -6,4 +6,3 @@
 #include <auto/drop_back.hpp>
 
 int main() { }
-

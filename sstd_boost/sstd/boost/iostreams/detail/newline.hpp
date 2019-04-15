@@ -30,4 +30,3 @@ struct newline<wchar_t> {
 } } } // End namespaces detaill, iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_NEWLINE_HPP_INCLUDED
-

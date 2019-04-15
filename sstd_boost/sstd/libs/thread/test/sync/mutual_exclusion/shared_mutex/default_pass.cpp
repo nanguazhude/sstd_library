@@ -26,5 +26,3 @@ int main()
   boost::shared_mutex m0;
   return boost::report_errors();
 }
-
-

@@ -391,4 +391,3 @@ void var_done( struct module_t * module )
     hashenumerate( module->variables, delete_var_, 0 );
     hash_free( module->variables );
 }
-

@@ -311,4 +311,3 @@ NUMPY_OBJECT_MANAGER_TRAITS(numpy::ndarray);
 }}} // namespace boost::python::converter
 
 #endif
-

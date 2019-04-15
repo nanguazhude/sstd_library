@@ -99,4 +99,3 @@ class xsi_key
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_XSI_KEY_HPP
-

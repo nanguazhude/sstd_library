@@ -531,4 +531,3 @@ struct set_kernel_arg<char>
 } // end namespace boost
 
 #endif // BOOST_COMPUTE_KERNEL_HPP
-

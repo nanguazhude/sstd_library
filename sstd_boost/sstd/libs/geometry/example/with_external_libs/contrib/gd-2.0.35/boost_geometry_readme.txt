@@ -17,5 +17,3 @@ and extract to this folder.
 Nothing has to be installed.
 
 This is used in x02_gd_example.cpp
-
-

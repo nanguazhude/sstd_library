@@ -307,4 +307,3 @@ struct extract_base_units<0> {
 }
 
 #endif
-

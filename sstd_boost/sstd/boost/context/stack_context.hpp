@@ -70,4 +70,3 @@ struct stack_context {
 #endif
 
 #endif // BOOST_CONTEXT_STACK_CONTEXT_H
-

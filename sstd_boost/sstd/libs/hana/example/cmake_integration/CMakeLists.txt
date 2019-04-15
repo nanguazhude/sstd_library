@@ -10,4 +10,3 @@ find_package(Hana REQUIRED)
 add_executable(external main.cpp)
 target_link_libraries(external hana)
 # [snip]
-

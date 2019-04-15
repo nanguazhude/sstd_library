@@ -298,4 +298,3 @@ inline std::pair<std::size_t,std::size_t> ranked_index_equal_range_rank(
 } /* namespace boost */
 
 #endif
-

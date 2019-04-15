@@ -165,4 +165,3 @@ BOOST_ATOMIC_DECL void lockpool::signal_fence() BOOST_NOEXCEPT
 #if defined(BOOST_MSVC)
 #pragma warning(pop)
 #endif
-

@@ -527,4 +527,3 @@ typedef basic_input<const wchar_t *> ptr_winput;
 }
 
 #endif
-

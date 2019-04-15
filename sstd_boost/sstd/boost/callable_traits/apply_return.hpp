@@ -107,4 +107,3 @@ struct apply_return : detail::apply_return_impl<T, R> {};
 */
 //]
 #endif
-

@@ -322,5 +322,3 @@ inline std::string platform_name()
 }
 
 #endif // TABLE_HELPER_HPP
-
-

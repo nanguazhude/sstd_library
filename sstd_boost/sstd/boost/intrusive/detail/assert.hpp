@@ -43,4 +43,3 @@
 #endif
 
 #endif //BOOST_INTRUSIVE_DETAIL_ASSERT_HPP
-

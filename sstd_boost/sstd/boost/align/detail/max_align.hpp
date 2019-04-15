@@ -24,4 +24,3 @@ struct max_align
 } /* boost */
 
 #endif
-

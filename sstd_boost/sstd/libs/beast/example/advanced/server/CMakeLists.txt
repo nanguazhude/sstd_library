@@ -17,4 +17,3 @@ add_executable (advanced-server
 )
 
 set_property(TARGET advanced-server PROPERTY FOLDER "example-advanced-server")
-

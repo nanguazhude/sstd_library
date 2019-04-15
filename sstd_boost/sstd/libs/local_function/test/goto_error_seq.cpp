@@ -24,5 +24,3 @@ int main(void) {
     error(1, 2);
     return 0;
 }
-
-

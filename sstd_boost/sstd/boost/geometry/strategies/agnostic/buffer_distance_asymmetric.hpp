@@ -112,4 +112,3 @@ private :
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_AGNOSTIC_BUFFER_DISTANCE_ASYMMETRIC_HPP
-

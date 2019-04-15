@@ -17,4 +17,3 @@
 #include <sstd/boost/gil/io/write_view.hpp>
 
 #endif
-

@@ -595,4 +595,3 @@ inline void pj_calc_ellipsoid_params(parameters<T> & p, T const& a, T const& es)
 }}} // namespace boost::geometry::projections
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_IMPL_PJ_ELL_SET_HPP
-

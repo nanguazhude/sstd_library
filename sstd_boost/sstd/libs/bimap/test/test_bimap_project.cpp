@@ -140,5 +140,3 @@ int test_main( int, char* [] )
     test_bimap_project();
     return 0;
 }
-
-

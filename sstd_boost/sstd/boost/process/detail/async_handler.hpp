@@ -115,4 +115,3 @@ boost::asio::io_context &get_io_context_var(First&, Args&...args)
 
 
 #endif /* BOOST_PROCESS_DETAIL_ASYNC_HANDLER_HPP_ */
-

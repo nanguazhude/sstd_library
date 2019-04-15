@@ -100,4 +100,3 @@ class state : public simple_state<
 
 
 #endif
-

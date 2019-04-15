@@ -30,4 +30,3 @@ test_main(int argc, char* argv[]) {
   BOOST_CHECK(version.second == mpi_subversion);
   return 0;
 }
-

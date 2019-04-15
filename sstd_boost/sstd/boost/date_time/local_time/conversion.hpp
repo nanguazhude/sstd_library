@@ -32,4 +32,3 @@ std::tm to_tm(const local_date_time& lt) {
 
 }} // namespaces
 #endif // DATE_TIME_LOCAL_TIME_CONVERSION_HPP__
-

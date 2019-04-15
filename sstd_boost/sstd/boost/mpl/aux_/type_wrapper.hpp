@@ -45,4 +45,3 @@ template< typename W > struct wrapped_type
 }}}
 
 #endif // BOOST_MPL_AUX_TYPE_WRAPPER_HPP_INCLUDED
-

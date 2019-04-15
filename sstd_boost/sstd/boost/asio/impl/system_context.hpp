@@ -34,4 +34,3 @@ system_context::get_executor() BOOST_ASIO_NOEXCEPT
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IMPL_SYSTEM_CONTEXT_HPP
-

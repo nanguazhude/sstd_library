@@ -868,4 +868,3 @@ expression_grammar_gen<TokenT>::evaluate(
 #endif
 
 #endif // !defined(CPP_EXPRESSION_GRAMMAR_HPP_099CD1A4_A6C0_44BE_8F24_0B00F5BE5674_INCLUDED)
-

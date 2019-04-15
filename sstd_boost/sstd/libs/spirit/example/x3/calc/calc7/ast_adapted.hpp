@@ -23,4 +23,3 @@ BOOST_FUSION_ADAPT_STRUCT(client::ast::expression,
 )
 
 #endif
-

@@ -46,4 +46,3 @@ BOOST_MPL_AUX_NA_SPEC(3, fold)
 }}
 
 #endif // BOOST_MPL_FOLD_HPP_INCLUDED
-

@@ -38,4 +38,3 @@ static_assert(hana::equal(Size{}, hana::int_c<3>), "");
 
 
 int main() { }
-

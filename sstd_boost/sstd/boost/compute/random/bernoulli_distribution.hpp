@@ -98,4 +98,3 @@ private:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_RANDOM_BERNOULLI_DISTRIBUTION_HPP
-

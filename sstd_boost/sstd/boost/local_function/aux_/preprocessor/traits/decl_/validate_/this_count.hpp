@@ -35,5 +35,3 @@
             ERROR_cannot_bind_object_this_multiple_times BOOST_PP_EMPTY)
 
 #endif // #include guard
-
-

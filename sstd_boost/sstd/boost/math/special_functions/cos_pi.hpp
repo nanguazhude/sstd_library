@@ -79,5 +79,3 @@ inline typename tools::promote_args<T>::type cos_pi(T x)
 } // namespace math
 } // namespace boost
 #endif
-
-

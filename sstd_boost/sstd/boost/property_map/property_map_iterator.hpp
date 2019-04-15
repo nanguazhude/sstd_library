@@ -110,5 +110,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_PROPERTY_MAP_ITERATOR_HPP
-
-

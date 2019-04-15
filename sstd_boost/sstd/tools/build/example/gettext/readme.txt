@@ -22,4 +22,3 @@ To test even more:
    - edit "russian.po"
    - run bjam
    - run "main"
-

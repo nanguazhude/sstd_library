@@ -17,4 +17,3 @@
 #endif
 
 #endif // BOOST_WINAPI_MEMORY_HPP_INCLUDED_
-

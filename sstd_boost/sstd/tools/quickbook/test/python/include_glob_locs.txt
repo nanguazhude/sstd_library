@@ -7,4 +7,3 @@ g sub1/?.qbk
 + sub1/a.qbk
 g sub2/?.qbk
 + sub2/b.qbk
-

@@ -100,6 +100,3 @@ Joerg Walter (jhr.walter - at - t-online.de : email to ublas mailing list Mon, 1
 Mathias Koch (mkoch - at - idesis.de 7 : email to boost-owner@lists.boost.org Sep 2007 13:20:09 +0200)
 
 --- end ---
-
-
-

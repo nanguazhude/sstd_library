@@ -23,4 +23,3 @@ template< typename AssociativeSequence, typename Key > struct order;
 }}
 
 #endif // BOOST_MPL_ORDER_FWD_HPP_INCLUDED
-

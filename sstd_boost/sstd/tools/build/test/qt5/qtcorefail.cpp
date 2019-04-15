@@ -21,4 +21,3 @@ BOOST_AUTO_TEST_CASE( qstring_test)
 
     BOOST_CHECK_EQUAL(dummy.isEmpty(), true);
 }
-

@@ -92,4 +92,3 @@ constexpr bool has_varargs_v = //see below
 //]
 
 #endif
-

@@ -36,4 +36,3 @@
 #endif
 
 #endif // BOOST_LOG_EXPRESSIONS_HPP_INCLUDED_
-

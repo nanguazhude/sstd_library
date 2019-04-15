@@ -41,4 +41,3 @@ using namespace numeric;
 using namespace interval_lib;
 
 #endif
-

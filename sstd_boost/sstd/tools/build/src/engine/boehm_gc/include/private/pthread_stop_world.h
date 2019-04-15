@@ -9,4 +9,3 @@ struct thread_stop_info {
 };
 
 #endif
-

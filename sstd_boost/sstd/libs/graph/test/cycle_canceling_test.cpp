@@ -60,5 +60,3 @@ BOOST_AUTO_TEST_CASE(cycle_canceling_test) {
     int cost = boost::find_flow_cost(g);
     BOOST_CHECK_EQUAL(cost, 29);
 }
-
-

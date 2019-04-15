@@ -113,4 +113,3 @@ double exec_timed_test(Func f)
 }
 
 #endif // PERFORMANCE_HPP
-

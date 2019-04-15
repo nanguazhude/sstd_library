@@ -50,4 +50,3 @@ namespace detail
 }} // namespace boost::python
 
 #endif
-

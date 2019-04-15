@@ -97,4 +97,3 @@ public:
 } // namespace boost
 
 #endif // BOOST_ARCHIVE_ITERATORS_INSERT_LINEBREAKS_HPP
-

@@ -61,4 +61,3 @@
 #endif // defined(BOOST_MSVC)
 
 #endif // !defined(CPP_CONFIG_HPP_F143F90A_A63F_4B27_AC41_9CA4F14F538D_INCLUDED)
-

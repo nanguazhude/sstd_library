@@ -182,4 +182,3 @@ inline void display_type(T const &)
 }
 
 #endif
-

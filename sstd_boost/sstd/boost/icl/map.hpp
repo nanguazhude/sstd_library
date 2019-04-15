@@ -700,4 +700,3 @@ struct type_to_string<icl::map<DomainT,CodomainT,Traits,Compare,Combine,Section,
 }} // namespace icl boost
 
 #endif // BOOST_ICL_MAP_HPP_JOFA_070519
-

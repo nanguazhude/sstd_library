@@ -205,4 +205,3 @@ rewind(BidirIt& it)
 } // boost
 
 #endif
-

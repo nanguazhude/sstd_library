@@ -22,4 +22,3 @@
 #include <sstd/boost/assign/assignment_exception.hpp>
 
 #endif
-

@@ -178,4 +178,3 @@ private:
 } // namespace boost
 
 #endif // BOOST_RANDOM_STUDENT_T_DISTRIBUTION_HPP
-

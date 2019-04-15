@@ -13,4 +13,3 @@ void compile_and_link_test()
    auto f = [](boost::math::concepts::std_real_concept x) { return x; };
    boost::math::tools::finite_difference_derivative(f, x);
 }
-

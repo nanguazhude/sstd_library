@@ -60,4 +60,3 @@ inline bool is_heap(RandomAccessIterator first, RandomAccessIterator last,
 
 }
 #endif
-

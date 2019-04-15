@@ -18,4 +18,3 @@
 #include <sstd/boost/geometry/io/wkt/write.hpp>
 
 #endif // BOOST_GEOMETRY_MULTI_IO_WKT_WKT_HPP
-

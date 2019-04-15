@@ -250,4 +250,3 @@ void check_exact_roundtrip(ReadFunc rf, WriteFunc wf, const char *test_data) {
 }
 
 #endif
-

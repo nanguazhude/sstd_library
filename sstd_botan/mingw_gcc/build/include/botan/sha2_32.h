@@ -1,4 +1,4 @@
-/*
+﻿/*
 * SHA-{224,256}
 * (C) 1999-2011 Jack Lloyd
 *     2007 FlexSecure GmbH

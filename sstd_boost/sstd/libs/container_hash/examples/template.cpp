@@ -16,4 +16,3 @@ int main()
     assert(pair_set.find(pair(10, 0.5f)) != pair_set.end());
     assert(pair_set.find(pair(10, 0.6f)) == pair_set.end());
 }
-

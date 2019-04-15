@@ -56,4 +56,3 @@ static const allocation_type zero_memory        = (allocation_type)zero_memory_v
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //BOOST_CONTAINER_ALLOCATION_TYPE_HPP
-

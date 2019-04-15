@@ -207,4 +207,3 @@ struct is_buffer_iterator<
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ITERATOR_CONSTANT_BUFFER_ITERATOR_HPP
-

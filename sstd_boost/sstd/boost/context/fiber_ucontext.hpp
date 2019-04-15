@@ -507,4 +507,3 @@ typedef fiber fiber_context;
 #endif
 
 #endif // BOOST_CONTEXT_FIBER_H
-

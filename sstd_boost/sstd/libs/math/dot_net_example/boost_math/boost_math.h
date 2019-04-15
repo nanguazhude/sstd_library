@@ -329,4 +329,3 @@ namespace boost_math {
       any_imp* pimpl;
    };
 }
-

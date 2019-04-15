@@ -203,4 +203,3 @@ struct get_null_vtable_entry<vtable_adapter<constructible<T(const T&)>, R(BOOST_
 #undef N
 
 #endif
-

@@ -144,4 +144,3 @@ using namespace boost;
 using namespace std;
 
 #endif // #if !defined(BOOST_CIRCULAR_BUFFER_TEST_HPP)
-

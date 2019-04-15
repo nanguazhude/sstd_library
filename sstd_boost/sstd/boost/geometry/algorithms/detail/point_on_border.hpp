@@ -317,4 +317,3 @@ inline bool point_on_border(Point& point, Geometry const& geometry)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_POINT_ON_BORDER_HPP
-

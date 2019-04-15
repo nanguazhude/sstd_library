@@ -21,4 +21,3 @@
 #include <sstd/boost/phoenix/scope/local_variable.hpp> // to fix 5824
 
 #endif
-

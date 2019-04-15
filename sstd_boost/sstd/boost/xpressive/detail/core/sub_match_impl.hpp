@@ -45,4 +45,3 @@ struct sub_match_impl
 }}} // namespace boost::xpressive::detail
 
 #endif
-

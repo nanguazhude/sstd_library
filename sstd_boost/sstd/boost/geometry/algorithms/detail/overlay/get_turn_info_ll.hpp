@@ -757,4 +757,3 @@ struct get_turn_info_linear_linear
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_GET_TURN_INFO_LL_HPP
-

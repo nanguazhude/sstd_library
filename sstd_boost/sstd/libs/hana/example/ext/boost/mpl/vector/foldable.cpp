@@ -29,4 +29,3 @@ auto number_of_floats = hana::fold_left(types, hana::int_c<0>, [](auto count, au
 BOOST_HANA_CONSTANT_CHECK(number_of_floats == hana::int_c<3>);
 
 int main() { }
-

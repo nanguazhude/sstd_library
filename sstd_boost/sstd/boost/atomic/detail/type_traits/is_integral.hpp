@@ -41,4 +41,3 @@ using boost::is_integral;
 } // namespace boost
 
 #endif // BOOST_ATOMIC_DETAIL_TYPE_TRAITS_IS_INTEGRAL_HPP_INCLUDED_
-

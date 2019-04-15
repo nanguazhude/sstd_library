@@ -113,4 +113,3 @@ struct is_char<wchar_t>
 }}} // namespace boost::xpressive::detail
 
 #endif
-

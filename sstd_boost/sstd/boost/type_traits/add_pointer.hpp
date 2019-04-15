@@ -65,4 +65,3 @@ struct add_pointer
 } // namespace boost
 
 #endif // BOOST_TT_ADD_POINTER_HPP_INCLUDED
-

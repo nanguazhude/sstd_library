@@ -351,5 +351,3 @@ public :
 
 }}} // namespace boost::geometry::formula
 #endif // BOOST_GEOMETRY_FORMULAS_MAXIMUM_LONGITUDE_HPP
-
-

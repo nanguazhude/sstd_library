@@ -81,4 +81,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(tap, pipable_adaptor<detail::tap_f>);
 }} // namespace boost::hof
 
 #endif
-

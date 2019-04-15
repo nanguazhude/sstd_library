@@ -40,4 +40,3 @@ MPL_TEST_CASE()
     MPL_ASSERT(( boost::is_same< t1, int > ));
     MPL_ASSERT(( boost::is_same< t5, f5<char,short,int,long,float> > ));
 }
-

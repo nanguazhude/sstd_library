@@ -15,5 +15,3 @@ int main()
    test<boost::multiprecision::number<boost::multiprecision::rational_adaptor<boost::multiprecision::int128_t::backend_type> > >();
    return boost::report_errors();
 }
-
-

@@ -51,4 +51,3 @@ read_file( boost::shared_ptr<FILE> const & f, void * buf, size_t size )
             boost::errinfo_file_handle(f) );
     return nr;
     }
-

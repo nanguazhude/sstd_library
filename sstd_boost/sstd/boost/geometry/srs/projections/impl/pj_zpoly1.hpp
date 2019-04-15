@@ -104,4 +104,3 @@ namespace boost { namespace geometry { namespace projections { namespace detail 
 }}}} // namespace boost::geometry::projections::detail
 
 #endif
-

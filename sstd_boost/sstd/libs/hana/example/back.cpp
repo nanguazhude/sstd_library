@@ -11,4 +11,3 @@ static_assert(hana::back(hana::make_tuple(1, '2', 3.3)) == 3.3, "");
 static_assert(hana::back(hana::make_tuple(1, '2', 3.3, nullptr)) == nullptr, "");
 
 int main() { }
-

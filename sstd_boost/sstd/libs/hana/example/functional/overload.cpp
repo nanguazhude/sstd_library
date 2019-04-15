@@ -29,4 +29,3 @@ int main() {
     // prints "matched std::string: abcdef"
     BOOST_HANA_RUNTIME_CHECK(f("abcdef") == std::string{"abcdef"});
 }
-

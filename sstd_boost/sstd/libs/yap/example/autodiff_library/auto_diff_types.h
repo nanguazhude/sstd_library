@@ -24,4 +24,3 @@ typedef enum {OP_PLUS=0, OP_MINUS, OP_TIMES, OP_DIVID, OP_SIN, OP_COS, OP_SQRT, 
 
 }
 #endif /* AUTO_DIFF_TYPES_H_ */
-

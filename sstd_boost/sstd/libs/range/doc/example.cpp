@@ -148,5 +148,3 @@ int main()
         boost::range_difference< Foo::Pair<iter> >::type
         d = boost::end(pair) - boost::begin(pair);
 }
-
-

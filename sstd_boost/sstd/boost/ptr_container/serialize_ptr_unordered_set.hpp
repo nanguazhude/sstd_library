@@ -37,4 +37,3 @@ void serialize(Archive& ar, ptr_unordered_multiset<T, Hash, Pred, CloneAllocator
 } // namespace boost
 
 #endif
-

@@ -57,4 +57,3 @@ inline void vtk_compute_bounds(PointIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_INTEROP_VTK_BOUNDS_HPP
-

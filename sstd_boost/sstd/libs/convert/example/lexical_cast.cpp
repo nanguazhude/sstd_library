@@ -33,4 +33,3 @@ main(int, char const* [])
 
     return boost::report_errors();
 }
-

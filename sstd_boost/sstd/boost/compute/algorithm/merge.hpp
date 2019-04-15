@@ -114,4 +114,3 @@ inline OutputIterator merge(InputIterator1 first1,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_MERGE_HPP
-

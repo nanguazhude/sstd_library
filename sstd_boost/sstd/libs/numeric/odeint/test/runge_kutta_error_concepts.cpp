@@ -180,4 +180,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( error_stepper_test , Stepper , all_error_stepper_
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

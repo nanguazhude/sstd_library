@@ -37,5 +37,3 @@ void f() {
 }
 
 #endif // #include guard
-
-

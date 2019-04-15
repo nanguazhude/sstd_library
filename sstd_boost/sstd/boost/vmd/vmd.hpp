@@ -52,4 +52,3 @@
 
 #endif /* BOOST_PP_VARIADICS */
 #endif /* BOOST_VARIADIC_MACRO_DATA_HPP */
-

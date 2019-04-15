@@ -85,4 +85,3 @@ inline void spin_mutex::unlock(void)
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_DETAIL_SPIN_MUTEX_HPP
-

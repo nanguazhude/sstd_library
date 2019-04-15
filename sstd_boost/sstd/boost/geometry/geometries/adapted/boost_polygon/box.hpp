@@ -139,4 +139,3 @@ struct indexed_access
 
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_ADAPTED_BOOST_POLYGON_BOX_HPP
-

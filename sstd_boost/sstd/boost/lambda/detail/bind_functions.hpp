@@ -1877,4 +1877,3 @@ bind(Result(* const & a1)(Par1, Par2, Par3, Par4, Par5, Par6, Par7, Par8,
 } // namespace boost
 
 #endif
-

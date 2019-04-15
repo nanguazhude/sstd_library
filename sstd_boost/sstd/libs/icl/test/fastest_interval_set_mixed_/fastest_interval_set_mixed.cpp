@@ -94,4 +94,3 @@ BOOST_AUTO_TEST_CASE
 BOOST_AUTO_TEST_CASE
 (fastest_icl_interval_set_mixed_infix_caret_overload_4_bicremental_types)
 {            interval_set_mixed_infix_caret_overload_4_bicremental_types<bicremental_type_6>(); }
-

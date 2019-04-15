@@ -384,4 +384,3 @@ void test_deprecated(const wchar_t&, const test_invalid_regex_tag&)
    }
 #endif
 }
-

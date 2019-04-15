@@ -50,4 +50,3 @@ int main() {
         (void)t_explicit;
     }
 }
-

@@ -60,5 +60,3 @@ FUSION_HASH endif
 
 #undef N
 #endif // defined(BOOST_PP_IS_ITERATING)
-
-

@@ -56,4 +56,3 @@ int main() {
     assert_not_void_return<int(foo::*)() const volatile>();
     assert_not_void_return<void(foo::**)()>();
 }
-

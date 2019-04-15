@@ -16,4 +16,3 @@ int main()
   test_composite_key();
   return boost::report_errors();
 }
-

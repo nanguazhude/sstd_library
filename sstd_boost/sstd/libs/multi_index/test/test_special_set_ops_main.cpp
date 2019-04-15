@@ -16,4 +16,3 @@ int main()
   test_special_set_ops();
   return boost::report_errors();
 }
-

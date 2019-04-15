@@ -175,4 +175,3 @@ struct has_spikes
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_IS_VALID_HAS_SPIKES_HPP
-

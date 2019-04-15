@@ -40,4 +40,3 @@ struct is_dim< dim<T,V> > :
 } // namespace boost
 
 #endif // BOOST_UNITS_IS_DIM_HPP
-

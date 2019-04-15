@@ -37,4 +37,3 @@ struct push_front_impl< aux::list_tag >
 }}
 
 #endif // BOOST_MPL_LIST_AUX_PUSH_FRONT_HPP_INCLUDED
-

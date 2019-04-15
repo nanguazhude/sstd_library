@@ -23,4 +23,3 @@ int main() {
 
     return std::system(s.c_str());
 }
-

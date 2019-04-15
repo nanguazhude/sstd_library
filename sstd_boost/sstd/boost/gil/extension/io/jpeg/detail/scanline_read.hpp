@@ -150,4 +150,3 @@ private:
 } // namespace boost
 
 #endif
-

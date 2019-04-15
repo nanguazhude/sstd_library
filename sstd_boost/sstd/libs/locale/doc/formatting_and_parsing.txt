@@ -158,6 +158,3 @@ next time a number is written to the stream, the same formatter would be used un
 invalid.
 
 */
-
-
-

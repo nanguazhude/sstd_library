@@ -108,4 +108,3 @@ inline void reduce_on_cpu(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_REDUCE_ON_CPU_HPP
-

@@ -213,4 +213,3 @@ inline bool xsi_shared_memory::remove(int shmid)
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_XSI_SHARED_MEMORY_HPP
-

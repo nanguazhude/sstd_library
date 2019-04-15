@@ -151,4 +151,3 @@ BOOST_AUTO_TEST_CASE( test_main )
   test_inclusive_scan_init();
   test_inclusive_scan_op_init();
 }
-

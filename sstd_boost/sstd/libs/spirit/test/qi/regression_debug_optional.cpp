@@ -22,4 +22,3 @@ int main()
     BOOST_SPIRIT_DEBUG_NODE(foo);
     return boost::report_errors();
 }
-

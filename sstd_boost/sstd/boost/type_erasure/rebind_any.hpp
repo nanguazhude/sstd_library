@@ -76,4 +76,3 @@ using rebind_any_t = typename ::boost::type_erasure::rebind_any<Any, T>::type;
 }
 
 #endif
-

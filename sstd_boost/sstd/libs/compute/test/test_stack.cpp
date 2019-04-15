@@ -48,4 +48,3 @@ BOOST_AUTO_TEST_CASE(push_and_pop)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

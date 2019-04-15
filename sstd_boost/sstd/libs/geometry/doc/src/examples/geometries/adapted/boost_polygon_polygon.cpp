@@ -62,4 +62,3 @@ Area (using Boost.Polygon): 36
 ]
 */
 //]
-

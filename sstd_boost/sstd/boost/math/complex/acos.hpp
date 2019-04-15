@@ -243,4 +243,3 @@ std::complex<T> acos(const std::complex<T>& z)
 } } // namespaces
 
 #endif // BOOST_MATH_COMPLEX_ACOS_INCLUDED
-

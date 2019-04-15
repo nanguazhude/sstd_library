@@ -83,4 +83,3 @@ namespace boost { namespace link_static_warning_inhibit {
 #endif
 
 #endif //defined(BOOST_THREAD_WIN32) && defined(BOOST_THREAD_BUILD_DLL)
-

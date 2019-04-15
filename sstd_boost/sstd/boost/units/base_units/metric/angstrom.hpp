@@ -35,4 +35,3 @@ struct base_unit_info<metric::angstrom_base_unit> {
 }
 
 #endif // BOOST_UNIT_SYSTEMS_METRIC_ANGSTROM_HPP_INCLUDED
-

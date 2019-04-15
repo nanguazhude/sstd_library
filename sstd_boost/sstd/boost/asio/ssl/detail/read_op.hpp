@@ -67,4 +67,3 @@ private:
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_SSL_DETAIL_READ_OP_HPP
-

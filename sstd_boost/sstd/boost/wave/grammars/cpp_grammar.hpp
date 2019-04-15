@@ -763,4 +763,3 @@ cpp_grammar_gen<LexIteratorT, TokenContainerT>::parse_cpp_grammar (
 #endif
 
 #endif // !defined(CPP_GRAMMAR_HPP_FEAEBC2E_2734_428B_A7CA_85E5A415E23E_INCLUDED)
-

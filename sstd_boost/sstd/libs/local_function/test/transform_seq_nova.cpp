@@ -7,5 +7,3 @@
 
 #include "nova.hpp"
 #include "transform_seq.cpp"
-
-

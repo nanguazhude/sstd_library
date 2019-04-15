@@ -35,4 +35,3 @@ template<typename T> struct parser
 
 BOOST_STATIC_ASSERT((boost::is_same<wrap<double>::type,void(*)(int)>::value));
 BOOST_STATIC_ASSERT((boost::is_same<parser<wrap<double> >::__rule::type,wrap<double> >::value));
-

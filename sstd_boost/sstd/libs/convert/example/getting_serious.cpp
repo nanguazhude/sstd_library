@@ -153,4 +153,3 @@ main(int, char const* [])
     example4();
     example7();
 }
-

@@ -102,4 +102,3 @@ struct push_coroutine< void >::control_block {
 #endif
 
 #endif // BOOST_COROUTINES2_DETAIL_PUSH_CONTROL_BLOCK_HPP
-

@@ -440,4 +440,3 @@ namespace boolean_op {
 
 }
 #endif
-

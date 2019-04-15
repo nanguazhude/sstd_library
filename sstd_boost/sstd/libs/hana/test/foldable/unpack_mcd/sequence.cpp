@@ -5,4 +5,3 @@
 #define BOOST_HANA_TEST_FOLDABLE_UNPACK_MCD
 #define BOOST_HANA_TEST_SEQUENCE
 #include <laws/templates/seq.hpp>
-

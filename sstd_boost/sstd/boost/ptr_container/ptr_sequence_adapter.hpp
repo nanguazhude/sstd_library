@@ -817,4 +817,3 @@ namespace ptr_container_detail
 #endif
 
 #endif
-

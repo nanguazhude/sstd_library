@@ -192,4 +192,3 @@ struct get_scanline_reader
 } // namespace boost
 
 #endif
-

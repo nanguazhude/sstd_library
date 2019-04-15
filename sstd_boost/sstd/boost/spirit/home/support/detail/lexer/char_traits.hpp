@@ -52,4 +52,3 @@ struct char_traits<wchar_t>
 }
 
 #endif
-

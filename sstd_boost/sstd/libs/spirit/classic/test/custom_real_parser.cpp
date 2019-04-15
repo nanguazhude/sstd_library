@@ -30,5 +30,3 @@ int main()
     BOOST_TEST(pi.full && a == 0.0 && b == 1.0);
     return boost::report_errors();
 }
-
-

@@ -189,4 +189,3 @@ void test()
 }
 
 #endif // BOOST_MATH_TEST_MIXED_HPP
-

@@ -34,4 +34,3 @@ file t_2_017.cpp
 //H 11: t_2_017.cpp(13): #if !defined(FILE_002_017_CPP)    : 0
 //H 06:
 //H 10: t_2_017.cpp(18): #endif
-

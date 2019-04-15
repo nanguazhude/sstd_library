@@ -34,4 +34,3 @@ struct BOOST_PYTHON_DECL enum_base : python::api::object
 }}} // namespace boost::python::object
 
 #endif // ENUM_BASE_DWA200298_HPP
-

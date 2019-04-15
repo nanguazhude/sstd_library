@@ -10,4 +10,3 @@ static_assert(hana::id(1) == 1, "");
 static_assert(hana::id('x') == 'x', "");
 
 int main() { }
-

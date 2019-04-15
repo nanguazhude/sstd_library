@@ -172,4 +172,3 @@ Char const *data_end(Char const *const &sz)
 }}}
 
 #endif
-

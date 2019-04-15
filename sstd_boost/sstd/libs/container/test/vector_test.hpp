@@ -561,4 +561,3 @@ bool test_vector_methods_with_initializer_list_as_argument_for()
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif //BOOST_CONTAINER_TEST_VECTOR_TEST_HEADER
-

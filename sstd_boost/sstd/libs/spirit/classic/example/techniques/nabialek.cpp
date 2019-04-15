@@ -92,4 +92,3 @@ main()
     parse("one only\none again\ntwo first,second", g, space_p);
     return 0;
 }
-

@@ -240,4 +240,3 @@ R dynamic_any_cast(any<Concept, Tag>&& arg, const static_binding<Map>& map)
 }
 
 #endif
-

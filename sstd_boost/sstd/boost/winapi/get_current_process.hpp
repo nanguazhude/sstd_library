@@ -29,4 +29,3 @@ using ::GetCurrentProcess;
 }
 
 #endif // BOOST_WINAPI_GET_CURRENT_PROCESS_HPP_INCLUDED_
-

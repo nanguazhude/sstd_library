@@ -21,4 +21,3 @@ int main()
    test_float_type_2<boost::multiprecision::cpp_dec_float_100>();
    return 0;
 }
-

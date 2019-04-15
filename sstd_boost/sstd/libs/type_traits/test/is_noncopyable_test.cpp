@@ -44,4 +44,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_noncopyable<Z>::value, true);
 BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_noncopyable<const Z>::value, true);
 
 TT_TEST_END
-

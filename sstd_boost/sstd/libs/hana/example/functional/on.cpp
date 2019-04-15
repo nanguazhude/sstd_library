@@ -34,4 +34,3 @@ constexpr auto y = hana::make_pair(10, 20);
 static_assert(hana::on(hana::plus, hana::first)(x, y) == 1 + 10, "");
 
 int main() { }
-

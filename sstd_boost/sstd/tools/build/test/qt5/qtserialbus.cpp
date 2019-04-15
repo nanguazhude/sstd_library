@@ -23,4 +23,3 @@ BOOST_AUTO_TEST_CASE( serialBus )
     auto canbus = QCanBus::instance();
     Q_UNUSED(canbus);
 }
-

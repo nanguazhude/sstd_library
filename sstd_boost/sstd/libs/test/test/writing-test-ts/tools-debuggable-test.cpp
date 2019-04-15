@@ -41,4 +41,3 @@ BOOST_AUTO_TEST_CASE( test )
 }
 
 // EOF
-

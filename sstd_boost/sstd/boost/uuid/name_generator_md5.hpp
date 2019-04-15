@@ -23,4 +23,3 @@ typedef basic_name_generator<detail::md5> name_generator_md5;
 } // boost
 
 #endif // BOOST_UUID_NAME_GENERATOR_MD5_HPP
-

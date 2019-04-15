@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_REF_CONST_REF_CONST_REF_A
 #include <sstd/boost/spirit/home/classic/actor/ref_const_ref_const_ref_a.hpp>
 #endif
-

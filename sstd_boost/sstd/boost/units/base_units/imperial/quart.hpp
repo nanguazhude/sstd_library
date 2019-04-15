@@ -38,4 +38,3 @@ struct base_unit_info<imperial::quart_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNITS_BASE_UNITS_IMPERIAL_QUART_HPP_INCLUDED
-

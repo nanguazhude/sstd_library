@@ -55,4 +55,3 @@ private:
 
 } /* namespace AutoDiff */
 #endif /* BINARYOPNODE_H_ */
-

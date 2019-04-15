@@ -76,4 +76,3 @@ inplace_all_to_all(ProcessGroup pg, std::vector<std::vector<T> >& data)
 } } // end namespace boost::parallel
 
 #endif // BOOST_GRAPH_PARALLEL_INPLACE_ALL_TO_ALL_HPP
-

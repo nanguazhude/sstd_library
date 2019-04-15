@@ -165,4 +165,3 @@ void putback_test()
 }
 
 #endif // #ifndef BOOST_IOSTREAMS_TEST_PUTBACK_HPP_INCLUDED
-

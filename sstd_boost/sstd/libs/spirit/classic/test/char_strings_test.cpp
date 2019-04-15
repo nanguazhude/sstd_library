@@ -29,5 +29,3 @@ int main()
     rule<> chars = ch_p('a');
     chars = ch_p("b");
 }
-
-

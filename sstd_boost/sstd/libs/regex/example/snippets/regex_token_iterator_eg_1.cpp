@@ -68,6 +68,3 @@ int main(int argc, const char*[])
    }while(argc == 1);
    return 0;
 }
-
-
-

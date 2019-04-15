@@ -20,4 +20,3 @@
 #else
 #error "FUSION_MAX_ZIP_SEQUENCES out of bounds for preprocessed headers"
 #endif
-

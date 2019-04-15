@@ -415,4 +415,3 @@ namespace boost
 }                               // namespace boost
 
 #endif  /* BOOST_GRAPH_BICONNECTED_COMPONENTS_HPP */
-

@@ -39,4 +39,3 @@ create_intermodule_flyweight_string(const std::string&);
 #undef BOOST_FLYWEIGHT_DLL_DECL
 
 #endif
-

@@ -99,5 +99,3 @@ struct get_mutable_relation_functor< ::boost::bimaps::relation::mutant_relation<
 
 
 #endif // BOOST_BIMAP_RELATION_DETAIL_TO_MUTABLE_RELATION_FUNCTOR_HPP
-
-

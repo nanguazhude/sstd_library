@@ -445,4 +445,3 @@ void indirect_streambuf<T, Tr, Alloc, Mode>::init_put_area()
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp> // MSVC, BCC 5.x
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_INDIRECT_STREAMBUF_HPP_INCLUDED
-

@@ -116,4 +116,3 @@ struct point_order<box_view<Box, true> >
 
 
 #endif // BOOST_GEOMETRY_VIEWS_BOX_VIEW_HPP
-

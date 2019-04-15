@@ -141,4 +141,3 @@ inline void posix_mutex::unlock()
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTERPROCESS_DETAIL_POSIX_MUTEX_HPP
-

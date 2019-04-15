@@ -95,4 +95,3 @@ If the day is not available, but the month is, the 1st of the month is used as t
 #define BOOST_PREDEF_MAKE_YYYYMM(V) BOOST_PREDEF_MAKE_DATE((V)/100,(V)%100,1)
 
 #endif
-

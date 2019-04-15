@@ -38,4 +38,3 @@ int main() {
         hana::tuple_t<void*, int(*)(), char(*)[10]>
     );
 }
-

@@ -18,4 +18,3 @@ void compile_and_link_test()
    boost::math::concepts::std_real_concept b = 1;
    boost::math::quadrature::trapezoidal(func, a, b);
 }
-

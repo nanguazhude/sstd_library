@@ -108,4 +108,3 @@
 #endif  // auto-linking disabled
 
 #endif // BOOST_FILESYSTEM3_CONFIG_HPP
-

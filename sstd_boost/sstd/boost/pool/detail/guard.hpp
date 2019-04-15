@@ -67,4 +67,3 @@ class guard
 } // namespace boost
 
 #endif
-

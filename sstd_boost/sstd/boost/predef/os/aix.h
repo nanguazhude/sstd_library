@@ -64,4 +64,3 @@ Version number available as major, minor, and patch.
 
 #include <sstd/boost/predef/detail/test.h>
 BOOST_PREDEF_DECLARE_TEST(BOOST_OS_AIX,BOOST_OS_AIX_NAME)
-

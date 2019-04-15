@@ -214,4 +214,3 @@ struct fusion_algebra
 
 
 #endif // BOOST_NUMERIC_ODEINT_ALGEBRA_FUSION_ALGEBRA_HPP_INCLUDED
-

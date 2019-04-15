@@ -76,4 +76,3 @@ make_error_condition(condition c);
 } // boost
 
 #endif
-

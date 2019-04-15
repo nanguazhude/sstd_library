@@ -71,4 +71,3 @@ stable_partition(const BidirectionalRange& rng, UnaryPredicate pred)
 } // namespace boost
 
 #endif // include guard
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * ECIES
 * (C) 2016 Philipp Weber
 *

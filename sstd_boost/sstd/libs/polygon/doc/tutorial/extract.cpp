@@ -61,4 +61,3 @@ int main(int argc, char **argv) {
   std::cout << "Layout does match schematic." << std::endl;
   return 0;
 }
-

@@ -40,5 +40,3 @@ int main(void) {
     BOOST_TEST(adder().sum(v) == 60);
     return boost::report_errors();
 }
-
-

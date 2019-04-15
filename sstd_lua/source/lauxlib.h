@@ -1,4 +1,4 @@
-/*
+﻿/*
 ** $Id: lauxlib.h,v 1.131.1.1 2017/04/19 17:20:42 roberto Exp $
 ** Auxiliary functions for building Lua libraries
 ** See Copyright Notice in lua.h
@@ -260,5 +260,3 @@ LUALIB_API void (luaL_openlib) (lua_State *L, const char *libname,
 
 
 #endif
-
-

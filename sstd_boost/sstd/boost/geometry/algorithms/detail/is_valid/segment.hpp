@@ -81,4 +81,3 @@ struct is_valid<Segment, segment_tag>
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_IS_VALID_SEGMENT_HPP
-

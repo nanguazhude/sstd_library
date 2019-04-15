@@ -19,5 +19,3 @@ int main()
    test<boost::multiprecision::mpc_complex_50>();
    return boost::report_errors();
 }
-
-

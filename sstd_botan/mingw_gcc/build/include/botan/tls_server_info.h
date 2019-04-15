@@ -1,4 +1,4 @@
-/*
+﻿/*
 * TLS Server Information
 * (C) 2012 Jack Lloyd
 *

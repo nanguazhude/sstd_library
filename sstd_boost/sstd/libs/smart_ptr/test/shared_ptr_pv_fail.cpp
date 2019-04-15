@@ -29,4 +29,3 @@ int main()
     f( p ); // must fail
     return 0;
 }
-

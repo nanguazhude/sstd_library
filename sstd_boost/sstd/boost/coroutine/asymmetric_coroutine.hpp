@@ -2414,4 +2414,3 @@ struct range_mutable_iterator< coroutines::pull_coroutine< R > >
 #endif
 
 #endif // BOOST_COROUTINES_ASYMMETRIC_COROUTINE_H
-

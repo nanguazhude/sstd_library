@@ -38,4 +38,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_GRAPH_TRANSPOSE_HPP
-

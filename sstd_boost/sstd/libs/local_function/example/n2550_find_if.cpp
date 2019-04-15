@@ -41,5 +41,3 @@ int main(void) {
     BOOST_TEST(i->salary >= min_salary && i->salary < u_limit);
     return boost::report_errors();
 }
-
-

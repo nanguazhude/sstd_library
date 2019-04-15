@@ -24,4 +24,3 @@ template< typename Sequence > struct sequence_tag;
 }}
 
 #endif // BOOST_MPL_SEQUENCE_TAG_FWD_HPP_INCLUDED
-

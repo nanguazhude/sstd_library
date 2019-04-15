@@ -36,4 +36,3 @@ BOOST_MPL_AUX_NA_SPEC_NO_ETI(1, as_sequence)
 }}
 
 #endif // BOOST_MPL_AS_SEQUENCE_HPP_INCLUDED
-

@@ -86,4 +86,3 @@ BOOST_AUTO_TEST_CASE(cartesian_dimension_init)
     BOOST_CHECK(t1 != t3);
   }
 }
-

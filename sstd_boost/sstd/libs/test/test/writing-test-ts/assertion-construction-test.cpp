@@ -705,5 +705,3 @@ BOOST_AUTO_TEST_CASE( test_comparison_with_arrays )
 }
 
 // EOF
-
-

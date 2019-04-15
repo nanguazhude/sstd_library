@@ -21,6 +21,3 @@ void test_deep_constantness()
 
   *copt = opt ; // Cannot assign to "int const&"
 }
-
-
-

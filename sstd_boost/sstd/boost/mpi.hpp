@@ -33,4 +33,3 @@
 #include <sstd/boost/mpi/timer.hpp>
 
 #endif // BOOST_MPI_HPP
-

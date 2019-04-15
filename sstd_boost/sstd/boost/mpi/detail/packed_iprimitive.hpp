@@ -116,4 +116,3 @@ private:
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_PACKED_IPRIMITIVE_HPP
-

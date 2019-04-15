@@ -78,4 +78,3 @@ namespace boost
 #endif
 
 #endif
-

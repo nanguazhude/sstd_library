@@ -146,4 +146,3 @@ public:
 } // namespace boost
 
 #endif // BOOST_GIL_EXTENSION_TOOLBOX_COLOR_SPACES_XYZ_HPP
-

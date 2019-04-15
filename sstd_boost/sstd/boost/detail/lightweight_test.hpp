@@ -15,4 +15,3 @@
 #include <sstd/boost/core/lightweight_test.hpp>
 
 #endif
-

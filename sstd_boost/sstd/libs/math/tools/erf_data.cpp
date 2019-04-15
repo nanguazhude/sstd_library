@@ -215,5 +215,3 @@ Erfc asymptotic limit for 106 bit numbers is 11.6626 after approximately 29 term
 Erf asymptotic limit for 113 bit numbers is 6.8 after approximately 14 terms.
 Erfc asymptotic limit for 113 bit numbers is 12.6802 after approximately 29 terms.
 */
-
-

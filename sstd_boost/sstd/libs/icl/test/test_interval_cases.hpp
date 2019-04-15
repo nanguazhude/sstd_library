@@ -17,4 +17,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE
 {         interval_ctor_4_bicremental_types<T, std::less, INTERVAL>();}
 
 #endif // __test_IntervalT_hpp_JOFA_100401__
-

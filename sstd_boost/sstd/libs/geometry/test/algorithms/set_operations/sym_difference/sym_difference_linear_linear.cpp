@@ -987,4 +987,3 @@ BOOST_AUTO_TEST_CASE( test_sym_difference_multilinestring_multilinestring )
          "mlmlsdf18a"
          );
 }
-

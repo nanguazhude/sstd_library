@@ -229,4 +229,3 @@ BOOST_AUTO_TEST_CASE( test_logs_junit_info_closing_tags )
 }
 
 // EOF
-

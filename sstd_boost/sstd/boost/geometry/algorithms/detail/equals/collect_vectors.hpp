@@ -573,4 +573,3 @@ inline void collect_vectors(Collection& collection, Geometry const& geometry)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_EQUALS_COLLECT_VECTORS_HPP
-

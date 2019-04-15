@@ -1,4 +1,4 @@
-/*
+﻿/*
  * XMSS Verification Operation
  * (C) 2016 Matthias Gierlings
  *

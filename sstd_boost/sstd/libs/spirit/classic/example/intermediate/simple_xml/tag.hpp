@@ -31,4 +31,3 @@ struct walk_data
 };
 
 #endif
-

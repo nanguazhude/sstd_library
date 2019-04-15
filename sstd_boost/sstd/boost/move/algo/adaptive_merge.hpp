@@ -341,4 +341,3 @@ void adaptive_merge( RandIt first, RandIt middle, RandIt last, Compare comp
 #include <sstd/boost/move/detail/config_end.hpp>
 
 #endif   //#define BOOST_MOVE_ADAPTIVE_MERGE_HPP
-

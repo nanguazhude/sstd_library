@@ -77,4 +77,3 @@ template <class T> struct has_trivial_move_constructor<T[]> : public false_type{
 } // namespace boost
 
 #endif // BOOST_TT_HAS_TRIVIAL_MOVE_CONSTRUCTOR_HPP_INCLUDED
-

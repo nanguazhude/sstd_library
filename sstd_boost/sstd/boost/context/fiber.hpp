@@ -11,4 +11,3 @@
 #else
 #include <sstd/boost/context/fiber_fcontext.hpp>
 #endif
-

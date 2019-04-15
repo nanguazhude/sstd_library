@@ -372,4 +372,3 @@ using boost::python::self_ns::pow;
 # endif
 
 #endif // OPERATORS_DWA2002530_HPP
-

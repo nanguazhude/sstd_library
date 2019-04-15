@@ -56,5 +56,3 @@ int main() {
     assert(x == 123);
     return 0;
 }
-
-

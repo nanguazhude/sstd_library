@@ -59,4 +59,3 @@ BOOST_TYPEOF_REGISTER_TEMPLATE(std::mem_fun1_ref_t, 3)
 #endif//BOOST_NO_CXX98_BINDERS
 
 #endif//BOOST_TYPEOF_STD_functional_hpp_INCLUDED
-

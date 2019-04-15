@@ -58,4 +58,3 @@ inline meta_kernel& operator<<(meta_kernel &k, ptrdiff_t v) {
 } // end boost namespace
 
 #endif
-

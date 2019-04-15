@@ -296,4 +296,3 @@ struct is_device_iterator<strided_iterator<Iterator> > : boost::true_type {};
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ITERATOR_STRIDED_ITERATOR_HPP
-

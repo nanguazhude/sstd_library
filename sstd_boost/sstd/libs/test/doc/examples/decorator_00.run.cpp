@@ -19,4 +19,3 @@ BOOST_DATA_TEST_CASE(test_1, data::xrange(4))
     BOOST_TEST(sample >= 0);
 }
 //]
-

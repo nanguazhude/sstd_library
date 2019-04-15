@@ -44,4 +44,3 @@
     #undef M0
     #undef N
 #endif
-

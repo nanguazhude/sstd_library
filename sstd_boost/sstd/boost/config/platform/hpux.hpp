@@ -84,5 +84,3 @@
 #ifndef BOOST_HAS_EXPM1
 #  define BOOST_HAS_EXPM1
 #endif
-
-

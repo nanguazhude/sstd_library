@@ -386,10 +386,3 @@ int test_main(int, char *[]) {
   test_binary_operators();
   return 0;
 }
-
-
-
-
-
-
-

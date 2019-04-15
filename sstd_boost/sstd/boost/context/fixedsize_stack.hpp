@@ -78,4 +78,3 @@ typedef fixedsize_stack default_stack;
 #endif
 
 #endif // BOOST_CONTEXT_FIXEDSIZE_H
-

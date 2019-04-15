@@ -218,4 +218,3 @@ void dtype::register_scalar_converters()
 }
 
 }}} // namespace boost::python::numpy
-

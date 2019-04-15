@@ -235,4 +235,3 @@ inline void file_lock::unlock_sharable()
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_FILE_LOCK_HPP
-

@@ -71,4 +71,3 @@ struct permessage_deflate
 } // boost
 
 #endif
-

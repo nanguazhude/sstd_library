@@ -24,4 +24,3 @@ using result = boost::mpl11::foldl<f, state, list>::type;
 int main() {
 
 }
-

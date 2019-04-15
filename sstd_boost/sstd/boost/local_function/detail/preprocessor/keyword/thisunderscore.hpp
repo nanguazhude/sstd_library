@@ -60,5 +60,3 @@
             this_)
 
 #endif // #include guard
-
-

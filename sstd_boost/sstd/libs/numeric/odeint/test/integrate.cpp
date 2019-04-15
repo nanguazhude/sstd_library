@@ -283,4 +283,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( integrate_n_steps_test_case , Stepper, stepper_me
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

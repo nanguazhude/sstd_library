@@ -72,4 +72,3 @@ namespace HASH_TEST_CAT(CONTAINER_TYPE, _tests)
 
 #undef CONTAINER_TYPE
 #endif
-

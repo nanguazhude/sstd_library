@@ -59,4 +59,3 @@ abs(const multivector<T, N> &arg) {
 } // namespace vex
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_VEXCL_VEXCL_ABS_HPP_DEFINED
-

@@ -59,4 +59,3 @@ int main(void) {
    assert(i == N);
    return 0;
 }
-

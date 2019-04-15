@@ -258,4 +258,3 @@ namespace boost { namespace fusion
         }
     };
 }}
-

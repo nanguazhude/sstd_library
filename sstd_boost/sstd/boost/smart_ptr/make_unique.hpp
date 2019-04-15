@@ -108,4 +108,3 @@ make_unique_noinit(std::size_t size)
 } /* boost */
 
 #endif
-

@@ -58,4 +58,3 @@ int main() {
 }
 
 #endif // BOOST_WINDOWS
-

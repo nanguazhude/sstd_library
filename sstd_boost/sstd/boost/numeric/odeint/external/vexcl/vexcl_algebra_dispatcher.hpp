@@ -49,4 +49,3 @@ struct algebra_dispatcher< vex::multivector< T , N > >
 
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_VEXCL_VEXCL_ALGEBRA_DISPATCHER_HPP_DEFINED
-

@@ -57,4 +57,3 @@ struct flat_multiset_of
 }  //namespace boost {
 
 #endif   //BOOST_CONTAINER_PMR_SET_HPP
-

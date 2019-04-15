@@ -142,4 +142,3 @@ inline TextIterator find_end(TextIterator t_first,
 } //end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_FIND_END_HPP
-

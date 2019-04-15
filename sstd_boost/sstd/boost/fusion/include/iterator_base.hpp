@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/support/iterator_base.hpp>
 
 #endif
-

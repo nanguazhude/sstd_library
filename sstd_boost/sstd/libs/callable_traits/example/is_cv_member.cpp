@@ -20,4 +20,3 @@ static_assert(!ct::is_cv_member<int(foo::*)() volatile>::value, "");
 
 int main() {}
 //]
-

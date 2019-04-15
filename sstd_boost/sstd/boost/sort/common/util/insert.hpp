@@ -140,4 +140,3 @@ static void insert_sorted_backward(Iter1_t first, Iter1_t mid, Iter1_t last,
 //****************************************************************************
 //
 #endif
-

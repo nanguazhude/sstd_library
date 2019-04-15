@@ -34,4 +34,3 @@ private:
 };
 
 #endif //FSM_AS_PTR_H
-

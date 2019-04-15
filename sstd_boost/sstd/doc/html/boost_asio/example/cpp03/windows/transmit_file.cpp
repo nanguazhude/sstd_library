@@ -169,4 +169,3 @@ int main(int argc, char* argv[])
 #else // defined(BOOST_ASIO_HAS_WINDOWS_OVERLAPPED_PTR)
 # error Overlapped I/O not available on this platform
 #endif // defined(BOOST_ASIO_HAS_WINDOWS_OVERLAPPED_PTR)
-

@@ -345,4 +345,3 @@ inline boost::asio::io_context& io_context::service::get_io_service()
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IMPL_IO_CONTEXT_HPP
-

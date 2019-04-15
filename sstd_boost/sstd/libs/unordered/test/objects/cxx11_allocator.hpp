@@ -342,4 +342,3 @@ namespace test {
 }
 
 #endif
-

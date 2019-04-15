@@ -175,4 +175,3 @@
         {
             return detail::expression::function_eval<F, A0 , A1 , A2 , A3 , A4 , A5 , A6 , A7 , A8 , A9>::make(f, a0 , a1 , a2 , a3 , a4 , a5 , a6 , a7 , a8 , a9);
         }
-

@@ -44,4 +44,3 @@ struct implicit
 }}} // namespace boost::python::converter
 
 #endif // IMPLICIT_DWA2002326_HPP
-

@@ -27,5 +27,3 @@ int main()
    test<boost::multiprecision::mpf_float_50>();
    return boost::report_errors();
 }
-
-

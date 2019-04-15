@@ -18,4 +18,3 @@
 
 //H 10: t_9_007.cpp(13): #define
 //H 18: boost::wave::macro_handling_exception
-

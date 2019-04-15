@@ -37,4 +37,3 @@ nfp::keyword<struct step_t>     step;
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_DATA_MONOMORPHIC_GENERATORS_KEYWORDS_HPP_101512GER
-

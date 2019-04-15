@@ -79,5 +79,3 @@
   BOOST_METAPARSE_TEST_STRING_100
 
 #endif
-
-

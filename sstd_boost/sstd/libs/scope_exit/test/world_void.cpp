@@ -45,5 +45,3 @@ int main(void) {
     BOOST_TEST(world.persons.size() == 1);
     return boost::report_errors();
 }
-
-

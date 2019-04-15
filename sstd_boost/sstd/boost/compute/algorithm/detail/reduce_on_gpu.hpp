@@ -284,4 +284,3 @@ inline void reduce_on_gpu(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_REDUCE_ON_GPU_HPP
-

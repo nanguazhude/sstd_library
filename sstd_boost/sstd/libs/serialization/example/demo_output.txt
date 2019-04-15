@@ -49,4 +49,3 @@ restored schedule
 0x0032A628  35º136'15.456" 133º32'15.3" White House
 0x0032A508  35º137'23.456" 133º35'54.12" State street and Cathedral Vista Lane
 *** No errors detected
-

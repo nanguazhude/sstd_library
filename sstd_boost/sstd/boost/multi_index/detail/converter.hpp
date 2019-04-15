@@ -50,4 +50,3 @@ struct converter
 } /* namespace boost */
 
 #endif
-

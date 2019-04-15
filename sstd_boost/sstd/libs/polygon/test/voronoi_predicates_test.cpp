@@ -634,4 +634,3 @@ int main()
     circle_formation_predicate_test14();
     return boost::report_errors();
 }
-

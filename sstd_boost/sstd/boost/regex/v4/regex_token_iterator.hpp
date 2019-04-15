@@ -319,8 +319,3 @@ inline regex_token_iterator<typename std::basic_string<charT, ST, SA>::const_ite
 } // namespace boost
 
 #endif // BOOST_REGEX_V4_REGEX_TOKEN_ITERATOR_HPP
-
-
-
-
-

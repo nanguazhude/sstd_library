@@ -85,4 +85,3 @@ TestCase test_permutations{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_PERMUTATIONS_HPP
-

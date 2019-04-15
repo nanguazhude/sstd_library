@@ -77,4 +77,3 @@ inline boost::filesystem::path search_path(
 }}}}
 
 #endif
-

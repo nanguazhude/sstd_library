@@ -265,4 +265,3 @@ private:
 } // namespace boost
 
 #endif // BOOST_RANDOM_GEOMETRIC_DISTRIBUTION_HPP
-

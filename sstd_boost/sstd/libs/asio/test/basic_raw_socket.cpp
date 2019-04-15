@@ -23,4 +23,3 @@ BOOST_ASIO_TEST_SUITE
   "basic_raw_socket",
   BOOST_ASIO_TEST_CASE(null_test)
 )
-

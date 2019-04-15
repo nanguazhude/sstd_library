@@ -66,4 +66,3 @@ inline const RandomAccessRange& sort(const RandomAccessRange& rng, BinaryPredica
 } // namespace boost
 
 #endif // include guard
-

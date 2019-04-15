@@ -103,4 +103,3 @@ using ::WideCharToMultiByte;
 } // namespace boost
 
 #endif // BOOST_WINAPI_CHARACTER_CODE_CONVERSION_HPP_INCLUDED_
-

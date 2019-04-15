@@ -205,4 +205,3 @@ ForwardOutputIt1 inplace_set_unique_difference
 }  //namespace boost {
 
 #endif   //#define BOOST_MOVE_SET_DIFFERENCE_HPP
-

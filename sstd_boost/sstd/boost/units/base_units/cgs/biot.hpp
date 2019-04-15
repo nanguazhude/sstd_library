@@ -29,4 +29,3 @@ typedef scaled_base_unit<boost::units::si::ampere_base_unit, scale<10, static_ra
 } // namespace boost
 
 #endif // BOOST_UNITS_CGS_BIOT_BASE_UNIT_HPP
-

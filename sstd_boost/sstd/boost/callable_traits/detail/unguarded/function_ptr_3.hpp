@@ -91,5 +91,3 @@ struct function<
 
     using is_member_pointer = std::false_type;
 };
-
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Version Information
 * (C) 1999-2011,2015 Jack Lloyd
 *

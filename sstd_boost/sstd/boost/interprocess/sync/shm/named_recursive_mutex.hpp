@@ -169,4 +169,3 @@ inline bool shm_named_recursive_mutex::remove(const char *name)
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_SHM_NAMED_RECURSIVE_MUTEX_HPP
-

@@ -96,4 +96,3 @@ const typename unwrapped_type<T>::type& unwrap(const T& t) { return t; }
 } } } // End namespaces detail, iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_WRAP_UNWRAP_HPP_INCLUDED
-

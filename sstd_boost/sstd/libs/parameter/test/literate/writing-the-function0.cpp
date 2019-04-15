@@ -41,4 +41,3 @@ namespace graphs
       // use graph, visitor, index_map, and color_map
   }
 }
-

@@ -86,4 +86,3 @@ struct no_void_returns_helper<void>
 #endif // BOOST_NO_VOID_RETURNS workaround
 
 #endif // BOOST_VARIANT_DETAIL_GENERIC_RESULT_TYPE_HPP
-

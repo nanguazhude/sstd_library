@@ -37,5 +37,3 @@ struct tag<boost::range_detail::adjacent_filter_range<Filter, Geometry, DefaultP
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_ADAPTED_BOOST_RANGE_ADJACENT_FILTERED_HPP
-
-

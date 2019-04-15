@@ -359,4 +359,3 @@ class portable_intermodule_singleton
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTERPROCESS_PORTABLE_INTERMODULE_SINGLETON_HPP
-

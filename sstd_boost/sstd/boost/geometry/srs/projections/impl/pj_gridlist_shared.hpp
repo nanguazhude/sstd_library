@@ -119,4 +119,3 @@ inline bool pj_gridlist_merge_gridfile(std::string const& gridname,
 }}} // namespace boost::geometry::projections
 
 #endif // BOOST_GEOMETRY_SRS_PROJECTIONS_IMPL_PJ_GRIDLIST_SHARED_HPP
-

@@ -53,4 +53,3 @@ int main() {
         std::cout << roll_weighted_die() << std::endl;
     }
 }
-

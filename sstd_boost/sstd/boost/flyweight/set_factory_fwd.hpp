@@ -38,4 +38,3 @@ struct set_factory;
 } /* namespace boost */
 
 #endif
-

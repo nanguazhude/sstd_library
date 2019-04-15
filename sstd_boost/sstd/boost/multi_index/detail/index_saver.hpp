@@ -133,4 +133,3 @@ private:
 } /* namespace boost */
 
 #endif
-

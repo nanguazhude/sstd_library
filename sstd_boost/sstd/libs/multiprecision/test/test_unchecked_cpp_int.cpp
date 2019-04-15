@@ -96,7 +96,3 @@ int main()
    test<number<cpp_int_backend<48, 48, unsigned_magnitude, unchecked, void> > >();
    return boost::report_errors();
 }
-
-
-
-

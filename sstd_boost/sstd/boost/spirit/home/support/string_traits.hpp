@@ -356,4 +356,3 @@ namespace result_of
 }}
 
 #endif
-

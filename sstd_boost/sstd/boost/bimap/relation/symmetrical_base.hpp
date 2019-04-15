@@ -94,5 +94,3 @@ class symmetrical_base
 
 
 #endif // BOOST_BIMAP_RELATION_SYMMETRICAL_BASE_HPP
-
-

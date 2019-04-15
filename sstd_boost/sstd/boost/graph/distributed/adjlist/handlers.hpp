@@ -145,5 +145,3 @@ handle_remove_edge(int source, int tag,
 }
 
 #endif // BOOST_GRAPH_DISTRIBUTED_ADJLIST_HANDLERS_HPP
-
-

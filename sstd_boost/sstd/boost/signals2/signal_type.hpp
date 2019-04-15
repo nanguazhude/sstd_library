@@ -142,4 +142,3 @@ namespace boost
 } // namespace boost
 
 #endif // BOOST_SIGNALS2_SIGNAL_TYPE_HPP
-

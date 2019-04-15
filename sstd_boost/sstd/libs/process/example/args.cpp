@@ -27,4 +27,3 @@ int main()
     c.wait();
     c2.wait();
 }
-

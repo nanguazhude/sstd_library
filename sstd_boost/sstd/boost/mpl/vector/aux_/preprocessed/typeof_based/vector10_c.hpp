@@ -152,4 +152,3 @@ struct vector10_c
 };
 
 }}
-

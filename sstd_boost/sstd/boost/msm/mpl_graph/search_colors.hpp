@@ -37,4 +37,3 @@ struct search_color_map_ops {
 
 
 #endif // BOOST_MSM_MPL_GRAPH_SEARCH_COLORS_HPP_INCLUDED
-

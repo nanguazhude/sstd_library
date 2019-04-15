@@ -27,4 +27,3 @@
 #include <libs/regex/src/w32_regex_traits.cpp>
 #include <libs/regex/src/wide_posix_api.cpp>
 #include <libs/regex/src/winstances.cpp>
-

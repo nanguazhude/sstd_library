@@ -537,4 +537,3 @@ operator<<(std::ostream& os, message<
 } // boost
 
 #endif
-

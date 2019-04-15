@@ -81,6 +81,3 @@ int main()
     << binary<_STR("1")>::value << endl;
 }
 #endif
-
-
-

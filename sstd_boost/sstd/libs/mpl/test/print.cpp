@@ -20,4 +20,3 @@ MPL_TEST_CASE()
 {
     typedef print<int>::type t;
 }
-

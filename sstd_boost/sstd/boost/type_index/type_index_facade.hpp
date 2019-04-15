@@ -294,5 +294,3 @@ inline std::size_t hash_value(const type_index_facade<Derived, TypeInfo>& lhs) B
 }} // namespace boost::typeindex
 
 #endif // BOOST_TYPE_INDEX_TYPE_INDEX_FACADE_HPP
-
-

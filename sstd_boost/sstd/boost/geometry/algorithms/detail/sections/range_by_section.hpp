@@ -191,4 +191,3 @@ inline typename ring_return_type<Geometry const>::type
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_SECTIONS_RANGE_BY_SECTION_HPP
-

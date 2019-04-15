@@ -88,4 +88,3 @@ struct add_varargs : detail::add_varargs_impl<T> {};
 //]
 
 #endif
-

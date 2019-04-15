@@ -648,4 +648,3 @@ BOOST_ASIO_TEST_SUITE
   BOOST_ASIO_TEST_CASE(socket_base_compile::test)
   BOOST_ASIO_TEST_CASE(socket_base_runtime::test)
 )
-

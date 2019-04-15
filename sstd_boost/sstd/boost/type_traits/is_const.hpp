@@ -44,5 +44,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_TT_IS_CONST_HPP_INCLUDED
-
-

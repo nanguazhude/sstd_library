@@ -384,4 +384,3 @@ private:
 #endif // !defined(BOOST_ASIO_NO_EXTENSIONS)
 
 #endif // BOOST_ASIO_IO_CONTEXT_STRAND_HPP
-

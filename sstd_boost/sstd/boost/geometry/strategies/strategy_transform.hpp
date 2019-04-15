@@ -525,4 +525,3 @@ struct default_strategy<cartesian_tag, spherical_equatorial_tag, CoordSys1, Coor
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_STRATEGY_TRANSFORM_HPP
-

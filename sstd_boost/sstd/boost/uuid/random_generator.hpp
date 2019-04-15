@@ -226,4 +226,3 @@ typedef basic_random_generator<mt19937> random_generator_mt19937;
 }} // namespace boost::uuids
 
 #endif // BOOST_UUID_RANDOM_GENERATOR_HPP
-

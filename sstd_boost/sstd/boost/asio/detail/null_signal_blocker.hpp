@@ -69,4 +69,3 @@ public:
        // || defined(__SYMBIAN32__)
 
 #endif // BOOST_ASIO_DETAIL_NULL_SIGNAL_BLOCKER_HPP
-

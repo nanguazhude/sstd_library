@@ -29,4 +29,3 @@ _C_LIB_DECL
 //H 10: t_9_023.cpp(17): #ifndef
 //H 11: t_9_023.cpp(17): #ifndef _M_CEE_PURE: 0
 //H 10: t_9_023.cpp(19): #endif
-

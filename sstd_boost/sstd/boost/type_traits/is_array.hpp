@@ -41,4 +41,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_TT_IS_ARRAY_HPP_INCLUDED
-

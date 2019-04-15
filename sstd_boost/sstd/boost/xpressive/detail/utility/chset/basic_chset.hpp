@@ -170,4 +170,3 @@ void set_class(basic_chset<Char> &chset, typename Traits::char_class_type char_c
 }}} // namespace boost::xpressive::detail
 
 #endif
-

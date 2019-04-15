@@ -50,4 +50,3 @@ template< class T > T&& sp_forward( T & t ) BOOST_NOEXCEPT
 } // namespace boost
 
 #endif  // #ifndef BOOST_SMART_PTR_DETAIL_SP_FORWARD_HPP_INCLUDED
-

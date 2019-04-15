@@ -15,4 +15,3 @@
 #include <sstd/boost/fusion/sequence/convert.hpp>
 
 #endif
-

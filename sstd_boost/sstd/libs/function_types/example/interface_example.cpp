@@ -77,5 +77,3 @@ int main()
   i.a_func(21L);
   i.another_func();
 }
-
-

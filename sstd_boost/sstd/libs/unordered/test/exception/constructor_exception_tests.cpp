@@ -210,4 +210,3 @@ EXCEPTION_TESTS(
 // clang-format on
 
 RUN_TESTS()
-

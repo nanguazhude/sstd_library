@@ -37,4 +37,3 @@ struct disable_if_ret
 # endif
 
 #endif // ENABLE_IF_DWA2004722_HPP
-

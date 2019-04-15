@@ -29,4 +29,3 @@ typedef unit<reluctance_dimension,si::system>    reluctance;
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_RELUCTANCE_HPP
-

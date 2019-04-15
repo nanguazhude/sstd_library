@@ -264,4 +264,3 @@ namespace rectangle_formation {
 }
 }
 #endif
-

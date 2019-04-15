@@ -126,4 +126,3 @@ BOOST_AUTO_TEST_CASE( test_main )
   test_reduce_init();
   test_reduce_init_op();
 }
-

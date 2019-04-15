@@ -214,4 +214,3 @@ struct TRAITS_NAME \
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_DETAIL_MPL_HPP
-

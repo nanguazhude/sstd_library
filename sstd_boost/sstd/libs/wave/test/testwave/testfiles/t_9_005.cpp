@@ -25,4 +25,3 @@ CONCAT(\u00ff, 56)                  //R \u00ff56
 
 //E t_9_005.cpp(27): error: a universal character name cannot designate a character in the basic character set: \u0061
 STRINGIZE( CONCAT(\, u0061) )       // reports an error
-

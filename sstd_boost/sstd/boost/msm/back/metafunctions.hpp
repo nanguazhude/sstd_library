@@ -974,5 +974,3 @@ struct build_interrupt_state_flag_list
 } } }//boost::msm::back
 
 #endif // BOOST_MSM_BACK_METAFUNCTIONS_H
-
-

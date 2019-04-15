@@ -125,4 +125,3 @@ inline void assert_dimension_equal()
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_CORE_COORDINATE_DIMENSION_HPP
-

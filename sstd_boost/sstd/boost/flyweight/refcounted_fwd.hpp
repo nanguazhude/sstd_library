@@ -24,4 +24,3 @@ struct refcounted;
 } /* namespace boost */
 
 #endif
-

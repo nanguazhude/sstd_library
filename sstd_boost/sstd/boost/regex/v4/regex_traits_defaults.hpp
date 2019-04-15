@@ -379,4 +379,3 @@ inline typename boost::disable_if_c<(sizeof(charT) > 1), const charT*>::type get
 #endif
 
 #endif
-

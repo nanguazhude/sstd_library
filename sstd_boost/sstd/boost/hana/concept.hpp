@@ -34,4 +34,3 @@ Distributed under the Boost Software License, Version 1.0.
 #include <sstd/boost/hana/concept/struct.hpp>
 
 #endif // !BOOST_HANA_CONCEPT_HPP
-

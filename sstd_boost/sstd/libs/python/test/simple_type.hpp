@@ -11,4 +11,3 @@ struct simple
 };
 
 #endif // SIMPLE_TYPE_DWA2001128_HPP
-

@@ -34,4 +34,3 @@ using ::boost::forward;
 }  //namespace boost {
 
 #endif //#ifndef BOOST_INTERPROCESS_DETAIL_MOVE_HPP
-

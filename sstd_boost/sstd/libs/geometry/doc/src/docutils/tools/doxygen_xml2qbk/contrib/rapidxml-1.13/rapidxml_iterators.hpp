@@ -172,4 +172,3 @@ namespace rapidxml
 }
 
 #endif
-

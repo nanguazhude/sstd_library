@@ -387,4 +387,3 @@ struct result_of_callable<This(BOOST_PP_ENUM_PARAMS(N, T))>
 #undef N
 
 #endif
-

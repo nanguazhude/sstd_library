@@ -229,5 +229,3 @@ public:
 #include <sstd/boost/property_map/vector_property_map.hpp>
 
 #endif /* BOOST_PROPERTY_MAP_PARALLEL_PROPERTY_MAPS_HPP */
-
-

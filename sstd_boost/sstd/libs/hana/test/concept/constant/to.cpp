@@ -19,4 +19,3 @@ static_assert(hana::is_convertible<minimal_constant_tag<long>, long>::value, "")
 static_assert(hana::to<long>(minimal_constant<long, 1>{}) == 1l, "");
 
 int main() { }
-

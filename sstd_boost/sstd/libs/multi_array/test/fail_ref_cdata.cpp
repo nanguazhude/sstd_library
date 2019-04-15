@@ -38,4 +38,3 @@ test_main(int,char*[])
   *csma.data() = 0;
   return boost::exit_success;
 }
-

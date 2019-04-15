@@ -441,6 +441,3 @@ void    test_SO4()
 
     test_SO4_spherical();
 }
-
-
-

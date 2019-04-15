@@ -57,4 +57,3 @@ public:
 #endif
 
 #endif //  BOOST_FIBERS_DETAIL_FSS_H
-

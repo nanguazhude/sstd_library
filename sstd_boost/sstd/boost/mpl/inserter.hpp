@@ -30,4 +30,3 @@ struct inserter
 }}
 
 #endif // BOOST_MPL_INSERTER_HPP_INCLUDED
-

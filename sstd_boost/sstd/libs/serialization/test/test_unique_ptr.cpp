@@ -68,4 +68,3 @@ int test_main(int /* argc */, char * /* argv */[]){
 }
 
 #endif // BOOST_NO_CXX11_SMART_PTR
-

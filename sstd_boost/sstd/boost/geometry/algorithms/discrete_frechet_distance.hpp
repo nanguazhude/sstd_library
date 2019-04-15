@@ -226,4 +226,3 @@ discrete_frechet_distance(Geometry1 const& geometry1, Geometry2 const& geometry2
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DISCRETE_FRECHET_DISTANCE_HPP
-

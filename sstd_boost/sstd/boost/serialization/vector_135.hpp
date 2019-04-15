@@ -24,4 +24,3 @@
 #include <sstd/boost/serialization/vector.hpp>
 
 #endif // BOOST_SERIALIZATION_VECTOR_135_HPP
-

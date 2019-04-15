@@ -111,4 +111,3 @@ struct result_of<Expr, Args, proto::tag::function>
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_LAMBDA_RESULT_OF_HPP
-

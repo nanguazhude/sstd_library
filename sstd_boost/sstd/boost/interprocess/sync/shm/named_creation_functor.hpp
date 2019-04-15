@@ -79,4 +79,3 @@ class named_creation_functor
 }  //namespace boost {
 
 #endif   //BOOST_INTERPROCESS_SYNC_NAMED_CREATION_FUNCTOR_HPP
-

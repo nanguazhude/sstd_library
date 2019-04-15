@@ -35,4 +35,3 @@ const T &min_value(const T &a, const T &b)
 }  //namespace boost {
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_MIN_MAX_HPP
-

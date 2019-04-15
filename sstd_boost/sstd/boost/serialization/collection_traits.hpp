@@ -77,4 +77,3 @@ struct implementation_level< C < T > > {                            \
     /**/
 
 #endif // BOOST_SERIALIZATION_COLLECTION_TRAITS
-

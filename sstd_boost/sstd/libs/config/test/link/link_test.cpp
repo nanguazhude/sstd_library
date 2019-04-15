@@ -51,5 +51,3 @@ bool BOOST_CONFIG_DECL check_options(
    }
    return true;
 }
-
-

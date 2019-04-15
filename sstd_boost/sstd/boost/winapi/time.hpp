@@ -138,4 +138,3 @@ BOOST_FORCEINLINE VOID_ GetSystemTimeAsFileTime(FILETIME_* lpFileTime)
 }
 
 #endif // BOOST_WINAPI_TIME_HPP_INCLUDED_
-

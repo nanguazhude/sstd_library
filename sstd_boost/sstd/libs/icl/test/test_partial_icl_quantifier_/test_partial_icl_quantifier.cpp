@@ -32,6 +32,3 @@ using namespace boost::icl;
 
 #define INTERVAL_MAP interval_map
 #include "../test_partial_icl_quantifier_cases.hpp"
-
-
-

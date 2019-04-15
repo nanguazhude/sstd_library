@@ -72,4 +72,3 @@ BOOST_AUTO_TEST_CASE( pairing_heap_leak_test )
     typedef boost::heap::pairing_heap<boost::shared_ptr<int> > pri_queue;
     run_leak_check_test<pri_queue>();
 }
-

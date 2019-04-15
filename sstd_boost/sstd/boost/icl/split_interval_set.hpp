@@ -232,7 +232,3 @@ struct type_to_string<icl::split_interval_set<DomainT,Compare,Interval,Alloc> >
 }} // namespace icl boost
 
 #endif // BOOST_ICL_SPLIT_INTERVAL_SET_HPP_JOFA_990223
-
-
-
-

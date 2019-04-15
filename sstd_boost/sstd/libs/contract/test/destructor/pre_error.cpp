@@ -21,5 +21,3 @@ int main() {
     a aa;
     return 0;
 }
-
-

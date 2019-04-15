@@ -26,4 +26,3 @@
 #include <sstd/boost/compute/iterator/zip_iterator.hpp>
 
 #endif // BOOST_COMPUTE_ITERATOR_HPP
-

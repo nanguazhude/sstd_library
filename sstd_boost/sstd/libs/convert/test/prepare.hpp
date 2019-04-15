@@ -57,4 +57,3 @@ namespace { namespace local
 }}
 
 #endif // BOOST_CONVERT_TEST_PREPARE_HPP
-

@@ -30,5 +30,3 @@
 # define TOP    20	/* ^T */
 
 #endif
-
-

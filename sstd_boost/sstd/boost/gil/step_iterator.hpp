@@ -304,4 +304,3 @@ typename dynamic_x_step_type<I>::type make_step_iterator(const I& it, std::ptrdi
 }}  // namespace boost::gil
 
 #endif
-

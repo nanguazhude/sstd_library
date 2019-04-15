@@ -56,5 +56,3 @@ namespace boost {
 }
 
 #endif // BOOST_LEXICAL_CAST_DETAIL_IS_CHARACTER_HPP
-
-

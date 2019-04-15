@@ -84,4 +84,3 @@ class def_visitor
 }} // namespace boost::python
 
 #endif // DEF_VISITOR_DWA2003810_HPP
-

@@ -48,4 +48,3 @@ public:
 } } } } // end namespace boost::graph::distributed::detail
 
 #endif // BOOST_GRAPH_PARALLEL_DIJKSTRA_DETAIL_HPP
-

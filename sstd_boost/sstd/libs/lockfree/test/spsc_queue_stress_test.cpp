@@ -208,5 +208,3 @@ BOOST_AUTO_TEST_CASE( spsc_queue_test_buffering )
     boost::shared_ptr<spsc_queue_tester_buffering> test1(new spsc_queue_tester_buffering);
     test1->run();
 }
-
-

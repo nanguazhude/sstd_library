@@ -21,4 +21,3 @@ void compile_and_link_test()
    check_result<long double>(boost::math::binomial_coefficient<long double>(u, u));
 #endif
 }
-

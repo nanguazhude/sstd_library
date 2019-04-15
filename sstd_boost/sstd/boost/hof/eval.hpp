@@ -84,4 +84,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(eval, boost::hof::first_of_adaptor<detail::simple_e
 }} // namespace boost::hof
 
 #endif
-

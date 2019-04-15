@@ -62,5 +62,3 @@ Output:
   Result of tgamma(-10) is: 1.#QNAN
   errno = 33
 */
-
-

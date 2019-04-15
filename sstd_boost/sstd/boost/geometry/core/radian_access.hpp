@@ -261,4 +261,3 @@ inline void set_from_radian(Geometry& geometry,
 
 
 #endif // BOOST_GEOMETRY_CORE_RADIAN_ACCESS_HPP
-

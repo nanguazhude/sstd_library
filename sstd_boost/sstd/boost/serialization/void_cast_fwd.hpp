@@ -35,4 +35,3 @@ inline const void_cast_detail::void_caster & void_cast_register(
 } // namespace boost
 
 #endif // BOOST_SERIALIZATION_VOID_CAST_HPP
-

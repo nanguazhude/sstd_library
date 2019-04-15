@@ -31,4 +31,3 @@ inline typename default_content_result<Box>::type union_content(Box const& b, Ge
 }}}} // namespace boost::geometry::index::detail
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_ALGORITHMS_UNION_CONTENT_HPP
-

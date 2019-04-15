@@ -38,4 +38,3 @@ int test_main(int /*argc*/, char* /*argv*/[])
     delete loaded;
     return EXIT_SUCCESS;
 }
-

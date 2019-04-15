@@ -149,4 +149,3 @@ private:
 #endif // defined(BOOST_ASIO_WINDOWS) || defined(__CYGWIN__)
 
 #endif // BOOST_ASIO_DETAIL_WIN_FD_SET_ADAPTER_HPP
-

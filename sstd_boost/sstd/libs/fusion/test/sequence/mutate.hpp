@@ -50,4 +50,3 @@ test()
     BOOST_TEST(FUSION_AT<2>(t1) == false);
     BOOST_TEST(FUSION_AT<3>(t1) == foo(5));
 }
-

@@ -88,4 +88,3 @@ struct reveal_static_const_factory
 #endif
 
 #endif
-

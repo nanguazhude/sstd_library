@@ -58,4 +58,3 @@ make_error_code(error e);
 } // boost
 
 #endif
-

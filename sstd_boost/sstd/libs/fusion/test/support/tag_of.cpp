@@ -15,4 +15,3 @@ typedef boost::fusion::traits::tag_of<incomplete>::type Tag;
 BOOST_STATIC_ASSERT((boost::is_same<Tag, boost::fusion::non_fusion_tag>::value));
 
 int main() { }
-

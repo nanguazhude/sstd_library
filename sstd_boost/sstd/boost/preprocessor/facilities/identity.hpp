@@ -25,4 +25,3 @@
 # define BOOST_PP_IDENTITY_N(item,n) item BOOST_PP_TUPLE_EAT_N(n)
 #
 # endif
-

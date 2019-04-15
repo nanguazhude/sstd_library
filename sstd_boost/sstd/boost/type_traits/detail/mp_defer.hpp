@@ -54,4 +54,3 @@ template<template<class...> class F, class... T> using mp_defer = typename boost
 } // namespace boost
 
 #endif // #ifndef BOOST_TYPE_TRAITS_DETAIL_MP_DEFER_HPP_INCLUDED
-

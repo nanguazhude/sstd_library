@@ -10,4 +10,3 @@
 void bind_to_processor( unsigned int n);
 
 #endif // BIND_TO_PROCESSOR_H
-

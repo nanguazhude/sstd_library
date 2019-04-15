@@ -26,4 +26,3 @@ struct placeholder
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_LAMBDA_PLACEHOLDER_HPP
-

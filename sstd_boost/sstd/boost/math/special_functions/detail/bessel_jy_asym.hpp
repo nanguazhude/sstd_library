@@ -220,5 +220,3 @@ T asymptotic_bessel_i_large_x(T v, T x, const Policy& pol)
 }}} // namespaces
 
 #endif
-
-

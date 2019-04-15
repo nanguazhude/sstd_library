@@ -80,4 +80,3 @@ struct count_impl< aux::multiset_tag >
 }}
 
 #endif // BOOST_MPL_MULTISET_AUX_COUNT_IMPL_HPP_INCLUDED
-

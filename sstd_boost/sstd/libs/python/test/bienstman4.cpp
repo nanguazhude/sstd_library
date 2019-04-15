@@ -36,5 +36,3 @@ BOOST_PYTHON_MODULE(bienstman4_ext)
   Expression e;
   e.add(t1);
 }
-
-

@@ -120,4 +120,3 @@ template<class CharType, class ValType> void lexical_cast_test_impl()
 //------------------------------------------------------------------------------
 
 }   // anonymous namespace
-

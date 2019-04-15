@@ -146,7 +146,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_assignable<noexcept_assignable&>::value)
 #endif
 
 TT_TEST_END
-
-
-
-

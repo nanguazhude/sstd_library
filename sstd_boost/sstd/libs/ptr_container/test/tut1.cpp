@@ -357,4 +357,3 @@ int main()
     BOOST_ASSERT( new_farm.size()    == 0u );
     BOOST_ASSERT( animal_farm.size() == 12u );
 }
-

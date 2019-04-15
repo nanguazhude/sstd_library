@@ -104,4 +104,3 @@ namespace boost { namespace spirit { namespace traits { namespace detail
 }}}}
 
 #endif
-

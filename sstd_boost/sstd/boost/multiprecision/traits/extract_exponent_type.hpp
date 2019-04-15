@@ -26,4 +26,3 @@ struct extract_exponent_type<Backend, number_kind_floating_point>
 }}} // namespaces
 
 #endif
-

@@ -393,4 +393,3 @@ class condition_8a_wrapper
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_DETAIL_CONDITION_ALGORITHM_8A_HPP
-

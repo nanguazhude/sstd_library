@@ -27,4 +27,3 @@ MPL_TEST_CASE()
     front_test< range_c<int,2,10>, 2 >();
     front_test< range_c<int,-1,0>, -1 >();
 }
-

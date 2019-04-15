@@ -21,4 +21,3 @@ BOOST_SYMBOL_EXPORT bool f(){
   boost::archive::text_oarchive(std::cout) & X1();
   return true;
 }
-

@@ -40,5 +40,3 @@ int main() {
     TEST_NOEXCEPT(int(foo::*)(...));
     TEST_NOEXCEPT(int(foo::*)(...) const volatile RREF);
 }
-
-

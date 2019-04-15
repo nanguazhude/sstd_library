@@ -161,12 +161,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_arithmetic<boost::float128_type>::value, 
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

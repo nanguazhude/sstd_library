@@ -118,4 +118,3 @@
 # else
 # undef BOOST_FT_config_valid
 # endif
-

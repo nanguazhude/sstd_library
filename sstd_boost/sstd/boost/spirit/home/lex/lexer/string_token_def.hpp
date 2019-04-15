@@ -175,4 +175,3 @@ namespace boost { namespace spirit { namespace lex
 }}}  // namespace boost::spirit::lex
 
 #endif
-

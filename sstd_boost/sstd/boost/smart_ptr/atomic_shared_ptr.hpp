@@ -231,4 +231,3 @@ public:
 } // namespace boost
 
 #endif  // #ifndef BOOST_SMART_PTR_ATOMIC_SHARED_PTR_HPP_INCLUDED
-

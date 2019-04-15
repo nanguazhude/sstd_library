@@ -72,4 +72,3 @@ private:
 
 
 #endif /* BOOST_PROCESS_DETAIL_POSIX_HANDLER_HPP_ */
-

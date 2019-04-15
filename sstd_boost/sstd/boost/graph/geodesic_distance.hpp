@@ -209,4 +209,3 @@ small_world_distance(const Graph& g, GeodesicMap geo)
 }
 
 #endif
-

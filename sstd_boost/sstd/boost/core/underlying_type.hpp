@@ -77,4 +77,3 @@ struct underlying_type :
 } // namespace boost
 
 #endif  // BOOST_CORE_UNDERLYING_TYPE_HPP
-

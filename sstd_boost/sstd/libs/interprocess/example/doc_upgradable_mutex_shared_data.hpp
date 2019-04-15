@@ -29,4 +29,3 @@
       bool   end_a;
       bool   end_b;
    };
-

@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/algorithm/transformation/filter_if.hpp>
 
 #endif
-

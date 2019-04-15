@@ -288,4 +288,3 @@ BOOST_AUTO_TEST_CASE(trapezoidal_quadrature)
 #endif
 
 }
-

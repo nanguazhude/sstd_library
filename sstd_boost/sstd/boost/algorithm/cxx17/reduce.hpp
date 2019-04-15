@@ -70,4 +70,3 @@ T reduce(const Range &r, T init, BinaryOperation bOp)
 }} // namespace boost and algorithm
 
 #endif // BOOST_ALGORITHM_REDUCE_HPP
-

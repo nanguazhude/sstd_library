@@ -122,4 +122,3 @@ void enumerate_leafs( boost::coroutines::asymmetric_coroutine< leaf & >::push_ty
 #endif
 
 #endif // TREE_H
-

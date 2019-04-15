@@ -22,4 +22,3 @@ void Player::initiate_impl()
 
 
 unsigned int Player::totalNoOfProcessedEvents_ = 0;
-

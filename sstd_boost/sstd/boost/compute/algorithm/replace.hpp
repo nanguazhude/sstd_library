@@ -94,4 +94,3 @@ inline void replace(Iterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_REPLACE_HPP
-

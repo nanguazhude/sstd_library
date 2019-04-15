@@ -384,4 +384,3 @@ public:
 } /* namespace boost */
 
 #endif /* BOOST_HEAP_DETAIL_TREE_ITERATOR_HPP */
-

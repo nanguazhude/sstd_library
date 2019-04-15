@@ -157,4 +157,3 @@ if (BUILD_EXAMPLES)
         extract_example(${HEADER})
     endforeach()
 endif()
-

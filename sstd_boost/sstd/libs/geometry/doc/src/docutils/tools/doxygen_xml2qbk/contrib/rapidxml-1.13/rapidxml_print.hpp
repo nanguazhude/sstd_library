@@ -419,4 +419,3 @@ namespace rapidxml
 }
 
 #endif
-

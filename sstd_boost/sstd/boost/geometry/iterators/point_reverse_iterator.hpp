@@ -87,4 +87,3 @@ points_rend(Geometry& geometry)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ITERATORS_POINT_REVERSE_ITERATOR_HPP
-

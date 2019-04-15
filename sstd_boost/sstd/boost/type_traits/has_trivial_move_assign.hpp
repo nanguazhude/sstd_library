@@ -71,4 +71,3 @@ template <class T> struct has_trivial_move_assign<T[]> : public false_type{};
 #undef SOLARIS_EXTRA_CHECK
 
 #endif // BOOST_TT_HAS_TRIVIAL_MOVE_ASSIGN_HPP_INCLUDED
-

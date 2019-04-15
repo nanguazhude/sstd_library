@@ -1188,4 +1188,3 @@ BOOST_ASIO_TEST_SUITE
   BOOST_ASIO_TEST_CASE(test_async_connect_iter)
   BOOST_ASIO_TEST_CASE(test_async_connect_iter_cond)
 )
-

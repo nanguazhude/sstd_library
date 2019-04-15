@@ -165,5 +165,3 @@ inline bool has_self_intersections(Geometry const& geometry,
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_HAS_SELF_INTERSECTIONS_HPP
-
-

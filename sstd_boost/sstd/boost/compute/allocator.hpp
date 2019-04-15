@@ -19,4 +19,3 @@
 #include <sstd/boost/compute/allocator/pinned_allocator.hpp>
 
 #endif // BOOST_COMPUTE_ALLOCATOR_HPP
-

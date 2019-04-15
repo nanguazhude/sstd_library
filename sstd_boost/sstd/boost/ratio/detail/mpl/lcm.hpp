@@ -124,4 +124,3 @@ struct lcm_impl<integral_c_tag, integral_c_tag>
 }}
 
 #endif // BOOST_MPL_LCM_HPP_INCLUDED
-

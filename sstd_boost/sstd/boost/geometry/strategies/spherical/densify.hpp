@@ -187,4 +187,3 @@ struct default_strategy<spherical_equatorial_tag>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DENSIFY_HPP
-

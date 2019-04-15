@@ -1,4 +1,4 @@
-/*
+﻿/*
 * ECGDSA (BSI-TR-03111, version 2.0)
 * (C) 2016 René Korthaus
 *

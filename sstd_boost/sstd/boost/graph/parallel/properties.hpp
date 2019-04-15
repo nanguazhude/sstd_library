@@ -111,4 +111,3 @@ namespace boost {
 
 } // end namespace boost
 #endif // BOOST_GRAPH_PARALLEL_PROPERTIES_HPP
-

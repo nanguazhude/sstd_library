@@ -614,5 +614,3 @@ void GC_push_roots(GC_bool all, ptr_t cold_gc_frame)
     	/* of stuff may have been pushed already, and this	*/
     	/* should be careful about mark stack overflows.	*/
 }
-
-

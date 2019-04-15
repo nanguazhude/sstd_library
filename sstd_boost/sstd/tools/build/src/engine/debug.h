@@ -60,4 +60,3 @@ OBJECT * profile_make_local( char const * );
 #define PROFILE_EXIT_LOCAL( scope ) PROFILE_EXIT( LOCAL_##scope )
 
 #endif
-

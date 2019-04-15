@@ -119,4 +119,3 @@ using multi_index::multi_index_container;
 } /* namespace boost */
 
 #endif
-

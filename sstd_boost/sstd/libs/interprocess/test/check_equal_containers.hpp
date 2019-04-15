@@ -90,4 +90,3 @@ bool CheckEqualPairContainers(MyShmCont *shmcont, MyStdCont *stdcont)
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif //#ifndef BOOST_INTERPROCESS_TEST_CHECK_EQUAL_CONTAINERS_HPP
-

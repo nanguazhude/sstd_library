@@ -41,4 +41,3 @@ copy_backward(const BidirectionalRange& rng,
 } // namespace boost
 
 #endif // include guard
-

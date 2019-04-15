@@ -70,6 +70,3 @@ BOOST_METAPARSE_TEST_CASE(token)
   // test_fail
   BOOST_MPL_ASSERT((is_error<apply_wrap2<a_test_token, str_, start> >));
 }
-
-
-

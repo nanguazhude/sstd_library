@@ -18,5 +18,3 @@ struct Dummy { };
 static_assert(!std::is_constructible<boost::fusion::deque<int>, Dummy const&>::value, "");
 
 #endif
-
-

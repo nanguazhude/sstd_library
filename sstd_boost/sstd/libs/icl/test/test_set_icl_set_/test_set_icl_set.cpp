@@ -37,6 +37,3 @@ using namespace boost::icl;
 #include "../test_set_icl_set.hpp"
 
 #include "test_set_icl_set_cases.hpp"
-
-
-

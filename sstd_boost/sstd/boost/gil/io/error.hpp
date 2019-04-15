@@ -27,4 +27,3 @@ inline void io_error_if(bool expr, const char* descr)
 } // namespace boost
 
 #endif
-

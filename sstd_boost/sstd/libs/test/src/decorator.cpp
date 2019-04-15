@@ -16,4 +16,3 @@
 #include <sstd/boost/test/impl/decorator.ipp>
 
 // EOF
-

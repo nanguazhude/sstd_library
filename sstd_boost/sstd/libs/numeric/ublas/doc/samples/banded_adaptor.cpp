@@ -22,5 +22,3 @@ int main () {
             ba (i, j) = 3 * i + j;
     std::cout << ba << std::endl;
 }
-
-

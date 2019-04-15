@@ -1,4 +1,4 @@
-/*
+﻿/*
 * AES Key Wrap (RFC 3394)
 * (C) 2011 Jack Lloyd
 *

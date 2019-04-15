@@ -114,4 +114,3 @@ struct segments_tupled
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_GEOMETRY_POLICIES_RELATE_TUPLED_HPP
-

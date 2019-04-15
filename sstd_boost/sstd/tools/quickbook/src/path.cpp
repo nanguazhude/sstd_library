@@ -448,4 +448,3 @@ namespace quickbook
         }
     }
 }
-

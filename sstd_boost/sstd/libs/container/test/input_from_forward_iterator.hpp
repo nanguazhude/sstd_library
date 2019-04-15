@@ -78,4 +78,3 @@ input_iterator_wrapper<FwdIterator> make_input_from_forward_iterator(const FwdIt
 }  //namespace boost{
 
 #endif //BOOST_CONTAINER_TEST_FORWARD_TO_INPUT_ITERATOR_HPP
-

@@ -177,4 +177,3 @@ void GC_push_thread_structures(void)
 }
 
 # endif
-

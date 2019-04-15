@@ -46,4 +46,3 @@ struct _is_contiguous_iterator<
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_INTEROP_QT_QVECTOR_HPP
-

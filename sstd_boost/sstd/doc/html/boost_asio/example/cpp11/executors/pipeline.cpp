@@ -297,4 +297,3 @@ int main()
   auto f = pipeline(reader, filter, bind_executor(pool, upper), writer);
   f.wait();
 }
-

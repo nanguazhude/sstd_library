@@ -14,4 +14,3 @@ static_assert(!hana::is_a<hana::tuple_tag, void>, "");
 static_assert(hana::is_an<hana::integral_constant_tag<int>>(hana::int_c<10>), "");
 
 int main() { }
-

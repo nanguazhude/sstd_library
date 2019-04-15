@@ -38,4 +38,3 @@ int main(int, const char**)
             mock_range<boost::single_pass_traversal_tag>(),
             always_true()).front();
 }
-

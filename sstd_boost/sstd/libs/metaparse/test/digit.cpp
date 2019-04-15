@@ -52,5 +52,3 @@ BOOST_METAPARSE_TEST_CASE(digit)
     is_same<digit_expected, get_message<apply_wrap2<digit, str_, start> >::type>
   ));
 }
-
-

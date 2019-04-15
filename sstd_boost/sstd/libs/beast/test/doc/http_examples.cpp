@@ -442,4 +442,3 @@ BEAST_DEFINE_TESTSUITE(beast,http,examples);
 } // http
 } // beast
 } // boost
-

@@ -59,4 +59,3 @@ BOOST_AUTO_TEST_CASE( split_test )
 
 
 BOOST_AUTO_TEST_SUITE_END()
-

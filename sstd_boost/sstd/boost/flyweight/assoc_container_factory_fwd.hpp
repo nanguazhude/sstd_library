@@ -33,4 +33,3 @@ struct assoc_container_factory;
 } /* namespace boost */
 
 #endif
-

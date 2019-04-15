@@ -166,4 +166,3 @@ struct is_subconcept<Sub, Super, static_binding<PlaceholderMap> > :
 }
 
 #endif
-

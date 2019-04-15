@@ -623,5 +623,3 @@ private:
 #include <sstd/boost/regex/v4/perl_matcher_common.hpp>
 
 #endif
-
-

@@ -320,4 +320,3 @@ public:
 #endif
 
 #endif // BOOST_COROUTINES_DETAIL_PUSH_COROUTINE_OBJECT_H
-

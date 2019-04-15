@@ -37,5 +37,3 @@ inline void y() {
 }
 
 #endif
-
-

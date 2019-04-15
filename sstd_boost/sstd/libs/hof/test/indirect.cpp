@@ -48,6 +48,3 @@ BOOST_HOF_TEST_CASE()
     boost::hof::indirect(mf)(2);
     BOOST_HOF_TEST_CHECK(mf->value == 17);
 }
-
-
-

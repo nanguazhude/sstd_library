@@ -37,4 +37,3 @@ struct base_unit_info<us::dram_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNIT_BASE_UNITS_US_DRAM_HPP_INCLUDED
-

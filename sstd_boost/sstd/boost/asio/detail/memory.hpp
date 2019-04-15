@@ -70,4 +70,3 @@ struct allocator_arg_t {};
 } // namespace boost
 
 #endif // BOOST_ASIO_DETAIL_MEMORY_HPP
-

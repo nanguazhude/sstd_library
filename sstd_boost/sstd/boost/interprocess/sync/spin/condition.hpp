@@ -302,4 +302,3 @@ inline bool spin_condition::do_timed_wait(bool tout_enabled,
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_DETAIL_SPIN_CONDITION_HPP
-

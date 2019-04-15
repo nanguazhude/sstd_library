@@ -33,4 +33,3 @@ enum
 };
 
 #endif // BOOST_REGEX_SRC_INTERNALS_HPP
-

@@ -68,5 +68,3 @@ namespace boost { namespace msm { namespace front
 }}}
 
 #endif //BOOST_MSM_ROW2_HELPER_HPP
-
-

@@ -17,4 +17,3 @@ void fail()
     m0.unlock();
   }
 }
-

@@ -235,4 +235,3 @@ inline void sha1::get_digest(digest_type& digest)
 }}} // namespace boost::uuids::detail
 
 #endif
-

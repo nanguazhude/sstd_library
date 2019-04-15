@@ -365,4 +365,3 @@ typedef faure_engine<double, boost::uint_least64_t, default_faure_prime_table> f
 } // namespace boost
 
 #endif // BOOST_RANDOM_FAURE_HPP
-

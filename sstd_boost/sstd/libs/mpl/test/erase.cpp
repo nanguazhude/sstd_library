@@ -43,4 +43,3 @@ MPL_TEST_CASE()
     typedef find<result, integral_c<int,7> >::type result_iter;
     MPL_ASSERT(( is_same< result_iter, end<result>::type > ));
 }
-

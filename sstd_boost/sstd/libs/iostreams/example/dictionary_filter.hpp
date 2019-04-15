@@ -219,4 +219,3 @@ inline void dictionary::tolower(std::string& str)
 } } }       // End namespaces example, iostreams, boost.
 
 #endif      // #ifndef BOOST_IOSTREAMS_DICTIONARY_FILTER_HPP_INCLUDED
-

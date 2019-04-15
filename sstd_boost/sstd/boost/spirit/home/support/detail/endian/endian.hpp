@@ -567,4 +567,3 @@ namespace boost { namespace endian
 #endif
 
 #endif // BOOST_SPIRIT_ENDIAN_HPP
-

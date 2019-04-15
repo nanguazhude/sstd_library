@@ -42,4 +42,3 @@ namespace gregorian {
 }} // namespace boost::gregorian
 
 #endif // GREG_DURATION_TYPES_HPP___
-

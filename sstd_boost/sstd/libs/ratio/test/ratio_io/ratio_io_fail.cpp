@@ -20,4 +20,3 @@ void test() {
 
     std::string str = R1::symbol();
 }
-

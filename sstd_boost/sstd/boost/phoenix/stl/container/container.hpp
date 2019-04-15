@@ -826,4 +826,3 @@ namespace boost { namespace phoenix
 }} // namespace boost::phoenix
 
 #endif // BOOST_PHOENIX_STL_CONTAINERS_HPP
-

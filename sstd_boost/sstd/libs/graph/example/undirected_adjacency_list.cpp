@@ -115,4 +115,3 @@ main()
   undirected_graph_demo2 < UndirectedGraph > ();
   return 0;
 }
-

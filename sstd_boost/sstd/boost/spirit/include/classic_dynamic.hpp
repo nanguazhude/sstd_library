@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_DYNAMIC
 #include <sstd/boost/spirit/home/classic/dynamic.hpp>
 #endif
-

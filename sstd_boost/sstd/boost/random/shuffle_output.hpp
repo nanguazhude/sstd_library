@@ -49,4 +49,3 @@ public:
 }
 
 #endif // BOOST_RANDOM_SHUFFLE_OUTPUT_HPP
-

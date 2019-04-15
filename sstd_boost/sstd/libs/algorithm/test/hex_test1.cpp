@@ -192,4 +192,3 @@ BOOST_AUTO_TEST_CASE( test_main )
   test_from_hex_success<std::wstring> ( fromhex_w );
   test_from_hex_failure<std::wstring> ( fromhex_fail_w );
 }
-

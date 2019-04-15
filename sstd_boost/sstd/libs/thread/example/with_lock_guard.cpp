@@ -51,4 +51,3 @@ int main() {
   boost::scoped_thread<> thread_3((boost::thread(job)));
   return 0;
 }
-

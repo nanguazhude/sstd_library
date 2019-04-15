@@ -7,5 +7,3 @@
 
 #include "nova.hpp"
 #include "all_decl_seq.cpp"
-
-

@@ -227,4 +227,3 @@ BOOST_AUTO_TEST_CASE( fixed_size_freelist_test )
     typedef freelist_tester<boost::lockfree::detail::fixed_size_freelist<dummy>, true > test_type;
     run_tester<test_type>();
 }
-

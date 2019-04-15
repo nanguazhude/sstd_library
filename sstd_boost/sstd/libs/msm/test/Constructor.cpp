@@ -207,5 +207,3 @@ namespace
         BOOST_CHECK_MESSAGE(p.context_.bla == 20,"error with fsm entry behavior");
     }
 }
-
-

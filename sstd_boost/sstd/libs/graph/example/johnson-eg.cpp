@@ -80,4 +80,3 @@ main()
   fout << "}\n";
   return 0;
 }
-

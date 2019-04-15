@@ -31,5 +31,3 @@ int main( int, char *[] )
 {
    return boost_no_unreachable_return_detection::test();
 }
-
-

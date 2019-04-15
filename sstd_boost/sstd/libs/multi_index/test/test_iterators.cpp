@@ -248,4 +248,3 @@ void test_iterators()
   test_non_const_rnd_iterators   (get<5>(es),target);
   test_const_rnd_iterators       (get<5>(es),target);
 }
-

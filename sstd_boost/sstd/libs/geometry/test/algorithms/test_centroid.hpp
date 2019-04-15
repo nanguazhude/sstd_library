@@ -144,4 +144,3 @@ void test_centroid_exception(std::string const& wkt)
 }
 
 #endif
-

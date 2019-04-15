@@ -124,4 +124,3 @@ public:
 }}}
 
 #endif // BOOST_FIBERS_SPINLOCK_RTM_H
-

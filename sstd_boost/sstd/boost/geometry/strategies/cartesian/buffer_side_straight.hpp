@@ -134,4 +134,3 @@ public :
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_CARTESIAN_BUFFER_SIDE_STRAIGHT_HPP
-

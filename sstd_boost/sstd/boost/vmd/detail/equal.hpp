@@ -560,4 +560,3 @@
 #endif
 
 #endif /* BOOST_VMD_DETAIL_EQUAL_HPP */
-

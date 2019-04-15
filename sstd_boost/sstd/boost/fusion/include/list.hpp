@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/container/list.hpp>
 
 #endif
-

@@ -341,4 +341,3 @@ BOOST_ASIO_USES_ALLOCATOR(boost::asio::executor)
 #endif // defined(BOOST_ASIO_HEADER_ONLY)
 
 #endif // BOOST_ASIO_EXECUTOR_HPP
-

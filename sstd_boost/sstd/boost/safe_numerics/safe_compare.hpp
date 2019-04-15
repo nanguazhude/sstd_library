@@ -183,4 +183,3 @@ constexpr bool not_equal(const T & lhs, const U & rhs) {
 } // boost
 
 #endif // BOOST_NUMERIC_SAFE_COMPARE_HPP
-

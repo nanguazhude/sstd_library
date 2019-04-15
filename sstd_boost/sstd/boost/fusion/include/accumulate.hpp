@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/algorithm/iteration/accumulate.hpp>
 
 #endif
-

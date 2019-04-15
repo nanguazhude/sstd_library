@@ -42,4 +42,3 @@ move_ptrs::move_source<T> move(T& x)
 } // End namespace boost.
 
 #endif // #ifndef BOOST_MOVE_HPP_INCLUDED
-

@@ -377,4 +377,3 @@ namespace quickbook
 }
 
 #endif // BOOST_SPIRIT_QUICKBOOK_ACTIONS_HPP
-

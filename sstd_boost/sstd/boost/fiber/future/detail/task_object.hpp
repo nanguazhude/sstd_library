@@ -177,4 +177,3 @@ private:
 #endif
 
 #endif // BOOST_FIBERS_DETAIL_TASK_OBJECT_H
-

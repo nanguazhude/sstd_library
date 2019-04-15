@@ -83,4 +83,3 @@ private:
 #endif // defined(BOOST_ASIO_HAS_EVENTFD)
 
 #endif // BOOST_ASIO_DETAIL_EVENTFD_SELECT_INTERRUPTER_HPP
-

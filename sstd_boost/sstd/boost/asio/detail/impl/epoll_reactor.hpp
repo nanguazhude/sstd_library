@@ -89,4 +89,3 @@ void epoll_reactor::move_timer(timer_queue<Time_Traits>& queue,
 #endif // defined(BOOST_ASIO_HAS_EPOLL)
 
 #endif // BOOST_ASIO_DETAIL_IMPL_EPOLL_REACTOR_HPP
-

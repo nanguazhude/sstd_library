@@ -30,4 +30,3 @@ struct common_settings
 };
 
 #endif // BOOST_GEOMETRY_COMMON_SETTINGS_HPP
-

@@ -23,4 +23,3 @@ struct rational_c_tag : int_<10> {};
 
 #endif // BOOST_RATIO_EXTENSIONS
 #endif  // BOOST_RATIO_MPL_RATIONAL_C_TAG_HPP
-

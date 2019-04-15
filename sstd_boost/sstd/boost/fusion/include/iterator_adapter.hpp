@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/iterator/iterator_adapter.hpp>
 
 #endif
-

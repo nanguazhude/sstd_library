@@ -19,4 +19,3 @@ if (OPENSSL_FOUND)
     add_subdirectory (stackless-ssl)
     add_subdirectory (sync-ssl)
 endif()
-

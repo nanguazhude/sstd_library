@@ -44,4 +44,3 @@ struct request
 } // namespace http
 
 #endif // HTTP_SERVER4_REQUEST_HPP
-

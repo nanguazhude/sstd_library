@@ -47,4 +47,3 @@ struct safe_mode_exception
 if(!(expr)){throw safe_mode_exception(error_code);}
 
 #endif
-

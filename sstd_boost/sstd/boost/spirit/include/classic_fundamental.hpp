@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_FUNDAMENTAL
 #include <sstd/boost/spirit/home/classic/meta/fundamental.hpp>
 #endif
-

@@ -29,4 +29,3 @@ int main() {
     f(hana::make_tuple(1, 2, 3));
     f(fusion::make_vector(1, 2, 3));
 }
-

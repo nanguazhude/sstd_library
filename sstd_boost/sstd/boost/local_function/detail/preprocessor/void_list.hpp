@@ -117,5 +117,3 @@
 #endif // VARIADICS
 
 #endif // #include guard
-
-

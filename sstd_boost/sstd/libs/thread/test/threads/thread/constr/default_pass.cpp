@@ -28,4 +28,3 @@ int main()
   BOOST_TEST(t.get_id() == boost::thread::id());
   return boost::report_errors();
 }
-

@@ -14,4 +14,3 @@
     BOOST_PP_SEQ_HEAD(TEMPLATE_PARAMS_SEQ)
 
 #endif
-

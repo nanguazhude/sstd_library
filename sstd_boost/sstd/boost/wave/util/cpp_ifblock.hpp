@@ -159,4 +159,3 @@ protected:
 #endif
 
 #endif // !defined(CPP_IFBLOCK_HPP_D4676B36_00C5_41F4_BC9F_9CBBAE3B8006_INCLUDED)
-

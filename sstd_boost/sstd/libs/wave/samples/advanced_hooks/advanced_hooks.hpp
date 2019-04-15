@@ -165,4 +165,3 @@ private:
 };
 
 #endif // !defined(BOOST_WAVE_ADVANCED_PREPROCESSING_HOOKS_INCLUDED)
-

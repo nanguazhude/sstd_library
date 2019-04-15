@@ -85,4 +85,3 @@ struct remove_member_cv : detail::remove_member_cv_impl<T> {};
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_REMOVE_MEMBER_CV_HPP
-

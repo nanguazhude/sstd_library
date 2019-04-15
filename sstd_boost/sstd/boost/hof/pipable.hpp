@@ -213,4 +213,3 @@ auto operator|(A&& a, static_<F> f) BOOST_HOF_RETURNS
 }} // namespace boost::hof
 
 #endif
-

@@ -145,4 +145,3 @@ int test_main(int argc, char* argv[])
   all_gatherv_test(comm, string_list_generator(), "list of strings");
   return 0;
 }
-

@@ -14,4 +14,3 @@
 #include <sstd/boost/geometry/index/detail/rtree/quadratic/redistribute_elements.hpp>
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_RTREE_QUADRATIC_QUADRATIC_HPP
-

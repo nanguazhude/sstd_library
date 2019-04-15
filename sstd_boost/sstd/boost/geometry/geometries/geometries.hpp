@@ -27,4 +27,3 @@
 #include <sstd/boost/geometry/geometries/segment.hpp>
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_HPP
-

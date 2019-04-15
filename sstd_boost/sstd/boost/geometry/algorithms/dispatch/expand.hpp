@@ -55,4 +55,3 @@ struct expand : not_implemented<TagOut, Tag>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DISPATCH_EXPAND_HPP
-

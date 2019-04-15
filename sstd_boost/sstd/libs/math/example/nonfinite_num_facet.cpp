@@ -289,4 +289,3 @@ nonfinite_num_facet simple example.
   End nonfinite_num_facet.cpp
 
 */
-

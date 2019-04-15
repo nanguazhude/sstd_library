@@ -16,4 +16,3 @@ void test()
     boost::function0<int> f1;
     f1 = bad_fn;
 }
-

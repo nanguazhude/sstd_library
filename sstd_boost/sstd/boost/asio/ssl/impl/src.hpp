@@ -26,4 +26,3 @@
 #include <sstd/boost/asio/ssl/impl/rfc2818_verification.ipp>
 
 #endif // BOOST_ASIO_SSL_IMPL_SRC_HPP
-

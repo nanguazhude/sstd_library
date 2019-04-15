@@ -31,4 +31,3 @@ namespace boost { namespace hana {
 }}
 
 #endif // !BOOST_HANA_EXAMPLE_CPPCON_2014_MATRIX_COMPARABLE_HPP
-

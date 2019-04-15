@@ -70,4 +70,3 @@ inline void construct(A& allocator, T* ptr, T* end)
 } // boost
 
 #endif
-

@@ -119,4 +119,3 @@ namespace boost {
 
 
 #endif // BOOST_GRAPH_DETAIL_DETAIL_EDGE_HPP
-

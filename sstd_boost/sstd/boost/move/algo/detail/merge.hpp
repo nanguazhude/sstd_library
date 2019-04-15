@@ -551,4 +551,3 @@ void uninitialized_merge_with_left_placed
 }  //namespace boost {
 
 #endif   //#define BOOST_MOVE_MERGE_HPP
-

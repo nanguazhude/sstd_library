@@ -80,5 +80,3 @@ const View&
 } // namespace boost
 
 #endif // BOOST_BIMAP_RELATION_DETAIL_MUTANT_HPP
-
-

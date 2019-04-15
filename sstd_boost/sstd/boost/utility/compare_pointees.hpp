@@ -73,5 +73,3 @@ struct less_pointees_t
 } // namespace boost
 
 #endif
-
-

@@ -194,5 +194,3 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 
 #include <sstd/boost/spirit/home/classic/core/scanner/impl/skipper.ipp>
 #endif
-
-

@@ -37,4 +37,3 @@ BOOST_AUTO_TEST_CASE(search_path)
 
     BOOST_CHECK(!bp::search_path(filename, path).empty());
 }
-

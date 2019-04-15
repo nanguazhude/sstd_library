@@ -197,4 +197,3 @@ BOOST_ASIO_TEST_SUITE
   "ssl/stream",
   BOOST_ASIO_TEST_CASE(ssl_stream_compile::test)
 )
-

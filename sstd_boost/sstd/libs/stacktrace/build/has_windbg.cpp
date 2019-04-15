@@ -11,4 +11,3 @@
 int main() {
     ::CoInitializeEx(0, COINIT_MULTITHREADED);
 }
-

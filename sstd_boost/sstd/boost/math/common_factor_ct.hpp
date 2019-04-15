@@ -29,4 +29,3 @@ namespace math
 
 
 #endif  // BOOST_MATH_COMMON_FACTOR_CT_HPP
-

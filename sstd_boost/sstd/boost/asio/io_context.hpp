@@ -876,4 +876,3 @@ boost::asio::detail::service_id<Type> service_base<Type>::id;
 #endif // !defined(BOOST_ASIO_NO_EXTENSIONS)
 
 #endif // BOOST_ASIO_IO_CONTEXT_HPP
-

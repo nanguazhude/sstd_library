@@ -78,4 +78,3 @@ BOOST_COMPUTE_DECLARE_BUILTIN_FUNCTION(trunc, T (T), class T)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_FUNCTIONAL_MATH_HPP
-

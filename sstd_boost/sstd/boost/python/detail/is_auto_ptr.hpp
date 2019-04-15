@@ -28,4 +28,3 @@ struct is_auto_ptr : mpl::false_
 }}} // namespace boost::python::detail
 
 #endif // IS_AUTO_PTR_DWA2003224_HPP
-

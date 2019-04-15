@@ -95,5 +95,3 @@ namespace boost
 } // end namespace boost
 
 #endif // BOOST_SIGNALS2_TRACKED_OBJECTS_VISITOR_HPP
-
-

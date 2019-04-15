@@ -100,5 +100,3 @@ class multiset_adaptor :
 
 
 #endif // BOOST_BIMAP_CONTAINER_ADAPTOR_MULTISET_ADAPTOR_HPP
-
-

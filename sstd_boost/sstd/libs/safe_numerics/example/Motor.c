@@ -177,4 +177,3 @@ void main()
 	}
 } // main()
 // end of file motor.c
-

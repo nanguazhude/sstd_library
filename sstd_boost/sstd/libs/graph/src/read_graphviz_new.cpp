@@ -864,4 +864,3 @@ dIGRaph foo {
   y1@n [color=red]
 }
 #endif
-

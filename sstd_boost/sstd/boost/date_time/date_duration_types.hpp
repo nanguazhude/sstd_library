@@ -268,4 +268,3 @@ namespace date_time {
 }} // namespace boost::date_time
 
 #endif // DATE_DURATION_TYPES_HPP___
-

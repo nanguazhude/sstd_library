@@ -358,4 +358,3 @@ typedef niederreiter_base2_engine<boost::uint_least64_t, 64u, default_niederreit
 } // namespace boost
 
 #endif // BOOST_RANDOM_NIEDERREITER_BASE2_HPP
-

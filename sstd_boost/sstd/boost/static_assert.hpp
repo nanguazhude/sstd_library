@@ -176,6 +176,3 @@ template<int x> struct static_assert_test{};
 #endif // defined(BOOST_NO_CXX11_STATIC_ASSERT)
 
 #endif // BOOST_STATIC_ASSERT_HPP
-
-
-

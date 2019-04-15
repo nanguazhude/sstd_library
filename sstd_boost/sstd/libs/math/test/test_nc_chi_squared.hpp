@@ -442,4 +442,3 @@ void test_accuracy(T, const char* type_name)
    do_test_nc_chi_squared<T>(nccs_big, type_name, "Non Central Chi Squared, large parameters");
    quantile_sanity_check<T>(nccs_big, type_name, "Non Central Chi Squared, large parameters");
 }
-

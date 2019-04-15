@@ -73,4 +73,3 @@ bool test_range_insertion()
 }  //namespace boost {
 
 #endif   //#ifndef BOOST_CONTAINER_TEST_INSERT_TEST_HPP
-

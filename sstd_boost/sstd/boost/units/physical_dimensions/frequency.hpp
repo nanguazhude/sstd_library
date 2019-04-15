@@ -26,4 +26,3 @@ typedef derived_dimension<time_base_dimension,-1>::type frequency_dimension;
 } // namespace boost
 
 #endif // BOOST_UNITS_FREQUENCY_DERIVED_DIMENSION_HPP
-

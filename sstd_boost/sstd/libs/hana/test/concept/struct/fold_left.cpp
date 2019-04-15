@@ -57,4 +57,3 @@ int main() {
     hana::fold_left(obj(MoveOnly{}), 0, [](int, auto) { return 0; });
     hana::fold_left(obj(MoveOnly{}, MoveOnly{}), 0, [](int, auto) { return 0; });
 }
-

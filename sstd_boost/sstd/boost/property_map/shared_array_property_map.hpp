@@ -50,4 +50,3 @@ make_shared_array_property_map(size_t n, const T&, const IndexMap& index) {
 } // end namespace boost
 
 #endif // BOOST_SHARED_ARRAY_PROPERTY_MAP_HPP
-

@@ -29,4 +29,3 @@ using ::GetCurrentThread;
 }
 
 #endif // BOOST_WINAPI_GET_CURRENT_THREAD_HPP_INCLUDED_
-

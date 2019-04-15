@@ -291,4 +291,3 @@ struct project2nd {
 }
 
 #endif // BOOST_GRAPH_DETAIL_HISTOGRAM_SORT_HPP
-

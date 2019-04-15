@@ -141,4 +141,3 @@ void fileview::cow()
    if(!pimpl.unique())
       pimpl.reset(new implementation(*pimpl));
 }
-

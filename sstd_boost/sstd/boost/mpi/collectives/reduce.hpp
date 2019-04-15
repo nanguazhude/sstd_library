@@ -374,4 +374,3 @@ void reduce(const communicator& comm, const T& in_value, Op op, int root)
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_REDUCE_HPP
-

@@ -290,4 +290,3 @@ BOOST_AUTO_TEST_CASE( dense_output_dopri5_with_ranges )
 
 
 BOOST_AUTO_TEST_SUITE_END()
-

@@ -25,4 +25,3 @@
 #include <sstd/boost/asio/connect.hpp>
 
 #endif // BOOST_ASIO_TS_SOCKET_HPP
-

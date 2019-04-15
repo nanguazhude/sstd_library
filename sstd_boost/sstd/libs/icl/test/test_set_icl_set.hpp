@@ -137,4 +137,3 @@ void itl_set_check_partial_invertive_monoid_plus_4_bicremental_types()
 }
 
 #endif // LIBS_ICL_TEST_TEST_SET_ICL_SET_HPP_JOFA_090119
-

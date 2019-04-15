@@ -356,4 +356,3 @@ using iterators::enable_if_convertible;
 #include <sstd/boost/iterator/detail/config_undef.hpp>
 
 #endif // BOOST_ITERATOR_ADAPTOR_23022003THW_HPP
-

@@ -207,4 +207,3 @@ void register_skeleton_and_content(const T& value, PyTypeObject* type)
 } } } // end namespace boost::mpi::python
 
 #endif // BOOST_MPI_PYTHON_SKELETON_AND_CONTENT_HPP
-

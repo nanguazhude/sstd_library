@@ -45,5 +45,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_union<my_union>::value, true);
 BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_class<my_union>::value, false);
 
 TT_TEST_END
-
-

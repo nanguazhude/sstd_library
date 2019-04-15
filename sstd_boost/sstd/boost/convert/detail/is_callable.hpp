@@ -98,4 +98,3 @@ class __trait_name__                                                            
 }
 
 #endif // BOOST_CONVERT_IS_CALLABLE_HPP
-

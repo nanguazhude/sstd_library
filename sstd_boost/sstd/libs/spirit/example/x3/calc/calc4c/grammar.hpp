@@ -190,4 +190,3 @@ namespace client
 
     auto const calculator = calculator_grammar::calculator();
 }
-

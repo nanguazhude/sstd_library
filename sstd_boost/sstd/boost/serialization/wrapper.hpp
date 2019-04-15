@@ -58,4 +58,3 @@ struct is_wrapper_impl<const T> : boost::mpl::true_ {}; \
 /**/
 
 #endif //BOOST_SERIALIZATION_WRAPPER_HPP
-

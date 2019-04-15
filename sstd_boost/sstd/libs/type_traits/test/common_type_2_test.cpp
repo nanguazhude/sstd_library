@@ -220,4 +220,3 @@ TT_TEST_BEGIN(common_type)
 #endif
 }
 TT_TEST_END
-

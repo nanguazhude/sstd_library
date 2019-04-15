@@ -93,4 +93,3 @@ inline BOOST_TEMPLATED_STREAM(ostream, E,T)& operator<<(
 } // namespace boost
 
 #endif // BOOST_VARIANT_DETAIL_VARIANT_IO_HPP
-

@@ -325,4 +325,3 @@ int CORD_vprintf(CORD format, va_list args);
 #endif /* CORD_NO_IO */
 
 # endif /* CORD_H */
-

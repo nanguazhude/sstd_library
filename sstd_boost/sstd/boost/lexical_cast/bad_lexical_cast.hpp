@@ -98,5 +98,3 @@ namespace boost
 } // namespace boost
 
 #endif // BOOST_LEXICAL_CAST_BAD_LEXICAL_CAST_HPP
-
-

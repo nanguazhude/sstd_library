@@ -954,4 +954,3 @@ inline boost::system::error_category::operator std::error_category const & () co
 #endif // #if defined(BOOST_SYSTEM_HAS_SYSTEM_ERROR)
 
 #endif // BOOST_SYSTEM_ERROR_CODE_HPP_INCLUDED
-

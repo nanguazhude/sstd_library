@@ -50,5 +50,3 @@ BOOST_METAPARSE_TEST_CASE(int)
   // test_with_empty_string
   BOOST_MPL_ASSERT((is_error<apply_wrap2<int_, str_, start> >));
 }
-
-

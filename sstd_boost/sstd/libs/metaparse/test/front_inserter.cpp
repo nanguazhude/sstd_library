@@ -23,5 +23,3 @@ BOOST_METAPARSE_TEST_CASE(front_inserter)
     equal<deque<int, char>, front_inserter::apply<deque<char>, int>::type>
   ));
 }
-
-

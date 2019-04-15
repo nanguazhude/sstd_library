@@ -84,4 +84,3 @@ public:
 #endif
 
 #endif // BOOST_FIBERS_ALGO_SHARED_WORK_H
-

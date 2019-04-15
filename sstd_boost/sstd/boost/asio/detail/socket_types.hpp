@@ -416,4 +416,3 @@ const int always_fail_option = 2;
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_SOCKET_TYPES_HPP
-

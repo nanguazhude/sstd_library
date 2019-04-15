@@ -115,4 +115,3 @@ int main()
 }
 
 #include <sstd/boost/move/detail/config_end.hpp>
-

@@ -522,4 +522,3 @@ inline typename channel_traits<Channel>::value_type channel_invert(Channel x) {
 } }  // namespace boost::gil
 
 #endif
-

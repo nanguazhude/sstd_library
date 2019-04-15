@@ -160,4 +160,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_nothrow_swappable<std::pair<V, int> cons
 #endif
 
 TT_TEST_END
-

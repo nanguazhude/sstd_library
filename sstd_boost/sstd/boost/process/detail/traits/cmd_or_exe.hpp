@@ -83,4 +83,3 @@ struct initializer_builder<cmd_or_exe_tag<wchar_t>>;
 
 
 #endif /* BOOST_PROCESS_DETAIL_STRING_TRAITS_HPP_ */
-

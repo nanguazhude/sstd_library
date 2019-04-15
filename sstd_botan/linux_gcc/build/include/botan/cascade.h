@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Block Cipher Cascade
 * (C) 2010 Jack Lloyd
 *

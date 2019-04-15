@@ -332,4 +332,3 @@ namespace boost { namespace spirit { namespace karma
 }}}
 
 #endif // defined(BOOST_SPIRIT_KARMA_REAL_POLICIES_MAR_02_2007_0936AM)
-

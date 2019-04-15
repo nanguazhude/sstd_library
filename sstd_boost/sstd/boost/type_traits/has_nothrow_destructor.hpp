@@ -54,4 +54,3 @@ template <class T> struct has_nothrow_destructor : public ::boost::has_trivial_d
 #endif
 
 #endif // BOOST_TT_HAS_NOTHROW_DESTRUCTOR_HPP_INCLUDED
-

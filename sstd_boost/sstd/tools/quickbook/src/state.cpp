@@ -185,4 +185,3 @@ namespace quickbook
         boost::swap(state.min_section_level, min_section_level);
     }
 }
-

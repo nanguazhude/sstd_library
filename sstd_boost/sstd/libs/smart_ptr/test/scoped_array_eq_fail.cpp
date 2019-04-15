@@ -25,4 +25,3 @@ int main()
     p == q; // must fail
     return 0;
 }
-

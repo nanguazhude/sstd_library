@@ -73,5 +73,3 @@ BOOST_AUTO_TEST_CASE( extract )
      BOOST_CHECK_EQUAL(result.isEmpty(), false);
      stream << "hallo" << result << endl;
 }
-
-

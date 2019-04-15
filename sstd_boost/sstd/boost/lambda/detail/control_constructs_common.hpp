@@ -41,11 +41,3 @@ public:
 } // boost
 
 #endif // BOOST_CONTROL_CONSTRUCTS_COMMON_HPP
-
-
-
-
-
-
-
-

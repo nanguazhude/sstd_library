@@ -67,4 +67,3 @@ typedef basic_segmented_stack_allocator< stack_traits > segmented_stack_allocato
 #endif
 
 #endif // BOOST_COROUTINES_SEGMENTED_STACK_ALLOCATOR_H
-

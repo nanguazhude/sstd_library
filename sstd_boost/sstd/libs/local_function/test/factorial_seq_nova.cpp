@@ -7,5 +7,3 @@
 
 #include "nova.hpp"
 #include "factorial_seq.cpp"
-
-

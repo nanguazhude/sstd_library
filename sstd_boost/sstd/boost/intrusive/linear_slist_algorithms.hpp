@@ -340,4 +340,3 @@ struct get_algo<LinearSListAlgorithms, NodeTraits>
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_LINEAR_SLIST_ALGORITHMS_HPP
-

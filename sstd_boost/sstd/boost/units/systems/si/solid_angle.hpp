@@ -31,4 +31,3 @@ BOOST_UNITS_STATIC_CONSTANT(steradians,solid_angle);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_SOLID_ANGLE_HPP
-

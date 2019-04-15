@@ -57,5 +57,3 @@
             recursive)
 
 #endif // #include guard
-
-

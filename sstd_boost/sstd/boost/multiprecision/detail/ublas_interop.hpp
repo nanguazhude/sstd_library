@@ -74,5 +74,3 @@ struct promote_traits<boost::multiprecision::detail::expression<tag, Arg1, Arg2,
 }}} // namespace
 
 #endif
-
-

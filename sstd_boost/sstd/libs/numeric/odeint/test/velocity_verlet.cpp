@@ -296,4 +296,3 @@ BOOST_FIXTURE_TEST_CASE( test_with_unit_ref , velocity_verlet_fixture )
 
 
 BOOST_AUTO_TEST_SUITE_END()
-

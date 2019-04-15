@@ -99,4 +99,3 @@ private:
 #endif // defined(__GNUC__) && (defined(__i386__) || defined(__x86_64__))
 
 #endif // BOOST_ASIO_DETAIL_GCC_X86_FENCED_BLOCK_HPP
-

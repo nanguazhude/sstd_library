@@ -261,4 +261,3 @@ struct feature_of<tag::weighted_p_square_cumulative_distribution>
 }} // namespace boost::accumulators
 
 #endif
-

@@ -668,4 +668,3 @@ end( unbuffered_channel< T > &) {
 #endif
 
 #endif // BOOST_FIBERS_UNBUFFERED_CHANNEL_H
-

@@ -244,4 +244,3 @@ struct error_info
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif // BOOST_INTERPROCESS_ERRORS_HPP
-

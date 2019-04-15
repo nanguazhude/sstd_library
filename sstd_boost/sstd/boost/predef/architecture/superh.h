@@ -65,4 +65,3 @@ If available versions \[1-5\] are specifically detected.
 
 #include <sstd/boost/predef/detail/test.h>
 BOOST_PREDEF_DECLARE_TEST(BOOST_ARCH_SH,BOOST_ARCH_SH_NAME)
-

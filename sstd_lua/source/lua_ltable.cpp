@@ -1,4 +1,4 @@
-/*
+﻿/*
 ** $Id: ltable.c,v 2.118.1.4 2018/06/08 16:22:51 roberto Exp $
 ** Lua tables (hash)
 ** See Copyright Notice in lua.h
@@ -434,7 +434,7 @@ Table *luaH_new (lua_State *L) {
 void luaH_free (lua_State *L, Table *t) {
 
   TableUserData::freeUserData(t->userData);
-    
+
   if (!isdummy(t))
     luaM_freearray(L, t->node, cast(size_t, sizenode(t)));
   luaM_freearray(L, t->array, t->sizearray);

@@ -42,4 +42,3 @@ using api::_;
 }} // namespace boost::python
 
 #endif // SLICE_NIL_DWA2002620_HPP
-

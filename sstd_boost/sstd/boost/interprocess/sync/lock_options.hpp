@@ -61,4 +61,3 @@ static const accept_ownership_type  accept_ownership = accept_ownership_type();
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif // BOOST_INTERPROCESS_LOCK_OPTIONS_HPP
-

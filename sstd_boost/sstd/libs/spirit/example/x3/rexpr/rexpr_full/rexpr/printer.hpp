@@ -55,4 +55,3 @@ namespace rexpr { namespace ast
 }}
 
 #endif
-

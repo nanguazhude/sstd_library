@@ -55,5 +55,3 @@ std::basic_ostream<CharT, TraitsT>& do_stream_st(std::basic_ostream<CharT, Trait
 //]
 
 #endif // USER_CONFIG2_HPP
-
-

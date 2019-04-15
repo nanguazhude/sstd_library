@@ -469,4 +469,3 @@ void test_safe_mode()
 
   test_integral_bimap<bimap3_type>();
 }
-

@@ -804,4 +804,3 @@ typedef basic_rules<wchar_t> wrules;
 }
 
 #endif
-

@@ -44,4 +44,3 @@ BOOST_AUTO_TEST_CASE(test5, * boost::unit_test::depends_on("s1"))
 {
   BOOST_TEST(true);
 }
-

@@ -17,4 +17,3 @@
 #include <sstd/boost/detail/workaround.hpp>
 
 #endif // BOOST_VARIANT_DETAIL_CONFIG_HPP
-

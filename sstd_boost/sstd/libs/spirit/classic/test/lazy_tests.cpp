@@ -24,5 +24,3 @@ int main()
     BOOST_TEST((result == 123));
     return boost::report_errors();
 }
-
-

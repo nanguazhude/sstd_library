@@ -29,4 +29,3 @@ main()
         cout << *it;    //  if found, print the result
     return 0;
 }
-

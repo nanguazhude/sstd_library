@@ -105,4 +105,3 @@ lookup_classname(Traits const &traits, char const (&cname)[N], bool icase)
 }}
 
 #endif
-

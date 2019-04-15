@@ -49,4 +49,3 @@
 /**/
 
 #endif // BOOST_TTI_DETAIL_MEM_TYPE_HPP
-

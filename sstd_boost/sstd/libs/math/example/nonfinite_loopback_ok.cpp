@@ -85,6 +85,3 @@ Output:
 nonfinite_loopback_ok.vcxproj -> J:\Cpp\fp_facet\fp_facet\Debug\nonfinite_loopback_ok.exe
 
 */
-
-
-

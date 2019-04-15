@@ -188,4 +188,3 @@ boost::phoenix::function<unary_expr<op_pos> > pos;
 boost::phoenix::function<unary_expr<op_neg> > neg;
 
 #endif
-

@@ -14,5 +14,3 @@
 
 int integer_g = 100;
 BOOST_DLL_ALIAS_SECTIONED(integer_g, integer_g_aliased, "long_section_name")
-
-

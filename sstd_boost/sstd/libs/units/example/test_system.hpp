@@ -151,4 +151,3 @@ template<> struct base_unit_info<test::second_base_unit>
 } // namespace boost
 
 #endif // MCS_TEST_SYSTEM_HPP
-

@@ -49,4 +49,3 @@ struct concept_interface<concept2<T>, Base, T> : Base
 BOOST_MPL_ASSERT((boost::is_same<any<concept2<> >::id_type, char>));
 BOOST_MPL_ASSERT((boost::is_same<any<mpl::vector<concept2<>, concept1<> > >::id_type, char>));
 BOOST_MPL_ASSERT((boost::is_same<any<mpl::vector<concept1<>, concept2<> > >::id_type, char>));
-

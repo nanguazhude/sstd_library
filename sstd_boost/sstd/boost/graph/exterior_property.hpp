@@ -115,4 +115,3 @@ struct exterior_edge_property
 } /* namespace boost */
 
 #endif
-

@@ -324,5 +324,3 @@ void generate_indexes()
       }
    }
 }
-
-

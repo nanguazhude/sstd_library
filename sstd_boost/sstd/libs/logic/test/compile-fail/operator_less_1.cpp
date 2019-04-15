@@ -14,4 +14,3 @@ int main(int, char*[])
 
   return f < t; // expect to see: error: invalid operands to binary expression ('boost::logic::tribool' and 'boost::logic::tribool')
 }
-

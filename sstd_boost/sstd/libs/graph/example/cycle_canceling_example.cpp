@@ -25,5 +25,3 @@ int main() {
     assert(cost == 29);
     return 0;
 }
-
-

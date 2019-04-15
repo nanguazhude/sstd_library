@@ -14,4 +14,3 @@
 #include "sstd/boost/range/iterator_range_io.hpp"
 
 #endif // include guard
-

@@ -50,4 +50,3 @@ OutputIterator exclusive_scan(InputIterator first, InputIterator last,
 }} // namespace boost and algorithm
 
 #endif // BOOST_ALGORITHM_EXCLUSIVE_SCAN_HPP
-

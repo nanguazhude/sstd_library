@@ -21,4 +21,3 @@ static bool a = func<int>();
 int main()
 {
 }
-

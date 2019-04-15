@@ -44,4 +44,3 @@ void walk_data::operator () (const tag &t)
     );
     std::cout << "End of tag:" << t.id << '\n';
 }
-

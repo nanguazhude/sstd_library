@@ -39,4 +39,3 @@ BOOST_FUSION_ADAPT_STRUCT(client::ast::while_statement,
 )
 
 #endif
-

@@ -84,5 +84,3 @@ BOOST_MPL_ASSERT_NOT((
 BOOST_MPL_ASSERT_NOT((
   ft::is_nonmember_callable_builtin< int[1] >
 ));
-
-

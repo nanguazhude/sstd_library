@@ -1948,4 +1948,3 @@ public:
 #endif
 
 #endif // BOOST_MATH_QUADRATURE_GAUSS_KRONROD_HPP
-

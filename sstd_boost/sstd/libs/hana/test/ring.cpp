@@ -22,4 +22,3 @@ int main() {
     // mult
     static_assert(hana::mult(6, 4) == 6 * 4, "");
 }
-

@@ -17,4 +17,3 @@
 Microsoft::WRL::Wrappers::RoInitializeWrapper runtime(RO_INIT_MULTITHREADED);
 
 #endif
-

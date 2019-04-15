@@ -259,5 +259,3 @@ wfixed_managed_shared_memory;
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_MANAGED_SHARED_MEMORY_HPP
-
-

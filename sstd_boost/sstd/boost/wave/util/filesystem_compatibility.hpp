@@ -193,4 +193,3 @@ namespace boost { namespace wave { namespace util
 }}}
 
 #endif
-

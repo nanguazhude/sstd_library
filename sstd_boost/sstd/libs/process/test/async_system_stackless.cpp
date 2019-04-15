@@ -64,4 +64,3 @@ BOOST_AUTO_TEST_CASE(stackless, *boost::unit_test::timeout(15))
 
     BOOST_CHECK(did_something_else);
 }
-

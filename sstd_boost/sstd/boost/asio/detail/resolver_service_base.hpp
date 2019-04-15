@@ -140,4 +140,3 @@ private:
 #endif // defined(BOOST_ASIO_HEADER_ONLY)
 
 #endif // BOOST_ASIO_DETAIL_RESOLVER_SERVICE_BASE_HPP
-

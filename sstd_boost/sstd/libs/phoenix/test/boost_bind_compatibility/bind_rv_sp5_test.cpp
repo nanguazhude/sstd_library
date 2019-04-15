@@ -68,4 +68,3 @@ int main()
     BOOST_TEST( (*xp).f() == 42 );
     return boost::report_errors();
 }
-

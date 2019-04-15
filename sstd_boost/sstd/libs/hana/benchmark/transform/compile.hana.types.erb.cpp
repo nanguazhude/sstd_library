@@ -24,4 +24,3 @@ int main() {
     constexpr auto result = hana::transform(types, hana::metafunction<f>);
     (void)result;
 }
-

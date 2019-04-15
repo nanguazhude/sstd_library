@@ -17,5 +17,3 @@
 #include <sstd/boost/spirit/repository/home/qi/operator.hpp>
 
 #endif
-
-

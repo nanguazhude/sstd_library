@@ -25,4 +25,3 @@ void serialize(Archive& ar, ptr_deque<T, CloneAllocator, Allocator>& c, const un
 } // namespace boost
 
 #endif
-

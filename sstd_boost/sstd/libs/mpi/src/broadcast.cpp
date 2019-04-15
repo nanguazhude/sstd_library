@@ -151,4 +151,3 @@ void broadcast<const content>(const communicator& comm, const content& c,
 }
 
 } } // end namespace boost::mpi
-

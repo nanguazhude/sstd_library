@@ -93,5 +93,3 @@ void test_round_conversion_long_double()
 #endif
     BOOST_CHECK(true);
 }
-
-

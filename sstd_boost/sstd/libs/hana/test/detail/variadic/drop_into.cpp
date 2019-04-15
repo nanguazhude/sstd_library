@@ -76,4 +76,3 @@ int main() {
     vd::drop_into<1>(f)(ct_eq<0>{}, non_pod{});
     vd::drop_into<1>(f)(non_pod{}, ct_eq<1>{});
 }
-

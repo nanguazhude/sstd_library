@@ -82,4 +82,3 @@ int main() {
         BOOST_HANA_RUNTIME_CHECK(hana::at_key(xs, hana::int_c<1>) == '9');
     }
 }
-

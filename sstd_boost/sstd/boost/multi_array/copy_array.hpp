@@ -66,4 +66,3 @@ void copy_array (Array1& source, Array2& dest) {
 } // namespace boost
 
 #endif // COPY_ARRAY_RG092101_HPP
-

@@ -194,5 +194,3 @@ cend() const ->
 } // boost
 
 #endif
-
-

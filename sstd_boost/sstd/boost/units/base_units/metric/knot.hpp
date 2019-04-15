@@ -17,4 +17,3 @@
 BOOST_UNITS_DEFINE_BASE_UNIT_WITH_CONVERSIONS(metric, knot, "knot", "kt", 1852./3600., boost::units::si::velocity, -403);
 
 #endif // BOOST_UNIT_SYSTEMS_METRIC_KNOT_HPP_INCLUDED
-

@@ -29,4 +29,3 @@ struct O1_size_impl< aux::half_open_range_tag >
 }}
 
 #endif // BOOST_MPL_AUX_RANGE_C_O1_SIZE_HPP_INCLUDED
-

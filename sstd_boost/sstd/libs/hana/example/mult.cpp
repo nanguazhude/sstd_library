@@ -13,4 +13,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::mult(hana::int_c<3>, hana::int_c<5>) == hana::in
 static_assert(hana::mult(4, 2) == 8, "");
 
 int main() { }
-

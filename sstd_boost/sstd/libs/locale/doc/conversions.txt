@@ -96,6 +96,3 @@ For more details on normalization forms, read <a href="http://unicode.org/report
     return a newly created STL string.
 -   The length of the string may change, see the above example.
 */
-
-
-

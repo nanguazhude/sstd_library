@@ -29,4 +29,3 @@ template<> struct numeric_cast< integral_c_tag,rational_c_tag >
 }
 
 #endif  // BOOST_RATIO_MPL_NUMERIC_CAST_HPP
-

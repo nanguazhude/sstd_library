@@ -44,4 +44,3 @@ typedef basic_waitable_timer<
 #endif // defined(BOOST_ASIO_HAS_CHRONO) || defined(GENERATING_DOCUMENTATION)
 
 #endif // BOOST_ASIO_HIGH_RESOLUTION_TIMER_HPP
-

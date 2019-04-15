@@ -55,5 +55,3 @@ void create_svg(std::string const& filename, Geometry const& a, Geometry const& 
 
 
 #endif // CREATE_SVG_OVERLAY_HPP
-
-

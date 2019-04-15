@@ -77,5 +77,3 @@ void test_binomial(T, const char* type_name)
    std::cout << std::endl;
 #endif
 }
-
-

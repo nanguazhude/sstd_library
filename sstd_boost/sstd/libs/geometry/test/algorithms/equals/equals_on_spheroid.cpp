@@ -253,4 +253,3 @@ BOOST_AUTO_TEST_CASE( equals_segment_segment_geo )
     test_segment_segment<bgm::point<ttmath_big, 2, cs_type> >("geo");
 #endif
 }
-

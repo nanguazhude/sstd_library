@@ -14,4 +14,3 @@
 #include <sstd/boost/geometry/algorithms/detail/is_valid/implementation.hpp>
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_IS_VALID_HPP
-

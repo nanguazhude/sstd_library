@@ -20,4 +20,3 @@
 #include <sstd/boost/vmd/detail/data_equal_common.hpp>
 
 #endif /* BOOST_VMD_DETAIL_DATA_EQUAL_HEADERS_HPP */
-

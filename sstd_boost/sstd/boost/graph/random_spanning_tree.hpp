@@ -107,4 +107,3 @@ namespace boost {
 #include <sstd/boost/graph/iteration_macros_undef.hpp>
 
 #endif // BOOST_GRAPH_RANDOM_SPANNING_TREE_HPP
-

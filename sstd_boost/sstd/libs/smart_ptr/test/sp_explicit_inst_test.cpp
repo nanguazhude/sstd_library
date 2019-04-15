@@ -21,4 +21,3 @@ template class boost::shared_ptr< X >;
 int main()
 {
 }
-

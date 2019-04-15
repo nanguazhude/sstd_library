@@ -45,4 +45,3 @@ struct synthesized_t
 #endif
 
 #endif // BOOST_COROUTINES_DETAIL_FLAGS_H
-

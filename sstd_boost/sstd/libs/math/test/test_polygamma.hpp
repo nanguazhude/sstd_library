@@ -218,5 +218,3 @@ void test_polygamma(T, const char* name)
    } };
    do_test_polygamma<T>(bug_cases, name, "Mathematica Data - Large orders and other bug cases");
 }
-
-

@@ -138,4 +138,3 @@ inline rvalue_from_python_data<T>::~rvalue_from_python_data()
 }}} // namespace boost::python::converter
 
 #endif // FROM_PYTHON_AUX_DATA_DWA2002128_HPP
-

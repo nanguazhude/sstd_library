@@ -34,4 +34,3 @@ BOOST_STATIC_ASSERT(! is_fields<not_fields>::value);
 } // http
 } // beast
 } // boost
-

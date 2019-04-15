@@ -85,4 +85,3 @@ reverse_copy(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_REVERSE_COPY_HPP
-

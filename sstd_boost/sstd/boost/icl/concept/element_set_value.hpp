@@ -27,6 +27,3 @@ co_value(Iterator it_)
 }} // namespace boost icl
 
 #endif
-
-
-

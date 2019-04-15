@@ -35,4 +35,3 @@ namespace boost { namespace tr1{
 } } // namespace boost
 
 #endif // BOOST_TT_IS_BASE_OF_TR1_HPP_INCLUDED
-

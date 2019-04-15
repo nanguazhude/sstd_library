@@ -9,4 +9,3 @@
 #if !((defined(__mips) && __mips == 1) || defined(_MIPS_ISA_MIPS1) || defined(_R3000))
 #error "Not MIPS1"
 #endif
-

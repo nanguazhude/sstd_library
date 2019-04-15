@@ -175,4 +175,3 @@ private:
 } // namespace boost
 
 #endif // BOOST_RANDOM_WEIBULL_DISTRIBUTION_HPP
-

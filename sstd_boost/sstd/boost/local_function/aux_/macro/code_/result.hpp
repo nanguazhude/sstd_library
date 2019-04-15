@@ -104,5 +104,3 @@
     )(id, typename01, decl_traits)
 
 #endif // #include guard
-
-

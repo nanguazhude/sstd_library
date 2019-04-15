@@ -408,4 +408,3 @@ BEAST_DEFINE_TESTSUITE(beast,http,field);
 } // http
 } // beast
 } // boost
-

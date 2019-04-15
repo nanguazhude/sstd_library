@@ -30,5 +30,3 @@ template<typename T> struct add_pointed_const<T const* const>
 } } } // namespace
 
 #endif //#include guard
-
-

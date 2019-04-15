@@ -729,4 +729,3 @@ void test_ignore_policy(RealType)
       check_support<non_central_t_distribution<RealType> >(non_central_t_distribution<RealType>(1, 0));
    } // ordinary floats.
 } // template <class RealType> void test_ignore_policy(RealType)
-

@@ -63,4 +63,3 @@ std::ostream& operator<<(std::ostream& strm, const class_a& a)
 {
    return strm << "class_a(" << a.get() << ")";
 }
-

@@ -51,4 +51,3 @@ BOOST_AUTO_TEST_CASE(inner_product_counting_iterator)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

@@ -26,4 +26,3 @@ void compile_and_link_test()
    check_result<long double>(boost::math::polygamma<long double>(1, l));
 #endif
 }
-

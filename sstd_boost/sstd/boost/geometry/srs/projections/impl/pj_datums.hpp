@@ -173,4 +173,3 @@ static const pj_prime_meridians_type pj_prime_meridians[] =
 }}} // namespace boost::geometry::projections
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_IMPL_PJ_DATUMS_HPP
-

@@ -75,4 +75,3 @@ inline int eval_exit_status(int code)
 }}}}
 
 #endif
-

@@ -18,4 +18,3 @@
 #include <sstd/boost/detail/compressed_pair.hpp>
 
 #endif // BOOST_COMPRESSED_PAIR_HPP
-

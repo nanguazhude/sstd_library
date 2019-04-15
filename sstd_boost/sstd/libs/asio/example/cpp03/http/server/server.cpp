@@ -92,4 +92,3 @@ void server::handle_stop()
 
 } // namespace server
 } // namespace http
-

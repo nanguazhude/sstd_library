@@ -75,4 +75,3 @@ struct cast2nd_impl
 }}}
 
 #endif // BOOST_MPL_AUX_NUMERIC_CAST_HPP_INCLUDED
-

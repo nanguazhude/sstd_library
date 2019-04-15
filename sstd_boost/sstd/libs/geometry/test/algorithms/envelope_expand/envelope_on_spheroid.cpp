@@ -2680,5 +2680,3 @@ BOOST_AUTO_TEST_CASE( envelope_cw_ring )
                   170, -90, 350, 90); // FAILS NOW
 #endif
 }
-
-

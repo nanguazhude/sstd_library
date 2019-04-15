@@ -26,4 +26,3 @@ int main()
     // this should crash
     f( boost::throws() );
 }
-

@@ -229,5 +229,3 @@ unsigned int propagation_test_allocator< T
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //BOOST_CONTAINER_DUMMY_TEST_ALLOCATOR_HPP
-
-

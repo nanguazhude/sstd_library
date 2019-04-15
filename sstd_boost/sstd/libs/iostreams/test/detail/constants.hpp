@@ -65,4 +65,3 @@ inline int data_length()
 } } } // End namespaces detail, iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_TEST_CONSTANTS_HPP_INCLUDED
-

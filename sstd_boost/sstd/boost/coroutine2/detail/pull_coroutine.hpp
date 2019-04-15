@@ -318,4 +318,3 @@ end( pull_coroutine< T > &) {
 #endif
 
 #endif // BOOST_COROUTINES2_DETAIL_PULL_COROUTINE_HPP
-

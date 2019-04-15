@@ -124,4 +124,3 @@ main()
 #undef CHECK_A
     return boost::report_errors();
     }
-

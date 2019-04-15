@@ -135,4 +135,3 @@ inline std::size_t range_calculate_size(all_custom_container<Item> const& contai
 
 
 #endif // GEOMETRY_TEST_TEST_GEOMETRIES_ALL_CUSTOM_CONTAINER_HPP
-

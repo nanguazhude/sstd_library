@@ -324,4 +324,3 @@ replace_all_occurrences_with_wildcards(
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_UTILS_ALGORITHM_HPP
-

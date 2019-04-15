@@ -22,4 +22,3 @@ struct has_back_reference
 }} // namespace boost::python
 
 #endif // HAS_BACK_REFERENCE_DWA2002323_HPP
-

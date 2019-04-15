@@ -45,4 +45,3 @@ struct interval_mutable_traits {
 }  // boost
 
 #endif  // BOOST_POLICY_INTERVAL_TRAITS_HPP
-

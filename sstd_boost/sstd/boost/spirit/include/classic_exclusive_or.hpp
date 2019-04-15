@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_EXCLUSIVE_OR
 #include <sstd/boost/spirit/home/classic/core/composite/exclusive_or.hpp>
 #endif
-

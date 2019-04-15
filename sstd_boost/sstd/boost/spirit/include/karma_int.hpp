@@ -16,4 +16,3 @@
 #include <sstd/boost/spirit/home/karma/numeric/int.hpp>
 
 #endif
-

@@ -32,4 +32,3 @@ void   var_done( struct module_t * );
 #define VAR_DEFAULT  2   /* set only if no previous value */
 
 #endif
-

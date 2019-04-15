@@ -189,4 +189,3 @@ struct disjoint<Segment1, Segment2, 2, segment_tag, segment_tag, false>
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_DISJOINT_LINEAR_LINEAR_HPP
-

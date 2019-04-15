@@ -131,4 +131,3 @@ struct iter_fold_if_impl
 };
 
 }}}
-

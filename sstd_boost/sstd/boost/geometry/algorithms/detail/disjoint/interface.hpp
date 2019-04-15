@@ -244,4 +244,3 @@ inline bool disjoint(Geometry1 const& geometry1,
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_DISJOINT_INTERFACE_HPP
-

@@ -341,4 +341,3 @@ struct assign_inverse<segment_tag, Segment>
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_ASSIGN_VALUES_HPP
-

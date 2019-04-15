@@ -20,4 +20,3 @@ static_assert(std::is_same<foo, ct::class_of_t<int foo::*>>::value, "");
 
 int main() {}
 //]
-

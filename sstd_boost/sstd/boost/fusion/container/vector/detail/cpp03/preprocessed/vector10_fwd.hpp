@@ -31,4 +31,3 @@ namespace boost { namespace fusion
     template <typename T0 , typename T1 , typename T2 , typename T3 , typename T4 , typename T5 , typename T6 , typename T7 , typename T8 , typename T9>
     struct vector10;
 }}
-

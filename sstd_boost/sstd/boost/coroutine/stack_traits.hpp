@@ -40,4 +40,3 @@ struct BOOST_COROUTINES_DECL stack_traits
 #endif
 
 #endif // BOOST_COROUTINES_STACK_TRAITS_H
-

@@ -145,4 +145,3 @@ template <class T> struct has_new_operator : public integral_constant<bool, ::bo
 #endif
 
 #endif // BOOST_TT_HAS_NEW_OPERATOR_HPP_INCLUDED
-

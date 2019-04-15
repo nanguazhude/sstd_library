@@ -18,4 +18,3 @@
 BOOST_CLASS_IMPLEMENTATION(boost::uuids::uuid, boost::serialization::primitive_type)
 
 #endif // BOOST_UUID_SERIALIZE_HPP
-

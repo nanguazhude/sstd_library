@@ -277,5 +277,3 @@ BOOST_TEST_SINGLETON_INST( unit_test_log )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_UNIT_TEST_LOG_HPP_071894GER
-
-

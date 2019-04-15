@@ -247,5 +247,3 @@ BOOST_STATIC_ASSERT(!noexcept(std::declval<checked_int32_t>() = std::declval<boo
 BOOST_STATIC_ASSERT(!noexcept(std::declval<checked_uint32_t>() = std::declval<boost::uint64_t>()));
 
 #endif // noexcept
-
-

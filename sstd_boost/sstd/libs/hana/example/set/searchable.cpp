@@ -23,4 +23,3 @@ int main() {
     // long_c<0> == int_<0>, and therefore int_<0> is found
     BOOST_HANA_CONSTANT_CHECK(xs[hana::long_c<0>] == hana::int_c<0>);
 }
-

@@ -418,5 +418,3 @@ make_range_token_iterator( Iter begin, Iter end, Modifier const& m )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_UTILS_TOKEN_ITERATOR_HPP
-
-

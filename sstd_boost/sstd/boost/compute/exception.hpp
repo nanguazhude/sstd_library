@@ -21,4 +21,3 @@
 #include <sstd/boost/compute/exception/unsupported_extension_error.hpp>
 
 #endif // BOOST_COMPUTE_EXCEPTION_HPP
-

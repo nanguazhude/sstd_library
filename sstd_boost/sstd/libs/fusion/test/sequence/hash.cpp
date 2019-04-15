@@ -57,4 +57,3 @@ int main()
     BOOST_TEST(hash_value(d) != hash_value(e));
     return boost::report_errors();
 }
-

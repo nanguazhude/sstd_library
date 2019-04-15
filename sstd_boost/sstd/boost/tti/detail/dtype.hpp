@@ -78,4 +78,3 @@ struct BOOST_PP_CAT(trait,_detail_type) : \
 /**/
 
 #endif // BOOST_TTI_DETAIL_TYPE_HPP
-

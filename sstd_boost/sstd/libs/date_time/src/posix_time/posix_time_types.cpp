@@ -30,7 +30,3 @@
  */
 /*! @example time_math.cpp Various types of calculations with times and time durations.
  */
-
-
-
-

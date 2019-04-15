@@ -56,4 +56,3 @@ BOOST_AUTO_TEST_CASE( tagged_ptr_test )
         BOOST_REQUIRE_EQUAL(j.get_next_tag(), max_tag);
     }
 }
-

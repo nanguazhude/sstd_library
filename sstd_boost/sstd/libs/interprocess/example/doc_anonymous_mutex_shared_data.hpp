@@ -33,4 +33,3 @@ struct shared_memory_log
 };
 //]
 #include <sstd/boost/interprocess/detail/config_end.hpp>
-

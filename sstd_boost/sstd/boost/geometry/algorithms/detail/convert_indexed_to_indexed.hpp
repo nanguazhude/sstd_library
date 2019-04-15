@@ -78,4 +78,3 @@ struct indexed_to_indexed<Source, Destination, DimensionCount, DimensionCount>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_CONVERT_INDEXED_TO_INDEXED_HPP
-

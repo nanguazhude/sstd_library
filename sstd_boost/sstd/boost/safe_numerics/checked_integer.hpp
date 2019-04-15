@@ -820,4 +820,3 @@ constexpr static checked_result<R> bitwise_not(const R & t) noexcept {
 } // boost
 
 #endif // BOOST_NUMERIC_CHECKED_INTEGER_HPP
-

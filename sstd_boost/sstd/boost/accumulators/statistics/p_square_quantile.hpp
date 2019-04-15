@@ -255,4 +255,3 @@ struct feature_of<tag::weighted_p_square_quantile>
 }} // namespace boost::accumulators
 
 #endif
-

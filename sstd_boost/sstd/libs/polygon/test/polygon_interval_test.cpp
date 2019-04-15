@@ -269,4 +269,3 @@ int main()
     interval_concept_test4();
     return boost::report_errors();
 }
-

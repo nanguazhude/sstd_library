@@ -17,4 +17,3 @@
 #include <sstd/boost/smart_ptr/shared_array.hpp>
 
 #endif  // #ifndef BOOST_SHARED_ARRAY_HPP_INCLUDED
-

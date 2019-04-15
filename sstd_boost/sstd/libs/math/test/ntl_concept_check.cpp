@@ -32,5 +32,3 @@ int main()
 {
    BOOST_CONCEPT_ASSERT((boost::math::concepts::RealTypeConcept<boost::math::ntl::RR>));
 }
-
-

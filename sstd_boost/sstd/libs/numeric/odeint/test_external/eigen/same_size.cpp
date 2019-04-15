@@ -81,4 +81,3 @@ BOOST_AUTO_TEST_CASE( fail_runtime_array )
 
 
 BOOST_AUTO_TEST_SUITE_END()
-

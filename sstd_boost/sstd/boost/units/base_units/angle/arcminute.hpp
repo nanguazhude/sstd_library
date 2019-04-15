@@ -34,4 +34,3 @@ struct base_unit_info<angle::arcminute_base_unit> {
 }
 
 #endif // BOOST_UNIT_BASE_UNITS_ANGLE_ARCMINUTE_HPP_INCLUDED
-

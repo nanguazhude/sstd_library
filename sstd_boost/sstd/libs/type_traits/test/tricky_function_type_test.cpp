@@ -105,12 +105,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_convertible<int(), int(* const volatile)
 BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_convertible<int(), int(&)()>::value), true);
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

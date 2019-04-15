@@ -53,4 +53,3 @@ enum level_type
 } // namespace boost
 
 #endif // BOOST_SERIALIZATION_LEVEL_ENUM_HPP
-

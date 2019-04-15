@@ -222,4 +222,3 @@ namespace boost
 }
 
 #endif // header
-

@@ -90,7 +90,3 @@ void test()
 #endif
 
 } // BOOST_AUTO_TEST_CASE( test_main )
-
-
-
-

@@ -12,5 +12,3 @@ BOOST_PARAMETER_FUNCTION(
 int x = f(pass_foo = 41);
 int main()
 {}
-
-

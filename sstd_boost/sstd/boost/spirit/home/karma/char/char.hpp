@@ -545,4 +545,3 @@ namespace boost { namespace spirit { namespace karma
 }}}   // namespace boost::spirit::karma
 
 #endif
-

@@ -33,4 +33,3 @@
 #endif
 
 #endif // !BOOST_WAVE_WAVE_LEXERTL_CONFIG_HPP_INCLUDED
-

@@ -156,4 +156,3 @@ struct feature_of<tag::weighted_tail_quantile<LeftRight> >
 #endif
 
 #endif
-

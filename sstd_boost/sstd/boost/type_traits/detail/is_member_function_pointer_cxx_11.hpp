@@ -555,4 +555,3 @@ namespace boost {
 }
 
 #endif // BOOST_TT_IS_MEMBER_FUNCTION_POINTER_CXX_11_HPP_INCLUDED
-

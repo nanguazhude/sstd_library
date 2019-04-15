@@ -82,6 +82,3 @@ test_tricky(&tricky_members::rvalue_proc);
 #endif
 
 TT_TEST_END
-
-
-

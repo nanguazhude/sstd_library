@@ -70,4 +70,3 @@ class timer
 } // namespace boost
 
 #endif  // BOOST_TIMER_HPP
-

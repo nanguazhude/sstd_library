@@ -154,4 +154,3 @@ enum class error
 #include <sstd/boost/beast/http/impl/error.ipp>
 
 #endif
-

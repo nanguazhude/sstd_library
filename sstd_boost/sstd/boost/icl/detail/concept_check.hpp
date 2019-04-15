@@ -27,6 +27,3 @@ namespace boost{ namespace icl
 #include <sstd/boost/concept/detail/concept_undef.hpp>
 
 #endif
-
-
-

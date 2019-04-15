@@ -309,4 +309,3 @@ struct default_strategy
 
 }} // namespace boost::geometry
 #endif // BOOST_GEOMETRY_STRATEGIES_GEOGRAPHIC_DISTANCE_SEGMENT_BOX_HPP
-

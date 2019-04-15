@@ -43,5 +43,3 @@ template struct boost::wave::grammars::chlit_grammar_gen<int, token_type>;
 template struct boost::wave::grammars::chlit_grammar_gen<unsigned int, token_type>;
 
 #endif // #if BOOST_WAVE_SEPARATE_GRAMMAR_INSTANTIATION != 0
-
-

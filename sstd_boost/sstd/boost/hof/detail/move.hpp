@@ -22,4 +22,3 @@ move(T&& x) noexcept
 }} // namespace boost::hof
 
 #endif
-

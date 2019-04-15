@@ -37,4 +37,3 @@ inline const Return_Type &force_cast(const Argument_Type &rSrc)
 } // namespace boost
 
 #endif // BOOST_FORCE_CAST_MJM012402_HPP
-

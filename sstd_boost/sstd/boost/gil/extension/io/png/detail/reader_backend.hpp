@@ -685,4 +685,3 @@ public:
 } // namespace boost
 
 #endif
-

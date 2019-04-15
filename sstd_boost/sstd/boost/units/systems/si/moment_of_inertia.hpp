@@ -29,4 +29,3 @@ typedef unit<moment_of_inertia_dimension,si::system>      moment_of_inertia;
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_MOMENT_OF_INERTIA_HPP
-

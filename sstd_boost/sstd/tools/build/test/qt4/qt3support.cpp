@@ -26,5 +26,3 @@ BOOST_AUTO_TEST_CASE( q3table )
     Q3Table q3table;
 
 }
-
-

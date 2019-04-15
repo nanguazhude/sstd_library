@@ -122,4 +122,3 @@ struct custom_real
 };
 
 #endif
-

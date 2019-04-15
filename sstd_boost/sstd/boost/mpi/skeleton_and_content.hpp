@@ -390,4 +390,3 @@ BOOST_SERIALIZATION_USE_ARRAY_OPTIMIZATION(boost::mpi::packed_skeleton_oarchive)
 BOOST_SERIALIZATION_USE_ARRAY_OPTIMIZATION(boost::mpi::packed_skeleton_iarchive)
 
 #endif // BOOST_MPI_SKELETON_AND_CONTENT_HPP
-

@@ -397,4 +397,3 @@ inline void set(Geometry& geometry
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_CORE_ACCESS_HPP
-

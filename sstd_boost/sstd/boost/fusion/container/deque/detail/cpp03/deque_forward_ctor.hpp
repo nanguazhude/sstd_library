@@ -67,4 +67,3 @@ FUSION_HASH endif
 
 #undef N
 #endif
-

@@ -1057,4 +1057,3 @@ int gzlog_close(gzlog *logd)
     free(log);
     return 0;
 }
-

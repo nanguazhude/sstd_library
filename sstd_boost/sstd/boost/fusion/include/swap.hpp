@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/sequence/intrinsic/swap.hpp>
 
 #endif
-

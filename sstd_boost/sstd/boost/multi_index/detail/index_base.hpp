@@ -295,4 +295,3 @@ protected:
 } /* namespace boost */
 
 #endif
-

@@ -92,4 +92,3 @@ char * getoptval( bjam_option * optv, char opt, int subopt )
             return optv->val;
     return 0;
 }
-

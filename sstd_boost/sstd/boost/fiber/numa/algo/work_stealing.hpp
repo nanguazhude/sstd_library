@@ -91,4 +91,3 @@ public:
 #endif
 
 #endif // BOOST_FIBERS_NUMA_ALGO_WORK_STEALING_H
-

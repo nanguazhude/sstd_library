@@ -128,4 +128,3 @@ BOOST_AUTO_TEST_CASE(test_seed_seq_short_output) {
     BOOST_CHECK_EQUAL_COLLECTIONS(
         &store32[0], &store32[0] + 2, &expected_short[0], &expected_short[0] + 2);
 }
-

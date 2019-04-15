@@ -407,4 +407,3 @@ namespace boost { namespace proto
 #undef UNREF
 
 #endif
-

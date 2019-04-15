@@ -156,4 +156,3 @@ BOOST_DATA_TEST_CASE(
   std::cout << var1 << "," << var2 << std::endl;
 }
 // EOF
-

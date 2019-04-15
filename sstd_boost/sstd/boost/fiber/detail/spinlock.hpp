@@ -82,4 +82,3 @@ using spinlock_lock = std::unique_lock< spinlock >;
 #endif
 
 #endif // BOOST_FIBERS_SPINLOCK_H
-

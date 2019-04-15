@@ -43,6 +43,3 @@ public:
 
    static pbcp_application create();
 };
-
-
-

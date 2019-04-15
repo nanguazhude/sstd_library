@@ -104,4 +104,3 @@ struct is_read_only< detail::read_and_no_convert > : mpl::true_ {};
 } // namespace boost
 
 #endif
-

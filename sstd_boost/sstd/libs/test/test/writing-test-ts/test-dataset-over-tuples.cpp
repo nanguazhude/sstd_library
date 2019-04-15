@@ -28,4 +28,3 @@ const std::vector< std::tuple<int, int>> values = {
 BOOST_DATA_TEST_CASE( test1, boost::unit_test::data::make( values ), var1, var2 ) {
         std::cout << var1 << ", " << var2 << "\n";
 }
-

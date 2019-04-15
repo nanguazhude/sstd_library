@@ -22,4 +22,3 @@ struct map_tag;
 }}}
 
 #endif // BOOST_MPL_MAP_AUX_TAG_HPP_INCLUDED
-

@@ -9,4 +9,3 @@
 #include <sstd/boost/predef/detail/endian_compat.h>
 
 #endif
-

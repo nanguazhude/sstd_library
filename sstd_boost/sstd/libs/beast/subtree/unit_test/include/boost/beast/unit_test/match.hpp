@@ -175,4 +175,3 @@ match_library(std::string const& name)
 } // boost
 
 #endif
-

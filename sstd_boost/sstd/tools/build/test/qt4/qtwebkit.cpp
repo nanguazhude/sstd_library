@@ -22,4 +22,3 @@ BOOST_AUTO_TEST_CASE( webkit )
     QWebPage page;
     BOOST_CHECK_EQUAL(page.isModified(), false);
 }
-

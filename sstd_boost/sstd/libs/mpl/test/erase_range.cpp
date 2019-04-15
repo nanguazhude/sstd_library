@@ -32,4 +32,3 @@ MPL_TEST_CASE()
     typedef find<result,unsigned>::type iter;
     MPL_ASSERT(( is_same< iter, end<result>::type > ));
 }
-

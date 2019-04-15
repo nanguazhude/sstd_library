@@ -90,4 +90,3 @@ BOOST_AUTO_TEST_CASE(test_fusion_const)
     BOOST_CHECK_EQUAL(get_static(boost::fusion::distance(boost::fusion::advance_c<2>(boost::fusion::begin(t)), boost::fusion::end(t))), 0);
     BOOST_CHECK_EQUAL(any_cast<const double&>(boost::fusion::deref(boost::fusion::begin(t))), 2.0);
 }
-

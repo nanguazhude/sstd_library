@@ -104,4 +104,3 @@ template<> struct distance_impl<aux::r_iter_tag>
 }}
 
 #endif // BOOST_MPL_AUX_RANGE_C_ITERATOR_HPP_INCLUDED
-

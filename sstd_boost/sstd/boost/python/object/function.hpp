@@ -80,4 +80,3 @@ inline object const& function::name() const
 }}} // namespace boost::python::objects
 
 #endif // FUNCTION_DWA20011214_HPP
-

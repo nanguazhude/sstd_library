@@ -82,4 +82,3 @@ BOOST_AUTO_TEST_CASE( test_main ) {
   test_power ();
   test_power_constexpr ();
 }
-

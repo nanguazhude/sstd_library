@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Mlock Allocator
 * (C) 2012 Jack Lloyd
 *

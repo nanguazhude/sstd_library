@@ -37,5 +37,3 @@ void accept_typeindex(const boost::typeindex::type_index&) {}
 #endif
 
 }
-
-

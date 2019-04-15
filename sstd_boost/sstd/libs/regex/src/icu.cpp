@@ -509,4 +509,3 @@ bool icu_regex_traits::isctype(char_type c, char_class_type f) const
 }
 
 #endif // BOOST_HAS_ICU
-

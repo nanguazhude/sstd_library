@@ -255,7 +255,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::has_nothrow_copy<non_copy>::value, false);
 #endif
 
 TT_TEST_END
-
-
-
-

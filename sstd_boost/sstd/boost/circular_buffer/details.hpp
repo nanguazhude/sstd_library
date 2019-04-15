@@ -485,4 +485,3 @@ inline void uninitialized_fill_n_with_alloc(ForwardIterator first, Diff n, const
 #endif
 
 #endif // #if !defined(BOOST_CIRCULAR_BUFFER_DETAILS_HPP)
-

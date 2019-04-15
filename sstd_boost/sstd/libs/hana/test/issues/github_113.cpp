@@ -20,4 +20,3 @@ struct Employee {
 BOOST_HANA_ADAPT_STRUCT(Employee, Employee);
 
 int main() { }
-

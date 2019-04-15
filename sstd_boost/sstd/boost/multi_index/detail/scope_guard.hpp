@@ -451,4 +451,3 @@ make_obj_guard_if(Obj& obj,MemFun mem_fun,P1 p1,P2 p2,P3 p3)
 } /* namespace boost */
 
 #endif
-

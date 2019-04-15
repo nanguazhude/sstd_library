@@ -355,4 +355,3 @@ inline bool named_upgradable_mutex::remove(const char *name)
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_NAMED_UPGRADABLE_MUTEX_HPP
-

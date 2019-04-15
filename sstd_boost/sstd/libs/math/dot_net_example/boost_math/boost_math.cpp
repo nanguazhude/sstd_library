@@ -251,6 +251,3 @@ double any_distribution::third_param_default(int i)
 }
 
 } // namespace boost_math
-
-
-

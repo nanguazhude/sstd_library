@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Base64 Encoding and Decoding
 * (C) 2010 Jack Lloyd
 *

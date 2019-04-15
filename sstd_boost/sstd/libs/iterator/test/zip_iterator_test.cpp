@@ -6,4 +6,3 @@
 #define ZI_USE_BOOST_TUPLE
 
 #include "detail/zip_iterator_test_original.ipp"
-

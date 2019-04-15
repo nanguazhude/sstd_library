@@ -46,5 +46,3 @@ bool checking::already_locked() {
 } } } // namespace
 
 #endif
-
-

@@ -56,4 +56,3 @@ main()
     shortest_alternative_parser_test();
     return boost::report_errors();
 }
-

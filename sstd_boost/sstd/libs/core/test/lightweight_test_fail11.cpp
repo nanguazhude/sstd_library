@@ -12,4 +12,3 @@ int main()
     BOOST_TEST(true);
     return 0;
 }
-

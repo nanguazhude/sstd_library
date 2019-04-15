@@ -123,4 +123,3 @@ int main() {
         (void)xs; (void)ys;
     }
 }
-

@@ -48,4 +48,3 @@ struct not_satisfied
 }} // namespace boost::concepts::detail
 
 #endif // BOOST_CONCEPT_DETAIL_HAS_CONSTRAINTS_DWA2006429_HPP
-

@@ -41,4 +41,3 @@ struct setop_output_type<Point, bg::point_tag>
 };
 
 #endif // BOOST_GEOMETRY_TEST_SETOP_OUTPUT_TYPE_HPP
-

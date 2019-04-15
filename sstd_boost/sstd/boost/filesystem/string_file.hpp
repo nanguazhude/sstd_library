@@ -41,4 +41,3 @@ void load_string_file(const path& p, std::string& str)
 }  // namespace boost
 
 #endif  // include guard
-

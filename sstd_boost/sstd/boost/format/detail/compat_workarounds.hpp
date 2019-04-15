@@ -84,4 +84,3 @@ namespace boost {
     } //N.S. io
 } // N.S. boost
 #endif // include guard
-

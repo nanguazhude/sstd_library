@@ -46,5 +46,3 @@ A_DLL_DECL void A::serialize(
     boost::archive::polymorphic_iarchive &,
     const unsigned int /* file_version */
 );
-
-

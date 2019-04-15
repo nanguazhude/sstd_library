@@ -33,4 +33,3 @@ struct is_bounding_geometry<Box, box_tag>
 }}}} // namespave boost::geometry::index::detail
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_IS_BOUNDING_GEOMETRY_HPP
-

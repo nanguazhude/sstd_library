@@ -133,4 +133,3 @@ constexpr result_adaptor<Result, F> result(F f)
 }} // namespace boost::hof
 
 #endif
-

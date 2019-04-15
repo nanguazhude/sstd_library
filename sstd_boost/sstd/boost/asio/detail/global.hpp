@@ -52,4 +52,3 @@ inline T& global()
 } // namespace boost
 
 #endif // BOOST_ASIO_DETAIL_GLOBAL_HPP
-

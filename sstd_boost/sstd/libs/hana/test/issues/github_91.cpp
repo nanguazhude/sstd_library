@@ -22,4 +22,3 @@ static_assert(hana::Ring<T>::value, "");
 static_assert(hana::EuclideanRing<T>::value, "");
 
 int main() { }
-

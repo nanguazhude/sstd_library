@@ -236,4 +236,3 @@ BOOST_AUTO_TEST_CASE(test_prgen_50_70_2)
   int w = boost::stoer_wagner_min_cut(g, get(boost::edge_weight, g));
   BOOST_CHECK_EQUAL(w, 21755);
 }
-

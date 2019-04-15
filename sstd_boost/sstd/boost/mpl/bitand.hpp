@@ -43,4 +43,3 @@
 #endif
 
 #endif // BOOST_MPL_BITAND_HPP_INCLUDED
-

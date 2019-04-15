@@ -1,4 +1,4 @@
-/*
+﻿/*
 * (C) 2017 Fabian Weissberg, Rohde & Schwarz Cybersecurity
 *
 * Botan is released under the Simplified BSD License (see license.txt)

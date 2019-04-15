@@ -189,4 +189,3 @@ make_dynamic_image_writer( Device&          file
 } // namespace boost
 
 #endif
-

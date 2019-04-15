@@ -135,5 +135,3 @@ struct pop_back_impl
 } } // namespace ::boost::mpl
 
 #endif
-
-

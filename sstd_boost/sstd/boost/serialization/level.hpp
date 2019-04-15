@@ -114,4 +114,3 @@ inline bool operator>=(implementation_level< T > t, enum level_type l)
     /**/
 
 #endif // BOOST_SERIALIZATION_LEVEL_HPP
-

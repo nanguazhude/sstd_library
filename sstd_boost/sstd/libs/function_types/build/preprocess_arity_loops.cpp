@@ -85,5 +85,3 @@ timestamp file
 #   undef  BOOST_FT_MAX_ARITY
 
 #endif
-
-

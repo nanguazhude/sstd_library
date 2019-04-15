@@ -43,5 +43,3 @@ void test_filesystem()
     BOOST_CHECK(!p.empty());
     BOOST_CHECK_EQUAL(p, ab);
 }
-
-

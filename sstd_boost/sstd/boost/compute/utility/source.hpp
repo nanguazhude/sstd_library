@@ -37,4 +37,3 @@
 #endif
 
 #endif // BOOST_COMPUTE_UTILITY_SOURCE_HPP
-

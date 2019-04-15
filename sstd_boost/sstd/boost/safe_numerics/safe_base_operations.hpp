@@ -1663,4 +1663,3 @@ void safe_base<T, Min, Max, P, E>::input(
 } // boost
 
 #endif // BOOST_NUMERIC_SAFE_BASE_OPERATIONS_HPP
-

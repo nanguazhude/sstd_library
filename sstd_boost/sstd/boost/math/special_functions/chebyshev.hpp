@@ -167,4 +167,3 @@ inline Real chebyshev_clenshaw_recurrence(const Real* const c, size_t length, co
 
 }}
 #endif
-

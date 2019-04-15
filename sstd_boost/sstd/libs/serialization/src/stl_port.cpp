@@ -40,4 +40,3 @@ locale::locale(
 #endif
 
 #endif
-

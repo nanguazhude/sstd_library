@@ -29,5 +29,3 @@ BOOST_METAPARSE_TEST_CASE(has_type)
   // test_nullary_metafunction_has_type
   BOOST_MPL_ASSERT((has_type<nullary_metafunction>));
 }
-
-

@@ -22,4 +22,3 @@
 #include <sstd/boost/bind/mem_fn.hpp>
 
 #endif // #ifndef BOOST_MEM_FN_HPP_INCLUDED
-

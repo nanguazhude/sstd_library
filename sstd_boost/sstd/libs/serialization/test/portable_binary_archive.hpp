@@ -29,4 +29,3 @@ typedef std::ifstream test_istream;
 
 // and stream open flags
 #define TEST_STREAM_FLAGS std::ios::binary
-

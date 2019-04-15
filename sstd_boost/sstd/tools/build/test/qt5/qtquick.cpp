@@ -41,4 +41,3 @@ BOOST_AUTO_TEST_CASE (simple_test)
     }
     BOOST_CHECK_EQUAL(app.exec(), 0);
 }
-

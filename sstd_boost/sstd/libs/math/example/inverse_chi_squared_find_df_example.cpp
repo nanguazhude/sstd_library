@@ -183,5 +183,3 @@ diff = 0.5, variance = 1, ratio = 0.5, alpha = 0.1, beta = 0.1
 
 
   */
-
-

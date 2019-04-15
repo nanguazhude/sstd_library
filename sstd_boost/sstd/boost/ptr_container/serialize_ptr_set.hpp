@@ -31,4 +31,3 @@ void serialize(Archive& ar, ptr_multiset<T, CloneAllocator, Allocator>& c, const
 } // namespace boost
 
 #endif
-

@@ -122,4 +122,3 @@ load_server_certificate(boost::asio::ssl::context& ctx)
 }
 
 #endif
-

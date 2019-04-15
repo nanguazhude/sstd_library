@@ -420,4 +420,3 @@ namespace converter
 }}  // namespace boost::python
 
 #endif // STR_20020703_HPP
-

@@ -43,4 +43,3 @@ TT_TEST_BEGIN(common_type_sfinae)
 #endif
 }
 TT_TEST_END
-

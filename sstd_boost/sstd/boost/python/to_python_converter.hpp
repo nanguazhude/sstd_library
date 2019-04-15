@@ -91,5 +91,3 @@ to_python_converter<T,Conversion, has_get_pytype>::to_python_converter()
 }} // namespace boost::python
 
 #endif // TO_PYTHON_CONVERTER_DWA200221_HPP
-
-

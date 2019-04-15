@@ -164,6 +164,3 @@ Because the temporary value of \c (a+b) no longer exists when \c fmt is written 
 \endcode
 
 */
-
-
-

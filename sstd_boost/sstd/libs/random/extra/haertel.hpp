@@ -154,4 +154,3 @@ namespace Haertel {
 } // namespace Haertel
 
 #endif
-

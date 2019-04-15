@@ -42,5 +42,3 @@ struct type_to_string<std::set<Type, std::greater<Type> > >
 }} // namespace icl boost
 
 #endif // BOOST_ICL_DETAIL_STD_SET_HPP_JOFA_101007
-
-

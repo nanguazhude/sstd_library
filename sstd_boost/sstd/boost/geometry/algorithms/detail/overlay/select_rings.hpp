@@ -371,4 +371,3 @@ inline void select_rings(Geometry const& geometry,
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_SELECT_RINGS_HPP
-

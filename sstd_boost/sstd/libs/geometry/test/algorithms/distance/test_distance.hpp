@@ -136,4 +136,3 @@ void test_empty_input(Geometry1 const& geometry1, Geometry2 const& geometry2)
 
 
 #endif
-

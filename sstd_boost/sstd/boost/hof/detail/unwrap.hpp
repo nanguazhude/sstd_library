@@ -27,4 +27,3 @@ struct unwrap_reference<std::reference_wrapper<T>>
 }}} // namespace boost::hof
 
 #endif
-

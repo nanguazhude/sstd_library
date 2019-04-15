@@ -128,4 +128,3 @@ static const winsock_init<>& winsock_init_instance = winsock_init<>(false);
 #endif // defined(BOOST_ASIO_WINDOWS) || defined(__CYGWIN__)
 
 #endif // BOOST_ASIO_DETAIL_WINSOCK_INIT_HPP
-

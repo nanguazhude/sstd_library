@@ -105,4 +105,3 @@ inline void scatter(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_SCATTER_HPP
-

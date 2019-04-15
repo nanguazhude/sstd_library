@@ -63,4 +63,3 @@ using namespace iterators::distance_adl_barrier;
 } // namespace boost
 
 #endif
-

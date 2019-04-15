@@ -167,4 +167,3 @@ using extract::non_coherent_weighted_tail_mean;
 #endif
 
 #endif
-

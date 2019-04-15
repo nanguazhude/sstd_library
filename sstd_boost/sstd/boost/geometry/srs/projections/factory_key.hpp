@@ -81,4 +81,3 @@ private:
 }}} // namespace boost::geometry::projections
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_FACTORY_KEY_HPP
-

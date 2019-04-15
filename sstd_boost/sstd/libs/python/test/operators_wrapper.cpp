@@ -40,4 +40,3 @@ BOOST_PYTHON_MODULE( operators_wrapper_ext )
     register_ptr_to_python< std::auto_ptr<vector> >();
     scope().attr("d") = dp;
 }
-

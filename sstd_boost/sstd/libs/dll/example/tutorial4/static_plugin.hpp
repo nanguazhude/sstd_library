@@ -19,5 +19,3 @@ BOOST_DLL_ALIAS(
     create_plugin                                       // <-- ...this alias name
 )
 //]
-
-

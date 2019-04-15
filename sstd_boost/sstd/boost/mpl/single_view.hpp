@@ -36,4 +36,3 @@ BOOST_MPL_AUX_NA_SPEC_NO_ETI(1, single_view)
 }}
 
 #endif // BOOST_MPL_SINGLE_VIEW_HPP_INCLUDED
-

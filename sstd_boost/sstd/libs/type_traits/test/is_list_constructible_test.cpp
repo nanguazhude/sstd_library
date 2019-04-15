@@ -119,4 +119,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_list_constructible<V, int const&, int co
 TT_TEST_END
 
 #endif
-

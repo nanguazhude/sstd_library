@@ -33,4 +33,3 @@ inline void write_void_ptr_reference(void const volatile* storage, void* ptr, U&
 }}} // namespace boost::python::detail
 
 #endif // VOID_PTR_DWA200239_HPP
-

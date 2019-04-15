@@ -15,5 +15,3 @@
 #include <sstd/boost/fusion/functional/generation.hpp>
 
 #endif
-
-

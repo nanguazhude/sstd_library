@@ -522,7 +522,3 @@ namespace boost
 #include <sstd/boost/math/distributions/detail/inv_discrete_quantile.hpp>
 
 #endif // BOOST_MATH_SPECIAL_POISSON_HPP
-
-
-
-

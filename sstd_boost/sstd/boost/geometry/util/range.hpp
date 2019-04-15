@@ -421,4 +421,3 @@ inline back_insert_iterator<Range> back_inserter(Range & rng)
 }}} // namespace boost::geometry::range
 
 #endif // BOOST_GEOMETRY_UTIL_RANGE_HPP
-

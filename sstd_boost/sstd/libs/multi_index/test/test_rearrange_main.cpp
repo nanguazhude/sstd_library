@@ -16,4 +16,3 @@ int main()
   test_rearrange();
   return boost::report_errors();
 }
-

@@ -56,4 +56,3 @@ namespace std{ using ::wcslen; }
 #endif //BOOST_NO_CWCHAR
 
 #endif //BOOST_ARCHIVE_WCSLEN_HPP
-

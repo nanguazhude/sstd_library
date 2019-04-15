@@ -100,4 +100,3 @@ main()
   print_edges2(g, indexmap, weight);
   return 0;
 }
-

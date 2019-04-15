@@ -386,4 +386,3 @@ void test_point_output(std::string const& wkt1, std::string const& wkt2, unsigne
 
 
 #endif
-

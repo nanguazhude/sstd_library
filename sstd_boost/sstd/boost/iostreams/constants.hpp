@@ -40,4 +40,3 @@ const std::streamsize default_pback_buffer_size =
 } } // End namespaces iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_CONSTANTS_HPP_INCLUDED
-

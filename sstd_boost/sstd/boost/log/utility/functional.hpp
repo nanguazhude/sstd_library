@@ -38,4 +38,3 @@
 #endif
 
 #endif // BOOST_LOG_UTILITY_FUNCTIONAL_HPP_INCLUDED_
-

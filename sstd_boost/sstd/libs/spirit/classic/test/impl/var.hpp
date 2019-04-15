@@ -32,4 +32,3 @@ namespace test
     }
 }
 #endif // BOOST_SPIRIT_TEST_IMPL_VAR_HPP
-

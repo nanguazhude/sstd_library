@@ -47,4 +47,3 @@ BOOST_TYPEOF_REGISTER_TYPE(boost::units::cgs::gram_base_unit)
 //#include <sstd/boost/units/base_units/detail/conversions.hpp>
 
 #endif // BOOST_UNITS_CGS_GRAM_BASE_UNIT_HPP
-

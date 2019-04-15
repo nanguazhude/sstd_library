@@ -26,4 +26,3 @@ template< typename First, typename Last > struct distance;
 }}
 
 #endif // BOOST_MPL_DISTANCE_FWD_HPP_INCLUDED
-

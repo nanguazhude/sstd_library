@@ -118,4 +118,3 @@ namespace boost {
 
 
 #endif  // BOOST_STRING_SEQUENCE_TRAITS_HPP
-

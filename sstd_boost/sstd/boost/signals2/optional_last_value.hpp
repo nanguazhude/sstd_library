@@ -66,4 +66,3 @@ namespace boost {
   } // namespace signals2
 } // namespace boost
 #endif // BOOST_SIGNALS2_OPTIONAL_LAST_VALUE_HPP
-

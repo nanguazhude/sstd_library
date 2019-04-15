@@ -23,6 +23,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_enum<convertible_to_anything>::value, fal
 BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_enum<int[] >::value, false);
 
 TT_TEST_END
-
-
-

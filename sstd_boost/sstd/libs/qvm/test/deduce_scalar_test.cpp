@@ -75,4 +75,3 @@ main()
     check<float,double,double>();
     check<double,double,double>();
     }
-

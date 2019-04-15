@@ -21,4 +21,3 @@
 # define BOOST_PP_RPAREN() )
 #
 # endif
-

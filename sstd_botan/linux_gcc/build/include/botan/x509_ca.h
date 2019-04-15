@@ -1,4 +1,4 @@
-/*
+﻿/*
 * X.509 Certificate Authority
 * (C) 1999-2008 Jack Lloyd
 *

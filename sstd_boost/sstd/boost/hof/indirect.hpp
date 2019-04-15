@@ -131,4 +131,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(indirect, detail::make<indirect_adaptor>);
 }} // namespace boost::hof
 
 #endif
-

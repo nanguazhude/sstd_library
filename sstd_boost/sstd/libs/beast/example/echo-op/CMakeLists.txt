@@ -17,4 +17,3 @@ add_executable (echo-op
 )
 
 set_property(TARGET echo-op PROPERTY FOLDER "example")
-

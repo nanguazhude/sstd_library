@@ -1986,4 +1986,3 @@ public:
 #endif // !defined(BOOST_ASIO_ENABLE_OLD_SERVICES)
 
 #endif // BOOST_ASIO_BASIC_SOCKET_ACCEPTOR_HPP
-

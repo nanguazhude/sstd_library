@@ -99,5 +99,3 @@ class unordered_multiset_adaptor :
 
 
 #endif // BOOST_BIMAP_CONTAINER_ADAPTOR_UNORDERED_MULTISET_ADAPTOR_HPP
-
-

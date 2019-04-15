@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_ASSIGN_ACTOR
 #include <sstd/boost/spirit/home/classic/actor/assign_actor.hpp>
 #endif
-

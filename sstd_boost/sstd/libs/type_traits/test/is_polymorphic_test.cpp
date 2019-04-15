@@ -88,14 +88,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_polymorphic<polymorphic_derived_final>::v
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-
-
-

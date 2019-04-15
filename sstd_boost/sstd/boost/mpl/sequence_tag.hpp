@@ -122,4 +122,3 @@ BOOST_MPL_AUX_NA_SPEC(1, sequence_tag)
 }}
 
 #endif // BOOST_MPL_SEQUENCE_TAG_HPP_INCLUDED
-

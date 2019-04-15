@@ -21,4 +21,3 @@ BOOST_AUTO_TEST_CASE
 {         icl_map_move_4_discrete_types<discrete_type_1, int, partial_absorber, INTERVAL_MAP>();}
 
 #endif // BOOST_ICL_TEST_ICL_MAP_CASES_HPP_JOFA_090701
-

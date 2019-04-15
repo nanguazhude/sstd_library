@@ -6,5 +6,3 @@
 // Definitions of section
 
 #endif
-
-

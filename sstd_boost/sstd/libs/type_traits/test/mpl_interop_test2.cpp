@@ -23,4 +23,3 @@ int main()
 {
    return (int)(t1 + t2);
 }
-

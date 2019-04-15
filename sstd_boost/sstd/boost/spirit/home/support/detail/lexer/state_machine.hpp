@@ -429,4 +429,3 @@ typedef basic_state_machine<wchar_t> wstate_machine;
 }
 
 #endif
-

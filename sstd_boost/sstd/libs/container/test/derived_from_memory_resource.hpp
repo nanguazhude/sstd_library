@@ -85,4 +85,3 @@ class derived_from_memory_resource
 bool derived_from_memory_resource::destructor_called = false;
 
 #endif   //#ifndef BOOST_CONTAINER_TEST_DERIVED_FROM_MEMORY_RESOURCE_HPP
-

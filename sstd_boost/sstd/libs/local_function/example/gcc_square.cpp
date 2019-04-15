@@ -20,5 +20,3 @@ int main(void) {
     BOOST_TEST(add_square(2, 4) == 20);
     return boost::report_errors();
 }
-
-

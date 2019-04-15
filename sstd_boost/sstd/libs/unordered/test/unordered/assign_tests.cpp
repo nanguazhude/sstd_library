@@ -295,4 +295,3 @@ namespace assign_tests {
 }
 
 RUN_TESTS()
-

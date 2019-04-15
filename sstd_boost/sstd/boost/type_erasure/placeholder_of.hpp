@@ -67,4 +67,3 @@ using placeholder_of_t = typename ::boost::type_erasure::placeholder_of<T>::type
 }
 
 #endif
-

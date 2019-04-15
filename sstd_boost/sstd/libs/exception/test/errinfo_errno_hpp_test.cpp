@@ -5,4 +5,3 @@
 
 #include <sstd/boost/exception/errinfo_errno.hpp>
 #include <sstd/boost/exception/errinfo_errno.hpp>
-

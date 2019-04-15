@@ -12,4 +12,3 @@
 #include <sstd/boost/gil/extension/io/bmp/write.hpp>
 
 #endif
-

@@ -263,4 +263,3 @@ void random_access_readable_iterator_test(Iterator i, int N, TrueVals vals)
 # include <sstd/boost/iterator/detail/config_undef.hpp>
 
 #endif // BOOST_NEW_ITERATOR_TESTS_HPP
-

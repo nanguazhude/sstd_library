@@ -309,4 +309,3 @@ inline move_insert_iterator<C> move_inserter(C& x, typename C::iterator it)
 #include <sstd/boost/move/detail/config_end.hpp>
 
 #endif //#ifndef BOOST_MOVE_ITERATOR_HPP
-

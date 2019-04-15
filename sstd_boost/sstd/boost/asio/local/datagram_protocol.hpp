@@ -80,4 +80,3 @@ public:
        //   || defined(GENERATING_DOCUMENTATION)
 
 #endif // BOOST_ASIO_LOCAL_DATAGRAM_PROTOCOL_HPP
-

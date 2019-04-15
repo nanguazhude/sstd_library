@@ -48,5 +48,3 @@
 
 #define BOOST_FT_arity_shift                          24
 #define BOOST_FT_arity_mask                           0x7f000000
-
-

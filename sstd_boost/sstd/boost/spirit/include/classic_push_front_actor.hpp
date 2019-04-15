@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_PUSH_FRONT_ACTOR
 #include <sstd/boost/spirit/home/classic/actor/push_front_actor.hpp>
 #endif
-

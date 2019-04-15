@@ -10,4 +10,3 @@
 #include "link.hpp"
 
 int main() {}
-

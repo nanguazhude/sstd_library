@@ -6,4 +6,3 @@
 #include <auto/any_of.hpp>
 
 int main() { }
-

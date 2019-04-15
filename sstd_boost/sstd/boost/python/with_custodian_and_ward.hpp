@@ -119,4 +119,3 @@ struct with_custodian_and_ward_postcall : BasePolicy_
 }} // namespace boost::python
 
 #endif // WITH_CUSTODIAN_AND_WARD_DWA2002131_HPP
-

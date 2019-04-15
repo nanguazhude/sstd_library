@@ -7,5 +7,3 @@
 
 #include "nova.hpp"
 #include "macro_commas_seq.cpp"
-
-

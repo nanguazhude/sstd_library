@@ -40,4 +40,3 @@ struct is_range
 }}}} // namespace boost::geometry::index::detail
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_META_HPP
-

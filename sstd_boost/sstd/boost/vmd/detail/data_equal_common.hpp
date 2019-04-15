@@ -407,4 +407,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_DATA_EQUAL_COMMON_HPP */
-

@@ -20,4 +20,3 @@ int main()
     any<typeid_<>, const _self&> x(i);
     x = x;
 }
-

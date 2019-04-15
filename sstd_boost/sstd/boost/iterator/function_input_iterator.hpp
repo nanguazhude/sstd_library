@@ -169,5 +169,3 @@ using iterators::infinite;
 } // namespace boost
 
 #endif
-
-

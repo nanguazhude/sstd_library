@@ -67,8 +67,3 @@ typedef basic_regex<wchar_t, regex_traits<wchar_t> > wregex;
 #endif  // BOOST_REGEX_NO_FWD
 
 #endif
-
-
-
-
-

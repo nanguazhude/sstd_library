@@ -90,4 +90,3 @@ class counted_base : private count_base< NeedsLocking >
 
 
 #endif
-

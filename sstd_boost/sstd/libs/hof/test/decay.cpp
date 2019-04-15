@@ -26,4 +26,3 @@ BOOST_HOF_TEST_CASE()
     BOOST_HOF_TEST_CHECK(boost::hof::decay(3) == 3);
     BOOST_HOF_STATIC_TEST_CHECK(boost::hof::decay(3) == 3);
 }
-

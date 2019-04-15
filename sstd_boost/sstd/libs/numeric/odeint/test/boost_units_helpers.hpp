@@ -57,4 +57,3 @@ struct oscillator_coor_func_units
 
 
 #endif // LIBS_NUMERIC_ODEINT_TEST_DUMMY_BOOST_UNITS_HPP_DEFINED
-

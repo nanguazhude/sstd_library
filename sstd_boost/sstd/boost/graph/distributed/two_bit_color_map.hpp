@@ -114,4 +114,3 @@ put(two_bit_color_map<
 } // end namespace boost
 
 #endif // BOOST_DISTRIBUTED_TWO_BIT_COLOR_MAP_HPP
-

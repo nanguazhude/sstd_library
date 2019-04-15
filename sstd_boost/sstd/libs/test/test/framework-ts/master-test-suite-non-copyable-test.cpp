@@ -19,4 +19,3 @@ BOOST_AUTO_TEST_CASE( check )
   std::cerr << "Test called with " << master_copy.argc << " arguments" << std::endl; // to prevent optimization, just in case it compiles...
   throw std::runtime_error("Should not reach here ");
 }
-

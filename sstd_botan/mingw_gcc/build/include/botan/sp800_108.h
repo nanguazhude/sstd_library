@@ -1,4 +1,4 @@
-/*
+﻿/*
 * KDFs defined in NIST SP 800-108
 * (C) 2016 Kai Michaelis
 *

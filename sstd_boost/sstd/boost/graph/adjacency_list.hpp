@@ -431,4 +431,3 @@ struct graph_mutability_traits< adjacency_list<OEL,vecS,D,VP,EP,GP,EL> > {
 
 
 #endif // BOOST_GRAPH_ADJACENCY_LIST_HPP
-

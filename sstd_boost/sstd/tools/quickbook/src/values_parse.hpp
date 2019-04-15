@@ -135,4 +135,3 @@ namespace quickbook
 }
 
 #endif
-

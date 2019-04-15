@@ -45,4 +45,3 @@ int main() {
     myThreadGroup.join_all();
     return 0;
 }
-

@@ -319,4 +319,3 @@ BOOST_AUTO_TEST_CASE( test_all_empty_input_linear_linear )
 {
     test_more_empty_input_linear_linear<point_type>(point_segment_strategy());
 }
-

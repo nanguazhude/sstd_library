@@ -131,4 +131,3 @@ using associated_allocator_t
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_ASSOCIATED_ALLOCATOR_HPP
-

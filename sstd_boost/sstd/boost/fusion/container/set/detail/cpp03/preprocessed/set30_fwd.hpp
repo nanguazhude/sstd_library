@@ -16,4 +16,3 @@ namespace boost { namespace fusion
     >
     struct set;
 }}
-

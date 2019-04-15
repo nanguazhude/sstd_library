@@ -26,4 +26,3 @@ BOOST_PYTHON_MODULE(bienstman2_ext)
       .def("fe2", &E::fe2) // this doesn't... well, now it does ;-)
       ;
 }
-

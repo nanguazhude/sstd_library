@@ -202,4 +202,3 @@ struct push_back<Tuple, T, N, N>
 }}}} // namespace boost::geometry::index::detail
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_RTREE_TAGS_HPP
-

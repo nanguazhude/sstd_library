@@ -769,4 +769,3 @@ static void parse(rapidxml::xml_node<>* node, configuration const& config, docum
 }
 
 #endif // DOXYGEN_XML_PARSER_HPP
-

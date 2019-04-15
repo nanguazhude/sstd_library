@@ -21,4 +21,3 @@
 
 #  undef N
 # endif // BOOST_PYTHON_SYNOPSIS
-

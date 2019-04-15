@@ -47,4 +47,3 @@ int main( int argc, char const* argv[] )
 
     return boost::report_errors();
 }
-

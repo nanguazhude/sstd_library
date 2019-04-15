@@ -193,4 +193,3 @@ using default_exception_policy = strict_exception_policy;
 } // namespace boost
 
 #endif // BOOST_NUMERIC_EXCEPTION_POLICIES_HPP
-

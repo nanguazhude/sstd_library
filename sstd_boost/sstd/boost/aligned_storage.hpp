@@ -16,4 +16,3 @@
 #include <sstd/boost/type_traits/aligned_storage.hpp>
 
 #endif // BOOST_ALIGNED_STORAGE_HPP
-

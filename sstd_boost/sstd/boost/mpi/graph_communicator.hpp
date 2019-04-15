@@ -573,4 +573,3 @@ struct property_map<mpi::graph_communicator, vertex_index_t>
 
 
 #endif // BOOST_MPI_GRAPH_COMMUNICATOR_HPP
-

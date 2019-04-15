@@ -28,4 +28,3 @@ namespace boost { namespace cnv
 }}
 
 #endif // BOOST_CONVERT_PARAMETERS_HPP
-

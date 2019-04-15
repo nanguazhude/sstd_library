@@ -11,6 +11,3 @@ int main()
 {
    return boost::is_nothrow_move_constructible<incomplete_type>::value;
 }
-
-
-

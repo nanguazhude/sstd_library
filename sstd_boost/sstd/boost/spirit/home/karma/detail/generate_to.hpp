@@ -65,4 +65,3 @@ namespace boost { namespace spirit { namespace karma { namespace detail
 }}}}   // namespace boost::spirit::karma::detail
 
 #endif  // KARMA_CORE_DETAIL_INSERT_TO_HPP
-

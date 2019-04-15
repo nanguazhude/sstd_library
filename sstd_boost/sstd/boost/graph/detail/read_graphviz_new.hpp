@@ -106,4 +106,3 @@ bool read_graphviz_new(const std::string& str,
 } // namespace boost
 
 #endif // BOOST_READ_GRAPHVIZ_NEW_HPP
-

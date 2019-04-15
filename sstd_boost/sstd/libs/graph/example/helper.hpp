@@ -111,4 +111,3 @@ read_weighted_graph(Graph& g, WeightMap wm, InputStream& is)
 
 
 #endif
-

@@ -86,4 +86,3 @@ mask_inplace(MutableBuffers const& bs, KeyType& key)
 } // boost
 
 #endif
-

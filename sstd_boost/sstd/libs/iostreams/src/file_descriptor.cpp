@@ -617,4 +617,3 @@ void file_descriptor_sink::open(
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>
 
 } } // End namespaces iostreams, boost.
-

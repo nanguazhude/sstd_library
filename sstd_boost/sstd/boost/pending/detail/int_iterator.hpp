@@ -80,4 +80,3 @@ using ::int_iterator;
 
 
 #endif /* BOOST_INT_ITERATOR_H */
-

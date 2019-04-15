@@ -347,4 +347,3 @@ struct image_write_info< tiff_tag, Log >
 } // namespace boost
 
 #endif
-

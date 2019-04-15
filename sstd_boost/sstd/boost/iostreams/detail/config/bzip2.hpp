@@ -46,4 +46,3 @@
 #endif
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_CONFIG_BZIP2_HPP_INCLUDED
-

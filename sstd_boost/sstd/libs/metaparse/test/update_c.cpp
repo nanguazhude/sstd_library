@@ -40,5 +40,3 @@ BOOST_METAPARSE_TEST_CASE(update_c)
 }
 
 #endif
-
-

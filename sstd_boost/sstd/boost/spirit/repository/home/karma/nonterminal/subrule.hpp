@@ -585,4 +585,3 @@ namespace boost { namespace spirit { namespace repository { namespace karma
 #endif
 
 #endif
-

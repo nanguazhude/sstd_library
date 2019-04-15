@@ -154,4 +154,3 @@ all_closeness_centralities(const Graph& g,
 } /* namespace boost */
 
 #endif
-

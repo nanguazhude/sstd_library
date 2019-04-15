@@ -52,4 +52,3 @@ struct intermodule_holder:holder_marker
 } /* namespace boost */
 
 #endif
-

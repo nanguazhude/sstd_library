@@ -124,4 +124,3 @@ namespace quickbook
 }
 
 #endif // BOOST_SPIRIT_QUICKBOOK_TEMPLATE_STACK_HPP
-

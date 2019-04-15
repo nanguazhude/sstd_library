@@ -81,4 +81,3 @@ int main() {
     constexpr auto r = hana::integral(hana::metafunction<mf>)(t);
     (void)r;
 }
-

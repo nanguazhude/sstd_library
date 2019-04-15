@@ -242,4 +242,3 @@ BOOST_AUTO_TEST_CASE(size)
 
     BOOST_CHECK_EQUAL(view.size(), i);
 }
-

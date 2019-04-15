@@ -9,4 +9,3 @@
 
 // this shouldn't give an recursion
 #include_next "t_9_019.hpp"
-

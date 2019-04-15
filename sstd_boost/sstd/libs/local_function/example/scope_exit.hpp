@@ -48,5 +48,3 @@ private:
     SCOPE_EXIT_END_(BOOST_LOCAL_FUNCTION_DETAIL_PP_LINE_COUNTER)
 
 #endif // #include guard
-
-

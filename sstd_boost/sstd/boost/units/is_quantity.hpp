@@ -40,4 +40,3 @@ struct is_quantity< quantity<Unit,Y> > :
 } // namespace boost
 
 #endif // BOOST_UNITS_IS_QUANTITY_HPP
-

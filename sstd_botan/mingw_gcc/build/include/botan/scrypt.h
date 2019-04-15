@@ -1,4 +1,4 @@
-/**
+﻿/**
 * (C) 2018 Jack Lloyd
 * (C) 2018 Ribose Inc
 *

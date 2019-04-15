@@ -77,7 +77,3 @@ inline T binomial_coefficient(unsigned n, unsigned k)
 
 
 #endif // BOOST_MATH_SF_BINOMIAL_HPP
-
-
-
-

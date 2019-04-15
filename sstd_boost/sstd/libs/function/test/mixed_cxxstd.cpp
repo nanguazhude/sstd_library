@@ -40,4 +40,3 @@ EXPORT void call_fn_6( boost::function2<void, int, int> const & fn )
 {
     fn( 1, 2 );
 }
-

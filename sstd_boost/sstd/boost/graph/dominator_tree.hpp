@@ -492,4 +492,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_GRAPH_DOMINATOR_HPP
-

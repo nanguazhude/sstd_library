@@ -22,4 +22,3 @@
 #include <sstd/boost/mpl/shift_right.hpp>
 
 #endif // BOOST_MPL_BITWISE_HPP_INCLUDED
-

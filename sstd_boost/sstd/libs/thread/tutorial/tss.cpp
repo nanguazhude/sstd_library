@@ -34,4 +34,3 @@ int main(int argc, char* argv[])
         threads.create_thread(&thread_proc);
     threads.join_all();
 }
-

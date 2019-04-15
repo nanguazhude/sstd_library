@@ -149,4 +149,3 @@ BOOST_AUTO_TEST_CASE( test_main )
 	check_sequence   (b, v.end(), b, v.end(), std::greater<int>());
 	}
 }
-

@@ -19,4 +19,3 @@
 #include <sstd/boost/geometry/algorithms/detail/is_valid/box.hpp>
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_IS_VALID_IMPLEMENTATION_HPP
-

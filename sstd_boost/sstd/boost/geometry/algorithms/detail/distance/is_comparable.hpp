@@ -43,4 +43,3 @@ struct is_comparable
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHS_DETAIL_DISTANCE_IS_COMPARABLE_HPP
-

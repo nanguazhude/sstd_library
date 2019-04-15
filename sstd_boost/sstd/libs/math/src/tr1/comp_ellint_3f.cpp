@@ -15,6 +15,3 @@ extern "C" float BOOST_MATH_TR1_DECL boost_comp_ellint_3f BOOST_PREVENT_MACRO_SU
 {
    return c_policies::ellint_3 BOOST_PREVENT_MACRO_SUBSTITUTION(k, nu);
 }
-
-
-

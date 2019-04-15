@@ -78,4 +78,3 @@ BOOST_UNITS_PHYSICAL_CONSTANT(mu_t_over_mu_n,quantity<dimensionless>,-1.55718553
 } // namespace boost
 
 #endif // BOOST_UNITS_CODATA_TRITON_CONSTANTS_HPP
-

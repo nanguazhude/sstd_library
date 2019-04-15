@@ -38,4 +38,3 @@ BOOST_TYPEOF_REGISTER_TEMPLATE(std::messages, 1)
 BOOST_TYPEOF_REGISTER_TEMPLATE(std::messages_byname, 1)
 
 #endif//BOOST_TYPEOF_STD_locale_hpp_INCLUDED
-

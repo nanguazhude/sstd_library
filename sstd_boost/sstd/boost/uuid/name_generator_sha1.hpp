@@ -24,4 +24,3 @@ typedef basic_name_generator<detail::sha1> name_generator_sha1;
 } // boost
 
 #endif // BOOST_UUID_NAME_GENERATOR_SHA1_HPP
-

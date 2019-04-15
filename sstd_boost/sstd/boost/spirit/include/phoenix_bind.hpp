@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_PHOENIX_BIND
 #include <sstd/boost/phoenix/bind.hpp>
 #endif
-

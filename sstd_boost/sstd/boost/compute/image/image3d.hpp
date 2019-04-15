@@ -263,4 +263,3 @@ struct set_kernel_arg<image3d> : public set_kernel_arg<image_object> { };
 BOOST_COMPUTE_TYPE_NAME(boost::compute::image3d, image3d_t)
 
 #endif // BOOST_COMPUTE_IMAGE_IMAGE3D_HPP
-

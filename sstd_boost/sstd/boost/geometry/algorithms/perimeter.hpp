@@ -226,5 +226,3 @@ inline typename default_length_result<Geometry>::type perimeter(
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_PERIMETER_HPP
-
-

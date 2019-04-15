@@ -14,4 +14,3 @@ target_link_libraries(boost_vmd
     INTERFACE
         Boost::preprocessor
 )
-

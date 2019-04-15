@@ -246,4 +246,3 @@ int main()
     cout << endl << "equivalence" << endl;
     run_benchmarks_immutable<make_equivalence>();
 }
-

@@ -32,4 +32,3 @@ namespace boost
 } // namespace boost
 
 #endif  // BOOST_SIGNALS2_NULL_OUTPUT_ITERATOR_HPP
-

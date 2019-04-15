@@ -7,5 +7,3 @@
 // Test assertions disables other assertions (in multiple compilation units).
 
 #include "lib_ab.hpp"
-
-

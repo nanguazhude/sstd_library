@@ -711,4 +711,3 @@ BOOST_HOF_TEST_CASE()
     static_assert(noexcept(boost::hof::lazy(&member_obj::x)(std::placeholders::_1)(obj)), "noexcept lazy");
 }
 #endif
-

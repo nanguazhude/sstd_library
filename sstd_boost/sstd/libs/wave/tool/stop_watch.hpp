@@ -82,4 +82,3 @@ private:
 };
 
 #endif // !defined(STOP_WATCH_HPP_HK040911_INCLUDED)
-

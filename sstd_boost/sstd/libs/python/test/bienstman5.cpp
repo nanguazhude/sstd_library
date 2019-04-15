@@ -19,6 +19,3 @@ BOOST_PYTHON_MODULE(bienstman5_ext)
   class_<M>("M", init<std::complex<double> const&>())
       ;
 }
-
-
-

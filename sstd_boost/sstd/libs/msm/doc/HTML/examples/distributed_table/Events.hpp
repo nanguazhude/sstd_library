@@ -37,4 +37,3 @@ struct cd_detected
 
 
 #endif
-

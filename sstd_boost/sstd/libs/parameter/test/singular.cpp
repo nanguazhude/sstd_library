@@ -39,5 +39,3 @@ int main()
     check(y = 20, x || default_src(), 0);
     return boost::report_errors();
 }
-
-

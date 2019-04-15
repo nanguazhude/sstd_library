@@ -67,4 +67,3 @@ int main()
       std::cout << name[*vi] << ": " << d_map[*vi] << '\n';
   return 0;
 }
-

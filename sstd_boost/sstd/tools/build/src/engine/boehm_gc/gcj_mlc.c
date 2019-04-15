@@ -243,4 +243,3 @@ void * GC_gcj_malloc_ignore_off_page(size_t lb,
 char GC_no_gcj_support;
 
 #endif  /* GC_GCJ_SUPPORT */
-

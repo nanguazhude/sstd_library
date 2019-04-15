@@ -169,4 +169,3 @@ private:
 #endif // #ifdef BOOST_IOSTREAMS_BROKEN_OVERLOAD_RESOLUTION
 
 #endif // #ifndef BOOST_IOSTREAMS_stream_HPP_INCLUDED
-

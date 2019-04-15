@@ -19,5 +19,3 @@ BOOST_STATIC_CONSTEXPR enabler_ enabler = {};
 }}}
 
 #endif
-
-

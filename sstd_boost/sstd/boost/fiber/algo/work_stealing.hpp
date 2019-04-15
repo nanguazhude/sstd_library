@@ -86,4 +86,3 @@ public:
 #endif
 
 #endif // BOOST_FIBERS_ALGO_WORK_STEALING_H
-

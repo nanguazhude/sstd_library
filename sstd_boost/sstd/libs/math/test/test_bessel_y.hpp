@@ -215,5 +215,3 @@ void test_bessel(T, const char* name)
 #include "sph_neumann_data.ipp"
     do_test_sph_neumann_y<T>(sph_neumann_data, name, "y: Random Data");
 }
-
-

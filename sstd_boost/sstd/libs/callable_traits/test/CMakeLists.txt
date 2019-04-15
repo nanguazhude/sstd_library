@@ -39,4 +39,3 @@ foreach(_file IN LISTS UNIT_TESTS)
 endforeach()
 
 add_dependencies(check tests)
-

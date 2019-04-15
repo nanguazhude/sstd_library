@@ -879,4 +879,3 @@ namespace move_detail {
 //#    define BOOST_MOVE_CAT_II(p, res) res
 
 #endif //#ifndef BOOST_MOVE_DETAIL_FWD_MACROS_HPP
-

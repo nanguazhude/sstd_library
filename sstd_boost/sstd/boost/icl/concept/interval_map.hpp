@@ -673,6 +673,3 @@ operator << (std::basic_ostream<CharType, CharTraits>& stream, const Type& objec
 }} // namespace boost icl
 
 #endif
-
-
-

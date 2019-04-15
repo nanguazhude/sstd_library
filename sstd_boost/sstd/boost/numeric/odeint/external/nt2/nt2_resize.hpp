@@ -50,4 +50,3 @@ struct resize_impl< nt2::container::table<T,S>
 } } }
 
 #endif
-

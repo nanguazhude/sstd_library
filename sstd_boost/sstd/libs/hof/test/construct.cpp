@@ -219,5 +219,3 @@ BOOST_HOF_TEST_CASE()
     BOOST_HOF_STATIC_TEST_CHECK(std::make_tuple(1, 2, 3) == boost::hof::construct_meta<tuple_meta_class>()(1, 2, 3));
 #endif
 }
-
-

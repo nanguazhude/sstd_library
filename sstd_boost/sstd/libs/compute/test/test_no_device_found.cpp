@@ -29,4 +29,3 @@ BOOST_AUTO_TEST_CASE(what)
         BOOST_CHECK_EQUAL(std::string(e.what()), "No OpenCL device found");
     }
 }
-

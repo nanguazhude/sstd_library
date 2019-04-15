@@ -1,4 +1,4 @@
-/*
+﻿/*
 * The Skein-512 hash function
 * (C) 2009,2014 Jack Lloyd
 *

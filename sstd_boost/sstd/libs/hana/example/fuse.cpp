@@ -24,4 +24,3 @@ int main() {
     tie(a, b, c)(hana::make_tuple(1, '2', 3.3));
     BOOST_HANA_RUNTIME_CHECK(a == 1 && b == '2' && c == 3.3);
 }
-

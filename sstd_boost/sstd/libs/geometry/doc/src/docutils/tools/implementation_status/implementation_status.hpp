@@ -12,5 +12,3 @@
 #include <sstd/boost/geometry/geometries/multi_linestring.hpp>
 #include <sstd/boost/geometry/geometries/multi_polygon.hpp>
 #include <sstd/boost/geometry/io/wkt/wkt.hpp>
-
-

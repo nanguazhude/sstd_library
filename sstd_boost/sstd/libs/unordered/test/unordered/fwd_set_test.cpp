@@ -104,4 +104,3 @@ UNORDERED_AUTO_TEST (use_multiset_fwd_declared_function) {
 }
 
 RUN_TESTS()
-

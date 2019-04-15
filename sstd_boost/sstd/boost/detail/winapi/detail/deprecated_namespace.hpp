@@ -26,4 +26,3 @@ using namespace boost::winapi;
 } // namespace boost
 
 #endif // BOOST_DETAIL_WINAPI_DETAIL_DEPRECATED_NAMESPACE_HPP_INCLUDED_
-

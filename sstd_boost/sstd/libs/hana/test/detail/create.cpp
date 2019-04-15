@@ -41,4 +41,3 @@ int main() {
     hana::detail::create<identity_t>{}([]{});
 #endif
 }
-

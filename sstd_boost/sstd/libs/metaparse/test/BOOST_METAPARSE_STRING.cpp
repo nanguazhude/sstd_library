@@ -60,5 +60,3 @@ BOOST_METAPARSE_TEST_CASE(creating_long_string_with_macro)
 }
 
 #endif
-
-

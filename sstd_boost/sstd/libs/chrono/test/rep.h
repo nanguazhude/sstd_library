@@ -65,4 +65,3 @@ struct duration_values<Rep>
 }  // namespace boost
 #endif
 #endif  // REP_H
-

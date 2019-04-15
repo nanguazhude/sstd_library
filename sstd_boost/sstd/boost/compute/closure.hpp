@@ -345,4 +345,3 @@ make_closure_impl(const char *name,
 #endif
 
 #endif // BOOST_COMPUTE_CLOSURE_HPP
-

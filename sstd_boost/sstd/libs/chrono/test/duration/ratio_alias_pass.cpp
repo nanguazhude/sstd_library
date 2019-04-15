@@ -27,4 +27,3 @@ void test()
     D d;
     (void)d;
 }
-

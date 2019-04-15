@@ -20,4 +20,3 @@
 //H 10: t_2_003.cpp(8): #error
 //H 16: This error should occur at line 8 of "t_2_003.cpp"
 //H 18: boost::wave::preprocess_exception
-

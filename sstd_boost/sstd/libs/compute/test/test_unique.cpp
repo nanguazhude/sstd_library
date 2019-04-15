@@ -94,4 +94,3 @@ BOOST_AUTO_TEST_CASE(unique_even_uints)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

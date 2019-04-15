@@ -40,4 +40,3 @@ int main(int argc, char ** argv)
     execv(python_cmd, &args[0]);
     perror("exec");
 }
-

@@ -31,4 +31,3 @@
 # define BOOST_PP_WSTRINGIZE_II(str) L ## str
 #
 # endif
-

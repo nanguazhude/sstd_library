@@ -74,4 +74,3 @@ int main()
     p.process_event(player::stop_event());
     return 0;
 }
-

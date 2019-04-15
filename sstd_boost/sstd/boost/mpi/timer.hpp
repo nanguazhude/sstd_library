@@ -89,4 +89,3 @@ inline double timer::elapsed_min() const
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_TIMER_HPP
-

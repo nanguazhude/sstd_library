@@ -1974,4 +1974,3 @@ ABF0..ABF9    ; Meetei_Mayek # Nd  [10] MEETEI MAYEK DIGIT ZERO..MEETEI MAYEK DI
 # Total code points: 66
 
 # EOF
-

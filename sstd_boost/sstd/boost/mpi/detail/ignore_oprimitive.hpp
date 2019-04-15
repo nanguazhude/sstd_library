@@ -60,4 +60,3 @@ public:
 } } } // end namespace boost::mpi::detail
 
 #endif // BOOST_MPI_DETAIL_IGNORE_OPRIMITIVE_HPP
-

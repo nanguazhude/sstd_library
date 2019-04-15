@@ -67,4 +67,3 @@ template<class T> struct checked_array_deleter
 } // namespace boost
 
 #endif  // #ifndef BOOST_CORE_CHECKED_DELETE_HPP
-

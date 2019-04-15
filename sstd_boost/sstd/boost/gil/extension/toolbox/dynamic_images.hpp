@@ -110,4 +110,3 @@ struct color_space_type< any_image_pixel_t >
 }} // namespace boost::gil
 
 #endif
-

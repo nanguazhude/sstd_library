@@ -225,4 +225,3 @@ operator<<(std::ostream& os, message<isRequest,
 } // boost
 
 #endif
-

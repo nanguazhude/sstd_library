@@ -77,4 +77,3 @@ void write_seekable_sequence_test()
 }
 
 #endif // #ifndef BOOST_IOSTREAMS_TEST_WRITE_SEEKABLE_SEQUENCE_HPP_INCLUDED
-

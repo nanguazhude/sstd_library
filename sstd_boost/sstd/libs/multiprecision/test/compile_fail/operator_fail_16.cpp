@@ -13,5 +13,3 @@ int main()
    auto x = a + b;
    x <<= 2;
 }
-
-

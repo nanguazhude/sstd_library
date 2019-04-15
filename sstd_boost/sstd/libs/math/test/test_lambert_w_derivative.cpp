@@ -120,6 +120,3 @@ BOOST_AUTO_TEST_CASE( Derivatives_of_lambert_w )
 
   // Lambert W_prime 0.063577133469345105142021311010780887641928338458371618, double 0.063577133469345098
 }; // BOOST_AUTO_TEST_CASE("Derivatives of lambert_w")
-
-
-

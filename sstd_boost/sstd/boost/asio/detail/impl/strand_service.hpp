@@ -118,4 +118,3 @@ void strand_service::post(strand_service::implementation_type& impl,
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_IMPL_STRAND_SERVICE_HPP
-

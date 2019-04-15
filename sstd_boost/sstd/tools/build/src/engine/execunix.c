@@ -615,4 +615,3 @@ static int get_free_cmdtab_slot()
 }
 
 # endif /* USE_EXECUNIX */
-

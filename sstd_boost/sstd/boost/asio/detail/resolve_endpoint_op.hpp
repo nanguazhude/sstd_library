@@ -122,4 +122,3 @@ private:
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_RESOLVER_ENDPOINT_OP_HPP
-

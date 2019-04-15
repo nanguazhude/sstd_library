@@ -11,4 +11,3 @@ int main()
   fake::sort(v.begin(), v.end());
   return 0;
 }
-

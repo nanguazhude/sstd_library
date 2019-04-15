@@ -144,4 +144,3 @@ template <class Base, class Derived> struct is_virtual_base_of<Base&, Derived&> 
 } // namespace boost
 
 #endif
-

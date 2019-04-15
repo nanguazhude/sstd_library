@@ -12,4 +12,3 @@ int main()
    boost::static_min_max_unsigned_type u = boost::static_unsigned_min<2, 3>::value + boost::static_unsigned_max<2, 3>::value;
    (void)u;
 }
-

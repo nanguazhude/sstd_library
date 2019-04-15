@@ -37,6 +37,3 @@ struct BOOST_CONTRACT_TEST_LIB_B_DECLSPEC b {
 };
 
 #endif // #include guard
-
-
-

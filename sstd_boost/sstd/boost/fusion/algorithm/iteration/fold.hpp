@@ -57,4 +57,3 @@
 #include <sstd/boost/fusion/algorithm/iteration/detail/segmented_fold.hpp>
 
 #endif
-

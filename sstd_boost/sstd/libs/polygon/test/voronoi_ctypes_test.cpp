@@ -332,4 +332,3 @@ int main()
     extened_int_test11();
     return boost::report_errors();
 }
-

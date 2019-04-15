@@ -219,5 +219,3 @@ struct make {
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_DATA_MONOMORPHIC_FWD_HPP_102212GER
-
-

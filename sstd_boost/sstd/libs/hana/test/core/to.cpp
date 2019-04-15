@@ -104,4 +104,3 @@ int main() {
     static_assert(hana::is_convertible<int, void>{}, "");
     static_assert(!hana::is_embedded<int, void>{}, "");
 }
-

@@ -146,4 +146,3 @@ get(const Arg &arg)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_LAMBDA_GET_HPP
-

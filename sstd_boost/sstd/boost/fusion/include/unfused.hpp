@@ -12,4 +12,3 @@
 #include <sstd/boost/fusion/functional/adapter/unfused.hpp>
 
 #endif
-

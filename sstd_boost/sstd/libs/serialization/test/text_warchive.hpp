@@ -11,4 +11,3 @@ typedef std::wofstream test_ostream;
 #include <sstd/boost/archive/text_wiarchive.hpp>
 typedef boost::archive::text_wiarchive test_iarchive;
 typedef std::wifstream test_istream;
-

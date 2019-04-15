@@ -266,4 +266,3 @@ private:
 
 
 #endif // BOOST_GEOMETRY_FORMULAS_THOMAS_DIRECT_HPP
-

@@ -27,4 +27,3 @@ BOOST_DATA_TEST_CASE(
   BOOST_TEST(array_element != "mammoth");
 }
 //]
-

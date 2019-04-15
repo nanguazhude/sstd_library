@@ -190,4 +190,3 @@ make_dynamic_image_reader( Device&          file
 } // namespace boost
 
 #endif
-

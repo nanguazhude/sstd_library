@@ -817,4 +817,3 @@ namespace spreadsort {
 }
 
 #endif
-

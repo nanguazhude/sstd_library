@@ -11,4 +11,3 @@ int main() {
     Str s{};
     (void)s;
 }
-

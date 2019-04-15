@@ -84,4 +84,3 @@ OBJECT * path_as_key( OBJECT * path )
 void path_done( void )
 {
 }
-

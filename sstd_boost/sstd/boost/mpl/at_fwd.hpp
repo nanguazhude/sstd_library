@@ -22,4 +22,3 @@ template< typename Sequence, typename N > struct at;
 }}
 
 #endif // BOOST_MPL_AT_FWD_HPP_INCLUDED
-

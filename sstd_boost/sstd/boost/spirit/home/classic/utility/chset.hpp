@@ -185,4 +185,3 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 
 #include <sstd/boost/spirit/home/classic/utility/impl/chset.ipp>
 #include <sstd/boost/spirit/home/classic/utility/chset_operators.hpp>
-

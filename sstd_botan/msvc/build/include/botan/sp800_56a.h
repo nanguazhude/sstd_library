@@ -1,4 +1,4 @@
-/*
+﻿/*
 * KDF defined in NIST SP 800-56a revision 2 (Single-step key-derivation function)
 *
 * (C) 2017 Ribose Inc. Written by Krzysztof Kwiatkowski.

@@ -53,5 +53,3 @@ template<class Tag, typename T> unsigned counter<Tag, T>::evals_ = 0;
 } } } } // namespace
 
 #endif // #include guard
-
-

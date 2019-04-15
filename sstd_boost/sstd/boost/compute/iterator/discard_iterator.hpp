@@ -168,4 +168,3 @@ struct is_device_iterator<discard_iterator> : boost::true_type {};
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ITERATOR_DISCARD_ITERATOR_HPP
-

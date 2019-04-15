@@ -28,4 +28,3 @@ void bind_to_processor( unsigned int n)
 }
 
 #include <sstd/boost/config/abi_suffix.hpp>
-

@@ -34,5 +34,3 @@ int main( int, char *[] )
 {
    return boost_no_restrict_references::test();
 }
-
-

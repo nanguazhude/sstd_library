@@ -198,4 +198,3 @@ inline Geometry make_zero()
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_MAKE_HPP
-

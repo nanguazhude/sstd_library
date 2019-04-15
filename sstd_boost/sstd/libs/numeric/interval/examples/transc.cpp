@@ -88,4 +88,3 @@ int main() {
   GENR_TEST(atanh);
   return 0;
 }
-

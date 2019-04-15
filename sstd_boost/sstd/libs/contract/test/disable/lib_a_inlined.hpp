@@ -98,5 +98,3 @@ void a::disable_failure() {
 }
 
 #endif // #include guard
-
-

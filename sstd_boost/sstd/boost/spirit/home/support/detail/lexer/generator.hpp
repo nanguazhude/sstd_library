@@ -841,4 +841,3 @@ typedef basic_generator<wchar_t> wgenerator;
 }
 
 #endif
-

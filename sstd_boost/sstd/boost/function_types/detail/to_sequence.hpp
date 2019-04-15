@@ -42,5 +42,3 @@ struct to_sequence< components<T,U> >
 } } } // namespace ::boost::function_types::detail
 
 #endif
-
-

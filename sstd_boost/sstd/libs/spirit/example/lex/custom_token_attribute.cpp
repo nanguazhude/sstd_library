@@ -109,5 +109,3 @@ int main()
               << r.nominator_ << ", " << r.denominator_ << "}" << std::endl;
     return 0;
 }
-
-

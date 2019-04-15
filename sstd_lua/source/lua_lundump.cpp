@@ -1,4 +1,4 @@
-/*
+﻿/*
 ** $Id: lundump.c,v 2.44.1.1 2017/04/19 17:20:42 roberto Exp $
 ** load precompiled Lua chunks
 ** See Copyright Notice in lua.h
@@ -276,4 +276,3 @@ LClosure *luaU_undump(lua_State *L, ZIO *Z, const char *name) {
   luai_verifycode(L, buff, cl->p);
   return cl;
 }
-

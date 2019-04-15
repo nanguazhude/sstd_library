@@ -38,4 +38,3 @@ struct base_unit_info<us::hundredweight_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNIT_BASE_UNITS_US_HUNDREDWEIGHT_HPP_INCLUDED
-

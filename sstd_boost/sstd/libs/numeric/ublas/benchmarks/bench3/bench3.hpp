@@ -157,4 +157,3 @@ struct fast_tag {};
 #define USE_STD_VECTOR
 
 #endif
-

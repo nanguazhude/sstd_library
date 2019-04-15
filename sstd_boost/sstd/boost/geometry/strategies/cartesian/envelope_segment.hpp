@@ -70,4 +70,3 @@ struct default_strategy<cartesian_tag, CalculationType>
 }} //namepsace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_CARTESIAN_ENVELOPE_SEGMENT_HPP
-

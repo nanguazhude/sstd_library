@@ -28,4 +28,3 @@ typedef derived_dimension<time_base_dimension,1,
 } // namespace boost
 
 #endif // BOOST_UNITS_ELECTRIC_CHARGE_DERIVED_DIMENSION_HPP
-

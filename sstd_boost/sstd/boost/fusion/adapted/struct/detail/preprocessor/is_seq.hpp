@@ -37,4 +37,3 @@
 #endif // BOOST_PP_VARIADICS
 
 #endif
-

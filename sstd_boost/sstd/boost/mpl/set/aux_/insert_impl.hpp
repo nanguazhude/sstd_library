@@ -63,4 +63,3 @@ struct insert_impl< aux::set_tag >
 }}
 
 #endif // BOOST_MPL_SET_AUX_INSERT_IMPL_HPP_INCLUDED
-

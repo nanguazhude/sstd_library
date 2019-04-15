@@ -48,4 +48,3 @@ std::size_t frame::source_line() const {
 }} // namespace boost::stacktrace
 
 #endif // BOOST_STACKTRACE_DETAIL_UNWIND_BASE_IMPLS_HPP
-

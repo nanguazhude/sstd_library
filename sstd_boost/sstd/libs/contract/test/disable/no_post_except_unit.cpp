@@ -7,5 +7,3 @@
 // Test .cpp never check post/except (in multiple compilation units).
 
 #include "lib_xy.hpp"
-
-

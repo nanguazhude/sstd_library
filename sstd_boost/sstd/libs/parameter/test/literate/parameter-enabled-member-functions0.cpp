@@ -13,4 +13,3 @@ struct callable2
         std::cout << arg1 << ", " << arg2 << std::endl;
     }
 };
-

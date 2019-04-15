@@ -91,4 +91,3 @@ BOOST_AUTO_TEST_CASE(reverse_copy_counting_iterator)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

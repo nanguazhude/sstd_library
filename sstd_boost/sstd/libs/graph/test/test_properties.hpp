@@ -124,4 +124,3 @@ void test_properties(Graph& g, VertexSet const& verts) {
 //@}
 
 #endif
-

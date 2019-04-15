@@ -46,4 +46,3 @@
 #endif
 
 #endif // BOOST_MPL_AUX_OVERLOAD_NAMES_HPP_INCLUDED
-

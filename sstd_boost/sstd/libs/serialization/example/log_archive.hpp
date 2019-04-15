@@ -79,4 +79,3 @@ public:
 };
 
 #endif // LOG_ARCHIVE_HPP
-

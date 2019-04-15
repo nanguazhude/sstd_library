@@ -1,4 +1,4 @@
-/**
+﻿/**
  * @file xmss.h
  * Includes headers required for Extended Hash-Based Signatures (XMSS)
  * as described in [1]. @see Botan::XMSS_PublicKey and @see

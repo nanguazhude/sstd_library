@@ -15,4 +15,3 @@ To test the code in this documentation:
   python ../../../tools/litre/tool.py `pwd`/index.rst --dump_dir=../test/literate
   cd ../test/literate
   bjam
-

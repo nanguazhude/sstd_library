@@ -69,4 +69,3 @@ BOOST_AUTO_TEST_CASE(test_binding)
     BOOST_CHECK(typeid_of<_a>(b) == typeid(int));
     BOOST_CHECK(typeid_of<_b>(b) == typeid(double));
 }
-

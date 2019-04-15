@@ -28,5 +28,3 @@ BOOST_MPL_ASSERT_RELATION( ::boost::function_types::function_arity<c_mem_func_pt
 BOOST_MPL_ASSERT_RELATION( ::boost::function_types::function_arity<v_mem_func_ptr>::value, ==, 3 );
 BOOST_MPL_ASSERT_RELATION( ::boost::function_types::function_arity<cv_mem_func_ptr>::value, ==, 4 );
 BOOST_MPL_ASSERT_RELATION( ::boost::function_types::function_arity<mem_ptr>::value, ==, 1 );
-
-

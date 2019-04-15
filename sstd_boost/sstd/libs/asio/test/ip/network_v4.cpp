@@ -312,4 +312,3 @@ BOOST_ASIO_TEST_SUITE
   BOOST_ASIO_TEST_CASE(ip_network_v4_compile::test)
   BOOST_ASIO_TEST_CASE(ip_network_v4_runtime::test)
 )
-

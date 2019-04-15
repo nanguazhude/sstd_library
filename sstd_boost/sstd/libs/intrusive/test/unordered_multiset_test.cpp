@@ -165,4 +165,3 @@ int main()
    //test_main_template_bptr<  true,  true >::execute();
    return boost::report_errors();
 }
-

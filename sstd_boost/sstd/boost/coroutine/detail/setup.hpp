@@ -73,4 +73,3 @@ struct setup
 #endif
 
 #endif // BOOST_COROUTINES_DETAIL_SETUP_H
-

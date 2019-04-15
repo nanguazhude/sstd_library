@@ -37,4 +37,3 @@ struct base_unit_info<us::tablespoon_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNITS_BASE_UNITS_US_TABLESPOON_HPP_INCLUDED
-

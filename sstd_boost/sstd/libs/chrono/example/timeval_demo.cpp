@@ -234,5 +234,3 @@ int main()
     timeval_demo::test_xtime_clock();
     return 0;
 }
-
-

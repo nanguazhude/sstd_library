@@ -35,4 +35,3 @@ constexpr auto prod = hana::make_tuple(
 static_assert(hana::cartesian_product(tuples) == prod, "");
 
 int main() { }
-

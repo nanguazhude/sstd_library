@@ -244,4 +244,3 @@ bool heap_compare(Heap1 const & lhs, Heap2 const & rhs)
 #undef BOOST_HEAP_ASSERT
 
 #endif // BOOST_HEAP_DETAIL_HEAP_COMPARISON_HPP
-

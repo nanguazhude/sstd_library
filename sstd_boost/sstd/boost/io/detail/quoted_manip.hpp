@@ -188,4 +188,3 @@ namespace boost
 }  // namespace boost
 
 #endif // BOOST_IO_QUOTED_MANIP
-

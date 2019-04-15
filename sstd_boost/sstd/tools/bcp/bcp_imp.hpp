@@ -115,5 +115,3 @@ private:
    std::set<std::string>                                 m_lib_names;                  // List of library binary names
    std::map<std::string, fs::path>                       m_top_namespaces;             // List of top level namespace names
 };
-
-

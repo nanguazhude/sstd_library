@@ -341,4 +341,3 @@ private:
 } } } // End namespaces test, iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_TEST_CLOSABLE_HPP_INCLUDED
-

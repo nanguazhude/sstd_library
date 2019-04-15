@@ -21,4 +21,3 @@ static_assert(hana::less(odds, evens), "");
 static_assert(hana::less(up_to_5, odds), "");
 
 int main() { }
-

@@ -94,4 +94,3 @@ inline ResultType authalic_radius_sqr(Geometry const& geometry)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_FORMULAS_AUTHALIC_RADIUS_SQR_HPP
-

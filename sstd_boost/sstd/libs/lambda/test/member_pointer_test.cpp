@@ -189,5 +189,3 @@ int test_main(int, char *[]) {
   test_overloaded_pointer_to_member();
   return 0;
 }
-
-

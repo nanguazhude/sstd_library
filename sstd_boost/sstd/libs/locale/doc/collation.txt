@@ -48,6 +48,3 @@ You can also set a specific locale or level when creating and using the \ref boo
 \endcode
 
 */
-
-
-

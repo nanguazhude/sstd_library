@@ -50,4 +50,3 @@ template< typename T, typename Default = void_ > struct tag
 }}
 
 #endif // BOOST_MPL_TAG_HPP_INCLUDED
-

@@ -594,4 +594,3 @@ BOOST_AUTO_TEST_CASE(exp_sinh_quadrature_test)
     test_complex_modified_bessel<boost::multiprecision::cpp_complex_quad>();
 #endif
 }
-

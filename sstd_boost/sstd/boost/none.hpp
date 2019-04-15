@@ -56,5 +56,3 @@ const none_t none ((none_t::init_tag()));
 } // namespace boost
 
 #endif // header guard
-
-

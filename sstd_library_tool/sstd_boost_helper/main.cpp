@@ -99,7 +99,7 @@ int main(int argc, char ** argv) {
 
 #ifndef BOOST_ALL_DYN_LINK
 #define BOOST_ALL_DYN_LINK               (1u)
-#endif 
+#endif
 
 #ifndef BOOST_ALL_NO_LIB
 #define BOOST_ALL_NO_LIB                 (1u)
@@ -111,9 +111,9 @@ int main(int argc, char ** argv) {
 
 #ifndef BOOST_USE_WINDOWS_H
 #define BOOST_USE_WINDOWS_H              (1u)
-#endif  
+#endif
 
-#endif  
+#endif
 
 #endif
 
@@ -377,7 +377,3 @@ namespace thisMainFile {
     }
 
 }/*namespace thisMainFile*/
-
-
-
-

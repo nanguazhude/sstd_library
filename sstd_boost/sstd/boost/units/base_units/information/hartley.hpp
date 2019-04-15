@@ -28,4 +28,3 @@ BOOST_TYPEOF_REGISTER_TYPE(boost::units::information::hartley_base_unit)
 #endif
 
 #endif // BOOST_UNITS_BASE_UNITS_INFORMATION_HARTLEY_HPP_INCLUDED
-

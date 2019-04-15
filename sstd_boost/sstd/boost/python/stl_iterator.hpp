@@ -59,4 +59,3 @@ private:
 }} // namespace boost::python
 
 #endif // STL_ITERATOR_EAN20051028_HPP
-

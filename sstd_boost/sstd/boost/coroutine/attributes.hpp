@@ -56,4 +56,3 @@ struct attributes
 #endif
 
 #endif // BOOST_COROUTINES_ATTRIBUTES_H
-

@@ -104,5 +104,3 @@ namespace boost { namespace numeric { namespace odeint {
 
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_THRUST_THRUST_OPERATIONS_DISPATCHER_HPP_DEFINED
-
-

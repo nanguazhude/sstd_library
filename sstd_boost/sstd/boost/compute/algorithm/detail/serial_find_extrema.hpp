@@ -85,4 +85,3 @@ inline InputIterator serial_find_extrema(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_SERIAL_FIND_EXTREMA_HPP
-

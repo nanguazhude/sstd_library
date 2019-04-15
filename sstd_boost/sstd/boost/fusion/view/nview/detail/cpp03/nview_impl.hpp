@@ -79,4 +79,3 @@ namespace boost { namespace fusion
 #undef N
 
 #endif
-

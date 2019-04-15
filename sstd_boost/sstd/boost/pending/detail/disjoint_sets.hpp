@@ -86,4 +86,3 @@ normalize_node(ParentPA p, Vertex i)
 } // namespace boost
 
 #endif // BOOST_DETAIL_DISJOINT_SETS_HPP
-

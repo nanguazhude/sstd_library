@@ -344,4 +344,3 @@ private:
 } // namespace boost
 
 #endif // BOOST_NUMERIC_ODEINT_STEPPER_ROSENBROCK4_HPP_INCLUDED
-

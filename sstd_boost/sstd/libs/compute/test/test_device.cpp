@@ -291,4 +291,3 @@ BOOST_AUTO_TEST_CASE(get_info_opencl21_queries)
     );
 }
 #endif // BOOST_COMPUTE_CL_VERSION_2_1
-

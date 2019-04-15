@@ -41,4 +41,3 @@ bool is_inverse_spheroidal_coordinates(Box const& box)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_UTIL_IS_INVERSE_SPHEROIDAL_COORDINATES_HPP
-

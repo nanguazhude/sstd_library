@@ -50,4 +50,3 @@ struct bare_type
 
 
 #endif // BOOST_GEOMETRY_UTIL_BARE_TYPE_HPP
-

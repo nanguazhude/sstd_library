@@ -799,4 +799,3 @@ int main()
 
   std::cout << "Total execution time = " << std::setprecision(3) << total_time << "s" << std::endl;
 }
-

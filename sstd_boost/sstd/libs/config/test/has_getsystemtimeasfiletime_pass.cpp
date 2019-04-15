@@ -34,5 +34,3 @@ int main( int, char *[] )
 {
    return boost_has_getsystemtimeasfiletime::test();
 }
-
-

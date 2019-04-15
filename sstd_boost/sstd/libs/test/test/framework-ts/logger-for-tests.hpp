@@ -114,4 +114,3 @@ public:
 };
 
 #endif /* BOOST_TEST_TESTS_LOGGER_FOR_TESTS_HPP__ */
-

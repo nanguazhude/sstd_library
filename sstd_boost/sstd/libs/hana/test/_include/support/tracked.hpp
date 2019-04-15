@@ -118,4 +118,3 @@ struct Tracked {
 };
 
 #endif // !TEST_SUPPORT_TRACKED_HPP
-

@@ -131,4 +131,3 @@ inline InputIterator binary_find(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_BINARY_FIND_HPP
-

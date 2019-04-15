@@ -233,4 +233,3 @@ namespace boost {
 } // end namespace boost
 
 #endif // BOOST_SIGNALS2_SLOT_GROUPS_HPP
-

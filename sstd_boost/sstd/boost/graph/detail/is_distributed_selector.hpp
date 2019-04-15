@@ -24,4 +24,3 @@ namespace boost {
 }
 
 #endif // BOOST_GRAPH_DETAIL_IS_DISTRIBUTED_SELECTOR_HPP
-

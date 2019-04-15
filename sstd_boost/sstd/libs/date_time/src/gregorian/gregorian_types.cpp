@@ -57,7 +57,3 @@
 /*! @example localization.cpp
   Demonstrates the use of facets to localize date output for Gregorian dates.
  */
-
-
-
-

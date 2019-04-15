@@ -88,4 +88,3 @@ BOOST_FLYWEIGHT_PERFECT_FWD
 
 #endif
 #endif
-

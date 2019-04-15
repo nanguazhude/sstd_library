@@ -14,8 +14,3 @@ BOOST_AUTO_TEST_CASE(test_physical_concurrency_is_non_zero)
 {
     BOOST_CHECK(boost::thread::physical_concurrency()!=0);
 }
-
-
-
-
-

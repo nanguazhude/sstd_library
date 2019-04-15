@@ -88,4 +88,3 @@ void GC_initialize_offsets(void)
       offsets_initialized = TRUE;
     }
 }
-

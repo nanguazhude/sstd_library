@@ -52,5 +52,3 @@ Output:
 myspace::tgamma(30.0) = 8.84176e+030
 
 */
-
-

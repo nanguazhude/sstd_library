@@ -198,5 +198,3 @@ void GC_register_describe_type_fn(int kind, GC_describe_type_fn knd);
 				/* of a particular kind.		*/
 
 #endif  /* GC_MARK_H */
-
-

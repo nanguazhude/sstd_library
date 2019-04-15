@@ -13,6 +13,3 @@ int main()
    mpz_int b;
    mpq_rational c;
 }
-
-
-

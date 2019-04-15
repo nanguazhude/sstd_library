@@ -85,4 +85,3 @@ void load(Archive& ar, ptr_multimap_adapter<T, VoidPtrMap, CloneAllocator,Ordere
 } // namespace boost
 
 #endif
-

@@ -112,4 +112,3 @@ inline bool operator!=(const swap_test_class & lhs, const swap_test_class & rhs)
 }
 
 #endif
-

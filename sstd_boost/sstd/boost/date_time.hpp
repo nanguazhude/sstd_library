@@ -15,4 +15,3 @@
 #include "sstd/boost/date_time/local_time/local_time.hpp"
 
 #endif // BOOST_DATE_TIME_ALL_HPP___
-

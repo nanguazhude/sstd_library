@@ -52,4 +52,3 @@ struct function_object;
 }}} // namespace boost::callable_traits::detail
 
 #endif // #ifndef BOOST_CLBL_TRTS_DETAIL_FORWARD_DECLARATIONS
-

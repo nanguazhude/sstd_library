@@ -34,4 +34,3 @@ struct base_unit_info<angle::revolution_base_unit> {
 }
 
 #endif // BOOST_UNITS_BASE_UNITS_REVOLUTION_HPP
-

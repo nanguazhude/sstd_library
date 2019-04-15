@@ -81,4 +81,3 @@ Output
   tgamma(4., make_policy(...) = 6
 
 */
-

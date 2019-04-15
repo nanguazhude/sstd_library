@@ -645,6 +645,3 @@ void test_getting_pointer_to_function()
     std::vector<std::string> ret;
     std::transform(values.begin(), values.end(), ret.begin(), boost::lexical_cast<std::string, int>);
 }
-
-
-

@@ -61,4 +61,3 @@ int main()
     copy_test();
     return boost::report_errors();
 }
-

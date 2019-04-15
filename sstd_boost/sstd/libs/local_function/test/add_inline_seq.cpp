@@ -25,5 +25,3 @@ int main(void) {
     BOOST_TEST(sum == 1000);
     return boost::report_errors();
 }
-
-

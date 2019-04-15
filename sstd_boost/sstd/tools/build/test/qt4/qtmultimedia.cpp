@@ -23,4 +23,3 @@ BOOST_AUTO_TEST_CASE( audiodevices)
         BOOST_TEST_MESSAGE(QAudioDeviceInfo(devices.at(i)).deviceName().constData());
     }
 }
-

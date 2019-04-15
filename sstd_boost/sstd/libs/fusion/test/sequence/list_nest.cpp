@@ -33,5 +33,3 @@ main()
     test<skip_issues>();
     return boost::report_errors();
 }
-
-

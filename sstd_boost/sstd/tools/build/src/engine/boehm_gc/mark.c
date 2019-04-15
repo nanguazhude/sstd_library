@@ -1863,5 +1863,3 @@ struct hblk * GC_push_next_marked_uncollectable(struct hblk *h)
     GC_push_marked(h, hhdr);
     return(h + OBJ_SZ_TO_BLOCKS(hhdr -> hb_sz));
 }
-
-

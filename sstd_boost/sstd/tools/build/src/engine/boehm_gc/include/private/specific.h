@@ -92,6 +92,3 @@ static __inline__ void * PREFIXED(getspecific) (tsd * key) {
     }
     return PREFIXED(slow_getspecific) (key, qtid, entry_ptr);
 }
-
-
-

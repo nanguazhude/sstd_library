@@ -267,4 +267,3 @@ struct multi_point_multi_geometry
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_WITHIN_MULTI_POINT_HPP
-

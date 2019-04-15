@@ -116,4 +116,3 @@ namespace boost { namespace cnv
 }}
 
 #endif // BOOST_CONVERT_DETAIL_RANGE_HPP
-

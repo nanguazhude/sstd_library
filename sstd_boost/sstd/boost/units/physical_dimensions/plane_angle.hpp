@@ -47,4 +47,3 @@ typedef plane_angle_base_dimension::dimension_type    plane_angle_dimension;
 } // namespace boost
 
 #endif // BOOST_UNITS_PLANE_ANGLE_BASE_DIMENSION_HPP
-

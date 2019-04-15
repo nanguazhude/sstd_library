@@ -592,4 +592,3 @@ using ::SetFilePointer;
 }
 
 #endif // BOOST_WINAPI_FILE_MANAGEMENT_HPP_INCLUDED_
-

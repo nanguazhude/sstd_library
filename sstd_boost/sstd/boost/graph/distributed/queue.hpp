@@ -276,4 +276,3 @@ make_distributed_queue(const ProcessGroup& process_group,
 #undef BOOST_DISTRIBUTED_QUEUE_PARMS
 
 #endif // BOOST_GRAPH_DISTRIBUTED_QUEUE_HPP
-

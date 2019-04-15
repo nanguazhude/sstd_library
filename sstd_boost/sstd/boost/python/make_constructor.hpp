@@ -288,4 +288,3 @@ object make_constructor(
 
 
 #endif // MAKE_CONSTRUCTOR_DWA20011221_HPP
-

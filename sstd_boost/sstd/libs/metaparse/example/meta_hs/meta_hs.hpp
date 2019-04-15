@@ -61,5 +61,3 @@ typedef builder<>
   meta_hs;
 
 #endif
-
-

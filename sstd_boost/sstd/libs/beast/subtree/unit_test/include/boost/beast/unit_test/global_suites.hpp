@@ -53,4 +53,3 @@ global_suites()
 } // boost
 
 #endif
-

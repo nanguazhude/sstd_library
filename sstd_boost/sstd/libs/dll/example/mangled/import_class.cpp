@@ -45,4 +45,3 @@ int main(int argc, char* argv[]) {
     std::type_info &ti = cl.get_type_info();
 //]
 }
-

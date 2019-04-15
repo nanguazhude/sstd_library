@@ -24,4 +24,3 @@ int main() {
         hana::make_set(hana::int_c<1>)
     );
 }
-

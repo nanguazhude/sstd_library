@@ -65,4 +65,3 @@ make_transform_value_property_map(const Func& f, const PM& pm) {
 } // boost
 
 #endif /* BOOST_PROPERTY_MAP_TRANSFORM_VALUE_PROPERTY_MAP_HPP */
-

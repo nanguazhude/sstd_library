@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Enumerations
 * (C) 1999-2007 Jack Lloyd
 * (C) 2016 René Korthaus, Rohde & Schwarz Cybersecurity

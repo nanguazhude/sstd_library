@@ -24,4 +24,3 @@ BOOST_PYTHON_MODULE(crossmod_opaque_b)
         &::get,
         bpl::return_value_policy<bpl::return_opaque_pointer>());
 }
-

@@ -24,4 +24,3 @@ true
 //H 03: 1200
 //H 11: t_2_016.cpp(17): #if defined (_MSC_VER) && (_MSC_VER >= 1020): 1
 //H 10: t_2_016.cpp(19): #endif
-

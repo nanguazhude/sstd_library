@@ -128,4 +128,3 @@ struct key_node_pred
 }  //namespace boost {
 
 #endif   //BOOST_CONTAINER_DETAIL_COMPARE_FUNCTORS_HPP
-

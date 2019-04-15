@@ -850,4 +850,3 @@ BOOST_AUTO_TEST_CASE( test_grad_reverse13)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

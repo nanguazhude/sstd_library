@@ -109,4 +109,3 @@ void test_custom_factory()
   test_basic_template<custom_factory_flyweight_specifier1>();
   test_basic_template<custom_factory_flyweight_specifier2>();
 }
-

@@ -427,4 +427,3 @@ Output:
   End nonfinite_serialization.cpp' example program.
 
   */
-

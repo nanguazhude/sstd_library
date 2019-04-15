@@ -114,8 +114,3 @@ Student's t = -0.70117, if 3 degrees of freedom.
 Probability of the means being different is 0.533692.
 
 */
-
-
-
-
-

@@ -79,4 +79,3 @@ bool concrete_protected_call<T>::call()const
 #endif
 
 #endif
-

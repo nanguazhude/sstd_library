@@ -133,4 +133,3 @@ struct decode_type_impl<boost::type_of::constant<std::size_t,FUN_VAR_PTR_ID + n>
 
 #undef n
 #endif
-

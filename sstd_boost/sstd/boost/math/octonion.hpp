@@ -4249,4 +4249,3 @@ namespace boost
 }
 
 #endif /* BOOST_OCTONION_HPP */
-

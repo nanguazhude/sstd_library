@@ -61,4 +61,3 @@ private:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ASYNC_WAIT_GUARD_HPP
-

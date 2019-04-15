@@ -57,5 +57,3 @@ main()
     comment_nest_p_test();
     return boost::report_errors();
 }
-
-

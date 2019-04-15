@@ -64,4 +64,3 @@ struct not_
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_NOT_HPP
-

@@ -168,4 +168,3 @@ struct set_kernel_arg<image_object> : public set_kernel_arg<memory_object> { };
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_IMAGE_IMAGE_OBJECT_HPP
-

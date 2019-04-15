@@ -66,4 +66,3 @@ inline size_t serial_count_if(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_SERIAL_COUNT_IF_HPP
-

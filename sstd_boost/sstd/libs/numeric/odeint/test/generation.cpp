@@ -85,4 +85,3 @@ BOOST_AUTO_TEST_CASE( test_generation_rosenbrock4 )
 
 
 BOOST_AUTO_TEST_SUITE_END()
-

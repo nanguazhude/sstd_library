@@ -80,4 +80,3 @@ inline void print_range(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_DETAIL_PRINT_RANGE_HPP
-

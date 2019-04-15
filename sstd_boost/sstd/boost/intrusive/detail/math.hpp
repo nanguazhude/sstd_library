@@ -293,4 +293,3 @@ inline std::size_t sqrt2_pow_2xplus1 (std::size_t x)
 } //namespace boost
 
 #endif //BOOST_INTRUSIVE_DETAIL_MATH_HPP
-

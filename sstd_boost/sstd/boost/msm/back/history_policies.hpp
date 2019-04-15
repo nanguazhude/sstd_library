@@ -199,4 +199,3 @@ struct ShallowHistory
 };
 } } }//boost::msm::back
 #endif //BOOST_MSM_BACK_HISTORY_POLICIES_H
-

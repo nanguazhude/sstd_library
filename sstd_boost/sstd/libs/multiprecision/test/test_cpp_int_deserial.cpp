@@ -3213,5 +3213,3 @@ int main(int argc, char const* argv[])
    test1024<number<cpp_int_backend<1024, 1024> > >();
    return boost::report_errors();
 }
-
-

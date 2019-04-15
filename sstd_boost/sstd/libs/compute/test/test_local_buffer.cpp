@@ -78,4 +78,3 @@ BOOST_AUTO_TEST_CASE(local_buffer_arg)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

@@ -132,4 +132,3 @@ struct access<model::d2::point_xy<CoordinateType, CoordinateSystem>, Dimension >
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_POINT_XY_HPP
-

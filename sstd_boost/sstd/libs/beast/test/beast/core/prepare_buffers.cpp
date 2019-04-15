@@ -9,5 +9,3 @@
 
 // Test that header file is self-contained.
 #include <beast/core/prepare_buffers.hpp>
-
-

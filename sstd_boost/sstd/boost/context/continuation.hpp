@@ -11,4 +11,3 @@
 #else
 #include <sstd/boost/context/continuation_fcontext.hpp>
 #endif
-

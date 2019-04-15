@@ -142,4 +142,3 @@ operator()( BOOST_PP_ENUM_BINARY_PARAMS_Z(1, N, A, const& a) ) const
 
 # undef N
 #endif
-

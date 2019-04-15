@@ -21,4 +21,3 @@ typedef struct bjam_option
 
 int    getoptions( int argc, char * * argv, char * opts, bjam_option * optv );
 char * getoptval( bjam_option * optv, char opt, int subopt );
-

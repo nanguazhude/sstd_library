@@ -512,5 +512,3 @@ struct error_stream_replacer
 };
 
 #endif // BOOST_MATH_HANDLE_TEST_RESULT
-
-

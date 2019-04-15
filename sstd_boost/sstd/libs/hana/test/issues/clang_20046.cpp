@@ -18,4 +18,3 @@ int main() {
     [](auto) { return hana::metafunction<F>; }(1);
     [](auto) { return hana::metafunction_class<M>; }(1);
 }
-

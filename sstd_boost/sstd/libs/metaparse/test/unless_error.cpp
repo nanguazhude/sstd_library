@@ -36,6 +36,3 @@ BOOST_METAPARSE_TEST_CASE(util_unless_error)
   // test_not_error
   BOOST_MPL_ASSERT((equal_to<int13, unless_error<int11, int13>::type>));
 }
-
-
-

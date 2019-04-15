@@ -9,4 +9,3 @@
 //[unclosed
 
 int main() {}
-

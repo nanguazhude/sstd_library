@@ -19,4 +19,3 @@
 #include <sstd/boost/mpl/aux_/comparison_op.hpp>
 
 #endif // BOOST_MPL_EQUAL_TO_HPP_INCLUDED
-

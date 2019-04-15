@@ -165,4 +165,3 @@ inverse<Filter> invert(const Filter& f) { return inverse<Filter>(f); }
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>  // MSVC.
 
 #endif // #ifndef BOOST_IOSTREAMS_INVERT_HPP_INCLUDED
-

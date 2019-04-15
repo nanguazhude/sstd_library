@@ -63,4 +63,3 @@ int main() {
         f(ct_eq<1>{}, ct_eq<2>{}, ct_eq<3>{})
     ));
 }
-

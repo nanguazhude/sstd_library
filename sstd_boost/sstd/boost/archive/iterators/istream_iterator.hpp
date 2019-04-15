@@ -90,4 +90,3 @@ public:
 } // namespace boost
 
 #endif // BOOST_ARCHIVE_ITERATORS_ISTREAM_ITERATOR_HPP
-

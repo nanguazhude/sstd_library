@@ -203,5 +203,3 @@ NumArray Support Enhancements
   interpreter.  `Dirk Gerrits`_ has promised to do this job.
 
   .. _`Dirk Gerrits`: mailto:dirk-at-gerrits.homeip.net
-
-

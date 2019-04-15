@@ -39,4 +39,3 @@ struct word_count_tokens : boost::spirit::lex::lexer<BaseLexer>
 //]
 
 #endif
-

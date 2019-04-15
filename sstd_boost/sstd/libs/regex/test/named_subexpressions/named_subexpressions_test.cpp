@@ -109,5 +109,3 @@ int cpp_main( int , char* [] )
    test_named_subexpressions(wchar_t(0));
    return 0;
 }
-
-

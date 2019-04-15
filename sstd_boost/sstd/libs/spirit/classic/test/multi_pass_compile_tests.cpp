@@ -59,4 +59,3 @@ int main ()
     std::remove("./input_file.txt");
     return result;
 }
-

@@ -37,4 +37,3 @@ struct result_of
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_TYPE_TRAITS_RESULT_OF_HPP
-

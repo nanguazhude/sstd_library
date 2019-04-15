@@ -359,8 +359,3 @@ int main()
    test_overloads((long double)(0), "long double");
    return 0;
 }
-
-
-
-
-

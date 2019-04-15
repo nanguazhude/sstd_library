@@ -1,4 +1,4 @@
-/*
+﻿/*
 * TLS CBC+HMAC AEAD
 * (C) 2016 Jack Lloyd
 * (C) 2016 Daniel Neus, Rohde & Schwarz Cybersecurity

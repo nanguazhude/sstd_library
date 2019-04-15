@@ -125,4 +125,3 @@ class BOOST_PYTHON_DECL docstring_options : boost::noncopyable
 }} // namespace boost::python
 
 #endif // DOCSTRING_OPTIONS_RWGK20060111_HPP
-

@@ -342,4 +342,3 @@ struct topology_check<MultiPolygon, multi_polygon_tag>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_RELATE_TOPOLOGY_CHECK_HPP
-

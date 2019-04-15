@@ -52,4 +52,3 @@ inline void iota(BufferIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_IOTA_HPP
-

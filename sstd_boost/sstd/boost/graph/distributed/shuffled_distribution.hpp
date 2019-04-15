@@ -111,5 +111,3 @@ private:
 }}} // namespace boost::graph::distributed
 
 #endif // BOOST_SHUFFLED_DISTRIBUTION_070923_HPP
-
-

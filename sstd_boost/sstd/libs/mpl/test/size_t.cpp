@@ -27,4 +27,3 @@ MPL_TEST_CASE()
 #   define WRAPPER(T, i) mpl::size_t<i>
     BOOST_PP_REPEAT_FROM_TO(1, 11, INTEGRAL_WRAPPER_TEST, std::size_t)
 }
-

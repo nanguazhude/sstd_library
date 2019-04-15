@@ -72,4 +72,3 @@ TestCase test_partition{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_PARTITION_HPP
-

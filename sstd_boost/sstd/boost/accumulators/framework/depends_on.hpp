@@ -446,4 +446,3 @@ namespace boost { namespace accumulators
 }} // namespace boost::accumulators
 
 #endif
-

@@ -408,4 +408,3 @@ boost::wave::token_id scan(Scanner<Iterator> *s)
 #endif
 
 #endif // !defined(CPP_RE_HPP_B76C4F5E_63E9_4B8A_9975_EC32FA6BF027_INCLUDED)
-

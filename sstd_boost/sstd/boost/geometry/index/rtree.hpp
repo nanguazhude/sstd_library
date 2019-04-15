@@ -2225,4 +2225,3 @@ struct range_mutable_iterator
 #include <sstd/boost/geometry/index/detail/config_end.hpp>
 
 #endif // BOOST_GEOMETRY_INDEX_RTREE_HPP
-

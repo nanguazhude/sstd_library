@@ -52,5 +52,3 @@ main()
     BOOST_ASSERT(!r);
     return 0;
 }
-
-

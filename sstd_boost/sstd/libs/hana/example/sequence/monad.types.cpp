@@ -65,4 +65,3 @@ int main() {
         "some_function should be callable with any type of argument");
     });
 }
-

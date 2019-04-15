@@ -117,13 +117,3 @@ do_check(tt::integral_constant<std::size_t,::tt::alignment_of<union_UDT>::value>
 do_check(tt::integral_constant<std::size_t,::tt::alignment_of<boost::detail::max_align>::value>());
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-
-

@@ -185,4 +185,3 @@ std::error_condition make_error_condition(safe_numerics_error e) {
 } // boost
 
 #endif // BOOST_NUMERIC_CHECKED_RESULT
-

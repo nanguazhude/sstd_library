@@ -126,4 +126,3 @@ void test_serialization_template(
 #undef LENGTHOF
 
 #endif
-

@@ -25,4 +25,3 @@
 #define BOOST_LOG_PP_IDENTITY(z, n, data) data
 
 #endif // BOOST_LOG_DETAIL_PP_IDENTITY_HPP_INCLUDED_
-

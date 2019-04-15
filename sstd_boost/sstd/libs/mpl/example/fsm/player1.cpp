@@ -285,4 +285,3 @@ int main()
     p.process_event(stop());
     return 0;
 }
-

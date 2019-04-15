@@ -164,4 +164,3 @@ void* value_holder_back_reference<Value,Held>::holds(
 
 #endif // BOOST_PP_ITERATION_DEPTH()
 #endif
-

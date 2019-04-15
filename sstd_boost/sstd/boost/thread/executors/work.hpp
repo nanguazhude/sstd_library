@@ -28,4 +28,3 @@ namespace boost
 
 
 #endif //  BOOST_THREAD_EXECUTORS_WORK_HPP
-

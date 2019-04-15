@@ -106,4 +106,3 @@ bool is_handle_open(boost::iostreams::detail::file_handle handle)
 }}}
 
 #endif // BOOST_IOSTREAMS_FILE_HANDLE_HPP_INCLUDED
-

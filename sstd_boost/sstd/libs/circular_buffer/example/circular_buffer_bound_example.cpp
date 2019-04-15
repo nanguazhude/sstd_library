@@ -187,6 +187,3 @@ return 0;
 
 //] [/circular_buffer_bound_output]
 */
-
-
-

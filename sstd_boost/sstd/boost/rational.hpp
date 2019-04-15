@@ -1018,4 +1018,3 @@ struct lcm_evaluator< rational<IntType> >
 } // namespace boost
 
 #endif  // BOOST_RATIONAL_HPP
-

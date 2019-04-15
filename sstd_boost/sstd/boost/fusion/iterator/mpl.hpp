@@ -12,4 +12,3 @@
 #include <sstd/boost/fusion/iterator/mpl/fusion_iterator.hpp>
 
 #endif
-

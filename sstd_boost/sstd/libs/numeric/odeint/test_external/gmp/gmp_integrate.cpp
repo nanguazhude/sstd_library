@@ -167,4 +167,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( integrate_adaptive__test , Stepper , controlled_s
     perform_integrate_adaptive_test< Stepper > tester;
     tester();
 }
-

@@ -309,4 +309,3 @@ BOOST_AUTO_TEST_CASE(stable_radix_sort_int2_by_int)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

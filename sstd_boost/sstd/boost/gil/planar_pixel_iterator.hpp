@@ -209,4 +209,3 @@ struct dynamic_x_step_type<planar_pixel_iterator<IC,C> > {
 } }  // namespace boost::gil
 
 #endif
-

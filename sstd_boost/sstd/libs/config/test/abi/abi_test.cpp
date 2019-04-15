@@ -24,5 +24,3 @@ abi_test::abi_test()
    c = 0x12;
    i = 0x5678;
 }
-
-

@@ -43,5 +43,3 @@ class lazy_ostream;
 } // namespace boost
 
 #endif // BOOST_TEST_FWD_DECL_HPP_011605GER
-
-

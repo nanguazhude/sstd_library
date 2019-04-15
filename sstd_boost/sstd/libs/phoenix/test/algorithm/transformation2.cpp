@@ -193,4 +193,3 @@ int main()
     partial_sort_copy_test();
     return boost::report_errors();
 }
-

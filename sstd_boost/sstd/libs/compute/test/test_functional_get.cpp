@@ -81,4 +81,3 @@ BOOST_AUTO_TEST_CASE(get_tuple_result_type)
         >::value
     ));
 }
-

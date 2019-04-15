@@ -592,4 +592,3 @@ void chain_base<Self, Ch, Tr, Alloc, Mode>::pop()
 } } // End namespaces iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_CHAIN_HPP_INCLUDED
-

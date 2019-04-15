@@ -29,4 +29,3 @@ int main() {
     auto result = fusion::fold(xs, state{}, f{});
     (void)result;
 }
-

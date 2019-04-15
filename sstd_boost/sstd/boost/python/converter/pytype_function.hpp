@@ -131,4 +131,3 @@ struct to_python_target_type_direct
 }}} // namespace boost::python
 
 #endif // WRAP_PYTYPE_NM20070606_HPP
-

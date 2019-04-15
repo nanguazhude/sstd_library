@@ -146,4 +146,3 @@ int test_main ( int argc, char** argv )
   boost::two_graphs_common_spanning_trees_test();
   return EXIT_SUCCESS;
 }
-

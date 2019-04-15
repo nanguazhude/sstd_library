@@ -141,4 +141,3 @@ inline OutputIterator tangent_t2n(const int start_index,
 } } // namespace boost::math
 
 #endif // _BOOST_BERNOULLI_B2N_2013_05_30_HPP_
-

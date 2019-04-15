@@ -216,4 +216,3 @@ T * singleton< T >::m_instance = & singleton< T >::get_instance();
 #endif
 
 #endif // BOOST_SERIALIZATION_SINGLETON_HPP
-

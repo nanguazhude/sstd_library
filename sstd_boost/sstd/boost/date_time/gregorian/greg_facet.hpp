@@ -371,5 +371,3 @@ namespace gregorian {
 #endif
 
 #endif
-
-

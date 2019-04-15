@@ -20,4 +20,3 @@
 # define BOOST_PP_DEDUCE_R() BOOST_PP_AUTO_REC(BOOST_PP_FOR_P, 256)
 #
 # endif
-

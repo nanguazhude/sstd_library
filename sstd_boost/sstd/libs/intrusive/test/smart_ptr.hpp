@@ -309,4 +309,3 @@ struct pointer_plus_bits<smart_ptr<T>, NumBits>
 }  //namespace boost{
 
 #endif //#ifndef BOOST_INTRUSIVE_SMART_PTR_HPP
-

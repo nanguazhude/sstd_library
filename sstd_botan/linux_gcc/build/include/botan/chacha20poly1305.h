@@ -1,4 +1,4 @@
-/*
+﻿/*
 * ChaCha20Poly1305 AEAD
 * (C) 2014 Jack Lloyd
 * (C) 2016 Daniel Neus, Rohde & Schwarz Cybersecurity

@@ -17,4 +17,3 @@ int main() {
         hana::make_tuple(hana::type_c<int>, hana::type_c<char>, hana::type_c<void>, hana::type_c<int(float)>)
     );
 }
-

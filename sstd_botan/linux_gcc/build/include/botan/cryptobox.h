@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Cryptobox Message Routines
 * (C) 2009 Jack Lloyd
 *

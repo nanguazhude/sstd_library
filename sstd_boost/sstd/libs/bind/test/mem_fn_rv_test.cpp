@@ -115,4 +115,3 @@ int main()
 
     return detect_errors( hash == 2155 );
 }
-

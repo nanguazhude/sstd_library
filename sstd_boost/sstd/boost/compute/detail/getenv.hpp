@@ -34,4 +34,3 @@ inline const char* getenv(const char *env_var)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_DETAIL_GETENV_HPP
-

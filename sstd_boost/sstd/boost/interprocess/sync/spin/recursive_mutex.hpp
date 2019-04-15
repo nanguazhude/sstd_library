@@ -174,4 +174,3 @@ inline void spin_recursive_mutex::take_ownership()
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_DETAIL_SPIN_RECURSIVE_MUTEX_HPP
-

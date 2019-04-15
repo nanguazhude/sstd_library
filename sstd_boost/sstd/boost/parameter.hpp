@@ -18,5 +18,3 @@
 #include <sstd/boost/parameter/preprocessor.hpp>
 
 #endif // BOOST_PARAMETER_050401_HPP
-
-

@@ -40,4 +40,3 @@ struct state
 }}
 
 #endif // BOOST_FSM_STATE_INCLUDED
-

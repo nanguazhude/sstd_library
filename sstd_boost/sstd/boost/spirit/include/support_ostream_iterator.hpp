@@ -16,4 +16,3 @@
 #include <sstd/boost/spirit/home/support/iterators/ostream_iterator.hpp>
 
 #endif
-

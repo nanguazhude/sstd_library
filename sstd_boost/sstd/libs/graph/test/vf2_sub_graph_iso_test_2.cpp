@@ -192,4 +192,3 @@ int test_main(int argc, char* argv[]) {
   test_return_value();
   return 0;
 }
-

@@ -18,4 +18,3 @@ static_assert(hana::sum<>(hana::make_tuple(1, hana::int_c<3>, hana::long_c<-5>, 
 static_assert(hana::sum<unsigned long>(hana::make_tuple(1ul, 3ul)) == 4ul, "");
 
 int main() { }
-

@@ -402,4 +402,3 @@ main()
     test_const();
     return boost::report_errors();
     }
-

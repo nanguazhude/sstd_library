@@ -146,4 +146,3 @@ namespace boost
 
 
 #endif // BOOST_SIGNALS2_DETAIL_VARIADIC_SLOT_INVOKER_HPP
-

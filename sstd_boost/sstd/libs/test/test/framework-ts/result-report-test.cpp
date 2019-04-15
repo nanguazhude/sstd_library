@@ -333,4 +333,3 @@ BOOST_AUTO_TEST_CASE( test_result_reports_default_behaviour )
 }
 
 // EOF
-

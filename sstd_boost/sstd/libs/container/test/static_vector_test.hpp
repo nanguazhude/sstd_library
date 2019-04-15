@@ -101,4 +101,3 @@ private:
 };
 
 #endif // BOOST_CONTAINER_TEST_STATIC_VECTOR_TEST_HPP
-

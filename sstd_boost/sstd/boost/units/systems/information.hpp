@@ -18,4 +18,3 @@
 #include <sstd/boost/units/systems/information/prefixes.hpp>
 
 #endif
-

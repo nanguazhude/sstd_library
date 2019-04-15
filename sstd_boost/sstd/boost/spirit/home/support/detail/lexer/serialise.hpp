@@ -33,4 +33,3 @@ void serialise (basic_state_machine<CharT> &sm_, Archive &ar_,
 }
 
 #endif
-

@@ -8,4 +8,3 @@
 # include <sstd/boost/accumulators/numeric/detail/function_n.hpp>
 
 #endif // BOOST_DETAIL_FUNCTION4_DWA2006514_HPP
-

@@ -285,4 +285,3 @@ namespace boost {
 
 
 #endif  // BOOST_STRING_FIND_FORMAT_HPP
-

@@ -303,4 +303,3 @@ interval<T, Policies> nth_root(interval<T, Policies> const &x, int k)
 } // namespace boost
 
 #endif // BOOST_NUMERIC_INTERVAL_ARITH2_HPP
-

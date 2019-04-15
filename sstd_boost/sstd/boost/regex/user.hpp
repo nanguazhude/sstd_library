@@ -91,4 +91,3 @@
 
 // define this if you want regex to use __cdecl calling convensions, even when __fastcall is available:
 // #define BOOST_REGEX_NO_FASTCALL
-

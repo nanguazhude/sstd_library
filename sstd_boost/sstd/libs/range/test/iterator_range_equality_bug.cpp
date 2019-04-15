@@ -37,4 +37,3 @@ int main()
     boost::foo(42);
     boost::foo(boost::S());
 }
-

@@ -81,4 +81,3 @@ struct ordered_index_args
 } /* namespace boost */
 
 #endif
-

@@ -160,4 +160,3 @@ struct is_nullary< custom_terminal< boost::log::expressions::aux::attribute_outp
 #include <sstd/boost/log/detail/footer.hpp>
 
 #endif // BOOST_LOG_DETAIL_ATTR_OUTPUT_TERMINAL_HPP_INCLUDED_
-

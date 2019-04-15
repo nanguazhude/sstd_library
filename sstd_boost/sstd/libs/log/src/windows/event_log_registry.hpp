@@ -489,4 +489,3 @@ BOOST_LOG_CLOSE_NAMESPACE // namespace log
 #include <sstd/boost/log/detail/footer.hpp>
 
 #endif // BOOST_LOG_WINDOWS_EVENT_LOG_REGISTRY_HPP_INCLUDED_
-

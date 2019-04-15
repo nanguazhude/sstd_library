@@ -24,4 +24,3 @@ CPTR2 cptr2 = foo2;
 
 BOOST_STATIC_ASSERT((boost::is_same<BOOST_TYPEOF(cptr1), PTR1>::value));
 BOOST_STATIC_ASSERT((boost::is_same<BOOST_TYPEOF(cptr2), PTR2>::value));
-

@@ -6,4 +6,3 @@
 #include <auto/drop_while.hpp>
 
 int main() { }
-

@@ -22,4 +22,3 @@ void test()
     const boost::intmax_t t1 = boost::ratio<1, 0x8000000000000000ULL>::num;
     (void)t1;
 }
-

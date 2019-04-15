@@ -129,5 +129,3 @@ NaN input was 1.#QNAN
 
 //] [nonfinite_facet_sstream_output]
 */
-
-

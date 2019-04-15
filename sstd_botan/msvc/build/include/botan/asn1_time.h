@@ -1,4 +1,4 @@
-/*
+﻿/*
 * ASN.1 Time Representation
 * (C) 1999-2007,2012 Jack Lloyd
 *

@@ -93,4 +93,3 @@ int main() {
     test_case<int(VA_CC a::*)(int, ...) volatile RREF,         int(VA_CC b::*)(int, ...) volatile RREF         >();
     test_case<int(VA_CC a::*)(int, ...) volatile RREF TX_SAFE, int(VA_CC b::*)(int, ...) volatile RREF TX_SAFE >();
 }
-

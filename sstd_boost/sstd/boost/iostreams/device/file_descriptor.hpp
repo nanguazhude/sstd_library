@@ -323,4 +323,3 @@ private:
 #endif
 
 #endif // #ifndef BOOST_IOSTREAMS_FILE_DESCRIPTOR_HPP_INCLUDED
-

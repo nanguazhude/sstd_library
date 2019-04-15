@@ -259,4 +259,3 @@ inline bool covered_by(Geometry1 const& geometry1, Geometry2 const& geometry2,
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_COVERED_BY_INTERFACE_HPP
-

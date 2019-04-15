@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_SYMBOLS_FWD
 #include <sstd/boost/spirit/home/classic/symbols/symbols_fwd.hpp>
 #endif
-

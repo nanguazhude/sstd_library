@@ -204,4 +204,3 @@ NUMPY_OBJECT_MANAGER_TRAITS(numpy::multi_iter);
 }}} // namespace boost::python::converter
 
 #endif
-

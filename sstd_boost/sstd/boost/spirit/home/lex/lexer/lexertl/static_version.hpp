@@ -18,4 +18,3 @@
 #define SPIRIT_STATIC_LEXER_VERSION 0x010000
 
 #endif
-

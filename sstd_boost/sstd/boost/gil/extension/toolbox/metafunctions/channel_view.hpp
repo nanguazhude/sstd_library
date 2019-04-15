@@ -66,4 +66,3 @@ typename channel_view_type< Channel
 } // namespace boost
 
 #endif
-

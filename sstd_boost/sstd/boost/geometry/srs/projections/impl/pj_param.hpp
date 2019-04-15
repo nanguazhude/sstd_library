@@ -651,4 +651,3 @@ inline T pj_get_param_r(srs::spar::parameters<BOOST_GEOMETRY_PROJECTIONS_DETAIL_
 }}} // namespace boost::geometry::projections
 
 #endif
-

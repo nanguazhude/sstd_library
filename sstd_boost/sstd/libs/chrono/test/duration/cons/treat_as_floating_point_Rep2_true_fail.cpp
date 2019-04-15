@@ -19,4 +19,3 @@ void test()
 {
     boost::chrono::duration<int> d(1.);
 }
-

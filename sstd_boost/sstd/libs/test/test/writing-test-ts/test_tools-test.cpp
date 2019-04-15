@@ -900,4 +900,3 @@ BOOST_AUTO_TEST_CASE( test_rvalue_erasure )
 #endif
 
 // EOF
-

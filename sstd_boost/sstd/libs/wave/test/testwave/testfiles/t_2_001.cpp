@@ -30,4 +30,3 @@
 //H 03: warning
 //H 15: WARNING1 WARNING2
 //H 18: boost::wave::preprocess_exception
-

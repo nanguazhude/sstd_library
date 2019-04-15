@@ -4,4 +4,3 @@
 
 boost_test_jamfile(FILE Jamfile.v2 LIBRARIES Boost::assert Boost::core)
 boost_test(SOURCES check_cmake_version.cpp ARGUMENTS ${PROJECT_VERSION} LIBRARIES Boost::core Boost::config)
-

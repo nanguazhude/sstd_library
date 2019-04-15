@@ -117,13 +117,3 @@ do_check<union_UDT>();
 do_check<boost::detail::max_align>();
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-
-

@@ -58,4 +58,3 @@ namespace cppcon {
 } // end namespace cppcon
 
 #endif // !BOOST_HANA_EXAMPLE_CPPCON_2014_MATRIX_DET_HPP
-

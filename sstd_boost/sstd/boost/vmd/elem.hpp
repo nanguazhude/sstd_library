@@ -290,4 +290,3 @@
 
 #endif /* BOOST_PP_VARIADICS */
 #endif /* BOOST_VMD_ELEM_HPP */
-

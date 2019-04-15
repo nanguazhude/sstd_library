@@ -381,4 +381,3 @@ public:
        //   || defined(GENERATING_DOCUMENTATION)
 
 #endif // BOOST_ASIO_WINDOWS_OBJECT_HANDLE_HPP
-

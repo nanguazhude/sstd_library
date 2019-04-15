@@ -24,4 +24,3 @@
 #include <sstd/boost/iostreams/write.hpp>
 
 #endif // #ifndef BOOST_IOSTREAMS_OPERATIONS_HPP_INCLUDED
-

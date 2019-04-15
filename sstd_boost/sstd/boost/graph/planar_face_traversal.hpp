@@ -211,4 +211,3 @@ namespace boost
 } //namespace boost
 
 #endif //__PLANAR_FACE_TRAVERSAL_HPP__
-

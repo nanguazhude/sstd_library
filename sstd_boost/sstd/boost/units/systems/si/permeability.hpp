@@ -29,4 +29,3 @@ typedef unit<permeability_dimension,si::system>    permeability;
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_PERMEABILITY_HPP
-

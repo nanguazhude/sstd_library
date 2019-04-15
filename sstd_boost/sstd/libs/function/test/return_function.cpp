@@ -25,4 +25,3 @@ EXPORT boost::function2<int, int, int> get_fn_2()
 {
     return f;
 }
-

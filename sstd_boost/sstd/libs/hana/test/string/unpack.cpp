@@ -40,4 +40,3 @@ int main() {
         f(hana::char_c<'a'>, hana::char_c<'b'>, hana::char_c<'c'>, hana::char_c<'d'>, hana::char_c<'e'>)
     ));
 }
-

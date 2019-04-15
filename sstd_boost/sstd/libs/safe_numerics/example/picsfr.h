@@ -27,4 +27,3 @@
 #bit  TMR1ON  = T1CON.0
 
 #endif // PICSFR_H
-

@@ -25,4 +25,3 @@ struct initializer_tag<std::error_code>;
 
 
 #endif /* BOOST_PROCESS_DETAIL_HANDLER_HPP_ */
-

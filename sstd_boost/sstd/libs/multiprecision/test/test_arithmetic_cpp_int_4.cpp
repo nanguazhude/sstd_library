@@ -31,5 +31,3 @@ int main()
    test<boost::multiprecision::checked_cpp_int>();
    return boost::report_errors();
 }
-
-

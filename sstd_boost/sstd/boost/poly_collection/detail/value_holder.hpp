@@ -311,4 +311,3 @@ struct value_holder_allocator_adaptor:Allocator
 } /* namespace boost */
 
 #endif
-

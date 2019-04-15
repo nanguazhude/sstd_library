@@ -316,4 +316,3 @@ inline bool A::operator<(const A &rhs) const
 }
 
 #endif // BOOST_SERIALIZATION_TEST_A_HPP
-

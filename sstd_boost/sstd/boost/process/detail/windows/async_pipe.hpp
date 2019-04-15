@@ -432,4 +432,3 @@ inline bool operator!=(const basic_pipe<Char, Traits> & lhs, const async_pipe & 
 }}}}
 
 #endif /* INCLUDE_BOOST_PIPE_DETAIL_WINDOWS_ASYNC_PIPE_HPP_ */
-

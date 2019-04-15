@@ -12,4 +12,3 @@ static_assert(hana::first(hana::make_pair(1, 'x')) == 1, "");
 static_assert(hana::second(hana::make_pair(1, 'x')) == 'x', "");
 
 int main() { }
-

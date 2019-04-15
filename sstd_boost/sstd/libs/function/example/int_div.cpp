@@ -24,4 +24,3 @@ main()
 
   return 0;
 }
-

@@ -107,4 +107,3 @@ struct return_self
 }} // namespace boost::python
 
 #endif // RETURN_ARG_DWA2003719_HPP
-

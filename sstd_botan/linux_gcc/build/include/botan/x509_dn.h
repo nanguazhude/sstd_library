@@ -1,4 +1,4 @@
-/*
+﻿/*
 * X.509 Distinguished Name
 * (C) 1999-2010,2018 Jack Lloyd
 * (C) 2017 Fabian Weissberg, Rohde & Schwarz Cybersecurity

@@ -138,4 +138,3 @@ struct rounded_transc_opp: Rounding
 } // namespace boost
 
 #endif // BOOST_NUMERIC_INTERVAL_ROUNDED_TRANSC_HPP
-

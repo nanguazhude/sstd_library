@@ -89,4 +89,3 @@ struct unary_modifier_adaptor :
 
 
 #endif // BOOST_BIMAP_DETAIL_MODIFIER_ADAPTOR_HPP
-

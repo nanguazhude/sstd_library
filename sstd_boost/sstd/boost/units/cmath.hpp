@@ -727,4 +727,3 @@ atan2(const quantity<unit<Dimension, heterogeneous_system<System> >, Y>& y,
 } // namespace boost
 
 #endif // BOOST_UNITS_CMATH_HPP
-

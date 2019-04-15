@@ -38,4 +38,3 @@ BOOST_AUTO_TEST_CASE(transform_if_odd)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

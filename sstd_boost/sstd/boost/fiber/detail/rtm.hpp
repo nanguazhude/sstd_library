@@ -92,4 +92,3 @@ bool rtm_test() noexcept {
 #endif
 
 #endif // BOOST_FIBER_DETAIL_RTM_H
-

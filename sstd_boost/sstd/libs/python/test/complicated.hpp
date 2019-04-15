@@ -36,4 +36,3 @@ inline int complicated::get_n() const
 }
 
 #endif // COMPLICATED_DWA20011215_HPP
-

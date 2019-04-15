@@ -22,4 +22,3 @@ BOOST_AUTO_TEST_CASE( test )
   // of their value. And this test will fail at tolerance supplied.
 }
 //]
-

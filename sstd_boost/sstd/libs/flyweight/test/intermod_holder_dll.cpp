@@ -15,4 +15,3 @@ intermodule_flyweight_string create_intermodule_flyweight_string(
 {
   return intermodule_flyweight_string(str);
 }
-

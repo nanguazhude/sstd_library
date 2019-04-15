@@ -439,4 +439,3 @@ std::vector<std::string> mangled_storage_impl::get_related() const
 
 
 #endif /* BOOST_DLL_DETAIL_DEMANGLING_MSVC_HPP_ */
-

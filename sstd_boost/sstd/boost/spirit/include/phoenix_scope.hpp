@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_PHOENIX_SCOPE
 #include <sstd/boost/phoenix/scope.hpp>
 #endif
-

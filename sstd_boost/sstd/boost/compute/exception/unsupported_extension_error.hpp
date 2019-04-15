@@ -69,4 +69,3 @@ private:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_EXCEPTION_UNSUPPORTED_EXTENSION_ERROR_HPP
-

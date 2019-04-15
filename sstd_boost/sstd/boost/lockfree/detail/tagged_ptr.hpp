@@ -19,4 +19,3 @@
 #endif
 
 #endif /* BOOST_LOCKFREE_TAGGED_PTR_HPP_INCLUDED */
-

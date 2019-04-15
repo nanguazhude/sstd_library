@@ -35,5 +35,3 @@ inline long double fmod_workaround(long double a, long double b) BOOST_NOEXCEPT
 }}} // namespaces
 
 #endif // BOOST_MATH_TOOLS_WORHAROUND_HPP
-
-

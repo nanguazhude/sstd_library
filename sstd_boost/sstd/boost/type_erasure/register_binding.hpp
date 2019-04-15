@@ -179,4 +179,3 @@ void register_binding()
 }
 
 #endif
-

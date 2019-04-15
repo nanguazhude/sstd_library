@@ -37,4 +37,3 @@ namespace boost
 }
 
 #endif // BOOST_APPLE_MACRO_CHECK_HPP
-

@@ -138,4 +138,3 @@ private:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_RANDOM_NORMAL_DISTRIBUTION_HPP
-

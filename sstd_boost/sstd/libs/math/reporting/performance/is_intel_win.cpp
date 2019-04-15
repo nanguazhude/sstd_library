@@ -8,4 +8,3 @@
 #ifndef __ICL
 #error "wrong compiler"
 #endif
-

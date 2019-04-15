@@ -148,4 +148,3 @@ namespace chrono_detail
 }  // namespace boost
 
 #endif
-

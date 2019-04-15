@@ -15,6 +15,3 @@ extern "C" double BOOST_MATH_TR1_DECL boost_erfc BOOST_PREVENT_MACRO_SUBSTITUTIO
 {
    return c_policies::erfc BOOST_PREVENT_MACRO_SUBSTITUTION(x);
 }
-
-
-

@@ -500,4 +500,3 @@ private:
 } /* namespace boost */
 
 #endif
-

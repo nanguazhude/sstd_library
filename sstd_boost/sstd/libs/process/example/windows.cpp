@@ -28,4 +28,3 @@ int main()
             { std::cerr << ec.message() << std::endl; })
         );
 }
-

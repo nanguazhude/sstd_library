@@ -5,4 +5,3 @@
 //  http://www.boost.org/LICENSE_1_0.txt).
 
 #include <libs/vmd/test/test_assert_is_empty.cxx>
-

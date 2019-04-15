@@ -84,4 +84,3 @@ inline void FUN_NAME(projections::detail::factory<Params, T, Parameters>& factor
 }}} // namespace boost::geometry::projections
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_IMPL_FACTORY_ENTRY_HPP
-

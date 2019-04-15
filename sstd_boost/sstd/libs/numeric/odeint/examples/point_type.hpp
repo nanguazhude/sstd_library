@@ -175,4 +175,3 @@ class point :
 
 
 #endif //POINT_TYPE_HPP_INCLUDED
-

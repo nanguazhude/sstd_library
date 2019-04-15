@@ -33,4 +33,3 @@ int main() {
         fusion::make_deque("Moby Dick", "Garfield", "Snoopy")
     ));
 }
-

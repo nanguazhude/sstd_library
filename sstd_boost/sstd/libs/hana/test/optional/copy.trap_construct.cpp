@@ -19,4 +19,3 @@ int main() {
     (void)implicit_copy;
     (void)explicit_copy;
 }
-

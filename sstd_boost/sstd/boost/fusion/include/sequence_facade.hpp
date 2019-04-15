@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/sequence/sequence_facade.hpp>
 
 #endif
-

@@ -36,6 +36,3 @@ BOOST_METAPARSE_TEST_CASE(push_front_c)
   // test_push_front_to_empty
   BOOST_MPL_ASSERT((equal_to<string<'x'>, push_front_c<string<>, 'x'>::type>));
 }
-
-
-

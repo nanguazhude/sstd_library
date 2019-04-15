@@ -18,4 +18,3 @@ int main() {
     BOOST_HANA_CONSTANT_CHECK(hana::size(hana::nothing) == hana::size_c<0>);
     BOOST_HANA_CONSTANT_CHECK(hana::size(hana::just('x')) == hana::size_c<1>);
 }
-

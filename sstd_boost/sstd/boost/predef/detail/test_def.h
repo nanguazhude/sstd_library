@@ -69,4 +69,3 @@ int predef_info_compare(const void * a, const void * b)
     const predef_info * j = (const predef_info *)b;
     return strcmp(i->name,j->name);
 }
-

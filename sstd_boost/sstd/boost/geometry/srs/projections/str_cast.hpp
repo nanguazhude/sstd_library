@@ -158,4 +158,3 @@ inline T str_cast(String const& str)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_SRS_PROJECTIONS_STR_CAST_HPP
-

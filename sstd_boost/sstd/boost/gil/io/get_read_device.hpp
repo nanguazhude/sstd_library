@@ -59,4 +59,3 @@ struct get_read_device< String
 } // namespace boost
 
 #endif
-

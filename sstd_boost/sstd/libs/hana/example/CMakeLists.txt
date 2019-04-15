@@ -66,4 +66,3 @@ foreach(_file IN LISTS EXAMPLES)
     endif()
     add_dependencies(examples ${_target})
 endforeach()
-

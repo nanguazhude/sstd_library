@@ -40,4 +40,3 @@ inline void terminate(const child_handle &p)
 }}}}
 
 #endif
-

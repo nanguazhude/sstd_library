@@ -100,5 +100,3 @@
     BOOST_PARAMETER_FOR_EACH_R(BOOST_PP_DEDUCE_R(), arity, list, data, macro)
 
 #endif // BOOST_PARAMETER_FOR_EACH_051217_HPP
-
-

@@ -153,4 +153,3 @@ bool default_init_test()//Test for default initialization
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif //BOOST_CONTAINER_TEST_DEFAULT_INIT_TEST_HEADER
-

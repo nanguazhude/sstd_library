@@ -31,4 +31,3 @@ static_assert(!ct::is_transaction_safe<int(foo::*)() const>::value, "");
 int main() {}
 //]
 #endif
-

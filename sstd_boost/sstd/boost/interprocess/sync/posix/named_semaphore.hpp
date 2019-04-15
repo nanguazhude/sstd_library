@@ -86,4 +86,3 @@ class posix_named_semaphore
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTERPROCESS_POSIX_NAMED_CONDITION_HPP
-

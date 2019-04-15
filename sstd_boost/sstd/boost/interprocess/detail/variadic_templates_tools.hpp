@@ -33,4 +33,3 @@ using boost::container::dtl::get;
 }}}   //namespace boost { namespace interprocess { namespace ipcdetail {
 
 #endif   //#ifndef BOOST_INTERPROCESS_DETAIL_VARIADIC_TEMPLATES_TOOLS_HPP
-

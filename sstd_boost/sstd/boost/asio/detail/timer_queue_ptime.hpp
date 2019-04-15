@@ -99,4 +99,3 @@ private:
 #endif // defined(BOOST_ASIO_HAS_BOOST_DATE_TIME)
 
 #endif // BOOST_ASIO_DETAIL_TIMER_QUEUE_PTIME_HPP
-

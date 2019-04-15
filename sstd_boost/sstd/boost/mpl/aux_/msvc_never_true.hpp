@@ -32,4 +32,3 @@ struct msvc_never_true
 #endif // BOOST_MSVC
 
 #endif // BOOST_MPL_AUX_MSVC_NEVER_TRUE_HPP_INCLUDED
-

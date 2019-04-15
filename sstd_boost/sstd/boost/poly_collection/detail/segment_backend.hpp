@@ -80,4 +80,3 @@ struct segment_backend
 } /* namespace boost */
 
 #endif
-

@@ -103,4 +103,3 @@ statistics(Rtree const& tree)
 }}}}}} // namespace boost::geometry::index::detail::rtree::utilities
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_RTREE_UTILITIES_STATISTICS_HPP
-

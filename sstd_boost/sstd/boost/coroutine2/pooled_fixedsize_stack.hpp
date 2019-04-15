@@ -31,4 +31,3 @@ using pooled_fixedsize_stack = boost::context::pooled_fixedsize_stack;
 #endif
 
 #endif // BOOST_COROUTINES2_POOLED_FIXEDSIZE_H
-

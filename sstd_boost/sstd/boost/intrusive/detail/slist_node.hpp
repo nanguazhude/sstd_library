@@ -62,4 +62,3 @@ struct slist_node_traits
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_SLIST_NODE_HPP
-

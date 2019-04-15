@@ -579,4 +579,3 @@ inline void convert(Geometry1 const& geometry1, Geometry2& geometry2)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_CONVERT_HPP
-

@@ -20,4 +20,3 @@ int main() {
     BOOST_HANA_RUNTIME_ASSERT(yes);
     BOOST_HANA_RUNTIME_ASSERT_MSG(yes, "message");
 }
-

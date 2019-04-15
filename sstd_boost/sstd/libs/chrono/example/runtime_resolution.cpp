@@ -241,5 +241,3 @@ int main()
     runtime_resolution::test();
     return 0;
 }
-
-

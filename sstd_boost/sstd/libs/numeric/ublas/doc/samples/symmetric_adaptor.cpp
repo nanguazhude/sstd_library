@@ -27,5 +27,3 @@ int main () {
             sau (i, j) = 3 * i + j;
     std::cout << sau << std::endl;
 }
-
-

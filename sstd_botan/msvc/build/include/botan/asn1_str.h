@@ -1,4 +1,4 @@
-/*
+﻿/*
 * ASN.1 string type
 * (C) 1999-2010 Jack Lloyd
 *

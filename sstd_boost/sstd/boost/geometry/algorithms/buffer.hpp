@@ -300,4 +300,3 @@ inline void buffer(GeometryIn const& geometry_in,
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_BUFFER_HPP
-

@@ -94,4 +94,3 @@ using extract::weighted_moment;
 }} // namespace boost::accumulators
 
 #endif
-

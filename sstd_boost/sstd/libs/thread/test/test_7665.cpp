@@ -36,5 +36,3 @@ int main()
   BOOST_THREAD_LOG << "main>" << BOOST_THREAD_END_LOG;
   return 0;
 }
-
-

@@ -227,4 +227,3 @@ http://www.boost.org/LICENSE_1_0.txt)
   /**/
 
 #endif // BOOST_SERIALIZATION_XML_PERFORMANCE_MACRO_HPP
-

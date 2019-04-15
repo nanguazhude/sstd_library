@@ -40,8 +40,3 @@ void foo()
    // this should fail:
    b.f(i, c);
 }
-
-
-
-
-

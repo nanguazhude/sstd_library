@@ -514,4 +514,3 @@ boost::unit_test::test_suite * init_unit_test_suite( int, char* [])
 #if defined(BOOST_MSVC)
 # pragma warning(pop)
 #endif
-

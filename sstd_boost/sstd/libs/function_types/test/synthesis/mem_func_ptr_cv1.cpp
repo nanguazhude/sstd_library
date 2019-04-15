@@ -90,6 +90,3 @@ BOOST_MPL_ASSERT((
                                       , ft::volatile_qualified >::type
          , expected4 >
 ));
-
-
-

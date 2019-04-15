@@ -28,4 +28,3 @@ namespace boost { namespace algorithm { namespace detail {
 /// \endcond
 
 #endif  //  BOOST_ALGORITHM_SEARCH_DETAIL_DEBUG_HPP
-

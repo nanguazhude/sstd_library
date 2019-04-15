@@ -67,4 +67,3 @@ int main(int argc, const char ** argv) {
   ofile.close();
   return 0;
 }
-

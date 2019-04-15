@@ -84,5 +84,3 @@ BOOST_MPL_ASSERT_NOT((
 BOOST_MPL_ASSERT_NOT((
   ft::is_function< int[1] >
 ));
-
-

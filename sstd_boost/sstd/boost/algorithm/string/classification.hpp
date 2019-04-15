@@ -310,4 +310,3 @@ namespace boost {
 } // namespace boost
 
 #endif  // BOOST_STRING_PREDICATE_HPP
-

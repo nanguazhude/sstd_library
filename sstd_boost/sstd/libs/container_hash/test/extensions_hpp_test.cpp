@@ -17,4 +17,3 @@ int main() {
     boost::hash<int[2]> hf;
     hf(x);
 }
-

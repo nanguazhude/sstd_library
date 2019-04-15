@@ -164,4 +164,3 @@ BOOST_FORCEINLINE uuid x500dn() {
 } // boost
 
 #endif // BOOST_UUID_BASIC_NAME_GENERATOR_HPP
-

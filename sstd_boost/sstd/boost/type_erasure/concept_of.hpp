@@ -69,4 +69,3 @@ using concept_of_t = typename ::boost::type_erasure::concept_of<T>::type;
 }
 
 #endif
-

@@ -58,4 +58,3 @@ struct is_abstract< const T > : boost::true_type {};  \
 #endif // BOOST_NO_IS_ABSTRACT
 
 #endif //BOOST_SERIALIZATION_ASSUME_ABSTRACT_HPP
-

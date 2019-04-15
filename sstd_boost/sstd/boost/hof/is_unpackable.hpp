@@ -113,4 +113,3 @@ static_assert(check::type::value,
 }} // namespace boost::hof
 
 #endif
-

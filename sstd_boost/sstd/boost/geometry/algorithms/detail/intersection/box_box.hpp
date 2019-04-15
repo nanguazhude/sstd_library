@@ -52,4 +52,3 @@ struct intersection
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_INTERSECTION_BOX_BOX_HPP
-

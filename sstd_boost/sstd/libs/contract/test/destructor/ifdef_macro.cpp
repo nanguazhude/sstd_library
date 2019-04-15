@@ -139,5 +139,3 @@ int main() {
     BOOST_TEST(out.eq(ok.str()));
     return boost::report_errors();
 }
-
-

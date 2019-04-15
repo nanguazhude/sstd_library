@@ -27,4 +27,3 @@ struct stats
 }} // namespace boost::accumulators
 
 #endif
-

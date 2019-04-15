@@ -2240,4 +2240,3 @@ inline void swap(varray<V, C1, S1> & x, varray<V, C2, S2> & y)
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif // BOOST_CONTAINER_DETAIL_VARRAY_HPP
-

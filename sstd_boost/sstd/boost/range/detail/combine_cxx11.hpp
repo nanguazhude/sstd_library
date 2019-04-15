@@ -38,4 +38,3 @@ using range::combine;
 } // namespace boost
 
 #endif // include guard
-

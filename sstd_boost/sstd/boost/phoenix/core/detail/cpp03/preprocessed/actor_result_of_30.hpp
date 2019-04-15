@@ -683,4 +683,3 @@
                     >::result_type
                 type;
         };
-

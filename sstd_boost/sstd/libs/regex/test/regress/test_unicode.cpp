@@ -168,4 +168,3 @@ void test_unicode()
 #else
 void test_unicode(){}
 #endif
-

@@ -318,4 +318,3 @@ namespace boost { namespace yap {
 }}
 
 #endif
-

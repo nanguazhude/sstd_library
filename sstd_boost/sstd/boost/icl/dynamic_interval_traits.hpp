@@ -33,6 +33,3 @@ struct dynamic_interval_traits
 }} // namespace boost icl
 
 #endif
-
-
-

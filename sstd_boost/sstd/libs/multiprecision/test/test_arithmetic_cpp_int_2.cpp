@@ -27,5 +27,3 @@ int main()
    test<boost::multiprecision::int512_t >();
    return boost::report_errors();
 }
-
-

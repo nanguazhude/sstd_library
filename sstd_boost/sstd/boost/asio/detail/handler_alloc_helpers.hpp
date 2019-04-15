@@ -235,4 +235,3 @@ struct get_hook_allocator<Handler, std::allocator<T> >
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_HANDLER_ALLOC_HELPERS_HPP
-

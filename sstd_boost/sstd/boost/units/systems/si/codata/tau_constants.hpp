@@ -70,4 +70,3 @@ BOOST_UNITS_PHYSICAL_CONSTANT(lambda_C_tau,quantity<length>,0.69772e-15*meters,1
 } // namespace boost
 
 #endif // BOOST_UNITS_CODATA_TAU_CONSTANTS_HPP
-

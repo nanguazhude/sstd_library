@@ -1,4 +1,4 @@
-/*
+﻿/*
 * TLS Messages
 * (C) 2004-2011,2015 Jack Lloyd
 *     2016 Matthias Gierlings

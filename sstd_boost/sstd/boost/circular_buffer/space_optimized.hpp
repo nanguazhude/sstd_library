@@ -1717,4 +1717,3 @@ inline void swap(circular_buffer_space_optimized<T, Alloc>& lhs,
 } // namespace boost
 
 #endif // #if !defined(BOOST_CIRCULAR_BUFFER_SPACE_OPTIMIZED_HPP)
-

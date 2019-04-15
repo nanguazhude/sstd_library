@@ -22,6 +22,3 @@ template <class Type> struct is_discrete_interval
 }} // namespace boost icl
 
 #endif
-
-
-

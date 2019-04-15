@@ -27,4 +27,3 @@ struct key_value;
 } /* namespace boost */
 
 #endif
-

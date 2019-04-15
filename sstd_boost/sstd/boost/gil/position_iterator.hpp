@@ -106,4 +106,3 @@ struct dynamic_x_step_type<position_iterator<Deref,Dim> > {
 } }  // namespace boost::gil
 
 #endif
-

@@ -92,4 +92,3 @@
 
 #endif /* BOOST_PP_VARIADICS */
 #endif /* BOOST_VMD_NOT_EQUAL_HPP */
-

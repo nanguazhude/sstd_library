@@ -18,4 +18,3 @@ constexpr int increment(int i) {
 static_assert(hana::lockstep(hana::plus)(to_int, increment)('3', 4) == 3 + 5, "");
 
 int main() { }
-

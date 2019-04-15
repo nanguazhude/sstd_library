@@ -217,4 +217,3 @@ inline std::string pj_strerrno(int err) {
 }}} // namespace boost::geometry::projections
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_IMPL_PJ_STRERRNO_HPP
-

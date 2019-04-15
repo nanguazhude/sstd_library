@@ -182,4 +182,3 @@ inline void unique(Geometry& geometry)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_UNIQUE_HPP
-

@@ -520,4 +520,3 @@
 //]
 
 #endif /* BOOST_VMD_TEST_DOC_EXAMPLE_SWITCH_HPP */
-

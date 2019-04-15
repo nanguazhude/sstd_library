@@ -24,6 +24,3 @@ void compile_and_link_test()
    check_result<long double>(boost::math::fabs(std::complex<long double>()));
 #endif
 }
-
-
-

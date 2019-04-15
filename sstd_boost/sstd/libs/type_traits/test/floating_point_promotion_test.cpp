@@ -36,4 +36,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_same< ::tt::floating_point_promotion<flo
 BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_same< ::tt::floating_point_promotion<float const volatile&>::type, float const volatile&>::value), true);
 
 TT_TEST_END
-

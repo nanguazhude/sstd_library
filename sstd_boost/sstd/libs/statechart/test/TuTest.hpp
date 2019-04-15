@@ -53,4 +53,3 @@ struct BOOST_STATECHART_DECL TuTest : sc::state_machine< TuTest, Initial >
 
 
 #endif
-

@@ -130,4 +130,3 @@ struct core_access
 }}} // namespace boost::xpressive::detail
 
 #endif
-

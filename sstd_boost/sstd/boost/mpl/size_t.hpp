@@ -23,4 +23,3 @@
 #include <sstd/boost/mpl/aux_/integral_wrapper.hpp>
 
 #endif // BOOST_MPL_SIZE_T_HPP_INCLUDED
-

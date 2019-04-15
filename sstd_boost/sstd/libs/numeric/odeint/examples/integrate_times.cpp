@@ -52,4 +52,3 @@ int main()
     //integrate_times( make_controlled( 1E-12 , 1E-12 , stepper_type() ) , rhs ,
     //                   x , times.begin() , times.end() , dt , write_cout );
 }
-

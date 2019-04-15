@@ -21,4 +21,3 @@ BOOST_STATIC_ASSERT(is_body_reader<vector_body<char>>::value);
 } // http
 } // beast
 } // boost
-

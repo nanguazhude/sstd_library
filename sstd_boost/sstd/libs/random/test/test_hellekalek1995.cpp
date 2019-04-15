@@ -22,4 +22,3 @@
 #define BOOST_RANDOM_GENERATE_VALUES { 0x5642A47BU, 0x1F6987E8U, 0xD35860E7U, 0xC8C661ABU }
 
 #include "test_generator.ipp"
-

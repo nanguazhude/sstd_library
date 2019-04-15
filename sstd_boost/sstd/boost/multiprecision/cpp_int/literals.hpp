@@ -203,5 +203,3 @@ constexpr number<cpp_int_backend<MinBits, MinBits, signed_magnitude, Checked, vo
 }} // namespaces
 
 #endif // BOOST_MP_CPP_INT_CORE_HPP
-
-

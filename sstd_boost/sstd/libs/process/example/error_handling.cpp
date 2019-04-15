@@ -22,4 +22,3 @@ int main()
     bp::child c2("test.exe", bp::ignore_error);
 
 }
-

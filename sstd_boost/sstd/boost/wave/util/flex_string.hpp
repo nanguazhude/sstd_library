@@ -2602,4 +2602,3 @@ inline void serialize(Archive & ar, boost::wave::util::flex_string<E, T, A, S> &
 #endif
 
 #endif // FLEX_STRING_INC_
-

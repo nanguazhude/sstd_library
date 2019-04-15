@@ -125,4 +125,3 @@ namespace boost {
 
 
 #endif  // BOOST_STRING_CASE_CONV_DETAIL_HPP
-

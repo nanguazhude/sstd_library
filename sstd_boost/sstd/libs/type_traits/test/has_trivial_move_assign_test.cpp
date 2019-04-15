@@ -279,7 +279,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::has_trivial_move_assign<copyable_non_moveabl
 #endif
 
 TT_TEST_END
-
-
-
-

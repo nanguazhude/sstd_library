@@ -680,4 +680,3 @@ BOOST_RANDOM_PTR_HELPER_SPEC(boost::mt19937_64)
 #include <sstd/boost/random/detail/enable_warnings.hpp>
 
 #endif // BOOST_RANDOM_MERSENNE_TWISTER_HPP
-

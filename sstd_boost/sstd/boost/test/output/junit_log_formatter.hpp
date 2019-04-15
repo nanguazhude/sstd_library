@@ -165,4 +165,3 @@ private:
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_JUNIT_LOG_FORMATTER__
-

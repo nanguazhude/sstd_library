@@ -97,4 +97,3 @@ BOOST_MPI_DECL mpi_datatype_map& mpi_datatype_cache();
 #endif
 
 #endif // BOOST_MPI_DETAIL_TYPE_MPI_DATATYPE_CACHE_HPP
-

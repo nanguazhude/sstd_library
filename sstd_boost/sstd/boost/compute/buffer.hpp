@@ -225,4 +225,3 @@ struct set_kernel_arg<buffer>
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_BUFFER_HPP
-

@@ -161,4 +161,3 @@ namespace detail {
 #endif // !defined(BOOST_NO_CXX11_EXPLICIT_CONVERSION_OPERATORS)
 
 #endif // BOOST_CORE_EXPLICIT_OPERATOR_BOOL_HPP
-

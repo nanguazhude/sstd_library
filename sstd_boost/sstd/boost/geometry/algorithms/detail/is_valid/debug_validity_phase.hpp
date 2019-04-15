@@ -66,4 +66,3 @@ struct debug_validity_phase<Polygon, polygon_tag>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_IS_VALID_DEBUG_VALIDITY_PHASE_HPP
-

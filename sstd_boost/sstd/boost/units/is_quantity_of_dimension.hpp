@@ -40,4 +40,3 @@ struct is_quantity_of_dimension< quantity< Unit,Y>,Dim > :
 } // namespace boost
 
 #endif // BOOST_UNITS_IS_QUANTITY_OF_DIMENSION_HPP
-

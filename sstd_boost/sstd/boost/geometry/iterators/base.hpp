@@ -67,4 +67,3 @@ struct iterator_base
 
 
 #endif // BOOST_GEOMETRY_ITERATORS_BASE_HPP
-

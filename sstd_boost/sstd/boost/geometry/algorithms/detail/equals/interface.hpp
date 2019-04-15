@@ -314,5 +314,3 @@ inline bool equals(Geometry1 const& geometry1, Geometry2 const& geometry2)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_EQUALS_INTERFACE_HPP
-
-

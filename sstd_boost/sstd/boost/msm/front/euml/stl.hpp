@@ -15,4 +15,3 @@
 #include <sstd/boost/msm/front/euml/algorithm.hpp>
 
 #endif //BOOST_MSM_FRONT_EUML_STL_H
-

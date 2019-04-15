@@ -34,4 +34,3 @@ std::complex<T> atan(const std::complex<T>& x)
 } } // namespaces
 
 #endif // BOOST_MATH_COMPLEX_ATAN_INCLUDED
-

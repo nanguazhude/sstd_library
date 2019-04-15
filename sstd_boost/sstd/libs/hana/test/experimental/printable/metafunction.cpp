@@ -43,4 +43,3 @@ int main() {
             std::regex("metafunction_class<(?:struct )?foo::my_mf_class>")));
     }
 }
-

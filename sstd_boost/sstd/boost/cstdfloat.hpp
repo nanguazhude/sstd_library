@@ -56,4 +56,3 @@
   #endif
 
 #endif // _BOOST_CSTDFLOAT_2014_01_09_HPP_
-

@@ -16,5 +16,3 @@
 //    BOOST_METAPARSE_STRING("11 + 2")
 
 #endif
-
-

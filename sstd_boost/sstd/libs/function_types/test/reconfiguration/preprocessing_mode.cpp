@@ -8,5 +8,3 @@
 
 #define BOOST_FT_PREPROCESSING_MODE 1
 #include "simple_test.hpp"
-
-

@@ -88,4 +88,3 @@ void check_one(double result, double expected, double reference, double referenc
 }
 
 #endif // BOOST_GEOMETRY_TEST_FORMULA_HPP
-

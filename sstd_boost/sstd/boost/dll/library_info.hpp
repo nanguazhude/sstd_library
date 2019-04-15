@@ -180,4 +180,3 @@ public:
 
 }} // namespace boost::dll
 #endif // BOOST_DLL_LIBRARY_INFO_HPP
-

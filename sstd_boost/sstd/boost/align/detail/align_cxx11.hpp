@@ -19,4 +19,3 @@ using std::align;
 } /* boost */
 
 #endif
-

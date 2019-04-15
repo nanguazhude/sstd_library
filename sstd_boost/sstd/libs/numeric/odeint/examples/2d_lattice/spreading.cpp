@@ -120,4 +120,3 @@ int main( int argc, const char* argv[] ) {
     double elapsed_time = time_diff_in_ms( elapsed_time_start , elapsed_time_end );
     cout << steps << " steps in " << elapsed_time/1000 << " s (energy: " << lattice.energy( q , p ) << ")" << endl;
 }
-

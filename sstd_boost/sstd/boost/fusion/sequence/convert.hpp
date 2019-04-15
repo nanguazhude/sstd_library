@@ -59,4 +59,3 @@ namespace boost { namespace fusion
 
 #undef BOOST_FUSION_WA_GCC34
 #endif
-

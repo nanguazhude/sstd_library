@@ -25,4 +25,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::all_of(hana::just(hana::int_c<3>), odd));
 BOOST_HANA_CONSTANT_CHECK(hana::all_of(hana::nothing, odd));
 
 int main() { }
-

@@ -132,4 +132,3 @@ class list_iterator
 } //namespace boost
 
 #endif //BOOST_INTRUSIVE_LIST_ITERATOR_HPP
-

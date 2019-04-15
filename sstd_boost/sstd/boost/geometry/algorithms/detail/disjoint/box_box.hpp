@@ -182,4 +182,3 @@ struct disjoint<Box1, Box2, DimensionCount, box_tag, box_tag, false>
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_DISJOINT_BOX_BOX_HPP
-

@@ -31,4 +31,3 @@
 #endif
 
 #endif // BOOST_SIGNALS2_SLOT_HPP
-

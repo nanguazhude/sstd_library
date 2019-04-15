@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/support/is_segmented.hpp>
 
 #endif
-

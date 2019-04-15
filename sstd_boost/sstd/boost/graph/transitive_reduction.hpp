@@ -127,5 +127,3 @@ transitive_reduction(const Graph& g, GraphTR& tr,
 } // namespace boost
 
 #endif
-
-

@@ -140,4 +140,3 @@ public:
 } // namespace boost
 
 #endif // BOOST_ARCHIVE_ITERATORS_MB_FROM_WCHAR_HPP
-

@@ -377,4 +377,3 @@ BOOST_AUTO_TEST_CASE( test_linear_linear_all )
     test_linear_linear<ttmath_big>();
 #endif
 }
-

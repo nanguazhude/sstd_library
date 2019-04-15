@@ -37,4 +37,3 @@ using asymmetric_coroutine = coroutine< T >;
 #endif
 
 #endif // BOOST_COROUTINES2_COROUTINE_H
-

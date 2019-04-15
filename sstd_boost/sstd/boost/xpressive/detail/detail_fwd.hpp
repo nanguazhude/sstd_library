@@ -484,4 +484,3 @@ namespace boost { namespace xpressive
 }} // namespace boost::xpressive
 
 #endif
-

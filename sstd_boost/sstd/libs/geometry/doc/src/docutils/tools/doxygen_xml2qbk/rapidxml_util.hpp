@@ -67,4 +67,3 @@ inline void get_contents(rapidxml::xml_node<>* node, std::string& contents)
 }
 
 #endif // RAPIDXML_UTIL_HPP
-

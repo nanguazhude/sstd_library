@@ -787,4 +787,3 @@ public:
 } // namespace boost
 
 #endif
-

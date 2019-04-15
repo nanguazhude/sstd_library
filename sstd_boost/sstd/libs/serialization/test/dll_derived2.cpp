@@ -54,4 +54,3 @@ template BOOST_SYMBOL_EXPORT void derived2::serialize(
 #include <sstd/boost/serialization/factory.hpp>
 BOOST_SERIALIZATION_FACTORY_0(derived2)
 BOOST_CLASS_EXPORT(derived2)
-

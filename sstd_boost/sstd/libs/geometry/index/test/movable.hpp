@@ -90,4 +90,3 @@ struct has_nothrow_move<copy_movable>
 //]
 
 #endif //BOOST_GEOMETRY_INDEX_TEST_MOVABLE_HPP
-

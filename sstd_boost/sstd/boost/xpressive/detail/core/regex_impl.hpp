@@ -210,4 +210,3 @@ int regex_impl<BidiIter>::instances = 0;
 }}} // namespace boost::xpressive::detail
 
 #endif
-

@@ -52,4 +52,3 @@ public:
 } // namespace archetypes
 
 #endif // ARCHETYPES_GETTABLE_SOCKET_OPTION_HPP
-

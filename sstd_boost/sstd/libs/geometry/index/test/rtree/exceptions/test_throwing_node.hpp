@@ -320,4 +320,3 @@ struct create_node<
 }}} // namespace boost::geometry::index
 
 #endif // BOOST_GEOMETRY_INDEX_TEST_RTREE_THROWING_NODE_HPP
-

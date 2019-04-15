@@ -82,4 +82,3 @@ void write_output_ostream_test()
 }
 
 #endif // #ifndef BOOST_IOSTREAMS_TEST_WRITE_OUTPUT_OSTREAM_HPP_INCLUDED
-

@@ -165,4 +165,3 @@ struct negate_impl<boost::units::detail::dim_tag>
 #endif
 
 #endif // BOOST_UNITS_DIM_HPP
-

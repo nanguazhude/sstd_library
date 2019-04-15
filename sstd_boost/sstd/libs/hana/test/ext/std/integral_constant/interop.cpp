@@ -20,4 +20,3 @@ int main() {
 
     BOOST_HANA_CONSTANT_CHECK(std::integral_constant<int, 2>{} != hana::int_c<3>);
 }
-

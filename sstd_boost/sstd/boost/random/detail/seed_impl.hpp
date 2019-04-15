@@ -396,4 +396,3 @@ void fill_array_real(Iter& first, Iter last, RealType (&x)[n])
 #include <sstd/boost/random/detail/enable_warnings.hpp>
 
 #endif
-

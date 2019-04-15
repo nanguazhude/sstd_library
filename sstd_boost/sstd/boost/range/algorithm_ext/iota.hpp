@@ -52,4 +52,3 @@ inline const ForwardRange& iota( const ForwardRange& rng, Value x )
 } // namespace boost
 
 #endif // include guard
-

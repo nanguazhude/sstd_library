@@ -28,5 +28,3 @@ int main(void) {
     BOOST_TEST(total(1, 2, 3) == 60);
     return boost::report_errors();
 }
-
-

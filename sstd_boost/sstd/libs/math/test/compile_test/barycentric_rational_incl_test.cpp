@@ -25,4 +25,3 @@ void compile_and_link_test()
    boost::math::barycentric_rational<double> s(data, y, 3, 2);
    check_result<double>(s(1.0));
 }
-

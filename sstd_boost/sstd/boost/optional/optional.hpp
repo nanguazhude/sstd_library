@@ -1598,4 +1598,3 @@ operator<<(std::basic_ostream<CharType, CharTrait>& os, optional_detail::optiona
 #include <sstd/boost/optional/detail/optional_swap.hpp>
 
 #endif // header guard
-

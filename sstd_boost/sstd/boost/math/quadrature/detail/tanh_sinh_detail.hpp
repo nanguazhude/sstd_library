@@ -717,4 +717,3 @@ void tanh_sinh_detail<Real, Policy>::prune_to_min_complement(const Real& m)
 }}}}  // namespaces
 
 #endif
-

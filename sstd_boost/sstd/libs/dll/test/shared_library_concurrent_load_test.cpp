@@ -80,4 +80,3 @@ int main(int argc, char* argv[]) {
 }
 
 #endif // #ifdef BOOST_TRAVISCI_BUILD
-

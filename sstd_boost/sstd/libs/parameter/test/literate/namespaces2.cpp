@@ -18,5 +18,3 @@ namespace lib
 using namespace lib;
 int x = f(_name = "jill", _index = 3);
 int main() {}
-
-

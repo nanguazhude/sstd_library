@@ -48,4 +48,3 @@ int main()
     nullptr_test();
     return boost::report_errors();
 }
-

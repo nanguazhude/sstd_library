@@ -279,4 +279,3 @@ int list_test (bool copied_allocators_equal = true)
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif
-

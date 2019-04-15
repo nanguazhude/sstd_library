@@ -30,5 +30,3 @@ int main( int, char *[] )
 {
    return boost_no_fenv_h::test();
 }
-
-

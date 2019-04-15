@@ -80,4 +80,3 @@ typedef null_fenced_block fenced_block;
 } // namespace boost
 
 #endif // BOOST_ASIO_DETAIL_FENCED_BLOCK_HPP
-

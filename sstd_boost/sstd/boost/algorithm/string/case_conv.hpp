@@ -174,4 +174,3 @@ namespace boost {
 } // namespace boost
 
 #endif  // BOOST_STRING_CASE_CONV_HPP
-

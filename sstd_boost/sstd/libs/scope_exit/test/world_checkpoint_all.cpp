@@ -113,5 +113,3 @@ int main(void) {
 }
 
 #endif // lambda functions and variadic macros
-
-

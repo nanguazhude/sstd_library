@@ -544,4 +544,3 @@ inline wkt_manipulator<Geometry> wkt(Geometry const& geometry)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_IO_WKT_WRITE_HPP
-

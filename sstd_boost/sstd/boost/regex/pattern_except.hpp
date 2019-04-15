@@ -95,7 +95,3 @@ void raise_error(const traits& t, regex_constants::error_type code)
 } // namespace boost
 
 #endif
-
-
-
-

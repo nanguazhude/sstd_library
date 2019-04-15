@@ -24,4 +24,3 @@ int main()
 {
   BOOST_CHECK( 1 == 2 );
 }
-

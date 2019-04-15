@@ -37,9 +37,3 @@ int main()
    foo(l.begin(), l.end()); // error
    return 0;
 }
-
-
-
-
-
-

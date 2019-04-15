@@ -63,4 +63,3 @@ int main() {
         hana::make_range(hana::int_c<-4>, hana::int_c<2>)
     ));
 }
-

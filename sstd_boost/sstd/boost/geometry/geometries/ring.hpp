@@ -179,4 +179,3 @@ struct closure<model::ring<Point, PointOrder, false, Container, Allocator> >
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_RING_HPP
-

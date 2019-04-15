@@ -575,4 +575,3 @@ void generate_cpp (const basic_state_machine<CharT> &state_machine_,
 }
 
 #endif
-

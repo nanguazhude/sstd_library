@@ -31,4 +31,3 @@ using boost::addressof;
 } /* boost */
 
 #endif
-

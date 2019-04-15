@@ -97,4 +97,3 @@ inline void serialize(
 #endif // BOOST_NO_CXX11_SMART_PTR
 
 #endif // BOOST_SERIALIZATION_WEAK_PTR_HPP
-

@@ -1125,4 +1125,3 @@ rderef(auto_any_t cur, type2type<T, C> *)
         for (VAR = BOOST_FOREACH_RDEREF(COL); !BOOST_FOREACH_ID(_foreach_continue); BOOST_FOREACH_ID(_foreach_continue) = true)
 
 #endif
-

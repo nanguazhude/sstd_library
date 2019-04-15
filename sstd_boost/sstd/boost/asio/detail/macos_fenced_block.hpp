@@ -62,4 +62,3 @@ public:
 #endif // defined(__MACH__) && defined(__APPLE__)
 
 #endif // BOOST_ASIO_DETAIL_MACOS_FENCED_BLOCK_HPP
-

@@ -111,5 +111,3 @@ struct add_member_lvalue_reference
 //]
 
 #endif
-
-

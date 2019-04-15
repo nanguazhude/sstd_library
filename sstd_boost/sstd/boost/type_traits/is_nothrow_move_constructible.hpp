@@ -95,4 +95,3 @@ template <class T> struct is_nothrow_move_constructible<T&&> : public ::boost::t
 } // namespace boost
 
 #endif // BOOST_TT_IS_NOTHROW_MOVE_CONSTRUCTIBLE_HPP_INCLUDED
-

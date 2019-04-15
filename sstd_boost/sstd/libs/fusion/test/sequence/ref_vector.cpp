@@ -62,4 +62,3 @@ int main(int,char**)
 
   std::cout << f.d << " " << f.f << " " << f.c << "\n";
 }
-

@@ -183,4 +183,3 @@ namespace boost {
 #endif
 
 #endif // BOOST_TT_IS_COPY_CONSTRUCTIBLE_HPP_INCLUDED
-

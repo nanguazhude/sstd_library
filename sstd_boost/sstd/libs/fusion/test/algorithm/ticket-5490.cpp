@@ -39,4 +39,3 @@ int main()
 
     boost::ignore_unused(l, q);
 }
-

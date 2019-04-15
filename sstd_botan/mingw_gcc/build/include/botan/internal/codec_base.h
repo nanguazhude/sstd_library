@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Base Encoding and Decoding
 * (C) 2018 Erwan Chaussy
 * (C) 2018 Jack Lloyd

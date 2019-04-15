@@ -66,4 +66,3 @@ struct empty_impl< aux::vector_tag<N> >
 }}
 
 #endif // BOOST_MPL_VECTOR_AUX_EMPTY_HPP_INCLUDED
-

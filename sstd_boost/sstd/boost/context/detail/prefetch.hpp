@@ -76,4 +76,3 @@ void prefetch_range( void * addr, std::size_t len) {
 #endif
 
 #endif // BOOST_CONTEXT_DETAIL_PREFETCH_H
-

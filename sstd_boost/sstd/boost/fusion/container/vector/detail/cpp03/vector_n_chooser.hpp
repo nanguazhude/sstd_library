@@ -105,4 +105,3 @@ namespace boost { namespace fusion { namespace detail
 
 #undef N
 #endif // defined(BOOST_PP_IS_ITERATING)
-

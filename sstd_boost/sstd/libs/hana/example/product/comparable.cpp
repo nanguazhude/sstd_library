@@ -16,4 +16,3 @@ int main() {
     BOOST_HANA_RUNTIME_CHECK(hana::make_pair(1, "234"s) == hana::make_pair(1ll, "234"s));
     static_assert(hana::make_pair('x', 2) != hana::make_pair('y', 2), "");
 }
-

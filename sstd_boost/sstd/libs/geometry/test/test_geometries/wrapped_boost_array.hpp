@@ -149,4 +149,3 @@ namespace boost { namespace geometry { namespace traits
 
 
 #endif // GEOMETRY_TEST_TEST_GEOMETRIES_WRAPPED_BOOST_ARRAY_HPP
-

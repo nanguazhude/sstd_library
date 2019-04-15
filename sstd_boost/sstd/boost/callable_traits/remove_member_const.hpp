@@ -83,4 +83,3 @@ struct remove_member_const : detail::remove_member_const_impl<T> {};
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_REMOVE_MEMBER_CONST_HPP
-

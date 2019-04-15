@@ -11,4 +11,3 @@ int main(int argc, char *argv[])
   BOOST_STATIC_ASSERT(BOOST_ATOMIC_FLAG_LOCK_FREE);
   return 0;
 }
-

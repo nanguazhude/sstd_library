@@ -79,4 +79,3 @@ private:
 #endif // defined(BOOST_ASIO_WINDOWS)
 
 #endif // BOOST_ASIO_DETAIL_WIN_TSS_PTR_HPP
-

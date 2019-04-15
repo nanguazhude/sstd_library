@@ -133,4 +133,3 @@ int main(int argc, char *argv[])
     std::remove(filename.c_str());
     return 0;
 }
-

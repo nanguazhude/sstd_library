@@ -504,4 +504,3 @@ struct is_convertible : public integral_constant<bool, BOOST_IS_CONVERTIBLE(From
 } // namespace boost
 
 #endif // BOOST_TT_IS_CONVERTIBLE_HPP_INCLUDED
-

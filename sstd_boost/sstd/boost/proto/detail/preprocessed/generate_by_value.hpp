@@ -485,4 +485,3 @@
             return that;
         }
     };
-

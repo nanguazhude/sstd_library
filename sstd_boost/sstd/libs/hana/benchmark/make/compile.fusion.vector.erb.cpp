@@ -13,4 +13,3 @@ int main() {
     auto vector = <%= fusion_vector((1..input_size).map { |n| "x<#{n}>{}" }) %>;
     (void)vector;
 }
-

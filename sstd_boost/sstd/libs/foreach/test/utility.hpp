@@ -141,4 +141,3 @@ inline void mutate_foreach_byref_r( foreach_container_type & rng )
 }
 
 #endif
-

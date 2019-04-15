@@ -44,4 +44,3 @@ struct is_nothrow_equality_comparable<
 } /* namespace boost */
 
 #endif
-

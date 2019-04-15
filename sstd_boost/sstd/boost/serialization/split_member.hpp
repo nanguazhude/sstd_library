@@ -84,4 +84,3 @@ void serialize(                                                  \
 /**/
 
 #endif // BOOST_SERIALIZATION_SPLIT_MEMBER_HPP
-

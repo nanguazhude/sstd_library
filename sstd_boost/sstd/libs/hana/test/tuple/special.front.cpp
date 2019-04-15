@@ -44,4 +44,3 @@ int main() {
         hana::int_c<0>
     ));
 }
-

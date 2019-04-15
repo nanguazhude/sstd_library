@@ -56,4 +56,3 @@ namespace boost { namespace type_of {
 }}
 
 #endif//BOOST_TYPEOF_ENCODE_DECODE_HPP_INCLUDED
-

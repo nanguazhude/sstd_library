@@ -49,4 +49,3 @@ int main() {
     (void)z1;
     (void)z2;
 }
-

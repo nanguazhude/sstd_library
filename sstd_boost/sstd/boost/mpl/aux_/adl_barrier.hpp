@@ -46,4 +46,3 @@ namespace aux { using namespace BOOST_MPL_AUX_ADL_BARRIER_NAMESPACE::aux; }
 #endif
 
 #endif // BOOST_MPL_AUX_ADL_BARRIER_HPP_INCLUDED
-

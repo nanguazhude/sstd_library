@@ -124,4 +124,3 @@ struct Player : sc::asynchronous_state_machine<
 
 
 #endif
-

@@ -18,4 +18,3 @@ int main() {
         hana::just(ct_eq<3>{})
     ));
 }
-

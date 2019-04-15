@@ -183,4 +183,3 @@ inline decltype(auto) apply_visitor(Visitor&& visitor, Visitable&& visitable,
 } // namespace boost
 
 #endif // BOOST_VARIANT_DETAIL_APPLY_VISITOR_UNARY_HPP
-

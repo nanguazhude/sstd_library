@@ -320,4 +320,3 @@ template <typename Types> struct make_recursive_variant_over;
 } // namespace boost
 
 #endif // BOOST_VARIANT_VARIANT_FWD_HPP
-

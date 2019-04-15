@@ -21,4 +21,3 @@ add_executable (bench-utf8-checker
 )
 
 set_property(TARGET bench-utf8-checker PROPERTY FOLDER "tests-bench")
-

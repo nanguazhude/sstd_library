@@ -1033,5 +1033,3 @@ bool test_all_allocation(Allocator &a)
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_TEST_MEMORY_ALGORITHM_TEST_TEMPLATE_HEADER
-
-

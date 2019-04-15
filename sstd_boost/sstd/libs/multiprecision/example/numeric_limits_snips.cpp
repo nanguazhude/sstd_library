@@ -464,5 +464,3 @@ Similarly we can do the same with NaN (except that we cannot use `assert`)
 #endif
 #endif
 } // BOOST_AUTO_TEST_CASE(test_numeric_limits_snips)
-
-

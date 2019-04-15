@@ -86,4 +86,3 @@ int main() {
 
   std::cout << to_json(cars) << std::endl;
 }
-

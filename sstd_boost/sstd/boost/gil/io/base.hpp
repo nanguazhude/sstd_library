@@ -110,4 +110,3 @@ template< typename FormatTag, typename Log = no_log > struct image_write_info;
 } // namespace boost
 
 #endif
-

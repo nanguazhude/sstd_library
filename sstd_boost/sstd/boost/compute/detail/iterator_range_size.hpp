@@ -42,4 +42,3 @@ inline size_t iterator_range_size(Iterator first, Iterator last)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_DETAIL_ITERATOR_RANGE_SIZE_H
-

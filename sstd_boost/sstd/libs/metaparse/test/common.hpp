@@ -107,5 +107,3 @@ struct equal_sequences
 };
 
 #endif
-
-

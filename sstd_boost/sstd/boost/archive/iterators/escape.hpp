@@ -113,4 +113,3 @@ public:
 } // namespace boost
 
 #endif // BOOST_ARCHIVE_ITERATORS_ESCAPE_HPP
-

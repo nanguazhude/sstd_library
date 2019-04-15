@@ -24,4 +24,3 @@
 #include <sstd/boost/numeric/ublas/operation/size.hpp>
 
 #endif
-

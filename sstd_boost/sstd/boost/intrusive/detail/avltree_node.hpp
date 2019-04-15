@@ -191,4 +191,3 @@ struct avltree_node_traits
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_AVLTREE_NODE_HPP
-

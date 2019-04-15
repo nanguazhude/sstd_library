@@ -19,4 +19,3 @@ int main() {
 
     BOOST_HANA_CONSTEXPR_CHECK(hana::compose(to_char, increment)(3) == '4');
 }
-

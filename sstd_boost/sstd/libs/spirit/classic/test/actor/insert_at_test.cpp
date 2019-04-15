@@ -106,5 +106,3 @@ void insert_at_action_test()
     insert_at_single_argument_test();
     insert_at_two_arguments_test();
 }
-
-

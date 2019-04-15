@@ -224,4 +224,3 @@ namespace boost { namespace spirit { namespace karma
 }}}  // namespace boost::spirit::karma
 
 #endif // !defined(BOOST_SPIRIT_KARMA_CHAR_FEB_21_2007_0543PM)
-

@@ -1234,4 +1234,3 @@ BOOST_AUTO_TEST_CASE(test_wait_for_all_five_futures)
         BOOST_CHECK(futures[j].is_ready());
     }
 }
-

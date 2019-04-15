@@ -135,5 +135,3 @@ int main()
 
     print_expr(_1 * invert(_2 - _3));
 }
-
-

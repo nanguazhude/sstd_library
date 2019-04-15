@@ -213,5 +213,3 @@ void test_assertion_escapes()
       TEST_REGEX_SEARCH_W(L"(?x) abc \\R", perl | no_escape_in_lists, L"abc\u2029bar", match_default, make_array(0, 4, -2, -2));
    }
 }
-
-

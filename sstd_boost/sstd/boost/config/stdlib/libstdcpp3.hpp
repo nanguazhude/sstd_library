@@ -347,4 +347,3 @@ extern "C" char *gets (char *__s);
 #endif
 
 //  --- end ---
-

@@ -77,4 +77,3 @@ quantil(UnaryFunction f, typename UnaryFunction::argument_type a,
 
 
 #endif /* INTEGRATE_HPP */
-

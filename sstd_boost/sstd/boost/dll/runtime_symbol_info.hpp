@@ -234,5 +234,3 @@ namespace detail {
 }} // namespace boost::dll
 
 #endif // BOOST_DLL_RUNTIME_SYMBOL_INFO_HPP
-
-

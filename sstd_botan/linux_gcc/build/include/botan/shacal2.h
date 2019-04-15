@@ -1,4 +1,4 @@
-/*
+﻿/*
 * SHACAL-2
 * (C) 2017 Jack Lloyd
 *

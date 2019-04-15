@@ -74,4 +74,3 @@ string EdgeSet::toString()
 }
 
 } /* namespace AutoDiff */
-

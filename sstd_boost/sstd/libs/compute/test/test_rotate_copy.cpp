@@ -71,4 +71,3 @@ BOOST_AUTO_TEST_CASE(rotate_copy_9)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

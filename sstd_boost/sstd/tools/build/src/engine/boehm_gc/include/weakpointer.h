@@ -217,6 +217,3 @@ extern "C" {
 }
 
 #endif /* _weakpointer_h_ */
-
-
-

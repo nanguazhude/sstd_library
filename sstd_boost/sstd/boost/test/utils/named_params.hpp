@@ -386,4 +386,3 @@ opt_append( Params const& params, NP const& )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_UTILS_NAMED_PARAM
-

@@ -26,4 +26,3 @@
 
 
 #endif // BOOST_GEOMETRY_IO_SVG_WRITE_SVG_HPP
-

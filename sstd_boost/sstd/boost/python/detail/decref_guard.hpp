@@ -19,4 +19,3 @@ struct decref_guard
 }}} // namespace boost::python::detail
 
 #endif // DECREF_GUARD_DWA20021220_HPP
-

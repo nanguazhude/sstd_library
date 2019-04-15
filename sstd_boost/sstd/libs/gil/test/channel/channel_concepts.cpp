@@ -90,4 +90,3 @@ BOOST_AUTO_TEST_CASE(channel_minimal_requirements)
     fixture::channel_reference<channel_archetype>();
     fixture::channel_reference<channel_archetype const&>();
 }
-

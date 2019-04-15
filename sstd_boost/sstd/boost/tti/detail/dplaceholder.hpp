@@ -34,4 +34,3 @@ namespace boost
   }
 
 #endif // BOOST_TTI_DETAIL_PLACEHOLDER_HPP
-

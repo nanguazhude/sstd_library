@@ -32,4 +32,3 @@ struct key_type_impl< aux::set_tag >
 }}
 
 #endif // BOOST_MPL_SET_AUX_KEY_TYPE_IMPL_HPP_INCLUDED
-

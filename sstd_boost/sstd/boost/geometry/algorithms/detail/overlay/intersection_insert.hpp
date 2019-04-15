@@ -1351,4 +1351,3 @@ inline OutputIterator intersection_insert(Geometry1 const& geometry1,
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_INTERSECTION_INSERT_HPP
-

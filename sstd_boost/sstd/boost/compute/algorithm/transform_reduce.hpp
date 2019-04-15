@@ -98,4 +98,3 @@ inline void transform_reduce(InputIterator1 first1,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_TRANSFORM_REDUCE_HPP
-

@@ -101,4 +101,3 @@ typedef basic_onullstream<wchar_t>  wonullstream;
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif  // BOOST_TEST_UTILS_NULLSTREAM_HPP
-

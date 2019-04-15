@@ -448,5 +448,3 @@ int bessel_ik(T v, T x, T* I, T* K, int kind, const Policy& pol)
 }}} // namespaces
 
 #endif // BOOST_MATH_BESSEL_IK_HPP
-
-

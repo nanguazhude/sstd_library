@@ -358,4 +358,3 @@ inline void correct(Geometry& geometry, Strategy const& strategy)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_CORRECT_HPP
-

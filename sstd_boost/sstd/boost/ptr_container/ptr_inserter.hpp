@@ -304,4 +304,3 @@ namespace ptr_container
 #endif
 
 #endif
-

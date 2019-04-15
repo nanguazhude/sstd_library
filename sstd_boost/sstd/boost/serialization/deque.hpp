@@ -78,4 +78,3 @@ inline void serialize(
 BOOST_SERIALIZATION_COLLECTION_TRAITS(std::deque)
 
 #endif // BOOST_SERIALIZATION_DEQUE_HPP
-

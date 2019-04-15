@@ -291,4 +291,3 @@ class non_copymovable_int
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTERPROCESS_TEST_MOVABLE_INT_HEADER
-

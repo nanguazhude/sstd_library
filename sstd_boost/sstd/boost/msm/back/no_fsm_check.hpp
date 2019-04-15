@@ -35,4 +35,3 @@ namespace boost { namespace msm { namespace back
 
 
 #endif //BOOST_MSM_BACK_NO_FSM_CHECK_H
-

@@ -120,4 +120,3 @@ test()
                                                 // temporary to non-const reference
 #endif
 }
-

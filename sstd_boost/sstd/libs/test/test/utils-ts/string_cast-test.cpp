@@ -112,4 +112,3 @@ BOOST_AUTO_TEST_CASE( test_string_as_validations )
 }
 
 // EOF
-

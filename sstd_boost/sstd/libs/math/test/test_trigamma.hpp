@@ -75,5 +75,3 @@ void test_trigamma(T, const char* name)
    } };
    do_test_trigamma<T>(data, name, "Mathematica Data");
 }
-
-

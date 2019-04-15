@@ -228,4 +228,3 @@ resolve(T& t BOOST_IOSTREAMS_ENABLE_IF_STREAM(T))
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp> // VC7.1 4224.
 
 #endif // BOOST_IOSTREAMS_DETAIL_RESOLVE_HPP_INCLUDED
-

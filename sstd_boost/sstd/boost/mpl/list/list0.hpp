@@ -40,4 +40,3 @@ template<> struct list0<na>
 }}
 
 #endif // BOOST_MPL_LIST_LIST0_HPP_INCLUDED
-

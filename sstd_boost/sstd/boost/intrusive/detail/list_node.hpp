@@ -70,4 +70,3 @@ struct list_node_traits
 } //namespace boost
 
 #endif //BOOST_INTRUSIVE_LIST_NODE_HPP
-

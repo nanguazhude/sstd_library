@@ -57,6 +57,3 @@ public:
 }} // namespace boost icl
 
 #endif
-
-
-

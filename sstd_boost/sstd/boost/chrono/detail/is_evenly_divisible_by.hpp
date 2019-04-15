@@ -29,4 +29,3 @@ namespace chrono_detail {
 } // namespace chrono
 
 #endif // BOOST_CHRONO_DETAIL_IS_EVENLY_DIVISIBLE_BY_HPP
-

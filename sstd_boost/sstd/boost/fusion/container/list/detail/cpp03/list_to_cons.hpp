@@ -74,4 +74,3 @@ namespace boost { namespace fusion { namespace detail
 
 #undef FUSION_VOID
 #endif
-

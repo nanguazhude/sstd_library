@@ -19,4 +19,3 @@ file_read( FILE * f, void * buffer, size_t size )
         throw boost::enable_current_exception(file_read_error()) <<
             boost::errinfo_errno(errno);
     }
-

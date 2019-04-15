@@ -71,5 +71,3 @@ BOOST_PYTHON_MODULE(cltree)
 }
 
 #include "module_tail.cpp"
-
-

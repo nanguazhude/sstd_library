@@ -114,4 +114,3 @@ private:
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>  // MSVC.
 
 #endif // #ifndef BOOST_IOSTREAMS_STREAM_BUFFER_HPP_INCLUDED
-

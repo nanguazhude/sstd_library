@@ -65,4 +65,3 @@ class ios_all_word_saver;
 
 
 #endif  // BOOST_IO_FWD_HPP
-

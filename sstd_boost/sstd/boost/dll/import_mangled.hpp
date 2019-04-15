@@ -307,4 +307,3 @@ BOOST_DLL_MANGLED_IMPORT_RESULT_TYPE import_mangled(BOOST_RV_REF(shared_library)
 
 
 #endif /* BOOST_DLL_IMPORT_MANGLED_HPP_ */
-

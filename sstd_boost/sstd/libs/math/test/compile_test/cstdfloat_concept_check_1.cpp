@@ -22,5 +22,3 @@ int main(int
       instantiate(BOOST_FLOAT128_C(1.23));
 #endif
 }
-
-

@@ -308,4 +308,3 @@ bron_kerbosch_clique_number(const Graph& g)
 } /* namespace boost */
 
 #endif
-

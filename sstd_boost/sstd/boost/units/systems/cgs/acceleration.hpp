@@ -32,4 +32,3 @@ BOOST_UNITS_STATIC_CONSTANT(gals,acceleration);
 } // namespace boost
 
 #endif // BOOST_UNITS_CGS_ACCELERATION_HPP
-

@@ -23,5 +23,3 @@ struct A {
 void f1(text_oarchive & oa, A & a){
     oa << BOOST_SERIALIZATION_NVP(a);
 }
-
-

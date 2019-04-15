@@ -52,7 +52,3 @@ ordering_test()
     v1 >= v5;
 #endif
 }
-
-
-
-

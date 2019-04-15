@@ -17,4 +17,3 @@ int main() {
     auto stuff = hana::make_tuple(Car{}, Car{}, Car{});
     hana::any_of(stuff, [](auto&&) { return true; });
 }
-

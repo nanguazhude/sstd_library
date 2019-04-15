@@ -79,4 +79,3 @@ make_compose_property_map(const FPMap &f, const GPMap &g) {
 } // namespace boost
 
 #endif // BOOST_PROPERTY_MAP_COMPOSE_PROPERTY_MAP_HPP
-

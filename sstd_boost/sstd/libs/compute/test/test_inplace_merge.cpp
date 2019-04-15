@@ -45,4 +45,3 @@ BOOST_AUTO_TEST_CASE(simple_merge_int)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

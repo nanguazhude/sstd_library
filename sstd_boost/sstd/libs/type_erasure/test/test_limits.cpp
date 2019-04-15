@@ -92,4 +92,3 @@ BOOST_AUTO_TEST_CASE(test_vtable_size)
     int i = func(x, t1);
     BOOST_TEST(i == 3);
 }
-

@@ -5,5 +5,3 @@
 // See: http://www.boost.org/doc/libs/release/libs/contract/doc/html/index.html
 
 #include "audit.hpp"
-
-

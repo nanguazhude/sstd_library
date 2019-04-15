@@ -101,4 +101,3 @@ of BSD. If the above variants is detected the corresponding macro is also set.]
 
 #include <sstd/boost/predef/detail/test.h>
 BOOST_PREDEF_DECLARE_TEST(BOOST_OS_BSD,BOOST_OS_BSD_NAME)
-

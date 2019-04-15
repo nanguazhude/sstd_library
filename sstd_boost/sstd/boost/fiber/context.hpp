@@ -511,4 +511,3 @@ wait_functor::const_pointer wait_functor::to_value_ptr( wait_functor::const_hook
 #endif
 
 #endif // BOOST_FIBERS_CONTEXT_H
-

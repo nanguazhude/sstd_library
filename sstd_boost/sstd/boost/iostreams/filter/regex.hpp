@@ -96,4 +96,3 @@ typedef basic_regex_filter<wchar_t>  wregex_filter;
 } } // End namespaces iostreams, boost.
 
 #endif      // #ifndef BOOST_IOSTREAMS_REGEX_FILTER_HPP_INCLUDED
-

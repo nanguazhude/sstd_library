@@ -29,5 +29,3 @@ void no_unused_nobind_warning_(nobind_t* ptr = &nobind);
 #endif // locals as tparams
 
 #endif // #include guard
-
-

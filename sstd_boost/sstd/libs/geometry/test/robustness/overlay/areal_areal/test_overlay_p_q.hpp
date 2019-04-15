@@ -291,4 +291,3 @@ static bool test_overlay_p_q(std::string const& caseid,
 }
 
 #endif // BOOST_GEOMETRY_TEST_OVERLAY_P_Q_HPP
-

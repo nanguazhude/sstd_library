@@ -198,4 +198,3 @@ int main()
 }
 
 #include "unique_ptr_test_utils_end.hpp"
-

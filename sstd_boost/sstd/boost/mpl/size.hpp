@@ -40,4 +40,3 @@ BOOST_MPL_AUX_NA_SPEC(1, size)
 }}
 
 #endif // BOOST_MPL_SIZE_HPP_INCLUDED
-

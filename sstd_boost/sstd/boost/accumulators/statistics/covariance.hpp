@@ -210,4 +210,3 @@ struct feature_of<tag::weighted_covariance<VariateType, VariateTag> >
 }} // namespace boost::accumulators
 
 #endif
-

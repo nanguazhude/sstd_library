@@ -64,4 +64,3 @@ inline void inplace_merge(Iterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_INPLACE_MERGE_HPP
-

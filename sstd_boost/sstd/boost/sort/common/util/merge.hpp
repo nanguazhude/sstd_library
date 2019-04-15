@@ -492,4 +492,3 @@ static bool merge_circular(Iter1_t buf1, Iter1_t end_buf1, Iter2_t buf2,
 //****************************************************************************
 //
 #endif
-

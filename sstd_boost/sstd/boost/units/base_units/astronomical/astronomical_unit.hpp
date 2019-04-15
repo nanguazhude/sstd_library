@@ -25,4 +25,3 @@ BOOST_TYPEOF_REGISTER_TYPE(boost::units::astronomical::astronomical_unit_base_un
 #endif
 
 #endif // BOOST_UNIT_SYSTEMS_ASTRONOMICAL_ASTRONOMICAL_UNIT_HPP_INCLUDED
-

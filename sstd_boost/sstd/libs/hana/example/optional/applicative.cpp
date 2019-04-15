@@ -17,4 +17,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::ap(hana::just(next), hana::nothing) == hana::not
 BOOST_HANA_CONSTANT_CHECK(hana::ap(hana::nothing, hana::nothing) == hana::nothing);
 
 int main() { }
-

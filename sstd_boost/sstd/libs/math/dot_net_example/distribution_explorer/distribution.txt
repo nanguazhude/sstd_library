@@ -7,5 +7,3 @@ Title Distribution_Explorer
 Mean
 MeanParameter 1 0
 Parameter 2 1
-
-

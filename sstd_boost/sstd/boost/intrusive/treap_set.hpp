@@ -1104,4 +1104,3 @@ class treap_multiset
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_TREAP_SET_HPP
-

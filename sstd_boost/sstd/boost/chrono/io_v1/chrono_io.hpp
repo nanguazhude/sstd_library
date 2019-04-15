@@ -633,4 +633,3 @@ operator>>(std::basic_istream<CharT, Traits>& is,
 }
 
 #endif  // BOOST_CHRONO_CHRONO_IO_HPP
-

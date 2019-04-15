@@ -561,4 +561,3 @@ BOOST_FORCEINLINE void signal_fence(memory_order order) BOOST_NOEXCEPT
 } // namespace boost
 
 #endif // BOOST_ATOMIC_DETAIL_OPS_GCC_X86_HPP_INCLUDED_
-

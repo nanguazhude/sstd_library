@@ -291,4 +291,3 @@ struct array_algebra
 }
 
 #endif // BOOST_NUMERIC_ODEINT_ALGEBRA_ARRAY_ALGEBRA_HPP_INCLUDED
-

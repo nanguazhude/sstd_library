@@ -84,5 +84,3 @@ BOOST_PP_EXPAND(#) undef BOOST_FT_make_type_impl
 #else
 #   error "attempt to use arity loop master file without loop"
 #endif
-
-

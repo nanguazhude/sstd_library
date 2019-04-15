@@ -368,4 +368,3 @@ index(
 } // namespace boost
 
 #endif // include guard
-

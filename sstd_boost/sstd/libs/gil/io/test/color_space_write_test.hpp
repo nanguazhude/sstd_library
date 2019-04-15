@@ -44,4 +44,3 @@ void color_space_write_test( const std::string& file_name_1
 }
 
 #endif
-

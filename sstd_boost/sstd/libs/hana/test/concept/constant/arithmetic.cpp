@@ -27,4 +27,3 @@ int main() {
     hana::test::TestRing<minimal_constant_tag<int>>{ints};
     hana::test::TestEuclideanRing<minimal_constant_tag<int>>{ints};
 }
-

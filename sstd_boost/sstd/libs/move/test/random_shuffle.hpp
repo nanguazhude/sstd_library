@@ -21,4 +21,3 @@ void random_shuffle( RandomIt first, RandomIt last )
 
 
 #endif// BOOST_MOVE_TEST_RANDOM_SHUFFLE_HPP
-

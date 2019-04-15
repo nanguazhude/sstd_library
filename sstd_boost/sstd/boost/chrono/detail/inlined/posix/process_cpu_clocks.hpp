@@ -352,4 +352,3 @@ process_cpu_clock::time_point process_cpu_clock::now(
 #endif
 
 } }
-

@@ -77,4 +77,3 @@
   };
 
 #endif  // BOOST_FILESYSTEM3_TEST_CODECVT_HPP
-

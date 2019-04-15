@@ -121,4 +121,3 @@ BOOST_AUTO_TEST_CASE( test_all_empty_input_pointlike_pointlike )
             point_type
         >(point_point_strategy());
 }
-

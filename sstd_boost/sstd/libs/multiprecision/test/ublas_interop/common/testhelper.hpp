@@ -72,4 +72,3 @@ bool compare( const boost::numeric::ublas::vector_expression<M1> & m1,
 }
 
 #endif
-

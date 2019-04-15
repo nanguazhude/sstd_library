@@ -69,6 +69,3 @@ struct overwrite_tagged< tagged< Type, OldTag >, NewTag >
 #endif // BOOST_BIMAP_DOXYGEN_WILL_NOT_PROCESS_THE_FOLLOWING_LINES
 
 #endif // BOOST_BIMAP_TAGS_SUPPORT_OVERWRITE_TAGGED_HPP
-
-
-

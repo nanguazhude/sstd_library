@@ -688,4 +688,3 @@ false: false, off, 0, no. In a config file this could look like:
     my-switch=no
 
 */
-

@@ -33,4 +33,3 @@ struct adjacency_list_graph {
 }
 
 #endif // BOOST_MSM_MPL_GRAPH_ADJACENCY_LIST_GRAPH_HPP_INCLUDED
-

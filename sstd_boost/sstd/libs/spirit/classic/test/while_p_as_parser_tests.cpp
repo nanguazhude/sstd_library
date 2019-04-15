@@ -40,4 +40,3 @@ main()
 
     r = ::BOOST_SPIRIT_CLASSIC_NS::do_p[r].while_p(r);
 }
-

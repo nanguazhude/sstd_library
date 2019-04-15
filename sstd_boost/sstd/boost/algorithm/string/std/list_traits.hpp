@@ -66,4 +66,3 @@ namespace boost {
 
 
 #endif  // BOOST_STRING_STD_LIST_TRAITS_HPP
-

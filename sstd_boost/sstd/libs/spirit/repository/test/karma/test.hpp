@@ -295,4 +295,3 @@ namespace spirit_test
 }   // namespace spirit_test
 
 #endif // !BOOST_SPIRIT_KARMA_TEST_FEB_23_2007_1221PM
-

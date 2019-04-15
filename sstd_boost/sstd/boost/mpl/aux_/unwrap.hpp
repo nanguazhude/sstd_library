@@ -49,4 +49,3 @@ unwrap(reference_wrapper<F> const& f, int)
 }}}
 
 #endif // BOOST_MPL_AUX_UNWRAP_HPP_INCLUDED
-

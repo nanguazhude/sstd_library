@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_PHOENIX_CONTAINER
 #include <sstd/boost/phoenix/stl/container.hpp>
 #endif
-

@@ -32,4 +32,3 @@ basic_oserializer::~basic_oserializer(){}
 } // namespace detail
 } // namespace archive
 } // namespace boost
-

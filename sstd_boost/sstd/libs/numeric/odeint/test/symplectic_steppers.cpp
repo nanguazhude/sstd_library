@@ -389,4 +389,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( test_with_boost_units , Stepper , boost_unit_step
 
 
 BOOST_AUTO_TEST_SUITE_END()
-

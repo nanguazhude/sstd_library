@@ -36,6 +36,3 @@ BOOST_METAPARSE_TEST_CASE(size)
   BOOST_MPL_ASSERT((equal_to<int_<4>, size<string<'1','2','3','4'> >::type>));
 
 }
-
-
-

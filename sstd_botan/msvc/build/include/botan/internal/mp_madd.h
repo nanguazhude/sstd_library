@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Lowest Level MPI Algorithms
 * (C) 1999-2008,2013 Jack Lloyd
 *     2006 Luca Piccarreta

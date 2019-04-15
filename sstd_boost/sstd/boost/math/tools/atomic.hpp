@@ -91,4 +91,3 @@ typedef unsigned long long atomic_unsigned_integer_type;
 #endif // BOOST_HAS_THREADS
 
 #endif // BOOST_MATH_ATOMIC_DETAIL_HPP
-

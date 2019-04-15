@@ -37,4 +37,3 @@ MPL_TEST_CASE()
     MPL_ASSERT(( is_sequence< vector<> > ));
     MPL_ASSERT(( is_sequence< vector<int> > ));
 }
-

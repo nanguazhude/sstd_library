@@ -172,4 +172,3 @@ static typename Op::result_type BOOST_FORCEINLINE apply_operation_base(const Bit
 }}  // namespace boost::gil
 
 #endif
-

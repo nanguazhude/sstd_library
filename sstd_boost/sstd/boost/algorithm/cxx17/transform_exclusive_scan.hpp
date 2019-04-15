@@ -44,4 +44,3 @@ OutputIterator transform_exclusive_scan(InputIterator first, InputIterator last,
 }} // namespace boost and algorithm
 
 #endif // BOOST_ALGORITHM_TRANSFORM_EXCLUSIVE_SCAN_HPP
-

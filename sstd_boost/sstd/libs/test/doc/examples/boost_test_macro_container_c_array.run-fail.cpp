@@ -25,4 +25,3 @@ BOOST_AUTO_TEST_CASE( test_collections_on_c_arrays )
   BOOST_TEST(c < a); // lexicographical compare
 }
 //]
-

@@ -339,4 +339,3 @@ struct feature_of<tag::tail<LeftRight> >
 }} // namespace boost::accumulators
 
 #endif
-

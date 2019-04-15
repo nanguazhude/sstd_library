@@ -74,4 +74,3 @@ class numeric_limits< ::boost::units::quantity<Unit, T> >
 }
 
 #endif // BOOST_UNITS_LIMITS_HPP
-

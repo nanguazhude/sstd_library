@@ -372,4 +372,3 @@ struct pack_options
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTRUSIVE_PACK_OPTIONS_HPP
-

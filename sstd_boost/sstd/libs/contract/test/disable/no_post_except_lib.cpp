@@ -7,5 +7,3 @@
 // Test contracts in .cpp compiled to never check post/except (but not in .hpp).
 
 #include "lib_xy.hpp"
-
-

@@ -426,5 +426,3 @@ typedef basic_managed_multi_shared_memory
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_MANAGED_MULTI_SHARED_MEMORY_HPP
-
-

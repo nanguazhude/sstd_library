@@ -336,4 +336,3 @@ parameter of interest, and hence provided us results with straightforward interp
 ] [/pre]
 */
 //] [/inverse_chi_squared_bayes_eg_output]
-

@@ -227,4 +227,3 @@ namespace rehash_tests {
 }
 
 RUN_TESTS()
-

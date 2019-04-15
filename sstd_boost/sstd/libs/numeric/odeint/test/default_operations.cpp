@@ -255,4 +255,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( scale_sum3_units_test , T , test_types )
 
 
 BOOST_AUTO_TEST_SUITE_END()
-

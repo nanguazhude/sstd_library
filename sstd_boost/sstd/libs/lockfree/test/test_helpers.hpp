@@ -108,4 +108,3 @@ struct dummy_functor
 
 
 #endif
-

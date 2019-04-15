@@ -216,4 +216,3 @@ struct tr1_result_of_impl<R (T0::*)
 
 }
 #endif
-

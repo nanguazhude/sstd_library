@@ -156,4 +156,3 @@ inclusive_geodesics(const Graph &g, DistanceMatrixMap dm, GeodesicMap gm)
     return all_mean_geodesics(g, dm, gm, m);
 }
 //]
-

@@ -24,4 +24,3 @@ BOOST_TYPEOF_REGISTER_TEMPLATE(t2,
                                )
 
 BOOST_STATIC_ASSERT((boost::type_of::test<t2<t0, t1> >::value));
-

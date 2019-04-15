@@ -506,4 +506,3 @@ public:
 
 
 #endif // BOOST_GEOMETRY_TEST_IS_VALID_HPP
-

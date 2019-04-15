@@ -88,6 +88,3 @@ namespace spirit_test
 }
 
 #endif
-
-
-

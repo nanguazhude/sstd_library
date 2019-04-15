@@ -73,4 +73,3 @@ void test_mpl_ops()
     boost::mpl::at_c<indexed_t3::index_specifier_type_list,1>::type,
     boost::mpl::at_c<indexed_t1::index_specifier_type_list,1>::type>::value));
 }
-

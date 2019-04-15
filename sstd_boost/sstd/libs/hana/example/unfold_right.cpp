@@ -26,4 +26,3 @@ BOOST_HANA_CONSTANT_CHECK(
 );
 
 int main() { }
-

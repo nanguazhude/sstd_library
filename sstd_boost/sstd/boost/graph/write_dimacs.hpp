@@ -66,4 +66,3 @@ void write_dimacs_max_flow(const Graph& g,
 }
 
 } // namespace boost
-

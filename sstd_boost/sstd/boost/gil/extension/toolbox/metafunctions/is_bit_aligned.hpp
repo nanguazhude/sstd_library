@@ -34,4 +34,3 @@ struct is_bit_aligned<const packed_pixel<B,C,L> > : mpl::true_{};
 } // namespace boost
 
 #endif
-

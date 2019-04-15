@@ -212,5 +212,3 @@ private:
 }}} // boost::dll::detail
 
 #endif // BOOST_DLL_SHARED_LIBRARY_IMPL_HPP
-
-

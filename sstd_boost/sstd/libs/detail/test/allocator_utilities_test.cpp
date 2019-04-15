@@ -38,4 +38,3 @@ int main() {
         a3.deallocate(p2, 1);
     }
 }
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * OCSP subtypes
 * (C) 2012 Jack Lloyd
 *

@@ -39,4 +39,3 @@ struct erase_impl< aux::set_tag >
 }}
 
 #endif // BOOST_MPL_SET_AUX_ERASE_IMPL_HPP_INCLUDED
-

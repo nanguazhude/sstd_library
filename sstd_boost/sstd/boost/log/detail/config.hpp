@@ -404,4 +404,3 @@ namespace log {}
 } // namespace boost
 
 #endif // BOOST_LOG_DETAIL_CONFIG_HPP_INCLUDED_
-

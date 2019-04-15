@@ -168,5 +168,3 @@ wmanaged_heap_memory;
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_MANAGED_HEAP_MEMORY_HPP
-
-

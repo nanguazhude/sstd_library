@@ -620,4 +620,3 @@ class basic_vectorstream
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif /* BOOST_INTERPROCESS_VECTORSTREAM_HPP */
-

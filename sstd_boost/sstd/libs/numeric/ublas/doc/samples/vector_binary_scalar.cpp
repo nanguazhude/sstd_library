@@ -22,5 +22,3 @@ int main () {
     std::cout << 2.0 * v << std::endl;
     std::cout << v * 2.0 << std::endl;
 }
-
-

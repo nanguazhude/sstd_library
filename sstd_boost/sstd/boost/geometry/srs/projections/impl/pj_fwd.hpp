@@ -99,4 +99,3 @@ inline void pj_fwd(Prj const& prj, P const& par, LL const& ll, XY& xy)
 }}} // namespace boost::geometry::projections
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_IMPL_PJ_FWD_HPP
-

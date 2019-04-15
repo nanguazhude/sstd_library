@@ -271,4 +271,3 @@ namespace boost {
 } // namespace boost
 
 #endif  // BOOST_STRING_FIND_FORMAT_ALL_DETAIL_HPP
-

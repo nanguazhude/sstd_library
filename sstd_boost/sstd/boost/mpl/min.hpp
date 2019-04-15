@@ -17,4 +17,3 @@
 #include <sstd/boost/mpl/min_max.hpp>
 
 #endif // BOOST_MPL_MIN_HPP_INCLUDED
-

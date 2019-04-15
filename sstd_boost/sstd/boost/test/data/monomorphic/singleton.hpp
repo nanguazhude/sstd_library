@@ -116,5 +116,3 @@ make( char const* str )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_DATA_MONOMORPHIC_SINGLETON_HPP_102211GER
-
-

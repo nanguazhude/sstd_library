@@ -2285,4 +2285,3 @@ namespace polygon_formation {
 }
 }
 #endif
-

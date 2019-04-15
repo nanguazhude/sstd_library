@@ -506,4 +506,3 @@ struct maybe_named_graph<Graph, Vertex, VertexProperty, void>
 } } // end namespace boost::graph
 
 #endif // BOOST_GRAPH_NAMED_GRAPH_HPP
-

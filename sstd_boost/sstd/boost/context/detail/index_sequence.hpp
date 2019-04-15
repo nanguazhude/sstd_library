@@ -70,4 +70,3 @@ using index_sequence_for = make_index_sequence< sizeof ... (T) >;
 #endif
 
 #endif // BOOST_CONTEXT_DETAIL_INDEX_SEQUENCE_H
-

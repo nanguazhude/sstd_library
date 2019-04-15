@@ -325,4 +325,3 @@ Distributed under the Boost Software License, Version 1.0.
 #endif
 
 #endif // !BOOST_HANA_ASSERT_HPP
-

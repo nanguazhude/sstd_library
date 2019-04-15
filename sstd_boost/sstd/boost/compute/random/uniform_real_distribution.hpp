@@ -114,4 +114,3 @@ private:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_RANDOM_UNIFORM_REAL_DISTRIBUTION_HPP
-

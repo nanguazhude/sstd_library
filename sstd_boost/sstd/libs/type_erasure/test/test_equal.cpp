@@ -145,4 +145,3 @@ BOOST_AUTO_TEST_CASE(test_overload)
     BOOST_CHECK(!(x == y));
     BOOST_CHECK(x != y);
 }
-

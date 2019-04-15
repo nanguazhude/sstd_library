@@ -31,5 +31,3 @@ int main( int, char *[] )
 {
    return boost_msvc_std_iterator::test();
 }
-
-

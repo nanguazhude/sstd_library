@@ -49,4 +49,3 @@ buffer opencv_ocl_get_buffer(const cv::ocl::oclMat &mat)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_INTEROP_OPENCV_OCL_HPP
-

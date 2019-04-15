@@ -95,4 +95,3 @@ bool operator!=( leaf const& l, leaf  const& r)
 #endif
 
 #endif // TREE_H
-

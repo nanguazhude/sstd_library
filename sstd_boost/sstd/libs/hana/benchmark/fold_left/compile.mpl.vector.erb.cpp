@@ -22,4 +22,3 @@ using result = boost::mpl::fold<vector, state, boost::mpl::quote2<f>>::type;
 
 
 int main() { }
-

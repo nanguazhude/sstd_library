@@ -405,4 +405,3 @@ namespace boost { namespace graph { namespace distributed {
 } // end namespace boost
 
 #endif // BOOST_GRAPH_PARALLEL_CC_HPP
-

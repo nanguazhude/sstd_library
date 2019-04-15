@@ -144,4 +144,3 @@ const char *basic_num_token<CharT>::_precedence_strings[END + 1] =
 }
 
 #endif
-

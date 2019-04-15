@@ -170,4 +170,3 @@ namespace ipcdetail{
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif //ifdef BOOST_INTERPROCESS_PTHREAD_HELPERS_HPP
-

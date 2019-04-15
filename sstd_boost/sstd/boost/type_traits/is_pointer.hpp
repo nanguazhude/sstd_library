@@ -45,4 +45,3 @@ template <class T> struct is_pointer<T volatile> : public is_pointer<T>{};
 } // namespace boost
 
 #endif // BOOST_TT_IS_POINTER_HPP_INCLUDED
-

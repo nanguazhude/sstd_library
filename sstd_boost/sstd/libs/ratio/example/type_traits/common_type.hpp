@@ -149,4 +149,3 @@ namespace type_traits_detail {
 }  // namespace boost_ex
 
 #endif  // BOOST_TYPE_TRAITS_EXT_COMMON_TYPE_HPP
-

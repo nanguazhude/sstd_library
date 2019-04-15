@@ -53,4 +53,3 @@ struct pointer_to_other< T*, U >
 } // namespace boost
 
 #endif // #ifndef BOOST_POINTER_TO_OTHER_HPP_INCLUDED
-

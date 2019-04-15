@@ -42,4 +42,3 @@ int main()
     BOOST_STATIC_ASSERT((boost::python::detail::is_same<choose<5>::type,void*>::value));
     return 0;
 }
-

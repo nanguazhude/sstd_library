@@ -62,4 +62,3 @@ int main()
         mp_list<int, int> >, mp_false>));
     return boost::report_errors();
 }
-

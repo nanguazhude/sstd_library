@@ -26,4 +26,3 @@ int main() {
         hana::char_c<'a'>
     ));
 }
-

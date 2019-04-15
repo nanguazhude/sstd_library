@@ -293,5 +293,3 @@ eat_whitespace<TokenT>::whitespace(TokenT &token, bool &skipped_newline)
 #endif
 
 #endif // !defined(WHITESPACE_HANDLING_HPP_INCLUDED)
-
-

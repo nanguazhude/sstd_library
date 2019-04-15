@@ -53,4 +53,3 @@ struct pair_key_mapped_of_value
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   // BOOST_CONTAINER_PAIR_KEY_MAPPED_OF_VALUE_HPP
-

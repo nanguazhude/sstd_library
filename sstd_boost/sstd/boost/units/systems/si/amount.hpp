@@ -31,4 +31,3 @@ BOOST_UNITS_STATIC_CONSTANT(moles,amount);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_AMOUNT_HPP
-

@@ -8,4 +8,3 @@
 #define BOOST_FUSION_TEST_ITER_FOLD
 #include "fold.hpp"
 #undef BOOST_FUSION_TEST_ITER_FOLD
-

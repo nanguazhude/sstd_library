@@ -45,5 +45,3 @@ int main(void) {
     f(delta);
     return boost::report_errors();
 }
-
-

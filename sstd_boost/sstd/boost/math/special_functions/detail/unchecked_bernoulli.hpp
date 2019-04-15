@@ -725,4 +725,3 @@ inline BOOST_MATH_CONSTEXPR_TABLE_FUNCTION T unchecked_bernoulli_b2n(const std::
 }} // namespaces
 
 #endif // BOOST_MATH_UNCHECKED_BERNOULLI_HPP
-

@@ -50,4 +50,3 @@ using void_t = typename make_void<A, B, C, D, E>::type;
 } /* boost */
 
 #endif
-

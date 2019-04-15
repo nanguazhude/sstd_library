@@ -119,5 +119,3 @@ keyword<Tag> const keyword<Tag>::instance = {};
 }} // namespace boost::parameter
 
 #endif // KEYWORD_050328_HPP
-
-

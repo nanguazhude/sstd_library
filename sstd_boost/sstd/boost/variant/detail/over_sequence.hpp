@@ -56,4 +56,3 @@ struct is_over_sequence< over_sequence<Types> >
 } // namespace boost
 
 #endif // BOOST_VARIANT_DETAIL_OVER_SEQUENCE_HPP
-

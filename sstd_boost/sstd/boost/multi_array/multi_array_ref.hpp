@@ -620,4 +620,3 @@ protected:
 } // namespace boost
 
 #endif // BOOST_MULTI_ARRAY_REF_RG071801_HPP
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * PBKDF2
 * (C) 1999-2007,2012 Jack Lloyd
 * (C) 2018 Ribose Inc

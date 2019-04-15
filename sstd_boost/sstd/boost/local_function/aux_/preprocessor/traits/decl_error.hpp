@@ -24,5 +24,3 @@
     (/* expand EMPTY */)
 
 #endif // #include guard
-
-

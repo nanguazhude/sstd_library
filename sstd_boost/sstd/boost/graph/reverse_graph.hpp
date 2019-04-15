@@ -525,4 +525,3 @@ get_property(const reverse_graph<BidirectionalGraph,GRef>& g, Tag tag)
 } // namespace boost
 
 #endif
-

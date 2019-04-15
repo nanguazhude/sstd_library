@@ -22,4 +22,3 @@ int main() {
     adl(hana::typeid_(hana::type_c<invalid<>>));
     adl_pattern(hana::typeid_(hana::type_c<invalid<>>));
 }
-

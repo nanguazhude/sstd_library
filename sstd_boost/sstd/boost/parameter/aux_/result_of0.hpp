@@ -34,4 +34,3 @@ struct result_of0
 
 
 #endif // BOOST_PARAMETER_AUX_RESULT_OF0_DWA2005511_HPP
-

@@ -137,4 +137,3 @@ class BOOST_CONTAINER_DECL synchronized_pool_resource
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //BOOST_CONTAINER_PMR_SYNCHRONIZED_POOL_RESOURCE_HPP
-

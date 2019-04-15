@@ -92,4 +92,3 @@ auto exp_sinh<Real, Policy>::integrate(const F& f, Real tolerance, Real* error, 
 
 }}}
 #endif
-

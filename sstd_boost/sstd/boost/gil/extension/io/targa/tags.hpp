@@ -164,4 +164,3 @@ struct image_write_info< targa_tag >
 } // namespace boost
 
 #endif
-

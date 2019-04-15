@@ -404,4 +404,3 @@ static inline bool is_ip_on_boundary(IntersectionPoint const& ip,
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_RELATE_FOLLOW_HELPERS_HPP
-

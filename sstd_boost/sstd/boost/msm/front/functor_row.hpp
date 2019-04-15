@@ -354,4 +354,3 @@ namespace boost { namespace msm { namespace front
     };
 }}}
 #endif //BOOST_MSM_FRONT_FUNCTOR_ROW_H
-

@@ -14,4 +14,3 @@
 #include <sstd/boost/ratio/mpl/rational_constant.hpp>
 #endif
 #endif  // BOOST_RATIO_INCLUDE_HPP
-

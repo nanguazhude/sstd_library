@@ -103,4 +103,3 @@ void win_iocp_io_context::move_timer(timer_queue<Time_Traits>& queue,
 #endif // defined(BOOST_ASIO_HAS_IOCP)
 
 #endif // BOOST_ASIO_DETAIL_IMPL_WIN_IOCP_IO_CONTEXT_HPP
-

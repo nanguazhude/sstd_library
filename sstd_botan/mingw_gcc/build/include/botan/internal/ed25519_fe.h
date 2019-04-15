@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Ed25519 field element
 * (C) 2017 Ribose Inc
 *

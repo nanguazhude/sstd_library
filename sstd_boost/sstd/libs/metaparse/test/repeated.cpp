@@ -10,5 +10,3 @@ using boost::metaparse::repeated;
 #define TEST_NAME repeated
 
 #include "repeated_test.hpp"
-
-

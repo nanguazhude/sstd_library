@@ -43,4 +43,3 @@ int main( int argc, char * argv[]) {
     std::cout << "\nDone" << std::endl;
     return EXIT_SUCCESS;
 }
-

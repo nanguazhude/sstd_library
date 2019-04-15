@@ -44,4 +44,3 @@ using boost::false_type;
 } // namespace boost
 
 #endif // BOOST_ATOMIC_DETAIL_TYPE_TRAITS_INTEGRAL_CONSTANT_HPP_INCLUDED_
-

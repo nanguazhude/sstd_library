@@ -869,4 +869,3 @@ BOOST_MOVE_FORCEINLINE bool operator>=(BOOST_MOVE_DOC0PTR(bmupd::nullptr_type), 
 #include <sstd/boost/move/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_MOVE_UNIQUE_PTR_HPP_INCLUDED
-

@@ -59,5 +59,3 @@ void print_elements (const T& x)
     }
     std::cout << std::endl;
 }
-
-

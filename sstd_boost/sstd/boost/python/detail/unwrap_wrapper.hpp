@@ -32,4 +32,3 @@ unwrap_wrapper(T*)
 }}} // namespace boost::python::detail
 
 #endif // UNWRAP_WRAPPER_DWA2004723_HPP
-

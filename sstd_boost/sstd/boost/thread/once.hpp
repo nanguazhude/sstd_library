@@ -52,4 +52,3 @@ inline void call_once(Function func,once_flag& flag)
 #endif
 
 #endif
-

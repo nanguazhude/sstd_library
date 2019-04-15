@@ -122,4 +122,3 @@ protected:
 } // namespace boost
 
 #endif
-

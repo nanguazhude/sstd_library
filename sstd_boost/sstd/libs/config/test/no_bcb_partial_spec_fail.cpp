@@ -31,5 +31,3 @@ int main( int, char *[] )
 {
    return boost_bcb_partial_specialization_bug::test();
 }
-
-

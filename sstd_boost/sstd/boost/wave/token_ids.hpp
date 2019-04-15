@@ -377,5 +377,3 @@ char const *get_token_value(token_id tokid);
 #endif
 
 #endif // !defined(TOKEN_IDS_HPP_414E9A58_F079_4789_8AFF_513815CE475B_INCLUDED)
-
-

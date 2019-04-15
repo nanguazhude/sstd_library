@@ -253,6 +253,3 @@ struct caller_arity<N>
 
 
 #endif // BOOST_PP_IS_ITERATING
-
-
-

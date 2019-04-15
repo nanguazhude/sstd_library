@@ -907,4 +907,3 @@ inline void eval_tanh(T& result, const T& x)
 #ifdef BOOST_MSVC
 #pragma warning(pop)
 #endif
-

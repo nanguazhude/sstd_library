@@ -32,4 +32,3 @@ enum class channel_op_status {
 #endif
 
 #endif // BOOST_FIBERS_CHANNEL_OP_STATUS_H
-

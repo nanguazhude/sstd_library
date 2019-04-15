@@ -389,4 +389,3 @@ BOOST_AUTO_TEST_CASE( test_intersection_multipolygon_multipolygon_linestring )
          from_wkt<ML>("MULTILINESTRING()")
          );
 }
-

@@ -6,4 +6,3 @@
 #include <auto/at.hpp>
 
 int main() { }
-

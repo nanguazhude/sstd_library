@@ -49,4 +49,3 @@ BOOST_MPL_ASSERT((
 
 BOOST_MPL_ASSERT((
     boost::is_same<deduced<boost::remove_pointer<int*> >::type, int >));
-

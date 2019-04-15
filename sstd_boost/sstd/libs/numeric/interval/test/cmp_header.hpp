@@ -24,4 +24,3 @@ typedef boost::numeric::interval<int, my_policies> I;
 
 #define BOOST_C_EXN(e) \
   BOOST_CHECK_THROW(e, boost::numeric::interval_lib::comparison_error)
-

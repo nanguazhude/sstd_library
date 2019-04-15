@@ -189,5 +189,3 @@ void test_gamma(T, const char* name)
 
    do_test_gamma_inva<T>(igamma_inva_data, name, "Incomplete gamma inverses.");
 }
-
-

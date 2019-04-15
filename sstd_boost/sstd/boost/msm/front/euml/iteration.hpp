@@ -24,4 +24,3 @@ BOOST_MSM_EUML_FUNCTION(Accumulate_ , std::accumulate , accumulate_ , RESULT_TYP
 }}}}
 
 #endif //BOOST_MSM_FRONT_EUML_ITERATION_H
-

@@ -90,4 +90,3 @@
         BOOST_FUSION_ADAPT_ASSOC_ADT_C)
 
 #endif
-

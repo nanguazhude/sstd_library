@@ -129,4 +129,3 @@ namespace boost { namespace xpressive
 }}
 
 #endif
-

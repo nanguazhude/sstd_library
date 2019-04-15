@@ -43,4 +43,3 @@ struct slist_of
 }  //namespace boost {
 
 #endif   //BOOST_CONTAINER_PMR_VECTOR_HPP
-

@@ -32,4 +32,3 @@ void declare_native_rule( char const * module, char const * rule,
     char const * * args, LIST * (*f)( FRAME *, int ), int version );
 
 #endif
-

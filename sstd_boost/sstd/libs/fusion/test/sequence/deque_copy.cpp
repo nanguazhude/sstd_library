@@ -40,4 +40,3 @@ main()
 #endif
     return boost::report_errors();
 }
-

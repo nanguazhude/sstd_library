@@ -49,5 +49,3 @@ BOOST_METAPARSE_TEST_CASE(swap)
     is_same<int, swap<returns_second>::apply<int, double>::type>
   ));
 }
-
-

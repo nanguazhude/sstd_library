@@ -36,4 +36,3 @@
 #endif // !defined(BOOST_SPIRIT_ASSERT)
 
 #endif // BOOST_SPIRIT_ASSERT_HPP
-

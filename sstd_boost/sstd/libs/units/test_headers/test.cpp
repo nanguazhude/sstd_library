@@ -17,4 +17,3 @@
 #include BOOST_UNITS_HEADER
 
 int main() {}
-

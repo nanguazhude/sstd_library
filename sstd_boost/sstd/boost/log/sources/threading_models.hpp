@@ -123,4 +123,3 @@ struct is_mutex_type< boost::log::sources::multi_thread_model< T > > : mpl::true
 #include <sstd/boost/log/detail/footer.hpp>
 
 #endif // BOOST_LOG_SOURCES_THREADING_MODELS_HPP_INCLUDED_
-

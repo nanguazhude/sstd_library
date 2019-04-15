@@ -97,4 +97,3 @@ packed_archive_recv(MPI_Comm comm, int source, int tag, packed_iarchive& ar,
 }
 
 } } } // end namespace boost::mpi::detail
-

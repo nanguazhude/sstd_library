@@ -781,4 +781,3 @@ void check_r_c_path( const Graph& g,
 } // namespace
 
 #endif // BOOST_GRAPH_R_C_SHORTEST_PATHS_HPP
-

@@ -22,4 +22,3 @@ BOOST_TTI_TRAIT_HAS_TEMPLATE(WrongParametersForMP,ManyParameters,(8,(class,class
 BOOST_TTI_TRAIT_HAS_TEMPLATE(WrongParameters2ForMP,ManyParameters,(7,(class,long,int,class,template <class> class,class,long)))
 
 #endif // TEST_HAS_TEMPLATE_CHECK_PARAMS_HPP
-

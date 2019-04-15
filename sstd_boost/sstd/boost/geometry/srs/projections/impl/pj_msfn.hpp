@@ -57,4 +57,3 @@ inline T pj_msfn(T const& sinphi, T const& cosphi, T const& es)
 }}} // namespace boost::geometry::projections
 
 #endif
-

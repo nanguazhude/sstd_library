@@ -35,4 +35,3 @@ struct rational_c
 }}
 
 #endif // BOOST_MPL_RATIONAL_C_HPP_INCLUDED
-

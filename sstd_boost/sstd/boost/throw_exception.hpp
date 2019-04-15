@@ -101,4 +101,3 @@ template<class E> BOOST_NORETURN inline void throw_exception( E const & e )
 #pragma warning(pop)
 #endif
 #endif
-

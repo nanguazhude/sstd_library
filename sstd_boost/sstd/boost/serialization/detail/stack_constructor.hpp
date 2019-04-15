@@ -64,4 +64,3 @@ struct stack_construct : public stack_allocate<T>
 } // boost
 
 #endif //  BOOST_SERIALIZATION_DETAIL_STACH_CONSTRUCTOR_HPP
-

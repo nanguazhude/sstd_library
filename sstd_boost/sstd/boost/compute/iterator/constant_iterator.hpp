@@ -169,4 +169,3 @@ struct is_device_iterator<constant_iterator<T> > : boost::true_type {};
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ITERATOR_CONSTANT_ITERATOR_HPP
-

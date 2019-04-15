@@ -77,4 +77,3 @@ struct dense_output_factory< Stepper , rosenbrock4_dense_output< rosenbrock4_con
 
 
 #endif // BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_GENERATION_ROSENBROCK4_HPP_INCLUDED
-

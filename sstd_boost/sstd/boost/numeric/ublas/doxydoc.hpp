@@ -56,4 +56,3 @@
  * - \link #boost::numeric::ublas::coordinate_matrix            coordinate_matrix \endlink
  * - \link #boost::numeric::ublas::generalized_vector_of_vector    generalized_vector_of_vector \endlink
  */
-

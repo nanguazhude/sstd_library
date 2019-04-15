@@ -133,4 +133,3 @@ private:
 };
 
 #endif // !defined(BOOST_WAVE_LIBS_WAVE_TEST_TESTWAVE_APP_HPP)
-

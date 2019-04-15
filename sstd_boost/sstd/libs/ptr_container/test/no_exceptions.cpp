@@ -12,11 +12,3 @@
 #define BOOST_PTR_CONTAINER_NO_EXCEPTIONS 1
 
 #include "ptr_vector.cpp"
-
-
-
-
-
-
-
-

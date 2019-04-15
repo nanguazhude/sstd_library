@@ -171,4 +171,3 @@ namespace Eigen
 
 
 #endif
-

@@ -703,4 +703,3 @@ inline std::vector<boost::filesystem::path> path()
 }
 }
 #endif /* INCLUDE_BOOST_PROCESS_DETAIL_ENVIRONMENT_HPP_ */
-

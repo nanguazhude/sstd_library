@@ -250,4 +250,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(apply, detail::apply_f);
 #endif
 
 #endif
-

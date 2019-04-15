@@ -48,4 +48,3 @@ struct state_wrapper
 
 
 #endif // BOOST_NUMERIC_ODEINT_UTIL_STATE_WRAPPER_HPP_INCLUDED
-

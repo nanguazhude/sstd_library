@@ -42,4 +42,3 @@ struct is_all_same< X, Y0 > {
 #endif
 
 #endif // BOOST_FIBERS_DETAIL_IS_ALL_SAME_H
-

@@ -19,4 +19,3 @@ int main() {
         std::make_tuple(std::make_tuple(1))
     ));
 }
-

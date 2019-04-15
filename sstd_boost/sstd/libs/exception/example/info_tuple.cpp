@@ -29,4 +29,3 @@ file_open( char const * name, char const * mode )
             boost::errinfo_file_name(name) <<
             clib_failure("fopen",errno);
     }
-

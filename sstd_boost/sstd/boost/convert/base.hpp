@@ -177,4 +177,3 @@ struct boost::cnv::cnvbase
 #undef BOOST_CNV_PARAM
 
 #endif // BOOST_CONVERT_CONVERTER_BASE_HPP
-

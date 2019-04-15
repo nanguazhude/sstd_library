@@ -55,4 +55,3 @@ TT_TEST_BEGIN(common_type_4)
     BOOST_CHECK_TYPE(tt::common_type<UDT const volatile()>::type, UDT const volatile(*)());
 }
 TT_TEST_END
-

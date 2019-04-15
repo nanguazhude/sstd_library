@@ -110,4 +110,3 @@ struct check_turn_less
 };
 
 #endif // BOOST_GEOMETRY_TEST_CHECK_TURN_LESS_HPP
-

@@ -69,4 +69,3 @@ partition_copy ( const Range &r, OutputIterator1 out_true, OutputIterator2 out_f
 }} // namespace boost and algorithm
 
 #endif  // BOOST_ALGORITHM_PARTITION_COPY_HPP
-

@@ -23,4 +23,3 @@
 #include <sstd/boost/compute/type_traits/vector_size.hpp>
 
 #endif // BOOST_COMPUTE_TYPE_TRAITS_HPP
-

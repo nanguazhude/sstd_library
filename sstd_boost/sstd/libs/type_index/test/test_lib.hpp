@@ -39,5 +39,3 @@ TEST_LIB_DECL void accept_typeindex(const boost::typeindex::type_index&);
 }
 
 #endif // BOOST_TYPE_INDEX_TESTS_LIB1_HPP
-
-

@@ -135,5 +135,3 @@ struct parser : qi::grammar<Iterator, std::string()>
 } // utf8
 
 #endif // BOOST_SPIRIT_UTREE_EXAMPLE_UTF8_PARSER_HPP
-
-

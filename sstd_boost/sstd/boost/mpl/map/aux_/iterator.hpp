@@ -167,4 +167,3 @@ struct m_iter
 }}
 
 #endif // BOOST_MPL_MAP_AUX_ITERATOR_HPP_INCLUDED
-

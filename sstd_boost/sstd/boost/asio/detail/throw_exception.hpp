@@ -51,4 +51,3 @@ void throw_exception(const Exception& e)
 } // namespace boost
 
 #endif // BOOST_ASIO_DETAIL_THROW_EXCEPTION_HPP
-

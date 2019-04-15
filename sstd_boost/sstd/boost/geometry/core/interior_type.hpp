@@ -162,4 +162,3 @@ struct interior_return_type
 
 
 #endif // BOOST_GEOMETRY_CORE_INTERIOR_TYPE_HPP
-

@@ -9,4 +9,3 @@
 #define BOOST_STACKTRACE_USE_WINDBG_CACHED
 #include <sstd/boost/stacktrace/detail/frame_msvc.ipp>
 #include <sstd/boost/stacktrace/safe_dump_to.hpp>
-

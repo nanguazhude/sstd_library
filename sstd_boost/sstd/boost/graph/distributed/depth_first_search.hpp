@@ -305,4 +305,3 @@ depth_first_visit
 } // end namespace boost
 
 #endif // BOOST_GRAPH_DISTRIBUTED_DFS_HPP
-

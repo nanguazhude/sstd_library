@@ -74,4 +74,3 @@ using iterators::make_permutation_iterator;
 } // namespace boost
 
 #endif
-

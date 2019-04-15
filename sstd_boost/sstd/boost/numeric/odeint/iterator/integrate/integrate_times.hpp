@@ -131,4 +131,3 @@ size_t integrate_times(
 
 
 #endif // BOOST_NUMERIC_ODEINT_INTEGRATE_INTEGRATE_TIMES_HPP_INCLUDED
-

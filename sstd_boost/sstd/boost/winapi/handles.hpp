@@ -68,4 +68,3 @@ const HANDLE_ invalid_handle_value = INVALID_HANDLE_VALUE_;
 }
 
 #endif // BOOST_WINAPI_HANDLES_HPP_INCLUDED_
-

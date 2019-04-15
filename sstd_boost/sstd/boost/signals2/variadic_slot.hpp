@@ -23,4 +23,3 @@
 
 #include <sstd/boost/signals2/detail/slot_template.hpp>
 #endif // BOOST_SIGNALS2_VARIADIC_SLOT_HPP
-

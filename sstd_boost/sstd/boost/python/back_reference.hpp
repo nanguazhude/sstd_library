@@ -69,4 +69,3 @@ T back_reference<T>::get() const
 }} // namespace boost::python
 
 #endif // BACK_REFERENCE_DWA2002510_HPP
-

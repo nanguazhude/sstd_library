@@ -33,4 +33,3 @@ main()
     A<3>(V(q));
     return 1;
     }
-

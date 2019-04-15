@@ -80,4 +80,3 @@ template <class T> struct has_nothrow_copy : public has_nothrow_copy_constructor
 } // namespace boost
 
 #endif // BOOST_TT_HAS_NOTHROW_COPY_HPP_INCLUDED
-

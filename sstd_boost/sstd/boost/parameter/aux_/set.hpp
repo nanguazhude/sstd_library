@@ -63,5 +63,3 @@ struct has_key_
 
 
 #endif // BOOST_PARAMETER_SET_060912_HPP
-
-

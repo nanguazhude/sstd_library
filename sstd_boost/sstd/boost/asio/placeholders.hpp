@@ -151,4 +151,3 @@ namespace
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_PLACEHOLDERS_HPP
-

@@ -23,5 +23,3 @@ int main () {
     std::cout << 2.0 * m << std::endl;
     std::cout << m * 2.0 << std::endl;
 }
-
-

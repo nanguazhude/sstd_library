@@ -41,4 +41,3 @@ MPL_TEST_CASE()
 
     MPL_ASSERT(( equal< view, view::type > ));
 }
-

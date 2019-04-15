@@ -123,4 +123,3 @@ virtual_original 927686d4
 virtual_rot180 4dee193e
 virtual_subsampled e99b8073
 virtual_transpose 923e345f
-

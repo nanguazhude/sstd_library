@@ -342,4 +342,3 @@ BOOST_PYTHON_MODULE(m1)
 }
 
 #include "module_tail.cpp"
-

@@ -35,4 +35,3 @@
 #define BOOST_RANDOM_TEST2_MAX 10
 
 #include "test_distribution.ipp"
-

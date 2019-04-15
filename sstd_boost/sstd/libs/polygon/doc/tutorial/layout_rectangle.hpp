@@ -30,4 +30,3 @@ inline std::istream& operator >> (std::istream& i, layout_rectangle& r)
 }
 
 #endif
-

@@ -465,5 +465,3 @@ void test_spots(T val, const char* type_name)
    t22(val, type_name);
 #endif
 }
-
-

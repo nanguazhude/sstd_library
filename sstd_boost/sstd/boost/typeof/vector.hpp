@@ -163,5 +163,3 @@ namespace boost { namespace type_of {
 
 #define BOOST_TYPEOF_VECTOR_HPP_INCLUDED
 #endif//BOOST_TYPEOF_VECTOR_HPP_INCLUDED
-
-

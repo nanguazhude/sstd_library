@@ -22,4 +22,3 @@ struct l_iter_tag;
 }}}
 
 #endif // BOOST_MPL_LIST_AUX_TAG_HPP_INCLUDED
-

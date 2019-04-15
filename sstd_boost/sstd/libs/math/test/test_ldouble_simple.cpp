@@ -30,5 +30,3 @@ BOOST_AUTO_TEST_CASE( test_main )
    BOOST_CHECK_EQUAL((boost::math::isnormal)(1.0L), true);
    BOOST_CHECK_EQUAL((boost::math::isfinite)(1.0L), true);
 } // BOOST_AUTO_TEST_CASE( test_main )
-
-

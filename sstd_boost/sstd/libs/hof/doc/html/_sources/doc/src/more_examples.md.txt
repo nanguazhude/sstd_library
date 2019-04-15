@@ -92,5 +92,3 @@ operator, pipable functions can also be used with [`flow`](/include/boost/hof/fl
 
 No fancy or confusing operating overloading and everything is still quite
 readable.
-
-

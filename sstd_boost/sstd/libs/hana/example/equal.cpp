@@ -16,4 +16,3 @@ int main() {
 
     static_assert(hana::any_of(hana::make_tuple(1, 2, 3), hana::equal.to(2)), "");
 }
-

@@ -95,4 +95,3 @@ struct async_in_buffer : ::boost::process::detail::posix::handler_base_ext,
 }}}}
 
 #endif
-

@@ -127,4 +127,3 @@
 #endif
 
 #endif // BOOST_MPI_CONFIG_HPP
-

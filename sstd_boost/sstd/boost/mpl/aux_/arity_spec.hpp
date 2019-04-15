@@ -65,4 +65,3 @@ struct template_arity< name<BOOST_MPL_PP_PARAMS(i,T)> > \
 
 
 #endif // BOOST_MPL_AUX_ARITY_SPEC_HPP_INCLUDED
-

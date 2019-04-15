@@ -206,4 +206,3 @@ struct logical_not : public unary_function<T, int>
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_FUNCTIONAL_LOGICAL_HPP
-

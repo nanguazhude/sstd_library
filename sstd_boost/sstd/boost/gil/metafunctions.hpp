@@ -476,4 +476,3 @@ public:
 }}  // namespace boost::gil
 
 #endif
-

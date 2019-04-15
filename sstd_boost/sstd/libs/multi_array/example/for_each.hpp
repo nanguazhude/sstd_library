@@ -50,4 +50,3 @@ void for_each (Array& A, Functor xform) {
 
 
 #endif // FOR_EACH_HPP
-

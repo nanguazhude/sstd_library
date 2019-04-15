@@ -13,4 +13,3 @@
 BOOST_TYPEOF_REGISTER_TEMPLATE(std::pair, 2)
 
 #endif//BOOST_TYPEOF_STD_utility_hpp_INCLUDED
-

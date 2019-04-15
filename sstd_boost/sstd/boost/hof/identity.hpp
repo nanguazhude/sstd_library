@@ -70,4 +70,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(identity, identity_detail::identity_base);
 }} // namespace boost::hof
 
 #endif
-

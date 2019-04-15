@@ -35,4 +35,3 @@ struct simple_locking:locking_marker
 } /* namespace boost */
 
 #endif
-

@@ -52,4 +52,3 @@ MPL_TEST_CASE()
     MPL_ASSERT_RELATION( size<result>::value, ==, 4 );
     MPL_ASSERT(( equal<result,answer> ));
 }
-

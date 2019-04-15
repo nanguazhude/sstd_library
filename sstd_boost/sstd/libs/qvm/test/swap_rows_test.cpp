@@ -99,4 +99,3 @@ main()
     test<5,5,4,4>();
     return boost::report_errors();
     }
-

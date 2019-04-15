@@ -48,4 +48,3 @@ int main()
 
 //  The output is:
 // [[0,1,2],[3,4,5]]
-

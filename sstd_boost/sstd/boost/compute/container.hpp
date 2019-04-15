@@ -25,4 +25,3 @@
 #include <sstd/boost/compute/container/vector.hpp>
 
 #endif // BOOST_COMPUTE_CONTAINER_HPP
-

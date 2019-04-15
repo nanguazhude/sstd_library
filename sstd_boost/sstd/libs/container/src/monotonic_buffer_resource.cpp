@@ -163,4 +163,3 @@ bool monotonic_buffer_resource::do_is_equal(const memory_resource& other) const 
 }  //namespace boost {
 
 #include <sstd/boost/container/detail/config_end.hpp>
-

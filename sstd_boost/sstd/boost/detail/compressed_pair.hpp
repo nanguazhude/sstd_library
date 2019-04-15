@@ -449,5 +449,3 @@ swap(compressed_pair<T1, T2>& x, compressed_pair<T1, T2>& y)
 #endif
 
 #endif // BOOST_DETAIL_COMPRESSED_PAIR_HPP
-
-

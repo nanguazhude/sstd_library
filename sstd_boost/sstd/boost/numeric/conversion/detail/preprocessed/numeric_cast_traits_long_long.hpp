@@ -345,4 +345,3 @@ namespace boost { namespace numeric {
         typedef Trunc<boost::ulong_long_type> rounding_policy;
     };
 }}
-

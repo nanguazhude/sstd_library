@@ -14,5 +14,3 @@ int main(void) {
         i = 5;
     } BOOST_SCOPE_EXIT_END
 }
-
-

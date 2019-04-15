@@ -95,4 +95,3 @@ inline void save_hash_collection(Archive & ar, const Container &s)
 } // namespace boost
 
 #endif //BOOST_SERIALIZATION_HASH_COLLECTIONS_SAVE_IMP_HPP
-

@@ -132,4 +132,3 @@
 #endif
 
 #endif // CONFIG_DWA052200_H_
-

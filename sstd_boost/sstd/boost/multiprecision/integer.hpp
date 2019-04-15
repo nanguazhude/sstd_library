@@ -249,4 +249,3 @@ typename enable_if_c<is_integral<Integer>::value, Integer>::type sqrt(const Inte
 }} // namespaces
 
 #endif
-

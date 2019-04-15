@@ -137,4 +137,3 @@ struct base_unit_info<abstract::solid_angle_unit_tag>
 } // namespace boost
 
 #endif // BOOST_UNITS_ABSTRACT_HPP
-

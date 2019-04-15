@@ -42,5 +42,3 @@ int main()
    poly_tests();
    nct_tests();
 }
-
-

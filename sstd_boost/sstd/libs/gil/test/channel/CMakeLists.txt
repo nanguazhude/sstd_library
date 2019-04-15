@@ -30,4 +30,3 @@ foreach(name
     Boost::unit_test_framework)
   add_test(gil.tests.core.${name} gil_test_${name})
 endforeach()
-

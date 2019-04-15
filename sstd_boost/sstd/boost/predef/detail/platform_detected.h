@@ -8,4 +8,3 @@ http://www.boost.org/LICENSE_1_0.txt)
 #ifndef BOOST_PREDEF_DETAIL_PLAT_DETECTED
 #define BOOST_PREDEF_DETAIL_PLAT_DETECTED 1
 #endif
-

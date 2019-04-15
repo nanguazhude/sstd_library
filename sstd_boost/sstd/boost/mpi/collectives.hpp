@@ -694,5 +694,3 @@ scan(const communicator& comm, const T* in_values, int n, T* out_values, Op op);
 #  include <sstd/boost/mpi/collectives/reduce.hpp>
 #  include <sstd/boost/mpi/collectives/scan.hpp>
 #endif
-
-

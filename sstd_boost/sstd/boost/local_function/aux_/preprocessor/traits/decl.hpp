@@ -26,5 +26,3 @@
     )(declarations)
 
 #endif // #include guard
-
-

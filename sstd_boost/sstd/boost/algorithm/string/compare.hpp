@@ -197,4 +197,3 @@ namespace boost {
 
 
 #endif  // BOOST_STRING_COMPARE_HPP
-

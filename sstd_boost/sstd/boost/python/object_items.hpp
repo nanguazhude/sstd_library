@@ -84,4 +84,3 @@ inline void item_policies::del(
 }}} // namespace boost::python::api
 
 #endif // OBJECT_ITEMS_DWA2002615_HPP
-

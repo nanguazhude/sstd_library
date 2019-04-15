@@ -32,4 +32,3 @@ int main(int, char *[])
 }
 
 #endif // __cplusplus >= 201703L
-

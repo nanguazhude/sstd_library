@@ -30,4 +30,3 @@ BOOST_COMPUTE_DECLARE_BUILTIN_FUNCTION(fast_normalize, T (T), class T)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_FUNCTIONAL_GEOMETRY_HPP
-

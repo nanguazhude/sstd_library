@@ -105,4 +105,3 @@ ResultType quarter_meridian(Geometry const& geometry)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_FORMULAS_QUARTER_MERIDIAN_HPP
-

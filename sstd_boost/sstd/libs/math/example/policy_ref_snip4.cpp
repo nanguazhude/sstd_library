@@ -39,4 +39,3 @@ int main()
 {
    cout << " quantile(my_norm(), 0.05f) = " << q << endl; //   -1.64485
 }
-

@@ -40,4 +40,3 @@ int main()
     BOOST_STATIC_ASSERT(!is_string_literal<int const[3]>::value);
     return boost::report_errors();
 }
-

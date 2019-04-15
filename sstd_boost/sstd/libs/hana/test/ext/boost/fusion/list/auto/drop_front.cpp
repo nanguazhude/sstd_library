@@ -6,4 +6,3 @@
 #include <auto/drop_front.hpp>
 
 int main() { }
-

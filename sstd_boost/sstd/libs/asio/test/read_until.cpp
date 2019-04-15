@@ -887,4 +887,3 @@ BOOST_ASIO_TEST_SUITE
   BOOST_ASIO_TEST_CASE(test_string_async_read_until)
   BOOST_ASIO_TEST_CASE(test_match_condition_async_read_until)
 )
-

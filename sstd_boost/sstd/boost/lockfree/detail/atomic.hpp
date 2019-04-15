@@ -85,4 +85,3 @@ using detail::memory_order_release;
 }}
 
 #endif /* BOOST_LOCKFREE_DETAIL_ATOMIC_HPP */
-

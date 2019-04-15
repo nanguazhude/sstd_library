@@ -52,4 +52,3 @@
 #endif /* GC_xxxxx_THREADS */
 
 #endif /* GC_PTHREAD_REDIRECTS_H */
-

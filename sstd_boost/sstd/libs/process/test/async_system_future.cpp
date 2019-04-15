@@ -59,4 +59,3 @@ BOOST_AUTO_TEST_CASE(future_error, *boost::unit_test::timeout(15))
     int exit_code = 0;
     BOOST_CHECK_THROW(exit_code = fut.get(), boost::system::system_error);
 }
-

@@ -283,4 +283,3 @@ typedef elf_info<boost::uint64_t> elf_info64;
 }}} // namespace boost::dll::detail
 
 #endif // BOOST_DLL_DETAIL_POSIX_ELF_INFO_HPP
-

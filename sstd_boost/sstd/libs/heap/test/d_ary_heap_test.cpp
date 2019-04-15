@@ -133,4 +133,3 @@ BOOST_AUTO_TEST_CASE( d_ary_heap_leak_test )
     typedef boost::heap::d_ary_heap<boost::shared_ptr<int>, boost::heap::arity<2> > pri_queue;
     run_leak_check_test<pri_queue>();
 }
-

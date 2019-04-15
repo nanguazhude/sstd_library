@@ -95,4 +95,3 @@ private:
 };
 
 #endif // BOOST_GEOMETRY_INDEX_TEST_VARRAY_TEST_HPP
-

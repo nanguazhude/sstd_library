@@ -53,4 +53,3 @@ struct l_end
 }}
 
 #endif // BOOST_MPL_LIST_AUX_NODE_HPP_INCLUDED
-

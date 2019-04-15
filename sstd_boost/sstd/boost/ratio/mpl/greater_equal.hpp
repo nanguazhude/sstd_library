@@ -28,4 +28,3 @@ struct greater_equal_impl< rational_c_tag,rational_c_tag >
 }
 
 #endif  // BOOST_RATIO_MPL_GREATER_EQUAL_HPP
-

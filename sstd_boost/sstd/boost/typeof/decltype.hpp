@@ -31,5 +31,3 @@ namespace boost { namespace type_of {
 #define BOOST_TYPEOF_REGISTER_TEMPLATE(x, params)
 
 #endif //BOOST_TYPEOF_DECLTYPE_HPP_INCLUDED
-
-

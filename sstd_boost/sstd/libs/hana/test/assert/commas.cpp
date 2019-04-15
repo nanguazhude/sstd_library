@@ -33,4 +33,3 @@ int main() {
     BOOST_HANA_ASSERT(constant_bool<true, void, void>());
     BOOST_HANA_ASSERT(constant_bool<true, void, void, void>());
 }
-

@@ -78,4 +78,3 @@ inline intrusive_ptr<Base const> make_adaptor(Xpr const &xpr)
 }}} // namespace boost::xpressive::detail
 
 #endif
-

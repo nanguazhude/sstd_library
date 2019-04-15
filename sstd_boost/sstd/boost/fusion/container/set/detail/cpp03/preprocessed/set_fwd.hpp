@@ -20,4 +20,3 @@
 #else
 #error "FUSION_MAX_SET_SIZE out of bounds for preprocessed headers"
 #endif
-

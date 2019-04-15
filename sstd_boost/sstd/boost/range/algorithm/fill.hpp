@@ -47,4 +47,3 @@ inline const ForwardRange& fill(const ForwardRange& rng, const Value& val)
 }
 
 #endif // include guard
-

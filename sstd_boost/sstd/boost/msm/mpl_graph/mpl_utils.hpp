@@ -60,4 +60,3 @@ struct set_equal :
 }
 
 #endif // BOOST_MSM_MPL_GRAPH_MPL_UTILS_HPP_INCLUDED
-

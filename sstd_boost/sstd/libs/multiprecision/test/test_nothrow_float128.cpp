@@ -74,6 +74,3 @@ BOOST_STATIC_ASSERT(!noexcept(std::declval<boost::multiprecision::float128&>() =
 BOOST_STATIC_ASSERT(!noexcept(std::declval<boost::multiprecision::float128&>() = std::declval<any_convert>()));
 
 #endif // noexcept
-
-
-

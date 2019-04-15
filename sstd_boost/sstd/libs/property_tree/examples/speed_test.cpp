@@ -128,4 +128,3 @@ int main()
     clock_find(1000);
 
 }
-

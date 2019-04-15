@@ -51,4 +51,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::union_(m3, m4) == hana::make_map(
 ));
 
 int main() { }
-

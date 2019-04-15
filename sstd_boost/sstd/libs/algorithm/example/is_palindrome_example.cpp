@@ -97,4 +97,3 @@ int main ( int /*argc*/, char * /*argv*/ [] )
         std::cout << "This C-string is not palindrome" << std::endl;
     return 0;
 }
-

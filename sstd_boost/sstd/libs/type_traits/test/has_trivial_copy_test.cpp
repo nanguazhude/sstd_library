@@ -230,12 +230,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::has_trivial_copy<bug_10389>::value, false);
 BOOST_CHECK_INTEGRAL_CONSTANT(::tt::has_trivial_copy<private_copy>::value, false);
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

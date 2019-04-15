@@ -1257,4 +1257,3 @@ class private_adaptive_node_pool_impl_rt
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_ADAPTIVE_NODE_POOL_IMPL_HPP
-

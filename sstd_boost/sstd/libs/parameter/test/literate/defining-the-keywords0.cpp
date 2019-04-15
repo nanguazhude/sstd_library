@@ -8,4 +8,3 @@ namespace graphs
   BOOST_PARAMETER_NAME(index_map)
   BOOST_PARAMETER_NAME(color_map)
 }
-

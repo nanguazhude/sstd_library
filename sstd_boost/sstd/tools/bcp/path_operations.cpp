@@ -39,4 +39,3 @@ int compare_paths(const fs::path& a, const fs::path& b)
    }
    return (k == l) ? 0 : 1;
 }
-

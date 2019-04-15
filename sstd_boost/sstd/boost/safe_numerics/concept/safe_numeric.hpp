@@ -37,4 +37,3 @@ struct SafeNumeric : public Numeric<T> {
 } // boost
 
 #endif // BOOST_NUMERIC_CONCEPT_SAFE_NUMERIC_HPP
-

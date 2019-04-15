@@ -68,4 +68,3 @@ private:
 } } // end namespace boost::parallel
 
 #endif // BOOST_PARALLEL_GLOBAL_INDEX_MAP_HPP
-

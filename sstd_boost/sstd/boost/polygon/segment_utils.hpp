@@ -162,4 +162,3 @@ envelope_segments(
 }  // boost
 
 #endif  // BOOST_POLYGON_SEGMENT_UTILS_HPP
-

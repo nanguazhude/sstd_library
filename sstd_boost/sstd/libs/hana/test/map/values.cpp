@@ -46,4 +46,3 @@ int main() {
         hana::values(hana::make_map(p<1, 1>(), p<2, 2>(), p<3, 3>()))
     ));
 }
-

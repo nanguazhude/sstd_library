@@ -429,4 +429,3 @@ public:
 } // namespace boost
 
 #endif
-

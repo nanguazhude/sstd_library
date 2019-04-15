@@ -193,4 +193,3 @@ void interval_set_check_length_complementarity_4_bicremental_types()
 }
 
 #endif // LIBS_ICL_TEST_TEST_SET_INTERVAL_SET_SHARED_HPP_JOFA_090119
-

@@ -276,4 +276,3 @@ maximum_gap(RangeOfIntervals const& range_of_intervals)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_MAX_INTERVAL_GAP_HPP
-

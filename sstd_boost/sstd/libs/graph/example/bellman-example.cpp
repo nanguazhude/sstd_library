@@ -126,4 +126,3 @@ main()
   dot_file << "}";
   return EXIT_SUCCESS;
 }
-

@@ -68,4 +68,3 @@ int main() {
         return hana::detail::variadic::reverse_apply_unrolled(f, x...);
     });
 }
-

@@ -20,6 +20,3 @@ void optional_reference__test_no_converting_initialization()
   short& r = v;
   boost::optional<int&> opt(r) ;
 }
-
-
-

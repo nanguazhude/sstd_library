@@ -71,4 +71,3 @@ template <class T> struct has_nothrow_default_constructor : public has_nothrow_c
 } // namespace boost
 
 #endif // BOOST_TT_HAS_NOTHROW_CONSTRUCTOR_HPP_INCLUDED
-

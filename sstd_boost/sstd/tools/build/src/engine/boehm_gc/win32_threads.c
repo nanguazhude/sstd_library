@@ -1568,4 +1568,3 @@ void GC_mark_thread_local_free_lists(void)
 #endif /* THREAD_LOCAL_ALLOC ... */
 
 #endif /* GC_WIN32_THREADS */
-

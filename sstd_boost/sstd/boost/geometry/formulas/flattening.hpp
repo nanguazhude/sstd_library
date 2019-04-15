@@ -68,4 +68,3 @@ ResultType flattening(Geometry const& geometry)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_FORMULAS_FLATTENING_HPP
-

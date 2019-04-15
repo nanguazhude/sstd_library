@@ -38,4 +38,3 @@ std::printf("There should be a another printf coming next.\n");
 mp_grid_update_marker_parameters(p, a);
 return 0;
 }
-

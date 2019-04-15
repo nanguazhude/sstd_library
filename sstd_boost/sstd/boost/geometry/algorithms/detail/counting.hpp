@@ -105,4 +105,3 @@ struct multi_count
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_COUNTING_HPP
-

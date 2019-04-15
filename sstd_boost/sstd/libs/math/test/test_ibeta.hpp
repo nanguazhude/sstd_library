@@ -439,5 +439,3 @@ void test_spots(T)
             ldexp(static_cast<T>(1), -557)),
          static_cast<T>(5.24647512910420109893867082626308082567071751558842352760e-167L), tolerance * 4);
 }
-
-

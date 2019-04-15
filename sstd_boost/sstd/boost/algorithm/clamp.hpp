@@ -173,4 +173,3 @@ namespace boost { namespace algorithm {
 }}
 
 #endif // BOOST_ALGORITHM_CLAMP_HPP
-

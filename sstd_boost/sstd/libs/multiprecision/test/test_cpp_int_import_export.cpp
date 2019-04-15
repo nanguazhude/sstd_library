@@ -166,5 +166,3 @@ int main()
    test_round_trip<boost::multiprecision::number<boost::multiprecision::cpp_int_backend<23, 23, boost::multiprecision::unsigned_magnitude, boost::multiprecision::checked, void> > >();
    return boost::report_errors();
 }
-
-

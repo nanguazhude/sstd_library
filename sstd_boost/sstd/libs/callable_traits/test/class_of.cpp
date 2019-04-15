@@ -50,4 +50,3 @@ int main() {
         CT_ASSERT(std::is_same<test, expect>::value);
     }
 }
-

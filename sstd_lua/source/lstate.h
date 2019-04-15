@@ -1,4 +1,4 @@
-/*
+﻿/*
 ** $Id: lstate.h,v 2.133.1.1 2017/04/19 17:39:34 roberto Exp $
 ** Global State
 ** See Copyright Notice in lua.h
@@ -250,4 +250,3 @@ LUAI_FUNC void luaE_shrinkCI (lua_State *L);
 
 
 #endif
-

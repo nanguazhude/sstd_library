@@ -47,4 +47,3 @@ struct is_string_literal<T[n]>
 }}} // namespace boost::python::detail
 
 #endif // STRING_LITERAL_DWA2002629_HPP
-

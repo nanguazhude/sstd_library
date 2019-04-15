@@ -178,4 +178,3 @@ private:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_DETAIL_BUFFER_VALUE_HPP
-

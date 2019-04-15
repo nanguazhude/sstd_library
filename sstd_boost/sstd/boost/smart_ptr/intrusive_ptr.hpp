@@ -359,4 +359,3 @@ template< class T > std::size_t hash_value( boost::intrusive_ptr<T> const & p ) 
 } // namespace boost
 
 #endif  // #ifndef BOOST_SMART_PTR_INTRUSIVE_PTR_HPP_INCLUDED
-

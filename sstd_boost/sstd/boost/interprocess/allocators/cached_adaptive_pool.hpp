@@ -354,5 +354,3 @@ bool operator!=(const cached_adaptive_pool<T, S, NodesPerBlock, F, OP> &alloc1,
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTERPROCESS_CACHED_ADAPTIVE_POOL_HPP
-
-

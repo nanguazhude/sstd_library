@@ -25,5 +25,3 @@ namespace boost {
 }
 
 #endif // #ifndef FILE_boost_type_traits_floating_point_promotion_hpp_INCLUDED
-
-

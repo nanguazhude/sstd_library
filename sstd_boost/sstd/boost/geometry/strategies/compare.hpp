@@ -224,4 +224,3 @@ struct default_strategy<ComparePolicy, Point1, Point2, Dimension, cartesian_tag,
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_COMPARE_HPP
-

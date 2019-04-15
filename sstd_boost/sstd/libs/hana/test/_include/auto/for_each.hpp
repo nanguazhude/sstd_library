@@ -62,4 +62,3 @@ TestCase test_for_each{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_FOR_EACH_HPP
-

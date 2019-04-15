@@ -41,4 +41,3 @@ namespace boost { namespace geometry
 #endif
 
 #endif // BOOST_GEOMETRY_CORE_EXCEPTION_HPP
-

@@ -24,4 +24,3 @@ int main() {
 
     BOOST_HANA_CONSTEXPR_CHECK(hana::curry<0>(two)() == two());
 }
-

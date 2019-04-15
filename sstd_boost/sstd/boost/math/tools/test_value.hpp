@@ -116,4 +116,3 @@ inline T create_test_value(largest_float, const char* str, const boost::mpl::fal
     boost::is_constructible<T, const char*>::value>()\
 )
 #endif // TEST_VALUE_HPP
-

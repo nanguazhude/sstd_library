@@ -164,5 +164,3 @@ bool operator!=(const allocator_v1<T, SegmentManager>  &alloc1,
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_ALLOCATOR_V1_HPP
-
-

@@ -25,4 +25,3 @@ int main()
 #else
 #  error To fail, this test requires rvalue references
 #endif
-

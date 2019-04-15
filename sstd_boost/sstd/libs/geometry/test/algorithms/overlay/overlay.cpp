@@ -519,4 +519,3 @@ int test_main(int, char* [])
 //    test_all<double, false>();
     return 0;
  }
-

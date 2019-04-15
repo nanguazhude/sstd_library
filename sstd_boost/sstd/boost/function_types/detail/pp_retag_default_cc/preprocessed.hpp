@@ -57,4 +57,3 @@ typedef mpl::bitand_<components<tester> ::bits,cc_mask_constant> bits;
 typedef cc_mask_constant mask;
 };
 } } }
-

@@ -11,4 +11,3 @@
 #include <sstd/boost/qvm/swizzle4.hpp>
 
 #endif
-

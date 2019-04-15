@@ -104,5 +104,3 @@ specify_old_postcondition_except<> destructor(Class* obj) {
 } } // namespace
 
 #endif // #include guard
-
-

@@ -29,4 +29,3 @@ class packed_skeleton_oarchive;
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_SKELETON_AND_CONTENT_FWD_HPP
-

@@ -22,4 +22,3 @@ static_assert(
 , "");
 
 int main() { }
-

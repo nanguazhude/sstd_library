@@ -66,4 +66,3 @@ int main() {
         BOOST_HANA_RUNTIME_CHECK(hana::at_c<2>(t1)->id_ == 3);
     }
 }
-

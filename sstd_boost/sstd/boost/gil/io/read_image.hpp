@@ -353,4 +353,3 @@ void read_image( const String&        file_name
 } // namespace boost
 
 #endif
-

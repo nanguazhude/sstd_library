@@ -262,4 +262,3 @@ struct set_kernel_arg<memory_object>
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_MEMORY_OBJECT_HPP
-

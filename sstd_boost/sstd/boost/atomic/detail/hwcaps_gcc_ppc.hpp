@@ -40,4 +40,3 @@
 #endif // defined(__POWERPC__) || defined(__PPC__)
 
 #endif // BOOST_ATOMIC_DETAIL_HWCAPS_GCC_PPC_HPP_INCLUDED_
-

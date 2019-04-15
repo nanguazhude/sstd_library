@@ -179,4 +179,3 @@
 12. Deferred
 
    - setting a flag when option is found
-

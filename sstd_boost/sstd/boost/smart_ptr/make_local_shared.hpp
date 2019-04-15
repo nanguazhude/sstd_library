@@ -15,4 +15,3 @@
 #include <sstd/boost/smart_ptr/make_local_shared_array.hpp>
 
 #endif // #ifndef BOOST_SMART_PTR_MAKE_LOCAL_SHARED_HPP_INCLUDED
-

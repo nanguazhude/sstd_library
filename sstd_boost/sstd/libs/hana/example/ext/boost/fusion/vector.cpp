@@ -33,4 +33,3 @@ int main() {
         fusion::make_vector("Moby Dick", "Garfield", "Snoopy")
     ));
 }
-

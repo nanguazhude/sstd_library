@@ -131,4 +131,3 @@ namespace extract_tests {
 }
 
 RUN_TESTS()
-

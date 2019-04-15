@@ -354,4 +354,3 @@ int test_main(int argc, char** argv)
   string_test();
   return 0;
 }
-

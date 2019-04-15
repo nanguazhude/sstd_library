@@ -11,4 +11,3 @@ namespace graphs
     = boost::parameter::keyword<tag::graph>::get();
   }
 }
-

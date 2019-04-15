@@ -1494,4 +1494,3 @@ struct has_trivial_destructor_after_move
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif //BOOST_CONTAINER_TREE_HPP
-

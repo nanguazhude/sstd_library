@@ -413,4 +413,3 @@ namespace endian
 #endif
 
 #endif // BOOST_ENDIAN_ARITHMETIC_HPP
-

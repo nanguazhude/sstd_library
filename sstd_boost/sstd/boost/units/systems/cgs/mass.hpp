@@ -34,4 +34,3 @@ BOOST_UNITS_STATIC_CONSTANT(grammes,mass);
 } // namespace boost
 
 #endif // BOOST_UNITS_CGS_MASS_HPP
-

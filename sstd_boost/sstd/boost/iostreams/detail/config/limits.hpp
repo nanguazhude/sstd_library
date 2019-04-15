@@ -17,4 +17,3 @@
 #endif
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_CONFIG_LIMITS_HPP_INCLUDED
-

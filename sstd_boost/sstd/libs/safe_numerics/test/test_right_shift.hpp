@@ -141,4 +141,3 @@ bool test_right_shift(
 }
 
 #endif // BOOST_TEST_RIGHT_SHIFT_HPP
-

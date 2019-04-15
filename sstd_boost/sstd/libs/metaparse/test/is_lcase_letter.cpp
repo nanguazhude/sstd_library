@@ -26,5 +26,3 @@ BOOST_METAPARSE_TEST_CASE(util_is_lcase_letter)
   // test_non_letter
   BOOST_MPL_ASSERT((not_<apply_wrap1<is_lcase_letter<>, char_K> >));
 }
-
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Path validation result enums
 * (C) 2013 Jack Lloyd
 *

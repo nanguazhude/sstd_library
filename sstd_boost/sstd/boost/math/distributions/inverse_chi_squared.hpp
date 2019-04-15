@@ -389,4 +389,3 @@ inline RealType kurtosis_excess(const inverse_chi_squared_distribution<RealType,
 #include <sstd/boost/math/distributions/detail/derived_accessors.hpp>
 
 #endif // BOOST_MATH_DISTRIBUTIONS_INVERSE_CHI_SQUARED_HPP
-

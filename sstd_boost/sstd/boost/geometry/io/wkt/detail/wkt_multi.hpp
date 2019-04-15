@@ -54,4 +54,3 @@ struct prefix_multipolygon
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_DOMAINS_GIS_IO_WKT_DETAIL_WKT_MULTI_HPP
-

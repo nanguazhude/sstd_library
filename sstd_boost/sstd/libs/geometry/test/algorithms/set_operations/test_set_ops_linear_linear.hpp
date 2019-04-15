@@ -379,4 +379,3 @@ void set_operation_output(std::string const& set_op_id,
 
 
 #endif // BOOST_GEOMETRY_TEST_SET_OPS_LINEAR_LINEAR_HPP
-

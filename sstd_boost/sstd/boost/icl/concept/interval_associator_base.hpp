@@ -145,6 +145,3 @@ join(Type& object)
 }} // namespace boost icl
 
 #endif
-
-
-

@@ -84,4 +84,3 @@ int main(int argc, char* argv[]) {
   // Print the 20th previous vertex in dimension 2 (wraps around twice)
   print_vertex(graph.previous(first_vertex, 2, 20)); // prints "(0, 0, ?)"
 }
-

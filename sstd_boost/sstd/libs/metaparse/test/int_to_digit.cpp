@@ -29,6 +29,3 @@ BOOST_METAPARSE_TEST_CASE(int_to_digit)
   // test9
   BOOST_MPL_ASSERT((equal_to<char_<'9'>, int_to_digit<int_<9> >::type>));
 }
-
-
-

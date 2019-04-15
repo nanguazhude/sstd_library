@@ -127,5 +127,3 @@ template<class R, class T, class A1, class A2, class A3, class A4, class A5, cla
     typedef R (BOOST_MEM_FN_CC T::*F) (A1, A2, A3, A4, A5, A6, A7, A8) const;
     explicit BOOST_MEM_FN_NAME(cmf8)(F f): mf<R>::BOOST_NESTED_TEMPLATE BOOST_MEM_FN_NAME2(cmf8)<R, T, A1, A2, A3, A4, A5, A6, A7, A8, F>(f) {}
 };
-
-

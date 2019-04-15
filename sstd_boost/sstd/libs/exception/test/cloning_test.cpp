@@ -596,4 +596,3 @@ main()
     BOOST_TEST(!diagnostic_information(boost::exception_ptr()).empty());
     return boost::report_errors();
     }
-

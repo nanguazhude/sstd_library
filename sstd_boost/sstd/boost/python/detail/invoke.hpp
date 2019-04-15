@@ -96,4 +96,3 @@ inline PyObject* invoke(invoke_tag_<true,true>, RC const&, F& f, TC& tc BOOST_PP
 # undef N
 
 #endif // BOOST_PP_IS_ITERATING
-

@@ -19,4 +19,3 @@ int main()
     const any<boost::mpl::vector<copy_constructible<>, typeid_<> > > x(1);
     any<copy_constructible<>, _self&> y(x);
 }
-

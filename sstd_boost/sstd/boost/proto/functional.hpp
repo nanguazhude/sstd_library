@@ -14,4 +14,3 @@
 #include <sstd/boost/proto/functional/range.hpp>
 
 #endif
-

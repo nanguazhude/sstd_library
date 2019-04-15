@@ -92,4 +92,3 @@ int main()
   //BOOST_TEST(G::n_alive == 0);
   return boost::report_errors();
 }
-

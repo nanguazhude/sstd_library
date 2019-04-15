@@ -16,4 +16,3 @@ int main()
   test_list_ops();
   return boost::report_errors();
 }
-

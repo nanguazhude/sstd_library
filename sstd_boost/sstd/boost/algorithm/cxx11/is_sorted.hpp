@@ -278,4 +278,3 @@ namespace boost { namespace algorithm {
 }} // namespace boost
 
 #endif  // BOOST_ALGORITHM_ORDERED_HPP
-

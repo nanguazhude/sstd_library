@@ -85,4 +85,3 @@ BOOST_FORCEINLINE VOID_ GetNativeSystemInfo(LPSYSTEM_INFO_ lpSystemInfo)
 #endif
 
 #endif // BOOST_WINAPI_SYSTEM_HPP_INCLUDED_
-

@@ -473,4 +473,3 @@ template<class A1, class A2, class A3, class A4, class A5, class A6, class A7, c
 #endif
 
 #endif // #ifndef BOOST_BIND_STORAGE_HPP_INCLUDED
-

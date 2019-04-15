@@ -80,5 +80,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_constructible<int(int), int(int)>::value
 BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_constructible<int(int), int(&)(int)>::value), false);
 
 TT_TEST_END
-
-

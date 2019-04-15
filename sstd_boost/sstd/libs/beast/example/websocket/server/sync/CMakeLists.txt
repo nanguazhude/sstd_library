@@ -17,4 +17,3 @@ add_executable (websocket-server-sync
 )
 
 set_property(TARGET websocket-server-sync PROPERTY FOLDER "example-websocket-server")
-

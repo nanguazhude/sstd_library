@@ -54,4 +54,3 @@ struct is_bitwise_serializable<std::pair<T,U> >
 } // namespace boost
 
 #endif // BOOST_SERIALIZATION_UTILITY_HPP
-

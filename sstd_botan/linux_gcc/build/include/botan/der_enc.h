@@ -1,4 +1,4 @@
-/*
+﻿/*
 * DER Encoder
 * (C) 1999-2007,2018 Jack Lloyd
 *

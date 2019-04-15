@@ -15,5 +15,3 @@ int main() {
         boost::thread t(&run_thread);
         return 0;
 }
-
-

@@ -124,4 +124,3 @@ int main() {
         BOOST_HANA_CONSTEXPR_CHECK(hana::equal(hana::max(6, 5), 6));
     }
 }
-

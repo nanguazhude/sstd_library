@@ -6,4 +6,3 @@
 #include <auto/cartesian_product.hpp>
 
 int main() { }
-

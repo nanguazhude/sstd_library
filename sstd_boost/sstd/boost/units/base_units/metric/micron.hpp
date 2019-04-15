@@ -34,4 +34,3 @@ struct base_unit_info<metric::micron_base_unit> {
 }
 
 #endif // BOOST_UNIT_SYSTEMS_METRIC_MICRON_HPP_INCLUDED
-

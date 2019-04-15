@@ -41,4 +41,3 @@ struct compose_function_result_type<F, G, typename holder<
 }}} // namespace boost::hof
 
 #endif
-

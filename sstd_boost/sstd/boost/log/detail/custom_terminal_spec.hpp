@@ -68,4 +68,3 @@ struct custom_terminal< T, typename T::_is_boost_log_terminal >
 #include <sstd/boost/log/detail/footer.hpp>
 
 #endif // BOOST_LOG_DETAIL_CUSTOM_TERMINAL_SPEC_HPP_INCLUDED_
-

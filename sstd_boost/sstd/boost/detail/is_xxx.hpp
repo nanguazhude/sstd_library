@@ -25,4 +25,3 @@ struct is_##name<                                               \
 
 
 #endif // BOOST_DETAIL_IS_XXX_DWA20051011_HPP
-

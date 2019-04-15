@@ -1,4 +1,4 @@
-/*
+﻿/*
 * S-Box Tables for CAST-128 and CAST-256
 * (C) 1999-2007 Jack Lloyd
 *

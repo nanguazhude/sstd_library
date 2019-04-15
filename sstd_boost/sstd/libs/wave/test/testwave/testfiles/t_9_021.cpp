@@ -22,4 +22,3 @@ EMPTY # define M 1
 //H 01: t_9_021.cpp(14): EMPTY
 //H 02:
 //H 03: _
-

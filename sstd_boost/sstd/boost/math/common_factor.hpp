@@ -17,4 +17,3 @@ BOOST_HEADER_DEPRECATED("<sstd/boost/integer/common_factor.hpp>");
 
 
 #endif  // BOOST_MATH_COMMON_FACTOR_HPP
-

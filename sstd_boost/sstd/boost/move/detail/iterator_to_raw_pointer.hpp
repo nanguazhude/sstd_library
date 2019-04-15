@@ -57,4 +57,3 @@ inline typename boost::movelib::detail::iterator_to_element_ptr<Iterator>::type
 }  //namespace boost {
 
 #endif   //#ifndef BOOST_MOVE_DETAIL_ITERATOR_TO_RAW_POINTER_HPP
-

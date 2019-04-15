@@ -24,6 +24,3 @@ struct udt_builtin_mixture
 } } // namespace boost::numeric
 
 #endif
-
-
-

@@ -64,4 +64,3 @@ struct inner_range_type<Polygon, polygon_tag>
 
 
 #endif // BOOST_GEOMETRY_ITERATORS_DETAIL_POINT_ITERATOR_INNER_RANGE_TYPE_HPP
-

@@ -45,4 +45,3 @@ namespace quickbook
 }
 
 #endif
-

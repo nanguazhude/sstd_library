@@ -33,4 +33,3 @@ namespace boost
 #endif // BOOST_NO_CXX11_ALLOCATOR
 
 #endif // header
-

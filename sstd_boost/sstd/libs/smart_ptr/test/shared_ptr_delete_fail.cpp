@@ -25,4 +25,3 @@ int main()
     delete p; // must fail
     return 0;
 }
-

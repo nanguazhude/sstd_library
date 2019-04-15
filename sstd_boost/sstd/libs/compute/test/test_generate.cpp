@@ -69,4 +69,3 @@ BOOST_AUTO_TEST_CASE(generate_pair)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

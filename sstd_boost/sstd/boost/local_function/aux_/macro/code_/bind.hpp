@@ -249,5 +249,3 @@
             &BOOST_LOCAL_FUNCTION_AUX_CODE_BIND_PARAMS_VAR_(id);
 
 #endif // #include guard
-
-

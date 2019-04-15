@@ -37,4 +37,3 @@ TT_TEST_BEGIN(common_type_sfinae2)
 #endif
 }
 TT_TEST_END
-

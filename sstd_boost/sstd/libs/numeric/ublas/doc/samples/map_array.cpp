@@ -21,5 +21,3 @@ int main () {
         std::cout << a [i] << std::endl;
     }
 }
-
-

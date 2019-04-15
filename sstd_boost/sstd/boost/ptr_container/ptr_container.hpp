@@ -28,5 +28,3 @@
 #include <sstd/boost/ptr_container/ptr_inserter.hpp>
 
 #endif
-
-

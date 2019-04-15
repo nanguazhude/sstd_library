@@ -20,4 +20,3 @@
 #include <sstd/boost/flyweight/static_holder.hpp>
 
 #endif
-

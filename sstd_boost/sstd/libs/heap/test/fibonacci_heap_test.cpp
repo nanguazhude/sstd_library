@@ -74,4 +74,3 @@ BOOST_AUTO_TEST_CASE( fibonacci_heap_leak_test )
     typedef boost::heap::fibonacci_heap<boost::shared_ptr<int> > pri_queue;
     run_leak_check_test<pri_queue>();
 }
-

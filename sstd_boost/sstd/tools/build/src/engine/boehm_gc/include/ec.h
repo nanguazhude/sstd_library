@@ -68,4 +68,3 @@ void CORD_ec_flush_buf(CORD_ec x);
 void CORD_ec_append_cord(CORD_ec x, CORD s);
 
 # endif /* EC_H */
-

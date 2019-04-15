@@ -36,4 +36,3 @@ BOOST_AUTO_TEST_CASE( get_pixel_type_test )
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

@@ -50,5 +50,3 @@ void push_front_action_test()
 {
     push_front_test< std::deque<std::string> >();
 }
-
-

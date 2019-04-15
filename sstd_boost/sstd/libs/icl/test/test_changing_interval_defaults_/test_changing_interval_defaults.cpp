@@ -101,4 +101,3 @@ BOOST_AUTO_TEST_CASE(test_intervals_4_changed_lib_defaults)
 #endif
 
 }
-

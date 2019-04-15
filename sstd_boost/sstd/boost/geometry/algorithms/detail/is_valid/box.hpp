@@ -113,4 +113,3 @@ struct is_valid<Box, box_tag>
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_IS_VALID_BOX_HPP
-

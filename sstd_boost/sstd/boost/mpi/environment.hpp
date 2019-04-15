@@ -285,4 +285,3 @@ private:
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_ENVIRONMENT_HPP
-

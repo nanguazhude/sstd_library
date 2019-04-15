@@ -48,5 +48,3 @@ int main()
   BOOST_TEST(t1 - t0 > ms(250));
   return boost::report_errors();
 }
-
-

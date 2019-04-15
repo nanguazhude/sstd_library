@@ -29,4 +29,3 @@ BOOST_AUTO_TEST_CASE( datavisualization )
     graph.activeTheme()->setBackgroundEnabled(false);
     graph.activeTheme()->setLabelBackgroundEnabled(true);
 }
-

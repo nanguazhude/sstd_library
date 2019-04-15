@@ -49,5 +49,3 @@
 
 
 #endif // PROGRAM_OPTIONS_CONFIG_HK_2004_01_11
-
-

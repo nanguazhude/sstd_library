@@ -842,4 +842,3 @@ namespace boost {
 
 
 #endif  // BOOST_ERASE_HPP
-

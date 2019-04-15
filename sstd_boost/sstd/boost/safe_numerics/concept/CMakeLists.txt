@@ -12,4 +12,3 @@ set_target_properties(concepts PROPERTIES FOLDER "safe_numerics")
 
 # end headers in IDE
 ####################
-

@@ -206,4 +206,3 @@ class fifo_worker : noncopyable
 
 
 #endif
-

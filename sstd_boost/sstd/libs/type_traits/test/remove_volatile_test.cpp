@@ -51,12 +51,3 @@ TT_TEST_BEGIN(remove_volatile)
    remove_volatile_test_17();
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

@@ -592,4 +592,3 @@ int set_test_copyable ()
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif
-

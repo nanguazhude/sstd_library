@@ -270,4 +270,3 @@ template<class CharType, class ValType> void basic_test_format_impl()
 //------------------------------------------------------------------------------
 
 }   // anonymous namespace
-

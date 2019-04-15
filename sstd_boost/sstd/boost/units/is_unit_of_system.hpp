@@ -44,4 +44,3 @@ struct is_unit_of_system< absolute<unit<Dim,System> >,System > :
 } // namespace boost
 
 #endif // BOOST_UNITS_IS_UNIT_OF_SYSTEM_HPP
-

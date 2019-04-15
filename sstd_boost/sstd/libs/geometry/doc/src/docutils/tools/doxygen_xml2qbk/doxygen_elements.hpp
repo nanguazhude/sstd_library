@@ -185,4 +185,3 @@ struct documentation
 
 
 #endif // DOXYGEN_ELEMENTS_HPP
-

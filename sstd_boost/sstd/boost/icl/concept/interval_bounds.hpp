@@ -154,5 +154,3 @@ right_subtract_bounds(const IntervalT& x1, const IntervalT& x2)
 }} // namespace icl boost
 
 #endif
-
-

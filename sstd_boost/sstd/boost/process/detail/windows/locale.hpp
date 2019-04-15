@@ -109,4 +109,3 @@ class windows_file_codecvt
 
 
 #endif /* BOOST_PROCESS_LOCALE_HPP_ */
-

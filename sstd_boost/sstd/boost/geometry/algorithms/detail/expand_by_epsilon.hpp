@@ -111,4 +111,3 @@ inline void expand_by_epsilon(Box & box)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_EXPAND_EXPAND_BY_EPSILON_HPP
-

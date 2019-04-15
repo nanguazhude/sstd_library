@@ -399,4 +399,3 @@ BOOST_PP_REPEAT(
 }} // namespace boost::accumulators
 
 #endif
-

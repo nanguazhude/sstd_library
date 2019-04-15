@@ -586,5 +586,3 @@ namespace boost { namespace math {
 }} // namespaces
 
 #endif // BOOST_MATH_BESSEL_JY_HPP
-
-

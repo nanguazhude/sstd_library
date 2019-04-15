@@ -101,4 +101,3 @@ thread_clock::time_point thread_clock::now() BOOST_NOEXCEPT
 } // namespace boost
 
 #endif
-

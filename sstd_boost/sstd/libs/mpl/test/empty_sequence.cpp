@@ -37,4 +37,3 @@ MPL_TEST_CASE()
 
     MPL_ASSERT(( equal< empty_sequence, empty_sequence::type > ));
 }
-

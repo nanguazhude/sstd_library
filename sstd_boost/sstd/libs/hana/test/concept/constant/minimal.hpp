@@ -43,4 +43,3 @@ namespace boost { namespace hana {
 }} // end namespace boost::hana
 
 #endif // !TEST_CONCEPT_CONSTANT_MINIMAL_HPP
-

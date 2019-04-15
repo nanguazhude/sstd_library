@@ -462,4 +462,3 @@ void test_all(std::vector<T> const& expected)
 #endif
 
 #endif // BOOST_GEOMETRY_TEST_OVERLAY_COMMON_HPP
-

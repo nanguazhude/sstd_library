@@ -115,4 +115,3 @@ UNORDERED_AUTO_TEST(stable_insert_test2)
 #endif
 
 RUN_TESTS()
-

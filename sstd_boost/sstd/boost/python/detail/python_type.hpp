@@ -35,4 +35,3 @@ template <class T> struct python_class : PyObject
 }}} //namespace boost :: python :: detail
 
 #endif //BOOST_PYTHON_OBJECT_PYTHON_TYPE_H
-

@@ -128,4 +128,3 @@ struct checking_strict:
 } // namespace boost
 
 #endif // BOOST_NUMERIC_INTERVAL_CHECKING_HPP
-

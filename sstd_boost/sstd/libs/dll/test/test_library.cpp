@@ -112,5 +112,3 @@ int& reference_to_internal_integer = internal_integer_i;
 extern "C" LIBRARY_API int&& rvalue_reference_to_internal_integer;
 int&& rvalue_reference_to_internal_integer = static_cast<int&&>(internal_integer_i);
 #endif
-
-

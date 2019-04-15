@@ -15,4 +15,3 @@
 #include "union_linear_linear.cpp"
 #include "difference_linear_linear.cpp"
 #include "sym_difference_linear_linear.cpp"
-

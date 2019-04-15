@@ -1,4 +1,4 @@
-/*
+﻿/*
  * PKCS #11 Cryptographic Token Interface Base Specification Version 2.40 Errata 01
  * Committee Specification Draft 01 / Public Review Draft 01
  * 09 December 2015
@@ -1999,4 +1999,3 @@ typedef CK_SEED_CBC_ENCRYPT_DATA_PARAMS CK_PTR \
                                         CK_SEED_CBC_ENCRYPT_DATA_PARAMS_PTR;
 
 #endif /* _PKCS11T_H_ */
-

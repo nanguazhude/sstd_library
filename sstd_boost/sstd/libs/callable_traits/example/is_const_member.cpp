@@ -18,4 +18,3 @@ static_assert(!ct::is_const_member<int(foo::*)()>::value, "");
 
 int main() {}
 //]
-

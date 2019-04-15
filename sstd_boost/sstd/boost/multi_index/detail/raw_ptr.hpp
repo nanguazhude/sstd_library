@@ -50,4 +50,3 @@ inline RawPointer raw_ptr(Pointer const& p)
 } /* namespace boost */
 
 #endif
-

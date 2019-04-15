@@ -44,5 +44,3 @@ void create_svg_buffer(std::string const& filename, Geometry1 const& original, G
 
 
 #endif // CREATE_SVG_BUFFER_HPP
-
-

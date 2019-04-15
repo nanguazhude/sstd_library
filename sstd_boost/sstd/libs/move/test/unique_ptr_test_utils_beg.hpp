@@ -207,4 +207,3 @@ struct J
 };
 
 #endif   //BOOST_MOVE_UNIQUE_PTR_TEST_UTILS_BEG_HPP
-

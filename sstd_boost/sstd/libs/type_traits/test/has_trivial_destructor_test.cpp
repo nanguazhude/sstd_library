@@ -193,7 +193,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::has_trivial_destructor<deleted_destruct>::va
 #endif
 
 TT_TEST_END
-
-
-
-

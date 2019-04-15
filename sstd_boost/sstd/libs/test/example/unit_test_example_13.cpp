@@ -14,5 +14,3 @@ BOOST_AUTO_TEST_CASE( broken_test )
 {
   BOOST_CHECK_EQUAL( ::system("ls"), 0 );
 }
-
-

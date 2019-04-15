@@ -98,4 +98,3 @@ BOOST_PYTHON_MODULE(properties_ext)
 }
 
 #include "module_tail.cpp"
-

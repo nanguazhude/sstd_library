@@ -84,4 +84,3 @@ namespace boost { namespace property_tree
 #include <sstd/boost/property_tree/detail/exception_implementation.hpp>
 
 #endif
-

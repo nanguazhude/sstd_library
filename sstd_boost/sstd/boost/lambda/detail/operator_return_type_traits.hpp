@@ -888,6 +888,3 @@ struct plain_return_type_2<arithmetic_action<plus_action>,
 } // namespace boost
 
 #endif
-
-
-

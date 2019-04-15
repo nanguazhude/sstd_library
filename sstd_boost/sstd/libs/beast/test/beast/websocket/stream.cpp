@@ -144,4 +144,3 @@ BEAST_DEFINE_TESTSUITE(beast,websocket,stream);
 } // websocket
 } // beast
 } // boost
-

@@ -140,6 +140,3 @@ namespace client { namespace lexer
 }}
 
 #endif
-
-
-

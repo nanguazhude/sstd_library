@@ -543,4 +543,3 @@ inline void save(Archive & ar, /*const*/ T &t){
 } // namespace boost
 
 #endif // BOOST_ARCHIVE_OSERIALIZER_HPP
-

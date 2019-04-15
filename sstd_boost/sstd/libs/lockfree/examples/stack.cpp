@@ -68,4 +68,3 @@ int main(int argc, char* argv[])
     cout << "consumed " << consumer_count << " objects." << endl;
 }
 //]
-

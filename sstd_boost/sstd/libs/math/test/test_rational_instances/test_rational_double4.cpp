@@ -8,4 +8,3 @@
 #ifdef BOOST_HAS_LONG_LONG
 template void do_test_spots<double, boost::ulong_long_type>(double, boost::ulong_long_type);
 #endif
-

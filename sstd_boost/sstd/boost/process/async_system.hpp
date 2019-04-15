@@ -139,5 +139,3 @@ inline BOOST_ASIO_INITFN_RESULT_TYPE(ExitHandler, void (boost::system::error_cod
 
 }}
 #endif
-
-

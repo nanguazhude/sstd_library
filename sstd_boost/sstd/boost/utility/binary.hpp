@@ -706,4 +706,3 @@
 #define BOOST_DETAIL_BINARY_LITERAL_ELEMENT_11111111 (1)(1)(1)(1)(1)(1)(1)(1),
 
 #endif
-

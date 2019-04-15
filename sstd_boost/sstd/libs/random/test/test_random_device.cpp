@@ -27,4 +27,3 @@ int test_main(int, char**) {
     rng.generate(a, a + 10);
     return 0;
 }
-

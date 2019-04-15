@@ -91,4 +91,3 @@ struct num_distinct_consecutive_points<Range, MaximumNumber, false, NotEqualTo>
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_NUM_DISTINCT_CONSECUTIVE_POINTS_HPP
-

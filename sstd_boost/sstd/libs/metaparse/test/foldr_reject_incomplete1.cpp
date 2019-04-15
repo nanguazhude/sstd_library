@@ -24,5 +24,3 @@ namespace
 #define TEST_NAME foldr_reject_incomplete1
 
 #include "repeated_reject_incomplete1_test.hpp"
-
-

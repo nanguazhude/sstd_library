@@ -266,4 +266,3 @@ struct dms_parser
 
 
 #endif // BOOST_GEOMETRY_SRS_PROJECTIONS_IMPL_DMS_PARSER_HPP
-

@@ -28,4 +28,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_TT_REMOVE_CV_REF_HPP_INCLUDED
-

@@ -429,4 +429,3 @@ basic_zlib_decompressor<Alloc>::basic_zlib_decompressor
 #endif
 
 #endif // #ifndef BOOST_IOSTREAMS_ZLIB_HPP_INCLUDED
-

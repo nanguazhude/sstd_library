@@ -126,4 +126,3 @@ namespace boost
 #endif  // BOOST_WINDOWS_API
 
 #endif  // BOOST_SYSTEM_WINDOWS_ERROR_HPP
-

@@ -28,4 +28,3 @@ main()
     BOOST_TEST(called);
     return boost::report_errors();
     }
-

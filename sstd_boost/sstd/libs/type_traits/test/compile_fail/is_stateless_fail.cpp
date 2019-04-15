@@ -11,6 +11,3 @@ int main()
 {
    return boost::is_stateless<incomplete_type>::value;
 }
-
-
-

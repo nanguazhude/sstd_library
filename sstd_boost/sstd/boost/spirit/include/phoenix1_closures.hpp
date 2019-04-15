@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_PHOENIX1_CLOSURES
 #include <sstd/boost/spirit/home/classic/phoenix/closures.hpp>
 #endif
-

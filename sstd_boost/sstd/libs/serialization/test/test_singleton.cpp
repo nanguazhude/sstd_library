@@ -72,4 +72,3 @@ int test_main(int, char *[]){
 
 // note: not a singleton
 D d;
-

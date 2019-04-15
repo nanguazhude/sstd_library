@@ -18,4 +18,3 @@
 #include <sstd/boost/gil/extension/toolbox/metafunctions/pixel_bit_size.hpp>
 
 #endif
-

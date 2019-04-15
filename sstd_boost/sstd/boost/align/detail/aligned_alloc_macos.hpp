@@ -42,4 +42,3 @@ aligned_free(void* ptr) BOOST_NOEXCEPT
 } /* boost */
 
 #endif
-

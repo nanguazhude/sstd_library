@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Streebog
 * (C) 2017 Ribose Inc.
 *

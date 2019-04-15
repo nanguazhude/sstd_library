@@ -60,5 +60,3 @@ BOOST_AUTO_TEST_CASE
 BOOST_AUTO_TEST_CASE
 (fastest_icl_partial_interval_map_mixed_contains_4_bicremental_types)
 {            partial_interval_map_mixed_contains_4_bicremental_types<int, int, partial_absorber>(); }
-
-

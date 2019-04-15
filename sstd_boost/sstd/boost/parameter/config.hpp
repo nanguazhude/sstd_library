@@ -11,5 +11,3 @@
 #endif
 
 #endif // BOOST_PARAMETER_CONFIG_050403_HPP
-
-

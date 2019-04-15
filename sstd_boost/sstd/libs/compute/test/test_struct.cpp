@@ -163,4 +163,3 @@ BOOST_AUTO_TEST_CASE(struct_with_array)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

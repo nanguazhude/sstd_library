@@ -232,4 +232,3 @@ inline void recalculate(Geometry1& geometry1, Geometry2 const& geometry2, Strate
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_RECALCULATE_HPP
-

@@ -154,4 +154,3 @@ class node_state : public node_state_base< Allocator, RttiPolicy >
 
 
 #endif
-

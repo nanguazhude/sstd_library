@@ -19,4 +19,3 @@
 #endif
 
 #endif // #ifndef BOOST_SMART_PTR_MAKE_SHARED_HPP_INCLUDED
-

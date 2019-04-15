@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_PHOENIX_STATEMENT
 #include <sstd/boost/phoenix/statement.hpp>
 #endif
-

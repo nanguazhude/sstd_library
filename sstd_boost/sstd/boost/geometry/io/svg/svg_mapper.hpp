@@ -448,4 +448,3 @@ public :
 
 
 #endif // BOOST_GEOMETRY_IO_SVG_MAPPER_HPP
-

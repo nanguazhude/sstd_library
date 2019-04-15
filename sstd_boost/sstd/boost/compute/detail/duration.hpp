@@ -52,4 +52,3 @@ make_duration_from_nanoseconds(boost::chrono::duration<Rep, Period>, size_t nano
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_DETAIL_DURATION_HPP
-

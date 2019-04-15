@@ -512,4 +512,3 @@ int main()
             << gauss_laguerre_airy_ai(mp_type(120) / 7)
             << std::endl;
 }
-

@@ -28,4 +28,3 @@ int main() {
         hana::size_c<3>
     ));
 }
-

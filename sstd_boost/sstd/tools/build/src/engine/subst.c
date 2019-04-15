@@ -114,4 +114,3 @@ void regex_done()
         hashdone( regex_hash );
     }
 }
-

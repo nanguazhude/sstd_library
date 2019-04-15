@@ -21,4 +21,3 @@ int main() {
 
     hana::test::TestOrderable<minimal_constant_tag<int>>{ints};
 }
-

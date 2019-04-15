@@ -54,4 +54,3 @@ including "t_2_009.cpp"
 //H 03: "t_2_009.cpp"
 //H 04: "t_2_009.cpp"
 //H 10: t_2_009.cpp(31): #endif
-

@@ -24,4 +24,3 @@ void pool_test_random_shuffle( RandomIt first, RandomIt last )
 }
 
 #endif // BOOST_POOL_TEST_RANDOM_SHUFFLE_HPP
-

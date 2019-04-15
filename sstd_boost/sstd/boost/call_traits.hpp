@@ -18,4 +18,3 @@
 #include <sstd/boost/detail/call_traits.hpp>
 
 #endif // BOOST_CALL_TRAITS_HPP
-

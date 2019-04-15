@@ -18,4 +18,3 @@
 #include <sstd/boost/phoenix/statement/while.hpp>
 
 #endif
-

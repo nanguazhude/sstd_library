@@ -63,4 +63,3 @@ public:
 } // end namespace foo
 
 #endif /* NODE_H_ */
-

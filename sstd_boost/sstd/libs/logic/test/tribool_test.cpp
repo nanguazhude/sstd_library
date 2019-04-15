@@ -152,4 +152,3 @@ int test_main(int, char*[])
   std::cout << "no errors detected\n";
   return 0;
 }
-

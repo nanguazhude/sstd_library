@@ -128,4 +128,3 @@ struct is_nan_case_supported
     static const bool value = boost::is_same<coord_t, double>::value
                            && std::numeric_limits<coord_t>::has_quiet_NaN;
 };
-

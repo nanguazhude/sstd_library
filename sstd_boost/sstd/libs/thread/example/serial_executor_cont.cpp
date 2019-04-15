@@ -111,4 +111,3 @@ int main()
 {
   return test_executor_adaptor();
 }
-

@@ -336,5 +336,3 @@ namespace boost { namespace spirit { namespace char_encoding
 }}}
 
 #endif
-
-

@@ -437,4 +437,3 @@ struct static_mask_overlaps_type
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_RELATE_DE9IM_HPP
-

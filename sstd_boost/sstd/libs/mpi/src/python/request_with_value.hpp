@@ -69,4 +69,3 @@ namespace boost { namespace mpi { namespace python {
 } } }
 
 #endif
-

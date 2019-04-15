@@ -33,4 +33,3 @@ int main() {
     static_assert(std::is_default_constructible<decltype(partial_tuple)>::value, "");
     static_assert(std::is_default_constructible<decltype(reverse_partial_tuple)>::value, "");
 }
-

@@ -71,4 +71,3 @@ public:
 #endif
 
 #endif // BOOST_COROUTINES_DETAIL_COROUTINE_CONTEXT_H
-

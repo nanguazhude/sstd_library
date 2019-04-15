@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_SAFE_BOOL
 #include <sstd/boost/spirit/home/classic/core/safe_bool.hpp>
 #endif
-

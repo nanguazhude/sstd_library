@@ -26,4 +26,3 @@
 #include <sstd/boost/numeric/odeint/external/vexcl/vexcl_copy.hpp>
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_VEXCL_VEXCL_HPP_DEFINED
-

@@ -49,4 +49,3 @@ main()
     check< m<int,4,2>, m<int,4,2>, 4, 2, m<int,4,2> >();
     check< m<int,4,2>, m<float,4,2>, 4, 4, boost::qvm::mat<float,4,4> >();
     }
-

@@ -50,4 +50,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_TT_HAS_TRIVIAL_ASSIGN_HPP_INCLUDED
-

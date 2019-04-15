@@ -267,4 +267,3 @@ simple_nonfinite_facet.vcxproj -> J:\Cpp\MathToolkit\test\Math_test\Release\nonf
   infinity in C99 representation (setw(20) is                  inf|
 
 */
-

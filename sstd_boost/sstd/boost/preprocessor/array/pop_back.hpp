@@ -35,4 +35,3 @@
 # define BOOST_PP_ARRAY_POP_BACK_M(z, n, data) BOOST_PP_ARRAY_ELEM(n, data)
 #
 # endif
-

@@ -33,5 +33,3 @@ constexpr negate_tag make_negate_tag()
 }}}} // namespaces
 
 #endif // BOOST_MP_CPP_INT_CORE_HPP
-
-

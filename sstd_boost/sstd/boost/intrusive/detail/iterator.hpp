@@ -260,4 +260,3 @@ BOOST_INTRUSIVE_FORCEINLINE T * iterator_arrow_result(T *p)
 } //namespace boost
 
 #endif //BOOST_INTRUSIVE_DETAIL_ITERATOR_HPP
-

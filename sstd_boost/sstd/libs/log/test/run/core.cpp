@@ -241,4 +241,3 @@ BOOST_AUTO_TEST_CASE(attributes)
     pCore->remove_thread_attribute(itThread);
     pCore->remove_sink(pSink);
 }
-

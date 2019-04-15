@@ -65,8 +65,3 @@ BOOST_HOF_TEST_CASE()
         )(2, 4)
         == make_mini_pair(make_mini_pair(1, 2), make_mini_pair(2, 4)));
 }
-
-
-
-
-

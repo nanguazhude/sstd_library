@@ -15,6 +15,3 @@ extern "C" double BOOST_MATH_TR1_DECL boost_cyl_neumann BOOST_PREVENT_MACRO_SUBS
 {
    return c_policies::cyl_neumann BOOST_PREVENT_MACRO_SUBSTITUTION(nu, x);
 }
-
-
-

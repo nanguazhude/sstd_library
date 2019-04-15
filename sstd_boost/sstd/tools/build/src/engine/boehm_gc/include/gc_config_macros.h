@@ -177,5 +177,3 @@
 #ifndef GC_API
 #define GC_API extern
 #endif
-
-

@@ -49,4 +49,3 @@ main()
   gb_recycle(sgb_g);
   return EXIT_SUCCESS;
 }
-

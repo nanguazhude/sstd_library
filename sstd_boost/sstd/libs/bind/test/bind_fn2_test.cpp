@@ -169,4 +169,3 @@ int main()
     function_test();
     return boost::report_errors();
 }
-

@@ -50,4 +50,3 @@ int main()
   std::cout << __LINE__ << " ERROR: " << std::endl;
   return 3;
 }
-

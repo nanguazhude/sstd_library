@@ -153,4 +153,3 @@ int main()
   //test_deque_times2(); // rt fails
   return boost::report_errors();
 }
-

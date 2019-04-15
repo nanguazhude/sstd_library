@@ -85,4 +85,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_GRAPH_BANDWIDTH_HPP
-

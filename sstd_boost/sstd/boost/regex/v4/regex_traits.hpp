@@ -186,5 +186,3 @@ private:
 #endif
 
 #endif // include
-
-

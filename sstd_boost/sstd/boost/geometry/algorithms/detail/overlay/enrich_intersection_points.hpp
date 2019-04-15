@@ -548,4 +548,3 @@ inline void enrich_intersection_points(Turns& turns,
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_ENRICH_HPP
-

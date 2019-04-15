@@ -44,4 +44,3 @@ inline boost::array<char, 40> to_dec_array(std::size_t value) BOOST_NOEXCEPT {
 }}} // namespace boost::stacktrace::detail
 
 #endif // BOOST_STACKTRACE_DETAIL_TO_DEC_ARRAY_HPP
-

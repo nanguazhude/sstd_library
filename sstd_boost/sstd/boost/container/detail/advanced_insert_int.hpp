@@ -493,4 +493,3 @@ struct insert_emplace_proxy_arg1<Allocator, Iterator
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif //#ifndef BOOST_CONTAINER_ADVANCED_INSERT_INT_HPP
-

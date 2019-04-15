@@ -40,4 +40,3 @@ BOOST_AUTO_TEST_CASE( qtgui_test)
 {
     BOOST_CHECK_EQUAL(true, true);
 }
-

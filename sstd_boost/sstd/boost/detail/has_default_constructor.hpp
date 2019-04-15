@@ -27,4 +27,3 @@ struct has_default_constructor
 
 
 #endif // BOOST_DETAIL_HAS_DEFAULT_CONSTRUCTOR_HPP_INCLUDED
-

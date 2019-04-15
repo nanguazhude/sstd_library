@@ -1056,4 +1056,3 @@ class optional : public optional_detail::optional_base<T>
 
 
 #endif // header guard
-

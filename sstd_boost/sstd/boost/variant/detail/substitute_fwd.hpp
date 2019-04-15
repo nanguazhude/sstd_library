@@ -56,4 +56,3 @@ struct substitute;
 } // namespace boost
 
 #endif // BOOST_VARIANT_DETAIL_SUBSTITUTE_FWD_HPP
-

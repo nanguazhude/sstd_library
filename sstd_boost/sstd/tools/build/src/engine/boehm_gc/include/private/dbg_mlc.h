@@ -176,4 +176,3 @@ typedef struct {
 ptr_t GC_store_debug_info(/* p, sz, string, integer */);
 
 #endif /* _DBG_MLC_H */
-

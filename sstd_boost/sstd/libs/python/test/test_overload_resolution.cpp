@@ -50,5 +50,3 @@ BOOST_PYTHON_MODULE(overload_resolution)
   def("bdi", takes_double);
   def("bdi", takes_int);
 }
-
-

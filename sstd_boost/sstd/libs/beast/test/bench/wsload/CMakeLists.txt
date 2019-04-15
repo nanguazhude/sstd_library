@@ -22,4 +22,3 @@ add_executable (bench-wsload
     )
 
 set_property(TARGET bench-wsload PROPERTY FOLDER "tests-bench")
-

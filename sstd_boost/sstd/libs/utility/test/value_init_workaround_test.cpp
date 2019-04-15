@@ -161,4 +161,3 @@ int main()
   return num_failures == 0 ? EXIT_SUCCESS : EXIT_FAILURE;
 #endif
 }
-

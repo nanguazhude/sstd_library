@@ -21,4 +21,3 @@
 #ifndef fork
 # define fork BOOST_ASIO_CORO_FORK
 #endif
-

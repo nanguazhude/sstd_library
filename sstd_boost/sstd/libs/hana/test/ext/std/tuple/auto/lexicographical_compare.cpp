@@ -6,4 +6,3 @@
 #include <auto/lexicographical_compare.hpp>
 
 int main() { }
-

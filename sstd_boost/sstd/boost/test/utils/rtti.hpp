@@ -61,4 +61,3 @@ type_id()
 } // namespace boost
 
 #endif // BOOST_TEST_UTILS_RTTI_HPP
-

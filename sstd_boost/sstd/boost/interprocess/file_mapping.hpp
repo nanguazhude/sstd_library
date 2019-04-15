@@ -197,4 +197,3 @@ class remove_file_on_destroy
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_FILE_MAPPING_HPP
-

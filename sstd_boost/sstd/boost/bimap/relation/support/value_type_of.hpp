@@ -88,5 +88,3 @@ struct value_type_of
 
 
 #endif // BOOST_BIMAP_RELATION_SUPPORT_VALUE_TYPE_OF_HPP
-
-

@@ -329,4 +329,3 @@ namespace boost
 }
 
 #endif //__IS_KURATOWSKI_SUBGRAPH_HPP__
-

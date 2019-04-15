@@ -160,4 +160,3 @@ private:
 #endif // defined(BOOST_ASIO_HEADER_ONLY)
 
 #endif // BOOST_ASIO_SSL_DETAIL_ENGINE_HPP
-

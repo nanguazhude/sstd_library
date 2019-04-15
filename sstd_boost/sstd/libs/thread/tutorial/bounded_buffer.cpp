@@ -67,4 +67,3 @@ int main()
     thrd1.join();
     thrd2.join();
 }
-

@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/container/vector/vector10.hpp>
 
 #endif
-

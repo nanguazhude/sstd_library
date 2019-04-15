@@ -85,5 +85,3 @@
     )(sign)
 
 #endif // #include guard
-
-

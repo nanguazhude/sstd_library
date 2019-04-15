@@ -172,4 +172,3 @@ public:
 } // namespace boost
 
 #endif
-

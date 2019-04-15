@@ -350,4 +350,3 @@ ignore_other_properties(const std::string&,
 } // namespace boost
 
 #endif // DYNAMIC_PROPERTY_MAP_RG09302004_HPP
-

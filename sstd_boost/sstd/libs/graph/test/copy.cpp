@@ -23,4 +23,3 @@ int main()
     copier c;
     copy_graph(g3, g1, vertex_copy(c));
 }
-

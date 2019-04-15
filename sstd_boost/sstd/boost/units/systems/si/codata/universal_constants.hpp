@@ -79,4 +79,3 @@ BOOST_UNITS_PHYSICAL_CONSTANT(t_P,quantity<time>,5.39124e-44*seconds,2.7e-48*sec
 } // namespace boost
 
 #endif // BOOST_UNITS_CODATA_UNIVERSAL_CONSTANTS_HPP
-

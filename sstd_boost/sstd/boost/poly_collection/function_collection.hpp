@@ -78,4 +78,3 @@ using poly_collection::function_collection;
 } /* namespace boost */
 
 #endif
-

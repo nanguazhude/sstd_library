@@ -774,17 +774,3 @@ struct function_adaptor<Result (*)(Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7, Arg
 } // namespace boost
 
 #endif
-
-
-
-
-
-
-
-
-
-
-
-
-
-

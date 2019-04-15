@@ -43,4 +43,3 @@
 #endif
 
 #endif // BOOST_MPL_BITOR_HPP_INCLUDED
-

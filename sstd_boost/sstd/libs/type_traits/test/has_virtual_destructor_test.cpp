@@ -65,12 +65,3 @@ BOOST_CHECK_SOFT_INTEGRAL_CONSTANT(::tt::has_virtual_destructor<std::out_of_rang
 BOOST_CHECK_SOFT_INTEGRAL_CONSTANT(::tt::has_virtual_destructor<std::range_error>::value, true, false);
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

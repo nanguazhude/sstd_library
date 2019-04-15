@@ -12,5 +12,3 @@
 
 #include <e_float/e_float.h>
 #include <functions/functions.h>
-
-

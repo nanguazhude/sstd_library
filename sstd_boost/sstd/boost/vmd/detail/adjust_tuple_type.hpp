@@ -95,4 +95,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_ADJUST_TUPLE_TYPE_HPP */
-

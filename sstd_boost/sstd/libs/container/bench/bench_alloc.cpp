@@ -186,4 +186,3 @@ int main()
    allocation_loop<char_holder<24> >();
    return 0;
 }
-

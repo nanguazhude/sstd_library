@@ -112,4 +112,3 @@ TestCase test_remove_range{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_REMOVE_RANGE_HPP
-

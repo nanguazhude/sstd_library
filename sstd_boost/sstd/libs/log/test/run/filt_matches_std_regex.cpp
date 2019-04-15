@@ -118,4 +118,3 @@ int main(int, char*[])
 }
 
 #endif // !defined(BOOST_NO_CXX11_HDR_REGEX)
-

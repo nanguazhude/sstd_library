@@ -35,4 +35,3 @@ BOOST_AUTO_TEST_CASE( script )
     BOOST_CHECK_EQUAL(three.toNumber(), 3);
     BOOST_CHECK_EQUAL(three.toString(), QLatin1String("3"));
 }
-

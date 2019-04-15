@@ -55,4 +55,3 @@ int main() {
         static_assert(hana::second(p) == 4, "");
     }
 }
-

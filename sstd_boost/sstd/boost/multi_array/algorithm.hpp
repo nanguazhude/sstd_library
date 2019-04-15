@@ -101,4 +101,3 @@ copy_n(InputIter first, Size count, OutputIter result) {
 } // namespace boost
 
 #endif // BOOST_ALGORITHM_RG071801_HPP
-

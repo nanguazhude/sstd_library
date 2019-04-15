@@ -123,4 +123,3 @@ namespace spreadsort {
 }
 
 #endif
-

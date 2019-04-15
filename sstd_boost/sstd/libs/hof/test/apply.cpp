@@ -465,4 +465,3 @@ BOOST_HOF_TEST_CASE()
     static_assert(noexcept(boost::hof::apply(&member_obj::x, obj)), "");
 }
 #endif
-

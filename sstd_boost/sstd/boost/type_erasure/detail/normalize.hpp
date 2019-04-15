@@ -800,4 +800,3 @@ using collect_concepts = ::boost::mpl::identity<
 }
 
 #endif
-

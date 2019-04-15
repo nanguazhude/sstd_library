@@ -48,6 +48,3 @@ class_<DoesSomething>("DoesSomething")
     .def("returnList", &DoesSomething::returnList)
     ;
 }
-
-
-

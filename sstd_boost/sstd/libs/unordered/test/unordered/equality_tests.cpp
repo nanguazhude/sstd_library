@@ -154,4 +154,3 @@ namespace equality_tests {
 }
 
 RUN_TESTS()
-

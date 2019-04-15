@@ -287,4 +287,3 @@ void test_type_erased_exercise_buffer_types()
 } // namespace boost_range_adaptor_type_erased_test
 
 #endif // include guard
-

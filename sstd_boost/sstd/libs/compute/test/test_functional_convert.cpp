@@ -42,4 +42,3 @@ BOOST_AUTO_TEST_CASE(convert_int_float)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

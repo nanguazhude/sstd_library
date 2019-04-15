@@ -45,4 +45,3 @@ int main() {
     std::cout << "the result of the monadic chain is " << eout << "\n";
     BOOST_HANA_RUNTIME_CHECK(eout == (in + 1) / 2);
 }
-

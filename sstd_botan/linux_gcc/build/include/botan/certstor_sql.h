@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Certificate Store in SQL
 * (C) 2016 Kai Michaelis, Rohde & Schwarz Cybersecurity
 *

@@ -41,4 +41,3 @@ int main()
     test::B b0((param::a1 = 13));
     test::B b1((param::a1 = 13, param::a2 = 6));
 }
-

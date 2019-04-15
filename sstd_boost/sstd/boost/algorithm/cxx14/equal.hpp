@@ -102,4 +102,3 @@ bool equal ( InputIterator1 first1, InputIterator1 last1,
 }} // namespace boost and algorithm
 
 #endif // BOOST_ALGORITHM_EQUAL_HPP
-

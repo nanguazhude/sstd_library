@@ -19,4 +19,3 @@ void test_algorithm()
   test_algorithm2();
   test_algorithm3();
 }
-

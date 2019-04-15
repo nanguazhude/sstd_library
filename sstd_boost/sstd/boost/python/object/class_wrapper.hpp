@@ -49,4 +49,3 @@ struct class_value_wrapper
 }}} // namespace boost::python::objects
 
 #endif // CLASS_WRAPPER_DWA20011221_HPP
-

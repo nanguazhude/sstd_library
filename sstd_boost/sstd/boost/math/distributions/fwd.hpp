@@ -151,4 +151,3 @@ class weibull_distribution;
    typedef boost::math::weibull_distribution<Type, Policy> weibull;
 
 #endif // BOOST_MATH_DISTRIBUTIONS_FWD_HPP
-

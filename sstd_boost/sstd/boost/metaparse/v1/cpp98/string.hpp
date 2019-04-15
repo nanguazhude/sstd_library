@@ -269,5 +269,3 @@ namespace boost
 #define BOOST_METAPARSE_V1_CONFIG_NO_BOOST_METAPARSE_STRING 1
 
 #endif
-
-

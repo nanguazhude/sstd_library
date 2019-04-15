@@ -72,4 +72,3 @@ struct constexpr_deduce_unique
 #endif
 
 #endif
-

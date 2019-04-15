@@ -15,4 +15,3 @@ BOOST_PYTHON_DECL void* find_dynamic_type(void* p, type_info src, type_info dst)
 }}} // namespace boost::python::object
 
 #endif // INHERITANCE_QUERY_DWA2003520_HPP
-

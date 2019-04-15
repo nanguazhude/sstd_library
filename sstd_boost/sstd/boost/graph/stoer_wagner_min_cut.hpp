@@ -248,4 +248,3 @@ namespace graph {
 #include <sstd/boost/graph/iteration_macros_undef.hpp>
 
 #endif // !BOOST_GRAPH_STOER_WAGNER_MIN_CUT_HPP
-

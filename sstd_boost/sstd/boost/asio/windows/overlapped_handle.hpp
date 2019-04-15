@@ -331,4 +331,3 @@ protected:
 #endif // !defined(BOOST_ASIO_ENABLE_OLD_SERVICES)
 
 #endif // BOOST_ASIO_WINDOWS_OVERLAPPED_HANDLE_HPP
-

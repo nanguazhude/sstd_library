@@ -33,4 +33,3 @@
 # define BOOST_PP_ARRAY_PUSH_BACK_I(size, data, elem) (BOOST_PP_INC(size), (BOOST_PP_ARRAY_DETAIL_GET_DATA(size,data) BOOST_PP_COMMA_IF(size) elem))
 #
 # endif
-

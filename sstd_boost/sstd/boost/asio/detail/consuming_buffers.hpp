@@ -414,4 +414,3 @@ public:
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_CONSUMING_BUFFERS_HPP
-

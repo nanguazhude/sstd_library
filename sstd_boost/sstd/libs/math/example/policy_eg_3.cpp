@@ -52,5 +52,3 @@ Output:
   quantile(mybinom(200, 0.25), 0.05) is: 40
 
 */
-
-

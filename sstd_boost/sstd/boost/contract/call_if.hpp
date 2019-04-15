@@ -614,5 +614,3 @@ bool condition_if(Then f, bool else_ = true) {
 } } // namespace
 
 #endif // #include guard
-
-

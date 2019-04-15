@@ -46,4 +46,3 @@ namespace boost
 }
 
 #endif // BOOST_FILE_NAME_CHECK_HPP
-

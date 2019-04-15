@@ -56,4 +56,3 @@ struct msvc_is_class
 }}}
 
 #endif // BOOST_MPL_AUX_MSVC_IS_CLASS_HPP_INCLUDED
-

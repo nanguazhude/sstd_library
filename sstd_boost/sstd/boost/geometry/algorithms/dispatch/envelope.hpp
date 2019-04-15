@@ -47,4 +47,3 @@ struct envelope : not_implemented<Tag>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DISPATCH_ENVELOPE_HPP
-

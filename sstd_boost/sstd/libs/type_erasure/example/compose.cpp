@@ -42,4 +42,3 @@ struct arithmetic :
 //` [@boost:/libs/type_erasure/example/compose.cpp compose.cpp])
 //` [compose1]
 //]
-

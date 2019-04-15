@@ -168,4 +168,3 @@ void test_vector () {
 #endif
 #endif
 }
-

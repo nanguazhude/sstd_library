@@ -8,5 +8,3 @@
 
 #define BOOST_CONTRACT_TEST_CHECK_MACRO
 #include "decl.hpp"
-
-

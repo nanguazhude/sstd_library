@@ -12,20 +12,3 @@ b2 -d+2 --toolset=gcc  address-model=64 link=shared runtime-link=shared threadin
 
 only build some module
 --with-context
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

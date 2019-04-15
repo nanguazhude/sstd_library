@@ -344,4 +344,3 @@ BOOST_ASIO_TEST_SUITE
   BOOST_ASIO_TEST_CASE(test_sync_operations)
   BOOST_ASIO_TEST_CASE(test_async_operations)
 )
-

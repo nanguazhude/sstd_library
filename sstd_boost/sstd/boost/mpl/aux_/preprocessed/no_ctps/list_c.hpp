@@ -531,5 +531,3 @@ struct list_c
 };
 
 }}
-
-

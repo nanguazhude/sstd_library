@@ -46,5 +46,3 @@ int main(int argc, char* argv[])
     exef(); // Make sure that this function still callable in traditional way
     return boost::report_errors();
 }
-
-

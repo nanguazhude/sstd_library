@@ -13,4 +13,3 @@
 //~ #include <sstd/boost/spirit/home/x3/nonterminal/success_handler.hpp>
 
 #endif
-

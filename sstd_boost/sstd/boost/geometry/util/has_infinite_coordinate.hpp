@@ -53,4 +53,3 @@ bool has_infinite_coordinate(Point const& point)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_UTIL_HAS_INFINITE_COORDINATE_HPP
-

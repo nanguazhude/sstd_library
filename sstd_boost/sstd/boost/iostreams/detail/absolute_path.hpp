@@ -44,4 +44,3 @@ inline std::string absolute_path(const std::string& path)
 } } } // End namespaces detail, iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_ABSOLUTE_PATH_HPP_INCLUDED
-

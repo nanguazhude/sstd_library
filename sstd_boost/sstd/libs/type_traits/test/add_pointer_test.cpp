@@ -31,12 +31,3 @@ TT_TEST_BEGIN(add_pointer)
    add_pointer_test_11();
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

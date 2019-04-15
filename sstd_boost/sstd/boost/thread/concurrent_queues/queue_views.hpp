@@ -142,4 +142,3 @@ using concurrent::queue_front;
 #include <sstd/boost/config/abi_suffix.hpp>
 
 #endif
-

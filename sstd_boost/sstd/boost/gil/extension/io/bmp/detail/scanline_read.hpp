@@ -412,4 +412,3 @@ private:
 } // namespace boost
 
 #endif
-

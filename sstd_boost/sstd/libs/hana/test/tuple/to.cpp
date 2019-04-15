@@ -16,4 +16,3 @@ int main() {
         hana::to_tuple(hana::tuple_t<int, char, void, int(float)>)
     ));
 }
-

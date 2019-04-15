@@ -12,4 +12,3 @@ int main()
     BOOST_TEST_THROWS( throw_bad_function_call(), boost::bad_function_call );
     return boost::report_errors();
 }
-

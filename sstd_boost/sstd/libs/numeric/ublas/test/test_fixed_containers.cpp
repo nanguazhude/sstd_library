@@ -307,4 +307,3 @@ int main () {
 
 }
 #endif // BOOST_UBLAS_CPP_GE_2011
-

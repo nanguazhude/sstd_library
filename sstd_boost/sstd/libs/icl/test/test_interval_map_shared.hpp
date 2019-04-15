@@ -1516,4 +1516,3 @@ void interval_map_move_4_discrete_types()
 
 
 #endif // LIBS_ICL_TEST_TEST_INTERVAL_MAP_SHARED_HPP_JOFA_081005
-

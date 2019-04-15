@@ -57,4 +57,3 @@ int main() {
         hana::experimental::types<x<0>, x<9>, x<2>>{}
     )));
 }
-

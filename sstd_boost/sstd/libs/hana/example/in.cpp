@@ -12,4 +12,3 @@ namespace hana = boost::hana;
 BOOST_HANA_CONSTANT_CHECK(hana::int_c<2> ^hana::in^ hana::make_tuple(2, hana::int_c<2>, hana::int_c<3>, 'x'));
 
 int main() { }
-

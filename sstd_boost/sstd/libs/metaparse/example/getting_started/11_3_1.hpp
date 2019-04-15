@@ -35,5 +35,3 @@ using exp_parser21 = build_parser<plus_exp4>;
 //    exp_parser21::apply<BOOST_METAPARSE_STRING("0+(1+2")>::type
 
 #endif
-
-

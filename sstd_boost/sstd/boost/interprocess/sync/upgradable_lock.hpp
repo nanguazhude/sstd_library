@@ -311,4 +311,3 @@ class upgradable_lock
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif // BOOST_INTERPROCESS_UPGRADABLE_LOCK_HPP
-

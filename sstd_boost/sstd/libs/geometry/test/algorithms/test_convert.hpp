@@ -75,4 +75,3 @@ void test_mixed_reversible_result(std::string const& wkt1, std::string const& wk
 }
 
 #endif
-

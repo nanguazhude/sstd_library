@@ -575,4 +575,3 @@ void CheckSingular()
         position_iterator2<test_impl::check_singular_iterator, file_position_without_column>
     >();
 }
-

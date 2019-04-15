@@ -204,4 +204,3 @@ inline void test_using_reverse(CombinedIterator first,
 
 
 #endif // GEOMETRY_TEST_ITERATORS_TEST_ITERATOR_COMMON_HPP
-

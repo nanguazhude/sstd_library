@@ -17,4 +17,3 @@
 BOOST_UNITS_DEFINE_BASE_UNIT_WITH_CONVERSIONS(metric, hectare, "hectare", "ha", 1.0e4, si::area, 12);
 
 #endif // BOOST_UNIT_SYSTEMS_METRIC_HECTARE_HPP_INCLUDED
-

@@ -483,4 +483,3 @@ int main()
     segment_concept_test12();
     return boost::report_errors();
 }
-

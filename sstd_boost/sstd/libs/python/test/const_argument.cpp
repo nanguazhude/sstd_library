@@ -26,4 +26,3 @@ BOOST_PYTHON_MODULE( const_argument_ext )
 {
     def( "accept_const_arg", accept_const_arg );
 }
-

@@ -100,5 +100,3 @@ BOOST_AUTO_TEST_CASE(emtpy_out, *boost::unit_test::timeout(2))
     BOOST_REQUIRE(fut.valid());
     BOOST_CHECK_EQUAL(fut.get(), "");
 }
-
-

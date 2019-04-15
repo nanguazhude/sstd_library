@@ -53,4 +53,3 @@ BOOST_PYTHON_MODULE(register_ptr)
     def("Call", &Call);
     def("Fail", &Fail);
 }
-

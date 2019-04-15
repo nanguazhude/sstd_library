@@ -32,4 +32,3 @@ int main()
     boost::arg<1> a1 = ph<1>();
     (void)a1;
 }
-

@@ -599,4 +599,3 @@ namespace boost { namespace graph_detail {
 #undef BOOST_PENDING_FWD_VALUE
 
 #endif // BOOST_GRAPH_DETAIL_CONTAINER_TRAITS_H
-

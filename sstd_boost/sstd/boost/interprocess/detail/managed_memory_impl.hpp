@@ -772,5 +772,3 @@ class create_open_func
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_DETAIL_MANAGED_MEMORY_IMPL_HPP
-
-

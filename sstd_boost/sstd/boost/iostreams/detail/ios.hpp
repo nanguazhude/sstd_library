@@ -63,4 +63,3 @@ private:
 } } } // End namespace failure, iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_IOS_HPP_INCLUDED
-

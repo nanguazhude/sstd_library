@@ -40,4 +40,3 @@ using ::SwitchToThread;
 
 #endif // BOOST_WINAPI_PARTITION_APP_SYSTEM
 #endif // BOOST_WINAPI_THREAD_HPP_INCLUDED_
-

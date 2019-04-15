@@ -354,4 +354,3 @@ get_property(const Graph& g) {
 } // namespace boost
 
 #endif /* BOOST_GRAPH_PROPERTIES_HPP */
-

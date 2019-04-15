@@ -17,7 +17,3 @@ struct StringInitializable
 // Test that accessing an associated type will actually exercise usage
 // requirements
 typedef StringInitializable<int>::associated tee;
-
-
-
-

@@ -22,4 +22,3 @@ template<class... T> struct mp_list
 } // namespace boost
 
 #endif // #ifndef BOOST_MP11_DETAIL_MP_LIST_HPP_INCLUDED
-

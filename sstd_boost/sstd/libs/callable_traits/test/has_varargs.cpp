@@ -212,4 +212,3 @@ int main() {
     assert_not_has_varargs<void(&)()>();
     assert_has_varargs<void(&)(...)>();
 }
-

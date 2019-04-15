@@ -347,4 +347,3 @@ struct less_impl<boost::units::detail::static_rational_tag, boost::units::detail
 } // namespace boost
 
 #endif // BOOST_UNITS_STATIC_RATIONAL_HPP
-

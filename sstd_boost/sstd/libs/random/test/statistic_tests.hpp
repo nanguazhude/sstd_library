@@ -706,5 +706,3 @@ ks_experiment_generator(const Experiment & e, Generator & gen,
 
 
 #endif /* STATISTIC_TESTS_HPP */
-
-

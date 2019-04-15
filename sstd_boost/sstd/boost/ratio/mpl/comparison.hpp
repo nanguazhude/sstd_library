@@ -17,4 +17,3 @@
 #include <sstd/boost/ratio/mpl/greater_equal.hpp>
 
 #endif  // BOOST_RATIO_MPL_COMPARISON_HPP
-

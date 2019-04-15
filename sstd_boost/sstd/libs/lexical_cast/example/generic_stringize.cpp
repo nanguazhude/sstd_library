@@ -60,7 +60,3 @@ int main() {
 }
 
 //] [/lexical_cast_stringize]
-
-
-
-

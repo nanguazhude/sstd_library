@@ -66,6 +66,3 @@ policy_eg_1.cpp
   errno = 33
 
 */
-
-
-

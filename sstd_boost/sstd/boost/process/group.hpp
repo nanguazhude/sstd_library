@@ -225,5 +225,3 @@ struct initializer_builder<group_tag>
 }
 }}
 #endif
-
-

@@ -26,4 +26,3 @@ BOOST_MPL_ASSERT((and_<true_type, true_type>));
 BOOST_MPL_ASSERT_NOT((and_<true_type, true_type, false_type>));
 BOOST_MPL_ASSERT((and_<true_type, true_type, true_type>));
 BOOST_MPL_ASSERT((and_<true_type, mpl::true_>));
-

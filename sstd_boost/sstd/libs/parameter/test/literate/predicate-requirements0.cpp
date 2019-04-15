@@ -100,5 +100,3 @@ int main()
     ::depth_first_search(g);
     ::depth_first_search(g, _root_vertex = (int)x);
 }
-
-

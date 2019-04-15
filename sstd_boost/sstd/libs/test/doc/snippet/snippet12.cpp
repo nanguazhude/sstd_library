@@ -62,4 +62,3 @@ __BOOST_AUTO_TEST_CASE__(my_test)
               "2 plus 2 is not 4 but " << add(2, 2));
 }
 //]
-

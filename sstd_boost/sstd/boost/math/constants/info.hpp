@@ -161,4 +161,3 @@ void print_info_on_type(std::ostream& os = std::cout BOOST_MATH_APPEND_EXPLICIT_
 }}} // namespaces
 
 #endif // BOOST_MATH_CONSTANTS_INFO_INCLUDED
-

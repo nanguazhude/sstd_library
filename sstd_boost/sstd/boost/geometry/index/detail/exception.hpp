@@ -85,4 +85,3 @@ inline void throw_out_of_range(const char * str)
 }}}} // namespace boost::geometry::index::detail
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_EXCEPTION_HPP
-

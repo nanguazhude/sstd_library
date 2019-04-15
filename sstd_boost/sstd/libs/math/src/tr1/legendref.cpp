@@ -15,6 +15,3 @@ extern "C" float BOOST_MATH_TR1_DECL boost_legendref BOOST_PREVENT_MACRO_SUBSTIT
 {
    return c_policies::legendre_p BOOST_PREVENT_MACRO_SUBSTITUTION(n, x);
 }
-
-
-

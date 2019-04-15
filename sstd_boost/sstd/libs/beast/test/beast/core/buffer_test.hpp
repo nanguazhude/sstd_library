@@ -105,4 +105,3 @@ size_rev_post(ConstBufferSequence const& buffers)
 } // boost
 
 #endif
-

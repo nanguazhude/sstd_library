@@ -47,4 +47,3 @@ typedef solid_angle_base_dimension::dimension_type    solid_angle_dimension;
 } // namespace boost
 
 #endif // BOOST_UNITS_SOLID_ANGLE_BASE_DIMENSION_HPP
-

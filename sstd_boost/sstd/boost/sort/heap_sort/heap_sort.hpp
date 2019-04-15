@@ -213,4 +213,3 @@ void heap_sort (Iter_t first, Iter_t last, Compare comp = Compare())
 //****************************************************************************
 //
 #endif
-

@@ -146,4 +146,3 @@ struct adams_moulton_call_algebra< 8 , Algebra , Operations >
 
 
 #endif // BOOST_NUMERIC_ODEINT_STEPPER_DETAIL_ADAMS_MOULTON_CALL_ALGEBRA_HPP_INCLUDED
-

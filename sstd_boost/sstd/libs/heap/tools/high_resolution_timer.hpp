@@ -205,5 +205,3 @@ namespace boost {
 #endif
 
 #endif  // !defined(BOOST_HIGH_RESOLUTION_TIMER_HPP)
-
-

@@ -305,4 +305,3 @@ void swap( symmetric_coroutine_yield< R > & l, symmetric_coroutine_yield< R > & 
 #endif
 
 #endif // BOOST_COROUTINES_DETAIL_SYMMETRIC_COROUTINE_YIELD_H
-

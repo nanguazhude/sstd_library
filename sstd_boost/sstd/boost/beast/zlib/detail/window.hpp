@@ -165,4 +165,3 @@ write(std::uint8_t const* in, std::size_t n)
 } // boost
 
 #endif
-

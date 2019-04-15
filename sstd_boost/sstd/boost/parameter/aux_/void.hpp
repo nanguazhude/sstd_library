@@ -26,5 +26,3 @@ namespace aux
 }} // namespace boost::parameter
 
 #endif // BOOST_PARAMETER_VOID_050329_HPP
-
-

@@ -187,4 +187,3 @@ arity_helper(type_wrapper< F<BOOST_MPL_PP_PARAMS(i_, T)> >, arity_tag<i_>);
 
 #undef i_
 #endif // BOOST_PP_IS_ITERATING
-

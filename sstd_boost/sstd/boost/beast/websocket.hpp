@@ -20,4 +20,3 @@
 #include <sstd/boost/beast/websocket/teardown.hpp>
 
 #endif
-

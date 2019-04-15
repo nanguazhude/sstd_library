@@ -365,4 +365,3 @@ namespace boost { namespace hana {
 }} // end namespace boost::hana
 
 #endif // !BOOST_HANA_TEST_LAWS_BASE_HPP
-

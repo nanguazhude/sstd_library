@@ -500,4 +500,3 @@ constexpr boost::process::detail::env_ env{};
 }}
 
 #endif /* INCLUDE_BOOST_PROCESS_DETAIL_ENV_HPP_ */
-

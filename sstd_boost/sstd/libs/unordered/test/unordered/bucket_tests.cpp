@@ -92,4 +92,3 @@ namespace bucket_tests {
 }
 
 RUN_TESTS()
-

@@ -295,4 +295,3 @@ struct state_wrapper< boost::numeric::ublas::permutation_matrix< T , A > > // wi
 
 
 #endif // BOOST_NUMERIC_ODEINT_UTIL_UBLAS_WRAPPER_HPP_INCLUDED
-

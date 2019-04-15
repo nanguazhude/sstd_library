@@ -190,4 +190,3 @@ struct is_device_iterator<
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ITERATOR_PERMUTATION_ITERATOR_HPP
-

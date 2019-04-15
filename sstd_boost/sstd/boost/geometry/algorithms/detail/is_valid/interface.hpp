@@ -270,4 +270,3 @@ inline bool is_valid(Geometry const& geometry, std::string& message)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_IS_VALID_INTERFACE_HPP
-

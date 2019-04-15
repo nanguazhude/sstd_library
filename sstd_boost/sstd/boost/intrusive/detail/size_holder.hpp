@@ -89,4 +89,3 @@ struct size_holder<false, SizeType, Tag>
 }  //namespace boost{
 
 #endif //BOOST_INTRUSIVE_DETAIL_SIZE_HOLDER_HPP
-

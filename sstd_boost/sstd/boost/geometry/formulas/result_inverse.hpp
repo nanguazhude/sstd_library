@@ -37,4 +37,3 @@ struct result_inverse
 
 
 #endif // BOOST_GEOMETRY_FORMULAS_RESULT_INVERSE_HPP
-

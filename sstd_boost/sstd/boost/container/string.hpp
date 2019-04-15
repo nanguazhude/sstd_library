@@ -3502,4 +3502,3 @@ struct has_trivial_destructor_after_move<boost::container::basic_string<C, T, Al
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif // BOOST_CONTAINER_STRING_HPP
-

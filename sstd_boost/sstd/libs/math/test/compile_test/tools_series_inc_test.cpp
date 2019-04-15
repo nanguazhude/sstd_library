@@ -32,5 +32,3 @@ void compile_and_link_test()
    check_result<Functor::result_type>(boost::math::tools::kahan_sum_series<Functor>(func, i));
    check_result<Functor::result_type>(boost::math::tools::kahan_sum_series<Functor>(func, i, uim));
 }
-
-

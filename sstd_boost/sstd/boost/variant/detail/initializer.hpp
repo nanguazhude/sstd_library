@@ -247,4 +247,3 @@ public: // static functions
 #endif // BOOST_NO_USING_DECLARATION_OVERLOADS_FROM_TYPENAME_BASE workaround
 
 #endif // BOOST_VARIANT_DETAIL_INITIALIZER_HPP
-

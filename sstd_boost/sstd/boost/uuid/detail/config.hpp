@@ -72,4 +72,3 @@
 #endif // !defined(BOOST_UUID_NO_SIMD)
 
 #endif // BOOST_UUID_DETAIL_CONFIG_HPP_INCLUDED_
-

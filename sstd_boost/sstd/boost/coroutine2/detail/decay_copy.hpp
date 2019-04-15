@@ -34,4 +34,3 @@ decay_copy( T && t) {
 #endif
 
 #endif // BOOST_COROUTINES2_DETAIL_DECAY_COPY_H
-

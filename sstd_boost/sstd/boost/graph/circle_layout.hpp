@@ -56,4 +56,3 @@ namespace boost {
 } // end namespace boost
 
 #endif // BOOST_GRAPH_CIRCLE_LAYOUT_HPP
-

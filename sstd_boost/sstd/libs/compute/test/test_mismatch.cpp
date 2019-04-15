@@ -62,4 +62,3 @@ BOOST_AUTO_TEST_CASE(mismatch_different_range_sizes)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

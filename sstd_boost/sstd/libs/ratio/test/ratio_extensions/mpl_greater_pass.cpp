@@ -61,4 +61,3 @@ void test()
     BOOST_RATIO_STATIC_ASSERT((boost::mpl::greater<R1, R2>::value), NOTHING, ());
     }
 }
-

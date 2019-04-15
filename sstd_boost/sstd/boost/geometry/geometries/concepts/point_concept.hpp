@@ -190,4 +190,3 @@ public:
 }}} // namespace boost::geometry::concepts
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_CONCEPTS_POINT_CONCEPT_HPP
-

@@ -188,4 +188,3 @@ int main() {
         CT_ASSERT(std::is_same<f,    TRAIT(remove_varargs, va_f)>{});
     }
 }
-

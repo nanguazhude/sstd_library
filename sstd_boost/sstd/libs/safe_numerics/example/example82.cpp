@@ -20,5 +20,3 @@ int main(int, const char *[]){
     std::cout << "x + y = " << safe_format(x + y) << std::endl;
     return 0;
 }
-
-

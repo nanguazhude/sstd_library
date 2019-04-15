@@ -125,5 +125,3 @@ struct generator : karma::grammar<Iterator, utree()>
 } // sexpr
 
 #endif // BOOST_SPIRIT_UTREE_EXAMPLE_SEXPR_GENERATOR_HPP
-
-

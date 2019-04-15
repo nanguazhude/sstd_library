@@ -36,4 +36,3 @@
 //H 03: preprocessed pragma body
 //H 10: t_2_007.cpp(25): #pragma
 //H 10: t_2_007.cpp(28): #pragma
-

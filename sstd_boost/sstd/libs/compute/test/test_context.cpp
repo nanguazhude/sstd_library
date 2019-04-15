@@ -65,4 +65,3 @@ BOOST_AUTO_TEST_CASE(multiple_devices)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

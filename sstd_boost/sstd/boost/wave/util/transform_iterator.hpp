@@ -87,4 +87,3 @@ namespace impl {
 #endif
 
 #endif // !defined(TRANSFORM_ITERATOR_HPP_D492C659_88C7_4258_8C42_192F9AE80EC0_INCLUDED)
-

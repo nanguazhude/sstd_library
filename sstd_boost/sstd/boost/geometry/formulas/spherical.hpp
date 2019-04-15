@@ -281,4 +281,3 @@ inline result_direct<CT> spherical_direct(CT const& lon1,
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_FORMULAS_SPHERICAL_HPP
-

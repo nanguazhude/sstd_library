@@ -403,4 +403,3 @@ public:
 } // namespace boost
 
 #endif
-

@@ -31,4 +31,3 @@ namespace boost { namespace spirit { namespace x3 { namespace traits
 }}}}
 
 #endif
-

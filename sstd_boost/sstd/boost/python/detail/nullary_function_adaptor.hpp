@@ -44,4 +44,3 @@ struct nullary_function_adaptor
 }}} // namespace boost::python::detail
 
 #endif // NULLARY_FUNCTION_ADAPTOR_DWA2003824_HPP
-

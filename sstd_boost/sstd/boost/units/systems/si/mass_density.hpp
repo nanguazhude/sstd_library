@@ -34,4 +34,3 @@ BOOST_UNITS_STATIC_CONSTANT(kilogrammes_per_cubic_metre,mass_density);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_MASS_DENSITY_HPP
-

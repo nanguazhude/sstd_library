@@ -298,5 +298,3 @@ void itv_quantifier_check_length_complementarity_4_bicremental_types()
 
 
 #endif // __TEST_INTERVAL_QUANTIFIER_SHARED_H_JOFA_090119__
-
-

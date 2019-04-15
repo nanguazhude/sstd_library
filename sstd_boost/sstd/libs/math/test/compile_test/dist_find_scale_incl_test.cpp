@@ -59,5 +59,3 @@ void compile_and_link_test()
    check_result<double>(boost::math::find_scale<test_distribution<double> >(boost::math::complement(d, d, d)));
    check_result<long double>(boost::math::find_scale<test_distribution<long double> >(boost::math::complement(l, l, l)));
 }
-
-

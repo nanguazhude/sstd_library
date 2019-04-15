@@ -35,4 +35,3 @@ struct fold_op
 }}}
 
 #endif // BOOST_MPL_AUX_FOLD_OP_HPP_INCLUDED
-

@@ -30,6 +30,3 @@ void ActNode::grad_reverse_1_init_adj()
 }
 
 }
-
-
-

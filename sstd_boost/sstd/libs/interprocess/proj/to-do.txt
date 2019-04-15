@@ -263,4 +263,3 @@ void * calloc(size_t n, size_t lb)
 +    if ((lb | n) > GC_SQRT_SIZE_MAX /* fast initial test */
 +        && lb && n > GC_SIZE_MAX / lb)
        return NULL;
-

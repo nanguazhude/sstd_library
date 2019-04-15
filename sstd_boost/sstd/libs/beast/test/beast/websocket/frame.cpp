@@ -76,4 +76,3 @@ BEAST_DEFINE_TESTSUITE(beast,websocket,frame);
 } // websocket
 } // beast
 } // boost
-

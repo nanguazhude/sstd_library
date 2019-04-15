@@ -308,4 +308,3 @@ private:
 
 } } // end namespace boost::graph
 #endif
-

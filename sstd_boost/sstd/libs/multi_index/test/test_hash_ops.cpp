@@ -116,4 +116,3 @@ void test_hash_ops()
   hc3.reserve((hash_container::size_type)(3.0f*hc3.max_load_factor()*bc3));
   BOOST_TEST(hc3.bucket_count()>bc3);
 }
-

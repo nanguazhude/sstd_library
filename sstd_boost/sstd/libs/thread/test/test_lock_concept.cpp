@@ -597,5 +597,3 @@ BOOST_AUTO_TEST_CASE(test_shared_lock)
 //
 //    return test;
 //}
-
-

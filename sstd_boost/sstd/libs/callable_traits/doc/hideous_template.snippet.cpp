@@ -55,4 +55,3 @@ template<class Return, class... Args> struct foo<Return(Args..., ...) const vola
 template<class Return, class... Args> struct foo<Return(Args..., ...) const volatile && noexcept> {};
 
 //]
-

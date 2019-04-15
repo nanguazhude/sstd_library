@@ -371,4 +371,3 @@ int test_main(int, char* [])
 //    test_invalid<true, bg::model::point<long double, 2, bg::cs::cartesian> >();
     return 0;
 }
-

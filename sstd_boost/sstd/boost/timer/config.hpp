@@ -81,5 +81,3 @@
 #endif  // auto-linking disabled
 
 #endif // BOOST_TIMER_CONFIG_HPP
-
-

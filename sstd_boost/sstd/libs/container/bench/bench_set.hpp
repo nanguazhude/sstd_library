@@ -483,4 +483,3 @@ void launch_tests(const char *BoostContName, const char *StdContName)
 }
 
 #endif   //#ifndef BOOST_CONTAINER_BENCH_BENCH_SET_HPP
-

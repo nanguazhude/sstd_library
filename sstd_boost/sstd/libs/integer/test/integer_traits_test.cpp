@@ -98,5 +98,3 @@ int main(int, char*[])
   // warning here if "return 0;" is omitted.
   return boost::report_errors();
 }
-
-

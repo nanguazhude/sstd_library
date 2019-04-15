@@ -23,5 +23,3 @@ template <size_t Argument>
 struct power2_{ enum { value = 1 << Argument }; };
 
 } // namespace mini
-
-

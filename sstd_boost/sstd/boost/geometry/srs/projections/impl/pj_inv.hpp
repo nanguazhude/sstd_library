@@ -80,4 +80,3 @@ inline void pj_inv(PRJ const& prj, PAR const& par, XY const& xy, LL& ll)
 }}} // namespace boost::geometry::projections
 
 #endif
-

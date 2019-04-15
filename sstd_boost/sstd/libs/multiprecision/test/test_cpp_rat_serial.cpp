@@ -169,7 +169,3 @@ int main()
    test<cpp_rational>();
    return boost::report_errors();
 }
-
-
-
-

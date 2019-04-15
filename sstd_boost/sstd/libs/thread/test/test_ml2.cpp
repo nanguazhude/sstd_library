@@ -56,6 +56,3 @@ int main()
   assert( value == &TRUC );
   return 0;
 }
-
-
-

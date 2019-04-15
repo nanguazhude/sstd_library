@@ -77,4 +77,3 @@ struct prefixing_callbacks
 };
 
 #endif
-

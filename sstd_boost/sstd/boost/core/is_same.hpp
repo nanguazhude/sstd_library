@@ -38,4 +38,3 @@ template< class T > struct is_same< T, T >
 } // namespace boost
 
 #endif // #ifndef BOOST_CORE_IS_SAME_HPP_INCLUDED
-

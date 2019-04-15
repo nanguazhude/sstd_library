@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_NUMERICS
 #include <sstd/boost/spirit/home/classic/core/primitives/numerics.hpp>
 #endif
-

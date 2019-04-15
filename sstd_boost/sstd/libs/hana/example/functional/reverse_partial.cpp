@@ -12,4 +12,3 @@ static_assert(half(4) == 2, "");
 static_assert(half(8) == 4, "");
 
 int main() { }
-

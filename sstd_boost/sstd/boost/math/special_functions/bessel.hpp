@@ -758,6 +758,3 @@ inline OutputIterator cyl_neumann_zero(T v,
 } // namespace boost
 
 #endif // BOOST_MATH_BESSEL_HPP
-
-
-

@@ -39,4 +39,3 @@ struct env_init<char> : handler_base_ext
 
 
 #endif /* BOOST_PROCESS_DETAIL_WINDOWS_ENV_INIT_HPP_ */
-

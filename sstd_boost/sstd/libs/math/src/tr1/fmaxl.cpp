@@ -19,6 +19,3 @@ extern "C" long double BOOST_MATH_TR1_DECL boost_fmaxl BOOST_PREVENT_MACRO_SUBST
       return x;
    return (std::max)(x, y);
 }
-
-
-

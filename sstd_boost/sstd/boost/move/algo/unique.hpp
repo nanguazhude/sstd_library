@@ -53,4 +53,3 @@ ForwardIterator unique(ForwardIterator first, ForwardIterator last, BinaryPredic
 #include <sstd/boost/move/detail/config_end.hpp>
 
 #endif   //#define BOOST_MOVE_ALGO_UNIQUE_HPP
-

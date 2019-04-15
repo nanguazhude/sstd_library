@@ -51,4 +51,3 @@ inline boost::uint64_t high_res_clock()
 #endif
 
 #endif // HIGH_RES_CLOCK_HPP
-

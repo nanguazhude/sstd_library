@@ -95,4 +95,3 @@ struct is_invocable_r:std::integral_constant<
 } /* namespace boost */
 
 #endif
-

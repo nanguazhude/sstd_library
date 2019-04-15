@@ -7,5 +7,3 @@
 
 #include "nova.hpp"
 #include "scope_guard_seq.cpp"
-
-

@@ -26,4 +26,3 @@
 typedef boost::chrono::duration<long, boost::ratio<3, 2> > D;
 BOOST_CHRONO_STATIC_ASSERT((boost::is_same<D::rep, long>::value), NOTHING, ());
 BOOST_CHRONO_STATIC_ASSERT((boost::is_same<D::period, boost::ratio<3, 2> >::value), NOTHING, ());
-

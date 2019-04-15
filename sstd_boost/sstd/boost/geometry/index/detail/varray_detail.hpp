@@ -758,4 +758,3 @@ private:
 }}}}} // namespace boost::geometry::index::detail::varray_detail
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_VARRAY_DETAIL_HPP
-

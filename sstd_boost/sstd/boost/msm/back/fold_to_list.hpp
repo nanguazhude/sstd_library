@@ -74,5 +74,3 @@ define_states_creation<> const states_ = {{{}}};
 }}}
 
 #endif //BOOST_MSM_BACK_FOLD_TO_LIST_H
-
-

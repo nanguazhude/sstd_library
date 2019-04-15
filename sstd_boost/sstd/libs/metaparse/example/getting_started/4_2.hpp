@@ -17,5 +17,3 @@ using exp_parser5 = build_parser<sequence<int_token, plus_token, int_token>>;
 //    exp_parser5::apply<BOOST_METAPARSE_STRING("11 + 2")>::type
 
 #endif
-
-

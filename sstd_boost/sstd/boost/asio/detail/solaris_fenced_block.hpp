@@ -62,4 +62,3 @@ public:
 #endif // defined(__sun)
 
 #endif // BOOST_ASIO_DETAIL_SOLARIS_FENCED_BLOCK_HPP
-

@@ -93,4 +93,3 @@ template struct test_blas_1<ublas::vector<std::complex<mp_test_type> >, 3>;
 template struct test_blas_1<ublas::vector<std::complex<double> >, 3>;
 #endif
 #endif
-

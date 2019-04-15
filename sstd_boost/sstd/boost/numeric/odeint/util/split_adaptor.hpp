@@ -100,4 +100,3 @@ operator|( const RandomAccessRange& rng, const split& f )
 }
 
 #endif
-

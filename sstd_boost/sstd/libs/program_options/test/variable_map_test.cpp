@@ -287,5 +287,3 @@ int main(int, char* [])
     test_multiple_assignments_with_different_option_description();
     return 0;
 }
-
-

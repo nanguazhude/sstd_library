@@ -313,4 +313,3 @@ BOOST_PYTHON_MODULE(gaussian) {
         .def("__call__", bn::binary_ufunc<bivariate_gaussian,double,double,double>::make())
         ;
 }
-

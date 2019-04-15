@@ -105,4 +105,3 @@ struct version<T >                                                     \
 }
 
 #endif // BOOST_SERIALIZATION_VERSION_HPP
-

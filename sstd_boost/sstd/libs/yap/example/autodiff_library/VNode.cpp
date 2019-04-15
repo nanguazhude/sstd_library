@@ -147,4 +147,3 @@ TYPE VNode::getType()
 	return VNode_Type;
 }
 }
-

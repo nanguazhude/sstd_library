@@ -493,4 +493,3 @@ bool test_named_allocation()
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_NAMED_ALLOCATION_TEST_TEMPLATE_HEADER
-

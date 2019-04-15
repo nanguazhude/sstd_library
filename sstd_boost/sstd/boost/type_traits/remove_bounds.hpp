@@ -26,4 +26,3 @@ template <class T> using remove_bounds_t = typename remove_bounds<T>::type;
 } // namespace boost
 
 #endif // BOOST_TT_REMOVE_BOUNDS_HPP_INCLUDED
-

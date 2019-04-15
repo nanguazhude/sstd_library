@@ -78,5 +78,3 @@ int main()
     if (8 <not_in> numbers) std::cout << "No" << std::endl;
 
 }
-
-

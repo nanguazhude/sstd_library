@@ -66,4 +66,3 @@ inline const RandomAccessRange& stable_sort(const RandomAccessRange& rng, Binary
 } // namespace boost
 
 #endif // include guard
-

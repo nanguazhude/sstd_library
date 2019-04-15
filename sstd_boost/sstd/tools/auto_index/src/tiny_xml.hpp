@@ -78,7 +78,3 @@ namespace boost
 }
 
 #endif  // BOOST_TINY_XML_H
-
-
-
-

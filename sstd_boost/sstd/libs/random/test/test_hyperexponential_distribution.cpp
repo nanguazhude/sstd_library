@@ -465,4 +465,3 @@ BOOST_AUTO_TEST_CASE( test_generation_float )
         BOOST_CHECK_GE(value_r_param, static_cast<result_type>(0));
     }
 }
-

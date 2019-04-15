@@ -105,4 +105,3 @@ struct function_object <T U::*, Base>
 }}} // namespace boost::callable_traits::detail
 
 #endif // #ifndef BOOST_CLBL_TRTS_DETAIL_FUNCTION_OBJECT_HPP
-

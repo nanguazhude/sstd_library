@@ -70,4 +70,3 @@ int main() {
     };
     hana::test::TestFoldable<hana::optional_tag>{eqs};
 }
-

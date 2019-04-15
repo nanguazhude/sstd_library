@@ -345,4 +345,3 @@ MPL_TEST_CASE()
     MPL_ASSERT_RELATION(size<little_set>::value, ==, 1);
     MPL_ASSERT_RELATION(size<little_set::type>::value, ==, 1);
 }
-

@@ -53,5 +53,3 @@ BOOST_METAPARSE_TEST_CASE(creating_very_long_string)
 #endif
 
 #endif
-
-

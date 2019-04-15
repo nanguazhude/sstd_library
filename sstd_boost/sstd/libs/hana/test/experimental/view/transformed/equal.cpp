@@ -48,4 +48,3 @@ int main() {
         container('0', '1', '2')
     )));
 }
-

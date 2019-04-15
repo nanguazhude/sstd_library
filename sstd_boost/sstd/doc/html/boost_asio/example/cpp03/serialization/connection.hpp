@@ -186,4 +186,3 @@ typedef boost::shared_ptr<connection> connection_ptr;
 } // namespace s11n_example
 
 #endif // SERIALIZATION_CONNECTION_HPP
-

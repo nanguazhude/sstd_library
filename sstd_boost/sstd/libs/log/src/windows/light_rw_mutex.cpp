@@ -198,4 +198,3 @@ BOOST_LOG_CLOSE_NAMESPACE // namespace log
 #endif // !defined(BOOST_LOG_LWRWMUTEX_USE_PTHREAD) && !defined(BOOST_LOG_LWRWMUTEX_USE_SRWLOCK)
 
 #endif // !defined(BOOST_LOG_NO_THREADS)
-

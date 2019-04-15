@@ -176,6 +176,3 @@ int main( int argc, char* argv[] )
     }
     return (a[0] != a1[0]) || (a[1] != a1[1]) || (a[2] != a1[2]);
 }
-
-
-

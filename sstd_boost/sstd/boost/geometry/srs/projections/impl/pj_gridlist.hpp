@@ -169,4 +169,3 @@ inline void pj_gridlist_from_nadgrids(Par const& defn, srs::projection_grids<Gri
 }}} // namespace boost::geometry::projections
 
 #endif // BOOST_GEOMETRY_SRS_PROJECTIONS_IMPL_PJ_GRIDLIST_HPP
-

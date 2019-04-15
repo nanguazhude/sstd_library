@@ -185,4 +185,3 @@ typedef wfiltering_stream<output>  filtering_wostream;
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp> // MSVC
 
 #endif // #ifndef BOOST_IOSTREAMS_FILTER_STREAM_HPP_INCLUDED
-

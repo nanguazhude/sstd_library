@@ -15,4 +15,3 @@ typedef std::wofstream test_ostream;
 typedef boost::archive::polymorphic_text_wiarchive test_iarchive;
 typedef std::wifstream test_istream;
 #endif
-

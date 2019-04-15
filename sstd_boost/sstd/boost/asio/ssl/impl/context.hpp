@@ -67,4 +67,3 @@ BOOST_ASIO_SYNC_OP_VOID context::set_password_callback(
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_SSL_IMPL_CONTEXT_HPP
-

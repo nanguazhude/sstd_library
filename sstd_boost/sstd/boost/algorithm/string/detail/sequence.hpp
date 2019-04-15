@@ -198,4 +198,3 @@ namespace boost {
 
 
 #endif  // BOOST_STRING_DETAIL_SEQUENCE_HPP
-

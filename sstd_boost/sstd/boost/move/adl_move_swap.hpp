@@ -270,4 +270,3 @@ void adl_move_iter_swap(ForwardIt1 a, ForwardIt2 b)
 }  //namespace boost{
 
 #endif   //#ifndef BOOST_MOVE_ADL_MOVE_SWAP_HPP
-

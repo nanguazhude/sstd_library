@@ -108,5 +108,3 @@ GC_API void * GC_calloc_explicitly_typed(size_t nelements,
 #endif
 
 #endif /* _GC_TYPED_H */
-
-

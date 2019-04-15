@@ -243,4 +243,3 @@ BOOST_AUTO_TEST_CASE(clear_empty,  *boost::unit_test::timeout(5))
     BOOST_CHECK_EQUAL(std::distance(env.cbegin(), env.cend()), 0u);
 
 }
-

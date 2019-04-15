@@ -494,7 +494,3 @@ inline void swap(compressed_pair<T1, T2>& x, compressed_pair<T1, T2>& y)
 } // boost
 
 #endif // BOOST_OB_COMPRESSED_PAIR_HPP
-
-
-
-

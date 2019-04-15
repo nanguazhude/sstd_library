@@ -132,4 +132,3 @@ struct range_type
 
 
 #endif // BOOST_GEOMETRY_VIEWS_DETAIL_RANGE_TYPE_HPP
-

@@ -101,13 +101,3 @@ TYPE_WITH_ALIGNMENT_TEST(a32)
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-
-

@@ -57,4 +57,3 @@ struct base_event
 }}
 
 #endif // BOOST_FSM_BASE_EVENT_INCLUDED
-

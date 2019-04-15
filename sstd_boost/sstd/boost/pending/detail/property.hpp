@@ -19,4 +19,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_DETAIL_PROPERTY_HPP
-

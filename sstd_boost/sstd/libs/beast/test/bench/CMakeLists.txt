@@ -12,4 +12,3 @@ add_subdirectory (parser)
 add_subdirectory (utf8_checker)
 add_subdirectory (wsload)
 add_subdirectory (zlib)
-

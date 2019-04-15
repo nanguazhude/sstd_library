@@ -143,5 +143,3 @@ int main(int, char *[]){
     std::cout << (rval ? "success!" : "failure") << std::endl;
     return rval ? EXIT_SUCCESS : EXIT_FAILURE;
 }
-
-

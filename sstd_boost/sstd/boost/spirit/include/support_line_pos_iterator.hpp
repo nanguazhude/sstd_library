@@ -17,4 +17,3 @@
 #include <sstd/boost/spirit/home/support/iterators/line_pos_iterator.hpp>
 
 #endif
-

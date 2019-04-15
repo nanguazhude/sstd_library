@@ -30,4 +30,3 @@ int main() {
         constexpr auto r2 = hana::sizeof_(x); (void)r2;
     }
 }
-

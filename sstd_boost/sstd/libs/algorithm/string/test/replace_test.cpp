@@ -319,4 +319,3 @@ BOOST_AUTO_TEST_CASE( test_main )
     collection_comp_test();
     dissect_format_test();
 }
-

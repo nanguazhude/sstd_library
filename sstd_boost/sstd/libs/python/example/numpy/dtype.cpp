@@ -47,4 +47,3 @@ int main(int argc, char **argv)
   np::ndarray new_array = np::zeros(shape,custom_dtype);
 
 }
-

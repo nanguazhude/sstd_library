@@ -38,4 +38,3 @@ namespace boost
 }
 
 #endif // BOOST_DEPRECATED_MACRO_CHECK_HPP
-

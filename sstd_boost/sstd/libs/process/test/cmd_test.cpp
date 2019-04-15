@@ -83,4 +83,3 @@ BOOST_AUTO_TEST_CASE(implicit)
         BOOST_TEST_MESSAGE(ec.message());
     BOOST_CHECK_EQUAL(ret, 21);
 }
-

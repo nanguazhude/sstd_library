@@ -37,4 +37,3 @@ int main() {
         hana::make<hana::string_tag>(hana::char_c<'a'>, hana::char_c<'b'>, hana::char_c<'c'>)
     ));
 }
-

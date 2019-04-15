@@ -370,4 +370,3 @@ namespace move_tests {
 }
 
 RUN_TESTS()
-

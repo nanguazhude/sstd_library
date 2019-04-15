@@ -52,5 +52,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_complete<foo0_t>::value, true);
 BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_complete<foo4_t>::value, true);
 
 TT_TEST_END
-
-

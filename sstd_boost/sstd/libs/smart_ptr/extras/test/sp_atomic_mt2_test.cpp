@@ -245,4 +245,3 @@ int main( int ac, char const * av[] )
     double ts = static_cast<double>( t ) / CLOCKS_PER_SEC;
     printf( "%.3f seconds, %.3f accesses per microsecond.\n", ts, m * k / ts / 1e+6 );
 }
-

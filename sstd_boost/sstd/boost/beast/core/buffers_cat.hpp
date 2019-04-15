@@ -117,4 +117,3 @@ buffers_cat(B1 const& b1, B2 const& b2, Bn const&... bn)
 #include <sstd/boost/beast/core/impl/buffers_cat.ipp>
 
 #endif
-

@@ -137,5 +137,3 @@ BOOST_AUTO_TEST_CASE( test_sym_difference_polygon_multipolygon )
          6,
          300);
 }
-
-

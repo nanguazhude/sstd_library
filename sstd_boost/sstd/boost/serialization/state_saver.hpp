@@ -94,4 +94,3 @@ public:
 } // boost
 
 #endif //BOOST_SERIALIZATION_STATE_SAVER_HPP
-

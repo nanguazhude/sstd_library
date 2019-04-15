@@ -61,4 +61,3 @@ inline instance_holder* instance_holder::next() const
 }} // namespace boost::python
 
 #endif // INSTANCE_HOLDER_DWA2002517_HPP
-

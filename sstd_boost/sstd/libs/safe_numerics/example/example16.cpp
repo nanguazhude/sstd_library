@@ -15,4 +15,3 @@ int main(){
     f(y);   // Also OK - checked implicit conversion to int
     return 0;
 }
-

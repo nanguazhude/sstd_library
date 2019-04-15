@@ -83,5 +83,3 @@ Statistical Distribution Explorer is distributed as a single Windows Installer p
 (The package cannot be run on other platforms at present but it should be possible to build an equivalent utility on any C/C++ platform if anyone would like to undertake this task.)
 
 Last revised: 15 Oct 2012
-
-

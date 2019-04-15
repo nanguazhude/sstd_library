@@ -11,5 +11,3 @@
 //    exp_parser19::apply<BOOST_METAPARSE_STRING("hello")>::type
 
 #endif
-
-

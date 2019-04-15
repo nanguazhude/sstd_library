@@ -267,4 +267,3 @@ struct is_radian< CoordinateSystem<degree> > : boost::false_type
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_CORE_CS_HPP
-

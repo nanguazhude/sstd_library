@@ -76,4 +76,3 @@ struct elf:sprite
 
 
 #endif
-

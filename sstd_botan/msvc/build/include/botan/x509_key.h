@@ -1,4 +1,4 @@
-/*
+﻿/*
 * X.509 Public Key
 * (C) 1999-2010 Jack Lloyd
 *

@@ -90,4 +90,3 @@ template <> struct is_nothrow_move_assignable<void volatile> : public false_type
 } // namespace boost
 
 #endif // BOOST_TT_IS_NOTHROW_MOVE_ASSIGNABLE_HPP_INCLUDED
-

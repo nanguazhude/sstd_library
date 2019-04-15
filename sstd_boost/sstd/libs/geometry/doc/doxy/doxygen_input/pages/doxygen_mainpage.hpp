@@ -103,4 +103,3 @@ More examples are on the page \b Examples
 
 
 #endif // _DOXYGEN_MAINPAGE_HPP
-

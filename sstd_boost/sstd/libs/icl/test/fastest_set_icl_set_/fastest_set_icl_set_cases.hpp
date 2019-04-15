@@ -31,6 +31,3 @@ BOOST_AUTO_TEST_CASE
 {            itl_set_check_partial_invertive_monoid_plus_4_bicremental_types<discrete_type_4, interval_set>();}
 
 #endif // BOOST_ICL_FASTEST_SET_ICL_SET_CASES_HPP_JOFA_090703
-
-
-

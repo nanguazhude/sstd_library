@@ -22,4 +22,3 @@ struct unpack_sequence<foo>
 int main() {
     boost::hof::unpack(boost::hof::always(1))(foo{});
 }
-

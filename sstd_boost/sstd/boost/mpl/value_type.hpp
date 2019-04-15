@@ -40,4 +40,3 @@ BOOST_MPL_AUX_NA_SPEC(2, value_type)
 }}
 
 #endif // BOOST_MPL_VALUE_TYPE_HPP_INCLUDED
-

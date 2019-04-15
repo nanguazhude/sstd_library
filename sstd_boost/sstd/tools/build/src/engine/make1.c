@@ -1533,4 +1533,3 @@ static void cmd_sem_unlock( TARGET * t )
 }
 
 #endif
-

@@ -15,4 +15,3 @@
 #include <sstd/boost/gil/extension/toolbox/metafunctions.hpp>
 
 #endif
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * X.509 Certificate Extensions
 * (C) 1999-2007,2012 Jack Lloyd
 *

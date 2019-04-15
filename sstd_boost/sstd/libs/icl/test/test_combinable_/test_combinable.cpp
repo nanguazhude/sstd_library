@@ -514,4 +514,3 @@ BOOST_AUTO_TEST_CASE(test_icl_is_binary_combinable)
         false
         );
 }
-

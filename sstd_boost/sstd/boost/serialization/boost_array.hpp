@@ -31,4 +31,3 @@ void serialize(Archive& ar, boost::array<T,N>& a, const unsigned int /* version 
 
 
 #endif //BOOST_SERIALIZATION_BOOST_ARRAY_HPP
-

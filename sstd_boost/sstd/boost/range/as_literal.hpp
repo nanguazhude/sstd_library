@@ -168,4 +168,3 @@ namespace boost
 #endif // BOOST_NO_FUNCTION_TEMPLATE_ORDERING
 
 #endif
-

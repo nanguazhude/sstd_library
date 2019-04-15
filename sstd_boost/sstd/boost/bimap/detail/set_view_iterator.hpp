@@ -193,6 +193,3 @@ struct const_set_view_iterator : public const_set_view_iterator_base<CoreIterato
 } // namespace boost
 
 #endif // BOOST_BIMAP_DETAIL_MAP_VIEW_ITERATOR_HPP
-
-
-

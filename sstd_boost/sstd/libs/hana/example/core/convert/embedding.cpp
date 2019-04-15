@@ -34,4 +34,3 @@ int main() {
 
     static_assert(!hana::is_embedded<std::vector<float>, std::vector<int>>{}, "");
 }
-

@@ -13,4 +13,3 @@ void odr_no_uns2()
     BOOST_AUTO(v1, t1);
     BOOST_AUTO(v2, t2);
 }
-

@@ -22,5 +22,3 @@ TMP_ASSERT(BOOST_IDENTITY_TYPE((noncopyable<bool, true>)));
 //]
 
 int main() { return 0; }
-
-

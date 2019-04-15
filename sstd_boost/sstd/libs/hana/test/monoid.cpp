@@ -24,4 +24,3 @@ int main() {
     // plus
     static_assert(hana::plus(6, 4) == 6 + 4, "");
 }
-

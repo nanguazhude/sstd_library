@@ -33,5 +33,3 @@
 #if defined(BOOST_GCC) && (BOOST_GCC >= 4 * 10000 + 6 * 100)
 # pragma GCC diagnostic pop
 #endif
-
-

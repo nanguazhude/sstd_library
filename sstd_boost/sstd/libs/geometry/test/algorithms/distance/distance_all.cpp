@@ -18,4 +18,3 @@
 #include "distance_linear_linear.cpp"
 #include "distance_linear_areal.cpp"
 #include "distance_areal_areal.cpp"
-

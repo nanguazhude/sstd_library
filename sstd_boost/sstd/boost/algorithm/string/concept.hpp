@@ -81,4 +81,3 @@ namespace boost {
 
 
 #endif  // BOOST_STRING_CONCEPT_HPP
-

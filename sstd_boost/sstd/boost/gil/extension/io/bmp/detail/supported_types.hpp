@@ -134,4 +134,3 @@ struct is_write_supported< Pixel
 } // namespace boost
 
 #endif
-

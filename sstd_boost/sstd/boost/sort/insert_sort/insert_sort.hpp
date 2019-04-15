@@ -117,4 +117,3 @@ void insert_partial_sort (Iter_t first, Iter_t mid, Iter_t last,
 //****************************************************************************
 //
 #endif
-

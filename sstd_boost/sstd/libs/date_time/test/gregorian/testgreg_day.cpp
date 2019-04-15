@@ -88,5 +88,3 @@ main()
   test_day();
   return printTestStats();
 }
-
-

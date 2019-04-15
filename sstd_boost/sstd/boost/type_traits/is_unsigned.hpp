@@ -161,4 +161,3 @@ template <> struct is_unsigned<const volatile wchar_t> : public false_type{};
 } // namespace boost
 
 #endif // BOOST_TT_IS_MEMBER_FUNCTION_POINTER_HPP_INCLUDED
-

@@ -86,4 +86,3 @@ int main()
         std::cout << *it << ' ';
     std::cout << '\n';
 }
-

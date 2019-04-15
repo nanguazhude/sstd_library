@@ -1,4 +1,4 @@
-/*
+﻿/*
 * X.509 SIGNED Object
 * (C) 1999-2007 Jack Lloyd
 *

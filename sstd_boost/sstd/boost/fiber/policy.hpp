@@ -44,4 +44,3 @@ struct is_launch_policy< boost::fibers::launch > : public std::true_type {
 #endif
 
 #endif // BOOST_FIBERS_POLICY_H
-

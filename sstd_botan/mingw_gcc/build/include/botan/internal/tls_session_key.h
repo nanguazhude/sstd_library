@@ -1,4 +1,4 @@
-/*
+﻿/*
 * TLS Session Key
 * (C) 2004-2006,2011 Jack Lloyd
 *

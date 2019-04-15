@@ -20,4 +20,3 @@ void test()
     boost::chrono::duration<Rep> d;
     d = 5 * d;
 }
-

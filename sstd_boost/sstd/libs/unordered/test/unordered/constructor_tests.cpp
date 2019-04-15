@@ -444,4 +444,3 @@ namespace constructor_tests {
 }
 
 RUN_TESTS_QUIET()
-

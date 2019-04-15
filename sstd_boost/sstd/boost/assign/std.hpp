@@ -25,4 +25,3 @@
 #include <sstd/boost/assign/std/map.hpp>
 
 #endif
-

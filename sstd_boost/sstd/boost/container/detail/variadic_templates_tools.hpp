@@ -161,4 +161,3 @@ template<> struct build_number_seq<1> : index_tuple<0>{};
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_VARIADIC_TEMPLATES_TOOLS_HPP
-

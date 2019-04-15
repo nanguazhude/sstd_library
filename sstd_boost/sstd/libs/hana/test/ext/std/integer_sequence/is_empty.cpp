@@ -16,4 +16,3 @@ int main() {
     BOOST_HANA_CONSTANT_CHECK(hana::not_(hana::is_empty(std::index_sequence<0>{})));
     BOOST_HANA_CONSTANT_CHECK(hana::not_(hana::is_empty(std::index_sequence<1>{})));
 }
-

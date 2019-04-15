@@ -364,4 +364,3 @@ int main()
   test_swap_tweaking();
   return boost::report_errors();
 }
-

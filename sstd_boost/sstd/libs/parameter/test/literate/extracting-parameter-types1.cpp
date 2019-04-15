@@ -18,5 +18,3 @@ int main()
 {
     assert(six == 6);
 }
-
-

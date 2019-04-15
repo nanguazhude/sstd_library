@@ -12,4 +12,3 @@
 #include <sstd/boost/fusion/iterator/key_of.hpp>
 
 #endif
-

@@ -73,4 +73,3 @@ catch ( ... )
     std::cerr << "Found an unknown exception." << std::endl;
     return EXIT_FAILURE;
 }
-

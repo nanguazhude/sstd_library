@@ -31,5 +31,3 @@ int main( int, char *[] )
 {
    return boost_deduced_typename::test();
 }
-
-

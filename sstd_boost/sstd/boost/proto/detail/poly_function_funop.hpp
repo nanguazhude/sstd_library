@@ -72,4 +72,3 @@
     #undef N
 
 #endif // BOOST_PROTO_DONT_USE_PREPROCESSED_FILES
-

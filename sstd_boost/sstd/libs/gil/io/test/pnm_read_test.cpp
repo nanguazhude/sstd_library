@@ -144,4 +144,3 @@ BOOST_AUTO_TEST_CASE( read_reference_images_test )
 #endif // BOOST_GIL_IO_USE_PNM_TEST_SUITE_IMAGES
 
 BOOST_AUTO_TEST_SUITE_END()
-

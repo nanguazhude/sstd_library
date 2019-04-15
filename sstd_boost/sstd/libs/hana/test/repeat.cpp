@@ -43,4 +43,3 @@ int main() {
     constant<3> three{};
     hana::repeat(three, []{});
 }
-

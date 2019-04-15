@@ -120,5 +120,3 @@ struct quote5
 };
 
 }}
-
-

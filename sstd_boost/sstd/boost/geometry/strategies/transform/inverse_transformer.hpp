@@ -55,4 +55,3 @@ public :
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_TRANSFORM_INVERSE_TRANSFORMER_HPP
-

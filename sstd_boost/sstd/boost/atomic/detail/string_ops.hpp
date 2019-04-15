@@ -59,4 +59,3 @@
 #endif
 
 #endif // BOOST_ATOMIC_DETAIL_STRING_OPS_HPP_INCLUDED_
-

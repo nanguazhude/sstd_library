@@ -48,4 +48,3 @@ void compile_placeholders()
         (void)expr;
     }
 }
-

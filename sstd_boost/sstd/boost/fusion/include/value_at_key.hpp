@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/sequence/intrinsic/value_at_key.hpp>
 
 #endif
-

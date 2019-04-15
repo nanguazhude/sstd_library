@@ -75,4 +75,3 @@ no       *       non-empty             Error [2]
 [1] -- not clear what to do
 [2] -- can be made to work, but non-empty build-dir
 attribute in non-root Jamfile does not make much sense even without --build-dir
-

@@ -16,4 +16,3 @@
 #include <sstd/boost/spirit/home/qi/string/lit.hpp>
 
 #endif
-

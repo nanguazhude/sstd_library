@@ -39,5 +39,3 @@ typedef boost::wave::idllexer::lex_iterator<
 template struct boost::wave::grammars::predefined_macros_grammar_gen<lexer_type>;
 
 #endif // #if BOOST_WAVE_SEPARATE_GRAMMAR_INSTANTIATION != 0
-
-

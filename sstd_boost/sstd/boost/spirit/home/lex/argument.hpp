@@ -262,5 +262,3 @@ namespace boost { namespace spirit { namespace lex
 
 #undef SPIRIT_DECLARE_ARG
 #endif
-
-

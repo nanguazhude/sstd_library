@@ -20,5 +20,3 @@ int test_main(int, char*[])
     BOOST_CHECK(false); // suppressing warning about 'boost::unit_test::{anonymous}::unit_test_log' defined but not used
     return 0;
 }
-
-

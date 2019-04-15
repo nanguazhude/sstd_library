@@ -47,4 +47,3 @@ public:
 
 
 #endif // BOOST_EXTENT_RANGE_RG071801_HPP
-

@@ -556,4 +556,3 @@ import_class(smart_library & lib, const std::string & alias_name, std::size_t si
 
 
 #endif /* BOOST_DLL_IMPORT_CLASS_HPP_ */
-

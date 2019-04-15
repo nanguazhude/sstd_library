@@ -49,5 +49,3 @@ BOOST_AUTO_TEST_CASE(single_ios, *boost::unit_test::timeout(6))
 
     BOOST_REQUIRE((p2 - p1) > std::chrono::seconds(1));
 }
-
-

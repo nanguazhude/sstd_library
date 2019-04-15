@@ -23,5 +23,3 @@ int main () {
             mr (i, j) = 3 * i + j;
     std::cout << mr << std::endl;
 }
-
-

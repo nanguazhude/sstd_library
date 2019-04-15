@@ -7,4 +7,3 @@
  */
 
 void test_comparison();
-

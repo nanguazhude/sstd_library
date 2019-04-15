@@ -129,4 +129,3 @@ typedef policy<
 BOOST_MATH_DECLARE_SPECIAL_FUNCTIONS(c_policy)
 
 }
-

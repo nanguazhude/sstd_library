@@ -63,4 +63,3 @@ int main()
     visitor v;
     visit_each(v, bind<int>(bind(f, ref(x), _1, 42), ref(y)), 0);
 }
-

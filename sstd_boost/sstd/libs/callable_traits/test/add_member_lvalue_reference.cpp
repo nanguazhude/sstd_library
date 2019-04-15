@@ -203,5 +203,3 @@ int main() {
 }
 
 #endif //#ifdef BOOST_CLBL_TRTS_DISABLE_REFERENCE_QUALIFIERS
-
-

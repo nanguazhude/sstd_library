@@ -67,4 +67,3 @@ struct erase_impl
 }}
 
 #endif // BOOST_MPL_AUX_ERASE_IMPL_HPP_INCLUDED
-

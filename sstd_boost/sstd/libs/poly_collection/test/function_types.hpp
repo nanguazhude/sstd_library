@@ -142,4 +142,3 @@ struct to_int
 } /* namespace function_types */
 
 #endif
-

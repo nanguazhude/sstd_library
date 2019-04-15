@@ -50,5 +50,3 @@ struct EndInterruptFlag
 
 } } // boost::msm
 #endif //BOOST_MSM_ROW_TAGS_H
-
-

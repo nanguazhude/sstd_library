@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/view/repetitive_view.hpp>
 
 #endif
-

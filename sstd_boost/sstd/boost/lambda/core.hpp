@@ -79,4 +79,3 @@ namespace {
 
 
 #endif //BOOST_LAMBDA_CORE_HPP
-

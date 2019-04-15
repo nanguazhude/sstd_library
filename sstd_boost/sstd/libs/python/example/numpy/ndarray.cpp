@@ -67,6 +67,3 @@ int main(int argc, char **argv)
   std::cout << "Selective multidimensional array :: "<<std::endl << p::extract < char const * > (p::str(mul_data_ex)) << std::endl ;
 
 }
-
-
-

@@ -319,4 +319,3 @@ struct point_type<geometry::strategy::simplify::detail::douglas_peucker_point<P>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGY_AGNOSTIC_SIMPLIFY_DOUGLAS_PEUCKER_HPP
-

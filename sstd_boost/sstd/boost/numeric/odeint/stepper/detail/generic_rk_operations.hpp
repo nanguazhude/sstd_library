@@ -250,4 +250,3 @@ struct generic_rk_scale_sum_err< 13 , Operations , Fac , Time > : public Operati
 
 
 #endif // BOOST_NUMERIC_ODEINT_STEPPER_DETAIL_GENERIC_RK_OPERATIONS_HPP_INCLUDED
-

@@ -60,4 +60,3 @@ namespace boost_ex
 } // namespace boost_ex
 
 #endif
-

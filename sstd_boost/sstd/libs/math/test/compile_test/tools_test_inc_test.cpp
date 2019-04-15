@@ -33,5 +33,3 @@ void compile_and_link_test()
       (boost::math::tools::test<A, F1, F2>(a, f1, f2));
 
 }
-
-

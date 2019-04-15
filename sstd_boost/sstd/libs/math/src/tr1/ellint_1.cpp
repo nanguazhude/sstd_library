@@ -15,6 +15,3 @@ extern "C" double BOOST_MATH_TR1_DECL boost_ellint_1 BOOST_PREVENT_MACRO_SUBSTIT
 {
    return c_policies::ellint_1 BOOST_PREVENT_MACRO_SUBSTITUTION(k, phi);
 }
-
-
-

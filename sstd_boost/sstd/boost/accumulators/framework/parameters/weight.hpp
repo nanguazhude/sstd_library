@@ -21,4 +21,3 @@ BOOST_ACCUMULATORS_IGNORE_GLOBAL(weight)
 }} // namespace boost::accumulators
 
 #endif
-

@@ -1001,4 +1001,3 @@ swap(
 #include <sstd/boost/beast/http/impl/message.ipp>
 
 #endif
-

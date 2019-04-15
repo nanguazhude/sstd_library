@@ -246,4 +246,3 @@ bool posne(const T& x, const interval<T, Policies>& y)
 } //namespace boost
 
 #endif // BOOST_NUMERIC_INTERVAL_COMPARE_EXPLICIT_HPP
-

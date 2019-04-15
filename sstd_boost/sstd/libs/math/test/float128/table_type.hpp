@@ -10,5 +10,3 @@
 #define SC_(x) BOOST_FLOATMAX_C(x)
 
 #endif
-
-

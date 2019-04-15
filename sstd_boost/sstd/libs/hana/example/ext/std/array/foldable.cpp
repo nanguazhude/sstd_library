@@ -19,4 +19,3 @@ int main() {
 
     BOOST_HANA_RUNTIME_CHECK(b == std::array<int, 5>{{10, 11, 12, 13, 14}});
 }
-

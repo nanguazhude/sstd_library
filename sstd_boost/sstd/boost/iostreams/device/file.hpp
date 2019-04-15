@@ -189,4 +189,3 @@ bool basic_file<Ch>::flush()
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp> // MSVC
 
 #endif // #ifndef BOOST_IOSTREAMS_FILE_HPP_INCLUDED
-

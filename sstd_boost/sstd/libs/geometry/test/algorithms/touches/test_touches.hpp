@@ -140,4 +140,3 @@ void test_self_touches(std::string const& wkt, bool expected)
 
 
 #endif
-

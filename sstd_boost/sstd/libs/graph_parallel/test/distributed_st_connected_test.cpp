@@ -83,4 +83,3 @@ int test_main(int argc, char* argv[])
   test_distributed_st_connected();
   return 0;
 }
-

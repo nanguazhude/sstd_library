@@ -82,4 +82,3 @@ struct push_front_or_add<dimensionless_type, T>
 } // namespace boost
 
 #endif
-

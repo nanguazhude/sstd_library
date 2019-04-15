@@ -23,4 +23,3 @@ struct concept_check<void(*)(Model)>
 } // namespace boost::concept_checking
 
 #endif // BOOST_CONCEPT_CHECK_BORLAND_DWA2006429_HPP
-

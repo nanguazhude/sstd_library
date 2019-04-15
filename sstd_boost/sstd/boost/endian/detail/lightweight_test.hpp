@@ -221,4 +221,3 @@ inline int report_errors()
 #endif
 
 #endif // #ifndef BOOST_ENDIAN_LIGHTWEIGHT_TEST_HPP
-

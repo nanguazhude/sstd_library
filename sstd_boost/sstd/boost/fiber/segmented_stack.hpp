@@ -33,4 +33,3 @@ using default_stack = boost::context::default_stack;
 #endif
 
 #endif // BOOST_FIBERS_SEGMENTED_STACK_H
-

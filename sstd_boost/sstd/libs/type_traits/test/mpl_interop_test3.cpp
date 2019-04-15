@@ -28,4 +28,3 @@ int main()
    lambda_test<list_type>::type i = 0;
    return i;
 }
-

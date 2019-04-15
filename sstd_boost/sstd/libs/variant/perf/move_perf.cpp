@@ -232,6 +232,3 @@ int main () {
     do_test(false);
     do_test(true);
 }
-
-
-

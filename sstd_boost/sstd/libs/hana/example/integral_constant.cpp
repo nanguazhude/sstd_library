@@ -99,4 +99,3 @@ static_assert(decltype(hana::integral_c<int, 2>)::value == 2, "");
 }
 
 }
-

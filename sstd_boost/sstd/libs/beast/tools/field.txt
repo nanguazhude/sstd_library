@@ -350,4 +350,3 @@ X-Riferimento-Message-ID
 X-TipoRicevuta
 X-Trasporto
 X-VerificaSicurezza
-

@@ -18,5 +18,3 @@ int main() {
             x : boost::contract::null_old(); // Error (missing make_old(...)).
     return 0;
 }
-
-

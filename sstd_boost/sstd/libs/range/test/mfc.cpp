@@ -741,4 +741,3 @@ init_unit_test_suite(int argc, char* argv[])
     (void)argc, (void)argv; // unused
     return test;
 }
-

@@ -32,4 +32,3 @@ BOOST_UNITS_STATIC_CONSTANT(dynes,force);
 } // namespace boost
 
 #endif // BOOST_UNITS_CGS_FORCE_HPP
-

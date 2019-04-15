@@ -43,4 +43,3 @@ private:
 } // namespace boost
 
 #endif // BOOST_ITERATOR_MIXIN_HPP
-

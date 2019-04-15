@@ -54,4 +54,3 @@ namespace boost
 #endif  // __CYGWIN__
 
 #endif  // BOOST_SYSTEM_CYGWIN_ERROR_HPP
-

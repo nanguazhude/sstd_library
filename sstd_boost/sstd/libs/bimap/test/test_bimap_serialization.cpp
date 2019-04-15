@@ -111,5 +111,3 @@ int test_main( int, char* [] )
     test_bimap_serialization();
     return 0;
 }
-
-

@@ -243,4 +243,3 @@ struct check_call<R(BOOST_PP_ENUM_PARAMS(N, T)), void(BOOST_PP_ENUM_BINARY_PARAM
 #undef N
 
 #endif
-

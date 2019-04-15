@@ -102,4 +102,3 @@ BOOST_AUTO_TEST_CASE(test_max)
     BOOST_CHECK_LT((boost::random::generate_canonical<double, 64>(eng)), 1);
     BOOST_CHECK_LT((boost::random::generate_canonical<long double, 64>(eng)), 1);
 }
-

@@ -207,4 +207,3 @@ BOOST_ASIO_TEST_SUITE
   "generic/seq_packet_protocol",
   BOOST_ASIO_TEST_CASE(generic_seq_packet_protocol_socket_compile::test)
 )
-

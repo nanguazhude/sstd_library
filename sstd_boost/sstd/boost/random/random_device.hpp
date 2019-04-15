@@ -141,4 +141,3 @@ using random::random_device;
 } // namespace boost
 
 #endif /* BOOST_RANDOM_RANDOM_DEVICE_HPP */
-

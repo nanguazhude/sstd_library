@@ -96,4 +96,3 @@ BOOST_AUTO_TEST_CASE( test_fusion_quantity_sequence )
     state_type x1 , x2;
     resize( x2 , x1 );
 }
-

@@ -69,4 +69,3 @@ BOOST_AUTO_TEST_CASE(is_sorted_iota)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

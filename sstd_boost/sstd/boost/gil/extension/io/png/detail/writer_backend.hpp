@@ -502,4 +502,3 @@ public:
 } // namespace boost
 
 #endif
-

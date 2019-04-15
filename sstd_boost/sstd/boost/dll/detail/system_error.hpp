@@ -53,5 +53,3 @@ namespace boost { namespace dll { namespace detail {
 }}} // boost::dll::detail
 
 #endif // BOOST_DLL_SYSTEM_ERROR_HPP
-
-

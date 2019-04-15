@@ -26,4 +26,3 @@
 #endif
 
 #endif // BOOST_LOG_CORE_HPP_INCLUDED_
-

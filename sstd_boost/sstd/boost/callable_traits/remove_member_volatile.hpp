@@ -83,4 +83,3 @@ struct remove_member_volatile : detail::remove_member_volatile_impl<T> {};
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_REMOVE_MEMBER_VOLATILE_HPP
-

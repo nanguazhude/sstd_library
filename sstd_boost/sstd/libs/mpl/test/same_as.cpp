@@ -21,4 +21,3 @@ MPL_TEST_CASE()
     MPL_ASSERT(( apply1< same_as<int>,int > ));
     MPL_ASSERT_NOT(( apply1< same_as<int>,long > ));
 }
-

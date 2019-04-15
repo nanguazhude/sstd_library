@@ -119,4 +119,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(match, detail::make<match_adaptor>);
 }} // namespace boost::hof
 
 #endif
-

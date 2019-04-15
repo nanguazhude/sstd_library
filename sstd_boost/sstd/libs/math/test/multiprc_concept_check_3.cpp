@@ -41,6 +41,3 @@ int main()
 {
    //BOOST_CONCEPT_ASSERT((boost::math::concepts::RealTypeConcept<test_type>));
 }
-
-
-

@@ -302,4 +302,3 @@ namespace boost {
 } /* namespace boost */
 
 #endif /* BOOST_GRAPH_EDGE_LIST_HPP */
-

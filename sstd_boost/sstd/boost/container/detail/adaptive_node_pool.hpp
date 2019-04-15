@@ -167,4 +167,3 @@ class shared_adaptive_node_pool
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_ADAPTIVE_NODE_POOL_HPP
-

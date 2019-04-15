@@ -69,4 +69,3 @@ class deferral< event_base >
 
 
 #endif
-

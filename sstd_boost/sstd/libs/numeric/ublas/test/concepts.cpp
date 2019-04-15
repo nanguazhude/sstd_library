@@ -32,4 +32,3 @@ int main () {
     void (* check) (void) = ublas::concept_checks;
     boost::ignore_unused_variable_warning (check);
 }
-

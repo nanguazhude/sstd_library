@@ -20,4 +20,3 @@ int main() {
     using std::swap;
     swap(p1, p2);
 }
-

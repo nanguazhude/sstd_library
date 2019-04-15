@@ -52,4 +52,3 @@ typedef std_static_mutex static_mutex;
 } // namespace boost
 
 #endif // BOOST_ASIO_DETAIL_STATIC_MUTEX_HPP
-

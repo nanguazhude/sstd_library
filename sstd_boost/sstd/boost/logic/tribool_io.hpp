@@ -341,4 +341,3 @@ operator>>(std::basic_istream<CharT, Traits>& in, tribool& x)
 } } // end namespace boost::logic
 
 #endif // BOOST_LOGIC_TRIBOOL_IO_HPP
-

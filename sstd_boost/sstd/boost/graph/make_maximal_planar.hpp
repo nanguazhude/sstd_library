@@ -273,4 +273,3 @@ namespace boost
 
 
 #endif //__MAKE_MAXIMAL_PLANAR_HPP__
-

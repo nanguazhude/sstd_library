@@ -389,4 +389,3 @@ BOOST_AUTO_TEST_CASE( test_pointlike_linear_all )
     test_pointlike_linear<ttmath_big>();
 #endif
 }
-

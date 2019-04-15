@@ -179,4 +179,3 @@ void test_converting_assignment()
 }
 
 #endif //BOOST_OPTIONAL_TEST_OPTIONAL_REF_ASSIGN_TEST_DEFS_AK_07JAN2015_HPP
-

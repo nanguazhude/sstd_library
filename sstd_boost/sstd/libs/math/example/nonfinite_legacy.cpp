@@ -91,5 +91,3 @@ NaN output was 1.#QNAN
 NaN input was 1.#QNAN
 
 */
-
-

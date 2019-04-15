@@ -120,4 +120,3 @@ struct depth_first_search_all : // visit first then rest
 
 
 #endif // BOOST_MSM_MPL_GRAPH_DEPTH_FIRST_SEARCH_HPP_INCLUDED
-

@@ -27,4 +27,3 @@ struct features
 }} // namespace boost::accumulators
 
 #endif
-

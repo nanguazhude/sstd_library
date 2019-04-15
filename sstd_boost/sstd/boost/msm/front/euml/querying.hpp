@@ -41,4 +41,3 @@ BOOST_MSM_EUML_FUNCTION(Mismatch_ , std::mismatch , mismatch_ , RESULT_TYPE_PAIR
 }}}}
 
 #endif //BOOST_MSM_FRONT_EUML_QUERYING_H
-

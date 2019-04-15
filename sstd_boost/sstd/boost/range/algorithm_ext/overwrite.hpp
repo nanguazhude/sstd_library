@@ -82,4 +82,3 @@ inline void overwrite( const SinglePassRange1& from, const SinglePassRange2& to 
 } // namespace boost
 
 #endif // include guard
-

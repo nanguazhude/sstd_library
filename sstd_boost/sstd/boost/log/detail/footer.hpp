@@ -20,4 +20,3 @@
 #endif // !defined(BOOST_LOG_ENABLE_WARNINGS)
 
 #include <sstd/boost/config/abi_suffix.hpp>
-

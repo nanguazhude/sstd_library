@@ -219,4 +219,3 @@ TT_TEST_BEGIN(common_type)
     BOOST_CHECK_TYPE3(tt::common_type<const int, const long>::type, long);
 }
 TT_TEST_END
-

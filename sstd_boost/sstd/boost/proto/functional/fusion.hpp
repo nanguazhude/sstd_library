@@ -17,4 +17,3 @@
 #include <sstd/boost/proto/functional/fusion/reverse.hpp>
 
 #endif
-

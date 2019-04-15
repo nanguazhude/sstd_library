@@ -40,4 +40,3 @@ int main() {
     BOOST_HANA_RUNTIME_CHECK(f(1) == hana::just(1 + 1));
     BOOST_HANA_RUNTIME_CHECK(f(2.3) == hana::just(static_cast<int>(2.3) + 1));
 }
-

@@ -43,5 +43,3 @@ struct cluster_info
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_CLUSTER_INFO_HPP
-
-

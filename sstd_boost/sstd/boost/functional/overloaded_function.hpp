@@ -308,5 +308,3 @@ overloaded_function<
 } // namespace
 
 #endif // DOXYGEN
-
-

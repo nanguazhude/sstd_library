@@ -73,5 +73,3 @@ BOOST_AUTO_TEST_CASE(sync_io, *boost::unit_test::timeout(5))
 
 
 }
-
-

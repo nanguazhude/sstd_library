@@ -21,4 +21,3 @@ void test()
     typedef boost::chrono::duration<int, int > D;
     D d;
 }
-

@@ -46,6 +46,3 @@ BOOST_MPL_ASSERT((
 BOOST_MPL_ASSERT((
   ft::is_member_function_pointer< mem_func_cv_ptr, ft::non_cv >
 ));
-
-
-

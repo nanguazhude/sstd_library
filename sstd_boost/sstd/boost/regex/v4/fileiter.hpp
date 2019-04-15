@@ -432,22 +432,3 @@ using boost::BOOST_REGEX_DETAIL_NS::mapfile;
 
 #endif     // BOOST_REGEX_NO_FILEITER
 #endif     // BOOST_RE_FILEITER_HPP
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

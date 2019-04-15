@@ -83,4 +83,3 @@ using iterators::make_generator_iterator;
 } // namespace boost
 
 #endif // BOOST_ITERATOR_ADAPTOR_GENERATOR_ITERATOR_HPP
-

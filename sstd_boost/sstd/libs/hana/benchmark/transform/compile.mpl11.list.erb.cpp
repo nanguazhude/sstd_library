@@ -22,4 +22,3 @@ using result = boost::mpl11::fmap<f, list>::type;
 int main() {
 
 }
-

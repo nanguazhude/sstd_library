@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_TREE_TO_XML
 #include <sstd/boost/spirit/home/classic/tree/tree_to_xml.hpp>
 #endif
-

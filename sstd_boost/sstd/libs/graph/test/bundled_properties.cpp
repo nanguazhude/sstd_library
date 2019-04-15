@@ -234,4 +234,3 @@ int test_main(int, char*[])
   test_subgraph_bundled_properties();
   return 0;
 }
-

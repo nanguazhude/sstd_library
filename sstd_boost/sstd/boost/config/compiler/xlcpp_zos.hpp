@@ -168,4 +168,3 @@ extern "builtin" long __builtin_expect(long, long);
 
 #define BOOST_LIKELY(x) __builtin_expect((x) && true, 1)
 #define BOOST_UNLIKELY(x) __builtin_expect((x) && true, 0)
-

@@ -197,4 +197,3 @@ boost::cnv::basic_stream<char_type>::str_to(
 #undef BOOST_CNV_PARAM
 
 #endif // BOOST_CONVERT_STRINGSTREAM_BASED_CONVERTER_HPP
-

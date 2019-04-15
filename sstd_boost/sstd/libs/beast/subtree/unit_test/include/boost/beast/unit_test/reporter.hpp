@@ -290,4 +290,3 @@ using reporter = detail::reporter<>;
 } // boost
 
 #endif
-

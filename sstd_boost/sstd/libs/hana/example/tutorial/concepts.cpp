@@ -62,4 +62,3 @@ static_assert(!Printable<void>::value, "");
 }
 
 int main() { }
-

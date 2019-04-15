@@ -131,5 +131,3 @@ int test_main( int, char* [] )
     test_bimap_range();
     return 0;
 }
-
-

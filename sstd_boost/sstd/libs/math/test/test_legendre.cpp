@@ -229,4 +229,3 @@ BOOST_AUTO_TEST_CASE( test_main )
    test_legendre_p_zeros<double>();
    test_legendre_p_zeros<long double>();
 }
-

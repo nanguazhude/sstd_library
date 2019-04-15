@@ -72,4 +72,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( test_integrate_const , Stepper , complete_stepper
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

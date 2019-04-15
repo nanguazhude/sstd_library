@@ -269,4 +269,3 @@ int test_main(int, char* [])
     test_all<double>();
     return 0;
 }
-

@@ -129,4 +129,3 @@ int test_main(int, char*[])
   move_test();
   return 0;
 }
-

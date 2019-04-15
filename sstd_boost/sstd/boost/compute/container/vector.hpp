@@ -821,4 +821,3 @@ meta_kernel& operator<<(meta_kernel &k, const vector<T, Alloc> &vector)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_CONTAINER_VECTOR_HPP
-

@@ -20,4 +20,3 @@ int main() {
     constexpr auto types = hana::tuple_t<int, char, long, short, char, double>;
     BOOST_HANA_CONSTANT_CHECK(hana::count(types, hana::type_c<char>) == hana::size_c<2>);
 }
-

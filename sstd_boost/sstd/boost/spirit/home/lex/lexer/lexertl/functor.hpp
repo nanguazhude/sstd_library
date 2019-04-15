@@ -294,4 +294,3 @@ namespace boost { namespace spirit { namespace lex { namespace lexertl
 #undef BOOST_SPIRIT_STATIC_EOF
 
 #endif
-

@@ -29,6 +29,3 @@ void test_explicit_constructor()
   boost::optional<int> opt = 3 ; // ERROR: Ctor is explicit.
 }
 #endif
-
-
-

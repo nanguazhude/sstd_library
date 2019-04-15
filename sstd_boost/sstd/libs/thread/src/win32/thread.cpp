@@ -974,5 +974,3 @@ namespace boost
       }
     }
 }
-
-

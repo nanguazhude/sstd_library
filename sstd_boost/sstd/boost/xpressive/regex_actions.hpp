@@ -1572,4 +1572,3 @@ namespace boost { namespace xpressive
 #endif
 
 #endif // BOOST_XPRESSIVE_ACTIONS_HPP_EAN_03_22_2007
-

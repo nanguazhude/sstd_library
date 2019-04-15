@@ -36,4 +36,3 @@ BOOST_DATA_TEST_CASE(
   BOOST_TEST(singleton == 2);
 }
 //]
-

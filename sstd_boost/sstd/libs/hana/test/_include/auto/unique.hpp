@@ -156,4 +156,3 @@ TestCase test_unique_by{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_UNIQUE_HPP
-

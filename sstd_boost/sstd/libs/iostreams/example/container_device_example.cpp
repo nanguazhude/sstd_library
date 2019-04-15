@@ -28,4 +28,3 @@ int main()
     assert(one == "Hello World!");
     assert(two == "Hello World!");
 }
-

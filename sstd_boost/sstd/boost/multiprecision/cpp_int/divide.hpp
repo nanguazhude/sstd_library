@@ -653,4 +653,3 @@ BOOST_MP_FORCEINLINE typename enable_if_c<
 }}} // namespaces
 
 #endif
-

@@ -22,4 +22,3 @@
     (vseq) \
 /**/
 #endif /* BOOST_VMD_DETAIL_PARENS_SPLIT_HPP */
-

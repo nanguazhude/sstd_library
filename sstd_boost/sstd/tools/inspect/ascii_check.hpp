@@ -36,4 +36,3 @@ namespace boost
 }
 
 #endif // BOOST_ASCII_CHECK_HPP
-

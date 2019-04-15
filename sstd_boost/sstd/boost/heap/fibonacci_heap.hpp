@@ -797,4 +797,3 @@ private:
 #undef BOOST_HEAP_ASSERT
 
 #endif /* BOOST_HEAP_FIBONACCI_HEAP_HPP */
-

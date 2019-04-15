@@ -1027,4 +1027,3 @@ inline bool pj_datum_transform(Par const& srcdefn,
 }}} // namespace boost::geometry::projections
 
 #endif // BOOST_GEOMETRY_SRS_PROJECTIONS_IMPL_PJ_TRANSFORM_HPP
-

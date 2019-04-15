@@ -52,4 +52,3 @@ using iterators::is_interoperable;
 # include <sstd/boost/iterator/detail/config_undef.hpp>
 
 #endif // BOOST_INTEROPERABLE_23022003THW_HPP
-

@@ -101,4 +101,3 @@ template<class R, class T, class A1, class A2, class A3, class A4, class A5, cla
 {
     return _mfi::BOOST_MEM_FN_NAME(cmf8)<R, T, A1, A2, A3, A4, A5, A6, A7, A8>(f);
 }
-

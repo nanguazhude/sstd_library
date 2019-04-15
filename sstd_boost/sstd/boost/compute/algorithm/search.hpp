@@ -78,4 +78,3 @@ inline TextIterator search(TextIterator t_first,
 } //end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_SEARCH_HPP
-

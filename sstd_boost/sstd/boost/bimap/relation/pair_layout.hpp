@@ -69,5 +69,3 @@ struct inverse_layout< normal_layout >
 } // namespace boost
 
 #endif // BOOST_BIMAP_RELATION_DETAIL_PAIR_LAYOUT_HPP
-
-

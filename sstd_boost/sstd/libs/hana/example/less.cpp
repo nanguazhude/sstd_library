@@ -19,4 +19,3 @@ static_assert(hana::all_of(hana::tuple_c<int, 1, 2, 3, 4>, hana::less.than(5)), 
 BOOST_HANA_CONSTANT_CHECK(hana::all_of(hana::tuple_c<int, 1, 2, 3, 4>, hana::less_equal.than(hana::int_c<4>)));
 
 int main() { }
-

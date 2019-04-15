@@ -31,4 +31,3 @@ static std::string within_simplex[2] =
 
 
 #endif
-

@@ -28,4 +28,3 @@ int main() {
     std::cout << "\nDone" << std::endl;
     return EXIT_SUCCESS;
 }
-

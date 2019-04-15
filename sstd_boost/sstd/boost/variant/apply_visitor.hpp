@@ -18,4 +18,3 @@
 #include <sstd/boost/variant/detail/apply_visitor_delayed.hpp>
 
 #endif // BOOST_VARIANT_APPLY_VISITOR_HPP
-

@@ -370,4 +370,3 @@ basic_lzma_decompressor<Alloc>::basic_lzma_decompressor
 #endif
 
 #endif // #ifndef BOOST_IOSTREAMS_LZMA_HPP_INCLUDED
-

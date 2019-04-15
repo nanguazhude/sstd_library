@@ -50,4 +50,3 @@ struct extract_value_type< S , typename boost::enable_if< has_value_type<S> >::t
 } } } }
 
 #endif
-

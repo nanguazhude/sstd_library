@@ -219,5 +219,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_copy_assignable<nothrow_construct_UDT>::v
 
 
 TT_TEST_END
-
-

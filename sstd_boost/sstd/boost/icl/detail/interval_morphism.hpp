@@ -102,7 +102,3 @@ namespace boost{namespace icl
 }} // namespace boost icl
 
 #endif // BOOST_ICL_DETAIL_INTERVAL_MORPHISM_HPP_JOFA_080315
-
-
-
-

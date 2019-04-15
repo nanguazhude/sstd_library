@@ -743,5 +743,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_PUSH_RELABEL_MAX_FLOW_HPP
-
-

@@ -49,4 +49,3 @@ BOOST_PYTHON_MODULE(ndarray_ext)
   p::def("shape_index", shape_index);
   p::def("strides_index", strides_index);
 }
-

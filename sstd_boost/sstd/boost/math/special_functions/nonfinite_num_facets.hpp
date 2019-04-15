@@ -590,5 +590,3 @@ namespace boost {
 #endif
 
 #endif // BOOST_MATH_NONFINITE_NUM_FACETS_HPP
-
-

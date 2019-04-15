@@ -20,4 +20,3 @@ BOOST_AUTO_TEST_CASE(test1, * utf::timeout(2))
 #endif
 }
 //]
-

@@ -354,8 +354,3 @@ inline u32regex_token_iterator<const UChar*> make_u32regex_token_iterator(const 
 } // namespace boost
 
 #endif // BOOST_REGEX_V4_REGEX_TOKEN_ITERATOR_HPP
-
-
-
-
-

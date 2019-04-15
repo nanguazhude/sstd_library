@@ -92,4 +92,3 @@ struct to_int
 } /* namespace any_types */
 
 #endif
-

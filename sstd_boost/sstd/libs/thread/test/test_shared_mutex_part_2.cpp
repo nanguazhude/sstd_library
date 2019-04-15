@@ -285,6 +285,3 @@ BOOST_AUTO_TEST_CASE(test_if_other_thread_has_upgrade_lock_try_lock_upgrade_retu
     finish_lock.unlock();
     writer.join();
 }
-
-
-

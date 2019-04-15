@@ -72,4 +72,3 @@
 #endif
 
 #endif // BOOST_SERIALIZATION_CONFIG_HPP
-

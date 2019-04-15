@@ -36,4 +36,3 @@ public:
 
 }
 #endif /* STACK_H_ */
-

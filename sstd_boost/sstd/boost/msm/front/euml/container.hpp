@@ -4066,4 +4066,3 @@ StringCopy_Helper const string_copy_;
 }}}}
 
 #endif //BOOST_MSM_FRONT_EUML_CONTAINER_H
-

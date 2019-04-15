@@ -147,4 +147,3 @@ inline void populate_connectivity_database(connectivity_database& connectivity, 
 }
 
 #endif
-

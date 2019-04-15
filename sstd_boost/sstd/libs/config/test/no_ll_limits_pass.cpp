@@ -31,5 +31,3 @@ int main( int, char *[] )
 {
    return boost_no_long_long_numeric_limits::test();
 }
-
-

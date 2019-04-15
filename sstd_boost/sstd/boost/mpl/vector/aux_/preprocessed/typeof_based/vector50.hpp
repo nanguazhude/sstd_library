@@ -217,4 +217,3 @@ struct vector50
 };
 
 }}
-

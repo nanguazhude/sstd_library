@@ -119,4 +119,3 @@ struct is_postfix_incrementable :
 # include <sstd/boost/type_traits/detail/bool_trait_undef.hpp>
 
 #endif // IS_INCREMENTABLE_DWA200415_HPP
-

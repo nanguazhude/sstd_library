@@ -180,4 +180,3 @@ inline bool scoped_static_mutex_lock::locked()const
 #endif
 
 #endif
-

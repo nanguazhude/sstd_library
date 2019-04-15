@@ -33,4 +33,3 @@ g()
             std::cerr << "My info: " << *mi;
         }
     }
-

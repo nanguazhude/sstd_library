@@ -47,4 +47,3 @@
 #include <sstd/boost/pool/pool_alloc.hpp>
 
 #endif // !defined(TOKEN_STATISTICS_HPP)
-

@@ -24,4 +24,3 @@
 #include <sstd/boost/asio/ts/internet.hpp>
 
 #endif // BOOST_ASIO_TS_NET_HPP
-

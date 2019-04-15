@@ -94,4 +94,3 @@ public :
 }}} // namespace boost::geometry::concepts
 
 #endif // BOOST_GEOMETRY_STRATEGIES_CONCEPTS_SIMPLIFY_CONCEPT_HPP
-

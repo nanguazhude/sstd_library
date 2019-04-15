@@ -131,4 +131,3 @@ BOOST_AUTO_TEST_CASE(nul, *boost::unit_test::timeout(2))
     BOOST_CHECK_EQUAL(EXIT_SUCCESS, exit_code);
 #endif
 }
-

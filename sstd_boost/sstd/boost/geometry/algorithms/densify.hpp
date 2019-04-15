@@ -423,4 +423,3 @@ inline void densify(Geometry const& geometry,
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DENSIFY_HPP
-

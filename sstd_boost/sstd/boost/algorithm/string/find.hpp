@@ -332,4 +332,3 @@ namespace boost {
 
 
 #endif  // BOOST_STRING_FIND_HPP
-

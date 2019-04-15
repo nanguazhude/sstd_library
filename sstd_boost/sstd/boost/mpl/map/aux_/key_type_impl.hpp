@@ -34,4 +34,3 @@ struct key_type_impl< aux::map_tag >
 }}
 
 #endif // BOOST_MPL_MAP_AUX_KEY_TYPE_IMPL_HPP_INCLUDED
-

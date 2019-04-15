@@ -16,4 +16,3 @@
 #include <sstd/boost/spirit/home/qi/nonterminal/rule.hpp>
 
 #endif
-

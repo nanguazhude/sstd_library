@@ -108,4 +108,3 @@ int main() {
   test_real_movable();
   return boost::report_errors();
 }
-

@@ -92,4 +92,3 @@ inline width operator |(width left, width const &right)
 }}} // namespace boost::xpressive::detail
 
 #endif
-

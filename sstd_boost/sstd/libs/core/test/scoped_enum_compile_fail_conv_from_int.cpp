@@ -28,4 +28,3 @@ int main(int, char*[])
 
     return boost::native_value(col);
 }
-

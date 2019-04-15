@@ -188,4 +188,3 @@ namespace converter
 }} // namespace boost::python::converter
 
 #endif // BUILTIN_CONVERTERS_DWA2002124_HPP
-

@@ -112,4 +112,3 @@ namespace AutoDiff{
 };
 
 #endif /* AUTODIFF_H_ */
-

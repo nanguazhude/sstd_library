@@ -63,5 +63,3 @@ BOOST_MPL_ASSERT((
               ft::tag<ft::const_qualified, ft::volatile_qualified> >::type
          , expected4 >
 ));
-
-

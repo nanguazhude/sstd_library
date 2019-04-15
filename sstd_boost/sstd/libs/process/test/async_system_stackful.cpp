@@ -50,4 +50,3 @@ BOOST_AUTO_TEST_CASE(stackful, *boost::unit_test::timeout(15))
     ios.run();
     BOOST_CHECK(did_something_else);
 }
-

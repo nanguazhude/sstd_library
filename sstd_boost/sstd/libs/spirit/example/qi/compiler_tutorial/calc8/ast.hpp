@@ -170,4 +170,3 @@ BOOST_FUSION_ADAPT_STRUCT(
 )
 
 #endif
-

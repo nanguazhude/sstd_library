@@ -123,4 +123,3 @@ test_main( int /* argc */, char* /* argv */[] )
     BOOST_CHECK(*s1 == *s2);
     return EXIT_SUCCESS;
 }
-

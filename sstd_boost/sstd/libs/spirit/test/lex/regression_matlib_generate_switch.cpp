@@ -30,5 +30,3 @@ int main(int argc, char* argv[])
         matrix, out, "matlib_switch"));
     return boost::report_errors();
 }
-
-

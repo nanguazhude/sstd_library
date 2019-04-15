@@ -112,4 +112,3 @@ int main()
 	static_assert( sv3.compare(s1)  > 0, "" );
 }
 #endif
-

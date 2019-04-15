@@ -22,4 +22,3 @@ template< typename Sequence, typename T > struct count;
 }}
 
 #endif // BOOST_MPL_COUNT_FWD_HPP_INCLUDED
-

@@ -46,5 +46,3 @@ BOOST_HOF_TEST_CASE()
     static_assert(boost::hof::function_param_limit<decltype(boost::hof::pack(1))>::value == 1, "Failed limit on pack");
     static_assert(boost::hof::function_param_limit<decltype(boost::hof::pack(1, 2))>::value == 2, "Failed limit on pack");
 }
-
-

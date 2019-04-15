@@ -29,4 +29,3 @@
 #endif
 
 #endif // BOOST_MPL_AUX_ARG_TYPEDEF_HPP_INCLUDED
-

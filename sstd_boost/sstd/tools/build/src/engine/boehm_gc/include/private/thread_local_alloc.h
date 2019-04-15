@@ -150,4 +150,3 @@ GC_key_t GC_thread_key;
 /* if necessary.							*/
 
 #endif /* THREAD_LOCAL_ALLOC */
-

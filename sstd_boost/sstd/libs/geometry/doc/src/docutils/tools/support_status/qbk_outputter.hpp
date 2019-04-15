@@ -108,4 +108,3 @@ struct qbk_outputter
 
 
 #endif // BOOST_GEOMETRY_SUPPORT_STATUS_QBK_OUTPUTTER_HPP
-

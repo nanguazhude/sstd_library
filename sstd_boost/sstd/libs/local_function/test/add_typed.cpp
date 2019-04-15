@@ -44,5 +44,3 @@ int main(void) {
 }
 
 #endif // VARIADIC_MACROS
-
-

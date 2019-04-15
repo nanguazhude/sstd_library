@@ -94,4 +94,3 @@ typename mandel_view< Pixel >::type create_mandel_view( unsigned int width
 }
 
 #endif // BOOST_GIL_IO_TEST_MANDEL_HPP
-

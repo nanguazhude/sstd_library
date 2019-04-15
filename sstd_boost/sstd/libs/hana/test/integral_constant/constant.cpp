@@ -36,4 +36,3 @@ int main() {
         hana::tuple_t<bool>
     };
 }
-

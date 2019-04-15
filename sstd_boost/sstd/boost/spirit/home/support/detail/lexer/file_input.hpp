@@ -473,4 +473,3 @@ typedef basic_file_input<wchar_t> wfile_input;
 }
 
 #endif
-

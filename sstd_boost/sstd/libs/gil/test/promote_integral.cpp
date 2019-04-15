@@ -355,4 +355,3 @@ BOOST_AUTO_TEST_CASE( test_floating_point )
     tester2::apply<double, double>("fp-d");
     tester2::apply<long double, long double>("fp-ld");
 }
-

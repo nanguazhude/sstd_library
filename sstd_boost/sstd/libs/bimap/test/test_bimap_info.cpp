@@ -123,5 +123,3 @@ int test_main( int, char* [] )
     test_tagged_bimap_info();
     return 0;
 }
-
-

@@ -24,4 +24,3 @@ struct is_alignment_constant
 } /* boost */
 
 #endif
-

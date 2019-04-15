@@ -146,4 +146,3 @@ inline typename tools::promote_args<T>::type pow(T base)
 
 
 #endif
-

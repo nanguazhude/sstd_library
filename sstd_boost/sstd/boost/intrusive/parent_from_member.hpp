@@ -47,4 +47,3 @@ BOOST_INTRUSIVE_FORCEINLINE const Parent *get_parent_from_member(const Member *m
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTRUSIVE_PARENT_FROM_MEMBER_HPP
-

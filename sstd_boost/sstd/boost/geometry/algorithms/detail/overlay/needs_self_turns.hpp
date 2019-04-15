@@ -81,4 +81,3 @@ struct needs_self_turns<Geometry, multi_polygon_tag>
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_NEEDS_SELF_TURNS_HPP
-

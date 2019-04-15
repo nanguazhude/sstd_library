@@ -100,4 +100,3 @@ struct is_stateless_segment_manager
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //BOOST_CONTAINER_DETAIL_POOL_COMMON_ALLOC_HPP
-

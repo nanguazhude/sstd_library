@@ -70,4 +70,3 @@ TestCase test_drop_while{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_DROP_WHILE_HPP
-

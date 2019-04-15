@@ -55,4 +55,3 @@ throughput(std::chrono::duration<
 } // boost
 
 #endif
-

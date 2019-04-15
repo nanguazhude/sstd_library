@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_PHOENIX_ALGORITHM
 #include <sstd/boost/phoenix/stl/algorithm.hpp>
 #endif
-

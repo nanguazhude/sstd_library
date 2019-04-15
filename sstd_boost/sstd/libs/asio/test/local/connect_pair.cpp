@@ -74,4 +74,3 @@ BOOST_ASIO_TEST_SUITE
   "local/connect_pair",
   BOOST_ASIO_TEST_CASE(local_connect_pair_compile::test)
 )
-

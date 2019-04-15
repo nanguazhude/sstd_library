@@ -41,4 +41,3 @@ struct end_impl< aux::set_tag >
 }}
 
 #endif // BOOST_MPL_SET_AUX_BEGIN_END_IMPL_HPP_INCLUDED
-

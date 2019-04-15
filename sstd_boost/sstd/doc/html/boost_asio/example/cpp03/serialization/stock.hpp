@@ -48,4 +48,3 @@ struct stock
 } // namespace s11n_example
 
 #endif // SERIALIZATION_STOCK_HPP
-

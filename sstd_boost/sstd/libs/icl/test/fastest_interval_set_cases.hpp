@@ -73,7 +73,3 @@ BOOST_AUTO_TEST_CASE
 {            interval_set_move_4_discrete_types<INTERVAL_SET, discrete_type_2>();}
 
 #endif // BOOST_ICL_FASTEST_INTERVAL_SET_CASES_HPP_JOFA_090702
-
-
-
-

@@ -45,4 +45,3 @@ BOOST_AUTO_TEST_CASE( write_minisblack_tile_and_compare_with_8 )
 #endif // BOOST_GIL_IO_USE_TIFF_GRAPHICSMAGICK_TEST_SUITE_IMAGES
 
 BOOST_AUTO_TEST_SUITE_END()
-

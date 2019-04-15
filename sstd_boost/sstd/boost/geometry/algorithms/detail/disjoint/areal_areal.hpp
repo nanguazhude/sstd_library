@@ -178,4 +178,3 @@ struct disjoint<Areal, Box, 2, areal_tag, box_tag, false>
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_DISJOINT_AREAL_AREAL_HPP
-

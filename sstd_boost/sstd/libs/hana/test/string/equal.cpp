@@ -50,4 +50,3 @@ int main() {
         BOOST_HANA_STRING("abc")
     );
 }
-

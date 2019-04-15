@@ -25,4 +25,3 @@
 #include <sstd/boost/geometry/algorithms/detail/expand/box.hpp>
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_EXPAND_IMPLEMENTATION_HPP
-

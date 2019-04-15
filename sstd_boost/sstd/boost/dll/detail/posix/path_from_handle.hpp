@@ -165,6 +165,3 @@ namespace boost { namespace dll { namespace detail {
 #endif // #if BOOST_OS_MACOS || BOOST_OS_IOS
 
 #endif // BOOST_DLL_DETAIL_POSIX_PATH_FROM_HANDLE_HPP
-
-
-

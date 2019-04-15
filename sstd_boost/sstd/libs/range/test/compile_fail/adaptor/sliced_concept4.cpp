@@ -20,4 +20,3 @@ int main(int, const char**)
     return boost::adaptors::slice(
         mock_const_range<boost::bidirectional_traversal_tag>(), 0, 1).front();
 }
-

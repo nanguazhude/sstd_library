@@ -29,4 +29,3 @@ typedef unit<permittivity_dimension,si::system>    permittivity;
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_PERMITTIVITY_HPP
-

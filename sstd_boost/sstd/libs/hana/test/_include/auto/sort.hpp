@@ -109,4 +109,3 @@ TestCase test_sort{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_SORT_HPP
-

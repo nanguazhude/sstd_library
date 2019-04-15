@@ -42,4 +42,3 @@ struct operations_dispatcher< boost::compute::vector< T , A > >
 
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_COMPUTE_COMPUTE_OPERATIONS_DISPATCHER_HPP_DEFINED
-

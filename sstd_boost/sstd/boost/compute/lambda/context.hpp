@@ -362,4 +362,3 @@ struct domain : proto::domain<proto::generator<expression> >
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_LAMBDA_CONTEXT_HPP
-

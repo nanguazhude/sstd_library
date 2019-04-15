@@ -66,4 +66,3 @@ inline void convert_point_to_point(Source const& source, Destination& destinatio
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_CONVERT_POINT_TO_POINT_HPP
-

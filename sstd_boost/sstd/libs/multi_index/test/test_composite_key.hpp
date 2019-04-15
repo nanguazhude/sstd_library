@@ -9,4 +9,3 @@
  */
 
 void test_composite_key();
-

@@ -93,4 +93,3 @@ constexpr bool is_cv_member_v = //see below
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_IS_CV_MEMBER_HPP
-

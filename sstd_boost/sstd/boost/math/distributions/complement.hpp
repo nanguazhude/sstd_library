@@ -192,5 +192,3 @@ inline complemented7_type<Dist, RealType1, RealType2, RealType3, RealType4, Real
 } // namespace boost
 
 #endif // BOOST_STATS_COMPLEMENT_HPP
-
-

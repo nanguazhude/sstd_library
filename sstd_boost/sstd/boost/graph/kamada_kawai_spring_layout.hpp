@@ -620,4 +620,3 @@ namespace boost {
 } // end namespace boost
 
 #endif // BOOST_GRAPH_KAMADA_KAWAI_SPRING_LAYOUT_HPP
-

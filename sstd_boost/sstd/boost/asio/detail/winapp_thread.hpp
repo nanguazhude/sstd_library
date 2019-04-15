@@ -124,4 +124,3 @@ inline DWORD WINAPI winapp_thread_function(LPVOID arg)
 #endif // defined(BOOST_ASIO_WINDOWS) && defined(BOOST_ASIO_WINDOWS_APP)
 
 #endif // BOOST_ASIO_DETAIL_WINAPP_THREAD_HPP
-

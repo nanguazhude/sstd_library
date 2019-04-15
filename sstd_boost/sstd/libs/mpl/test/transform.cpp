@@ -49,4 +49,3 @@ MPL_TEST_CASE()
     MPL_ASSERT(( is_same<result2,result> ));
 #endif
 }
-

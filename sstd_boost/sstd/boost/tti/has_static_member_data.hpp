@@ -85,4 +85,3 @@
 /**/
 
 #endif // BOOST_TTI_HAS_STATIC_MEMBER_DATA_HPP
-

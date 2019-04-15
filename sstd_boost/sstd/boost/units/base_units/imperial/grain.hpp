@@ -37,4 +37,3 @@ struct base_unit_info<imperial::grain_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNIT_SYSTEMS_IMPERIAL_GRAIN_HPP_INCLUDED
-

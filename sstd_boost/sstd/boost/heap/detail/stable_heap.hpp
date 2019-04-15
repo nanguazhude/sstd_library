@@ -590,4 +590,3 @@ struct extract_allocator_types
 } /* namespace boost */
 
 #endif /* BOOST_HEAP_DETAIL_STABLE_HEAP_HPP */
-

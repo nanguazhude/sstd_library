@@ -37,4 +37,3 @@ int main() {
                     hana::traits::is_integral)
     );
 }
-

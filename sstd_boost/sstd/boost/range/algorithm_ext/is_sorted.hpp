@@ -55,4 +55,3 @@ using range::is_sorted;
 } // namespace boost
 
 #endif // include guard
-

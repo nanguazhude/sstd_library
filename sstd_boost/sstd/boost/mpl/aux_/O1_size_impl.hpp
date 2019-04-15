@@ -85,4 +85,3 @@ struct O1_size_impl
 }}
 
 #endif // BOOST_MPL_O1_SIZE_IMPL_HPP_INCLUDED
-

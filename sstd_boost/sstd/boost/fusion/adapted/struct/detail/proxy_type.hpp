@@ -41,4 +41,3 @@
         WRAPPED_TYPE, (0)NAMESPACE_SEQ, NAME)
 
 #endif
-

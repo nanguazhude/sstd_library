@@ -66,4 +66,3 @@ namespace converter
 }} // namespace boost::python
 
 #endif // LONG_DWA2002627_HPP
-

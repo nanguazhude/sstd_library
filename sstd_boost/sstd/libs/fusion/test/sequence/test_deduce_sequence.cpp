@@ -20,4 +20,3 @@ typedef boost::fusion::traits::deduce_sequence <
 boost::fusion::vector<int, char>
 
 >::type seq2_t;
-

@@ -66,5 +66,3 @@ inline void spawn(Args && ...args)
 
 }}
 #endif
-
-

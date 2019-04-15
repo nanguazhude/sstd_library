@@ -72,5 +72,3 @@ void test_spots(T, const char* type_name)
 
     do_test_heuman_lambda<T>(heuman_lambda_data, type_name, "Elliptic Integral Heuman Lambda: Random Data");
 }
-
-

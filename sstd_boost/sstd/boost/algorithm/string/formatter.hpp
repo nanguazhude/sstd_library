@@ -118,4 +118,3 @@ namespace boost {
 
 
 #endif  // BOOST_FORMATTER_HPP
-

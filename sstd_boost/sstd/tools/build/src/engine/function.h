@@ -46,4 +46,3 @@ FUNCTION * function_python( PyObject * function, PyObject * bjam_signature );
 #endif
 
 #endif
-

@@ -34,4 +34,3 @@ int main() {
     std::cout << "main: done" << std::endl;
     return EXIT_SUCCESS;
 }
-

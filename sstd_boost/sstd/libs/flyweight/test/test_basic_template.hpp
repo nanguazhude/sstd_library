@@ -302,4 +302,3 @@ void test_basic_template(BOOST_EXPLICIT_TEMPLATE_TYPE(FlyweightSpecifier))
 #undef LENGTHOF
 
 #endif
-

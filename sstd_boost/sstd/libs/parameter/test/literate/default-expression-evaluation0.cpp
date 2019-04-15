@@ -37,4 +37,3 @@ int main()
         "1", '2', _color_map = '5',
         _index_map = "4", _root_vertex = "3");
 }
-

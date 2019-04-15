@@ -16,4 +16,3 @@ int main()
     return 1;
 }
 // end::source[]
-

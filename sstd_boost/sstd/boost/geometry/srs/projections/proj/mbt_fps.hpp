@@ -172,5 +172,3 @@ namespace projections
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_MBT_FPS_HPP
-
-

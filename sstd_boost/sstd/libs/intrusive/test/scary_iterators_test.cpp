@@ -312,4 +312,3 @@ int main()
                          >::value));
    return 0;
 }
-

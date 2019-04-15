@@ -26,4 +26,3 @@
 #endif
 
 #endif // BOOST_MPL_AUX_CONFIG_BCC_HPP_INCLUDED
-

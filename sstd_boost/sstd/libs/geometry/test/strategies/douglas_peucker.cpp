@@ -420,4 +420,3 @@ BOOST_AUTO_TEST_CASE( test_with_comparable_distance_strategy )
             simplify_comparable_distance_strategy<long double>::type
         >("ld");
 }
-

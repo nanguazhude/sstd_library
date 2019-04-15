@@ -133,4 +133,3 @@ inline void load_construct_data(
 } /* namespace boost */
 
 #endif
-

@@ -60,5 +60,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE
 BOOST_AUTO_TEST_CASE_TEMPLATE
 (fastest_itl_partial_interval_map_mixed_contains_4_bicremental_types, T, bicremental_types)
 {            partial_interval_map_mixed_contains_4_bicremental_types<T, int, partial_absorber>(); }
-
-

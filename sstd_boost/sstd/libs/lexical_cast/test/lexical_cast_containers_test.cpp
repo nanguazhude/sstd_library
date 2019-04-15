@@ -81,4 +81,3 @@ void testing_boost_containers_string_widening()
     BOOST_CHECK(boost::lexical_cast<boost::container::basic_string<char32_t> >(char_array) == char32_array);
 #endif
 }
-

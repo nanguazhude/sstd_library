@@ -633,4 +633,3 @@ minimum_cycle_mean(const Graph &g, VertexIndexMap vim,
 } //namespace boost
 
 #endif
-

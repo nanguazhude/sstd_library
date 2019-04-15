@@ -23,4 +23,3 @@ int main() {
     });
     BOOST_HANA_CONSTANT_CHECK(largest == hana::int_c<9>);
 }
-

@@ -232,4 +232,3 @@ struct tr1_result_of_impl<F, FArgs, false>
 }
 
 #endif // BOOST_RESULT_OF_HPP
-

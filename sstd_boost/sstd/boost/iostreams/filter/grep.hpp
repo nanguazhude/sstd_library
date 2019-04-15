@@ -107,4 +107,3 @@ basic_grep_filter<Ch, Tr, Alloc>::basic_grep_filter
 } } // End namespaces iostreams, boost.
 
 #endif      // #ifndef BOOST_IOSTREAMS_REGEX_FILTER_HPP_INCLUDED
-

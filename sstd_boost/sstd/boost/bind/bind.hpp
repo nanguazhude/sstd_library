@@ -2363,4 +2363,3 @@ BOOST_BIND( M T::*f, A1 a1 )
 #endif
 
 #endif // #ifndef BOOST_BIND_BIND_HPP_INCLUDED
-

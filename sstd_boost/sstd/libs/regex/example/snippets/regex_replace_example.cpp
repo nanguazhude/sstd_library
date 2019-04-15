@@ -124,16 +124,3 @@ const char* header_text = "<HTML>\n<HEAD>\n"
                           "<P> </P>\n<PRE>";
 
 const char* footer_text = "</PRE>\n</BODY>\n\n";
-
-
-
-
-
-
-
-
-
-
-
-
-

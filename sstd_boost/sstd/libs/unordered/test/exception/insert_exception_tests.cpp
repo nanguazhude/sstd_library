@@ -414,4 +414,3 @@ UNORDERED_TEST(insert_range_rehash_exception_test,
 // clang-format on
 
 RUN_TESTS()
-

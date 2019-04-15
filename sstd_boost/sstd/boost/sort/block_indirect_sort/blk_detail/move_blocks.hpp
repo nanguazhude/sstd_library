@@ -282,4 +282,3 @@ void move_blocks<Block_size, Group_size, Iter_t, Compare>
 //****************************************************************************
 //
 #endif
-

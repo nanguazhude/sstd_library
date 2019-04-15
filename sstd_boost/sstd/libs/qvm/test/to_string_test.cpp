@@ -65,4 +65,3 @@ main()
     test_quaternion("(42,43,44,45)");
     return boost::report_errors();
     }
-

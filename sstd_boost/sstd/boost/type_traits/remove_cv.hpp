@@ -43,4 +43,3 @@ template <class T> struct remove_cv<T volatile[]>{ typedef T type[]; };
 } // namespace boost
 
 #endif // BOOST_TT_REMOVE_CV_HPP_INCLUDED
-

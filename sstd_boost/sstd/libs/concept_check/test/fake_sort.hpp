@@ -25,4 +25,3 @@ namespace fake
 }
 
 #endif // BOOST_LIBS_CONCEPT_CHECK_FAKE_SORT_DWA2006430_HPP
-

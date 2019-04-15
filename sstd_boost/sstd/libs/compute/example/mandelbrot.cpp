@@ -222,4 +222,3 @@ int main(int argc, char *argv[])
 }
 
 #include "mandelbrot.moc"
-

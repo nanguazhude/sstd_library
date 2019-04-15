@@ -38,4 +38,3 @@ namespace client { namespace calculator_grammar
 }}
 
 #endif
-

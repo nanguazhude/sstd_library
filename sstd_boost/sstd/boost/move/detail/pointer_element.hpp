@@ -166,4 +166,3 @@ struct pointer_element<T*>
 }  //namespace boost {
 
 #endif // defined(BOOST_MOVE_DETAIL_POINTER_ELEMENT_HPP)
-

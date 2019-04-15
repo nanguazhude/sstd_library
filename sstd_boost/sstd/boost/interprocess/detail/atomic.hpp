@@ -653,4 +653,3 @@ inline bool atomic_add_unless32
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_DETAIL_ATOMIC_HPP
-

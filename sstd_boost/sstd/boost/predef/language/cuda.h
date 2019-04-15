@@ -50,4 +50,3 @@ If available, the version is detected as VV.RR.P.
 
 #include <sstd/boost/predef/detail/test.h>
 BOOST_PREDEF_DECLARE_TEST(BOOST_LANG_CUDA,BOOST_LANG_CUDA_NAME)
-

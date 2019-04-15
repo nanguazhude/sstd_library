@@ -2009,4 +2009,3 @@ namespace boost
 } //namespace boost
 
 #endif //__BOYER_MYRVOLD_IMPL_HPP__
-

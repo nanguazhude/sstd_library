@@ -685,4 +685,3 @@ BOOST_ASIO_TEST_SUITE
   BOOST_ASIO_TEST_CASE(ip_icmp_socket_compile::test)
   BOOST_ASIO_TEST_CASE(ip_icmp_resolver_compile::test)
 )
-

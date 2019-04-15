@@ -59,4 +59,3 @@ inline Container& remove_erase_if( Container& on, Pred pred )
 } // namespace boost
 
 #endif // include guard
-

@@ -17,4 +17,3 @@
 #include <sstd/boost/spirit/home/qi/detail/parse_auto.hpp>
 
 #endif
-

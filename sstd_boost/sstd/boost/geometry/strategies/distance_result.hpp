@@ -211,4 +211,3 @@ struct distance_result<Geometry1, Geometry2, void>
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_DISTANCE_RESULT_HPP
-

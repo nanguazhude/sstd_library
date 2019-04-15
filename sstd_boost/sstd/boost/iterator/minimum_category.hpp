@@ -93,4 +93,3 @@ struct minimum_category<mpl::_1,mpl::_2>
 } // namespace boost
 
 #endif // BOOST_ITERATOR_MINIMUM_CATEGORY_HPP_INCLUDED_
-

@@ -109,4 +109,3 @@ std::size_t synchronized_pool_resource::pool_cached_blocks(std::size_t pool_idx)
 }  //namespace boost {
 
 #include <sstd/boost/container/detail/config_end.hpp>
-

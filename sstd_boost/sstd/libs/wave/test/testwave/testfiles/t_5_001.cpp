@@ -55,5 +55,3 @@ OR(1, 2)                                    //R 1 | 2
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  */
-
-

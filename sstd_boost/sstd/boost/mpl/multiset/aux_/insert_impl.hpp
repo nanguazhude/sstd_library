@@ -32,4 +32,3 @@ struct insert_impl< aux::multiset_tag >
 }}
 
 #endif // BOOST_MPL_MULTISET_AUX_INSERT_IMPL_HPP_INCLUDED
-

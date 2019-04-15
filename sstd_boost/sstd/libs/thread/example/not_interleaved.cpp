@@ -60,5 +60,3 @@ int main()
   mcout << nm << '\n';
   return 0;
 }
-
-

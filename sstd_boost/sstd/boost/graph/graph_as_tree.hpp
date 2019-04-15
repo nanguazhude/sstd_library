@@ -148,4 +148,3 @@ namespace boost {
 } // namespace boost
 
 #endif //  BOOST_GRAPH_GRAPH_AS_TREE_HPP
-

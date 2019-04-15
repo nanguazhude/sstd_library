@@ -44,4 +44,3 @@ void serialize(Archive& ar, ptr_circular_buffer<T, CloneAllocator, Allocator>& c
 } // namespace boost
 
 #endif
-

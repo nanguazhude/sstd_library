@@ -98,4 +98,3 @@ BOOST_HOF_TEST_CASE()
     BOOST_HOF_TEST_CHECK(r == 5*4*3*2*1);
     BOOST_HOF_TEST_CHECK(boost::hof::fix(factorial_move_t())(5) == 5*4*3*2*1);
 }
-

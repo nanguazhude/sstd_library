@@ -126,4 +126,3 @@ void insertion_sort_uninitialized_copy
 }} //namespace boost {  namespace movelib{
 
 #endif //#ifndef BOOST_MOVE_DETAIL_INSERT_SORT_HPP
-

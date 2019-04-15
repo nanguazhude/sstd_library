@@ -215,4 +215,3 @@ UNORDERED_AUTO_TEST (exhaustive_collide3_tests) {
 }
 
 RUN_TESTS()
-

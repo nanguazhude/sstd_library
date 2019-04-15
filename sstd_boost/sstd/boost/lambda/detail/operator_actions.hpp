@@ -130,11 +130,3 @@ template<> struct is_protectable<other_action<assignment_action> > {
 } // namespace boost
 
 #endif
-
-
-
-
-
-
-
-

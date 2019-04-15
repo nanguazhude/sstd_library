@@ -39,4 +39,3 @@ public: // std::exception interface
 } // namespace boost
 
 #endif // BOOST_VARIANT_BAD_VISIT_HPP
-

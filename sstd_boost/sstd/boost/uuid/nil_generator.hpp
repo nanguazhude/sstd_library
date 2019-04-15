@@ -31,5 +31,3 @@ inline uuid nil_uuid() {
 }} // namespace boost::uuids
 
 #endif // BOOST_UUID_NIL_GENERATOR_HPP
-
-

@@ -362,4 +362,3 @@ pmd_normalize(pmd_offer& offer)
 } // boost
 
 #endif
-

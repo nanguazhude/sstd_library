@@ -1739,4 +1739,3 @@ namespace boost { namespace numeric {
         typedef Trunc<long double> rounding_policy;
     };
 }}
-

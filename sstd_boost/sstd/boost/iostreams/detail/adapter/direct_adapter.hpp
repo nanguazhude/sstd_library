@@ -280,4 +280,3 @@ void direct_adapter<Direct>::close(BOOST_IOS::openmode which)
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_DIRECT_ADAPTER_HPP_INCLUDED
-

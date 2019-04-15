@@ -83,4 +83,3 @@ I pi_twice()
 } // namespace boost
 
 #endif // BOOST_NUMERIC_INTERVAL_CONSTANTS_HPP
-

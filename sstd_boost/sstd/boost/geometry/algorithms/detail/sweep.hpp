@@ -85,4 +85,3 @@ inline void sweep(Range const& range, PriorityQueue& queue,
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_SWEEP_HPP
-

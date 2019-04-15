@@ -64,4 +64,3 @@ comparable_distance_far(Point const& pt, Indexable const& i)
 }}}} // namespace boost::geometry::index::detail
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_ALGORITHMS_COMPARABLE_DISTANCE_FAR_HPP
-

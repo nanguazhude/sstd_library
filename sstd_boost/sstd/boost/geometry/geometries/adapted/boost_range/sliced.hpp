@@ -33,5 +33,3 @@ struct tag<boost::adaptors::sliced_range<Geometry> >
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_ADAPTED_BOOST_RANGE_SLICED_HPP
-
-

@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/support/category_of.hpp>
 
 #endif
-

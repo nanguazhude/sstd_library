@@ -206,4 +206,3 @@ public:
 } // namespace boost
 
 #endif // BOOST_RANDOM_XOR_COMBINE_HPP
-

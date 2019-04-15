@@ -37,4 +37,3 @@ namespace boost
 }
 
 #endif // BOOST_COPYRIGHT_CHECK_HPP
-

@@ -188,5 +188,3 @@ namespace projections
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_LOXIM_HPP
-
-

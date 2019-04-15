@@ -41,5 +41,3 @@ int test_main(int, char*[])
   BOOST_CHECK(get(color, (vertices_size_type)E) == 1);
   return 0;
 }
-
-

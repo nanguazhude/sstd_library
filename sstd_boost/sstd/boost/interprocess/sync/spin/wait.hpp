@@ -183,4 +183,3 @@ class spin_wait
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif // #ifndef BOOST_INTERPROCESS_SYNC_WAIT_HPP_INCLUDED
-

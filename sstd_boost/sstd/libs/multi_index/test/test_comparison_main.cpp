@@ -16,5 +16,3 @@ int main()
   test_comparison();
   return boost::report_errors();
 }
-
-

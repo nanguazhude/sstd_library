@@ -273,4 +273,3 @@ BOOST_FORCEINLINE bool big_endian()
 }}  // namespace boost::gil
 
 #endif
-

@@ -97,4 +97,3 @@ constexpr bool has_member_qualifiers_v = //see below
 //]
 
 #endif //BOOST_CLBL_TRTS_HAS_MEMBER_QUALIFIERS_HPP
-

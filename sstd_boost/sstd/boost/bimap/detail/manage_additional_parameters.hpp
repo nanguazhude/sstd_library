@@ -240,5 +240,3 @@ struct manage_additional_parameters
 
 
 #endif // BOOST_BIMAP_DETAIL_MANAGE_ADDITIONAL_PARAMETERS_HPP
-
-

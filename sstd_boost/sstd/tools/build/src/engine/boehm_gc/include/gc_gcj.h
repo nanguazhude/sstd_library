@@ -92,4 +92,3 @@ extern int GC_gcj_debug_kind;
 # endif
 
 #endif /* GC_GCJ_H */
-

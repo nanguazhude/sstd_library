@@ -214,4 +214,3 @@ BOOST_AUTO_TEST_CASE(test_thread_member_function_one_argument)
     function.join();
     BOOST_CHECK_EQUAL(42,x.arg_value);
 }
-

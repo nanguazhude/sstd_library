@@ -121,4 +121,3 @@ namespace date_time {
 }} // namespaces
 
 #endif // DATE_TIME_C_TIME_HPP___
-

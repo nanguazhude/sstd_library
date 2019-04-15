@@ -369,4 +369,3 @@ using distributed::boman_et_al_graph_coloring;
 } } // end namespace boost::graph
 
 #endif // BOOST_GRAPH_DISTRIBUTED_BOMAN_ET_AL_GRAPH_COLORING_HPP
-

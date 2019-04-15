@@ -37,4 +37,3 @@ struct is_device_iterator<const Iterator> : is_device_iterator<Iterator> {};
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_TYPE_TRAITS_IS_DEVICE_ITERATOR_HPP
-

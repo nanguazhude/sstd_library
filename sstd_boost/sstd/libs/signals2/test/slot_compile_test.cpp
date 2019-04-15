@@ -25,4 +25,3 @@ int test_main(int, char*[])
   boost::signals2::slot<void (void)> sl0(&myslot);
   return 0;
 }
-

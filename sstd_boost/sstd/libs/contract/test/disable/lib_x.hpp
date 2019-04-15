@@ -27,5 +27,3 @@
 void BOOST_CONTRACT_TEST_LIB_X_DECLSPEC x();
 
 #endif
-
-

@@ -1137,4 +1137,3 @@ GC_API void GC_use_DllMain(void);
 #endif
 
 #endif /* _GC_H */
-

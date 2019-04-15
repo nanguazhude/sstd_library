@@ -108,4 +108,3 @@ public:
 #include <sstd/boost/archive/detail/abi_suffix.hpp> // pop pragmas
 
 #endif //BOOST_ARCHIVE_CODECVT_NULL_HPP
-

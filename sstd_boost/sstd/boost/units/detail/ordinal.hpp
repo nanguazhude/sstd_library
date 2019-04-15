@@ -47,4 +47,3 @@ struct less_impl<units::detail::ordinal_tag, units::detail::ordinal_tag> {
 }
 
 #endif
-

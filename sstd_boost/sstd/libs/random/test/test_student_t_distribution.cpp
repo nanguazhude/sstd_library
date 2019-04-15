@@ -27,4 +27,3 @@
 #define BOOST_RANDOM_TEST2_PARAMS (100.0)
 
 #include "test_distribution.ipp"
-

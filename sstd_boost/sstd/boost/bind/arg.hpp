@@ -67,4 +67,3 @@ template< int I > struct is_placeholder< arg<I> (*) () >
 } // namespace boost
 
 #endif // #ifndef BOOST_BIND_ARG_HPP_INCLUDED
-

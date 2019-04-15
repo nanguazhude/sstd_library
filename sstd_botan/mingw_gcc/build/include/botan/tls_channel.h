@@ -1,4 +1,4 @@
-/*
+﻿/*
 * TLS Channel
 * (C) 2011,2012,2014,2015 Jack Lloyd
 *     2016 Matthias Gierlings

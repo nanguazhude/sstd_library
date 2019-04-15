@@ -47,4 +47,3 @@ typedef mass_base_dimension::dimension_type   mass_dimension;
 } // namespace boost
 
 #endif // BOOST_UNITS_MASS_BASE_DIMENSION_HPP
-

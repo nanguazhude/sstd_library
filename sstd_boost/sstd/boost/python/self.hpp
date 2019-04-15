@@ -31,4 +31,3 @@ using self_ns::self;
 }} // namespace boost::python
 
 #endif // SELF_DWA2002531_HPP
-

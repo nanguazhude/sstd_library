@@ -37,5 +37,3 @@
     )
 
 #endif // #include guard
-
-

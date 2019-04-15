@@ -30,4 +30,3 @@ struct has_apply
 }}}
 
 #endif // BOOST_MPL_AUX_HAS_APPLY_HPP_INCLUDED
-

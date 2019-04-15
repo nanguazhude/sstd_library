@@ -24,4 +24,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_TT_IS_MEMBER_FUNCTION_POINTER_HPP_INCLUDED
-

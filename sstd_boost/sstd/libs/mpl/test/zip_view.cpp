@@ -43,4 +43,3 @@ MPL_TEST_CASE()
 
     MPL_ASSERT(( boost::is_same< zip_view<vector<> >, zip_view<vector<> >::type > ));
 }
-

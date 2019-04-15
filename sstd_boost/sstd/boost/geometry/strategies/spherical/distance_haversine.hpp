@@ -333,4 +333,3 @@ struct default_strategy
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_SPHERICAL_DISTANCE_HAVERSINE_HPP
-

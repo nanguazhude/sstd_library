@@ -89,4 +89,3 @@ int main() {
    printf("LINEAR_FIB(10) = %d\n", LINEAR_FIB(10));
    return 0;
 }
-

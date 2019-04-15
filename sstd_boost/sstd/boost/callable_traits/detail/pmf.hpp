@@ -95,4 +95,3 @@ struct pmf : default_callable_traits<T> {};
 }}} // namespace boost::callable_traits::detail
 
 #endif // #ifndef BOOST_CLBL_TRTS_DETAIL_PMF_HPP
-

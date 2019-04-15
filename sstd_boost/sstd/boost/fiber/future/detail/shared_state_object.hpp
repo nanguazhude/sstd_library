@@ -57,4 +57,3 @@ private:
 #endif
 
 #endif // BOOST_FIBERS_DETAIL_SHARED_STATE_OBJECT_H
-

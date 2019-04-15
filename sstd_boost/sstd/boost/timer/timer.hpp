@@ -129,4 +129,3 @@ namespace timer
 #include <sstd/boost/config/abi_suffix.hpp> // pops abi_prefix.hpp pragmas
 
 #endif  // BOOST_TIMER_TIMER_HPP
-

@@ -16,4 +16,3 @@ static_assert(hana::div(6, 3) == 2, "");
 static_assert(hana::div(6, 4) == 1, "");
 
 int main() { }
-

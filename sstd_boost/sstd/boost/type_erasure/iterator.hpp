@@ -306,4 +306,3 @@ struct concept_interface<random_access_iterator<T, Reference, DifferenceType, Va
 }
 
 #endif
-

@@ -20,4 +20,3 @@
 //H 10: t_2_018.cpp(14): #ifndef
 //H 11: t_2_018.cpp(14): #ifndef __FILE__: 1
 //H 10: t_2_018.cpp(18): #endif
-

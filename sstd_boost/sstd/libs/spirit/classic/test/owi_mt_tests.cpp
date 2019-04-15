@@ -239,5 +239,3 @@ main()
 }
 
 #endif // BOOST_HAS_THREADS
-
-

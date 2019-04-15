@@ -492,5 +492,3 @@ void process_script(const std::string& script)
       }
    }
 }
-
-

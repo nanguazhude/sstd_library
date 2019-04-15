@@ -14,4 +14,3 @@
 #include "intersection_pl_pl.cpp"
 #include "union_pl_pl.cpp"
 #include "difference_pl_pl.cpp"
-

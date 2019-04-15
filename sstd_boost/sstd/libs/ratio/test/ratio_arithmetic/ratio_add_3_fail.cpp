@@ -33,5 +33,3 @@ boost::intmax_t test() {
             >()
             );
 }
-
-

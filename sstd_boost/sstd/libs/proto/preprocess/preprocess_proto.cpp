@@ -8,4 +8,3 @@
 #include "../include/boost/proto/context.hpp"
 #include "../include/boost/proto/transform.hpp"
 #include "../include/boost/proto/functional.hpp"
-

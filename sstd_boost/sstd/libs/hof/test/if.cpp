@@ -152,4 +152,3 @@ BOOST_HOF_TEST_CASE()
     static_assert(noexcept(boost::hof::if_(std::is_integral<int>())(boost::hof::identity)(1)), "noexcept if");
 }
 #endif
-

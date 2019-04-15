@@ -92,4 +92,3 @@ inline void assign_point_from_index(Geometry const& geometry, Point& point)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_ASSIGN_INDEXED_POINT_HPP
-

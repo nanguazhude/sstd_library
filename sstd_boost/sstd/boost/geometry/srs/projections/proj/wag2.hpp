@@ -150,5 +150,3 @@ namespace projections
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_WAG2_HPP
-
-

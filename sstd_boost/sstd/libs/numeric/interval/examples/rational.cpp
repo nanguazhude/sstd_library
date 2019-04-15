@@ -41,4 +41,3 @@ int main() {
   std::cout << z << std::endl;
   std::cout << a << std::endl;
 }
-

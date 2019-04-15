@@ -60,4 +60,3 @@ double subtract_time  ( const time_point & t1, const time_point & t2 )
 };//    End namespace boost
 //***************************************************************************
 #endif
-

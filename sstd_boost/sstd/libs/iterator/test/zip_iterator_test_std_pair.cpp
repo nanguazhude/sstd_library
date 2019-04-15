@@ -31,4 +31,3 @@ int main() {}
 #include "detail/zip_iterator_test.ipp"
 
 #endif
-

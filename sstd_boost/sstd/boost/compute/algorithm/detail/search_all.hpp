@@ -84,4 +84,3 @@ private:
 } //end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_SEARCH_ALL_HPP
-

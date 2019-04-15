@@ -54,4 +54,3 @@ int main(int argc, char* argv[]) {
     BOOST_ASSERT(res == 1);
     (void)res;
 }
-

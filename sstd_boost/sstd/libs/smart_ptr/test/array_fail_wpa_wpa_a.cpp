@@ -21,4 +21,3 @@ int main()
     boost::weak_ptr<Y[]> px;
     boost::weak_ptr<X[]> px2; px2 = px;
 }
-

@@ -20,4 +20,3 @@
 #define BOOST_GIL_LIB_VERSION "2_2"
 
 #endif
-

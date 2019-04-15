@@ -63,4 +63,3 @@ void GC_generate_random_backtrace(void);
 void GC_print_backtrace(void *);
 
 #endif /* GC_BACKPTR_H */
-

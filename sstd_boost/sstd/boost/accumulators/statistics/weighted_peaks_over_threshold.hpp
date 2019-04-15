@@ -287,4 +287,3 @@ struct as_feature<tag::weighted_peaks_over_threshold<LeftRight>(with_threshold_p
 #endif
 
 #endif
-

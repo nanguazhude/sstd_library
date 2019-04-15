@@ -17,4 +17,3 @@ constexpr auto lrange = hana::make<hana::range_tag>(hana::int_c<0>, hana::long_c
 BOOST_HANA_CONSTANT_CHECK(lrange == hana::make<hana::range_tag>(hana::long_c<0>, hana::long_c<10>));
 
 int main() { }
-

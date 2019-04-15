@@ -25,4 +25,3 @@ int main() {
         hana::fold_left(hana::make_tuple(2, "3", '4'), "1", show) == "(((1 + 2) + 3) + 4)"
     );
 }
-

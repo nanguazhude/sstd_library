@@ -14,4 +14,3 @@ int main()
   test_iterators();
   return boost::report_errors();
 }
-

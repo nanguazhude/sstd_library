@@ -203,4 +203,3 @@ struct feature_of<tag::weighted_pot_quantile_prob<LeftRight> >
 }} // namespace boost::accumulators
 
 #endif
-

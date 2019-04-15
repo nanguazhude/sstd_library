@@ -87,4 +87,3 @@ enum class file_mode
 } // boost
 
 #endif
-

@@ -15,4 +15,3 @@ BOOST_PYTHON_DECL void stop_iteration_error();
 }}} // namespace boost::python::object
 
 #endif // ITERATOR_CORE_DWA2002512_HPP
-

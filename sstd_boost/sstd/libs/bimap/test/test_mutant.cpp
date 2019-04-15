@@ -101,4 +101,3 @@ int test_main( int, char* [] )
     test_mutant_basic();
     return 0;
 }
-

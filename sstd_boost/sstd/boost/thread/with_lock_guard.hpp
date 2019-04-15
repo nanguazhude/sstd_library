@@ -231,5 +231,3 @@ typename boost::result_of<
 } // namespace boost
 
 #endif // BOOST_THREAD_WITH_LOCK_GUARD_HPP
-
-

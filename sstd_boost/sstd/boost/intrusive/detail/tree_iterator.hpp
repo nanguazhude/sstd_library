@@ -170,4 +170,3 @@ class tree_iterator
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_TREE_ITERATOR_HPP
-

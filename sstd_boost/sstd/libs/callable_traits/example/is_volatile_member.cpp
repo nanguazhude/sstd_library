@@ -30,4 +30,3 @@ static_assert(!ct::is_volatile_member<int(foo::*)()>::value, "");
 int main() {}
 //]
 #endif
-

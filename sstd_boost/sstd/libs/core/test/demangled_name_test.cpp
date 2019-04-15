@@ -21,4 +21,3 @@ int main()
     std::cout << boost::core::demangled_name( BOOST_CORE_TYPEID( T ) );
     return 0;
 }
-

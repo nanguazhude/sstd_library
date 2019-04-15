@@ -53,4 +53,3 @@ inline std::string get_version_string( void )
 }
 
 #endif // BOOST_NUMERIC_ODEINT_VERSION_HPP_INCLUDED
-

@@ -330,4 +330,3 @@ BOOST_AUTO_TEST_CASE( some_test )
     check_global_fixture< GlobalFixtureWithTeardown<&very_bad_exception> >( test_output, ts_main_no_error, true );
 
 }
-

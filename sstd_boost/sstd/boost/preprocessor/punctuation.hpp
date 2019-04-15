@@ -20,4 +20,3 @@
 # include <sstd/boost/preprocessor/punctuation/remove_parens.hpp>
 #
 # endif
-

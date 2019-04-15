@@ -74,5 +74,3 @@ void check(E const& e, A0 const& a0, A1 const& a1, A2 const& a2)
 }
 
 #endif // BOOST_DEDUCED_060920_HPP
-
-

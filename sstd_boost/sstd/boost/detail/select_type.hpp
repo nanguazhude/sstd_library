@@ -34,4 +34,3 @@ namespace boost { namespace detail {
   };
 }}
 #endif // SELECT_TYPE_DWA20010206_HPP
-

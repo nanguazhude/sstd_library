@@ -101,4 +101,3 @@
 /**/
 
 #endif // BOOST_TTI_DETAIL_STATIC_MEM_FUN_HPP
-

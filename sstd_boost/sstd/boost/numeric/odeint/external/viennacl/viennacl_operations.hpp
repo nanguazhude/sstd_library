@@ -224,4 +224,3 @@ struct viennacl_operations : public default_operations {};
 
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_VIENNACL_VIENNACL_OPERATIONS_HPP_INCLUDED
-

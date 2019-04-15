@@ -156,4 +156,3 @@ static inline bool exceeding(int dir,
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_SECTIONS_FUNCTIONS_HPP
-

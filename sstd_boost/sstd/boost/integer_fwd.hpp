@@ -188,4 +188,3 @@ template < typename IntegerType >
 
 
 #endif  // BOOST_INTEGER_FWD_HPP
-

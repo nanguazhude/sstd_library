@@ -24,4 +24,3 @@ main()
     BOOST_CONCEPT_ASSERT((boost::EqualityComparable<foo>));
     return 0;
 }
-

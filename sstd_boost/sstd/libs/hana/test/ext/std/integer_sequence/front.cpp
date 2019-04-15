@@ -29,4 +29,3 @@ int main() {
         std::integral_constant<int, -3>{}
     ));
 }
-

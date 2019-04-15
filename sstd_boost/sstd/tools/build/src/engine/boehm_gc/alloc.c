@@ -1021,4 +1021,3 @@ ptr_t GC_allocobj(size_t gran, int kind)
 
     return(*flh);
 }
-

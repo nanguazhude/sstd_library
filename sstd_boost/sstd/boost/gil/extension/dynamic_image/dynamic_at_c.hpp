@@ -115,4 +115,3 @@ ValueType at_c(std::size_t index) {
 }} // namespace boost::gil
 
 #endif
-

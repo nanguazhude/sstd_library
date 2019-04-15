@@ -21,4 +21,3 @@ int main() { return func(); }
 //H 04: t_2_022.hpp
 //H 05: $B(t_2_022.hpp) ($B(t_2_022.hpp))
 //H 06:
-

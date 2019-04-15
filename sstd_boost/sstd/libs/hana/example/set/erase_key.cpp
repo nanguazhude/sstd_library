@@ -17,4 +17,3 @@ int main() {
     BOOST_HANA_CONSTANT_CHECK(hana::erase_key(xs, hana::type_c<int>) == hana::make_set(hana::int_c<0>, hana::type_c<void>));
     BOOST_HANA_CONSTANT_CHECK(hana::erase_key(xs, hana::type_c<char>) == xs);
 }
-

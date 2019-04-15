@@ -95,4 +95,3 @@ int main(int, char*[])
     print_winsdk_macros();
     return 0;
 }
-

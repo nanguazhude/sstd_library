@@ -39,4 +39,3 @@ typedef posix_fd_set_adapter fd_set_adapter;
 #endif // !defined(BOOST_ASIO_WINDOWS_RUNTIME)
 
 #endif // BOOST_ASIO_DETAIL_FD_SET_ADAPTER_HPP
-

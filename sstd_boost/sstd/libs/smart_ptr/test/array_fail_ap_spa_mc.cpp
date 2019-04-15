@@ -17,4 +17,3 @@ int main()
 {
     boost::shared_ptr<X[]> px2(( std::auto_ptr<X>() ));
 }
-

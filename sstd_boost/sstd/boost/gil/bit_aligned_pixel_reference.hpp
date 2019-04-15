@@ -291,4 +291,3 @@ void swap(const boost::gil::bit_aligned_pixel_reference<B,C,L,true> x, const boo
 }
 }   // namespace std
 #endif
-

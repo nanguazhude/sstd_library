@@ -84,5 +84,3 @@ template<typename T> struct classifier
 } } } // namespace ::boost::function_types::detail
 
 #endif
-
-

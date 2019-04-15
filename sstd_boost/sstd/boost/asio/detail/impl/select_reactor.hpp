@@ -100,4 +100,3 @@ void select_reactor::move_timer(timer_queue<Time_Traits>& queue,
        //       && !defined(BOOST_ASIO_WINDOWS_RUNTIME))
 
 #endif // BOOST_ASIO_DETAIL_IMPL_SELECT_REACTOR_HPP
-

@@ -456,4 +456,3 @@ inline bool experimental_elliptic_intersection(Point3d const& a1, Point3d const&
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_FORMULAS_GEOGRAPHIC_HPP
-

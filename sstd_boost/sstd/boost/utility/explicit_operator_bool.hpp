@@ -15,4 +15,3 @@
 #include <sstd/boost/core/explicit_operator_bool.hpp>
 
 #endif
-

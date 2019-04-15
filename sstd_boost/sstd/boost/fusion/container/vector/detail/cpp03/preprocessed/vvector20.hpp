@@ -503,4 +503,3 @@ namespace boost { namespace fusion
         vector_n vec;
     };
 }}
-

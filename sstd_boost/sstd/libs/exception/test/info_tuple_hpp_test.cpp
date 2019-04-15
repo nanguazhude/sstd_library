@@ -5,4 +5,3 @@
 
 #include <sstd/boost/exception/info_tuple.hpp>
 #include <sstd/boost/exception/info_tuple.hpp>
-

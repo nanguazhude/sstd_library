@@ -16,4 +16,3 @@ static_assert(hana::is_default<method_impl<void>>{}, "");
 static_assert(!hana::is_default<method_impl<int>>{}, "");
 
 int main() { }
-

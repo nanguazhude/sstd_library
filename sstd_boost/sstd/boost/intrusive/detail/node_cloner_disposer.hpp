@@ -103,4 +103,3 @@ struct node_disposer
 }  //namespace boost{
 
 #endif //BOOST_INTRUSIVE_DETAIL_NODE_CLONER_DISPOSER_HPP
-

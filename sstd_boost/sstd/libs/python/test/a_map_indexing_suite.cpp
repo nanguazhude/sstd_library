@@ -88,6 +88,3 @@ void a_map_indexing_suite()
         make_setter(&B::a, return_value_policy<return_by_value>()))
     ;
 }
-
-
-

@@ -39,4 +39,3 @@ int main()
 {
    write_table(16384/*std::numeric_limits<float>::max_exponent*/);
 }
-

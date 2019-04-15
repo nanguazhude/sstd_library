@@ -101,5 +101,3 @@
 #include <sstd/boost/range/algorithm/permutation.hpp>
 
 #endif // include guard
-
-

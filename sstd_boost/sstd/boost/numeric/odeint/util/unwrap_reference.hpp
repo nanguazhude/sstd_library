@@ -164,4 +164,3 @@ using ::boost::ref;
 */
 
 #endif // BOOST_NUMERIC_ODEINT_UTIL_UNWRAP_REFERENCE_HPP_INCLUDED
-

@@ -43,4 +43,3 @@ inline bool is_continuation(Context& context)
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_HANDLER_CONT_HELPERS_HPP
-

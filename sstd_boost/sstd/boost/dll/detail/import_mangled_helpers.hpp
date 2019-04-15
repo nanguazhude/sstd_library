@@ -288,4 +288,3 @@ struct mem_fn_tuple<mem_fn_def<Class, Return(Args...)>> {
 
 }}}}
 #endif /* BOOST_DLL_DETAIL_IMPORT_MANGLED_HELPERS_HPP_ */
-

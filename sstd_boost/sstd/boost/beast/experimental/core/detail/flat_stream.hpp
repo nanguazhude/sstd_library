@@ -62,4 +62,3 @@ public:
 } // boost
 
 #endif
-

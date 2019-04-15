@@ -58,5 +58,3 @@ namespace boost { namespace cnv
 }}
 
 #endif // BOOST_CONVERT_IS_FUNCTION_HPP
-
-

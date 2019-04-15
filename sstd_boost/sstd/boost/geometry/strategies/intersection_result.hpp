@@ -76,4 +76,3 @@ struct segment_intersection_points
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_INTERSECTION_RESULT_HPP
-

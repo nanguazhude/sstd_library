@@ -22,5 +22,3 @@ BOOST_METAPARSE_TEST_CASE(is_char_c)
   // test_for_another_char
   BOOST_MPL_ASSERT_NOT(( is_char_c<'x'>::apply<char_<'y'> > ));
 }
-
-

@@ -61,4 +61,3 @@ BOOST_PYTHON_MODULE(long_ext)
 }
 
 #include "module_tail.cpp"
-

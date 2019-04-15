@@ -16,4 +16,3 @@ BOOST_PYTHON_MODULE(crossmod_exception_b)
 {
     python::def("tossit",tossit);
 }
-

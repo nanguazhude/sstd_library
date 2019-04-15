@@ -48,4 +48,3 @@ struct end_impl< aux::map_tag >
 }}
 
 #endif // BOOST_MPL_MAP_AUX_BEGIN_END_IMPL_HPP_INCLUDED
-

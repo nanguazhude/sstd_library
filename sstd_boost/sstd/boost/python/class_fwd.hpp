@@ -22,4 +22,3 @@ class class_;
 }} // namespace boost::python
 
 #endif // CLASS_FWD_DWA200222_HPP
-

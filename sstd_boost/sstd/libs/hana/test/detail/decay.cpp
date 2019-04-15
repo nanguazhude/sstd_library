@@ -52,4 +52,3 @@ int main() {
     check<void(int, float), void(*)(int, float)>();
     check<void(int, float, ...), void(*)(int, float, ...)>();
 }
-

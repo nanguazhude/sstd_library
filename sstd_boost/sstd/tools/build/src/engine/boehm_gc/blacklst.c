@@ -282,5 +282,3 @@ static word total_stack_black_listed(void)
     }
     return(total * HBLKSIZE);
 }
-
-

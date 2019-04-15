@@ -335,4 +335,3 @@ make_repeat(quant_spec const &spec, sequence<BidiIter> &seq, int mark_nbr)
 }}} // namespace boost::xpressive::detail
 
 #endif
-

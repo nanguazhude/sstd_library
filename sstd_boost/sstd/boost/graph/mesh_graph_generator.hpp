@@ -156,4 +156,3 @@ namespace boost {
 } // end namespace boost
 
 #endif // BOOST_GRAPH_MESH_GENERATOR_HPP
-

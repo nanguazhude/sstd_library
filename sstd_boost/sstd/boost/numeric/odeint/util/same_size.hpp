@@ -113,4 +113,3 @@ struct same_size_impl_sfinae< FusionSeq , FusionSeq , typename boost::enable_if<
 
 
 #endif // BOOST_NUMERIC_ODEINT_UTIL_SAME_SIZE_HPP_INCLUDED
-

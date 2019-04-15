@@ -68,4 +68,3 @@ struct get_header_holder_type< ValueTraits, void >
 } //namespace boost
 
 #endif //BOOST_INTRUSIVE_DETAIL_DEFAULT_HEADER_HOLDER_HPP
-

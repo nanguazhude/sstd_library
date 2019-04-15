@@ -76,4 +76,3 @@ class event : public detail::rtti_policy::rtti_derived_type<
 
 
 #endif
-

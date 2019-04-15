@@ -391,4 +391,3 @@ struct pointlike_linear_point
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_POINTLIKE_LINEAR_HPP
-

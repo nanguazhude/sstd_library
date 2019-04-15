@@ -402,5 +402,3 @@ init_unit_test_suite( int, char* [] )   {
 
 
 #endif // BOOST_TEST_UNIT_TEST_SUITE_HPP_071894GER
-
-

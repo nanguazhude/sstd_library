@@ -37,4 +37,3 @@ MPL_TEST_CASE()
     at_test< numbers, 8 >();
     at_test< numbers, 9 >();
 }
-

@@ -208,4 +208,3 @@ token_is_valid(lex_token<Position> const& t)
 }
 
 #endif // !defined(REAL_POSITION_TOKEN_HPP_HK_061109_INCLUDED)
-

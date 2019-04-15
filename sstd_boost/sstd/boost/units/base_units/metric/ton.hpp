@@ -37,4 +37,3 @@ struct base_unit_info<metric::ton_base_unit> {
 }
 
 #endif // BOOST_UNIT_SYSTEMS_METRIC_TON_HPP_INCLUDED
-

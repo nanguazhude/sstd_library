@@ -60,4 +60,3 @@ std::string boost_regex::name()
    init.do_nothing();
    return boost_name();
 }
-

@@ -52,4 +52,3 @@ namespace assign
 #endif // BOOST_HAS_SLIST
 
 #endif
-

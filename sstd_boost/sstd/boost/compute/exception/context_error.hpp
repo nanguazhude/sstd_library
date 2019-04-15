@@ -86,4 +86,3 @@ private:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_EXCEPTION_CONTEXT_ERROR_HPP
-

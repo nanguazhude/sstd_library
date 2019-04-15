@@ -143,4 +143,3 @@ add_custom_target(test.deploy
   USES_TERMINAL
 )
 add_dependencies(check test.deploy)
-

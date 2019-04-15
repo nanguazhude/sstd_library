@@ -44,4 +44,3 @@ BOOST_MPL_AUX_NA_SPEC(2, transform_view)
 }}
 
 #endif // BOOST_MPL_TRANSFORM_VIEW_HPP_INCLUDED
-

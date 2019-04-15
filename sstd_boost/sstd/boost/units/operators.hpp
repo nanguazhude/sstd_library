@@ -162,4 +162,3 @@ struct root_typeof_helper
 } // namespace boost
 
 #endif // BOOST_UNITS_OPERATORS_HPP
-

@@ -38,5 +38,3 @@ int main() {
     TEST_TRANSACTION_SAFE(int(foo::*)(...));
     TEST_TRANSACTION_SAFE(int(foo::*)(...) const volatile RREF);
 }
-
-

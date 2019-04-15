@@ -118,4 +118,3 @@ namespace boost { namespace callable_traits { namespace detail {
 }}} // namespace boost::callable_traits::detail
 
 #endif //BOOST_CLBL_TRTS_DETAIL_SET_FUNCTION_QUALIFIERS_HPP
-

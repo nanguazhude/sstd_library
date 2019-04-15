@@ -76,4 +76,3 @@ struct select_sequence_element<Seq, Pred, N, N>
 
 
 #endif // BOOST_GEOMETRY_UTIL_SELECT_SEQUENCE_ELEMENT
-

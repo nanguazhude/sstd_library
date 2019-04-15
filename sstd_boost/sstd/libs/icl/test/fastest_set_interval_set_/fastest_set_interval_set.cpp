@@ -33,6 +33,3 @@ using namespace boost::icl;
 #include "../test_set_interval_set_shared.hpp"
 
 #include "fastest_set_interval_set_cases.hpp"
-
-
-

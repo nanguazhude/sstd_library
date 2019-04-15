@@ -23,4 +23,3 @@ int main() {
 
     hana::test::TestConstant<minimal_constant_tag<int>>{ints, convertible_types};
 }
-

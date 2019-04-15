@@ -14,4 +14,3 @@ void compile_and_link_test()
     boost::math::quadrature::exp_sinh<boost::math::concepts::std_real_concept> integrator;
     integrator.integrate(f, a);
 }
-

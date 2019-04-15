@@ -111,4 +111,3 @@ BOOST_AUTO_TEST_CASE(nth_element_comparator)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

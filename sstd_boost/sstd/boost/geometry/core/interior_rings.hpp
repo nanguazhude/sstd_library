@@ -148,4 +148,3 @@ inline typename interior_return_type<Polygon const>::type interior_rings(
 
 
 #endif // BOOST_GEOMETRY_CORE_INTERIOR_RINGS_HPP
-

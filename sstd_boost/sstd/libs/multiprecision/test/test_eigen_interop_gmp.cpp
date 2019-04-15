@@ -14,4 +14,3 @@ int main()
    test_integer_type<boost::multiprecision::mpq_rational>();
    return 0;
 }
-

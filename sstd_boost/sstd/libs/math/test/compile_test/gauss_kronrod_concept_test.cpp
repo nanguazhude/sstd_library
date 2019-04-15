@@ -15,4 +15,3 @@ void compile_and_link_test()
     boost::math::quadrature::gauss_kronrod<boost::math::concepts::std_real_concept, 7> integrator;
     integrator.integrate(f, a, b);
 }
-

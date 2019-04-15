@@ -219,4 +219,3 @@ BOOST_AUTO_TEST_CASE(count_if_with_reduce)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

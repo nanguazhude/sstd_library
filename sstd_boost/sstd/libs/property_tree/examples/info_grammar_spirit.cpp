@@ -150,4 +150,3 @@ int main()
     info_parse(data2);
 
 }
-

@@ -133,5 +133,3 @@ namespace boost{ namespace icl
 }} // namespace boost icl
 
 #endif // BOOST_ICL_INTERVAL_HPP_JOFA_101014
-
-

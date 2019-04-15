@@ -56,4 +56,3 @@ inline st_pair function_from_main_translation_unit(int i) {
         return ret;
     }
 }
-

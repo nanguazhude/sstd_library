@@ -533,4 +533,3 @@ BEAST_DEFINE_TESTSUITE(beast,websocket,handshake);
 } // websocket
 } // beast
 } // boost
-

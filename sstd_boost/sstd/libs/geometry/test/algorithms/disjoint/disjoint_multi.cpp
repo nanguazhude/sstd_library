@@ -127,4 +127,3 @@ select geometry::STGeomFromText('MULTIPOLYGON(((2 2,2 8,8 8,8 2,2 2)),((20 0,20 
  select p from viewy union all select q from viewy
 -- select p.STDisjoint(q) from viewy
 */
-

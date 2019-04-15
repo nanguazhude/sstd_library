@@ -108,4 +108,3 @@ namespace boost { namespace spirit
 }}
 
 #endif
-

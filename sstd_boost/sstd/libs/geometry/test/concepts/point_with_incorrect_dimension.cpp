@@ -57,4 +57,3 @@ int main()
     test::function_asserting_a_point(p1, p2);
     return 0;
 }
-

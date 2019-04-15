@@ -37,4 +37,3 @@ TT_TEST_BEGIN(common_type_6)
     BOOST_CHECK_TYPE3(tt::common_type<X const&, Y const&>::type, X);
 }
 TT_TEST_END
-

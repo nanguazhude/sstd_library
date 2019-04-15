@@ -219,4 +219,3 @@ struct set_kernel_arg<image_sampler>
 BOOST_COMPUTE_TYPE_NAME(boost::compute::image_sampler, sampler_t)
 
 #endif // BOOST_COMPUTE_IMAGE_IMAGE_SAMPLER_HPP
-

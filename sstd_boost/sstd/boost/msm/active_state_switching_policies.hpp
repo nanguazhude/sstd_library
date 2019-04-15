@@ -53,4 +53,3 @@ struct active_state_switch_after_transition_action
 
 } }//boost::msm
 #endif //BOOST_MSM_ACTIVE_STATE_SWITCHING_POLICIES_H
-

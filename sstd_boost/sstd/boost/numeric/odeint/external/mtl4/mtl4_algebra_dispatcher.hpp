@@ -97,4 +97,3 @@ struct vector_space_norm_inf< mtl::compressed2D< Value , Parameters > >
 }
 
 #endif // BOOST_NUMERIC_ODEINT_MTL4_MTL4_ALGEBRA_DISPATCHER_INCLUDED
-

@@ -146,4 +146,3 @@ namespace converter
 }} // namespace boost::python
 
 #endif // LIST_DWA2002627_HPP
-

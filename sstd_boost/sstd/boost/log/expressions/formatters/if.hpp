@@ -317,4 +317,3 @@ struct is_nullary< custom_terminal< boost::log::expressions::aux::if_else_output
 #include <sstd/boost/log/detail/footer.hpp>
 
 #endif // BOOST_LOG_EXPRESSIONS_FORMATTERS_IF_HPP_INCLUDED_
-

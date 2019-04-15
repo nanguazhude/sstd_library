@@ -174,4 +174,3 @@ Some performance plots of runtime vs. n and log(range) are provided:\n
 }
 
 #endif
-

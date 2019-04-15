@@ -54,4 +54,3 @@ struct static_holder:holder_marker
 } /* namespace boost */
 
 #endif
-

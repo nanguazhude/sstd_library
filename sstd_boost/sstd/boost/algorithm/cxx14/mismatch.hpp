@@ -63,4 +63,3 @@ BOOST_CXX14_CONSTEXPR std::pair<InputIterator1, InputIterator2> mismatch (
 }} // namespace boost and algorithm
 
 #endif // BOOST_ALGORITHM_MISMATCH_HPP
-

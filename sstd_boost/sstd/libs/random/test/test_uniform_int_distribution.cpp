@@ -40,4 +40,3 @@
 #define BOOST_RANDOM_UNIFORM_INT boost::random::uniform_int_distribution
 
 #include "test_uniform_int.ipp"
-

@@ -279,12 +279,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::has_trivial_move_constructor<copyable_non_mo
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

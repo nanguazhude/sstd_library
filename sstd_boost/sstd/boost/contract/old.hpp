@@ -807,5 +807,3 @@ inline bool copy_old(virtual_* v) {
 #endif
 
 #endif // #include guard
-
-

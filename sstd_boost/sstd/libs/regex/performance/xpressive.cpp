@@ -71,5 +71,3 @@ std::string xpressive_regex::name()
    init.do_nothing();
    return "boost::xpressive::cregex";
 }
-
-

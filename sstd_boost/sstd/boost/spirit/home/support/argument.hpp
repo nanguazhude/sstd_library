@@ -215,4 +215,3 @@ namespace boost { namespace spirit
 
 #undef SPIRIT_DECLARE_ARG
 #endif
-

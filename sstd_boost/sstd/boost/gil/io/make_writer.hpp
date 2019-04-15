@@ -189,4 +189,3 @@ make_writer( Device&          file
 } // namespace boost
 
 #endif
-

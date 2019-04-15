@@ -11,4 +11,3 @@ namespace indirect_traits = boost::detail::indirect_traits;
 }} // namespace boost::python::detail
 
 #endif // INDIRECT_TRAITS_DWA2004915_HPP
-

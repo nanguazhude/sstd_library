@@ -491,6 +491,3 @@ inline typename enable_if<
 }} //namespaces
 
 #endif
-
-
-

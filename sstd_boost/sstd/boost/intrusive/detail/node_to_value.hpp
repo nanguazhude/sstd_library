@@ -128,4 +128,3 @@ struct node_to_value
 }  //namespace boost{
 
 #endif //BOOST_INTRUSIVE_DETAIL_NODE_TO_VALUE_HPP
-

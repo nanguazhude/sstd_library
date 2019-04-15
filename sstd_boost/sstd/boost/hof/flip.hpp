@@ -105,4 +105,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(flip, detail::make<flip_adaptor>);
 }} // namespace boost::hof
 
 #endif
-

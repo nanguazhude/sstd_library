@@ -148,4 +148,3 @@ struct negate_impl<boost::units::detail::dimension_list_tag>
 } // namespace boost
 
 #endif // BOOST_UNITS_DIMENSION_HPP
-

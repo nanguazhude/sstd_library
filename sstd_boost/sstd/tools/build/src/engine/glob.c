@@ -150,4 +150,3 @@ static void globchars( const char * s,  const char * e, char * b )
     /* Do not include \0 in either $[chars] or $[^chars]. */
     b[0] &= 0376;
 }
-

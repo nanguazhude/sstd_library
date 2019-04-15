@@ -52,4 +52,3 @@ int main ()
 }
 //]
 #include <sstd/boost/container/detail/config_end.hpp>
-

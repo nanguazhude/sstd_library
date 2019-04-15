@@ -50,4 +50,3 @@ int main() {
         std::integer_sequence<U, 0, 1, 2, 3>{}
     )));
 }
-

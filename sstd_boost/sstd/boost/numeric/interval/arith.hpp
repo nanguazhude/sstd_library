@@ -303,4 +303,3 @@ interval<T, Policies> operator/(const interval<T, Policies>& x, const T& y)
 } // namespace boost
 
 #endif // BOOST_NUMERIC_INTERVAL_ARITH_HPP
-

@@ -132,5 +132,3 @@ struct exit_pseudo_state : public boost::msm::front::detail::state_base<BASE> , 
 }}}
 
 #endif //BOOST_MSM_FRONT_STATES_H
-
-

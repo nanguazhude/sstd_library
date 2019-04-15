@@ -63,4 +63,3 @@ void read_input_test()
 }
 
 #endif // #ifndef BOOST_IOSTREAMS_TEST_READ_INPUT_HPP_INCLUDED
-

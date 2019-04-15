@@ -33,12 +33,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT((::tt::is_convertible<int(), int(&&)()>::value), t
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

@@ -24,4 +24,3 @@ int main() {
         sum_string(BOOST_HANA_STRING("1234")) == hana::int_c<1 + 2 + 3 + 4>
     );
 }
-

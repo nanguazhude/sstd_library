@@ -64,4 +64,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_SEQUENCE_ARITY_HPP */
-

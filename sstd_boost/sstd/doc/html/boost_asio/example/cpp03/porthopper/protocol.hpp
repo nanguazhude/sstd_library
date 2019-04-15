@@ -154,4 +154,3 @@ private:
 };
 
 #endif // PORTHOPPER_PROTOCOL_HPP
-

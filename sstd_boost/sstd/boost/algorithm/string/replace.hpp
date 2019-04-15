@@ -924,4 +924,3 @@ namespace boost {
 } // namespace boost
 
 #endif  // BOOST_REPLACE_HPP
-

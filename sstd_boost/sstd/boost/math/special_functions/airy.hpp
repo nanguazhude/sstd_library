@@ -467,4 +467,3 @@ inline OutputIterator airy_bi_zero(
 }} // namespaces
 
 #endif // BOOST_MATH_AIRY_HPP
-

@@ -44,4 +44,3 @@ int test_main(int, char*[])
 #endif // BOOST_SIGNALS2_NAMED_SIGNATURE_PARAMETER
   return 0;
 }
-

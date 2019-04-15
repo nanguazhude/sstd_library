@@ -28,4 +28,3 @@ struct negate_impl< rational_c_tag >
 }
 
 #endif  // BOOST_RATIO_MPL_NEGATE_HPP
-

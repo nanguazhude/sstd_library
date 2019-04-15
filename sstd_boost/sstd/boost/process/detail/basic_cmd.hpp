@@ -290,4 +290,3 @@ struct initializer_builder<cmd_or_exe_tag<wchar_t>>
 
 
 #endif /* BOOST_PROCESS_DETAIL_EXE_BUILDER_HPP_ */
-

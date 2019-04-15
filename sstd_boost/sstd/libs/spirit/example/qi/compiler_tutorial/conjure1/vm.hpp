@@ -79,5 +79,3 @@ namespace client
 }
 
 #endif
-
-

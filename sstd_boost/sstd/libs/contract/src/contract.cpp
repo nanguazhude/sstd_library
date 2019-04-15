@@ -10,5 +10,3 @@
     #define BOOST_CONTRACT_SOURCE
     #include <sstd/boost/contract/detail/inlined.hpp>
 #endif // Else (header-only), make sure nothing is compiled here.
-
-

@@ -71,4 +71,3 @@ struct type_info_implementation< const T > {       \
 /**/
 
 #endif /// BOOST_SERIALIZATION_TYPE_INFO_IMPLEMENTATION_HPP
-

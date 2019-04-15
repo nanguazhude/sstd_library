@@ -71,4 +71,3 @@ typedef node_iter<node_base> node_iterator;
 typedef node_iter<node_base const> node_const_iterator;
 
 #endif // NODE_ITERATOR2_DWA2004110_HPP
-

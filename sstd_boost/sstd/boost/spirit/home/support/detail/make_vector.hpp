@@ -112,4 +112,3 @@ namespace boost { namespace spirit { namespace detail
 #undef N
 #endif // defined(BOOST_PP_IS_ITERATING)
 #endif // (BOOST_VERSION > 103800)
-

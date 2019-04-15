@@ -876,4 +876,3 @@ struct coroutine_traits<
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_EXPERIMENTAL_IMPL_CO_SPAWN_HPP
-

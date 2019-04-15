@@ -96,6 +96,3 @@ struct data_with_functor_bag :
 #endif
 
 #endif // BOOST_BIMAP_CONTAINER_ADAPTOR_DETAIL_FUNCTOR_BAG_HPP
-
-
-

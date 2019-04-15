@@ -93,4 +93,3 @@ constexpr bool is_noexcept_v = //see below
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_IS_NOEXCEPT_HPP
-

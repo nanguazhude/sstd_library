@@ -65,4 +65,3 @@ BOOST_PYTHON_MODULE(return_arg_ext)
 }
 
 #include "module_tail.cpp"
-

@@ -162,5 +162,3 @@ main()
     operators_tests();
     return boost::report_errors();
 }
-
-

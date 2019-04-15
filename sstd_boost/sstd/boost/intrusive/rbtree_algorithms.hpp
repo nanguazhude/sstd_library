@@ -620,4 +620,3 @@ struct get_node_checker<RbTreeAlgorithms, ValueTraits, NodePtrCompare, ExtraChec
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_RBTREE_ALGORITHMS_HPP
-

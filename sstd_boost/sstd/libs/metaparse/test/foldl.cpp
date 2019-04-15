@@ -22,5 +22,3 @@ namespace
 #define TEST_NAME foldl
 
 #include "repeated_test.hpp"
-
-

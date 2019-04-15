@@ -54,4 +54,3 @@ namespace boost { namespace spirit { namespace support { namespace detail
 
 #include <sstd/boost/spirit/home/support/char_set/range_run_impl.hpp>
 #endif
-

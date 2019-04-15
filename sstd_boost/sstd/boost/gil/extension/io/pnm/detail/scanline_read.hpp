@@ -246,4 +246,3 @@ private:
 } // namespace boost
 
 #endif
-

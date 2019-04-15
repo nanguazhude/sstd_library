@@ -216,4 +216,3 @@ void test_spots(T, const char* type_name)
     BOOST_MATH_CHECK_THROW(boost::math::ellint_3(T(1), T(-0.5), T(2)), std::domain_error);
     BOOST_MATH_CHECK_THROW(boost::math::ellint_3(T(1), T(-0.5), T(-2)), std::domain_error);
 }
-

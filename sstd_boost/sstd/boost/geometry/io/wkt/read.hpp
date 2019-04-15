@@ -905,4 +905,3 @@ inline void read_wkt(std::string const& wkt, Geometry& geometry)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_IO_WKT_READ_HPP
-

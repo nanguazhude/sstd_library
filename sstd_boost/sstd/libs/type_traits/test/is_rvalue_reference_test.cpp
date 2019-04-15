@@ -44,12 +44,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_rvalue_reference<int (&&)[2]>::value, tru
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

@@ -180,5 +180,3 @@ BOOST_AUTO_TEST_CASE(test_condition_wait_is_a_interruption_point)
 {
     timed_test(&do_test_condition_wait_is_a_interruption_point, 1);
 }
-
-

@@ -34,4 +34,3 @@ struct default_color_converter_impl<gray_t,rgba_t>
 }} // namespace boost::gil
 
 #endif
-

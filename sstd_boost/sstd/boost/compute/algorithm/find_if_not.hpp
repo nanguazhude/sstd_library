@@ -47,4 +47,3 @@ inline InputIterator find_if_not(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_FIND_IF_NOT_HPP
-

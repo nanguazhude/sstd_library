@@ -29,4 +29,3 @@ typedef unit<resistivity_dimension,si::system>    resistivity;
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_RESISTIVITY_HPP
-

@@ -160,4 +160,3 @@ struct operations :
 } // namespace boost
 
 #endif // BOOST_ATOMIC_DETAIL_OPS_EMULATED_HPP_INCLUDED_
-

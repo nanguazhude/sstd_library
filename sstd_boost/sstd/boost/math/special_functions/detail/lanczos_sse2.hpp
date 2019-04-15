@@ -213,9 +213,3 @@ inline long double lanczos13m53::lanczos_sum_expG_scaled<long double>(const long
 #undef ALIGN16
 
 #endif // BOOST_MATH_SPECIAL_FUNCTIONS_LANCZOS
-
-
-
-
-
-

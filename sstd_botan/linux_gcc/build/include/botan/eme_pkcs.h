@@ -1,4 +1,4 @@
-/*
+﻿/*
 * EME PKCS#1 v1.5
 * (C) 1999-2007 Jack Lloyd
 *

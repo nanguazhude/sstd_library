@@ -4,5 +4,3 @@
 int main() {
   boost::filesystem::path("/abc").root_directory();
 }
-
-

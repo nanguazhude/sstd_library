@@ -381,4 +381,3 @@ get(
 } // namespace boost
 
 #endif // BOOST_VARIANT_GET_HPP
-

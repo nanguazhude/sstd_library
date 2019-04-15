@@ -136,4 +136,3 @@ BOOST_AUTO_TEST_CASE(calling)
     BOOST_CHECK(p2.dispatch(disp));
     BOOST_CHECK(p3.dispatch(disp));
 }
-

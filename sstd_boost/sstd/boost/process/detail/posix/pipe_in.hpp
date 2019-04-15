@@ -88,4 +88,3 @@ struct async_pipe_in : public pipe_in
 }}}}
 
 #endif
-

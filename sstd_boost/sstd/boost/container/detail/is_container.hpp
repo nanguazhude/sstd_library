@@ -53,4 +53,3 @@ struct is_container
 }  //namespace boost {
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_IS_CONTAINER_HPP
-

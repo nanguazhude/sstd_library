@@ -190,5 +190,3 @@ BOOST_HOF_TEST_CASE()
     // This test will pass because we have limited the number of parameters.
     BOOST_HOF_TEST_CHECK(boost::hof::match(negate, sub)(0, 1) == sub(0, 1));
 }
-
-

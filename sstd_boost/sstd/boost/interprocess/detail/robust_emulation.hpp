@@ -383,4 +383,3 @@ inline bool robust_spin_mutex<Mutex>::lock_own_unique_file()
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif
-

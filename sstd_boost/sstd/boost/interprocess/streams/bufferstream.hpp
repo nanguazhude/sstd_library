@@ -489,4 +489,3 @@ typedef basic_obufferstream<wchar_t> wobufferstream;
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif /* BOOST_INTERPROCESS_BUFFERSTREAM_HPP */
-

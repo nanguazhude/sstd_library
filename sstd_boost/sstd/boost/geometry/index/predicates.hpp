@@ -427,4 +427,3 @@ operator&&(boost::tuples::cons<Head, Tail> const& t, Pred const& p)
 }}} // namespace boost::geometry::index
 
 #endif // BOOST_GEOMETRY_INDEX_PREDICATES_HPP
-

@@ -67,4 +67,3 @@ string_as( const_string str, T& res )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_UTILS_STRING_CAST_HPP
-

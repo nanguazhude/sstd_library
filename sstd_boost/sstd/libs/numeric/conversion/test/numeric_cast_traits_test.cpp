@@ -378,4 +378,3 @@ int test_main( int argc, char * argv[] )
 
 #undef BOOST_TEST_CATCH_CUSTOM_POSITIVE_OVERFLOW
 #undef BOOST_TEST_CATCH_CUSTOM_NEGATIVE_OVERFLOW
-

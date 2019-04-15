@@ -114,4 +114,3 @@ int main() {
     BOOST_HANA_CONSTEXPR_CHECK(hana::front(repeat(1)) == 1);
     BOOST_HANA_CONSTEXPR_CHECK(hana::at(repeat(1), hana::size_c<10>) == 1);
 }
-

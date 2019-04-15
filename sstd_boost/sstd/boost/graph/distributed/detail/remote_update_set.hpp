@@ -257,4 +257,3 @@ private:
 } } } // end namespace boost::graph::detail
 
 #endif // BOOST_GRAPH_DETAIL_REMOTE_UPDATE_SET_HPP
-

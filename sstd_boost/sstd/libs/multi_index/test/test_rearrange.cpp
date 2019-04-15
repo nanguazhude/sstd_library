@@ -130,4 +130,3 @@ void test_rearrange()
 
   local_test_rearrange<int_vector>();
 }
-

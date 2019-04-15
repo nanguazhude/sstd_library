@@ -1232,6 +1232,3 @@ elements_rend(const Type& object)
 }} // namespace boost icl
 
 #endif
-
-
-

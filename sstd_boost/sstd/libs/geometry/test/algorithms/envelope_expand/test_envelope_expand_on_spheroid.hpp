@@ -358,4 +358,3 @@ struct initialize_box<Box, 3>
 };
 
 #endif // BOOST_GEOMETRY_TEST_ENVELOPE_EXPAND_ON_SPHEROID_HPP
-

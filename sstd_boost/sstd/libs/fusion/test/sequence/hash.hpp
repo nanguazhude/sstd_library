@@ -33,4 +33,3 @@ void hash_test()
     const FUSION_SEQUENCE<int, char, bool, std::string> z(42, 'x', false, "quae vindice nullo");
     BOOST_TEST(fusion::hash_value(z) != fusion::hash_value(v0));
 }
-

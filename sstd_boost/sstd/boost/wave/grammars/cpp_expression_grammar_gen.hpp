@@ -73,4 +73,3 @@ struct BOOST_WAVE_DECL expression_grammar_gen {
 #endif
 
 #endif // !defined(CPP_EXPRESSION_GRAMMAR_GEN_HPP_42399258_6CDC_4101_863D_5C7D95B5A6CA_INCLUDED)
-

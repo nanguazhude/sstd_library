@@ -124,4 +124,3 @@ std::string get_std_name(std::string const &name,std::string *real_name = 0)
 
 #endif
 // vim: tabstop=4 expandtab shiftwidth=4 softtabstop=4
-

@@ -244,4 +244,3 @@ inline std::string convert(const wchar_t  * begin, const wchar_t *end,
 
 
 #endif /* BOOST_PROCESS_LOCALE_HPP_ */
-

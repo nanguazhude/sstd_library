@@ -231,4 +231,3 @@ struct transposed_type<image_view<L> > {
 }}  // namespace boost::gil
 
 #endif
-

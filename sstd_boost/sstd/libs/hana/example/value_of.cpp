@@ -14,4 +14,3 @@ int main() {
     constexpr auto vs = hana::transform(xs, hana::value_of);
     static_assert(vs == hana::make_tuple(1, 2, 3, 4, 5), "");
 }
-

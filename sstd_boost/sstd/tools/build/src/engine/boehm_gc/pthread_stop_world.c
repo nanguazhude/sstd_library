@@ -535,4 +535,3 @@ void GC_stop_init() {
 }
 
 #endif
-

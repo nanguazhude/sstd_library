@@ -148,4 +148,3 @@
 #endif
 
 #endif // BOOST_ATOMIC_DETAIL_CONFIG_HPP_INCLUDED_
-

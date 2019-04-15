@@ -12,4 +12,3 @@ namespace hana = boost::hana;
 static_assert(hana::cycle(hana::make_tuple('x', 'y'), hana::size_c<2>) == hana::make_tuple('x', 'y', 'x', 'y'), "");
 
 int main() { }
-

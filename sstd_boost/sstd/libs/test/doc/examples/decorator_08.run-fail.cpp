@@ -55,4 +55,3 @@ BOOST_AUTO_TEST_CASE(test4,
   BOOST_TEST(false);
 }
 //]
-

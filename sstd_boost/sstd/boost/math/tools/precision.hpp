@@ -406,5 +406,3 @@ inline BOOST_MATH_CONSTEXPR T forth_root_epsilon() BOOST_NOEXCEPT_IF(BOOST_MATH_
 } // namespace boost
 
 #endif // BOOST_MATH_TOOLS_PRECISION_INCLUDED
-
-

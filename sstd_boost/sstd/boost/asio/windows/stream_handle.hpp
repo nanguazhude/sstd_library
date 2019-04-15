@@ -362,4 +362,3 @@ public:
        //   || defined(GENERATING_DOCUMENTATION)
 
 #endif // BOOST_ASIO_WINDOWS_STREAM_HANDLE_HPP
-

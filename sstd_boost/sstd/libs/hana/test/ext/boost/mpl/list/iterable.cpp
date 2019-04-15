@@ -93,4 +93,3 @@ int main() {
     );
     hana::test::TestIterable<hana::ext::boost::mpl::list_tag>{lists};
 }
-

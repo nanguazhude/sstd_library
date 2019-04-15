@@ -29,4 +29,3 @@ __BOOST_AUTO_TEST_CASE__( data_access_test )
   BOOST_CHECK_THROW( cs1.at( cs1.length() ), std::out_of_range );   // 3 //
 }
 //]
-

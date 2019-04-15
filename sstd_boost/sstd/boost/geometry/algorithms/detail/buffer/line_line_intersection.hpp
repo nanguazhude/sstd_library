@@ -86,4 +86,3 @@ struct line_line_intersection
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_BUFFER_LINE_LINE_INTERSECTION_HPP
-

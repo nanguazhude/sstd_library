@@ -21,4 +21,3 @@ int main()
     BOOST_STATIC_ASSERT(!copy_ctor_mutates_rhs<foo>::value);
     return 0;
 }
-

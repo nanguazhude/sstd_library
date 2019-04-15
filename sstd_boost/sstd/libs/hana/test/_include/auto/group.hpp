@@ -148,4 +148,3 @@ TestCase test_group{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_GROUP_HPP
-

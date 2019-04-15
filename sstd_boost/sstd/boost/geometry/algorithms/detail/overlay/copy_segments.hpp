@@ -381,4 +381,3 @@ inline void copy_segments(Geometry const& geometry,
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_COPY_SEGMENTS_HPP
-

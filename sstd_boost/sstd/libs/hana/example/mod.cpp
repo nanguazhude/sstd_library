@@ -14,4 +14,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::mod(hana::int_c<-6>, hana::int_c<4>) == hana::in
 static_assert(hana::mod(6, 4) == 2, "");
 
 int main() { }
-

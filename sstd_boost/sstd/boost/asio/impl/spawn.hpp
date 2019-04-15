@@ -535,4 +535,3 @@ inline void spawn(ExecutionContext& ctx,
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IMPL_SPAWN_HPP
-

@@ -22,4 +22,3 @@
 #include <sstd/boost/mpl/greater_equal.hpp>
 
 #endif // BOOST_MPL_COMPARISON_HPP_INCLUDED
-

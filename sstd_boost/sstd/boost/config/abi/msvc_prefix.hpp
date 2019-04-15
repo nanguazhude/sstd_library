@@ -18,6 +18,3 @@
 #else
 #  pragma pack(push,8)
 #endif
-
-
-

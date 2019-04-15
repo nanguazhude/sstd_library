@@ -11,5 +11,3 @@
 #endif
 
 #include <mpreal.h>
-
-

@@ -21,7 +21,7 @@ extern void static_type_test(){
     assert(var);
 
     auto intVar = var(&a );
-    
+
     assert(intVar.first);
     assert(intVar.second);
 
@@ -32,8 +32,3 @@ extern void static_type_test(){
     intVar.second(intVar.first);
 
 }
-
-
-
-
-

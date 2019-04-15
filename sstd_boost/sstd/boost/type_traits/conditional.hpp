@@ -26,4 +26,3 @@ template <class T, class U> struct conditional<false, T, U> { typedef U type; };
 
 
 #endif // BOOST_TT_CONDITIONAL_HPP_INCLUDED
-

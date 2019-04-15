@@ -30,5 +30,3 @@ int f(std::size_t hash1, int* x1) {
 
 #endif
 }
-
-

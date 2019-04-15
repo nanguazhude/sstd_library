@@ -62,4 +62,3 @@ BEAST_DEFINE_TESTSUITE(beast,http,dynamic_body);
 } // http
 } // beast
 } // boost
-

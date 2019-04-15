@@ -35,4 +35,3 @@ template <> struct use_array_optimization<Archive> {                  \
 }; }}
 
 #endif //BOOST_SERIALIZATION_ARRAY_OPTIMIZATON_HPP
-

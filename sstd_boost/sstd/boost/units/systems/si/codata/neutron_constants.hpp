@@ -82,4 +82,3 @@ BOOST_UNITS_PHYSICAL_CONSTANT(gamma_n,quantity<frequency_over_magnetic_flux_dens
 } // namespace boost
 
 #endif // BOOST_UNITS_CODATA_NEUTRON_CONSTANTS_HPP
-

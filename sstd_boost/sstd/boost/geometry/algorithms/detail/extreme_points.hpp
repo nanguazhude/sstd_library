@@ -559,4 +559,3 @@ inline bool extreme_points(Geometry const& geometry,
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_EXTREME_POINTS_HPP
-

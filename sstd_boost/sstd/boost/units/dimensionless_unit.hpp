@@ -35,4 +35,3 @@ struct dimensionless_unit
 } // namespace boost
 
 #endif // BOOST_UNITS_DIMENSIONLESS_UNIT_HPP
-

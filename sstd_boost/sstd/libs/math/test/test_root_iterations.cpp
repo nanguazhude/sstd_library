@@ -178,4 +178,3 @@ BOOST_AUTO_TEST_CASE( test_main )
 int main() { return 0; }
 
 #endif
-

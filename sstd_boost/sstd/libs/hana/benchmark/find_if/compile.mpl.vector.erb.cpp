@@ -25,4 +25,3 @@ using result = mpl::find_if<vector, is_last>::type;
 
 
 int main() { }
-

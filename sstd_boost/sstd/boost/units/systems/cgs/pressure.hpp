@@ -32,4 +32,3 @@ BOOST_UNITS_STATIC_CONSTANT(baryes,pressure);
 } // namespace boost
 
 #endif // BOOST_UNITS_CGS_PRESSURE_HPP
-

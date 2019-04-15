@@ -295,4 +295,3 @@ struct get_algo<AnyAlgorithm, NodeTraits>
 } //namespace boost
 
 #endif //BOOST_INTRUSIVE_ANY_NODE_HPP
-

@@ -200,4 +200,3 @@ using concurrent::deque_base;
 #include <sstd/boost/config/abi_suffix.hpp>
 
 #endif
-

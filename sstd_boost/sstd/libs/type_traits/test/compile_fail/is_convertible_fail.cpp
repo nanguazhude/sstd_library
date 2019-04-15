@@ -11,6 +11,3 @@ int main()
 {
    return boost::is_convertible<UDT, incomplete_type>::value;
 }
-
-
-

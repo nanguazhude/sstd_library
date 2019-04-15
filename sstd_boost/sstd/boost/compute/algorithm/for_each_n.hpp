@@ -39,4 +39,3 @@ inline UnaryFunction for_each_n(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_FOR_EACH_N_HPP
-

@@ -12,4 +12,3 @@
 #include <sstd/boost/iterator/function_output_iterator.hpp>
 
 #endif // BOOST_FUNCTION_OUTPUT_ITERATOR_HPP
-

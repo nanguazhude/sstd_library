@@ -87,4 +87,3 @@ extended_type_info_no_rtti_0::~extended_type_info_no_rtti_0()
 } // namespece detail
 } // namespace serialization
 } // namespace boost
-

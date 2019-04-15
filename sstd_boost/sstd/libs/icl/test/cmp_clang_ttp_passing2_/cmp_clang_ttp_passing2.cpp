@@ -37,5 +37,3 @@ BOOST_AUTO_TEST_CASE(dummy)
     bool result = test_ttp<boost::icl::interval_set, int>();
     BOOST_CHECK( result );
 }
-
-

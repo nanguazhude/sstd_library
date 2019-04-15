@@ -129,4 +129,3 @@ template class basic_binary_iprimitive<
 
 } // namespace archive
 } // namespace boost
-

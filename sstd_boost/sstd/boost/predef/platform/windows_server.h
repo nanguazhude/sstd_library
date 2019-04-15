@@ -45,4 +45,3 @@ for Windows Server development.
 
 #include <sstd/boost/predef/detail/test.h>
 BOOST_PREDEF_DECLARE_TEST(BOOST_PLAT_WINDOWS_SERVER,BOOST_PLAT_WINDOWS_SERVER_NAME)
-

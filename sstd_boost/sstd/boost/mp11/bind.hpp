@@ -109,4 +109,3 @@ template<class Q, class... T> using mp_bind_q = mp_bind<Q::template fn, T...>;
 } // namespace boost
 
 #endif // #ifndef BOOST_MP11_BIND_HPP_INCLUDED
-

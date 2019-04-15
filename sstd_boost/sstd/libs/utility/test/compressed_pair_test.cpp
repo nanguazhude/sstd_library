@@ -385,4 +385,3 @@ int main()
    compressed_pair_array_tester<non_empty1[2],non_empty1[2]>::test(nea1, nea1, nea2, nea2);
    return boost::report_errors();
 }
-

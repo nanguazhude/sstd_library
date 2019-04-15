@@ -101,4 +101,3 @@ namespace boost
 } // 'boost'
 
 #endif
-

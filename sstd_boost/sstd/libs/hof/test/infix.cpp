@@ -113,4 +113,3 @@ BOOST_HOF_TEST_CASE()
     BOOST_HOF_TEST_CHECK((1 <f> 2 <g> foo{}) == "hello");
 
 }
-

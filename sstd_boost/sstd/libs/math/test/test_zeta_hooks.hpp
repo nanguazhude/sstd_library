@@ -52,6 +52,3 @@ namespace other{
 
 
 #endif
-
-
-

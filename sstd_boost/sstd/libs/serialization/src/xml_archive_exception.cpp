@@ -66,4 +66,3 @@ BOOST_ARCHIVE_DECL xml_archive_exception::~xml_archive_exception() BOOST_NOEXCEP
 
 } // archive
 } // boost
-

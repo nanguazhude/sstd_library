@@ -91,4 +91,3 @@ make_cons_stdtuple(const StdTuple& t)
 } /* namespace boost */
 
 #endif
-

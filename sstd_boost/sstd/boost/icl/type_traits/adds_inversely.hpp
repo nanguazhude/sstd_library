@@ -25,6 +25,3 @@ struct adds_inversely
 }} // namespace boost icl
 
 #endif // BOOST_ICL_TYPE_TRAITS_ADDS_INVERSELY_HPP_JOFA_100829
-
-
-

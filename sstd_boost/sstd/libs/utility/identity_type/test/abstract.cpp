@@ -32,5 +32,3 @@ TMP_ASSERT(
 //]
 
 int main() { return 0; }
-
-

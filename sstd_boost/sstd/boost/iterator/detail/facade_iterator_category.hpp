@@ -191,4 +191,3 @@ struct facade_iterator_category
 # include <sstd/boost/iterator/detail/config_undef.hpp>
 
 #endif // FACADE_ITERATOR_CATEGORY_DWA20031118_HPP
-

@@ -184,4 +184,3 @@ Real barycentric_rational_imp<Real>::prime(Real x) const
 }
 }}}
 #endif
-

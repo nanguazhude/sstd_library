@@ -9,4 +9,3 @@
 #include <sstd/boost/exception/exception.hpp>
 
 #endif
-

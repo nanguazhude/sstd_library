@@ -29,4 +29,3 @@
 #include <sstd/boost/spirit/home/karma/format.hpp>
 
 #endif
-

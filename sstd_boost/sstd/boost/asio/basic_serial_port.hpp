@@ -688,4 +688,3 @@ public:
 #endif // defined(BOOST_ASIO_ENABLE_OLD_SERVICES)
 
 #endif // BOOST_ASIO_BASIC_SERIAL_PORT_HPP
-

@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_SKIPPER
 #include <sstd/boost/spirit/home/classic/core/scanner/skipper.hpp>
 #endif
-

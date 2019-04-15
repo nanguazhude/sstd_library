@@ -146,5 +146,3 @@ Using std::transform to fill a separate_interval_set:
 icl::adding   : {[1,3][4,4]}
 ----------------------------------------------------------*/
 //]
-
-

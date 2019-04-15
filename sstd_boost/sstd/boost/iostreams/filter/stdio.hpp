@@ -82,4 +82,3 @@ typedef basic_stdio_filter<wchar_t>  wstdio_wfilter;
 } } // End namespaces iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_STDIO_FILTER_HPP_INCLUDED
-

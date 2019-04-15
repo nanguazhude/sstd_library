@@ -364,4 +364,3 @@ void compile_and_link_test()
    check_result<double>(boost::math::tr1::trunc(i));
 
 }
-

@@ -33,4 +33,3 @@ using file_body = basic_file_body<file>;
 #include <sstd/boost/beast/http/impl/file_body_win32.ipp>
 
 #endif
-

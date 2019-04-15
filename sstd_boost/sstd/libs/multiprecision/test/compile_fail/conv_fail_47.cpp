@@ -22,4 +22,3 @@ int main()
 #error "Nothing to test without GMP!"
 
 #endif
-

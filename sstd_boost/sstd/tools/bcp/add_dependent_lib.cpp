@@ -214,4 +214,3 @@ void bcp_implementation::add_dependent_lib(const std::string& libname, const fs:
       }
    }
 }
-

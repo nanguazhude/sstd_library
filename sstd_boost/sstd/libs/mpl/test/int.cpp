@@ -22,4 +22,3 @@ MPL_TEST_CASE()
 #   define WRAPPER(T, i) int_<i>
     BOOST_PP_REPEAT(10, INTEGRAL_WRAPPER_TEST, int)
 }
-

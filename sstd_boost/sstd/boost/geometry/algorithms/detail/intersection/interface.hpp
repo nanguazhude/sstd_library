@@ -396,4 +396,3 @@ inline bool intersection(Geometry1 const& geometry1,
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_INTERSECTION_INTERFACE_HPP
-

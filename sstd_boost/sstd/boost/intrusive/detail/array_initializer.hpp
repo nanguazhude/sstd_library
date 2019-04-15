@@ -93,4 +93,3 @@ class array_initializer
 }  //namespace boost{
 
 #endif //BOOST_INTRUSIVE_DETAIL_ARRAY_INITIALIZER_HPP
-

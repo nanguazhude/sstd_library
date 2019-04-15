@@ -36,4 +36,3 @@
 #endif
 
 #endif // #ifndef BOOST_SIGNALS2_MUTEX_HPP
-

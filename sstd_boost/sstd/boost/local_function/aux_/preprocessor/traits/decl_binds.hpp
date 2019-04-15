@@ -32,5 +32,3 @@
             decl_traits)
 
 #endif // #include guard
-
-

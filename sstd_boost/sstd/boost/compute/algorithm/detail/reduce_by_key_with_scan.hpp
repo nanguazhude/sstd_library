@@ -539,4 +539,3 @@ bool reduce_by_key_with_scan_requirements_met(InputKeyIterator keys_first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_REDUCE_BY_KEY_WITH_SCAN_HPP
-

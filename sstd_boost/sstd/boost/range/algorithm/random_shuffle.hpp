@@ -139,4 +139,3 @@ inline const RandomAccessRange& random_shuffle(const RandomAccessRange& rng, Gen
 } // namespace boost
 
 #endif // include guard
-

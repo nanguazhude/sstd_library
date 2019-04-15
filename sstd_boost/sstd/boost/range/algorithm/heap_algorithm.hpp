@@ -192,4 +192,3 @@ inline const RandomAccessRange& sort_heap(const RandomAccessRange& rng, Compare 
 } // namespace boost
 
 #endif // include guard
-

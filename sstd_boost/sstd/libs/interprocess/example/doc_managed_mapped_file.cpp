@@ -115,4 +115,3 @@ int main()
    return 0;
 }
 #endif//#if defined(BOOST_INTERPROCESS_MAPPED_FILES)
-

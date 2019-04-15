@@ -142,8 +142,8 @@ namespace sstd {
 
     class YieldResumeFunctionPrivate;
 
-    class SSTD_SYMBOL_DECL YieldResumeFunction : 
-        public YieldFunctionBasic , 
+    class SSTD_SYMBOL_DECL YieldResumeFunction :
+        public YieldFunctionBasic ,
         public std::enable_shared_from_this<YieldResumeFunction> {
         YieldResumeFunctionPrivate * const thisPrivate;
         using SuperType = std::enable_shared_from_this<YieldResumeFunction>;
@@ -207,13 +207,9 @@ namespace sstd {
 
     template<typename T>
     YieldResumeFunction::BindFunction< std::remove_cv_t< std::remove_reference_t<T> > > YieldResumeFunction::bind(T && arg) const {
-        return { 
+        return {
             std::forward<T>(arg),
             const_cast<YieldResumeFunction *>(this) };
     }
-   
+
 }/*namespace sstd*/
-
-
-
-

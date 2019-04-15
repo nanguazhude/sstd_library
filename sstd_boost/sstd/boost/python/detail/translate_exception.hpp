@@ -65,4 +65,3 @@ struct translate_exception
 }}} // namespace boost::python::detail
 
 #endif // TRANSLATE_EXCEPTION_DWA2002810_HPP
-

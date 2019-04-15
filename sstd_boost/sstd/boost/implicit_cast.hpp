@@ -34,4 +34,3 @@ inline T implicit_cast (typename boost::detail::icast_identity<T>::type x) {
 
 
 #endif // IMPLICIT_CAST_DWA200356_HPP
-

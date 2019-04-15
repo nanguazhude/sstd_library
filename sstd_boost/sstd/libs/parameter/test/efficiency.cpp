@@ -193,4 +193,3 @@ int main()
     // unplug the whole test's life support system.
     return live_code < 0.;
 }
-

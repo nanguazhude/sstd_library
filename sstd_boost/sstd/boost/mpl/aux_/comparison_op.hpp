@@ -81,4 +81,3 @@ struct AUX778076_OP_IMPL_NAME<integral_c_tag,integral_c_tag>
 #undef AUX778076_OP_PREFIX
 #undef AUX778076_OP_NAME
 #undef AUX778076_OP_TOKEN
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Key Derivation Function interfaces
 * (C) 1999-2007 Jack Lloyd
 *

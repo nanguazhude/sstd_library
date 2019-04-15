@@ -15,4 +15,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::find(hana::make_range(hana::int_c<1>, hana::int_
 BOOST_HANA_CONSTANT_CHECK(hana::find(hana::make_range(hana::int_c<1>, hana::int_c<25>), hana::int_c<200>) == hana::nothing);
 
 int main() { }
-

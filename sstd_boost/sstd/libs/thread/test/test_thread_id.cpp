@@ -137,4 +137,3 @@ BOOST_AUTO_TEST_CASE(test_thread_id_of_running_thread_returned_by_this_thread_ge
     t.join();
     BOOST_CHECK(id==t_id);
 }
-

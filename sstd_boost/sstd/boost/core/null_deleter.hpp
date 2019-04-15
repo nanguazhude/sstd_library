@@ -42,4 +42,3 @@ struct null_deleter
 } // namespace boost
 
 #endif // BOOST_CORE_NULL_DELETER_HPP
-

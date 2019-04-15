@@ -84,4 +84,3 @@ class computation_tree
 } } } // end namespace boost::mpi::detail
 
 #endif // BOOST_MPI_COMPUTATION_TREE_HPP
-

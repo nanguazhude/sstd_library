@@ -172,4 +172,3 @@ int main()
 #endif  //#ifndef BOOST_INTERPROCESS_XSI_SHARED_MEMORY_OBJECTS
 
 #include <sstd/boost/interprocess/detail/config_end.hpp>
-

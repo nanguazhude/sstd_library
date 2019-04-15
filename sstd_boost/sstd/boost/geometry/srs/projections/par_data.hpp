@@ -193,4 +193,3 @@ private:
 
 
 #endif // BOOST_GEOMETRY_SRS_PROJECTIONS_SPAR_HPP
-

@@ -41,5 +41,3 @@ never be used directly by programmers.
 #include <sstd/boost/contract/public_function.hpp>
 
 #endif // #include guard
-
-

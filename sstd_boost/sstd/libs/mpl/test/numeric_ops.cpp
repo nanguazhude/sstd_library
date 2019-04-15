@@ -153,4 +153,3 @@ MPL_TEST_CASE()
     MPL_ASSERT_NOT(( equal_to<i,c2> ));
 #endif
 }
-

@@ -26,4 +26,3 @@ void fail_func()
 
     bp::async_system(ios, boost::asio::use_future, "foo", bp::ignore_error);
 }
-

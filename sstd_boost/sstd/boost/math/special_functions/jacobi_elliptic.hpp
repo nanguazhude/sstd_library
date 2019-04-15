@@ -319,4 +319,3 @@ inline typename tools::promote_args<T, U>::type jacobi_cs(T k, U theta)
 }} // namespaces
 
 #endif // BOOST_MATH_JACOBI_ELLIPTIC_HPP
-

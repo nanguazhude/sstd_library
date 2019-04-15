@@ -1049,4 +1049,3 @@ inline void buffer_inserter(GeometryInput const& geometry_input, OutputIterator 
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_BUFFER_BUFFER_INSERTER_HPP
-

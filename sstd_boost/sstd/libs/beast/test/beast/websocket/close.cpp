@@ -670,4 +670,3 @@ BEAST_DEFINE_TESTSUITE(beast,websocket,close);
 } // websocket
 } // beast
 } // boost
-

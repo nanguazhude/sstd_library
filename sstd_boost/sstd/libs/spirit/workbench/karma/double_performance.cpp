@@ -166,5 +166,3 @@ int main()
     format_performance_direct();
     return 0;
 }
-
-

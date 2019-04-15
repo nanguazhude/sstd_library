@@ -70,5 +70,3 @@ void Canvas::change_color()
     redraw();
     m_canvas->update();
 }
-
-

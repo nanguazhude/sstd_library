@@ -51,4 +51,3 @@ int main(int argc, const char * argv[]){
     std::cout << safe_format(f(x, y)) << std::endl;
     return 0;
 }
-

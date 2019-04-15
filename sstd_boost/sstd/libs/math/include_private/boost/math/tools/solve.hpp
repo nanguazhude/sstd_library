@@ -75,6 +75,3 @@ boost::numeric::ublas::vector<T> solve(
 }}} // namespaces
 
 #endif // BOOST_MATH_TOOLS_SOLVE_HPP
-
-
-

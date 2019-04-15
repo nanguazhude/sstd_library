@@ -145,4 +145,3 @@ BOOST_AUTO_TEST_CASE(type_dispatch)
     my_dispatcher disp;
     test_general_functionality(disp);
 }
-

@@ -56,4 +56,3 @@ private:
 } // namespace http
 
 #endif // HTTP_SERVER2_IO_SERVICE_POOL_HPP
-

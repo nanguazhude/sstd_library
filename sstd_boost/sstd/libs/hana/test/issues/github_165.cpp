@@ -32,4 +32,3 @@ static_assert(f() == 0, ""); // force f() to be constexpr
 
 
 int main() { }
-

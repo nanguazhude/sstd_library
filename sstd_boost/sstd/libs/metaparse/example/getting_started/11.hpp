@@ -59,5 +59,3 @@ using exp_parser19 = build_parser<plus_exp2>;
 //    exp_parser19::apply<BOOST_METAPARSE_STRING("(1 + 2) * 3")>::type
 
 #endif
-
-

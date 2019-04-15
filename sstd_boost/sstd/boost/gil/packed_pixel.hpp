@@ -187,4 +187,3 @@ namespace boost {
     struct has_trivial_constructor<gil::packed_pixel<P,C,L> > : public has_trivial_constructor<P> {};
 }
 #endif
-

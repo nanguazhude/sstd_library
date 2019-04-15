@@ -79,4 +79,3 @@ if(${BOOST_COMPUTE_HAVE_VTK})
   add_compute_test("interop.vtk" test_interop_vtk.cpp)
   target_link_libraries(test_interop_vtk ${VTK_LIBRARIES})
 endif()
-

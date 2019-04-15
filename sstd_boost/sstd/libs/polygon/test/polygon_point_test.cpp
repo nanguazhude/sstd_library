@@ -203,4 +203,3 @@ int main()
     point_concept_test4();
     return boost::report_errors();
 }
-

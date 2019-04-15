@@ -55,5 +55,3 @@ int f()
 #endif
     return 0;
 }
-
-

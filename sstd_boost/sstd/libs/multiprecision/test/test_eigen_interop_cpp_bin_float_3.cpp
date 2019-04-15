@@ -14,4 +14,3 @@ int main()
    test_float_type_3<boost::multiprecision::cpp_bin_float_50>();
    return 0;
 }
-

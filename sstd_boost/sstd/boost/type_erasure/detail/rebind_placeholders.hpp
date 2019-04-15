@@ -337,4 +337,3 @@ struct rebind_placeholders_in_argument<R(BOOST_PP_ENUM_PARAMS(N, T)), Bindings>
 #undef N
 
 #endif
-

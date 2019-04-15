@@ -66,4 +66,3 @@ namespace gregorian {
 } } //namespace boost::gregorian
 
 #endif
-

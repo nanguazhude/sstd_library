@@ -142,4 +142,3 @@ namespace boost
 
 
 #endif //__BUCKET_SORT_HPP__
-

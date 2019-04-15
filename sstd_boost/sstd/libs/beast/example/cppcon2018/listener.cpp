@@ -101,4 +101,3 @@ on_accept(error_code ec)
             shared_from_this(),
             std::placeholders::_1));
 }
-

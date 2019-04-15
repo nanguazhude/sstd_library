@@ -147,4 +147,3 @@ typename Dist::value_type generic_find_mode_01(const Dist& dist, typename Dist::
 }}} // namespaces
 
 #endif // BOOST_MATH_DISTRIBUTIONS_DETAIL_MODE_HPP
-

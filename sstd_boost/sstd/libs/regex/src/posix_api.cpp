@@ -289,8 +289,3 @@ BOOST_REGEX_DECL void BOOST_REGEX_CCALL regfreeA(regex_tA* expression)
 }
 
 } // namespace boost
-
-
-
-
-

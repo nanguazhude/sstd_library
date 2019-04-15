@@ -29,5 +29,3 @@ BOOST_METAPARSE_TEST_CASE(util_is_letter)
   // test_not_letter
   BOOST_MPL_ASSERT((not_<apply_wrap1<is_letter<>, char_7> >));
 }
-
-

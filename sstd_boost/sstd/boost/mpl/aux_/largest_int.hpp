@@ -61,4 +61,3 @@ template< typename T1, typename T2 > struct largest_int
 }}}
 
 #endif // BOOST_MPL_AUX_LARGEST_INT_HPP_INCLUDED
-

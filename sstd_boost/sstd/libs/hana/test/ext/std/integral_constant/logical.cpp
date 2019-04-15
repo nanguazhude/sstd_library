@@ -61,4 +61,3 @@ int main() {
     hana::test::TestLogical<hana::ext::std::integral_constant_tag<int>>{ints};
     hana::test::TestLogical<hana::ext::std::integral_constant_tag<bool>>{bools};
 }
-

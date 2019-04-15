@@ -142,4 +142,3 @@ protected:
 } /* namespace boost */
 
 #endif /* BOOST_LOCKFREE_TAGGED_PTR_DCAS_HPP_INCLUDED */
-

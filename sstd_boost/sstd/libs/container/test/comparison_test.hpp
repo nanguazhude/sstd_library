@@ -56,4 +56,3 @@ bool test_container_comparisons()
 }  //namespace boost {
 
 #endif   //#ifndef BOOST_CONTAINER_TEST_COMPARISON_TEST_HPP
-

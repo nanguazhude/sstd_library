@@ -12,4 +12,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::and_(hana::true_c, hana::true_c, hana::true_c, h
 static_assert(!hana::and_(hana::true_c, false, hana::true_c, hana::true_c), "");
 
 int main() { }
-

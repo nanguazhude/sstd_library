@@ -24,4 +24,3 @@ int main()
 	std::cout << "CHECK_VALUE == " << CHECK_VALUE << "\n" ;
 	return 0;
 }
-

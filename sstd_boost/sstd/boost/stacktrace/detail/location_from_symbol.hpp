@@ -103,4 +103,3 @@ public:
 }}} // namespace boost::stacktrace::detail
 
 #endif // BOOST_STACKTRACE_DETAIL_LOCATION_FROM_SYMBOL_HPP
-

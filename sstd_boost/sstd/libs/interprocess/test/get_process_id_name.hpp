@@ -69,4 +69,3 @@ inline const char *add_to_process_id_ptr_name(const char *name, void *ptr)
 }  //namespace boost{
 
 #endif //#ifndef BOOST_INTERPROCESS_GET_PROCESS_ID_NAME_HPP
-

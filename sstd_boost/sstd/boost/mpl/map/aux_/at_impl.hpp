@@ -142,4 +142,3 @@ template< typename Map, long order > struct item_by_order
 }}
 
 #endif // BOOST_MPL_SET_AUX_AT_IMPL_HPP_INCLUDED
-

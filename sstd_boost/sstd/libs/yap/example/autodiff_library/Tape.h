@@ -95,4 +95,3 @@ template<typename T>  string Tape<T>::toString()
 }
 }
 #endif /* TAPE_H_ */
-

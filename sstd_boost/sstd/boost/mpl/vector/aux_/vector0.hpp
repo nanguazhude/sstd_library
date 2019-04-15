@@ -50,4 +50,3 @@ template<> struct vector0<na>
 }}
 
 #endif // BOOST_MPL_VECTOR_AUX_VECTOR0_HPP_INCLUDED
-

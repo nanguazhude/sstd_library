@@ -31,4 +31,3 @@ BOOST_PYTHON_MODULE(tuple_ext)
     def("make_tuple", mktuple1);
     def("make_tuple", mktuple2);
 }
-

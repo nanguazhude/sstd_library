@@ -27,5 +27,3 @@
             BOOST_PP_VARIADIC_SIZE(BOOST_PP_CAT(cat_to_comma_prefix, tokens)))
 
 #endif // #include guard
-
-

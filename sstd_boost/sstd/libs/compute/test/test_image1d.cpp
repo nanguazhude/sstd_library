@@ -68,4 +68,3 @@ BOOST_AUTO_TEST_CASE(image1d_type_name)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

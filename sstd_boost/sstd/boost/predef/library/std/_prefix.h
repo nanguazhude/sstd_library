@@ -21,4 +21,3 @@ Boost.TR1 library.
 #include <sstd/boost/predef/detail/_exception.h>
 
 #endif
-

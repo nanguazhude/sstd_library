@@ -43,4 +43,3 @@ namespace boost { namespace numeric { namespace ublas {
 
 
 #endif // BOOST_NUMERIC_UBLAS_OPERATION_NUM_COLUMNS_HPP
-

@@ -58,4 +58,3 @@ namespace boost { namespace fusion
 }}
 
 #endif
-

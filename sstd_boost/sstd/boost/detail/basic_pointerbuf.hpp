@@ -136,5 +136,3 @@ basic_pointerbuf<charT, BufferT>::seekpos(pos_type sp, ::std::ios_base::openmode
 }} // namespace boost::detail
 
 #endif // BOOST_DETAIL_BASIC_POINTERBUF_HPP
-
-

@@ -28,4 +28,3 @@
 #endif
 
 #include "has_xxx.cpp"
-

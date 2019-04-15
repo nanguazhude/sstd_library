@@ -118,4 +118,3 @@ work_stealing::notify() noexcept {
 #ifdef BOOST_HAS_ABI_HEADERS
 #  include BOOST_ABI_SUFFIX
 #endif
-

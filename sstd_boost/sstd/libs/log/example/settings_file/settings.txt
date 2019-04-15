@@ -23,4 +23,3 @@ Destination=TextFile
 FileName=test.log
 AutoFlush=true
 Format="[%TimeStamp%] %Tag% %Message%"
-

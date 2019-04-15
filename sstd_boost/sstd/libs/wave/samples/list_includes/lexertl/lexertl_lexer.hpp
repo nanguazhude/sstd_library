@@ -806,5 +806,3 @@ new_lexer_gen<Iterator, Position>::new_lexer(Iterator const &first,
 }}}}   // namespace boost::wave::cpplexer::lexertl
 
 #endif // !defined(BOOST_WAVE_LEXERTL_LEXER_HPP_INCLUDED)
-
-

@@ -64,4 +64,3 @@ BOOST_AUTO_TEST_CASE( test_main )
 {
   test_for_each_n ();
 }
-

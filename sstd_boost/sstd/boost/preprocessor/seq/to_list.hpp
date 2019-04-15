@@ -39,4 +39,3 @@
 # define BOOST_PP_SEQ_TO_LIST_B_ID() BOOST_PP_SEQ_TO_LIST_B
 #
 # endif
-

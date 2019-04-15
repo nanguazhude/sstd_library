@@ -46,4 +46,3 @@ equal_range(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_EQUAL_RANGE_HPP
-

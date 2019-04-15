@@ -42,4 +42,3 @@ BOOST_ASIO_DECL std::string host_name(boost::system::error_code& ec);
 #endif // defined(BOOST_ASIO_HEADER_ONLY)
 
 #endif // BOOST_ASIO_IP_HOST_NAME_HPP
-

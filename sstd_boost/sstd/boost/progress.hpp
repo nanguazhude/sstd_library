@@ -140,4 +140,3 @@ class progress_display : private noncopyable
 } // namespace boost
 
 #endif  // BOOST_PROGRESS_HPP
-

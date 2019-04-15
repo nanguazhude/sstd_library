@@ -27,4 +27,3 @@ MPL_TEST_CASE()
     MPL_ASSERT(( is_same< prior<_1>::type, _0 > ));
     MPL_ASSERT(( is_same< prior<_2>::type, _1 > ));
 }
-

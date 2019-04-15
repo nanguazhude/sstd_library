@@ -99,5 +99,3 @@ struct matlib_tokens : boost::spirit::lex::lexer<Lexer>
 };
 
 #endif
-
-

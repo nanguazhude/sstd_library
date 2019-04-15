@@ -12,5 +12,3 @@
 #include <sstd/boost/contract/detail/inlined/detail/checking.hpp>
 
 #endif // #include guard
-
-

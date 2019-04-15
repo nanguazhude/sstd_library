@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Runtime CPU detection
 * (C) 2009,2010,2013,2017 Jack Lloyd
 *

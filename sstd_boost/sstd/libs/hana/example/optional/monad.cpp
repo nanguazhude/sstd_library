@@ -21,4 +21,3 @@ int main() {
 
     BOOST_HANA_CONSTEXPR_CHECK(hana::flatten(hana::just(hana::just(2))) == hana::just(2));
 }
-

@@ -221,4 +221,3 @@ struct async_result_helper
 #endif
 
 #endif // BOOST_ASIO_ASYNC_RESULT_HPP
-

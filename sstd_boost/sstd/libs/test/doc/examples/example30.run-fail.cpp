@@ -22,4 +22,3 @@ BOOST_AUTO_TEST_CASE( test_is_even )
   BOOST_CHECK_PREDICATE( is_even, (i) );
 }
 //]
-

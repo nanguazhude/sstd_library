@@ -164,4 +164,3 @@ if(${BOOST_COMPUTE_HAVE_QT})
     endif()
   endforeach()
 endif()
-

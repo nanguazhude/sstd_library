@@ -35,4 +35,3 @@ struct same_type {};
 }
 
 #endif
-

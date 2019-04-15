@@ -1624,4 +1624,3 @@ namespace quickbook
         }
     }
 }
-

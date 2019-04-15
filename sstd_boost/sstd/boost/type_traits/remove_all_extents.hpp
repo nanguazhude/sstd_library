@@ -39,4 +39,3 @@ template <class T> struct remove_all_extents<T const volatile[]> : public remove
 } // namespace boost
 
 #endif // BOOST_TT_REMOVE_BOUNDS_HPP_INCLUDED
-

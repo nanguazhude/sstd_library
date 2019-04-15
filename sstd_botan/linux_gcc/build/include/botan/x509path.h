@@ -1,4 +1,4 @@
-/*
+﻿/*
 * X.509 Cert Path Validation
 * (C) 2010-2011 Jack Lloyd
 *

@@ -94,4 +94,3 @@ namespace user
   int64_t return_y_little_int64(int64_t x, little_int64_t y) BOOST_NOEXCEPT { return y; }
 
 }
-

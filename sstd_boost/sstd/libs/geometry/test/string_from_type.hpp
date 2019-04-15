@@ -98,4 +98,3 @@ template <> struct string_from_type<boost::numeric_adaptor::cln_value_type>
 
 
 #endif // GEOMETRY_TEST_STRING_FROM_TYPE_HPP
-

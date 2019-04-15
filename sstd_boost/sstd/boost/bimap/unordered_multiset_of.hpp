@@ -230,5 +230,3 @@ struct unordered_multiset_of_relation : public ::boost::bimaps::detail::set_type
 
 
 #endif // BOOST_BIMAP_UNORDERED_MULTISET_OF_HPP
-
-

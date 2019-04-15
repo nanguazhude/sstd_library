@@ -195,4 +195,3 @@ using random::bernoulli_distribution;
 } // namespace boost
 
 #endif // BOOST_RANDOM_BERNOULLI_DISTRIBUTION_HPP
-

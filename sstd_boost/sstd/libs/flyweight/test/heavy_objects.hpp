@@ -104,4 +104,3 @@ struct from_throwing_value_to_int
 #endif
 
 #endif
-

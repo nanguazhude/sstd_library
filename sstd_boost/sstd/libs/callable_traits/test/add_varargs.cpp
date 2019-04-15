@@ -186,4 +186,3 @@ int main() {
         CT_ASSERT(std::is_same<va_f,    TRAIT(add_varargs, f)>{});
     }
 }
-

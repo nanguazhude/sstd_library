@@ -88,4 +88,3 @@ inline void random_shuffle(Iterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_RANDOM_SHUFFLE_HPP
-

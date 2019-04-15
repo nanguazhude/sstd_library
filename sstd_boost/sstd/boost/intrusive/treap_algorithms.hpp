@@ -697,4 +697,3 @@ struct get_node_checker<TreapAlgorithms, ValueTraits, NodePtrCompare, ExtraCheck
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_TREAP_ALGORITHMS_HPP
-

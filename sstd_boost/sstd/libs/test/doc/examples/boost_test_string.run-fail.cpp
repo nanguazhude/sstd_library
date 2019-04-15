@@ -29,4 +29,3 @@ BOOST_AUTO_TEST_CASE( test_strings )
   BOOST_TEST(b < a, boost::test_tools::lexicographic());
 }
 //]
-

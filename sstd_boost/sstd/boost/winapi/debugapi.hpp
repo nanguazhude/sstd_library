@@ -56,4 +56,3 @@ BOOST_FORCEINLINE void output_debug_string(wchar_t const* s)
 }
 
 #endif // BOOST_WINAPI_DEBUGAPI_HPP_INCLUDED_
-

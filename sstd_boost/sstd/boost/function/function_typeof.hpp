@@ -43,4 +43,3 @@ BOOST_TYPEOF_REGISTER_TEMPLATE(boost::function10,
   (typename)(typename)(typename)(typename)(typename)(typename)(typename)
   (typename)(typename)(typename)(typename))
 #endif
-

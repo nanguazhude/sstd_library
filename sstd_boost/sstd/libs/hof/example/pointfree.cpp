@@ -31,4 +31,3 @@ int main()
 
     print_lines(n, m);
 }
-

@@ -360,4 +360,3 @@ BOOST_ASIO_TEST_SUITE
   BOOST_ASIO_TEST_CASE(io_context_test)
   BOOST_ASIO_TEST_CASE(io_context_service_test)
 )
-

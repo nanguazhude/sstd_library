@@ -537,6 +537,3 @@ namespace boost
 #endif
 
 #endif // BOOST_MATH_DIST_BETA_HPP
-
-
-

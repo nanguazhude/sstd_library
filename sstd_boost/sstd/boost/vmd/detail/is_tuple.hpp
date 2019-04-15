@@ -18,4 +18,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_IS_TUPLE_HPP */
-

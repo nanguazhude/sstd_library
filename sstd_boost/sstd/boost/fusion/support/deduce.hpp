@@ -134,5 +134,3 @@ namespace boost { namespace fusion { namespace traits
 }}}
 
 #endif
-
-

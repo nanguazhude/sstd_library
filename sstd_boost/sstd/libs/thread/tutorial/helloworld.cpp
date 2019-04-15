@@ -17,4 +17,3 @@ int main()
     boost::thread thrd(&helloworld);
     thrd.join();
 }
-

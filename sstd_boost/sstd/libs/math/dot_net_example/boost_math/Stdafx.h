@@ -52,4 +52,3 @@
 #include <sstd/boost/math/distributions/triangular.hpp>
 #include <sstd/boost/math/distributions/uniform.hpp>
 #include <sstd/boost/math/distributions/weibull.hpp>
-

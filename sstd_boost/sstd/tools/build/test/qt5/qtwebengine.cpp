@@ -28,4 +28,3 @@ BOOST_AUTO_TEST_CASE( webengine )
 
     QtWebEngine::initialize();
 }
-

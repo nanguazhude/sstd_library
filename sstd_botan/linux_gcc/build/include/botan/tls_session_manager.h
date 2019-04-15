@@ -1,4 +1,4 @@
-/*
+﻿/*
 * TLS Session Manager
 * (C) 2011 Jack Lloyd
 *

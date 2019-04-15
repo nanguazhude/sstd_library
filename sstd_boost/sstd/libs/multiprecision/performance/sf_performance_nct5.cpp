@@ -12,4 +12,3 @@ void nct_tests_5()
    time_proc("mpf_float_100 (no expression templates", test_nct<number<gmp_float<100>, et_off> >);
 #endif
 }
-

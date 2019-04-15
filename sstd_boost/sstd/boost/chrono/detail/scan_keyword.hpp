@@ -161,4 +161,3 @@ scan_keyword(InputIterator& b, InputIterator e,
 }
 }
 #endif // BOOST_CHRONO_DETAIL_SCAN_KEYWORD_HPP
-

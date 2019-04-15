@@ -31,4 +31,3 @@ int main() {
         boost::make_tuple("Moby Dick", "Garfield", "Snoopy")
     ));
 }
-

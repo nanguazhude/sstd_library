@@ -149,4 +149,3 @@ struct has_invalid_coordinate<Box, box_tag, true>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_IS_VALID_HAS_INVALID_COORDINATE_HPP
-

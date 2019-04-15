@@ -19,4 +19,3 @@ BOOST_AUTO_TEST_CASE( test_case0 )
   BOOST_WARN( sizeof(int) > 4 );
 }
 //]
-

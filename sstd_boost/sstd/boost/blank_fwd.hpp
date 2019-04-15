@@ -20,4 +20,3 @@ struct blank;
 } // namespace boost
 
 #endif // BOOST_BLANK_FWD_HPP
-

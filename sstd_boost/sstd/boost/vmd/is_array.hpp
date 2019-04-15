@@ -71,4 +71,3 @@
 
 #endif /* BOOST_PP_VARIADICS */
 #endif /* BOOST_VMD_IS_ARRAY_HPP */
-

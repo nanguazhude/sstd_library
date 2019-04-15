@@ -86,5 +86,3 @@ BOOST_AUTO_TEST_CASE( test_main )
     RunTests< long double >();
     RunTests< std::string >();
 }
-
-

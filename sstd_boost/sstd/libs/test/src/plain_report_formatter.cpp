@@ -16,4 +16,3 @@
 #include <sstd/boost/test/impl/plain_report_formatter.ipp>
 
 // EOF
-

@@ -105,4 +105,3 @@ namespace boost {
 #endif
 
 #endif // BOOST_GRAPH_CONNECTED_COMPONENTS_HPP
-

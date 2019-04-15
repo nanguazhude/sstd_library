@@ -46,4 +46,3 @@
 #endif
 
 #endif // BOOST_LOG_SINKS_HPP_INCLUDED_
-

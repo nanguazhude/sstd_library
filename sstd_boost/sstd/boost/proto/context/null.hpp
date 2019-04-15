@@ -54,4 +54,3 @@ namespace boost { namespace proto { namespace context
 }}}
 
 #endif
-

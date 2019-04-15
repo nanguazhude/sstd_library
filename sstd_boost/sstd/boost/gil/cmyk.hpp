@@ -51,4 +51,3 @@ planar_cmyk_view(std::size_t width, std::size_t height, IC c, IC m, IC y, IC k, 
 } }  // namespace gil
 
 #endif
-

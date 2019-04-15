@@ -93,4 +93,3 @@ struct image_write_info< pnm_tag >
 } // namespace boost
 
 #endif
-

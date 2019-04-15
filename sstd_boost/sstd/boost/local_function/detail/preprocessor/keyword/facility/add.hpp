@@ -22,5 +22,3 @@
     tokens BOOST_PP_EXPR_IIF(BOOST_PP_COMPL(is_back_macro(tokens)), keyword)
 
 #endif // #include guard
-
-

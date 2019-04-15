@@ -35,4 +35,3 @@ int main() {
     hana::test::TestIterable<hana::ext::std::integer_sequence_tag>{sequences};
     hana::test::TestSearchable<hana::ext::std::integer_sequence_tag>{sequences, keys};
 }
-

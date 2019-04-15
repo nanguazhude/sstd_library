@@ -562,4 +562,3 @@ namespace detail {
 
 
 #endif //  BOOST_FORMAT_PARSING_HPP
-

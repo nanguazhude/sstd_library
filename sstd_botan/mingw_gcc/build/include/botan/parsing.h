@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Various string utils and parsing functions
 * (C) 1999-2007,2013 Jack Lloyd
 *

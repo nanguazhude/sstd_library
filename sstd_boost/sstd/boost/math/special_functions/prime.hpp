@@ -1237,4 +1237,3 @@ namespace boost{ namespace math{
 }} // namespace boost and math
 
 #endif // BOOST_MATH_SF_PRIME_HPP
-

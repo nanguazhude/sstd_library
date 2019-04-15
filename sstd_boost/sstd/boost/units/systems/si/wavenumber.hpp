@@ -34,4 +34,3 @@ BOOST_UNITS_STATIC_CONSTANT(reciprocal_metres,wavenumber);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_WAVENUMBER_HPP
-

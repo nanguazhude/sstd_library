@@ -32,4 +32,3 @@ struct empty_impl< aux::list_tag >
 }}
 
 #endif // BOOST_MPL_LIST_AUX_EMPTY_HPP_INCLUDED
-

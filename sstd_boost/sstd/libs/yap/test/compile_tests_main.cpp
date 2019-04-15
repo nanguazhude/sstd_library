@@ -27,4 +27,3 @@ int main()
     compile_x_plus_term();
     compile_user_macros();
 }
-

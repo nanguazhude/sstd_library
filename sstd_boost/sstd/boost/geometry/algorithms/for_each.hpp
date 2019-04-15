@@ -371,4 +371,3 @@ inline Functor for_each_segment(Geometry& geometry, Functor f)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_FOR_EACH_HPP
-

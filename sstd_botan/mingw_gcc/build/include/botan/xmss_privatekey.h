@@ -1,4 +1,4 @@
-/*
+﻿/*
  * XMSS_PrivateKey.h
  * (C) 2016,2017 Matthias Gierlings
  *
@@ -269,4 +269,3 @@ class BOTAN_PUBLIC_API(2,0) XMSS_PrivateKey final : public virtual XMSS_PublicKe
 }
 
 #endif
-

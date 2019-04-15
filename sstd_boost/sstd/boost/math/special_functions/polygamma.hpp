@@ -80,5 +80,3 @@ namespace boost { namespace math {
 } } // namespace boost::math
 
 #endif // _BOOST_BERNOULLI_2013_05_30_HPP_
-
-

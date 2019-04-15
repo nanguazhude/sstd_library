@@ -294,4 +294,3 @@ int main() {
     register_runtime_class();
     return boost::report_errors();
 }
-

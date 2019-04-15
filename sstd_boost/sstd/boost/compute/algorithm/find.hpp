@@ -61,4 +61,3 @@ inline InputIterator find(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_FIND_HPP
-

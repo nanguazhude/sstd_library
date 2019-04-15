@@ -44,4 +44,3 @@ int main() {
     // the above is equivalent to:
     BOOST_HANA_RUNTIME_CHECK(hana::equal(john, john));
 }
-

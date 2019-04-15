@@ -148,4 +148,3 @@ BOOST_TYPEOF_REGISTER_TEMPLATE(boost::xpressive::c_regex_traits, (typename))
 BOOST_TYPEOF_REGISTER_TEMPLATE(boost::xpressive::regex_traits, (typename)(typename))
 
 #endif
-

@@ -15,6 +15,3 @@ extern "C" long double BOOST_MATH_TR1_DECL boost_riemann_zetal BOOST_PREVENT_MAC
 {
    return c_policies::zeta BOOST_PREVENT_MACRO_SUBSTITUTION(x);
 }
-
-
-

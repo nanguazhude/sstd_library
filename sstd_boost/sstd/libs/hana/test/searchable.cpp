@@ -42,4 +42,3 @@ int main() {
         hana::test::TestSearchable<::Seq>{bools, hana::make_tuple(hana::true_c, hana::false_c)};
     }
 }
-

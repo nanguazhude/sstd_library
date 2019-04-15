@@ -177,4 +177,3 @@ struct async_out_future : ::boost::process::detail::windows::handler_base_ext,
 }}}}
 
 #endif
-

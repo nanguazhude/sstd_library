@@ -6,4 +6,3 @@
 #include <auto/is_empty.hpp>
 
 int main() { }
-

@@ -53,4 +53,3 @@ TestCase test_reverse{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_REVERSE_HPP
-

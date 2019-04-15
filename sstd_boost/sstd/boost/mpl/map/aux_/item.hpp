@@ -139,4 +139,3 @@ struct m_mask
 }}
 
 #endif // BOOST_MPL_MAP_AUX_ITEM_HPP_INCLUDED
-

@@ -120,4 +120,3 @@ struct async_pipe_out : public pipe_out<p1, p2>
 }}}}
 
 #endif
-

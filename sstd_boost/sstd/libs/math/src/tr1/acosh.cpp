@@ -15,6 +15,3 @@ extern "C" double BOOST_MATH_TR1_DECL boost_acosh BOOST_PREVENT_MACRO_SUBSTITUTI
 {
    return c_policies::acosh BOOST_PREVENT_MACRO_SUBSTITUTION(x);
 }
-
-
-

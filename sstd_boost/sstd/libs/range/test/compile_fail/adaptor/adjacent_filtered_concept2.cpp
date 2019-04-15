@@ -37,4 +37,3 @@ int main(int, const char**)
     return (mock_const_range<boost::single_pass_traversal_tag>() |
                 adjacent_filtered(always_true())).front();
 }
-

@@ -858,4 +858,3 @@ struct complex_result_from_scalar<number<Backend, ExpressionTemplates> >
 }  // namespaces
 
 #endif
-

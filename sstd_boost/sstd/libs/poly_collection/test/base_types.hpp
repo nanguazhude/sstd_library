@@ -90,4 +90,3 @@ struct to_int
 } /* namespace base_types */
 
 #endif
-

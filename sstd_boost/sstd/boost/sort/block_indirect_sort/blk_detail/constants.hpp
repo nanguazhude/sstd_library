@@ -24,4 +24,3 @@
 #define BOOST_NTHREAD_BORDER 6
 
 #endif
-

@@ -28,5 +28,3 @@ inline bool have_locale(std::string const &name)
 
 #endif
 // vim: tabstop=4 expandtab shiftwidth=4 softtabstop=4
-
-

@@ -44,4 +44,3 @@ replace_copy_if(const ForwardRange& rng, OutputIterator out_it, Predicate pred,
 } // namespace boost
 
 #endif // include guard
-

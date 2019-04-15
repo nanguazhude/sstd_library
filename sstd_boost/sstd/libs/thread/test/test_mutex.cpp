@@ -336,7 +336,3 @@ BOOST_AUTO_TEST_CASE(test_recursive_timed_mutex)
 {
     timed_test(&do_test_recursive_timed_mutex, 3);
 }
-
-
-
-

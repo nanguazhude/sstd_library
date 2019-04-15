@@ -28,4 +28,3 @@ int main() {
         hana::tuple_c<unsigned long, 0, 1, 2, 3>
     ));
 }
-

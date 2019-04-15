@@ -8,5 +8,3 @@
 
 #define BOOST_FT_MAX_ARITY 19
 #include "simple_test.hpp"
-
-

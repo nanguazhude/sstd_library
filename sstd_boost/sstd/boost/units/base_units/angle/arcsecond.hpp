@@ -35,4 +35,3 @@ struct base_unit_info<angle::arcsecond_base_unit> {
 }
 
 #endif // BOOST_UNIT_SYSTEMS_ANGLE_ARCSECOND_HPP_INCLUDED
-

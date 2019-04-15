@@ -33,6 +33,3 @@ using namespace boost::icl;
 
 #define INTERVAL_MAP split_interval_map
 #include "../fastest_interval_map_cases.hpp"
-
-
-

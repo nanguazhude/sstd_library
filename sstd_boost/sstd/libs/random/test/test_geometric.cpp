@@ -24,4 +24,3 @@
 #define BOOST_RANDOM_DISTRIBUTION_MAX boost::numeric_cast<int>(-5 / std::log(1-p))
 
 #include "test_real_distribution.ipp"
-

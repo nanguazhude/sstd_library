@@ -71,4 +71,3 @@ BOOST_STATIC_ASSERT(boost::type_of::test<binder2nd<less<int> > >::value);
 // valarray
 
 BOOST_STATIC_ASSERT(boost::type_of::test<valarray<int> >::value);
-

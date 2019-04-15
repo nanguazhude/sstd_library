@@ -74,4 +74,3 @@ TestCase test_ap{[]{
 }};
 
 #endif // !BOOST_HANA_TEST_AUTO_AP_HPP
-

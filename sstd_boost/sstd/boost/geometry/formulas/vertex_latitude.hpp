@@ -148,4 +148,3 @@ struct vertex_latitude<CT, geographic_tag>
 }}} // namespace boost::geometry::formula
 
 #endif // BOOST_GEOMETRY_FORMULAS_MAXIMUM_LATITUDE_HPP
-

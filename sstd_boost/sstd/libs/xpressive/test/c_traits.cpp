@@ -13,5 +13,3 @@
 
 #define BOOST_XPRESSIVE_USE_C_TRAITS
 #include "./regress.ipp"
-
-

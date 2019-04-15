@@ -301,5 +301,3 @@ bool disable_type_check<Dummy>::value = false;
 
 
 #endif
-
-

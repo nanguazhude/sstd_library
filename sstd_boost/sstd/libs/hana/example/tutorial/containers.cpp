@@ -104,4 +104,3 @@ void f(R r) {
 }
 //! [overloading]
 }
-

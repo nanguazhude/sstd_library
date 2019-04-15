@@ -101,4 +101,3 @@ template<class S> using mp_is_set = typename detail::mp_is_set_impl<S>::type;
 } // namespace boost
 
 #endif // #ifndef BOOST_MP11_SET_HPP_INCLUDED
-

@@ -43,4 +43,3 @@ to_raw_pointer(const Pointer &p)
 #include <sstd/boost/move/detail/config_end.hpp>
 
 #endif //BOOST_MOVE_DETAIL_TO_RAW_POINTER_HPP
-

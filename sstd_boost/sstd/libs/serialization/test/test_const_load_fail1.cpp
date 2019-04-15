@@ -21,4 +21,3 @@ struct A {
 void f1(text_iarchive & ia, const A & a){
     ia >> a;
 }
-

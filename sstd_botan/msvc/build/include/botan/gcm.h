@@ -1,4 +1,4 @@
-/*
+﻿/*
 * GCM Mode
 * (C) 2013 Jack Lloyd
 * (C) 2016 Daniel Neus, Rohde & Schwarz Cybersecurity

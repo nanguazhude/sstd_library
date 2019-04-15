@@ -644,4 +644,3 @@ private:
 #endif
 
 #endif // BOOST_RELAXED_HEAP_HEADER
-

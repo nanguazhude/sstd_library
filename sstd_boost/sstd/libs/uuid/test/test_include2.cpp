@@ -17,4 +17,3 @@
 #include <sstd/boost/uuid/name_generator.hpp>
 #include <sstd/boost/uuid/string_generator.hpp>
 #include <sstd/boost/uuid/random_generator.hpp>
-

@@ -76,4 +76,3 @@ inline void write_single_value(const T &value,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_DETAIL_READ_WRITE_SINGLE_VALUE_HPP
-

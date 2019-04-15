@@ -105,4 +105,3 @@ int test_main(int, char *[]) {
   do_test();
   return 0;
 }
-

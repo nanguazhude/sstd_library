@@ -82,4 +82,3 @@ template <> struct has_nothrow_assign<void volatile> : public false_type{};
 } // namespace boost
 
 #endif // BOOST_TT_HAS_NOTHROW_ASSIGN_HPP_INCLUDED
-

@@ -519,4 +519,3 @@ typedef voronoi_builder<detail::int32> default_voronoi_builder;
 }  // boost
 
 #endif  // BOOST_POLYGON_VORONOI_BUILDER
-

@@ -471,4 +471,3 @@ void swap( execution_context & l, execution_context & r) noexcept {
 #endif
 
 #endif // BOOST_CONTEXT_EXECUTION_CONTEXT_V1_H
-

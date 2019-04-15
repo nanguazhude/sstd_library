@@ -99,4 +99,3 @@ BOOST_AUTO_TEST_CASE(execve_throw_on_error, *boost::unit_test::timeout(2))
         BOOST_CHECK_EQUAL(e.code().value(), ENOENT);
     }
 }
-

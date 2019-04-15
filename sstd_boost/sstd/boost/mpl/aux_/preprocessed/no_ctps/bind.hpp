@@ -587,5 +587,3 @@ BOOST_MPL_AUX_TEMPLATE_ARITY_SPEC(
     , bind
     )
 }}
-
-

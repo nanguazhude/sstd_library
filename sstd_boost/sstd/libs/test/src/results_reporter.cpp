@@ -16,4 +16,3 @@
 #include <sstd/boost/test/impl/results_reporter.ipp>
 
 // EOF
-

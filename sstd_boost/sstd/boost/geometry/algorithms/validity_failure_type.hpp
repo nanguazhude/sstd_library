@@ -88,4 +88,3 @@ enum validity_failure_type
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_VALIDITY_FAILURE_TYPE_HPP
-

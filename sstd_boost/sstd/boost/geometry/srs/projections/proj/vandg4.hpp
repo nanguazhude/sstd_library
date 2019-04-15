@@ -171,5 +171,3 @@ namespace projections
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_VANDG4_HPP
-
-

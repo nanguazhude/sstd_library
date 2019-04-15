@@ -77,4 +77,3 @@ inline BOOST_ASIO_INITFN_RESULT_TYPE(CompletionToken, void()) post(
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IMPL_POST_HPP
-

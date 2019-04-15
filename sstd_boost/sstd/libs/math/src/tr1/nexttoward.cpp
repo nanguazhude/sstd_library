@@ -23,6 +23,3 @@ extern "C" double BOOST_MATH_TR1_DECL boost_nexttoward BOOST_PREVENT_MACRO_SUBST
 }
 
 }}}
-
-
-

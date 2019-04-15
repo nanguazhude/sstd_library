@@ -2015,4 +2015,3 @@ void additional(Parameters const& parameters, Allocator const& allocator)
 } // namespace testset
 
 #endif // BOOST_GEOMETRY_INDEX_TEST_RTREE_HPP
-

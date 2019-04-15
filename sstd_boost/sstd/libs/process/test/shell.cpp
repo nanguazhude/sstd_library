@@ -61,4 +61,3 @@ BOOST_AUTO_TEST_CASE(shell_error, *boost::unit_test::timeout(5))
     c2.wait();
     BOOST_CHECK(c2.exit_code() != 0);
 }
-

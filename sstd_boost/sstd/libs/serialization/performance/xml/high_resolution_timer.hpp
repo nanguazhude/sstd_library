@@ -487,4 +487,3 @@ namespace xml {
 // * similar maner to cycle.h this preserves the sign of the
 // * difference.
 //
-

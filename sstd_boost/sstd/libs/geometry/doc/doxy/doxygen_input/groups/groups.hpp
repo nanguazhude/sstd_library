@@ -83,4 +83,3 @@
 \defgroup within within: detect if a geometry is inside another geometry, a.o. point-in-polygon
 \defgroup wkt wkt: parse and stream WKT (Well-Known Text)
 */
-

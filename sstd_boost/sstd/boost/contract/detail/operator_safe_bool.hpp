@@ -70,5 +70,3 @@
 #endif
 
 #endif // #include guard
-
-

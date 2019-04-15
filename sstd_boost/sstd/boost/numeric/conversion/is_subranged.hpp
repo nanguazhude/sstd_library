@@ -23,6 +23,3 @@ struct is_subranged
 } } // namespace boost::numeric
 
 #endif
-
-
-

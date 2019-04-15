@@ -45,6 +45,3 @@ main()
     test_push_front(data);
     return boost::report_errors();
 }
-
-
-

@@ -320,4 +320,3 @@ namespace boost
 }
 
 #endif //__BOYER_MYRVOLD_PLANAR_TEST_HPP__
-

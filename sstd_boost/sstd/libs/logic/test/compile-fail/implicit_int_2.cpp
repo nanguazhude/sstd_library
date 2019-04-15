@@ -14,4 +14,3 @@ int main(int, char*[])
 
   return i + 1; // expect to see: error: invalid operands to binary expression ('boost::logic::tribool' and 'int')
 }
-

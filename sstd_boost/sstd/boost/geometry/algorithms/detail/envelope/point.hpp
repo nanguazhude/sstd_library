@@ -133,4 +133,3 @@ struct envelope<Point, point_tag, geographic_tag>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_ENVELOPE_POINT_HPP
-

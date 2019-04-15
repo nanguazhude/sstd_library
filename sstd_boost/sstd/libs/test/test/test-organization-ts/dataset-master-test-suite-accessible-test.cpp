@@ -232,4 +232,3 @@ BOOST_DATA_TEST_CASE(master_access_make_ds_with_arity,
     std::cout << "input: " << input << " -- expected: " << expected << " -- additional: " << additional << std::endl;
     BOOST_TEST(true);
 }
-

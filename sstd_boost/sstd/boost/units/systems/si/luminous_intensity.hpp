@@ -31,4 +31,3 @@ BOOST_UNITS_STATIC_CONSTANT(candelas,luminous_intensity);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_LUMINOUS_INTENSITY_HPP
-

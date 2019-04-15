@@ -56,4 +56,3 @@ int main() {
 
     BOOST_HANA_CONSTANT_CHECK(hana::contains(ns::MemberArray{}, BOOST_HANA_STRING("array")));
 }
-

@@ -34,4 +34,3 @@ BOOST_MPL_AUX_NA_SPEC_NO_ETI(1, sizeof_)
 }}
 
 #endif // BOOST_MPL_SIZEOF_HPP_INCLUDED
-

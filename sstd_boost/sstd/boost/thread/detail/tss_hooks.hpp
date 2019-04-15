@@ -63,4 +63,3 @@ namespace boost
 #include <sstd/boost/config/abi_suffix.hpp>
 
 #endif //!defined(BOOST_TLS_HOOKS_HPP)
-

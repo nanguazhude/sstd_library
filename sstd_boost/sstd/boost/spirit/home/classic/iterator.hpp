@@ -23,4 +23,3 @@
 #include <sstd/boost/spirit/home/classic/iterator/multi_pass.hpp>
 
 #endif // !defined(BOOST_SPIRIT_ITERATOR_MAIN_HPP)
-

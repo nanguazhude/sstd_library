@@ -238,4 +238,3 @@ struct get_placeholders_in_argument<R(BOOST_PP_ENUM_PARAMS(N, T)), Out>
 #undef N
 
 #endif
-

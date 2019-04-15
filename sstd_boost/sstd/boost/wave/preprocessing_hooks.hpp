@@ -817,4 +817,3 @@ struct default_preprocessing_hooks
 #endif
 
 #endif // !defined(DEFAULT_PREPROCESSING_HOOKS_HPP_INCLUDED)
-

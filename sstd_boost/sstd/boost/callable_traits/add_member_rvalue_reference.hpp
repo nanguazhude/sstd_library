@@ -111,4 +111,3 @@ struct add_member_rvalue_reference
 //]
 
 #endif
-

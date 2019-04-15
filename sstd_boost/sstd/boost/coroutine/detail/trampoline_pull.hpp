@@ -48,4 +48,3 @@ void trampoline_pull( context::detail::transfer_t t)
 #endif
 
 #endif // BOOST_COROUTINES_DETAIL_TRAMPOLINE_PULL_H
-

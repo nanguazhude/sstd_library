@@ -26,4 +26,3 @@ MPL_TEST_CASE()
     typedef vector3<int,char,double> answer;
     MPL_ASSERT(( equal< result,answer > ));
 }
-

@@ -258,4 +258,3 @@ inline combined_filter<InputFilter, OutputFilter>::combined_filter
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>
 
 #endif // #ifndef BOOST_IOSTREAMS_COMBINE_HPP_INCLUDED
-

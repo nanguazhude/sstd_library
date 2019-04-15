@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/support/deduce_sequence.hpp>
 
 #endif
-

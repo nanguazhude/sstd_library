@@ -116,4 +116,3 @@ struct tracking_level< T >                   \
 }}
 
 #endif // BOOST_SERIALIZATION_TRACKING_HPP
-

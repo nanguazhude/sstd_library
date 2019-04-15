@@ -181,5 +181,3 @@ BOOST_CONTRACT_ERROR_macro_OVERRIDES_requires_variadic_macros_otherwise_manually
 #endif
 
 #endif // #include guard
-
-

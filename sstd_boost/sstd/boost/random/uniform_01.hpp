@@ -255,4 +255,3 @@ using random::uniform_01;
 #include <sstd/boost/random/detail/enable_warnings.hpp>
 
 #endif // BOOST_RANDOM_UNIFORM_01_HPP
-

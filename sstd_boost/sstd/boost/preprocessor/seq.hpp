@@ -42,4 +42,3 @@
 # include <sstd/boost/preprocessor/seq/variadic_seq_to_seq.hpp>
 #
 # endif
-

@@ -62,4 +62,3 @@ struct reply
 } // namespace http
 
 #endif // HTTP_REPLY_HPP
-

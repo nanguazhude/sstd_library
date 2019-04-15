@@ -131,4 +131,3 @@ struct default_strategy<cartesian_tag>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_CARTESIAN_DENSIFY_HPP
-

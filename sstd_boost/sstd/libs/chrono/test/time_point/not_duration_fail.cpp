@@ -20,4 +20,3 @@ void test()
     typedef boost::chrono::time_point<boost::chrono::system_clock, int> T;
     T t;
 }
-

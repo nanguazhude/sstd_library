@@ -261,5 +261,3 @@ namespace boost { namespace dll {
 
 
 #endif // BOOST_DLL_ALIAS_HPP
-
-

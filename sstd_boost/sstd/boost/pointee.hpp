@@ -74,4 +74,3 @@ struct pointee
 } // namespace boost
 
 #endif // POINTEE_DWA200415_HPP
-

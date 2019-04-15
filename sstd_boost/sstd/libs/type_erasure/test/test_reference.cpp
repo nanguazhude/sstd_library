@@ -80,4 +80,3 @@ BOOST_AUTO_TEST_CASE(test_mixed_add)
     int k = any_cast<int>(z);
     BOOST_CHECK_EQUAL(k, 3);
 }
-

@@ -39,4 +39,3 @@ inline bool compare_handles(boost::winapi::HANDLE_ lhs, boost::winapi::HANDLE_ r
 
 
 #endif /* BOOST_PROCESS_DETAIL_WINDOWS_COMPARE_HANDLES_HPP_ */
-

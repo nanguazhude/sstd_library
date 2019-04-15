@@ -33,4 +33,3 @@ struct get_pixel_type< any_image_view< ImageViewTypes > >
 } // namespace boost
 
 #endif
-

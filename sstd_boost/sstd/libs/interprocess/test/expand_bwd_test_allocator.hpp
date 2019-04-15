@@ -190,5 +190,3 @@ bool operator!=(const expand_bwd_test_allocator<T>  &,
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_EXPAND_BWD_TEST_ALLOCATOR_HPP
-
-

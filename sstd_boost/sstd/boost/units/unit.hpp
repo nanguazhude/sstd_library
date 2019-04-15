@@ -446,4 +446,3 @@ operator!=(const unit<Dim1,System1>&,const unit<Dim2,System2>&)
 } // namespace boost
 
 #endif // BOOST_UNITS_UNIT_HPP
-

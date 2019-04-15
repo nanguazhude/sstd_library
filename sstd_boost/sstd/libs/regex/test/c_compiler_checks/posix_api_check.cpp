@@ -60,7 +60,3 @@ int main()
    printf("no errors found\n");
    return boost::report_errors();
 }
-
-
-
-

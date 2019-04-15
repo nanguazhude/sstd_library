@@ -381,5 +381,3 @@ namespace projections
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_GN_SINU_HPP
-
-

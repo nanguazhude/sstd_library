@@ -45,4 +45,3 @@ struct do_reverse<counterclockwise, true> : boost::false_type {};
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_DO_REVERSE_HPP
-

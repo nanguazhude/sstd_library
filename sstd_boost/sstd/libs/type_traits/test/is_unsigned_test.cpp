@@ -56,12 +56,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_unsigned<wchar_t>::value, true);
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

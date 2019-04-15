@@ -119,4 +119,3 @@ struct swap_op
 }} //namespace boost::movelib
 
 #endif   //BOOST_MOVE_ALGO_BASIC_OP
-

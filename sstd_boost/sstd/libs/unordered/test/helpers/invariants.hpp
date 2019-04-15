@@ -128,4 +128,3 @@ namespace test {
 #endif
 
 #endif
-

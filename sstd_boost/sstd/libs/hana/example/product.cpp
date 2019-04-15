@@ -24,4 +24,3 @@ int main() {
         hana::product<unsigned long>(hana::make_tuple(2ul, 3ul)) == 6ul
     );
 }
-

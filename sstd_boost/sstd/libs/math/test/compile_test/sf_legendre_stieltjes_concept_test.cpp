@@ -11,4 +11,3 @@
 #include <sstd/boost/math/special_functions/legendre_stieltjes.hpp>
 
 template class boost::math::legendre_stieltjes<boost::math::concepts::std_real_concept>;
-

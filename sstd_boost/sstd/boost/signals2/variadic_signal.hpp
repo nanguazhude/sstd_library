@@ -44,4 +44,3 @@ namespace boost
 #include <sstd/boost/signals2/detail/signal_template.hpp>
 
 #endif // BOOST_SIGNALS2_VARIADIC_SIGNAL_HPP
-

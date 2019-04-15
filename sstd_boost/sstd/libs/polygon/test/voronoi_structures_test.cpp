@@ -148,4 +148,3 @@ int main()
     beach_line_node_data_test();
     return boost::report_errors();
 }
-

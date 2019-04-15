@@ -91,4 +91,3 @@ using lambda::_3;
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_LAMBDA_PLACEHOLDERS_HPP
-

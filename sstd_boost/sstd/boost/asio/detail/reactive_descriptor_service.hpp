@@ -388,4 +388,3 @@ private:
        //   && !defined(__CYGWIN__)
 
 #endif // BOOST_ASIO_DETAIL_REACTIVE_DESCRIPTOR_SERVICE_HPP
-

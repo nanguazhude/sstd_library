@@ -69,4 +69,3 @@ BOOST_AUTO_TEST_CASE(terminate_throw_on_error)
     std::this_thread::sleep_for(std::chrono::milliseconds(5));
     BOOST_CHECK(!c.running());
 }
-

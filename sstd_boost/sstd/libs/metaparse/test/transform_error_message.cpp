@@ -65,5 +65,3 @@ BOOST_METAPARSE_TEST_CASE(transform_error_message)
     >
   ));
 }
-
-

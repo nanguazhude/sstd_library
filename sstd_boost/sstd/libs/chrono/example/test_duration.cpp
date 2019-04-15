@@ -200,5 +200,3 @@ int main()
     test_duration_multiply();
     return 0;
 }
-
-

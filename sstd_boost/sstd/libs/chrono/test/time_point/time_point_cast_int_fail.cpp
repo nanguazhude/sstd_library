@@ -22,4 +22,3 @@ void test()
     typedef boost::chrono::time_point<Clock, boost::chrono::minutes> ToTimePoint;
     boost::chrono::time_point_cast<ToTimePoint>(FromTimePoint(boost::chrono::milliseconds(3)));
 }
-

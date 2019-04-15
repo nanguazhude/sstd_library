@@ -110,4 +110,3 @@ BOOST_MPL_AUX_NA_SPEC(2, equal)
 }}
 
 #endif // BOOST_MPL_EQUAL_HPP_INCLUDED
-

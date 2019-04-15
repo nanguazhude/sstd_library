@@ -33,5 +33,3 @@ int main()
     BOOST_ASSERT(d == seconds(4));
     return 0;
 }
-
-

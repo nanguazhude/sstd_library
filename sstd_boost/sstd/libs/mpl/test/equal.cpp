@@ -29,4 +29,3 @@ MPL_TEST_CASE()
     MPL_ASSERT_NOT(( equal<list3,list4> ));
     MPL_ASSERT_NOT(( equal<list4,list3> ));
 }
-

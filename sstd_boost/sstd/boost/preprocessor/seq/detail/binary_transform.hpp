@@ -45,4 +45,3 @@
 # define BOOST_PP_SEQ_BINARY_TRANSFORM_B0 (BOOST_PP_EAT, ?)
 #
 # endif
-

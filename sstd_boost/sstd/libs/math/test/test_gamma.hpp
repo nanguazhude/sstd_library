@@ -325,5 +325,3 @@ void test_spots(T, const char* name)
       BOOST_CHECK_EQUAL(boost::math::tgamma(std::numeric_limits<T>::denorm_min()), std::numeric_limits<T>::infinity());
    }
 }
-
-

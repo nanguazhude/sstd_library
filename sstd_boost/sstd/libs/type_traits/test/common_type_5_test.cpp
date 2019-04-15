@@ -54,4 +54,3 @@ TT_TEST_BEGIN(common_type_5)
     BOOST_CHECK_TYPE4( tt::common_type< X<char>&, X<long> const&, X<short> volatile& >::type, X<long> );
 }
 TT_TEST_END
-

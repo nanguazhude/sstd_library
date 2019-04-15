@@ -96,4 +96,3 @@
         BOOST_FUSION_ADAPT_ASSOC_STRUCT_C)
 
 #endif
-

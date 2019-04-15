@@ -42,4 +42,3 @@ static_assert(std::is_base_of<std::integral_constant<int, 3>,
                               hana::integral_constant<int, 3>>{}, "");
 
 int main() { }
-

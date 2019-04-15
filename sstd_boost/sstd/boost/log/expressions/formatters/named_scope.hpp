@@ -653,4 +653,3 @@ struct is_nullary< custom_terminal< boost::log::expressions::format_named_scope_
 #include <sstd/boost/log/detail/footer.hpp>
 
 #endif // BOOST_LOG_EXPRESSIONS_FORMATTERS_NAMED_SCOPE_HPP_INCLUDED_
-

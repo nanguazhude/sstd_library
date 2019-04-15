@@ -231,5 +231,3 @@ namespace date_time {
 #endif
 
 #endif
-
-

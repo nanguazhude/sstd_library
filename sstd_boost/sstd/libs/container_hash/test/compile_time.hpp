@@ -17,5 +17,3 @@ void compile_time_tests(T*)
         typename BOOST_HASH_TEST_NAMESPACE::hash<T>::result_type
     >::value));
 }
-
-

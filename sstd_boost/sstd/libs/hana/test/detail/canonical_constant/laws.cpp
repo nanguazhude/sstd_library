@@ -54,4 +54,3 @@ int main() {
     hana::test::TestComparable<hana::detail::CanonicalConstant<int>>{ints};
     hana::test::TestOrderable<hana::detail::CanonicalConstant<int>>{ints};
 }
-

@@ -16,4 +16,3 @@ int main()
   test_copy_assignment();
   return boost::report_errors();
 }
-

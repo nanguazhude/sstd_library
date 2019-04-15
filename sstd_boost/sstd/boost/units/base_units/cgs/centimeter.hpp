@@ -29,4 +29,3 @@ typedef scaled_base_unit<boost::units::si::meter_base_unit, scale<10, static_rat
 } // namespace boost
 
 #endif // BOOST_UNITS_CENTIMETER_BASE_UNIT_HPP
-

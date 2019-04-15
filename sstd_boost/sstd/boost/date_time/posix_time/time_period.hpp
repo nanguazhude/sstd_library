@@ -26,5 +26,3 @@ namespace posix_time {
 
 
 #endif
-
-

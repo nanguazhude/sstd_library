@@ -199,4 +199,3 @@ inline void for_each_range(Geometry const& geometry, Actor & actor)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_FOR_EACH_RANGE_HPP
-

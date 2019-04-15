@@ -77,4 +77,3 @@ typedef std::shared_ptr<connection> connection_ptr;
 } // namespace http
 
 #endif // HTTP_CONNECTION_HPP
-

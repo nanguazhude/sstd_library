@@ -32,4 +32,3 @@ MPL_TEST_CASE()
 
     MPL_ASSERT(( is_void_< index_of_char > ));
 }
-

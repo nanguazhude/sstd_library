@@ -361,4 +361,3 @@ BOOST_ASIO_TEST_SUITE
   BOOST_ASIO_TEST_CASE(ip_multicast_compile::test)
   BOOST_ASIO_TEST_CASE(ip_multicast_runtime::test)
 )
-

@@ -114,4 +114,3 @@ namespace boost { namespace polygon { namespace detail { namespace simplify_deta
 }}}}
 
 #endif
-

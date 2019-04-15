@@ -47,4 +47,3 @@ using std::experimental::string_view;
 #endif // defined(BOOST_ASIO_HAS_STRING_VIEW)
 
 #endif // BOOST_ASIO_DETAIL_STRING_VIEW_HPP
-

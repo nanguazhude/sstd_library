@@ -121,4 +121,3 @@ operator<<( assertion_type const& , bitwise )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_TOOLS_DETAIL_BITWISE_MANIP_HPP_012705GER
-

@@ -99,4 +99,3 @@ struct predicate_based_interrupt_policy
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_POLICIES_PREDICATE_BASED_INTERRUPT_POLICY_HPP
-

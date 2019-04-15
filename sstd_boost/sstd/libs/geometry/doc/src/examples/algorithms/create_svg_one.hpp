@@ -46,5 +46,3 @@ void create_svg(std::string const& filename, Geometry const& g)
 
 
 #endif // CREATE_SVG_ONE_HPP
-
-

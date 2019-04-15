@@ -1748,4 +1748,3 @@ BOOST_CONTAINER_DOC1ST( }, BOOST_MOVE_STD_NS_END)
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif // BOOST_CONTAINER_SLIST_HPP
-

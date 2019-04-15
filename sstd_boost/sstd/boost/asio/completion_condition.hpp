@@ -218,4 +218,3 @@ inline detail::transfer_exactly_t transfer_exactly(std::size_t size)
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_COMPLETION_CONDITION_HPP
-

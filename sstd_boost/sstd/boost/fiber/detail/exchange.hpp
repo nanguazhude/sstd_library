@@ -34,4 +34,3 @@ T exchange( T & t, U && nv) {
 #endif
 
 #endif // BOOST_FIBER_DETAIL_EXCHANGE_H
-

@@ -41,4 +41,3 @@ class address;
 } // namespace boost
 
 #endif // BOOST_LOG_DETAIL_ASIO_FWD_HPP_INCLUDED_
-

@@ -23,4 +23,3 @@
 #define BOOST_RANDOM_DISTRIBUTION_MAX static_cast<int>(mean * 4)
 
 #include "test_real_distribution.ipp"
-

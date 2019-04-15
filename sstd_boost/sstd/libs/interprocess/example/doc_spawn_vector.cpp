@@ -111,4 +111,3 @@ int main(int argc, char *argv[])
 
 //]
 #include <sstd/boost/interprocess/detail/config_end.hpp>
-

@@ -32,5 +32,3 @@ TEST
 //H 10: t_9_024.cpp(33): #endif
 
 #endif
-
-

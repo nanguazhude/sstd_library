@@ -35,4 +35,3 @@ MPL_TEST_CASE()
 
     MPL_ASSERT_RELATION( (mpl::distance<first,last>::value), ==, 10 );
 }
-

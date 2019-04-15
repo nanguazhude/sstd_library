@@ -113,4 +113,3 @@ struct Orthogonal2 : sc::state< MostDerived, Context,
 
 
 #endif
-

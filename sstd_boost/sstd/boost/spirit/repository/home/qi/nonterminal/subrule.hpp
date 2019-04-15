@@ -612,4 +612,3 @@ namespace boost { namespace spirit { namespace repository { namespace qi
 #endif
 
 #endif
-

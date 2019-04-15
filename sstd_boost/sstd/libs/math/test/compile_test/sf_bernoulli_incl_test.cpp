@@ -35,4 +35,3 @@ void compile_and_link_test()
    cnull << ce_f << ce_d << ce_l << std::endl;
 #endif
 }
-

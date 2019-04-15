@@ -42,7 +42,3 @@ my_refcounting_api* create() {
 }
 
 //]
-
-
-
-

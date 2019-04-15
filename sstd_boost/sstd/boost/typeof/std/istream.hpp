@@ -19,4 +19,3 @@ BOOST_TYPEOF_REGISTER_TYPE(std::istream)
 BOOST_TYPEOF_REGISTER_TYPE(std::iostream)
 
 #endif//BOOST_TYPEOF_STD_istream_hpp_INCLUDED
-

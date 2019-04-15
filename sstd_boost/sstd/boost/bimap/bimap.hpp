@@ -436,4 +436,3 @@ using ::boost::multi_index::unbounded;
 
 
 #endif // BOOST_BIMAP_BIMAP_HPP
-

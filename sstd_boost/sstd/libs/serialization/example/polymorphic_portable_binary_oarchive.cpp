@@ -33,4 +33,3 @@ template class detail::archive_pointer_oserializer<
 
 } // namespace archive
 } // namespace boost
-

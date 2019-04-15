@@ -122,4 +122,3 @@ struct relate<Areal1, Areal2, Tag1, Tag2, 2, 2, true>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_RELATE_IMPLEMENTATION_HPP
-

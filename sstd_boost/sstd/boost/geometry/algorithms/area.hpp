@@ -362,4 +362,3 @@ area(Geometry const& geometry, Strategy const& strategy)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_AREA_HPP
-

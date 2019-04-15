@@ -21,4 +21,3 @@ int main() {
         hana::insert(xs, 1_c, " "s) == hana::make_tuple("Hello"s, " "s, "world!"s)
     );
 }
-

@@ -19,4 +19,3 @@
 #include <sstd/boost/geometry/geometries/multi_polygon.hpp>
 
 #endif // BOOST_GEOMETRY_MULTI_GEOMETRIES_MULTI_GEOMETRIES_HPP
-

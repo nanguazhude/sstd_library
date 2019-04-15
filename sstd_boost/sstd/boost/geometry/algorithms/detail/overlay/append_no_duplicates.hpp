@@ -51,4 +51,3 @@ inline void append_no_duplicates(Range& range, Point const& point, bool force = 
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_APPEND_NO_DUPLICATES_HPP
-

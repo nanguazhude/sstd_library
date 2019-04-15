@@ -87,4 +87,3 @@ void gram_schmidt( StateType &x , LyapType &lyap , size_t n )
 } // namespace boost
 
 #endif //BOOST_NUMERIC_ODEINT_GRAM_SCHMITT_HPP_INCLUDED
-

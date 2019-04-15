@@ -19,4 +19,3 @@ int main() {
     auto f = hana::compose(hana::lift<M>, hana::test::_injection<0>{});
     hana::chain(m, hana::compose(hana::lift<M>, f));
 }
-

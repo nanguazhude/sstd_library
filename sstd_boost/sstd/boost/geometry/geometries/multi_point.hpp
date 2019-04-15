@@ -121,4 +121,3 @@ struct tag< model::multi_point<Point, Container, Allocator> >
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_MULTI_POINT_HPP
-

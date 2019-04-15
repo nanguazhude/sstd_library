@@ -378,4 +378,3 @@ public:
        //   || defined(GENERATING_DOCUMENTATION)
 
 #endif // BOOST_ASIO_WINDOWS_RANDOM_ACCESS_HANDLE_HPP
-

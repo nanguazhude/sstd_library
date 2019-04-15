@@ -20,4 +20,3 @@ struct BOOST_PYTHON_DECL shared_ptr_deleter
 }}} // namespace boost::python::converter
 
 #endif // SHARED_PTR_DELETER_DWA2002121_HPP
-

@@ -47,4 +47,3 @@
 #endif  // auto-linking disabled
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_AUTO_LINK_HPP_INCLUDED
-

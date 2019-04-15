@@ -64,4 +64,3 @@ struct multi_index_node_type
 } /* namespace boost */
 
 #endif
-

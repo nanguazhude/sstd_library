@@ -86,4 +86,3 @@ power (T x, Integer n, Operation op) {
 }}
 
 #endif // BOOST_ALGORITHM_HPP
-

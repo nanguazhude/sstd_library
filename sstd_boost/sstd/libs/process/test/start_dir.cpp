@@ -62,4 +62,3 @@ BOOST_AUTO_TEST_CASE(start_in_dir)
 
     BOOST_REQUIRE_NO_THROW(c.wait());
 }
-

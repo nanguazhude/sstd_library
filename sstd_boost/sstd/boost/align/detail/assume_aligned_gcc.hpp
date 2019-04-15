@@ -15,4 +15,3 @@ Distributed under the Boost Software License, Version 1.0.
 (p) = static_cast<__typeof__(p)>(__builtin_assume_aligned((p), (n)))
 
 #endif
-

@@ -33,4 +33,3 @@ int main() {
     BOOST_HANA_CONSTANT_CHECK(hana::type_c<T> == hana::type_c<T>);
     BOOST_HANA_CONSTANT_CHECK(hana::type_c<T> != hana::type_c<U>);
 }
-

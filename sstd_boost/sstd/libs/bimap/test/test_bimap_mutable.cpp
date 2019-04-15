@@ -106,5 +106,3 @@ int test_main( int, char* [] )
     test_bimap_mutable< bimap< int, unconstrained_set_of<double> > >();
     return 0;
 }
-
-

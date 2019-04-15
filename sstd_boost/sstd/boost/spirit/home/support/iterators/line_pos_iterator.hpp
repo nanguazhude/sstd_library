@@ -187,5 +187,3 @@ namespace boost { namespace spirit
 }}
 
 #endif // BOOST_SPIRIT_SUPPORT_LINE_POS_ITERATOR
-
-

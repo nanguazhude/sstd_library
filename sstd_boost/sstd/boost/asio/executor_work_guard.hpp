@@ -170,4 +170,3 @@ make_work_guard(const T& t, ExecutionContext& ctx,
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_EXECUTOR_WORK_GUARD_HPP
-

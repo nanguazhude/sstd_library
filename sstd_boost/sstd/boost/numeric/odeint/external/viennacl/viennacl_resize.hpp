@@ -64,4 +64,3 @@ struct same_size_impl< viennacl::vector< T > , viennacl::vector< T > >
 
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_VIENNACL_VIENNACL_RESIZE_HPP_INCLUDED
-

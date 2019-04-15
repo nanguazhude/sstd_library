@@ -14,4 +14,3 @@
 #include <sstd/boost/spirit/home/qi/stream/detail/match_manip_auto.hpp>
 
 #endif
-

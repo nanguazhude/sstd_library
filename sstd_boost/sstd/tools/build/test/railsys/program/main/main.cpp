@@ -17,4 +17,3 @@ int main()
 
     stTestLibX.do_something();
 };
-

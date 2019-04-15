@@ -55,4 +55,3 @@ int main() {
     BOOST_HANA_CONSTANT_CHECK(hana::contains(Data3{}, BOOST_HANA_STRING("member2")));
     BOOST_HANA_CONSTANT_CHECK(hana::contains(Data3{}, BOOST_HANA_STRING("member3")));
 }
-

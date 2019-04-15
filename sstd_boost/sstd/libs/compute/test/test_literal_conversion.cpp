@@ -70,4 +70,3 @@ BOOST_AUTO_TEST_CASE(literal_conversion_double)
     BOOST_CHECK_EQUAL(values[1], roundtrip[1]);
     BOOST_CHECK_EQUAL(values[2], roundtrip[2]);
 }
-

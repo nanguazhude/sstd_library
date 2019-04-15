@@ -277,4 +277,3 @@ namespace boost
 } // namespace boost
 
 #endif //__CHROBAK_PAYNE_DRAWING_HPP__
-

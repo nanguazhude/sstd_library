@@ -72,4 +72,3 @@ template<class RET> struct r_select {
 } // namespace boost
 
 #endif
-

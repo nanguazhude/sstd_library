@@ -69,4 +69,3 @@ inline T modf(const T& v, boost::long_long_type* ipart)
 }} // namespaces
 
 #endif // BOOST_MATH_MODF_HPP
-

@@ -129,4 +129,3 @@ if (BUILD_COVERAGE AND UNIX)
         )
     endif ()
 endif ()
-

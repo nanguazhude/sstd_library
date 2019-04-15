@@ -159,4 +159,3 @@ remove_dangling_links(MutableGraph& g
 #endif
 
 #endif // BOOST_GRAPH_PAGE_RANK_HPP
-

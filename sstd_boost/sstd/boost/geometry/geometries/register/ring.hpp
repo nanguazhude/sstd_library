@@ -58,4 +58,3 @@ namespace boost { namespace geometry { namespace traits {  \
 
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_REGISTER_RING_HPP
-

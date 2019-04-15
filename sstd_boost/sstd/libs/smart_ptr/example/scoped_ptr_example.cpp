@@ -21,4 +21,3 @@ example::example() : _imp( new implementation ) {}
 void example::do_something() { std::cout << "did something\n"; }
 
 example::~example() {}
-

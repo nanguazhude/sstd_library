@@ -99,4 +99,3 @@ class memory_resource
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //BOOST_CONTAINER_PMR_MEMORY_RESOURCE_HPP
-

@@ -259,4 +259,3 @@ int main(void)
 
     mutable_interface_handle_in_value();
 }
-

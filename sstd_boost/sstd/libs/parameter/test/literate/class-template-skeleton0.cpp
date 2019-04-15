@@ -14,4 +14,3 @@ struct class_
 };
 
 }}
-

@@ -31,10 +31,3 @@ struct Bob
     return x;
   }
 };
-
-
-
-
-
-
-

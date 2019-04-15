@@ -16,4 +16,3 @@ std::vector<char const*> const&
 urls_large_data();
 
 #endif
-

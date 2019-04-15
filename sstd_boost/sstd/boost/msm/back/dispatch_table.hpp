@@ -411,5 +411,3 @@ struct dispatch_table
 
 
 #endif //BOOST_MSM_BACK_DISPATCH_TABLE_H
-
-

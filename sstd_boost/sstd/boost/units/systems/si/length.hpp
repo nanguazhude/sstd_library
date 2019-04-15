@@ -33,4 +33,3 @@ BOOST_UNITS_STATIC_CONSTANT(metres,length);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_LENGTH_HPP
-

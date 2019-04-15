@@ -21,4 +21,3 @@ int main() {
     constexpr auto result = boost::hana::transform(tuple, f{});
     (void)result;
 }
-

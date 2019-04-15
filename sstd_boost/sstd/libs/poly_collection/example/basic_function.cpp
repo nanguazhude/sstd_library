@@ -101,4 +101,3 @@ int main()
 //=  *c.begin()=render_message("last minute message"); // compile-time error
 //]
 }
-

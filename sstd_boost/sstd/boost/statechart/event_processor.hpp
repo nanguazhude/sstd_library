@@ -85,4 +85,3 @@ class event_processor
 
 
 #endif
-

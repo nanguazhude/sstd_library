@@ -32,4 +32,3 @@ static_assert(std::is_empty<
 >{}, "");
 
 int main() { }
-

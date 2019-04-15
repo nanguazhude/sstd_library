@@ -70,4 +70,3 @@ void test_set_factory()
   test_basic_template<set_factory_flyweight_specifier2>();
   test_basic_template<set_factory_flyweight_specifier3>();
 }
-

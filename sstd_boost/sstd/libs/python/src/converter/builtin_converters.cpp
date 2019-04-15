@@ -590,4 +590,3 @@ void initialize_builtin_converters()
 }
 
 }}} // namespace boost::python::converter
-

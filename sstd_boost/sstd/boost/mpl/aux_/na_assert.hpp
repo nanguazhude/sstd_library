@@ -32,4 +32,3 @@
 #endif
 
 #endif // BOOST_MPL_AUX_NA_ASSERT_HPP_INCLUDED
-

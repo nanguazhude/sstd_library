@@ -11,6 +11,3 @@ int main()
 {
    return boost::has_nothrow_constructor<incomplete_type>::value;
 }
-
-
-

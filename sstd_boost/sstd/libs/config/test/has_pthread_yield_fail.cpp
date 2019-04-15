@@ -31,5 +31,3 @@ int main( int, char *[] )
 {
    return boost_has_pthread_yield::test();
 }
-
-

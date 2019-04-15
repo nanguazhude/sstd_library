@@ -597,4 +597,3 @@ void GC_darwin_register_mach_handler_thread(mach_port_t thread)
 }
 
 #endif
-

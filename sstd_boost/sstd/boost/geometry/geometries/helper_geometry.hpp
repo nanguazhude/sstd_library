@@ -171,4 +171,3 @@ struct helper_geometry
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_HELPER_GEOMETRY_HPP
-

@@ -98,4 +98,3 @@ void cmd_free( CMD * );
 #define cmd_next( c ) ((c)->next)
 
 #endif
-

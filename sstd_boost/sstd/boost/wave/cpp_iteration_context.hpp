@@ -169,4 +169,3 @@ struct iteration_context
 #endif
 
 #endif // !defined(CPP_ITERATION_CONTEXT_HPP_00312288_9DDB_4668_AFE5_25D3994FD095_INCLUDED)
-

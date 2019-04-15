@@ -26,4 +26,3 @@ template< typename Iterator, typename N > struct advance;
 }}
 
 #endif // BOOST_MPL_ADVANCE_FWD_HPP_INCLUDED
-

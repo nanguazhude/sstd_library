@@ -59,4 +59,3 @@ namespace boost
 }
 
 #endif // BOOST_SIGNALS2_PREPROCESSED_SIGNAL_HPP
-

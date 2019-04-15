@@ -193,4 +193,3 @@ inline OutputIterator add_rings(SelectionMap const& map,
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_ADD_RINGS_HPP
-

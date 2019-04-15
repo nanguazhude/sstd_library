@@ -36,5 +36,3 @@ BOOST_METAPARSE_TEST_CASE(empty)
   // test_reject_non_empty
   BOOST_MPL_ASSERT((is_error<apply_wrap2<empty13, str_a, start> >));
 }
-
-

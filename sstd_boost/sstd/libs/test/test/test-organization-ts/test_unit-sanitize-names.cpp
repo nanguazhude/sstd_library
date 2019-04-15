@@ -59,4 +59,3 @@ BOOST_AUTO_TEST_CASE( test_case_sanitize )
     BOOST_TEST( master_ts->get("  my_whateve_r test case 2  ") == INV_TEST_UNIT_ID );
     BOOST_TEST( master_ts->get("my_whateve_r test case 2") == tc2->p_id );
 }
-

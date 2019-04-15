@@ -129,4 +129,3 @@ protected:
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IP_RESOLVER_BASE_HPP
-

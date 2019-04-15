@@ -168,4 +168,3 @@ template<class T1, class... T> using mp_max = mp_max_element<mp_list<T1, T...>, 
 } // namespace boost
 
 #endif // #ifndef BOOST_MP11_FUNCTION_HPP_INCLUDED
-

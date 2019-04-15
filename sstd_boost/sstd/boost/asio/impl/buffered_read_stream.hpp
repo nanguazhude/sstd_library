@@ -429,4 +429,3 @@ std::size_t buffered_read_stream<Stream>::peek(
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IMPL_BUFFERED_READ_STREAM_HPP
-

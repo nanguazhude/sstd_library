@@ -67,4 +67,3 @@ operator<<( assertion_type const&, per_element )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_TOOLS_DETAIL_PER_ELEMENT_MANIP_HPP_050815GER
-

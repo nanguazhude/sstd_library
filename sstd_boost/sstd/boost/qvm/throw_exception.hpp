@@ -7,4 +7,3 @@
 #include <sstd/boost/throw_exception.hpp>
 #define BOOST_QVM_THROW_EXCEPTION BOOST_THROW_EXCEPTION
 #endif
-

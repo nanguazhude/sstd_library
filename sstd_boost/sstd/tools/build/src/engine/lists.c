@@ -474,4 +474,3 @@ LIST * list_from_python( PyObject * l )
 }
 
 #endif
-

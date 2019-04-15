@@ -43,4 +43,3 @@ namespace boost
 }
 
 #endif // BOOST_MINMAX_CHECK_HPP
-

@@ -76,4 +76,3 @@ struct lex_input_interface_generator
 }   // namespace boost
 
 #endif // !defined(IDL_LEX_INTERFACE_HPP_INCLUDED)
-

@@ -55,4 +55,3 @@
 #endif
 
 #endif // BOOST_ARCHIVE_DETAIL_DECL_HPP
-

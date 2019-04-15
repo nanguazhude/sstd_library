@@ -192,4 +192,3 @@ namespace boost
 #define BOOST_SCOPED_ENUM(name) BOOST_SCOPED_ENUM_NATIVE(name)
 
 #endif  // BOOST_CORE_SCOPED_ENUM_HPP
-

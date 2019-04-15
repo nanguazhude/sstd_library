@@ -32,4 +32,3 @@ uuid m_uuid;
 const uuid &get_marker_id() const { return m_uuid; }
 uuid get_id() const { return m_uuid; }
 };
-

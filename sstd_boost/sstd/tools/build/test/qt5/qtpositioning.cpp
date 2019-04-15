@@ -21,4 +21,3 @@ BOOST_AUTO_TEST_CASE( geo_coordinate )
 
     BOOST_CHECK_EQUAL(geocoordinate.type(), QGeoCoordinate::InvalidCoordinate);
 }
-

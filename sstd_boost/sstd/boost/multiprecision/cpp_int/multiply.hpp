@@ -496,4 +496,3 @@ BOOST_MP_FORCEINLINE typename enable_if_c<is_unsigned<UI>::value && (sizeof(UI) 
 }}} // namespaces
 
 #endif
-

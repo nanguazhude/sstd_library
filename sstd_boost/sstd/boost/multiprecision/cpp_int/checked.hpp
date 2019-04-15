@@ -146,5 +146,3 @@ inline A checked_left_shift(A a, boost::ulong_long_type shift, const mpl::int_<u
 }}}} // namespaces
 
 #endif
-
-

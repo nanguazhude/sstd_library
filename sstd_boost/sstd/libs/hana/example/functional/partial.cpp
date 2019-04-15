@@ -11,4 +11,3 @@ constexpr auto increment = hana::partial(hana::plus, 1);
 static_assert(increment(2) == 3, "");
 
 int main() { }
-

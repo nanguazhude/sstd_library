@@ -105,4 +105,3 @@ class BOOST_MPI_DECL status
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_STATUS_HPP
-

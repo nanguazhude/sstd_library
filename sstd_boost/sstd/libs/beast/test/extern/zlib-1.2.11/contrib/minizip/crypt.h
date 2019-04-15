@@ -129,4 +129,3 @@ static int crypthead(const char* passwd,      /* password string */
 }
 
 #endif
-

@@ -17,4 +17,3 @@ add_executable (http-server-async
 )
 
 set_property(TARGET http-server-async PROPERTY FOLDER "example-http-server")
-

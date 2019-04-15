@@ -334,4 +334,3 @@ namespace boost
 #endif // BOOST_HASH_CONFORMANT_FLOATS
 
 #endif
-

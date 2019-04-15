@@ -81,4 +81,3 @@ dynamic_buffer_prepare(
 } // boost
 
 #endif
-

@@ -49,7 +49,3 @@ public:
 #endif
 
 #endif // BOOST_ABI_TEST_HPP
-
-
-
-

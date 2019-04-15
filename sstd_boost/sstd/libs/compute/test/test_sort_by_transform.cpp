@@ -108,4 +108,3 @@ BOOST_AUTO_TEST_CASE(sort_vectors_by_component)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

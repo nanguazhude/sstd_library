@@ -57,4 +57,3 @@ enum class role_type
 } // boost
 
 #endif
-

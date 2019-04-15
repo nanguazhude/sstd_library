@@ -49,4 +49,3 @@ Impact: If you use find, you may have to change your code. Most importantly,
 Rationale: equal_range() also returns assoc_iterators. equal_range() cannot
            return normal iterators, since the conversion would not preserve
            the equal range or even the range property.
-

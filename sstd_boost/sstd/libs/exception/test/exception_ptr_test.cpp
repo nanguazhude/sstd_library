@@ -176,4 +176,3 @@ main()
         }
     BOOST_TEST(!--exc_count);
     }
-

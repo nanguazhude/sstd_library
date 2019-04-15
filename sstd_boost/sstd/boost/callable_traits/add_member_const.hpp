@@ -100,7 +100,3 @@ struct add_member_const : detail::add_member_const_impl<T> {};
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_ADD_MEMBER_CONST_HPP
-
-
-
-

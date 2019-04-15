@@ -215,4 +215,3 @@ namespace client { namespace code_gen
         return true;
     }
 }}
-

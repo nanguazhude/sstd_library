@@ -279,6 +279,3 @@ inline void check_value ( optional<T>& opt, T const& v, T const& z )
 
   check_value_const(opt,v,z);
 }
-
-
-

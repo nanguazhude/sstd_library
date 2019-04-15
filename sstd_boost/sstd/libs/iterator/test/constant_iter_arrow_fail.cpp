@@ -18,4 +18,3 @@ void test()
 {
     p->first = 3;
 }
-

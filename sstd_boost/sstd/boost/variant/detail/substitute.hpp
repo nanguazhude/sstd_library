@@ -277,4 +277,3 @@ public:
 
 #undef i
 #endif // BOOST_PP_IS_ITERATING
-

@@ -14,4 +14,3 @@ struct my_iter : boost::iterator_adaptor<my_iter, std::pair<int,int> const*>
 std::pair<int,int> const x(1,1);
 my_iter p(&x);
 int y = p->first; // operator-> attempts to return an non-const pointer
-

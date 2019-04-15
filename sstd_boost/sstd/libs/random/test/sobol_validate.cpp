@@ -378,4 +378,3 @@ BOOST_AUTO_TEST_CASE( validate_sobol_discard )
   test_sobol_discard(sobol_07_100, 127);
   test_sobol_discard(sobol_16_100, 127);
 }
-

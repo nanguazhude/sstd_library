@@ -155,4 +155,3 @@ template class basic_xml_grammar<wchar_t>;
 } // namespace boost
 
 #endif
-

@@ -18,4 +18,3 @@ struct static_assert_same
 };
 
 #endif // STATIC_ASSERT_SAME_DWA2003530_HPP
-

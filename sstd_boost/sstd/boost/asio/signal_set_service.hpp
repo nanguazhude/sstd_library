@@ -142,4 +142,3 @@ private:
 #endif // defined(BOOST_ASIO_ENABLE_OLD_SERVICES)
 
 #endif // BOOST_ASIO_SIGNAL_SET_SERVICE_HPP
-

@@ -39,4 +39,3 @@ back_insert_device<Container> back_inserter(Container& cnt)
 } } // End namespaces iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_BACK_INSERTER_HPP_INCLUDED
-

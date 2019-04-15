@@ -15,4 +15,3 @@
 #include <sstd/boost/iostreams/read.hpp>
 
 #endif // #ifndef BOOST_IOSTREAMS_GET_HPP_INCLUDED
-

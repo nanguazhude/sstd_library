@@ -15,5 +15,3 @@ int main() {
         "It is unsafe to reinterpret_cast between them."
     );
 }
-
-

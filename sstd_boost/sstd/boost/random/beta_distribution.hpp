@@ -182,4 +182,3 @@ private:
 } // namespace boost
 
 #endif // BOOST_RANDOM_BETA_DISTRIBUTION_HPP
-

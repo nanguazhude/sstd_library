@@ -105,4 +105,3 @@ struct enable_if_constructible
 }} // namespace boost::hof
 
 #endif
-

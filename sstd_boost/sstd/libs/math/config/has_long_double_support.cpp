@@ -8,4 +8,3 @@
 #ifdef BOOST_MATH_NO_LONG_DOUBLE_MATH_FUNCTIONS
 #error "long double support is not supported by Boost.Math on this Plaform: the long double version of the TR1 library will not be built."
 #endif
-

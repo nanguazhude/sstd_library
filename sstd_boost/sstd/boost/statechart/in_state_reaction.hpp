@@ -71,4 +71,3 @@ class in_state_reaction
 
 
 #endif
-

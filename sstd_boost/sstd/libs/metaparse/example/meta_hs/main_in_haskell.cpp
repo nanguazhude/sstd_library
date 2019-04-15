@@ -17,5 +17,3 @@ int main()
     << "times4 3 = " << times4::apply<int_<3> >::type::value << std::endl
     << "times11 2 = " << times11::apply<int_<2> >::type::value << std::endl;
 }
-
-

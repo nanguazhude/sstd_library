@@ -190,4 +190,3 @@ struct function<T&> : std::conditional<function<T>::value,
 }}} // namespace boost::callable_traits::detail
 
 #endif // #ifndef BOOST_CLBL_TRTS_DETAIL_FUNCTION_HPP
-

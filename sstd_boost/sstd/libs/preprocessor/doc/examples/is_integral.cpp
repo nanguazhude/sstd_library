@@ -47,4 +47,3 @@ template<class T> struct is_integral {
    /**/
 
 BOOST_PP_LIST_FOR_EACH_PRODUCT(IS_INTEGRAL_SPECIALIZATION, 2, (CV_QUALIFIERS, INTEGRAL_TYPES))
-

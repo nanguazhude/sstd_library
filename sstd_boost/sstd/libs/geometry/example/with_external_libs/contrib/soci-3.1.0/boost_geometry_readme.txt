@@ -14,6 +14,3 @@ and extract to this folder.
 Nothing has to be installed.
 
 This is used in the examples x03_*_soci_example.cpp
-
-
-

@@ -60,4 +60,3 @@ struct word_count_lexer_tokens : boost::spirit::lex::lexer<Lexer>
 //]
 
 #endif
-

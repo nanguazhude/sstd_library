@@ -158,4 +158,3 @@
   } // namespaces boost
 
 #endif // _AIRY_AI_BI_ZERO_2013_01_20_HPP_
-

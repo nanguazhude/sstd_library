@@ -93,4 +93,3 @@ inline T proj_qsfn(T const& phi, AUTHALIC<T> const& a)
 }}} // namespace boost::geometry::projections
 
 #endif
-

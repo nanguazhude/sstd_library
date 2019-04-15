@@ -29,4 +29,3 @@ inline type_info unwrap_type_id(U*, wrapper<T>*)
 }}} // namespace boost::python::detail
 
 #endif // UNWRAP_TYPE_ID_DWA2004722_HPP
-

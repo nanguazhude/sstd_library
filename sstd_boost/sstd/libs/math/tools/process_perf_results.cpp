@@ -139,5 +139,3 @@ int main(int argc, const char* argv[])
    std::ofstream ns(argv[argc-1]);
    ns << newfile;
 }
-
-

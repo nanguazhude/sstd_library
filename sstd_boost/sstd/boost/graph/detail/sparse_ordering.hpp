@@ -196,4 +196,3 @@ make_out_degree_map(const Graph& g) {
 
 
 #endif // BOOST_GRAPH_KING_HPP
-

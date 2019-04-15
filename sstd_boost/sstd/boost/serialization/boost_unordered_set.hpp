@@ -148,4 +148,3 @@ inline void serialize(
 } // namespace boost
 
 #endif // BOOST_SERIALIZATION_BOOST_UNORDERED_SET_HPP
-

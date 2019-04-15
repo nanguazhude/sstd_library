@@ -36,4 +36,3 @@ struct basic_reduce
 } } // end namespace boost::parallel
 
 #endif // BOOST_PARALLEL_BASIC_REDUCE_HPP
-

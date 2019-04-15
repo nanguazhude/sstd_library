@@ -218,4 +218,3 @@ using iterators::make_counting_iterator;
 } // namespace boost
 
 #endif // COUNTING_ITERATOR_DWA200348_HPP
-

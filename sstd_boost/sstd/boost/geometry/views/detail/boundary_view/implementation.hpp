@@ -463,4 +463,3 @@ struct boundary_view<MultiPolygon, multi_polygon_tag>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_VIEWS_DETAIL_BOUNDARY_VIEW_IMPLEMENTATION_HPP
-

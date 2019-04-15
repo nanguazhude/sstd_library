@@ -16,4 +16,3 @@ BOOST_AUTO_TEST_CASE( test )
   BOOST_CHECK_GT( i, j );
 }
 //]
-

@@ -311,5 +311,3 @@ int BOOST_REGEX_CALL c_regex_traits<unsigned short>::value(unsigned short c, int
 #endif // BOOST_NO_WREGEX
 
 #endif // __BORLANDC__
-
-

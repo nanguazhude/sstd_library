@@ -28,4 +28,3 @@ struct robust_point_type
 
 
 #endif // BOOST_GEOMETRY_POLICIES_ROBUSTNESS_ROBUST_POINT_TYPE_HPP
-

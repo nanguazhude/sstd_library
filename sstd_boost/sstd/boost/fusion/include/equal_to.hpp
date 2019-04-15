@@ -12,4 +12,3 @@
 #include <sstd/boost/fusion/sequence/comparison/equal_to.hpp>
 
 #endif
-

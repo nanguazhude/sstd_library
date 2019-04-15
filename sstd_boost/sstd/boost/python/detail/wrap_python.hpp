@@ -212,4 +212,3 @@ typedef int pid_t;
 #  error "HAVE_LONG_LONG defined but not PY_LONG_LONG or LONG_LONG"
 # endif
 #endif
-

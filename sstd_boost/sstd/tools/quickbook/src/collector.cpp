@@ -57,4 +57,3 @@ namespace quickbook
             top = boost::ref(streams.top());
     }
 }
-

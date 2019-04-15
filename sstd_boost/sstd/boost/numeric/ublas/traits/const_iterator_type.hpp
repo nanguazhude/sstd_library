@@ -125,4 +125,3 @@ namespace boost { namespace numeric { namespace ublas {
 
 
 #endif // BOOST_NUMERIC_UBLAS_TRAITS_CONST_ITERATOR_TYPE_HPP
-

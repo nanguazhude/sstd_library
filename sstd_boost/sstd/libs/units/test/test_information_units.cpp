@@ -240,4 +240,3 @@ BOOST_AUTO_TEST_CASE(test_unit_constant_io) {
     ss << bu::name_format << shannons;
     BOOST_CHECK_EQUAL(ss.str(), "shannon");
 }
-

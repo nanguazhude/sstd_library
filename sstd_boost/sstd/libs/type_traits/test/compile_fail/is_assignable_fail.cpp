@@ -15,6 +15,3 @@ int main()
 {
    return boost::is_assignable<incomplete_type>::value;
 }
-
-
-

@@ -646,4 +646,3 @@ BOOST_AUTO_TEST_CASE( test_all_pointlike_linear )
     //test_distance_point_segment_no_thomas(thomas_pp(), thomas_ps());
     test_distance_point_segment_no_thomas(andoyer_pp(), andoyer_ps());
 }
-

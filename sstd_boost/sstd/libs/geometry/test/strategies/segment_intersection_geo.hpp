@@ -268,4 +268,3 @@ void test_all_strategies(std::string const& s1_wkt, std::string const& s2_wkt,
 }
 
 #endif // BOOST_GEOMETRY_TEST_STRATEGIES_SEGMENT_INTERSECTION_GEO_HPP
-

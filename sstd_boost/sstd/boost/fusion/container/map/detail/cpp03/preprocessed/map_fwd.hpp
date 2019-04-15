@@ -20,4 +20,3 @@
 #else
 #error "FUSION_MAX_MAP_SIZE out of bounds for preprocessed headers"
 #endif
-

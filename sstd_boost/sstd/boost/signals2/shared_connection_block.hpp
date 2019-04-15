@@ -62,4 +62,3 @@ namespace boost
 } // end namespace boost
 
 #endif // BOOST_SIGNALS2_SHARED_CONNECTION_BLOCK_HPP
-

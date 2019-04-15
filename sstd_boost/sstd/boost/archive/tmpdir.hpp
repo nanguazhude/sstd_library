@@ -48,4 +48,3 @@ inline const char * tmpdir(){
 } // boost
 
 #endif // BOOST_ARCHIVE_TMPDIR_HPP
-

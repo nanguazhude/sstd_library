@@ -45,4 +45,3 @@
 #endif
 
 #endif // BOOST_MPL_AUX_CONFIG_ETI_HPP_INCLUDED
-

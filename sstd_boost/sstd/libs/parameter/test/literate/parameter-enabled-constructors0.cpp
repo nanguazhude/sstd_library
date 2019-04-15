@@ -28,5 +28,3 @@ myclass x("bob", 3);                     // positional
 myclass y(_index = 12, _name = "sally"); // named
 myclass z("june");                       // positional/defaulted
 }
-
-

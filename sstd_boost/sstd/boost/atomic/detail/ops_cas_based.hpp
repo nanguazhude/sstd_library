@@ -105,4 +105,3 @@ struct cas_based_operations :
 } // namespace boost
 
 #endif // BOOST_ATOMIC_DETAIL_OPS_CAS_BASED_HPP_INCLUDED_
-

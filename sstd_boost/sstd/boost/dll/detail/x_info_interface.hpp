@@ -30,4 +30,3 @@ public:
 }}} // namespace boost::dll::detail
 
 #endif // BOOST_DLL_DETAIL_X_INFO_INTERFACE_HPP
-

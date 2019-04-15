@@ -30,6 +30,3 @@ using namespace boost::icl;
 
 #define INTERVAL_SET separate_interval_set
 #include "../test_interval_set_infix_cases.hpp"
-
-
-

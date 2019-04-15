@@ -6596,4 +6596,3 @@ namespace boost { namespace wave { namespace cpplexer { namespace lexertl
 }}}}   // namespace boost::wave::cpplexer::lexertl
 
 #endif // !BOOST_WAVE_WAVE_LEXERTL_TABLES_HPP_INCLUDED
-

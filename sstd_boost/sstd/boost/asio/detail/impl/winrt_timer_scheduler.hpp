@@ -92,4 +92,3 @@ void winrt_timer_scheduler::move_timer(timer_queue<Time_Traits>& queue,
 #endif // defined(BOOST_ASIO_WINDOWS_RUNTIME)
 
 #endif // BOOST_ASIO_DETAIL_IMPL_WINRT_TIMER_SCHEDULER_HPP
-

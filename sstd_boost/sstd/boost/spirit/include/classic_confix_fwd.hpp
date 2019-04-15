@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_CONFIX_FWD
 #include <sstd/boost/spirit/home/classic/utility/confix_fwd.hpp>
 #endif
-

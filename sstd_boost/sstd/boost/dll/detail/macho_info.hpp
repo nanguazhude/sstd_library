@@ -319,4 +319,3 @@ typedef macho_info<boost::uint64_t> macho_info64;
 }}} // namespace boost::dll::detail
 
 #endif // BOOST_DLL_DETAIL_MACHO_INFO_HPP
-

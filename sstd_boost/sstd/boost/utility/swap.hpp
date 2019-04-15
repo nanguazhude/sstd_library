@@ -15,4 +15,3 @@
 #include <sstd/boost/core/swap.hpp>
 
 #endif
-

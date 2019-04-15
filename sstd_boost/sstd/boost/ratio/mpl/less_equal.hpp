@@ -28,4 +28,3 @@ struct less_equal_impl< rational_c_tag,rational_c_tag >
 }
 
 #endif  // BOOST_RATIO_MPL_LESS_EQUAL_HPP
-

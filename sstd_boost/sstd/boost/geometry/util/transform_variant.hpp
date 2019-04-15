@@ -82,4 +82,3 @@ struct transform_variant<variant<BOOST_VARIANT_ENUM_PARAMS(T)>, Op, boost::mpl::
 
 
 #endif // BOOST_GEOMETRY_UTIL_TRANSFORM_VARIANT_HPP
-

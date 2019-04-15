@@ -143,5 +143,3 @@ int main(int argc, char* argv[]) {
 //]
     BOOST_ASSERT(plugins.count() >= 3);
 }
-
-

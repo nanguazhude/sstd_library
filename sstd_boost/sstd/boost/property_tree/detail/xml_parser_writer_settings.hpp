@@ -62,4 +62,3 @@ namespace boost { namespace property_tree { namespace xml_parser
 } } }
 
 #endif
-

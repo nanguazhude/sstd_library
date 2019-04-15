@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_PHOENIX1
 #include <sstd/boost/spirit/home/classic/phoenix.hpp>
 #endif
-

@@ -114,4 +114,3 @@ struct iterator_traits
 } /* namespace boost */
 
 #endif
-

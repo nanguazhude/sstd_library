@@ -189,4 +189,3 @@ void test_relation(const LeftData & lv, const RightData & rv)
 }
 
 #endif // BOOST_BIMAP_TEST_TEST_RELATION_HPP
-

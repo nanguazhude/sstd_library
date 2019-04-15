@@ -46,4 +46,3 @@ BOOST_TYPEOF_REGISTER_TYPE(boost::units::si::ampere_base_unit)
 //#include <sstd/boost/units/base_units/detail/conversions.hpp>
 
 #endif // BOOST_UNITS_SI_AMPERE_BASE_UNIT_HPP
-

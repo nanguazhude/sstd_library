@@ -235,4 +235,3 @@ struct default_strategy<point_tag, point_tag, Point1, Point2, geographic_tag, ge
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_GEOGRAPHIC_DISTANCE_HPP
-

@@ -88,4 +88,3 @@ namespace boost
   } // namespace thread_detail
 
 } // namespace boost
-

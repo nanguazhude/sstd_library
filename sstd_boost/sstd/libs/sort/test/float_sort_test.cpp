@@ -153,4 +153,3 @@ int test_main( int, char*[] )
   corner_test();
   return 0;
 }
-

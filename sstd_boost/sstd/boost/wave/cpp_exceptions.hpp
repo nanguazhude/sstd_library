@@ -419,4 +419,3 @@ is_recoverable(cpp_exception const& e)
 #endif
 
 #endif // !defined(CPP_EXCEPTIONS_HPP_5190E447_A781_4521_A275_5134FF9917D7_INCLUDED)
-

@@ -8,4 +8,3 @@
 #include <sstd/boost/config/workaround.hpp>
 
 #endif // WORKAROUND_DWA2002126_HPP
-

@@ -36,4 +36,3 @@ struct PromotionPolicy {
 } // boost
 
 #endif // BOOST_NUMERIC_CONCEPT_EXCEPTION_POLICY_HPP
-

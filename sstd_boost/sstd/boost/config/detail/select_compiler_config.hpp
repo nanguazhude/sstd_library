@@ -154,5 +154,3 @@
 #include <sstd/boost/config/compiler/visualc.hpp>
 
 #endif
-
-

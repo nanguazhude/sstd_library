@@ -55,5 +55,3 @@ using exp_parser9 =
 //    exp_parser9::apply<BOOST_METAPARSE_STRING("1 + 2 + 3 + 4")>::type
 
 #endif
-
-

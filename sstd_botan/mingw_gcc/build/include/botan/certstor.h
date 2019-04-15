@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Certificate Store
 * (C) 1999-2010,2013 Jack Lloyd
 *

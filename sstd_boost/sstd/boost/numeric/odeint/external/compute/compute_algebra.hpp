@@ -63,4 +63,3 @@ BOOST_PP_REPEAT_FROM_TO(3, 9, BOOST_ODEINT_COMPUTE_ALGEBRA, ~)
 } // boost
 
 #endif
-

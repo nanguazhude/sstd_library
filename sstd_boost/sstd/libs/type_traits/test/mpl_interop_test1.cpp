@@ -28,4 +28,3 @@ int main()
 {
    return (dispatch_test<int>() == 1) && (dispatch_test<void>() == 0) ? 0 : 1;
 }
-

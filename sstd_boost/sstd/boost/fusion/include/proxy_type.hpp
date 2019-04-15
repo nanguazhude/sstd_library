@@ -12,4 +12,3 @@
 #include <sstd/boost/fusion/adapted/struct/detail/proxy_type.hpp>
 
 #endif
-

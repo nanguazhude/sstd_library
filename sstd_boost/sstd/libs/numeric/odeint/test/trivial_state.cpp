@@ -107,4 +107,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( test_integrate , T , error_stepper_types )
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

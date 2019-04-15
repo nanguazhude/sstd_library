@@ -77,4 +77,3 @@ void hashstats_add( struct hashstats * stats, struct hash * );
 void hashstats_print( struct hashstats * stats, char const * name );
 
 #endif
-

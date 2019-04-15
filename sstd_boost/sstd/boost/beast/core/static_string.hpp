@@ -1110,4 +1110,3 @@ to_static_string(Integer x);
 #include <sstd/boost/beast/core/impl/static_string.ipp>
 
 #endif
-

@@ -79,4 +79,3 @@ struct qualified_class_of : detail::qualified_class_of_impl<T> {};
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_QUALIFIED_class_of_HPP
-

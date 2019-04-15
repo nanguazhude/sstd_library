@@ -51,4 +51,3 @@ inline Iterator iterator_plus_distance(Iterator i, Distance n)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_DETAIL_ITERATOR_PLUS_DISTANCE_HPP
-

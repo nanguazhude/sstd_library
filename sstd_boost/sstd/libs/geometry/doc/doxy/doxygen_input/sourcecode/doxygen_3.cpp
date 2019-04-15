@@ -72,4 +72,3 @@ int main(void)
     example_less();
     return 0;
 }
-

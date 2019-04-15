@@ -638,4 +638,3 @@ private:
 } // boost
 
 #endif
-

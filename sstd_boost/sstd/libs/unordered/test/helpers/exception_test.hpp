@@ -346,4 +346,3 @@ namespace test {
 }
 
 #endif
-

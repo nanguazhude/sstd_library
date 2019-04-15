@@ -35,5 +35,3 @@ Output:
   quantile(negative_binomial(20, 0.3), 0.05) = 27
   quantile(complement(negative_binomial(20, 0.3), 0.05)) = 69
 */
-
-

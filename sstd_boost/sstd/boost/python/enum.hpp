@@ -106,4 +106,3 @@ inline enum_<T>& enum_<T>::export_values()
 }} // namespace boost::python
 
 #endif // ENUM_DWA200298_HPP
-

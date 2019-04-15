@@ -39,4 +39,3 @@ BOOST_MPL_AUX_NA_SPEC(3, insert)
 }}
 
 #endif // BOOST_MPL_INSERT_HPP_INCLUDED
-

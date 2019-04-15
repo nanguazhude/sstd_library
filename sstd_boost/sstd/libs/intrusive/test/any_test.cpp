@@ -186,4 +186,3 @@ int main()
    instantiation_test();
    return 0;
 }
-

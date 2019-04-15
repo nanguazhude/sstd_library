@@ -434,4 +434,3 @@ namespace boost { namespace fusion
             seqs);
     }
 }}
-

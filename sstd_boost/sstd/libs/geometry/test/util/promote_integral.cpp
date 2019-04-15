@@ -545,4 +545,3 @@ BOOST_AUTO_TEST_CASE( test_floating_point )
     tester2::apply<ttmath_big, ttmath_big>("fp-tt");
 #endif
 }
-

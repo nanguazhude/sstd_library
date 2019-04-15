@@ -23,4 +23,3 @@ BOOST_ASIO_TEST_SUITE
   "posix/basic_stream_descriptor",
   BOOST_ASIO_TEST_CASE(null_test)
 )
-

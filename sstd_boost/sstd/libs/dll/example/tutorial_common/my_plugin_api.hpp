@@ -20,5 +20,3 @@ public:
 //]
 
 #endif // BOOST_DLL_MY_PLUGIN_API_HPP
-
-

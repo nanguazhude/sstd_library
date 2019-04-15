@@ -323,4 +323,3 @@ struct vector50_c
 };
 
 }}
-

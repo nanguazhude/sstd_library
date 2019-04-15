@@ -23,4 +23,3 @@ int main() {
     });
     BOOST_HANA_CONSTANT_CHECK(smallest == hana::int_c<-4>);
 }
-

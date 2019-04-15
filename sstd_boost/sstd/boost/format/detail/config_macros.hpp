@@ -93,4 +93,3 @@ namespace boost { namespace io { namespace detail {
 // ----------------------------------------------------------------------------
 
 #endif // BOOST_FORMAT_MACROS_DEFAULT_HPP
-

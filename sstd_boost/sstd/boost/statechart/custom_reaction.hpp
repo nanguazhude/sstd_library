@@ -72,4 +72,3 @@ class custom_reaction< event_base >
 
 
 #endif
-

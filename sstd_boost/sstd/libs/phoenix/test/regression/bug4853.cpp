@@ -76,5 +76,3 @@ int main()
 {
     return range_test_complex();
 }
-
-

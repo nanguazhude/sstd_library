@@ -60,5 +60,3 @@ augment(const Graph& g,
 } //namespace boost
 
 #endif /* BOOST_GRAPH_AUGMENT_HPP */
-
-

@@ -15,4 +15,3 @@ Distributed under the Boost Software License, Version 1.0.
 #include <sstd/boost/hana/fold_left.hpp>
 
 #endif // !BOOST_HANA_FOLD_HPP
-

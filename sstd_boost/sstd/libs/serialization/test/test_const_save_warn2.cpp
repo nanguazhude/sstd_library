@@ -21,5 +21,3 @@ struct A {
 void f2(text_oarchive & oa, A * & a){
     oa << a;
 }
-
-

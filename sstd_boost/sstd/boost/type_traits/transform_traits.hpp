@@ -19,4 +19,3 @@
 #include <sstd/boost/type_traits/remove_reference.hpp>
 
 #endif // BOOST_TT_TRANSFORM_TRAITS_HPP_INCLUDED
-

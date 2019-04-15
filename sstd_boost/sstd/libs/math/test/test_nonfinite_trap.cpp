@@ -236,5 +236,3 @@ template<class CharType, class ValType> void trap_test_get_nan_impl()
 //------------------------------------------------------------------------------
 
 }   // anonymous namespace
-
-

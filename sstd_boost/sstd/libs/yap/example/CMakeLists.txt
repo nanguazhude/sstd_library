@@ -40,4 +40,3 @@ target_link_libraries(autodiff yap boost autodiff_library)
 if (clang_on_linux)
     target_link_libraries(autodiff c++)
 endif ()
-

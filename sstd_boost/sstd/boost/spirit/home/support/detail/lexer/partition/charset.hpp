@@ -79,4 +79,3 @@ struct basic_charset
 }
 
 #endif
-

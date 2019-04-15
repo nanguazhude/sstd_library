@@ -57,4 +57,3 @@ int test_main(int argc, char* argv[])
     group_test(comm);
     return 0;
 }
-

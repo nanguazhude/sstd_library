@@ -105,4 +105,3 @@ struct resize_impl_sfinae< Derived , Derived ,
 
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_EIGEN_EIGEN_RESIZE_HPP_DEFINED
-

@@ -9,5 +9,3 @@
 // Definitions of section 11.1
 
 #endif
-
-

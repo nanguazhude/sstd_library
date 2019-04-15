@@ -75,4 +75,3 @@ struct growth_factor_100
 }  //namespace boost {
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_NEXT_CAPACITY_HPP
-

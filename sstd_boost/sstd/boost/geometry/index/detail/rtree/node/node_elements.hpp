@@ -108,4 +108,3 @@ struct container_from_elements_type<detail::varray<OldValue, N>, NewValue>
 }}} // namespace boost::geometry::index
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_RTREE_NODE_NODE_ELEMENTS_HPP
-

@@ -106,6 +106,3 @@ class multimap_adaptor :
 
 
 #endif // BOOST_BIMAP_CONTAINER_ADAPTOR_MULTIMAP_ADAPTOR_HPP
-
-
-

@@ -16,4 +16,3 @@ int main()
   test_observers();
   return boost::report_errors();
 }
-

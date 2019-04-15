@@ -48,4 +48,3 @@ main()
     check< v<int,3>, v<int,3>, 3, v<int,3> >();
     check< v<int,3>, v<float,3>, 4, boost::qvm::vec<float,4> >();
     }
-

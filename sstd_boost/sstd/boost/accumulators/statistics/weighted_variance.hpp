@@ -184,4 +184,3 @@ struct as_feature<tag::weighted_variance(immediate)>
 }} // namespace boost::accumulators
 
 #endif
-

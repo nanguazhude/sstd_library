@@ -827,4 +827,3 @@ namespace quickbook
         value::iterator::iterator() : ptr_(&value_list_end_impl::instance) {}
     }
 }
-

@@ -13,4 +13,3 @@ auto hello_world = BOOST_HANA_STRING("Hello ") + BOOST_HANA_STRING("world!");
 BOOST_HANA_CONSTANT_CHECK(hello_world == BOOST_HANA_STRING("Hello world!"));
 
 int main() { }
-

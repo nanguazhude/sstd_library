@@ -1,4 +1,4 @@
-/*
+﻿/*
 * KDF1 from ISO 18033-2
 * (C) 2016 Philipp Weber
 *

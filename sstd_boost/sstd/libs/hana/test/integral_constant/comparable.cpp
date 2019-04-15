@@ -21,4 +21,3 @@ int main() {
 
     hana::test::TestComparable<hana::integral_constant_tag<int>>{ints};
 }
-

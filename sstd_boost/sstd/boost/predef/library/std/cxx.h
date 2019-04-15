@@ -44,4 +44,3 @@ http://www.boost.org/LICENSE_1_0.txt)
 
 #include <sstd/boost/predef/detail/test.h>
 BOOST_PREDEF_DECLARE_TEST(BOOST_LIB_STD_CXX,BOOST_LIB_STD_CXX_NAME)
-

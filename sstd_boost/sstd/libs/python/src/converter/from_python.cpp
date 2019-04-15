@@ -301,4 +301,3 @@ pytype_check(PyTypeObject* type_, PyObject* source)
 }
 
 }} // namespace boost::python
-

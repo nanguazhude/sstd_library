@@ -127,4 +127,3 @@ struct quant_type
 }}} // namespace boost::xpressive::detail
 
 #endif
-

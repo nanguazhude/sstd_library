@@ -294,4 +294,3 @@ template struct bench_1<std::complex<double>, 30>;
 template struct bench_1<std::complex<double>, 100>;
 #endif
 #endif
-

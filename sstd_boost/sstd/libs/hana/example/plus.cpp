@@ -14,4 +14,3 @@ static_assert(hana::plus(1, 2) == 3, "");
 static_assert(hana::plus(1.5f, 2.4) == 3.9, "");
 
 int main() { }
-

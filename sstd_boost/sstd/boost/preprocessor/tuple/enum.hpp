@@ -20,4 +20,3 @@
 # define BOOST_PP_TUPLE_ENUM BOOST_PP_TUPLE_REM_CTOR
 #
 # endif
-

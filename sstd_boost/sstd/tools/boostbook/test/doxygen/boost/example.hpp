@@ -231,4 +231,3 @@ namespace example
 }
 
 #define EXAMPLE(m) The macro
-

@@ -36,6 +36,3 @@ int main()
     parseDate();
     return ::boost::lexical_cast<int>(L"1000") == 1000;
 }
-
-
-

@@ -18,4 +18,3 @@ static_assert(std::is_same<hana::tag_of<Person>::type, PersonTag>{}, "");
 static_assert(std::is_same<hana::tag_of<Person volatile&&>::type, PersonTag>{}, "");
 
 int main() { }
-

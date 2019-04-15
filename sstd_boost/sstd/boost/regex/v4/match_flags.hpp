@@ -146,5 +146,3 @@ using regex_constants::format_first_only;
 } /* namespace boost */
 #endif /* __cplusplus */
 #endif /* include guard */
-
-

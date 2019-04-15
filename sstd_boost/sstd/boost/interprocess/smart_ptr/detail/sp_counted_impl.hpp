@@ -157,4 +157,3 @@ class sp_counted_impl_pd
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif  // #ifndef BOOST_INTERPROCESS_DETAIL_SP_COUNTED_IMPL_HPP_INCLUDED
-

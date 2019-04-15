@@ -291,4 +291,3 @@ struct ratio_power<R, -1> : ratio_divide<ratio<1>, R>::type {};
 
 
 #endif  // BOOST_RATIO_RATIO_HPP
-

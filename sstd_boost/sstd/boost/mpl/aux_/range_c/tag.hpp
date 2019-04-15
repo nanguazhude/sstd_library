@@ -22,4 +22,3 @@ struct r_iter_tag;
 }}}
 
 #endif // BOOST_MPL_AUX_RANGE_C_TAG_HPP_INCLUDED
-

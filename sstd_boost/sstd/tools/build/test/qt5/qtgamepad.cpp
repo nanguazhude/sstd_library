@@ -27,4 +27,3 @@ BOOST_AUTO_TEST_CASE( gamepad )
 
     QGamepad gamepad(*gamepads.begin());
 }
-

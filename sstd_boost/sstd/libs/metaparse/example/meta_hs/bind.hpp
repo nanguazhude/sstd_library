@@ -60,5 +60,3 @@ template <class E, class TopEnv, class Env>
 struct bind<ast::top_bound<E>, TopEnv, Env> : bind<E, TopEnv, TopEnv> {};
 
 #endif
-
-

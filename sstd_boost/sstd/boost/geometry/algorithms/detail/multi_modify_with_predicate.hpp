@@ -50,4 +50,3 @@ struct multi_modify_with_predicate
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_MULTI_MODIFY_WITH_PREDICATE_HPP
-

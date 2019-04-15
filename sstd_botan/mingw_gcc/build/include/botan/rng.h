@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Random Number Generator base classes
 * (C) 1999-2009,2015,2016 Jack Lloyd
 *

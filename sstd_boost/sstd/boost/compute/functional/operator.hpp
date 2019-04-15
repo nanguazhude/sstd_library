@@ -98,4 +98,3 @@ BOOST_COMPUTE_DECLARE_BINARY_OPERATOR(shift_right, ">>", T, T)
 } // end compute namespace
 } // end boost namespace
 #endif // BOOST_COMPUTE_FUNCTIONAL_OPERATORS_HPP
-

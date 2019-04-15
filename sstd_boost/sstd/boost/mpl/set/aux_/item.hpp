@@ -80,4 +80,3 @@ struct s_unmask
 }}
 
 #endif // BOOST_MPL_SET_AUX_ITEM_HPP_INCLUDED
-

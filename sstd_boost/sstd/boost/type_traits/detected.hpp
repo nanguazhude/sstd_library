@@ -22,4 +22,3 @@ using detected_t = typename
 } /* boost */
 
 #endif
-

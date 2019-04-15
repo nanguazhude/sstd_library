@@ -265,5 +265,3 @@ inline typename tools::promote_args<RT>::type
 } // namespace boost
 
 #endif // BOOST_MATH_SP_FACTORIALS_HPP
-
-

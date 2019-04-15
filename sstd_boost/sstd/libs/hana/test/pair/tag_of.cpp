@@ -34,4 +34,3 @@ int main() {
         using Tag = hana::tag_of<std::integral_constant<unsigned long, 0>>::type;
     }
 }
-

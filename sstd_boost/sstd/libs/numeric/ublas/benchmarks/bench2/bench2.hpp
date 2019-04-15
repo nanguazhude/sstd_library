@@ -180,4 +180,3 @@ struct fast_tag {};
 #define USE_COORDINATE_MATRIX
 
 #endif
-

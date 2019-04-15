@@ -87,4 +87,3 @@ struct xlex_input_interface
 }   // namespace boost
 
 #endif // !defined(XLEX_INTERFACE_HPP)
-

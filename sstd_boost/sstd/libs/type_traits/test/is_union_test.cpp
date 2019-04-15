@@ -68,13 +68,3 @@ TT_TEST_BEGIN(is_union)
    BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_union<incomplete_type>::value, false);
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-
-

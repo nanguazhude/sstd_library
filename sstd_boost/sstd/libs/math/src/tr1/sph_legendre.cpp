@@ -15,6 +15,3 @@ extern "C" double BOOST_MATH_TR1_DECL boost_sph_legendre BOOST_PREVENT_MACRO_SUB
 {
    return  (m & 1 ? -1 : 1) * c_policies::spherical_harmonic_r BOOST_PREVENT_MACRO_SUBSTITUTION(n, m, x, 0.0);
 }
-
-
-

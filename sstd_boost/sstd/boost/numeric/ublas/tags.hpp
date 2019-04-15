@@ -35,4 +35,3 @@ struct leading {};
 
 
 #endif // BOOST_NUMERIC_UBLAS_TAG_HPP
-

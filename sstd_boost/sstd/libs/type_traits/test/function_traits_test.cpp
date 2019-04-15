@@ -58,12 +58,3 @@ BOOST_CHECK_TYPE(::tt::function_traits<pf_two2>::arg2_type, int);
 BOOST_CHECK_TYPE(::tt::function_traits<pf_two3>::arg2_type, const int&);
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

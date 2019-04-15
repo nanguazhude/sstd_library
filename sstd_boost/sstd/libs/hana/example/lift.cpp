@@ -13,4 +13,3 @@ static_assert(hana::lift<hana::tuple_tag>('x') == hana::make_tuple('x'), "");
 static_assert(hana::lift<hana::optional_tag>('x') == hana::just('x'), "");
 
 int main() { }
-

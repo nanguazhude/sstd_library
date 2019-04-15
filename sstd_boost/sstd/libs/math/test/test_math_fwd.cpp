@@ -58,6 +58,3 @@ VS2010
   test_math_fwd.vcxproj -> J:\Cpp\MathToolkit\test\Math_test\Release\test_math_fwd.exe
 
 */
-
-
-

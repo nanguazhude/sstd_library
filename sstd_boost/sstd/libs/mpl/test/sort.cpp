@@ -25,4 +25,3 @@ MPL_TEST_CASE()
 
     MPL_ASSERT(( equal< result,manual_result,equal_to<_1,_2> > ));
 }
-

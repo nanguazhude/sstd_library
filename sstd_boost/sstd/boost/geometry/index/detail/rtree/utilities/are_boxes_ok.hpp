@@ -126,4 +126,3 @@ bool are_boxes_ok(Rtree const& tree, bool exact_match = true)
 }}}}}} // namespace boost::geometry::index::detail::rtree::utilities
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_RTREE_UTILITIES_ARE_BOXES_OK_HPP
-

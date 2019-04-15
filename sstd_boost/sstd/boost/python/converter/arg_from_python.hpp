@@ -333,4 +333,3 @@ back_reference_arg_from_python<T>::operator()()
 }}} // namespace boost::python::converter
 
 #endif // ARG_FROM_PYTHON_DWA2002127_HPP
-

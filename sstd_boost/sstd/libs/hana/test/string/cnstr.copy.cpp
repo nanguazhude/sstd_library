@@ -14,4 +14,3 @@ int main() {
 
     (void)s2; (void)s3;
 }
-

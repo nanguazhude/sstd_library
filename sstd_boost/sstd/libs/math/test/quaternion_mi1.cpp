@@ -16,4 +16,3 @@ void    quaternion_mi1()
 
     q0 *= q0;
 }
-

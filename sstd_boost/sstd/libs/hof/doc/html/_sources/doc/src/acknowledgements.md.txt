@@ -17,4 +17,3 @@
     - Brian McNamara and Yannis Smaragdakis
 * [Boost.Phoenix](http://www.boost.org/doc/libs/1_59_0/libs/phoenix/doc/html/index.html)
     - Joel de Guzman, Dan Marsden, Thomas Heller, and John Fletcher
-

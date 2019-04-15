@@ -105,5 +105,3 @@ namespace boost
 }
 
 #endif // BOOST_INSPECTOR_HPP
-
-

@@ -146,5 +146,3 @@ namespace detail
 
 
 #endif
-
-

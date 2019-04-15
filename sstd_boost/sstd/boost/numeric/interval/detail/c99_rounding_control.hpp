@@ -48,4 +48,3 @@ struct rounding_control<long double>:
 #undef BOOST_NUMERIC_INTERVAL_NO_HARDWARE
 
 #endif // BOOST_NUMERIC_INTERVAL_DETAIL_C99_ROUNDING_CONTROL_HPP
-

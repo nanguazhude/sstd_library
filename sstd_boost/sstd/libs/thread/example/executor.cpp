@@ -205,4 +205,3 @@ int main()
   boost::make_ready_future().then(executor, &p);
 #endif
 }
-

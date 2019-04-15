@@ -16,4 +16,3 @@
 #include <sstd/boost/test/impl/execution_monitor.ipp>
 
 // EOF
-

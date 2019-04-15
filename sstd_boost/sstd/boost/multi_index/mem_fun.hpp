@@ -203,4 +203,3 @@ struct mem_fun_explicit
 } /* namespace boost */
 
 #endif
-

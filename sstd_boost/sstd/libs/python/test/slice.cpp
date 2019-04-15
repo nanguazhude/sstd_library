@@ -96,4 +96,3 @@ BOOST_PYTHON_MODULE(slice_ext)
     def( "check_string_rich_slice", check_string_rich_slice);
     def( "check_slice_get_indices", check_slice_get_indices);
 }
-

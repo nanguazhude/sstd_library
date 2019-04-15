@@ -31,4 +31,3 @@ inline bool parallel_continue(T dx1, T dy1, T dx2, T dy2)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_BUFFER_PARALLEL_CONTINUE_HPP
-

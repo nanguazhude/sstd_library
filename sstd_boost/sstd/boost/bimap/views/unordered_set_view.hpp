@@ -75,5 +75,3 @@ class unordered_set_view
 } // namespace boost
 
 #endif // BOOST_BIMAP_VIEWS_UNORDERED_SET_VIEW_HPP
-
-

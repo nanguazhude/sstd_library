@@ -19,4 +19,3 @@
 #define BOOST_IOSTREAMS_PUSH_ARGS() , buffer_size, pback_size
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_PUSH_PARAMS_HPP_INCLUDED
-

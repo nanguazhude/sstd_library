@@ -245,5 +245,3 @@ namespace example
 
 #endif
 #endif
-
-

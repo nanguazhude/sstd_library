@@ -391,6 +391,3 @@ inline RealType kurtosis(const weibull_distribution<RealType, Policy>& dist)
 #include <sstd/boost/math/distributions/detail/derived_accessors.hpp>
 
 #endif // BOOST_STATS_WEIBULL_HPP
-
-
-

@@ -102,4 +102,3 @@ clamp(U u, V v)
 } // boost
 
 #endif
-

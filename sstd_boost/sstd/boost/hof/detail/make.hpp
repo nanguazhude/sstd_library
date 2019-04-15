@@ -29,4 +29,3 @@ struct make
 }}} // namespace boost::hof
 
 #endif
-

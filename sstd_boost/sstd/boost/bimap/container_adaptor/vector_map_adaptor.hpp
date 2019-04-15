@@ -101,5 +101,3 @@ class vector_map_adaptor :
 
 
 #endif // BOOST_BIMAP_CONTAINER_ADAPTOR_VECTOR_MAP_ADAPTOR_HPP
-
-

@@ -11,4 +11,3 @@
 __declspec(dllexport)
 #endif
 void foo() {}
-

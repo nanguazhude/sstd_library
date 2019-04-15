@@ -270,4 +270,3 @@ Requirements:
 }}
 
 #endif  //  BOOST_ALGORITHM_BOYER_MOORE_SEARCH_HPP
-

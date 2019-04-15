@@ -178,4 +178,3 @@ struct py_function
 }}} // namespace boost::python::objects
 
 #endif // PY_FUNCTION_DWA200286_HPP
-

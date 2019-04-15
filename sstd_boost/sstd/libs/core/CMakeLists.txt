@@ -19,4 +19,3 @@ target_link_libraries(boost_core
         Boost::assert
         Boost::config
 )
-

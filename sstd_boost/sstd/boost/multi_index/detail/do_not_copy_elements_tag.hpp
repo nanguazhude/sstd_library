@@ -32,4 +32,3 @@ struct do_not_copy_elements_tag{};
 } /* namespace boost */
 
 #endif
-

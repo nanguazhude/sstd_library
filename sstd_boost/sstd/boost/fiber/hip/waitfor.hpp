@@ -137,4 +137,3 @@ std::vector< std::tuple< hipStream_t, hipError_t > > waitfor_all( hipStream_t st
 #endif
 
 #endif // BOOST_FIBERS_CUDA_WAITFOR_H
-

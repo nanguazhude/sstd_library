@@ -24,4 +24,3 @@ struct remove_rvalue_reference<T&&>
 }}} // namespace boost::hof
 
 #endif
-

@@ -149,4 +149,3 @@ struct adams_bashforth_call_algebra< 8 , Algebra , Operations >
 
 
 #endif // BOOST_NUMERIC_ODEINT_STEPPER_DETAIL_ADAMS_BASHFORTH_CALL_ALGEBRA_HPP_INCLUDED
-

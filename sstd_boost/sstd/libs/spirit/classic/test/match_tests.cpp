@@ -172,5 +172,3 @@ main()
     match_policy_tests();
     return boost::report_errors();
 }
-
-

@@ -31,5 +31,3 @@ void test_verifying_the_implicit_conversion_to_bool()
   boost::optional<T> opt;
   opt.value_or_eval(get_U);
 }
-
-

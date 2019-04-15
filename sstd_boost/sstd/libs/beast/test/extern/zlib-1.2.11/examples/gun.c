@@ -700,4 +700,3 @@ int main(int argc, char **argv)
     inflateBackEnd(&strm);
     return ret;
 }
-

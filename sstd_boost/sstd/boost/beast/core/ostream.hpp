@@ -102,4 +102,3 @@ ostream(DynamicBuffer& buffer)
 } // boost
 
 #endif
-

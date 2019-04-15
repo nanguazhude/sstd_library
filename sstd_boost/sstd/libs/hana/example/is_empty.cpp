@@ -13,4 +13,3 @@ BOOST_HANA_CONSTANT_CHECK(!hana::is_empty(hana::make_tuple(1, '2')));
 BOOST_HANA_CONSTANT_CHECK( hana::is_empty(hana::make_tuple()));
 
 int main() { }
-

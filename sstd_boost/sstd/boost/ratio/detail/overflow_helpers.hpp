@@ -365,4 +365,3 @@ namespace ratio_detail
 }  // namespace boost
 
 #endif  // BOOST_RATIO_HPP
-

@@ -93,4 +93,3 @@ namespace boost {
 
 
 #endif  // BOOST_STRING_TRIM_DETAIL_HPP
-

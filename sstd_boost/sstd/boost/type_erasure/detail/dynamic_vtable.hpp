@@ -184,4 +184,3 @@ struct make_dynamic_vtable
 }
 
 #endif
-

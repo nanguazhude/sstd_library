@@ -29,4 +29,3 @@ int main(int argc, char* argv[]) {
     std::cout << "plugin->calculate(1.5, 1.5) call:  " << plugin->calculate(1.5, 1.5) << std::endl;
 }
 //]
-

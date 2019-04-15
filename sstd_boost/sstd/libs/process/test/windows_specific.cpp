@@ -90,4 +90,3 @@ BOOST_AUTO_TEST_CASE(startup_info_ex)
 }
 
 #endif
-

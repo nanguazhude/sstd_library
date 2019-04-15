@@ -162,4 +162,3 @@ public :
 
 
 #endif // BOOST_GEOMETRY_TEST_BUFFER_SVG_PER_TURN_HPP
-

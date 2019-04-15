@@ -25,4 +25,3 @@ int main () {
   assert(A[0][0][0] == 3.14);
   return boost::exit_success;
 }
-

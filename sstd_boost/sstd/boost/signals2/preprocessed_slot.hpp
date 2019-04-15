@@ -70,4 +70,3 @@ namespace boost
 }
 
 #endif // BOOST_SIGNALS2_PREPROCESSED_SLOT_HPP
-

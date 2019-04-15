@@ -183,4 +183,3 @@ BOOST_IOSTREAMS_PIPABLE(identity_seekable_multichar_filter, 0)
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>
 
 #endif // #ifndef BOOST_IOSTREAMS_TEST_FILTERS_HPP_INCLUDED
-

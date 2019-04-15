@@ -127,4 +127,3 @@ inline size_t count_if_with_threads(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_COUNT_IF_WITH_THREADS_HPP
-

@@ -23,5 +23,3 @@ no_tag to_yesno(mpl::false_);
 }}} // namespace boost::parameter::aux
 
 #endif // YESNO_050328_HPP
-
-

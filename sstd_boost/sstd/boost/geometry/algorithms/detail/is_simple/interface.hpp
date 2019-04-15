@@ -139,4 +139,3 @@ inline bool is_simple(Geometry const& geometry)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_IS_SIMPLE_INTERFACE_HPP
-

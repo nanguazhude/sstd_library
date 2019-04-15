@@ -61,4 +61,3 @@ matrix matrix::transpose() const
 }
 
 }}} // namespace boost::python::numpy
-

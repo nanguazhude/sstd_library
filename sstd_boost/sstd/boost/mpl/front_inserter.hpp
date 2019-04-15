@@ -31,4 +31,3 @@ struct front_inserter
 }}
 
 #endif // BOOST_MPL_FRONT_INSERTER_HPP_INCLUDED
-

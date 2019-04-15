@@ -184,4 +184,3 @@ BOOST_FORCEINLINE HANDLE_ open_semaphore(DWORD_ dwDesiredAccess, BOOL_ bInheritH
 }
 
 #endif // BOOST_WINAPI_SEMAPHORE_HPP_INCLUDED_
-

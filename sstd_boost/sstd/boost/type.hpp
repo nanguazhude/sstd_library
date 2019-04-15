@@ -16,4 +16,3 @@ namespace boost {
 }
 
 #endif // BOOST_TYPE_DWA20010120_HPP
-

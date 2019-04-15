@@ -46,6 +46,3 @@ main()
     test_splice(data);
     return boost::report_errors();
 }
-
-
-

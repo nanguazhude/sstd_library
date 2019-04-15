@@ -382,4 +382,3 @@ void fill_pixels( const indexed_image_view< Locator >& view
 } // namespace boost
 
 #endif
-

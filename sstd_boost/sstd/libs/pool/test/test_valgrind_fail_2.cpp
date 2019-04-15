@@ -18,4 +18,3 @@ int main()
    *ptr = 2; // write to freed memory
    return 0;
 }
-

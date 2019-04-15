@@ -18,4 +18,3 @@ inline PyObject* none() { Py_INCREF(Py_None); return Py_None; }
 }}} // namespace boost::python::detail
 
 #endif // NONE_DWA_052000_H_
-

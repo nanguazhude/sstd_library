@@ -372,4 +372,3 @@ using random::normal_distribution;
 } // namespace boost
 
 #endif // BOOST_RANDOM_NORMAL_DISTRIBUTION_HPP
-

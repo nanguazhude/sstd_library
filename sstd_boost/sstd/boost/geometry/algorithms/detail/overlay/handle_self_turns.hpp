@@ -217,4 +217,3 @@ struct discard_open_turns<overlay_difference, operation_intersection>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_HANDLE_SELF_TURNS_HPP
-

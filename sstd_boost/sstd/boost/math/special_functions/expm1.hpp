@@ -341,8 +341,3 @@ inline long double expm1(long double z)
 } // namespace boost
 
 #endif // BOOST_MATH_HYPOT_INCLUDED
-
-
-
-
-

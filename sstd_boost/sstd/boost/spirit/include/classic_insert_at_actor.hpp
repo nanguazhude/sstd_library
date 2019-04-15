@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_INSERT_AT_ACTOR
 #include <sstd/boost/spirit/home/classic/actor/insert_at_actor.hpp>
 #endif
-

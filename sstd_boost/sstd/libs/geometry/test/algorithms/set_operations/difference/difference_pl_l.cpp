@@ -672,4 +672,3 @@ BOOST_AUTO_TEST_CASE( test_difference_multipoint_multilinestring )
          from_wkt<MP>("MULTIPOINT()")
          );
 }
-

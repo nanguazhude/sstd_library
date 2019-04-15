@@ -32,4 +32,3 @@ main()
     BOOST_TEST(&mat_traits<M>::write_element_idx(1,2,m)==&m.a[1][2]);
     return boost::report_errors();
     }
-

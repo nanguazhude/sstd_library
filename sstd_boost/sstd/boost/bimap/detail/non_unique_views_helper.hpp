@@ -69,4 +69,3 @@ BOOST_DEDUCED_TYPENAME base_::iterator insert(                               \
 /*===========================================================================*/
 
 #endif // BOOST_BIMAP_DETAIL_NON_UNIQUE_VIEWS_HELPER_HPP
-

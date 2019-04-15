@@ -95,4 +95,3 @@ int main()
   test_deque_multi(16);
   return boost::report_errors();
 }
-

@@ -16,5 +16,3 @@ class C;
 typedef ft::function_arity<C>::type error_1;
 typedef ft::function_arity<int>::type error_2;
 typedef ft::function_arity<void>::type error_3;
-
-

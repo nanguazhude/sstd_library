@@ -19,4 +19,3 @@ BOOST_AUTO_TEST_CASE(multiple_objects)
     // It is enough if the test compiles.
     BOOST_CHECK( dummy_function() );
 }
-

@@ -67,4 +67,3 @@ struct tag
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_CORE_TAG_HPP
-

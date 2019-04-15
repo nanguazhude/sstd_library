@@ -35,4 +35,3 @@ void polymorphic_derived1::serialize(
 );
 
 BOOST_CLASS_EXPORT_IMPLEMENT(polymorphic_derived1)
-

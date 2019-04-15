@@ -34,4 +34,3 @@ BOOST_UNITS_STATIC_CONSTANT(cubic_centimetres,volume);
 } // namespace boost
 
 #endif // BOOST_UNITS_CGS_VOLUME_HPP
-

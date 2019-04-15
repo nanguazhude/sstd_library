@@ -119,4 +119,3 @@ void test_simple(boost::variant<BOOST_VARIANT_ENUM_PARAMS(T)> const& variant_geo
     typedef typename bg::cs_tag<T0>::type cs_tag;
     test_simple<cs_tag>(variant_geometry, expected_result, check_validity);
 }
-

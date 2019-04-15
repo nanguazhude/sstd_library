@@ -90,4 +90,3 @@ make_constant_writable_property(const Value& value)
 } /* namespace boost */
 
 #endif
-

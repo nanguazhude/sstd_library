@@ -131,4 +131,3 @@ int main(int argc, char** argv) {
     }
     distribution_performance << "]\n";
 }
-

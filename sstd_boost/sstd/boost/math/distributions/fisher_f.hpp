@@ -385,4 +385,3 @@ inline RealType kurtosis_excess(const fisher_f_distribution<RealType, Policy>& d
 #include <sstd/boost/math/distributions/detail/derived_accessors.hpp>
 
 #endif // BOOST_MATH_DISTRIBUTIONS_FISHER_F_HPP
-

@@ -88,4 +88,3 @@
 #include <sstd/boost/units/physical_dimensions/wavenumber.hpp>
 
 #endif // BOOST_UNITS_PHYSICAL_UNITS_HPP
-

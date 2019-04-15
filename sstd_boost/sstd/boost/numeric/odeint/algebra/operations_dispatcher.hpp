@@ -39,4 +39,3 @@ struct operations_dispatcher : operations_dispatcher_sfinae< StateType > {};
 }
 
 #endif
-

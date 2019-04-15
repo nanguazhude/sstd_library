@@ -23,4 +23,3 @@ int main() {
     constexpr auto result = boost::hana::fold_left(tuple, state{}, f{});
     (void)result;
 }
-

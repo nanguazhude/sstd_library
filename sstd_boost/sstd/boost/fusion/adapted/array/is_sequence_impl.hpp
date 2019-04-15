@@ -27,4 +27,3 @@ namespace boost { namespace fusion { namespace extension
 }}}
 
 #endif
-

@@ -12,4 +12,3 @@
     && !defined(__PPCBROADWAY) && !defined(_XENON)
 #error "Not PPC"
 #endif
-

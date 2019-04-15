@@ -326,4 +326,3 @@ void test_geometry(std::string const& wkt1, std::string const& wkt2,
 }
 
 #endif // BOOST_GEOMETRY_TEST_ALGORITHMS_OVERLAY_TEST_GET_TURNS_HPP
-

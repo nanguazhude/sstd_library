@@ -135,4 +135,3 @@ all_gather(const communicator& comm, const T* in_values, int n, std::vector<T>& 
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_ALL_GATHER_HPP
-

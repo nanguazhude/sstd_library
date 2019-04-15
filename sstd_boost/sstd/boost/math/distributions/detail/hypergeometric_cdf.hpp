@@ -97,5 +97,3 @@ namespace boost{ namespace math{ namespace detail{
 }}} // namespaces
 
 #endif
-
-

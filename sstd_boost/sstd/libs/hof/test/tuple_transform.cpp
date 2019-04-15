@@ -88,4 +88,3 @@ BOOST_HOF_TEST_CASE()
     TUPLE_TRANSFORM_CHECK_COMPOSE(std::make_tuple(1), boost::hof::_1 * boost::hof::_1, boost::hof::_1 + boost::hof::_1);
     TUPLE_TRANSFORM_CHECK_COMPOSE(std::make_tuple(), boost::hof::_1 * boost::hof::_1, boost::hof::_1 + boost::hof::_1);
 }
-

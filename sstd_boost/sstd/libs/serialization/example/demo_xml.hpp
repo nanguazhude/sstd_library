@@ -282,4 +282,3 @@ std::ostream & operator<<(std::ostream &os, const bus_schedule &bs)
 }
 
 #endif // BOOST_SERIALIZATION_EXAMPLE_DEMO_XML_HPP
-

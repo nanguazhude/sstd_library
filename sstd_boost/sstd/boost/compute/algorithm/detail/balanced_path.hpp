@@ -160,4 +160,3 @@ private:
 } //end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_BALANCED_PATH_HPP
-

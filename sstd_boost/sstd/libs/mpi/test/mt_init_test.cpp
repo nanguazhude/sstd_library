@@ -25,4 +25,3 @@ test_main(int argc, char* argv[]) {
   BOOST_CHECK(env.thread_level() <= mpi::threading::multiple);
   return 0;
 }
-

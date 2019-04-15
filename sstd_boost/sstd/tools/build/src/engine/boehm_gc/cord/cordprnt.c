@@ -394,4 +394,3 @@ int CORD_vprintf(CORD format, va_list args)
     if (result > 0) CORD_put(out, stdout);
     return(result);
 }
-

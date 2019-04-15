@@ -1120,4 +1120,3 @@ void test_algorithm()
 }
 
 #endif
-

@@ -64,5 +64,3 @@ BOOST_ARCHIVE_XML_SIGNATURE();
 #include <sstd/boost/archive/detail/abi_suffix.hpp> // pops abi_suffix.hpp pragmas
 
 #endif // BOOST_ARCHIVE_BASIC_XML_TEXT_ARCHIVE_HPP
-
-

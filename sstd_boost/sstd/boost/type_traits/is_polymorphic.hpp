@@ -120,4 +120,3 @@ template <class T> struct is_polymorphic : public integral_constant<bool, BOOST_
 #endif
 
 #endif
-

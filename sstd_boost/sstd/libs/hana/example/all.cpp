@@ -14,4 +14,3 @@ static_assert(hana::all(hana::make_tuple(hana::true_c, true, hana::true_c)), "")
 BOOST_HANA_CONSTANT_CHECK(!hana::all(hana::make_tuple(true, hana::false_c, hana::true_c)));
 
 int main() { }
-

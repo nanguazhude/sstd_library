@@ -34,4 +34,3 @@ struct usage_requirements
 }} // namespace boost::concepts
 
 #endif // BOOST_CONCEPT_USAGE_DWA2006919_HPP
-

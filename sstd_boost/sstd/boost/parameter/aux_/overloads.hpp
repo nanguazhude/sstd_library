@@ -85,5 +85,3 @@ operator()(BOOST_PP_ENUM_BINARY_PARAMS(N, A, & a)) const
 #undef BOOST_PARAMETER_open_list
 #undef BOOST_PARAMETER_close_list
 #undef N
-
-

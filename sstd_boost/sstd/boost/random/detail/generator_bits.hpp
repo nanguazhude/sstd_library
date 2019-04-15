@@ -34,4 +34,3 @@ struct generator_bits {
 } // namespace boost
 
 #endif // BOOST_RANDOM_DETAIL_GENERATOR_BITS_HPP
-

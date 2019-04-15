@@ -183,5 +183,3 @@ test_suite* init_unit_test_suite( int argc, char* argv[] )
 //
 // todo: remake example with shared_ptr
 //
-
-

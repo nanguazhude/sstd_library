@@ -300,4 +300,3 @@ BOOST_AUTO_TEST_CASE(std_accumulate_equality)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

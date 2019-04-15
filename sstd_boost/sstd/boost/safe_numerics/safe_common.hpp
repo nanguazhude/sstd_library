@@ -47,4 +47,3 @@ struct get_exception_policy {
 } // boost
 
 #endif // BOOST_NUMERIC_SAFE_COMMON_HPP
-

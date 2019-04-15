@@ -304,4 +304,3 @@ int main() {
 }
 
 #endif //#ifdef BOOST_CLBL_TRTS_GCC_OLDER_THAN_4_9_2
-

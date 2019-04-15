@@ -227,4 +227,3 @@ BOOST_MPL_AUX_NA_SPEC_TEMPLATE_ARITY(n_, n_, inherit)
 
 #undef n_
 #endif // BOOST_PP_IS_ITERATING
-

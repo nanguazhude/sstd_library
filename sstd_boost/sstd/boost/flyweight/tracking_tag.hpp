@@ -42,4 +42,3 @@ struct tracking:parameter::template_keyword<tracking<>,T>
 } /* namespace boost */
 
 #endif
-

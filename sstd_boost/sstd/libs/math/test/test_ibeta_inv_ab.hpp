@@ -213,5 +213,3 @@ void test_beta(T, const char* name)
    }
 #endif
 }
-
-

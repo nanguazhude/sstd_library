@@ -31,4 +31,3 @@
 #include <sstd/boost/type_traits/is_stateless.hpp>
 
 #endif // BOOST_TT_OBJECT_TRAITS_HPP_INLCUDED
-

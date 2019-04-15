@@ -77,4 +77,3 @@ varint_write(FwdIt& first, std::size_t value)
 } // boost
 
 #endif
-

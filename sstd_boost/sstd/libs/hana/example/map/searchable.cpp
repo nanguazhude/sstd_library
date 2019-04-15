@@ -28,4 +28,3 @@ static_assert(m[hana::type_c<int>] == 'i', "");
 static_assert(m[hana::type_c<float>] == 'f', "");
 
 int main() { }
-

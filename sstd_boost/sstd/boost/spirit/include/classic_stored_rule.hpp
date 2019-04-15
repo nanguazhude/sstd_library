@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_STORED_RULE
 #include <sstd/boost/spirit/home/classic/dynamic/stored_rule.hpp>
 #endif
-

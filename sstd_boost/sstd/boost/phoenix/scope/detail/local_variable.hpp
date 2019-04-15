@@ -230,4 +230,3 @@ namespace boost { namespace phoenix
 #undef BOOST_PHOENIX_MAP_LOCAL_DISPATCH
 
 #endif
-

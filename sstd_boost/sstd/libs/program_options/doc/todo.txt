@@ -234,6 +234,3 @@ More visibility for bool_switch.
 > is handled as if it were (in standard UNIX command-line-ese):
 >
 > program --known-flag --known-arg value -- --unknown 42
-
-
-

@@ -50,4 +50,3 @@ namespace detail
 }} // namespace boost::python
 
 #endif // ARGS_FWD_DWA2002927_HPP
-

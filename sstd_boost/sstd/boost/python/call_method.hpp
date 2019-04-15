@@ -81,4 +81,3 @@ call_method(PyObject* self, char const* name
 
 #endif // BOOST_PP_ITERATION_DEPTH()
 #endif // BOOST_PP_IS_ITERATING
-

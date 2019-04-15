@@ -62,4 +62,3 @@ public:
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_FUNCTIONAL_IDENTITY_HPP
-

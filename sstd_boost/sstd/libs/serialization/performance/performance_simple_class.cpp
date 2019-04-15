@@ -53,4 +53,3 @@ test_main( int /* argc */, char* /* argv */[] )
     std::remove(testfile);
     return (a == a1) ? EXIT_SUCCESS : EXIT_SUCCESS;
 }
-

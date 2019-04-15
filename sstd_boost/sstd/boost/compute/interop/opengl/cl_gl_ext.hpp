@@ -36,4 +36,3 @@
 #endif
 
 #endif // BOOST_COMPUTE_INTEROP_OPENGL_CL_GL_EXT_HPP
-

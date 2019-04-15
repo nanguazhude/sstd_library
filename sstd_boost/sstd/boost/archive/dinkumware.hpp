@@ -222,4 +222,3 @@ inline back_insert_iterator<basic_string<wchar_t> > back_inserter(
 } // namespace std
 
 #endif //BOOST_ARCHIVE_DINKUMWARE_HPP
-

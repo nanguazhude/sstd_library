@@ -55,4 +55,3 @@ inline void invoke(const Function& function, Context& context)
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_HANDLER_INVOKE_HELPERS_HPP
-

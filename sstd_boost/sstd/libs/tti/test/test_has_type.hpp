@@ -21,4 +21,3 @@ BOOST_TTI_TRAIT_HAS_TYPE(SomethingElse,someOtherType)
 BOOST_TTI_HAS_TYPE(NoOtherType)
 
 #endif // TEST_HAS_TYPE_HPP
-

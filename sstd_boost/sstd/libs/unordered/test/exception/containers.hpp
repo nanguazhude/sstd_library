@@ -42,4 +42,3 @@ typedef boost::unordered_multiset<
 #define CONTAINER_SEQ (test_set)(test_multiset)(test_map)(test_multimap)
 #define CONTAINER_PAIR_SEQ                                                     \
   (test_pair_set)(test_pair_multiset)(test_map)(test_multimap)
-

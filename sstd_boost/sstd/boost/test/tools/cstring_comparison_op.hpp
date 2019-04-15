@@ -85,5 +85,3 @@ BOOST_TEST_FOR_EACH_COMP_OP( DEFINE_CSTRING_COMPARISON )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_TOOLS_CSTRING_COMPARISON_OP_HPP_050815GER
-
-

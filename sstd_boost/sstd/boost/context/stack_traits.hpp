@@ -40,4 +40,3 @@ struct BOOST_CONTEXT_DECL stack_traits
 #endif
 
 #endif // BOOST_CONTEXT_STACK_TRAITS_H
-

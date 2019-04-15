@@ -313,5 +313,3 @@ typedef ::boost::mpl::list<
 #endif //BOOST_ICL_TEST_CHRONO
 
 #endif
-
-

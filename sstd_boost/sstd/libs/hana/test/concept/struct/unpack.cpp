@@ -42,4 +42,3 @@ int main() {
           pair(hana::int_c<2>, ct_eq<2>{}))
     ));
 }
-

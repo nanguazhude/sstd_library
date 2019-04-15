@@ -18,4 +18,3 @@ int main(){
     f(y);   // OK - y is a type with min/max = 97;
     return 0;
 }
-

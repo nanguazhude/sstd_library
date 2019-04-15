@@ -54,5 +54,3 @@ int main()
    check_concepts<boost::multiprecision::cpp_int>();
    return 0;
 }
-
-

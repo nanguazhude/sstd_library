@@ -13,5 +13,3 @@
     #error "build must define MAX_ARGS=2"
 #endif
 #include "max_args.hpp"
-
-

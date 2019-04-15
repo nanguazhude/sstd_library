@@ -125,4 +125,3 @@ BOOST_AUTO_TEST_CASE(async_wait)
     io_context.run();
     std::cout << "async_wait 2" << std::endl;
 }
-

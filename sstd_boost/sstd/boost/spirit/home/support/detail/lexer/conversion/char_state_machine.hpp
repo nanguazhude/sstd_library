@@ -75,4 +75,3 @@ typedef basic_char_state_machine<wchar_t> wchar_state_machine;
 }
 
 #endif
-

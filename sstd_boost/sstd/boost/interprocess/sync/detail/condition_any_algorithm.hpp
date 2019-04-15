@@ -222,4 +222,3 @@ class condition_any_wrapper
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_DETAIL_CONDITION_ANY_ALGORITHM_HPP
-

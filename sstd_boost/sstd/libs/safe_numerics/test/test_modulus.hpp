@@ -152,4 +152,3 @@ bool test_modulus(
 }
 
 #endif // BOOST_TEST_MODULUS
-

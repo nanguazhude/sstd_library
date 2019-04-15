@@ -96,4 +96,3 @@ struct unpack_sequence<std::array<T, N>>
 }} // namespace boost::hof
 
 #endif
-

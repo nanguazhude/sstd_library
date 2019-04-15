@@ -47,4 +47,3 @@ struct default_strategy<cartesian_tag, CalculationType>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_STRATEGIES_CARTESIAN_AZIMUTH_HPP
-

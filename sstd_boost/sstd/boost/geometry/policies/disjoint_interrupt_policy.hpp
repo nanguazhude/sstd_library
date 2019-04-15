@@ -65,4 +65,3 @@ struct disjoint_interrupt_policy
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_POLICIES_DISJOINT_INTERRUPT_POLICY_HPP
-

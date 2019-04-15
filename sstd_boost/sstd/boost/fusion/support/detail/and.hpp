@@ -45,4 +45,3 @@ namespace boost { namespace fusion { namespace detail {
 }}}
 
 #endif // FUSION_AND_07152016_1625
-

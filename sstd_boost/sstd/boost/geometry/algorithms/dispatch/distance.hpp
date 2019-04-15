@@ -80,4 +80,3 @@ struct distance: not_implemented<Tag1, Tag2>
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DISPATCH_DISTANCE_HPP
-

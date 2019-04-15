@@ -107,4 +107,3 @@ BOOST_ASIO_INITFN_RESULT_TYPE(CompletionToken, void()) defer(
 #include <sstd/boost/asio/impl/defer.hpp>
 
 #endif // BOOST_ASIO_DEFER_HPP
-

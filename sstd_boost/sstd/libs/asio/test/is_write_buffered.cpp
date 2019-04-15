@@ -127,4 +127,3 @@ BOOST_ASIO_TEST_SUITE
   "is_write_buffered",
   BOOST_ASIO_TEST_CASE(is_write_buffered_test)
 )
-

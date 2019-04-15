@@ -64,4 +64,3 @@ MPL_TEST_CASE()
     MPL_ASSERT_RELATION( front<v1>::type::value, ==, 0 );
     MPL_ASSERT_RELATION( front<v2>::type::value, ==, 1 );
 }
-

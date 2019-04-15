@@ -114,4 +114,3 @@ struct assoc_container_factory:factory_marker
 } /* namespace boost */
 
 #endif
-

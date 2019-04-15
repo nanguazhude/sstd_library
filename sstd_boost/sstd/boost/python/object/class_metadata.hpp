@@ -292,4 +292,3 @@ struct class_metadata
 }}} // namespace boost::python::object
 
 #endif
-

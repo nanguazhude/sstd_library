@@ -115,4 +115,3 @@ inline void swap ( optional<T>& x, optional<T>& y )
 #undef BOOST_OPTIONAL_DETAIL_MOVE
 
 #endif // header guard
-

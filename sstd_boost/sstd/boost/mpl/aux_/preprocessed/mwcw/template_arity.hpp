@@ -8,5 +8,3 @@
 
 // Preprocessed version of "sstd/boost/mpl/aux_/template_arity.hpp" header
 // -- DO NOT modify by hand!
-
-

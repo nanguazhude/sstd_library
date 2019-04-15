@@ -25,4 +25,3 @@ namespace boost {
 }
 
 #endif // BOOST_VISIT_EACH_HPP
-

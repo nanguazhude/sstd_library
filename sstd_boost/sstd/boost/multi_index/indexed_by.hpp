@@ -66,4 +66,3 @@ struct indexed_by:
 #undef BOOST_MULTI_INDEX_INDEXED_BY_SIZE
 
 #endif
-

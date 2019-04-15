@@ -95,4 +95,3 @@ struct checked_result {
 } // boost
 
 #endif  // BOOST_NUMERIC_CHECKED_RESULT
-

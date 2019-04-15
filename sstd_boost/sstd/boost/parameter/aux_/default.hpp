@@ -66,5 +66,3 @@ struct lazy_default
 }}} // namespace boost::parameter::aux
 
 #endif // DEFAULT_050329_HPP
-
-

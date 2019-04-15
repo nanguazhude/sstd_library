@@ -37,4 +37,3 @@ int main() {
         BOOST_HANA_RUNTIME_CHECK(hana::at_c<0>(xs) == 10);
     }
 }
-

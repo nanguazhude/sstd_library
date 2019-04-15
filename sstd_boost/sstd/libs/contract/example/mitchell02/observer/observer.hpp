@@ -56,5 +56,3 @@ void observer::update(boost::contract::virtual_* v) {
 
 #endif // #include guard
 //]
-
-

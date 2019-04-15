@@ -31,6 +31,3 @@ BOOST_METAPARSE_TEST_CASE(at_c)
   // test_last_char
   BOOST_MPL_ASSERT((equal_to<char_<'o'>, at_c<hello, 4>::type>));
 }
-
-
-

@@ -112,8 +112,3 @@ int main(int argc, char* argv[])
    std::cout << "total tag count was " << tags << std::endl;
    return 0;
 }
-
-
-
-
-

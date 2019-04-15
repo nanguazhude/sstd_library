@@ -142,5 +142,3 @@ namespace boost {
 
 
 #endif  // BOOST_STRING_JOIN_HPP
-
-

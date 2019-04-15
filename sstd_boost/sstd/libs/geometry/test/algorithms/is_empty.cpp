@@ -333,4 +333,3 @@ BOOST_AUTO_TEST_CASE( test_variant )
     variant_geometry = ls;
     tester::apply(variant_geometry, false);
 }
-

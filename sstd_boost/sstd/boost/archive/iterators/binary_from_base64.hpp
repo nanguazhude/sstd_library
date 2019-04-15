@@ -116,4 +116,3 @@ public:
 } // namespace boost
 
 #endif // BOOST_ARCHIVE_ITERATORS_BINARY_FROM_BASE64_HPP
-

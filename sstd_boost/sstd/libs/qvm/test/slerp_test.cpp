@@ -55,4 +55,3 @@ main()
     test();
     return boost::report_errors();
     }
-

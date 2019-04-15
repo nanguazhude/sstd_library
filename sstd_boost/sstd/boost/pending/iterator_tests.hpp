@@ -286,4 +286,3 @@ using iterators::const_nonconst_iterator_test;
 } // namespace boost
 
 #endif // BOOST_ITERATOR_TESTS_HPP
-

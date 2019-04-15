@@ -91,4 +91,3 @@ struct remove_noexcept : detail::remove_noexcept_impl<T> {};
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_REMOVE_NOEXCEPT_HPP
-

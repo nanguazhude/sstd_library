@@ -147,4 +147,3 @@ namespace boost { namespace type_of {
         BOOST_TYPEOF_REGISTER_TYPE_FOR_TEMPLATE_TEMPLATE)(Name,Params,ID)
 
 #endif //BOOST_TYPEOF_TEMPLATE_TEMPLATE_PARAM_HPP_INCLUDED
-

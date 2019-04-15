@@ -119,4 +119,3 @@ namespace boost
 
 
 #endif //__MAKE_BICONNECTED_PLANAR_HPP__
-

@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_PARSE_TREE_FWD
 #include <sstd/boost/spirit/home/classic/tree/parse_tree_fwd.hpp>
 #endif
-

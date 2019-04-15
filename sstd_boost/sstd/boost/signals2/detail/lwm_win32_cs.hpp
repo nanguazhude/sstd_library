@@ -142,4 +142,3 @@ public:
 } // namespace boost
 
 #endif // #ifndef BOOST_SIGNALS2_LWM_WIN32_CS_HPP
-

@@ -242,5 +242,3 @@ inline unsigned hypergeometric_quantile(T p, T q, unsigned r, unsigned n, unsign
 }}} // namespaces
 
 #endif
-
-

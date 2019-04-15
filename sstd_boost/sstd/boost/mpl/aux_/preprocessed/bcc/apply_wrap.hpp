@@ -458,5 +458,3 @@ struct apply_wrap5
 };
 
 }}
-
-

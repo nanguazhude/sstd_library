@@ -94,4 +94,3 @@ int main()
 }
 
 #endif // #if defined( BOOST_NO_CXX11_HDR_TYPE_TRAITS )
-

@@ -37,4 +37,3 @@ struct base_unit_info<us::inch_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNITS_US_INCH_BASE_UNIT_HPP
-

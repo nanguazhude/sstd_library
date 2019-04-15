@@ -179,4 +179,3 @@ BEAST_DEFINE_TESTSUITE(beast,core,timeout_socket);
 
 } // beast
 } // boost
-

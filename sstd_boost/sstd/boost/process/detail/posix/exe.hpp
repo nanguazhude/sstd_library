@@ -34,4 +34,3 @@ inline void apply_exe(const StringType & exe, Executor & e)
 
 
 #endif /* INCLUDE_BOOST_PROCESS_WINDOWS_ARGS_HPP_ */
-

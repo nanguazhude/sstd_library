@@ -155,4 +155,3 @@ class shared_node_pool
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_NODE_POOL_HPP
-

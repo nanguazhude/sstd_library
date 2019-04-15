@@ -1295,4 +1295,3 @@ struct result_dimension
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_RELATE_RESULT_HPP
-

@@ -200,4 +200,3 @@ namespace quickbook
 } // namespace quickbook
 
 #endif
-

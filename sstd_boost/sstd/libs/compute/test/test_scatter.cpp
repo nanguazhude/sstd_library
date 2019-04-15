@@ -55,4 +55,3 @@ BOOST_AUTO_TEST_CASE(scatter_constant_indices)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

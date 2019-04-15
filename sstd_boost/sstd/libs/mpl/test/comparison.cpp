@@ -62,4 +62,3 @@ MPL_TEST_CASE()
     MPL_ASSERT(( greater_equal<_10, _0> ));
     MPL_ASSERT(( greater_equal<_10, _10> ));
 }
-

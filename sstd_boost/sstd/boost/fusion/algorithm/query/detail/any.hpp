@@ -137,5 +137,3 @@ namespace detail
 }}}
 
 #endif
-
-

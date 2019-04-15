@@ -58,12 +58,3 @@ TT_TEST_BEGIN(add_reference)
    BOOST_CHECK_TYPE(tt::add_reference<volatile void>::type, volatile void);
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

@@ -337,6 +337,3 @@ inline RealType kurtosis_excess(const lognormal_distribution<RealType, Policy>& 
 #include <sstd/boost/math/distributions/detail/derived_accessors.hpp>
 
 #endif // BOOST_STATS_STUDENTS_T_HPP
-
-
-

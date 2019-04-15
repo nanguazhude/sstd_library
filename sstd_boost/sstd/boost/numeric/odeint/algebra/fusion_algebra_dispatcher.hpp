@@ -46,4 +46,3 @@ struct algebra_dispatcher_sfinae< FusionSequence ,
 
 
 #endif // BOOST_NUMERIC_ODEINT_ALGEBRA_FUSION_ALGEBRA_DISPATCHER_HPP_DEFINED
-

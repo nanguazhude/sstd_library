@@ -101,4 +101,3 @@ bool operator<(const Abstract& l, const Abstract& r) { return l.val() < r.val();
 bool operator<(const ScopeGuard& l, const ScopeGuard& r) { return l.val() < r.val(); }
 
 #endif //BOOST_OPTIONAL_TEST_TESTABKE_CLASSES_AK_07JAN2015_HPP
-

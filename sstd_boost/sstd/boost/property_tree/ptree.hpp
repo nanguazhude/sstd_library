@@ -516,4 +516,3 @@ namespace boost { namespace property_tree
 #include <sstd/boost/property_tree/detail/ptree_implementation.hpp>
 
 #endif
-

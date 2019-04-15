@@ -66,4 +66,3 @@ typedef phoenix::function<store_in_map_impl>store_in_map_f;
 typedef phoenix::function<push_child_impl>  push_child_f;
 typedef phoenix::function<store_tag_impl>   store_tag_f;
 #endif
-

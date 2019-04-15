@@ -64,5 +64,3 @@ main()
   test_month();
   return printTestStats();
 }
-
-

@@ -487,5 +487,3 @@ namespace projections
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_MOD_STER_HPP
-
-

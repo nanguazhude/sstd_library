@@ -33,4 +33,3 @@
 #endif
 
 #endif // BOOST_ASIO_DETAIL_TIMER_SCHEDULER_HPP
-

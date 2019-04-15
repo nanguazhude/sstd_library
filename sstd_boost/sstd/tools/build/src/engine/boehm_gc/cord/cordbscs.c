@@ -917,4 +917,3 @@ void CORD_set_pos(CORD_pos p, CORD x, size_t i)
     p[0].cur_pos = i;
     CORD__extend_path(p);
 }
-

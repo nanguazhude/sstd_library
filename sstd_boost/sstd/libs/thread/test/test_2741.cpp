@@ -75,6 +75,3 @@ BOOST_AUTO_TEST_CASE(test_creation_with_attrs)
 {
   timed_test(&do_test_creation_with_attrs, 1);
 }
-
-
-

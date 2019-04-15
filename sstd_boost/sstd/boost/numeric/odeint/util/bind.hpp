@@ -99,4 +99,3 @@ using namespace ::std::placeholders;
 }*/
 
 #endif // BOOST_NUMERIC_ODEINT_UTIL_BIND_HPP_INCLUDED
-

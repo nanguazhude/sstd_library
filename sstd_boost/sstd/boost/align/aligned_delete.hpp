@@ -29,4 +29,3 @@ struct aligned_delete {
 } /* boost */
 
 #endif
-

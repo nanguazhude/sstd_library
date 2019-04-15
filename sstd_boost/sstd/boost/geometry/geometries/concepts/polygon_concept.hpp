@@ -128,4 +128,3 @@ public:
 }}} // namespace boost::geometry::concepts
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_CONCEPTS_POLYGON_CONCEPT_HPP
-

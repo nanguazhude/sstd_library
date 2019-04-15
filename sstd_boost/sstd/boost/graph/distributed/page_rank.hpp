@@ -223,4 +223,3 @@ using distributed::remove_dangling_links;
 } } // end namespace boost::graph
 
 #endif // BOOST_PARALLEL_GRAPH_PAGE_RANK_HPP
-

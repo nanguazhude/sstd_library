@@ -93,4 +93,3 @@ int main() {
     BOOST_TEST(info1.trees.begin()->children.size() == 2);
     return boost::report_errors();
 }
-

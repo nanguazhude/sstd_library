@@ -277,6 +277,3 @@ namespace other{
 #endif
 
 #endif
-
-
-

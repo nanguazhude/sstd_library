@@ -348,4 +348,3 @@ typename ::boost::lazy_enable_if_c<
 
 
 #endif // BOOST_NUMERIC_UBLAS_OPERATION_SIZE_HPP
-

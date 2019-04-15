@@ -1051,4 +1051,3 @@ test_struct_with_ctor_api(void)
 }
 
 #endif
-

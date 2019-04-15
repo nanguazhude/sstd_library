@@ -47,4 +47,3 @@ clamp_range(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_EXPERIMENTAL_CLAMP_RANGE_HPP
-

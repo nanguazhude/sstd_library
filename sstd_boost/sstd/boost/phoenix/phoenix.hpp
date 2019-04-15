@@ -19,4 +19,3 @@
 #include <sstd/boost/phoenix/fusion.hpp>
 
 #endif
-

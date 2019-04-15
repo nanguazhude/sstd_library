@@ -34,6 +34,3 @@ linux-g++*{
 
 HEADERS += $$PWD/sstd_botan.hpp
 SOURCES += $$PWD/sstd_botan.cpp
-
-
-

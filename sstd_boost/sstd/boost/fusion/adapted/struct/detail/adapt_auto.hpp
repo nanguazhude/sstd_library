@@ -12,4 +12,3 @@
 #define BOOST_MPL_PP_TOKEN_EQUAL_auto(x) x
 
 #endif
-

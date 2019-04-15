@@ -42,4 +42,3 @@ inline void terminate(child_handle &p)
 }}}}
 
 #endif
-

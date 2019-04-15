@@ -90,4 +90,3 @@ double chi_squared_test(const std::vector<IntType>& results, const std::vector<d
 }
 
 #endif
-

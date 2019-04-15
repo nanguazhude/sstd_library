@@ -114,4 +114,3 @@ inline void serialize(
 
 
 #endif // ADJ_LIST_SERIALIZE_HPP
-

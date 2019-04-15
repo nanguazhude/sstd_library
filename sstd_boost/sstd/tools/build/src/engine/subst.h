@@ -12,4 +12,3 @@
 regexp * regex_compile( OBJECT * pattern );
 
 #endif
-

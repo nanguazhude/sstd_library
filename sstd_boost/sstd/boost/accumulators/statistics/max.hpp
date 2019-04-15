@@ -83,4 +83,3 @@ using extract::max;
 }} // namespace boost::accumulators
 
 #endif
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Calendar Functions
 * (C) 1999-2009,2015 Jack Lloyd
 * (C) 2015 Simon Warta (Kullo GmbH)

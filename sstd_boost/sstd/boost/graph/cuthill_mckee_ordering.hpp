@@ -186,4 +186,3 @@ namespace boost {
 
 
 #endif // BOOST_GRAPH_CUTHILL_MCKEE_HPP
-

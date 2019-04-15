@@ -251,4 +251,3 @@ struct close_impl<two_sequence> {
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>
 
 #endif // #ifndef BOOST_IOSTREAMS_CLOSE_HPP_INCLUDED
-

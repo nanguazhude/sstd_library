@@ -14,4 +14,3 @@ int main()
    cpp_int i(2);
    i = a;
 }
-

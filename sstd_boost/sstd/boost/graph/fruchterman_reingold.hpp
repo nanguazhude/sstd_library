@@ -438,4 +438,3 @@ fruchterman_reingold_force_directed_layout
 #endif
 
 #endif // BOOST_GRAPH_FRUCHTERMAN_REINGOLD_FORCE_DIRECTED_LAYOUT_HPP
-

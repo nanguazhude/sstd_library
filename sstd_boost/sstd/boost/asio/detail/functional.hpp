@@ -38,4 +38,3 @@ using boost::function;
 } // namespace boost
 
 #endif // BOOST_ASIO_DETAIL_FUNCTIONAL_HPP
-

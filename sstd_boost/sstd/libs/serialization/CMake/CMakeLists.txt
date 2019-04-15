@@ -462,4 +462,3 @@ target_link_libraries(test_z serialization wserialization ${Boost_LIBRARIES})
 
 # end test project
 #####################
-

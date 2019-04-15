@@ -809,4 +809,3 @@ void swap( symmetric_coroutine_call< Arg > & l,
 #endif
 
 #endif // BOOST_COROUTINES_DETAIL_SYMMETRIC_COROUTINE_CALL_H
-

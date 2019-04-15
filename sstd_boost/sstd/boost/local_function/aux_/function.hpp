@@ -327,5 +327,3 @@ private:
 
 #   undef BOOST_LOCAL_FUNCTION_AUX_defaults
 #endif // iteration
-
-

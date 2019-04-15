@@ -28,4 +28,3 @@ int main() {
     auto result = fusion::as_list(fusion::transform(xs, f{}));
     (void)result;
 }
-

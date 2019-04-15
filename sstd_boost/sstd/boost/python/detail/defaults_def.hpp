@@ -289,4 +289,3 @@ struct define_stub_function<BOOST_PP_ITERATION()> {
 };
 
 #endif // !defined(BOOST_PP_IS_ITERATING)
-

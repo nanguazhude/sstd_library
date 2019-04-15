@@ -152,4 +152,3 @@ inline void load_construct_data_adl(
 } // namespace boost
 
 #endif //BOOST_SERIALIZATION_SERIALIZATION_HPP
-

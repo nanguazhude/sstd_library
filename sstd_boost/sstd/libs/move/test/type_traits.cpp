@@ -96,4 +96,3 @@ int main()
    is_pod_test::test();
    boost::report_errors();
 }
-

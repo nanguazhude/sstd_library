@@ -191,4 +191,3 @@ namespace boost {
 
 
 #endif  // BOOST_STRING_ITER_FIND_HPP
-

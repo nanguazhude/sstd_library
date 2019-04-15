@@ -139,4 +139,3 @@ inline bool std_category::equivalent( const std::error_code & code, int conditio
 } // namespace system
 
 } // namespace boost
-

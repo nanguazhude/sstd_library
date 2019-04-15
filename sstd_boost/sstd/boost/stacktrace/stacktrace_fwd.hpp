@@ -26,4 +26,3 @@ typedef basic_stacktrace<> stacktrace;
 
 
 #endif // BOOST_STACKTRACE_STACKTRACE_FWD_HPP
-

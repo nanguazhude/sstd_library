@@ -101,4 +101,3 @@ typename result_of::make_controlled< Stepper >::type make_controlled(
 
 
 #endif // BOOST_NUMERIC_ODEINT_STEPPER_GENERATION_MAKE_CONTROLLED_HPP_INCLUDED
-

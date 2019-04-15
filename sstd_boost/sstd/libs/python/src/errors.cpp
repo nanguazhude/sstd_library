@@ -101,6 +101,3 @@ BOOST_PYTHON_DECL void register_exception_handler(handler_function const& f)
 } // namespace boost::python::detail
 
 }} // namespace boost::python
-
-
-

@@ -39,4 +39,3 @@ inline void populate_layout_database(layout_database& layout, std::vector<layout
   }
 }
 #endif
-

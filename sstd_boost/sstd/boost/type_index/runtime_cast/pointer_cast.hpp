@@ -72,4 +72,3 @@ T const* runtime_pointer_cast(U const* u) BOOST_NOEXCEPT {
 }} // namespace boost::typeindex
 
 #endif // BOOST_TYPE_INDEX_RUNTIME_CAST_POINTER_CAST_HPP
-

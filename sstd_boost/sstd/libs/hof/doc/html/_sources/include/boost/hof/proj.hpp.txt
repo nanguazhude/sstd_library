@@ -263,4 +263,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(proj, detail::make<proj_adaptor>);
 
 }} // namespace boost::hof
 #endif
-

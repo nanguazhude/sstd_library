@@ -124,4 +124,3 @@ template<> struct base_unit_info<time_unit>
 } // namespace boost
 
 #endif // BOOST_UNITS_TEST_HEADER_HPP
-

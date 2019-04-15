@@ -44,4 +44,3 @@ struct no_tracking:tracking_marker
 } /* namespace boost */
 
 #endif
-

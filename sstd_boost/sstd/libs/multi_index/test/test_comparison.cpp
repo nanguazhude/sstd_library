@@ -149,4 +149,3 @@ void test_comparison()
   BOOST_TEST(
     get<1>(l3)!=get<1>(l5)&&get<1>(l3)<get<1>(l5)&&get<1>(l5)>get<1>(l3));
 }
-

@@ -66,4 +66,3 @@ public:
 
 
 #endif // BOOST_GEOMETRY_SRS_EPSG_HPP
-

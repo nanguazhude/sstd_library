@@ -596,4 +596,3 @@ class heart_topology
 } // namespace boost
 
 #endif // BOOST_GRAPH_TOPOLOGY_HPP
-

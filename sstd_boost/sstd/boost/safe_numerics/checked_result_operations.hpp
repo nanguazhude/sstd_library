@@ -1172,4 +1172,3 @@ public:
 } // std
 
 #endif  // BOOST_NUMERIC_CHECKED_RESULT_OPERATIONS
-

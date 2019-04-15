@@ -119,4 +119,3 @@ struct reverse_sort_impl
 }}}
 
 #endif // BOOST_MPL_AUX_SORT_IMPL_HPP_INCLUDED
-

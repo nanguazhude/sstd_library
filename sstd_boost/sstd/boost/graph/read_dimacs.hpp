@@ -308,4 +308,3 @@ int read_dimacs_min_cut(Graph& g,
 } // namespace boost
 
 #endif // BOOST_GRAPH_READ_DIMACS_HPP
-

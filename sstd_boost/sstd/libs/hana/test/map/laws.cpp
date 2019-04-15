@@ -35,4 +35,3 @@ int main() {
     hana::test::TestSearchable<hana::map_tag>{maps, hana::make_tuple(key<1>(), key<4>())};
     hana::test::TestFoldable<hana::map_tag>{maps};
 }
-

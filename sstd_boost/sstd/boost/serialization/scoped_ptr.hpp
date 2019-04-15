@@ -56,4 +56,3 @@ namespace serialization {
 } // namespace boost
 
 #endif // BOOST_SERIALIZATION_SCOPED_PTR_HPP_VP_2003_10_30
-

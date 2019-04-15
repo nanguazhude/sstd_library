@@ -42,4 +42,3 @@ using derived_t = typename T::_boost_type_erasure_derived_type;
 }
 
 #endif
-

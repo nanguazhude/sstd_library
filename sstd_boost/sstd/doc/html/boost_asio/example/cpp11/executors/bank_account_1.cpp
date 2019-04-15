@@ -52,4 +52,3 @@ int main()
   acct.withdraw(10);
   acct.print_balance();
 }
-

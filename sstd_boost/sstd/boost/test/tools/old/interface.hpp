@@ -280,4 +280,3 @@ do {                                                                            
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_TOOLS_OLD_INTERFACE_HPP_111712GER
-

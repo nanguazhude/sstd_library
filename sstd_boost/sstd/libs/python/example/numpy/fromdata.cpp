@@ -46,4 +46,3 @@ int main(int argc, char **argv)
   std::cout << std::endl << "Is the change reflected in the Python ndarray ?" << std::endl << p::extract<char const *>(p::str(py_array)) << std::endl;
 
 }
-

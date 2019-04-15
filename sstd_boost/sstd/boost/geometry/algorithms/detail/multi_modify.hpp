@@ -67,4 +67,3 @@ struct multi_modify
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_MULTI_MODIFY_HPP
-

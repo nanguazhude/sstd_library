@@ -160,4 +160,3 @@ namespace detail
 }}} // namespace boost::python::converter
 
 #endif // RETURN_FROM_PYTHON_DWA200265_HPP
-

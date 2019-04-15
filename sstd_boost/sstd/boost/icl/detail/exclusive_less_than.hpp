@@ -27,6 +27,3 @@ struct exclusive_less_than
 }} // namespace boost icl
 
 #endif
-
-
-

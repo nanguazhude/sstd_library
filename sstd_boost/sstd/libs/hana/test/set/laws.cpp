@@ -31,4 +31,3 @@ int main() {
     hana::test::TestSearchable<hana::set_tag>{eqs, keys};
     hana::test::TestFoldable<hana::set_tag>{eqs};
 }
-

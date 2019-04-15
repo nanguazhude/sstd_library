@@ -38,5 +38,3 @@ namespace boost
   ::boost::metaparse::v1::impl::string_at<BOOST_METAPARSE_LIMIT_STRING_SIZE>
 
 #endif
-
-

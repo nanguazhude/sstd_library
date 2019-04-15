@@ -21,12 +21,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_compound<int>::value, false);
 BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_compound<test_abc1>::value, true);
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

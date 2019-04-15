@@ -76,4 +76,3 @@ struct print
 }}
 
 #endif // BOOST_MPL_PRINT_HPP_INCLUDED
-

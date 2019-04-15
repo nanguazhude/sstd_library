@@ -63,4 +63,3 @@ struct callable_base_type<callable_base<F>>
 }}} // namespace boost::hof
 
 #endif
-

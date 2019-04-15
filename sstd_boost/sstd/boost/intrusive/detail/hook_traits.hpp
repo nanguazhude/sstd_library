@@ -185,4 +185,3 @@ struct fhtraits
 } //namespace boost
 
 #endif //BOOST_INTRUSIVE_DETAIL_HOOK_TRAITS_HPP
-

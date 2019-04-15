@@ -23,4 +23,3 @@ class dynamic_bitset;
 }
 
 #endif // include guard
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * CRC24
 * (C) 1999-2007 Jack Lloyd
 * (C) 2017 [Ribose Inc](https://www.ribose.com). Performed by Krzysztof Kwiatkowski.

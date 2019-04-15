@@ -213,4 +213,3 @@ struct indexed_access<index::detail::bounded_view<Geometry, Box, Tag, box_tag, C
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_BOUNDED_VIEW_HPP
-

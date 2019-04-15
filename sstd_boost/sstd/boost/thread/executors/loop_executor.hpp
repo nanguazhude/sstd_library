@@ -207,4 +207,3 @@ using executors::loop_executor;
 #include <sstd/boost/config/abi_suffix.hpp>
 
 #endif
-

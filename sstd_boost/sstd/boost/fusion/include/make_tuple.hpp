@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/tuple/make_tuple.hpp>
 
 #endif
-

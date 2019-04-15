@@ -168,4 +168,3 @@ using executors::serial_executor_cont;
 #include <sstd/boost/config/abi_suffix.hpp>
 
 #endif
-

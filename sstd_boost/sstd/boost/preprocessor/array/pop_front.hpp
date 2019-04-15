@@ -36,4 +36,3 @@
 # define BOOST_PP_ARRAY_POP_FRONT_M(z, n, data) BOOST_PP_ARRAY_ELEM(BOOST_PP_INC(n), data)
 #
 # endif
-

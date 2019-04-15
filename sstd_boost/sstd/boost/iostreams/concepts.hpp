@@ -127,4 +127,3 @@ typedef multichar_wfilter<dual_use>  multichar_dual_use_wfilter;
 } } // End namespaces iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_CONCEPTS_HPP_INCLUDED
-

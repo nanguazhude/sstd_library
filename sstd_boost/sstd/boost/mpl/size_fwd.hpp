@@ -22,4 +22,3 @@ template< typename Sequence > struct size;
 }}
 
 #endif // BOOST_MPL_SIZE_FWD_HPP_INCLUDED
-

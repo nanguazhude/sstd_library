@@ -30,4 +30,3 @@ class Integer : public Numeric<T> {
 } // boost
 
 #endif // BOOST_NUMERIC_CONCEPT_INTEGER_HPP
-

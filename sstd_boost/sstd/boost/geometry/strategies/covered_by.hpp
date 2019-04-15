@@ -96,5 +96,3 @@ struct default_strategy
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_COVERED_BY_HPP
-
-

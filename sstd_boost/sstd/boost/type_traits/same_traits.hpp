@@ -13,4 +13,3 @@
 #include <sstd/boost/type_traits/is_same.hpp>
 
 #endif  // BOOST_TT_SAME_TRAITS_HPP_INCLUDED
-

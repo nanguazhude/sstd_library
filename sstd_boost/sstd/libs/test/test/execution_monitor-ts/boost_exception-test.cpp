@@ -66,4 +66,3 @@ BOOST_AUTO_TEST_CASE( test_logs )
     BOOST_TEST(error_string.find("boost::wrapexcept<") != std::string::npos);
     BOOST_TEST(error_string.find("myexception>") != std::string::npos);
 }
-

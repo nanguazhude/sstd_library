@@ -30,4 +30,3 @@ struct rgb_to_luminance_fn< double, double, double, GrayChannelValue >
 } // namespace boost
 
 #endif
-

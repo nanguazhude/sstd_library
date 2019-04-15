@@ -555,5 +555,3 @@ namespace boost { namespace math { namespace detail{
 #endif
 
 #endif // _BOOST_POLYGAMMA_DETAIL_2013_07_30_HPP_
-
-

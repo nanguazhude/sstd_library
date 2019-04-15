@@ -41,4 +41,3 @@ my_plugin_sum plugin;
 } // namespace my_namespace
 
 //]
-

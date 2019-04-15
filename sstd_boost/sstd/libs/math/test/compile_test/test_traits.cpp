@@ -53,5 +53,3 @@ BOOST_STATIC_ASSERT(::boost::math::tools::is_scaled_distribution<students_t>::va
 BOOST_STATIC_ASSERT(::boost::math::tools::is_scaled_distribution<triangular>::value == false);
 BOOST_STATIC_ASSERT(::boost::math::tools::is_scaled_distribution<uniform>::value == false);
 BOOST_STATIC_ASSERT(::boost::math::tools::is_scaled_distribution<weibull>::value == false);
-
-

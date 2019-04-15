@@ -44,4 +44,3 @@ int main(int argc, char* argv[])
   std::cout << "Process #" << world.rank() << " says " << value << std::endl;
   return 0;
 }
-

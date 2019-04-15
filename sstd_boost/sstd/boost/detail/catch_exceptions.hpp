@@ -139,5 +139,3 @@ namespace boost
 } // boost
 
 #endif  // BOOST_CATCH_EXCEPTIONS_HPP
-
-

@@ -20,4 +20,3 @@ BOOST_ACCUMULATORS_IGNORE_GLOBAL(accumulator)
 }} // namespace boost::accumulators
 
 #endif
-

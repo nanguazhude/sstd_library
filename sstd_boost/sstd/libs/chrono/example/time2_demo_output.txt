@@ -189,4 +189,3 @@ duration<unsigned>::max().count()  = 4294967295
 duration<int>::min().count()       = -2147483647
 duration<int>::zero().count()      = 0
 duration<int>::max().count()       = 2147483647
-

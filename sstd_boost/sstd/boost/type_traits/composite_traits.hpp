@@ -22,9 +22,3 @@
 #include <sstd/boost/type_traits/is_union.hpp>
 
 #endif // BOOST_TT_COMPOSITE_TRAITS_HPP_INCLUDED
-
-
-
-
-
-

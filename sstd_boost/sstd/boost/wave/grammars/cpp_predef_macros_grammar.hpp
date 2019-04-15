@@ -176,4 +176,3 @@ predefined_macros_grammar_gen<LexIteratorT>::parse_predefined_macro (
 #endif
 
 #endif // !defined(CPP_PREDEF_MACROS_GRAMMAR_HPP_53858C9A_C202_4D60_AD92_DC9CAE4DBB43_INCLUDED)
-

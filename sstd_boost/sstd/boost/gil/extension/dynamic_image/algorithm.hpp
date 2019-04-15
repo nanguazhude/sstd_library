@@ -169,4 +169,3 @@ void fill_pixels(const any_image_view<Types>& img_view, const Value& val) {
 }}  // namespace boost::gil
 
 #endif
-

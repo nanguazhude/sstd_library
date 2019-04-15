@@ -59,4 +59,3 @@ void test_scanline_reader( const char* file_name )
 }
 
 #endif // BOOST_GIL_IO_TEST_SCANLINE_READ_TEST_HPP
-

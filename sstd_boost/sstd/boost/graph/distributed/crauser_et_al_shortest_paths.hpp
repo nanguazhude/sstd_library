@@ -656,4 +656,3 @@ using distributed::crauser_et_al_shortest_paths;
 } } // end namespace boost::graph
 
 #endif // BOOST_GRAPH_CRAUSER_ET_AL_SHORTEST_PATHS_HPP
-

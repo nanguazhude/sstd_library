@@ -27,4 +27,3 @@ void simple_swap(T&x, T&y)
 }}  //namespace boost{ namespace interprocess {
 
 #endif //#ifndef BOOST_INTERPROCESS_DETAIL_SWAP_HPP
-

@@ -20,4 +20,3 @@ static_assert(std::is_same<
 >{}, "");
 
 int main() { }
-

@@ -470,4 +470,3 @@ namespace boost { namespace fusion
             fusion::make_pair<K0>(arg0) , fusion::make_pair<K1>(arg1) , fusion::make_pair<K2>(arg2) , fusion::make_pair<K3>(arg3) , fusion::make_pair<K4>(arg4) , fusion::make_pair<K5>(arg5) , fusion::make_pair<K6>(arg6) , fusion::make_pair<K7>(arg7) , fusion::make_pair<K8>(arg8) , fusion::make_pair<K9>(arg9) , fusion::make_pair<K10>(arg10) , fusion::make_pair<K11>(arg11) , fusion::make_pair<K12>(arg12) , fusion::make_pair<K13>(arg13) , fusion::make_pair<K14>(arg14) , fusion::make_pair<K15>(arg15) , fusion::make_pair<K16>(arg16) , fusion::make_pair<K17>(arg17) , fusion::make_pair<K18>(arg18) , fusion::make_pair<K19>(arg19));
     }
 }}
-

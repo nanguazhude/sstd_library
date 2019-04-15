@@ -246,4 +246,3 @@ test_main(int /* argc */, char * /* argv */[]) {
     delete utf8_locale;
     return EXIT_SUCCESS;
 }
-

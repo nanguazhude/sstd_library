@@ -12,4 +12,3 @@ static_assert(hana::fold_right(hana::nothing, 1, hana::plus) == 1, "");
 static_assert(hana::fold_right(hana::just(4), 1, hana::plus) == 5, "");
 
 int main() { }
-

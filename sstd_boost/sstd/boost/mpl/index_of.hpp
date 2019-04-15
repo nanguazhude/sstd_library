@@ -37,4 +37,3 @@ BOOST_MPL_AUX_NA_SPEC(2, index_of)
 }}
 
 #endif // BOOST_MPL_INDEX_OF_HPP_INCLUDED
-

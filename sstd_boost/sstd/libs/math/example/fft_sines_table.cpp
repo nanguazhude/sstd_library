@@ -254,4 +254,3 @@ this table. The same command can be pasted into the compute box.
 */
 
 //] [/fft_sines_table_example_check]
-

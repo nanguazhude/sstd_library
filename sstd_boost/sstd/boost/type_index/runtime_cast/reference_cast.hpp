@@ -64,4 +64,3 @@ typename boost::add_reference<const T>::type runtime_cast(U const& u) {
 }} // namespace boost::typeindex
 
 #endif // BOOST_TYPE_INDEX_RUNTIME_CAST_REFERENCE_CAST_HPP
-

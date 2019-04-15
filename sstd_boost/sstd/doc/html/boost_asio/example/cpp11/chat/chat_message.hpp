@@ -89,4 +89,3 @@ private:
 };
 
 #endif // CHAT_MESSAGE_HPP
-

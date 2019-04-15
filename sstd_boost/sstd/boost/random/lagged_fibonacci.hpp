@@ -535,4 +535,3 @@ using random::lagged_fibonacci44497;
 } // namespace boost
 
 #endif // BOOST_RANDOM_LAGGED_FIBONACCI_HPP
-

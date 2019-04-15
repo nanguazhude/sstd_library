@@ -105,4 +105,3 @@ test_main(int argc, char* argv[]) {
   test_threading_level_cmp();
   return 0;
 }
-

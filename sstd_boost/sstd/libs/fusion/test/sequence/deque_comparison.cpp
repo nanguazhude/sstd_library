@@ -18,4 +18,3 @@ main()
     ordering_test();
     return boost::report_errors();
 }
-

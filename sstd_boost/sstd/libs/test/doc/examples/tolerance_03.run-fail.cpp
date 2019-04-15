@@ -30,4 +30,3 @@ BOOST_AUTO_TEST_CASE(failing, * utf::tolerance(0.0001))
   BOOST_TEST(d < .0);     // not sufficiently negative
 }
 //]
-

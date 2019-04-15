@@ -15,6 +15,3 @@ extern "C" long double BOOST_MATH_TR1_DECL boost_assoc_legendrel BOOST_PREVENT_M
 {
    return (m&1 ? -1 : 1) * c_policies::legendre_p BOOST_PREVENT_MACRO_SUBSTITUTION(l, m, x);
 }
-
-
-

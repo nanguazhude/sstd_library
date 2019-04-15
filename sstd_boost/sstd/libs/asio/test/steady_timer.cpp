@@ -28,4 +28,3 @@ BOOST_ASIO_TEST_SUITE
   "steady_timer",
   BOOST_ASIO_TEST_CASE(null_test)
 )
-

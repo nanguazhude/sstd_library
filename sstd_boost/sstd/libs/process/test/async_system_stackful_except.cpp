@@ -49,6 +49,3 @@ BOOST_AUTO_TEST_CASE(stackful_except, *boost::unit_test::timeout(15))
 
     BOOST_CHECK(did_something_else);
 }
-
-
-

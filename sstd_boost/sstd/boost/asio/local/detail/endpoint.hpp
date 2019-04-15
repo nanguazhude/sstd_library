@@ -133,4 +133,3 @@ private:
 #endif // defined(BOOST_ASIO_HAS_LOCAL_SOCKETS)
 
 #endif // BOOST_ASIO_LOCAL_DETAIL_ENDPOINT_HPP
-

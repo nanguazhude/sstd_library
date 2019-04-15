@@ -838,4 +838,3 @@ int puff(unsigned char *dest,           /* pointer to destination pointer */
     }
     return err;
 }
-

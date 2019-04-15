@@ -29,5 +29,3 @@ int main()
    test<boost::multiprecision::mpf_float>();
    return boost::report_errors();
 }
-
-

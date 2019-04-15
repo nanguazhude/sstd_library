@@ -133,4 +133,3 @@ struct algorithm_with_properties : public algorithm_with_properties_base {
 #endif
 
 #endif // BOOST_FIBERS_ALGO_ALGORITHM_H
-

@@ -30,4 +30,3 @@
 #include <sstd/boost/spirit/home/classic/attribute.hpp>
 
 #endif
-

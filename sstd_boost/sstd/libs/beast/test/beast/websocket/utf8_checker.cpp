@@ -595,4 +595,3 @@ BEAST_DEFINE_TESTSUITE(beast,websocket,utf8_checker);
 } // websocket
 } // beast
 } // boost
-

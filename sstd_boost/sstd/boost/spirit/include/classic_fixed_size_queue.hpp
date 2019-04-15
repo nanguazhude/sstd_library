@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_FIXED_SIZE_QUEUE
 #include <sstd/boost/spirit/home/classic/iterator/fixed_size_queue.hpp>
 #endif
-

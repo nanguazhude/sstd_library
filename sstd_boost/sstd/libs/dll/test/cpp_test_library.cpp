@@ -136,4 +136,3 @@ some_class::~some_class()
 
 
 #endif
-

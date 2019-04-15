@@ -147,5 +147,3 @@ namespace detail { namespace variant {
 } // namespace boost
 
 #endif // BOOST_VARIANT_DETAIL_MULTIVISITORS_CPP14_BASED_HPP
-
-

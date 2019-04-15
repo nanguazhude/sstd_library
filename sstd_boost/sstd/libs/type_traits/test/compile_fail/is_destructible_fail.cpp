@@ -11,6 +11,3 @@ int main()
 {
    return boost::is_destructible<incomplete_type>::value;
 }
-
-
-

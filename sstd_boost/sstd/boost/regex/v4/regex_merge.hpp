@@ -89,6 +89,3 @@ inline std::basic_string<charT> regex_merge(const std::basic_string<charT>& s,
 } // namespace boost
 
 #endif  // BOOST_REGEX_V4_REGEX_MERGE_HPP
-
-
-

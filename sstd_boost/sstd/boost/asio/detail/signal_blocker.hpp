@@ -44,4 +44,3 @@ typedef posix_signal_blocker signal_blocker;
 } // namespace boost
 
 #endif // BOOST_ASIO_DETAIL_SIGNAL_BLOCKER_HPP
-

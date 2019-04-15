@@ -344,4 +344,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE( copy_algorithm_with_range_factory , Stepper , dum
 
 
 BOOST_AUTO_TEST_SUITE_END()
-

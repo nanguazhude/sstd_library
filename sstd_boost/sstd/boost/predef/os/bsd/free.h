@@ -65,4 +65,3 @@ http://www.boost.org/LICENSE_1_0.txt)
 
 #include <sstd/boost/predef/detail/test.h>
 BOOST_PREDEF_DECLARE_TEST(BOOST_OS_BSD_FREE,BOOST_OS_BSD_FREE_NAME)
-

@@ -19,4 +19,3 @@ BOOST_AUTO_TEST_CASE( generator_construct)
 {
     QSvgGenerator generator;
 }
-

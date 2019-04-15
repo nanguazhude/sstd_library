@@ -51,4 +51,3 @@ int main() {
     constexpr auto result = foldl(f{}, state{}, xs);
     (void)result;
 }
-

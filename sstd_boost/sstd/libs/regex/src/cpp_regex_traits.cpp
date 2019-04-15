@@ -114,5 +114,3 @@ void cpp_regex_traits_char_layer<char>::init()
 } // BOOST_REGEX_DETAIL_NS
 } // boost
 #endif
-
-

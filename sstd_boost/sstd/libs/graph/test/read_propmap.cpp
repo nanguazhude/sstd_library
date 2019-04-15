@@ -29,4 +29,3 @@ int main()
     BOOST_CONCEPT_ASSERT((ReadablePropertyMapConcept<cWeightMap, Edge> ));
     return 0;
 }
-

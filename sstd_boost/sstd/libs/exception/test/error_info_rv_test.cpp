@@ -20,4 +20,3 @@ add_info( E const & e, I i )
     }
 #include "error_info_test.hpp"
 #endif
-

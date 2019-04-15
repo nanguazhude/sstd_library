@@ -56,4 +56,3 @@ traverse_test_tree( test_unit const& tu, test_tree_visitor& V, bool ignore_statu
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_TREE_TRAVERSE_HPP_100211GER
-

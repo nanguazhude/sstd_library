@@ -344,5 +344,3 @@ int main(int, char* [])
     test_value_name();
     return 0;
 }
-
-

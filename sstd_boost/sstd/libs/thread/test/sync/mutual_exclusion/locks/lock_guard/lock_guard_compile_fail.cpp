@@ -20,4 +20,3 @@ void fail()
   boost::lock_guard<boost::mutex> lk0(m);
   boost::lock_guard<boost::mutex> lk1(m);
 }
-

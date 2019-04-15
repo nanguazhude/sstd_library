@@ -93,4 +93,3 @@ void swap(backup_holder<T>& lhs, backup_holder<T>& rhs) BOOST_NOEXCEPT
 } // namespace boost
 
 #endif // BOOST_VARIANT_DETAIL_BACKUP_HOLDER_HPP
-

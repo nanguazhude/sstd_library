@@ -47,4 +47,3 @@ public:
 #endif // !defined(BOOST_ASIO_WINDOWS) && !defined(__CYGWIN__)
 
 #endif // BOOST_ASIO_DETAIL_SIGNAL_INIT_HPP
-

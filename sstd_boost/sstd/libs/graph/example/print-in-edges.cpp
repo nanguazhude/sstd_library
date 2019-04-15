@@ -108,4 +108,3 @@ main()
   assert(num_edges(g) == 19);
   return 0;
 }
-

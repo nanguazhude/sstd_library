@@ -57,5 +57,3 @@ int main()
     explore_limits();
     return 0;
 }
-
-

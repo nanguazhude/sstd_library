@@ -23,4 +23,3 @@
 // Users can include stream.hpp themselves (if they want to)
 
 #endif // BOOST_GEOMETRY_IO_WKT_WKT_HPP
-

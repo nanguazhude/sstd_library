@@ -59,4 +59,3 @@ object raw_function(F f, std::size_t min_args = 0)
 }} // namespace boost::python
 
 #endif // RAW_FUNCTION_DWA200336_HPP
-

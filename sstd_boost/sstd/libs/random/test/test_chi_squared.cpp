@@ -22,4 +22,3 @@
 #define BOOST_RANDOM_ARG1_DISTRIBUTION(n) boost::uniform_real<>(0.00001, n)
 
 #include "test_real_distribution.ipp"
-

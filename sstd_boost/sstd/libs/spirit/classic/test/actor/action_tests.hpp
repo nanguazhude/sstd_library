@@ -31,4 +31,3 @@ void swap_action_test();
 #define BOOST_MESSAGE(m) std::cout << m << std::endl
 
 #endif
-

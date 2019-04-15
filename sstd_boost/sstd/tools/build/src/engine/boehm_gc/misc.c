@@ -1175,4 +1175,3 @@ void GC_dump()
 }
 
 #endif /* NO_DEBUGGING */
-

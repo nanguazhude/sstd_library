@@ -143,4 +143,3 @@ using iterators::make_indirect_iterator;
 #include <sstd/boost/iterator/detail/config_undef.hpp>
 
 #endif // BOOST_INDIRECT_ITERATOR_23022003THW_HPP
-

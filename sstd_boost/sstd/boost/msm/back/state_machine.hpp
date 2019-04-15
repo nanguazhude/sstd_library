@@ -2839,5 +2839,3 @@ private:
 
 } } }// boost::msm::back
 #endif //BOOST_MSM_BACK_STATEMACHINE_H
-
-

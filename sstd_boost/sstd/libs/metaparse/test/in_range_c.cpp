@@ -33,5 +33,3 @@ BOOST_METAPARSE_TEST_CASE(util_in_range_c)
   BOOST_MPL_ASSERT((not_<apply_wrap1<in_range_c<int, 10, 13>, int14> >));
 
 }
-
-

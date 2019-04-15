@@ -1,4 +1,4 @@
-/*
+﻿/*
 * UUID type
 * (C) 2015,2018 Jack Lloyd
 *

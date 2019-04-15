@@ -46,4 +46,3 @@ public:
 #endif
 
 #endif // BOOST_FIBERS_BARRIER_H
-

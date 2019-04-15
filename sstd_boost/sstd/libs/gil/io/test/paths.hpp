@@ -47,4 +47,3 @@ static const std::string targa_filename( targa_in    + "24BPP_compressed.tga"   
 static const std::string tiff_filename ( tiff_in     + "test.tif"               );
 
 #endif // BOOST_GIL_IO_TEST_PATHS_HPP
-

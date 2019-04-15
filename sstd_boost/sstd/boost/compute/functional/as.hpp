@@ -49,4 +49,3 @@ struct as
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_FUNCTIONAL_AS_HPP
-

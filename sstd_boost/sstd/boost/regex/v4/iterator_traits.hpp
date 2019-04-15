@@ -132,5 +132,3 @@ struct regex_iterator_traits : public std::iterator_traits<T> {};
 #endif
 
 #endif
-
-

@@ -22,5 +22,3 @@ int main () {
         vr (i) = i;
     std::cout << vr << std::endl;
 }
-
-

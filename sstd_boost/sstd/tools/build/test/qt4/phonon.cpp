@@ -21,4 +21,3 @@ BOOST_AUTO_TEST_CASE( phonon_object)
 {
     Phonon::MediaObject player;
 }
-

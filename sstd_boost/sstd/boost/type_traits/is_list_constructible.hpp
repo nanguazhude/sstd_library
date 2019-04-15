@@ -46,4 +46,3 @@ template<class T, class... A> struct is_list_constructible: decltype( type_trait
 } // namespace boost
 
 #endif // #ifndef BOOST_TYPE_TRAITS_IS_LIST_CONSTRUCTIBLE_HPP_INCLUDED
-

@@ -513,4 +513,3 @@ struct less_impl<S, experimental::view_tag, hana::when<hana::Sequence<S>::value>
 BOOST_HANA_NAMESPACE_END
 
 #endif // !BOOST_HANA_EXPERIMENTAL_VIEW_HPP
-

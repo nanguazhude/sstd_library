@@ -16,4 +16,3 @@
 #include <sstd/boost/geometry/index/detail/rtree/rstar/redistribute_elements.hpp>
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_RTREE_RSTAR_RSTAR_HPP
-

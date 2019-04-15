@@ -109,4 +109,3 @@ int main()
     std::printf("Exception: %s\n", e.what());
   }
 }
-

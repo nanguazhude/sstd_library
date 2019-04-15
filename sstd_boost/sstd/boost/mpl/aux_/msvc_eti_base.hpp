@@ -75,4 +75,3 @@ template<> struct msvc_eti_base<int>
 }}}
 
 #endif // BOOST_MPL_AUX_MSVC_ETI_BASE_HPP_INCLUDED
-

@@ -63,5 +63,3 @@ BOOST_LOCAL_FUNCTION_AUX_PP_DECL_TRAITS_SIGN_VALIDATE_THIS_TYPED_EAT_(elem) \
             BOOST_PP_EMPTY, sign)
 
 #endif // #include guard
-
-

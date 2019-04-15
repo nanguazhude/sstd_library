@@ -6,4 +6,3 @@
 #include <auto/intersperse.hpp>
 
 int main() { }
-

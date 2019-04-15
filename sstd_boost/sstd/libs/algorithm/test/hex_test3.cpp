@@ -122,4 +122,3 @@ BOOST_AUTO_TEST_CASE( test_main )
   test_from_hex_success ( fromhex );
   test_from_hex_success ( fromhex_w );
 }
-

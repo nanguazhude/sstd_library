@@ -58,4 +58,3 @@ CONCAT(1, CONCAT(2, 3))
 //H 00: t_1_003.cpp(31): CONCAT(1, CONCAT(2, 3)), [t_1_003.cpp(13): CONCAT(a, b)=a ## b]
 //H 02: 1CONCAT(2, 3)
 //H 03: 1CONCAT(2, 3)
-

@@ -135,4 +135,3 @@ inline void posix_recursive_mutex::unlock()
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTERPROCESS_DETAIL_POSIX_RECURSIVE_MUTEX_HPP
-

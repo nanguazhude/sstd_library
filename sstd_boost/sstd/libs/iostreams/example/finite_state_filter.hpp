@@ -363,4 +363,3 @@ private:
 } }       // End namespaces iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_FINITE_STATE_FILTER_HPP_INCLUDED
-

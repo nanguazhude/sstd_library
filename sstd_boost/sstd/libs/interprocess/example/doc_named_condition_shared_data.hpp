@@ -33,4 +33,3 @@
       //Is there any message
       bool message_in;
    };
-

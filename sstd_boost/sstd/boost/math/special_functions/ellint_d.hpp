@@ -178,5 +178,3 @@ inline typename tools::promote_args<T1, T2>::type ellint_d(T1 k, T2 phi, const P
 }} // namespaces
 
 #endif // BOOST_MATH_ELLINT_D_HPP
-
-

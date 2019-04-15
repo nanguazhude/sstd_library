@@ -116,4 +116,3 @@ template<> struct distance_impl<aux::sel_iter_tag>
 }}
 
 #endif // BOOST_MPL_AUX_SINGLE_ELEMENT_ITER_HPP_INCLUDED
-

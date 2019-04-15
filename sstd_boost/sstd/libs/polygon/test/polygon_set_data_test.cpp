@@ -112,4 +112,3 @@ int main()
     polygon_set_data_test3();
     return boost::report_errors();
 }
-

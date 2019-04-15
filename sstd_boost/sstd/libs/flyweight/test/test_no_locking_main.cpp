@@ -16,4 +16,3 @@ int main()
   test_no_locking();
   return boost::report_errors();
 }
-

@@ -106,4 +106,3 @@ struct int_holder_key_of_value
 }  //namespace intrusive{
 
 #endif   //BOOST_INTRUSIVE_DETAIL_INT_HOLDER_HPP
-

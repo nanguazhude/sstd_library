@@ -20,5 +20,3 @@ BOOST_METAPARSE_TEST_CASE(string_tag)
   // test_metaprogramming_value
   BOOST_MPL_ASSERT((is_same<string_tag, string_tag::type>));
 }
-
-

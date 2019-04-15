@@ -10,4 +10,3 @@ int main()
 {
    return re2::RE2::FullMatch("a", "a") ? 0 : 1;
 }
-

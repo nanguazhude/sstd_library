@@ -71,5 +71,3 @@ int main()
    t3();
    return 0;
 }
-
-

@@ -91,4 +91,3 @@ int main(int argc, const char ** argv) {
     printf("spreadsort elapsed time %f\n", total / CLOCKS_PER_SEC);
   return 0;
 }
-

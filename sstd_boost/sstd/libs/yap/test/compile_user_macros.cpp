@@ -56,4 +56,3 @@ void compile_user_macros()
     auto expr = negation1 = 2;
     (void)expr;
 }
-

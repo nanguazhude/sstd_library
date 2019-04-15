@@ -177,4 +177,3 @@ BOOST_AUTO_TEST_CASE( iterators_test )
 }
 
 // EOF
-

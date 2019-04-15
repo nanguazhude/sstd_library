@@ -39,4 +39,3 @@ class interval;
 } // namespace boost
 
 #endif // BOOST_NUMERIC_INTERVAL_DETAIL_INTERVAL_PROTOTYPE_HPP
-

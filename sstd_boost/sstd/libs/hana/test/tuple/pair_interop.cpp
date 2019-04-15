@@ -73,4 +73,3 @@ int main() {
         hana::second(p);
     }
 }
-

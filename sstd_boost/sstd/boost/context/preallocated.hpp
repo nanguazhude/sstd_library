@@ -37,4 +37,3 @@ struct preallocated {
 #endif
 
 #endif // BOOST_CONTEXT_PREALLOCATED_H
-

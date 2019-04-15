@@ -141,4 +141,3 @@ private:
 } // namespace socks4
 
 #endif // SOCKS4_HPP
-

@@ -8,4 +8,3 @@
 #if defined(__GNUC__)
 #pragma GCC diagnostic ignored "-Wfloat-equal"
 #endif
-

@@ -39,4 +39,3 @@ struct is_unit< unit<Dim,System> > :
 } // namespace boost
 
 #endif // BOOST_UNITS_IS_UNIT_HPP
-

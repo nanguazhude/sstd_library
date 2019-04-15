@@ -293,6 +293,3 @@ int main()
 #endif  // BOOST_THREAD_PLATFORM_PTHREAD
     return boost::report_errors();
 }
-
-
-

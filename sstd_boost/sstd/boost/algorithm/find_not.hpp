@@ -37,4 +37,3 @@ typename boost::range_iterator<Range>::type find_not(Range & r, const T & x)
 }} // namespace boost and algorithm
 
 #endif // BOOST_ALGORITHM_FIND_NOT_HPP
-

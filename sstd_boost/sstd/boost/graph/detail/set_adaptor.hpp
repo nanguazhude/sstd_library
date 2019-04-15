@@ -121,4 +121,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_SET_ADAPTOR_HPP
-

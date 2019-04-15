@@ -25,4 +25,3 @@ inline void print_elements (const T& coll, const char* optcstr="")
     }
     std::cout << std::endl;
 }
-

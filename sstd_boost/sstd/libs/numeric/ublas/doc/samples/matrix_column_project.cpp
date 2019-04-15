@@ -23,5 +23,3 @@ int main () {
         std::cout << column (m, j) << std::endl;
     }
 }
-
-

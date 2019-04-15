@@ -160,5 +160,3 @@ typedef boost::multiprecision::float128 test_type_1;
  CPP_BIN_FLOAT_TESTS
 
 #endif
-
-

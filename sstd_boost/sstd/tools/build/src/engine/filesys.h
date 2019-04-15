@@ -108,4 +108,3 @@ void file_query_posix_( file_info_t * const );
 void file_done();
 
 #endif
-

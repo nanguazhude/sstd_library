@@ -210,4 +210,3 @@ struct is_pod<uuids::uuid> : true_type {};
 #endif
 
 #endif // BOOST_UUID_HPP
-

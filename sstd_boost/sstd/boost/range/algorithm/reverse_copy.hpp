@@ -38,4 +38,3 @@ inline OutputIterator reverse_copy(const BidirectionalRange& rng, OutputIterator
 } // namespace boost
 
 #endif // include guard
-

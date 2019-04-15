@@ -252,4 +252,3 @@ FUSION_HASH endif
 
 #undef FUSION_HASH
 #endif
-

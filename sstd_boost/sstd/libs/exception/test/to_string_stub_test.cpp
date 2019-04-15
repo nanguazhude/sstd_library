@@ -96,4 +96,3 @@ main()
     BOOST_TEST( !to_string_stub(to_string_tester()).empty() );
     return boost::report_errors();
     }
-

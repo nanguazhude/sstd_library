@@ -16,4 +16,3 @@
 #include <sstd/boost/compute/interop/qt/qvector.hpp>
 
 #endif // BOOST_COMPUTE_INTEROP_QT_QTCORE_HPP
-

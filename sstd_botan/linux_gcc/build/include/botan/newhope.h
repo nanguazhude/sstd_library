@@ -1,4 +1,4 @@
-/*
+﻿/*
 * NEWHOPE Ring-LWE scheme
 * Based on the public domain reference implementation by the
 * designers (https://github.com/tpoeppelmann/newhope)

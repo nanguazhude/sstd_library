@@ -163,5 +163,3 @@ struct apply5< int,int,int,int,int,int >
 };
 
 }}
-
-

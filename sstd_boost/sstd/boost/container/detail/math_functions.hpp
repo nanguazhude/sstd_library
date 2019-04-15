@@ -175,4 +175,3 @@ struct lcm_ct
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif
-

@@ -217,4 +217,3 @@ inline de9im::matrix relation(Geometry1 const& geometry1,
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_RELATE_INTERFACE_HPP
-

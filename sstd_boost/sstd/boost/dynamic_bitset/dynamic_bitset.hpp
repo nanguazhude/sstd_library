@@ -2110,5 +2110,3 @@ bool dynamic_bitset<Block, Allocator>::m_check_invariants() const
 #undef BOOST_BITSET_CHAR
 
 #endif // include guard
-
-

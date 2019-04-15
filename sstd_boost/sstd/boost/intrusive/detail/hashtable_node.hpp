@@ -284,4 +284,3 @@ class hashtable_iterator
 }  //namespace boost {
 
 #endif
-

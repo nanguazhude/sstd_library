@@ -43,5 +43,3 @@ using exp_parser23 = build_parser<plus_exp6>;
 //    exp_parser23::apply<BOOST_METAPARSE_STRING("1+(2*3")>::type
 
 #endif
-
-

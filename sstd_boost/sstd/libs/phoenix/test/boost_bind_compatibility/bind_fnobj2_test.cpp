@@ -77,4 +77,3 @@ int main()
     function_object_test();
     return boost::report_errors();
 }
-

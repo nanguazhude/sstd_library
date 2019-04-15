@@ -15,4 +15,3 @@
 #include <sstd/boost/compute/interop/opencv/highgui.hpp>
 
 #endif // BOOST_COMPUTE_INTEROP_OPENCV_HPP
-

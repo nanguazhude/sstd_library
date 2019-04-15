@@ -43,4 +43,3 @@ static_assert(3_rd(1, '2', 3.3, 444) == 3.3, "");
 static_assert(4_th(1, '2', 3.3, 444) == 444, "");
 
 int main() { }
-

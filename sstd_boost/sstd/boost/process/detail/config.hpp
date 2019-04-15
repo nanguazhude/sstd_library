@@ -113,4 +113,3 @@ template<> constexpr wchar_t  space_sign<wchar_t> () {return L' '; }
 
 }}}
 #endif
-

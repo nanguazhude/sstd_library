@@ -434,4 +434,3 @@ std::cout << "traverse" << std::endl;
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_OVERLAY_HPP
-

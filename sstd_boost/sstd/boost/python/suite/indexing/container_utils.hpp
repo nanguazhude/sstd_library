@@ -55,4 +55,3 @@ namespace boost { namespace python { namespace container_utils {
 }}} // namespace boost::python::container_utils
 
 #endif
-

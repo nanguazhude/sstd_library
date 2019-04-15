@@ -1,4 +1,4 @@
-/*
+﻿/*
 * TLS Extensions
 * (C) 2011,2012,2016,2018 Jack Lloyd
 * (C) 2016 Juraj Somorovsky

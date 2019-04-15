@@ -66,4 +66,3 @@ BOOST_AUTO_TEST_CASE( fixture_setup_teardown_detect_both_from_child )
     setup_conditional(obj);
     teardown_conditional(obj);
 }
-

@@ -816,4 +816,3 @@ struct associated_executor<detail::move_binder2<Handler, Arg1, Arg2>, Executor>
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_BIND_HANDLER_HPP
-

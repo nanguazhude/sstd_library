@@ -247,4 +247,3 @@ struct check_this
 #define BOOST_HOF_AUTO_FORWARD(...) BOOST_HOF_RETURNS_STATIC_CAST(decltype(__VA_ARGS__))(__VA_ARGS__)
 
 #endif
-

@@ -83,5 +83,3 @@ namespace example
     : detail::result_of_impl< typename ft::result_type<Desc>::type, Desc >
   { };
 }
-
-

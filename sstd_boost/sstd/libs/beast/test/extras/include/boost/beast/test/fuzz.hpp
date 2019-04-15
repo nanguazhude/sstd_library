@@ -103,4 +103,3 @@ fuzz(
 } // boost
 
 #endif
-

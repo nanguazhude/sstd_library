@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_DIFFERENCE
 #include <sstd/boost/spirit/home/classic/core/composite/difference.hpp>
 #endif
-

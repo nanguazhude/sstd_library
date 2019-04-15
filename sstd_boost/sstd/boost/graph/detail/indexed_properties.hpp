@@ -282,4 +282,3 @@ class indexed_edge_properties<Derived, void, Descriptor, IndexMap>
 }
 
 #endif // BOOST_GRAPH_INDEXED_PROPERTIES_HPP
-

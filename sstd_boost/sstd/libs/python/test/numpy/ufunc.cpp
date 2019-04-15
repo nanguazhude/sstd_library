@@ -34,4 +34,3 @@ BOOST_PYTHON_MODULE(ufunc_ext)
   p::class_< BinaryCallable>("BinaryCallable")
     .def("__call__", np::binary_ufunc<BinaryCallable>::make());
 }
-

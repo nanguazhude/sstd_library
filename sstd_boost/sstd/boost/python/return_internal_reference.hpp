@@ -41,4 +41,3 @@ struct return_internal_reference
 }} // namespace boost::python
 
 #endif // RETURN_INTERNAL_REFERENCE_DWA2002131_HPP
-

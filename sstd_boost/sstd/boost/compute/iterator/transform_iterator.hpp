@@ -225,4 +225,3 @@ struct is_device_iterator<
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ITERATOR_TRANSFORM_ITERATOR_HPP
-

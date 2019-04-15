@@ -179,4 +179,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(repeat_while, decorate_adaptor<
 }} // namespace boost::hof
 
 #endif
-

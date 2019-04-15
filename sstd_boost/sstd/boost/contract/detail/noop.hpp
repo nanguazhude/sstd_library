@@ -16,5 +16,3 @@
     (true || (cond) ? BOOST_CONTRACT_DETAIL_NOOP : BOOST_CONTRACT_DETAIL_NOOP)
 
 #endif // #include guard
-
-

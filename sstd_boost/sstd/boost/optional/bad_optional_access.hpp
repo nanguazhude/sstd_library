@@ -30,4 +30,3 @@ public:
 } // namespace boost
 
 #endif
-

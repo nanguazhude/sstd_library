@@ -33,5 +33,3 @@ test<std::uint16_t, std::uint8_t, std::uint8_t> t1;
 int main(){
     return 0;
 }
-
-

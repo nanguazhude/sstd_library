@@ -28,4 +28,3 @@ BOOST_UNITS_STATIC_CONSTANT(si_dimensionless,dimensionless);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_DIMENSIONLESS_HPP
-

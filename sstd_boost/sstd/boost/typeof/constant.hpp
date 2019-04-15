@@ -24,4 +24,3 @@ struct constant {
 } /* boost */
 
 #endif
-

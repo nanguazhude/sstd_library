@@ -528,4 +528,3 @@ namespace quickbook
                 template_tags::snippet)));
     }
 }
-

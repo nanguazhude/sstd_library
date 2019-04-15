@@ -105,4 +105,3 @@ struct extra_fp_operations< Base, Value, Size, false > :
 } // namespace boost
 
 #endif // BOOST_ATOMIC_DETAIL_EXTRA_FP_OPS_EMULATED_HPP_INCLUDED_
-

@@ -34,4 +34,3 @@ int main()
   machine.clear_shallow_history< A, 0 >();
   return 0;
 }
-

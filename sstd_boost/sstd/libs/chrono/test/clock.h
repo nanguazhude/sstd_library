@@ -28,4 +28,3 @@ class Clock
 };
 
 #endif  // CLOCK_H
-

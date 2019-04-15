@@ -95,4 +95,3 @@ struct no_duplicate_tags_in_index_list
 } /* namespace boost */
 
 #endif
-

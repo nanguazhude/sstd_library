@@ -34,4 +34,3 @@ typedef boost::core::typeinfo sp_typeinfo;
 #define BOOST_SP_TYPEID(T) BOOST_CORE_TYPEID(T)
 
 #endif  // #ifndef BOOST_DETAIL_SP_TYPEINFO_HPP_INCLUDED
-

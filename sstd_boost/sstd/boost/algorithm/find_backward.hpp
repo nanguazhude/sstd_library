@@ -95,4 +95,3 @@ typename boost::range_iterator<Range>::type find_if_not_backward(Range & range, 
 }} // namespace boost and algorithm
 
 #endif // BOOST_ALGORITHM_FIND_BACKWARD_HPP
-

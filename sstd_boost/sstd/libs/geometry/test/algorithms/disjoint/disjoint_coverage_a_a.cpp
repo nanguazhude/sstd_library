@@ -385,4 +385,3 @@ BOOST_AUTO_TEST_CASE( test_areal_areal_all )
     test_areal_areal<ttmath_big>();
 #endif
 }
-

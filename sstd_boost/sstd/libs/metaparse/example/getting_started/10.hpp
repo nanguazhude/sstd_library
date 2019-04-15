@@ -39,5 +39,3 @@ using exp_parser18 =
 //    exp_parser18::apply<BOOST_METAPARSE_STRING("13")>::type
 
 #endif
-
-

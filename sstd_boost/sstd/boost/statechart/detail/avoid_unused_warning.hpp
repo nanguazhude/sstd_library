@@ -29,4 +29,3 @@ inline void avoid_unused_warning( const T & ) {}
 
 
 #endif
-

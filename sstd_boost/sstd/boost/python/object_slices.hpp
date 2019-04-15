@@ -144,4 +144,3 @@ inline void slice_policies::del(
 }}} // namespace boost::python::api
 
 #endif // OBJECT_SLICES_DWA2002615_HPP
-

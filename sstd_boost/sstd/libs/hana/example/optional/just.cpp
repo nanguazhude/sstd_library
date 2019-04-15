@@ -11,4 +11,3 @@ constexpr auto just_x = hana::just('x');
 BOOST_HANA_CONSTANT_CHECK(hana::is_just(just_x));
 
 int main() { }
-

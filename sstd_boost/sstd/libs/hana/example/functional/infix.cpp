@@ -18,4 +18,3 @@ BOOST_HANA_CONSTEXPR_LAMBDA auto divmod = hana::infix([](auto x, auto y) {
 int main() {
     BOOST_HANA_CONSTEXPR_CHECK((42 ^divmod^ 23) == hana::make_pair(1, 19));
 }
-

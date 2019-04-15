@@ -11,4 +11,3 @@
 #include <sstd/boost/yap/expression.hpp>
 
 #endif
-

@@ -103,4 +103,3 @@ public:
 #include <sstd/boost/archive/detail/abi_suffix.hpp> // pops abi_suffix.hpp pragmas
 
 #endif //BOOST_ARCHIVE_DETAIL_BASIC_IARCHIVE_HPP
-

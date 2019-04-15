@@ -116,4 +116,3 @@ struct geometry_concept< interval_data<CType> > {
 }  // boost
 
 #endif  // BOOST_POLYGON_INTERVAL_DATA_HPP
-

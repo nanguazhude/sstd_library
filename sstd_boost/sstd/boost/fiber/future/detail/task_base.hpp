@@ -39,4 +39,3 @@ struct task_base : public shared_state< R > {
 #endif
 
 #endif // BOOST_FIBERS_DETAIL_TASK_BASE_H
-

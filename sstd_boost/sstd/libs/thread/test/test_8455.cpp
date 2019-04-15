@@ -21,4 +21,3 @@ int main()
     boostMutexImp2();
     return 0;
 }
-

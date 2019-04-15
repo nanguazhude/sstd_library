@@ -174,5 +174,3 @@ int cpp_main(int , char* [])
    test_captures("^(\\w+)\\W+(?>(\\w+)\\W+(?:(\\w+)\\W+){0,2})*(\\w+)$", "now is the time for all good men to come to the aid of the party", e8);
    return 0;
 }
-
-

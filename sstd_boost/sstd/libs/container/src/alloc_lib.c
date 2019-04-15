@@ -25,4 +25,3 @@
 #else
    #error "Unsupported boost_cont_VERSION version"
 #endif
-

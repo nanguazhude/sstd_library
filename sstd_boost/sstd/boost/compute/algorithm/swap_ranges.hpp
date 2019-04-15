@@ -50,4 +50,3 @@ inline Iterator2 swap_ranges(Iterator1 first1,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_SWAP_RANGES_HPP
-

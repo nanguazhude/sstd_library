@@ -103,4 +103,3 @@ error_policies_example.cpp
   quantile(my_normal2(), 0.); = -1.#INF
 
 */
-

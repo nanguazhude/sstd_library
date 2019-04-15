@@ -34,5 +34,3 @@ inline void test_cv()
 }
 
 #endif // #ifndef FILE_boost_libs_type_traits_test_promote_util_hpp_INCLUDED
-
-

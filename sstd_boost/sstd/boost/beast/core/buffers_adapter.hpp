@@ -186,4 +186,3 @@ public:
 #include <sstd/boost/beast/core/impl/buffers_adapter.ipp>
 
 #endif
-

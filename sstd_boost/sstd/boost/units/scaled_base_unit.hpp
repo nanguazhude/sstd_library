@@ -142,4 +142,3 @@ struct less_impl<boost::units::scaled_base_unit_tag, boost::units::scaled_base_u
 } // namespace boost
 
 #endif
-

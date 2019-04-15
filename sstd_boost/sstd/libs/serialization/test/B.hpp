@@ -113,4 +113,3 @@ inline bool B::operator==(const B &rhs) const
 }
 
 #endif // BOOST_SERIALIZATION_TEST_B_HPP
-

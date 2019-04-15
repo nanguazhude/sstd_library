@@ -16,5 +16,3 @@
 #include <sstd/boost/test/impl/cpp_main.ipp>
 
 // EOF
-
-

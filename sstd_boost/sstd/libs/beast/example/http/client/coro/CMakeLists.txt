@@ -17,4 +17,3 @@ add_executable (http-client-coro
     )
 
 set_property(TARGET http-client-coro PROPERTY FOLDER "example-http-client")
-

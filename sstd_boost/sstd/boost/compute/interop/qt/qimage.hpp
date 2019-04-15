@@ -67,4 +67,3 @@ inline void qt_copy_image2d_to_qimage(const image2d &image,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_INTEROP_QT_QIMAGE_HPP
-

@@ -43,4 +43,3 @@ static_assert(hana::detail::any_of<is_even, hana::int_<1>, hana::int_<2>, fail<>
 static_assert(hana::detail::any_of<is_even, hana::int_<1>, hana::int_<2>, fail<>, hana::int_<4>>::value, "");
 
 int main() { }
-

@@ -36,4 +36,3 @@ class basic_streambuf_ref;
 #endif // !defined(BOOST_ASIO_NO_IOSTREAM)
 
 #endif // BOOST_ASIO_BASIC_STREAMBUF_FWD_HPP
-

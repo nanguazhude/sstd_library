@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Pipe
 * (C) 1999-2007 Jack Lloyd
 *     2012 Markus Wanner

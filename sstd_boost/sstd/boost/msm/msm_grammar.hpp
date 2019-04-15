@@ -83,5 +83,3 @@ struct euml_terminal
 
 } } // boost::msm
 #endif //BOOST_MSM_GRAMMAR_H
-
-

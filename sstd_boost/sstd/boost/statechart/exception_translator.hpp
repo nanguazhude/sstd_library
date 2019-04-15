@@ -56,4 +56,3 @@ class exception_translator
 
 
 #endif
-

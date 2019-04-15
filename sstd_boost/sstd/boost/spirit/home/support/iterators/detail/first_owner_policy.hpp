@@ -60,4 +60,3 @@ namespace boost { namespace spirit { namespace iterator_policies
 }}}
 
 #endif
-

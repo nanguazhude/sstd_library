@@ -47,4 +47,3 @@ typedef current_base_dimension::dimension_type    current_dimension;
 } // namespace boost
 
 #endif // BOOST_UNITS_CURRENT_BASE_DIMENSION_HPP
-

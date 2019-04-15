@@ -21,4 +21,3 @@ MPL_TEST_CASE()
     MPL_ASSERT(( empty< list0<> > ));
     MPL_ASSERT_NOT(( empty< list1<char> > ));
 }
-

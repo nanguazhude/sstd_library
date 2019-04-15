@@ -61,4 +61,3 @@ struct char_traits  {
 #endif // #ifdef BOOST_IOSTREAMS_NO_STREAM_TEMPLATES //-----------------------//
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_CHAR_TRAITS_HPP_INCLUDED
-

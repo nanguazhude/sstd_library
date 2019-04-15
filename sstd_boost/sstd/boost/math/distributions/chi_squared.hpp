@@ -362,4 +362,3 @@ RealType chi_squared_distribution<RealType, Policy>::find_degrees_of_freedom(
 #include <sstd/boost/math/distributions/detail/derived_accessors.hpp>
 
 #endif // BOOST_MATH_DISTRIBUTIONS_CHI_SQUARED_HPP
-

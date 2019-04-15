@@ -75,4 +75,3 @@ struct iterator_traits<const T*>
 }} //namespace boost {  namespace movelib{
 
 #endif //#ifndef BOOST_MOVE_DETAIL_ITERATOR_TRAITS_HPP
-

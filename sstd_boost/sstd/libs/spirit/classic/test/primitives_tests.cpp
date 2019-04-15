@@ -132,5 +132,3 @@ main()
         std::cout << "Tests concluded successfully\n";
     return boost::report_errors();
 }
-
-

@@ -171,4 +171,3 @@ struct list20_c
 };
 
 }}
-

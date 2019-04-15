@@ -137,11 +137,3 @@ unsigned find_sort_syntax(const traits* pt, charT* delim)
 #endif
 
 #endif
-
-
-
-
-
-
-
-

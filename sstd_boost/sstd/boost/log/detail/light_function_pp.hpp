@@ -422,4 +422,3 @@ public:
         that.m_pImpl = p;
     }
 };
-

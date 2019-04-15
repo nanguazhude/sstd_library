@@ -90,4 +90,3 @@ int main() {
     hana::at_c<0>(tail) = 4;
     BOOST_HANA_RUNTIME_CHECK(j == 4);
 }
-

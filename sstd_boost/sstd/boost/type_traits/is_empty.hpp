@@ -117,5 +117,3 @@ template <class T> struct is_empty : integral_constant<bool, ::boost::detail::is
 #undef BOOST_INTERNAL_IS_EMPTY
 
 #endif // BOOST_TT_IS_EMPTY_HPP_INCLUDED
-
-

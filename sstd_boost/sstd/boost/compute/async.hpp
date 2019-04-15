@@ -19,4 +19,3 @@
 #include <sstd/boost/compute/async/wait_guard.hpp>
 
 #endif // BOOST_COMPUTE_ASYNC_HPP
-

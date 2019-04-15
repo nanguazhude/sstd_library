@@ -26,4 +26,3 @@ typedef derived_dimension<length_base_dimension,3>::type volume_dimension;
 } // namespace boost
 
 #endif // BOOST_UNITS_VOLUME_DERIVED_DIMENSION_HPP
-

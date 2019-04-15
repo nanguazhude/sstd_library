@@ -550,4 +550,3 @@ namespace assign
 #endif
 
 #endif
-

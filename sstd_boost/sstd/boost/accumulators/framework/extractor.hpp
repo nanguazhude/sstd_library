@@ -227,4 +227,3 @@ struct extractor
 }} // namespace boost::accumulators
 
 #endif
-

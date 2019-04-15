@@ -268,4 +268,3 @@ class delete_disposer< BPtr_Value >
 
 
 #endif
-

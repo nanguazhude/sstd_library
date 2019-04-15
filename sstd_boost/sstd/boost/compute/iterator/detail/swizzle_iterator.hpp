@@ -186,4 +186,3 @@ struct is_device_iterator<detail::swizzle_iterator<InputIterator, Size> > : boos
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ITERATOR_SWIZZLE_ITERATOR_HPP
-

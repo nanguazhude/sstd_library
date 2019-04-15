@@ -113,4 +113,3 @@ void disconnect_graph(Graph& g, VertexSet const&, boost::mpl::true_) {
 //@}
 
 #endif
-

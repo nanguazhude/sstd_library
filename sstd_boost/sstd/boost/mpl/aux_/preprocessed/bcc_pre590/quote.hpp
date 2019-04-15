@@ -8,5 +8,3 @@
 
 // *Preprocessed* version of the main "quote.hpp" header
 // -- DO NOT modify by hand!
-
-

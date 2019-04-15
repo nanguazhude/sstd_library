@@ -415,5 +415,3 @@ template struct call_traits_test<const int&>;
 template struct call_traits_test<int[2], true>;
 #endif
 #endif
-
-

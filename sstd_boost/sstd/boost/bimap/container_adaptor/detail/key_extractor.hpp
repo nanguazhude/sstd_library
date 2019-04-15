@@ -41,6 +41,3 @@ struct key_from_pair_extractor
 
 
 #endif // BOOST_BIMAP_CONTAINER_ADAPTOR_DETAIL_KEY_EXTRACTOR_HPP
-
-
-

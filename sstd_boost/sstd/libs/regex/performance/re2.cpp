@@ -69,4 +69,3 @@ std::string re2_regex::name()
 }
 
 #endif
-

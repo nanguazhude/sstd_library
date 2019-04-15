@@ -71,4 +71,3 @@ struct char_traits<wchar_t> : std::char_traits<wchar_t> {
 } } // End namespaces iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_CHAR_TRAITS_HPP_INCLUDED
-

@@ -30,4 +30,3 @@
 #include <sstd/boost/fusion/mpl/size.hpp>
 
 #endif
-

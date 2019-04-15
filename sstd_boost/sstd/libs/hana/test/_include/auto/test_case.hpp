@@ -11,4 +11,3 @@ struct TestCase {
 };
 
 #endif // !BOOST_HANA_TEST_AUTO_TEST_CASE_HPP
-

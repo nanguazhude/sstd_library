@@ -80,5 +80,3 @@ struct rounding_control<long double>:
 #endif /* __hpux */
 
 #endif /* BOOST_NUMERIC_INTERVAL_DETAIL_IA64_ROUNDING_CONTROL_HPP */
-
-

@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/functional/invocation.hpp>
 
 #endif
-

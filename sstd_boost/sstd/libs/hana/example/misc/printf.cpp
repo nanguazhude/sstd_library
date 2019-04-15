@@ -64,4 +64,3 @@ int main() {
         std::printf(hana::to<char const*>(fmt), args...);
     });
 }
-

@@ -133,8 +133,3 @@ BOOST_AUTO_TEST_CASE( test_main )
    TEST_POLICY_SF(sph_neumann(3, 5));
 
 }
-
-
-
-
-

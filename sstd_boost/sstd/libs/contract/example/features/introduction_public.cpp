@@ -86,5 +86,3 @@ int main() {
     assert(vect.size() == 1);
     return 0;
 }
-
-

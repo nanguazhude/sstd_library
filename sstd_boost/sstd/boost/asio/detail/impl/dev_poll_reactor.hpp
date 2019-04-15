@@ -91,4 +91,3 @@ void dev_poll_reactor::move_timer(timer_queue<Time_Traits>& queue,
 #endif // defined(BOOST_ASIO_HAS_DEV_POLL)
 
 #endif // BOOST_ASIO_DETAIL_IMPL_DEV_POLL_REACTOR_HPP
-

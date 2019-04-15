@@ -26,5 +26,3 @@ BOOST_RATIO_STATIC_ASSERT(boost::giga::num == 1000000000ULL && boost::giga::den 
 BOOST_RATIO_STATIC_ASSERT(boost::tera::num == 1000000000000ULL && boost::tera::den == 1, NOTHING, ());
 BOOST_RATIO_STATIC_ASSERT(boost::peta::num == 1000000000000000ULL && boost::peta::den == 1, NOTHING, ());
 BOOST_RATIO_STATIC_ASSERT(boost::exa::num == 1000000000000000000ULL && boost::exa::den == 1, NOTHING, ());
-
-

@@ -46,4 +46,3 @@ BOOST_TYPEOF_REGISTER_TYPE(boost::units::angle::steradian_base_unit)
 //#include <sstd/boost/units/base_units/angle/conversions.hpp>
 
 #endif // BOOST_UNITS_ANGLE_STERADIAN_BASE_UNIT_HPP
-

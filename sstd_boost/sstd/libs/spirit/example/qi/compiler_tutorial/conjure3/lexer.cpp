@@ -15,4 +15,3 @@ typedef std::string::const_iterator base_iterator_type;
 template client::lexer::conjure_tokens<base_iterator_type>::conjure_tokens();
 template bool client::lexer::conjure_tokens<base_iterator_type>::add_(
     std::string const&, int);
-

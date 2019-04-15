@@ -42,4 +42,3 @@ BOOST_PYTHON_MODULE(pickle4_ext)
       .def("get_country", &world::get_country)
       ;
 }
-

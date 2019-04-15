@@ -38,12 +38,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_member_pointer<ccall_proc>::value, true);
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

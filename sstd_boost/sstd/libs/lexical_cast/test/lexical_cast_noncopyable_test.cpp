@@ -51,5 +51,3 @@ void test_noncopyable()
     Noncopyable x;
     BOOST_CHECK(boost::lexical_cast<std::string>(x) == "Noncopyable");
 }
-
-

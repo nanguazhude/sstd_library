@@ -54,4 +54,3 @@ BOOST_AUTO_TEST_CASE(channel_minmax_int32_t)
 {
     test_channel_minmax<std::int32_t>();
 }
-

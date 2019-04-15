@@ -86,4 +86,3 @@ struct is_dimensionless_system<System, typename void_if_dimensionless<System>::t
 }
 
 #endif
-

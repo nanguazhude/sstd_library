@@ -845,4 +845,3 @@ namespace assign
 
 
 #endif
-

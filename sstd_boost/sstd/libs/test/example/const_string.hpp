@@ -177,4 +177,3 @@ operator<<( std::ostream& os, const_string const& str )
 }; // namespace common_layer
 
 #endif // CONST_STRING_HPP
-

@@ -2193,4 +2193,3 @@ inline void swap(varray<V, C1> & x, varray<V, C2> & y)
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_VARRAY_HPP
-

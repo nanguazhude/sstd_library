@@ -174,5 +174,3 @@ namespace boost {
 #include <sstd/boost/format/alt_sstream_impl.hpp>
 
 #endif // include guard
-
-

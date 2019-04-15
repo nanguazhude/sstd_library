@@ -39,4 +39,3 @@ int main(int ac, char* av[])
 }
 
 #include "main.moc"
-

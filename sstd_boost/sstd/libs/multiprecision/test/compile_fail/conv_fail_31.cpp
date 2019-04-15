@@ -12,4 +12,3 @@ int main()
    cpp_int i(3), j;
    j = 3.3 - i;
 }
-

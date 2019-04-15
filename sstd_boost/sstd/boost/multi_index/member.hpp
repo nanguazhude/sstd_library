@@ -260,4 +260,3 @@ struct member_offset:
 } /* namespace boost */
 
 #endif
-

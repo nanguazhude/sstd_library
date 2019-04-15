@@ -958,4 +958,3 @@ inline bool pj_gridinfo_init(std::string const& gridname,
 }}} // namespace boost::geometry::projections
 
 #endif // BOOST_GEOMETRY_SRS_PROJECTIONS_IMPL_PJ_GRIDINFO_HPP
-

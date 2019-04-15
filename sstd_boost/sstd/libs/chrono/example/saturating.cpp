@@ -502,5 +502,3 @@ int main()
     testUser2();
     return 0;
 }
-
-

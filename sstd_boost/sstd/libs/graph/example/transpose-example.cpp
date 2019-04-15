@@ -47,4 +47,3 @@ main()
     assert(edge(target(*ei, G), source(*ei, G), G_T).second == true);
   return 0;
 }
-

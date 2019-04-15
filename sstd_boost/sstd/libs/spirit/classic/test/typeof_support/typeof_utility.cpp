@@ -15,5 +15,3 @@
 // currently not in the master header
 #include <sstd/boost/spirit/include/classic_regex.hpp>
 #include <sstd/boost/spirit/include/classic_grammar_def.hpp>
-
-

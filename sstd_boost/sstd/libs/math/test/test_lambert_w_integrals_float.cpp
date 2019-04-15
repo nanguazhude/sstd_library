@@ -264,5 +264,3 @@ Real x;
     std::cout << ex.what() << std::endl;
   }
 }
-
-

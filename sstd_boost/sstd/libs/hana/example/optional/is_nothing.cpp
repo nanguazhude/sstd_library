@@ -13,4 +13,3 @@ BOOST_HANA_CONSTANT_CHECK(!hana::is_nothing(hana::just('x')));
 BOOST_HANA_CONSTANT_CHECK(!hana::is_nothing(hana::just(hana::nothing)));
 
 int main() { }
-

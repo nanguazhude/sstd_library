@@ -56,4 +56,3 @@ int main()
 
   return boost::exit_success;
 }
-

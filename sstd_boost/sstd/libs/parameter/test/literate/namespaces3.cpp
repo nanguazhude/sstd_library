@@ -22,5 +22,3 @@ namespace lib
 using namespace lib::keywords;
 int y = lib::f(_name = "bob", _index = 2);
 int main() {}
-
-

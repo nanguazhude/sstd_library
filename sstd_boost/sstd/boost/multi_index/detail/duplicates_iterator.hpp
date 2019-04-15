@@ -118,4 +118,3 @@ bool operator!=(
 } /* namespace boost */
 
 #endif
-

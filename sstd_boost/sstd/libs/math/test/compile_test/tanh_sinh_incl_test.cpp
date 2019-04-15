@@ -21,4 +21,3 @@ void compile_and_link_test()
     boost::math::quadrature::tanh_sinh<double> integrator;
     check_result<double>(integrator.integrate(f, a, b));
 }
-

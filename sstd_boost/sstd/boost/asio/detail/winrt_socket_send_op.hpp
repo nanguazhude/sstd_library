@@ -103,4 +103,3 @@ private:
 #endif // defined(BOOST_ASIO_WINDOWS_RUNTIME)
 
 #endif // BOOST_ASIO_DETAIL_WINRT_SOCKET_SEND_OP_HPP
-

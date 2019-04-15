@@ -197,4 +197,3 @@ class udp;
 #endif // !defined(GENERATING_DOCUMENTATION)
 
 #endif // BOOST_ASIO_TS_NETFWD_HPP
-

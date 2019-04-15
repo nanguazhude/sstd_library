@@ -1,4 +1,4 @@
-/*
+﻿/*
 * TLS Data Reader
 * (C) 2010-2011,2014 Jack Lloyd
 *

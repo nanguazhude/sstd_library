@@ -290,4 +290,3 @@ using random::gamma_distribution;
 } // namespace boost
 
 #endif // BOOST_RANDOM_GAMMA_DISTRIBUTION_HPP
-

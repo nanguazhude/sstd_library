@@ -342,4 +342,3 @@ BOOST_AUTO_TEST_CASE(test_cubic_b_spline)
     test_copy_move<double>();
     test_outside_interval<double>();
 }
-

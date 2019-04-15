@@ -182,4 +182,3 @@ int main()
 
     return detect_errors(x.hash == 17610 && sp->hash == 2155);
 }
-

@@ -274,4 +274,3 @@ struct object_manager_traits<slice>
 
 
 #endif // !defined BOOST_PYTHON_SLICE_JDB20040105_HPP
-

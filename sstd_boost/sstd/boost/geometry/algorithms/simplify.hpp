@@ -688,4 +688,3 @@ inline void simplify_insert(Geometry const& geometry, OutputIterator out,
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_SIMPLIFY_HPP
-

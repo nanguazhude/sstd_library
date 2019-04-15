@@ -97,4 +97,3 @@ bool has_nan_coordinate(Point const& point)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_UTIL_HAS_NAN_COORDINATE_HPP
-

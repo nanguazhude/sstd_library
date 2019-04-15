@@ -28,4 +28,3 @@ struct process_error : std::system_error
 
 
 #endif /* BOOST_PROCESS_EXCEPTION_HPP_ */
-

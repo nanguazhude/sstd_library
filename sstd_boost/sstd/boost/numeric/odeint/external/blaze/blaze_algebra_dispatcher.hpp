@@ -53,4 +53,3 @@ struct algebra_dispatcher< blaze::DynamicVector< T , TF > >
 
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_BLAZE_BLAZE_ALGEBRA_DISPATCHER_HPP_INCLUDED
-

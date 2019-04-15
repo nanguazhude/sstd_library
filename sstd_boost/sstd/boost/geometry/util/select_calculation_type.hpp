@@ -82,4 +82,3 @@ struct select_calculation_type_alt
 
 
 #endif // BOOST_GEOMETRY_UTIL_SELECT_CALCULATION_TYPE_HPP
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Safe(r) Integer Handling
 * (C) 2016 Jack Lloyd
 *

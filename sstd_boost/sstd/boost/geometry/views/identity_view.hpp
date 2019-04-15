@@ -59,4 +59,3 @@ private :
 
 
 #endif // BOOST_GEOMETRY_VIEWS_IDENTITY_VIEW_HPP
-

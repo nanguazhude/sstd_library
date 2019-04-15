@@ -35,4 +35,3 @@ namespace quickbook
         init_doc_info();
     }
 }
-

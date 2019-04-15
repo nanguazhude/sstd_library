@@ -105,4 +105,3 @@ unique( const ForwardRange& rng, BinaryPredicate pred )
 } // namespace boost
 
 #endif // include guard
-

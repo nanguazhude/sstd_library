@@ -76,4 +76,3 @@ public:
 } // namespace boost
 
 #endif // #ifndef BOOST_SIGNALS2_LWM_PTHREADS_HPP
-

@@ -102,4 +102,3 @@ int test_main(int argc, char **argv)
   passed = mpi::all_reduce(world, passed, std::logical_and<bool>());
   return passed ? 0 : 1;
 }
-

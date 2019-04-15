@@ -34,5 +34,3 @@ int main( int, char *[] )
 {
    return boost_no_cxx14_hdr_shared_mutex::test();
 }
-
-

@@ -84,4 +84,3 @@ struct select {
 } } // End namespaces iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_SELECT_HPP_INCLUDED
-

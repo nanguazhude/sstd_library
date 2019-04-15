@@ -57,4 +57,3 @@ namespace boost {
 } // end namespace boost
 
 #endif // BOOST_SIGNALS2_TRACKABLE_HPP
-

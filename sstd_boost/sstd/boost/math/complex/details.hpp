@@ -93,5 +93,3 @@ inline float safe_min(float t)
 } } } // namespaces
 
 #endif // BOOST_MATH_COMPLEX_DETAILS_INCLUDED
-
-

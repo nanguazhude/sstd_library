@@ -45,5 +45,3 @@ BOOST_METAPARSE_TEST_CASE(concat)
 }
 
 #endif
-
-

@@ -120,4 +120,3 @@ struct result_utility
 
 
 #endif
-

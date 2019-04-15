@@ -22,5 +22,3 @@ int main()
    test<boost::multiprecision::mpfr_float>();
    return boost::report_errors();
 }
-
-

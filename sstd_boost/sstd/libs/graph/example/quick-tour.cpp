@@ -106,4 +106,3 @@ main()
   print_vertex_names(g, name_map);
   print_trans_delays(g, delay_map, name_map);
 }
-

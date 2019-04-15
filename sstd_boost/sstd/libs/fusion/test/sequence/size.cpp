@@ -100,5 +100,3 @@ void test()
     }
 #endif
 }
-
-

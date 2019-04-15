@@ -38,5 +38,3 @@ typedef lex_token<> token_type;
 template struct boost::wave::grammars::expression_grammar_gen<token_type>;
 
 #endif // #if BOOST_WAVE_SEPARATE_GRAMMAR_INSTANTIATION != 0
-
-

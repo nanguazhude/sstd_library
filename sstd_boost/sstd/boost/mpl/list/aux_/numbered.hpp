@@ -66,4 +66,3 @@ struct BOOST_PP_CAT(list,i)
 #undef i
 
 #endif // BOOST_PP_IS_ITERATING
-

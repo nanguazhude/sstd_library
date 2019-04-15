@@ -58,4 +58,3 @@ void test()
     BOOST_RATIO_STATIC_ASSERT(R::num == 9 && R::den == 4, NOTHING, ());
   }
 }
-

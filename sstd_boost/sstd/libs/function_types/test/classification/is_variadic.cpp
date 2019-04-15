@@ -140,5 +140,3 @@ BOOST_MPL_ASSERT_NOT((
 BOOST_MPL_ASSERT((
   ft::is_callable_builtin< mem_ptr, ft::non_variadic >
 ));
-
-

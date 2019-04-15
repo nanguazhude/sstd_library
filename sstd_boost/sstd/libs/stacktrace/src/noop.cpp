@@ -9,4 +9,3 @@
 #define BOOST_STACKTRACE_USE_NOOP
 #include <sstd/boost/stacktrace/detail/frame_noop.ipp>
 #include <sstd/boost/stacktrace/detail/safe_dump_noop.ipp>
-

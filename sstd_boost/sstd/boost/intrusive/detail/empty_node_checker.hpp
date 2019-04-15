@@ -42,4 +42,3 @@ struct empty_node_checker
 }  //namespace boost{
 
 #endif //BOOST_INTRUSIVE_DETAIL_EMPTY_NODE_CHECKER_HPP
-

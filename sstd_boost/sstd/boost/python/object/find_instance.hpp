@@ -19,4 +19,3 @@ BOOST_PYTHON_DECL void* find_instance_impl(PyObject*, type_info, bool null_share
 }}} // namespace boost::python::objects
 
 #endif // FIND_INSTANCE_DWA2002312_HPP
-

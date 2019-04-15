@@ -65,4 +65,3 @@ namespace old
 }
 
 #endif // BOOST_LIBS_CONCEPT_CHECK_OLD_CONCEPTS_DWA2006428_HPP
-

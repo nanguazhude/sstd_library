@@ -32,4 +32,3 @@ BOOST_UNITS_STATIC_CONSTANT(henrys,inductance);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_INDUCTANCE_HPP
-

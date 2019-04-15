@@ -293,6 +293,3 @@ struct type_to_string<icl::interval_map<DomainT,CodomainT,Traits,Compare,Combine
 }} // namespace icl boost
 
 #endif
-
-
-

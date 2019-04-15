@@ -32,4 +32,3 @@
 #include <sstd/boost/mpl/vector/aux_/tag.hpp>
 
 #endif // BOOST_MPL_VECTOR_VECTOR0_HPP_INCLUDED
-

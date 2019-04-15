@@ -53,4 +53,3 @@ MPL_TEST_CASE()
 
     MPL_ASSERT(( equal< result,negatives,equal_to<_1,_2> > ));
 }
-

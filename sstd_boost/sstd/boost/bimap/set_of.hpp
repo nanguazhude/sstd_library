@@ -203,5 +203,3 @@ struct set_of_relation : public ::boost::bimaps::detail::set_type_of_relation_ta
 
 
 #endif // BOOST_BIMAP_SET_OF_HPP
-
-

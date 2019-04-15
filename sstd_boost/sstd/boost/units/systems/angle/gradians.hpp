@@ -40,4 +40,3 @@ BOOST_UNITS_STATIC_CONSTANT(gradians,plane_angle);
 } // namespace boost
 
 #endif // BOOST_UNITS_ANGLE_GRADIANS_HPP
-

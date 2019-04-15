@@ -98,4 +98,3 @@ using BOOST_MPL_AUX_ADL_BARRIER_NAMESPACE::BOOST_PP_CAT(_,i_);
 
 #undef i_
 #endif // BOOST_PP_IS_ITERATING
-

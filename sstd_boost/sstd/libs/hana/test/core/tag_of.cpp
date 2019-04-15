@@ -72,4 +72,3 @@ template struct test<Predicated, PredicatedDatatype>;
 
 
 int main() { }
-

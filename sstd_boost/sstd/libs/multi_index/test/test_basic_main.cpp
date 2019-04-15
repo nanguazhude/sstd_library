@@ -16,4 +16,3 @@ int main()
   test_basic();
   return boost::report_errors();
 }
-

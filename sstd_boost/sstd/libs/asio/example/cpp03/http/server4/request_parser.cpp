@@ -224,4 +224,3 @@ bool request_parser::headers_equal(const std::string& a, const std::string& b)
 
 } // namespace server4
 } // namespace http
-

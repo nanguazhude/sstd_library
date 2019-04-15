@@ -49,4 +49,3 @@ struct test_blas_3 {
 
 
 #endif
-

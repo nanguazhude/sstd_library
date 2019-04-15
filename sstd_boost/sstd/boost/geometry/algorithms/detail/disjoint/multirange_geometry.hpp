@@ -92,4 +92,3 @@ struct multirange_constant_size_geometry
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_DISJOINT_MULTIRANGE_GEOMETRY_HPP
-

@@ -235,4 +235,3 @@ a % b = 6
 //] [/polynomial_output_2]
 
 */
-

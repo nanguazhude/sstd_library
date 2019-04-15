@@ -246,4 +246,3 @@ BOOST_MSM_EUML_ACTION(show_player_on)
     }
 };
 #endif
-

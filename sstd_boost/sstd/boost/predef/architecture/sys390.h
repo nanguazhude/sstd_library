@@ -41,4 +41,3 @@ http://www.boost.org/LICENSE_1_0.txt)
 
 #include <sstd/boost/predef/detail/test.h>
 BOOST_PREDEF_DECLARE_TEST(BOOST_ARCH_SYS390,BOOST_ARCH_SYS390_NAME)
-

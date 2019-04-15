@@ -85,13 +85,3 @@ TT_TEST_BEGIN(is_final)
    BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_final<non_final_template<int> >::value, false);
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-
-

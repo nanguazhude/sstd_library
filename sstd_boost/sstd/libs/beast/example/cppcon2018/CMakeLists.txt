@@ -35,4 +35,3 @@ add_executable (websocket-chat-server
 )
 
 set_property(TARGET websocket-chat-server PROPERTY FOLDER "example-cppcon2018")
-

@@ -53,4 +53,3 @@ namespace quickbook
 }
 
 #endif // BOOST_SPIRIT_ACTIONS_STATE_HPP
-

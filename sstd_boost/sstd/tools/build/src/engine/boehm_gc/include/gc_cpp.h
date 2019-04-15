@@ -371,5 +371,3 @@ inline void* operator new[](
 
 
 #endif /* GC_CPP_H */
-
-

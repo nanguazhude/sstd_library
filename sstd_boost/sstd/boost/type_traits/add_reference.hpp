@@ -64,4 +64,3 @@ template <class T> using add_reference_t = typename add_reference<T>::type;
 } // namespace boost
 
 #endif // BOOST_TT_ADD_REFERENCE_HPP_INCLUDED
-

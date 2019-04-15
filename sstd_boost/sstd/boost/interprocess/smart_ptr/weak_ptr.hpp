@@ -267,4 +267,3 @@ inline typename managed_weak_ptr<T, ManagedMemory>::type
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif  // #ifndef BOOST_INTERPROCESS_WEAK_PTR_HPP_INCLUDED
-

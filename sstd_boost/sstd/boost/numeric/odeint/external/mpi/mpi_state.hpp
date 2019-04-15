@@ -111,4 +111,3 @@ struct algebra_dispatcher< mpi_state< InnerState > >
 
 
 #endif
-

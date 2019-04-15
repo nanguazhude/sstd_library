@@ -14,4 +14,3 @@
 #include <sstd/boost/compute/interop/qt/qimage.hpp>
 
 #endif // BOOST_COMPUTE_INTEROP_QT_QTGUI_HPP
-

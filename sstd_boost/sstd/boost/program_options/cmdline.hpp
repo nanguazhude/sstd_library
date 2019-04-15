@@ -87,5 +87,3 @@ namespace boost { namespace program_options { namespace command_line_style {
 
 
 #endif
-
-

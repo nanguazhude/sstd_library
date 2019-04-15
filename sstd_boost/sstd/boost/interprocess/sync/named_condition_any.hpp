@@ -153,4 +153,3 @@ class named_condition_any
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif // BOOST_INTERPROCESS_NAMED_CONDITION_ANY_HPP
-

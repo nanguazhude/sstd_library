@@ -15,4 +15,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::trait<std::is_integral>(hana::type_c<int>));
 BOOST_HANA_CONSTANT_CHECK(hana::not_(hana::trait<std::is_integral>(hana::type_c<float>)));
 
 int main() { }
-

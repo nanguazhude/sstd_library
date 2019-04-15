@@ -88,5 +88,3 @@ Example of using the binomial distribution to replicate a NAG library call.
 
 
  */
-
-

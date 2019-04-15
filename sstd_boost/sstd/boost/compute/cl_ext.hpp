@@ -36,4 +36,3 @@
 #endif
 
 #endif // BOOST_COMPUTE_CL_EXT_HPP
-

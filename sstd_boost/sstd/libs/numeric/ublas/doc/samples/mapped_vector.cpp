@@ -20,5 +20,3 @@ int main () {
         v (i) = i;
     std::cout << v << std::endl;
 }
-
-

@@ -95,5 +95,3 @@ int main()
     std::cout << "Successfully parsed input file!" << std::endl;
     return 0;
 }
-
-

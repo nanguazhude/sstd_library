@@ -260,5 +260,3 @@ int main()
    test<boost::multiprecision::cpp_int>("cpp_int");
    return 0;
 }
-
-

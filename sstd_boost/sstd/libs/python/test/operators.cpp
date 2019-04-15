@@ -173,4 +173,3 @@ BOOST_PYTHON_MODULE(operators_ext)
 }
 
 #include "module_tail.cpp"
-

@@ -286,4 +286,3 @@ using random::uniform_on_sphere;
 } // namespace boost
 
 #endif // BOOST_RANDOM_UNIFORM_ON_SPHERE_HPP
-

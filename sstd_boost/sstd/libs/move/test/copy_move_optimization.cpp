@@ -105,4 +105,3 @@ int main()
 //1 T & constructor: copy constructor
 
 #include <sstd/boost/move/detail/config_end.hpp>
-

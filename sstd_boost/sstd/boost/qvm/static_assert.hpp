@@ -7,4 +7,3 @@
 #include <sstd/boost/static_assert.hpp>
 #define BOOST_QVM_STATIC_ASSERT BOOST_STATIC_ASSERT
 #endif
-

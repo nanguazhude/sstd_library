@@ -81,7 +81,3 @@ inline typename tools::promote_args<T1, T2>::type
 } // namespace boost
 
 #endif // BOOST_MATH_HYPOT_INCLUDED
-
-
-
-

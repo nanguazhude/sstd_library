@@ -123,4 +123,3 @@ class slist_iterator
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_SLIST_ITERATOR_HPP
-

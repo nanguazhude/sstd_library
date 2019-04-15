@@ -1,4 +1,4 @@
-/*
+﻿/*
 * X.509 Name Constraint
 * (C) 2015 Kai Michaelis
 *

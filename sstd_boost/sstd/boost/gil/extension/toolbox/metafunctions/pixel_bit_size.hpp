@@ -42,4 +42,3 @@ struct pixel_bit_size<const packed_pixel<B,C,L> > : mpl::int_< mpl::accumulate< 
 } // namespace boost
 
 #endif
-

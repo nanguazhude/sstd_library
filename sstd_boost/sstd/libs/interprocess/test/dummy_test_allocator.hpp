@@ -146,5 +146,3 @@ bool operator!=(const dummy_test_allocator<T>  &,
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_DUMMY_TEST_ALLOCATOR_HPP
-
-

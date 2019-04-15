@@ -104,4 +104,3 @@ simple_trigger(ProcessGroup& pg, int tag, Class* self,
 namespace boost { namespace graph { namespace parallel { using boost::parallel::simple_trigger; } } }
 
 #endif // BOOST_PROPERTY_MAP_PARALLEL_SIMPLE_TRIGGER_HPP
-

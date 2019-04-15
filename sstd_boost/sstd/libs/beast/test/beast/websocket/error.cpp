@@ -80,4 +80,3 @@ BEAST_DEFINE_TESTSUITE(beast,websocket,error);
 } // websocket
 } // beast
 } // boost
-

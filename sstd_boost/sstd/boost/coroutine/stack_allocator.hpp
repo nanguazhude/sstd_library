@@ -35,4 +35,3 @@ typedef standard_stack_allocator    stack_allocator;
 #endif
 
 #endif // BOOST_COROUTINES_STACK_ALLOCATOR_H
-

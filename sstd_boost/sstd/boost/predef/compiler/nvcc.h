@@ -71,4 +71,3 @@ There the NVCC detection is not handled as a real compiler (part of the
 
 #include <sstd/boost/predef/detail/test.h>
 BOOST_PREDEF_DECLARE_TEST(BOOST_COMP_NVCC,BOOST_COMP_NVCC_NAME)
-

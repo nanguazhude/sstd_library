@@ -63,4 +63,3 @@ struct accumulator_base
 }} // namespace boost::accumulators
 
 #endif
-

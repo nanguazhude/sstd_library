@@ -110,4 +110,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(
     test_channel_arithmetic<typename channels565_t::fixture_5_t>();
     test_channel_arithmetic<typename channels565_t::fixture_6_t>();
 }
-

@@ -17,6 +17,3 @@ int main()
   test_conv_iterators();
   return boost::report_errors();
 }
-
-
-

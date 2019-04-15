@@ -302,4 +302,3 @@ int main()
     track_allocator::allocated_blocks.clear();
     return boost::report_errors();
 }
-

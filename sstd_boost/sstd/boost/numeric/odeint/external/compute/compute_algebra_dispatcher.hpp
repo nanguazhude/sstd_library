@@ -39,4 +39,3 @@ struct algebra_dispatcher< boost::compute::vector< T , A > >
 } // namespace boost
 
 #endif // BOOST_NUMERIC_ODEINT_EXTERNAL_COMPUTE_COMPUTE_ALGEBRA_DISPATCHER_HPP_DEFINED
-

@@ -35,4 +35,3 @@ using enable_if_t = typename enable_if_<B, T>::type;
 } /* boost */
 
 #endif
-

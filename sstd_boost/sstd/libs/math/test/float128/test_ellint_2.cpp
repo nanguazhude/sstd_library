@@ -41,5 +41,3 @@ BOOST_AUTO_TEST_CASE( test_main )
    expected_results();
    ALL_TESTS
 }
-
-

@@ -233,5 +233,3 @@ BOOST_AUTO_TEST_CASE(test_ticket_12926)
 
     BOOST_CHECK_EQUAL(a.size(), 200);
 }
-
-

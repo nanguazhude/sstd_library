@@ -89,4 +89,3 @@ using ::boost::range::join;
 } // namespace boost
 
 #endif // include guard
-

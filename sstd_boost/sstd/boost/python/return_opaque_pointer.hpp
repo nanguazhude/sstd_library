@@ -45,4 +45,3 @@ struct return_opaque_pointer
 
 }} // namespace boost::python
 # endif // RETURN_OPAQUE_POINTER_HPP_
-

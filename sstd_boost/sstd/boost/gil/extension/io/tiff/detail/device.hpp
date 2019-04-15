@@ -476,4 +476,3 @@ template<> struct photometric_interpretation< cmyk_t > : public mpl::int_< PHOTO
 } // namespace boost
 
 #endif
-

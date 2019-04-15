@@ -9,5 +9,3 @@
       return 0;
    }
 #endif
-
-

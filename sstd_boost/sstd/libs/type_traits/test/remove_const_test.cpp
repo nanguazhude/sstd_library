@@ -68,12 +68,3 @@ TT_TEST_BEGIN(remove_const)
    remove_const_test_19();
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

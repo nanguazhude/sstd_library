@@ -796,4 +796,3 @@ namespace detail
 #endif
 
 #endif // BOOST_CHRONO_DURATION_HPP
-

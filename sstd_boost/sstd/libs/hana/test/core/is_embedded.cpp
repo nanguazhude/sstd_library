@@ -60,4 +60,3 @@ static_assert(hana::is_embedded<unsigned char,  unsigned short>{}, "");
 
 
 int main() { }
-

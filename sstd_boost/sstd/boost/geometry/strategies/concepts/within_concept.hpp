@@ -286,4 +286,3 @@ inline void check()
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_CONCEPTS_WITHIN_CONCEPT_HPP
-

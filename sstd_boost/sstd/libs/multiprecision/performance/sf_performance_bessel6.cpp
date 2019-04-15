@@ -20,4 +20,3 @@ void bessel_tests_6()
    time_proc("mpfr::mpreal", test_bessel<mpfr::mpreal>);
 #endif
 }
-

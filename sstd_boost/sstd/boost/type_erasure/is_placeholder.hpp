@@ -38,4 +38,3 @@ struct is_placeholder<T, typename T::_boost_type_erasure_is_placeholder> :
 }
 
 #endif
-

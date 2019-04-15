@@ -307,4 +307,3 @@ read_close(
 } // boost
 
 #endif
-

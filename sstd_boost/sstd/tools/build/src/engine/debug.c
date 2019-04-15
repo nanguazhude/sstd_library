@@ -156,4 +156,3 @@ OBJECT * profile_make_local( char const * scope )
        return 0;
     }
 }
-

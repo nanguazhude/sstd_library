@@ -410,4 +410,3 @@ int test_main(int /* argc */, char * /* argv */[])
     test8();
     return EXIT_SUCCESS;
 }
-

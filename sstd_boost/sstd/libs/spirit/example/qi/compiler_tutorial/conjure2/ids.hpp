@@ -152,4 +152,3 @@ namespace client
 }
 
 #endif
-

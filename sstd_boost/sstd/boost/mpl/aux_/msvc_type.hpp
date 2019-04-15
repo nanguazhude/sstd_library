@@ -60,4 +60,3 @@ template<> struct msvc_type<int>
 }}}
 
 #endif // BOOST_MPL_AUX_MSVC_TYPE_HPP_INCLUDED
-

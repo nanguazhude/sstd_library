@@ -121,5 +121,3 @@ io/duration_input.cpp:52:   instantiated from here
   return boost::report_errors();
 
 }
-
-

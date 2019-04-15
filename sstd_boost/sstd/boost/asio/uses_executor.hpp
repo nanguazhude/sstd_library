@@ -71,4 +71,3 @@ struct uses_executor : false_type {};
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_USES_EXECUTOR_HPP
-

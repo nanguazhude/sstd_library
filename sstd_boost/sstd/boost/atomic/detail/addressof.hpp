@@ -56,4 +56,3 @@ BOOST_FORCEINLINE T* addressof(T& value) BOOST_NOEXCEPT
 } // namespace boost
 
 #endif // BOOST_ATOMIC_DETAIL_ADDRESSOF_HPP_INCLUDED_
-

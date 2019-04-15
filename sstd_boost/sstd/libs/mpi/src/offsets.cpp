@@ -94,4 +94,3 @@ make_skipped_slots(communicator const& comm, int const* sizes, int const* displs
 }
 }
 }}
-

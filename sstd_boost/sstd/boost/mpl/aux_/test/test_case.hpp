@@ -19,4 +19,3 @@
 #define MPL_TEST_CASE() void BOOST_PP_CAT(test,__LINE__)()
 
 #endif // BOOST_MPL_AUX_TEST_TEST_CASE_HPP_INCLUDED
-

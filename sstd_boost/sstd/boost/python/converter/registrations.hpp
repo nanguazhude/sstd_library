@@ -97,4 +97,3 @@ inline bool operator<(registration const& lhs, registration const& rhs)
 }}} // namespace boost::python::converter
 
 #endif // REGISTRATIONS_DWA2002223_HPP
-

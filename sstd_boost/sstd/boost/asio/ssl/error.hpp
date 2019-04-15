@@ -113,4 +113,3 @@ inline boost::system::error_code make_error_code(stream_errors e)
 #endif // defined(BOOST_ASIO_HEADER_ONLY)
 
 #endif // BOOST_ASIO_SSL_ERROR_HPP
-

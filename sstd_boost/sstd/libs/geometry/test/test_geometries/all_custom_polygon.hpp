@@ -128,4 +128,3 @@ struct interior_rings<all_custom_polygon<Point> >
 
 
 #endif // GEOMETRY_TEST_TEST_GEOMETRIES_ALL_CUSTOM_POLYGON_HPP
-

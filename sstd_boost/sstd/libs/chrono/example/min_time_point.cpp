@@ -76,5 +76,3 @@ int main()
     test_min();
     return 0;
 }
-
-

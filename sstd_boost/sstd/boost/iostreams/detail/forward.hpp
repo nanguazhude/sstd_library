@@ -111,4 +111,3 @@
 #endif
 
 #endif // #ifndef BOOST_IOSTREAMS_DETAIL_FORWARD_HPP_INCLUDED
-

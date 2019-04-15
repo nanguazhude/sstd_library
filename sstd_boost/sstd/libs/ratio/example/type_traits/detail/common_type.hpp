@@ -314,4 +314,3 @@ template< > struct common_type_impl< unsigned short, char> { typedef int type; }
 } // namespace boost_ex
 
 #endif // BOOST_EX_TYPE_TRAITS_EXT_DETAIL_COMMON_TYPE_HPP
-

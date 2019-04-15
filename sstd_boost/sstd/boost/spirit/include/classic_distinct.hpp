@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_DISTINCT
 #include <sstd/boost/spirit/home/classic/utility/distinct.hpp>
 #endif
-

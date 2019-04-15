@@ -228,4 +228,3 @@ int main()
     test_void_2();
     return boost::report_errors();
 }
-

@@ -35,4 +35,3 @@ namespace boost
 } // namespace boost
 
 #endif // include guard
-

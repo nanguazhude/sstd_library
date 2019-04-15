@@ -125,4 +125,3 @@ void test_set_ops()
 
   BOOST_TEST(c2.find(type3())==c2.begin());
 }
-

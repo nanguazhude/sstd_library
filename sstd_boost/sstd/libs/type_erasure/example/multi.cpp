@@ -114,4 +114,3 @@ void multi2() {
 //` [multi1]
 //` [multi2]
 //]
-

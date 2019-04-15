@@ -136,4 +136,3 @@ inline type_index runtime_class_construct_type_id(T const*) {
 #define BOOST_TYPE_INDEX_NO_BASE_CLASS BOOST_PP_SEQ_NIL
 
 #endif // BOOST_TYPE_INDEX_RUNTIME_CAST_REGISTER_RUNTIME_CLASS_HPP
-

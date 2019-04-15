@@ -316,4 +316,3 @@ namespace boost { namespace numeric { namespace ublas {
 
 
 #endif // BOOST_NUMERIC_UBLAS_OPERATION_END_HPP
-

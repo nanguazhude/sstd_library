@@ -108,4 +108,3 @@ typedef dtl::integral_constant<unsigned, 2> version_2;
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //#define BOOST_CONTAINER_DETAIL_VERSION_TYPE_HPP
-

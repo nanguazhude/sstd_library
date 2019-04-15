@@ -380,4 +380,3 @@ constexpr auto symmetric_difference = [](auto&& xs, auto&& ys) {
 BOOST_HANA_NAMESPACE_END
 
 #endif // !BOOST_HANA_FWD_MAP_HPP
-

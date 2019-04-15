@@ -44,4 +44,3 @@ struct reference_existing_object
 }} // namespace boost::python
 
 #endif // REFERENCE_EXISTING_OBJECT_DWA200222_HPP
-

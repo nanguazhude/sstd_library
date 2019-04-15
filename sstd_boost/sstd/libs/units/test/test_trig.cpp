@@ -77,4 +77,3 @@ BOOST_AUTO_TEST_CASE(test_atan2) {
     BOOST_CHECK_CLOSE_FRACTION(boost::units::atan2(0.8660*degree_dimensionless,0.5*degree_dimensionless).value(), 60., 0.0002);
     BOOST_CHECK_EQUAL(boost::units::atan2(0.2 * heterogeneous_dimensionless, 0.3 * heterogeneous_dimensionless).value(), std::atan2(0.2, 0.3));
 }
-

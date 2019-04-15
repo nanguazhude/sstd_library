@@ -351,4 +351,3 @@ segments_end(Geometry const& geometry)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ITERATORS_SEGMENT_ITERATOR_HPP
-

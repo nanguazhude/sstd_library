@@ -341,4 +341,3 @@ namespace boost {
 #endif
 
 #endif // BOOST_GRAPH_STRONG_COMPONENTS_HPP
-

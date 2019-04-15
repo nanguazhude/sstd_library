@@ -97,4 +97,3 @@ using random::ranlux64_4;
 } // namespace boost
 
 #endif // BOOST_RANDOM_LINEAR_CONGRUENTIAL_HPP
-

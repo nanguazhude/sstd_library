@@ -23,4 +23,3 @@ int main()
     std::unique_ptr<B[]> p1( new B[ 1 ] );
     std::unique_ptr<B> p2 = boost::dynamic_pointer_cast<B>( std::move( p1 ) );
 }
-

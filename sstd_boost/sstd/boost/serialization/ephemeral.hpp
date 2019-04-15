@@ -70,4 +70,3 @@ const ephemeral_object<T> ephemeral(const char * name, T & t){
 } // boost
 
 #endif // BOOST_SERIALIZATION_EPHEMERAL_HPP
-

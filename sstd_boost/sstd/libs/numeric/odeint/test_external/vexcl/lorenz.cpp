@@ -142,7 +142,3 @@ BOOST_AUTO_TEST_CASE( integrate_const_dense_output_dopri5 )
     vex::copy( X(0) , res );
     std::cout << res[0] << std::endl;
 }
-
-
-
-

@@ -54,4 +54,3 @@ int main() {
         cnumeric<int, 15>
     )));
 }
-

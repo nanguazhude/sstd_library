@@ -84,6 +84,3 @@ Example of Arcsine distribution
 
 ] [/arcsine_output]
 */
-
-
-

@@ -103,4 +103,3 @@ using extract::weighted_kurtosis;
 }} // namespace boost::accumulators
 
 #endif
-

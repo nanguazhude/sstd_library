@@ -176,4 +176,3 @@ struct vector_space_algebra
 
 
 #endif // BOOST_NUMERIC_ODEINT_ALGEBRA_VECTOR_SPACE_ALGEBRA_HPP_INCLUDED
-

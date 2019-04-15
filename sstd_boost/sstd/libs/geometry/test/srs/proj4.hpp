@@ -127,4 +127,3 @@ private:
 #endif // TEST_WITH_PROJ4
 
 #endif // BOOST_GEOMETRY_TEST_SRS_PROJ4_HPP
-

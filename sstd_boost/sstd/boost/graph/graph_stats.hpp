@@ -135,4 +135,3 @@ std::map<unsigned long, double> weight_degree_dist( Graph& g ) {
 }}
 
 #endif
-

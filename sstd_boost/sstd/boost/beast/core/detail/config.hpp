@@ -52,4 +52,3 @@
     "This is a deprecated interface, #define BOOST_BEAST_ALLOW_DEPRECATED to allow it"
 
 #endif
-

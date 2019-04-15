@@ -30,4 +30,3 @@ typedef derived_dimension<mass_base_dimension,1,
 } // namespace boost
 
 #endif // BOOST_UNITS_DYNAMIC_VISCOSITY_DERIVED_DIMENSION_HPP
-

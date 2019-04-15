@@ -44,6 +44,3 @@ BOOST_PYTHON_MODULE(enable_shared_from_this_ext)
 }
 
 #include "module_tail.cpp"
-
-
-

@@ -39,4 +39,3 @@ template< typename SourceTag, typename TargetTag > struct BOOST_MPL_AUX_NUMERIC_
 }}
 
 #endif // BOOST_MPL_NUMERIC_CAST_HPP_INCLUDED
-
