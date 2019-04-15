@@ -17,7 +17,7 @@ namespace sstd {
         std::list< std::function<void(void)>, sstd::allocator< std::function<void(void)> > > callOnDestruct;
         std::vector< string, sstd::allocator<string> > args;
 
-        sstd_class( Manager );
+        sstd_class(Manager);
 
     };
 
@@ -89,7 +89,7 @@ namespace sstd {
 
         varManager->args.reserve(argc);
         for (int i = 0; i < argc; ++i) {
-            varManager->args[i] = argv[i];
+            varManager->args.push_back(argv[i]);
         }
 
         varManager->isConstruct.store(true);
