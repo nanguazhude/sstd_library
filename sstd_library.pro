@@ -29,6 +29,8 @@ equals(TEMPLATE, "vclib") {
     DISTFILES += $$ASM_FILES_TOBUILD
 }
 
+DEFINES *= SSTD_DIRECT_HAS_STRING_CONSTEXPR
+
 DEFINES *= SSTD_BUILD_SOURCE
 HEADERS += $$PWD/sstd_library.hpp
 HEADERS += $$PWD/global_sstd_library.hpp

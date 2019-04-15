@@ -20,7 +20,9 @@ namespace _theSSTDLibraryFile {
 #include "sstd_library_exception/sstd_library_exception.hpp"
 #include "sstd_library_filesystem/sstd_library_filesystem.hpp"
 #include "sstd_library_constexpr/array_constexpr.hpp"
+#if defined(SSTD_DIRECT_HAS_STRING_CONSTEXPR)
 #include "sstd_library_constexpr/string_constexpr.hpp"
+#endif
 #include "sstd_library_constexpr/float_constexpr.hpp"
 #include "sstd_library_index/sstd_library_index.hpp"
 #include "sstd_library_tuple/sstd_library_tuple.hpp"
