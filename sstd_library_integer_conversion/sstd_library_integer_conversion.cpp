@@ -39,7 +39,7 @@ namespace sstd {
         inline static T \uacf1ToNumber(const std::string_view & arg) {
             std::basic_stringstream<char, std::char_traits<char>, sstd::allocator<char>> varConv;
             T varAns;
-            varConv << arg;
+            varConv.write(arg.data(),arg.size());
             varConv >> varAns;
             return varAns;
         }

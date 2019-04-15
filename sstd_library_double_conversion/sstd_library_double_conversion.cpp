@@ -80,7 +80,7 @@ namespace sstd {
 #endif
             } else {
                 std::basic_stringstream< char, std::char_traits<char>, sstd::allocator<char> > var;
-                var << arg;
+                var.write(arg.data(),arg.size());
                 long double varAns{ 0 };
                 var >> varAns;
                 return varAns;
