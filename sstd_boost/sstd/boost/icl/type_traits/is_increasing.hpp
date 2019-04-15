@@ -30,6 +30,3 @@ struct is_increasing<DomainT, std::greater<DomainT> >
 }} // namespace boost icl
 
 #endif
-
-
-

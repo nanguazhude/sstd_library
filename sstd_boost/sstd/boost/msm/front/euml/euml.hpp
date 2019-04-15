@@ -21,4 +21,3 @@
 #endif
 
 #endif //BOOST_MSM_FRONT_EUML_EUML_H
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * TLS Server
 * (C) 2004-2011 Jack Lloyd
 *     2016 Matthias Gierlings

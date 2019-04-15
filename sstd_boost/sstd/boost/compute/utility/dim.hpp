@@ -74,4 +74,3 @@ inline extents<N> dim()
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_UTILITY_DIM_HPP
-

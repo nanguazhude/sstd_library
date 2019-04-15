@@ -118,4 +118,3 @@ BOOST_AUTO_TEST_CASE( test_all_pointlike_pointlike )
     test_all_pl_pl<geo_point>(thomas_pp());
     test_all_pl_pl<geo_point>(andoyer_pp());
 }
-

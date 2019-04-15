@@ -119,4 +119,3 @@ void sigchld_service::_handle_signal(const boost::system::error_code & ec)
 
 
 #endif
-

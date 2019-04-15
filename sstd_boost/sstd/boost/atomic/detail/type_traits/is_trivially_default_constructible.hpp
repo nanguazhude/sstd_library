@@ -44,4 +44,3 @@ struct is_trivially_default_constructible : public boost::has_trivial_constructo
 } // namespace boost
 
 #endif // BOOST_ATOMIC_DETAIL_TYPE_TRAITS_IS_TRIVIALLY_DEFAULT_CONSTRUCTIBLE_HPP_INCLUDED_
-

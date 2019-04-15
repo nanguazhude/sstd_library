@@ -50,4 +50,3 @@ MPL_TEST_CASE()
     typedef push_back< with_push_back , int >::type test;
     MPL_ASSERT(( is_same< test, no_push_back > ));
 }
-

@@ -150,4 +150,3 @@ namespace boost {
 
 }
 #endif /* BOOST_FENCED_PRIORITY_QUEUE_HPP */
-

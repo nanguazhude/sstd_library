@@ -52,4 +52,3 @@ struct data_t {
 #endif
 
 #endif // BOOST_FIBERS_DETAIL_DATA_H
-

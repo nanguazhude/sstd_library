@@ -119,4 +119,3 @@ int main() {
     assert_not_const_qualified<int foo::*>();
     assert_not_const_qualified<void(&)()>();
 }
-

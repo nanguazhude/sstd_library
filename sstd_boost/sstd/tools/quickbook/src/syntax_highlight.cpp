@@ -631,4 +631,3 @@ namespace quickbook
         }
     }
 }
-

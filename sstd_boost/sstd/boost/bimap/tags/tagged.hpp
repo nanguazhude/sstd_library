@@ -101,8 +101,3 @@ the type of a TaggedType.
                                                                                     **/
 
 #endif // BOOST_BIMAP_TAGS_TAGGED_HPP
-
-
-
-
-

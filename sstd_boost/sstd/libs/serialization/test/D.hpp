@@ -86,4 +86,3 @@ bool D::operator==(const D &rhs) const
 }
 
 #endif // BOOST_SERIALIZATION_TEST_D_HPP
-

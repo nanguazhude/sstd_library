@@ -39,4 +39,3 @@ broadcast(const communicator& comm, const skeleton_proxy<T>& proxy, int root)
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_BROADCAST_SC_HPP
-

@@ -36,5 +36,3 @@ int main(void) {
 //]
 
 #endif // NO_LAMBDAS
-
-

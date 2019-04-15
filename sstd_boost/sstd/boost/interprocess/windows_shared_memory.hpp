@@ -250,4 +250,3 @@ inline void windows_shared_memory::priv_close()
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_WINDOWS_SHARED_MEMORY_HPP
-

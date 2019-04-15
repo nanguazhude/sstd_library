@@ -21,5 +21,3 @@ namespace lib_y_ {
         out("y::body\n");
     }
 }
-
-

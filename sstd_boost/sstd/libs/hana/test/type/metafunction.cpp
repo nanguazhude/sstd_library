@@ -70,4 +70,3 @@ int main() {
     constexpr auto r = hana::metafunction<f>(t);
     (void)r;
 }
-

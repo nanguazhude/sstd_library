@@ -19,4 +19,3 @@ struct return_value_policy : BasePolicy_
 }} // namespace boost::python
 
 #endif // RETURN_VALUE_POLICY_DWA2002131_HPP
-

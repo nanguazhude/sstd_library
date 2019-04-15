@@ -48,5 +48,3 @@ BOOST_AUTO_TEST_CASE(double_ios_threaded, *boost::unit_test::timeout(6))
 
     BOOST_REQUIRE((p2 - p1) > std::chrono::seconds(1));
 }
-
-

@@ -207,4 +207,3 @@ int main() {
   // algorithms, the first should fail and the second succeed
   std::cout << det_sign_algo1(m) << " " << det_sign_algo2(m) << std::endl;
 }
-

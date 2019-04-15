@@ -147,4 +147,3 @@ Index by function name
 
    [4] void accumulate<unsigned long>(unsigned int&, unsigned long const&) [7] __divdi3
    [6] std::ostream::operator<<(void const*) [5] _pei386_runtime_relocator
-

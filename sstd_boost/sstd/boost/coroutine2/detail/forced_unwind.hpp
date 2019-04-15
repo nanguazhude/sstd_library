@@ -35,4 +35,3 @@ void * unwind_coroutine( void * data) {
 #endif
 
 #endif // BOOST_COROUTINES2_DETAIL_FORCED_UNWIND_HPP
-

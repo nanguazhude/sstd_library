@@ -23,4 +23,3 @@ BOOST_HOF_TEST_CASE()
     BOOST_HOF_TEST_CHECK(3 == (1 | sum(2)));
     BOOST_HOF_TEST_CHECK(5 == (1 | sum(2) | boost::hof::tap([](int i) { BOOST_HOF_TEST_CHECK(3 == i); }) | sum(2)));
 }
-

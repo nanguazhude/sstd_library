@@ -1,4 +1,4 @@
-#ifndef BOTAN_BUILD_CONFIG_H_
+﻿#ifndef BOTAN_BUILD_CONFIG_H_
 #define BOTAN_BUILD_CONFIG_H_
 
 /*
@@ -454,4 +454,3 @@ Each read generates 32 bits of output
 #include <botan/compiler.h>
 
 #endif
-

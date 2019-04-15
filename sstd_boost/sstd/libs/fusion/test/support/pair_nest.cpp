@@ -21,5 +21,3 @@ int main()
 {
     copy<pair<void, float> >();
 }
-
-

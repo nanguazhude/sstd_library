@@ -365,4 +365,3 @@
             , typename remove_reference<A0 >::type , typename remove_reference<A1 >::type , typename remove_reference<A2 >::type , typename remove_reference<A3 >::type , typename remove_reference<A4 >::type , typename remove_reference<A5 >::type , typename remove_reference<A6 >::type , typename remove_reference<A7 >::type , typename remove_reference<A8 >::type
         >
     {};
-

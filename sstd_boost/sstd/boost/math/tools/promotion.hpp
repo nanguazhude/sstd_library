@@ -179,5 +179,3 @@ namespace boost
 } // namespace boost
 
 #endif // BOOST_MATH_PROMOTION_HPP
-
-

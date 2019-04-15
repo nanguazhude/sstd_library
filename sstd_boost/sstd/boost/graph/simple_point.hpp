@@ -21,4 +21,3 @@ struct simple_point
 } // end namespace boost
 
 #endif // BOOST_GRAPH_SIMPLE_POINT_HPP
-

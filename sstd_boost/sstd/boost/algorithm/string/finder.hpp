@@ -264,4 +264,3 @@ namespace boost {
 
 
 #endif  // BOOST_STRING_FINDER_HPP
-

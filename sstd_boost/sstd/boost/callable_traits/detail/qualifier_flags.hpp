@@ -121,4 +121,3 @@ template<typename T> struct flag_map<T const volatile &&> { static constexpr qua
 }}} // namespace boost::callable_traits::detail
 
 #endif // #ifndef BOOST_CLBL_TRTS_QUALIFIER_FLAGS_HPP
-

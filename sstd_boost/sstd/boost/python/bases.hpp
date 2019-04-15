@@ -48,4 +48,3 @@ namespace boost { namespace python {
 }} // namespace boost::python
 
 #endif // BASES_DWA2002321_HPP
-

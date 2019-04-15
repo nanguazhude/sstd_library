@@ -1,4 +1,4 @@
-/*
+﻿/*
 * RFC 6979 Deterministic Nonce Generator
 * (C) 2014,2015 Jack Lloyd
 *

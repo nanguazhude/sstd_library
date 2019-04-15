@@ -39,4 +39,3 @@ int test_main( int, char*[] )
 }
 
 #endif
-

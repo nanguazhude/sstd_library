@@ -21,4 +21,3 @@ int main(int, const char**)
     return (mock_range<boost::bidirectional_traversal_tag>() |
                 sliced(0,1)).front();
 }
-

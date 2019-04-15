@@ -3394,4 +3394,3 @@ boost::shared_ptr<X> createX()
 }
 
 } // namespace n_spt_abstract
-

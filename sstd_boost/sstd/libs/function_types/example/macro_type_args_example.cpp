@@ -68,5 +68,3 @@ int main()
   std::cout << TYPE_NAMES((int,char,long)) << std::endl;
 
 }
-
-

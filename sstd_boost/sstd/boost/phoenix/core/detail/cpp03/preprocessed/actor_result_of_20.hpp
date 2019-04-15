@@ -463,4 +463,3 @@
                     >::result_type
                 type;
         };
-

@@ -29,4 +29,3 @@ template <class T> struct is_union<T volatile> : public is_union<T>{};
 } // namespace boost
 
 #endif // BOOST_TT_IS_UNION_HPP_INCLUDED
-

@@ -867,4 +867,3 @@ void GC_print_finalization_stats(void)
 }
 
 #endif /* NO_DEBUGGING */
-

@@ -103,4 +103,3 @@ BOOST_AUTO_TEST_CASE(uniform_real_distribution_range)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

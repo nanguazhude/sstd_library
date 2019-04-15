@@ -333,4 +333,3 @@ inline void verify_not(VariantType& var, spec<S>)
 
 
 #endif //_JOBSH_INC_
-

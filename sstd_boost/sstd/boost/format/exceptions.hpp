@@ -101,4 +101,3 @@ namespace boost {
 
 
 #endif // BOOST_FORMAT_EXCEPTIONS_HPP
-

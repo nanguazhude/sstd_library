@@ -34,4 +34,3 @@ struct base_unit_info<information::byte_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNITS_BASE_UNITS_INFORMATION_BYTE_HPP_INCLUDED
-

@@ -13,4 +13,3 @@ static_assert(hana::intersperse(hana::make_tuple(1, '2', 3.3), 'x') == hana::mak
 BOOST_HANA_CONSTANT_CHECK(hana::intersperse(hana::make_tuple(), 'x') == hana::make_tuple());
 
 int main() { }
-

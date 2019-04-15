@@ -25,5 +25,3 @@ int main()
    //test<boost::multiprecision::cpp_bin_float_quad>();
    return boost::report_errors();
 }
-
-

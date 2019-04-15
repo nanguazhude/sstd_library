@@ -43,4 +43,3 @@ template <class T, class U> struct is_member_pointer<U T::*volatile> : public tr
 } // namespace boost
 
 #endif // BOOST_TT_IS_MEMBER_POINTER_HPP_INCLUDED
-

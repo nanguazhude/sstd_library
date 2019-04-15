@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/support/tag_of.hpp>
 
 #endif
-

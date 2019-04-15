@@ -277,4 +277,3 @@ struct covered_by<MultiPolygon1, MultiPolygon2, multi_polygon_tag, multi_polygon
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_COVERED_BY_IMPLEMENTATION_HPP
-

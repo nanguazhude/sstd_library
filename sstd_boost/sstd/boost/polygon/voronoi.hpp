@@ -155,4 +155,3 @@ typename enable_if<
 }  // boost
 
 #endif  // BOOST_POLYGON_VORONOI
-

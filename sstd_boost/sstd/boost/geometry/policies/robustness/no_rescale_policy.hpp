@@ -64,4 +64,3 @@ struct segment_ratio_type<Point, detail::no_rescale_policy>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_POLICIES_ROBUSTNESS_NO_RESCALE_POLICY_HPP
-

@@ -337,5 +337,3 @@ struct right_map_view_extra_typedefs< ::boost::bimaps::views::vector_map_view<Ta
 } // namespace boost
 
 #endif // BOOST_BIMAP_VIEWS_VECTOR_MAP_VIEW_HPP
-
-

@@ -256,5 +256,3 @@ int subset_compare(const LeftT& left, const RightT& right)
 }} // namespace icl boost
 
 #endif
-
-

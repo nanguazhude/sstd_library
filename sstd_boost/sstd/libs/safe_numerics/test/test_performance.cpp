@@ -109,5 +109,3 @@ int main()
     test<boost::safe_numerics::safe<unsigned>>("Testing type safe<unsigned>");
     return 0;
 }
-
-

@@ -83,4 +83,3 @@ using extract::min;
 }} // namespace boost::accumulators
 
 #endif
-

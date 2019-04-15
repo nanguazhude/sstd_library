@@ -361,4 +361,3 @@ struct is_direct : detail::has_trait<T, direct_tag> { };
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>
 
 #endif // #ifndef BOOST_IOSTREAMS_IO_TRAITS_HPP_INCLUDED
-

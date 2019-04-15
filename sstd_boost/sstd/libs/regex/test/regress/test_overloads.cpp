@@ -54,4 +54,3 @@ void test_overloads()
    BOOST_REGEX_TEST(boost::regex_search(s, e))
    BOOST_REGEX_TEST(boost::regex_search(s, e, boost::regex_constants::match_default))
 }
-

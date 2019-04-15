@@ -17,5 +17,3 @@
 #include <sstd/boost/phoenix/support/detail/iterate_define.hpp>
 
 #endif
-
-

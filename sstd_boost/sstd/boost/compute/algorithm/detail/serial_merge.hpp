@@ -95,4 +95,3 @@ inline OutputIterator serial_merge(InputIterator1 first1,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_SERIAL_MERGE_HPP
-

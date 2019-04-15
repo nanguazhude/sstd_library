@@ -32,5 +32,3 @@ TMP_ASSERT(boost::is_const<int const>); // No extra `((...))` and no macro.
 //]
 
 int main() { return 0; }
-
-

@@ -108,4 +108,3 @@ struct BOOST_WAVE_DECL cpp_grammar_gen
 #endif
 
 #endif // !defined(CPP_GRAMMAR_GEN_HPP_80CB8A59_5411_4E45_B406_62531A12FB99_INCLUDED)
-

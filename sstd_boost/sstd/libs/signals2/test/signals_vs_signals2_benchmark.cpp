@@ -173,4 +173,3 @@ int main(int argc, const char **argv)
     benchmark_connect_disconnect<old_signal_type>();
   }
 }
-

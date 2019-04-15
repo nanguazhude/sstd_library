@@ -92,4 +92,3 @@ point<F> transform(matrix3x2<F> const& mat, point<F2> const& src)
 }} // namespace boost::gil
 
 #endif
-

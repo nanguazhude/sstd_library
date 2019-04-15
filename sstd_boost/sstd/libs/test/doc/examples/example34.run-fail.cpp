@@ -18,4 +18,3 @@ BOOST_AUTO_TEST_CASE( test )
   BOOST_CHECK( i == 6 );  // will never reach this check
 }
 //]
-

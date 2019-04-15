@@ -450,4 +450,3 @@ struct conversion_factor_helper<unit<D, heterogeneous_system<S1> >, unit<D, hete
 } // namespace boost
 
 #endif // BOOST_UNITS_CONVERSION_IMPL_HPP
-

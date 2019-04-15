@@ -12,4 +12,3 @@ int main() {
     auto i = f(1, 2, 3);
     (void)i;
 }
-

@@ -28,4 +28,3 @@
 #endif
 
 #endif // BOOST_COROUTINES2_DETAIL_CONFIG_H
-

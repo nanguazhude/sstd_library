@@ -53,4 +53,3 @@ template BOOST_SYMBOL_EXPORT void base::serialize(
     boost::archive::polymorphic_iarchive & ar,
     const unsigned int version
 );
-

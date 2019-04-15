@@ -186,4 +186,3 @@ namespace multi_array {
 } // namespace boost
 
 #endif // BOOST_INDEX_RANGE_RG071801_HPP
-

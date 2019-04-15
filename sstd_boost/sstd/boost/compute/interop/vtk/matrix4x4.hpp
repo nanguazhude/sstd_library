@@ -44,4 +44,3 @@ inline double16_ vtk_matrix4x4_to_double16(const vtkMatrix4x4 *matrix)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_INTEROP_VTK_MATRIX4X4_HPP
-

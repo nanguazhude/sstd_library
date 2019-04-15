@@ -24,5 +24,3 @@ BOOST_PYTHON_MODULE(multi_arg_constructor_ext)
       ;
 
 }
-
-

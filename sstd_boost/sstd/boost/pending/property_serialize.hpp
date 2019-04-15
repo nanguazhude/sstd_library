@@ -68,4 +68,3 @@ BOOST_CLASS_TRACKING(boost::no_property,track_never)
 #endif // BOOST_GRAPH_USE_MPI
 
 #endif // BOOST_PROPERTY_SERIALIZE_HPP
-

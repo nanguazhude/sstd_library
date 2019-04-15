@@ -168,4 +168,3 @@ BOOST_AUTO_TEST_CASE(test_main)
   test_cstdfloat::extend_check_128_func();
   #endif // defined (BOOST_FLOAT128_C)
 }
-

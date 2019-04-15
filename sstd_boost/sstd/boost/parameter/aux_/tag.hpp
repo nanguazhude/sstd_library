@@ -36,4 +36,3 @@ struct tag<Keyword,ActualArg,mpl::false_>
 }}} // namespace boost::parameter::aux_
 
 #endif // BOOST_PARAMETER_AUX_TAG_DWA2005610_HPP
-

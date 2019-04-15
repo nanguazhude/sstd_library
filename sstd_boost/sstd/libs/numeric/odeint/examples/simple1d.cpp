@@ -42,4 +42,3 @@ int main()
     // use dopri5 with stepsize control and allowed errors 10^-12, integrate t=1...10
     integrate_adaptive( make_controlled( 1E-12 , 1E-12 , stepper_type() ) , rhs , x , 1.0 , 10.0 , 0.1 , write_cout );
 }
-

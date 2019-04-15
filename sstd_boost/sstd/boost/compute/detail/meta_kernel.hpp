@@ -1139,4 +1139,3 @@ struct inject_type_impl<vector_type<Scalar, N> >
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_DETAIL_META_KERNEL_HPP
-

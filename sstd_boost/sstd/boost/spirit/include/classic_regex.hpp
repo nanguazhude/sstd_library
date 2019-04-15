@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_REGEX
 #include <sstd/boost/spirit/home/classic/utility/regex.hpp>
 #endif
-

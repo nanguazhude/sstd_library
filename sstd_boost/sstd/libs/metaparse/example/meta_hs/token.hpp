@@ -164,6 +164,3 @@ namespace token
 }
 
 #endif
-
-
-

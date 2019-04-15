@@ -119,4 +119,3 @@ BOOST_TYPEOF_REGISTER_TEMPLATE(boost::msm::front::euml::EqualTo_, 2)
 BOOST_TYPEOF_REGISTER_TEMPLATE(boost::msm::front::euml::NotEqualTo_, 2)
 
 #endif //BOOST_MSM_FRONT_EUML_TYPEOF_H
-

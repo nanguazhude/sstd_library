@@ -336,4 +336,3 @@ metis_distribution::global(process_id_type id, size_type n) const
 } } // end namespace boost::graph
 
 #endif // BOOST_GRAPH_METIS_HPP
-

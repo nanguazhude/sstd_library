@@ -9,5 +9,3 @@
 #include <sstd/boost/phoenix/core/call.hpp>
 
 int main() {}
-
-

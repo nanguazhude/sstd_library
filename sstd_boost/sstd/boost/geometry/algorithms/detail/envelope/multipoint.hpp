@@ -376,4 +376,3 @@ struct envelope<MultiPoint, multi_point_tag, geographic_tag>
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_ENVELOPE_MULTIPOINT_HPP
-

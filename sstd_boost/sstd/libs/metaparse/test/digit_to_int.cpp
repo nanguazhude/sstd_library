@@ -39,5 +39,3 @@ BOOST_METAPARSE_TEST_CASE(digit_to_int)
     is_same<digit_expected, apply_wrap1<digit_to_int<>, char_x>::type>
   ));
 }
-
-

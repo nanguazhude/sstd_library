@@ -100,4 +100,3 @@ struct access<boost::polygon::point_data<CoordinateType>, 1>
 
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_ADAPTED_BOOST_POLYGON_POINT_HPP
-

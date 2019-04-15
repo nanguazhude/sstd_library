@@ -126,4 +126,3 @@ namespace assign
 #endif
 
 #endif
-

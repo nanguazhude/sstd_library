@@ -31,4 +31,3 @@ BOOST_UNITS_STATIC_CONSTANT(lux,illuminance);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_ILLUMINANCE_HPP
-

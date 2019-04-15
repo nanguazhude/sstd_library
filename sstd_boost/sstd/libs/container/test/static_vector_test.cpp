@@ -825,4 +825,3 @@ int main(int, char* [])
 }
 
 #include <sstd/boost/container/detail/config_end.hpp>
-

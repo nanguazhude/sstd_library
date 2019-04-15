@@ -317,4 +317,3 @@ bool test_filter_pair( OutputFilter out,
 } } // End namespaces iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_FILTER_TEST_HPP_INCLUDED
-

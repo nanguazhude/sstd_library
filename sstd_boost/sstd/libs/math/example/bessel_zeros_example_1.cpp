@@ -210,5 +210,3 @@ We set the precision of the output stream, and show trailing zeros to display a 
   14.018504599452388106120459558042660282427471931581
 
 */
-
-

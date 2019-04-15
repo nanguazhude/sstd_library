@@ -173,4 +173,3 @@ struct generic_streambuf_tag
 } } // End namespaces iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_CATEGORIES_HPP_INCLUDED
-

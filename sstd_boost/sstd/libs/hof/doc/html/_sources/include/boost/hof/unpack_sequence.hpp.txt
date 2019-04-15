@@ -69,4 +69,3 @@ struct unpack_sequence
 }} // namespace boost::hof
 
 #endif
-

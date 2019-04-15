@@ -214,4 +214,3 @@ void test_serialization3()
     test_serialization(m);
   }
 }
-

@@ -87,6 +87,3 @@ using ::boost::fusion::tuple_element;
 #endif
 
 #endif
-
-
-

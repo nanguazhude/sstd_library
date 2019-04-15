@@ -84,4 +84,3 @@ main(int, char const* [])
 }
 
 #endif
-

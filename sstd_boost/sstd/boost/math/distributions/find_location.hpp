@@ -143,5 +143,3 @@ namespace boost
 } // namespace math
 
 #endif // BOOST_STATS_FIND_LOCATION_HPP
-
-

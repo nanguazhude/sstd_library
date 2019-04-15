@@ -112,4 +112,3 @@ BOOST_AUTO_TEST_CASE( test_main )
   BOOST_CXX14_CONSTEXPR bool constexpr_iota_n_res = test_constexpr_iota_n ();
   BOOST_CHECK(constexpr_iota_n_res);
 }
-

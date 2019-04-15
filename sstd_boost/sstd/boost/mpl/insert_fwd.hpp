@@ -22,4 +22,3 @@ template< typename Sequence, typename Pos_or_T, typename T > struct insert;
 }}
 
 #endif // BOOST_MPL_INSERT_FWD_HPP_INCLUDED
-

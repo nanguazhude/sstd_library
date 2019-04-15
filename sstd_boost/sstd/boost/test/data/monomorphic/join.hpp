@@ -159,5 +159,3 @@ operator+( DataSet1&& ds1, DataSet2&& ds2 )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_DATA_MONOMORPHIC_JOIN_HPP_112711GER
-
-

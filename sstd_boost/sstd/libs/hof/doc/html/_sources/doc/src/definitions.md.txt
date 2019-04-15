@@ -70,5 +70,3 @@ constexpr auto if_(IntegralConstant);
 ```
 
 Its usage is the same except it has the extra benefit that the function can be directly passed to another function.
-
-

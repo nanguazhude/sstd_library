@@ -291,4 +291,3 @@ template< class D, class T > D * get_deleter( shared_array<T> const & p ) BOOST_
 } // namespace boost
 
 #endif  // #ifndef BOOST_SMART_PTR_SHARED_ARRAY_HPP_INCLUDED
-

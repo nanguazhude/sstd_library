@@ -25,4 +25,3 @@ void test()
     boost::chrono::time_point<Clock, Duration1> t1 = t2;
     }
 }
-

@@ -190,4 +190,3 @@ destructor<Class> load_dtor(Lib & lib, const mangled_storage_impl::dtor_sym & dt
 }}} // namespace boost::dll::detail
 
 #endif /* BOOST_DLL_DETAIL_CTOR_DTOR_HPP_ */
-

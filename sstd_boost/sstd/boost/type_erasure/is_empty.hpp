@@ -26,4 +26,3 @@ bool is_empty(const T& arg) {
 }
 
 #endif
-

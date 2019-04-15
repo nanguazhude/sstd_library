@@ -60,4 +60,3 @@ public:
 }} // namespect boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_TURNS_REMOVE_DUPLICATE_TURNS_HPP
-

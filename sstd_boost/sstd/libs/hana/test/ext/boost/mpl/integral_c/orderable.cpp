@@ -22,4 +22,3 @@ int main() {
 
     hana::test::TestOrderable<hana::ext::boost::mpl::integral_c_tag<int>>{ints};
 }
-

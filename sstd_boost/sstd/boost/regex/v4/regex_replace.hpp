@@ -95,6 +95,3 @@ std::basic_string<charT> regex_replace(const std::basic_string<charT>& s,
 } // namespace boost
 
 #endif  // BOOST_REGEX_V4_REGEX_REPLACE_HPP
-
-
-

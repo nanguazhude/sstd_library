@@ -103,4 +103,3 @@ main(int, char *[])
     test_undirected<Graph>();
     // test<Digraph>();
 }
-

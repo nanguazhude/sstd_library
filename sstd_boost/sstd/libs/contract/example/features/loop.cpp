@@ -37,5 +37,3 @@ int main() {
     assert(total == 6);
     return 0;
 }
-
-

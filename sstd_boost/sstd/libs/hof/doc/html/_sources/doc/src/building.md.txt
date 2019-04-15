@@ -43,5 +43,3 @@ Then html documentation can be generated using `sphinx-build`:
     sphinx-build -b html doc/ doc/html/
 
 The final docs will be in the `doc/html` folder.
-
-

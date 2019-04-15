@@ -187,4 +187,3 @@ bool sample(bilinear_sampler, SrcView const& src, point<F> const& p, DstP& resul
 }}  // namespace boost::gil
 
 #endif
-

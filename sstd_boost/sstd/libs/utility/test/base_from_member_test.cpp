@@ -591,4 +591,3 @@ good_class_2::~good_class_2
      << static_cast<base_class *>(this) << '.' << std::endl;
     #endif
 }
-

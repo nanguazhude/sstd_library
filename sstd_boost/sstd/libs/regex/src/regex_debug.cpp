@@ -52,9 +52,3 @@ BOOST_REGEX_DECL void BOOST_REGEX_CALL print_regex_library_info()
 }
 
 #endif
-
-
-
-
-
-

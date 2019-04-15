@@ -178,4 +178,3 @@ struct seek_filter_impl<any_tag> {
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>
 
 #endif // #ifndef BOOST_IOSTREAMS_SEEK_HPP_INCLUDED
-

@@ -427,4 +427,3 @@ class bounded_pointer_holder
 }; // class bounded_pointer_holder
 
 #endif
-

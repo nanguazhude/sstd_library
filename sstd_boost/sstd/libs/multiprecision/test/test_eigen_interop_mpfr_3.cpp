@@ -13,4 +13,3 @@ int main()
    test_float_type_3<boost::multiprecision::mpfr_float>();
    return 0;
 }
-

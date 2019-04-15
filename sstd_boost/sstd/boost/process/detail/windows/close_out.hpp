@@ -51,4 +51,3 @@ void close_out<1,2>::on_setup(WindowsExecutor &e) const
 }}}}
 
 #endif
-

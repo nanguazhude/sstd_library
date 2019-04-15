@@ -190,4 +190,3 @@ public:
 } // namespace boost
 
 #endif
-

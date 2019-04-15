@@ -342,4 +342,3 @@ std::ostream& operator<<(std::ostream& os,const measurement<Y>& val)
 } // namespace boost
 
 #endif // BOOST_UNITS_MEASUREMENT_HPP
-

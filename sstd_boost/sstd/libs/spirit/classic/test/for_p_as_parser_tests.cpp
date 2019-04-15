@@ -50,4 +50,3 @@ main()
 
     r = BOOST_SPIRIT_CLASSIC_NS::for_p(init_ftor(), r, step_ftor())[r];
 }
-

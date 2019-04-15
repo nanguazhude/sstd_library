@@ -89,4 +89,3 @@ struct element_type {
 } /* boost */
 
 #endif
-

@@ -64,4 +64,3 @@ void discrete_dynamic_interval_bounds_4_bicremental_types()
 
 
 #endif // BOOST_ICL_TEST_ICL_DYNAMIC_INTERVAL_HPP_JOFA_100930
-

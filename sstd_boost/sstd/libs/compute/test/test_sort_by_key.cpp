@@ -205,4 +205,3 @@ BOOST_AUTO_TEST_CASE(sort_custom_struct_by_int)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

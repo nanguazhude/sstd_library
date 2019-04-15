@@ -191,4 +191,3 @@ void test_rtree_elements_exceptions(Parameters const& parameters = Parameters())
 }
 
 #endif // BOOST_GEOMETRY_INDEX_TEST_RTREE_EXCEPTIONS_HPP
-

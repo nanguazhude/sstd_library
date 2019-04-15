@@ -1370,5 +1370,3 @@ template <class time_type, class CharT, class InItrT>
 
 
 #endif
-
-

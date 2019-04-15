@@ -373,4 +373,3 @@ BOOST_AUTO_TEST_CASE( validate_faure_discard )
   test_faure_discard(faure_07_100, 2400);
   test_faure_discard(faure_16_100, 83520);
 }
-

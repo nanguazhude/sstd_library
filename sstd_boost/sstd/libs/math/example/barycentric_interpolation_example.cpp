@@ -90,4 +90,3 @@ int main()
     }
 }
 //] [/barycentric_rational_example]
-

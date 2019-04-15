@@ -48,4 +48,3 @@
 #include <sstd/boost/xpressive/detail/core/matcher/true_matcher.hpp>
 
 #endif
-

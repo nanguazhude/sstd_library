@@ -54,4 +54,3 @@
   };
 
 #endif  // BOOST_FILESYSTEM3_WIN_FILE_CODECVT_HPP
-

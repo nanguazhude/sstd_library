@@ -46,4 +46,3 @@ struct static_epsg
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_SRS_PROJECTIONS_EPSG_PARAMS_HPP
-

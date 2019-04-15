@@ -91,5 +91,3 @@ void test_spots(T, const char* type_name)
 
     do_test_jacobi_zeta<T>(jacobi_zeta_big_phi, type_name, "Elliptic Integral Jacobi Zeta: Large Phi Values");
 }
-
-

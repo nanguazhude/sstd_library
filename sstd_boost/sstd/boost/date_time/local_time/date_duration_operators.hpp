@@ -113,4 +113,3 @@ namespace local_time {
 }} // namespaces
 
 #endif // LOCAL_TIME_DATE_DURATION_OPERATORS_HPP___
-

@@ -53,4 +53,3 @@ namespace registry
 }}} // namespace boost::python::converter
 
 #endif // REGISTRY_DWA20011127_HPP
-

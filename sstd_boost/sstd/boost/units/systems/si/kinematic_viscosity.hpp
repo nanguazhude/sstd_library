@@ -29,4 +29,3 @@ typedef unit<kinematic_viscosity_dimension,si::system>     kinematic_viscosity;
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_KINEMATIC_VISCOSITY_HPP
-

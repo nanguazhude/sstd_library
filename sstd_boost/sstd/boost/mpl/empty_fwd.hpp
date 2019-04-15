@@ -22,4 +22,3 @@ template< typename Sequence > struct empty;
 }}
 
 #endif // BOOST_MPL_EMPTY_FWD_HPP_INCLUDED
-

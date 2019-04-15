@@ -265,4 +265,3 @@ struct equal_to
 }}} // namespace boost::geometry::index
 
 #endif // BOOST_GEOMETRY_INDEX_EQUAL_TO_HPP
-

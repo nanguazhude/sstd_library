@@ -295,4 +295,3 @@ int test_main(int, char* [])
   test_signal_deletion();
   return 0;
 }
-

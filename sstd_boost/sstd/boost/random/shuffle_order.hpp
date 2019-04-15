@@ -267,4 +267,3 @@ using random::kreutzer1986;
 #include <sstd/boost/random/detail/enable_warnings.hpp>
 
 #endif // BOOST_RANDOM_SHUFFLE_OUTPUT_HPP
-

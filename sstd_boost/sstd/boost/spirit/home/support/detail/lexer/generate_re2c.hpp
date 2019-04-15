@@ -438,4 +438,3 @@ void generate_re2c (const basic_state_machine<CharT> &state_machine_,
 }
 }
 #endif
-

@@ -434,4 +434,3 @@ inline int report_errors()
 #endif
 
 #endif // #ifndef BOOST_CORE_LIGHTWEIGHT_TEST_HPP
-

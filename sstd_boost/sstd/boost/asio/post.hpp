@@ -107,4 +107,3 @@ BOOST_ASIO_INITFN_RESULT_TYPE(CompletionToken, void()) post(
 #include <sstd/boost/asio/impl/post.hpp>
 
 #endif // BOOST_ASIO_POST_HPP
-

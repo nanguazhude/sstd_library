@@ -1201,4 +1201,3 @@ static std::string mysql_23023665_13[2] =
 };
 
 #endif // BOOST_GEOMETRY_TEST_OVERLAY_CASES_HPP
-

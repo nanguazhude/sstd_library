@@ -21,4 +21,3 @@ tester()
     (void) to_string(n1::c1());
     return 1;
     }
-

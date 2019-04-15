@@ -28,4 +28,3 @@ typedef derived_dimension<time_base_dimension,-2,
 } // namespace boost
 
 #endif // BOOST_UNITS_ANGULAR_ACCELERATION_DERIVED_DIMENSION_HPP
-

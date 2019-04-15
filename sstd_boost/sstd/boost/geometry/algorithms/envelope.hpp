@@ -23,4 +23,3 @@
 #include <sstd/boost/geometry/algorithms/detail/envelope/implementation.hpp>
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_ENVELOPE_HPP
-

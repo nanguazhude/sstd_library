@@ -327,4 +327,3 @@ gzofstream::gzofstream( int fd, int io_mode ) :
 }
 
 gzofstream::~gzofstream() { }
-

@@ -163,4 +163,3 @@ namespace detail {
 
 
 #endif // BOOST_NUMERIC_ODEINT_ALGEBRA_DETAIL_FOR_EACH_HPP_INCLUDED
-

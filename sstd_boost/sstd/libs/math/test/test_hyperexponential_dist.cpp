@@ -386,4 +386,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(error_cases, RealT, test_types)
    BOOST_MATH_CHECK_THROW(dist_t(probs.begin(), probs.begin(), rates.begin(), rates.begin()), std::domain_error);
    BOOST_MATH_CHECK_THROW(dist_t(rates.begin(), rates.begin()), std::domain_error);
 }
-

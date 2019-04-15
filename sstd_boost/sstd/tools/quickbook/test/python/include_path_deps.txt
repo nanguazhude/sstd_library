@@ -4,4 +4,3 @@
 include_path.qbk
 sub1/a.qbk
 sub2/b.qbk
-

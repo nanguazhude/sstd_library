@@ -23,4 +23,3 @@ using result = meta::fold<list, state, f>;
 int main() {
 
 }
-

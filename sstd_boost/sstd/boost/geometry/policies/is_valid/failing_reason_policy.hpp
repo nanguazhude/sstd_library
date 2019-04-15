@@ -222,4 +222,3 @@ private:
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_POLICIES_IS_VALID_FAILING_REASON_POLICY_HPP
-

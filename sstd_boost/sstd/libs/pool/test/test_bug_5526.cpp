@@ -34,4 +34,3 @@ int main()
    aptr.reset(new bad());
    return 0;
 }
-

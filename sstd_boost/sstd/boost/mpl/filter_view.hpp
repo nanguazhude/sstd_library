@@ -44,4 +44,3 @@ BOOST_MPL_AUX_NA_SPEC(2, filter_view)
 }}
 
 #endif // BOOST_MPL_FILTER_VIEW_HPP_INCLUDED
-

@@ -32,4 +32,3 @@ BOOST_AUTO_TEST_CASE(test_negate)
     any<test_concept> y(-x);
     BOOST_CHECK_EQUAL(any_cast<int>(y), -1);
 }
-

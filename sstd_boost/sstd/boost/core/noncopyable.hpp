@@ -61,4 +61,3 @@ typedef noncopyable_::noncopyable noncopyable;
 } // namespace boost
 
 #endif  // BOOST_CORE_NONCOPYABLE_HPP
-

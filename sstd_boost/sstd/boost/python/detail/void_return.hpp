@@ -40,4 +40,3 @@ template <> struct returnable<const volatile void> : returnable<void> {};
 }}} // namespace boost::python::detail
 
 #endif // VOID_RETURN_DWA200274_HPP
-

@@ -253,4 +253,3 @@ read_graphml(std::istream& in, mutate_graph& g, size_t desired_idx)
     reader.run(in, desired_idx);
 }
 }
-

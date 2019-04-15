@@ -441,4 +441,3 @@ for_(InitT const& init, CondT const& cond, StepT const& step)
 }   //  namespace phoenix
 
 #endif
-

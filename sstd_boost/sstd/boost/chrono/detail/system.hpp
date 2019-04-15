@@ -18,4 +18,3 @@ namespace chrono {
 
 #endif
 #endif
-

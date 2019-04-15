@@ -612,4 +612,3 @@ struct is_trivially_destructible<boost::container::dtl::pair<A,B> >
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_CONTAINER_DETAIL_PAIR_HPP
-

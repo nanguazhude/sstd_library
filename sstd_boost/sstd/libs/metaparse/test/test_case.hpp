@@ -15,5 +15,3 @@
   void BOOST_PP_CAT(metaparse_test_case_, name)()
 
 #endif
-
-

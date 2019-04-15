@@ -131,4 +131,3 @@ namespace boost { namespace polygon{
 }
 }
 #endif
-

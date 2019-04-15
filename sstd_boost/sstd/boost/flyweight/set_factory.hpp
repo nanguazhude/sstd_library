@@ -80,4 +80,3 @@ struct set_factory:factory_marker
 } /* namespace boost */
 
 #endif
-

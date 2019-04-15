@@ -77,4 +77,3 @@ bool test_rule_delimited(Char const *expected, Attribute const& attr
 struct my_type {};
 
 #endif
-

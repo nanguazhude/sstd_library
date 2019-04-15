@@ -12,4 +12,3 @@
 #include <sstd/boost/fusion/mpl.hpp>
 
 #endif
-

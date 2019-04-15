@@ -50,4 +50,3 @@ int module_get_fixed_var( module_t *, OBJECT * name );
 void modules_done();
 
 #endif
-

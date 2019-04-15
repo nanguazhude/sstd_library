@@ -183,5 +183,3 @@ int test_main(int, char* [])
     test_all<bg::model::d2::point_xy<double>, true, false>();
     return 0;
 }
-
-

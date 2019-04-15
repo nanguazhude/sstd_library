@@ -36,4 +36,3 @@ typedef std::ptrdiff_t index;
 
 
 #endif // BOOST_MULTI_ARRAY_TYPES_RG071801_HPP
-

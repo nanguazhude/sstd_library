@@ -41,4 +41,3 @@
 
 #include <sstd/boost/predef/detail/test.h>
 BOOST_PREDEF_DECLARE_TEST(BOOST_PLAT_CLOUDABI,BOOST_PLAT_CLOUDABI_NAME)
-

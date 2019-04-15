@@ -152,5 +152,3 @@ namespace projections
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_PROJECTIONS_DENOY_HPP
-
-

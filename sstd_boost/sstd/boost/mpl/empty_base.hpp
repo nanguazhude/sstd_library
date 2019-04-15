@@ -61,4 +61,3 @@ public:
 }
 
 #endif // BOOST_MPL_EMPTY_BASE_HPP_INCLUDED
-

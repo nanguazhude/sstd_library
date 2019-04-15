@@ -29,4 +29,3 @@ template <class T> using type_identity_t = typename type_identity<T>::type;
 } // namespace boost
 
 #endif // #ifndef BOOST_TYPE_TRAITS_TYPE_IDENTITY_HPP_INCLUDED
-

@@ -26,4 +26,3 @@ main()
   (void)x; // suppress unused variable warning
   return 0;
 }
-

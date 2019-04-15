@@ -28,4 +28,3 @@ add_executable (bench-zlib
 )
 
 set_property(TARGET bench-zlib PROPERTY FOLDER "tests-bench")
-

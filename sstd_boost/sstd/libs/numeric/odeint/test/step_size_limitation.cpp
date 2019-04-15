@@ -266,4 +266,3 @@ BOOST_AUTO_TEST_CASE( test_dense_out_rosenbrock )
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

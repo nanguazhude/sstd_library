@@ -27,4 +27,3 @@ int main() {
     hana::test::TestRing<hana::integral_constant_tag<int>>{ints};
     hana::test::TestEuclideanRing<hana::integral_constant_tag<int>>{ints};
 }
-

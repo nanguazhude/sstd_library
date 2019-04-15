@@ -50,4 +50,3 @@
 #undef BOOST_PROTO_LOCAL_A
 #undef BOOST_PROTO_LOCAL_A_a
 #undef BOOST_PROTO_LOCAL_a
-

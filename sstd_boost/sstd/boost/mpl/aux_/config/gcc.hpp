@@ -21,4 +21,3 @@
 #endif
 
 #endif // BOOST_MPL_AUX_CONFIG_GCC_HPP_INCLUDED
-

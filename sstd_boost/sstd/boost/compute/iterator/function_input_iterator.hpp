@@ -184,4 +184,3 @@ struct is_device_iterator<function_input_iterator<Function> > : boost::true_type
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ITERATOR_FUNCTION_INPUT_ITERATOR_HPP
-

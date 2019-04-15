@@ -327,5 +327,3 @@ namespace boost { namespace date_time {
 } } //namespace
 
 #endif // DATE_TIME_DATE_GENERATOR_PARSER_HPP__
-
-

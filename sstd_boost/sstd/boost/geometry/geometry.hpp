@@ -119,4 +119,3 @@
 #include <sstd/boost/geometry/io/wkt/write.hpp>
 
 #endif // BOOST_GEOMETRY_GEOMETRY_HPP
-

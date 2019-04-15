@@ -87,4 +87,3 @@ MPL_TEST_CASE() // if_ evaluation
     MPL_ASSERT(( boost::is_same<r2,int_<0> > ));
 }
 #endif
-

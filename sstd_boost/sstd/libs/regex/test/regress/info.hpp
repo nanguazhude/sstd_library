@@ -265,5 +265,3 @@ private:
 };
 
 #endif
-
-

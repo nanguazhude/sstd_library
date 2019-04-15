@@ -92,4 +92,3 @@ inline bool spin_semaphore::timed_wait(const boost::posix_time::ptime &abs_time)
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_DETAIL_SPIN_SEMAPHORE_HPP
-

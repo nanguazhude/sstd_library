@@ -426,4 +426,3 @@ T * to_raw_pointer(boost::interprocess::shared_ptr<T, VoidAllocator, Deleter> co
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif  // #ifndef BOOST_INTERPROCESS_SHARED_PTR_HPP_INCLUDED
-

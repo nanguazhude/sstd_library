@@ -55,4 +55,3 @@ struct not_equality_comparable:std::logic_error
 } /* namespace boost */
 
 #endif
-

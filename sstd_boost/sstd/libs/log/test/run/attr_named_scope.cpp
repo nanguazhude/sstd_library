@@ -188,4 +188,3 @@ BOOST_AUTO_TEST_CASE(copying)
     BOOST_CHECK_EQUAL(sc.size(), 1UL);
     BOOST_CHECK_EQUAL(named_scope::get_scopes().size(), 2UL);
 }
-

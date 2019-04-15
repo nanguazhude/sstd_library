@@ -94,4 +94,3 @@ private:
 } // boost
 
 #endif
-

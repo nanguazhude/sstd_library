@@ -253,4 +253,3 @@ using extract::weighted_p_square_quantile_for_median;
 }} // namespace boost::accumulators
 
 #endif
-

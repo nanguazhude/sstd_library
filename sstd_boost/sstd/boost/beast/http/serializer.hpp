@@ -369,4 +369,3 @@ using response_serializer = serializer<false, Body, Fields>;
 #include <sstd/boost/beast/http/impl/serializer.ipp>
 
 #endif
-

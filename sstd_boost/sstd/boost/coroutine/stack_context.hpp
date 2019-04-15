@@ -64,4 +64,3 @@ struct stack_context
 #endif
 
 #endif // BOOST_COROUTINES_STACK_CONTEXT_H
-

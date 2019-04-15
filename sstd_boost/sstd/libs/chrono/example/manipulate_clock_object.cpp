@@ -58,5 +58,3 @@ int main()
     manipulate_clock_object(system_clock());
     return 0;
 }
-
-

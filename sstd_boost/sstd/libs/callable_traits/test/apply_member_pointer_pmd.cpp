@@ -28,5 +28,3 @@ int main() {
     test_case<int(* const)(),   int(* const foo::*)()>();
     test_case<int(* const &)(), int(* const foo::*)()>();
 }
-
-

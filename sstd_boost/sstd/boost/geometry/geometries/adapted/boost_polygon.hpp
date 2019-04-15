@@ -15,5 +15,3 @@
 #include <sstd/boost/geometry/geometries/adapted/boost_polygon/polygon.hpp>
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_ADAPTED_BOOST_POLYGON_HPP
-
-

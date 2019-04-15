@@ -572,4 +572,3 @@ void * GC_malloc_atomic_uncollectable(size_t lb)
 }
 
 #endif /* ATOMIC_UNCOLLECTABLE */
-

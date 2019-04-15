@@ -109,4 +109,3 @@ size_t integrate_const(
 } } } }
 
 #endif
-

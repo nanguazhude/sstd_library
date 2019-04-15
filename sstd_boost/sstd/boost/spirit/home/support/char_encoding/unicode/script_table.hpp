@@ -2157,4 +2157,3 @@ namespace boost { namespace spirit { namespace ucd { namespace detail
     }
 
 }}}} // namespace boost::spirit::unicode::detail
-

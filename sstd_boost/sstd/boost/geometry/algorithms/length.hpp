@@ -316,4 +316,3 @@ length(Geometry const& geometry, Strategy const& strategy)
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_LENGTH_HPP
-

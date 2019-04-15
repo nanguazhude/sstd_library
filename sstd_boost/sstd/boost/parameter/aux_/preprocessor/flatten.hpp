@@ -112,5 +112,3 @@
     )
 
 #endif // BOOST_PARAMETER_FLATTEN_051217_HPP
-
-

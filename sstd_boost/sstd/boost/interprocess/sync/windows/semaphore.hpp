@@ -115,4 +115,3 @@ inline void windows_semaphore::post(long release_count)
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_DETAIL_WINDOWS_SEMAPHORE_HPP
-

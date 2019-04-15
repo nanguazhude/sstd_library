@@ -40,4 +40,3 @@ Pyramid 9810 architecture.
 
 #include <sstd/boost/predef/detail/test.h>
 BOOST_PREDEF_DECLARE_TEST(BOOST_ARCH_PYRAMID,BOOST_ARCH_PYRAMID_NAME)
-

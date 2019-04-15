@@ -17,4 +17,3 @@ int main()
 
     rule<> chars = ch_p("string");
 }
-

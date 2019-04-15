@@ -34,4 +34,3 @@ struct text_outputter
 };
 
 #endif // BOOST_GEOMETRY_SUPPORT_STATUS_TEXT_OUTPUTTER_HPP
-

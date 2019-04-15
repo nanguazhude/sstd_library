@@ -40,4 +40,3 @@ namespace boost
 
 
 #endif
-

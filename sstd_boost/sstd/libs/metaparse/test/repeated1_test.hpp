@@ -95,6 +95,3 @@ BOOST_METAPARSE_TEST_CASE(TEST_NAME)
     >
   ));
 }
-
-
-

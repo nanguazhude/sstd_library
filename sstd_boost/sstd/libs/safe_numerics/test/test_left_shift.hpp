@@ -139,4 +139,3 @@ bool test_left_shift(
 }
 
 #endif // BOOST_TEST_DIVIDE
-

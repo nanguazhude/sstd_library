@@ -1299,4 +1299,3 @@ struct extra_operations< Base, 8u, Signed, true > :
 #endif
 
 #endif // BOOST_ATOMIC_DETAIL_EXTRA_OPS_MSVC_X86_HPP_INCLUDED_
-

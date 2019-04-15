@@ -1,4 +1,4 @@
-/*
+﻿/*
 * SHAKE-128 as a stream cipher
 * (C) 2016 Jack Lloyd
 *

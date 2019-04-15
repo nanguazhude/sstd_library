@@ -558,4 +558,3 @@ void sample_sort(Iter_t first, Iter_t last, Compare comp, uint32_t nthread)
 //****************************************************************************
 //
 #endif
-

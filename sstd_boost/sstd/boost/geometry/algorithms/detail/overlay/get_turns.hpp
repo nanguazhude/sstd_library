@@ -1052,4 +1052,3 @@ inline void get_turns(Geometry1 const& geometry1,
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_GET_TURNS_HPP
-

@@ -115,4 +115,3 @@ struct check_map<Concept, ::boost::type_erasure::static_binding<Map> > :
 }
 
 #endif
-

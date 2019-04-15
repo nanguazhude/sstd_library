@@ -387,4 +387,3 @@ int main()
 // - Performance!!
 //      - is channel_convert the same as native?
 //      - is operator++ on float32_t the same as native? How about if operator++ is defined in scoped_channel to do _value++?
-

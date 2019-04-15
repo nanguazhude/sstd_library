@@ -82,4 +82,3 @@ struct enrichment_info
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_ENRICHMENT_INFO_HPP
-

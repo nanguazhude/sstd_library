@@ -42,4 +42,3 @@ inline void tabulate(Iterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_EXPERIMENTAL_TABULATE_HPP
-

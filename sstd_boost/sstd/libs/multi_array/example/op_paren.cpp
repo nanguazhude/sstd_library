@@ -27,4 +27,3 @@ int main () {
   assert(A(idx) == 3.14);
   return boost::exit_success;
 }
-

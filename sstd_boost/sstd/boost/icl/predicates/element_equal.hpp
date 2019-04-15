@@ -29,5 +29,3 @@ namespace boost{namespace icl
 }} // namespace icl boost
 
 #endif
-
-

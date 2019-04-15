@@ -22,5 +22,3 @@ int main()
    test<boost::multiprecision::mpq_rational>();
    return boost::report_errors();
 }
-
-

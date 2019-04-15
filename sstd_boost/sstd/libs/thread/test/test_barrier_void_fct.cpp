@@ -65,5 +65,3 @@ int main()
     test_barrier();
     return boost::report_errors();
 }
-
-

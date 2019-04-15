@@ -68,4 +68,3 @@ struct tag< geometry::detail::boundary_view<Geometry> >
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_VIEWS_DETAIL_BOUNDARY_VIEW_INTERFACE_HPP
-

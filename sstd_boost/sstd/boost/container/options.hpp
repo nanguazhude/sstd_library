@@ -243,4 +243,3 @@ using vector_options_t = typename boost::container::vector_options<Options...>::
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_CONTAINER_OPTIONS_HPP
-

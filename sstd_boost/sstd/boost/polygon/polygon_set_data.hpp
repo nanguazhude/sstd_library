@@ -1004,4 +1004,3 @@ namespace boost { namespace polygon {
 #include "polygon_set_concept.hpp"
 #include "detail/minkowski.hpp"
 #endif
-

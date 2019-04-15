@@ -1,4 +1,4 @@
-/*
+﻿/*
  * XMSS WOTS Private Key
  * (C) 2016,2017 Matthias Gierlings
  *
@@ -332,4 +332,3 @@ class XMSS_WOTS_PrivateKey final : public virtual XMSS_WOTS_PublicKey,
 }
 
 #endif
-

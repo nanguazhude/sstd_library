@@ -1228,4 +1228,3 @@ namespace boost {
 #endif
 
 #endif // BOOST_VF2_SUB_GRAPH_ISO_HPP
-

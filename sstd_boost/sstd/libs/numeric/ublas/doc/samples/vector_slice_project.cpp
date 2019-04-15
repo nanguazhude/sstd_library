@@ -21,5 +21,3 @@ int main () {
         project (v, slice (0, 1, 3)) (i) = i;
     std::cout << project (v, slice (0, 1, 3)) << std::endl;
 }
-
-

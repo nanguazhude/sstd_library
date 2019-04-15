@@ -40,4 +40,3 @@ BOOST_UNITS_STATIC_CONSTANT(revolutions,plane_angle);
 } // namespace boost
 
 #endif // BOOST_UNITS_ANGLE_REVOLUTIONS_HPP
-

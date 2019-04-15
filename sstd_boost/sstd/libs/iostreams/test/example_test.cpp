@@ -459,4 +459,3 @@ test_suite* init_unit_test_suite(int, char* [])
     test->add(BOOST_TEST_CASE(&unix2dos_filter_test));
     return test;
 }
-

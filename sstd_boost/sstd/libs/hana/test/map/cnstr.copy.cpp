@@ -112,4 +112,3 @@ int main() {
         static_assert(!std::is_copy_constructible<Map2>::value, "");
     }
 }
-

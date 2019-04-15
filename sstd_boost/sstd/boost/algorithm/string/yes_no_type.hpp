@@ -31,4 +31,3 @@ namespace boost {
 
 
 #endif  // BOOST_STRING_YES_NO_TYPE_DETAIL_HPP
-

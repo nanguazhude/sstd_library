@@ -13,4 +13,3 @@ test_parallel_stable_sort.cpp
 test_pdqsort.cpp
 test_sample_sort.cpp
 test_spinsort.cpp
-

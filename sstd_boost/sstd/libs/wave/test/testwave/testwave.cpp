@@ -299,4 +299,3 @@ main(int argc, char *argv[])
 
     return error_count + config_file_error_count;
 }
-

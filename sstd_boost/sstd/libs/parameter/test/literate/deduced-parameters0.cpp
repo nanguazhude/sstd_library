@@ -71,5 +71,3 @@ def(
     "f", &f
    , _policies = some_policies, "Documentation for f");
 }
-
-

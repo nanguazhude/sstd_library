@@ -186,4 +186,3 @@ struct pointer_rebind<T*, U>
 }  //namespace boost {
 
 #endif // defined(BOOST_INTRUSIVE_POINTER_REBIND_HPP)
-

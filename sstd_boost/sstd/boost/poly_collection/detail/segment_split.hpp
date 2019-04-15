@@ -152,4 +152,3 @@ void for_each_segment(
 } /* namespace boost */
 
 #endif
-

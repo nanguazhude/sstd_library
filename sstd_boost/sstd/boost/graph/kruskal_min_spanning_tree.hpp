@@ -152,5 +152,3 @@ namespace boost {
 
 
 #endif // BOOST_GRAPH_MST_KRUSKAL_HPP
-
-

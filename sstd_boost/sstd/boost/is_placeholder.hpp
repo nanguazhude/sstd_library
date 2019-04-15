@@ -29,4 +29,3 @@ template< class T > struct is_placeholder
 } // namespace boost
 
 #endif // #ifndef BOOST_IS_PLACEHOLDER_HPP_INCLUDED
-

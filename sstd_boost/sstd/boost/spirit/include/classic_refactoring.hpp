@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_REFACTORING
 #include <sstd/boost/spirit/home/classic/meta/refactoring.hpp>
 #endif
-

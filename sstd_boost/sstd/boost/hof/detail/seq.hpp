@@ -44,4 +44,3 @@ template<> struct gens<1> : seq<0> {};
 }} // namespace boost::hof
 
 #endif
-

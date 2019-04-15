@@ -74,4 +74,3 @@
         BOOST_FUSION_ADAPT_ADT_C)
 
 #endif
-

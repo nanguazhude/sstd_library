@@ -259,4 +259,3 @@ bind(F f, A1 a1, A2 a2, A3 a3)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_FUNCTIONAL_BIND_HPP
-

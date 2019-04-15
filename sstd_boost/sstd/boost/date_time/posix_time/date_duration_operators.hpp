@@ -112,4 +112,3 @@ namespace posix_time {
 }} // namespaces
 
 #endif // DATE_DURATION_OPERATORS_HPP___
-

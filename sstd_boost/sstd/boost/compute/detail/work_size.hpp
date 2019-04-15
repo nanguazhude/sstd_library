@@ -35,4 +35,3 @@ inline size_t calculate_work_size(size_t count, size_t vpt, size_t tpb)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_DETAIL_WORK_SIZE_HPP
-

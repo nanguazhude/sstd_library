@@ -80,4 +80,3 @@ format_named_scope(attribute_actor< T, FallbackPolicyT, TagT, ActorT > const& pl
     >::type char_type;
     return aux::format_named_scope< char_type, ActorT >(placeholder.get_name(), placeholder.get_fallback_policy(), (BOOST_PP_ENUM_PARAMS(BOOST_PP_ITERATION(), arg)));
 }
-

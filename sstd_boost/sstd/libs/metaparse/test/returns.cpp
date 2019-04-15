@@ -20,5 +20,3 @@ BOOST_METAPARSE_TEST_CASE(returns)
   // test_returns_evaluates_to_its_argument
   BOOST_MPL_ASSERT((is_same<int, returns<int>::type>));
 }
-
-

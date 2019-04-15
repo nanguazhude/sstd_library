@@ -23,4 +23,3 @@ int test_main( int, char* [] )
   machine.process_event( EvX() );
   return 0;
 }
-

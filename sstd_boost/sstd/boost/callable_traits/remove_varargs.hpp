@@ -89,4 +89,3 @@ struct remove_varargs : detail::remove_varargs_impl<T> {};
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_REMOVE_VARARGS_HPP
-

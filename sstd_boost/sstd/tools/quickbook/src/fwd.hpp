@@ -29,4 +29,3 @@ namespace quickbook
 }
 
 #endif
-

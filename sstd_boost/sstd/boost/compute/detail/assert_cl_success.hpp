@@ -22,4 +22,3 @@
 #endif
 
 #endif // BOOST_COMPUTE_DETAIL_ASSERT_CL_SUCCESS_HPP
-

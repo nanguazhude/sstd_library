@@ -502,4 +502,3 @@ assign_if(const Predicate& pred, Type& object, const Type& src)
 }} // namespace boost icl
 
 #endif
-

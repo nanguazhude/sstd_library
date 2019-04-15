@@ -16,4 +16,3 @@
 #define TUPLE_TAG ::boost::hana::ext::boost::fusion::deque_tag
 
 #endif // !BOOST_HANA_TEST_EXT_BOOST_FUSION_DEQUE_AUTO_SPECS_HPP
-

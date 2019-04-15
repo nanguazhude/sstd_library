@@ -56,8 +56,3 @@ BOOST_MPL_ASSERT((
     ft::parameter_types<mem_func_ptr, mpl::always<X> >
   ,0 >::type, X >
 ));
-
-
-
-
-

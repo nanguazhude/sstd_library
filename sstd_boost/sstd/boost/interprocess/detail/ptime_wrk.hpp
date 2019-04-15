@@ -38,5 +38,3 @@
 #endif   //#ifdef _WIN32
 
 #endif   //#ifndef BOOST_INTERPROCESS_PTIME_WRK_HPP
-
-

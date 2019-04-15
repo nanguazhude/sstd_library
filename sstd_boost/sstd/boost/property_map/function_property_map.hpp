@@ -64,4 +64,3 @@ make_function_property_map(const Func& f) {
 } // boost
 
 #endif /* BOOST_PROPERTY_MAP_FUNCTION_PROPERTY_MAP_HPP */
-

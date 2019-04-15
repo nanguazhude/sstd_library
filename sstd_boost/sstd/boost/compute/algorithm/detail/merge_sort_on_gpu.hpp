@@ -592,4 +592,3 @@ inline void merge_sort_on_gpu(Iterator first,
 } // end boost namespace
 
 #endif /* BOOST_COMPUTE_ALGORITHM_DETAIL_MERGE_SORT_ON_GPU_HPP_ */
-

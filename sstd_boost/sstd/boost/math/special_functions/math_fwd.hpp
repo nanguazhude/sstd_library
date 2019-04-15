@@ -1676,4 +1676,3 @@ template <class OutputIterator, class T>\
 
 
 #endif // BOOST_MATH_SPECIAL_MATH_FWD_HPP
-

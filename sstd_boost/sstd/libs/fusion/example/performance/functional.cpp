@@ -305,4 +305,3 @@ int main()
 
     return total;
 }
-

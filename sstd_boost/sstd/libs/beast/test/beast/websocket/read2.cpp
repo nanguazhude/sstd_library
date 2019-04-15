@@ -693,4 +693,3 @@ BEAST_DEFINE_TESTSUITE(beast,websocket,read2);
 } // websocket
 } // beast
 } // boost
-

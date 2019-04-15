@@ -27,4 +27,3 @@ namespace boost { namespace callable_traits { namespace detail {
 }}} // namespace boost::callable_traits::detail
 
 #endif // #ifndef BOOST_CLBL_TRTS_DETAIL_TRAITS_HPP
-

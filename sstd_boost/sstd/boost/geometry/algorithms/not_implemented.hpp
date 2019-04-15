@@ -129,4 +129,3 @@ struct not_implemented
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_NOT_IMPLEMENTED_HPP
-

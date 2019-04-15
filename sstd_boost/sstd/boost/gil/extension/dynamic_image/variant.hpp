@@ -200,4 +200,3 @@ inline bool operator!=(const variant<C>& x, const variant<C>& y) {
 } }  // namespace boost::gil
 
 #endif
-

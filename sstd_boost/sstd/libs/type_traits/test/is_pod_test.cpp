@@ -187,12 +187,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_pod<boost::float128_type>::value, true);
 #endif
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-

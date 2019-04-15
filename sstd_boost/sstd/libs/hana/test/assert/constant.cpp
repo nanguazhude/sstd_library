@@ -51,4 +51,3 @@ int main() {
     BOOST_HANA_CONSTANT_ASSERT(yes);
     BOOST_HANA_CONSTANT_ASSERT_MSG(yes, "message");
 }
-

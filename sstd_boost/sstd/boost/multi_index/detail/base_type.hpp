@@ -72,4 +72,3 @@ struct multi_index_base_type:nth_layer<0,Value,IndexSpecifierList,Allocator>
 } /* namespace boost */
 
 #endif
-

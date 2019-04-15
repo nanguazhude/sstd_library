@@ -11,4 +11,3 @@ static_assert(hana::make_tuple(1, 2, 3) < hana::make_tuple(2, 3, 4), "");
 static_assert(hana::make_tuple(1, 2, 3) < hana::make_tuple(1, 2, 3, 4), "");
 
 int main() { }
-

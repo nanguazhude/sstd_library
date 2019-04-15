@@ -61,5 +61,3 @@ struct custom_uint
 };
 
 #endif
-
-

@@ -21,4 +21,3 @@
 #include <sstd/boost/algorithm/string/regex.hpp>
 
 #endif  // BOOST_STRING_ALGO_REGEX_HPP
-

@@ -116,4 +116,3 @@ namespace boost { namespace fusion
 #undef ZIP_ITERATION
 
 #endif
-

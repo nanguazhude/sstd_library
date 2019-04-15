@@ -45,4 +45,3 @@ int main()
 }
 
 #endif // defined(BOOST_HASH_TEST_EXTENSIONS) && !defined(BOOST_HASH_TEST_STD_INCLUDES)
-

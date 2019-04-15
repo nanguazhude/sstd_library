@@ -10,4 +10,3 @@
 
 // deprecated, use <sstd/boost/compute/image/image3d.hpp> instead
 #include <sstd/boost/compute/image/image3d.hpp>
-

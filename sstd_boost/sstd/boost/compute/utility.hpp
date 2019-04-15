@@ -19,4 +19,3 @@
 #include <sstd/boost/compute/utility/wait_list.hpp>
 
 #endif // BOOST_COMPUTE_UTILITY_HPP
-

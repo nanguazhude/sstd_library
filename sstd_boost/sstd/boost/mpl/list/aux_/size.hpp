@@ -31,4 +31,3 @@ struct size_impl< aux::list_tag >
 }}
 
 #endif // BOOST_MPL_LIST_AUX_SIZE_HPP_INCLUDED
-

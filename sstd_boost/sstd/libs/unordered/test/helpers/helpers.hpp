@@ -54,4 +54,3 @@ namespace test {
 }
 
 #endif
-

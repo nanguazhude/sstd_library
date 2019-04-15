@@ -30,4 +30,3 @@ public:
 } // namespace archetypes
 
 #endif // ARCHETYPES_IO_CONTROL_COMMAND_HPP
-

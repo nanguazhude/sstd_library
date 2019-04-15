@@ -44,4 +44,3 @@ BOOST_AUTO_TEST_CASE(for_each_n_nop)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

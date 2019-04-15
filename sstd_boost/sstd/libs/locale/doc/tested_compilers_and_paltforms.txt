@@ -47,5 +47,3 @@ Following operating systems are tested with Boost.Locale
     build option.
 
 */
-
-

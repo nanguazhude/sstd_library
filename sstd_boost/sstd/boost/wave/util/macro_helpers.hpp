@@ -301,4 +301,3 @@ namespace impl {
 #endif
 
 #endif // !defined(MACRO_HELPERS_HPP_931BBC99_EBFA_4692_8FBE_B555998C2C39_INCLUDED)
-

@@ -255,4 +255,3 @@ namespace boost { using std::min; using std::max; }
 #  define BOOST_NO_CXX17_ITERATOR_TRAITS
 
 #define BOOST_STDLIB "STLPort standard library version " BOOST_STRINGIZE(__SGI_STL_PORT)
-

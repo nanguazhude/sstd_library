@@ -142,4 +142,3 @@ int test_main( int /* argc */, char* /* argv */[] )
     delete a_new;
     return EXIT_SUCCESS;
 }
-

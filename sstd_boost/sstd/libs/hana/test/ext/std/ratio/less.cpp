@@ -27,4 +27,3 @@ int main() {
         std::ratio<4, 10>{}
     )));
 }
-

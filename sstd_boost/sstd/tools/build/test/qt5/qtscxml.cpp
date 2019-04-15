@@ -31,4 +31,3 @@ BOOST_AUTO_TEST_CASE( scxml )
     BOOST_TEST(sessionId.isEmpty() == false);
     BOOST_TEST(sessionId == QString{"dummy1"});
 }
-

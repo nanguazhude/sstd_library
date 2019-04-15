@@ -26,4 +26,3 @@
 #include <sstd/boost/compute/random/uniform_real_distribution.hpp>
 
 #endif // BOOST_COMPUTE_RANDOM_HPP
-

@@ -17,4 +17,3 @@ add_executable (websocket-server-coro
 )
 
 set_property(TARGET websocket-server-coro PROPERTY FOLDER "example-websocket-server")
-

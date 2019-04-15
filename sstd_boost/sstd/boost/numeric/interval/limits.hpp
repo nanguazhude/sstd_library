@@ -47,4 +47,3 @@ private:
 
 
 #endif // BOOST_NUMERIC_INTERVAL_LIMITS_HPP
-

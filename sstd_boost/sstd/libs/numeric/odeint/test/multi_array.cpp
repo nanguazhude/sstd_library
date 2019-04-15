@@ -209,4 +209,3 @@ BOOST_AUTO_TEST_CASE( test_dopri5_vector )
 
 
 BOOST_AUTO_TEST_SUITE_END()
-

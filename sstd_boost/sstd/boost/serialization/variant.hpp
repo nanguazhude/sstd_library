@@ -176,4 +176,3 @@ struct tracking_level<
 } // namespace boost
 
 #endif //BOOST_SERIALIZATION_VARIANT_HPP
-

@@ -118,6 +118,3 @@ namespace other{
 
 
 #endif
-
-
-

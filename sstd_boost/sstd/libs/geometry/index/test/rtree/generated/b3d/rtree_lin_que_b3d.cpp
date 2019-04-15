@@ -15,4 +15,3 @@ int test_main(int, char* [])
     testset::queries<Indexable>(bgi::linear<5, 2>(), std::allocator<int>());
     return 0;
 }
-

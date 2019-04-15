@@ -68,4 +68,3 @@ BOOST_THREAD_INLINE_NAMESPACE(v1)
 #include <sstd/boost/config/abi_suffix.hpp>
 
 #endif
-

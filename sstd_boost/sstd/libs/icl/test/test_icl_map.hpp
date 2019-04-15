@@ -183,5 +183,3 @@ void icl_map_move_4_discrete_types()
 
 
 #endif // LIBS_ICL_TEST_TEST_ICL_MAP_HPP_JOFA_090119
-
-

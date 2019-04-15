@@ -17,4 +17,3 @@ typedef PyObject* (*to_python_function_t)(void const*);
 }}} // namespace boost::python::converter
 
 #endif // TO_PYTHON_FUNCTION_TYPE_DWA200236_HPP
-

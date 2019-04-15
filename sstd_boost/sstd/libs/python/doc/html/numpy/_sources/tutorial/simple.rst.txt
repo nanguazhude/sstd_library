@@ -38,5 +38,3 @@ Print the original and reshaped array. The array a which is a list is first conv
 	  // Print it again.
 	  std::cout << "Reshaped array:\n" << p::extract<char const *>(p::str(a)) << std::endl;
 	}
-
-

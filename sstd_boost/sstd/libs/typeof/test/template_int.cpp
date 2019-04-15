@@ -30,4 +30,3 @@ BOOST_TYPEOF_REGISTER_TEMPLATE(Tpl,
 
 BOOST_STATIC_ASSERT((boost::type_of::test<Tpl<int, 5, 4, -3, 2, true, false, -1, 5> >::value));
 BOOST_STATIC_ASSERT((boost::type_of::test<Tpl<int, 1, 1, 0, ULONG_MAX, false, true, -1, 0> >::value));
-

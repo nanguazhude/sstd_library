@@ -43,4 +43,3 @@
     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
 
 #endif // BOOST_CONCEPT_ASSERT_DWA2006430_HPP
-

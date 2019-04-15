@@ -19,4 +19,3 @@
 #include <sstd/boost/coroutine/standard_stack_allocator.hpp>
 
 #endif // BOOST_COROUTINES_ALL_H
-

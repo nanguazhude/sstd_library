@@ -32,4 +32,3 @@ struct default_strategy {};
 
 
 #endif // BOOST_GEOMETRY_STRATEGIES_DEFAULT_STRATEGY_HPP
-

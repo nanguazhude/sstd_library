@@ -43,4 +43,3 @@ template class boost::ptr_set<const int>;
 // @todo: problem with constructor forwarding
 //
 //template class boost::ptr_unordered_set<T>;
-

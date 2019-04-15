@@ -85,4 +85,3 @@ init_unit_test_suite(int argc, char* argv[])
 
     return test;
 }
-

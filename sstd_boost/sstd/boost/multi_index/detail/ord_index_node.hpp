@@ -667,4 +667,3 @@ public:
 } /* namespace boost */
 
 #endif
-

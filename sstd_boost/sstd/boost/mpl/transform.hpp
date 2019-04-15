@@ -143,4 +143,3 @@ AUX778076_TRANSFORM_DEF(reverse_transform)
 }}
 
 #endif // BOOST_MPL_TRANSFORM_HPP_INCLUDED
-

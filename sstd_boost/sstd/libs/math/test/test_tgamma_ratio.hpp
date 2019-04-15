@@ -181,4 +181,3 @@ void test_spots(T, const char*)
       }
    }
 }
-

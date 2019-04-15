@@ -326,4 +326,3 @@ BOOST_AUTO_TEST_CASE( test_main )
 //    test_float_range ();
 //    test_custom_range ();
 }
-

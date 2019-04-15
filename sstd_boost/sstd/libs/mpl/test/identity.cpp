@@ -30,4 +30,3 @@ MPL_TEST_CASE()
     MPL_ASSERT(( is_same< t1, identity<char> > ));
     MPL_ASSERT(( is_same< t2, identity<int> > ));
 }
-

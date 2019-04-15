@@ -731,5 +731,3 @@ struct function
 }}} // namespace boost::parameter::python
 
 #endif // BOOST_PARAMETER_PYTHON_060209_HPP
-
-

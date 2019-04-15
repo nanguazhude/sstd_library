@@ -1079,5 +1079,3 @@ namespace boost
 # include <sstd/boost/concept/detail/concept_undef.hpp>
 
 #endif // BOOST_CONCEPT_CHECKS_HPP
-
-

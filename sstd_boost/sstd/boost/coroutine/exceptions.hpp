@@ -101,4 +101,3 @@ public:
 #endif
 
 #endif // BOOST_COROUTINES_EXCEPTIONS_H
-

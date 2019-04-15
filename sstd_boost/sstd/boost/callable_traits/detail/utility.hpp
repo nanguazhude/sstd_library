@@ -109,4 +109,3 @@ using unwrap_reference = typename unwrap_reference_t<T>::type;
 }}} // namespace boost::callable_traits::detail
 
 #endif // #ifndef BOOST_CLBL_TRTS_DETAIL_UTILITY_HPP
-

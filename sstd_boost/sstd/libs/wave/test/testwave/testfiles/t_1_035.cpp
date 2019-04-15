@@ -47,4 +47,3 @@ PASTE2(1, , , 4)  //R 14
 //H 03: 14
 
 // boostinspect:noascii    this file needs to contain non-ASCII characters
-

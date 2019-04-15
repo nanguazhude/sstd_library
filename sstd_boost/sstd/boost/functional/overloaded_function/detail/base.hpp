@@ -83,5 +83,3 @@ private:
 
 #   undef BOOST_FUNCTIONAL_DETAIL_arity
 #endif // iteration
-
-

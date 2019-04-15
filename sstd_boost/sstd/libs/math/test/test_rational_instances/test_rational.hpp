@@ -5478,4 +5478,3 @@ void do_test_spots(T t, U u)
 }
 
 #endif
-

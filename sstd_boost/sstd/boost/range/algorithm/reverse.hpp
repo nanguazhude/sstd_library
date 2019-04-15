@@ -48,4 +48,3 @@ inline const BidirectionalRange& reverse(const BidirectionalRange& rng)
 } // namespace boost
 
 #endif // include guard
-

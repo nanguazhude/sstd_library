@@ -86,4 +86,3 @@ struct time_traits<boost::posix_time::ptime>
        // || defined(GENERATING_DOCUMENTATION)
 
 #endif // BOOST_ASIO_TIME_TRAITS_HPP
-

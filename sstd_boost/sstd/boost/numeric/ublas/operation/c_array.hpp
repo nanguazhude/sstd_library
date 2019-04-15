@@ -39,4 +39,3 @@ namespace boost { namespace numeric { namespace ublas {
 }}} // Namespace boost::numeric::ublas
 
 #endif
-

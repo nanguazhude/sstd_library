@@ -37,4 +37,3 @@ struct base_unit_info<imperial::thou_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNITS_IMPERIAL_THOU_BASE_UNIT_HPP
-

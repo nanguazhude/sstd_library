@@ -154,4 +154,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(apply_eval, detail::apply_eval_f);
 }} // namespace boost::hof
 
 #endif
-

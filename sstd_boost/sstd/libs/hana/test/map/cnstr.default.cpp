@@ -72,4 +72,3 @@ int main() {
     auto map3 = hana::make_map(hana::make_pair(NoDefault_nonempty(1), NoDefault_nonempty(1)));
     static_assert(!std::is_default_constructible<decltype(map3)>::value, "");
 }
-

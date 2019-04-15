@@ -33,4 +33,3 @@ namespace boost { namespace type_of {
 BOOST_TYPEOF_REGISTER_TEMPLATE(boost::type_of::test_wrapper, 2)
 
 #endif//BOOST_TYPEOF_TEST_HPP_INCLUDED
-

@@ -89,4 +89,3 @@ template<> struct hash<float_> : detail::hash_impl<float_> { };
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_FUNCTIONAL_HASH_HPP
-

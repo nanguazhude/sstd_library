@@ -151,4 +151,3 @@ private:
 #endif // defined(BOOST_ASIO_WINDOWS)
 
 #endif // BOOST_ASIO_DETAIL_WIN_EVENT_HPP
-

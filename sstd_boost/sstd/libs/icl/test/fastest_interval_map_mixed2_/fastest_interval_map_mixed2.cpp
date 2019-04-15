@@ -81,5 +81,3 @@ BOOST_AUTO_TEST_CASE
 BOOST_AUTO_TEST_CASE
 (fastest_icl_interval_map_mixed_erase_if_4_integral_types)
 {            interval_map_mixed_erase_if_4_integral_types<int, int>(); }
-
-

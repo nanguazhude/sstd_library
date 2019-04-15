@@ -158,4 +158,3 @@ private:
 #include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>
 
 #endif // #ifndef BOOST_IOSTREAMS_EXAMPLE_CONTAINTER_DEVICE_HPP_INCLUDED
-

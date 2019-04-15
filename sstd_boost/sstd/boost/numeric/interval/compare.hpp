@@ -17,4 +17,3 @@
 #include <sstd/boost/numeric/interval/compare/set.hpp>
 
 #endif // BOOST_NUMERIC_INTERVAL_COMPARE_HPP
-

@@ -214,5 +214,3 @@ namespace detail { namespace variant {
 } // namespace boost
 
 #endif // BOOST_VARIANT_DETAIL_MULTIVISITORS_CPP11_BASED_HPP
-
-

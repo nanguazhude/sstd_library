@@ -3666,4 +3666,3 @@ class hashtable
 #include <sstd/boost/intrusive/detail/config_end.hpp>
 
 #endif //BOOST_INTRUSIVE_HASHTABLE_HPP
-

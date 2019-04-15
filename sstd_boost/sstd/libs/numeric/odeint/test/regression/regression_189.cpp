@@ -70,4 +70,3 @@ BOOST_AUTO_TEST_CASE( regression_189 )
     num_of_steps_expected = 1531;
     BOOST_CHECK_EQUAL( num_of_steps2 , num_of_steps_expected );
 }
-

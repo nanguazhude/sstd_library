@@ -34,4 +34,3 @@ AUX_ASSERT_NOT_EQUAL( orange, apple )
 
 AUX_ASSERT_EQUAL( apple, apple )
 AUX_ASSERT_EQUAL( orange, orange )
-

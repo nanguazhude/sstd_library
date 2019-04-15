@@ -51,4 +51,3 @@ inline boost::filesystem::path shell_path(std::error_code &ec) noexcept
 }}}}
 
 #endif
-

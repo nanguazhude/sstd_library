@@ -138,4 +138,3 @@ std::ptrdiff_t operator-(
 } /* namespace boost */
 
 #endif
-

@@ -173,4 +173,3 @@ template<> struct size_impl<aux::mp11_tag>
 } // namespace boost
 
 #endif // #ifndef BOOST_MP11_MPL_HPP_INCLUDED
-

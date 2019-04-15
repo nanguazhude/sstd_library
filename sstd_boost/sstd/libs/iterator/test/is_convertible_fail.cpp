@@ -17,4 +17,3 @@ int main()
     return boost::is_convertible<rev_iter1, rev_iter2>::value
         ? boost::exit_failure : boost::exit_success;
 }
-

@@ -17,4 +17,3 @@ int main()
 {
     boost::weak_ptr<X[]> px2(( boost::shared_ptr<X>() ));
 }
-

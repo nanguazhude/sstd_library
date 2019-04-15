@@ -187,4 +187,3 @@ namespace test {
 }
 
 #endif
-

@@ -13,4 +13,3 @@
 #error "libgmpxx is not supported on this platform with this C++ standard library"
 #endif
 #endif
-

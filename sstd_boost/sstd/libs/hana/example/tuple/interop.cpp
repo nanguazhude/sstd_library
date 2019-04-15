@@ -32,4 +32,3 @@ int main() {
         hana::to_tuple(std::array<int, 3>{{1, 2, 3}}) == hana::make_tuple(1, 2, 3)
     );
 }
-

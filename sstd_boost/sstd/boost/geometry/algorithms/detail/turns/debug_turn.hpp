@@ -63,4 +63,3 @@ inline void debug_turn(Turn const& , Operation, const char*)
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_TURNS_DEBUG_TURN_HPP
-

@@ -108,4 +108,3 @@ make_scanline_reader( Device&          io_dev
 } // namespace boost
 
 #endif
-

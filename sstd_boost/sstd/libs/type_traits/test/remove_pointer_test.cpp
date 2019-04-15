@@ -58,12 +58,3 @@ TT_TEST_BEGIN(remove_pointer)
    remove_pointer_test_14();
    remove_pointer_test_14b();
 TT_TEST_END
-
-
-
-
-
-
-
-
-

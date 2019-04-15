@@ -350,4 +350,3 @@ namespace path_traits {
 #include <sstd/boost/config/abi_suffix.hpp> // pops abi_prefix.hpp pragmas
 
 #endif  // BOOST_FILESYSTEM_PATH_TRAITS_HPP
-

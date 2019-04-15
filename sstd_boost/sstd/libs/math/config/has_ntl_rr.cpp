@@ -9,5 +9,3 @@
 #endif
 
 #include <NTL/RR.h>
-
-

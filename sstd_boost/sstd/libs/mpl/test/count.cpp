@@ -39,4 +39,3 @@ MPL_TEST_CASE()
     MPL_ASSERT_RELATION( (count< values, integral_c<int,7> >::value), ==, 1 );
     MPL_ASSERT_RELATION( (count< values, integral_c<int,8> >::value), ==, 0 );
 }
-

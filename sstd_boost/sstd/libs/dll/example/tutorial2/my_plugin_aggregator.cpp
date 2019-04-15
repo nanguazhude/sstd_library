@@ -47,7 +47,3 @@ BOOST_DLL_ALIAS(
 
 } // namespace my_namespace
 //]
-
-
-
-

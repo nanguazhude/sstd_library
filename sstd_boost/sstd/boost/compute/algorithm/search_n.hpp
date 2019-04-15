@@ -144,4 +144,3 @@ inline TextIterator search_n(TextIterator t_first,
 } //end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_SEARCH_N_HPP
-

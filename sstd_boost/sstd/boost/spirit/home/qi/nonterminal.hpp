@@ -19,4 +19,3 @@
 #include <sstd/boost/spirit/home/qi/nonterminal/success_handler.hpp>
 
 #endif
-

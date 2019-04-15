@@ -114,4 +114,3 @@ bool run_bad_field_count_test(char const* fn)
   }
   return caught_bfc;
 }
-

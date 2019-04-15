@@ -196,4 +196,3 @@ void regerror( char const * s )
 {
     out_printf( "re error %s\n", s );
 }
-

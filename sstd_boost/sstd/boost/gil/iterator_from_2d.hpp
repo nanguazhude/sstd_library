@@ -164,4 +164,3 @@ struct channel_type<iterator_from_2d<Loc> > : public channel_type<Loc> {};
 } }  // namespace boost::gil
 
 #endif
-

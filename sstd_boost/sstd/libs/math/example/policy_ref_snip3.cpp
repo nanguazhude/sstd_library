@@ -38,4 +38,3 @@ int main()
    cout << "tgamma(some_value, my_policy()) = " << t1
      << ", tgamma(some_value, make_policy(promote_double<false>()) = " << t2 << endl;
 }
-

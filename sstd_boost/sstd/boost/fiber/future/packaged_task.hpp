@@ -140,4 +140,3 @@ void swap( packaged_task< Signature > & l, packaged_task< Signature > & r) noexc
 }}
 
 #endif // BOOST_FIBERS_PACKAGED_TASK_HPP
-

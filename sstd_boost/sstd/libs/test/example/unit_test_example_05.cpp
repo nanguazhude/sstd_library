@@ -48,4 +48,3 @@ BOOST_FIXTURE_TEST_CASE( my_test2, F, * bt::depends_on("my_suite/my_test1") )
 BOOST_AUTO_TEST_SUITE_END()
 
 // EOF
-

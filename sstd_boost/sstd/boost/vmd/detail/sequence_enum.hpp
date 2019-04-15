@@ -38,4 +38,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_SEQUENCE_ENUM_HPP */
-

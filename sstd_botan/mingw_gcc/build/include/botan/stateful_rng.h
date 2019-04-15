@@ -1,4 +1,4 @@
-/*
+﻿/*
 * (C) 2016 Jack Lloyd
 *
 * Botan is released under the Simplified BSD License (see license.txt)

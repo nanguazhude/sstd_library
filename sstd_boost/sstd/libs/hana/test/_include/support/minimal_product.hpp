@@ -59,4 +59,3 @@ namespace boost { namespace hana {
 }} // end namespace boost::hana
 
 #endif // !TEST_SUPPORT_MINIMAL_PRODUCT_HPP
-

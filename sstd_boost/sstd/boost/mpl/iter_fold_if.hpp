@@ -115,4 +115,3 @@ BOOST_MPL_AUX_NA_SPEC(6, iter_fold_if)
 }}
 
 #endif // BOOST_MPL_ITER_FOLD_IF_HPP_INCLUDED
-

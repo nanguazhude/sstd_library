@@ -65,4 +65,3 @@ private:
        // && !defined(__ICC) && !defined(__ECC) && !defined(__PATHSCALE__)
 
 #endif // BOOST_ASIO_DETAIL_GCC_SYNC_FENCED_BLOCK_HPP
-

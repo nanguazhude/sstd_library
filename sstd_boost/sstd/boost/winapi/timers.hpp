@@ -43,4 +43,3 @@ BOOST_FORCEINLINE BOOL_ QueryPerformanceFrequency(LARGE_INTEGER_* lpFrequency)
 }
 
 #endif // BOOST_WINAPI_TIMERS_HPP_INCLUDED_
-

@@ -129,4 +129,3 @@ namespace range
 #undef BOOST_RANGE_combined_args
 #undef BOOST_RANGE_combine_impl
 #undef BOOST_RANGE_combine
-

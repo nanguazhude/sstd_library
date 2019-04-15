@@ -190,5 +190,3 @@ inline regex_iterator<typename std::basic_string<charT, ST, SA>::const_iterator,
 } // namespace boost
 
 #endif // BOOST_REGEX_V4_REGEX_ITERATOR_HPP
-
-

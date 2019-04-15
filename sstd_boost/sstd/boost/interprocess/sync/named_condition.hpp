@@ -199,4 +199,3 @@ inline bool named_condition::remove(const char *name)
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif // BOOST_INTERPROCESS_NAMED_CONDITION_HPP
-

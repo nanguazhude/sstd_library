@@ -14,5 +14,3 @@ Testing exp for double.
 Testing exp for long double.
 
 *** No errors detected
-
-

@@ -117,4 +117,3 @@ struct translating_transformer<Geometry, areal_tag, cartesian_tag>
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_CENTROID_TRANSLATING_TRANSFORMER_HPP
-

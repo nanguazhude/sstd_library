@@ -31,4 +31,3 @@ BOOST_UNITS_STATIC_CONSTANT(biots,current);
 } // namespace boost
 
 #endif // BOOST_UNITS_CGS_CURRENT_HPP
-

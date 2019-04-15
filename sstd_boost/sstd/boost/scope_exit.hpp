@@ -1411,5 +1411,3 @@ compilers that support C++11 lambda functions.
 #endif // DOXYGEN
 
 #endif // BOOST_SCOPE_EXIT_HPP
-
-

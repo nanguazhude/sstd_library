@@ -238,4 +238,3 @@ throw()
 } // namespace boost
 
 #endif
-

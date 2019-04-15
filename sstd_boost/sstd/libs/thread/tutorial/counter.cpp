@@ -26,4 +26,3 @@ int main()
         thrds.create_thread(&change_count);
     thrds.join_all();
 }
-

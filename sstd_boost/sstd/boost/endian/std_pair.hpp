@@ -36,4 +36,3 @@ namespace endian
 }
 
 #endif  // BOOST_ENDIAN_STD_PAIR_HPP
-

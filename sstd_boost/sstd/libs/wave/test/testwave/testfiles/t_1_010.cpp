@@ -27,4 +27,3 @@ TEST2()    // error
 //H 03: AB
 //H 00: t_1_010.cpp(19): TEST2(), [t_1_010.cpp(13): TEST2()=A ##]
 //H 18: boost::wave::preprocess_exception
-

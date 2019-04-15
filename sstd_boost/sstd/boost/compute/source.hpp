@@ -10,4 +10,3 @@
 
 // deprecated, use <sstd/boost/compute/utility/source.hpp> instead
 #include <sstd/boost/compute/utility/source.hpp>
-

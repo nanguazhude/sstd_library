@@ -24,4 +24,3 @@ BOOST_DATA_TEST_CASE(
   std::cout << var << std::endl;
 }
 //]
-

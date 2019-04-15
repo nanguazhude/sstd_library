@@ -44,5 +44,3 @@ int z1 = print_name_and_index(
 );
 int main()
 {}
-
-

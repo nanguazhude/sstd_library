@@ -19,4 +19,3 @@ int main() {
     BOOST_HANA_CONSTANT_CHECK(hana::not_(hana::is_empty(BOOST_HANA_STRING("abc"))));
     BOOST_HANA_CONSTANT_CHECK(hana::not_(hana::is_empty(hana::string_c<'a'>)));
 }
-

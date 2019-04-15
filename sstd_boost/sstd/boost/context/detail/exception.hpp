@@ -46,4 +46,3 @@ struct forced_unwind {
 #endif
 
 #endif // BOOST_CONTEXT_DETAIL_EXCEPTION_H
-

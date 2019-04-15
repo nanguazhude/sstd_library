@@ -62,4 +62,3 @@ BOOST_AUTO_TEST_CASE( test_seed_with_init_list )
 }
 
 // EOF
-

@@ -173,4 +173,3 @@ inline bool operator>=(const cons<T1, T2>& lhs, const cons<S1, S2>& rhs)
 
 
 #endif // BOOST_TUPLE_COMPARISON_HPP
-

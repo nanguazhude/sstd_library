@@ -50,4 +50,3 @@ struct multi_sum
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_MULTI_SUM_HPP
-

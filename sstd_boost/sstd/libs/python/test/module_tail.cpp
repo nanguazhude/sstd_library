@@ -56,4 +56,3 @@ void assertion_failed(char const * expr, char const * function, char const * fil
 }
 
 } // namespace boost
-

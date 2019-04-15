@@ -74,4 +74,3 @@ struct get
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_FUNCTIONAL_GET_HPP
-

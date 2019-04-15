@@ -93,6 +93,3 @@ struct is_non_floating_point
 }} // namespace boost icl
 
 #endif
-
-
-

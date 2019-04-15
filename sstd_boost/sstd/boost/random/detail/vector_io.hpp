@@ -76,4 +76,3 @@ void read_vector(std::basic_istream<CharT, Traits>& is, std::vector<T>& vec)
 }
 
 #endif // BOOST_RANDOM_DETAIL_VECTOR_IO_HPP
-

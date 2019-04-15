@@ -470,5 +470,3 @@ struct opt_token_list_policy
 } // boost
 
 #endif
-
-

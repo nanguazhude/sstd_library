@@ -247,4 +247,3 @@ private:
 } // boost
 
 #endif
-

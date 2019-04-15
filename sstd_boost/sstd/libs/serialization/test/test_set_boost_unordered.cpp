@@ -121,4 +121,3 @@ int test_main( int /* argc */, char* /* argv */[] ){
 	test_unordered_multiset();
     return EXIT_SUCCESS;
 }
-

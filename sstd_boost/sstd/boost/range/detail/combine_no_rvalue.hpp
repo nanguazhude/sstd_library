@@ -71,4 +71,3 @@ BOOST_PP_MOD(BOOST_PP_TUPLE_ELEM(2, 0, \
 
 #define BOOST_RANGE_combine(z, n, data) \
   BOOST_PP_REPEAT(BOOST_RANGE_combined_exp(2,n), BOOST_RANGE_combine_impl, n)
-

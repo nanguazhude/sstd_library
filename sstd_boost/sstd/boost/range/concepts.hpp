@@ -386,4 +386,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_RANGE_CONCEPTS_HPP
-

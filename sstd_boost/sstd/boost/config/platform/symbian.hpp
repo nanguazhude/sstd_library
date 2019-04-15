@@ -93,6 +93,3 @@
 #if defined(__WINSCW__) && !defined(BOOST_DISABLE_WIN32)
 #  define BOOST_DISABLE_WIN32 // winscw defines WIN32 macro
 #endif
-
-
-

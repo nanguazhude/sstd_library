@@ -157,4 +157,3 @@ namespace boost
 } // 'boost'
 
 #endif // include guard
-

@@ -37,4 +37,3 @@ namespace boost
 
 #endif // BOOST_THREAD_PROVIDES_INTERRUPTIONS
 #endif // header
-

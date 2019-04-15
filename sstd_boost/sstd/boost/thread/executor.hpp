@@ -13,4 +13,3 @@
 #include <sstd/boost/thread/executors/executor_adaptor.hpp>
 
 #endif
-

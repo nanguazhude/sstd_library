@@ -22,4 +22,3 @@ int main() {
         hana::tuple_c<int, 3, 4, 5>
     );
 }
-

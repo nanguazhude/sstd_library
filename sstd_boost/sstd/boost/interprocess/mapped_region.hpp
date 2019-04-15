@@ -920,5 +920,3 @@ inline void mapped_region::destroy_syncs_in_range(const void *addr, std::size_t 
 #endif   //#ifdef BOOST_INTERPROCESS_MAPPED_REGION_EXT_HPP
 
 #endif   //#if !defined(BOOST_INTERPROCESS_DOXYGEN_INVOKED)
-
-

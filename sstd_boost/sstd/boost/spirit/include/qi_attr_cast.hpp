@@ -16,4 +16,3 @@
 #include <sstd/boost/spirit/home/qi/auxiliary/attr_cast.hpp>
 
 #endif
-

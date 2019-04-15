@@ -30,4 +30,3 @@ typedef derived_dimension<mass_base_dimension,1,
 } // namespace boost
 
 #endif // BOOST_UNITS_MAGNETIC_FLUX_DENSITY_DERIVED_DIMENSION_HPP
-

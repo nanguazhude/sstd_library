@@ -78,4 +78,3 @@ struct BOOST_WAVE_DECL predefined_macros_grammar_gen
 #endif
 
 #endif // !defined(CPP_PREDEF_MACROS_GEN_HPP_CADB6D2C_76A4_4988_83E1_EFFC6902B9A2_INCLUDED)
-

@@ -185,4 +185,3 @@ PyTypeObject opaque<Pointee>::type_object =
     }}
 
 # endif    // OPAQUE_POINTER_CONVERTER_HPP_
-

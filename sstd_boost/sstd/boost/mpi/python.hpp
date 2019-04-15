@@ -77,4 +77,3 @@ register_skeleton_and_content(const T& value = T(), PyTypeObject* type = 0);
 #endif
 
 #endif // BOOST_MPI_PYTHON_HPP
-

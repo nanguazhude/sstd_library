@@ -172,4 +172,3 @@ namespace boost { namespace xpressive { namespace detail
 }}}
 
 #endif // BOOST_XPRESSIVE_DETAIL_CORE_MATCHER_PREDICATE_MATCHER_HPP_EAN_03_22_2007
-

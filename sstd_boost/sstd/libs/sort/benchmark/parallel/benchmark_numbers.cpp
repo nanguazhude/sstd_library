@@ -298,5 +298,3 @@ int Test (std::vector<IA> &B,  compare comp)
     std::cout<<std::endl;
     return 0;
 };
-
-

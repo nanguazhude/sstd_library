@@ -578,4 +578,3 @@ void test_modifiers()
     ohc.clear();
   }
 }
-

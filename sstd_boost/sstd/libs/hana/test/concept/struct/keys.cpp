@@ -44,4 +44,3 @@ int main() {
         ::seq(hana::int_c<0>, hana::int_c<1>, hana::int_c<2>, hana::int_c<3>)
     ));
 }
-

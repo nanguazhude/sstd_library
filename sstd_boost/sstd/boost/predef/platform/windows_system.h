@@ -45,4 +45,3 @@ for Windows System development.
 
 #include <sstd/boost/predef/detail/test.h>
 BOOST_PREDEF_DECLARE_TEST(BOOST_PLAT_WINDOWS_SYSTEM,BOOST_PLAT_WINDOWS_SYSTEM_NAME)
-

@@ -35,5 +35,3 @@ Usage:
     fprintf(stderr, "Usage: %s file_name command\n", argv[0]);
     return(1);
 }
-
-

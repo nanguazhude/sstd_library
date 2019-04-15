@@ -29,4 +29,3 @@ struct find_if_pred
 }}}
 
 #endif // BOOST_MPL_AUX_FIND_IF_PRED_HPP_INCLUDED
-

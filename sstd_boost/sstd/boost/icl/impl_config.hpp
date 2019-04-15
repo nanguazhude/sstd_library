@@ -57,6 +57,3 @@ Copyright (c) 2009-2011: Joachim Faulhaber
 #include <sstd/boost/move/move.hpp>
 
 #endif // BOOST_ICL_IMPL_CONFIG_HPP_JOFA_091225
-
-
-

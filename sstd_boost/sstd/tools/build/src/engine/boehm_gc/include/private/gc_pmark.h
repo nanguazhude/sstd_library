@@ -491,5 +491,3 @@ typedef int mark_state_t;	/* Current state of marking, as follows:*/
 extern mark_state_t GC_mark_state;
 
 #endif  /* GC_PMARK_H */
-
-

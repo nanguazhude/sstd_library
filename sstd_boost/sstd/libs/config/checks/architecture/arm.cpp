@@ -12,5 +12,3 @@
     !defined(__aarch64__)
 #error "Not ARM"
 #endif
-
-

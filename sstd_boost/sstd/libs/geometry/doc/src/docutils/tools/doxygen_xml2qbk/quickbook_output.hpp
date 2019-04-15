@@ -1527,4 +1527,3 @@ void quickbook_output_alt(class_or_struct const& cos, configuration const& confi
 }
 
 #endif // QUICKBOOK_OUTPUT_HPP
-

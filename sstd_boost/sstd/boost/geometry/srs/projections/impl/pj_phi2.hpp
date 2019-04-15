@@ -71,4 +71,3 @@ inline T pj_phi2(T const& ts, T const& e)
 }}} // namespace boost::geometry::projections
 
 #endif
-

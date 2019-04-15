@@ -25,4 +25,3 @@ int main() {
     hana::test::TestComparable<hana::ext::std::integral_constant_tag<int>>{ints};
     hana::test::TestHashable<hana::ext::std::integral_constant_tag<void>>{ints};
 }
-

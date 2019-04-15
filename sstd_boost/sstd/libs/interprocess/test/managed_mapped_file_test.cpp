@@ -237,4 +237,3 @@ int main()
 #endif//#if defined(BOOST_INTERPROCESS_MAPPED_FILES)
 
 #include <sstd/boost/interprocess/detail/config_end.hpp>
-

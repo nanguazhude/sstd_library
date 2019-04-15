@@ -32,5 +32,3 @@ typedef boost::archive::detail::polymorphic_iarchive_dispatch<
 #endif
 
 #endif // BOOST_ARCHIVE_POLYMORPHIC_PORTABLE_BINARY_OARCHIVE_HPP
-
-

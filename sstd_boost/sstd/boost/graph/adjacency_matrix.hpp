@@ -1233,4 +1233,3 @@ struct graph_mutability_traits<adjacency_matrix<D, VP, EP, GP, A> > {
 } // namespace boost
 
 #endif // BOOST_ADJACENCY_MATRIX_HPP
-

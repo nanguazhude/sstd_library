@@ -26,4 +26,3 @@ typedef derived_dimension<length_base_dimension,-1>::type wavenumber_dimension;
 } // namespace boost
 
 #endif // BOOST_UNITS_WAVENUMBER_DERIVED_DIMENSION_HPP
-

@@ -324,4 +324,3 @@ namespace boost {
 } // namespace boost
 
 #endif // BOOST_VECTOR_AS_GRAPH_HPP
-

@@ -332,4 +332,3 @@ void pdqsort(Iter begin, Iter end, Compare comp)
 #include <sstd/boost/move/detail/config_end.hpp>
 
 #endif   //BOOST_MOVE_ALGO_PDQSORT_HPP
-

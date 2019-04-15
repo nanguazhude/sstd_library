@@ -278,4 +278,3 @@ void test_update()
     test_stable_update<degenerate_int_hashed_multiset>();
   }
 }
-

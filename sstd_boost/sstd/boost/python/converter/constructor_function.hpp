@@ -15,4 +15,3 @@ typedef void (*constructor_function)(PyObject* source, rvalue_from_python_stage1
 }}} // namespace boost::python::converter
 
 #endif // CONSTRUCTOR_FUNCTION_DWA200278_HPP
-

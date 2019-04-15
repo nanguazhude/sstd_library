@@ -24,4 +24,3 @@ BOOST_AUTO_TEST_SUITE(suite1, * utf::disabled())
 
 BOOST_AUTO_TEST_SUITE_END()
 //]
-

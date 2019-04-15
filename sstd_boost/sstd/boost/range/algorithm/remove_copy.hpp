@@ -42,4 +42,3 @@ remove_copy(const SinglePassRange& rng, OutputIterator out_it, const Value& val)
 } // namespace boost
 
 #endif // include guard
-

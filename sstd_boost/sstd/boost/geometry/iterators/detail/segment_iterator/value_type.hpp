@@ -69,4 +69,3 @@ struct value_type
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ITERATORS_DETAIL_SEGMENT_ITERATOR_VALUE_TYPE_HPP
-

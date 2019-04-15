@@ -23,4 +23,3 @@ template class boost::math::logistic_distribution<double, boost::math::policies:
 #ifndef BOOST_MATH_NO_LONG_DOUBLE_MATH_FUNCTIONS
 template class boost::math::logistic_distribution<long double, boost::math::policies::policy<> >;
 #endif
-

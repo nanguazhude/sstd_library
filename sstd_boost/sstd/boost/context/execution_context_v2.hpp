@@ -480,4 +480,3 @@ void swap( execution_context< Args ... > & l, execution_context< Args ... > & r)
 #endif
 
 #endif // BOOST_CONTEXT_EXECUTION_CONTEXT_V2_H
-

@@ -73,4 +73,3 @@ BOOST_AUTO_TEST_CASE( hsl_hsv_test )
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

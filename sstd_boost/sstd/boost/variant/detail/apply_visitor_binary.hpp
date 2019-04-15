@@ -390,4 +390,3 @@ inline decltype(auto) apply_visitor(const Visitor& visitor, Visitable1&& visitab
 } // namespace boost
 
 #endif // BOOST_VARIANT_DETAIL_APPLY_VISITOR_BINARY_HPP
-

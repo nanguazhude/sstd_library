@@ -38,5 +38,3 @@ int main() {
     assert(r == 'b');
     return 0;
 }
-
-

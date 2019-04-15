@@ -206,4 +206,3 @@ struct derived_dimension<
 } // namespace boost
 
 #endif // BOOST_UNITS_DERIVED_DIMENSION_HPP
-

@@ -104,4 +104,3 @@ void test_geometry(std::string const& case_id,
 
 
 #endif // BOOST_GEOMETRY_TEST_STRATEGIES_TEST_WITHIN_HPP
-

@@ -27,4 +27,3 @@ int main()
     static_assert(false, "Always fail");
 #endif
 }
-

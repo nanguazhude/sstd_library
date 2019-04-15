@@ -136,4 +136,3 @@ BOOST_AUTO_TEST_CASE( test_main )
   test_to_hex ();
   test_from_hex_success ();
 }
-

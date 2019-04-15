@@ -6,4 +6,3 @@
 #include <auto/sequence.hpp>
 
 int main() { }
-

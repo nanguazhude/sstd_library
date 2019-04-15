@@ -51,4 +51,3 @@ sc::result Idle::react( const EvConfig & )
 {
   return transit< Configuring >();
 }
-

@@ -43,7 +43,3 @@ BOOST_DLL_ALIAS(my_namespace::on_unload::add, on_unload)
 } // namespace my_namespace
 
 //]
-
-
-
-

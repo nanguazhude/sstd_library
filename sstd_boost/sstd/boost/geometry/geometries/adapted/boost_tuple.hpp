@@ -107,4 +107,3 @@ struct access
 
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_ADAPTED_TUPLE_HPP
-

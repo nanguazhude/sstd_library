@@ -37,5 +37,3 @@ void instantiate2()
       qi::rule<std::string::const_iterator, Number2()> rule;
       rule %= sym;  // Caused compiler error after getting r61322
 }
-
-

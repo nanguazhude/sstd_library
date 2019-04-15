@@ -225,5 +225,3 @@ struct is_lambda_expression
 };
 
 }}
-
-

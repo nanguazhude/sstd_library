@@ -36,4 +36,3 @@ int main() {
         BOOST_HANA_RUNTIME_CHECK(ss.str() == "(x, 2)");
     }
 }
-

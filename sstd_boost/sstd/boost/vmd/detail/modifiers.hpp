@@ -102,4 +102,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_MODIFIERS_HPP */
-

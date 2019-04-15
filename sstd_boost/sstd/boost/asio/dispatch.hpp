@@ -108,4 +108,3 @@ BOOST_ASIO_INITFN_RESULT_TYPE(CompletionToken, void()) dispatch(
 #include <sstd/boost/asio/impl/dispatch.hpp>
 
 #endif // BOOST_ASIO_DISPATCH_HPP
-

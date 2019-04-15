@@ -220,4 +220,3 @@ public:
 #include <sstd/boost/beast/core/impl/static_buffer.ipp>
 
 #endif
-

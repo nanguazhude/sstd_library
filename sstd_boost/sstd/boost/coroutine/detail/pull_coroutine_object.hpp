@@ -308,4 +308,3 @@ public:
 #endif
 
 #endif // BOOST_COROUTINES_DETAIL_PULL_COROUTINE_OBJECT_H
-

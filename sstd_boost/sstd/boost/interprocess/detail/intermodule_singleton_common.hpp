@@ -502,4 +502,3 @@ typename intermodule_singleton_impl<C, L, P, ThreadSafeGlobalMap>::lifetime_type
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTERPROCESS_INTERMODULE_SINGLETON_COMMON_HPP
-

@@ -579,4 +579,3 @@ template<class T> struct fp_traits
 }   // namespace boost
 
 #endif
-

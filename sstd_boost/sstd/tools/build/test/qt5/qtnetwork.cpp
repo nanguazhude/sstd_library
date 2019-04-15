@@ -31,4 +31,3 @@ BOOST_AUTO_TEST_CASE( hostname )
         stream << address.toString() << endl;
     }
 }
-

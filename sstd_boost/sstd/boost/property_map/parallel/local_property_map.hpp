@@ -85,4 +85,3 @@ namespace boost {
   }
 } // end namespace boost
 #endif // BOOST_PARALLEL_LOCAL_PROPERTY_MAP_HPP
-

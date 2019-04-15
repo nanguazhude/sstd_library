@@ -17,4 +17,3 @@ int main() {
 
     BOOST_HANA_RUNTIME_CHECK(s == "aaabbbcccdddeeefffggg");
 }
-

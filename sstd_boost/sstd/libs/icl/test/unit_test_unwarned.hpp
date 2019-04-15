@@ -25,5 +25,3 @@ Copyright (c) 2008-2009: Joachim Faulhaber
 
 
 #endif // BOOST_ICL_TEST_UNIT_TEST_UNWARNED_HPP_JOFA_091204
-
-

@@ -784,4 +784,3 @@ BOOST_ASIO_TEST_SUITE
   BOOST_ASIO_TEST_CASE(ip_udp_socket_runtime::test)
   BOOST_ASIO_TEST_CASE(ip_udp_resolver_compile::test)
 )
-

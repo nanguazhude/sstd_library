@@ -166,5 +166,3 @@ struct value_size<icl::discrete_interval<DomainT> >
 }} // namespace icl boost
 
 #endif
-
-

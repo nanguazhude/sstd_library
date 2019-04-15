@@ -300,4 +300,3 @@ inline bool compare_file_serial(int fd, const locking_file_serial_id &id)
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_FILE_LOCKING_HELPERS_HPP
-

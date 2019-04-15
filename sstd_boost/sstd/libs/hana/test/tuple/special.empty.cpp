@@ -23,4 +23,3 @@ int main() {
         hana::tuple_c<void>
     ));
 }
-

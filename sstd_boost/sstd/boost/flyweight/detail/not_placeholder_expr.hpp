@@ -61,4 +61,3 @@ BOOST_PP_ENUM_TRAILING_PARAMS(                                        \
 #endif
 
 #endif
-

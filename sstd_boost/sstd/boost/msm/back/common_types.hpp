@@ -32,5 +32,3 @@ typedef HandledEnum execute_return;
 }}}
 
 #endif //BOOST_MSM_COMMON_TYPES_H
-
-

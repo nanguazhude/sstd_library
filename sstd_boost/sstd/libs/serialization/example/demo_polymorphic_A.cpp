@@ -24,4 +24,3 @@ void A::serialize<boost::archive::polymorphic_oarchive>(
     boost::archive::polymorphic_oarchive &,
     const unsigned int
 );
-

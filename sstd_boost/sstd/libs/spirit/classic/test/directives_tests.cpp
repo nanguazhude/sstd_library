@@ -186,5 +186,3 @@ main()
     directives_test2();
     return boost::report_errors();
 }
-
-

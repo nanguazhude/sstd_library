@@ -166,4 +166,3 @@ BOOST_AUTO_TEST_CASE(test_generation) {
         BOOST_CHECK_EQUAL(value_r_param, 1);
     }
 }
-

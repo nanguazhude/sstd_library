@@ -983,4 +983,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_SEQUENCE_ELEM_HPP */
-

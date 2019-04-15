@@ -190,4 +190,3 @@ inline void normalize_spheroidal_box_coordinates(CoordinateType& longitude1,
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_UTIL_NORMALIZE_SPHEROIDAL_BOX_COORDINATES_HPP
-

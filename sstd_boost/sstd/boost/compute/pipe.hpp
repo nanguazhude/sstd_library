@@ -152,4 +152,3 @@ struct set_kernel_arg<pipe>
 #endif // BOOST_COMPUTE_CL_VERSION_2_0
 
 #endif // BOOST_COMPUTE_PIPE_HPP
-

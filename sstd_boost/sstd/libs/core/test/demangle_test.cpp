@@ -60,4 +60,3 @@ int main()
     test_scoped_demangled_name();
     return 0;
 }
-

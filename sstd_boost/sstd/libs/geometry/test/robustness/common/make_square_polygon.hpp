@@ -44,4 +44,3 @@ inline void make_square_polygon(Polygon& polygon, Generator& generator, Settings
 }
 
 #endif // BOOST_GEOMETRY_TEST_ROBUSTNESS_MAKE_SQUARE_POLYGON_HPP
-

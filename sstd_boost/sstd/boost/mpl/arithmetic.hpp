@@ -23,4 +23,3 @@
 #include <sstd/boost/mpl/multiplies.hpp> // deprecated
 
 #endif // BOOST_MPL_ARITHMETIC_HPP_INCLUDED
-

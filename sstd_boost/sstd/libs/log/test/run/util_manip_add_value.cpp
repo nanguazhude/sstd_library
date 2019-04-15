@@ -137,4 +137,3 @@ BOOST_AUTO_TEST_CASE(keyword_add_attr)
     BOOST_CHECK_EQUAL(rec[a_my2], const_val);
     BOOST_CHECK_EQUAL(rec[a_my3], my_type(0xcccccccc));
 }
-

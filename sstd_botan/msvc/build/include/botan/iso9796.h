@@ -1,4 +1,4 @@
-/*
+﻿/*
  * ISO-9796-2 - Digital signature schemes giving message recovery schemes 2 and 3
  * (C) 2016 Tobias Niemann, Hackmanit GmbH
  *
@@ -93,4 +93,3 @@ class BOTAN_PUBLIC_API(2,0) ISO_9796_DS3 final : public EMSA
 }
 
 #endif
-

@@ -109,5 +109,3 @@ namespace boost
 }
 
 #endif /* BOOST_ASINH_HPP */
-
-

@@ -208,4 +208,3 @@ BOOST_AUTO_TEST_CASE(reduce_by_key_int2_long_vector)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

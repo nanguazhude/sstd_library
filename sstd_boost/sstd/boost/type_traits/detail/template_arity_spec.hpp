@@ -14,4 +14,3 @@
 #endif
 
 #   define BOOST_TT_AUX_TEMPLATE_ARITY_SPEC(i, name) /**/
-

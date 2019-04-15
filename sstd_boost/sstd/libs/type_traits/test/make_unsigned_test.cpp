@@ -107,6 +107,3 @@ BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_unsigned< ::tt::make_unsigned<wchar_t>::t
 BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_integral< ::tt::make_unsigned<enum_UDT>::type>::value, true);
 BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_unsigned< ::tt::make_unsigned<enum_UDT>::type>::value, true);
 TT_TEST_END
-
-
-

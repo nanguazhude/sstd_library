@@ -24,4 +24,3 @@ BOOST_AUTO_TEST_CASE( websocket )
 
     QWebSocket socket;
 }
-

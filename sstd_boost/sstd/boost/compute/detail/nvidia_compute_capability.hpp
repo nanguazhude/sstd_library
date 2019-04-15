@@ -58,4 +58,3 @@ inline bool check_nvidia_compute_capability(const device &device, int major, int
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_DETAIL_NVIDIA_COMPUTE_CAPABILITY_HPP
-

@@ -27,5 +27,3 @@ BOOST_METAPARSE_TEST_CASE(fail)
     is_error<apply_wrap2<fail<test_failure>, str_hello, start> >
   ));
 }
-
-

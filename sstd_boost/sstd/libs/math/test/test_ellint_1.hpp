@@ -132,5 +132,3 @@ void test_spots(T, const char* type_name)
 
     do_test_ellint_k<T>(ellint_k_data, type_name, "Elliptic Integral K: Random Data");
 }
-
-

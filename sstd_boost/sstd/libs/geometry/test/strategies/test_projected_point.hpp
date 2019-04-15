@@ -183,4 +183,3 @@ void test_2d(std::string const& wkt_p,
 }
 
 #endif // BOOST_GEOMETRY_TEST_STRATEGIES_TEST_PROJECTED_POINT_HPP
-

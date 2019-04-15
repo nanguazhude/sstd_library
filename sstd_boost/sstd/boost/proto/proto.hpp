@@ -16,4 +16,3 @@
 #include <sstd/boost/proto/functional.hpp>
 
 #endif
-

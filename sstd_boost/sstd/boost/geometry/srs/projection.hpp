@@ -548,4 +548,3 @@ public:
 
 
 #endif // BOOST_GEOMETRY_SRS_PROJECTION_HPP
-

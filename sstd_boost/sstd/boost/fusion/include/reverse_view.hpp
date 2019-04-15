@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/view/reverse_view.hpp>
 
 #endif
-

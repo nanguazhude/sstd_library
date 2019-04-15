@@ -26,5 +26,3 @@ void x() {
     ;
     out("x::body\n");
 }
-
-

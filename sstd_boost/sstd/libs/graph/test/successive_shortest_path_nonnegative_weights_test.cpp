@@ -63,6 +63,3 @@ BOOST_AUTO_TEST_CASE(path_augmentation_test) {
     int cost =  boost::find_flow_cost(g);
     BOOST_CHECK_EQUAL(cost, 29);
 }
-
-
-

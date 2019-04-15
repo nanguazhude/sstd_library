@@ -114,4 +114,3 @@ public:
 }}}
 
 #endif // BOOST_FIBERS_SPINLOCK_TTAS_H
-

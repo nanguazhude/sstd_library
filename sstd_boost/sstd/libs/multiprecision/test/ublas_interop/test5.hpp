@@ -62,4 +62,3 @@ void test_matrix ();
 #undef USE_SLICE
 
 #endif
-

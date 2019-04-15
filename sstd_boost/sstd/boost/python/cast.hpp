@@ -103,4 +103,3 @@ inline Target* downcast(Source* x, Target* = 0)
 }} // namespace boost::python
 
 #endif // CAST_DWA200269_HPP
-

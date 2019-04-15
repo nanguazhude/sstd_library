@@ -66,4 +66,3 @@ BOOST_HOF_DECLARE_STATIC_VAR(decay, detail::decay_f);
 }} // namespace boost::hof
 
 #endif
-

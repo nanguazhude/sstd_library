@@ -42,4 +42,3 @@ struct configuration
 
 
 #endif // CONFIGURATION_HPP
-

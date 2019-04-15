@@ -11,4 +11,3 @@ struct hopefully_illegal
 };
 
 PyObject* x = boost::python::converter::as_to_python_function<int, hopefully_illegal>::convert(0);
-

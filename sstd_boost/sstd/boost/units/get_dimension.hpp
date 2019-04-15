@@ -52,4 +52,3 @@ struct get_dimension< quantity<Unit,Y> >
 } // namespace boost
 
 #endif // BOOST_UNITS_GET_DIMENSION_HPP
-

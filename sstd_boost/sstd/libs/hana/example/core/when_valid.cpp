@@ -17,4 +17,3 @@ struct base_template<T, hana::when_valid<typename T::value_type>> {
 };
 
 int main() { }
-

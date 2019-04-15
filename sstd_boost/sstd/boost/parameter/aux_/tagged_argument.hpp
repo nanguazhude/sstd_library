@@ -185,5 +185,3 @@ struct is_tagged_argument
 }}} // namespace boost::parameter::aux
 
 #endif // BOOST_PARAMETER_TAGGED_ARGUMENT_050328_HPP
-
-

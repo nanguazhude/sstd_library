@@ -71,6 +71,3 @@ BOOST_METAPARSE_TEST_CASE(one_of_c)
     is_error<apply_wrap2<one_of_c<'x', 'y'>, str_hello, start> >
   ));
 }
-
-
-

@@ -794,5 +794,3 @@ Configure this library compile-time and run-time behaviours.
 #endif
 
 #endif // #include guard
-
-

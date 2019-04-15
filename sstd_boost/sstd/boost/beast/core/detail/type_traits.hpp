@@ -471,4 +471,3 @@ buffers_range(Buffers const& buffers)
 } // boost
 
 #endif
-

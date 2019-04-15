@@ -24,4 +24,3 @@ BOOST_ASIO_TEST_SUITE
   "windows/stream_handle_service",
   BOOST_ASIO_TEST_CASE(null_test)
 )
-

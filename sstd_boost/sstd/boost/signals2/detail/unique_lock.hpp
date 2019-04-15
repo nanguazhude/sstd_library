@@ -40,4 +40,3 @@ namespace boost
 } // namespace boost
 
 #endif  // BOOST_SIGNALS2_UNIQUE_LOCK_HPP
-

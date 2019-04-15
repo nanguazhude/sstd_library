@@ -25,4 +25,3 @@ is_empty( +text ) //R is_empty_+textother
 //H 00: t_1_031.cpp(18): is_empty( +text ), [t_1_031.cpp(14): is_empty(...)=is_empty_ ## __VA_ARGS__ ## other]
 //H 02: is_empty_+textother
 //H 03: is_empty_+textother
-

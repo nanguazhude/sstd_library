@@ -21,4 +21,3 @@
 #include <sstd/boost/wave/cpp_context.hpp>
 
 #endif // !defined(WAVE_HPP_DCA0EA51_EF5B_4BF1_88A8_461DBC5F292B_INCLUDED)
-

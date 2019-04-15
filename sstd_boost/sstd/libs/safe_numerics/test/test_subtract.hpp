@@ -145,4 +145,3 @@ bool test_subtract(
 }
 
 #endif // BOOST_TEST_SUBTRACT
-

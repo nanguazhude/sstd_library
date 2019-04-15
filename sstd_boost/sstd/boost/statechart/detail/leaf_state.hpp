@@ -82,4 +82,3 @@ class leaf_state : public state_base< Allocator, RttiPolicy >
 
 
 #endif
-

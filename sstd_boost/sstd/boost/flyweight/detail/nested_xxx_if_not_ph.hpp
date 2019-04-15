@@ -37,4 +37,3 @@ struct nested_##name##_if_not_placeholder_expression                       \
 };
 
 #endif
-

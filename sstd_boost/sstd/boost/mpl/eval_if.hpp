@@ -69,4 +69,3 @@ BOOST_MPL_AUX_NA_SPEC(3, eval_if)
 }}
 
 #endif // BOOST_MPL_EVAL_IF_HPP_INCLUDED
-

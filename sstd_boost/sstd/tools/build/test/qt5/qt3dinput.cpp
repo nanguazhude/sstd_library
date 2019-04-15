@@ -21,5 +21,3 @@ BOOST_AUTO_TEST_CASE ( sample_code )
     Qt3DCore::QEntity rootEntity;
 
 }
-
-

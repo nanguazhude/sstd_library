@@ -194,4 +194,3 @@ inline future<Result> make_future(const Result &result, const event &event)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ASYNC_FUTURE_HPP
-

@@ -38,4 +38,3 @@ enum            log_level {
 } // namespace boost
 
 #endif // BOOST_TEST_LOG_LEVEL_HPP_011605GER
-

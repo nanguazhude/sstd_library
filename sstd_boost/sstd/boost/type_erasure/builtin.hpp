@@ -178,4 +178,3 @@ struct get_null_vtable_entry< ::boost::type_erasure::destructible<T> >
 }
 
 #endif
-

@@ -23,4 +23,3 @@
 #include <sstd/boost/spirit/home/classic/phoenix/new.hpp>
 
 #endif // !defined(BOOST_SPIRIT_PHOENIX_HPP)
-

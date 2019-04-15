@@ -346,4 +346,3 @@ matrix_column_vector<Matrix const> make_column_vector(matrix_expression<Matrix> 
 }}}
 
 #endif
-

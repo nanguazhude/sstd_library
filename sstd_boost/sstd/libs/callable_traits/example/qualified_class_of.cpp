@@ -30,4 +30,3 @@ static_assert(std::is_same<foo volatile &&,
 int main() {}
 //]
 #endif
-

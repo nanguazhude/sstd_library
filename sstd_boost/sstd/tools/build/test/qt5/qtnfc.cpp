@@ -26,4 +26,3 @@ BOOST_AUTO_TEST_CASE( nfc )
         BOOST_TEST_MESSAGE("No Nfc");
     }
 }
-

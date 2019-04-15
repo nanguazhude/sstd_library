@@ -262,5 +262,3 @@ inline type_index type_id_runtime(const T& runtime_val) BOOST_NOEXCEPT {
 
 
 #endif // BOOST_TYPE_INDEX_HPP
-
-

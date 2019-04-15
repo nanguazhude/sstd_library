@@ -126,4 +126,3 @@ doTestFile(beast::unit_test::suite& test)
 } // boost
 
 #endif
-

@@ -37,4 +37,3 @@ inline void parse_layout(std::vector<layout_rectangle>& rects, std::vector<layou
 }
 
 #endif
-

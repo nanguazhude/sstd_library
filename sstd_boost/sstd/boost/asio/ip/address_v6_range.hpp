@@ -129,4 +129,3 @@ typedef basic_address_range<address_v6> address_v6_range;
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IP_ADDRESS_V6_RANGE_HPP
-

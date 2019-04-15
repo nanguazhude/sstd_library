@@ -2929,5 +2929,3 @@ lexer_control<TokenT>::ignore_current_token_set()
 #undef BOOST_SPIRIT_IT_NS
 
 #endif
-
-

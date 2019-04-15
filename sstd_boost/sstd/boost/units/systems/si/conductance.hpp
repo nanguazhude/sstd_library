@@ -34,4 +34,3 @@ BOOST_UNITS_STATIC_CONSTANT(mhos,conductance);
 } // namespace boost
 
 #endif // BOOST_UNITS_SI_CONDUCTANCE_HPP
-

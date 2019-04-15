@@ -157,4 +157,3 @@ OBJECT * outf_time( timestamp const * const time )
 {
     return object_new( timestamp_str( time ) );
 }
-

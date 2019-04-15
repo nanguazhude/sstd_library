@@ -16,4 +16,3 @@
 #include <sstd/boost/test/impl/unit_test_log.ipp>
 
 // EOF
-

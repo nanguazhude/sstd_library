@@ -82,4 +82,3 @@ BOOST_AUTO_TEST_CASE( some_test )
     traverse_test_tree( master_ts->p_id, tcc );
     BOOST_TEST( tcc.p_count == 2 );
 }
-

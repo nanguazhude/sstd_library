@@ -51,4 +51,3 @@ inline OutputIterator copy_n(const SinglePassRange& rng, Size n, OutputIterator 
 } // namespace boost
 
 #endif // include guard
-

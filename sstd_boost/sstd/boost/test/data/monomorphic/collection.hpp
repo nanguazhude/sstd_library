@@ -88,5 +88,3 @@ make( C&& c )
 #include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_DATA_MONOMORPHIC_COLLECTION_HPP_102211GER
-
-

@@ -11,4 +11,3 @@ Distributed under the Boost Software License, Version 1.0.
 #include <sstd/boost/smart_ptr/make_unique.hpp>
 
 #endif
-

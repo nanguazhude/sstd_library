@@ -163,4 +163,3 @@ public:
 } // namespace boost
 
 #endif // ITERATOR_RG071801_HPP
-

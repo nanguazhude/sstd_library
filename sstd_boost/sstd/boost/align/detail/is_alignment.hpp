@@ -26,4 +26,3 @@ is_alignment(std::size_t value) BOOST_NOEXCEPT
 } /* boost */
 
 #endif
-

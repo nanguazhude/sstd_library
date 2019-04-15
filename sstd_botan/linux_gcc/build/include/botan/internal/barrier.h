@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Barrier
 * (C) 2016 Joel Low
 *

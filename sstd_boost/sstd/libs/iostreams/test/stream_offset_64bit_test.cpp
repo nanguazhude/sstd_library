@@ -83,4 +83,3 @@ test_suite* init_unit_test_suite(int, char* [])
     test->add(BOOST_TEST_CASE(&stream_offset_64bit_test2));
     return test;
 }
-

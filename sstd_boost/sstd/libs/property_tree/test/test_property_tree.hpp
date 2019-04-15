@@ -1353,4 +1353,3 @@ void test_leaks(PTREE *)
 {
     //BOOST_CHECK(PTREE::debug_get_instances_count() == 0);
 }
-

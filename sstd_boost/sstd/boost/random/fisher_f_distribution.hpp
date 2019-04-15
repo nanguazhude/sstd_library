@@ -181,4 +181,3 @@ private:
 } // namespace boost
 
 #endif // BOOST_RANDOM_EXTREME_VALUE_DISTRIBUTION_HPP
-

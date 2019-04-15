@@ -328,5 +328,3 @@ namespace any_tests // test definitions
 }
 
 #endif
-
-

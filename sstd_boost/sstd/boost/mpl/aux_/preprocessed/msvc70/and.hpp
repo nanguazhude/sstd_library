@@ -69,4 +69,3 @@ BOOST_MPL_AUX_NA_SPEC2(
     )
 
 }}
-

@@ -25,4 +25,3 @@
 #include <sstd/boost/variant/visitor_ptr.hpp>
 
 #endif // BOOST_VARIANT_HPP
-

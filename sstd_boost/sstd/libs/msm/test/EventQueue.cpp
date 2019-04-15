@@ -357,5 +357,3 @@ namespace
         BOOST_CHECK_MESSAGE(p.get_state<player_::Stopped&>().entry_counter == 3,"Stopped entry not called correctly");
     }
 }
-
-

@@ -44,4 +44,3 @@ struct no_parameter {};
 #endif // no SFINAE support
 
 #endif // BOOST_GRAPH_OVERLOADING_HPP
-

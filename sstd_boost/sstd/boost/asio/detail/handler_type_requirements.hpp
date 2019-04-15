@@ -556,4 +556,3 @@ struct handler_type_requirements
 } // namespace boost
 
 #endif // BOOST_ASIO_DETAIL_HANDLER_TYPE_REQUIREMENTS_HPP
-

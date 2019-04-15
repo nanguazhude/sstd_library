@@ -20,4 +20,3 @@ BOOST_PYTHON_MODULE(shapes_ext)
   np::initialize();
   p::def("reshape", reshape);
 }
-

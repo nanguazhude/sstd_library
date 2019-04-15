@@ -23,4 +23,3 @@
 #include <sstd/boost/fusion/support/as_const.hpp>
 
 #endif
-

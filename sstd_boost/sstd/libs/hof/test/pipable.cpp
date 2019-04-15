@@ -88,4 +88,3 @@ BOOST_HOF_TEST_CASE()
     static_assert(!boost::hof::is_invocable<decltype(f), int, int, int>::value, "Passing the limit is not callable");
     static_assert(!boost::hof::is_invocable<decltype(f), int, int, int, int>::value, "Passing the limit is not callable");
 }
-

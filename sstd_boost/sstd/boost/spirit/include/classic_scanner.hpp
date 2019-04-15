@@ -10,4 +10,3 @@
 #define BOOST_SPIRIT_INCLUDE_CLASSIC_SCANNER
 #include <sstd/boost/spirit/home/classic/core/scanner/scanner.hpp>
 #endif
-

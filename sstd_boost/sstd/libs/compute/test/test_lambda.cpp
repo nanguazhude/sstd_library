@@ -615,4 +615,3 @@ BOOST_AUTO_TEST_CASE(lambda_function_with_char_args)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

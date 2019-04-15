@@ -216,4 +216,3 @@ char ZLIB_INTERNAL *gz_strwinerror OF((DWORD error));
 unsigned ZLIB_INTERNAL gz_intmax OF((void));
 #  define GT_OFF(x) (sizeof(int) == sizeof(z_off64_t) && (x) > gz_intmax())
 #endif
-

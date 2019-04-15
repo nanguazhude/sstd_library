@@ -126,4 +126,3 @@ namespace boost {
 #endif // BOOST_NO_SFINAE
 
 #endif
-

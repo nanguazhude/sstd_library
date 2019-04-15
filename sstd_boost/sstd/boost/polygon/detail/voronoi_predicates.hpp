@@ -1530,4 +1530,3 @@ class voronoi_predicates {
 }  // boost
 
 #endif  // BOOST_POLYGON_DETAIL_VORONOI_PREDICATES
-

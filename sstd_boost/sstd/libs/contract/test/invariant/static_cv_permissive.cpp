@@ -10,5 +10,3 @@
     #error "build must define PERMISSIVE"
 #endif
 #include "static_cv.hpp"
-
-

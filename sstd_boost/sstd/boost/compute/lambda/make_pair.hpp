@@ -68,4 +68,3 @@ make_pair(const Arg1 &first, const Arg2 &second)
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_LAMBDA_MAKE_PAIR_HPP
-

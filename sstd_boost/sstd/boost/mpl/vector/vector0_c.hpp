@@ -29,4 +29,3 @@ template< typename T > struct vector0_c
 }}
 
 #endif // BOOST_MPL_VECTOR_VECTOR0_C_HPP_INCLUDED
-

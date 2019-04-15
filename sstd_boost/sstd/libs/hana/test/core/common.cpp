@@ -30,4 +30,3 @@ static_assert(!hana::has_common<invalid, T>{}, "");
 static_assert(!hana::has_common<T, invalid>{}, "");
 
 int main() { }
-

@@ -102,4 +102,3 @@ using atomics::atomic_uintptr_t;
 } // namespace boost
 
 #endif // BOOST_ATOMIC_ATOMIC_HPP_INCLUDED_
-

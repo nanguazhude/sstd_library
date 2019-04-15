@@ -42,4 +42,3 @@ struct Open : public msm::front::state<>
 };
 
 #endif
-

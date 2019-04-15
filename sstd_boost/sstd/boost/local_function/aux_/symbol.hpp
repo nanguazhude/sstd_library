@@ -47,5 +47,3 @@
             ~, seq (BOOST_LOCAL_FUNCTION_AUX_SYMBOL_PREFIX_) ))
 
 #endif // #include guard
-
-

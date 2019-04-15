@@ -497,4 +497,3 @@ class tc_optional_base : public optional_tag
     bool m_initialized ;
     T    m_storage ;
 } ;
-

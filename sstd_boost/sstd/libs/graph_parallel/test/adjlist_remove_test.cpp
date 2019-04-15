@@ -144,4 +144,3 @@ int test_main(int argc, char** argv)
   test_undirected_graph();
   return 0;
 }
-

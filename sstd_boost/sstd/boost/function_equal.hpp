@@ -26,4 +26,3 @@ template<typename F, typename G>
 } // end namespace boost
 
 #endif // BOOST_FUNCTION_EQUAL_HPP
-

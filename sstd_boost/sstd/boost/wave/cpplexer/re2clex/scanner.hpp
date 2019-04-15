@@ -88,4 +88,3 @@ struct Scanner {
 #endif
 
 #endif // !defined(SCANNER_HPP_F4FB01EB_E75C_4537_A146_D34B9895EF37_INCLUDED)
-

@@ -84,4 +84,3 @@ class inverse
 }  //namespace boost {
 
 #endif   //#define BOOST_MOVE_ALGO_PREDICATE_HPP
-

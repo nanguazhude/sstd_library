@@ -1073,4 +1073,3 @@ BOOST_AUTO_TEST_CASE( test_union_multilinestring_multilinestring )
          "mlmlu18a"
          );
 }
-

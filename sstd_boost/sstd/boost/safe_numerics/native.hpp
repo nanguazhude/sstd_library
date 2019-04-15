@@ -113,4 +113,3 @@ public:
 } // boost
 
 #endif // BOOST_NUMERIC_NATIVE_HPP
-

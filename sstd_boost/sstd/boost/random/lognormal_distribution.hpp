@@ -252,4 +252,3 @@ private:
 } // namespace boost
 
 #endif // BOOST_RANDOM_LOGNORMAL_DISTRIBUTION_HPP
-

@@ -10,4 +10,3 @@
 # include <sstd/boost/context/execution_context_v1.hpp>
 #endif
 #include <sstd/boost/context/execution_context_v2.hpp>
-

@@ -85,4 +85,3 @@ struct access<test::test_point_xy, 1>
 
 
 #endif // #ifndef GEOMETRY_TEST_COMMON_WITH_POINTER_HPP
-

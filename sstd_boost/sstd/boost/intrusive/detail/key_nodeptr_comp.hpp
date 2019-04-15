@@ -123,4 +123,3 @@ public:
 }  //namespace boost{
 
 #endif //BOOST_INTRUSIVE_DETAIL_KEY_NODEPTR_COMP_HPP
-

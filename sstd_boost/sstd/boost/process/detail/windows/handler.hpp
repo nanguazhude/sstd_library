@@ -18,4 +18,3 @@ struct handler_base_ext : handler_base {};
 
 
 #endif /* BOOST_PROCESS_DETAIL_WINDOWS_HANDLER_HPP_ */
-

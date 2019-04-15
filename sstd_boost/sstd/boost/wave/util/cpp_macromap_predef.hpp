@@ -286,4 +286,3 @@ namespace util {
 #endif
 
 #endif // !defined(CPP_MACROMAP_PREDEF_HPP_HK041119)
-

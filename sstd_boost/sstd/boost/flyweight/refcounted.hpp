@@ -202,4 +202,3 @@ struct refcounted:tracking_marker
 } /* namespace boost */
 
 #endif
-

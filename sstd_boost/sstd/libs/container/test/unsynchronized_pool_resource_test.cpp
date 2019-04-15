@@ -17,4 +17,3 @@ int main()
    test_pool_resource<boost::container::pmr::unsynchronized_pool_resource>();
    return ::boost::report_errors();
 }
-

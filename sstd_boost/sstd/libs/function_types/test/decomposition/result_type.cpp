@@ -95,5 +95,3 @@ BOOST_MPL_ASSERT((
 BOOST_MPL_ASSERT((
   boost::is_same<ft::result_type<c_mem_ptr>::type,int const&>
 ));
-
-

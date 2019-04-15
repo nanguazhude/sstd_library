@@ -24,4 +24,3 @@ template<> struct is_void<volatile void> : public true_type{};
 } // namespace boost
 
 #endif // BOOST_TT_IS_VOID_HPP_INCLUDED
-

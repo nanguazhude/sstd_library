@@ -89,4 +89,3 @@ T extract(storage&& arg)
 #endif
 
 #endif
-

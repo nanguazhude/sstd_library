@@ -57,4 +57,3 @@ BOOST_MPL_ASSERT((
 BOOST_MPL_ASSERT((
   mpl::equal< ft::parameter_types<mem_ptr>, mpl::vector<C &> >
 ));
-

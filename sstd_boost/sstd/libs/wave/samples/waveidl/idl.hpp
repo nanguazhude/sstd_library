@@ -43,4 +43,3 @@
 #include <sstd/boost/pool/pool_alloc.hpp>
 
 #endif // !defined(IDL_HPP_FC7EE131_5CE9_43F2_A713_8D9BBC3C8477_INCLUDED)
-

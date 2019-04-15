@@ -613,4 +613,3 @@ BOOST_LAMBDA_LAMBDA_FUNCTOR_BASE_FIRST_PART(10)
 } // namespace boost
 
 #endif
-

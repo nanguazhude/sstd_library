@@ -34,4 +34,3 @@ int main(int argc, char* argv[]) {
     std::cout << "Plugin Name:  " << plugin->name() << std::endl;
 }
 //]
-

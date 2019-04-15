@@ -25,4 +25,3 @@ add_executable (bench-parser
 )
 
 set_property(TARGET bench-parser PROPERTY FOLDER "tests-bench")
-

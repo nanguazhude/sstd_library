@@ -320,5 +320,3 @@ struct vector
 };
 
 }}
-
-

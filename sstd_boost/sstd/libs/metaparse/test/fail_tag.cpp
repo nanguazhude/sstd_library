@@ -38,5 +38,3 @@ BOOST_METAPARSE_TEST_CASE(fail_tag)
   // test_getting_position
   BOOST_MPL_ASSERT((equal_to<start, get_position<failed_result>::type>));
 }
-
-

@@ -67,4 +67,3 @@ namespace hash
     typedef basic_fnv_1<fnv_prime, fnv_offset_basis> fnv_1;
     typedef basic_fnv_1a<fnv_prime, fnv_offset_basis> fnv_1a;
 }
-

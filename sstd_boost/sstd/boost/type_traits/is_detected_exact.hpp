@@ -27,4 +27,3 @@ constexpr bool is_detected_exact_v = is_detected_exact<Expected, Op,
 } /* boost */
 
 #endif
-

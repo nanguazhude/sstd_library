@@ -24,4 +24,3 @@ int main()
 #   error "No support for rvalue-reference is enabled. ==> Test fails (as expected) by default!"
 #endif
 }
-

@@ -154,4 +154,3 @@ struct is_reference_to_object_manager<T const volatile&>
 }}} // namespace boost::python::converter
 
 #endif // OBJECT_MANAGER_DWA2002614_HPP
-

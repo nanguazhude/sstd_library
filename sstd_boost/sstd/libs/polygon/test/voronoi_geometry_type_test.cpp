@@ -32,4 +32,3 @@ int main()
     source_category_test1();
     return boost::report_errors();
 }
-

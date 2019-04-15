@@ -146,4 +146,3 @@ public:
 #endif
 
 #endif // BOOST_fiber_errorS_H
-

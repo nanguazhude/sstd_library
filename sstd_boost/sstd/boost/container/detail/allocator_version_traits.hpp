@@ -161,4 +161,3 @@ struct allocator_version_traits<Allocator, 1>
 #include <sstd/boost/container/detail/config_end.hpp>
 
 #endif // ! defined(BOOST_CONTAINER_DETAIL_ALLOCATOR_VERSION_TRAITS_HPP)
-

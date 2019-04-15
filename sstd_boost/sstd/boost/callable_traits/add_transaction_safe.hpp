@@ -108,4 +108,3 @@ struct add_transaction_safe
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_ADD_TRANSACTION_SAFE_HPP
-

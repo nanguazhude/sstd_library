@@ -75,4 +75,3 @@ comparable_distance_near(Point const& pt, Indexable const& i)
 }}}} // namespace boost::geometry::index::detail
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_ALGORITHMS_COMPARABLE_DISTANCE_NEAR_HPP
-

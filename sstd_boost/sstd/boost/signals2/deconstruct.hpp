@@ -544,4 +544,3 @@ postconstructor_invoker<T> deconstruct( A1 const & a1, A2 const & a2, A3 const &
 } // namespace boost
 
 #endif // #ifndef BOOST_SIGNALS2_DECONSTRUCT_HPP
-

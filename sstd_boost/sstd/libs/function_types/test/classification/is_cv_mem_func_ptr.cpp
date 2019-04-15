@@ -147,5 +147,3 @@ BOOST_MPL_ASSERT((
   ft::is_member_function_pointer< cv_mem_func_ptr,
         ft::tag<ft::const_qualified, ft::volatile_qualified> >
 ));
-
-

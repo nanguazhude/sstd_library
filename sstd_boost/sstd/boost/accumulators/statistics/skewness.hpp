@@ -112,4 +112,3 @@ struct feature_of<tag::weighted_skewness>
 }} // namespace boost::accumulators
 
 #endif
-

@@ -120,4 +120,3 @@ struct dummy_controlled_stepper
 
 
 #endif // BOOST_LIBS_NUMERIC_ODEINT_TEST_DUMMY_STEPPER_HPP_INCLUDED
-

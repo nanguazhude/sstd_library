@@ -7,5 +7,3 @@
 
 #include "nova.hpp"
 #include "add_classifiers_seq.cpp"
-
-

@@ -59,6 +59,3 @@ BOOST_NOINLINE boost::stacktrace::stacktrace rec2(int i) {
 int main() {
     dump_compact(rec1(8));
 }
-
-
-

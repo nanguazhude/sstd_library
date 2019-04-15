@@ -224,4 +224,3 @@ std::size_t frame::source_line() const {
 }} // namespace boost::stacktrace
 
 #endif // BOOST_STACKTRACE_DETAIL_ADDR2LINE_IMPLS_HPP
-

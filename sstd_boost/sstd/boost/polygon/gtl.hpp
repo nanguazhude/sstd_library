@@ -33,4 +33,3 @@ using namespace boost::polygon::operators;
 #endif
 
 #endif
-

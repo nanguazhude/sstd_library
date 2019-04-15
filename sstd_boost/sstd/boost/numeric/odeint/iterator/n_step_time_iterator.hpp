@@ -167,4 +167,3 @@ namespace odeint {
 } // namespace boost
 
 #endif // BOOST_NUMERIC_ODEINT_ITERATOR_CONST_N_STEP_TIME_ITERATOR_HPP_INCLUDED
-

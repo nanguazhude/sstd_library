@@ -334,4 +334,3 @@ interval<T, Policies> min BOOST_PREVENT_MACRO_SUBSTITUTION (const T& x, const in
 } // namespace boost
 
 #endif // BOOST_NUMERIC_INTERVAL_UTILITY_HPP
-

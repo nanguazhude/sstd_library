@@ -149,4 +149,3 @@ BOOST_ASIO_TEST_SUITE
   "windows/random_access_handle",
   BOOST_ASIO_TEST_CASE(windows_random_access_handle_compile::test)
 )
-

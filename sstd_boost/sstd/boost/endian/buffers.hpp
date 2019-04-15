@@ -535,4 +535,3 @@ namespace endian
 #endif
 
 #endif // BOOST_ENDIAN_BUFFERS_HPP
-

@@ -127,4 +127,3 @@ copy_until ( const Range &r, OutputIterator result, Predicate p )
 }} // namespace boost and algorithm
 
 #endif  // BOOST_ALGORITHM_COPY_IF_HPP
-

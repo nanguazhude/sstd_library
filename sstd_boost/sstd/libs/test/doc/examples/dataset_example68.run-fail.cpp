@@ -60,4 +60,3 @@ BOOST_DATA_TEST_CASE(
       BOOST_TEST(fib_sample == exp);
 }
 //]
-

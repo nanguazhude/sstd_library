@@ -122,4 +122,3 @@ private:
 #include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_GENERIC_SEQ_PACKET_PROTOCOL_HPP
-

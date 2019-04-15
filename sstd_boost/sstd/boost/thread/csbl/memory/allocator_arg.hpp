@@ -39,4 +39,3 @@ namespace boost
   using ::boost::csbl::allocator_arg;
 }
 #endif // header
-

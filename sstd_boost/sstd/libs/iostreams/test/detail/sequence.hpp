@@ -272,4 +272,3 @@ struct text_sequence : public std::vector<char> {
 } } } // End namespaces test, iostreams, boost.
 
 #endif // #ifndef BOOST_IOSTREAMS_TEST_SEQUENCE_HPP_INCLUDED
-

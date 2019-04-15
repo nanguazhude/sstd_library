@@ -48,4 +48,3 @@ BOOST_MPL_AUX_NA_SPEC(2,find_if)
 }}
 
 #endif // BOOST_MPL_FIND_IF_HPP_INCLUDED
-

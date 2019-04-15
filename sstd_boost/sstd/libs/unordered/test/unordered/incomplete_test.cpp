@@ -171,4 +171,3 @@ int main()
 
   incomplete_test::use_types();
 }
-

@@ -43,4 +43,3 @@ struct is_leaf : public rtree::visitor<Value, typename Options::parameters_type,
 }}} // namespace boost::geometry::index
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_RTREE_VISITORS_IS_LEAF_HPP
-

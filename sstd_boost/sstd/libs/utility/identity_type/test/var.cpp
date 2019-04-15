@@ -23,5 +23,3 @@ VAR(BOOST_IDENTITY_TYPE((std::map<int, char>)), 4); // OK.
 //]
 
 int main() { return 0; }
-
-

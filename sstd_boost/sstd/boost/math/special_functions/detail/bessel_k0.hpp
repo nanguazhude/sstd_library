@@ -506,5 +506,3 @@ inline T bessel_k0(const T& x)
 #endif
 
 #endif // BOOST_MATH_BESSEL_K0_HPP
-
-

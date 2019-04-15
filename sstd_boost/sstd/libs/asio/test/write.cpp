@@ -3926,4 +3926,3 @@ BOOST_ASIO_TEST_SUITE
   BOOST_ASIO_TEST_CASE(test_4_arg_vector_buffers_async_write)
   BOOST_ASIO_TEST_CASE(test_4_arg_streambuf_async_write)
 )
-

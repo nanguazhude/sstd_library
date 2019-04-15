@@ -27,4 +27,3 @@ int main()
     std::cout << "The exact result is                                                 " << two_pi<double>()*third<double>() << "\n";
 
 }
-

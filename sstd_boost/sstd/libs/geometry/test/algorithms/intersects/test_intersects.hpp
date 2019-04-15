@@ -113,4 +113,3 @@ void test_self_intersects(std::string const& wkt, bool expected)
 
 
 #endif
-

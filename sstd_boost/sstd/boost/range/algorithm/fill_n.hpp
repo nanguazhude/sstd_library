@@ -51,4 +51,3 @@ inline const ForwardRange& fill_n(const ForwardRange& rng, Size n, const Value& 
 } // namespace boost
 
 #endif // include guard
-

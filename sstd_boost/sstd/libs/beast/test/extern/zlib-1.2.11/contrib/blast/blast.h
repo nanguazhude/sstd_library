@@ -81,4 +81,3 @@ int blast(blast_in infun, void *inhow, blast_out outfun, void *outhow,
  * At the bottom of blast.c is an example program that uses blast() that can be
  * compiled to produce a command-line decompression filter by defining TEST.
  */
-

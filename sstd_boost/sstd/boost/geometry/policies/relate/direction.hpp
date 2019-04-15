@@ -389,4 +389,3 @@ private :
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_GEOMETRY_POLICIES_RELATE_DIRECTION_HPP
-

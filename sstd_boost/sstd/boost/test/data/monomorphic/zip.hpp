@@ -185,5 +185,3 @@ operator^( DataSet1&& ds1, DataSet2&& ds2 )
 #endif // BOOST_TEST_NO_ZIP_COMPOSITION_AVAILABLE
 
 #endif // BOOST_TEST_DATA_MONOMORPHIC_ZIP_HPP_102211GER
-
-

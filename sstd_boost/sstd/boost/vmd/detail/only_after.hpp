@@ -35,4 +35,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_ONLY_AFTER_HPP */
-

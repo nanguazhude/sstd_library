@@ -170,4 +170,3 @@ BOOST_PYTHON_MODULE_INIT(polymorphism2_ext)
 }
 
 //#include "module_tail.cpp"
-

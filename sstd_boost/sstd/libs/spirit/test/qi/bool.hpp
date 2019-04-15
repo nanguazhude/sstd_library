@@ -44,5 +44,3 @@ struct test_bool_type
 };
 
 #endif
-
-

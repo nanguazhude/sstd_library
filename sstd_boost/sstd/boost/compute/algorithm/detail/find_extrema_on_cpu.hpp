@@ -136,4 +136,3 @@ inline InputIterator find_extrema_on_cpu(InputIterator first,
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_FIND_EXTREMA_ON_CPU_HPP
-

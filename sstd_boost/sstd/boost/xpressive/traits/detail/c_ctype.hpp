@@ -847,4 +847,3 @@ struct char_class_impl<wchar_t>
 }}} // namespace boost::xpressive::detail
 
 #endif
-

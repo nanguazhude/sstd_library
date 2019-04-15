@@ -74,4 +74,3 @@ BOOST_AUTO_TEST_CASE(in_nested_destructors)
     BOOST_CHECK_NE(root_count, level2_count);
     BOOST_CHECK_NE(level1_count, level2_count);
 }
-

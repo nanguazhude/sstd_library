@@ -27,4 +27,3 @@ template class basic_text_iprimitive<std::istream> ;
 
 } // namespace archive
 } // namespace boost
-

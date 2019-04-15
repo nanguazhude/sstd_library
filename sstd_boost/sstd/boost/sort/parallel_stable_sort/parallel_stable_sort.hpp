@@ -290,4 +290,3 @@ void parallel_stable_sort (Iter_t first, Iter_t last, Compare comp,
 //****************************************************************************
 //
 #endif
-

@@ -209,4 +209,3 @@ namespace boost { namespace phoenix { namespace stl
 }}} // namespace boost::phoenix::stl
 
 #endif // BOOST_PHOENIX_STL_CONTAINER_TRAITS_HPP
-

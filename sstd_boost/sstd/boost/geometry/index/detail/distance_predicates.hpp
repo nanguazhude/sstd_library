@@ -159,4 +159,3 @@ struct calculate_distance< predicates::path<SegmentOrLinestring>, Indexable, Tag
 }}}} // namespace boost::geometry::index::detail
 
 #endif // BOOST_GEOMETRY_INDEX_RTREE_DISTANCE_PREDICATES_HPP
-

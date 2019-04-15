@@ -107,6 +107,3 @@ struct unary_check_adaptor
 
 
 #endif // BOOST_BIMAP_CONTAINER_ADAPTOR_DETAIL_COMPARISON_ADAPTOR_HPP
-
-
-

@@ -221,4 +221,3 @@ class generic_hook
 } //namespace boost
 
 #endif //BOOST_INTRUSIVE_GENERIC_HOOK_HPP
-

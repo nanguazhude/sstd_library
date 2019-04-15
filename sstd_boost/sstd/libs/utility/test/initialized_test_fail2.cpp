@@ -35,4 +35,3 @@ int main()
   // This should fail to compile, so there is no need to call any function.
   return 0;
 }
-

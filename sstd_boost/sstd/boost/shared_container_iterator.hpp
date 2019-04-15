@@ -67,4 +67,3 @@ using iterators::make_shared_container_range;
 } // namespace boost
 
 #endif  // SHARED_CONTAINER_ITERATOR_RG08102002_HPP
-

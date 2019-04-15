@@ -682,4 +682,3 @@ template< class T > std::size_t hash_value( local_shared_ptr<T> const & p ) BOOS
 } // namespace boost
 
 #endif  // #ifndef BOOST_SMART_PTR_LOCAL_SHARED_PTR_HPP_INCLUDED
-

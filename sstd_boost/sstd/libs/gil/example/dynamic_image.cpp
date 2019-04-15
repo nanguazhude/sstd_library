@@ -21,4 +21,3 @@ int main()
     auto view = gil::flipped_up_down_view(gil::const_view(dynamic_image));
     gil::write_view("out-dynamic_image.jpg", view, gil::jpeg_tag());
 }
-

@@ -128,4 +128,3 @@ noexcept(BOOST_HOF_IS_NOTHROW_MOVE_CONSTRUCTIBLE(T) && BOOST_HOF_IS_NOTHROW_MOVE
 }}} // namespace boost::hof
 
 #endif
-

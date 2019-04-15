@@ -22,4 +22,3 @@
 #include <sstd/boost/proto/transform/when.hpp>
 
 #endif
-

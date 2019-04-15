@@ -951,5 +951,3 @@ template<> struct is_convertible<long double, mpfr_class> : public mpl::false_{}
 }
 
 #endif // BOOST_MATH_MPLFR_BINDINGS_HPP
-
-

@@ -148,4 +148,3 @@ template <class T> struct is_abstract : public integral_constant<bool, ::boost::
 } // namespace boost
 
 #endif //BOOST_TT_IS_ABSTRACT_CLASS_HPP
-

@@ -196,4 +196,3 @@ BOOST_AUTO_TEST_CASE(infinity_comparison_with_tolerance,
     BOOST_TEST(a == b, tt::tolerance(10.f));
     BOOST_TEST(a == b, tt::tolerance(1E10f));
 }
-

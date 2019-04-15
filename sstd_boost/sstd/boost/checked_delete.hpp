@@ -15,4 +15,3 @@
 #include <sstd/boost/core/checked_delete.hpp>
 
 #endif
-

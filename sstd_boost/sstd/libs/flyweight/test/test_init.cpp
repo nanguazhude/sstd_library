@@ -45,4 +45,3 @@ void test_init()
   BOOST_TEST(mark1);
   BOOST_TEST(mark2);
 }
-

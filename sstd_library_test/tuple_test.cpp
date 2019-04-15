@@ -20,7 +20,3 @@ extern void tuple_test(){
     sstd::forward_as_indexed_tuple(1,2,3,4));
 
 }
-
-
-
-

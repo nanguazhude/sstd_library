@@ -24,4 +24,3 @@
     BOOST_FUSION_DEFINE_STRUCT_INLINE_IMPL(NAME, ATTRIBUTES)                    \
 
 #endif
-

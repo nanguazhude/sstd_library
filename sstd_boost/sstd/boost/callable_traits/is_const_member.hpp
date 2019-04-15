@@ -95,4 +95,3 @@ constexpr bool is_const_member_v = //see below
 //]
 
 #endif // #ifndef BOOST_CLBL_TRTS_IS_CONST_MEMBER_HPP
-

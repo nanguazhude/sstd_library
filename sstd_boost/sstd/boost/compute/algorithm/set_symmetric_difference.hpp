@@ -202,4 +202,3 @@ set_symmetric_difference(InputIterator1 first1,
 } //end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_SET_SYMMETRIC_DIFFERENCE_HPP
-

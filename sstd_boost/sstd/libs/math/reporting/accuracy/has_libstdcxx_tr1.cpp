@@ -15,4 +15,3 @@ int main()
    d = std::tr1::lgamma(d);
    return d != 0 ? 0 : 1;
 }
-

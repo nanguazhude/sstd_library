@@ -466,5 +466,3 @@ inline typename tools::promote_args<T>::type
 } // namespace math
 } // namespace boost
 #endif
-
-

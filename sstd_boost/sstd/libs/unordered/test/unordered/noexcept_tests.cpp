@@ -318,4 +318,3 @@ namespace noexcept_tests {
 #endif
 
 RUN_TESTS()
-

@@ -421,5 +421,3 @@ namespace boost { namespace program_options {
 #include "sstd/boost/program_options/detail/value_semantic.hpp"
 
 #endif
-
-

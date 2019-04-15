@@ -190,4 +190,3 @@ BOOST_HOF_STATIC_TEST_CASE()
     static_assert(!boost::hof::is_invocable<fp>::value, "Failed");
     static_assert(!boost::hof::is_invocable<fp, callable_rank<0>&>::value, "Failed");
 };
-

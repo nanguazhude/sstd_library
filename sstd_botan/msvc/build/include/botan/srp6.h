@@ -1,4 +1,4 @@
-/*
+﻿/*
 * SRP-6a (RFC 5054 compatatible)
 * (C) 2011,2012 Jack Lloyd
 *

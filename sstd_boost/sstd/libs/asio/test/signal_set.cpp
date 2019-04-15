@@ -95,4 +95,3 @@ BOOST_ASIO_TEST_SUITE
   "signal_set",
   BOOST_ASIO_TEST_CASE(signal_set_compile::test)
 )
-

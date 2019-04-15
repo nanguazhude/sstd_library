@@ -60,4 +60,3 @@ private:
 } // namespace boost
 
 #endif // #ifndef BOOST_SMART_PTR_DETAIL_ATOMIC_COUNT_SPIN_HPP_INCLUDED
-

@@ -36,4 +36,3 @@ struct null_observer
 } // namespace boost
 
 #endif // BOOST_NUMERIC_ODEINT_INTEGRATE_NULL_OBSERVER_HPP_INCLUDED
-

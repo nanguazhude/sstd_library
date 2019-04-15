@@ -553,7 +553,3 @@ MSVC 10.0  using mutli-threaded DLL
     Pool:           0.016 seconds
 
 */
-
-
-
-

@@ -162,4 +162,3 @@ betweenness_centrality_clustering(MutableGraph& g, Done done)
 } // end namespace boost
 
 #endif // BOOST_GRAPH_BETWEENNESS_CENTRALITY_CLUSTERING_HPP
-

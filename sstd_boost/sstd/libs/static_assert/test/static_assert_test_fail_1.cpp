@@ -15,10 +15,3 @@ typedef char a2[3];
 
 // Namespace scope
 BOOST_STATIC_ASSERT(sizeof(a1) == sizeof(a2)); // will not compile
-
-
-
-
-
-
-

@@ -94,5 +94,3 @@ int main()
     I_dont_like_the_default_duration_behavior::test();
     return 0;
 }
-
-

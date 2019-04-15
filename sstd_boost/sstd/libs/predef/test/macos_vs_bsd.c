@@ -17,4 +17,3 @@ http://www.boost.org/LICENSE_1_0.txt)
 #       error "BOOST_OS_MACOS not detected and/or BOOST_OS_BSD mis-detected."
 #   endif
 #endif
-

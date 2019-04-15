@@ -549,4 +549,3 @@ struct bind_chooser<i_>
 
 #endif // BOOST_PP_ITERATION_DEPTH()
 #endif // BOOST_PP_IS_ITERATING
-

@@ -56,4 +56,3 @@ struct set_view_bind                                                          \
 
 
 #endif // BOOST_BIMAP_DETAIL_GENERATE_VIEW_BINDER_HPP
-

@@ -290,4 +290,3 @@ runner::log(std::string const& s)
 } // boost
 
 #endif
-

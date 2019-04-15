@@ -68,4 +68,3 @@ private:
 } // namespace http
 
 #endif // HTTP_SERVER3_SERVER_HPP
-

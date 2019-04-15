@@ -47,5 +47,3 @@ main()
     test_front(data);
     return boost::report_errors();
 }
-
-

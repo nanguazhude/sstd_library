@@ -1,4 +1,4 @@
-/*
+﻿/*
  * XMSS Key Pair
  * (C) 2016 Matthias Gierlings
  *

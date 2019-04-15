@@ -90,4 +90,3 @@ BOOST_CHECK(Alias(1L));
 #endif
 
 TT_TEST_END
-

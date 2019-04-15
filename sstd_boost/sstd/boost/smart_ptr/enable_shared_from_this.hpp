@@ -88,4 +88,3 @@ private:
 } // namespace boost
 
 #endif  // #ifndef BOOST_SMART_PTR_ENABLE_SHARED_FROM_THIS_HPP_INCLUDED
-

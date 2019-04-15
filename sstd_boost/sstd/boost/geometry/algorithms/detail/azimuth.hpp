@@ -150,4 +150,3 @@ inline ReturnType azimuth(Point1 const& p1, Point2 const& p2, Model const& model
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_AZIMUTH_HPP
-

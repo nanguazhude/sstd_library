@@ -42,4 +42,3 @@ struct holder:parameter::template_keyword<holder<>,T>
 } /* namespace boost */
 
 #endif
-

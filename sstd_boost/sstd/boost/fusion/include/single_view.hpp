@@ -11,4 +11,3 @@
 #include <sstd/boost/fusion/view/single_view.hpp>
 
 #endif
-

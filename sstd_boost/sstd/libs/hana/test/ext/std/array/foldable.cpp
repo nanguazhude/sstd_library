@@ -27,4 +27,3 @@ int main() {
 
     hana::test::TestFoldable<hana::ext::std::array_tag>{int_arrays};
 }
-

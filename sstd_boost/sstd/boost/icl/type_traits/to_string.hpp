@@ -39,6 +39,3 @@ struct to_string
 }} // namespace boost icl
 
 #endif
-
-
-

@@ -64,4 +64,3 @@ BOOST_AUTO_TEST_CASE(async_wait, *boost::unit_test::timeout(2))
     BOOST_CHECK(called);
 
 }
-

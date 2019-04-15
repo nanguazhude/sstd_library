@@ -38,5 +38,3 @@ namespace boost {
 } // namespace boost
 
 #endif  // BOOST_TT_IS_SAME_HPP_INCLUDED
-
-

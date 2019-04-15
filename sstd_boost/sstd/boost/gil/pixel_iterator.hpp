@@ -140,4 +140,3 @@ inline P& memunit_advanced_ref(P* p, std::ptrdiff_t diff) {
 } }  // namespace boost::gil
 
 #endif
-

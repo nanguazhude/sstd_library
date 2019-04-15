@@ -242,6 +242,3 @@ struct type_to_string<icl::split_interval_map<DomainT,CodomainT,Traits,Compare,C
 }} // namespace icl boost
 
 #endif
-
-
-

@@ -27,4 +27,3 @@ int main() {
         hana::values(m) ^hana::in^ hana::permutations(hana::make_tuple("foobar"s, 1234))
     );
 }
-

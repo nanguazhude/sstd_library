@@ -64,4 +64,3 @@ main(int argc, char *argv[])
   loops_out << "}\n";
   return EXIT_SUCCESS;
 }
-

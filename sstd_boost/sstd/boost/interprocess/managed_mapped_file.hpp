@@ -248,4 +248,3 @@ wmanaged_mapped_file;
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //BOOST_INTERPROCESS_MANAGED_MAPPED_FILE_HPP
-

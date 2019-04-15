@@ -186,4 +186,3 @@ parse_info<typename TokenT::string_type::const_iterator> hit =
 #endif
 
 #endif // !defined(CPP_INTLIT_GRAMMAR_HPP_2E1E70B1_F15C_4132_8554_10A231B0D91C_INCLUDED)
-

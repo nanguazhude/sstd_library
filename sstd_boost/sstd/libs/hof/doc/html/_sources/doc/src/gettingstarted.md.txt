@@ -146,5 +146,3 @@ Additionally, adaptors can be used, so the pipable version of `sum` can be writt
     {
         return x + y;
     });
-
-

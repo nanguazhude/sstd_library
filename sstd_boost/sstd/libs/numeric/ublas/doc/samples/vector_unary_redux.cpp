@@ -24,5 +24,3 @@ int main () {
     std::cout << norm_inf (v) << std::endl;
     std::cout << index_norm_inf (v) << std::endl;
 }
-
-

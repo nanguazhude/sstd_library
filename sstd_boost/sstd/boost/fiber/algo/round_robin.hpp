@@ -67,4 +67,3 @@ public:
 #endif
 
 #endif // BOOST_FIBERS_ALGO_ROUND_ROBIN_H
-

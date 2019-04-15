@@ -37,5 +37,3 @@ struct base_unit_info<imperial::ton_base_unit> {
 } // namespace boost
 
 #endif // BOOST_UNIT_SYSTEMS_IMPERIAL_TON_HPP_INCLUDED
-
-

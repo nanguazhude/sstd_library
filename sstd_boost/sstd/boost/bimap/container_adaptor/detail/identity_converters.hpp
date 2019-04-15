@@ -187,6 +187,3 @@ struct key_to_base_identity< Key, Key >
 
 
 #endif // BOOST_BIMAP_CONTAINER_ADAPTOR_DETAIL_IDENTITY_CONVERTERS_HPP
-
-
-

@@ -78,4 +78,3 @@ struct lazy_binding
 }} // namespace boost::parameter
 
 #endif // BOOST_PARAMETER_BINDING_DWA200558_HPP
-

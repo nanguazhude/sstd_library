@@ -31,5 +31,3 @@ int main(void) {
     BOOST_TEST(d2(6) == 1);
     return boost::report_errors();
 }
-
-

@@ -36,5 +36,3 @@ int main()
 }
 
 #endif
-
-

@@ -176,4 +176,3 @@ struct ternary
 
 
 #endif // BOOST_GEOMETRY_UTIL_CALCULATION_TYPE_HPP
-

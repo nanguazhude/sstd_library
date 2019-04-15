@@ -19,7 +19,3 @@ extern "C" float BOOST_MATH_TR1_DECL boost_fmaxf BOOST_PREVENT_MACRO_SUBSTITUTIO
       return x;
    return (std::max)(x, y);
 }
-
-
-
-

@@ -31,5 +31,3 @@ TEST_LIB_DECL boost::typeindex::type_index get_const_anonymous_user_defined_clas
 }
 
 #endif // BOOST_TYPE_INDEX_TESTS_TEST_LIB_ANONYMOUS_HPP
-
-

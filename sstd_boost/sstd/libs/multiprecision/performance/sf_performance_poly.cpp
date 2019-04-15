@@ -70,4 +70,3 @@ void poly_tests()
    time_proc("mpfr::mpreal", test_polynomial<mpfr::mpreal>);
 #endif
 }
-

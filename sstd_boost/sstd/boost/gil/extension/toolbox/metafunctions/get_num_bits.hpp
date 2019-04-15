@@ -61,4 +61,3 @@ struct get_num_bits< T
 } // namespace boost
 
 #endif
-

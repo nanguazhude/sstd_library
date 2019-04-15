@@ -57,4 +57,3 @@ struct back_impl< aux::vector_tag<n_> >
 }}
 
 #endif // BOOST_MPL_VECTOR_AUX_BACK_HPP_INCLUDED
-

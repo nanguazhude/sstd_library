@@ -120,4 +120,3 @@ namespace quickbook
 }
 
 #endif // BOOST_SPIRIT_ACTIONS_CLASS_HPP
-

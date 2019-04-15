@@ -22,4 +22,3 @@ template< typename Sequence, typename First, typename Last > struct erase;
 }}
 
 #endif // BOOST_MPL_ERASE_FWD_HPP_INCLUDED
-

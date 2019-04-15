@@ -553,4 +553,3 @@ void bcp_implementation::add_file_dependencies(const fs::path& p, bool scanfile)
       }
    }
 }
-

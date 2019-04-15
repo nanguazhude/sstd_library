@@ -22,4 +22,3 @@ template< typename Sequence > struct pop_back;
 }}
 
 #endif // BOOST_MPL_POP_BACK_FWD_HPP_INCLUDED
-

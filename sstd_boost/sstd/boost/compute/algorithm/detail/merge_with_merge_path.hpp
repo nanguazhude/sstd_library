@@ -201,4 +201,3 @@ merge_with_merge_path(InputIterator1 first1,
 } //end boost namespace
 
 #endif // BOOST_COMPUTE_ALGORITHM_DETAIL_MERGE_WIH_MERGE_PATH_HPP
-

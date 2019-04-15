@@ -645,4 +645,3 @@ struct trait \
     /**/
 
 #endif // BOOST_MPL_HAS_XXX_HPP_INCLUDED
-

@@ -208,4 +208,3 @@ struct iter_fold_if_impl
 
 #endif // BOOST_MPL_CFG_NO_PREPROCESSED_HEADERS
 #endif // BOOST_MPL_AUX_ITER_FOLD_IF_IMPL_HPP_INCLUDED
-

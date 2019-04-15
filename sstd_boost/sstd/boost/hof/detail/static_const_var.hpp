@@ -66,4 +66,3 @@ constexpr const T& static_const_var()
 #define BOOST_HOF_DECLARE_STATIC_VAR(name, ...) BOOST_HOF_STATIC_CONST_VAR(name) = __VA_ARGS__{}
 
 #endif
-

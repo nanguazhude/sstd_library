@@ -25,4 +25,3 @@ BOOST_TYPEOF_REGISTER_TYPE(boost::units::astronomical::parsec_base_unit)
 #endif
 
 #endif // BOOST_UNIT_SYSTEMS_ASTRONOMICAL_PARSEC_HPP_INCLUDED
-

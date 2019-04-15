@@ -32,4 +32,3 @@
 /**/
 
 #endif // BOOST_TTI_DETAIL_FUNCTION_HPP
-

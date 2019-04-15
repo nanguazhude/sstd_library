@@ -68,4 +68,3 @@ public:
 } // namespace boost
 
 #endif // RANGE_LIST_RG072501_HPP
-

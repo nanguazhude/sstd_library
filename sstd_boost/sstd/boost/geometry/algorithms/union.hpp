@@ -535,4 +535,3 @@ inline void union_(Geometry1 const& geometry1,
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_UNION_HPP
-

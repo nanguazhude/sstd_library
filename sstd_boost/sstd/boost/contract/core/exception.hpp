@@ -950,5 +950,3 @@ from_failure_handler const& set_invariant_failure(from_failure_handler const& f)
 } } // namespace
 
 #endif // #include guard
-
-

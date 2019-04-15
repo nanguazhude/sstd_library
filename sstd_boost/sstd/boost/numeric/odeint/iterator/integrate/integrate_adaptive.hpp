@@ -127,4 +127,3 @@ size_t integrate_adaptive(
 
 
 #endif // BOOST_NUMERIC_ODEINT_INTEGRATE_INTEGRATE_ADAPTIVE_HPP_INCLUDED
-

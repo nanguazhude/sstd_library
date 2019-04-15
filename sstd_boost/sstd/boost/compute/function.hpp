@@ -465,4 +465,3 @@ make_function_impl(const char *name, const char *arguments, const char *source)
 #endif
 
 #endif // BOOST_COMPUTE_FUNCTION_HPP
-

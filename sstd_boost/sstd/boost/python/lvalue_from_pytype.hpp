@@ -115,4 +115,3 @@ struct lvalue_from_pytype
 }} // namespace boost::python
 
 #endif // LVALUE_FROM_PYTYPE_DWA2002130_HPP
-

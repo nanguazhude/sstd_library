@@ -18,4 +18,3 @@ BOOST_HANA_CONSTANT_CHECK(hana::make_range(hana::int_c<2>, hana::int_c<5>) == ha
 BOOST_HANA_CONSTANT_CHECK(hana::make_range(hana::int_c<0>, hana::int_c<3>) != hana::make_range(hana::int_c<-1>, hana::int_c<3>));
 
 int main() { }
-

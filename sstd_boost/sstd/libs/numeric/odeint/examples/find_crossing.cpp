@@ -132,4 +132,3 @@ int main(int argc, char **argv)
         std::cout << "Energy: " << cond.energy(x_cond) << std::endl;
     }
 }
-

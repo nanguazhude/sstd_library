@@ -386,4 +386,3 @@ namespace boost {
 
 
 #endif  // BOOST_STRING_FIND_ITERATOR_HPP
-

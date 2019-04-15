@@ -51,4 +51,3 @@ template<> struct initializer_builder<env_tag<wchar_t>>;
 }}
 
 #endif /* INCLUDE_BOOST_PROCESS_DETAIL_ENV_HPP_ */
-

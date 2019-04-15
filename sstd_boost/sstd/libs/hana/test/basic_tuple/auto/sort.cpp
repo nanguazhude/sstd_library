@@ -6,4 +6,3 @@
 #include <auto/sort.hpp>
 
 int main() { }
-

@@ -481,4 +481,3 @@ BOOST_IOSTREAMS_RESTRICT(T& t, stream_offset off, stream_offset len = -1)
 # include <sstd/boost/iostreams/detail/config/enable_warnings.hpp>
 
 #endif // #if !defined(BOOST_IOSTREAMS_RESTRICT_IMPL_HPP_INCLUDED) ...
-

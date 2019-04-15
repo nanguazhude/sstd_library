@@ -40,5 +40,3 @@ int main() {
     assert(total == 16);
     return 0;
 }
-
-

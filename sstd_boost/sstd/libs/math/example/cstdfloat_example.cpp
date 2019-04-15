@@ -485,5 +485,3 @@ floatmax_t, float64_t: false
 
 
 */
-
-

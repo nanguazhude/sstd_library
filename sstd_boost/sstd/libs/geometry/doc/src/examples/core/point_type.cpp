@@ -42,4 +42,3 @@ point type: class boost::geometry::model::d2::point_xy<double,struct boost::geom
 ]
 */
 //]
-

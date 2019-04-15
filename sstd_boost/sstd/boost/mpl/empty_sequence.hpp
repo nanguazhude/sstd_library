@@ -41,4 +41,3 @@ struct size_impl<empty_sequence::tag>
 }}
 
 #endif // #ifndef BOOST_MPL_EMPTY_SEQUENCE_HPP_INCLUDED
-

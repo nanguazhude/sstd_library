@@ -10,4 +10,3 @@
 #include <sstd/boost/fusion/adapted/std_tuple.hpp>
 
 #endif
-

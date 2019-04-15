@@ -172,5 +172,3 @@ void test_bessel(T, const char* name)
 #include "bessel_k_data.ipp"
     do_test_cyl_bessel_k<T>(bessel_k_data, name, "Bessel Kv: Random Data");
 }
-
-

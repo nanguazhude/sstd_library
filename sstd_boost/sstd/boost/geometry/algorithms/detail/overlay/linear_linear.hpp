@@ -342,4 +342,3 @@ struct linear_linear_linestring
 
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_OVERLAY_LINEAR_LINEAR_HPP
-

@@ -1,4 +1,4 @@
-/*
+﻿/*
 * TLS Sequence Number Handling
 * (C) 2012 Jack Lloyd
 *

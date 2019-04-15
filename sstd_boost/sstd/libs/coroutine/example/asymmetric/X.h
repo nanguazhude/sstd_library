@@ -11,4 +11,3 @@ struct X
 };
 
 #endif // X_H
-

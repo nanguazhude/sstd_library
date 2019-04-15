@@ -23,4 +23,3 @@ struct bounds_tag {};
 }}} // namespace boost::geometry::index
 
 #endif // BOOST_GEOMETRY_INDEX_RTREE_TAGS_HPP
-

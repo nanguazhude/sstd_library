@@ -13,4 +13,3 @@
 #include <sstd/boost/python/object.hpp>
 
 #endif // BOOST_PYTHON_API_PLACE_HOLDER_HPP
-

@@ -32,4 +32,3 @@ BOOST_MPL_ASSERT_NOT((is_subconcept<mpl::vector<typeid_<_a>, incrementable<_a> >
 BOOST_MPL_ASSERT((is_subconcept<typeid_<_a>, mpl::vector<typeid_<_b>, incrementable<_b> >, mpl::map<mpl::pair<_a, _b> > >));
 BOOST_MPL_ASSERT((is_subconcept<incrementable<_a>, mpl::vector<typeid_<_b>, incrementable<_b> >, mpl::map<mpl::pair<_a, _b> > >));
 BOOST_MPL_ASSERT((is_subconcept<mpl::vector<typeid_<_a>, incrementable<_a> >, mpl::vector<incrementable<_b>, typeid_<_b> >, mpl::map<mpl::pair<_a, _b> > >));
-

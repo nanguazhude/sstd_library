@@ -61,4 +61,3 @@ inline typename managed_unique_ptr<T, ManagedMemory>::type
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTERPROCESS_UNIQUE_PTR_HPP_INCLUDED
-

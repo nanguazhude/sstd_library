@@ -39,4 +39,3 @@ struct insert_range_impl< aux::set_tag >
 }}
 
 #endif // BOOST_MPL_SET_AUX_INSERT_RANGE_IMPL_HPP_INCLUDED
-

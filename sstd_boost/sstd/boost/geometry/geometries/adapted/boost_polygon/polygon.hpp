@@ -108,5 +108,3 @@ struct interior_rings<boost::polygon::polygon_with_holes_data<CoordinateType> >
 
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_ADAPTED_BOOST_POLYGON_POLYGON_HPP
-
-

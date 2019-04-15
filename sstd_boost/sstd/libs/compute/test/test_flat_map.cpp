@@ -145,4 +145,3 @@ BOOST_AUTO_TEST_CASE(custom_kernel)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

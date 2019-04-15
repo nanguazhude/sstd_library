@@ -1,4 +1,4 @@
-/*
+﻿/*
 * ECDSA
 * (C) 2007 Falko Strenzke, FlexSecure GmbH
 *          Manuel Hartl, FlexSecure GmbH

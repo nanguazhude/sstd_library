@@ -43,4 +43,3 @@
 /**/
 
 #endif /* BOOST_VMD_DETAIL_SEQUENCE_TO_SEQ_HPP */
-

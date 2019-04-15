@@ -115,4 +115,3 @@ struct tag< model::multi_polygon<Polygon, Container, Allocator> >
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_GEOMETRIES_MULTI_POLYGON_HPP
-

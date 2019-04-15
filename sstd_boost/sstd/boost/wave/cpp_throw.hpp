@@ -178,4 +178,3 @@ namespace boost { namespace wave { namespace util
 #endif // BOOST_WAVE_THROW_VAR_CTX
 
 #endif // !defined(BOOST_WAVE_CPP_THROW_HPP_INCLUDED)
-

@@ -196,4 +196,3 @@ basic_binary_iprimitive<Archive, Elem, Tr>::load_binary(
 #include <sstd/boost/archive/detail/abi_suffix.hpp> // pop pragmas
 
 #endif // BOOST_ARCHIVE_BINARY_IPRIMITIVE_HPP
-

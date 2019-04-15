@@ -618,5 +618,3 @@ inline std::pair<T, T> bracket_and_solve_root(F f, const T& guess, const T& fact
 
 
 #endif // BOOST_MATH_TOOLS_SOLVE_ROOT_HPP
-
-

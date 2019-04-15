@@ -17,6 +17,3 @@
  * Thus this is not recommended for general use.
  */
 void GC_finalize_all();
-
-
-

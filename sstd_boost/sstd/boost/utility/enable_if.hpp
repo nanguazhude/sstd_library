@@ -15,4 +15,3 @@
 #include <sstd/boost/core/enable_if.hpp>
 
 #endif
-

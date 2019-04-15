@@ -1386,6 +1386,3 @@ struct is_total<icl::interval_base_map<SubType,DomainT,CodomainT,Traits,Compare,
 }} // namespace icl boost
 
 #endif
-
-
-

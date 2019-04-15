@@ -230,4 +230,3 @@ interval<T, Policies> atanh(const interval<T, Policies>& x)
 } // namespace boost
 
 #endif // BOOST_NUMERIC_INTERVAL_TRANSC_HPP
-

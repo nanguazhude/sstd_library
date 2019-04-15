@@ -135,4 +135,3 @@ BOOST_AUTO_TEST_CASE( messages_in_datasets )
 
     check_pattern_loggers(test_output, ts);
 }
-

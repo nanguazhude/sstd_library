@@ -65,4 +65,3 @@ class posix_semaphore
 #include <sstd/boost/interprocess/detail/config_end.hpp>
 
 #endif   //#ifndef BOOST_INTERPROCESS_POSIX_SEMAPHORE_HPP
-

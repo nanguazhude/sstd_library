@@ -141,4 +141,3 @@ BOOST_MPL_AUX_NA_SPEC(2, lower_bound)
 }}
 
 #endif // BOOST_MPL_LOWER_BOUND_HPP_INCLUDED
-

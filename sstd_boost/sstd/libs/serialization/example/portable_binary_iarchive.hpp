@@ -202,4 +202,3 @@ public:
 #endif
 
 #endif // PORTABLE_BINARY_IARCHIVE_HPP
-

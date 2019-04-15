@@ -213,4 +213,3 @@ inline std::size_t hash_value(
 #undef BOOST_FLYWEIGHT_TYPENAME_TEMPL_ARGS
 
 #endif
-

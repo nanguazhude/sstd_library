@@ -312,5 +312,3 @@ inline void integer_sort(Range& range, Right_shift shift)
 }
 
 #endif
-
-

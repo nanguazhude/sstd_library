@@ -588,4 +588,3 @@ namespace boost { namespace yap { namespace detail {
 }}}
 
 #endif
-

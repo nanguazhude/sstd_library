@@ -206,4 +206,3 @@ template struct test_blas_3<ublas::matrix<std::complex<mp_test_type> >, 3>;
 template struct test_blas_3<ublas::matrix<std::complex<double> >, 3>;
 #endif
 #endif
-

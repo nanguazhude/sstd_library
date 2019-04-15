@@ -37,5 +37,3 @@ BOOST_PYTHON_MODULE(bienstman1_ext)
            return_value_policy<reference_existing_object>())
       ;
 }
-
-

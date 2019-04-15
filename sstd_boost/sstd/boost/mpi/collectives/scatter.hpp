@@ -201,4 +201,3 @@ void scatter(const communicator& comm, T* out_values, int n, int root)
 } } // end namespace boost::mpi
 
 #endif // BOOST_MPI_SCATTER_HPP
-

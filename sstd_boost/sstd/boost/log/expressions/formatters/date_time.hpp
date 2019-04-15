@@ -343,4 +343,3 @@ struct is_nullary< custom_terminal< boost::log::expressions::format_date_time_te
 #include <sstd/boost/log/detail/footer.hpp>
 
 #endif // BOOST_LOG_EXPRESSIONS_FORMATTERS_DATE_TIME_HPP_INCLUDED_
-

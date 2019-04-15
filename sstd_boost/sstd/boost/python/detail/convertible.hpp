@@ -36,4 +36,3 @@ struct convertible
 }}} // namespace boost::python::detail
 
 #endif // CONVERTIBLE_DWA2002614_HPP
-

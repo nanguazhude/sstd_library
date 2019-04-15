@@ -116,4 +116,3 @@ inline std::size_t floor_log2 (std::size_t x)
 } // namespace boost
 
 #endif
-

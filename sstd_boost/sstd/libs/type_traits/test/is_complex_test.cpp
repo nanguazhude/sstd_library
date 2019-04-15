@@ -43,13 +43,3 @@ TT_TEST_BEGIN(is_complex)
    BOOST_CHECK_INTEGRAL_CONSTANT(::tt::is_complex<volatile std::complex<float> >::value, true);
 
 TT_TEST_END
-
-
-
-
-
-
-
-
-
-

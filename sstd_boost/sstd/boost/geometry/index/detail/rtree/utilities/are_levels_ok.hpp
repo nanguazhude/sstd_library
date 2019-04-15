@@ -107,4 +107,3 @@ bool are_levels_ok(Rtree const& tree)
 }}}}}} // namespace boost::geometry::index::detail::rtree::utilities
 
 #endif // BOOST_GEOMETRY_INDEX_DETAIL_RTREE_UTILITIES_ARE_LEVELS_OK_HPP
-

@@ -48,4 +48,3 @@ service_base<T>::id;
 } // boost
 
 #endif
-

@@ -2944,4 +2944,3 @@ mind:
     STL algorithms can be used for pixel manipulation, and they are
     specifically targeted for optimization. The library works with
     existing raw pixel data from another image library.
-

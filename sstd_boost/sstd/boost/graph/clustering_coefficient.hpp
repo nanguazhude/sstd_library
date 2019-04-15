@@ -157,4 +157,3 @@ mean_clustering_coefficient(const Graph& g, ClusteringMap cm)
 } /* namespace boost */
 
 #endif
-

@@ -22,4 +22,3 @@
 #undef BOOST_UTF8_DECL
 
 #endif
-

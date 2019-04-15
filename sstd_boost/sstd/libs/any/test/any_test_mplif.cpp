@@ -17,4 +17,3 @@ int main() {
     a = true;
     std::cout << std::boolalpha << boost::any_cast<bool>(a) << '\n';
 }
-

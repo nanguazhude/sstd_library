@@ -42,4 +42,3 @@ struct factory:parameter::template_keyword<factory<>,T>
 } /* namespace boost */
 
 #endif
-

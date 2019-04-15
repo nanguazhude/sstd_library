@@ -7,5 +7,3 @@
 
 #include "nova.hpp"
 #include "world_seq.cpp"
-
-

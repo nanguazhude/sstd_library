@@ -27,5 +27,3 @@ int main(void) {
 }
 
 #endif // AUTO_DECLARATIONS && VARIADIC_MACROS
-
-

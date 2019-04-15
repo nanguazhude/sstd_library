@@ -40,4 +40,3 @@ inline const T& cast_storage(const void* storage)
 } // namespace boost
 
 #endif // BOOST_VARIANT_DETAIL_CAST_STORAGE_HPP
-

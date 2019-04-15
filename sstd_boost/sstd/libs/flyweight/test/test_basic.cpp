@@ -66,4 +66,3 @@ void test_basic()
   test_basic_template<basic_flyweight_specifier2>();
   test_basic_template<basic_flyweight_specifier3>();
 }
-

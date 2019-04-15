@@ -570,4 +570,3 @@ void random_shuffle( RandomIt first, RandomIt last )
 }}}
 
 #endif   //#ifndef BOOST_INTRUSIVE_TEST_CONTAINER_HPP
-

@@ -128,4 +128,3 @@ using dwstream = std::wostream&;
 } // boost
 
 #endif
-

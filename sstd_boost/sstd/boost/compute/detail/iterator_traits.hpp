@@ -33,4 +33,3 @@ struct iterator_traits : public std::iterator_traits<Iterator>
 } // end boost namespace
 
 #endif // BOOST_COMPUTE_ITERATOR_TRAITS_HPP
-

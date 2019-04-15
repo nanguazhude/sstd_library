@@ -21,5 +21,3 @@ int main () {
         project (v, range (0, 3)) (i) = i;
     std::cout << project (v, range (0, 3)) << std::endl;
 }
-
-

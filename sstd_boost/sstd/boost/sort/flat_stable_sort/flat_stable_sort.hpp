@@ -310,4 +310,3 @@ inline void indirect_flat_stable_sort (Iter_t first, Iter_t last,
 //****************************************************************************
 //
 #endif
-

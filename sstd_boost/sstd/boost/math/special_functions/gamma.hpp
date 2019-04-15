@@ -2074,8 +2074,3 @@ inline typename tools::promote_args<T1, T2>::type
 #include <sstd/boost/math/special_functions/erf.hpp>
 
 #endif // BOOST_MATH_SF_GAMMA_HPP
-
-
-
-
-

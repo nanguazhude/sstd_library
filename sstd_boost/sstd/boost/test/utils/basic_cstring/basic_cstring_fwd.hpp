@@ -37,5 +37,3 @@ typedef char const* const           c_literal_string;
 } // namespace boost
 
 #endif // BOOST_TEST_UTILS_BASIC_CSTRING_FWD_HPP
-
-

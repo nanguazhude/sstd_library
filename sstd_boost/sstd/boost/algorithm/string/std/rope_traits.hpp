@@ -79,4 +79,3 @@ namespace boost {
 
 
 #endif  // BOOST_STRING_ROPE_TRAITS_HPP
-

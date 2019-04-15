@@ -77,4 +77,3 @@ BOOST_AUTO_TEST_CASE(explicit_args_fs_path)
 
     BOOST_CHECK(c.exit_code() == 2); // exe + "hello"
 }
-

@@ -65,4 +65,3 @@ namespace boost {
   } // namespace polygon
 }   // namespace boost
 #endif
-

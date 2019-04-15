@@ -125,5 +125,3 @@ Compiler: Mingw gcc 3.4.2
    named parameter time: 1.406
 
 -----------------------------------------
-
-

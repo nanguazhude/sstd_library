@@ -83,4 +83,3 @@ int main()
         BOOST_SPIRIT_CLASSIC_NS::space_p
     );
 }
-

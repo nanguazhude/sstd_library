@@ -31,4 +31,3 @@ struct Context {
 BOOST_FIXTURE_TEST_SUITE(compute_test, Context)
 
 #endif
-

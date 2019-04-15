@@ -483,4 +483,3 @@ to get some (much!) diagnostic output we can add
 ]
 */
 //] [/root_finding_example_output]
-

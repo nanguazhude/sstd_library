@@ -36,4 +36,3 @@
 # define BOOST_PP_BITXOR_11 0
 #
 # endif
-

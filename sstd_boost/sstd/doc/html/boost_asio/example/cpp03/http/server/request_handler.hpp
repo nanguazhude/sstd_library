@@ -44,4 +44,3 @@ private:
 } // namespace http
 
 #endif // HTTP_REQUEST_HANDLER_HPP
-

@@ -74,4 +74,3 @@ struct valid_argument_list
 
 
 #endif /* BOOST_PROCESS_DETAIL_HANDLER_HPP_ */
-

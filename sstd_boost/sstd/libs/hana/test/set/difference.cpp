@@ -65,4 +65,3 @@ int main() {
         hana::make_set(ct_eq<0>{})
     ));
 }
-

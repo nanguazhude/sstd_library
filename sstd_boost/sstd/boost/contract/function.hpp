@@ -86,5 +86,3 @@ inline specify_precondition_old_postcondition_except<> function() {
 } } // namespace
 
 #endif // #include guard
-
-

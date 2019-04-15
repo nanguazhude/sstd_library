@@ -455,4 +455,3 @@ namespace std {
 #endif
 
 #endif /*BOOST_ARRAY_HPP*/
-

@@ -121,4 +121,3 @@ enum                                                    \
 # endif
 
 #endif // BOOST_CONCEPT_CHECK_MSVC_DWA2006429_HPP
-

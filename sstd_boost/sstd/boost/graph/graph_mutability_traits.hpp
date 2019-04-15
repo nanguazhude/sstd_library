@@ -202,4 +202,3 @@ struct is_add_only_property_graph
 } // namespace boost
 
 #endif
-

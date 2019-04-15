@@ -97,4 +97,3 @@ struct has_rebind
 }}}
 
 #endif // BOOST_MPL_AUX_HAS_REBIND_HPP_INCLUDED
-

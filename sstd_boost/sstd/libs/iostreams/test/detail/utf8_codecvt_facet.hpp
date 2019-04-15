@@ -197,5 +197,3 @@ struct utf8_codecvt_facet<char, char>
 #endif
 
 #endif // BOOST_UTF8_CODECVT_FACET_HPP
-
-

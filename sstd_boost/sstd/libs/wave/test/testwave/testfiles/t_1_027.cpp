@@ -39,4 +39,3 @@ CONCAT_2 ( a, b ) ();                   //R ab ();
 CONCAT_2 ( A1, B1 ) ();                 //R ab ();
 CONCAT_2 LHS a, b RHS ();               //R CONCAT_2 ( a, b )();
 CONCAT_2(A2(), B2())();                 //R ab();
-

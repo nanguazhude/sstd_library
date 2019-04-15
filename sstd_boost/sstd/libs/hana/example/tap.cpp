@@ -26,4 +26,3 @@ int main() {
     BOOST_HANA_RUNTIME_CHECK(after == std::set<int>{1, -1, 2, -2, 3, -3});
     BOOST_HANA_RUNTIME_CHECK(xs == hana::make_tuple(1, -1, 2, -2, 3, -3));
 }
-

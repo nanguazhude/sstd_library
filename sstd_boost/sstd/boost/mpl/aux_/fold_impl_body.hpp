@@ -363,4 +363,3 @@ template<> struct AUX778076_FOLD_CHUNK_NAME<n_>
 #   undef n_
 
 #endif // BOOST_PP_IS_ITERATING
-

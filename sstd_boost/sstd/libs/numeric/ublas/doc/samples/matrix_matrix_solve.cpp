@@ -22,5 +22,3 @@ int main () {
 
     std::cout << solve (m1, m2, lower_tag ()) << std::endl;
 }
-
-

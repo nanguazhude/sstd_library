@@ -43,4 +43,3 @@ using file = file_stdio;
 } // boost
 
 #endif
-

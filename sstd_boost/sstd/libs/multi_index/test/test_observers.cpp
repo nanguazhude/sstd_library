@@ -54,4 +54,3 @@ void test_observers()
     BOOST_TEST(vc(*it0,*it1)==true);
   }
 }
-

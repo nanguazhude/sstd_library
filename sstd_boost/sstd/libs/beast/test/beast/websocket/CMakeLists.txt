@@ -37,4 +37,3 @@ add_executable (tests-beast-websocket
 )
 
 set_property(TARGET tests-beast-websocket PROPERTY FOLDER "tests")
-

@@ -316,4 +316,3 @@ inline bool has_rounding_issues(AngleCollection const& angles, Point const& orig
 }} // namespace boost::geometry
 
 #endif // BOOST_GEOMETRY_ALGORITHMS_DETAIL_GET_LEFT_TURNS_HPP
-

@@ -22,4 +22,3 @@ main()
     print(val("Hello World"));
     return 0;
 }
-

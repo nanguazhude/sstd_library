@@ -42,4 +42,3 @@ struct is_acceptable:std::integral_constant<
 } /* namespace boost */
 
 #endif
-

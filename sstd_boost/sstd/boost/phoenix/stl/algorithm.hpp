@@ -15,4 +15,3 @@
 #include <sstd/boost/phoenix/stl/algorithm/transformation.hpp>
 
 #endif // BOOST_PHOENIX_STL_ALGORITHM_HPP
-

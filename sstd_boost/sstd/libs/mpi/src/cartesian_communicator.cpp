@@ -177,4 +177,3 @@ cartesian_dimensions(int sz, std::vector<int>&  dims) {
 }
 
 } } // end namespace boost::mpi
-

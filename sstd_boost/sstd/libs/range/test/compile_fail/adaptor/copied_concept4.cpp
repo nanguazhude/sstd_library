@@ -22,4 +22,3 @@ int main(int, const char**)
         mock_const_range<boost::bidirectional_traversal_tag>(),
                                  0, 1).front();
 }
-

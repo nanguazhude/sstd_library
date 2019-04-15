@@ -33,4 +33,3 @@ BEAST_DEFINE_TESTSUITE(beast,core,timeout_service);
 
 } // beast
 } // boost
-

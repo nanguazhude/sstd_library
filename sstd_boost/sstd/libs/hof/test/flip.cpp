@@ -59,4 +59,3 @@ BOOST_HOF_TEST_CASE()
 {
     BOOST_HOF_TEST_CHECK(boost::hof::flip(f())(nullptr, 2) == 2);
 }
-

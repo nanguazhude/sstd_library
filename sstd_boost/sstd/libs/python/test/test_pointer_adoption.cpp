@@ -123,4 +123,3 @@ BOOST_PYTHON_MODULE(test_pointer_adoption_ext)
 }
 
 #include "module_tail.cpp"
-

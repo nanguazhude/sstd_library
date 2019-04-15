@@ -92,4 +92,3 @@ void server::do_await_stop()
 
 } // namespace server
 } // namespace http
-

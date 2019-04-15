@@ -41,4 +41,3 @@ inline void xdecref(T* p)
 }} // namespace boost::python
 
 #endif // REFCOUNT_DWA2002615_HPP
-

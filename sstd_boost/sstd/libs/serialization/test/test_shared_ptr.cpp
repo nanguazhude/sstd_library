@@ -319,5 +319,3 @@ int test_main(int /* argc */, char * /* argv */[])
     #endif
     return result ? EXIT_SUCCESS : EXIT_FAILURE;
 }
-
-

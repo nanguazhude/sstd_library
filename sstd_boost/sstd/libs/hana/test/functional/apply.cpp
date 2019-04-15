@@ -260,4 +260,3 @@ int main() {
         test_b5<int const volatile&&>(static_cast<Fn const volatile&&>(cl));
     }
 }
-

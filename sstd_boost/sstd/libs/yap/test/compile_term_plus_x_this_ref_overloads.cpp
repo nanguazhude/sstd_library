@@ -172,4 +172,3 @@ void compile_term_plus_x_this_ref_overloads()
         (void)unevaluated_expr;
     }
 }
-

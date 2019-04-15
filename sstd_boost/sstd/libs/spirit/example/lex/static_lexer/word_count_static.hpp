@@ -163,4 +163,3 @@ struct lexer_wc
 }}}}}  // namespace boost::spirit::lex::lexertl::static_
 
 #endif
-

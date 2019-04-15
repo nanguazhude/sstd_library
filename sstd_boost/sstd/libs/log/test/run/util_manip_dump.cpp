@@ -236,5 +236,3 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(bounded_element_dump, CharT, char_types)
 
     BOOST_CHECK(equal_strings(strm_dump.str(), strm_correct.str()));
 }
-
-
