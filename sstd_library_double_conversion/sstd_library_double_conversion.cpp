@@ -74,7 +74,7 @@ namespace sstd {
         SSTD_SYMBOL_DECL long double toLongDouble(std::string_view arg) {
             if constexpr (hasCharConv()) {
 #if HAS_CHARCONV_THE_FILE_
-                long double varAns{ 0 };
+                std::conditional_t<hasCharConv(),long double,int>  varAns{ 0 };
                 std::from_chars(arg.data(), arg.data() + arg.size(), varAns);
                 return varAns;
 #endif
@@ -115,7 +115,10 @@ namespace sstd {
 #if HAS_CHARCONV_THE_FILE_
                 std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> varAns;
                 varAns.resize(64, char(0));
-                auto[p, e] = std::to_chars(varAns.data(), varAns.data() + varAns.size(), arg);
+                using CastType1 = std::conditional_t<hasCharConv(),long double,int>;
+                auto[p, e] = std::to_chars(varAns.data(),
+                        varAns.data() + varAns.size(),
+                        static_cast<CastType1>(arg));
                 if (e != std::errc{}) {
                     return{};
                 }
