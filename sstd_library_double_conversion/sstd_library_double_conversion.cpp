@@ -15,6 +15,18 @@ namespace sstd {
 
     namespace detail {
 
+        inline std::string_view trimed_left(const std::string_view & arg) {
+            auto const varEnd = arg.data() + arg.size();
+            auto varPos = arg.data();
+            for (; varPos != varEnd; ++varPos) {
+                if (::isspace(*varPos)) {
+                    continue;
+                }
+                return { varPos,static_cast<std::size_t>(varEnd - varPos) };
+            }
+            return{};
+        }
+
 #if HAS_CHARCONV_THE_FILE_
 
         class NoType {
@@ -72,15 +84,16 @@ namespace sstd {
         }
 
         SSTD_SYMBOL_DECL long double toLongDouble(std::string_view arg) {
+            arg = trimed_left(arg);
             if constexpr (hasCharConv()) {
 #if HAS_CHARCONV_THE_FILE_
-                std::conditional_t<hasCharConv(),long double,int>  varAns{ 0 };
+                std::conditional_t<hasCharConv(), long double, int>  varAns{ 0 };
                 std::from_chars(arg.data(), arg.data() + arg.size(), varAns);
                 return varAns;
 #endif
             } else {
                 std::basic_stringstream< char, std::char_traits<char>, sstd::allocator<char> > var;
-                var.write(arg.data(),arg.size());
+                var.write(arg.data(), arg.size());
                 long double varAns{ 0 };
                 var >> varAns;
                 return varAns;
@@ -115,10 +128,10 @@ namespace sstd {
 #if HAS_CHARCONV_THE_FILE_
                 std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> varAns;
                 varAns.resize(64, char(0));
-                using CastType1 = std::conditional_t<hasCharConv(),long double,int>;
+                using CastType1 = std::conditional_t<hasCharConv(), const long double &, int>;
                 auto[p, e] = std::to_chars(varAns.data(),
-                        varAns.data() + varAns.size(),
-                        static_cast<CastType1>(arg));
+                    varAns.data() + varAns.size(),
+                    static_cast<CastType1>(arg));
                 if (e != std::errc{}) {
                     return{};
                 }

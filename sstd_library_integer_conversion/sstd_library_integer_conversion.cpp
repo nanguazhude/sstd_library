@@ -14,10 +14,23 @@ namespace sstd {
 
         using string_type_ = std::basic_string<char, std::char_traits<char>, sstd::allocator<char>>;
 
+        inline std::string_view trimed_left(const std::string_view & arg) {
+            auto const varEnd = arg.data() + arg.size();
+            auto varPos = arg.data();
+            for (; varPos != varEnd; ++varPos) {
+                if (::isspace(*varPos)) {
+                    continue;
+                }
+                return { varPos,static_cast<std::size_t>(varEnd - varPos) };
+            }
+            return{};
+        }
+
 #if HAS_INCLUDE_SSTD_CHARCONV_
 
         template<typename T>
-        inline static T \uacf1ToNumber(const std::string_view & arg) {
+        inline static T \uacf1ToNumber(const std::string_view & arg1) {
+            auto arg = trimed_left(arg1);
             T varAns;
             std::from_chars(arg.data(), arg.data() + arg.size(), varAns);
             return varAns;
@@ -36,10 +49,11 @@ namespace sstd {
 
 #else
         template<typename T>
-        inline static T \uacf1ToNumber(const std::string_view & arg) {
+        inline static T \uacf1ToNumber(const std::string_view & arg1) {
+            auto arg = trimed_left(arg1);
             std::basic_stringstream<char, std::char_traits<char>, sstd::allocator<char>> varConv;
             T varAns;
-            varConv.write(arg.data(),arg.size());
+            varConv.write(arg.data(), arg.size());
             varConv >> varAns;
             return varAns;
         }
