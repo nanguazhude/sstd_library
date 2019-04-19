@@ -25,3 +25,6 @@ win32-msvc*{
 }else{
     QMAKE_CXXFLAGS += -Wno-deprecated-declarations
 }
+
+DEFINES *= SSTD_DIRECT_HAS_STRING_CONSTEXPR
+

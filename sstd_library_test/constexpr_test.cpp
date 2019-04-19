@@ -1,4 +1,7 @@
-﻿
+﻿#ifndef SSTD_DIRECT_HAS_STRING_CONSTEXPR
+#define SSTD_DIRECT_HAS_STRING_CONSTEXPR
+#endif
+
 #include <sstd_library.hpp>
 
 inline auto * data1() {
