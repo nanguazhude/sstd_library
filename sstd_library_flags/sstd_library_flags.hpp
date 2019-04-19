@@ -1,9 +1,11 @@
 ﻿#pragma once
 
+#include <array>
 #include <limits>
 #include <cassert>
 #include <cstddef>
 #include <cstdint>
+#include <utility>
 #include <type_traits>
 
 namespace sstd {
@@ -43,7 +45,7 @@ namespace sstd {
         public:
             using type = std::conditional_t< N <= 8,
                 typename Integer<8>::type,
-                std::conditional_t< N <= 16,
+                std::conditional_t<  N <= 16,
                 typename Integer<16>::type,
                 std::conditional_t< N <= 32,
                 typename Integer<32>::type,
@@ -51,6 +53,29 @@ namespace sstd {
                 typename Integer<64>::type,
                 void>>>>;
         };
+
+        template<std::size_t N, typename T, typename U>
+        class _Array;
+
+        template<std::size_t N,
+            typename Integer<N>::type ... V>
+            class _Array< N,
+            typename Integer<N>::type,
+            std::integer_sequence<typename Integer<N>::type, V...> > {
+            public:
+                constexpr const static typename Integer<N>::type valueArray1[]{
+                    (((typename Integer<N>::type)1) << V)...,
+                };
+                constexpr const static typename Integer<N>::type valueArray2[]{
+                    (typename Integer<N>::type)(~(((typename Integer<N>::type)1) << V))...,
+                };
+        };
+
+        template<std::size_t N>
+        using Array = _Array< sizeof(typename Integer<N>::type) * 8,
+            typename Integer<N>::type,
+            std::make_integer_sequence<typename Integer<N>::type,
+            sizeof(typename Integer<N>::type) * 8> >;
 
         template< std::size_t N >
         class _QuickFlags {
@@ -75,28 +100,35 @@ namespace sstd {
             }
             template<auto I>
             inline constexpr void clear() {
-                static_assert(static_cast<std::size_t>(I) <= N);
+                static_assert(static_cast<std::size_t>(I) < N);
                 thisData &= (~(1 << static_cast<_value_t>(I)));
             }
             template<typename I>
             inline constexpr void set(const I & argIndex) {
-                assert(static_cast<std::size_t>(argIndex) <= N);
-                thisData |= (1 << static_cast<_value_t>(argIndex));
+                assert(static_cast<std::size_t>(argIndex) < N);
+                thisData |= _values1()[argIndex];
             }
             template<typename I>
             inline constexpr void clear(const I & argIndex) {
-                assert(static_cast<std::size_t>(argIndex) <= N);
-                thisData &= (~(1 << static_cast<_value_t>(I)));
+                assert(static_cast<std::size_t>(argIndex) < N);
+                thisData &= _values2()[argIndex];
             }
             template<auto I>
             inline constexpr bool test() const {
-                static_assert(static_cast<std::size_t>(I) <= N);
+                static_assert(static_cast<std::size_t>(I) < N);
                 return thisData & (1 << static_cast<_value_t>(I));
             }
             template<typename I>
             inline constexpr bool test(const I & argIndex) const {
-                assert(static_cast<std::size_t>(argIndex) <= N);
-                return thisData & (1 << static_cast<_value_t>(argIndex));
+                assert(static_cast<std::size_t>(argIndex) < N);
+                return thisData & _values1()[argIndex];
+            }
+        private:
+            inline static constexpr const auto & _values1() {
+                return Array<N>::valueArray1;
+            }
+            inline static constexpr const auto & _values2() {
+                return Array<N>::valueArray2;
             }
         };
 
@@ -106,4 +138,3 @@ namespace sstd {
     using QuickFlags = _detail_sstd_quick_flags::_QuickFlags< static_cast<std::size_t>(N) >;
 
 }/*namespace sstd*/
-
