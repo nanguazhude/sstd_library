@@ -63,10 +63,10 @@ namespace sstd {
             typename Integer<N>::type,
             std::integer_sequence<typename Integer<N>::type, V...> > {
             public:
-                constexpr const static typename Integer<N>::type valueArray1[]{
+                constexpr const static std::array<typename Integer<N>::type, sizeof...(V)> valueArray1{
                     (((typename Integer<N>::type)1) << V)...,
                 };
-                constexpr const static typename Integer<N>::type valueArray2[]{
+                constexpr const static std::array<typename Integer<N>::type, sizeof...(V)> valueArray2{
                     (typename Integer<N>::type)(~(((typename Integer<N>::type)1) << V))...,
                 };
         };
@@ -103,6 +103,11 @@ namespace sstd {
                 static_assert(static_cast<std::size_t>(I) < N);
                 thisData &= (~(1 << static_cast<_value_t>(I)));
             }
+            template<auto I>
+            inline constexpr bool test() const {
+                static_assert(static_cast<std::size_t>(I) < N);
+                return thisData & (1 << static_cast<_value_t>(I));
+            }
             template<typename I>
             inline constexpr void set(const I & argIndex) {
                 assert(static_cast<std::size_t>(argIndex) < N);
@@ -112,11 +117,6 @@ namespace sstd {
             inline constexpr void clear(const I & argIndex) {
                 assert(static_cast<std::size_t>(argIndex) < N);
                 thisData &= _values2()[argIndex];
-            }
-            template<auto I>
-            inline constexpr bool test() const {
-                static_assert(static_cast<std::size_t>(I) < N);
-                return thisData & (1 << static_cast<_value_t>(I));
             }
             template<typename I>
             inline constexpr bool test(const I & argIndex) const {
