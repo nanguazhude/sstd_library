@@ -16,6 +16,35 @@ namespace sstd {
             std::void_t< decltype(std::declval<T>().size()) > > : public std::true_type {
         };
 
+        template<typename T, typename = void>
+        class IsToStringAble : public std::false_type {
+        };
+
+        template<typename T>
+        class IsToStringAble<T, std::void_t<decltype(
+            sstd::toString(std::declval<const T &>()))>> : public std::true_type {
+        };
+
+        template<typename T, typename U, typename = void>
+        class IsAppenedAble : public std::false_type {
+        };
+
+        template<typename T, typename U>
+        class IsAppenedAble < T, U, std::void_t < decltype(
+            std::declval<T>().append(std::declval<const U &>())) >> : public std::true_type{
+        };
+
+        template<typename, typename >
+        class IsCharArray : public std::false_type {
+        };
+
+        template<typename C, typename T, std::size_t N>
+        class IsCharArray <C, T[N] > : public std::true_type {
+        public:
+            static constexpr const std::size_t array_value = (N > 0) ? (N - 1) : 0;
+            static constexpr const bool value = std::is_same_v<std::remove_cv_t<T>, C>;
+        };
+
         template<typename T1>
         class Append {
         public:
@@ -28,9 +57,17 @@ namespace sstd {
                     argAns.append(argData.data(), static_cast<SizeType>(argData.size()));
                 } else if constexpr (std::is_same_v<ElementType, ValueType>) {
                     argAns.append(1, argData);
-                } else {
+                } else if constexpr ((false == IsAppenedAble<A &, ValueType>::value) &&
+                    IsToStringAble<ValueType>::value) {
                     auto varNumberString = sstd::toString(argData);
                     argAns.append(varNumberString.data(), static_cast<SizeType>(varNumberString.size()));
+                } else {
+                    using char_array_type = IsCharArray<ElementType, ValueType>;
+                    if constexpr (char_array_type::value) {
+                        argAns.append(argData, static_cast<SizeType>(char_array_type::array_value));
+                    } else {
+                        argAns.append(argData);
+                    }
                 }
             }
         };
