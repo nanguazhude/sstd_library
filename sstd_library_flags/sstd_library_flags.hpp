@@ -112,17 +112,17 @@ namespace sstd {
             template<typename I>
             inline constexpr void set(const I & argIndex) {
                 assert(static_cast<std::size_t>(argIndex) < N);
-                thisData |= _values1()[argIndex];
+                thisData |= _values1()[static_cast<std::size_t>(argIndex)];
             }
             template<typename I>
             inline constexpr void clear(const I & argIndex) {
                 assert(static_cast<std::size_t>(argIndex) < N);
-                thisData &= _values2()[argIndex];
+                thisData &= _values2()[static_cast<std::size_t>(argIndex)];
             }
             template<typename I>
             inline constexpr bool test(const I & argIndex) const {
                 assert(static_cast<std::size_t>(argIndex) < N);
-                return thisData & _values1()[argIndex];
+                return thisData & _values1()[static_cast<std::size_t>(argIndex)];
             }
         private:
             inline static constexpr const auto & _values1() {
