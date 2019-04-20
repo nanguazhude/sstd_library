@@ -41,7 +41,7 @@ namespace sstd {
             if constexpr (IsAppenedAbleDataSize<ValueType>::value) {
                 return static_cast<SizeType>(argData.size());
             } else {
-                return static_cast<SizeType>(1);
+                return static_cast<SizeType>(6);
             }
         }
 
