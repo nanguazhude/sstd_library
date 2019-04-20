@@ -27,42 +27,17 @@ namespace sstd {
 
         SSTD_SYMBOL_DECL bool toBool(std::string_view);
 
-        inline char toChar(std::string_view arg) {
-            if (arg.empty()) {
-                return char(0);
-            }
-            return arg[0];
-        }
-
-        inline unsigned char toUnsignedChar(std::string_view arg) {
-            if (arg.empty()) {
-                return (unsigned char)(0);
-            }
-            return (unsigned char)(arg[0]);
-        }
-
-        inline signed char toSignedChar(std::string_view arg) {
-            if (arg.empty()) {
-                return (signed char)(0);
-            }
-            return (signed char)(arg[0]);
-        }
+        SSTD_SYMBOL_DECL char toChar(std::string_view arg);
+        SSTD_SYMBOL_DECL unsigned char toUnsignedChar(std::string_view arg);
+        SSTD_SYMBOL_DECL signed char toSignedChar(std::string_view arg);
 
     }/*namespace detail*/
 
     namespace detail {
 
-        inline std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> fromStringChar(char arg) {
-            return{ 1,arg };
-        }
-
-        inline std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> fromStringSignedChar(signed char arg) {
-            return{ 1,(char)(arg) };
-        }
-
-        inline std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> fromStringUnsignedChar(unsigned char arg) {
-            return{ 1,(char)(arg) };
-        }
+        SSTD_SYMBOL_DECL std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> fromStringChar(char arg);
+        SSTD_SYMBOL_DECL std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> fromStringSignedChar(signed char arg);
+        SSTD_SYMBOL_DECL std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> fromStringUnsignedChar(unsigned char arg);
 
         SSTD_SYMBOL_DECL std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> fromStringInt(int);
         SSTD_SYMBOL_DECL std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> fromStringUnsignedInt(unsigned int);

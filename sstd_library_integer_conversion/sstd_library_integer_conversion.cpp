@@ -109,6 +109,18 @@ namespace sstd {
             return \uacf1ToNumber<std::uint16_t>(arg);
         }
 
+        SSTD_SYMBOL_DECL char toChar(std::string_view arg) {
+            return \uacf1ToNumber<std::uint8_t>(arg);
+        }
+
+        SSTD_SYMBOL_DECL unsigned char toUnsignedChar(std::string_view arg) {
+            return \uacf1ToNumber<std::uint8_t>(arg);
+        }
+
+        SSTD_SYMBOL_DECL signed char toSignedChar(std::string_view arg) {
+            return \uacf1ToNumber<std::int8_t>(arg);
+        }
+
         SSTD_SYMBOL_DECL wchar_t toWChar_t(std::string_view arg) {
             if constexpr (sizeof(wchar_t) == 1) {
                 return (wchar_t)(toUnsignedChar(arg));
@@ -167,6 +179,18 @@ namespace sstd {
 
         SSTD_SYMBOL_DECL std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> fromStringChar16_t(char16_t arg) {
             return \uacf1ToString(*reinterpret_cast<std::uint16_t*>(&arg));
+        }
+
+        SSTD_SYMBOL_DECL std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> fromStringChar(char arg) {
+            return \uacf1ToString(*reinterpret_cast<std::uint8_t*>(&arg));
+        }
+
+        SSTD_SYMBOL_DECL std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> fromStringSignedChar(signed char arg) {
+            return \uacf1ToString(*reinterpret_cast<std::int8_t*>(&arg));
+        }
+
+        SSTD_SYMBOL_DECL std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> fromStringUnsignedChar(unsigned char arg) {
+            return \uacf1ToString(*reinterpret_cast<std::uint8_t*>(&arg));
         }
 
         SSTD_SYMBOL_DECL std::basic_string<char, std::char_traits<char>, sstd::allocator<char>> fromStringBool(bool arg) {
