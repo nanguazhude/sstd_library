@@ -23,9 +23,9 @@ namespace sstd {
             static inline void append(A & argAns, const B & argData) {
                 using ValueType = std::remove_cv_t< std::remove_reference_t<B> >;
                 using SizeType = sstd_decltype(argAns.size());
-                if constexpr (IsAppenedAbleDataSize<ValueType>::value) {
+                if constexpr (IsAppenedAbleDataSize<const ValueType &>::value) {
                     argAns.append(argData.data(), static_cast<SizeType>(argData.size()));
-                } if constexpr (std::is_same_v<char, ValueType>) {
+                } else if constexpr (std::is_same_v<char, ValueType>) {
                     argAns.append(1, argData);
                 } else {
                     auto varNumberString = sstd::toString(argData);
@@ -54,11 +54,12 @@ namespace sstd {
         if constexpr (0 != sizeof...(args)) {
             {
                 using SizeType = sstd_decltype(varAns.size());
+                static_assert( std::is_integral_v<SizeType> );
                 SizeType varSize{ 0 };
-                (varAns += ... += _sstd_library_print_detail::getSize<AnsType>(args));
+                (varSize += ... += _sstd_library_print_detail::getSize<AnsType>(args));
                 varAns.reserve(varSize);
             }
-            (_sstd_library_print_detail::Append<Args>(varAns, args), ...);
+            (_sstd_library_print_detail::Append<Args>::append(varAns, args), ...);
         }
         return std::move(varAns);
 
