@@ -18,10 +18,9 @@ namespace sstd {
 
         template<typename T1>
         class Append {
-            using T = std::remove_cv_t< std::remove_reference_t<T1> >;
         public:
             template<typename A, typename B>
-            inline void append(A & argAns, const B & argData) {
+            static inline void append(A & argAns, const B & argData) {
                 using ValueType = std::remove_cv_t< std::remove_reference_t<B> >;
                 using SizeType = sstd_decltype(argAns.size());
                 if constexpr (IsAppenedAbleDataSize<ValueType>::value) {
@@ -35,13 +34,34 @@ namespace sstd {
             }
         };
 
+        template<typename A, typename B>
+        static inline auto getSize(const B & argData) {
+            using ValueType = std::remove_cv_t< std::remove_reference_t<B> >;
+            using SizeType = sstd_decltype(std::declval<A>().size());
+            if constexpr (IsAppenedAbleDataSize<ValueType>::value) {
+                return static_cast<SizeType>(argData.size());
+            } else {
+                return static_cast<SizeType>(1);
+            }
+        }
+
     }/*_sstd_library_print_detail*/
 
     template<typename T = sstd::detail::utf8String, typename ...  Args>
-    inline std::remove_cv_t< std::remove_reference_t<T> > print(Args && ... args) {
-        std::remove_cv_t< std::remove_reference_t<T> > varAns;
-        (_sstd_library_print_detail::Append<Args>(varAns, args), ...);
+    inline std::remove_reference_t<T> print(Args && ... args) {
+        using AnsType = std::remove_cv_t< std::remove_reference_t<T> >;
+        AnsType varAns;
+        if constexpr (0 != sizeof...(args)) {
+            {
+                using SizeType = sstd_decltype(varAns.size());
+                SizeType varSize{ 0 };
+                (varAns += ... += _sstd_library_print_detail::getSize<AnsType>(args));
+                varAns.reserve(varSize);
+            }
+            (_sstd_library_print_detail::Append<Args>(varAns, args), ...);
+        }
         return std::move(varAns);
+
     }
 
 }/*namespace sstd*/
@@ -53,12 +73,14 @@ data();
 size();
 append(const char *,int);
 append(int count, char )
+reserve(int)
 
 std::string
 data();
 size();
 append(const char *,std::size_t);
 append(std::size_t,char)
+reserve(std::size_t)
 
 */
 
