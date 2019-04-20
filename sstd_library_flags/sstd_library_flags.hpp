@@ -7,6 +7,7 @@
 #include <cstdint>
 #include <utility>
 #include <type_traits>
+#include "../sstd_library.hpp"
 
 namespace sstd {
 
@@ -130,6 +131,8 @@ namespace sstd {
             inline static constexpr const auto & _values2() {
                 return Array<N>::valueArray2;
             }
+        private:
+            sstd_class(_QuickFlags);
         };
 
     }/*namespace _detail_sstd_quick_flags*/
