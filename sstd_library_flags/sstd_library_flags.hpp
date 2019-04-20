@@ -96,7 +96,7 @@ namespace sstd {
             }
             template<auto I>
             inline constexpr void set() {
-                static_assert(static_cast<std::size_t>(I) <= N);
+                static_assert(static_cast<std::size_t>(I) < N);
                 thisData |= (1 << static_cast<_value_t>(I));
             }
             template<auto I>
