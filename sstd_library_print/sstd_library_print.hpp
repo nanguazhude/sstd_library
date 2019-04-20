@@ -23,9 +23,10 @@ namespace sstd {
             static inline void append(A & argAns, const B & argData) {
                 using ValueType = std::remove_cv_t< std::remove_reference_t<B> >;
                 using SizeType = sstd_decltype(argAns.size());
+                using ElementType = sstd_decltype(*argAns.data());
                 if constexpr (IsAppenedAbleDataSize<const ValueType &>::value) {
                     argAns.append(argData.data(), static_cast<SizeType>(argData.size()));
-                } else if constexpr (std::is_same_v<char, ValueType>) {
+                } else if constexpr (std::is_same_v<ElementType, ValueType>) {
                     argAns.append(1, argData);
                 } else {
                     auto varNumberString = sstd::toString(argData);
@@ -38,8 +39,11 @@ namespace sstd {
         static inline auto getSize(const B & argData) {
             using ValueType = std::remove_cv_t< std::remove_reference_t<B> >;
             using SizeType = sstd_decltype(std::declval<A>().size());
+            using ElementType = sstd_decltype(*(std::declval<A>().data()));
             if constexpr (IsAppenedAbleDataSize<ValueType>::value) {
                 return static_cast<SizeType>(argData.size());
+            } else if constexpr (std::is_same_v<ValueType, ElementType>) {
+                return static_cast<SizeType>(1);
             } else {
                 return static_cast<SizeType>(6);
             }
@@ -54,7 +58,7 @@ namespace sstd {
         if constexpr (0 != sizeof...(args)) {
             {
                 using SizeType = sstd_decltype(varAns.size());
-                static_assert( std::is_integral_v<SizeType> );
+                static_assert(std::is_integral_v<SizeType>);
                 SizeType varSize{ 0 };
                 (varSize += ... += _sstd_library_print_detail::getSize<AnsType>(args));
                 varAns.reserve(varSize);
