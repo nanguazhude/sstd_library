@@ -88,7 +88,7 @@ namespace sstd {
 
     }/*_sstd_library_print_detail*/
 
-    template<typename T = sstd::detail::utf8String, typename ...  Args>
+    template<typename T = std::basic_string< char ,std::char_traits<char>,sstd::allocator<char> >, typename ...  Args>
     inline std::remove_reference_t<T> print(Args && ... args) {
         using AnsType = std::remove_cv_t< std::remove_reference_t<T> >;
         AnsType varAns;

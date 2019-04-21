@@ -31,7 +31,7 @@ namespace sstd {
         template<typename T>
         inline static T \uacf1ToNumber(const std::string_view & arg1) {
             auto arg = trimed_left(arg1);
-            T varAns;
+            T varAns{ 0 };
             std::from_chars(arg.data(), arg.data() + arg.size(), varAns);
             return varAns;
         }

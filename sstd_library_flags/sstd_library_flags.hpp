@@ -100,7 +100,7 @@ namespace sstd {
                 return thisData;
             }
             inline constexpr bool all() const {
-                return thisData == __getMax();
+                return thisData == this->__getMax();
             }
             template<auto I>
             inline constexpr void set() {
