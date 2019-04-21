@@ -99,6 +99,9 @@ namespace sstd {
             inline constexpr bool any() const {
                 return thisData;
             }
+            inline constexpr bool all() const {
+                return thisData == __getMax();
+            }
             template<auto I>
             inline constexpr void set() {
                 static_assert(static_cast<std::size_t>(I) < N);
