@@ -94,13 +94,13 @@ namespace sstd {
                 thisData = 0;
             }
             inline constexpr void setAll() {
-                thisData = _getMax();
+                thisData = this->_getMax();
             }
             inline constexpr bool any() const {
                 return thisData;
             }
             inline constexpr bool all() const {
-                return thisData == this->__getMax();
+                return thisData == this->_getMax();
             }
             template<auto I>
             inline constexpr void set() {
