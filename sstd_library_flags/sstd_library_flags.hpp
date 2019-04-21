@@ -83,7 +83,9 @@ namespace sstd {
             using _value_t = typename Integer<N>::type;
             _value_t thisData{ 0 };
             inline constexpr static _value_t _getMax() {
-                return std::numeric_limits<_value_t>::max();
+                return (N >= (sizeof(_value_t) * 8)) ?
+                    std::numeric_limits<_value_t>::max() :
+                    static_cast<_value_t>((1 << static_cast<_value_t>(N + 1)) - 1);
             }
         public:
             inline constexpr _QuickFlags() {
@@ -93,6 +95,9 @@ namespace sstd {
             }
             inline constexpr void setAll() {
                 thisData = _getMax();
+            }
+            inline constexpr bool any() const {
+                return thisData;
             }
             template<auto I>
             inline constexpr void set() {
