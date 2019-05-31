@@ -125,23 +125,3 @@ append(std::size_t,char)
 reserve(std::size_t)
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
