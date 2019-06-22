@@ -18,3 +18,7 @@ include($$PWD/../../cplusplus_basic.pri)
 
 include($$PWD/../../sstd_build_path.pri)
 DESTDIR = $${SSTD_LIBRARY_OUTPUT_PATH}
+
+
+
+
