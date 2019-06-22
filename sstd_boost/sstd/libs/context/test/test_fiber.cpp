@@ -256,11 +256,12 @@ void test_ontop() {
                     return std::move( f);
                 }};
         f = std::move( f).resume();
-        f = std::move( f).resume_with(
-               [&i](ctx::fiber && f){
+        // Pass fn by reference to see if the types are properly decayed.
+        auto fn = [&i](ctx::fiber && f){
                    i -= 10;
                    return std::move( f);
-               });
+        };
+        f = std::move( f).resume_with(fn);
         BOOST_CHECK( f);
         BOOST_CHECK_EQUAL( i, 200);
     }

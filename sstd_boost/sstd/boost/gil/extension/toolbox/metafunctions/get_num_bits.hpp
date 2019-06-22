@@ -10,11 +10,14 @@
 
 #include <sstd/boost/gil/channel.hpp>
 
+#include <sstd/boost/mpl/and.hpp>
 #include <sstd/boost/mpl/int.hpp>
+#include <sstd/boost/mpl/not.hpp>
 #include <sstd/boost/mpl/size_t.hpp>
 #include <sstd/boost/type_traits/is_integral.hpp>
 #include <sstd/boost/type_traits/is_class.hpp>
-#include <sstd/boost/utility/enable_if.hpp>
+
+#include <type_traits>
 
 namespace boost{ namespace gil {
 
@@ -48,14 +51,21 @@ template< int N >
 struct get_num_bits< const packed_channel_value< N > > : mpl::int_< N >
 {};
 
-template< typename T >
-struct get_num_bits< T
-                   , typename enable_if< mpl::and_< is_integral< T >
-                                                  , mpl::not_< is_class< T > >
-                                                  >
-                                       >::type
-                   > : mpl::size_t< sizeof(T) * 8 >
-{};
+template <typename T>
+struct get_num_bits
+<
+    T,
+    typename std::enable_if
+    <
+        mpl::and_
+        <
+            is_integral<T>,
+            mpl::not_<is_class<T>>
+        >::value
+    >::type
+> : mpl::size_t<sizeof(T) * 8>
+{
+};
 
 } // namespace gil
 } // namespace boost

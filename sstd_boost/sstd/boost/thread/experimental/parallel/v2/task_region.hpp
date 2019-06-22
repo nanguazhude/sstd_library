@@ -10,6 +10,9 @@
 // See http://www.boost.org/libs/thread for documentation.
 //
 //////////////////////////////////////////////////////////////////////////////
+
+#include <exception>
+#include <sstd/boost/throw_exception.hpp>
 #include <sstd/boost/thread/detail/config.hpp>
 
 #include <sstd/boost/thread/future.hpp>
@@ -18,6 +21,7 @@
 #endif
 #include <sstd/boost/thread/experimental/exception_list.hpp>
 #include <sstd/boost/thread/experimental/parallel/v2/inline_namespace.hpp>
+#include <sstd/boost/thread/csbl/vector.hpp>
 #include <sstd/boost/thread/detail/move.hpp>
 
 #include <sstd/boost/config/abi_prefix.hpp>
@@ -126,7 +130,7 @@ BOOST_THREAD_INLINE_NAMESPACE(v2)
 
       for (group_type::iterator it = group.begin(); it != group.end(); ++it)
       {
-        future<void>& f = *it;
+        BOOST_THREAD_FUTURE<void>& f = *it;
         if (f.has_exception())
         {
           try
@@ -191,7 +195,7 @@ protected:
     Executor* ex;
 #endif
     exception_list exs;
-    typedef csbl::vector<future<void> > group_type;
+    typedef csbl::vector<BOOST_THREAD_FUTURE<void> > group_type;
     group_type group;
 
   public:

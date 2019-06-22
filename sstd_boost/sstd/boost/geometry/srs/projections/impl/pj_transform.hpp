@@ -41,6 +41,7 @@
 
 
 #include <sstd/boost/geometry/core/access.hpp>
+#include <sstd/boost/geometry/core/coordinate_dimension.hpp>
 #include <sstd/boost/geometry/core/radian_access.hpp>
 
 #include <sstd/boost/geometry/srs/projections/impl/geocent.hpp>

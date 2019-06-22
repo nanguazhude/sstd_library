@@ -12,8 +12,6 @@
 #include <climits>
 #include <sstd/boost/detail/lightweight_test.hpp>
 #include <sstd/boost/spirit/home/x3.hpp>
-//~ #include <sstd/boost/phoenix/core.hpp>
-//~ #include <sstd/boost/phoenix/operator.hpp>
 
 #include "test.hpp"
 #include <cstring>

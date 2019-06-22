@@ -40,6 +40,8 @@
 #define BOOST_GEOMETRY_PROJECTIONS_PROJ_MDIST_HPP
 
 
+#include <sstd/boost/geometry/srs/projections/exception.hpp>
+#include <sstd/boost/geometry/srs/projections/impl/pj_strerrno.hpp>
 #include <sstd/boost/geometry/util/math.hpp>
 
 

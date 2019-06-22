@@ -1,6 +1,6 @@
 ﻿// Boost.Geometry (aka GGL, Generic Geometry Library)
 
-// Copyright (c) 2014-2015, Oracle and/or its affiliates.
+// Copyright (c) 2014-2018, Oracle and/or its affiliates.
 
 // Contributed and/or modified by Menelaos Karavelas, on behalf of Oracle
 // Contributed and/or modified by Adam Wulkiewicz, on behalf of Oracle
@@ -15,15 +15,17 @@
 
 #include <sstd/boost/type_traits/is_floating_point.hpp>
 
+#include <sstd/boost/geometry/algorithms/detail/check_iterator_range.hpp>
+#include <sstd/boost/geometry/algorithms/validity_failure_type.hpp>
+
 #include <sstd/boost/geometry/core/coordinate_type.hpp>
 #include <sstd/boost/geometry/core/point_type.hpp>
 
-#include <sstd/boost/geometry/util/has_non_finite_coordinate.hpp>
-
 #include <sstd/boost/geometry/iterators/point_iterator.hpp>
-#include <sstd/boost/geometry/views/detail/indexed_point_view.hpp>
-#include <sstd/boost/geometry/algorithms/detail/check_iterator_range.hpp>
 
+#include <sstd/boost/geometry/views/detail/indexed_point_view.hpp>
+
+#include <sstd/boost/geometry/util/has_non_finite_coordinate.hpp>
 
 namespace boost { namespace geometry
 {

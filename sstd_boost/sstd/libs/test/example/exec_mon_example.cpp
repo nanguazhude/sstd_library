@@ -93,6 +93,9 @@ int generate_int_div_0()
     return 1/i;
 }
 
+#if (defined(__clang__) && __clang_major__ >= 6) || (defined(__GNUC__) && __GNUC__ >= 8)
+__attribute__((no_sanitize("null")))
+#endif
 int generate_sigfault()
 {
     int* p = 0;
@@ -146,6 +149,10 @@ cpp_main( int argc , char *[] )
     }
 
     ///////////////////////////////////////////////////////////////
+
+// we are currently not able to silence those errors below with UBSAN under clang
+// this seems to come from the way clang handles floating point exceptions + UB.
+#if !(defined(HAS_UBSAN) && (HAS_UBSAN==1) && defined(__clang__))
 
     ex_mon.p_detect_fp_exceptions.value = boost::fpe::BOOST_FPE_DIVBYZERO;
     ex_mon.p_catch_system_errors.value = false;
@@ -203,6 +210,7 @@ cpp_main( int argc , char *[] )
     catch ( boost::execution_exception const& ex ) {
         std::cout << "Caught exception: " << ex.what() << std::endl;
     }
+#endif // UBSAN issue
 
     return 0;
 }

@@ -1,5 +1,5 @@
 ﻿// Copyright 2014 Renato Tegon Forti, Antony Polukhin.
-// Copyright 2015-2016 Antony Polukhin.
+// Copyright 2015-2019 Antony Polukhin.
 //
 // Distributed under the Boost Software License, Version 1.0.
 // (See accompanying file LICENSE_1_0.txt
@@ -8,7 +8,7 @@
 #ifndef BOOST_DLL_SHARED_LIBRARY_MODE_HPP
 #define BOOST_DLL_SHARED_LIBRARY_MODE_HPP
 
-#include <sstd/boost/config.hpp>
+#include <sstd/boost/dll/config.hpp>
 #include <sstd/boost/predef/os.h>
 #include <sstd/boost/predef/library/c.h>
 

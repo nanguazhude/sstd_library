@@ -15,14 +15,14 @@
 //   Testing const operator() constness.
 //
 
-#include "sstd/boost/multi_array.hpp"
+#include <sstd/boost/multi_array.hpp>
 
-#include "sstd/boost/test/minimal.hpp"
+#include <sstd/boost/core/lightweight_test.hpp>
 
-#include "sstd/boost/array.hpp"
+#include <sstd/boost/array.hpp>
 
 int
-test_main(int,char*[])
+main()
 {
   const int ndims=3;
   typedef boost::multi_array_ref<int,ndims> array_ref;
@@ -40,5 +40,5 @@ test_main(int,char*[])
   // FAIL! cannot assign to a const multi_array_ref
   csma(indices) = 5;
 
-  return boost::exit_success;
+  return boost::report_errors();
 }

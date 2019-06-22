@@ -10,8 +10,6 @@
 // Additionally this test makes sure the syntax 'self("state", "targetstate")'
 // works properly.
 
-// #define BOOST_SPIRIT_LEXERTL_DEBUG 1
-
 #include <sstd/boost/config/warning_disable.hpp>
 #include <sstd/boost/detail/lightweight_test.hpp>
 

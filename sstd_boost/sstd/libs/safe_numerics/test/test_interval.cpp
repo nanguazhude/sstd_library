@@ -4,14 +4,12 @@
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
 
+#include <iostream>
 #include <limits>
 #include <functional>
-#include <cassert>
-#include <iostream>
-#include <typeinfo>
 #include <array>
-#include <sstd/boost/core/demangle.hpp>
 
+#include <sstd/boost/core/demangle.hpp>
 #include <sstd/boost/safe_numerics/checked_result.hpp>
 #include <sstd/boost/safe_numerics/checked_result_operations.hpp>
 #include <sstd/boost/safe_numerics/interval.hpp>

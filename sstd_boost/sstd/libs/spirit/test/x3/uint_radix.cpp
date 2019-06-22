@@ -8,8 +8,6 @@
 #include <sstd/boost/config/warning_disable.hpp>
 #include <sstd/boost/detail/lightweight_test.hpp>
 #include <sstd/boost/spirit/home/x3.hpp>
-//~ #include <sstd/boost/phoenix/core.hpp>
-//~ #include <sstd/boost/phoenix/operator.hpp>
 
 #include <climits>
 #include <cstring>
@@ -23,7 +21,6 @@ main()
     using spirit_test::test;
     using spirit_test::test_attr;
 
-    using boost::spirit::x3::uint_;
     using boost::spirit::x3::uint_parser;
 
     ///////////////////////////////////////////////////////////////////////////

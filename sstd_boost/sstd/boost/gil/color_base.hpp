@@ -11,14 +11,12 @@
 #include <sstd/boost/gil/utilities.hpp>
 #include <sstd/boost/gil/concepts.hpp>
 
+#include <sstd/boost/assert.hpp>
 #include <sstd/boost/config.hpp>
 #include <sstd/boost/mpl/range_c.hpp>
 #include <sstd/boost/mpl/size.hpp>
 #include <sstd/boost/mpl/vector_c.hpp>
 #include <sstd/boost/type_traits.hpp>
-#include <sstd/boost/utility/enable_if.hpp>
-
-#include <cassert>
 
 namespace boost { namespace gil {
 
@@ -27,7 +25,14 @@ template <typename P> P* memunit_advanced(const P* p, std::ptrdiff_t diff);
 
 // Forward-declare semantic_at_c
 template <int K, typename ColorBase>
-typename disable_if<is_const<ColorBase>,typename kth_semantic_element_reference_type<ColorBase,K>::type>::type semantic_at_c(ColorBase& p);
+auto semantic_at_c(ColorBase& p)
+    -> typename std::enable_if
+    <
+        !std::is_const<ColorBase>::value,
+        typename kth_semantic_element_reference_type<ColorBase, K>::type
+    >::type;
+
+
 template <int K, typename ColorBase>
 typename kth_semantic_element_const_reference_type<ColorBase,K>::type semantic_at_c(const ColorBase& p);
 
@@ -66,7 +71,7 @@ struct homogeneous_color_base<Element,Layout,1> {
 private:
     Element _v0;
 public:
-    typedef Layout layout_t;
+    using layout_t = Layout;
     typename element_reference_type<homogeneous_color_base>::type       at(mpl::int_<0>)       { return _v0; }
     typename element_const_reference_type<homogeneous_color_base>::type at(mpl::int_<0>) const { return _v0; }
 
@@ -87,7 +92,7 @@ struct homogeneous_color_base<Element,Layout,2> {
 private:
     Element _v0, _v1;
 public:
-    typedef Layout layout_t;
+    using layout_t = Layout;
     typename element_reference_type<homogeneous_color_base>::type       at(mpl::int_<0>)       { return _v0; }
     typename element_const_reference_type<homogeneous_color_base>::type at(mpl::int_<0>) const { return _v0; }
     typename element_reference_type<homogeneous_color_base>::type       at(mpl::int_<1>)       { return _v1; }
@@ -133,7 +138,7 @@ struct homogeneous_color_base<Element,Layout,3> {
 private:
     Element _v0, _v1, _v2;
 public:
-    typedef Layout layout_t;
+    using layout_t = Layout;
     typename element_reference_type<homogeneous_color_base>::type       at(mpl::int_<0>)       { return _v0; }
     typename element_const_reference_type<homogeneous_color_base>::type at(mpl::int_<0>) const { return _v0; }
     typename element_reference_type<homogeneous_color_base>::type       at(mpl::int_<1>)       { return _v1; }
@@ -189,7 +194,7 @@ struct homogeneous_color_base<Element,Layout,4> {
 private:
     Element _v0, _v1, _v2, _v3;
 public:
-    typedef Layout layout_t;
+    using layout_t = Layout;
     typename element_reference_type<homogeneous_color_base>::type       at(mpl::int_<0>)       { return _v0; }
     typename element_const_reference_type<homogeneous_color_base>::type at(mpl::int_<0>) const { return _v0; }
     typename element_reference_type<homogeneous_color_base>::type       at(mpl::int_<1>)       { return _v1; }
@@ -253,7 +258,7 @@ struct homogeneous_color_base<Element,Layout,5> {
 private:
     Element _v0, _v1, _v2, _v3, _v4;
 public:
-    typedef Layout layout_t;
+    using layout_t = Layout;
     typename element_reference_type<homogeneous_color_base>::type       at(mpl::int_<0>)       { return _v0; }
     typename element_const_reference_type<homogeneous_color_base>::type at(mpl::int_<0>) const { return _v0; }
     typename element_reference_type<homogeneous_color_base>::type       at(mpl::int_<1>)       { return _v1; }
@@ -334,29 +339,30 @@ public:
 
 template <typename Element, typename Layout, int K>
 typename element_reference_type<homogeneous_color_base<Element,Layout,K> >::type
-dynamic_at_c(homogeneous_color_base<Element,Layout,K>& cb, std::size_t i) {
-    assert(i<K);
+dynamic_at_c(homogeneous_color_base<Element,Layout,K>& cb, std::size_t i)
+{
+    BOOST_ASSERT(i < K);
     return (gil_reinterpret_cast<Element*>(&cb))[i];
 }
 
 template <typename Element, typename Layout, int K>
 typename element_const_reference_type<homogeneous_color_base<Element,Layout,K> >::type
 dynamic_at_c(const homogeneous_color_base<Element,Layout,K>& cb, std::size_t i) {
-    assert(i<K);
+    BOOST_ASSERT(i < K);
     return (gil_reinterpret_cast_c<const Element*>(&cb))[i];
 }
 
 template <typename Element, typename Layout, int K>
 typename element_reference_type<homogeneous_color_base<Element&,Layout,K> >::type
 dynamic_at_c(const homogeneous_color_base<Element&,Layout,K>& cb, std::size_t i) {
-    assert(i<K);
+    BOOST_ASSERT(i < K);
     return cb.at_c_dynamic(i);
 }
 
 template <typename Element, typename Layout, int K>
 typename element_const_reference_type<homogeneous_color_base<const Element&,Layout,K> >::type
 dynamic_at_c(const homogeneous_color_base<const Element&,Layout,K>& cb, std::size_t i) {
-    assert(i<K);
+    BOOST_ASSERT(i < K);
     return cb.at_c_dynamic(i);
 }
 
@@ -365,7 +371,7 @@ dynamic_at_c(const homogeneous_color_base<const Element&,Layout,K>& cb, std::siz
 
 template <typename Element, typename Layout, int K1, int K>
 struct kth_element_type<detail::homogeneous_color_base<Element,Layout,K1>, K> {
-    typedef Element type;
+    using type = Element;
 };
 
 template <typename Element, typename Layout, int K1, int K>

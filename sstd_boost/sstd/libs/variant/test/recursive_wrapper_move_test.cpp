@@ -6,7 +6,7 @@
 // http://www.boost.org/LICENSE_1_0.txt)
 
 #include "sstd/boost/config.hpp"
-#include "sstd/boost/test/minimal.hpp"
+#include "sstd/boost/core/lightweight_test.hpp"
 
 #ifdef __cpp_inheriting_constructors
 // Test is based on reported issue:
@@ -70,8 +70,8 @@ void run() {
 void run() {}
 #endif
 
-int test_main(int , char* [])
+int main()
 {
-   run();
-   return 0;
+    run();
+    return boost::report_errors();
 }

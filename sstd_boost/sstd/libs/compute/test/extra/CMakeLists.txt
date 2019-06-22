@@ -20,7 +20,7 @@ target_link_libraries(test_multiple_objects
     ${Boost_LIBRARIES}
     )
 # link with coverage library
-if(${BOOST_COMPUTE_ENABLE_COVERAGE} AND "${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
+if(${BOOST_COMPUTE_ENABLE_COVERAGE} AND ${CMAKE_CXX_COMPILER_ID} STREQUAL "GNU")
   target_link_libraries(test_multiple_objects -fprofile-arcs -ftest-coverage)
 endif()
 add_test("misc.multiple_objects" test_multiple_objects)

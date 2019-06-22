@@ -15,14 +15,14 @@
 //   Testing constness of subarray operations.
 //
 
-#include "sstd/boost/multi_array.hpp"
+#include <sstd/boost/multi_array.hpp>
 
-#include "sstd/boost/test/minimal.hpp"
+#include <sstd/boost/core/lightweight_test.hpp>
 
-#include "sstd/boost/array.hpp"
+#include <sstd/boost/array.hpp>
 
 int
-test_main(int,char*[])
+main()
 {
   const int ndims=3;
   typedef boost::multi_array<int,ndims> array;
@@ -41,5 +41,5 @@ test_main(int,char*[])
   // FAIL! preserve constness.
   array::subarray<ndims-1>::type sba = sma_const[0];
 
-  return boost::exit_success;
+  return boost::report_errors();
 }

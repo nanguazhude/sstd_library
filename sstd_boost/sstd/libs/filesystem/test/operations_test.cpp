@@ -291,6 +291,12 @@ namespace
 
   //  exception_tests()  ---------------------------------------------------------------//
 
+#if defined(BOOST_GCC) && BOOST_GCC >= 80000
+#pragma GCC diagnostic push
+// catching polymorphic type "X" by value - that's the intention of the test
+#pragma GCC diagnostic ignored "-Wcatch-value"
+#endif
+
   void exception_tests()
   {
     cout << "exception_tests..." << endl;
@@ -368,7 +374,7 @@ namespace
     {
       fs::create_directory("no-such-dir/foo/bar");
     }
-    catch (const fs::filesystem_error & x)
+    catch (const fs::filesystem_error& x)
     {
       exception_thrown = true;
       if (report_throws) cout << x.what() << endl;
@@ -395,15 +401,21 @@ namespace
       BOOST_TEST(CHECK_EXCEPTION(bad_directory_size, 0));
 
     // test path::exception members
-    try { fs::file_size(ng); } // will throw
-
-    catch (const fs::filesystem_error & ex)
+    try
+    {
+      fs::file_size(ng); // will throw
+    }
+    catch (fs::filesystem_error& ex)
     {
       BOOST_TEST(ex.path1().string() == " no-way, Jose");
     }
 
     cout << "  exception_tests complete" << endl;
   }
+
+#if defined(BOOST_GCC) && BOOST_GCC >= 80000
+#pragma GCC diagnostic pop
+#endif
 
   // create a directory tree that can be used by subsequent tests  ---------------------//
   //
@@ -1811,7 +1823,7 @@ namespace
         fs::path cur_path(fs::current_path());
         fs::current_path(dir);
         //cout << "    current_path() is " << fs::current_path() << endl;
-        std::system("mklink /j junc d1");
+        BOOST_TEST(std::system("mklink /j junc d1") == 0);
         //std::system("dir");
         fs::current_path(cur_path);
         //cout << "    current_path() is " << fs::current_path() << endl;

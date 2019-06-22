@@ -39,6 +39,8 @@
 #ifndef BOOST_GEOMETRY_PROJECTIONS_PHI2_HPP
 #define BOOST_GEOMETRY_PROJECTIONS_PHI2_HPP
 
+#include <sstd/boost/geometry/srs/projections/exception.hpp>
+#include <sstd/boost/geometry/srs/projections/impl/pj_strerrno.hpp>
 #include <sstd/boost/geometry/util/math.hpp>
 
 namespace boost { namespace geometry { namespace projections {

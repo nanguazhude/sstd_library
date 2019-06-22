@@ -8,7 +8,11 @@
 #include <sstd/boost/config/warning_disable.hpp>
 
 #include <sstd/boost/spirit/include/lex_lexertl.hpp>
-#include <sstd/boost/spirit/include/qi.hpp>
+#include <sstd/boost/spirit/include/qi_parse.hpp>
+#include <sstd/boost/spirit/include/qi_operator.hpp>
+#include <sstd/boost/spirit/include/qi_char.hpp>
+#include <sstd/boost/spirit/include/qi_grammar.hpp>
+#include <sstd/boost/spirit/include/qi_eoi.hpp>
 
 #include <string>
 #include <iostream>

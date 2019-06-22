@@ -11,22 +11,38 @@
 
 #include <sstd/boost/gil/algorithm.hpp>
 #include <sstd/boost/gil/bit_aligned_pixel_iterator.hpp>
+#include <sstd/boost/gil/bit_aligned_pixel_reference.hpp>
+#include <sstd/boost/gil/channel.hpp>
 #include <sstd/boost/gil/channel_algorithm.hpp>
+#include <sstd/boost/gil/cmyk.hpp>
+#include <sstd/boost/gil/color_base.hpp>
+#include <sstd/boost/gil/color_base_algorithm.hpp>
 #include <sstd/boost/gil/color_convert.hpp>
+#include <sstd/boost/gil/concepts.hpp>
+#include <sstd/boost/gil/deprecated.hpp>
 #include <sstd/boost/gil/device_n.hpp>
+#include <sstd/boost/gil/gray.hpp>
 #include <sstd/boost/gil/image.hpp>
+#include <sstd/boost/gil/image_view.hpp>
 #include <sstd/boost/gil/image_view_factory.hpp>
 #include <sstd/boost/gil/iterator_from_2d.hpp>
+#include <sstd/boost/gil/locator.hpp>
 #include <sstd/boost/gil/metafunctions.hpp>
 #include <sstd/boost/gil/packed_pixel.hpp>
 #include <sstd/boost/gil/pixel.hpp>
+#include <sstd/boost/gil/pixel_iterator.hpp>
 #include <sstd/boost/gil/pixel_iterator_adaptor.hpp>
-#include <sstd/boost/gil/planar_pixel_reference.hpp>
 #include <sstd/boost/gil/planar_pixel_iterator.hpp>
+#include <sstd/boost/gil/planar_pixel_reference.hpp>
 #include <sstd/boost/gil/point.hpp>
+#include <sstd/boost/gil/position_iterator.hpp>
+#include <sstd/boost/gil/premultiply.hpp>
+#include <sstd/boost/gil/rgb.hpp>
+#include <sstd/boost/gil/rgba.hpp>
 #include <sstd/boost/gil/step_iterator.hpp>
 #include <sstd/boost/gil/typedefs.hpp>
-#include <sstd/boost/gil/virtual_locator.hpp>
+#include <sstd/boost/gil/utilities.hpp>
 #include <sstd/boost/gil/version.hpp>
+#include <sstd/boost/gil/virtual_locator.hpp>
 
 #endif

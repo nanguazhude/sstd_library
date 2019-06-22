@@ -26,7 +26,6 @@
 #include <sstd/boost/call_traits.hpp>
 #include <sstd/boost/spirit/home/classic/namespace.hpp>
 #include <sstd/boost/spirit/home/classic/core.hpp>
-#include <sstd/boost/detail/iterator.hpp> // for boost::detail::iterator_traits
 #include <sstd/boost/assert.hpp>
 
 #if defined(BOOST_SPIRIT_DEBUG) && \
@@ -36,6 +35,8 @@
 #endif
 
 #include <sstd/boost/spirit/home/classic/tree/common_fwd.hpp>
+
+#include <iterator> // for std::iterator_traits, std::distance
 
 namespace boost { namespace spirit {
 
@@ -242,7 +243,7 @@ template <typename IteratorT = char const*, typename ValueT = nil_t>
 struct node_val_data
 {
     typedef
-        typename boost::detail::iterator_traits<IteratorT>::value_type
+        typename std::iterator_traits<IteratorT>::value_type
         value_type;
 
 #if !defined(BOOST_SPIRIT_USE_BOOST_ALLOCATOR_FOR_TREES)

@@ -8,6 +8,7 @@
 #ifndef BOOST_GIL_EXTENSION_TOOLBOX_COLOR_SPACES_XYZ_HPP
 #define BOOST_GIL_EXTENSION_TOOLBOX_COLOR_SPACES_XYZ_HPP
 
+#include <sstd/boost/gil/color_convert.hpp>
 #include <sstd/boost/gil/typedefs.hpp>
 
 #include <sstd/boost/mpl/vector.hpp>
@@ -28,13 +29,15 @@ struct z_t {};
 /// \}
 
 /// \ingroup ColorSpaceModel
-typedef mpl::vector3< xyz_color_space::x_t
-                    , xyz_color_space::y_t
-                    , xyz_color_space::z_t
-                    > xyz_t;
+using xyz_t = mpl::vector3
+    <
+        xyz_color_space::x_t,
+        xyz_color_space::y_t,
+        xyz_color_space::z_t
+    >;
 
 /// \ingroup LayoutModel
-typedef layout<xyz_t> xyz_layout_t;
+using xyz_layout_t = layout<xyz_t>;
 
 GIL_DEFINE_ALL_TYPEDEFS(32f, float32_t, xyz)
 

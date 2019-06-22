@@ -1,7 +1,7 @@
 ﻿// Boost.Geometry (aka GGL, Generic Geometry Library)
 // Unit Test
 
-// Copyright (c) 2007-2012 Barend Gehrels, Amsterdam, the Netherlands.
+// Copyright (c) 2007-2019 Barend Gehrels, Amsterdam, the Netherlands.
 // Copyright (c) 2008-2012 Bruno Lalande, Paris, France.
 // Copyright (c) 2009-2012 Mateusz Loskot, London, UK.
 
@@ -19,7 +19,7 @@
 
 #include <sstd/boost/variant/variant.hpp>
 
-#include <geometry_test_common.hpp>
+#include "geometry_test_common.hpp"
 
 #include <sstd/boost/geometry/algorithms/buffer.hpp>
 #include <sstd/boost/geometry/algorithms/equals.hpp>
@@ -29,7 +29,7 @@
 
 #include <sstd/boost/geometry/geometries/point.hpp>
 #include <sstd/boost/geometry/geometries/box.hpp>
-#include <test_common/test_point.hpp>
+#include "test_common/test_point.hpp"
 
 
 template <typename P>

@@ -8,6 +8,7 @@
 #ifndef BOOST_GIL_EXTENSION_TOOLBOX_COLOR_SPACES_HSL_HPP
 #define BOOST_GIL_EXTENSION_TOOLBOX_COLOR_SPACES_HSL_HPP
 
+#include <sstd/boost/gil/color_convert.hpp>
 #include <sstd/boost/gil/typedefs.hpp>
 
 namespace boost{ namespace gil {
@@ -26,13 +27,15 @@ struct lightness_t {};
 /// \}
 
 /// \ingroup ColorSpaceModel
-typedef mpl::vector3< hsl_color_space::hue_t
-                    , hsl_color_space::saturation_t
-                    , hsl_color_space::lightness_t
-                    > hsl_t;
+using hsl_t = mpl::vector3
+    <
+        hsl_color_space::hue_t,
+        hsl_color_space::saturation_t,
+        hsl_color_space::lightness_t
+    >;
 
 /// \ingroup LayoutModel
-typedef layout<hsl_t> hsl_layout_t;
+using hsl_layout_t = layout<hsl_t>;
 
 
 GIL_DEFINE_ALL_TYPEDEFS(32f, float32_t, hsl)

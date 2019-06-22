@@ -15,18 +15,18 @@
 //   make sure the types meet concept requirements
 //
 
-#include "sstd/boost/concept_check.hpp"
-#include "sstd/boost/multi_array/concept_checks.hpp"
-#include "sstd/boost/multi_array.hpp"
+#include <sstd/boost/concept_check.hpp>
+#include <sstd/boost/multi_array/concept_checks.hpp>
+#include <sstd/boost/multi_array.hpp>
 
-#include "sstd/boost/cstdlib.hpp"
+#include <sstd/boost/cstdlib.hpp>
 
-#include "sstd/boost/test/minimal.hpp"
+#include <sstd/boost/core/lightweight_test.hpp>
 
-#include "sstd/boost/array.hpp"
+#include <sstd/boost/array.hpp>
 
 int
-test_main(int,char*[])
+main()
 {
   const int ndims=3;
   typedef boost::multi_array<int,ndims> array;

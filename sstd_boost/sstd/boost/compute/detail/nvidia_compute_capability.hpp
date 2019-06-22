@@ -14,6 +14,7 @@
 #include <sstd/boost/compute/device.hpp>
 
 #ifdef BOOST_COMPUTE_HAVE_HDR_CL_EXT
+  #include <sstd/boost/compute/detail/cl_versions.hpp>
   #include <CL/cl_ext.h>
 #endif
 

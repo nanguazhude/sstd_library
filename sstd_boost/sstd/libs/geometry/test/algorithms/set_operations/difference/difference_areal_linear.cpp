@@ -18,10 +18,6 @@
 #include <sstream>
 #include <string>
 
-// If defined, tests are run without rescaling-to-integer or robustness policy
-// Test which would fail then are disabled automatically
-// #define BOOST_GEOMETRY_NO_ROBUSTNESS
-
 #include <sstd/boost/geometry/algorithms/correct.hpp>
 #include <sstd/boost/geometry/algorithms/is_valid.hpp>
 

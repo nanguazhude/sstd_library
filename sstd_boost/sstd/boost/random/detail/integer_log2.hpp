@@ -16,7 +16,7 @@
 
 #include <sstd/boost/config.hpp>
 #include <sstd/boost/limits.hpp>
-#include <sstd/boost/pending/integer_log2.hpp>
+#include <sstd/boost/integer/integer_log2.hpp>
 
 namespace boost {
 namespace random {

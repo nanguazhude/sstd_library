@@ -7,8 +7,3 @@
 
 example:
 sstd_boost_helper C:/boost/boost_1_70_0 F:/sstd_library/sstd_library/sstd_boost
-
-
-
-
-

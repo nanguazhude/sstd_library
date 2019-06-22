@@ -40,17 +40,18 @@
 #ifndef BOOST_GEOMETRY_PROJECTIONS_LCC_HPP
 #define BOOST_GEOMETRY_PROJECTIONS_LCC_HPP
 
-#include <sstd/boost/geometry/util/math.hpp>
-#include <sstd/boost/math/special_functions/hypot.hpp>
-
 #include <sstd/boost/geometry/srs/projections/impl/base_static.hpp>
 #include <sstd/boost/geometry/srs/projections/impl/base_dynamic.hpp>
-#include <sstd/boost/geometry/srs/projections/impl/projects.hpp>
 #include <sstd/boost/geometry/srs/projections/impl/factory_entry.hpp>
 #include <sstd/boost/geometry/srs/projections/impl/pj_msfn.hpp>
+#include <sstd/boost/geometry/srs/projections/impl/pj_param.hpp>
 #include <sstd/boost/geometry/srs/projections/impl/pj_phi2.hpp>
 #include <sstd/boost/geometry/srs/projections/impl/pj_tsfn.hpp>
+#include <sstd/boost/geometry/srs/projections/impl/projects.hpp>
 
+#include <sstd/boost/geometry/util/math.hpp>
+
+#include <sstd/boost/math/special_functions/hypot.hpp>
 
 namespace boost { namespace geometry
 {

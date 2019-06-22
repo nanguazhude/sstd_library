@@ -25,6 +25,7 @@
 #include <sstd/boost/container/container_fwd.hpp>
 #include <sstd/boost/container/pmr/memory_resource.hpp>
 #include <sstd/boost/container/throw_exception.hpp>
+#include <sstd/boost/container/detail/placement_new.hpp>
 
 #include <sstd/boost/move/detail/type_traits.hpp>
 #include <sstd/boost/intrusive/linear_slist_algorithms.hpp>
@@ -94,7 +95,7 @@ class block_slist_base
       if((size_t(-1) - header_size) < size)
          throw_bad_alloc();
       void *p = mr.allocate(size+header_size);
-      block_slist_header &mb  = *::new((void*)p) DerivedFromBlockSlistHeader;
+      block_slist_header &mb  = *::new((void*)p, boost_container_new_t()) DerivedFromBlockSlistHeader;
       mb.size = size+header_size;
       slist_algo::link_after(&m_slist, &mb);
       return (char *)p + header_size;

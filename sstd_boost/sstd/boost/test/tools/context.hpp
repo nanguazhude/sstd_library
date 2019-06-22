@@ -17,6 +17,20 @@
 
 // Boost.Test
 #include <sstd/boost/test/utils/lazy_ostream.hpp>
+#include <sstd/boost/test/detail/pp_variadic.hpp>
+
+#include <sstd/boost/preprocessor/repetition/enum_params.hpp>
+#include <sstd/boost/preprocessor/repetition/enum_binary_params.hpp>
+#include <sstd/boost/preprocessor/repetition/repeat_from_to.hpp>
+
+#include <sstd/boost/preprocessor/variadic/to_seq.hpp>
+#include <sstd/boost/preprocessor/variadic/size.hpp>
+#include <sstd/boost/preprocessor/cat.hpp>
+#include <sstd/boost/preprocessor/seq/for_each_i.hpp>
+#include <sstd/boost/preprocessor/seq/for_each.hpp>
+#include <sstd/boost/preprocessor/seq/enum.hpp>
+#include <sstd/boost/preprocessor/control/iif.hpp>
+#include <sstd/boost/preprocessor/comparison/equal.hpp>
 
 #include <sstd/boost/test/detail/suppress_warnings.hpp>
 
@@ -47,12 +61,29 @@ private:
     ::boost::unit_test::framework::add_context( BOOST_TEST_LAZY_MSG( context_descr ) , false )  \
 /**/
 
+#define BOOST_TEST_INFO_SCOPE( context_descr )                                                 \
+    ::boost::test_tools::tt_detail::context_frame BOOST_JOIN( context_frame_, __LINE__ ) =      \
+       ::boost::test_tools::tt_detail::context_frame(BOOST_TEST_LAZY_MSG( context_descr ) )     \
+/**/
+
 //____________________________________________________________________________//
 
-#define BOOST_TEST_CONTEXT( context_descr )                                                     \
-    if( ::boost::test_tools::tt_detail::context_frame BOOST_JOIN( context_frame_, __LINE__ ) =  \
-        ::boost::test_tools::tt_detail::context_frame( BOOST_TEST_LAZY_MSG( context_descr ) ) ) \
+
+#define BOOST_CONTEXT_PARAM(r, ctx, i, context_descr)  \
+  if( ::boost::test_tools::tt_detail::context_frame BOOST_PP_CAT(ctx, i) =                       \
+        ::boost::test_tools::tt_detail::context_frame(BOOST_TEST_LAZY_MSG( context_descr ) ) )   \
 /**/
+
+#define BOOST_CONTEXT_PARAMS( params )                                                           \
+        BOOST_PP_SEQ_FOR_EACH_I(BOOST_CONTEXT_PARAM,                                             \
+                                BOOST_JOIN( context_frame_, __LINE__ ),                          \
+                                params)                                                          \
+/**/
+
+#define BOOST_TEST_CONTEXT( ... )                                                                \
+    BOOST_CONTEXT_PARAMS(  BOOST_PP_VARIADIC_TO_SEQ(__VA_ARGS__) )                               \
+/**/
+
 
 //____________________________________________________________________________//
 

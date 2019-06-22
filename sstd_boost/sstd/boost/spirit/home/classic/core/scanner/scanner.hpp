@@ -13,7 +13,6 @@
 #include <sstd/boost/spirit/home/classic/namespace.hpp>
 #include <sstd/boost/spirit/home/classic/core/match.hpp>
 #include <sstd/boost/spirit/home/classic/core/non_terminal/parser_id.hpp>
-#include <sstd/boost/detail/iterator.hpp> // for boost::detail::iterator_traits
 
 #include <sstd/boost/spirit/home/classic/core/scanner/scanner_fwd.hpp>
 
@@ -219,9 +218,9 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_BEGIN
         typedef IteratorT iterator_t;
         typedef PoliciesT policies_t;
 
-        typedef typename boost::detail::
+        typedef typename std::
             iterator_traits<IteratorT>::value_type value_t;
-        typedef typename boost::detail::
+        typedef typename std::
             iterator_traits<IteratorT>::reference ref_t;
         typedef typename boost::
             call_traits<IteratorT>::param_type iter_param_t;

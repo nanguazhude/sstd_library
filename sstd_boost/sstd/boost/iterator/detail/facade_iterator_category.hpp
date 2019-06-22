@@ -4,6 +4,8 @@
 #ifndef FACADE_ITERATOR_CATEGORY_DWA20031118_HPP
 # define FACADE_ITERATOR_CATEGORY_DWA20031118_HPP
 
+# include <sstd/boost/core/use_default.hpp>
+
 # include <sstd/boost/iterator/iterator_categories.hpp>
 
 # include <sstd/boost/mpl/or.hpp>  // used in iterator_tag inheritance logic
@@ -33,8 +35,7 @@
 namespace boost {
 namespace iterators {
 
-// forward declaration
-struct use_default;
+using boost::use_default;
 
 namespace detail {
 

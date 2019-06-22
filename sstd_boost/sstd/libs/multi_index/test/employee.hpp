@@ -1,6 +1,6 @@
 ﻿/* Used in Boost.MultiIndex tests.
  *
- * Copyright 2003-2015 Joaquin M Lopez Munoz.
+ * Copyright 2003-2018 Joaquin M Lopez Munoz.
  * Distributed under the Boost Software License, Version 1.0.
  * (See accompanying file LICENSE_1_0.txt or copy at
  * http://www.boost.org/LICENSE_1_0.txt)
@@ -13,7 +13,7 @@
 
 #include <sstd/boost/config.hpp> /* keep it first to prevent nasty warns in MSVC */
 #include <sstd/boost/move/core.hpp>
-#include <sstd/boost/move/utility.hpp>
+#include <sstd/boost/move/utility_core.hpp>
 #include <sstd/boost/mpl/vector.hpp>
 #include <sstd/boost/multi_index_container.hpp>
 #include <sstd/boost/multi_index/hashed_index.hpp>
@@ -23,7 +23,6 @@
 #include <sstd/boost/multi_index/random_access_index.hpp>
 #include <sstd/boost/multi_index/ranked_index.hpp>
 #include <sstd/boost/multi_index/sequenced_index.hpp>
-#include <cstddef>
 #include <ostream>
 #include <string>
 #include "non_std_allocator.hpp"

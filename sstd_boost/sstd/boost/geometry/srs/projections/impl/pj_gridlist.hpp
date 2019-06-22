@@ -41,8 +41,11 @@
 #define BOOST_GEOMETRY_SRS_PROJECTIONS_IMPL_PJ_GRIDLIST_HPP
 
 
+#include <sstd/boost/geometry/srs/projections/exception.hpp>
 #include <sstd/boost/geometry/srs/projections/grids.hpp>
 #include <sstd/boost/geometry/srs/projections/impl/pj_gridinfo.hpp>
+#include <sstd/boost/geometry/srs/projections/impl/pj_strerrno.hpp>
+#include <sstd/boost/geometry/srs/projections/par_data.hpp>
 
 
 namespace boost { namespace geometry { namespace projections

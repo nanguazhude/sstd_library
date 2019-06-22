@@ -11,7 +11,6 @@
 #include <sstd/boost/mpl/at.hpp>
 #include <sstd/boost/mpl/size.hpp>
 
-#include <cassert>
 #include <stdexcept>
 
 namespace boost { namespace gil {

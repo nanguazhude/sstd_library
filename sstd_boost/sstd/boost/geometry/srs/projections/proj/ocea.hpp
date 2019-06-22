@@ -44,8 +44,9 @@
 
 #include <sstd/boost/geometry/srs/projections/impl/base_static.hpp>
 #include <sstd/boost/geometry/srs/projections/impl/base_dynamic.hpp>
-#include <sstd/boost/geometry/srs/projections/impl/projects.hpp>
 #include <sstd/boost/geometry/srs/projections/impl/factory_entry.hpp>
+#include <sstd/boost/geometry/srs/projections/impl/pj_param.hpp>
+#include <sstd/boost/geometry/srs/projections/impl/projects.hpp>
 
 namespace boost { namespace geometry
 {

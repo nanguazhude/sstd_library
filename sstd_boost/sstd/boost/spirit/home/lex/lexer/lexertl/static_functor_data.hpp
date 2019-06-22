@@ -18,6 +18,7 @@
 #include <sstd/boost/spirit/home/lex/lexer/lexertl/wrap_action.hpp>
 #include <sstd/boost/mpl/bool.hpp>
 #include <sstd/boost/algorithm/string/predicate.hpp>
+#include <iterator> // for std::iterator_traits
 
 namespace boost { namespace spirit { namespace lex { namespace lexertl
 {
@@ -48,7 +49,7 @@ namespace boost { namespace spirit { namespace lex { namespace lexertl
         {
         protected:
             typedef typename
-                boost::detail::iterator_traits<Iterator>::value_type
+                std::iterator_traits<Iterator>::value_type
             char_type;
 
         public:

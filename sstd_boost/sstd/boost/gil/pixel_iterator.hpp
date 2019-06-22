@@ -9,10 +9,10 @@
 #define BOOST_GIL_PIXEL_ITERATOR_HPP
 
 #include <sstd/boost/gil/concepts.hpp>
+#include <sstd/boost/gil/dynamic_step.hpp>
 #include <sstd/boost/gil/utilities.hpp>
 #include <sstd/boost/gil/pixel.hpp>
 
-#include <cassert>
 #include <iterator>
 
 namespace boost { namespace gil {
@@ -20,8 +20,6 @@ namespace boost { namespace gil {
 //forwarded declaration (as this file is included in step_iterator.hpp)
 template <typename Iterator>
 class memory_based_step_iterator;
-
-template <typename Iterator> struct dynamic_x_step_type;
 
 /// \brief metafunction predicate determining whether the given iterator is a plain one or an adaptor over another iterator.
 /// Examples of adaptors are the step iterator and the dereference iterator adaptor.
@@ -41,8 +39,8 @@ template <typename It>
 struct const_iterator_type;
 
 // The default implementation when the iterator is a C pointer is to use the standard constness semantics
-template <typename T> struct const_iterator_type<      T*> { typedef const T* type; };
-template <typename T> struct const_iterator_type<const T*> { typedef const T* type; };
+template <typename T> struct const_iterator_type<T*>       { using type = T const*; };
+template <typename T> struct const_iterator_type<T const*> { using type = T const*; };
 
 /// \brief Metafunction predicate returning whether the given iterator allows for changing its values
 /// \ingroup GILIsMutable
@@ -67,13 +65,13 @@ template <typename T> struct iterator_is_mutable<const T*> : public mpl::false_{
 /// \ingroup PixelIteratorModelInterleavedPtr
 template <typename Pixel>
 struct dynamic_x_step_type<Pixel*> {
-    typedef memory_based_step_iterator<Pixel*> type;
+    using type = memory_based_step_iterator<Pixel *>;
 };
 
 /// \ingroup PixelIteratorModelInterleavedPtr
 template <typename Pixel>
 struct dynamic_x_step_type<const Pixel*> {
-    typedef memory_based_step_iterator<const Pixel*> type;
+    using type = memory_based_step_iterator<const Pixel *>;
 };
 
 

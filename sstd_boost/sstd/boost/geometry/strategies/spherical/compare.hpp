@@ -2,8 +2,8 @@
 
 // Copyright (c) 2007-2012 Barend Gehrels, Amsterdam, the Netherlands.
 
-// This file was modified by Oracle on 2017.
-// Modifications copyright (c) 2017, Oracle and/or its affiliates.
+// This file was modified by Oracle on 2017, 2018.
+// Modifications copyright (c) 2017-2018, Oracle and/or its affiliates.
 
 // Contributed and/or modified by Adam Wulkiewicz, on behalf of Oracle
 
@@ -25,6 +25,7 @@
 #include <sstd/boost/geometry/core/coordinate_system.hpp>
 #include <sstd/boost/geometry/core/coordinate_type.hpp>
 #include <sstd/boost/geometry/core/cs.hpp>
+#include <sstd/boost/geometry/core/radian_access.hpp>
 #include <sstd/boost/geometry/core/tags.hpp>
 
 #include <sstd/boost/geometry/strategies/compare.hpp>

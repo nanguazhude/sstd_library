@@ -26,7 +26,6 @@
 #include <sstd/boost/spirit/home/support/handles_container.hpp>
 #include <sstd/boost/fusion/include/at.hpp>
 #include <sstd/boost/fusion/include/vector.hpp>
-#include <sstd/boost/lexical_cast.hpp>
 #include <sstd/boost/integer_traits.hpp>
 #include <sstd/boost/mpl/bool.hpp>
 #include <sstd/boost/utility/enable_if.hpp>

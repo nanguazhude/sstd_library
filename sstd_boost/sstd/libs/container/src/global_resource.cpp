@@ -10,7 +10,7 @@
 
 #define BOOST_CONTAINER_SOURCE
 #include <sstd/boost/container/pmr/memory_resource.hpp>
-
+#include <sstd/boost/container/pmr/global_resource.hpp>
 #include <sstd/boost/core/no_exceptions_support.hpp>
 #include <sstd/boost/container/throw_exception.hpp>
 #include <sstd/boost/container/detail/dlmalloc.hpp>  //For global lock

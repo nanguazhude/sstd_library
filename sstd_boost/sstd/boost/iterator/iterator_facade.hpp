@@ -16,7 +16,7 @@
 #include <sstd/boost/iterator/detail/enable_if.hpp>
 
 #include <sstd/boost/static_assert.hpp>
-#include <sstd/boost/utility/addressof.hpp>
+#include <sstd/boost/core/addressof.hpp>
 
 #include <sstd/boost/type_traits/is_same.hpp>
 #include <sstd/boost/type_traits/add_const.hpp>

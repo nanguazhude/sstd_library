@@ -17,10 +17,10 @@
 # endif
 
 #include <sstd/boost/filesystem/config.hpp>
-#include <sstd/boost/utility/enable_if.hpp>
 #include <sstd/boost/type_traits/is_array.hpp>
 #include <sstd/boost/type_traits/decay.hpp>
 #include <sstd/boost/system/error_code.hpp>
+#include <sstd/boost/core/enable_if.hpp>
 #include <cwchar>  // for mbstate_t
 #include <string>
 #include <vector>

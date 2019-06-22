@@ -26,7 +26,6 @@
 #include <sstd/boost/spirit/home/support/unused.hpp>
 #include <sstd/boost/fusion/include/at.hpp>
 #include <sstd/boost/fusion/include/vector.hpp>
-#include <sstd/boost/lexical_cast.hpp>
 #include <sstd/boost/detail/workaround.hpp>
 
 ///////////////////////////////////////////////////////////////////////////////

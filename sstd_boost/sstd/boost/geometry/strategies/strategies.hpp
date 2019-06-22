@@ -70,6 +70,7 @@
 #include <sstd/boost/geometry/strategies/cartesian/point_in_poly_franklin.hpp>
 #include <sstd/boost/geometry/strategies/cartesian/point_in_poly_crossings_multiply.hpp>
 #include <sstd/boost/geometry/strategies/cartesian/point_in_poly_winding.hpp>
+#include <sstd/boost/geometry/strategies/cartesian/line_interpolate.hpp>
 #include <sstd/boost/geometry/strategies/cartesian/side_by_triangle.hpp>
 
 #include <sstd/boost/geometry/strategies/spherical/area.hpp>
@@ -85,10 +86,12 @@
 #include <sstd/boost/geometry/strategies/spherical/envelope_segment.hpp>
 #include <sstd/boost/geometry/strategies/spherical/intersection.hpp>
 #include <sstd/boost/geometry/strategies/spherical/point_in_poly_winding.hpp>
+#include <sstd/boost/geometry/strategies/spherical/line_interpolate.hpp>
 #include <sstd/boost/geometry/strategies/spherical/ssf.hpp>
 
 #include <sstd/boost/geometry/strategies/geographic/area.hpp>
 #include <sstd/boost/geometry/strategies/geographic/azimuth.hpp>
+#include <sstd/boost/geometry/strategies/geographic/buffer_point_circle.hpp>
 #include <sstd/boost/geometry/strategies/geographic/densify.hpp>
 #include <sstd/boost/geometry/strategies/geographic/disjoint_segment_box.hpp>
 #include <sstd/boost/geometry/strategies/geographic/distance.hpp>
@@ -103,6 +106,7 @@
 #include <sstd/boost/geometry/strategies/geographic/intersection.hpp>
 //#include <sstd/boost/geometry/strategies/geographic/intersection_elliptic.hpp>
 #include <sstd/boost/geometry/strategies/geographic/point_in_poly_winding.hpp>
+#include <sstd/boost/geometry/strategies/geographic/line_interpolate.hpp>
 #include <sstd/boost/geometry/strategies/geographic/side.hpp>
 #include <sstd/boost/geometry/strategies/geographic/side_andoyer.hpp>
 #include <sstd/boost/geometry/strategies/geographic/side_thomas.hpp>

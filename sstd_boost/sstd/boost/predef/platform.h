@@ -11,6 +11,7 @@ http://www.boost.org/LICENSE_1_0.txt)
 #define BOOST_PREDEF_PLATFORM_H
 #endif
 
+#include <sstd/boost/predef/platform/android.h>
 #include <sstd/boost/predef/platform/cloudabi.h>
 #include <sstd/boost/predef/platform/mingw.h>
 #include <sstd/boost/predef/platform/mingw32.h>

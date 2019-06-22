@@ -11,7 +11,7 @@
 #endif
 
 #include <sstd/boost/config.hpp>
-#include <sstd/boost/predef.h>
+#include <sstd/boost/predef/architecture/x86.h>
 #include <sstd/boost/cstdint.hpp> // for boost::uintmax_t
 #include <sstd/boost/detail/workaround.hpp>
 #include <sstd/boost/type_traits/is_integral.hpp>

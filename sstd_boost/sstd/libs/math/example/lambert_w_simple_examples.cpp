@@ -248,7 +248,4 @@ Error in function boost::math::lambert_wm1<RealType>(<RealType>):
 Argument z = 1 is out of range (z <= 0) for Lambert W-1 branch! (Try Lambert W0 branch?)
 //] [/lambert_w_simple_examples_error_message_1]
 
-   /*
-
-
    */

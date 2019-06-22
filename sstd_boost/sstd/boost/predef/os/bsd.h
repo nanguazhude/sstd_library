@@ -89,15 +89,13 @@ of BSD. If the above variants is detected the corresponding macro is also set.]
 
 #define BOOST_OS_BSD_NAME "BSD"
 
-#else
+#endif
 
 #include <sstd/boost/predef/os/bsd/bsdi.h>
 #include <sstd/boost/predef/os/bsd/dragonfly.h>
 #include <sstd/boost/predef/os/bsd/free.h>
 #include <sstd/boost/predef/os/bsd/open.h>
 #include <sstd/boost/predef/os/bsd/net.h>
-
-#endif
 
 #include <sstd/boost/predef/detail/test.h>
 BOOST_PREDEF_DECLARE_TEST(BOOST_OS_BSD,BOOST_OS_BSD_NAME)

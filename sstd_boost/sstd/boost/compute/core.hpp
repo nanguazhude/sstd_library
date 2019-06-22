@@ -22,6 +22,7 @@
 #include <sstd/boost/compute/device.hpp>
 #include <sstd/boost/compute/event.hpp>
 #include <sstd/boost/compute/kernel.hpp>
+#include <sstd/boost/compute/types.hpp>
 #include <sstd/boost/compute/memory_object.hpp>
 #include <sstd/boost/compute/platform.hpp>
 #include <sstd/boost/compute/program.hpp>

@@ -4,8 +4,9 @@
 //  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 
 #include <sstd/boost/detail/lightweight_test.hpp>
-#include <sstd/boost/spirit/include/qi.hpp>
 #include <sstd/boost/spirit/include/lex_lexertl.hpp>
+#include <sstd/boost/spirit/include/qi_parse.hpp>
+#include <sstd/boost/spirit/include/qi_operator.hpp>
 #include "test_parser.hpp"
 
 ///////////////////////////////////////////////////////////////////////////////

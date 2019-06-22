@@ -6,7 +6,6 @@
 ==============================================================================*/
 #include <sstd/boost/detail/lightweight_test.hpp>
 
-#include <sstd/boost/spirit/include/support_argument.hpp>
 #include <sstd/boost/spirit/home/x3/binary.hpp>
 #include <sstd/boost/cstdint.hpp>
 #include <sstd/boost/predef/other/endian.h>

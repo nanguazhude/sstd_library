@@ -11,9 +11,8 @@
 #endif
 
 #include <sstd/boost/config.hpp>
+#include <sstd/boost/limits.hpp>
 #include <sstd/boost/mpl/bool.hpp>
-#include <sstd/boost/integer_traits.hpp>
-#include <sstd/boost/utility/enable_if.hpp>
 
 namespace boost { namespace spirit { namespace traits
 {
@@ -117,11 +116,7 @@ namespace boost { namespace spirit { namespace traits
     struct is_infinite;
 
     template <typename T, typename Enable = void>
-    struct check_overflow : mpl::false_ {};
-
-    template <typename T>
-    struct check_overflow<T, typename enable_if_c<integer_traits<T>::is_integral>::type>
-        : mpl::true_ {};
+    struct check_overflow : mpl::bool_<std::numeric_limits<T>::is_bounded> {};
 }}}
 
 #endif

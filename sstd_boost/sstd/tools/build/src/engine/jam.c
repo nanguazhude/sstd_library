@@ -14,6 +14,7 @@
 
 /* This file is ALSO:
  * Copyright 2001-2004 David Abrahams.
+ * Copyright 2018 Rene Rivera
  * Distributed under the Boost Software License, Version 1.0.
  * (See accompanying file LICENSE_1_0.txt or copy at
  * http://www.boost.org/LICENSE_1_0.txt)
@@ -98,7 +99,18 @@
 
 
 #include "jam.h"
+
 #include "patchlevel.h"
+
+/* Keep JAMVERSYM in sync with VERSION. */
+/* It can be accessed as $(JAMVERSION) in the Jamfile. */
+#define JAM_STRINGIZE(X) JAM_DO_STRINGIZE(X)
+#define JAM_DO_STRINGIZE(X) #X
+#define VERSION_MAJOR_SYM JAM_STRINGIZE(VERSION_MAJOR)
+#define VERSION_MINOR_SYM JAM_STRINGIZE(VERSION_MINOR)
+#define VERSION_PATCH_SYM JAM_STRINGIZE(VERSION_PATCH)
+#define VERSION VERSION_MAJOR_SYM "." VERSION_MINOR_SYM
+#define JAMVERSYM "JAMVERSION=" VERSION
 
 #include "builtins.h"
 #include "class.h"

@@ -15,17 +15,17 @@
 //   ensure const_array_view cannot be converted to array_view
 //
 
-#include "sstd/boost/multi_array.hpp"
+#include <sstd/boost/multi_array.hpp>
 
 #define BOOST_INCLUDE_MAIN
-#include "sstd/boost/test/test_tools.hpp"
+#include <sstd/boost/test/test_tools.hpp>
 
-#include "sstd/boost/array.hpp"
-#include "sstd/boost/type.hpp"
-#include "sstd/boost/cstdlib.hpp"
+#include <sstd/boost/array.hpp>
+#include <sstd/boost/type.hpp>
+#include <sstd/boost/cstdlib.hpp>
 
 int
-test_main(int,char*[])
+main()
 {
   const int ndims=3;
   typedef boost::multi_array<int,ndims> array;
@@ -52,5 +52,5 @@ test_main(int,char*[])
   array::array_view<ndims>::type csma2 =
     csma[indices[range(0,2)][range(1,3)][range(0,4,2)]];
 
-  return boost::exit_success;
+  return boost::report_errors();
 }

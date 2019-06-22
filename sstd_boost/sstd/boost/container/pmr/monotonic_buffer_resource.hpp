@@ -18,6 +18,7 @@
 #include <sstd/boost/container/detail/config_begin.hpp>
 #include <sstd/boost/container/detail/workaround.hpp>
 #include <sstd/boost/container/detail/auto_link.hpp>
+#include <sstd/boost/container/container_fwd.hpp>
 #include <sstd/boost/container/pmr/memory_resource.hpp>
 #include <sstd/boost/container/detail/block_slist.hpp>
 

@@ -10,10 +10,15 @@
 #define BOOST_THREAD_THREAD_EXECUTOR_HPP
 
 #include <sstd/boost/thread/detail/config.hpp>
+#if defined BOOST_THREAD_PROVIDES_FUTURE_CONTINUATION && defined BOOST_THREAD_PROVIDES_EXECUTORS && defined BOOST_THREAD_USES_MOVE
+
+#include <sstd/boost/throw_exception.hpp>
 #include <sstd/boost/thread/detail/delete.hpp>
 #include <sstd/boost/thread/detail/move.hpp>
 #include <sstd/boost/thread/executors/work.hpp>
 #include <sstd/boost/thread/executors/executor.hpp>
+#include <sstd/boost/thread/mutex.hpp>
+#include <sstd/boost/thread/lock_guard.hpp>
 #include <sstd/boost/thread/thread_only.hpp>
 #include <sstd/boost/thread/scoped_thread.hpp>
 #include <sstd/boost/thread/csbl/vector.hpp>
@@ -154,4 +159,5 @@ using executors::thread_executor;
 
 #include <sstd/boost/config/abi_suffix.hpp>
 
+#endif
 #endif

@@ -76,6 +76,7 @@
 #include <sstd/boost/geometry/algorithms/is_simple.hpp>
 #include <sstd/boost/geometry/algorithms/is_valid.hpp>
 #include <sstd/boost/geometry/algorithms/length.hpp>
+#include <sstd/boost/geometry/algorithms/line_interpolate.hpp>
 #include <sstd/boost/geometry/algorithms/make.hpp>
 #include <sstd/boost/geometry/algorithms/num_geometries.hpp>
 #include <sstd/boost/geometry/algorithms/num_interior_rings.hpp>

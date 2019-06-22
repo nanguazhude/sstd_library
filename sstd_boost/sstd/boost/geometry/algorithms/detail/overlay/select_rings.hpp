@@ -21,7 +21,6 @@
 
 #include <sstd/boost/geometry/core/tags.hpp>
 
-#include <sstd/boost/geometry/algorithms/area.hpp>
 #include <sstd/boost/geometry/algorithms/covered_by.hpp>
 #include <sstd/boost/geometry/algorithms/detail/interior_iterator.hpp>
 #include <sstd/boost/geometry/algorithms/detail/ring_identifier.hpp>

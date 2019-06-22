@@ -18,6 +18,7 @@
 #include <sstd/boost/geometry/core/assert.hpp>
 #include <sstd/boost/geometry/core/coordinate_dimension.hpp>
 #include <sstd/boost/geometry/core/coordinate_type.hpp>
+#include <sstd/boost/geometry/geometries/point.hpp>
 #include <sstd/boost/geometry/strategies/densify.hpp>
 #include <sstd/boost/geometry/util/math.hpp>
 #include <sstd/boost/geometry/util/select_most_precise.hpp>

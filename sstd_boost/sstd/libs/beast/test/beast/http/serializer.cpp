@@ -1,5 +1,5 @@
 ﻿//
-// Copyright (c) 2016-2017 Vinnie Falco (vinnie dot falco at gmail dot com)
+// Copyright (c) 2016-2019 Vinnie Falco (vinnie dot falco at gmail dot com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
 // file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
@@ -10,8 +10,9 @@
 // Test that header file is self-contained.
 #include <sstd/boost/beast/http/serializer.hpp>
 
+#include <sstd/boost/beast/core/buffer_traits.hpp>
 #include <sstd/boost/beast/http/string_body.hpp>
-#include <sstd/boost/beast/unit_test/suite.hpp>
+#include <sstd/boost/beast/_experimental/unit_test/suite.hpp>
 
 namespace boost {
 namespace beast {
@@ -27,7 +28,7 @@ public:
         struct writer
         {
             using const_buffers_type =
-                boost::asio::const_buffer;
+                net::const_buffer;
 
             template<bool isRequest, class Fields>
             writer(header<isRequest, Fields> const&, value_type const&);
@@ -47,7 +48,7 @@ public:
         struct writer
         {
             using const_buffers_type =
-                boost::asio::const_buffer;
+                net::const_buffer;
 
             template<bool isRequest, class Fields>
             writer(header<isRequest, Fields>&, value_type&);
@@ -91,7 +92,7 @@ public:
         operator()(error_code&,
             ConstBufferSequence const& buffers)
         {
-            size = boost::asio::buffer_size(buffers);
+            size = buffer_bytes(buffers);
         }
     };
 

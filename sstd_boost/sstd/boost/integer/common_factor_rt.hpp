@@ -508,11 +508,12 @@ gcd_range(I first, I last) BOOST_GCD_NOEXCEPT(I)
     BOOST_ASSERT(first != last);
     typedef typename std::iterator_traits<I>::value_type T;
 
-    T d = *first++;
+    T d = *first;
+    ++first;
     while (d != T(1) && first != last)
     {
         d = gcd(d, *first);
-        first++;
+        ++first;
     }
     return std::make_pair(d, first);
 }
@@ -523,11 +524,12 @@ lcm_range(I first, I last) BOOST_GCD_NOEXCEPT(I)
     BOOST_ASSERT(first != last);
     typedef typename std::iterator_traits<I>::value_type T;
 
-    T d = *first++;
-    while (d != T(1) && first != last)
+    T d = *first;
+    ++first;
+    while (d != T(0) && first != last)
     {
         d = lcm(d, *first);
-        first++;
+        ++first;
     }
     return std::make_pair(d, first);
 }
@@ -544,7 +546,7 @@ public:
    typedef IntegerType second_argument_type;
    typedef IntegerType result_type;
 #endif
-   IntegerType operator()(IntegerType const &a, IntegerType const &b)const
+   IntegerType operator()(IntegerType const &a, IntegerType const &b) const
    {
       return boost::integer::gcd(a, b);
    }

@@ -9,7 +9,6 @@
 
 #include <sstd/boost/spirit/home/x3/support/context.hpp>
 #include <sstd/boost/spirit/home/x3/support/traits/attribute_of.hpp>
-#include <sstd/boost/spirit/home/x3/support/traits/make_attribute.hpp>
 #include <sstd/boost/spirit/home/x3/core/call.hpp>
 #include <sstd/boost/spirit/home/x3/nonterminal/detail/transform_attribute.hpp>
 #include <sstd/boost/range/iterator_range.hpp>
@@ -82,14 +81,9 @@ namespace boost { namespace spirit { namespace x3
             typedef typename
                 traits::attribute_of<action<Subject, Action>, Context>::type
             attribute_type;
-            typedef traits::make_attribute<attribute_type, unused_type> make_attribute;
-            typedef traits::transform_attribute<
-                typename make_attribute::type, attribute_type, parser_id>
-            transform;
 
             // synthesize the attribute since one is not supplied
-            typename make_attribute::type made_attr = make_attribute::call(unused_type());
-            typename transform::type attr = transform::pre(made_attr);
+            attribute_type attr{};
             return parse_main(first, last, context, rcontext, attr);
         }
 

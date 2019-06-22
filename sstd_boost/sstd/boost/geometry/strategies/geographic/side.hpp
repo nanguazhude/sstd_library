@@ -28,9 +28,10 @@
 #include <sstd/boost/geometry/util/select_calculation_type.hpp>
 
 #include <sstd/boost/geometry/strategies/geographic/disjoint_segment_box.hpp>
-#include <sstd/boost/geometry/strategies/geographic/envelope_segment.hpp>
+#include <sstd/boost/geometry/strategies/geographic/envelope.hpp>
 #include <sstd/boost/geometry/strategies/geographic/parameters.hpp>
 #include <sstd/boost/geometry/strategies/side.hpp>
+#include <sstd/boost/geometry/strategies/spherical/point_in_point.hpp>
 //#include <sstd/boost/geometry/strategies/concepts/side_concept.hpp>
 
 
@@ -64,7 +65,7 @@ template
 class geographic
 {
 public:
-    typedef strategy::envelope::geographic_segment
+    typedef strategy::envelope::geographic
         <
             FormulaPolicy,
             Spheroid,
@@ -86,6 +87,12 @@ public:
     inline disjoint_strategy_type get_disjoint_strategy() const
     {
         return disjoint_strategy_type(m_model);
+    }
+
+    typedef strategy::within::spherical_point_point equals_point_point_strategy_type;
+    static inline equals_point_point_strategy_type get_equals_point_point_strategy()
+    {
+        return equals_point_point_strategy_type();
     }
 
     geographic()

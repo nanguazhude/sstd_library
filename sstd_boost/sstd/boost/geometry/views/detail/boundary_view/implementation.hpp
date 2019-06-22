@@ -1,8 +1,9 @@
 ﻿// Boost.Geometry (aka GGL, Generic Geometry Library)
 
-// Copyright (c) 2015, Oracle and/or its affiliates.
+// Copyright (c) 2015, 2018, Oracle and/or its affiliates.
 
 // Contributed and/or modified by Menelaos Karavelas, on behalf of Oracle
+// Contributed and/or modified by Adam Wulkiewicz, on behalf of Oracle
 
 // Licensed under the Boost Software License version 1.0.
 // http://www.boost.org/users/license.html
@@ -23,7 +24,6 @@
 #include <sstd/boost/iterator/iterator_categories.hpp>
 #include <sstd/boost/mpl/assert.hpp>
 #include <sstd/boost/mpl/if.hpp>
-#include <sstd/boost/range.hpp>
 #include <sstd/boost/type_traits/is_const.hpp>
 #include <sstd/boost/type_traits/is_convertible.hpp>
 #include <sstd/boost/type_traits/remove_reference.hpp>
@@ -40,6 +40,7 @@
 #include <sstd/boost/geometry/util/range.hpp>
 
 #include <sstd/boost/geometry/views/closeable_view.hpp>
+#include <sstd/boost/geometry/views/detail/boundary_view/interface.hpp>
 
 #include <sstd/boost/geometry/algorithms/num_interior_rings.hpp>
 

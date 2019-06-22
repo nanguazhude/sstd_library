@@ -5,7 +5,7 @@
 
 #include <sstd/boost/config.hpp>
 
-#define BOOST_THREAD_VERSION 4
+#define BOOST_THREAD_VERSION 5
 //#define BOOST_THREAD_USES_LOG
 #define BOOST_THREAD_USES_LOG_THREAD_ID
 #define BOOST_THREAD_QUEUE_DEPRECATE_OLD
@@ -15,6 +15,7 @@
 
 #include <sstd/boost/thread/detail/log.hpp>
 #include <sstd/boost/thread/executors/basic_thread_pool.hpp>
+#include <sstd/boost/thread/thread_only.hpp>
 #include <sstd/boost/assert.hpp>
 #include <string>
 

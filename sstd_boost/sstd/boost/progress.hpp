@@ -19,6 +19,9 @@
 #ifndef BOOST_PROGRESS_HPP
 #define BOOST_PROGRESS_HPP
 
+#include <sstd/boost/config/header_deprecated.hpp>
+BOOST_HEADER_DEPRECATED( "the facilities in <sstd/boost/timer/timer.hpp>" )
+
 #include <sstd/boost/timer.hpp>
 #include <sstd/boost/noncopyable.hpp>
 #include <sstd/boost/cstdint.hpp>  // for uintmax_t

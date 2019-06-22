@@ -18,7 +18,6 @@
 // Boost.Test
 #include <sstd/boost/test/detail/config.hpp>
 #include <sstd/boost/test/detail/global_typedef.hpp>
-#include <sstd/boost/test/detail/workaround.hpp>
 
 // Boost
 #include <sstd/boost/mpl/or.hpp>

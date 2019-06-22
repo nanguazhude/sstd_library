@@ -9,7 +9,6 @@
 #if !defined(BOOST_SPIRIT_LEXER_NEXT_TOKEN_WC_NOV_10_2009_17_20_04)
 #define BOOST_SPIRIT_LEXER_NEXT_TOKEN_WC_NOV_10_2009_17_20_04
 
-#include <sstd/boost/detail/iterator.hpp>
 #include <sstd/boost/spirit/home/support/detail/lexer/char_traits.hpp>
 
 ////////////////////////////////////////////////////////////////////////////////

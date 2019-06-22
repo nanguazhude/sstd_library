@@ -14,12 +14,12 @@
 // idxset1.cpp - testing the code for index_gen
 //
 
-#include "sstd/boost/multi_array/index_gen.hpp"
-#include "sstd/boost/multi_array/index_range.hpp"
-#include "sstd/boost/multi_array/types.hpp"
-#include "sstd/boost/test/minimal.hpp"
+#include <sstd/boost/multi_array/index_gen.hpp>
+#include <sstd/boost/multi_array/index_range.hpp>
+#include <sstd/boost/multi_array/types.hpp>
+#include <sstd/boost/core/lightweight_test.hpp>
 
-#include "sstd/boost/array.hpp"
+#include <sstd/boost/array.hpp>
 
 typedef boost::detail::multi_array::index index_type;
 typedef boost::detail::multi_array::size_type size_type;
@@ -37,7 +37,7 @@ bool operator==(const range& lhs,const range& rhs) {
 }
 
 int
-test_main(int,char*[])
+main()
 {
 
   boost::detail::multi_array::index_gen<0,0> indices;
@@ -62,19 +62,19 @@ test_main(int,char*[])
   {
     boost::detail::multi_array::index_gen<3,3> is1 =
       indices[range(0,1,2)][range(1,2,3)][range(2,3,4)];
-    BOOST_CHECK(is1.ranges_[0] == range(0,1,2));
-    BOOST_CHECK(is1.ranges_[1] == range(1,2,3));
-    BOOST_CHECK(is1.ranges_[2] == range(2,3,4));
+    BOOST_TEST(is1.ranges_[0] == range(0,1,2));
+    BOOST_TEST(is1.ranges_[1] == range(1,2,3));
+    BOOST_TEST(is1.ranges_[2] == range(2,3,4));
   }
 
   {
     boost::detail::multi_array::index_gen<3,2> is2 =
       indices[range(0,1,2)][2][range(2,3,4)];
-    BOOST_CHECK(is2.ranges_[0] == range(0,1,2));
-    BOOST_CHECK(is2.ranges_[1] == range(2));
-    BOOST_CHECK(is2.ranges_[1].is_degenerate());
-    BOOST_CHECK(is2.ranges_[2] == range(2,3,4));
+    BOOST_TEST(is2.ranges_[0] == range(0,1,2));
+    BOOST_TEST(is2.ranges_[1] == range(2));
+    BOOST_TEST(is2.ranges_[1].is_degenerate());
+    BOOST_TEST(is2.ranges_[2] == range(2,3,4));
   }
 
-  return boost::exit_success;
+  return boost::report_errors();
 }

@@ -340,7 +340,7 @@ public:
             param->usage( ostr, m_negation_prefix );
         }
         else {
-            ostr << "\n  The program '" << m_program_name << "' is a Boost.test module containing unit tests.";
+            ostr << "\n  The program '" << m_program_name << "' is a Boost.Test module containing unit tests.";
 
             {
               BOOST_TEST_SCOPE_SETCOLOR( use_color, ostr, term_attr::BRIGHT, term_color::ORIGINAL );

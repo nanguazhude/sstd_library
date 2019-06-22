@@ -10,9 +10,16 @@
 #define BOOST_THREAD_INLINE_EXECUTOR_HPP
 
 #include <sstd/boost/thread/detail/config.hpp>
+#if defined BOOST_THREAD_PROVIDES_FUTURE_CONTINUATION && defined BOOST_THREAD_PROVIDES_EXECUTORS && defined BOOST_THREAD_USES_MOVE
+
+#include <exception> // std::terminate
+#include <sstd/boost/throw_exception.hpp>
 #include <sstd/boost/thread/detail/delete.hpp>
 #include <sstd/boost/thread/detail/move.hpp>
 #include <sstd/boost/thread/executors/work.hpp>
+#include <sstd/boost/thread/mutex.hpp>
+#include <sstd/boost/thread/lock_guard.hpp>
+#include <sstd/boost/thread/concurrent_queues/queue_op_status.hpp> // sync_queue_is_closed
 
 #include <sstd/boost/config/abi_prefix.hpp>
 
@@ -168,4 +175,5 @@ using executors::inline_executor;
 
 #include <sstd/boost/config/abi_suffix.hpp>
 
+#endif
 #endif

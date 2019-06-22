@@ -4,12 +4,12 @@
 //  LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 //
 #include <sstd/boost/math/concepts/std_real_concept.hpp>
-#include <sstd/boost/math/tools/numerical_differentiation.hpp>
+#include <sstd/boost/math/differentiation/finite_difference.hpp>
 
 
 void compile_and_link_test()
 {
    boost::math::concepts::std_real_concept x = 0;
    auto f = [](boost::math::concepts::std_real_concept x) { return x; };
-   boost::math::tools::finite_difference_derivative(f, x);
+   boost::math::differentiation::finite_difference_derivative(f, x);
 }

@@ -14,15 +14,15 @@
 // index_bases - test of the index_base modifying facilities.
 //
 
-#include "sstd/boost/multi_array.hpp"
+#include <sstd/boost/multi_array.hpp>
 
-#include "sstd/boost/test/minimal.hpp"
+#include <sstd/boost/core/lightweight_test.hpp>
 
-#include "sstd/boost/array.hpp"
+#include <sstd/boost/array.hpp>
 #include <vector>
 #include <iostream>
 int
-test_main(int,char*[])
+main()
 {
   typedef boost::multi_array<double, 3> array;
   typedef array::array_view<3>::type array_view;
@@ -40,5 +40,5 @@ test_main(int,char*[])
     array_view E = A[indices[irange(1,2)][irange(1,2)][irange(1,2)]];
 
   }
-  return boost::exit_success;
+  return boost::report_errors();
 }

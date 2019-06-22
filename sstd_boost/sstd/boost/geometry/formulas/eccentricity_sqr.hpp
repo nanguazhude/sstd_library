@@ -1,6 +1,6 @@
 ﻿// Boost.Geometry
 
-// Copyright (c) 2016 Oracle and/or its affiliates.
+// Copyright (c) 2016, 2018 Oracle and/or its affiliates.
 
 // Contributed and/or modified by Adam Wulkiewicz, on behalf of Oracle
 
@@ -11,11 +11,13 @@
 #ifndef BOOST_GEOMETRY_FORMULAS_ECCENCRICITY_SQR_HPP
 #define BOOST_GEOMETRY_FORMULAS_ECCENCRICITY_SQR_HPP
 
+#include <sstd/boost/geometry/algorithms/not_implemented.hpp>
+
 #include <sstd/boost/geometry/core/radius.hpp>
 #include <sstd/boost/geometry/core/tag.hpp>
 #include <sstd/boost/geometry/core/tags.hpp>
 
-#include <sstd/boost/geometry/algorithms/not_implemented.hpp>
+#include <sstd/boost/geometry/util/math.hpp>
 
 namespace boost { namespace geometry
 {

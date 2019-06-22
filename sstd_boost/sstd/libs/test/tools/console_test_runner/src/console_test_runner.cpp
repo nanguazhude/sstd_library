@@ -12,7 +12,8 @@
 #include <sstd/boost/test/unit_test.hpp>
 
 // Boost.Runtime.Param
-#include <sstd/boost/test/utils/runtime/cla/named_parameter.hpp>
+//#include <sstd/boost/test/utils/runtime/cla/named_parameter.hpp>
+#include <sstd/boost/test/utils/named_params.hpp>
 #include <sstd/boost/test/utils/runtime/cla/parser.hpp>
 
 namespace rt  = boost::runtime;
@@ -167,17 +168,26 @@ bool load_test_lib()
 int main( int argc, char* argv[] )
 {
     try {
-        cla::parser P;
 
-        P - cla::ignore_mismatch
-            << cla::named_parameter<rt::cstring>( "test" ) - (cla::prefix = "--")
-            << cla::named_parameter<rt::cstring>( "init" ) - (cla::prefix = "--",cla::optional);
+        rt::parameters_store store;
 
-        P.parse( argc, argv );
+        rt::parameter<rt::cstring, rt::REQUIRED_PARAM> p_test( "test" );
+        p_test.add_cla_id( "--", "test", " " );
+        store.add( p_test );
 
-        assign_op( test_lib_name, P.get( "test" ), 0 );
-        if( P["init"] )
-            assign_op( init_func_name, P.get( "init" ), 0 );
+        rt::parameter<rt::cstring> p_init( "init" );
+        p_init.add_cla_id( "--", "init", " " );
+        store.add( p_init );
+
+        rt::cla::parser P( store );
+
+        rt::arguments_store args_store;
+
+        P.parse( argc, argv, args_store );
+
+        test_lib_name = args_store.get<std::string>( "test" );
+        if( args_store.has("init") )
+            init_func_name = args_store.get<std::string>( "init" );
 
         int res = ::boost::unit_test::unit_test_main( &load_test_lib, argc, argv );
 
@@ -186,8 +196,8 @@ int main( int argc, char* argv[] )
 
         return res;
     }
-    catch( rt::logic_error const& ex ) {
-        std::cout << "Fail to parse command line arguments: " << ex.msg() << std::endl;
+    catch( rt::param_error const& ex ) {
+        std::cout << "Fail to parse command line arguments: " << ex.msg << std::endl;
         return -1;
     }
 }

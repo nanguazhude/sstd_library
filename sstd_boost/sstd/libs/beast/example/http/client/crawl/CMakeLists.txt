@@ -18,4 +18,8 @@ add_executable (http-crawl
     http_crawl.cpp
 )
 
+target_link_libraries(http-crawl
+    lib-asio
+    lib-beast)
+
 set_property(TARGET http-crawl PROPERTY FOLDER "example-http-client")

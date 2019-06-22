@@ -24,9 +24,8 @@
 #include <sstd/boost/spirit/home/support/unused.hpp>
 #include <sstd/boost/spirit/home/support/string_traits.hpp>
 
-#include <sstd/boost/fusion/include/at.hpp>
-#include <sstd/boost/range.hpp>
-#include <sstd/boost/type_traits/add_reference.hpp>
+#include <sstd/boost/range/begin.hpp>
+#include <sstd/boost/range/end.hpp>
 #include <sstd/boost/shared_ptr.hpp>
 
 #if defined(BOOST_MSVC)

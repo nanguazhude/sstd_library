@@ -14,6 +14,7 @@
 #include <sstd/boost/thread/futures/is_future_type.hpp>
 #include <sstd/boost/thread/lock_algorithms.hpp>
 #include <sstd/boost/thread/mutex.hpp>
+#include <sstd/boost/thread/condition_variable.hpp>
 
 #include <sstd/boost/core/enable_if.hpp>
 #include <sstd/boost/next_prior.hpp>
