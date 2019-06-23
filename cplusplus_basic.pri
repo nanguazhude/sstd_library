@@ -10,7 +10,7 @@ win32-msvc*{
     LIBS += -lstdc++fs
     LIBS += -lpthread
     LIBS += -lz
-    LIBS += -lmswsock
+    LIBS += -lwsock32
 }
 
 !win32{

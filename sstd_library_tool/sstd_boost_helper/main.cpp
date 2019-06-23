@@ -105,9 +105,9 @@ int main(int argc, char ** argv) {
 #define BOOST_ALL_NO_LIB                 (1u)
 #endif
 
-#ifndef BOOST_ASIO_DYN_LINK
-#define BOOST_ASIO_DYN_LINK              (1u)
-#endif
+//#ifndef BOOST_ASIO_DYN_LINK
+//#define BOOST_ASIO_DYN_LINK              (1u)
+//#endif
 
 #if defined(SSTD_BUILD_BOOST_SOURCE)
 

@@ -1,2 +1,2 @@
-﻿
-#include <sstd/boost/asio/impl/src.hpp>
+﻿//we use boost.asio.headonly
+//#include <sstd/boost/asio/impl/src.hpp>
