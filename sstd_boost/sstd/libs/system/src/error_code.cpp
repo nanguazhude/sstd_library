@@ -12,7 +12,10 @@
 
 // define BOOST_SYSTEM_SOURCE so that <sstd/boost/system/config.hpp> knows
 // the library is being built (possibly exporting rather than importing code)
+
+#ifndef BOOST_SYSTEM_SOURCE
 #define BOOST_SYSTEM_SOURCE
+#endif
 
 #include <sstd/boost/system/config.hpp>
 

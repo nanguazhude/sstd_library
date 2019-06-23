@@ -15,7 +15,10 @@
   *   VERSION      see <sstd/boost/version.hpp>
   *   DESCRIPTION: Unicode regular expressions on top of the ICU Library.
   */
+
+#ifndef BOOST_REGEX_SOURCE
 #define BOOST_REGEX_SOURCE
+#endif
 
 #include <sstd/boost/regex/config.hpp>
 #ifdef BOOST_HAS_ICU
