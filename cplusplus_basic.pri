@@ -16,6 +16,8 @@ win32-msvc*{
 !win32{
     LIBS += -ldl
     LIBS += -lrt
+}else{
+    LIBS += -lws2_32
 }
 
 CONFIG(debug,debug|release) {

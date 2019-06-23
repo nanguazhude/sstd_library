@@ -8,7 +8,7 @@ win32-msvc*{
     QMAKE_CXXFLAGS       += /bigobj
     DEFINES              *= _ENABLE_EXTENDED_ALIGNED_STORAGE
     DEFINES              *= _CRT_SECURE_NO_WARNINGS
-    LIBS                 += user32.lib ws2_32.lib
+    LIBS                 += user32.lib
 }
 
 win32-g++*{
@@ -17,7 +17,7 @@ win32-g++*{
     INCLUDEPATH          += $$PWD/mingw_gcc/build/include
     INCLUDEPATH          += $$PWD/mingw_gcc/build/include/external
     DEFINES              *= BOTAN_USE_MINGW_GCC_
-    LIBS                 += -lws2_32
+    #LIBS                 += -lws2_32
     DEFINES              *= _REENTRANT
     PRECOMPILED_HEADER   += $$PWD/mingw_gcc/precompiled_botan_all.h
 }
