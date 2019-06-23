@@ -16,7 +16,9 @@
   *   DESCRIPTION: Declares static_mutex lock type.
   */
 
-#define BOOST_REGEX_SOURCE
+#ifndef BOOST_REGEX_SOURCE/*added ...*/
+#define BOOST_REGEX_SOURCE/*added ...*/
+#endif  /*added ...*/
 #include <sstd/boost/config.hpp>
 #include <sstd/boost/assert.hpp>
 

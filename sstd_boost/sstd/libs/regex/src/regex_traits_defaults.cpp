@@ -16,7 +16,9 @@
   *   DESCRIPTION: Declares API's for access to regex_traits default properties.
   */
 
-#define BOOST_REGEX_SOURCE
+#ifndef BOOST_REGEX_SOURCE/*added ...*/
+#define BOOST_REGEX_SOURCE/*added ...*/
+#endif  /*added ...*/
 #include <sstd/boost/regex/regex_traits.hpp>
 
 #include <cctype>

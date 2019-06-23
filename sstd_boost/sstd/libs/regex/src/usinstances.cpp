@@ -16,7 +16,9 @@
   *   DESCRIPTION: regex unsigned short template instances (MSVC only).
   */
 
-#define BOOST_REGEX_SOURCE
+#ifndef BOOST_REGEX_SOURCE/*added ...*/
+#define BOOST_REGEX_SOURCE/*added ...*/
+#endif  /*added ...*/
 #ifdef _MSC_VER
 #pragma warning(disable:4506) // 'no definition for inline function'
 #endif

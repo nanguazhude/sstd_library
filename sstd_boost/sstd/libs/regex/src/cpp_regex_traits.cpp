@@ -16,7 +16,9 @@
   *   DESCRIPTION: Implements cpp_regex_traits<char> (and associated helper classes).
   */
 
-#define BOOST_REGEX_SOURCE
+#ifndef BOOST_REGEX_SOURCE/*added ...*/
+#define BOOST_REGEX_SOURCE/*added ...*/
+#endif  /*added ...*/
 #include <sstd/boost/config.hpp>
 #ifndef BOOST_NO_STD_LOCALE
 #include <sstd/boost/regex/regex_traits.hpp>

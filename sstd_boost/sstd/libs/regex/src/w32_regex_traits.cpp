@@ -16,7 +16,9 @@
   *   DESCRIPTION: Implements w32_regex_traits<char> (and associated helper classes).
   */
 
-#define BOOST_REGEX_SOURCE
+#ifndef BOOST_REGEX_SOURCE/*added ...*/
+#define BOOST_REGEX_SOURCE/*added ...*/
+#endif  /*added ...*/
 #include <sstd/boost/regex/config.hpp>
 
 #if defined(_WIN32) && !defined(BOOST_REGEX_NO_W32) && !defined(BOOST_REGEX_NO_WIN32_LOCALE)

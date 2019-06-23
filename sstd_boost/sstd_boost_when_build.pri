@@ -7,6 +7,7 @@ DEFINES *= BOOST_DATE_TIME_SOURCE
 DEFINES *= BOOST_SYSTEM_SOURCE
 DEFINES *= BOOST_THREAD_BUILD_DLL
 DEFINES *= BOOST_CONTEXT_SOURCE
+DEFINES *= BOOST_REGEX_SOURCE
 
 SOURCES += $$PWD/source/boost_atomic.cpp
 SOURCES += $$PWD/source/boost_chrono.cpp
@@ -16,6 +17,7 @@ SOURCES += $$PWD/source/boost_date_time.cpp
 SOURCES += $$PWD/source/boost_thread.cpp
 SOURCES += $$PWD/source/boost_context.cpp
 SOURCES += $$PWD/source/boost_asio.cpp
+SOURCES += $$PWD/source/boost_regex.cpp
 
 win32-g++*{
     include($$PWD/source/boost_context_mingw64.pri)

@@ -127,6 +127,7 @@ int main(int argc, char ** argv) {
 //BOOST_SYSTEM_SOURCE
 //BOOST_THREAD_BUILD_DLL
 //BOOST_CONTEXT_SOURCE
+//BOOST_REGEX_SOURCE
 
 )aaa"sv;
     }
@@ -313,6 +314,11 @@ namespace thisMainFile {
                     varAns.emplace("#define BOOST_CONTEXT_SOURCE"s, [](std::string_view)->std::string {
                         return u8R"(#ifndef BOOST_CONTEXT_SOURCE/*added ...*/
 #define BOOST_CONTEXT_SOURCE/*added ...*/
+#endif  /*added ...*/)"s;  });
+
+                    varAns.emplace("#define BOOST_REGEX_SOURCE"s, [](std::string_view)->std::string {
+                        return u8R"(#ifndef BOOST_REGEX_SOURCE/*added ...*/
+#define BOOST_REGEX_SOURCE/*added ...*/
 #endif  /*added ...*/)"s;  });
 
                     return std::move(varAns);

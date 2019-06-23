@@ -16,7 +16,9 @@
   *   DESCRIPTION: Implements the Posix API wrappers.
   */
 
-#define BOOST_REGEX_SOURCE
+#ifndef BOOST_REGEX_SOURCE/*added ...*/
+#define BOOST_REGEX_SOURCE/*added ...*/
+#endif  /*added ...*/
 
 #include <sstd/boost/config.hpp>
 #include <cstdio>

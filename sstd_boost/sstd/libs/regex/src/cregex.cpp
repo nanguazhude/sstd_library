@@ -17,7 +17,9 @@
   */
 
 
-#define BOOST_REGEX_SOURCE
+#ifndef BOOST_REGEX_SOURCE/*added ...*/
+#define BOOST_REGEX_SOURCE/*added ...*/
+#endif  /*added ...*/
 
 #include <sstd/boost/regex.hpp>
 #include <sstd/boost/cregex.hpp>
