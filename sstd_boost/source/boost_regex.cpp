@@ -1,4 +1,8 @@
 ﻿
+#ifndef BOOST_REGEX_SOURCE
+#define BOOST_REGEX_SOURCE
+#endif
+
 #include "../sstd/libs/regex/src/c_regex_traits.cpp"
 #include "../sstd/libs/regex/src/cpp_regex_traits.cpp"
 #include "../sstd/libs/regex/src/cregex.cpp"
