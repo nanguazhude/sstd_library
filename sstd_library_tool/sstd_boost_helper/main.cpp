@@ -227,7 +227,7 @@ namespace thisMainFile {
                 = varI.from.extension().wstring();
             const static
                 std::wregex varCheckIsNotBinary{
-                    LR"121([.](?:(?:hpp)|(?:h)|(?:cxx)|(?:cpp)|(?:c)|(?:hxx)|(?:txt)))121"s ,
+                    LR"121([.](?:(?:hpp)|(?:h)|(?:cxx)|(?:cpp)|(?:c)|(?:hxx)|(?:ipp)|(?:txt)))121"s ,
                     std::regex::ECMAScript | std::regex::icase
             };
             if (!std::regex_match(varExtension, varCheckIsNotBinary)) {
