@@ -15,6 +15,7 @@ SOURCES += $$PWD/source/boost_exception.cpp
 SOURCES += $$PWD/source/boost_date_time.cpp
 SOURCES += $$PWD/source/boost_thread.cpp
 SOURCES += $$PWD/source/boost_context.cpp
+SOURCES += $$PWD/source/boost_asio.cpp
 
 win32-g++*{
     include($$PWD/source/boost_context_mingw64.pri)
