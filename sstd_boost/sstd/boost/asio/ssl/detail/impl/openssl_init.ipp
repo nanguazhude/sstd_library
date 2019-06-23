@@ -1,4 +1,4 @@
-//
+﻿//
 // ssl/detail/impl/openssl_init.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
@@ -16,15 +16,15 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
 #include <vector>
-#include <boost/asio/detail/assert.hpp>
-#include <boost/asio/detail/mutex.hpp>
-#include <boost/asio/detail/tss_ptr.hpp>
-#include <boost/asio/ssl/detail/openssl_init.hpp>
-#include <boost/asio/ssl/detail/openssl_types.hpp>
+#include <sstd/boost/asio/detail/assert.hpp>
+#include <sstd/boost/asio/detail/mutex.hpp>
+#include <sstd/boost/asio/detail/tss_ptr.hpp>
+#include <sstd/boost/asio/ssl/detail/openssl_init.hpp>
+#include <sstd/boost/asio/ssl/detail/openssl_types.hpp>
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -38,7 +38,7 @@ public:
   {
 #if (OPENSSL_VERSION_NUMBER < 0x10100000L)
     ::SSL_library_init();
-    ::SSL_load_error_strings();        
+    ::SSL_load_error_strings();
     ::OpenSSL_add_all_algorithms();
 
     mutexes_.resize(::CRYPTO_num_locks());
@@ -120,7 +120,7 @@ private:
 #endif // (OPENSSL_VERSION_NUMBER < 0x10000000L)
 
 #if (OPENSSL_VERSION_NUMBER < 0x10100000L)
-  static void openssl_locking_func(int mode, int n, 
+  static void openssl_locking_func(int mode, int n,
     const char* /*file*/, int /*line*/)
   {
     if (mode & CRYPTO_LOCK)
@@ -162,6 +162,7 @@ STACK_OF(SSL_COMP)* openssl_init_base::get_null_compression_methods()
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_SSL_DETAIL_IMPL_OPENSSL_INIT_IPP
+

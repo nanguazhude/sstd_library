@@ -1,4 +1,4 @@
-//  (C) Copyright Beman Dawes 2008
+﻿//  (C) Copyright Beman Dawes 2008
 
 //  Use, modification and distribution are subject to the
 //  Boost Software License, Version 1.0. (See accompanying file
@@ -16,13 +16,14 @@ int test()
 {
   enum class scoped_enum { yes, no, maybe };
   // This tests bug http://gcc.gnu.org/bugzilla/show_bug.cgi?id=38064
-  bool b = (scoped_enum::yes == scoped_enum::yes) 
-   && (scoped_enum::yes != scoped_enum::no) 
-   && (scoped_enum::yes < scoped_enum::no) 
-   && (scoped_enum::yes <= scoped_enum::no) 
-   && (scoped_enum::no > scoped_enum::yes) 
+  bool b = (scoped_enum::yes == scoped_enum::yes)
+   && (scoped_enum::yes != scoped_enum::no)
+   && (scoped_enum::yes < scoped_enum::no)
+   && (scoped_enum::yes <= scoped_enum::no)
+   && (scoped_enum::no > scoped_enum::yes)
    && (scoped_enum::no >= scoped_enum::yes);
   return b ? 0 : 1;
 }
 
 }
+

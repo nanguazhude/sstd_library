@@ -1,4 +1,4 @@
-//
+﻿//
 // impl/handler_alloc_hook.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
@@ -15,12 +15,12 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
-#include <boost/asio/detail/thread_context.hpp>
-#include <boost/asio/detail/thread_info_base.hpp>
-#include <boost/asio/handler_alloc_hook.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/detail/thread_context.hpp>
+#include <sstd/boost/asio/detail/thread_info_base.hpp>
+#include <sstd/boost/asio/handler_alloc_hook.hpp>
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -49,6 +49,7 @@ void asio_handler_deallocate(void* pointer, std::size_t size, ...)
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IMPL_HANDLER_ALLOC_HOOK_IPP
+

@@ -1,4 +1,4 @@
-//  (C) Copyright Andrzej Krzemienski 2014
+﻿//  (C) Copyright Andrzej Krzemienski 2014
 
 //  Use, modification and distribution are subject to the
 //  Boost Software License, Version 1.0. (See accompanying file
@@ -23,7 +23,7 @@ int test()
 {
    G m;
    const G c = G();
-   
+
    if (m.get() != 'l') return 1;
    if (c.get() != 'c') return 1;
    if (G().get() != 'r') return 1;
@@ -31,3 +31,4 @@ int test()
 }
 
 }
+

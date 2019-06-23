@@ -1,4 +1,4 @@
-
+﻿
 // A collection of Lambert W test values computed using 100 decimal digits precision.
 // C++ floating-point type is RealType.
 
@@ -233,4 +233,5 @@ void init_ws()
   ws<RealType>[98] = BOOST_MATH_TEST_VALUE(RealType, 0.4157164359354393999190647189307900734531788488207389484153095921329397217223528187979110265697876198);
   ws<RealType>[99] = BOOST_MATH_TEST_VALUE(RealType, 0.4203590202054164452305419772022302902943227646223432518640399730485379665439298245520857153666787776);
 };
-// End of lambert_w_mp_values.ipp 
+// End of lambert_w_mp_values.ipp
+

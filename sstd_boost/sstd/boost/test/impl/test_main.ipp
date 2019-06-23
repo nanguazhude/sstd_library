@@ -1,4 +1,4 @@
-//  (C) Copyright Gennadiy Rozental 2001.
+﻿//  (C) Copyright Gennadiy Rozental 2001.
 //  (C) Copyright Beman Dawes 1995-2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
@@ -14,14 +14,14 @@
 #define BOOST_TEST_TEST_MAIN_IPP_012205GER
 
 // Boost.Test
-#include <boost/test/framework.hpp>
-#include <boost/test/test_tools.hpp>
-#include <boost/test/unit_test_suite.hpp>
+#include <sstd/boost/test/framework.hpp>
+#include <sstd/boost/test/test_tools.hpp>
+#include <sstd/boost/test/unit_test_suite.hpp>
 
 // Boost
-#include <boost/cstdlib.hpp>
+#include <sstd/boost/cstdlib.hpp>
 
-#include <boost/test/detail/suppress_warnings.hpp>
+#include <sstd/boost/test/detail/suppress_warnings.hpp>
 
 //____________________________________________________________________________//
 
@@ -60,6 +60,7 @@ init_unit_test_suite( int argc, char* argv[] ) {
 
 //____________________________________________________________________________//
 
-#include <boost/test/detail/enable_warnings.hpp>
+#include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_TEST_MAIN_IPP_012205GER
+

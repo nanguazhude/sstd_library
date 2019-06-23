@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2001-2007 Hartmut Kaiser
     Copyright (c) 2001-2003 Daniel Nuffer
     http://spirit.sourceforge.net/
@@ -133,3 +133,4 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }   // namespace boost
 
 #endif // !defined(PARSE_TREE_UTILS_IPP)
+

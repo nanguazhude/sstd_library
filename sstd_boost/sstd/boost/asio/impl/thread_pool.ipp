@@ -1,4 +1,4 @@
-//
+﻿//
 // impl/thread_pool.ipp
 // ~~~~~~~~~~~~~~~~~~~~
 //
@@ -15,10 +15,10 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
-#include <boost/asio/thread_pool.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/thread_pool.hpp>
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -84,6 +84,7 @@ detail::scheduler& thread_pool::add_scheduler(detail::scheduler* s)
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IMPL_THREAD_POOL_IPP
+

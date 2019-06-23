@@ -1,4 +1,4 @@
-//  Copyright (C) 2010 Edward Diener
+﻿//  Copyright (C) 2010 Edward Diener
 //  Use, modification and distribution are subject to the
 //  Boost Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
@@ -13,16 +13,16 @@
 
 #define TEST_VARIADIC_MACRO_SIMPLE(avalue,...) __VA_ARGS__
 
-/* 
+/*
 
-  This is a more complicated test, which Steve Watanabe graciously 
-  supplied, when I asked if it were possible to strip the parantheses 
-  from a macro argument. I have changed the names somewhat to prevent 
-  any common clashes with other macros in the config testing suite 
+  This is a more complicated test, which Steve Watanabe graciously
+  supplied, when I asked if it were possible to strip the parantheses
+  from a macro argument. I have changed the names somewhat to prevent
+  any common clashes with other macros in the config testing suite
   by prepending to each macro name TEST_VARIADIC_MACRO_.
-  
+
   You may find this test overdone and may want to remove it.
-  
+
 */
 
 #define TEST_VARIADIC_MACRO_CAT(x, y) TEST_VARIADIC_MACRO_CAT_I(x, y)
@@ -62,3 +62,4 @@ int test()
 }
 
 }
+

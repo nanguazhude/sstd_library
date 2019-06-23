@@ -1,4 +1,4 @@
-//  (C) Copyright Gennadiy Rozental 2001.
+﻿//  (C) Copyright Gennadiy Rozental 2001.
 //  Use, modification, and distribution are subject to the
 //  Boost Software License, Version 1.0. (See accompanying file
 //  http://www.boost.org/LICENSE_1_0.txt)
@@ -16,13 +16,13 @@
 #define BOOST_TEST_DEBUG_API_IPP_112006GER
 
 // Boost.Test
-#include <boost/test/detail/config.hpp>
-#include <boost/test/detail/global_typedef.hpp>
+#include <sstd/boost/test/detail/config.hpp>
+#include <sstd/boost/test/detail/global_typedef.hpp>
 
-#include <boost/test/debug.hpp>
-#include <boost/test/debug_config.hpp>
+#include <sstd/boost/test/debug.hpp>
+#include <sstd/boost/test/debug_config.hpp>
 
-#include <boost/core/ignore_unused.hpp>
+#include <sstd/boost/core/ignore_unused.hpp>
 
 // Implementation on Windows
 #if defined(_WIN32) && !defined(UNDER_CE) && !defined(BOOST_DISABLE_WIN32) // ******* WIN32
@@ -50,8 +50,8 @@ namespace std { using ::memset; using ::sprintf; }
 #  define BOOST_UNIX_BASED_DEBUG
 
 // Boost.Test
-#include <boost/test/utils/class_properties.hpp>
-#include <boost/test/utils/algorithm.hpp>
+#include <sstd/boost/test/utils/class_properties.hpp>
+#include <sstd/boost/test/utils/algorithm.hpp>
 
 // STL
 #include <cstring>  // std::memcpy
@@ -105,7 +105,7 @@ namespace std { using ::memset; using ::sprintf; }
 
 #endif
 
-#include <boost/test/detail/suppress_warnings.hpp>
+#include <sstd/boost/test/detail/suppress_warnings.hpp>
 
 //____________________________________________________________________________//
 
@@ -1004,6 +1004,7 @@ break_memory_alloc( long mem_alloc_order_num )
 } // namespace debug
 } // namespace boost
 
-#include <boost/test/detail/enable_warnings.hpp>
+#include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_DEBUG_API_IPP_112006GER
+

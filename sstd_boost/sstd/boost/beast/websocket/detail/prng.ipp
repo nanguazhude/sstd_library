@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright (c) 2016-2019 Vinnie Falco (vinnie dot falco at gmail dot com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -10,11 +10,11 @@
 #ifndef BOOST_BEAST_WEBSOCKET_DETAIL_PRNG_IPP
 #define BOOST_BEAST_WEBSOCKET_DETAIL_PRNG_IPP
 
-#include <boost/beast/websocket/detail/prng.hpp>
-#include <boost/beast/core/detail/chacha.hpp>
-#include <boost/beast/core/detail/pcg.hpp>
-#include <boost/align/aligned_alloc.hpp>
-#include <boost/throw_exception.hpp>
+#include <sstd/boost/beast/websocket/detail/prng.hpp>
+#include <sstd/boost/beast/core/detail/chacha.hpp>
+#include <sstd/boost/beast/core/detail/pcg.hpp>
+#include <sstd/boost/align/aligned_alloc.hpp>
+#include <sstd/boost/throw_exception.hpp>
 #include <atomic>
 #include <cstdlib>
 #include <mutex>
@@ -325,3 +325,4 @@ make_prng(bool secure)
 } // boost
 
 #endif
+

@@ -1,4 +1,4 @@
-// Copyright Antony Polukhin, 2016-2019.
+﻿// Copyright Antony Polukhin, 2016-2019.
 //
 // Distributed under the Boost Software License, Version 1.0. (See
 // accompanying file LICENSE_1_0.txt or copy at
@@ -7,26 +7,26 @@
 #ifndef BOOST_STACKTRACE_DETAIL_FRAME_UNWIND_IPP
 #define BOOST_STACKTRACE_DETAIL_FRAME_UNWIND_IPP
 
-#include <boost/config.hpp>
+#include <sstd/boost/config.hpp>
 #ifdef BOOST_HAS_PRAGMA_ONCE
 #   pragma once
 #endif
 
-#include <boost/stacktrace/frame.hpp>
+#include <sstd/boost/stacktrace/frame.hpp>
 
-#include <boost/stacktrace/detail/to_hex_array.hpp>
-#include <boost/stacktrace/detail/location_from_symbol.hpp>
-#include <boost/stacktrace/detail/to_dec_array.hpp>
-#include <boost/core/demangle.hpp>
+#include <sstd/boost/stacktrace/detail/to_hex_array.hpp>
+#include <sstd/boost/stacktrace/detail/location_from_symbol.hpp>
+#include <sstd/boost/stacktrace/detail/to_dec_array.hpp>
+#include <sstd/boost/core/demangle.hpp>
 
 #include <cstdio>
 
 #ifdef BOOST_STACKTRACE_USE_BACKTRACE
-#   include <boost/stacktrace/detail/libbacktrace_impls.hpp>
+#   include <sstd/boost/stacktrace/detail/libbacktrace_impls.hpp>
 #elif defined(BOOST_STACKTRACE_USE_ADDR2LINE)
-#   include <boost/stacktrace/detail/addr2line_impls.hpp>
+#   include <sstd/boost/stacktrace/detail/addr2line_impls.hpp>
 #else
-#   include <boost/stacktrace/detail/unwind_base_impls.hpp>
+#   include <sstd/boost/stacktrace/detail/unwind_base_impls.hpp>
 #endif
 
 namespace boost { namespace stacktrace { namespace detail {
@@ -101,3 +101,4 @@ std::string to_string(const frame& f) {
 }} // namespace boost::stacktrace
 
 #endif // BOOST_STACKTRACE_DETAIL_FRAME_UNWIND_IPP
+

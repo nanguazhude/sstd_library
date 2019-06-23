@@ -1,4 +1,4 @@
-/*
+﻿/*
 Copyright 2017 Glen Joseph Fernandes
 (glenjofe@gmail.com)
 
@@ -35,3 +35,4 @@ int test()
 }
 
 } /* boost_no_cxx11_pointer_traits */
+

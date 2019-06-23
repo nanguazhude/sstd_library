@@ -1,4 +1,4 @@
-//  (C) Copyright Niels Dekker 2010. 
+﻿//  (C) Copyright Niels Dekker 2010.
 //  Use, modification and distribution are subject to the
 //  Boost Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
@@ -18,21 +18,21 @@
 //  - creating a heap object by doing new T()
 //  It checks various DefaultConstructible types, including fundamental types,
 //  enum, union, pointer types, array types, POD and non-POD class types. For
-//  each type of object, a helper function is_value_initialized(const T&) tells 
+//  each type of object, a helper function is_value_initialized(const T&) tells
 //  whether the object is value-initialized.
 //
-//  Note: It appeared insufficient to just check a single POD and a single 
+//  Note: It appeared insufficient to just check a single POD and a single
 //  non-POD class type, because some compilers correctly value-initialize some
 //  POD and some non-POD objects, while failing to value-initialize others.
 //
 //  The test returns the number of encountered value-initialization failures.
-  
+
 namespace boost_no_complete_value_initialization
 {
   enum enum_type { negative_number = -1, magic_number = 42 };
-  
+
   class incomplete_class;
-  
+
   typedef int (*function_ptr_type)(int);
   typedef int (incomplete_class::*member_function_ptr_type)(int);
 
@@ -77,7 +77,7 @@ namespace boost_no_complete_value_initialization
 
   bool is_value_initialized(const derived_pod_struct& arg)
   {
-    const pod_struct& base_subobject = arg; 
+    const pod_struct& base_subobject = arg;
     return arg.derived_data == 0 && is_value_initialized(base_subobject);
   }
 
@@ -89,7 +89,7 @@ namespace boost_no_complete_value_initialization
 
   // A POD aggregate struct derived from an empty struct.
   // Similar to struct Foo1 from Microsoft Visual C++ bug report 484295,
-  // "VC++ does not value-initialize members of derived classes without 
+  // "VC++ does not value-initialize members of derived classes without
   // user-declared constructor", reported in 2009 by Sylvester Hesp:
   // https://connect.microsoft.com/VisualStudio/feedback/details/484295
   struct derived_struct: empty_struct
@@ -108,14 +108,14 @@ namespace boost_no_complete_value_initialization
   {
     bool b : 1;
     char c : 7;
-    unsigned u: 8 * sizeof(unsigned) - 1;  
+    unsigned u: 8 * sizeof(unsigned) - 1;
   };
-  
+
   bool is_value_initialized(const bit_field_struct& arg)
   {
     return arg.b == false && arg.c == '\0'&& arg.u == 0U;
   }
-  
+
   // A struct, having a function pointer.
   struct function_ptr_struct
   {
@@ -256,7 +256,7 @@ namespace boost_no_complete_value_initialization
 
   bool is_value_initialized(const pod_struct_and_int_union& arg)
   {
-    // When a union is zero-initialized, its first non-static 
+    // When a union is zero-initialized, its first non-static
     // named data member is zero-initialized ([dcl.init]).
     return is_value_initialized(arg.first);
   }
@@ -337,7 +337,7 @@ namespace boost_no_complete_value_initialization
   // An aggregate struct that has a data member which has a user-defined
   // copy constructor and a data member of a scalar type.
   // Similar to struct B from Microsoft Visual C++ bug report 499606,
-  // "Presence of copy constructor breaks member class initialization", 
+  // "Presence of copy constructor breaks member class initialization",
   // reported in 2009 by Alex Vakulenko:
   // https://connect.microsoft.com/VisualStudio/feedback/details/499606
   struct user_defined_copy_constructor_holder_and_int
@@ -520,7 +520,7 @@ namespace boost_no_complete_value_initialization
 
   // value_initializer initializes each of its data members by means
   // of an empty set of parentheses, and allows checking whether
-  // each of them is indeed value-initialized, as specified by 
+  // each of them is indeed value-initialized, as specified by
   // the C++ Standard ([dcl.init]).
   //
   // Note: its base class, int_struct, is there to try to reproduce GCC Bug 30111,
@@ -703,7 +703,7 @@ namespace boost_no_complete_value_initialization
     // Returns the number of failures.
     unsigned check_value_initialization_of_subobjects() const
     {
-      const unsigned num_failures = 
+      const unsigned num_failures =
         FAILED_TO_VALUE_INITIALIZE(int_struct::data) +
         FAILED_TO_VALUE_INITIALIZE(m_enum_holder) +
         FAILED_TO_VALUE_INITIALIZE(m_enum_holder_array[0]) +
@@ -830,7 +830,7 @@ namespace boost_no_complete_value_initialization
     typedef unsigned char unsigned_char_type;
     typedef void* void_ptr_type;
 
-    const unsigned num_failures = 
+    const unsigned num_failures =
       FAILED_TO_VALUE_INITIALIZE(enum_holder()) +
       FAILED_TO_VALUE_INITIALIZE(enum_type()) +
       FAILED_TO_VALUE_INITIALIZE(bool()) +
@@ -861,15 +861,15 @@ namespace boost_no_complete_value_initialization
       FAILED_TO_VALUE_INITIALIZE(char_array_struct()) +
       FAILED_TO_VALUE_INITIALIZE(private_int_array_pair()) +
       // IBM's XL V10.1.0.0 may fail to value-initialize a temporary of a non-POD
-      // type like enum_holder_and_int, virtual_destructor_holder, or non_pod_class, 
+      // type like enum_holder_and_int, virtual_destructor_holder, or non_pod_class,
       // as appeared at the Boost Config/trunk regression page in April 2010.
       // Michael Wong (IBM Canada Ltd) confirmed the issue to me (Niels Dekker, LKEB),
       // and gave it high priority.
       FAILED_TO_VALUE_INITIALIZE(enum_holder_and_int()) +
       FAILED_TO_VALUE_INITIALIZE(private_and_protected_int()) +
       FAILED_TO_VALUE_INITIALIZE(user_defined_copy_constructor_holder_and_int()) +
-      // The following line, doing user_defined_destructor_holder(), causes  
-      // a compilation error on Embarcadero 2010 (Borland/CodeGear 6.21), 
+      // The following line, doing user_defined_destructor_holder(), causes
+      // a compilation error on Embarcadero 2010 (Borland/CodeGear 6.21),
       // as reported by me (Niels Dekker, LKEB) in 2010, bug report 83851,
       // "Value-initialized temporary triggers internal backend error C1798",
       // http://qc.embarcadero.com/wc/qcmain.aspx?d=83851
@@ -885,7 +885,7 @@ namespace boost_no_complete_value_initialization
   // Returns the number of failures.
   unsigned check_value_initialization_of_heap_objects()
   {
-    const unsigned num_failures = 
+    const unsigned num_failures =
       FAILED_TO_VALUE_INITIALIZE( heap_object_wrapper<enum_holder>() ) +
       FAILED_TO_VALUE_INITIALIZE( heap_object_wrapper<enum_type>() ) +
       FAILED_TO_VALUE_INITIALIZE( heap_object_wrapper<bool>() ) +
@@ -939,9 +939,9 @@ namespace boost_no_complete_value_initialization
   }
 
 
-  // Checks value-initialization of the subobjects of a temporary object, 
-  // an object on the stack, an object on the heap; furthermore it checks 
-  // value-initialization of a number of smaller temporary objects and 
+  // Checks value-initialization of the subobjects of a temporary object,
+  // an object on the stack, an object on the heap; furthermore it checks
+  // value-initialization of a number of smaller temporary objects and
   // heap objects.
   int test()
   {
@@ -1014,3 +1014,4 @@ namespace boost_no_complete_value_initialization
   }
 
 }  // End of namespace.
+

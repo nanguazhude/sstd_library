@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright (c) 2018 Andrey Semashev
 //
 // Distributed under the Boost Software License, Version 1.0.
@@ -8,9 +8,9 @@
 // getrandom() capable platforms
 //
 
-#include <boost/config.hpp>
-#include <boost/throw_exception.hpp>
-#include <boost/predef/library/c/gnu.h>
+#include <sstd/boost/config.hpp>
+#include <sstd/boost/throw_exception.hpp>
+#include <sstd/boost/predef/library/c/gnu.h>
 #include <cerrno>
 #include <cstddef>
 
@@ -75,3 +75,4 @@ private:
 } // detail
 } // uuids
 } // boost
+

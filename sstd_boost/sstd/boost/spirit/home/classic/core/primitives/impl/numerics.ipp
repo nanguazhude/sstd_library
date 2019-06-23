@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 1998-2003 Joel de Guzman
     Copyright (c) 2001-2003 Hartmut Kaiser
     http://spirit.sourceforge.net/
@@ -10,7 +10,7 @@
 #ifndef BOOST_SPIRIT_NUMERICS_IPP
 #define BOOST_SPIRIT_NUMERICS_IPP
 
-#include <boost/config/no_tr1/cmath.hpp>
+#include <sstd/boost/config/no_tr1/cmath.hpp>
 #include <limits>
 
 namespace boost { namespace spirit {
@@ -152,10 +152,10 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_BEGIN
         //
         ///////////////////////////////////////////////////////////////////////
 #if defined(BOOST_MSVC)
-#pragma warning(push) 
+#pragma warning(push)
 #pragma warning(disable:4127) //conditional expression is constant
 #endif
-        
+
         template <typename T, int Radix>
         struct positive_accumulate
         {
@@ -476,3 +476,4 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} // namespace boost::spirit
 
 #endif
+

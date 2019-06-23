@@ -1,4 +1,4 @@
-/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
+﻿/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // text_woarchive_impl.ipp:
 
 // (C) Copyright 2002 Robert Ramey - http://www.rrsd.com .
@@ -8,21 +8,21 @@
 
 //  See http://www.boost.org for updates, documentation, and revision history.
 
-#include <boost/config.hpp>
+#include <sstd/boost/config.hpp>
 #ifndef BOOST_NO_STD_WSTREAMBUF
 
 #include <cstring>
 #include <cstddef> // size_t
 #if defined(BOOST_NO_STDC_NAMESPACE) && ! defined(__LIBCOMO__)
-namespace std{ 
+namespace std{
     using ::strlen;
-    using ::size_t; 
+    using ::size_t;
 } // namespace std
 #endif
 
 #include <ostream>
 
-#include <boost/archive/text_woarchive.hpp>
+#include <sstd/boost/archive/text_woarchive.hpp>
 
 namespace boost {
 namespace archive {
@@ -82,4 +82,5 @@ text_woarchive_impl<Archive>::save(const std::wstring &ws)
 } // namespace boost
 
 #endif
+
 

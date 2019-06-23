@@ -1,4 +1,4 @@
-//
+﻿//
 // detail/impl/select_reactor.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
@@ -15,7 +15,7 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
 
 #if defined(BOOST_ASIO_HAS_IOCP) \
   || (!defined(BOOST_ASIO_HAS_DEV_POLL) \
@@ -23,12 +23,12 @@
       && !defined(BOOST_ASIO_HAS_KQUEUE) \
       && !defined(BOOST_ASIO_WINDOWS_RUNTIME))
 
-#include <boost/asio/detail/fd_set_adapter.hpp>
-#include <boost/asio/detail/select_reactor.hpp>
-#include <boost/asio/detail/signal_blocker.hpp>
-#include <boost/asio/detail/socket_ops.hpp>
+#include <sstd/boost/asio/detail/fd_set_adapter.hpp>
+#include <sstd/boost/asio/detail/select_reactor.hpp>
+#include <sstd/boost/asio/detail/signal_blocker.hpp>
+#include <sstd/boost/asio/detail/socket_ops.hpp>
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -324,7 +324,7 @@ void select_reactor::cancel_ops_unlocked(socket_type descriptor,
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // defined(BOOST_ASIO_HAS_IOCP)
        //   || (!defined(BOOST_ASIO_HAS_DEV_POLL)
@@ -333,3 +333,4 @@ void select_reactor::cancel_ops_unlocked(socket_type descriptor,
        //       && !defined(BOOST_ASIO_WINDOWS_RUNTIME))
 
 #endif // BOOST_ASIO_DETAIL_IMPL_SELECT_REACTOR_IPP
+

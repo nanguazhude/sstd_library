@@ -1,4 +1,4 @@
-/* test_generator.ipp
+﻿/* test_generator.ipp
  *
  * Copyright Steven Watanabe 2011
  * Distributed under the Boost Software License, Version 1.0. (See
@@ -10,10 +10,10 @@
  */
 
 #include "concepts.hpp"
-#include <boost/random/seed_seq.hpp>
+#include <sstd/boost/random/seed_seq.hpp>
 
 #define BOOST_TEST_MAIN
-#include <boost/test/unit_test.hpp>
+#include <sstd/boost/test/unit_test.hpp>
 
 using boost::random::test::RandomNumberEngine;
 BOOST_CONCEPT_ASSERT((RandomNumberEngine< BOOST_RANDOM_URNG >));
@@ -90,7 +90,7 @@ BOOST_AUTO_TEST_CASE(test_arithmetic_seed)
     test_seed(static_cast<seed_type>(539157235));
     test_seed(static_cast<seed_type>(~0u));
 }
-   
+
 BOOST_AUTO_TEST_CASE(test_iterator_seed)
 {
     const std::vector<int> v((std::max)(std::size_t(9999u), sizeof(BOOST_RANDOM_URNG) / 4), 0x41);
@@ -272,8 +272,9 @@ BOOST_AUTO_TEST_CASE(test_generate)
 {
     BOOST_RANDOM_URNG urng;
     boost::uint32_t expected[] = BOOST_RANDOM_GENERATE_VALUES;
-    static const std::size_t N = sizeof(expected)/sizeof(expected[0]); 
+    static const std::size_t N = sizeof(expected)/sizeof(expected[0]);
     boost::uint32_t actual[N];
     urng.generate(&actual[0], &actual[0] + N);
     BOOST_CHECK_EQUAL_COLLECTIONS(actual, actual + N, expected, expected + N);
 }
+

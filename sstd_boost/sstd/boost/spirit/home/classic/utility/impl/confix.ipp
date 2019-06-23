@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2002-2003 Hartmut Kaiser
     http://spirit.sourceforge.net/
 
@@ -10,8 +10,8 @@
 #define BOOST_SPIRIT_CONFIX_IPP
 
 ///////////////////////////////////////////////////////////////////////////////
-#include <boost/spirit/home/classic/meta/refactoring.hpp>
-#include <boost/spirit/home/classic/core/composite/impl/directives.ipp>
+#include <sstd/boost/spirit/home/classic/meta/refactoring.hpp>
+#include <sstd/boost/spirit/home/classic/core/composite/impl/directives.ipp>
 
 ///////////////////////////////////////////////////////////////////////////////
 namespace boost { namespace spirit {
@@ -218,4 +218,5 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} // namespace boost::spirit
 
 #endif
+
 

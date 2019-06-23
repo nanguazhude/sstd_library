@@ -1,4 +1,4 @@
-//  (C) Copyright Gennadiy Rozental 2001.
+﻿//  (C) Copyright Gennadiy Rozental 2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
 //  http://www.boost.org/LICENSE_1_0.txt)
@@ -14,28 +14,28 @@
 #define BOOST_TEST_UNIT_TEST_SUITE_IPP_012205GER
 
 // Boost.Test
-#include <boost/detail/workaround.hpp>
+#include <sstd/boost/detail/workaround.hpp>
 
-#include <boost/test/framework.hpp>
-#include <boost/test/results_collector.hpp>
+#include <sstd/boost/test/framework.hpp>
+#include <sstd/boost/test/results_collector.hpp>
 
-#include <boost/test/tree/test_unit.hpp>
-#include <boost/test/tree/visitor.hpp>
-#include <boost/test/tree/traverse.hpp>
-#include <boost/test/tree/auto_registration.hpp>
-#include <boost/test/tree/global_fixture.hpp>
+#include <sstd/boost/test/tree/test_unit.hpp>
+#include <sstd/boost/test/tree/visitor.hpp>
+#include <sstd/boost/test/tree/traverse.hpp>
+#include <sstd/boost/test/tree/auto_registration.hpp>
+#include <sstd/boost/test/tree/global_fixture.hpp>
 
-#include <boost/test/utils/foreach.hpp>
-#include <boost/test/utils/basic_cstring/io.hpp>
+#include <sstd/boost/test/utils/foreach.hpp>
+#include <sstd/boost/test/utils/basic_cstring/io.hpp>
 
-#include <boost/test/unit_test_parameters.hpp>
+#include <sstd/boost/test/unit_test_parameters.hpp>
 
 // STL
 #include <algorithm>
 #include <vector>
 #include <set>
 
-#include <boost/test/detail/suppress_warnings.hpp>
+#include <sstd/boost/test/detail/suppress_warnings.hpp>
 
 //____________________________________________________________________________//
 
@@ -91,7 +91,7 @@ test_unit::~test_unit()
 void
 test_unit::depends_on( test_unit* tu )
 {
-    BOOST_TEST_SETUP_ASSERT( p_id != framework::master_test_suite().p_id, 
+    BOOST_TEST_SETUP_ASSERT( p_id != framework::master_test_suite().p_id,
                              "Can't add dependency to the master test suite" );
 
     p_dependencies.value.push_back( tu->p_id );
@@ -290,7 +290,7 @@ void
 test_suite::generate( )
 {
     typedef std::pair<boost::shared_ptr<test_unit_generator>, std::vector<decorator::base_ptr> > element_t;
-  
+
     for(std::vector<element_t>::iterator it(m_generators.begin()), ite(m_generators.end());
         it < ite;
         ++it)
@@ -304,7 +304,7 @@ test_suite::generate( )
 
     }
     m_generators.clear();
-    
+
     #if 0
     test_unit* tu;
     while((tu = gen.next()) != 0) {
@@ -579,6 +579,7 @@ global_configuration::~global_configuration()
 } // namespace unit_test
 } // namespace boost
 
-#include <boost/test/detail/enable_warnings.hpp>
+#include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_UNIT_TEST_SUITE_IPP_012205GER
+

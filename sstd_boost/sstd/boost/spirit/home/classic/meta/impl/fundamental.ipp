@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2002-2003 Hartmut Kaiser
     http://spirit.sourceforge.net/
 
@@ -9,7 +9,7 @@
 #if !defined(BOOST_SPIRIT_FUNDAMENTAL_IPP)
 #define BOOST_SPIRIT_FUNDAMENTAL_IPP
 
-#include <boost/mpl/int.hpp>
+#include <sstd/boost/mpl/int.hpp>
 
 namespace boost { namespace spirit {
 
@@ -175,3 +175,4 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} // namespace boost::spirit
 
 #endif // !defined(BOOST_SPIRIT_FUNDAMENTAL_IPP)
+

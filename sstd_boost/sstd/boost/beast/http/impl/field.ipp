@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright (c) 2016-2019 Vinnie Falco (vinnie dot falco at gmail dot com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -10,11 +10,11 @@
 #ifndef BOOST_BEAST_HTTP_IMPL_FIELD_IPP
 #define BOOST_BEAST_HTTP_IMPL_FIELD_IPP
 
-#include <boost/beast/http/field.hpp>
+#include <sstd/boost/beast/http/field.hpp>
 #include <algorithm>
 #include <array>
 #include <cstring>
-#include <boost/assert.hpp>
+#include <sstd/boost/assert.hpp>
 
 namespace boost {
 namespace beast {
@@ -89,7 +89,7 @@ struct field_table
 
 /*
     From:
-    
+
     https://www.iana.org/assignments/message-headers/message-headers.xhtml
 */
     field_table()
@@ -493,7 +493,7 @@ struct field_table
     //
 
     using const_iterator =
-    array_type::const_iterator; 
+    array_type::const_iterator;
 
     std::size_t
     size() const
@@ -550,3 +550,4 @@ string_to_field(string_view s)
 } // boost
 
 #endif
+

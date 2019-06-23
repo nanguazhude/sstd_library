@@ -1,4 +1,4 @@
-//
+﻿//
 // ssl/impl/rfc2818_verification.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
@@ -15,15 +15,15 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
 
 #include <cctype>
 #include <cstring>
-#include <boost/asio/ip/address.hpp>
-#include <boost/asio/ssl/rfc2818_verification.hpp>
-#include <boost/asio/ssl/detail/openssl_types.hpp>
+#include <sstd/boost/asio/ip/address.hpp>
+#include <sstd/boost/asio/ssl/rfc2818_verification.hpp>
+#include <sstd/boost/asio/ssl/detail/openssl_types.hpp>
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -157,6 +157,7 @@ bool rfc2818_verification::match_pattern(const char* pattern,
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_SSL_IMPL_RFC2818_VERIFICATION_IPP
+

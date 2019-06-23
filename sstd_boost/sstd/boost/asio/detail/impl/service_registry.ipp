@@ -1,4 +1,4 @@
-//
+﻿//
 // detail/impl/service_registry.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
@@ -15,12 +15,12 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
 #include <vector>
-#include <boost/asio/detail/service_registry.hpp>
-#include <boost/asio/detail/throw_exception.hpp>
+#include <sstd/boost/asio/detail/service_registry.hpp>
+#include <sstd/boost/asio/detail/throw_exception.hpp>
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -194,6 +194,7 @@ bool service_registry::do_has_service(
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_IMPL_SERVICE_REGISTRY_IPP
+

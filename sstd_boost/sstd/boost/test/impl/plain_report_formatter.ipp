@@ -1,4 +1,4 @@
-//  (C) Copyright Gennadiy Rozental 2001.
+﻿//  (C) Copyright Gennadiy Rozental 2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
 //  http://www.boost.org/LICENSE_1_0.txt)
@@ -16,22 +16,22 @@
 #define BOOST_TEST_PLAIN_REPORT_FORMATTER_IPP_020105GER
 
 // Boost.Test
-#include <boost/test/output/plain_report_formatter.hpp>
-#include <boost/test/utils/custom_manip.hpp>
-#include <boost/test/results_collector.hpp>
-#include <boost/test/unit_test_parameters.hpp>
+#include <sstd/boost/test/output/plain_report_formatter.hpp>
+#include <sstd/boost/test/utils/custom_manip.hpp>
+#include <sstd/boost/test/results_collector.hpp>
+#include <sstd/boost/test/unit_test_parameters.hpp>
 
-#include <boost/test/tree/test_unit.hpp>
+#include <sstd/boost/test/tree/test_unit.hpp>
 
-#include <boost/test/utils/basic_cstring/io.hpp>
-#include <boost/test/utils/setcolor.hpp>
+#include <sstd/boost/test/utils/basic_cstring/io.hpp>
+#include <sstd/boost/test/utils/setcolor.hpp>
 
 // STL
 #include <iomanip>
-#include <boost/config/no_tr1/cmath.hpp>
+#include <sstd/boost/config/no_tr1/cmath.hpp>
 #include <iostream>
 
-#include <boost/test/detail/suppress_warnings.hpp>
+#include <sstd/boost/test/detail/suppress_warnings.hpp>
 
 # ifdef BOOST_NO_STDC_NAMESPACE
 namespace std { using ::log10; }
@@ -213,6 +213,7 @@ plain_report_formatter::do_confirmation_report( test_unit const& tu, std::ostrea
 } // namespace unit_test
 } // namespace boost
 
-#include <boost/test/detail/enable_warnings.hpp>
+#include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_PLAIN_REPORT_FORMATTER_IPP_020105GER
+

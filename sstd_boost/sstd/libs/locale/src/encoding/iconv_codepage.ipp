@@ -1,4 +1,4 @@
-//
+﻿//
 //  Copyright (c) 2009-2011 Artyom Beilis (Tonkikh)
 //
 //  Distributed under the Boost Software License, Version 1.0. (See
@@ -8,7 +8,7 @@
 #ifndef BOOST_LOCALE_IMPL_ICONV_CODEPAGE_HPP
 #define BOOST_LOCALE_IMPL_ICONV_CODEPAGE_HPP
 
-#include <boost/locale/encoding.hpp>
+#include <sstd/boost/locale/encoding.hpp>
 #include "../util/iconv.hpp"
 #include <errno.h>
 #include "conv.hpp"
@@ -22,8 +22,8 @@ namespace impl {
 
 class iconverter_base {
 public:
-    
-    iconverter_base() : 
+
+    iconverter_base() :
     cvt_((iconv_t)(-1))
     {
     }
@@ -47,12 +47,12 @@ public:
         how_ = how;
         return cvt_ != (iconv_t)(-1);
     }
-    
+
     template<typename OutChar,typename InChar>
     std::basic_string<OutChar> real_convert(InChar const *ubegin,InChar const *uend)
     {
         std::basic_string<OutChar> sresult;
-        
+
         sresult.reserve(uend - ubegin);
 
         OutChar result[64];
@@ -60,20 +60,20 @@ public:
         char *out_start   = reinterpret_cast<char *>(&result[0]);
         char const *begin = reinterpret_cast<char const *>(ubegin);
         char const *end   = reinterpret_cast<char const *>(uend);
-        
+
         enum { normal , unshifting , done } state = normal;
 
         while(state!=done) {
 
             size_t in_left = end - begin;
             size_t out_left = sizeof(result);
-            
+
             char *out_ptr = out_start;
             size_t res = 0;
             if(in_left == 0)
                 state = unshifting;
 
-            if(state == normal) 
+            if(state == normal)
                 res = conv(&begin,&in_left,&out_ptr,&out_left);
             else
                 res = conv(0,0,&out_ptr,&out_left);
@@ -81,7 +81,7 @@ public:
             int err = errno;
 
             size_t output_count = (out_ptr - out_start) / sizeof(OutChar);
-            
+
             if(res!=0 && res!=(size_t)(-1)) {
                     if(how_ == stop) {
                         throw conversion_error();
@@ -133,7 +133,7 @@ private:
             cvt_ = (iconv_t)(-1);
         }
     }
-    
+
     iconv_t cvt_;
 
     method_type how_;
@@ -204,7 +204,7 @@ private:
 
 } // impl
 } // conv
-} // locale 
+} // locale
 } // boost
 
 
@@ -212,3 +212,4 @@ private:
 
 #endif
 // vim: tabstop=4 expandtab shiftwidth=4 softtabstop=4
+

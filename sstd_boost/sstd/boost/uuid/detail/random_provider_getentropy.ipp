@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright (c) 2017 James E. King III
 //
 // Distributed under the Boost Software License, Version 1.0.
@@ -8,8 +8,8 @@
 // getentropy() capable platforms
 //
 
-#include <boost/config.hpp>
-#include <boost/throw_exception.hpp>
+#include <sstd/boost/config.hpp>
+#include <sstd/boost/throw_exception.hpp>
 #include <cerrno>
 #include <cstddef>
 #include <unistd.h>
@@ -38,3 +38,4 @@ public:
 } // detail
 } // uuids
 } // boost
+

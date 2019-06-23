@@ -1,4 +1,4 @@
-/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
+﻿/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // basic_xml_oarchive.ipp:
 
 // (C) Copyright 2002 Robert Ramey - http://www.rrsd.com .
@@ -17,10 +17,10 @@ namespace std{
 } // namespace std
 #endif
 
-#include <boost/archive/basic_xml_archive.hpp>
-#include <boost/archive/basic_xml_oarchive.hpp>
-#include <boost/archive/xml_archive_exception.hpp>
-#include <boost/core/no_exceptions_support.hpp>
+#include <sstd/boost/archive/basic_xml_archive.hpp>
+#include <sstd/boost/archive/basic_xml_oarchive.hpp>
+#include <sstd/boost/archive/xml_archive_exception.hpp>
+#include <sstd/boost/core/no_exceptions_support.hpp>
 
 namespace boost {
 namespace archive {
@@ -270,3 +270,4 @@ basic_xml_oarchive<Archive>::~basic_xml_oarchive(){
 
 } // namespace archive
 } // namespace boost
+

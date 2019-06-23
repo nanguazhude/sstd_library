@@ -1,4 +1,4 @@
-case 0x1: return ENOSYS;
+﻿case 0x1: return ENOSYS;
 case 0x2: return ENOENT;
 case 0x3: return ENOENT;
 case 0x4: return EMFILE;
@@ -73,3 +73,4 @@ case 0x274c: return ETIMEDOUT;
 case 0x274d: return ECONNREFUSED;
 case 0x274f: return ENAMETOOLONG;
 case 0x2751: return EHOSTUNREACH;
+

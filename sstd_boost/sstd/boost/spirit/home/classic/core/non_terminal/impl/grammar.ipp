@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2001-2003 Joel de Guzman
     Copyright (c) 2002-2003 Martin Wille
     Copyright (c) 2003 Hartmut Kaiser
@@ -12,18 +12,18 @@
 #define BOOST_SPIRIT_GRAMMAR_IPP
 
 #if !defined(BOOST_SPIRIT_SINGLE_GRAMMAR_INSTANCE)
-#include <boost/spirit/home/classic/core/non_terminal/impl/object_with_id.ipp>
+#include <sstd/boost/spirit/home/classic/core/non_terminal/impl/object_with_id.ipp>
 #include <algorithm>
 #include <functional>
-#include <boost/move/unique_ptr.hpp>
-#include <boost/weak_ptr.hpp>
+#include <sstd/boost/move/unique_ptr.hpp>
+#include <sstd/boost/weak_ptr.hpp>
 #endif
 
 #ifdef BOOST_SPIRIT_THREADSAFE
-#include <boost/spirit/home/classic/core/non_terminal/impl/static.hpp>
-#include <boost/thread/tss.hpp>
-#include <boost/thread/mutex.hpp>
-#include <boost/thread/lock_types.hpp>
+#include <sstd/boost/spirit/home/classic/core/non_terminal/impl/static.hpp>
+#include <sstd/boost/thread/tss.hpp>
+#include <sstd/boost/thread/mutex.hpp>
+#include <sstd/boost/thread/lock_types.hpp>
 #endif
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -363,3 +363,4 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} // namespace boost::spirit
 
 #endif
+

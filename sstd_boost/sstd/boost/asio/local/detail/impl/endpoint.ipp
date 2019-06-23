@@ -1,4 +1,4 @@
-//
+﻿//
 // local/detail/impl/endpoint.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
@@ -16,17 +16,17 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
 
 #if defined(BOOST_ASIO_HAS_LOCAL_SOCKETS)
 
 #include <cstring>
-#include <boost/asio/detail/socket_ops.hpp>
-#include <boost/asio/detail/throw_error.hpp>
-#include <boost/asio/error.hpp>
-#include <boost/asio/local/detail/endpoint.hpp>
+#include <sstd/boost/asio/detail/socket_ops.hpp>
+#include <sstd/boost/asio/detail/throw_error.hpp>
+#include <sstd/boost/asio/error.hpp>
+#include <sstd/boost/asio/local/detail/endpoint.hpp>
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -131,8 +131,9 @@ void endpoint::init(const char* path_name, std::size_t path_length)
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // defined(BOOST_ASIO_HAS_LOCAL_SOCKETS)
 
 #endif // BOOST_ASIO_LOCAL_DETAIL_IMPL_ENDPOINT_IPP
+

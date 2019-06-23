@@ -1,4 +1,4 @@
-//  (C) Copyright Beman Dawes 2008
+﻿//  (C) Copyright Beman Dawes 2008
 
 //  Use, modification and distribution are subject to the
 //  Boost Software License, Version 1.0. (See accompanying file
@@ -25,3 +25,4 @@ int test()
 }
 
 }
+

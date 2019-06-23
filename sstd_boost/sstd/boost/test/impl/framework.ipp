@@ -1,4 +1,4 @@
-//  (C) Copyright Gennadiy Rozental 2001.
+﻿//  (C) Copyright Gennadiy Rozental 2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
 //  http://www.boost.org/LICENSE_1_0.txt)
@@ -16,40 +16,40 @@
 #define BOOST_TEST_FRAMEWORK_IPP_021005GER
 
 // Boost.Test
-#include <boost/test/framework.hpp>
-#include <boost/test/execution_monitor.hpp>
-#include <boost/test/debug.hpp>
-#include <boost/test/unit_test_parameters.hpp>
+#include <sstd/boost/test/framework.hpp>
+#include <sstd/boost/test/execution_monitor.hpp>
+#include <sstd/boost/test/debug.hpp>
+#include <sstd/boost/test/unit_test_parameters.hpp>
 
-#include <boost/test/unit_test_log.hpp>
-#include <boost/test/unit_test_log_formatter.hpp>
-#include <boost/test/unit_test_monitor.hpp>
-#include <boost/test/results_collector.hpp>
-#include <boost/test/progress_monitor.hpp>
-#include <boost/test/results_reporter.hpp>
-#include <boost/test/test_framework_init_observer.hpp>
+#include <sstd/boost/test/unit_test_log.hpp>
+#include <sstd/boost/test/unit_test_log_formatter.hpp>
+#include <sstd/boost/test/unit_test_monitor.hpp>
+#include <sstd/boost/test/results_collector.hpp>
+#include <sstd/boost/test/progress_monitor.hpp>
+#include <sstd/boost/test/results_reporter.hpp>
+#include <sstd/boost/test/test_framework_init_observer.hpp>
 
-#include <boost/test/tree/observer.hpp>
-#include <boost/test/tree/test_unit.hpp>
-#include <boost/test/tree/visitor.hpp>
-#include <boost/test/tree/traverse.hpp>
-#include <boost/test/tree/test_case_counter.hpp>
-#include <boost/test/tree/global_fixture.hpp>
+#include <sstd/boost/test/tree/observer.hpp>
+#include <sstd/boost/test/tree/test_unit.hpp>
+#include <sstd/boost/test/tree/visitor.hpp>
+#include <sstd/boost/test/tree/traverse.hpp>
+#include <sstd/boost/test/tree/test_case_counter.hpp>
+#include <sstd/boost/test/tree/global_fixture.hpp>
 
 #if BOOST_TEST_SUPPORT_TOKEN_ITERATOR
-#include <boost/test/utils/iterator/token_iterator.hpp>
+#include <sstd/boost/test/utils/iterator/token_iterator.hpp>
 #endif
 
-#include <boost/test/utils/foreach.hpp>
-#include <boost/test/utils/basic_cstring/io.hpp>
-#include <boost/test/utils/basic_cstring/compare.hpp>
+#include <sstd/boost/test/utils/foreach.hpp>
+#include <sstd/boost/test/utils/basic_cstring/io.hpp>
+#include <sstd/boost/test/utils/basic_cstring/compare.hpp>
 
-#include <boost/test/detail/global_typedef.hpp>
-#include <boost/test/detail/throw_exception.hpp>
+#include <sstd/boost/test/detail/global_typedef.hpp>
+#include <sstd/boost/test/detail/throw_exception.hpp>
 
 // Boost
-#include <boost/test/utils/timer.hpp>
-#include <boost/bind.hpp>
+#include <sstd/boost/test/utils/timer.hpp>
+#include <sstd/boost/bind.hpp>
 
 // STL
 #include <limits>
@@ -67,7 +67,7 @@
 namespace std { using ::time; using ::srand; }
 #endif
 
-#include <boost/test/detail/suppress_warnings.hpp>
+#include <sstd/boost/test/detail/suppress_warnings.hpp>
 
 //____________________________________________________________________________//
 
@@ -1777,6 +1777,7 @@ test_aborted( )
 } // namespace unit_test
 } // namespace boost
 
-#include <boost/test/detail/enable_warnings.hpp>
+#include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_FRAMEWORK_IPP_021005GER
+

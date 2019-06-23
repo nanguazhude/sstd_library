@@ -1,7 +1,7 @@
-/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
+﻿/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // A.ipp    simple class test
 
-// (C) Copyright 2002 Robert Ramey - http://www.rrsd.com . 
+// (C) Copyright 2002 Robert Ramey - http://www.rrsd.com .
 // Use, modification and distribution is subject to the Boost Software
 // License, Version 1.0. (See accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
@@ -9,10 +9,10 @@
 //  See http://www.boost.org for updates, documentation, and revision history.
 
 #if BOOST_WORKAROUND(BOOST_DINKUMWARE_STDLIB, == 1)
-#include <boost/archive/dinkumware.hpp>
+#include <sstd/boost/archive/dinkumware.hpp>
 #endif
 
-#include <boost/serialization/nvp.hpp>
+#include <sstd/boost/serialization/nvp.hpp>
 #include "A.hpp"
 
 template<class Archive>
@@ -58,3 +58,4 @@ void A::serialize(
     ar & BOOST_SERIALIZATION_NVP(z);
     #endif
 }
+

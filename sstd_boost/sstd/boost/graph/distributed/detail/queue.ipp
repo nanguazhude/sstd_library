@@ -1,4 +1,4 @@
-// Copyright (C) 2004-2006 The Trustees of Indiana University.
+﻿// Copyright (C) 2004-2006 The Trustees of Indiana University.
 
 // Use, modification and distribution is subject to the Boost Software
 // License, Version 1.0. (See accompanying file LICENSE_1_0.txt or copy at
@@ -6,16 +6,16 @@
 
 //  Authors: Douglas Gregor
 //           Andrew Lumsdaine
-#include <boost/optional.hpp>
+#include <sstd/boost/optional.hpp>
 #include <cassert>
-#include <boost/graph/parallel/algorithm.hpp>
-#include <boost/graph/parallel/process_group.hpp>
+#include <sstd/boost/graph/parallel/algorithm.hpp>
+#include <sstd/boost/graph/parallel/process_group.hpp>
 #include <functional>
 #include <algorithm>
-#include <boost/graph/parallel/simple_trigger.hpp>
+#include <sstd/boost/graph/parallel/simple_trigger.hpp>
 
 #ifndef BOOST_GRAPH_USE_MPI
-#error "Parallel BGL files should not be included unless <boost/graph/use_mpi.hpp> has been included"
+#error "Parallel BGL files should not be included unless <sstd/boost/graph/use_mpi.hpp> has been included"
 #endif
 
 namespace boost { namespace graph { namespace distributed {
@@ -109,26 +109,26 @@ void BOOST_DISTRIBUTED_QUEUE_TYPE::setup_triggers()
 {
   using boost::graph::parallel::simple_trigger;
 
-  simple_trigger(process_group, msg_push, this, 
+  simple_trigger(process_group, msg_push, this,
                  &distributed_queue::handle_push);
-  simple_trigger(process_group, msg_multipush, this, 
+  simple_trigger(process_group, msg_multipush, this,
                  &distributed_queue::handle_multipush);
 }
 
 template<BOOST_DISTRIBUTED_QUEUE_PARMS>
-void 
+void
 BOOST_DISTRIBUTED_QUEUE_TYPE::
-handle_push(int /*source*/, int /*tag*/, const value_type& value, 
+handle_push(int /*source*/, int /*tag*/, const value_type& value,
             trigger_receive_context)
 {
   if (pred(value)) buffer.push(value);
 }
 
 template<BOOST_DISTRIBUTED_QUEUE_PARMS>
-void 
+void
 BOOST_DISTRIBUTED_QUEUE_TYPE::
-handle_multipush(int /*source*/, int /*tag*/, 
-                 const std::vector<value_type>& values, 
+handle_multipush(int /*source*/, int /*tag*/,
+                 const std::vector<value_type>& values,
                  trigger_receive_context)
 {
   for (std::size_t i = 0; i < values.size(); ++i)
@@ -175,3 +175,4 @@ BOOST_DISTRIBUTED_QUEUE_TYPE::do_synchronize() const
 }
 
 } } } // end namespace boost::graph::distributed
+

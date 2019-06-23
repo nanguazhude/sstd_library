@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright (c) 2016-2019 Vinnie Falco (vinnie dot falco at gmail dot com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -10,8 +10,8 @@
 #ifndef BOOST_BEAST_HTTP_IMPL_VERB_IPP
 #define BOOST_BEAST_HTTP_IMPL_VERB_IPP
 
-#include <boost/beast/http/verb.hpp>
-#include <boost/throw_exception.hpp>
+#include <sstd/boost/beast/http/verb.hpp>
+#include <sstd/boost/throw_exception.hpp>
 #include <stdexcept>
 
 namespace boost {
@@ -62,7 +62,7 @@ to_string(verb v)
 
     case verb::link:          return "LINK";
     case verb::unlink:        return "UNLINK";
-    
+
     case verb::unknown:
         return "<unknown>";
     }
@@ -211,7 +211,7 @@ string_to_verb(string_view v)
                 break;
             }
             break;
-        
+
         case 'O':
             if(eq(v, "VE"))
                 return verb::move;
@@ -314,3 +314,4 @@ string_to_verb(string_view v)
 } // boost
 
 #endif
+

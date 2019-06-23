@@ -1,4 +1,4 @@
-//
+﻿//
 // generic/detail/impl/endpoint.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
@@ -15,17 +15,17 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
 
 #include <cstring>
 #include <typeinfo>
-#include <boost/asio/detail/socket_ops.hpp>
-#include <boost/asio/detail/throw_error.hpp>
-#include <boost/asio/detail/throw_exception.hpp>
-#include <boost/asio/error.hpp>
-#include <boost/asio/generic/detail/endpoint.hpp>
+#include <sstd/boost/asio/detail/socket_ops.hpp>
+#include <sstd/boost/asio/detail/throw_error.hpp>
+#include <sstd/boost/asio/detail/throw_exception.hpp>
+#include <sstd/boost/asio/error.hpp>
+#include <sstd/boost/asio/generic/detail/endpoint.hpp>
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -107,6 +107,7 @@ void endpoint::init(const void* sock_addr,
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_GENERIC_DETAIL_IMPL_ENDPOINT_IPP
+

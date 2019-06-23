@@ -1,4 +1,4 @@
-//  (C) Copyright Gennadiy Rozental 2001.
+﻿//  (C) Copyright Gennadiy Rozental 2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
 //  http://www.boost.org/LICENSE_1_0.txt)
@@ -12,17 +12,17 @@
 #define BOOST_TEST_TREE_DECORATOR_IPP_091911GER
 
 // Boost.Test
-#include <boost/test/tree/decorator.hpp>
-#include <boost/test/tree/test_unit.hpp>
+#include <sstd/boost/test/tree/decorator.hpp>
+#include <sstd/boost/test/tree/test_unit.hpp>
 
-#include <boost/test/framework.hpp>
+#include <sstd/boost/test/framework.hpp>
 #if BOOST_TEST_SUPPORT_TOKEN_ITERATOR
-#include <boost/test/utils/iterator/token_iterator.hpp>
+#include <sstd/boost/test/utils/iterator/token_iterator.hpp>
 #endif
 
-#include <boost/test/detail/throw_exception.hpp>
+#include <sstd/boost/test/detail/throw_exception.hpp>
 
-#include <boost/test/detail/suppress_warnings.hpp>
+#include <sstd/boost/test/detail/suppress_warnings.hpp>
 
 //____________________________________________________________________________//
 
@@ -239,6 +239,7 @@ precondition::apply( test_unit& tu )
 } // namespace unit_test
 } // namespace boost
 
-#include <boost/test/detail/enable_warnings.hpp>
+#include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_TREE_DECORATOR_IPP_091911GER
+

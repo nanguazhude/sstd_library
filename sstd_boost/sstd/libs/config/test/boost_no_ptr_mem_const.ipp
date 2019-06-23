@@ -1,10 +1,10 @@
-//  Copyright (c) 2000
+﻿//  Copyright (c) 2000
 //  Cadenza New Zealand Ltd
 //
-//  (C) Copyright John Maddock 2001. 
+//  (C) Copyright John Maddock 2001.
 //
-//  Use, modification and distribution are subject to the 
-//  Boost Software License, Version 1.0. (See accompanying file 
+//  Use, modification and distribution are subject to the
+//  Boost Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 
 //  See http://www.boost.org/libs/config for the most recent version.
@@ -31,7 +31,7 @@ public:
       return (p->*ptr)();
   }
 private:
-  S (T::*ptr)() const;        
+  S (T::*ptr)() const;
 };
 
 template <class S, class T, class A>
@@ -78,6 +78,7 @@ int test()
 }
 
 }
+
 
 
 

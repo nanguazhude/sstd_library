@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2002-2003 Joel de Guzman
     Copyright (c) 2002-2003 Hartmut Kaiser
     Copyright (c) 2003 Martin Wille
@@ -11,7 +11,7 @@
 #if !defined(BOOST_SPIRIT_PARSER_TRAITS_IPP)
 #define BOOST_SPIRIT_PARSER_TRAITS_IPP
 
-#include <boost/spirit/home/classic/core/composite/operators.hpp>
+#include <sstd/boost/spirit/home/classic/core/composite/operators.hpp>
 
 ///////////////////////////////////////////////////////////////////////////////
 namespace boost { namespace spirit {
@@ -114,3 +114,4 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} // namespace boost::spirit
 
 #endif // !defined(BOOST_SPIRIT_PARSER_TRAITS_IPP)
+

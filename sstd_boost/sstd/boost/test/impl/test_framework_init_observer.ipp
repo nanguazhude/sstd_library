@@ -1,4 +1,4 @@
-// (c) Copyright Raffi Enficiaud 2017.
+﻿// (c) Copyright Raffi Enficiaud 2017.
 // Distributed under the Boost Software License, Version 1.0.
 // (See accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
@@ -13,9 +13,9 @@
 #define BOOST_TEST_FRAMEWORK_INIT_OBSERVER_IPP_021105GER
 
 // Boost.Test
-#include <boost/test/test_framework_init_observer.hpp>
-#include <boost/test/framework.hpp>
-#include <boost/test/detail/suppress_warnings.hpp>
+#include <sstd/boost/test/test_framework_init_observer.hpp>
+#include <sstd/boost/test/framework.hpp>
+#include <sstd/boost/test/detail/suppress_warnings.hpp>
 
 //____________________________________________________________________________//
 
@@ -112,6 +112,7 @@ framework_init_observer_t::has_failed() const
 } // namespace unit_test
 } // namespace boost
 
-#include <boost/test/detail/enable_warnings.hpp>
+#include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_FRAMEWORK_INIT_OBSERVER_IPP_021105GER
+

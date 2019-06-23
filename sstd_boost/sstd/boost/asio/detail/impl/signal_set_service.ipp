@@ -1,4 +1,4 @@
-//
+﻿//
 // detail/impl/signal_set_service.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
@@ -15,17 +15,17 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
 
 #include <cstring>
 #include <stdexcept>
-#include <boost/asio/detail/reactor.hpp>
-#include <boost/asio/detail/signal_blocker.hpp>
-#include <boost/asio/detail/signal_set_service.hpp>
-#include <boost/asio/detail/static_mutex.hpp>
-#include <boost/asio/detail/throw_exception.hpp>
+#include <sstd/boost/asio/detail/reactor.hpp>
+#include <sstd/boost/asio/detail/signal_blocker.hpp>
+#include <sstd/boost/asio/detail/signal_set_service.hpp>
+#include <sstd/boost/asio/detail/static_mutex.hpp>
+#include <sstd/boost/asio/detail/throw_exception.hpp>
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -664,6 +664,7 @@ void signal_set_service::start_wait_op(
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_IMPL_SIGNAL_SET_SERVICE_IPP
+

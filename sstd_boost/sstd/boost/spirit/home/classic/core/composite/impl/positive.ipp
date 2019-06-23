@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 1998-2003 Joel de Guzman
     Copyright (c) 2001 Daniel Nuffer
     Copyright (c) 2002 Hartmut Kaiser
@@ -32,3 +32,4 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} // namespace boost::spirit
 
 #endif
+

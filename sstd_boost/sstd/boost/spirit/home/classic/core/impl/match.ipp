@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 1998-2003 Joel de Guzman
     http://spirit.sourceforge.net/
 
@@ -110,4 +110,5 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} // namespace boost::spirit
 
 #endif
+
 

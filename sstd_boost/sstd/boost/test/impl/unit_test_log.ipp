@@ -1,4 +1,4 @@
-//  (C) Copyright Gennadiy Rozental 2001.
+﻿//  (C) Copyright Gennadiy Rozental 2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
 //  http://www.boost.org/LICENSE_1_0.txt)
@@ -16,25 +16,25 @@
 #define BOOST_TEST_UNIT_TEST_LOG_IPP_012205GER
 
 // Boost.Test
-#include <boost/test/unit_test_log.hpp>
-#include <boost/test/unit_test_log_formatter.hpp>
-#include <boost/test/execution_monitor.hpp>
-#include <boost/test/framework.hpp>
-#include <boost/test/unit_test_parameters.hpp>
+#include <sstd/boost/test/unit_test_log.hpp>
+#include <sstd/boost/test/unit_test_log_formatter.hpp>
+#include <sstd/boost/test/execution_monitor.hpp>
+#include <sstd/boost/test/framework.hpp>
+#include <sstd/boost/test/unit_test_parameters.hpp>
 
-#include <boost/test/utils/basic_cstring/compare.hpp>
-#include <boost/test/utils/foreach.hpp>
+#include <sstd/boost/test/utils/basic_cstring/compare.hpp>
+#include <sstd/boost/test/utils/foreach.hpp>
 
-#include <boost/test/output/compiler_log_formatter.hpp>
-#include <boost/test/output/xml_log_formatter.hpp>
-#include <boost/test/output/junit_log_formatter.hpp>
+#include <sstd/boost/test/output/compiler_log_formatter.hpp>
+#include <sstd/boost/test/output/xml_log_formatter.hpp>
+#include <sstd/boost/test/output/junit_log_formatter.hpp>
 
 // Boost
-#include <boost/shared_ptr.hpp>
-#include <boost/io/ios_state.hpp>
+#include <sstd/boost/shared_ptr.hpp>
+#include <sstd/boost/io/ios_state.hpp>
 typedef ::boost::io::ios_base_all_saver io_saver_type;
 
-#include <boost/test/detail/suppress_warnings.hpp>
+#include <sstd/boost/test/detail/suppress_warnings.hpp>
 
 //____________________________________________________________________________//
 
@@ -704,7 +704,8 @@ unit_test_log_formatter::get_log_level() const
 } // namespace unit_test
 } // namespace boost
 
-#include <boost/test/detail/enable_warnings.hpp>
+#include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_UNIT_TEST_LOG_IPP_012205GER
+
 

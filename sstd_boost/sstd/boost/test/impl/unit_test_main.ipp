@@ -1,4 +1,4 @@
-//  (C) Copyright Gennadiy Rozental 2001.
+﻿//  (C) Copyright Gennadiy Rozental 2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
 //  http://www.boost.org/LICENSE_1_0.txt)
@@ -16,21 +16,21 @@
 #define BOOST_TEST_UNIT_TEST_MAIN_IPP_012205GER
 
 // Boost.Test
-#include <boost/test/framework.hpp>
-#include <boost/test/results_collector.hpp>
-#include <boost/test/results_reporter.hpp>
+#include <sstd/boost/test/framework.hpp>
+#include <sstd/boost/test/results_collector.hpp>
+#include <sstd/boost/test/results_reporter.hpp>
 
-#include <boost/test/tree/visitor.hpp>
-#include <boost/test/tree/test_unit.hpp>
-#include <boost/test/tree/traverse.hpp>
+#include <sstd/boost/test/tree/visitor.hpp>
+#include <sstd/boost/test/tree/test_unit.hpp>
+#include <sstd/boost/test/tree/traverse.hpp>
 
-#include <boost/test/unit_test_parameters.hpp>
+#include <sstd/boost/test/unit_test_parameters.hpp>
 
-#include <boost/test/utils/foreach.hpp>
-#include <boost/test/utils/basic_cstring/io.hpp>
+#include <sstd/boost/test/utils/foreach.hpp>
+#include <sstd/boost/test/utils/basic_cstring/io.hpp>
 
 // Boost
-#include <boost/cstdlib.hpp>
+#include <sstd/boost/cstdlib.hpp>
 
 // STL
 #include <cstdio>
@@ -40,7 +40,7 @@
 #include <iterator>
 #include <set>
 
-#include <boost/test/detail/suppress_warnings.hpp>
+#include <sstd/boost/test/detail/suppress_warnings.hpp>
 
 //____________________________________________________________________________//
 
@@ -133,7 +133,7 @@ private:
 
     }
     virtual void    visit( test_case const& tc )
-    { 
+    {
         report_test_unit( tc );
     }
     virtual bool    test_suite_start( test_suite const& ts )
@@ -165,7 +165,7 @@ struct labels_collector : test_tree_visitor {
     std::set<std::string> const& labels() const { return m_labels; }
 
 private:
-    virtual bool            visit( test_unit const& tu ) 
+    virtual bool            visit( test_unit const& tu )
     {
         m_labels.insert( tu.p_labels->begin(), tu.p_labels->end() );
         return true;
@@ -202,7 +202,7 @@ unit_test_main( init_unit_test_func init_func, int argc, char* argv[] )
     ut_detail::framework_shutdown_helper shutdown_helper;
 
     BOOST_TEST_I_TRY {
-        
+
         framework::init( init_func, argc, argv );
 
         if( runtime_config::get<bool>( runtime_config::btrt_wait_for_debugger ) ) {
@@ -238,7 +238,7 @@ unit_test_main( init_unit_test_func init_func, int argc, char* argv[] )
             traverse_test_tree( framework::master_test_suite().p_id, collector, true );
 
             results_reporter::get_stream() << "Available labels:\n  ";
-            std::copy( collector.labels().begin(), collector.labels().end(), 
+            std::copy( collector.labels().begin(), collector.labels().end(),
                        std::ostream_iterator<std::string>( results_reporter::get_stream(), "\n  " ) );
             results_reporter::get_stream() << "\n";
 
@@ -308,6 +308,7 @@ main( int argc, char* argv[] )
 
 //____________________________________________________________________________//
 
-#include <boost/test/detail/enable_warnings.hpp>
+#include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_UNIT_TEST_MAIN_IPP_012205GER
+

@@ -1,4 +1,4 @@
-//  (C) Copyright Gennadiy Rozental 2001.
+﻿//  (C) Copyright Gennadiy Rozental 2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
 //  http://www.boost.org/LICENSE_1_0.txt)
@@ -16,20 +16,20 @@
 #define BOOST_TEST_XML_LOG_FORMATTER_IPP_020105GER
 
 // Boost.Test
-#include <boost/test/output/xml_log_formatter.hpp>
-#include <boost/test/execution_monitor.hpp>
-#include <boost/test/framework.hpp>
-#include <boost/test/tree/test_unit.hpp>
-#include <boost/test/utils/basic_cstring/io.hpp>
-#include <boost/test/utils/xml_printer.hpp>
+#include <sstd/boost/test/output/xml_log_formatter.hpp>
+#include <sstd/boost/test/execution_monitor.hpp>
+#include <sstd/boost/test/framework.hpp>
+#include <sstd/boost/test/tree/test_unit.hpp>
+#include <sstd/boost/test/utils/basic_cstring/io.hpp>
+#include <sstd/boost/test/utils/xml_printer.hpp>
 
 // Boost
-#include <boost/version.hpp>
+#include <sstd/boost/version.hpp>
 
 // STL
 #include <iostream>
 
-#include <boost/test/detail/suppress_warnings.hpp>
+#include <sstd/boost/test/detail/suppress_warnings.hpp>
 
 //____________________________________________________________________________//
 
@@ -220,6 +220,7 @@ xml_log_formatter::log_entry_context( std::ostream& ostr, log_level, const_strin
 } // namespace unit_test
 } // namespace boost
 
-#include <boost/test/detail/enable_warnings.hpp>
+#include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_XML_LOG_FORMATTER_IPP_020105GER
+

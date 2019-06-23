@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2001-2003 Joel de Guzman
     http://spirit.sourceforge.net/
 
@@ -11,9 +11,9 @@
 
 ///////////////////////////////////////////////////////////////////////////////
 #include <algorithm> // for std::lower_bound
-#include <boost/limits.hpp>
-#include <boost/assert.hpp>
-#include <boost/xpressive/detail/utility/chset/range_run.hpp>
+#include <sstd/boost/limits.hpp>
+#include <sstd/boost/assert.hpp>
+#include <sstd/boost/xpressive/detail/utility/chset/range_run.hpp>
 
 ///////////////////////////////////////////////////////////////////////////////
 namespace boost { namespace xpressive { namespace detail
@@ -233,3 +233,4 @@ inline typename range_run<Char>::const_iterator range_run<Char>::end() const
 }}} // namespace boost::xpressive::detail
 
 #endif
+

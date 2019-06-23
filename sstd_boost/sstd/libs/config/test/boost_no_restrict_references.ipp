@@ -1,4 +1,4 @@
-//  (C) Copyright Beman Dawes 2009
+﻿//  (C) Copyright Beman Dawes 2009
 
 //  Use, modification and distribution are subject to the
 //  Boost Software License, Version 1.0. (See accompanying file
@@ -10,7 +10,7 @@
 //  TITLE:         We cannot apply BOOST_RESTRICT to a reference type.
 //  DESCRIPTION:   We cannot apply BOOST_RESTRICT to a reference type
 
-#include <boost/config.hpp>
+#include <sstd/boost/config.hpp>
 
 namespace boost_no_restrict_references {
 
@@ -19,13 +19,13 @@ namespace boost_no_restrict_references {
 #endif
 
 
-void sum2(int (& BOOST_RESTRICT a)[4], int (& BOOST_RESTRICT b)[4], int (&c)[4], int (&d)[4]) {  
-   int i;  
-   for (i = 0; i < 4; i++) {  
-      a[i] = b[i] + c[i];  
-      c[i] = b[i] + d[i];  
-    }  
-}  
+void sum2(int (& BOOST_RESTRICT a)[4], int (& BOOST_RESTRICT b)[4], int (&c)[4], int (&d)[4]) {
+   int i;
+   for (i = 0; i < 4; i++) {
+      a[i] = b[i] + c[i];
+      c[i] = b[i] + d[i];
+    }
+}
 
 int test()
 {
@@ -45,3 +45,4 @@ int test()
 
 
 }
+

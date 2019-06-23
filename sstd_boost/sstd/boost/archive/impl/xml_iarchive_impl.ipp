@@ -1,4 +1,4 @@
-/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
+﻿/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // xml_iarchive_impl.cpp:
 
 // (C) Copyright 2002 Robert Ramey - http://www.rrsd.com .
@@ -8,13 +8,13 @@
 
 //  See http://www.boost.org for updates, documentation, and revision history.
 
-#include <boost/config.hpp>
+#include <sstd/boost/config.hpp>
 #include <cstring> // memcpy
 #include <cstddef> // NULL
 #include <exception>
 
 #if defined(BOOST_NO_STDC_NAMESPACE)
-namespace std{ 
+namespace std{
     using ::memcpy;
 } // namespace std
 #endif
@@ -22,24 +22,24 @@ namespace std{
 #ifndef BOOST_NO_CWCHAR
 #include <cwchar> // mbstate_t and mbrtowc
 #if defined(BOOST_NO_STDC_NAMESPACE)
-namespace std{ 
+namespace std{
     using ::mbstate_t;
     using ::mbrtowc;
  } // namespace std
 #endif
 #endif // BOOST_NO_CWCHAR
 
-#include <boost/detail/workaround.hpp> // RogueWave and Dinkumware
+#include <sstd/boost/detail/workaround.hpp> // RogueWave and Dinkumware
 #if BOOST_WORKAROUND(BOOST_DINKUMWARE_STDLIB, == 1)
-#include <boost/archive/dinkumware.hpp>
+#include <sstd/boost/archive/dinkumware.hpp>
 #endif
 
-#include <boost/core/no_exceptions_support.hpp>
+#include <sstd/boost/core/no_exceptions_support.hpp>
 
-#include <boost/archive/xml_archive_exception.hpp>
-#include <boost/archive/iterators/dataflow_exception.hpp>
-#include <boost/archive/basic_xml_archive.hpp>
-#include <boost/archive/xml_iarchive.hpp>
+#include <sstd/boost/archive/xml_archive_exception.hpp>
+#include <sstd/boost/archive/iterators/dataflow_exception.hpp>
+#include <sstd/boost/archive/basic_xml_archive.hpp>
+#include <sstd/boost/archive/xml_iarchive.hpp>
 
 #include "basic_xml_grammar.hpp"
 
@@ -62,7 +62,7 @@ xml_iarchive_impl<Archive>::load(std::wstring &ws){
         boost::serialization::throw_exception(
             xml_archive_exception(xml_archive_exception::xml_archive_parsing_error)
         );
-    
+
     #if BOOST_WORKAROUND(_RWSTD_VER, BOOST_TESTED_AT(20101))
     if(NULL != ws.data())
     #endif
@@ -99,7 +99,7 @@ xml_iarchive_impl<Archive>::load(wchar_t * ws){
                 xml_archive_exception::xml_archive_parsing_error
             )
         );
-        
+
     std::mbstate_t mbs = std::mbstate_t();
     const char * start = s.data();
     const char * end = start + s.size();
@@ -176,7 +176,7 @@ xml_iarchive_impl<Archive>::xml_iarchive_impl(
     unsigned int flags
 ) :
     basic_text_iprimitive<std::istream>(
-        is_, 
+        is_,
         0 != (flags & no_codecvt)
     ),
     basic_xml_iarchive<Archive>(flags),
@@ -197,3 +197,4 @@ xml_iarchive_impl<Archive>::~xml_iarchive_impl(){
 }
 } // namespace archive
 } // namespace boost
+

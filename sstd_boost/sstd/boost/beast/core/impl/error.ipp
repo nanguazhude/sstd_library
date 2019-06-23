@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright (c) 2016-2019 Vinnie Falco (vinnie dot falco at gmail dot com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -10,7 +10,7 @@
 #ifndef BOOST_BEAST_IMPL_ERROR_IPP
 #define BOOST_BEAST_IMPL_ERROR_IPP
 
-#include <boost/beast/core/error.hpp>
+#include <sstd/boost/beast/core/error.hpp>
 
 namespace boost {
 namespace beast {
@@ -97,3 +97,4 @@ make_error_condition(condition c)
 } // boost
 
 #endif
+

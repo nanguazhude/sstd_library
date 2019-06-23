@@ -1,4 +1,4 @@
-//
+﻿//
 // detail/impl/socket_ops.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
@@ -15,7 +15,7 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
 
 #include <cctype>
 #include <cstdio>
@@ -23,9 +23,9 @@
 #include <cstring>
 #include <cerrno>
 #include <new>
-#include <boost/asio/detail/assert.hpp>
-#include <boost/asio/detail/socket_ops.hpp>
-#include <boost/asio/error.hpp>
+#include <sstd/boost/asio/detail/assert.hpp>
+#include <sstd/boost/asio/detail/socket_ops.hpp>
+#include <sstd/boost/asio/error.hpp>
 
 #if defined(BOOST_ASIO_WINDOWS_RUNTIME)
 # include <codecvt>
@@ -41,7 +41,7 @@
 #endif // defined(BOOST_ASIO_WINDOWS) || defined(__CYGWIN__)
        // || defined(__MACH__) && defined(__APPLE__)
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -3569,6 +3569,7 @@ u_short_type host_to_network_short(u_short_type value)
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_SOCKET_OPS_IPP
+

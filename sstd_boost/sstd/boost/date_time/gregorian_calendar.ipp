@@ -1,4 +1,4 @@
-/* Copyright (c) 2002,2003 CrystalClear Software, Inc.
+﻿/* Copyright (c) 2002,2003 CrystalClear Software, Inc.
  * Use, modification and distribution is subject to the
  * Boost Software License, Version 1.0. (See accompanying
  * file LICENSE_1_0.txt or http://www.boost.org/LICENSE_1_0.txt)
@@ -215,5 +215,6 @@ namespace date_time {
 
 
 } } //namespace gregorian
+
 
 

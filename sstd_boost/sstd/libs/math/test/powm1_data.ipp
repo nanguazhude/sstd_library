@@ -1,4 +1,4 @@
-//  Copyright John Maddock 2015.
+﻿//  Copyright John Maddock 2015.
 //  Use, modification and distribution are subject to the
 //  Boost Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
@@ -5466,3 +5466,4 @@ static const boost::array<boost::array<typename table_type<T>::type, 3>, 5456> p
 }};
 
 // 5456
+

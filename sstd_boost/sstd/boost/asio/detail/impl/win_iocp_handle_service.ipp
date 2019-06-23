@@ -1,4 +1,4 @@
-//
+﻿//
 // detail/impl/win_iocp_handle_service.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
@@ -16,13 +16,13 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
 
 #if defined(BOOST_ASIO_HAS_IOCP)
 
-#include <boost/asio/detail/win_iocp_handle_service.hpp>
+#include <sstd/boost/asio/detail/win_iocp_handle_service.hpp>
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -163,7 +163,7 @@ void win_iocp_handle_service::destroy(
     win_iocp_handle_service::implementation_type& impl)
 {
   close_for_destruction(impl);
-  
+
   // Remove implementation from linked list of all implementations.
   boost::asio::detail::mutex::scoped_lock lock(mutex_);
   if (impl_list_ == &impl)
@@ -318,12 +318,12 @@ size_t win_iocp_handle_service::do_write(
     return 0;
   }
 
-  // Write the data. 
+  // Write the data.
   overlapped.Offset = offset & 0xFFFFFFFF;
   overlapped.OffsetHigh = (offset >> 32) & 0xFFFFFFFF;
   BOOL ok = ::WriteFile(impl.handle_, buffer.data(),
       static_cast<DWORD>(buffer.size()), 0, &overlapped);
-  if (!ok) 
+  if (!ok)
   {
     DWORD last_error = ::GetLastError();
     if (last_error != ERROR_IO_PENDING)
@@ -396,7 +396,7 @@ size_t win_iocp_handle_service::do_read(
     ec = boost::asio::error::bad_descriptor;
     return 0;
   }
-  
+
   // A request to read 0 bytes on a stream handle is a no-op.
   if (buffer.size() == 0)
   {
@@ -415,7 +415,7 @@ size_t win_iocp_handle_service::do_read(
   overlapped.OffsetHigh = (offset >> 32) & 0xFFFFFFFF;
   BOOL ok = ::ReadFile(impl.handle_, buffer.data(),
       static_cast<DWORD>(buffer.size()), 0, &overlapped);
-  if (!ok) 
+  if (!ok)
   {
     DWORD last_error = ::GetLastError();
     if (last_error != ERROR_IO_PENDING && last_error != ERROR_MORE_DATA)
@@ -519,8 +519,9 @@ void win_iocp_handle_service::close_for_destruction(implementation_type& impl)
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // defined(BOOST_ASIO_HAS_IOCP)
 
 #endif // BOOST_ASIO_DETAIL_IMPL_WIN_IOCP_HANDLE_SERVICE_IPP
+

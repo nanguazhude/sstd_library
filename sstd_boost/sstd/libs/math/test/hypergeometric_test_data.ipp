@@ -1,4 +1,4 @@
-// Copyright Gautam Sewani 2008
+﻿// Copyright Gautam Sewani 2008
 // Use, modification and distribution are subject to the
 // Boost Software License, Version 1.0.
 // (See accompanying file LICENSE_1_0.txt
@@ -409,4 +409,5 @@
      {{SC_(10811.0),SC_(30197.0),SC_(30916.0),SC_(10443.0),SC_(7.641514565676484825234423253217707077378e-20),SC_(1.528376558915782740567832769458233142503e-19),SC_(0.999999999999999999847162344108421725943)}}
   }};
 #undef SC_
+
 

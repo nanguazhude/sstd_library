@@ -1,4 +1,4 @@
-//  (C) Copyright John Maddock 2012
+﻿//  (C) Copyright John Maddock 2012
 //  (C) Copyright Peter Dimov 2014
 
 //  Use, modification and distribution are subject to the
@@ -32,3 +32,4 @@ int test()
 }
 
 }
+

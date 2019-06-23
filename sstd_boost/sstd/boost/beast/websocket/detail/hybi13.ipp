@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright (c) 2016-2019 Vinnie Falco (vinnie dot falco at gmail dot com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -10,11 +10,11 @@
 #ifndef BOOST_BEAST_WEBSOCKET_DETAIL_HYBI13_IPP
 #define BOOST_BEAST_WEBSOCKET_DETAIL_HYBI13_IPP
 
-#include <boost/beast/websocket/detail/hybi13.hpp>
-#include <boost/beast/core/detail/sha1.hpp>
-#include <boost/beast/websocket/detail/prng.hpp>
+#include <sstd/boost/beast/websocket/detail/hybi13.hpp>
+#include <sstd/boost/beast/core/detail/sha1.hpp>
+#include <sstd/boost/beast/websocket/detail/prng.hpp>
 
-#include <boost/assert.hpp>
+#include <sstd/boost/assert.hpp>
 #include <cstdint>
 #include <string>
 
@@ -65,3 +65,4 @@ make_sec_ws_accept(
 } // boost
 
 #endif // BOOST_BEAST_WEBSOCKET_DETAIL_HYBI13_IPP
+

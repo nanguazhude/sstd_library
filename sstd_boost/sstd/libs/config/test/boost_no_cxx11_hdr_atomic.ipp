@@ -1,4 +1,4 @@
-//  (C) Copyright John Maddock 2013
+﻿//  (C) Copyright John Maddock 2013
 
 //  Use, modification and distribution are subject to the
 //  Boost Software License, Version 1.0. (See accompanying file
@@ -23,7 +23,7 @@ namespace boost_no_cxx11_hdr_atomic {
 
 int test()
 {
-   std::memory_order m = static_cast<std::memory_order>(std::memory_order_relaxed | std::memory_order_consume | std::memory_order_acquire | std::memory_order_release 
+   std::memory_order m = static_cast<std::memory_order>(std::memory_order_relaxed | std::memory_order_consume | std::memory_order_acquire | std::memory_order_release
                            | std::memory_order_acq_rel | std::memory_order_seq_cst);
    (void)m;
 
@@ -90,3 +90,4 @@ int test()
 }
 
 }
+

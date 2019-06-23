@@ -1,4 +1,4 @@
-//  (C) Copyright Gennadiy Rozental 2001.
+﻿//  (C) Copyright Gennadiy Rozental 2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
 //  http://www.boost.org/LICENSE_1_0.txt)
@@ -16,26 +16,26 @@
 #define BOOST_TEST_COMPILER_LOG_FORMATTER_IPP_020105GER
 
 // Boost.Test
-#include <boost/test/output/compiler_log_formatter.hpp>
+#include <sstd/boost/test/output/compiler_log_formatter.hpp>
 
-#include <boost/test/framework.hpp>
-#include <boost/test/execution_monitor.hpp>
-#include <boost/test/unit_test_parameters.hpp>
+#include <sstd/boost/test/framework.hpp>
+#include <sstd/boost/test/execution_monitor.hpp>
+#include <sstd/boost/test/unit_test_parameters.hpp>
 
-#include <boost/test/tree/test_unit.hpp>
+#include <sstd/boost/test/tree/test_unit.hpp>
 
-#include <boost/test/utils/basic_cstring/io.hpp>
-#include <boost/test/utils/lazy_ostream.hpp>
-#include <boost/test/utils/setcolor.hpp>
+#include <sstd/boost/test/utils/basic_cstring/io.hpp>
+#include <sstd/boost/test/utils/lazy_ostream.hpp>
+#include <sstd/boost/test/utils/setcolor.hpp>
 
 
 // Boost
-#include <boost/version.hpp>
+#include <sstd/boost/version.hpp>
 
 // STL
 #include <iostream>
 
-#include <boost/test/detail/suppress_warnings.hpp>
+#include <sstd/boost/test/detail/suppress_warnings.hpp>
 
 //____________________________________________________________________________//
 
@@ -290,6 +290,7 @@ compiler_log_formatter::log_entry_context( std::ostream& output, log_level /*l*/
 } // namespace unit_test
 } // namespace boost
 
-#include <boost/test/detail/enable_warnings.hpp>
+#include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_COMPILER_LOG_FORMATTER_IPP_020105GER
+

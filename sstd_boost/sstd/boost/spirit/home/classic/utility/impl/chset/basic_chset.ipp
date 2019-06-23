@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2001-2003 Joel de Guzman
     Copyright (c) 2001-2003 Daniel Nuffer
     http://spirit.sourceforge.net/
@@ -12,7 +12,7 @@
 
 ///////////////////////////////////////////////////////////////////////////////
 #include <bitset>
-#include <boost/spirit/home/classic/utility/impl/chset/basic_chset.hpp>
+#include <sstd/boost/spirit/home/classic/utility/impl/chset/basic_chset.hpp>
 
 ///////////////////////////////////////////////////////////////////////////////
 namespace boost { namespace spirit {
@@ -243,4 +243,5 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} // namespace boost::spirit
 
 #endif
+
 

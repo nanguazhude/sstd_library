@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 1998-2003 Joel de Guzman
     http://spirit.sourceforge.net/
 
@@ -10,21 +10,21 @@
 #define BOOST_SPIRIT_RULE_IPP
 
 #if BOOST_SPIRIT_RULE_SCANNERTYPE_LIMIT > 1
-#include <boost/preprocessor/repeat.hpp>
-#include <boost/preprocessor/repeat_from_to.hpp>
-#include <boost/preprocessor/enum_params.hpp>
-#include <boost/preprocessor/enum_params_with_defaults.hpp>
-#include <boost/preprocessor/facilities/intercept.hpp>
-#include <boost/preprocessor/inc.hpp>
-#include <boost/preprocessor/cat.hpp>
+#include <sstd/boost/preprocessor/repeat.hpp>
+#include <sstd/boost/preprocessor/repeat_from_to.hpp>
+#include <sstd/boost/preprocessor/enum_params.hpp>
+#include <sstd/boost/preprocessor/enum_params_with_defaults.hpp>
+#include <sstd/boost/preprocessor/facilities/intercept.hpp>
+#include <sstd/boost/preprocessor/inc.hpp>
+#include <sstd/boost/preprocessor/cat.hpp>
 #endif
 
-#include <boost/spirit/home/classic/core/parser.hpp>
-#include <boost/spirit/home/classic/core/scanner/scanner.hpp>
-#include <boost/spirit/home/classic/core/non_terminal/parser_context.hpp>
-#include <boost/spirit/home/classic/core/non_terminal/parser_id.hpp>
-#include <boost/type_traits/is_base_and_derived.hpp>
-#include <boost/mpl/if.hpp>
+#include <sstd/boost/spirit/home/classic/core/parser.hpp>
+#include <sstd/boost/spirit/home/classic/core/scanner/scanner.hpp>
+#include <sstd/boost/spirit/home/classic/core/non_terminal/parser_context.hpp>
+#include <sstd/boost/spirit/home/classic/core/non_terminal/parser_id.hpp>
+#include <sstd/boost/type_traits/is_base_and_derived.hpp>
+#include <sstd/boost/mpl/if.hpp>
 
 ///////////////////////////////////////////////////////////////////////////////
 namespace boost { namespace spirit {
@@ -228,7 +228,7 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_BEGIN
 #pragma warning(push)
 #pragma warning(disable:4512) //assignment operator could not be generated
 #endif
-        
+
         template <typename ParserT, typename ScannerT, typename AttrT>
         struct concrete_parser : abstract_parser<ScannerT, AttrT>
         {
@@ -249,7 +249,7 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_BEGIN
 
             typename ParserT::embed_t p;
         };
-        
+
 #if BOOST_WORKAROUND(BOOST_MSVC, >= 1400)
 #pragma warning(pop)
 #endif
@@ -419,3 +419,4 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} // namespace boost::spirit
 
 #endif
+

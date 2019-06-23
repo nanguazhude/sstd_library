@@ -1,4 +1,4 @@
-// Copyright (c) 2014 Kohei Takahashi.
+﻿// Copyright (c) 2014 Kohei Takahashi.
 //
 // Distributed under the Boost Software License, Version 1.0. (See
 // accompanying file LICENSE_1_0.txt or copy at
@@ -6,11 +6,11 @@
 //
 //  See http://www.boost.org for most recent version including documentation.
 
-#include <boost/detail/lightweight_test.hpp>
+#include <sstd/boost/detail/lightweight_test.hpp>
 
-#include <boost/assign/list_of.hpp>
-#include <boost/fusion/include/at.hpp>
-#include <boost/iterator/zip_iterator.hpp>
+#include <sstd/boost/assign/list_of.hpp>
+#include <sstd/boost/fusion/include/at.hpp>
+#include <sstd/boost/iterator/zip_iterator.hpp>
 #include <vector>
 #include <string>
 
@@ -83,3 +83,4 @@ int main()
 
     return boost::report_errors();
 }
+

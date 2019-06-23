@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2002 Juan Carlos Arevalo-Baeza
     Copyright (c) 2002-2006 Hartmut Kaiser
     Copyright (c) 2003 Giovanni Bajo
@@ -11,12 +11,12 @@
 #ifndef POSITION_ITERATOR_IPP
 #define POSITION_ITERATOR_IPP
 
-#include <boost/config.hpp>
-#include <boost/iterator_adaptors.hpp>
-#include <boost/type_traits/add_const.hpp>
-#include <boost/mpl/if.hpp>
-#include <boost/type_traits/is_same.hpp>
-#include <boost/spirit/home/classic/core/nil.hpp>  // for nil_t
+#include <sstd/boost/config.hpp>
+#include <sstd/boost/iterator_adaptors.hpp>
+#include <sstd/boost/type_traits/add_const.hpp>
+#include <sstd/boost/mpl/if.hpp>
+#include <sstd/boost/type_traits/is_same.hpp>
+#include <sstd/boost/spirit/home/classic/core/nil.hpp>  // for nil_t
 #include <iterator> // for std::iterator_traits
 
 namespace boost { namespace spirit {
@@ -148,3 +148,4 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} /* namespace boost::spirit::iterator_::impl */
 
 #endif
+

@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2001-2003 Joel de Guzman
     Copyright (c) 2001-2003 Daniel Nuffer
     http://spirit.sourceforge.net/
@@ -12,7 +12,7 @@
 
 ///////////////////////////////////////////////////////////////////////////////
 #include <bitset>
-#include <boost/xpressive/detail/utility/chset/basic_chset.hpp>
+#include <sstd/boost/xpressive/detail/utility/chset/basic_chset.hpp>
 
 ///////////////////////////////////////////////////////////////////////////////
 namespace boost { namespace xpressive { namespace detail
@@ -406,4 +406,5 @@ inline void set_class(basic_chset<Char> &chset, typename Traits::char_class_type
 }}} // namespace boost::xpressive::detail
 
 #endif
+
 

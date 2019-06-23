@@ -1,4 +1,4 @@
-/* test_distribution.ipp
+﻿/* test_distribution.ipp
  *
  * Copyright Steven Watanabe 2010
  * Distributed under the Boost Software License, Version 1.0. (See
@@ -9,13 +9,13 @@
  *
  */
 
-#include <boost/random/linear_congruential.hpp>
-#include <boost/random/lagged_fibonacci.hpp>
+#include <sstd/boost/random/linear_congruential.hpp>
+#include <sstd/boost/random/lagged_fibonacci.hpp>
 #include <sstream>
 #include "concepts.hpp"
 
 #define BOOST_TEST_MAIN
-#include <boost/test/unit_test.hpp>
+#include <sstd/boost/test/unit_test.hpp>
 
 using boost::random::test::RandomNumberDistribution;
 BOOST_CONCEPT_ASSERT((RandomNumberDistribution< BOOST_RANDOM_DISTRIBUTION >));
@@ -287,4 +287,5 @@ BOOST_AUTO_TEST_CASE(test_generation_float) {
 #endif
     }
 }
+
 

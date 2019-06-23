@@ -1,4 +1,4 @@
-case 0x80000002: return EACCES;
+﻿case 0x80000002: return EACCES;
 case 0x8000000f: return EAGAIN;
 case 0x80000010: return EAGAIN;
 case 0x80000011: return EBUSY;
@@ -96,3 +96,4 @@ case 0xc0000720: return ENOSYS;
 case 0xc0000721: return ENOSYS;
 case 0xc000080f: return EAGAIN;
 case 0xc000a203: return EACCES;
+

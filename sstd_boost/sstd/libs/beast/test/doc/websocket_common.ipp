@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright (c) 2016-2019 Vinnie Falco (vinnie dot falco at gmail dot com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -19,3 +19,4 @@ tcp_stream sock(ioc);
 net::ssl::context ctx(net::ssl::context::tlsv12);
 
 //]
+

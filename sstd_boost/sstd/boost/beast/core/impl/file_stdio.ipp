@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright (c) 2015-2019 Vinnie Falco (vinnie dot falco at gmail dot com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -10,9 +10,9 @@
 #ifndef BOOST_BEAST_CORE_IMPL_FILE_STDIO_IPP
 #define BOOST_BEAST_CORE_IMPL_FILE_STDIO_IPP
 
-#include <boost/beast/core/file_stdio.hpp>
-#include <boost/config/workaround.hpp>
-#include <boost/core/exchange.hpp>
+#include <sstd/boost/beast/core/file_stdio.hpp>
+#include <sstd/boost/config/workaround.hpp>
+#include <sstd/boost/core/exchange.hpp>
 #include <limits>
 
 namespace boost {
@@ -118,7 +118,7 @@ open(char const* path, file_mode mode, error_code& ec)
         }
         s = "wb";
 #else
-        
+
         s = "wbx";
 #endif
         break;
@@ -294,3 +294,4 @@ write(void const* buffer, std::size_t n, error_code& ec)
 } // boost
 
 #endif
+

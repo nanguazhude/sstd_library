@@ -1,4 +1,4 @@
-//  (C) Copyright Gennadiy Rozental 2001.
+﻿//  (C) Copyright Gennadiy Rozental 2001.
 //  (C) Copyright Beman Dawes 1995-2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
@@ -17,20 +17,20 @@
 #define BOOST_TEST_CPP_MAIN_IPP_012205GER
 
 // Boost.Test
-#include <boost/test/execution_monitor.hpp>
-#include <boost/test/detail/config.hpp>
-#include <boost/test/utils/basic_cstring/io.hpp>
+#include <sstd/boost/test/execution_monitor.hpp>
+#include <sstd/boost/test/detail/config.hpp>
+#include <sstd/boost/test/utils/basic_cstring/io.hpp>
 
 // Boost
-#include <boost/cstdlib.hpp>    // for exit codes
-#include <boost/config.hpp>     // for workarounds
+#include <sstd/boost/cstdlib.hpp>    // for exit codes
+#include <sstd/boost/config.hpp>     // for workarounds
 
 // STL
 #include <iostream>
 #include <cstdlib>      // std::getenv
 #include <cstring>      // std::strerror
 
-#include <boost/test/detail/suppress_warnings.hpp>
+#include <sstd/boost/test/detail/suppress_warnings.hpp>
 
 //____________________________________________________________________________//
 
@@ -131,6 +131,7 @@ main( int argc, char* argv[] )
 
 #endif // !BOOST_TEST_DYN_LINK && !BOOST_TEST_NO_MAIN
 
-#include <boost/test/detail/enable_warnings.hpp>
+#include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_CPP_MAIN_IPP_012205GER
+

@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2002-2003 Hartmut Kaiser
     http://spirit.sourceforge.net/
 
@@ -10,7 +10,7 @@
 #define BOOST_SPIRIT_LISTS_IPP
 
 ///////////////////////////////////////////////////////////////////////////////
-#include <boost/spirit/home/classic/meta/refactoring.hpp>
+#include <sstd/boost/spirit/home/classic/meta/refactoring.hpp>
 
 ///////////////////////////////////////////////////////////////////////////////
 namespace boost { namespace spirit {
@@ -165,4 +165,5 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} // namespace boost::spirit
 
 #endif
+
 

@@ -1,4 +1,4 @@
-
+﻿
 //          Copyright Oliver Kowalke 2014.
 // Distributed under the Boost Software License, Version 1.0.
 //    (See accompanying file LICENSE_1_0.txt or copy at
@@ -11,13 +11,13 @@
 #include <memory>
 #include <utility>
 
-#include <boost/assert.hpp>
-#include <boost/config.hpp>
+#include <sstd/boost/assert.hpp>
+#include <sstd/boost/config.hpp>
 
-#include <boost/context/preallocated.hpp>
-#include <boost/context/stack_context.hpp>
+#include <sstd/boost/context/preallocated.hpp>
+#include <sstd/boost/context/stack_context.hpp>
 
-#include <boost/coroutine2/detail/config.hpp>
+#include <sstd/boost/coroutine2/detail/config.hpp>
 
 #ifdef BOOST_HAS_ABI_HEADERS
 #  include BOOST_ABI_PREFIX
@@ -58,3 +58,4 @@ ControlBlock * create_control_block( StackAllocator && salloc, Fn && fn) {
 #endif
 
 #endif // BOOST_COROUTINES2_DETAIL_CREATE_CONTROLBLOCK_IPP
+

@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2001-2003 Joel de Guzman
     http://spirit.sourceforge.net/
 
@@ -10,8 +10,8 @@
 #define BOOST_SPIRIT_SYMBOLS_IPP
 
 ///////////////////////////////////////////////////////////////////////////////
-#include <boost/spirit/home/classic/symbols/impl/tst.ipp>
-#include <boost/detail/workaround.hpp>
+#include <sstd/boost/spirit/home/classic/symbols/impl/tst.ipp>
+#include <sstd/boost/detail/workaround.hpp>
 
 // MSVC: void warning about the use of 'this' pointer in constructors
 #if defined(BOOST_MSVC)
@@ -116,3 +116,4 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 #endif
 
 #endif
+

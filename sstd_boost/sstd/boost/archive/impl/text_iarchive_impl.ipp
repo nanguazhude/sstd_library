@@ -1,4 +1,4 @@
-/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
+﻿/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // text_iarchive_impl.ipp:
 
 // (C) Copyright 2002 Robert Ramey - http://www.rrsd.com .
@@ -13,16 +13,16 @@
 // of template parameters used to implement a text_iprimitive
 
 #include <cstddef> // size_t, NULL
-#include <boost/config.hpp>
+#include <sstd/boost/config.hpp>
 #if defined(BOOST_NO_STDC_NAMESPACE)
-namespace std{ 
-    using ::size_t; 
+namespace std{
+    using ::size_t;
 } // namespace std
 #endif
 
-#include <boost/detail/workaround.hpp> // RogueWave
+#include <sstd/boost/detail/workaround.hpp> // RogueWave
 
-#include <boost/archive/text_iarchive.hpp>
+#include <sstd/boost/archive/text_iarchive.hpp>
 
 namespace boost {
 namespace archive {
@@ -105,13 +105,13 @@ text_iarchive_impl<Archive>::init(){
 }
 
 template<class Archive>
-BOOST_ARCHIVE_DECL 
+BOOST_ARCHIVE_DECL
 text_iarchive_impl<Archive>::text_iarchive_impl(
-    std::istream & is, 
+    std::istream & is,
     unsigned int flags
 ) :
     basic_text_iprimitive<std::istream>(
-        is, 
+        is,
         0 != (flags & no_codecvt)
     ),
     basic_text_iarchive<Archive>(flags)
@@ -126,3 +126,4 @@ text_iarchive_impl<Archive>::text_iarchive_impl(
 
 } // namespace archive
 } // namespace boost
+

@@ -1,24 +1,24 @@
-/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
+﻿/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // utf8_codecvt_facet.ipp
 
 // Copyright (c) 2001 Ronald Garcia, Indiana University (garcia@osl.iu.edu)
-// Andrew Lumsdaine, Indiana University (lums@osl.iu.edu). 
+// Andrew Lumsdaine, Indiana University (lums@osl.iu.edu).
 // Use, modification and distribution is subject to the Boost Software
 // License, Version 1.0. (See accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
 
-// Please see the comments in <boost/detail/utf8_codecvt_facet.hpp> to
+// Please see the comments in <sstd/boost/detail/utf8_codecvt_facet.hpp> to
 // learn how this file should be used.
 
-#include <boost/detail/utf8_codecvt_facet.hpp>
+#include <sstd/boost/detail/utf8_codecvt_facet.hpp>
 
 #include <cstdlib> // for multi-byte converson routines
 #include <cassert>
 
-#include <boost/limits.hpp>
-#include <boost/config.hpp>
+#include <sstd/boost/limits.hpp>
+#include <sstd/boost/config.hpp>
 
-// If we don't have wstring, then Unicode support 
+// If we don't have wstring, then Unicode support
 // is not available anyway, so we don't need to even
 // compiler this file. This also fixes the problem
 // with mingw, which can compile this file, but will
@@ -41,12 +41,12 @@ utf8_codecvt_facet::~utf8_codecvt_facet()
 
 // Translate incoming UTF-8 into UCS-4
 std::codecvt_base::result utf8_codecvt_facet::do_in(
-    std::mbstate_t& /*state*/, 
+    std::mbstate_t& /*state*/,
     const char * from,
-    const char * from_end, 
+    const char * from_end,
     const char * & from_next,
-    wchar_t * to, 
-    wchar_t * to_end, 
+    wchar_t * to,
+    wchar_t * to_end,
     wchar_t * & to_next
 ) const {
     // Basic algorithm:  The first octet determines how many
@@ -66,7 +66,7 @@ std::codecvt_base::result utf8_codecvt_facet::do_in(
             return std::codecvt_base::error;
         }
 
-        // The first octet is   adjusted by a value dependent upon 
+        // The first octet is   adjusted by a value dependent upon
         // the number   of "continuing octets" encoding the character
         const   int cont_octet_count = get_cont_octet_count(*from);
         const   wchar_t octet1_modifier_table[] =   {
@@ -75,12 +75,12 @@ std::codecvt_base::result utf8_codecvt_facet::do_in(
 
         // The unsigned char conversion is necessary in case char is
         // signed   (I learned this the hard way)
-        wchar_t ucs_result = 
+        wchar_t ucs_result =
             (unsigned char)(*from++) - octet1_modifier_table[cont_octet_count];
 
-        // Invariants   : 
+        // Invariants   :
         //   1) At the start of the loop,   'i' continuing characters have been
-        //    processed 
+        //    processed
         //   2) *from   points to the next continuing character to be processed.
         int i   = 0;
         while(i != cont_octet_count && from != from_end) {
@@ -92,9 +92,9 @@ std::codecvt_base::result utf8_codecvt_facet::do_in(
                 return std::codecvt_base::error;
             }
 
-            ucs_result *= (1 << 6); 
+            ucs_result *= (1 << 6);
 
-            // each continuing character has an extra (10xxxxxx)b attached to 
+            // each continuing character has an extra (10xxxxxx)b attached to
             // it that must be removed.
             ucs_result += (unsigned char)(*from++) - 0x80;
             ++i;
@@ -103,7 +103,7 @@ std::codecvt_base::result utf8_codecvt_facet::do_in(
         // If   the buffer ends with an incomplete unicode character...
         if (from == from_end && i   != cont_octet_count) {
             // rewind "from" to before the current character translation
-            from_next = from - (i+1); 
+            from_next = from - (i+1);
             to_next = to;
             return std::codecvt_base::partial;
         }
@@ -118,12 +118,12 @@ std::codecvt_base::result utf8_codecvt_facet::do_in(
 }
 
 std::codecvt_base::result utf8_codecvt_facet::do_out(
-    std::mbstate_t& /*state*/, 
+    std::mbstate_t& /*state*/,
     const wchar_t *   from,
-    const wchar_t * from_end, 
+    const wchar_t * from_end,
     const wchar_t * & from_next,
-    char * to, 
-    char * to_end, 
+    char * to,
+    char * to_end,
     char * & to_next
 ) const
 {
@@ -151,7 +151,7 @@ std::codecvt_base::result utf8_codecvt_facet::do_out(
         *to++ = static_cast<char>(octet1_modifier_table[cont_octet_count] +
             (unsigned char)(*from / (1 << shift_exponent)));
 
-        // Process the continuation characters 
+        // Process the continuation characters
         // Invariants: At   the start of the loop:
         //   1) 'i' continuing octets   have been generated
         //   2) '*to'   points to the next location to place an octet
@@ -182,13 +182,13 @@ std::codecvt_base::result utf8_codecvt_facet::do_out(
 int utf8_codecvt_facet::do_length(
     std::mbstate_t &,
     const char * from,
-    const char * from_end, 
+    const char * from_end,
     std::size_t max_limit
 ) const
 #if BOOST_WORKAROUND(__IBMCPP__, BOOST_TESTED_AT(600))
         throw()
 #endif
-{ 
+{
     // RG - this code is confusing!  I need a better way to express it.
     // and test cases.
 
@@ -197,7 +197,7 @@ int utf8_codecvt_facet::do_length(
     // 2) char_count holds the number of characters shown to fit
     // within the bounds so far (no greater than max_limit)
     // 3) from_next points to the octet 'last_octet_count' before the
-    // last measured character.  
+    // last measured character.
     int last_octet_count=0;
     std::size_t char_count = 0;
     const char* from_next = from;
@@ -252,7 +252,7 @@ int get_cont_octet_out_count_impl<4>(wchar_t word){
     // where wchar_t is defined as UCS2.  The warnings are superfluous as the
     // specialization is never instantitiated with such compilers, but this
     // can cause problems if warnings are being treated as errors, so we guard
-    // against that.  Including <boost/detail/utf8_codecvt_facet.hpp> as we do
+    // against that.  Including <sstd/boost/detail/utf8_codecvt_facet.hpp> as we do
     // should be enough to get WCHAR_MAX defined.
 #if !defined(WCHAR_MAX)
 #   error WCHAR_MAX not defined!
@@ -261,7 +261,7 @@ int get_cont_octet_out_count_impl<4>(wchar_t word){
 #if defined(_MSC_VER) && _MSC_VER <= 1310 // 7.1 or earlier
     return 2;
 #elif WCHAR_MAX > 0x10000
-    
+
    if (word < 0x10000) {
         return 2;
     }
@@ -272,7 +272,7 @@ int get_cont_octet_out_count_impl<4>(wchar_t word){
         return 4;
     }
     return 5;
-    
+
 #else
     return 2;
 #endif
@@ -290,3 +290,4 @@ int utf8_codecvt_facet::get_cont_octet_out_count(
 BOOST_UTF8_END_NAMESPACE
 
 #endif
+

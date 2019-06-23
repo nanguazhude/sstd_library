@@ -1,4 +1,4 @@
-
+﻿
 //          Copyright Oliver Kowalke 2014.
 // Distributed under the Boost Software License, Version 1.0.
 //    (See accompanying file LICENSE_1_0.txt or copy at
@@ -9,14 +9,14 @@
 
 #include <utility>
 
-#include <boost/assert.hpp>
-#include <boost/config.hpp>
+#include <sstd/boost/assert.hpp>
+#include <sstd/boost/config.hpp>
 
-#include <boost/coroutine2/detail/config.hpp>
-#include <boost/coroutine2/detail/create_control_block.ipp>
-#include <boost/coroutine2/detail/disable_overload.hpp>
-#include <boost/coroutine2/fixedsize_stack.hpp>
-#include <boost/coroutine2/segmented_stack.hpp>
+#include <sstd/boost/coroutine2/detail/config.hpp>
+#include <sstd/boost/coroutine2/detail/create_control_block.ipp>
+#include <sstd/boost/coroutine2/detail/disable_overload.hpp>
+#include <sstd/boost/coroutine2/fixedsize_stack.hpp>
+#include <sstd/boost/coroutine2/segmented_stack.hpp>
 
 #ifdef BOOST_HAS_ABI_HEADERS
 #  include BOOST_ABI_PREFIX
@@ -196,3 +196,4 @@ push_coroutine< void >::operator!() const noexcept {
 #endif
 
 #endif // BOOST_COROUTINES2_DETAIL_PUSH_COROUTINE_IPP
+

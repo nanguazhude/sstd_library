@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 1998-2003 Joel de Guzman
     Copyright (c) 2001 Daniel Nuffer
     Copyright (c) 2002 Hartmut Kaiser
@@ -27,28 +27,28 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_BEGIN
     {
         return a.derived() >> *(b.derived() >> a.derived());
     }
-    
+
     template <typename A>
     inline sequence<A, kleene_star<sequence<chlit<char>, A> > >
     operator%(parser<A> const& a, char b)
     {
         return a.derived() >> *(b >> a.derived());
     }
-    
+
     template <typename B>
     inline sequence<chlit<char>, kleene_star<sequence<B, chlit<char> > > >
     operator%(char a, parser<B> const& b)
     {
         return a >> *(b.derived() >> a);
     }
-    
+
     template <typename A>
     inline sequence<A, kleene_star<sequence<strlit<char const*>, A> > >
     operator%(parser<A> const& a, char const* b)
     {
         return a.derived() >> *(b >> a.derived());
     }
-    
+
     template <typename B>
     inline sequence<strlit<char const*>,
         kleene_star<sequence<B, strlit<char const*> > > >
@@ -56,28 +56,28 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_BEGIN
     {
         return a >> *(b.derived() >> a);
     }
-    
+
     template <typename A>
     inline sequence<A, kleene_star<sequence<chlit<wchar_t>, A> > >
     operator%(parser<A> const& a, wchar_t b)
     {
         return a.derived() >> *(b >> a.derived());
     }
-    
+
     template <typename B>
     inline sequence<chlit<wchar_t>, kleene_star<sequence<B, chlit<wchar_t> > > >
     operator%(wchar_t a, parser<B> const& b)
     {
         return a >> *(b.derived() >> a);
     }
-    
+
     template <typename A>
     inline sequence<A, kleene_star<sequence<strlit<wchar_t const*>, A> > >
     operator%(parser<A> const& a, wchar_t const* b)
     {
         return a.derived() >> *(b >> a.derived());
     }
-    
+
     template <typename B>
     inline sequence<strlit<wchar_t const*>,
         kleene_star<sequence<B, strlit<wchar_t const*> > > >
@@ -91,3 +91,4 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} // namespace boost::spirit
 
 #endif
+

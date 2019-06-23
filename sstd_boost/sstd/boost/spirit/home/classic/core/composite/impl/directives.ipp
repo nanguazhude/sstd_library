@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 1998-2003 Joel de Guzman
     Copyright (c) 2001 Daniel Nuffer
     Copyright (c) 2001 Bruce Florman
@@ -13,7 +13,7 @@
 #define BOOST_SPIRIT_DIRECTIVES_IPP
 
 ///////////////////////////////////////////////////////////////////////////////
-#include <boost/spirit/home/classic/core/scanner/skipper.hpp>
+#include <sstd/boost/spirit/home/classic/core/scanner/skipper.hpp>
 
 namespace boost { namespace spirit {
 
@@ -207,4 +207,5 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} // namespace boost::spirit
 
 #endif
+
 

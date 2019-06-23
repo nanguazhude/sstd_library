@@ -1,4 +1,4 @@
-/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
+﻿/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // archive_serializer_map.ipp:
 
 // (C) Copyright 2002 Robert Ramey - http://www.rrsd.com .
@@ -12,10 +12,10 @@
 // implementation of basic_text_iprimitive overrides for the combination
 // of template parameters used to implement a text_iprimitive
 
-#include <boost/config.hpp>
-#include <boost/archive/detail/archive_serializer_map.hpp>
-#include <boost/archive/detail/basic_serializer_map.hpp>
-#include <boost/serialization/singleton.hpp>
+#include <sstd/boost/config.hpp>
+#include <sstd/boost/archive/detail/archive_serializer_map.hpp>
+#include <sstd/boost/archive/detail/basic_serializer_map.hpp>
+#include <sstd/boost/serialization/singleton.hpp>
 
 namespace boost {
 namespace archive {
@@ -28,7 +28,7 @@ namespace detail {
 
 namespace extra_detail { // anon
     template<class Archive>
-    class map : public basic_serializer_map 
+    class map : public basic_serializer_map
     {};
 }
 
@@ -73,3 +73,4 @@ archive_serializer_map<Archive>::find(
 } // namespace detail
 } // namespace archive
 } // namespace boost
+

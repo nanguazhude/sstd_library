@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2003 Hartmut Kaiser
     http://spirit.sourceforge.net/
 
@@ -9,23 +9,23 @@
 #ifndef BOOST_SPIRIT_SWITCH_IPP
 #define BOOST_SPIRIT_SWITCH_IPP
 
-#include <boost/mpl/if.hpp>
-#include <boost/type_traits/is_same.hpp>
-#include <boost/static_assert.hpp>
-#include <boost/core/ignore_unused.hpp>
+#include <sstd/boost/mpl/if.hpp>
+#include <sstd/boost/type_traits/is_same.hpp>
+#include <sstd/boost/static_assert.hpp>
+#include <sstd/boost/core/ignore_unused.hpp>
 
-#include <boost/preprocessor/cat.hpp>
-#include <boost/preprocessor/inc.hpp>
-#include <boost/preprocessor/repeat.hpp>
-#include <boost/preprocessor/repeat_from_to.hpp>
+#include <sstd/boost/preprocessor/cat.hpp>
+#include <sstd/boost/preprocessor/inc.hpp>
+#include <sstd/boost/preprocessor/repeat.hpp>
+#include <sstd/boost/preprocessor/repeat_from_to.hpp>
 
-#include <boost/spirit/home/classic/core/parser.hpp>
-#include <boost/spirit/home/classic/core/primitives/primitives.hpp>
-#include <boost/spirit/home/classic/core/composite/composite.hpp>
-#include <boost/spirit/home/classic/meta/as_parser.hpp>
+#include <sstd/boost/spirit/home/classic/core/parser.hpp>
+#include <sstd/boost/spirit/home/classic/core/primitives/primitives.hpp>
+#include <sstd/boost/spirit/home/classic/core/composite/composite.hpp>
+#include <sstd/boost/spirit/home/classic/meta/as_parser.hpp>
 
-#include <boost/spirit/home/classic/phoenix/actor.hpp>
-#include <boost/spirit/home/classic/phoenix/tuples.hpp>
+#include <sstd/boost/spirit/home/classic/phoenix/actor.hpp>
+#include <sstd/boost/spirit/home/classic/phoenix/tuples.hpp>
 
 ///////////////////////////////////////////////////////////////////////////////
 namespace boost { namespace spirit {
@@ -573,3 +573,4 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }}  // namespace boost::spirit
 
 #endif  // BOOST_SPIRIT_SWITCH_IPP
+

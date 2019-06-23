@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2001-2003 Joel de Guzman
     http://spirit.sourceforge.net/
 
@@ -10,7 +10,7 @@
 #define BOOST_SPIRIT_CHSET_OPERATORS_IPP
 
 ///////////////////////////////////////////////////////////////////////////////
-#include <boost/limits.hpp>
+#include <sstd/boost/limits.hpp>
 
 ///////////////////////////////////////////////////////////////////////////////
 namespace boost { namespace spirit {
@@ -589,4 +589,5 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} // namespace boost::spirit
 
 #endif
+
 

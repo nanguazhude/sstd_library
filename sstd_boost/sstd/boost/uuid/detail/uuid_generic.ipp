@@ -1,4 +1,4 @@
-/*
+﻿/*
  *             Copyright Andy Tompkins 2006.
  * Distributed under the Boost Software License, Version 1.0.
  *    (See accompanying file LICENSE_1_0.txt or copy at
@@ -49,3 +49,4 @@ inline bool operator< (uuid const& lhs, uuid const& rhs) BOOST_NOEXCEPT
 } // namespace boost
 
 #endif // BOOST_UUID_DETAIL_UUID_GENERIC_IPP_INCLUDED_
+

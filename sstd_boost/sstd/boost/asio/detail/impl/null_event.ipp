@@ -1,4 +1,4 @@
-//
+﻿//
 // detail/impl/null_event.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
@@ -15,12 +15,12 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
 
 #if defined(BOOST_ASIO_WINDOWS_RUNTIME)
 # include <thread>
 #elif defined(BOOST_ASIO_WINDOWS) || defined(__CYGWIN__)
-# include <boost/asio/detail/socket_types.hpp>
+# include <sstd/boost/asio/detail/socket_types.hpp>
 #else
 # include <unistd.h>
 # if defined(__hpux)
@@ -31,7 +31,7 @@
 # endif
 #endif
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -71,6 +71,7 @@ void null_event::do_wait_for_usec(long usec)
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_IMPL_NULL_EVENT_IPP
+

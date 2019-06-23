@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 1998-2003 Joel de Guzman
     http://spirit.sourceforge.net/
 
@@ -9,13 +9,13 @@
 #if !defined(BOOST_SPIRIT_MATCH_ATTR_TRAITS_IPP)
 #define BOOST_SPIRIT_MATCH_ATTR_TRAITS_IPP
 
-#include <boost/optional.hpp>
-#include <boost/mpl/bool.hpp>
-#include <boost/mpl/or.hpp>
-#include <boost/type_traits/is_convertible.hpp>
-#include <boost/type_traits/is_same.hpp>
+#include <sstd/boost/optional.hpp>
+#include <sstd/boost/mpl/bool.hpp>
+#include <sstd/boost/mpl/or.hpp>
+#include <sstd/boost/type_traits/is_convertible.hpp>
+#include <sstd/boost/type_traits/is_same.hpp>
 
-namespace boost { namespace spirit { 
+namespace boost { namespace spirit {
 
 BOOST_SPIRIT_CLASSIC_NAMESPACE_BEGIN
 
@@ -32,28 +32,28 @@ namespace impl
         template <typename T2>
         static void
         convert(boost::optional<T>& dest, T2 const& src, mpl::true_)
-        { 
-            dest.reset(src); 
+        {
+            dest.reset(src);
         }
 
         //  case where src *IS NOT* convertible to T (dest)
         template <typename T2>
         static void
         convert(boost::optional<T>& dest, T2 const& /*src*/, mpl::false_)
-        { 
-            dest.reset(); 
+        {
+            dest.reset();
         }
 
         static void
         convert(boost::optional<T>& dest, nil_t/*src*/)
-        { 
-            dest.reset(); 
+        {
+            dest.reset();
         }
-        
+
         template <typename T2>
         static void
         convert(boost::optional<T>& dest, T2 const& src)
-        { 
+        {
             convert(dest, src, is_convertible<T2, T>());
         }
 
@@ -99,4 +99,5 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} // namespace boost::spirit::impl
 
 #endif
+
 

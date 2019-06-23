@@ -1,4 +1,4 @@
-// Copyright John Maddock 2008-11.
+﻿// Copyright John Maddock 2008-11.
 // Use, modification and distribution are subject to the
 // Boost Software License, Version 1.0.
 // (See accompanying file LICENSE_1_0.txt
@@ -808,3 +808,4 @@
 #define sph_neumannl boost_sph_neumannl
 
 #endif // BOOST_MATH_C_MACROS_IPP
+

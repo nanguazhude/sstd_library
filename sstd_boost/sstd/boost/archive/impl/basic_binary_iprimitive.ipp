@@ -1,29 +1,29 @@
-/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
+﻿/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // basic_binary_iprimitive.ipp:
 
-// (C) Copyright 2002 Robert Ramey - http://www.rrsd.com . 
+// (C) Copyright 2002 Robert Ramey - http://www.rrsd.com .
 // Use, modification and distribution is subject to the Boost Software
 // License, Version 1.0. (See accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
 
 //  See http://www.boost.org for updates, documentation, and revision history.
 
-#include <boost/assert.hpp>
+#include <sstd/boost/assert.hpp>
 #include <cstddef> // size_t, NULL
 #include <cstring> // memcpy
 
-#include <boost/config.hpp>
+#include <sstd/boost/config.hpp>
 #if defined(BOOST_NO_STDC_NAMESPACE)
-namespace std{ 
+namespace std{
     using ::size_t;
     using ::memcpy;
 } // namespace std
 #endif
 
-#include <boost/serialization/throw_exception.hpp>
-#include <boost/core/no_exceptions_support.hpp>
-#include <boost/archive/archive_exception.hpp>
-#include <boost/archive/basic_binary_iprimitive.hpp> 
+#include <sstd/boost/serialization/throw_exception.hpp>
+#include <sstd/boost/core/no_exceptions_support.hpp>
+#include <sstd/boost/archive/archive_exception.hpp>
+#include <sstd/boost/archive/basic_binary_iprimitive.hpp>
 
 namespace boost {
 namespace archive {
@@ -144,7 +144,7 @@ basic_binary_iprimitive<Archive, Elem, Tr>::load(std::wstring & ws)
 template<class Archive, class Elem, class Tr>
 BOOST_ARCHIVE_OR_WARCHIVE_DECL
 basic_binary_iprimitive<Archive, Elem, Tr>::basic_binary_iprimitive(
-    std::basic_streambuf<Elem, Tr> & sb, 
+    std::basic_streambuf<Elem, Tr> & sb,
     bool no_codecvt
 ) :
 #ifndef BOOST_NO_STD_LOCALE
@@ -171,3 +171,4 @@ basic_binary_iprimitive<Archive, Elem, Tr>::~basic_binary_iprimitive(){}
 
 } // namespace archive
 } // namespace boost
+

@@ -1,4 +1,4 @@
-/*
+﻿/*
 Copyright 2018 T. Zachary Laine
 (whatwasthataddress@gmail.com)
 
@@ -43,3 +43,4 @@ int test()
 }
 
 }
+

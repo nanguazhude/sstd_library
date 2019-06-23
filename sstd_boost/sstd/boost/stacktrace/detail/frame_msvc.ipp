@@ -1,4 +1,4 @@
-// Copyright Antony Polukhin, 2016-2019.
+﻿// Copyright Antony Polukhin, 2016-2019.
 //
 // Distributed under the Boost Software License, Version 1.0. (See
 // accompanying file LICENSE_1_0.txt or copy at
@@ -7,17 +7,17 @@
 #ifndef BOOST_STACKTRACE_DETAIL_FRAME_MSVC_IPP
 #define BOOST_STACKTRACE_DETAIL_FRAME_MSVC_IPP
 
-#include <boost/config.hpp>
+#include <sstd/boost/config.hpp>
 #ifdef BOOST_HAS_PRAGMA_ONCE
 #   pragma once
 #endif
 
-#include <boost/stacktrace/frame.hpp>
+#include <sstd/boost/stacktrace/frame.hpp>
 
-#include <boost/core/demangle.hpp>
-#include <boost/core/noncopyable.hpp>
-#include <boost/stacktrace/detail/to_dec_array.hpp>
-#include <boost/stacktrace/detail/to_hex_array.hpp>
+#include <sstd/boost/core/demangle.hpp>
+#include <sstd/boost/core/noncopyable.hpp>
+#include <sstd/boost/stacktrace/detail/to_dec_array.hpp>
+#include <sstd/boost/stacktrace/detail/to_hex_array.hpp>
 #include <windows.h>
 #include "dbgeng.h"
 
@@ -52,7 +52,7 @@ public:
         : ok_(false)
     {
         // COINIT_MULTITHREADED means that we must serialize access to the objects manually.
-        // This is the fastest way to work. If user calls CoInitializeEx before us - we 
+        // This is the fastest way to work. If user calls CoInitializeEx before us - we
         // can end up with other mode (which is OK for us).
         //
         // If we call CoInitializeEx befire user - user may end up with different mode, which is a problem.
@@ -388,3 +388,4 @@ std::string to_string(const frame& f) {
 }} // namespace boost::stacktrace
 
 #endif // BOOST_STACKTRACE_DETAIL_FRAME_MSVC_IPP
+

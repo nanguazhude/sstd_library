@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2001-2003 Joel de Guzman
     http://spirit.sourceforge.net/
 
@@ -11,10 +11,10 @@
 
 ///////////////////////////////////////////////////////////////////////////////
 #include <algorithm> // for std::lower_bound
-#include <boost/spirit/home/classic/core/assert.hpp> // for BOOST_SPIRIT_ASSERT
-#include <boost/spirit/home/classic/utility/impl/chset/range_run.hpp>
-#include <boost/spirit/home/classic/debug.hpp>
-#include <boost/limits.hpp>
+#include <sstd/boost/spirit/home/classic/core/assert.hpp> // for BOOST_SPIRIT_ASSERT
+#include <sstd/boost/spirit/home/classic/utility/impl/chset/range_run.hpp>
+#include <sstd/boost/spirit/home/classic/debug.hpp>
+#include <sstd/boost/limits.hpp>
 
 ///////////////////////////////////////////////////////////////////////////////
 namespace boost { namespace spirit {
@@ -181,7 +181,7 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_BEGIN
                         left_iter->last = r.first-1;
                     }
                 }
-                
+
                 iterator i = iter;
                 while (i != run.end() && r.includes(*i))
                     i++;
@@ -216,3 +216,4 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} // namespace boost::spirit
 
 #endif
+

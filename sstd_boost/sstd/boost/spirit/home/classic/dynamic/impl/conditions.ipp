@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2002-2003 Martin Wille
     http://spirit.sourceforge.net/
 
@@ -10,8 +10,8 @@
 #define BOOST_SPIRIT_CONDITIONS_IPP
 
 ///////////////////////////////////////////////////////////////////////////////
-#include <boost/spirit/home/classic/meta/parser_traits.hpp>
-#include <boost/spirit/home/classic/core/composite/epsilon.hpp>
+#include <sstd/boost/spirit/home/classic/meta/parser_traits.hpp>
+#include <sstd/boost/spirit/home/classic/core/composite/epsilon.hpp>
 
 ///////////////////////////////////////////////////////////////////////////////
 namespace boost { namespace spirit {
@@ -95,3 +95,4 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} // namespace boost::spirit
 
 #endif
+

@@ -1,4 +1,4 @@
-//
+﻿//
 // detail/impl/winsock_init.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
@@ -15,16 +15,16 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
 
 #if defined(BOOST_ASIO_WINDOWS) || defined(__CYGWIN__)
 
-#include <boost/asio/detail/socket_types.hpp>
-#include <boost/asio/detail/winsock_init.hpp>
-#include <boost/asio/detail/throw_error.hpp>
-#include <boost/asio/error.hpp>
+#include <sstd/boost/asio/detail/socket_types.hpp>
+#include <sstd/boost/asio/detail/winsock_init.hpp>
+#include <sstd/boost/asio/detail/throw_error.hpp>
+#include <sstd/boost/asio/error.hpp>
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -77,8 +77,9 @@ void winsock_init_base::throw_on_error(data& d)
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // defined(BOOST_ASIO_WINDOWS) || defined(__CYGWIN__)
 
 #endif // BOOST_ASIO_DETAIL_IMPL_WINSOCK_INIT_IPP
+

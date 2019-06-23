@@ -1,4 +1,4 @@
-/* boost uuid/detail/random_provider_posix implementation
+﻿/* boost uuid/detail/random_provider_posix implementation
 *
 * Copyright Jens Maurer 2000
 * Copyright 2007 Andy Tompkins.
@@ -12,11 +12,11 @@
 * $Id$
 */
 
-#include <boost/config.hpp>
-#include <boost/core/ignore_unused.hpp>
-#include <boost/move/core.hpp>
-#include <boost/throw_exception.hpp>
-#include <boost/uuid/entropy_error.hpp>
+#include <sstd/boost/config.hpp>
+#include <sstd/boost/core/ignore_unused.hpp>
+#include <sstd/boost/move/core.hpp>
+#include <sstd/boost/throw_exception.hpp>
+#include <sstd/boost/uuid/entropy_error.hpp>
 #include <cerrno>
 #include <cstddef>
 #include <fcntl.h>    // open
@@ -118,3 +118,4 @@ private:
 } // detail
 } // uuids
 } // boost
+

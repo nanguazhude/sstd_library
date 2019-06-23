@@ -1,4 +1,4 @@
-// Copyright Antony Polukhin, 2016-2019.
+﻿// Copyright Antony Polukhin, 2016-2019.
 //
 // Distributed under the Boost Software License, Version 1.0. (See
 // accompanying file LICENSE_1_0.txt or copy at
@@ -7,16 +7,16 @@
 #ifndef BOOST_STACKTRACE_DETAIL_COLLECT_UNWIND_IPP
 #define BOOST_STACKTRACE_DETAIL_COLLECT_UNWIND_IPP
 
-#include <boost/config.hpp>
+#include <sstd/boost/config.hpp>
 #ifdef BOOST_HAS_PRAGMA_ONCE
 #   pragma once
 #endif
 
-#include <boost/stacktrace/safe_dump_to.hpp>
+#include <sstd/boost/stacktrace/safe_dump_to.hpp>
 
 // On iOS 32-bit ARM architecture _Unwind_Backtrace function doesn't exist, symbol is undefined.
 // Forcing libc backtrace() function usage.
-#include <boost/predef.h>
+#include <sstd/boost/predef.h>
 #if defined(BOOST_OS_IOS_AVAILABLE) && defined(BOOST_ARCH_ARM_AVAILABLE) && BOOST_VERSION_NUMBER_MAJOR(BOOST_ARCH_ARM) < 8
 #define BOOST_STACKTRACE_USE_LIBC_BACKTRACE_FUNCTION
 #endif
@@ -104,3 +104,4 @@ std::size_t this_thread_frames::collect(native_frame_ptr_t* out_frames, std::siz
 #undef BOOST_STACKTRACE_USE_LIBC_BACKTRACE_FUNCTION
 
 #endif // BOOST_STACKTRACE_DETAIL_COLLECT_UNWIND_IPP
+

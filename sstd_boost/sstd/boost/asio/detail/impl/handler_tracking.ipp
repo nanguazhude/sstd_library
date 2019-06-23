@@ -1,4 +1,4 @@
-//
+﻿//
 // detail/impl/handler_tracking.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
@@ -15,7 +15,7 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
 
 #if defined(BOOST_ASIO_CUSTOM_HANDLER_TRACKING)
 
@@ -25,23 +25,23 @@
 
 #include <cstdarg>
 #include <cstdio>
-#include <boost/asio/detail/handler_tracking.hpp>
+#include <sstd/boost/asio/detail/handler_tracking.hpp>
 
 #if defined(BOOST_ASIO_HAS_BOOST_DATE_TIME)
-# include <boost/asio/time_traits.hpp>
+# include <sstd/boost/asio/time_traits.hpp>
 #elif defined(BOOST_ASIO_HAS_CHRONO)
-# include <boost/asio/detail/chrono.hpp>
-# include <boost/asio/detail/chrono_time_traits.hpp>
-# include <boost/asio/wait_traits.hpp>
+# include <sstd/boost/asio/detail/chrono.hpp>
+# include <sstd/boost/asio/detail/chrono_time_traits.hpp>
+# include <sstd/boost/asio/wait_traits.hpp>
 #endif // defined(BOOST_ASIO_HAS_BOOST_DATE_TIME)
 
 #if defined(BOOST_ASIO_WINDOWS_RUNTIME)
-# include <boost/asio/detail/socket_types.hpp>
+# include <sstd/boost/asio/detail/socket_types.hpp>
 #elif !defined(BOOST_ASIO_WINDOWS)
 # include <unistd.h>
 #endif // !defined(BOOST_ASIO_WINDOWS)
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -353,8 +353,9 @@ void handler_tracking::write_line(const char* format, ...)
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // defined(BOOST_ASIO_ENABLE_HANDLER_TRACKING)
 
 #endif // BOOST_ASIO_DETAIL_IMPL_HANDLER_TRACKING_IPP
+

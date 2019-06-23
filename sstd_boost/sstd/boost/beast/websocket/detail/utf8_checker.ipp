@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright (c) 2016-2019 Vinnie Falco (vinnie dot falco at gmail dot com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -10,9 +10,9 @@
 #ifndef BOOST_BEAST_WEBSOCKET_DETAIL_UTF8_CHECKER_IPP
 #define BOOST_BEAST_WEBSOCKET_DETAIL_UTF8_CHECKER_IPP
 
-#include <boost/beast/websocket/detail/utf8_checker.hpp>
+#include <sstd/boost/beast/websocket/detail/utf8_checker.hpp>
 
-#include <boost/assert.hpp>
+#include <sstd/boost/assert.hpp>
 
 namespace boost {
 namespace beast {
@@ -329,3 +329,4 @@ check_utf8(char const* p, std::size_t n)
 } // boost
 
 #endif // BOOST_BEAST_WEBSOCKET_DETAIL_UTF8_CHECKER_IPP
+

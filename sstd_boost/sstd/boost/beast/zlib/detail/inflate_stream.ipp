@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright (c) 2016-2019 Vinnie Falco (vinnie dot falco at gmail dot com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -37,8 +37,8 @@
 #ifndef BOOST_BEAST_ZLIB_DETAIL_INFLATE_STREAM_IPP
 #define BOOST_BEAST_ZLIB_DETAIL_INFLATE_STREAM_IPP
 
-#include <boost/beast/zlib/detail/inflate_stream.hpp>
-#include <boost/throw_exception.hpp>
+#include <sstd/boost/beast/zlib/detail/inflate_stream.hpp>
+#include <sstd/boost/throw_exception.hpp>
 #include <array>
 
 namespace boost {
@@ -1116,3 +1116,4 @@ inflate_fast(ranges& r, error_code& ec)
 } // boost
 
 #endif
+

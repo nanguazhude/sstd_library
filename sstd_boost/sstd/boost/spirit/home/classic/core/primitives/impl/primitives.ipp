@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 1998-2003 Joel de Guzman
     Copyright (c) 2003 Martin Wille
     http://spirit.sourceforge.net/
@@ -394,3 +394,4 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 #endif
 
 #endif
+

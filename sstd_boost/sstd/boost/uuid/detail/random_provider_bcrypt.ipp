@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright (c) 2017 James E. King III
 //
 // Distributed under the Boost Software License, Version 1.0.
@@ -9,18 +9,18 @@
 //
 
 #include <cstddef>
-#include <boost/config.hpp>
-#include <boost/core/ignore_unused.hpp>
-#include <boost/move/core.hpp>
-#include <boost/numeric/conversion/cast.hpp>
-#include <boost/winapi/bcrypt.hpp>
-#include <boost/winapi/get_last_error.hpp>
-#include <boost/throw_exception.hpp>
+#include <sstd/boost/config.hpp>
+#include <sstd/boost/core/ignore_unused.hpp>
+#include <sstd/boost/move/core.hpp>
+#include <sstd/boost/numeric/conversion/cast.hpp>
+#include <sstd/boost/winapi/bcrypt.hpp>
+#include <sstd/boost/winapi/get_last_error.hpp>
+#include <sstd/boost/throw_exception.hpp>
 
 #if defined(BOOST_UUID_FORCE_AUTO_LINK) || (!defined(BOOST_ALL_NO_LIB) && !defined(BOOST_UUID_RANDOM_PROVIDER_NO_LIB))
 #   define BOOST_LIB_NAME "bcrypt"
 #   define BOOST_AUTO_LINK_NOMANGLE
-#   include <boost/config/auto_link.hpp>
+#   include <sstd/boost/config/auto_link.hpp>
 #   undef BOOST_AUTO_LINK_NOMANGLE
 #endif
 
@@ -38,7 +38,7 @@ public:
     {
         boost::winapi::NTSTATUS_ status =
             boost::winapi::BCryptOpenAlgorithmProvider(
-                &hProv_, 
+                &hProv_,
                 boost::winapi::BCRYPT_RNG_ALGORITHM_,
                 NULL,
                 0);
@@ -101,3 +101,4 @@ private:
 } // detail
 } // uuids
 } // boost
+

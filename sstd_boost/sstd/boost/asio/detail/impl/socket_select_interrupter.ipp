@@ -1,4 +1,4 @@
-//
+﻿//
 // detail/impl/socket_select_interrupter.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
@@ -15,7 +15,7 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
 
 #if !defined(BOOST_ASIO_WINDOWS_RUNTIME)
 
@@ -24,13 +24,13 @@
   || defined(__SYMBIAN32__)
 
 #include <cstdlib>
-#include <boost/asio/detail/socket_holder.hpp>
-#include <boost/asio/detail/socket_ops.hpp>
-#include <boost/asio/detail/socket_select_interrupter.hpp>
-#include <boost/asio/detail/throw_error.hpp>
-#include <boost/asio/error.hpp>
+#include <sstd/boost/asio/detail/socket_holder.hpp>
+#include <sstd/boost/asio/detail/socket_ops.hpp>
+#include <sstd/boost/asio/detail/socket_select_interrupter.hpp>
+#include <sstd/boost/asio/detail/throw_error.hpp>
+#include <sstd/boost/asio/error.hpp>
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -91,7 +91,7 @@ void socket_select_interrupter::open_descriptors()
   socket_holder server(socket_ops::accept(acceptor.get(), 0, 0, ec));
   if (server.get() == invalid_socket)
     boost::asio::detail::throw_error(ec, "socket_select_interrupter");
-  
+
   ioctl_arg_type non_blocking = 1;
   socket_ops::state_type client_state = 0;
   if (socket_ops::ioctl(client.get(), client_state,
@@ -167,7 +167,7 @@ bool socket_select_interrupter::reset()
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // defined(BOOST_ASIO_WINDOWS)
        // || defined(__CYGWIN__)
@@ -176,3 +176,4 @@ bool socket_select_interrupter::reset()
 #endif // !defined(BOOST_ASIO_WINDOWS_RUNTIME)
 
 #endif // BOOST_ASIO_DETAIL_IMPL_SOCKET_SELECT_INTERRUPTER_IPP
+

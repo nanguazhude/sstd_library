@@ -1,4 +1,4 @@
-
+﻿
 //  (C) Copyright Kohei Takahashi 2014,2016
 
 //  Use, modification and distribution are subject to the
@@ -69,4 +69,5 @@ int test()
 }
 
 }
+
 

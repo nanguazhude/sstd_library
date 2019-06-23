@@ -1,4 +1,4 @@
-/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
+﻿/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // xml_woarchive_impl.ipp:
 
 // (C) Copyright 2002 Robert Ramey - http://www.rrsd.com .
@@ -6,7 +6,7 @@
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
 
-#include <boost/config.hpp>
+#include <sstd/boost/config.hpp>
 #ifndef BOOST_NO_STD_WSTREAMBUF
 
 #include <ostream>
@@ -21,26 +21,26 @@
 #include <cwchar>  // wcslen
 #endif
 
-#include <boost/config.hpp>
+#include <sstd/boost/config.hpp>
 #if defined(BOOST_NO_STDC_NAMESPACE)
-namespace std{ 
-    using ::strlen; 
+namespace std{
+    using ::strlen;
     #if ! defined(BOOST_NO_INTRINSIC_WCHAR_T)
-        using ::mbtowc; 
+        using ::mbtowc;
         using ::wcslen;
     #endif
 } // namespace std
 #endif
 
-#include <boost/archive/xml_woarchive.hpp>
-#include <boost/archive/detail/utf8_codecvt_facet.hpp>
+#include <sstd/boost/archive/xml_woarchive.hpp>
+#include <sstd/boost/archive/detail/utf8_codecvt_facet.hpp>
 
-#include <boost/serialization/throw_exception.hpp>
+#include <sstd/boost/serialization/throw_exception.hpp>
 
-#include <boost/archive/iterators/xml_escape.hpp>
-#include <boost/archive/iterators/wchar_from_mb.hpp>
-#include <boost/archive/iterators/ostream_iterator.hpp>
-#include <boost/archive/iterators/dataflow_exception.hpp>
+#include <sstd/boost/archive/iterators/xml_escape.hpp>
+#include <sstd/boost/archive/iterators/wchar_from_mb.hpp>
+#include <sstd/boost/archive/iterators/ostream_iterator.hpp>
+#include <sstd/boost/archive/iterators/dataflow_exception.hpp>
 
 namespace boost {
 namespace archive {
@@ -158,7 +158,7 @@ xml_woarchive_impl<Archive>::save_binary(
     #else
     this->basic_text_oprimitive::save_binary(
     #endif
-        address, 
+        address,
         count
     );
     this->indent_next = true;
@@ -168,3 +168,4 @@ xml_woarchive_impl<Archive>::save_binary(
 } // namespace boost
 
 #endif //BOOST_NO_STD_WSTREAMBUF
+

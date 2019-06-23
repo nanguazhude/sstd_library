@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright (c) 2015-2019 Vinnie Falco (vinnie dot falco at gmail dot com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -10,11 +10,11 @@
 #ifndef BOOST_BEAST_CORE_IMPL_FILE_POSIX_IPP
 #define BOOST_BEAST_CORE_IMPL_FILE_POSIX_IPP
 
-#include <boost/beast/core/file_posix.hpp>
+#include <sstd/boost/beast/core/file_posix.hpp>
 
 #if BOOST_BEAST_USE_POSIX_FILE
 
-#include <boost/core/exchange.hpp>
+#include <sstd/boost/core/exchange.hpp>
 #include <limits>
 #include <fcntl.h>
 #include <sys/types.h>
@@ -47,7 +47,7 @@ native_close(native_handle_type& fd)
 /*  https://github.com/boostorg/beast/issues/1445
 
     This function is tuned for Linux / Mac OS:
-    
+
     * only calls close() once
     * returns the error directly to the caller
     * does not loop on EINTR
@@ -150,21 +150,21 @@ open(char const* path, file_mode mode, error_code& ec)
     #endif
         break;
 
-    case file_mode::write_new:      
+    case file_mode::write_new:
         f = O_RDWR | O_CREAT | O_EXCL;
     #if BOOST_BEAST_USE_POSIX_FADVISE
         advise = POSIX_FADV_RANDOM;
     #endif
         break;
 
-    case file_mode::write_existing: 
+    case file_mode::write_existing:
         f = O_RDWR | O_EXCL;
     #if BOOST_BEAST_USE_POSIX_FADVISE
         advise = POSIX_FADV_RANDOM;
     #endif
         break;
 
-    case file_mode::append:         
+    case file_mode::append:
         f = O_WRONLY | O_CREAT | O_TRUNC;
     #if BOOST_BEAST_USE_POSIX_FADVISE
         advise = POSIX_FADV_SEQUENTIAL;
@@ -329,3 +329,4 @@ write(void const* buffer, std::size_t n, error_code& ec)
 #endif
 
 #endif
+

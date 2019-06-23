@@ -1,4 +1,4 @@
-//
+﻿//
 // impl/error.ipp
 // ~~~~~~~~~~~~~~
 //
@@ -15,11 +15,11 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
 #include <string>
-#include <boost/asio/error.hpp>
+#include <sstd/boost/asio/error.hpp>
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -125,6 +125,7 @@ const boost::system::error_category& get_misc_category()
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IMPL_ERROR_IPP
+

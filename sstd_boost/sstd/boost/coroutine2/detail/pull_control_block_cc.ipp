@@ -1,4 +1,4 @@
-
+﻿
 //          Copyright Oliver Kowalke 2016.
 // Distributed under the Boost Software License, Version 1.0.
 //    (See accompanying file LICENSE_1_0.txt or copy at
@@ -12,15 +12,15 @@
 #include <memory>
 #include <tuple>
 
-#include <boost/assert.hpp>
-#include <boost/config.hpp>
-#include <boost/context/detail/config.hpp>
+#include <sstd/boost/assert.hpp>
+#include <sstd/boost/config.hpp>
+#include <sstd/boost/context/detail/config.hpp>
 
-#include <boost/context/fiber.hpp>
+#include <sstd/boost/context/fiber.hpp>
 
-#include <boost/coroutine2/detail/config.hpp>
-#include <boost/coroutine2/detail/forced_unwind.hpp>
-#include <boost/coroutine2/detail/wrap.hpp>
+#include <sstd/boost/coroutine2/detail/config.hpp>
+#include <sstd/boost/coroutine2/detail/forced_unwind.hpp>
+#include <sstd/boost/coroutine2/detail/wrap.hpp>
 
 #ifdef BOOST_HAS_ABI_HEADERS
 #  include BOOST_ABI_PREFIX
@@ -440,3 +440,4 @@ pull_coroutine< void >::control_block::valid() const noexcept {
 #endif
 
 #endif // BOOST_COROUTINES2_DETAIL_PULL_CONTROL_BLOCK_IPP
+

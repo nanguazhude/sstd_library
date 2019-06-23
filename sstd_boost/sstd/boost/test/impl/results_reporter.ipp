@@ -1,4 +1,4 @@
-//  (C) Copyright Gennadiy Rozental 2001.
+﻿//  (C) Copyright Gennadiy Rozental 2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
 //  http://www.boost.org/LICENSE_1_0.txt)
@@ -16,26 +16,26 @@
 #define BOOST_TEST_RESULTS_REPORTER_IPP_020105GER
 
 // Boost.Test
-#include <boost/test/results_reporter.hpp>
-#include <boost/test/results_collector.hpp>
-#include <boost/test/framework.hpp>
+#include <sstd/boost/test/results_reporter.hpp>
+#include <sstd/boost/test/results_collector.hpp>
+#include <sstd/boost/test/framework.hpp>
 
-#include <boost/test/output/plain_report_formatter.hpp>
-#include <boost/test/output/xml_report_formatter.hpp>
+#include <sstd/boost/test/output/plain_report_formatter.hpp>
+#include <sstd/boost/test/output/xml_report_formatter.hpp>
 
-#include <boost/test/tree/visitor.hpp>
-#include <boost/test/tree/test_unit.hpp>
-#include <boost/test/tree/traverse.hpp>
+#include <sstd/boost/test/tree/visitor.hpp>
+#include <sstd/boost/test/tree/test_unit.hpp>
+#include <sstd/boost/test/tree/traverse.hpp>
 
 // Boost
-#include <boost/scoped_ptr.hpp>
-#include <boost/io/ios_state.hpp>
+#include <sstd/boost/scoped_ptr.hpp>
+#include <sstd/boost/io/ios_state.hpp>
 typedef ::boost::io::ios_base_all_saver io_saver_type;
 
 // STL
 #include <iostream>
 
-#include <boost/test/detail/suppress_warnings.hpp>
+#include <sstd/boost/test/detail/suppress_warnings.hpp>
 
 //____________________________________________________________________________//
 
@@ -192,6 +192,7 @@ make_report( report_level l, test_unit_id id )
 } // namespace unit_test
 } // namespace boost
 
-#include <boost/test/detail/enable_warnings.hpp>
+#include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_RESULTS_REPORTER_IPP_020105GER
+

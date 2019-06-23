@@ -1,4 +1,4 @@
-/* boost uuid/detail/random_provider_wincrypt implementation
+﻿/* boost uuid/detail/random_provider_wincrypt implementation
 *
 * Copyright Jens Maurer 2000
 * Copyright 2007 Andy Tompkins.
@@ -13,13 +13,13 @@
 */
 
 #include <cstddef>
-#include <boost/config.hpp>
-#include <boost/core/ignore_unused.hpp>
-#include <boost/move/core.hpp>
-#include <boost/numeric/conversion/cast.hpp>
-#include <boost/winapi/crypt.hpp>
-#include <boost/winapi/get_last_error.hpp>
-#include <boost/throw_exception.hpp>
+#include <sstd/boost/config.hpp>
+#include <sstd/boost/core/ignore_unused.hpp>
+#include <sstd/boost/move/core.hpp>
+#include <sstd/boost/numeric/conversion/cast.hpp>
+#include <sstd/boost/winapi/crypt.hpp>
+#include <sstd/boost/winapi/get_last_error.hpp>
+#include <sstd/boost/throw_exception.hpp>
 
 #if defined(BOOST_UUID_FORCE_AUTO_LINK) || (!defined(BOOST_ALL_NO_LIB) && !defined(BOOST_UUID_RANDOM_PROVIDER_NO_LIB))
 #   if defined(_WIN32_WCE)
@@ -28,7 +28,7 @@
 #      define BOOST_LIB_NAME "advapi32"
 #   endif
 #   define BOOST_AUTO_LINK_NOMANGLE
-#   include <boost/config/auto_link.hpp>
+#   include <sstd/boost/config/auto_link.hpp>
 #   undef BOOST_AUTO_LINK_NOMANGLE
 #endif
 
@@ -107,3 +107,4 @@ private:
 } // detail
 } // uuids
 } // boost
+

@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright (c) 2016-2019 Vinnie Falco (vinnie dot falco at gmail dot com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -10,14 +10,14 @@
 #ifndef BOOST_BEAST_HTTP_IMPL_BASIC_PARSER_IPP
 #define BOOST_BEAST_HTTP_IMPL_BASIC_PARSER_IPP
 
-#include <boost/beast/http/basic_parser.hpp>
-#include <boost/beast/http/error.hpp>
-#include <boost/beast/http/rfc7230.hpp>
-#include <boost/beast/core/buffer_traits.hpp>
-#include <boost/beast/core/static_string.hpp>
-#include <boost/beast/core/detail/clamp.hpp>
-#include <boost/beast/core/detail/config.hpp>
-#include <boost/asio/buffer.hpp>
+#include <sstd/boost/beast/http/basic_parser.hpp>
+#include <sstd/boost/beast/http/error.hpp>
+#include <sstd/boost/beast/http/rfc7230.hpp>
+#include <sstd/boost/beast/core/buffer_traits.hpp>
+#include <sstd/boost/beast/core/static_string.hpp>
+#include <sstd/boost/beast/core/detail/clamp.hpp>
+#include <sstd/boost/beast/core/detail/config.hpp>
+#include <sstd/boost/asio/buffer.hpp>
 #include <algorithm>
 #include <utility>
 
@@ -867,3 +867,4 @@ template class http::basic_parser<false>;
 } // boost
 
 #endif
+

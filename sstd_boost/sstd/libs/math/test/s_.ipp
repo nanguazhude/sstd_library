@@ -1,4 +1,4 @@
-#ifndef BOOST_MATH_S__HPP
+﻿#ifndef BOOST_MATH_S__HPP
 #define BOOST_MATH_S__HPP
 
 // Copyright (c) 2006 Johan Rade
@@ -65,4 +65,5 @@ inline string_literal_helper make_literal_helper(const char* s, const wchar_t* w
 #endif
 
 #endif // BOOST_MATH_S__HPP
+
 

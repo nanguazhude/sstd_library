@@ -1,4 +1,4 @@
-/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
+﻿/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // text_text_wiarchive_impl.ipp:
 
 // (C) Copyright 2002 Robert Ramey - http://www.rrsd.com .
@@ -10,19 +10,19 @@
 
 #include <cstddef> // size_t, NULL
 
-#include <boost/config.hpp>
+#include <sstd/boost/config.hpp>
 #if defined(BOOST_NO_STDC_NAMESPACE)
-namespace std{ 
-    using ::size_t; 
+namespace std{
+    using ::size_t;
 } // namespace std
 #endif
 
-#include <boost/detail/workaround.hpp>  // fixup for RogueWave
+#include <sstd/boost/detail/workaround.hpp>  // fixup for RogueWave
 
 #ifndef BOOST_NO_STD_WSTREAMBUF
-#include <boost/archive/basic_text_iprimitive.hpp>
+#include <sstd/boost/archive/basic_text_iprimitive.hpp>
 
-namespace boost { 
+namespace boost {
 namespace archive {
 
 //////////////////////////////////////////////////////////////////////
@@ -97,13 +97,13 @@ text_wiarchive_impl<Archive>::load(std::wstring &ws)
 #endif
 
 template<class Archive>
-BOOST_WARCHIVE_DECL 
+BOOST_WARCHIVE_DECL
 text_wiarchive_impl<Archive>::text_wiarchive_impl(
-    std::wistream & is, 
+    std::wistream & is,
     unsigned int flags
 ) :
     basic_text_iprimitive<std::wistream>(
-        is, 
+        is,
         0 != (flags & no_codecvt)
     ),
     basic_text_iarchive<Archive>(flags)
@@ -116,3 +116,4 @@ text_wiarchive_impl<Archive>::text_wiarchive_impl(
 } // boost
 
 #endif // BOOST_NO_STD_WSTREAMBUF
+

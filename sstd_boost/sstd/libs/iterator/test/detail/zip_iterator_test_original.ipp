@@ -1,4 +1,4 @@
-// (C) Copyright Dave Abrahams and Thomas Becker 2003. Distributed
+﻿// (C) Copyright Dave Abrahams and Thomas Becker 2003. Distributed
 // under the Boost Software License, Version 1.0. (See accompanying
 // file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
@@ -40,18 +40,18 @@
 //
 /////////////////////////////////////////////////////////////////////////////
 
-#include <boost/iterator/zip_iterator.hpp>
-#include <boost/iterator/zip_iterator.hpp> // 2nd #include tests #include guard.
+#include <sstd/boost/iterator/zip_iterator.hpp>
+#include <sstd/boost/iterator/zip_iterator.hpp> // 2nd #include tests #include guard.
 #include <iostream>
 #include <vector>
 #include <list>
 #include <set>
 #include <string>
 #include <functional>
-#include <boost/iterator/transform_iterator.hpp>
-#include <boost/iterator/is_readable_iterator.hpp>
-#include <boost/type_traits/is_same.hpp>
-#include <boost/detail/workaround.hpp>
+#include <sstd/boost/iterator/transform_iterator.hpp>
+#include <sstd/boost/iterator/is_readable_iterator.hpp>
+#include <sstd/boost/type_traits/is_same.hpp>
+#include <sstd/boost/detail/workaround.hpp>
 #include <stddef.h>
 
 
@@ -160,7 +160,7 @@ int main( void )
 
   // Undo change to vect1
   ZI_TUPLE_GET(1)(ref_tuple) = dblOldVal;
-  
+
 #if defined(ZI_USE_BOOST_TUPLE)
 
   /////////////////////////////////////////////////////////////////////////////
@@ -295,7 +295,7 @@ int main( void )
     ++num_failed_tests;
     std::cout << "not OK" << std::endl;
   }
-  
+
 #endif
 
   /////////////////////////////////////////////////////////////////////////////
@@ -841,7 +841,7 @@ int main( void )
     ++num_failed_tests;
     std::cout << "not OK" << std::endl;
   }
-  
+
 #endif
 
   // Done
@@ -854,4 +854,5 @@ int main( void )
 
   return num_failed_tests;
 }
+
 

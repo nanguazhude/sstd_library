@@ -1,4 +1,4 @@
-//  (C) Copyright 2016 Raffi Enficiaud.
+﻿//  (C) Copyright 2016 Raffi Enficiaud.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
 //  http://www.boost.org/LICENSE_1_0.txt)
@@ -13,36 +13,36 @@
 #define BOOST_TEST_JUNIT_LOG_FORMATTER_IPP__
 
 // Boost.Test
-#include <boost/test/output/junit_log_formatter.hpp>
-#include <boost/test/execution_monitor.hpp>
-#include <boost/test/framework.hpp>
-#include <boost/test/tree/test_unit.hpp>
-#include <boost/test/utils/basic_cstring/io.hpp>
-#include <boost/test/utils/xml_printer.hpp>
-#include <boost/test/utils/string_cast.hpp>
-#include <boost/test/framework.hpp>
+#include <sstd/boost/test/output/junit_log_formatter.hpp>
+#include <sstd/boost/test/execution_monitor.hpp>
+#include <sstd/boost/test/framework.hpp>
+#include <sstd/boost/test/tree/test_unit.hpp>
+#include <sstd/boost/test/utils/basic_cstring/io.hpp>
+#include <sstd/boost/test/utils/xml_printer.hpp>
+#include <sstd/boost/test/utils/string_cast.hpp>
+#include <sstd/boost/test/framework.hpp>
 
-#include <boost/test/tree/visitor.hpp>
-#include <boost/test/tree/test_case_counter.hpp>
-#include <boost/test/tree/traverse.hpp>
-#include <boost/test/results_collector.hpp>
+#include <sstd/boost/test/tree/visitor.hpp>
+#include <sstd/boost/test/tree/test_case_counter.hpp>
+#include <sstd/boost/test/tree/traverse.hpp>
+#include <sstd/boost/test/results_collector.hpp>
 
-#include <boost/test/utils/algorithm.hpp>
-#include <boost/test/utils/string_cast.hpp>
+#include <sstd/boost/test/utils/algorithm.hpp>
+#include <sstd/boost/test/utils/string_cast.hpp>
 
-//#include <boost/test/results_reporter.hpp>
+//#include <sstd/boost/test/results_reporter.hpp>
 
 
 // Boost
-#include <boost/version.hpp>
-#include <boost/core/ignore_unused.hpp>
+#include <sstd/boost/version.hpp>
+#include <sstd/boost/core/ignore_unused.hpp>
 
 // STL
 #include <iostream>
 #include <fstream>
 #include <set>
 
-#include <boost/test/detail/suppress_warnings.hpp>
+#include <sstd/boost/test/detail/suppress_warnings.hpp>
 
 
 //____________________________________________________________________________//
@@ -454,7 +454,7 @@ public:
 
                 std::ostringstream o;
                 o << BOOST_VERSION/100000 << "." << BOOST_VERSION/100 % 1000 << "." << BOOST_VERSION % 100;
-                m_stream  << "<property name=\"boost\" value" << utils::attr_value() << o.str() << " />" << std::endl;
+                m_stream  << "<property name=\"sstd\boost\" value" << utils::attr_value() << o.str() << " />" << std::endl;
                 m_stream  << "</properties>" << std::endl;
             }
         }
@@ -874,6 +874,7 @@ junit_log_formatter::get_default_stream_description() const {
 } // namespace unit_test
 } // namespace boost
 
-#include <boost/test/detail/enable_warnings.hpp>
+#include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_junit_log_formatter_IPP_020105GER
+

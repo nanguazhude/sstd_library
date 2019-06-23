@@ -1,4 +1,4 @@
-//  (C) Copyright Gennadiy Rozental 2001.
+﻿//  (C) Copyright Gennadiy Rozental 2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
 //  http://www.boost.org/LICENSE_1_0.txt)
@@ -16,24 +16,24 @@
 #define BOOST_TEST_TEST_TOOLS_IPP_012205GER
 
 // Boost.Test
-#include <boost/test/test_tools.hpp>
-#include <boost/test/unit_test_log.hpp>
-#include <boost/test/tools/context.hpp>
-#include <boost/test/tools/output_test_stream.hpp>
+#include <sstd/boost/test/test_tools.hpp>
+#include <sstd/boost/test/unit_test_log.hpp>
+#include <sstd/boost/test/tools/context.hpp>
+#include <sstd/boost/test/tools/output_test_stream.hpp>
 
-#include <boost/test/tools/detail/fwd.hpp>
-#include <boost/test/tools/detail/print_helper.hpp>
+#include <sstd/boost/test/tools/detail/fwd.hpp>
+#include <sstd/boost/test/tools/detail/print_helper.hpp>
 
-#include <boost/test/framework.hpp>
-#include <boost/test/tree/test_unit.hpp>
-#include <boost/test/execution_monitor.hpp> // execution_aborted
+#include <sstd/boost/test/framework.hpp>
+#include <sstd/boost/test/tree/test_unit.hpp>
+#include <sstd/boost/test/execution_monitor.hpp> // execution_aborted
 
-#include <boost/test/detail/throw_exception.hpp>
+#include <sstd/boost/test/detail/throw_exception.hpp>
 
-#include <boost/test/utils/algorithm.hpp>
+#include <sstd/boost/test/utils/algorithm.hpp>
 
 // Boost
-#include <boost/config.hpp>
+#include <sstd/boost/config.hpp>
 
 // STL
 #include <fstream>
@@ -49,7 +49,7 @@
 // !! should we use #include <cstdarg>
 #include <stdarg.h>
 
-#include <boost/test/detail/suppress_warnings.hpp>
+#include <sstd/boost/test/detail/suppress_warnings.hpp>
 
 //____________________________________________________________________________//
 
@@ -828,6 +828,7 @@ output_test_stream::sync()
 } // namespace test_tools
 } // namespace boost
 
-#include <boost/test/detail/enable_warnings.hpp>
+#include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_TEST_TOOLS_IPP_012205GER
+

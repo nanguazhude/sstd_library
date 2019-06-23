@@ -1,4 +1,4 @@
-//  (C) Copyright Gennadiy Rozental 2001.
+﻿//  (C) Copyright Gennadiy Rozental 2001.
 //  (C) Copyright Beman Dawes and Ullrich Koethe 1995-2001.
 //  Use, modification, and distribution are subject to the
 //  Boost Software License, Version 1.0. (See accompanying file
@@ -22,19 +22,19 @@
 #define BOOST_TEST_EXECUTION_MONITOR_IPP_012205GER
 
 // Boost.Test
-#include <boost/test/detail/config.hpp>
-#include <boost/test/detail/throw_exception.hpp>
-#include <boost/test/execution_monitor.hpp>
-#include <boost/test/debug.hpp>
+#include <sstd/boost/test/detail/config.hpp>
+#include <sstd/boost/test/detail/throw_exception.hpp>
+#include <sstd/boost/test/execution_monitor.hpp>
+#include <sstd/boost/test/debug.hpp>
 
 // Boost
-#include <boost/cstdlib.hpp>    // for exit codes
-#include <boost/config.hpp>     // for workarounds
-#include <boost/core/ignore_unused.hpp> // for ignore_unused
+#include <sstd/boost/cstdlib.hpp>    // for exit codes
+#include <sstd/boost/config.hpp>     // for workarounds
+#include <sstd/boost/core/ignore_unused.hpp> // for ignore_unused
 #ifndef BOOST_NO_EXCEPTIONS
-#include <boost/exception/get_error_info.hpp> // for get_error_info
-#include <boost/exception/current_exception_cast.hpp> // for current_exception_cast
-#include <boost/exception/diagnostic_information.hpp>
+#include <sstd/boost/exception/get_error_info.hpp> // for get_error_info
+#include <sstd/boost/exception/current_exception_cast.hpp> // for current_exception_cast
+#include <sstd/boost/exception/diagnostic_information.hpp>
 #endif
 
 // STL
@@ -191,10 +191,10 @@ namespace { void _set_se_translator( void* ) {} }
 #endif
 
 #if !defined(BOOST_NO_TYPEID) && !defined(BOOST_NO_RTTI)
-#  include <boost/core/demangle.hpp>
+#  include <sstd/boost/core/demangle.hpp>
 #endif
 
-#include <boost/test/detail/suppress_warnings.hpp>
+#include <sstd/boost/test/detail/suppress_warnings.hpp>
 
 //____________________________________________________________________________//
 
@@ -1182,7 +1182,7 @@ execution_monitor::catch_signals( boost::function<int ()> const& F )
                 FALSE);           // Do not restore a suspended system
         }
     }
-#endif 
+#endif
 
     detail::system_signal_exception SSE( this );
 
@@ -1501,6 +1501,7 @@ disable( unsigned mask )
 
 } // namespace boost
 
-#include <boost/test/detail/enable_warnings.hpp>
+#include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_EXECUTION_MONITOR_IPP_012205GER
+

@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2001-2003 Daniel Nuffer
     Copyright (c) 2002-2003 Hartmut Kaiser
     http://spirit.sourceforge.net/
@@ -10,10 +10,10 @@
 #ifndef BOOST_SPIRIT_ESCAPE_CHAR_IPP
 #define BOOST_SPIRIT_ESCAPE_CHAR_IPP
 
-#include <boost/spirit/home/classic/core/parser.hpp>
-#include <boost/spirit/home/classic/core/primitives/numerics.hpp>
-#include <boost/spirit/home/classic/core/composite/difference.hpp>
-#include <boost/spirit/home/classic/core/composite/sequence.hpp>
+#include <sstd/boost/spirit/home/classic/core/parser.hpp>
+#include <sstd/boost/spirit/home/classic/core/primitives/numerics.hpp>
+#include <sstd/boost/spirit/home/classic/core/composite/difference.hpp>
+#include <sstd/boost/spirit/home/classic/core/composite/sequence.hpp>
 
 ///////////////////////////////////////////////////////////////////////////////
 namespace boost { namespace spirit {
@@ -221,4 +221,5 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} // namespace boost::spirit
 
 #endif
+
 

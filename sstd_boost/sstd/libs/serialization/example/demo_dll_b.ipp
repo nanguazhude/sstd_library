@@ -1,4 +1,4 @@
-#ifndef BOOST_SERIALIZATION_TEST_B_HPP
+﻿#ifndef BOOST_SERIALIZATION_TEST_B_HPP
 #define BOOST_SERIALIZATION_TEST_B_HPP
 
 // MS compatible compilers support #pragma once
@@ -9,7 +9,7 @@
 /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // B.hpp
 
-// (C) Copyright 2002 Robert Ramey - http://www.rrsd.com . 
+// (C) Copyright 2002 Robert Ramey - http://www.rrsd.com .
 // Use, modification and distribution is subject to the Boost Software
 // License, Version 1.0. (See accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
@@ -18,16 +18,16 @@
 
 #include <cstdlib> // for rand()
 
-#include <boost/config.hpp>
+#include <sstd/boost/config.hpp>
 #if defined(BOOST_NO_STDC_NAMESPACE)
 namespace std{
-    using ::rand; 
+    using ::rand;
 }
 #endif
 
-#include <boost/serialization/version.hpp>
-#include <boost/serialization/split_member.hpp>
-#include <boost/serialization/base_object.hpp>
+#include <sstd/boost/serialization/version.hpp>
+#include <sstd/boost/serialization/split_member.hpp>
+#include <sstd/boost/serialization/base_object.hpp>
 
 #include "A.hpp"
 
@@ -100,13 +100,14 @@ inline bool B::operator==(const B &rhs) const
 {
     return
         A::operator==(rhs)
-        && s == rhs.s 
-        && t == rhs.t 
-        && u == rhs.u 
-        && v == rhs.v 
+        && s == rhs.s
+        && t == rhs.t
+        && u == rhs.u
+        && v == rhs.v
         && std::abs( boost::math::float_distance(w, rhs.w)) < 2
         && std::abs( boost::math::float_distance(x, rhs.x)) < 2
     ;
 }
 
 #endif // BOOST_SERIALIZATION_TEST_B_HPP
+

@@ -1,4 +1,4 @@
-/* boost test_uniform_int.ipp
+﻿/* boost test_uniform_int.ipp
  *
  * Copyright Jens Maurer 2000
  * Copyright Steven Watanabe 2011
@@ -12,17 +12,17 @@
 #include <numeric>
 #include <sstream>
 #include <vector>
-#include <boost/config.hpp>
-#include <boost/cstdint.hpp>
-#include <boost/limits.hpp>
-#include <boost/random/mersenne_twister.hpp>
-#include <boost/random/linear_congruential.hpp>
-#include <boost/random/lagged_fibonacci.hpp>
-#include <boost/random/variate_generator.hpp>
+#include <sstd/boost/config.hpp>
+#include <sstd/boost/cstdint.hpp>
+#include <sstd/boost/limits.hpp>
+#include <sstd/boost/random/mersenne_twister.hpp>
+#include <sstd/boost/random/linear_congruential.hpp>
+#include <sstd/boost/random/lagged_fibonacci.hpp>
+#include <sstd/boost/random/variate_generator.hpp>
 #include "chi_squared_test.hpp"
 
 #define BOOST_TEST_MAIN
-#include <boost/test/unit_test.hpp>
+#include <sstd/boost/test/unit_test.hpp>
 
 template<class Generator>
 void check_uniform_int(Generator & gen, int iter)
@@ -67,7 +67,7 @@ BOOST_AUTO_TEST_CASE(test_uniform_int)
     // small range => larger range
     level_two uint05(uint12, int_gen(-3, 2));
     check_uniform_int(uint05, 100000);
-  
+
     // small range => larger range
     level_two uint099(uint12, int_gen(0, 99));
     check_uniform_int(uint099, 100000);
@@ -147,3 +147,4 @@ BOOST_AUTO_TEST_CASE(test_misc)
     y();
     y();
 }
+

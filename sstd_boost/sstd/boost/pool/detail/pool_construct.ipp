@@ -1,4 +1,4 @@
-// Copyright (C) 2000 Stephen Cleary
+﻿// Copyright (C) 2000 Stephen Cleary
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompany-
 // ing file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
@@ -849,4 +849,5 @@ element_type * construct(const volatile T0 & a0, const volatile T1 & a1, const v
   catch (...) { (free)(ret); throw; }
   return ret;
 }
+
 

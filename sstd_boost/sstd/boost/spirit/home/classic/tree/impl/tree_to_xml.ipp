@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2001-2008 Hartmut Kaiser
     Copyright (c) 2001-2003 Daniel Nuffer
     http://spirit.sourceforge.net/
@@ -19,9 +19,9 @@
 
 #include <map>
 #include <iostream>
-#include <boost/config.hpp>
-#include <boost/assert.hpp>
-#include <boost/scoped_array.hpp>
+#include <sstd/boost/config.hpp>
+#include <sstd/boost/assert.hpp>
+#include <sstd/boost/scoped_array.hpp>
 
 #ifdef BOOST_NO_STRINGSTREAM
 #include <strstream>
@@ -525,3 +525,4 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 #undef BOOST_SPIRIT_GETSTRING
 
 #endif // !defined(PARSE_TREE_XML_HPP)
+

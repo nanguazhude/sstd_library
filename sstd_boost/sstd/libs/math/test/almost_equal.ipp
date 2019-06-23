@@ -1,4 +1,4 @@
-#ifndef BOOST_MATH_ALMOST_EQUAL_HPP
+﻿#ifndef BOOST_MATH_ALMOST_EQUAL_HPP
 #define BOOST_MATH_ALMOST_EQUAL_HPP
 
 // Copyright (c) 2006 Johan Rade
@@ -18,3 +18,4 @@ bool almost_equal(ValType a, ValType b)
 }
 
 #endif
+

@@ -1,4 +1,4 @@
-#ifndef BOOST_SERIALIZATION_TEST_A_HPP
+﻿#ifndef BOOST_SERIALIZATION_TEST_A_HPP
 #define BOOST_SERIALIZATION_TEST_A_HPP
 
 // MS compatible compilers support #pragma once
@@ -9,7 +9,7 @@
 /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // A.hpp    simple class test
 
-// (C) Copyright 2002 Robert Ramey - http://www.rrsd.com . 
+// (C) Copyright 2002 Robert Ramey - http://www.rrsd.com .
 // Use, modification and distribution is subject to the Boost Software
 // License, Version 1.0. (See accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
@@ -21,27 +21,27 @@
 #include <cmath> // for fabs()
 #include <cstddef> // size_t
 
-#include <boost/config.hpp>
+#include <sstd/boost/config.hpp>
 #if defined(BOOST_NO_STDC_NAMESPACE)
 namespace std{
-    using ::rand; 
+    using ::rand;
     using ::fabs;
     using ::size_t;
 }
 #endif
 
-//#include <boost/test/test_exec_monitor.hpp>
-#include <boost/limits.hpp>
-#include <boost/cstdint.hpp>
+//#include <sstd/boost/test/test_exec_monitor.hpp>
+#include <sstd/boost/limits.hpp>
+#include <sstd/boost/cstdint.hpp>
 
-#include <boost/detail/workaround.hpp>
+#include <sstd/boost/detail/workaround.hpp>
 #if BOOST_WORKAROUND(BOOST_DINKUMWARE_STDLIB, == 1)
-#include <boost/archive/dinkumware.hpp>
+#include <sstd/boost/archive/dinkumware.hpp>
 #endif
 
-#include <boost/serialization/nvp.hpp>
-#include <boost/serialization/string.hpp>
-#include <boost/serialization/access.hpp>
+#include <sstd/boost/serialization/nvp.hpp>
+#include <sstd/boost/serialization/string.hpp>
+#include <sstd/boost/serialization/access.hpp>
 
 class A
 {
@@ -228,12 +228,12 @@ inline bool A::operator==(const A &rhs) const
     if(o != rhs.o)
         return false;
     if(p != rhs.p)
-        return false; 
+        return false;
     if(q != rhs.q)
         return false;
     #ifndef BOOST_NO_CWCHAR
     if(r != rhs.r)
-        return false; 
+        return false;
     #endif
     if(c != rhs.c)
         return false;
@@ -242,7 +242,7 @@ inline bool A::operator==(const A &rhs) const
     if(t != rhs.t)
         return false;
     if(u != rhs.u)
-        return false; 
+        return false;
     if(v != rhs.v)
         return false;
     if(std::abs( boost::math::float_distance(w, rhs.w)) > 1)
@@ -254,7 +254,7 @@ inline bool A::operator==(const A &rhs) const
     #ifndef BOOST_NO_STD_WSTRING
     if(0 != z.compare(rhs.z))
         return false;
-    #endif      
+    #endif
     return true;
 }
 
@@ -296,11 +296,11 @@ inline bool A::operator<(const A &rhs) const
     if(t != rhs.t )
         return t < rhs.t;
     if(u != rhs.u )
-        return u < rhs.u; 
+        return u < rhs.u;
     if(v != rhs.v )
         return v < rhs.v;
     if(w != rhs.w )
-        return w < rhs.w; 
+        return w < rhs.w;
     if(x != rhs.x )
         return x < rhs.x;
     int i = y.compare(rhs.y);
@@ -315,3 +315,4 @@ inline bool A::operator<(const A &rhs) const
 }
 
 #endif // BOOST_SERIALIZATION_TEST_A_HPP
+

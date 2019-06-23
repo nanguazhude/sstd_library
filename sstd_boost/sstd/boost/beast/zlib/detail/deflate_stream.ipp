@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright (c) 2016-2019 Vinnie Falco (vinnie dot falco at gmail dot com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -37,14 +37,14 @@
 #ifndef BOOST_BEAST_ZLIB_DETAIL_DEFLATE_STREAM_IPP
 #define BOOST_BEAST_ZLIB_DETAIL_DEFLATE_STREAM_IPP
 
-#include <boost/beast/zlib/detail/deflate_stream.hpp>
-#include <boost/beast/zlib/detail/ranges.hpp>
-#include <boost/beast/core/detail/type_traits.hpp>
-#include <boost/assert.hpp>
-#include <boost/config.hpp>
-#include <boost/make_unique.hpp>
-#include <boost/optional.hpp>
-#include <boost/throw_exception.hpp>
+#include <sstd/boost/beast/zlib/detail/deflate_stream.hpp>
+#include <sstd/boost/beast/zlib/detail/ranges.hpp>
+#include <sstd/boost/beast/core/detail/type_traits.hpp>
+#include <sstd/boost/assert.hpp>
+#include <sstd/boost/config.hpp>
+#include <sstd/boost/make_unique.hpp>
+#include <sstd/boost/optional.hpp>
+#include <sstd/boost/throw_exception.hpp>
 #include <cstdint>
 #include <cstdlib>
 #include <cstring>
@@ -2290,3 +2290,4 @@ f_huff(z_params& zs, Flush flush) ->
 } // boost
 
 #endif
+

@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright (c) 2016-2019 Vinnie Falco (vinnie dot falco at gmail dot com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -10,10 +10,10 @@
 #ifndef BOOST_BEAST_IMPL_STATIC_BUFFER_IPP
 #define BOOST_BEAST_IMPL_STATIC_BUFFER_IPP
 
-#include <boost/beast/core/static_buffer.hpp>
-#include <boost/beast/core/detail/type_traits.hpp>
-#include <boost/asio/buffer.hpp>
-#include <boost/throw_exception.hpp>
+#include <sstd/boost/beast/core/static_buffer.hpp>
+#include <sstd/boost/beast/core/detail/type_traits.hpp>
+#include <sstd/boost/asio/buffer.hpp>
+#include <sstd/boost/throw_exception.hpp>
 #include <algorithm>
 #include <cstring>
 #include <iterator>
@@ -131,3 +131,4 @@ consume(std::size_t n) noexcept
 } // boost
 
 #endif
+

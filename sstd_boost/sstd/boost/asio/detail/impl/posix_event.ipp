@@ -1,4 +1,4 @@
-//
+﻿//
 // detail/impl/posix_event.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
@@ -15,15 +15,15 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
 
 #if defined(BOOST_ASIO_HAS_PTHREADS)
 
-#include <boost/asio/detail/posix_event.hpp>
-#include <boost/asio/detail/throw_error.hpp>
-#include <boost/asio/error.hpp>
+#include <sstd/boost/asio/detail/posix_event.hpp>
+#include <sstd/boost/asio/detail/throw_error.hpp>
+#include <sstd/boost/asio/error.hpp>
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -54,8 +54,9 @@ posix_event::posix_event()
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // defined(BOOST_ASIO_HAS_PTHREADS)
 
 #endif // BOOST_ASIO_DETAIL_IMPL_POSIX_EVENT_IPP
+

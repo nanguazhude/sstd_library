@@ -1,4 +1,4 @@
-//
+﻿//
 // ssl/impl/context.ipp
 // ~~~~~~~~~~~~~~~~~~~~
 //
@@ -16,15 +16,15 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
 
 #include <cstring>
-#include <boost/asio/detail/throw_error.hpp>
-#include <boost/asio/error.hpp>
-#include <boost/asio/ssl/context.hpp>
-#include <boost/asio/ssl/error.hpp>
+#include <sstd/boost/asio/detail/throw_error.hpp>
+#include <sstd/boost/asio/error.hpp>
+#include <sstd/boost/asio/ssl/context.hpp>
+#include <sstd/boost/asio/ssl/error.hpp>
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -784,7 +784,7 @@ BOOST_ASIO_SYNC_OP_VOID context::use_certificate_chain(
         BOOST_ASIO_SYNC_OP_VOID_RETURN(ec);
       }
     }
-  
+
     result = ::ERR_peek_last_error();
     if ((ERR_GET_LIB(result) == ERR_LIB_PEM)
         && (ERR_GET_REASON(result) == PEM_R_NO_START_LINE))
@@ -1201,6 +1201,7 @@ BIO* context::make_buffer_bio(const const_buffer& b)
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_SSL_IMPL_CONTEXT_IPP
+

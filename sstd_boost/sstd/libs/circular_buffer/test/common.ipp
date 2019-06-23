@@ -1,4 +1,4 @@
-// Common tests for the circular buffer and its adaptor.
+﻿// Common tests for the circular buffer and its adaptor.
 
 // Copyright (c) 2003-2008 Jan Gaspar
 // Copyright (c) 2013 Antony Polukhin
@@ -10,9 +10,9 @@
 // License, Version 1.0. (See accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
 
-#include <boost/type_traits/is_nothrow_move_constructible.hpp>
-#include <boost/type_traits/is_nothrow_move_assignable.hpp>
-#include <boost/type_traits/has_nothrow_constructor.hpp>
+#include <sstd/boost/type_traits/is_nothrow_move_constructible.hpp>
+#include <sstd/boost/type_traits/is_nothrow_move_assignable.hpp>
+#include <sstd/boost/type_traits/has_nothrow_constructor.hpp>
 
 template <class Alloc>
 void generic_test(CB_CONTAINER<MyInteger, Alloc>& cb) {
@@ -249,7 +249,7 @@ void allocator_test() {
 
     generic_test(cb1);
 
-    
+
     CB_CONTAINER<MyInteger, my_allocator<MyInteger> > cb_a(10, 0);
     generic_test(cb_a);
 }
@@ -2084,7 +2084,7 @@ void move_container_on_cpp11() {
     cb1.push_back(4);
     cb1.push_back(5);
     cb1.push_back(6);
-    
+
     // Checking move constructor
     CB_CONTAINER<MyInteger> cb2(static_cast<CB_CONTAINER<MyInteger>&& >(cb1));
     CB_CONTAINER<MyInteger>::iterator it2 = cb2.begin() + 1;
@@ -2188,9 +2188,9 @@ public:
 namespace boost {
     template <>
     struct is_nothrow_move_constructible<noncopyable_movable_noexcept_t>
-        : boost::true_type 
+        : boost::true_type
     {};
-} 
+}
 #endif
 
 int noncopyable_movable_noexcept_t::next_value = 1;
@@ -2248,7 +2248,7 @@ void move_container_values_impl() {
     BOOST_CHECK(cb1.front().value() == 8);
     BOOST_CHECK(cb1.size() == 8);
 
-    
+
     BOOST_CHECK(cb1[0].value() == 8);
     BOOST_CHECK(cb1[1].value() == 7);
     BOOST_CHECK(cb1[2].value() == 6);
@@ -2256,7 +2256,7 @@ void move_container_values_impl() {
     BOOST_CHECK(cb1[4].value() == 4);
     BOOST_CHECK(cb1[5].value() == 2);
     BOOST_CHECK(cb1[6].value() == 1);
-    BOOST_CHECK(cb1[7].value() == 3);    
+    BOOST_CHECK(cb1[7].value() == 3);
     cb1.rotate(cb1.begin() + 2);
     BOOST_CHECK(cb1[0].value() == 6);
     BOOST_CHECK(cb1[1].value() == 5);
@@ -2275,7 +2275,7 @@ void move_container_values_impl() {
     BOOST_CHECK(!cb1[5].is_moved());
     BOOST_CHECK(!cb1[6].is_moved());
     BOOST_CHECK(!cb1[7].is_moved());
-    
+
     cb1.linearize();
     BOOST_CHECK(!cb1[0].is_moved());
     BOOST_CHECK(!cb1[1].is_moved());
@@ -2413,7 +2413,7 @@ void check_containers_exception_specifications() {
 #ifndef BOOST_NO_CXX11_NOEXCEPT
 #ifndef BOOST_CLANG
     // Clang has an error in __has_nothrow_constructor implementation:
-    // http://llvm.org/bugs/show_bug.cgi?id=16627 
+    // http://llvm.org/bugs/show_bug.cgi?id=16627
     BOOST_CHECK(boost::has_nothrow_constructor<CB_CONTAINER<int> >::value);
 #endif
 
@@ -2474,10 +2474,11 @@ void add_common_tests(test_suite* tests) {
     tests->add(BOOST_TEST_CASE(&const_methods_test));
     tests->add(BOOST_TEST_CASE(&rotate_test));
     tests->add(BOOST_TEST_CASE(&move_container_on_cpp11));
-    tests->add(BOOST_TEST_CASE(&move_container_values_noexcept));    
+    tests->add(BOOST_TEST_CASE(&move_container_values_noexcept));
     tests->add(BOOST_TEST_CASE(&check_containers_exception_specifications));
 #if !defined(BOOST_CB_NO_CXX11_ALLOCATOR)
     tests->add(BOOST_TEST_CASE(&cxx11_allocator_test));
 #endif
 }
+
 

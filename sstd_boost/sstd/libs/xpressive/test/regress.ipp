@@ -1,4 +1,4 @@
-//////////////////////////////////////////////////////////////////////////////
+﻿//////////////////////////////////////////////////////////////////////////////
 // regress.ipp
 //
 //  (C) Copyright Eric Niebler 2004.
@@ -16,9 +16,9 @@
 #include <string>
 #include <fstream>
 #include <iostream>
-#include <boost/lexical_cast.hpp>
-#include <boost/xpressive/xpressive.hpp>
-#include <boost/test/unit_test.hpp>
+#include <sstd/boost/lexical_cast.hpp>
+#include <sstd/boost/xpressive/xpressive.hpp>
+#include <sstd/boost/test/unit_test.hpp>
 
 #if defined(_MSC_VER) && defined(_DEBUG)
 # define _CRTDBG_MAP_ALLOC
@@ -449,3 +449,4 @@ static const struct debug_init
     #endif
     }
 } g_debug_init;
+

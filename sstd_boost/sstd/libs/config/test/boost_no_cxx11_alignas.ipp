@@ -1,4 +1,4 @@
-//  (C) Copyright Andrey Semashev 2013
+﻿//  (C) Copyright Andrey Semashev 2013
 
 //  Use, modification and distribution are subject to the
 //  Boost Software License, Version 1.0. (See accompanying file
@@ -34,3 +34,4 @@ int test()
 }
 
 }
+

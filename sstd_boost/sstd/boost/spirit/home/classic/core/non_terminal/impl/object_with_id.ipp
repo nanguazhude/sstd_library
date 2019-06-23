@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2002-2003 Joel de Guzman
     Copyright (c) 2002-2003 Martin Wille
     http://spirit.sourceforge.net/
@@ -11,15 +11,15 @@
 #define BOOST_SPIRIT_OBJECT_WITH_ID_IPP
 
 #include <vector>
-#include <boost/shared_ptr.hpp>
+#include <sstd/boost/shared_ptr.hpp>
 
 #ifdef BOOST_SPIRIT_THREADSAFE
-#include <boost/thread/mutex.hpp>
-#include <boost/thread/lock_types.hpp>
-#include <boost/thread/once.hpp>
+#include <sstd/boost/thread/mutex.hpp>
+#include <sstd/boost/thread/lock_types.hpp>
+#include <sstd/boost/thread/once.hpp>
 #endif
 
-#include <boost/spirit/home/classic/namespace.hpp>
+#include <sstd/boost/spirit/home/classic/namespace.hpp>
 
 ///////////////////////////////////////////////////////////////////////////////
 namespace boost { namespace spirit {
@@ -179,7 +179,7 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_BEGIN
         //////////////////////////////////
 #ifdef BOOST_SPIRIT_THREADSAFE
         template <typename TagT, typename IdT>
-        inline void 
+        inline void
         object_with_id_base<TagT, IdT>::mutex_init()
         {
             mutex_instance();
@@ -194,3 +194,4 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} // namespace boost::spirit
 
 #endif
+

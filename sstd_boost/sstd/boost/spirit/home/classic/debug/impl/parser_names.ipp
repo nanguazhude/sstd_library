@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2001-2003 Joel de Guzman
     Copyright (c) 2002-2003 Hartmut Kaiser
     http://spirit.sourceforge.net/
@@ -16,7 +16,7 @@
 #include <iostream>
 #include <map>
 
-#include <boost/config.hpp>
+#include <sstd/boost/config.hpp>
 #ifdef BOOST_NO_STRINGSTREAM
 #include <strstream>
 #define BOOST_SPIRIT_SSTREAM std::strstream
@@ -425,7 +425,7 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_BEGIN
     }   // namespace impl
 
     template<
-        typename DerivedT, typename EmbedT, 
+        typename DerivedT, typename EmbedT,
         typename T0, typename T1, typename T2
     >
     inline std::string
@@ -497,11 +497,11 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_BEGIN
 ///////////////////////////////////////////////////////////////////////////////
 //  decide, if a node is to be traced or not
     template<
-        typename DerivedT, typename EmbedT, 
+        typename DerivedT, typename EmbedT,
         typename T0, typename T1, typename T2
     >
     inline bool
-    trace_parser(impl::rule_base<DerivedT, EmbedT, T0, T1, T2> 
+    trace_parser(impl::rule_base<DerivedT, EmbedT, T0, T1, T2>
         const& p)
     {
         return impl::get_node_registry().trace_node(&p);
@@ -553,3 +553,4 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 #endif // defined(BOOST_SPIRIT_DEBUG)
 
 #endif // !defined(BOOST_SPIRIT_PARSER_NAMES_IPP)
+

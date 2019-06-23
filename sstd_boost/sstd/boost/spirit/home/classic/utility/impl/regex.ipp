@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2002-2003 Hartmut Kaiser
     http://spirit.sourceforge.net/
 
@@ -10,7 +10,7 @@
 #define BOOST_SPIRIT_REGEX_IPP
 
 ///////////////////////////////////////////////////////////////////////////////
-#include <boost/spirit/home/classic/core/primitives/impl/primitives.ipp>
+#include <sstd/boost/spirit/home/classic/core/primitives/impl/primitives.ipp>
 
 ///////////////////////////////////////////////////////////////////////////////
 namespace boost { namespace spirit {
@@ -37,14 +37,14 @@ public:
     typedef rx_parser<CharT> self_t;
 
     rx_parser(CharT const *first, CharT const *last)
-    { 
-        rxstr = string_t(rx_prefix(CharT())) + string_t(first, last); 
+    {
+        rxstr = string_t(rx_prefix(CharT())) + string_t(first, last);
     }
 
     rx_parser(CharT const *first)
-    { 
-        rxstr = string_t(rx_prefix(CharT())) + 
-            string_t(first, impl::get_last(first)); 
+    {
+        rxstr = string_t(rx_prefix(CharT())) +
+            string_t(first, impl::get_last(first));
     }
 
     template <typename ScannerT>
@@ -79,3 +79,4 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} // namespace boost::spirit
 
 #endif // BOOST_SPIRIT_REGEX_IPP
+

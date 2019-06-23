@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright (c) 2015-2019 Vinnie Falco (vinnie dot falco at gmail dot com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -10,15 +10,15 @@
 #ifndef BOOST_BEAST_CORE_IMPL_FILE_WIN32_IPP
 #define BOOST_BEAST_CORE_IMPL_FILE_WIN32_IPP
 
-#include <boost/beast/core/file_win32.hpp>
+#include <sstd/boost/beast/core/file_win32.hpp>
 
 #if BOOST_BEAST_USE_WIN32_FILE
 
-#include <boost/core/exchange.hpp>
-#include <boost/winapi/access_rights.hpp>
-#include <boost/winapi/error_codes.hpp>
-#include <boost/winapi/file_management.hpp>
-#include <boost/winapi/get_last_error.hpp>
+#include <sstd/boost/core/exchange.hpp>
+#include <sstd/boost/winapi/access_rights.hpp>
+#include <sstd/boost/winapi/error_codes.hpp>
+#include <sstd/boost/winapi/file_management.hpp>
+#include <sstd/boost/winapi/get_last_error.hpp>
 #include <limits>
 #include <utility>
 
@@ -143,35 +143,35 @@ open(char const* path, file_mode mode, error_code& ec)
         flags_and_attributes = 0x10000000; // FILE_FLAG_RANDOM_ACCESS
         break;
 
-    case file_mode::scan:           
+    case file_mode::scan:
         desired_access = boost::winapi::GENERIC_READ_;
         share_mode = boost::winapi::FILE_SHARE_READ_;
         creation_disposition = boost::winapi::OPEN_EXISTING_;
         flags_and_attributes = 0x08000000; // FILE_FLAG_SEQUENTIAL_SCAN
         break;
 
-    case file_mode::write:          
+    case file_mode::write:
         desired_access = boost::winapi::GENERIC_READ_ |
                          boost::winapi::GENERIC_WRITE_;
         creation_disposition = boost::winapi::CREATE_ALWAYS_;
         flags_and_attributes = 0x10000000; // FILE_FLAG_RANDOM_ACCESS
         break;
 
-    case file_mode::write_new:      
+    case file_mode::write_new:
         desired_access = boost::winapi::GENERIC_READ_ |
                          boost::winapi::GENERIC_WRITE_;
         creation_disposition = boost::winapi::CREATE_NEW_;
         flags_and_attributes = 0x10000000; // FILE_FLAG_RANDOM_ACCESS
         break;
 
-    case file_mode::write_existing: 
+    case file_mode::write_existing:
         desired_access = boost::winapi::GENERIC_READ_ |
                          boost::winapi::GENERIC_WRITE_;
         creation_disposition = boost::winapi::OPEN_EXISTING_;
         flags_and_attributes = 0x10000000; // FILE_FLAG_RANDOM_ACCESS
         break;
 
-    case file_mode::append:         
+    case file_mode::append:
         desired_access = boost::winapi::GENERIC_READ_ |
                          boost::winapi::GENERIC_WRITE_;
 
@@ -351,3 +351,4 @@ write(void const* buffer, std::size_t n, error_code& ec)
 #endif
 
 #endif
+

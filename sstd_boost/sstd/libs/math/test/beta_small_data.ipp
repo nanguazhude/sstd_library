@@ -1,4 +1,4 @@
-//  (C) Copyright John Maddock 2006.
+﻿//  (C) Copyright John Maddock 2006.
 //  Use, modification and distribution are subject to the
 //  Boost Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
@@ -33,5 +33,6 @@ using std::ldexp;
 
 
 // static_cast<T>(BOOST_JOIN(x, L)) // changes type to T and adds suffix L to decimal digit string.
+
 
 

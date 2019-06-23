@@ -1,4 +1,4 @@
-//
+﻿//
 // detail/impl/buffer_sequence_adapter.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
@@ -15,16 +15,16 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
 
 #if defined(BOOST_ASIO_WINDOWS_RUNTIME)
 
 #include <robuffer.h>
 #include <windows.storage.streams.h>
 #include <wrl/implements.h>
-#include <boost/asio/detail/buffer_sequence_adapter.hpp>
+#include <sstd/boost/asio/detail/buffer_sequence_adapter.hpp>
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -113,8 +113,9 @@ void buffer_sequence_adapter_base::init_native_buffer(
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // defined(BOOST_ASIO_WINDOWS_RUNTIME)
 
 #endif // BOOST_ASIO_DETAIL_IMPL_BUFFER_SEQUENCE_ADAPTER_IPP
+

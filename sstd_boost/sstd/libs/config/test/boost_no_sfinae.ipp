@@ -1,4 +1,4 @@
-// (C) Copyright Eric Friedman 2003. 
+﻿// (C) Copyright Eric Friedman 2003.
 // Some modifications by Jeremiah Willcock and Jaakko Jarvi.
 // Use, modification, and distribution is subject to the Boost Software
 // License, Version 1.0. (See accompanying file LICENSE_1_0.txt or copy at
@@ -54,7 +54,7 @@ int test()
 {
   test_t* t = 0;
   test2_t* t2 = 0;
-  bool correct = 
+  bool correct =
     (f1(t, 0) == 1) &&
     (f1(t2, 0) == 0) &&
     (f2(t, 0) == 3) &&
@@ -63,6 +63,7 @@ int test()
 }
 
 }
+
 
 
 

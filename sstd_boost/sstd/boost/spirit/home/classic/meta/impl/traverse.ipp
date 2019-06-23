@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2002-2003 Joel de Guzman
     Copyright (c) 2002-2003 Hartmut Kaiser
     http://spirit.sourceforge.net/
@@ -11,7 +11,7 @@
 #define BOOST_SPIRIT_TRAVERSE_IPP
 
 ///////////////////////////////////////////////////////////////////////////////
-#include <boost/spirit/home/classic/meta/fundamental.hpp>
+#include <sstd/boost/spirit/home/classic/meta/fundamental.hpp>
 
 ///////////////////////////////////////////////////////////////////////////////
 namespace boost { namespace spirit {
@@ -256,7 +256,7 @@ namespace impl
         template <typename MetaT, typename ParserT, typename EnvT>
         static
         typename parser_traversal_unary_result<
-            MetaT, ParserT, 
+            MetaT, ParserT,
             typename traverse_post_order_return<
                 MetaT, typename ParserT::subject_t, EnvT
             >::type,
@@ -297,7 +297,7 @@ namespace impl
         template <typename MetaT, typename ParserT, typename EnvT>
         static
         typename parser_traversal_action_result<
-            MetaT, ParserT, 
+            MetaT, ParserT,
             typename traverse_post_order_return<
                 MetaT, typename ParserT::subject_t, EnvT
             >::type,
@@ -339,7 +339,7 @@ namespace impl
         template <typename MetaT, typename ParserT, typename EnvT>
         static
         typename parser_traversal_binary_result<
-            MetaT, ParserT, 
+            MetaT, ParserT,
             typename traverse_post_order_return<
                 MetaT, typename ParserT::left_t, EnvT
             >::type,
@@ -391,3 +391,4 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} // namespace boost::spirit
 
 #endif // !defined(BOOST_SPIRIT_TRAVERSE_IPP)
+

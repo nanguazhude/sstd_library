@@ -1,4 +1,4 @@
-//  (C) Copyright Beman Dawes 2008
+﻿//  (C) Copyright Beman Dawes 2008
 
 //  Use, modification and distribution are subject to the
 //  Boost Software License, Version 1.0. (See accompanying file
@@ -6,7 +6,7 @@
 
 //  See http://www.boost.org/libs/config for more information.
 
-//  MACRO:         BOOST_NO_CXX11_CONSTEXPR 
+//  MACRO:         BOOST_NO_CXX11_CONSTEXPR
 //  TITLE:         C++0x constexpr unavailable
 //  DESCRIPTION:   The compiler does not support C++0x constexpr
 
@@ -21,7 +21,7 @@ constexpr const int* addr(const int& ir) { return &ir; }
 static const int x = 5;
 constexpr const int* xp = addr(x);
 
-struct A 
+struct A
 {
    constexpr A(int i) : val(i) { }
    constexpr operator int()const { return val; }
@@ -86,3 +86,4 @@ int test()
 }
 
 }
+

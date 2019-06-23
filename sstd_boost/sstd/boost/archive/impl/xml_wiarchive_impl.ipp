@@ -1,4 +1,4 @@
-/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
+﻿/////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // xml_wiarchive_impl.ipp:
 
 // (C) Copyright 2002 Robert Ramey - http://www.rrsd.com .
@@ -10,33 +10,33 @@
 
 #include <cstring>
 #if defined(BOOST_NO_STDC_NAMESPACE)
-namespace std{ 
-    using ::memcpy; 
+namespace std{
+    using ::memcpy;
 } //std
 #endif
 
-#include <boost/config.hpp> // msvc 6.0 needs this to suppress warnings
+#include <sstd/boost/config.hpp> // msvc 6.0 needs this to suppress warnings
 #ifndef BOOST_NO_STD_WSTREAMBUF
 
-#include <boost/assert.hpp>
+#include <sstd/boost/assert.hpp>
 #include <algorithm> // std::copy
 #include <exception> // uncaught exception
-#include <boost/detail/workaround.hpp> // Dinkumware and RogueWave
+#include <sstd/boost/detail/workaround.hpp> // Dinkumware and RogueWave
 #if BOOST_WORKAROUND(BOOST_DINKUMWARE_STDLIB, == 1)
-#include <boost/archive/dinkumware.hpp>
+#include <sstd/boost/archive/dinkumware.hpp>
 #endif
 
-#include <boost/io/ios_state.hpp>
-#include <boost/core/no_exceptions_support.hpp>
-#include <boost/serialization/string.hpp>
+#include <sstd/boost/io/ios_state.hpp>
+#include <sstd/boost/core/no_exceptions_support.hpp>
+#include <sstd/boost/serialization/string.hpp>
 
-#include <boost/archive/basic_xml_archive.hpp>
-#include <boost/archive/xml_wiarchive.hpp>
+#include <sstd/boost/archive/basic_xml_archive.hpp>
+#include <sstd/boost/archive/xml_wiarchive.hpp>
 
-#include <boost/archive/xml_archive_exception.hpp>
-#include <boost/archive/iterators/mb_from_wchar.hpp>
+#include <sstd/boost/archive/xml_archive_exception.hpp>
+#include <sstd/boost/archive/iterators/mb_from_wchar.hpp>
 
-#include <boost/archive/detail/utf8_codecvt_facet.hpp>
+#include <sstd/boost/archive/detail/utf8_codecvt_facet.hpp>
 
 #include "basic_xml_grammar.hpp"
 
@@ -52,10 +52,10 @@ void copy_to_ptr(char * s, const std::wstring & ws){
     std::copy(
         iterators::mb_from_wchar<std::wstring::const_iterator>(
             ws.begin()
-        ), 
+        ),
         iterators::mb_from_wchar<std::wstring::const_iterator>(
             ws.end()
-        ), 
+        ),
         s
     );
     s[ws.size()] = 0;
@@ -80,10 +80,10 @@ xml_wiarchive_impl<Archive>::load(std::string & s){
     std::copy(
         iterators::mb_from_wchar<std::wstring::iterator>(
             ws.begin()
-        ), 
+        ),
         iterators::mb_from_wchar<std::wstring::iterator>(
             ws.end()
-        ), 
+        ),
         std::back_inserter(s)
     );
 }
@@ -154,7 +154,7 @@ xml_wiarchive_impl<Archive>::xml_wiarchive_impl(
     unsigned int flags
 ) :
     basic_text_iprimitive<std::wistream>(
-        is_, 
+        is_,
         true // don't change the codecvt - use the one below
     ),
     basic_xml_iarchive<Archive>(flags),
@@ -187,3 +187,4 @@ xml_wiarchive_impl<Archive>::~xml_wiarchive_impl(){
 } // namespace boost
 
 #endif  // BOOST_NO_STD_WSTREAMBUF
+

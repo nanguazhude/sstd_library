@@ -1,16 +1,16 @@
-//  (C) Copyright John Maddock 2001. 
-//  Use, modification and distribution are subject to the 
-//  Boost Software License, Version 1.0. (See accompanying file 
+﻿//  (C) Copyright John Maddock 2001.
+//  Use, modification and distribution are subject to the
+//  Boost Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 
 //  See http://www.boost.org/libs/config for most recent version.
 
 //  MACRO:         BOOST_HAS_STDINT_H
 //  TITLE:         stdint.h
-//  DESCRIPTION:   There are no 1998 C++ Standard headers <stdint.h> 
+//  DESCRIPTION:   There are no 1998 C++ Standard headers <stdint.h>
 //                 or <cstdint>, although the 1999 C Standard does
 //                 include <stdint.h>.
-//                 If <stdint.h> is present, <boost/stdint.h> can make
+//                 If <stdint.h> is present, <sstd/boost/stdint.h> can make
 //                 good use of it, so a flag is supplied (signalling
 //                 presence; thus the default is not present, conforming
 //                 to the current C++ standard).
@@ -39,6 +39,7 @@ int test()
 }
 
 }
+
 
 
 

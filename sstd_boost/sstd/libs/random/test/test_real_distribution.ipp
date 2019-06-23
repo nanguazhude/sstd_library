@@ -1,4 +1,4 @@
-/* test_real_distribution.ipp
+﻿/* test_real_distribution.ipp
  *
  * Copyright Steven Watanabe 2011
  * Distributed under the Boost Software License, Version 1.0. (See
@@ -29,12 +29,12 @@
 #define BOOST_RANDOM_P_CUTOFF 0.99
 #endif
 
-#include <boost/random/mersenne_twister.hpp>
-#include <boost/lexical_cast.hpp>
-#include <boost/exception/diagnostic_information.hpp>
-#include <boost/preprocessor/stringize.hpp>
-#include <boost/range/numeric.hpp>
-#include <boost/numeric/conversion/cast.hpp>
+#include <sstd/boost/random/mersenne_twister.hpp>
+#include <sstd/boost/lexical_cast.hpp>
+#include <sstd/boost/exception/diagnostic_information.hpp>
+#include <sstd/boost/preprocessor/stringize.hpp>
+#include <sstd/boost/range/numeric.hpp>
+#include <sstd/boost/numeric/conversion/cast.hpp>
 #include <iostream>
 #include <vector>
 
@@ -54,7 +54,7 @@ bool do_test(BOOST_RANDOM_ARG1_TYPE BOOST_RANDOM_ARG1_NAME,
     std::cout << ")" << " " << max << " times: " << std::flush;
 
     BOOST_MATH_DISTRIBUTION expected BOOST_MATH_DISTRIBUTION_INIT;
-    
+
     BOOST_RANDOM_DISTRIBUTION dist BOOST_RANDOM_DISTRIBUTION_INIT;
 
 #ifdef BOOST_RANDOM_DISTRIBUTION_MAX
@@ -68,7 +68,7 @@ bool do_test(BOOST_RANDOM_ARG1_TYPE BOOST_RANDOM_ARG1_NAME,
         }
         expected_pdf.back() += 1 - boost::accumulate(expected_pdf, 0.0);
     }
-    
+
     std::vector<long long> results(max_value + 1);
     for(long long i = 0; i < max; ++i) {
         ++results[(std::min)(dist(gen), max_value)];
@@ -193,3 +193,4 @@ int main(int argc, char** argv) {
         return EXIT_FAILURE;
     }
 }
+

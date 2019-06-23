@@ -1,4 +1,4 @@
-//
+﻿//
 // detail/impl/scheduler.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~
 //
@@ -15,17 +15,17 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
 
-#include <boost/asio/detail/concurrency_hint.hpp>
-#include <boost/asio/detail/event.hpp>
-#include <boost/asio/detail/limits.hpp>
-#include <boost/asio/detail/reactor.hpp>
-#include <boost/asio/detail/scheduler.hpp>
-#include <boost/asio/detail/scheduler_thread_info.hpp>
-#include <boost/asio/detail/signal_blocker.hpp>
+#include <sstd/boost/asio/detail/concurrency_hint.hpp>
+#include <sstd/boost/asio/detail/event.hpp>
+#include <sstd/boost/asio/detail/limits.hpp>
+#include <sstd/boost/asio/detail/reactor.hpp>
+#include <sstd/boost/asio/detail/scheduler.hpp>
+#include <sstd/boost/asio/detail/scheduler_thread_info.hpp>
+#include <sstd/boost/asio/detail/signal_blocker.hpp>
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -614,6 +614,7 @@ void scheduler::wake_one_thread_and_unlock(
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_IMPL_SCHEDULER_IPP
+

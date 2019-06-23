@@ -1,4 +1,4 @@
-//
+﻿//
 // impl/serial_port_base.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~
 //
@@ -16,14 +16,14 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
 
 #if defined(BOOST_ASIO_HAS_SERIAL_PORT)
 
 #include <stdexcept>
-#include <boost/asio/error.hpp>
-#include <boost/asio/serial_port_base.hpp>
-#include <boost/asio/detail/throw_exception.hpp>
+#include <sstd/boost/asio/error.hpp>
+#include <sstd/boost/asio/serial_port_base.hpp>
+#include <sstd/boost/asio/detail/throw_exception.hpp>
 
 #if defined(GENERATING_DOCUMENTATION)
 # define BOOST_ASIO_OPTION_STORAGE implementation_defined
@@ -33,7 +33,7 @@
 # define BOOST_ASIO_OPTION_STORAGE termios
 #endif
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -547,10 +547,11 @@ BOOST_ASIO_SYNC_OP_VOID serial_port_base::character_size::load(
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #undef BOOST_ASIO_OPTION_STORAGE
 
 #endif // defined(BOOST_ASIO_HAS_SERIAL_PORT)
 
 #endif // BOOST_ASIO_IMPL_SERIAL_PORT_BASE_IPP
+

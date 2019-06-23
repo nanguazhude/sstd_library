@@ -1,4 +1,4 @@
-//
+﻿//
 // impl/io_context.ipp
 // ~~~~~~~~~~~~~~~~~~~
 //
@@ -15,21 +15,21 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include <boost/asio/detail/config.hpp>
-#include <boost/asio/io_context.hpp>
-#include <boost/asio/detail/concurrency_hint.hpp>
-#include <boost/asio/detail/limits.hpp>
-#include <boost/asio/detail/scoped_ptr.hpp>
-#include <boost/asio/detail/service_registry.hpp>
-#include <boost/asio/detail/throw_error.hpp>
+#include <sstd/boost/asio/detail/config.hpp>
+#include <sstd/boost/asio/io_context.hpp>
+#include <sstd/boost/asio/detail/concurrency_hint.hpp>
+#include <sstd/boost/asio/detail/limits.hpp>
+#include <sstd/boost/asio/detail/scoped_ptr.hpp>
+#include <sstd/boost/asio/detail/service_registry.hpp>
+#include <sstd/boost/asio/detail/throw_error.hpp>
 
 #if defined(BOOST_ASIO_HAS_IOCP)
-# include <boost/asio/detail/win_iocp_io_context.hpp>
+# include <sstd/boost/asio/detail/win_iocp_io_context.hpp>
 #else
-# include <boost/asio/detail/scheduler.hpp>
+# include <sstd/boost/asio/detail/scheduler.hpp>
 #endif
 
-#include <boost/asio/detail/push_options.hpp>
+#include <sstd/boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -172,6 +172,7 @@ void io_context::service::fork_service(io_context::fork_event)
 } // namespace asio
 } // namespace boost
 
-#include <boost/asio/detail/pop_options.hpp>
+#include <sstd/boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_IMPL_IO_CONTEXT_IPP
+

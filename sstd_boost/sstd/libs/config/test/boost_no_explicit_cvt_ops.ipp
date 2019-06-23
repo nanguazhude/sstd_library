@@ -1,4 +1,4 @@
-//  (C) Copyright Beman Dawes 2008
+﻿//  (C) Copyright Beman Dawes 2008
 
 //  Use, modification and distribution are subject to the
 //  Boost Software License, Version 1.0. (See accompanying file
@@ -6,7 +6,7 @@
 
 //  See http://www.boost.org/libs/config for more information.
 
-//  MACRO:         BOOST_NO_CXX11_EXPLICIT_CONVERSION_OPERATORS 
+//  MACRO:         BOOST_NO_CXX11_EXPLICIT_CONVERSION_OPERATORS
 //  TITLE:         C++0x explicit conversion operators unavailable
 //  DESCRIPTION:   The compiler does not support C++0x explicit conversion operators
 
@@ -31,3 +31,4 @@ int test()
 }
 
 }
+

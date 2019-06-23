@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2003 Giovanni Bajo
     Copyright (c) 2003 Martin Wille
     Copyright (c) 2003 Hartmut Kaiser
@@ -17,10 +17,10 @@
 #endif
 
 #include <cstdio>
-#include <boost/shared_ptr.hpp>
+#include <sstd/boost/shared_ptr.hpp>
 
 #ifdef BOOST_SPIRIT_FILEITERATOR_WINDOWS
-#  include <boost/type_traits/remove_pointer.hpp>
+#  include <sstd/boost/type_traits/remove_pointer.hpp>
 #endif
 
 #ifdef BOOST_SPIRIT_FILEITERATOR_POSIX
@@ -461,3 +461,4 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 
 
 #endif /* BOOST_SPIRIT_FILE_ITERATOR_IPP */
+

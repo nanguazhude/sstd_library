@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright (c) 2016-2019 Vinnie Falco (vinnie dot falco at gmail dot com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -39,8 +39,8 @@
 #ifndef BOOST_BEAST_DETAIL_BASE64_IPP
 #define BOOST_BEAST_DETAIL_BASE64_IPP
 
-#include <boost/beast/core/detail/base64.hpp>
-#include <boost/beast/core/string.hpp>
+#include <sstd/boost/beast/core/detail/base64.hpp>
+#include <sstd/boost/beast/core/string.hpp>
 #include <cctype>
 #include <string>
 #include <utility>
@@ -218,3 +218,4 @@ base64_encode(string_view s)
 } // boost
 
 #endif
+

@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright (c) 2016-2019 Vinnie Falco (vinnie dot falco at gmail dot com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -23,4 +23,5 @@ std::thread t{[&](){ ioc.run(); }};
 tcp::socket sock(ioc);
 
 ssl::context ctx(ssl::context::tlsv12);
+
 

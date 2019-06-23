@@ -1,4 +1,4 @@
-//  (C) Copyright Gennadiy Rozental 2001.
+﻿//  (C) Copyright Gennadiy Rozental 2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
 //  http://www.boost.org/LICENSE_1_0.txt)
@@ -19,38 +19,38 @@
 #define BOOST_TEST_UNIT_TEST_PARAMETERS_IPP_012205GER
 
 // Boost.Test
-#include <boost/test/unit_test_parameters.hpp>
+#include <sstd/boost/test/unit_test_parameters.hpp>
 
-#include <boost/test/utils/basic_cstring/basic_cstring.hpp>
-#include <boost/test/utils/basic_cstring/compare.hpp>
-#include <boost/test/utils/basic_cstring/io.hpp>
-#include <boost/test/utils/iterator/token_iterator.hpp>
+#include <sstd/boost/test/utils/basic_cstring/basic_cstring.hpp>
+#include <sstd/boost/test/utils/basic_cstring/compare.hpp>
+#include <sstd/boost/test/utils/basic_cstring/io.hpp>
+#include <sstd/boost/test/utils/iterator/token_iterator.hpp>
 
-#include <boost/test/debug.hpp>
-#include <boost/test/framework.hpp>
+#include <sstd/boost/test/debug.hpp>
+#include <sstd/boost/test/framework.hpp>
 
-#include <boost/test/detail/log_level.hpp>
-#include <boost/test/detail/throw_exception.hpp>
+#include <sstd/boost/test/detail/log_level.hpp>
+#include <sstd/boost/test/detail/throw_exception.hpp>
 
 // Boost.Runtime.Param
-#include <boost/test/utils/runtime/parameter.hpp>
-#include <boost/test/utils/runtime/argument.hpp>
-#include <boost/test/utils/runtime/finalize.hpp>
-#include <boost/test/utils/runtime/cla/parser.hpp>
-#include <boost/test/utils/runtime/env/fetch.hpp>
+#include <sstd/boost/test/utils/runtime/parameter.hpp>
+#include <sstd/boost/test/utils/runtime/argument.hpp>
+#include <sstd/boost/test/utils/runtime/finalize.hpp>
+#include <sstd/boost/test/utils/runtime/cla/parser.hpp>
+#include <sstd/boost/test/utils/runtime/env/fetch.hpp>
 
 // Boost
-#include <boost/config.hpp>
-#include <boost/test/detail/suppress_warnings.hpp>
-#include <boost/test/detail/enable_warnings.hpp>
-#include <boost/cstdlib.hpp>
+#include <sstd/boost/config.hpp>
+#include <sstd/boost/test/detail/suppress_warnings.hpp>
+#include <sstd/boost/test/detail/enable_warnings.hpp>
+#include <sstd/boost/cstdlib.hpp>
 
 // STL
 #include <cstdlib>
 #include <iostream>
 #include <fstream>
 
-#include <boost/test/detail/suppress_warnings.hpp>
+#include <sstd/boost/test/detail/suppress_warnings.hpp>
 
 //____________________________________________________________________________//
 
@@ -692,8 +692,8 @@ init( int& argc, char** argv )
             BOOST_TEST_I_THROW( framework::nothing_to_test( boost::exit_success ) );
         }
         else if( s_arguments_store.has( btrt_help ) ) {
-            parser->help(std::cerr, 
-                         s_parameters_store, 
+            parser->help(std::cerr,
+                         s_parameters_store,
                          runtime_config::get<std::string>( btrt_help ),
                          use_color );
             BOOST_TEST_I_THROW( framework::nothing_to_test( boost::exit_success ) );
@@ -766,6 +766,7 @@ save_pattern()
 } // namespace unit_test
 } // namespace boost
 
-#include <boost/test/detail/enable_warnings.hpp>
+#include <sstd/boost/test/detail/enable_warnings.hpp>
 
 #endif // BOOST_TEST_UNIT_TEST_PARAMETERS_IPP_012205GER
+

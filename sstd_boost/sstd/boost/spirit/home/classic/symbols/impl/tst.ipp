@@ -1,4 +1,4 @@
-/*=============================================================================
+﻿/*=============================================================================
     Copyright (c) 2001-2003 Joel de Guzman
     http://spirit.sourceforge.net/
 
@@ -10,8 +10,8 @@
 #define BOOST_SPIRIT_TST_IPP
 
 ///////////////////////////////////////////////////////////////////////////////
-#include <boost/move/unique_ptr.hpp>
-#include <boost/spirit/home/classic/core/assert.hpp>
+#include <sstd/boost/move/unique_ptr.hpp>
+#include <sstd/boost/spirit/home/classic/core/assert.hpp>
 
 ///////////////////////////////////////////////////////////////////////////////
 namespace boost { namespace spirit {
@@ -279,3 +279,4 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_END
 }} // namespace boost::spirit
 
 #endif
+
