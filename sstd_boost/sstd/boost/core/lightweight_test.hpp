@@ -8,7 +8,7 @@
 #endif
 
 //
-//  boost/core/lightweight_test.hpp - lightweight test library
+//  sstd/boost/core/lightweight_test.hpp - lightweight test library
 //
 //  Copyright (c) 2002, 2009, 2014 Peter Dimov
 //  Copyright (2) Beman Dawes 2010, 2011

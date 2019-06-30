@@ -39,7 +39,7 @@
 #include <sstd/boost/units/systems/si.hpp>
 #include <sstd/boost/units/absolute.hpp>
 
-// Include boost/units/lambda.hpp instead of boost/lambda/lambda.hpp
+// Include sstd/boost/units/lambda.hpp instead of boost/lambda/lambda.hpp
 // for a convenient usage of Boost.Units' quantity, unit, and absolute
 // types in lambda expressions. The header augments Boost.Lambda's
 // return type detuction system to recognize the new types so that not

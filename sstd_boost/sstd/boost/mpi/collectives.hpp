@@ -13,7 +13,7 @@
  *  processes within a communicator. The header @c collectives_fwd.hpp
  *  provides forward declarations for each of these operations. To
  *  include only specific collective algorithms, use the headers @c
- *  boost/mpi/collectives/algorithm_name.hpp.
+ *  sstd/boost/mpi/collectives/algorithm_name.hpp.
  */
 #ifndef BOOST_MPI_COLLECTIVES_HPP
 #define BOOST_MPI_COLLECTIVES_HPP

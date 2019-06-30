@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/util/resizer.hpp
+ sstd/boost/numeric/odeint/util/resizer.hpp
 
  [begin_description]
  Implementation of the resizers.

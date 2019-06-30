@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/stepper/rosenbrock4_dense_output.hpp
+ sstd/boost/numeric/odeint/stepper/rosenbrock4_dense_output.hpp
 
  [begin_description]
  Dense output for Rosenbrock 4.

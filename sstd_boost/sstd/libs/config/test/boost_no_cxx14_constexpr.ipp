@@ -29,7 +29,7 @@ namespace detail
 }
 
 // Test relaxed constexpr with dependent type; for more details, see comment of
-// BOOST_CXX14_CONSTEXPR definition in boost/config/compiler/clang.hpp .
+// BOOST_CXX14_CONSTEXPR definition in sstd/boost/config/compiler/clang.hpp .
 template <class T>
 constexpr typename detail::void_<T>::type decrement(T &value)
 {

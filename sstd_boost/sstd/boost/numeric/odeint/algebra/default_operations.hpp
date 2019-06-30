@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/algebra/default_operations.hpp
+ sstd/boost/numeric/odeint/algebra/default_operations.hpp
 
  [begin_description]
  Default operations. They work with the default numerical types, like float, double, complex< double> ...

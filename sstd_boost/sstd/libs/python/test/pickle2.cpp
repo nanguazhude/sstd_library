@@ -19,7 +19,7 @@
     pickle3.cpp shows how to include the object's __dict__ in the
     result of __getstate__.
 
-    For more information refer to boost/libs/python/doc/pickle.html.
+    For more information refer to sstd/boost/libs/python/doc/pickle.html.
  */
 
 #include <sstd/boost/python/module.hpp>

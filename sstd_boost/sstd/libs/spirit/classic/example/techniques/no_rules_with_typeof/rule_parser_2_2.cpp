@@ -10,7 +10,7 @@
 //------------------------------------------------------------------------------
 // This example demonstrates how to make recursive grammars scale with typeof.
 // It uses a rule parser with member variables and the parser_reference utility.
-// See boost/spirit/include/rule_parser.hpp for details.
+// See sstd/boost/spirit/include/rule_parser.hpp for details.
 // This example is based on subrule_calc.cpp.
 //------------------------------------------------------------------------------
 #include <string>

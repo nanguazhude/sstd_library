@@ -1,5 +1,5 @@
 ﻿/*
- *  A test program for boost/rational.hpp.
+ *  A test program for sstd/boost/rational.hpp.
  *  Change the typedef at the beginning of run_tests() to try out different
  *  integer types.  (These tests are designed only for signed integer
  *  types.  They should work for short, int and long.)

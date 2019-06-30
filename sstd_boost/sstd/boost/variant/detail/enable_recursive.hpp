@@ -75,7 +75,7 @@ public:
 ///////////////////////////////////////////////////////////////////////////////
 // (detail) metafunction enable_recursive
 //
-// See boost/variant/detail/enable_recursive_fwd.hpp for more information.
+// See sstd/boost/variant/detail/enable_recursive_fwd.hpp for more information.
 //
 
 

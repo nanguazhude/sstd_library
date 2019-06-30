@@ -20,5 +20,3 @@ win32-msvc{
     DEFINES *= _SECURE_SCL=0
     DEFINES *= _HAS_ITERATOR_DEBUGGING=0
 }
-
-

@@ -1,6 +1,6 @@
 ﻿/*
   [auto_generated]
-  boost/numeric/odeint/util/multi_array_adaption.hpp
+  sstd/boost/numeric/odeint/util/multi_array_adaption.hpp
 
   [begin_description]
   tba.

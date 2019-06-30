@@ -13,7 +13,7 @@
 
 #include <sstd/boost/process/detail/basic_cmd.hpp>
 
-/** \file boost/process/exe.hpp
+/** \file sstd/boost/process/exe.hpp
  *
  *    Header which provides the exe property.
 \xmlonly

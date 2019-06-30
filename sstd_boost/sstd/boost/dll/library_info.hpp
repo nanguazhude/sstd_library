@@ -28,7 +28,7 @@
 # pragma once
 #endif
 
-/// \file boost/dll/library_info.hpp
+/// \file sstd/boost/dll/library_info.hpp
 /// \brief Contains only the boost::dll::library_info class that is capable of
 /// extracting different information from binaries.
 
@@ -134,7 +134,7 @@ public:
         : f_(
         #ifdef BOOST_DLL_USE_STD_FS
             library_path,
-        //  Copied from boost/filesystem/fstream.hpp
+        //  Copied from sstd/boost/filesystem/fstream.hpp
         #elif defined(BOOST_WINDOWS_API)  && (!defined(_CPPLIB_VER) || _CPPLIB_VER < 405 || defined(_STLPORT_VERSION))
             // !Dinkumware || early Dinkumware || STLPort masquerading as Dinkumware
             library_path.string().c_str(),  // use narrow, since wide not available

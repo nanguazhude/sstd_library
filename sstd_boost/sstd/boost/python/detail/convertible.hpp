@@ -11,7 +11,7 @@
 # endif
 
 // Supplies a runtime is_convertible check which can be used with tag
-// dispatching to work around the Metrowerks Pro7 limitation with boost/std::is_convertible
+// dispatching to work around the Metrowerks Pro7 limitation with sstd/boost/std::is_convertible
 namespace boost { namespace python { namespace detail {
 
 typedef char* yes_convertible;

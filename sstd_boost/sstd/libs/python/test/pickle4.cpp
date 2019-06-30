@@ -7,7 +7,7 @@
     pickle_suite. The pickling interface (__getinitargs__) is
     implemented in Python.
 
-    For more information refer to boost/libs/python/doc/pickle.html.
+    For more information refer to sstd/boost/libs/python/doc/pickle.html.
  */
 
 #include <sstd/boost/python/module.hpp>

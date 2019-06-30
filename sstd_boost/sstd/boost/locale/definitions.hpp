@@ -27,5 +27,5 @@
 #   define BOOST_LOCALE_DECL
 #endif
 
-#endif // boost/locale/config.hpp
+#endif // sstd/boost/locale/config.hpp
 // vim: tabstop=4 expandtab shiftwidth=4 softtabstop=4

@@ -1,4 +1,4 @@
-﻿//  boost/filesystem/detail/macro_value.hpp  -------------------------------------------//
+﻿//  sstd/boost/filesystem/detail/macro_value.hpp  -------------------------------------------//
 
 //  (C) Copyright John Maddock 2001 - 2003
 //  (C) Copyright Jens Maurer 2001

@@ -62,7 +62,7 @@ namespace boost {
   enum KIND##_##NAME##_t { KIND##_##NAME }; \
   BOOST_INSTALL_PROPERTY(KIND, NAME)
 
-  // These three are defined in boost/pending/property.hpp
+  // These three are defined in sstd/boost/pending/property.hpp
   BOOST_INSTALL_PROPERTY(vertex, all);
   BOOST_INSTALL_PROPERTY(edge, all);
   BOOST_INSTALL_PROPERTY(graph, all);
@@ -106,7 +106,7 @@ namespace boost {
   BOOST_DEF_PROPERTY(graph, visitor);
 
   // These tags are used for property bundles
-  // These three are defined in boost/pending/property.hpp
+  // These three are defined in sstd/boost/pending/property.hpp
   BOOST_INSTALL_PROPERTY(graph, bundle);
   BOOST_INSTALL_PROPERTY(vertex, bundle);
   BOOST_INSTALL_PROPERTY(edge, bundle);
@@ -261,7 +261,7 @@ namespace boost {
   //========================================================================
   // Iterator Property Map Generating Functions contributed by
   // Kevin Vanhorn. (see also the property map generating functions
-  // in boost/property_map/property_map.hpp)
+  // in sstd/boost/property_map/property_map.hpp)
 
 #if !defined(BOOST_NO_STD_ITERATOR_TRAITS)
   // A helper function for creating a vertex property map out of a

@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/integrate/detail/integrate_adaptive.hpp
+ sstd/boost/numeric/odeint/integrate/detail/integrate_adaptive.hpp
 
  [begin_description]
  Default Integrate adaptive implementation.

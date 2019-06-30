@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/integrate/integrate.hpp
+ sstd/boost/numeric/odeint/integrate/integrate.hpp
 
  [begin_description]
  Convenience methods which choose the stepper for the current ODE.

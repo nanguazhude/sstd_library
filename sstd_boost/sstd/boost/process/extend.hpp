@@ -19,7 +19,7 @@
 #endif
 
 
-/** \file boost/process/extend.hpp
+/** \file sstd/boost/process/extend.hpp
  *
  * This header which provides the types and functions provided for custom extensions.
  *

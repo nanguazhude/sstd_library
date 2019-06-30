@@ -32,7 +32,7 @@
 #include <type_traits>
 
 /**
-  \file boost/histogram/serialization.hpp
+  \file sstd/boost/histogram/serialization.hpp
 
   Implemenations of the serialization functions using
   [Boost.Serialization](https://www.boost.org/doc/libs/develop/libs/serialization/doc/index.html).

@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/algebra/algebra_dispatcher.hpp
+ sstd/boost/numeric/odeint/algebra/algebra_dispatcher.hpp
 
  [begin_description]
  Algebra dispatcher to automatically chose suitable algebra.

@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/stepper/controlled_step_result.hpp
+ sstd/boost/numeric/odeint/stepper/controlled_step_result.hpp
 
  [begin_description]
  Defines the result type for all controlled stepper.

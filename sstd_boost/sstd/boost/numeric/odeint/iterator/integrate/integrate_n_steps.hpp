@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/integrate/integrate_n_steps.hpp
+ sstd/boost/numeric/odeint/integrate/integrate_n_steps.hpp
 
  [begin_description]
  Integration of n steps with constant time size. Adaptive and dense-output methods are fully supported.

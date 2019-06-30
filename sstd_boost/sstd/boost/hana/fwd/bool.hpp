@@ -1,6 +1,6 @@
 ﻿/*!
 @file
-Includes boost/hana/fwd/integral_constant.hpp.
+Includes sstd/boost/hana/fwd/integral_constant.hpp.
 
 @copyright Louis Dionne 2013-2017
 Distributed under the Boost Software License, Version 1.0.

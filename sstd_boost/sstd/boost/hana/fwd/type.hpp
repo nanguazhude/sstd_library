@@ -499,7 +499,7 @@ BOOST_HANA_NAMESPACE_BEGIN
     //!
     //! - When using `integral` with metafunctions returning
     //!   `std::integral_constant`s, don't forget to include the
-    //!   boost/hana/ext/std/integral_constant.hpp header to ensure
+    //!   sstd/boost/hana/ext/std/integral_constant.hpp header to ensure
     //!   Hana can interoperate with the result.
     //!
     //! - In a SFINAE context, the expression `integral(f)(t...)` is valid

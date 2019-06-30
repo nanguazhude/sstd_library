@@ -37,7 +37,7 @@
 #include <sstd/boost/process/detail/windows/pipe_out.hpp>
 #endif
 
-/** \file boost/process/io.hpp
+/** \file sstd/boost/process/io.hpp
  *
  *    Header which provides the io properties. It provides the following properties:
  *

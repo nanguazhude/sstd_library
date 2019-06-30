@@ -22,12 +22,12 @@
 
 #include <sstd/boost/stacktrace/detail/push_options.h>
 
-/// @file boost/stacktrace/detail/frame_decl.hpp
+/// @file sstd/boost/stacktrace/detail/frame_decl.hpp
 /// Use <sstd/boost/stacktrace/frame.hpp> header instead of this one!
 
 namespace boost { namespace stacktrace {
 
-/// @class boost::stacktrace::frame boost/stacktrace/detail/frame_decl.hpp <sstd/boost/stacktrace/frame.hpp>
+/// @class boost::stacktrace::frame sstd/boost/stacktrace/detail/frame_decl.hpp <boost/stacktrace/frame.hpp>
 /// @brief Class that stores frame/function address and can get information about it at runtime.
 class frame {
 public:

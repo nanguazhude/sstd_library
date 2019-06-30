@@ -1,4 +1,4 @@
-﻿// boost\math\distributions\poisson.hpp
+﻿// sstd\boost\math\distributions\poisson.hpp
 
 // Copyright John Maddock 2006.
 // Copyright Paul A. Bristow 2007.

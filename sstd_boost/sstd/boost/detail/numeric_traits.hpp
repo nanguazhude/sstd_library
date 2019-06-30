@@ -47,7 +47,7 @@
 //               (David Abrahams)
 // 10 Feb 2001 - Rolled in supposed Borland fixes from John Maddock, but
 //               not seeing any improvement yet (David Abrahams)
-// 06 Feb 2001 - Factored if_true out into boost/detail/select_type.hpp
+// 06 Feb 2001 - Factored if_true out into sstd/boost/detail/select_type.hpp
 //               (David Abrahams)
 // 23 Jan 2001 - Fixed logic of difference_type selection, which was
 //               completely wack. In the process, added digit_traits<>

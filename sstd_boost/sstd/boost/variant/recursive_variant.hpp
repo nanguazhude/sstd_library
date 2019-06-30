@@ -170,7 +170,7 @@ public: // metafunction result
 ///////////////////////////////////////////////////////////////////////////////
 // metafunction make_recursive_variant
 //
-// See docs and boost/variant/variant_fwd.hpp for more information.
+// See docs and sstd/boost/variant/variant_fwd.hpp for more information.
 //
 template < BOOST_VARIANT_ENUM_PARAMS(typename T) >
 struct make_recursive_variant
@@ -187,7 +187,7 @@ public: // metafunction result
 ///////////////////////////////////////////////////////////////////////////////
 // metafunction make_recursive_variant_over
 //
-// See docs and boost/variant/variant_fwd.hpp for more information.
+// See docs and sstd/boost/variant/variant_fwd.hpp for more information.
 //
 template <typename Types>
 struct make_recursive_variant_over

@@ -1,6 +1,6 @@
 ﻿/*
   [auto_generated]
-  boost/numeric/odeint/external/thrust/thrust_algebra_dispatcher.hpp
+  sstd/boost/numeric/odeint/external/thrust/thrust_algebra_dispatcher.hpp
 
   [begin_description]
   algebra_dispatcher specialization for thrust

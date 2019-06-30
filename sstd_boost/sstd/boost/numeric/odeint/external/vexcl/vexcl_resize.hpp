@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/external/vexcl/vexcl_resize.hpp
+ sstd/boost/numeric/odeint/external/vexcl/vexcl_resize.hpp
 
  [begin_description]
  Enable resizing for vexcl vector and multivector.

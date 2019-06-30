@@ -8,7 +8,7 @@
 #ifndef BOOST_GIL_CONCEPTS_HPP
 #define BOOST_GIL_CONCEPTS_HPP
 
-// TODO: Remove and prefer individual includes from boost/gil/concepts/*.hpp?
+// TODO: Remove and prefer individual includes from sstd/boost/gil/concepts/*.hpp?
 
 #include <sstd/boost/gil/concepts/channel.hpp>
 #include <sstd/boost/gil/concepts/color.hpp>

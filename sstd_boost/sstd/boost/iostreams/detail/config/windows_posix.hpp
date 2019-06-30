@@ -9,7 +9,7 @@
 #ifndef BOOST_IOSTREAMS_DETAIL_CONFIG_WINDOWS_POSIX_HPP_INCLUDED
 #define BOOST_IOSTREAMS_DETAIL_CONFIG_WINDOWS_POSIX_HPP_INCLUDED
 
-//------------------From boost/libs/filesystem/src/path_posix_windows.cpp-----//
+//------------------From sstd/boost/libs/filesystem/src/path_posix_windows.cpp-----//
 
 // BOOST_IOSTREAMS_POSIX or BOOST_IOSTREAMS_WINDOWS specify which API to use.
 #if !defined( BOOST_IOSTREAMS_WINDOWS ) && !defined( BOOST_IOSTREAMS_POSIX )

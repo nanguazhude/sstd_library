@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/external/mpi/mpi_state.hpp
+ sstd/boost/numeric/odeint/external/mpi/mpi_state.hpp
 
  [begin_description]
  A generic split state, storing partial data on each node.

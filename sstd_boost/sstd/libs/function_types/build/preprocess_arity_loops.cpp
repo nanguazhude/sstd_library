@@ -33,15 +33,15 @@ timestamp file
     #define BOOST_FT_OUT_FILE \
         BOOST_PP_STRINGIZE(../../../BOOST_FT_al_path/BOOST_FT_HEADER)
 
-#   define BOOST_FT_al_path boost/function_types/detail/components_impl
+#   define BOOST_FT_al_path sstd/boost/function_types/detail/components_impl
 #   include __FILE__
 #   undef  BOOST_FT_al_path
 
-#   define BOOST_FT_al_path boost/function_types/detail/synthesize_impl
+#   define BOOST_FT_al_path sstd/boost/function_types/detail/synthesize_impl
 #   include __FILE__
 #   undef  BOOST_FT_al_path
 
-#   define BOOST_FT_al_path boost/function_types/detail/classifier_impl
+#   define BOOST_FT_al_path sstd/boost/function_types/detail/classifier_impl
 #   include __FILE__
 #   undef  BOOST_FT_al_path
 

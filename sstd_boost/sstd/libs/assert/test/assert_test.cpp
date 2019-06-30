@@ -1,5 +1,5 @@
 ﻿//
-//  assert_test.cpp - a test for boost/assert.hpp
+//  assert_test.cpp - a test for sstd/boost/assert.hpp
 //
 //  Copyright (c) 2002 Peter Dimov and Multi Media Ltd.
 //  Copyright (2) Beman Dawes 2011

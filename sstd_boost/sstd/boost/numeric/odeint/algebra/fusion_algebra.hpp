@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/algebra/fusion_algebra.hpp
+ sstd/boost/numeric/odeint/algebra/fusion_algebra.hpp
 
  [begin_description]
  Algebra for boost::fusion sequences.

@@ -1,6 +1,6 @@
 ﻿//////////////////////////////////////////////////////////////////////////////
 //
-// This file is the adaptation for Interprocess of boost/scoped_ptr.hpp
+// This file is the adaptation for Interprocess of sstd/boost/scoped_ptr.hpp
 //
 // (C) Copyright Greg Colvin and Beman Dawes 1998, 1999.
 // (C) Copyright Peter Dimov 2001, 2002

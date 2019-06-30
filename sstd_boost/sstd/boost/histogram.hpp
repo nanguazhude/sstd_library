@@ -8,14 +8,14 @@
 #define BOOST_HISTOGRAM_HPP
 
 /**
-  \file boost/histogram.hpp
+  \file sstd/boost/histogram.hpp
   Includes all standard headers of the Boost.histogram library.
 
   Extra headers not automatically included are:
-    - boost/histogram/accumulators/ostream.hpp
-    - boost/histogram/axis/ostream.hpp
-    - boost/histogram/ostream.hpp
-    - boost/histogram/serialization.hpp
+    - sstd/boost/histogram/accumulators/ostream.hpp
+    - sstd/boost/histogram/axis/ostream.hpp
+    - sstd/boost/histogram/ostream.hpp
+    - sstd/boost/histogram/serialization.hpp
 */
 
 #include <sstd/boost/histogram/accumulators/mean.hpp>

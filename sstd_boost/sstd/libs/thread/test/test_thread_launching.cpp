@@ -151,7 +151,7 @@ BOOST_AUTO_TEST_CASE(test_thread_callable_object_multiple_arguments)
 
     callable_multiple_arg func;
     // Avoid
-    // boost/bind/bind.hpp(392) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+    // sstd/boost/bind/bind.hpp(392) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
 
     boost::thread callable3(func,"hello",x,1);
     callable3.join();

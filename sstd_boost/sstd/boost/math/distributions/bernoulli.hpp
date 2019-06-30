@@ -1,4 +1,4 @@
-﻿// boost\math\distributions\bernoulli.hpp
+﻿// sstd\boost\math\distributions\bernoulli.hpp
 
 // Copyright John Maddock 2006.
 // Copyright Paul A. Bristow 2007.

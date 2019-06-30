@@ -4,7 +4,7 @@
  * Distributed under the Boost Software License, Version 1.0.
  * See http://www.boost.org/LICENSE_1_0.txt
  *
- * This header is deprecated, use boost/winapi/page_protection_flags.hpp instead.
+ * This header is deprecated, use sstd/boost/winapi/page_protection_flags.hpp instead.
  */
 
 #ifndef BOOST_DETAIL_WINAPI_PAGE_PROTECTION_FLAGS_HPP

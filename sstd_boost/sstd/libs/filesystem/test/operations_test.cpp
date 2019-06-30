@@ -2216,7 +2216,7 @@ int cpp_main(int argc, char* argv[])
       language_id = 0x0409; // Assume US English
 #   endif
 # else
-#   error neither BOOST_POSIX_API nor BOOST_WINDOWS_API is defined. See boost/system/api_config.hpp
+#   error neither BOOST_POSIX_API nor BOOST_WINDOWS_API is defined. See sstd/boost/system/api_config.hpp
 # endif
   cout << "API is " << platform << endl;
   cout << "initial_path() is " << fs::initial_path() << endl;

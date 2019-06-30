@@ -13,7 +13,7 @@
 #include <sstd/boost/lexical_cast.hpp>
 #include <iostream>
 #include <vector>
-#include "connection.hpp" // Must come before boost/serialization headers.
+#include "connection.hpp" // Must come before sstd/boost/serialization headers.
 #include <sstd/boost/serialization/vector.hpp>
 #include "stock.hpp"
 

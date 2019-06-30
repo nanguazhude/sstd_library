@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/integrate/detail/integrate_times.hpp
+ sstd/boost/numeric/odeint/integrate/detail/integrate_times.hpp
 
  [begin_description]
  Default integrate times implementation.

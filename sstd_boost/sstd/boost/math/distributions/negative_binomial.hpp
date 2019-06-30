@@ -1,4 +1,4 @@
-﻿// boost\math\special_functions\negative_binomial.hpp
+﻿// sstd\boost\math\special_functions\negative_binomial.hpp
 
 // Copyright Paul A. Bristow 2007.
 // Copyright John Maddock 2007.

@@ -1,4 +1,4 @@
-﻿//  boost/chrono/timer.hpp  ------------------------------------------------------------//
+﻿//  sstd/boost/chrono/timer.hpp  ------------------------------------------------------------//
 
 //  Copyright Beman Dawes 2008
 //  Copyright 2009 Vicente J. Botet Escriba

@@ -13,7 +13,7 @@ Copyright (c) 2008-2009: Joachim Faulhaber
 
 #ifdef BOOST_MSVC
 #pragma warning(push)
-#pragma warning(disable:4389) // boost/test/test_tools.hpp(509) : warning C4389: '==' : signed/unsigned mismatch
+#pragma warning(disable:4389) // sstd/boost/test/test_tools.hpp(509) : warning C4389: '==' : signed/unsigned mismatch
 #pragma warning(disable:4996) // 'std::_Traits_helper::copy_s': Function call with parameters that may be unsafe
 #endif
 

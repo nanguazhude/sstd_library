@@ -8,7 +8,7 @@
 #define BOOST_HISTOGRAM_FWD_HPP
 
 /**
-  \file boost/histogram/fwd.hpp
+  \file sstd/boost/histogram/fwd.hpp
   Forward declarations, tag types and type aliases.
 */
 

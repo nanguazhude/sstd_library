@@ -8,7 +8,7 @@
 #ifndef BOOST_TYPE_INDEX_HPP
 #define BOOST_TYPE_INDEX_HPP
 
-/// \file boost/type_index.hpp
+/// \file sstd/boost/type_index.hpp
 /// \brief Includes minimal set of headers required to use the Boost.TypeIndex library.
 ///
 /// By inclusion of this file most optimal type index classes will be included and used

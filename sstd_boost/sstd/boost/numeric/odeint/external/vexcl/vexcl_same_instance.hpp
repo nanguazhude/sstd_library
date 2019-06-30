@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/external/vexcl/vexcl_same_instance.hpp
+ sstd/boost/numeric/odeint/external/vexcl/vexcl_same_instance.hpp
 
  [begin_description]
  Check if two VexCL containers are the same instance.

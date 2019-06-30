@@ -9,7 +9,7 @@
 // file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 
 /**
- * \file boost/process/system.hpp
+ * \file sstd/boost/process/system.hpp
  *
  * Defines a system function.
  */

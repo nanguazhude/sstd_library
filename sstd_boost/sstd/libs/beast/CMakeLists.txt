@@ -93,7 +93,7 @@ else()
 endif()
 
 # Must come before Boost includes, otherwise the
-# IDE sees the wrong file due to boost/ symlinks.
+# IDE sees the wrong file due to sstd/boost/ symlinks.
 include_directories (include)
 
 #-------------------------------------------------------------------------------

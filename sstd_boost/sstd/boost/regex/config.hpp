@@ -111,9 +111,7 @@
  * Shared regex lib will crash without this, frankly it looks a lot like a gcc bug:
  */
 #if defined(__MINGW32__)
-#ifndef BOOST_REGEX_NO_EXTERNAL_TEMPLATES
 #  define BOOST_REGEX_NO_EXTERNAL_TEMPLATES
-#endif
 #endif
 /*
  * Clang fails to export template instances with -fvisibility=hidden, see

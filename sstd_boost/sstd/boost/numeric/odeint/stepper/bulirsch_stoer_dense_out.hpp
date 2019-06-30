@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/stepper/bulirsch_stoer_dense_out.hpp
+ sstd/boost/numeric/odeint/stepper/bulirsch_stoer_dense_out.hpp
 
  [begin_description]
  Implementaiton of the Burlish-Stoer method with dense output

@@ -1,5 +1,5 @@
 ﻿//
-//  boost/signals2/mutex.hpp - header-only mutex
+//  sstd/boost/signals2/mutex.hpp - header-only mutex
 //
 //  Copyright (c) 2002, 2003 Peter Dimov and Multi Media Ltd.
 //  Copyright (c) 2008 Frank Mori Hess

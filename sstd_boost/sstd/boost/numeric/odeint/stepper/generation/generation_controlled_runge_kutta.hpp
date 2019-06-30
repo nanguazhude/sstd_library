@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/stepper/generation/generation_controlled_runge_kutta.hpp
+ sstd/boost/numeric/odeint/stepper/generation/generation_controlled_runge_kutta.hpp
 
  [begin_description]
  Specialization of the controller factory for the controlled_runge_kutta class.

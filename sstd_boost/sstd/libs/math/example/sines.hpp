@@ -5,7 +5,7 @@
 
 // Copyright ???? 2013.
 
-// Use boost/array if std::array (C++11 feature) is not available.
+// Use sstd/boost/array if std::array (C++11 feature) is not available.
 #ifdef  BOOST_NO_CXX11_HDR_ARRAY
 #include <sstd/boost/array/array.hpp>
 #else

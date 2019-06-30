@@ -4,7 +4,7 @@
  *
  * See http://www.boost.org/libs/iostreams for documentation.
  *
- * File:        boost/iostreams/detail/file_handle.hpp
+ * File:        sstd/boost/iostreams/detail/file_handle.hpp
  * Date:        Sun Jun 22 14:23:12 MDT 2008
  * Copyright:   2008 CodeRage, LLC
  * Author:      Jonathan Turkanis

@@ -106,7 +106,7 @@ namespace detail
         , Incrementable                                           // Value
 # ifndef BOOST_ITERATOR_REF_CONSTNESS_KILLS_WRITABILITY
           const  // MSVC won't strip this.  Instead we enable Thomas'
-                 // criterion (see boost/iterator/detail/facade_iterator_category.hpp)
+                 // criterion (see sstd/boost/iterator/detail/facade_iterator_category.hpp)
 # endif
         , traversal
         , Incrementable const&                                    // reference

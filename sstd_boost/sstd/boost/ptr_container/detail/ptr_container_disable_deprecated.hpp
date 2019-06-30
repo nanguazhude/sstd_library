@@ -8,7 +8,7 @@
 #endif
 
 //
-//  boost/ptr_container/detail/ptr_container_disable_deprecated.hpp
+//  sstd/boost/ptr_container/detail/ptr_container_disable_deprecated.hpp
 //
 //  Copyright 2015 Peter Dimov
 //

@@ -425,7 +425,7 @@ namespace boost { namespace wave
 #define PHOENIX_LIMIT 6
 #endif
 #if PHOENIX_LIMIT < 6
-// boost/home/classic/spirit/classic_attribute.hpp sets PHOENIX_LIMIT to 3!
+// sstd/boost/home/classic/spirit/classic_attribute.hpp sets PHOENIX_LIMIT to 3!
 #error "Boost.Wave: the constant PHOENIX_LIMIT must be at least defined to 6" \
 " to compile the library."
 #endif

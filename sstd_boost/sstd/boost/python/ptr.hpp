@@ -7,7 +7,7 @@
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
 //
-// Based on boost/ref.hpp, thus:
+// Based on sstd/boost/ref.hpp, thus:
 //  Copyright (C) 1999, 2000 Jaakko Jarvi (jaakko.jarvi@cs.utu.fi)
 //  Copyright (C) 2001 Peter Dimov
 

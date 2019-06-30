@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/external/viennacl/viennacl_resize.hpp
+ sstd/boost/numeric/odeint/external/viennacl/viennacl_resize.hpp
 
  [begin_description]
  Enable resizing for viennacl vector.

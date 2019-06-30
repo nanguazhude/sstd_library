@@ -1,4 +1,4 @@
-﻿// boost\math\distributions\geometric.hpp
+﻿// sstd\boost\math\distributions\geometric.hpp
 
 // Copyright John Maddock 2010.
 // Copyright Paul A. Bristow 2010.

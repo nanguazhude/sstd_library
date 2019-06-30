@@ -2,7 +2,7 @@
  * Defines the class template boost::iostreams::detail::device_adapter,
  * a convenience base class for device adapters.
  *
- * File:        boost/iostreams/detail/adapter/filter_adapter.hpp
+ * File:        sstd/boost/iostreams/detail/adapter/filter_adapter.hpp
  * Date:        Mon Nov 26 14:35:48 MST 2007
  *
  * Copyright:   2007-2008 CodeRage, LLC

@@ -34,7 +34,7 @@ namespace tools
 
 // For example if the precision of RealType varies at runtime,
 // then numeric_limits support may not be appropriate,
-// see boost/math/tools/ntl.hpp  for examples like
+// see sstd/boost/math/tools/ntl.hpp  for examples like
 // template <> NTL::RR max_value<NTL::RR> ...
 // See  Conceptual Requirements for Real Number Types.
 

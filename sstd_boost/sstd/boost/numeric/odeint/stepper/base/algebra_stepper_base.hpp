@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/stepper/base/algebra_stepper_base.hpp
+ sstd/boost/numeric/odeint/stepper/base/algebra_stepper_base.hpp
 
  [begin_description]
  Base class for all steppers with an algebra and operations.

@@ -2,7 +2,7 @@
 #define BOOST_SMART_PTR_DETAIL_ATOMIC_COUNT_STD_ATOMIC_HPP_INCLUDED
 
 //
-//  boost/detail/atomic_count_std_atomic.hpp
+//  sstd/boost/detail/atomic_count_std_atomic.hpp
 //
 //  atomic_count for std::atomic
 //

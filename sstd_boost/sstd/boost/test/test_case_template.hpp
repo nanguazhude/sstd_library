@@ -7,7 +7,7 @@
 //
 /// @file
 /// @brief Deprecated header.
-/// @deprecated Use @c boost/test/unit_test.hpp instead
+/// @deprecated Use @c sstd/boost/test/unit_test.hpp instead
 // ***************************************************************************
 
 #include <sstd/boost/test/unit_test.hpp>

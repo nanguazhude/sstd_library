@@ -23,7 +23,7 @@
 // Dummy values are required for LongEnum3 and LongEnum4.
 //
 // CC: Sun C++ 5.7 Patch 117830-03 2005/07/21
-// ICE in boost/type_traits/is_enum.hpp at line 67.
+// ICE in sstd/boost/type_traits/is_enum.hpp at line 67.
 
 
 #include <climits>

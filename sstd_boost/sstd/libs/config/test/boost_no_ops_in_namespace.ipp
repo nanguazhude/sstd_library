@@ -12,7 +12,7 @@
 //  DESCRIPTION:   Compiler requires inherited operator
 //                 friend functions to be defined at namespace scope,
 //                 then using'ed to boost.
-//                 Probably GCC specific.  See boost/operators.hpp for example.
+//                 Probably GCC specific.  See sstd/boost/operators.hpp for example.
 
 namespace boost{
 

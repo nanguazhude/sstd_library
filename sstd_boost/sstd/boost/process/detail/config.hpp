@@ -9,7 +9,7 @@
 // file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 
 /**
- * \file boost/process/config.hpp
+ * \file sstd/boost/process/config.hpp
  *
  * Defines various macros.
  */

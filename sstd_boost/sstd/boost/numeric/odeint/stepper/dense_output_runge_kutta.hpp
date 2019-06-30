@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/stepper/dense_output_runge_kutta.hpp
+ sstd/boost/numeric/odeint/stepper/dense_output_runge_kutta.hpp
 
  [begin_description]
  Implementation of the Dense-output stepper for all steppers. Note, that this class does

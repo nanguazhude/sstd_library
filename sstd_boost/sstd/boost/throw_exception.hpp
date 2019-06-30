@@ -8,7 +8,7 @@
 #endif
 
 //
-//  boost/throw_exception.hpp
+//  sstd/boost/throw_exception.hpp
 //
 //  Copyright (c) 2002 Peter Dimov and Multi Media Ltd.
 //  Copyright (c) 2008-2009 Emil Dotchevski and Reverge Studios, Inc.

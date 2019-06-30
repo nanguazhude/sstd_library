@@ -10,7 +10,7 @@
 #define BOOST_NONCOPYABLE_HPP
 
 // The header file at this path is deprecated;
-// use boost/core/noncopyable.hpp instead.
+// use sstd/boost/core/noncopyable.hpp instead.
 
 #include <sstd/boost/core/noncopyable.hpp>
 

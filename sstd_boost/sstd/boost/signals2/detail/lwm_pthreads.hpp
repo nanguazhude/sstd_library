@@ -1,5 +1,5 @@
 ﻿//
-//  boost/signals2/detail/lwm_pthreads.hpp
+//  sstd/boost/signals2/detail/lwm_pthreads.hpp
 //
 //  Copyright (c) 2002 Peter Dimov and Multi Media Ltd.
 //  Copyright (c) 2008 Frank Mori Hess

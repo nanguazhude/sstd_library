@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/external/gsl/gsl_wrapper.hpp
+ sstd/boost/numeric/odeint/external/gsl/gsl_wrapper.hpp
 
  [begin_description]
  Wrapper for gsl_vector.

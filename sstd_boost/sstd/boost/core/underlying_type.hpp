@@ -32,7 +32,7 @@ struct underlying_type_impl;
 
 #if defined(BOOST_NO_CXX11_SCOPED_ENUMS)
 
-// Support for boost/core/scoped_enum.hpp
+// Support for sstd/boost/core/scoped_enum.hpp
 template< typename EnumType >
 struct underlying_type_impl< EnumType, typename EnumType::is_boost_scoped_enum_tag >
 {

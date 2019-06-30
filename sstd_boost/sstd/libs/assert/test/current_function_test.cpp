@@ -8,7 +8,7 @@
 #endif
 
 //
-//  current_function_test.cpp - a test for boost/current_function.hpp
+//  current_function_test.cpp - a test for sstd/boost/current_function.hpp
 //
 //  Copyright (c) 2002 Peter Dimov and Multi Media Ltd.
 //

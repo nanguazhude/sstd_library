@@ -81,7 +81,7 @@ extern "C" const IMAGE_TLS_DIRECTORY32 _tls_used __attribute__ ((section(".rdata
     #include <windows.h>
 
 
-// _pRawDllMainOrig can be defined by including boost/thread/win32/mfc_thread_init.hpp
+// _pRawDllMainOrig can be defined by including sstd/boost/thread/win32/mfc_thread_init.hpp
 // into your dll; it ensures that MFC-Dll-initialization will be done properly
 // The following code is adapted from the MFC-Dll-init code
 /*

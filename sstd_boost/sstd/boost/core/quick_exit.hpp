@@ -7,7 +7,7 @@
 # pragma once
 #endif
 
-//  boost/core/quick_exit.hpp
+//  sstd/boost/core/quick_exit.hpp
 //
 //  Copyright 2018 Peter Dimov
 //

@@ -11,10 +11,10 @@
 
 #include <iostream>
 #include "sstd/boost/none.hpp"
-// but no boost/optional/optional_io.hpp
+// but no sstd/boost/optional/optional_io.hpp
 
 // THIS TEST SHOULD FAIL TO COMPILE
-// Unless one includes header boost/optional/optional_io.hpp, it should not be possible
+// Unless one includes header sstd/boost/optional/optional_io.hpp, it should not be possible
 // to stream out boost::none.
 
 void test_streaming_out_none()

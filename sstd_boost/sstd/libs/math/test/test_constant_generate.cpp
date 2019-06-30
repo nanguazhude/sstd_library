@@ -13,7 +13,7 @@
 #endif
 
 // To add new constants, add a function that calculates the value of the constant to
-// boost/math/constants/calculate_constants.hpp
+// sstd/boost/math/constants/calculate_constants.hpp
 // See http://www.boost.org/doc/libs/release/libs/math/doc/html/math_toolkit/new_const.html
 
 #include <sstd/boost/math/constants/generate.hpp> // Requires /modular-boost/libs/math/include_private in search path.

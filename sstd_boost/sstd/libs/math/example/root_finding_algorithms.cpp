@@ -21,7 +21,7 @@
 #include "table_type.hpp"
 // Copy of i:\modular-boost\libs\math\test\table_type.hpp
 // #include "handle_test_result.hpp"
-// Copy of i:\modular - boost\libs\math\test\handle_test_result.hpp
+// Copy of i:\modular - sstd\boost\libs\math\test\handle_test_result.hpp
 
 #include <sstd/boost/math/tools/roots.hpp>
 //using boost::math::policies::policy;

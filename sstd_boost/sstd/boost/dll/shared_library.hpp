@@ -8,7 +8,7 @@
 #ifndef BOOST_DLL_SHARED_LIBRARY_HPP
 #define BOOST_DLL_SHARED_LIBRARY_HPP
 
-/// \file boost/dll/shared_library.hpp
+/// \file sstd/boost/dll/shared_library.hpp
 /// \brief Contains the boost::dll::shared_library class, core class for all the
 /// DLL/DSO operations.
 

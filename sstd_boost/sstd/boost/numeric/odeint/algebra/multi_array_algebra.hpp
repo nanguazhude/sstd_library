@@ -1,6 +1,6 @@
 ﻿/*
   [auto_generated]
-  boost/numeric/odeint/algebra/multi_array_algebra.hpp
+  sstd/boost/numeric/odeint/algebra/multi_array_algebra.hpp
 
   [begin_description]
   tba.

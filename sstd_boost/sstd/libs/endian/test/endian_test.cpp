@@ -125,7 +125,7 @@ namespace
     {
       cout << "This machine is little-endian.\n";
   #   if !BOOST_ENDIAN_LITTLE_BYTE
-        cout << "yet boost/predef/other/endian.h does not define BOOST_ENDIAN_LITTLE_BYTE.\n"
+        cout << "yet sstd/boost/predef/other/endian.h does not define BOOST_ENDIAN_LITTLE_BYTE.\n"
           "The Boost Endian library must be revised to work correctly on this system.\n"
           "Please report this problem to the Boost mailing list.\n";
         exit(1);
@@ -135,7 +135,7 @@ namespace
     {
       cout << "This machine is big-endian.\n";
   #   if !BOOST_ENDIAN_BIG_BYTE
-        cout << "yet boost/predef/other/endian.h does not define BOOST_ENDIAN_BIG_BYTE.\n"
+        cout << "yet sstd/boost/predef/other/endian.h does not define BOOST_ENDIAN_BIG_BYTE.\n"
           "The Boost Endian library must be revised to work correctly on this system.\n"
           "Please report this problem to the Boost mailing list.\n";
         exit(1);

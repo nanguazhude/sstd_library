@@ -32,5 +32,5 @@
 #endif  // auto-linking disabled
 
 
-#endif // boost/locale/config.hpp
+#endif // sstd/boost/locale/config.hpp
 // vim: tabstop=4 expandtab shiftwidth=4 softtabstop=4

@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/stepper/base/symplectic_rkn_stepper_base.hpp
+ sstd/boost/numeric/odeint/stepper/base/symplectic_rkn_stepper_base.hpp
 
  [begin_description]
  Base class for symplectic Runge-Kutta-Nystrom steppers.

@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/algebra/operations_dispatcher.hpp
+ sstd/boost/numeric/odeint/algebra/operations_dispatcher.hpp
 
  [begin_description]
  Operations dispatcher to automatically chose suitable operations.

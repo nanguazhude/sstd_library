@@ -9,9 +9,9 @@
 #define BOOST_DEPRECATED_INCLUDE_EDMONDS_KARP_MAX_FLOW_HPP
 
 #if defined(_MSC_VER) || defined(__BORLANDC__) || defined(__DMC__)
-#  pragma message ("Warning: This header is deprecated. Please use: boost/graph/edmonds_karp_max_flow.hpp")
+#  pragma message ("Warning: This header is deprecated. Please use: sstd/boost/graph/edmonds_karp_max_flow.hpp")
 #elif defined(__GNUC__) || defined(__HP_aCC) || defined(__SUNPRO_CC) || defined(__IBMCPP__)
-#  warning "This header is deprecated. Please use: boost/graph/edmonds_karp_max_flow.hpp"
+#  warning "This header is deprecated. Please use: sstd/boost/graph/edmonds_karp_max_flow.hpp"
 #endif
 
 #include <sstd/boost/graph/edmonds_karp_max_flow.hpp>

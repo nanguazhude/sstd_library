@@ -14,7 +14,7 @@
 //  DESCRIPTION:   The compiler does not correctly handle
 //                 pointers to const member functions, preventing use
 //                 of these in overloaded function templates.
-//                 See boost/functional.hpp for example.
+//                 See sstd/boost/functional.hpp for example.
 
 namespace boost_no_pointer_to_member_const{
 

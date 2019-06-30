@@ -8,7 +8,7 @@
  * C runtime library used to access file descriptors and to the type used
  * to store file offsets for seeking.
  *
- * File:        boost/iostreams/detail/config/rtl.hpp
+ * File:        sstd/boost/iostreams/detail/config/rtl.hpp
  * Date:        Wed Dec 26 11:58:11 MST 2007
  *
  * Copyright:   2007-2008 CodeRage, LLC

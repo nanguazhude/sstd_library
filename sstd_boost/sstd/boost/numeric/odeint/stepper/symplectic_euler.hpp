@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/stepper/symplectic_euler.hpp
+ sstd/boost/numeric/odeint/stepper/symplectic_euler.hpp
 
  [begin_description]
  Implementation of the symplectic Euler for separable Hamiltonian systems.

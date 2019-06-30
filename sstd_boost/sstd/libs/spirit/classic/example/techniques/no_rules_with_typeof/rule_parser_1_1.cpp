@@ -8,7 +8,7 @@
 ==============================================================================*/
 //------------------------------------------------------------------------------
 //  This example uses typeof to build a nonrecursive grammar.
-//  See boost/spirit/include/rule_parser.hpp for details.
+//  See sstd/boost/spirit/include/rule_parser.hpp for details.
 //------------------------------------------------------------------------------
 #include <string>
 #include <iostream>

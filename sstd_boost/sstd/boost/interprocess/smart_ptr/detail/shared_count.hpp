@@ -1,6 +1,6 @@
 ﻿//////////////////////////////////////////////////////////////////////////////
 //
-// This file is the adaptation for Interprocess of boost/detail/shared_count.hpp
+// This file is the adaptation for Interprocess of sstd/boost/detail/shared_count.hpp
 //
 // (C) Copyright Peter Dimov and Multi Media Ltd. 2001, 2002, 2003
 // (C) Copyright Peter Dimov 2004-2005

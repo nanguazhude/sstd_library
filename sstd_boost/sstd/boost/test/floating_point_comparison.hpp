@@ -7,7 +7,7 @@
 //
 //! @file
 //! @brief Deprecated header
-//! @deprecated Use boost/test/tools/floating_point_comparison.hpp instead
+//! @deprecated Use sstd/boost/test/tools/floating_point_comparison.hpp instead
 // ***************************************************************************
 
 // Boost.Test

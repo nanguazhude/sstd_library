@@ -9,7 +9,7 @@
     appropriate argument to the constructor. Therefore it is sufficient
     to define the pickle interface method __getinitargs__.
 
-    For more information refer to boost/libs/python/doc/pickle.html.
+    For more information refer to sstd/boost/libs/python/doc/pickle.html.
  */
 
 #include <sstd/boost/python/module.hpp>

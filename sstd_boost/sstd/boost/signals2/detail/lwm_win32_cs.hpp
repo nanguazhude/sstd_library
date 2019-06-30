@@ -1,5 +1,5 @@
 ﻿//
-//  boost/signals2/detail/lwm_win32_cs.hpp
+//  sstd/boost/signals2/detail/lwm_win32_cs.hpp
 //
 //  Copyright (c) 2002, 2003 Peter Dimov
 //  Copyright (c) 2008 Frank Mori Hess

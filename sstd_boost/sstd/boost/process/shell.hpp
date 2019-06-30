@@ -20,7 +20,7 @@
 #include <sstd/boost/process/detail/windows/shell_path.hpp>
 #endif
 
-/** \file boost/process/shell.hpp
+/** \file sstd/boost/process/shell.hpp
  *
  *    Header which provides the shell property. This provides the
  *    property to launch a process through the system shell.

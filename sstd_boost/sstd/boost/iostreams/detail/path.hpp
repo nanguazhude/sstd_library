@@ -4,7 +4,7 @@
  *
  * See http://www.boost.org/libs/iostreams for documentation.
  *
- * File:        boost/iostreams/detail/path.hpp
+ * File:        sstd/boost/iostreams/detail/path.hpp
  * Date:        Sat Jun 21 21:24:05 MDT 2008
  * Copyright:   2008 CodeRage, LLC
  * Author:      Jonathan Turkanis

@@ -200,7 +200,7 @@ static bn::ndarray py_get_sigma(bp::object const & self) {
 /**
  *  To allow the constructor to work, we need to define some from-Python converters from NumPy arrays
  *  to the matrix/vector types.  The rvalue-from-python functionality is not well-documented in Boost.Python
- *  itself; you can learn more from boost/python/converter/rvalue_from_python_data.hpp.
+ *  itself; you can learn more from sstd/boost/python/converter/rvalue_from_python_data.hpp.
  */
 
 /**

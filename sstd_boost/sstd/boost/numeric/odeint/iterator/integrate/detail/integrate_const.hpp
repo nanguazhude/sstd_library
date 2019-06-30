@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/integrate/detail/integrate_const.hpp
+ sstd/boost/numeric/odeint/integrate/detail/integrate_const.hpp
 
  [begin_description]
  integrate const implementation

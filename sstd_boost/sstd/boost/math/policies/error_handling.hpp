@@ -23,7 +23,7 @@
 #include <sstd/boost/throw_exception.hpp>
 #include <sstd/boost/cstdint.hpp>
 #ifdef BOOST_MSVC
-#  pragma warning(push) // Quiet warnings in boost/format.hpp
+#  pragma warning(push) // Quiet warnings in sstd/boost/format.hpp
 #  pragma warning(disable: 4996) // _SCL_SECURE_NO_DEPRECATE
 #  pragma warning(disable: 4512) // assignment operator could not be generated.
 #  pragma warning(disable: 4127) // conditional expression is constant
@@ -841,6 +841,6 @@ std::pair<T, T> pair_from_single(const T& val) BOOST_MATH_NOEXCEPT(T)
 #  pragma warning(pop)
 #endif
 
-}} // namespaces boost/math
+}} // namespaces sstd/boost/math
 
 #endif // BOOST_MATH_POLICY_ERROR_HANDLING_HPP

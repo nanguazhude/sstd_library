@@ -21,7 +21,7 @@ namespace boost
 
 // boost::noncopyable derives from noncopyable_::base_token to enable us
 // to recognize it. The definition is macro-guarded so that we can replicate
-// it here without including boost/core/noncopyable.hpp, which is in Core.
+// it here without including sstd/boost/core/noncopyable.hpp, which is in Core.
 
 namespace noncopyable_
 {

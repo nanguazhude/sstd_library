@@ -29,7 +29,7 @@
 //   library is strange.
 // Until the above points are fixed, a library which wants to use utf8 must:
 // - include this header in one of it's headers or sources
-// - include the corresponding boost/detail/utf8_codecvt_facet.ipp file in one
+// - include the corresponding sstd/boost/detail/utf8_codecvt_facet.ipp file in one
 //   of its sources
 // - before including either file, the library must define
 //   - BOOST_UTF8_BEGIN_NAMESPACE to the namespace declaration that must be used

@@ -1,6 +1,6 @@
 ﻿/*
   [auto_generated]
-  boost/numeric/odeint/external/vexcl/vexcl_norm_inf.hpp
+  sstd/boost/numeric/odeint/external/vexcl/vexcl_norm_inf.hpp
 
   [begin_description]
   vector_space_norm_inf specialization for vexcl

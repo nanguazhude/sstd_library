@@ -246,6 +246,7 @@ namespace thisMainFile {
         /*用于保存过去已经读取的line*/
         std::list< std::string > varFileLines;
 
+        bool varIsFirstLine{ true };
         while (varIn.good()) {
 
             std::string varLine;
@@ -258,6 +259,15 @@ namespace thisMainFile {
                     varLine.pop_back();
                 } else {
                     break;
+                }
+            }
+
+            if (varIsFirstLine) {
+                varIsFirstLine = false;
+                if (varLine.size() > 2) {
+                    if ((varLine[0] == '\xEF') && (varLine[1] == '\xBB') && (varLine[2] == '\xBF')) {
+                        varLine.erase(0, 3);
+                    }
                 }
             }
 

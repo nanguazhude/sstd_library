@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/external/thrust/thrust_resize.hpp
+ sstd/boost/numeric/odeint/external/thrust/thrust_resize.hpp
 
  [begin_description]
  Enable resizing for thrusts device and host_vector.

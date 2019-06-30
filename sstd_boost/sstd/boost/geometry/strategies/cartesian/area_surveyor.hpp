@@ -22,7 +22,7 @@
 
 
 // keep this file for now, for backward compatibility
-// functionality-wise, make it equivalent to boost/geometry/strategies/cartesian/area.hpp
+// functionality-wise, make it equivalent to sstd/boost/geometry/strategies/cartesian/area.hpp
 #include <sstd/boost/geometry/strategies/cartesian/area.hpp>
 
 

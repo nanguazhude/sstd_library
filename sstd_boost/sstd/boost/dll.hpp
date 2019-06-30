@@ -9,7 +9,7 @@
 #ifndef BOOST_DLL_DLL_HPP
 #define BOOST_DLL_DLL_HPP
 
-/// \file boost/dll.hpp
+/// \file sstd/boost/dll.hpp
 /// \brief Includes all the non-experimental headers of the Boost.DLL library.
 
 #include <sstd/boost/dll/config.hpp>

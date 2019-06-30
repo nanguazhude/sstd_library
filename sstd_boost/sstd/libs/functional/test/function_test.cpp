@@ -54,15 +54,15 @@
 // > You are receiving this email because several files you contributed
 // > lack such information or have an old license:
 // >
-// > boost/functional/functional.hpp
-// > boost/libs/functional/binders.html
-// > boost/libs/functional/function_test.cpp
-// > boost/libs/functional/function_traits.html
-// > boost/libs/functional/index.html
-// > boost/libs/functional/mem_fun.html
-// > boost/libs/functional/negators.html
-// > boost/libs/functional/ptr_fun.html
-// > boost/people/mark_rodgers.htm
+// > sstd/boost/functional/functional.hpp
+// > sstd/boost/libs/functional/binders.html
+// > sstd/boost/libs/functional/function_test.cpp
+// > sstd/boost/libs/functional/function_traits.html
+// > sstd/boost/libs/functional/index.html
+// > sstd/boost/libs/functional/mem_fun.html
+// > sstd/boost/libs/functional/negators.html
+// > sstd/boost/libs/functional/ptr_fun.html
+// > sstd/boost/people/mark_rodgers.htm
 // >
 // > I therefore kindly ask you to grant the permission to do the
 // > following:

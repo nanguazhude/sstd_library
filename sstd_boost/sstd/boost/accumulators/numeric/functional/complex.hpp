@@ -9,7 +9,7 @@
 #define BOOST_NUMERIC_FUNCTIONAL_COMPLEX_HPP_EAN_01_17_2006
 
 #ifdef BOOST_NUMERIC_FUNCTIONAL_HPP_INCLUDED
-# error Include this file before boost/accumulators/numeric/functional.hpp
+# error Include this file before sstd/boost/accumulators/numeric/functional.hpp
 #endif
 
 #include <complex>

@@ -8,7 +8,7 @@
 ==============================================================================*/
 //------------------------------------------------------------------------------
 //  This example demonstrates the opaque rule parser.
-//  See boost/spirit/include/rule_parser.hpp for details.
+//  See sstd/boost/spirit/include/rule_parser.hpp for details.
 //------------------------------------------------------------------------------
 #include <iostream>
 

@@ -1,5 +1,5 @@
 ﻿//
-//  pointer_cast_test.cpp - a test for boost/pointer_cast.hpp
+//  pointer_cast_test.cpp - a test for sstd/boost/pointer_cast.hpp
 //
 //  Copyright (c) 2005 Ion Gaztanaga
 //  Copyright (c) 2005 Peter Dimov

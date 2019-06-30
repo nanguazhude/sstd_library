@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/algebra/detail/norm_inf.hpp
+ sstd/boost/numeric/odeint/algebra/detail/norm_inf.hpp
 
  [begin_description]
  Default reduce implementation.

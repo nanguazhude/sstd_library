@@ -1,4 +1,4 @@
-﻿//  boost/filesystem/operations.hpp  ---------------------------------------------------//
+﻿//  sstd/boost/filesystem/operations.hpp  ---------------------------------------------------//
 
 //  Copyright Beman Dawes 2002-2009
 //  Copyright Jan Langer 2002

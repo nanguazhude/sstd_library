@@ -8,7 +8,7 @@
 // See http://boostorg.github.com/compute for more information.
 //---------------------------------------------------------------------------//
 
-// See boost/compute/detail/diagnostic.hpp
+// See sstd/boost/compute/detail/diagnostic.hpp
 // GCC
 #if ((__GNUC__ * 100) + __GNUC_MINOR__) >= 402
 #define BOOST_COMPUTE_GCC_DIAG_STR(s) #s

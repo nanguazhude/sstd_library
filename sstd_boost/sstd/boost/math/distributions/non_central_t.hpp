@@ -1,4 +1,4 @@
-﻿// boost\math\distributions\non_central_t.hpp
+﻿// sstd\boost\math\distributions\non_central_t.hpp
 
 // Copyright John Maddock 2008.
 

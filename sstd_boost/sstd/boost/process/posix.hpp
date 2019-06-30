@@ -11,7 +11,7 @@
 #include <sstd/boost/process/detail/posix/signal.hpp>
 
 
-/** \file boost/process/posix.hpp
+/** \file sstd/boost/process/posix.hpp
  *
  *    Header which provides the posix extensions.
 \xmlonly

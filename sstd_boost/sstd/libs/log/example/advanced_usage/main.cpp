@@ -161,7 +161,7 @@ int main(int argc, char* argv[])
                                                // You may specify an MPL sequence of types if the attribute
                                                // may have more than one type. And you will have to specify
                                                // it anyway if the library is not familiar with it (see
-                                               // boost/log/utility/type_dispatch/standard_types.hpp for the list
+                                               // sstd/boost/log/utility/type_dispatch/standard_types.hpp for the list
                                                // of the supported out-of-the-box types).
                 << "] [" // yet another delimiter
            ]

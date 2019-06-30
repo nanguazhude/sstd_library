@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/algebra/norm_result_type.hpp
+ sstd/boost/numeric/odeint/algebra/norm_result_type.hpp
 
  [begin_description]
  Calculates the type of the norm_inf operation for container types

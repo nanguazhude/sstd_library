@@ -10,7 +10,7 @@
 #define BOOST_DETAIL_NO_EXCEPTIONS_SUPPORT_HPP
 
 // The header file at this path is deprecated;
-// use boost/core/no_exceptions_support.hpp instead.
+// use sstd/boost/core/no_exceptions_support.hpp instead.
 
 #include <sstd/boost/core/no_exceptions_support.hpp>
 

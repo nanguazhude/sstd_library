@@ -23,7 +23,7 @@
 #include <sstd/boost/algorithm/string/find.hpp>
 #include <sstd/boost/algorithm/string/detail/predicate.hpp>
 
-/*! \file boost/algorithm/string/predicate.hpp
+/*! \file sstd/boost/algorithm/string/predicate.hpp
     Defines string-related predicates.
     The predicates determine whether a substring is contained in the input string
     under various conditions: a string starts with the substring, ends with the

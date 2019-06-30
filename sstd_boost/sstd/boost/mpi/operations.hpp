@@ -187,7 +187,7 @@ struct bitwise_xor
  *  that map onto operations that have @c MPI_Op equivalences, such as
  *  bitwise OR, logical and, or maximum. However, users are encouraged
  *  to use the standard function objects in the @c functional and @c
- *  boost/mpi/operations.hpp headers whenever possible. For
+ *  sstd/boost/mpi/operations.hpp headers whenever possible. For
  *  function objects that are class templates with a single template
  *  parameter, it may be easier to specialize @c is_builtin_mpi_op.
  */

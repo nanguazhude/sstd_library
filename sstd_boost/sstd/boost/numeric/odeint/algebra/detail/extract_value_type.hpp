@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/algebra/detail/extract_value_type.hpp
+ sstd/boost/numeric/odeint/algebra/detail/extract_value_type.hpp
 
  [begin_description]
  Extract true value type from complex types (eg. std::complex)

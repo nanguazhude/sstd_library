@@ -1,4 +1,4 @@
-﻿// boost\math\distributions\binomial.hpp
+﻿// sstd\boost\math\distributions\binomial.hpp
 
 // Copyright John Maddock 2006.
 // Copyright Paul A. Bristow 2007.

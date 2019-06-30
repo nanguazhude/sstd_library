@@ -4,7 +4,7 @@
  *
  * See http://www.boost.org/libs/iostreams for documentation.
 
- * File:        boost/iostreams/detail/execute.hpp
+ * File:        sstd/boost/iostreams/detail/execute.hpp
  * Date:        Thu Dec 06 13:21:54 MST 2007
  * Copyright:   2007-2008 CodeRage, LLC
  * Author:      Jonathan Turkanis

@@ -251,7 +251,7 @@ struct mp_int {
     return std::equal(data.begin(), data.end(), o.data.begin());
   }
 
-  // copied from boost/operators.hpp
+  // copied from sstd/boost/operators.hpp
   friend bool operator>(const mp_int& x, const mp_int& y) { return y < x; }
   friend bool operator<=(const mp_int& x, const mp_int& y) { return !(y < x); }
   friend bool operator>=(const mp_int& x, const mp_int& y) { return !(x < y); }
@@ -283,7 +283,7 @@ struct mp_int {
         [this](double o) { return operator double() == o; }, o);
   }
 
-  // adapted copy from boost/operators.hpp
+  // adapted copy from sstd/boost/operators.hpp
   template <class U>
   friend bool operator<=(const mp_int& x, const U& y) {
     if (is_unsigned_integral<U>::value) return !(x > y);
@@ -562,7 +562,7 @@ private:
     bool operator>(reference_t rhs) const { return op<detail::greater>(rhs); }
     bool operator==(reference_t rhs) const { return op<detail::equal>(rhs); }
 
-    // adapted copy from boost/operators.hpp for partial ordering
+    // adapted copy from sstd/boost/operators.hpp for partial ordering
     friend bool operator<=(reference_t x, reference_t y) { return !(y < x); }
     friend bool operator>=(reference_t x, reference_t y) { return !(y > x); }
     friend bool operator!=(reference_t y, reference_t x) { return !(x == y); }
@@ -582,7 +582,7 @@ private:
       return op<detail::equal>(rhs);
     }
 
-    // adapted copy from boost/operators.hpp
+    // adapted copy from sstd/boost/operators.hpp
     template <class U>
     friend bool operator<=(reference_t x, const U& y) {
       if (detail::is_unsigned_integral<U>::value) return !(x > y);
@@ -713,7 +713,7 @@ public:
     bool operator>(reference rhs) const { return base_type::operator>(rhs); }
     bool operator==(reference rhs) const { return base_type::operator==(rhs); }
 
-    // adapted copy from boost/operators.hpp for partial ordering
+    // adapted copy from sstd/boost/operators.hpp for partial ordering
     friend bool operator<=(reference x, reference y) { return !(y < x); }
     friend bool operator>=(reference x, reference y) { return !(y > x); }
     friend bool operator!=(reference y, reference x) { return !(x == y); }

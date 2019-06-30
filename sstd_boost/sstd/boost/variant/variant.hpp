@@ -92,7 +92,7 @@
 // Implementation Macros:
 //
 // BOOST_VARIANT_VISITATION_UNROLLING_LIMIT
-//   Defined in boost/variant/detail/visitation_impl.hpp.
+//   Defined in sstd/boost/variant/detail/visitation_impl.hpp.
 //
 // BOOST_VARIANT_MINIMIZE_SIZE
 //   When #defined, implementation employs all known means to minimize the
@@ -1095,7 +1095,7 @@ private:
 ///////////////////////////////////////////////////////////////////////////////
 // class template variant (concept inspired by Andrei Alexandrescu)
 //
-// See docs and boost/variant/variant_fwd.hpp for more information.
+// See docs and sstd/boost/variant/variant_fwd.hpp for more information.
 //
 template <
       typename T0_
@@ -2405,7 +2405,7 @@ public: // visitation support
 ///////////////////////////////////////////////////////////////////////////////
 // metafunction make_variant_over
 //
-// See docs and boost/variant/variant_fwd.hpp for more information.
+// See docs and sstd/boost/variant/variant_fwd.hpp for more information.
 //
 template <typename Types>
 struct make_variant_over

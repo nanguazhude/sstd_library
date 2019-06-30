@@ -1,4 +1,4 @@
-﻿// boost\math\distributions\beta.hpp
+﻿// sstd\boost\math\distributions\beta.hpp
 
 // Copyright John Maddock 2006.
 // Copyright Paul A. Bristow 2006.

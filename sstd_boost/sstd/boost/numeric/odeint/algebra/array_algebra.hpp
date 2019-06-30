@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/algebra/array_algebra.hpp
+ sstd/boost/numeric/odeint/algebra/array_algebra.hpp
 
  [begin_description]
  Algebra for Arrays. Highly specialized for odeint. Const arguments are

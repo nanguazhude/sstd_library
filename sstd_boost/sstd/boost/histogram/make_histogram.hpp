@@ -8,7 +8,7 @@
 #define BOOST_HISTOGRAM_MAKE_HISTOGRAM_HPP
 
 /**
-  \file boost/histogram/make_histogram.hpp
+  \file sstd/boost/histogram/make_histogram.hpp
   Collection of factory functions to conveniently create histograms.
 */
 

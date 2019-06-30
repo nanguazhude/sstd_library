@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/external/mpi/mpi.hpp
+ sstd/boost/numeric/odeint/external/mpi/mpi.hpp
 
  [begin_description]
  Wrappers for MPI.

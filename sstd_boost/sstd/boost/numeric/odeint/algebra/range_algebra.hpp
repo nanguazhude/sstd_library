@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/algebra/range_algebra.hpp
+ sstd/boost/numeric/odeint/algebra/range_algebra.hpp
 
  [begin_description]
  Default algebra, which works with the most state types, like vector< double >, boost::array< double >, boost::range.

@@ -1,4 +1,4 @@
-﻿// boost\math\distributions\non_central_beta.hpp
+﻿// sstd\boost\math\distributions\non_central_beta.hpp
 
 // Copyright John Maddock 2008.
 

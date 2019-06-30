@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/stepper/symplectic_rkn_sb3a_mclachlan.hpp
+ sstd/boost/numeric/odeint/stepper/symplectic_rkn_sb3a_mclachlan.hpp
 
  [begin_description]
  Implementation of the symplectic MacLachlan stepper for separable Hamiltonian system.

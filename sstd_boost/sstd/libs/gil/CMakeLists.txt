@@ -244,7 +244,7 @@ endif()
 #
 # The boostorg/gil repository includes must come first,
 # before Boost includes from cloned Boost superproject or installed distribution.
-# Otherwise IDEs may see the wrong file (ie. due to boost/ symlinks or
+# Otherwise IDEs may see the wrong file (ie. due to sstd/boost/ symlinks or
 # GIL headers from installed Boost instead of this clone of boostog/gil).
 #-----------------------------------------------------------------------------
 add_library(gil_include_directories INTERFACE)

@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/external/mpi/mpi_vector_state.hpp
+ sstd/boost/numeric/odeint/external/mpi/mpi_vector_state.hpp
 
  [begin_description]
  Copying a container from/to an mpi_state splits/joins it.

@@ -1,4 +1,4 @@
-﻿//  boost/chrono/thread_clock.hpp  -----------------------------------------------------------//
+﻿//  sstd/boost/chrono/thread_clock.hpp  -----------------------------------------------------------//
 
 //  Copyright 2009-2011 Vicente J. Botet Escriba
 

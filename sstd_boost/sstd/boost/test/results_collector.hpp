@@ -93,7 +93,7 @@ public:
 
     /// Produces result code for the test unit execution
     ///
-    /// This methhod return one of the result codes defined in @c boost/cstdlib.hpp
+    /// This methhod return one of the result codes defined in @c sstd/boost/cstdlib.hpp
     /// @returns
     ///   - @c boost::exit_success on success,
     ///   - @c boost::exit_exception_failure in case test unit

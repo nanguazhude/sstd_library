@@ -8,7 +8,7 @@
 //  MACRO:         BOOST_NO_COMPLETE_VALUE_INITIALIZATION
 //  TITLE:         No complete value-initialization
 //  DESCRIPTION:   The C++ compiler does not to have implemented value-initialization completely.
-//                 See also boost/libs/utility/value_init.htm#compiler_issues
+//                 See also sstd/boost/libs/utility/value_init.htm#compiler_issues
 
 #include <iostream>
 

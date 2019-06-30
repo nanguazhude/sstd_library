@@ -8,7 +8,7 @@
 // Revision History:
 // 03 May 2001   Jeremy Siek
 //      Generalized the property map iterator and moved that
-//      part to boost/property_map.hpp. Also modified to
+//      part to sstd/boost/property_map.hpp. Also modified to
 //      differentiate between const/mutable graphs and
 //      added a workaround to avoid partial specialization.
 

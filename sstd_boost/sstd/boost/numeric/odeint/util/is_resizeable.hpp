@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/util/is_resizeable.hpp
+ sstd/boost/numeric/odeint/util/is_resizeable.hpp
 
  [begin_description]
  Metafunction to determine if a state type can resized. For usage in the steppers.

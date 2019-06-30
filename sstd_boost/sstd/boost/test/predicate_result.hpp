@@ -7,7 +7,7 @@
 //
 /// @file
 /// @brief Deprecated header
-/// @deprecated Use boost/test/tools/assertion_result.hpp instead
+/// @deprecated Use sstd/boost/test/tools/assertion_result.hpp instead
 // ***************************************************************************
 
 // Boost.Test

@@ -19,7 +19,7 @@
 
 #include <sstd/boost/static_assert.hpp>
 
-// Use boost/limits to work around missing limits headers on some compilers
+// Use sstd/boost/limits to work around missing limits headers on some compilers
 #include <sstd/boost/limits.hpp>
 #include <sstd/boost/config.hpp>
 

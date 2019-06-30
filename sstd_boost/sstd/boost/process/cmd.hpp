@@ -23,7 +23,7 @@
 #include <sstd/boost/process/detail/windows/cmd.hpp>
 #endif
 
-/** \file boost/process/cmd.hpp
+/** \file sstd/boost/process/cmd.hpp
  *
  *    This header provides the \xmlonly <globalname alt="boost::process::cmd">cmd</globalname>\endxmlonly property.
  *

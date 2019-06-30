@@ -8,7 +8,7 @@
 #define boost_python_numpy_dtype_hpp_
 
 /**
- *  @file boost/python/numpy/dtype.hpp
+ *  @file sstd/boost/python/numpy/dtype.hpp
  *  @brief Object manager for Python's numpy.dtype class.
  */
 

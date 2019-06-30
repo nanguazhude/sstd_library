@@ -4,7 +4,7 @@
 // (See accompanying file LICENSE_1_0.txt
 // or copy at http://www.boost.org/LICENSE_1_0.txt)
 
-/// \file boost/dll/config.hpp
+/// \file sstd/boost/dll/config.hpp
 /// \brief Imports filesystem, error_code, errc, system_error, make_error_code from Boost or C++17 into `boost::dll::fs` namespace.
 
 #ifndef BOOST_DLL_DETAIL_CONFIG_HPP

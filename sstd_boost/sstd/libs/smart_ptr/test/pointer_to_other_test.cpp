@@ -1,5 +1,5 @@
 ﻿//
-//  pointer_to_other_test.cpp - a test for boost/pointer_to_other.hpp
+//  pointer_to_other_test.cpp - a test for sstd/boost/pointer_to_other.hpp
 //
 //  Copyright (c) 2005 Peter Dimov
 //

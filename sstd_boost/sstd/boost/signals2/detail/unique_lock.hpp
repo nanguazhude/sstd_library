@@ -1,6 +1,6 @@
 ﻿/*
   Provides a basic subset of boost::unique_lock functionality.  Provided only because
-  including boost/thread/locks.hpp requires linking to thread library
+  including sstd/boost/thread/locks.hpp requires linking to thread library
 */
 // Copyright Frank Mori Hess 2008.
 // Distributed under the Boost Software License, Version

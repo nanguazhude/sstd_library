@@ -1,6 +1,6 @@
 ﻿/*
   [auto_generated]
-  boost/numeric/odeint/external/thrust/thrust.hpp
+  sstd/boost/numeric/odeint/external/thrust/thrust.hpp
 
   [begin_description]
   includes all headers required for using odeint with thrust

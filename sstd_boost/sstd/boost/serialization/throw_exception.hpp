@@ -7,7 +7,7 @@
 # pragma once
 #endif
 
-//  boost/throw_exception.hpp
+//  sstd/boost/throw_exception.hpp
 //
 //  Copyright (c) 2002 Peter Dimov and Multi Media Ltd.
 //

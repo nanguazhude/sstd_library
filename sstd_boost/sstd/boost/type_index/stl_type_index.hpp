@@ -23,7 +23,7 @@
 
 // MSVC is capable of calling typeid(T) even when RTTI is off
 #if defined(BOOST_NO_RTTI) && !defined(BOOST_MSVC)
-#error "File boost/type_index/stl_type_index.ipp is not usable when typeid() is not available."
+#error "File sstd/boost/type_index/stl_type_index.ipp is not usable when typeid() is not available."
 #endif
 
 #include <typeinfo>

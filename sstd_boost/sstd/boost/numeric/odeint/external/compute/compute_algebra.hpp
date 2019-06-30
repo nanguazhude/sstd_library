@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/external/compute/compute_algebra.hpp
+ sstd/boost/numeric/odeint/external/compute/compute_algebra.hpp
 
  [begin_description]
  An algebra for Boost.Compute vectors.

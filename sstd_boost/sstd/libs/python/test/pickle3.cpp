@@ -14,7 +14,7 @@
     This requires more code (compare with pickle2.cpp), but is
     unavoidable if the object's __dict__ is not always empty.
 
-    For more information refer to boost/libs/python/doc/pickle.html.
+    For more information refer to sstd/boost/libs/python/doc/pickle.html.
  */
 
 #include <sstd/boost/python/module.hpp>

@@ -1,5 +1,5 @@
 ﻿//
-// Test for boost/detail/iterator.hpp
+// Test for sstd/boost/detail/iterator.hpp
 //
 // Copyright 2014 Peter Dimov
 //

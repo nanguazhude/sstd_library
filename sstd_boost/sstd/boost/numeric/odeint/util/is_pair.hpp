@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/util/is_pair.hpp
+ sstd/boost/numeric/odeint/util/is_pair.hpp
 
  [begin_description]
  Metafunction to determine if a type is a std::pair<>.

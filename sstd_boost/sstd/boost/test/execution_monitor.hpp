@@ -122,7 +122,7 @@ namespace boost {
 /// There are several other parameters of the monitored environment can be configured by setting appropriate properties of the Execution Monitor.
 ///
 /// All symbols in the Execution Monitor implementation are located in the namespace boost. To use the Execution Monitor you need to:
-/// -# include @c boost/test/execution_monitor.hpp
+/// -# include @c sstd/boost/test/execution_monitor.hpp
 /// -# Make an instance of execution_monitor.
 /// -# Optionally register custom exception translators for exception classes which require special processing.
 ///

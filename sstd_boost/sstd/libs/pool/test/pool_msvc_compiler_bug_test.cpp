@@ -11,7 +11,7 @@
 // release.
 //
 //   If the bug exists this test should fail to compile, complaining about an
-// ambiguous CRITICAL_SECTION symbol. The bug got fixed by making the boost/
+// ambiguous CRITICAL_SECTION symbol. The bug got fixed by making the sstd/boost/
 // /pool/detail/mutex.hpp header reference all Windows API constants using their
 // fully qualified names.
 //

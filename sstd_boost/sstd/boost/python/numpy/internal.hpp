@@ -8,7 +8,7 @@
 #define boost_python_numpy_internal_hpp_
 
 /**
- *  @file boost/python/numpy/internal.hpp
+ *  @file sstd/boost/python/numpy/internal.hpp
  *  @brief Internal header file to include the Numpy C-API headers.
  *
  *  This should only be included by source files in the boost.numpy library itself.

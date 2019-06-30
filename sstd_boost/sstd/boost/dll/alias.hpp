@@ -22,9 +22,9 @@
 # pragma once
 #endif
 
-/// \file boost/dll/alias.hpp
+/// \file sstd/boost/dll/alias.hpp
 /// \brief Includes alias methods and macro. You can include this header or
-/// boost/dll/shared_library.hpp to reduce dependencies
+/// sstd/boost/dll/shared_library.hpp to reduce dependencies
 /// in case you do not use the refcountable functions.
 
 namespace boost { namespace dll {

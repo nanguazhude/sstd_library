@@ -18,7 +18,7 @@
 #define BOOST_GEOMETRY_MULTI_HPP
 
 // keep this file for now, for backward compatibility
-// functionality-wise, make it equivalent to boost/geometry/geometry.hpp
+// functionality-wise, make it equivalent to sstd/boost/geometry/geometry.hpp
 #include <sstd/boost/geometry/geometry.hpp>
 
 #endif // BOOST_GEOMETRY_MULTI_HPP

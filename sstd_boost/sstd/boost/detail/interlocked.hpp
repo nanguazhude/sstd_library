@@ -2,7 +2,7 @@
 #define BOOST_DETAIL_INTERLOCKED_HPP_INCLUDED
 
 //
-//  boost/detail/interlocked.hpp
+//  sstd/boost/detail/interlocked.hpp
 //
 //  Copyright 2005 Peter Dimov
 //  Copyright 2018 Andrey Semashev

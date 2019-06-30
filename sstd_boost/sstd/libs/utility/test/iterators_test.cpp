@@ -1,4 +1,4 @@
-﻿//  Demonstrate and test boost/operators.hpp on std::iterators  --------------//
+﻿//  Demonstrate and test sstd/boost/operators.hpp on std::iterators  --------------//
 
 //  (C) Copyright Jeremy Siek 1999.
 // Distributed under the Boost Software License, Version 1.0. (See

@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/external/mpi/mpi_nested_algebra.hpp
+ sstd/boost/numeric/odeint/external/mpi/mpi_nested_algebra.hpp
 
  [begin_description]
  Nested parallelized algebra for MPI.

@@ -180,7 +180,7 @@ class object_pool: protected pool<UserAllocator>
 // Copy .inc renamed .ipp to conform to Doxygen include filename expectations, PAB 12 Jan 11.
 // But still get Doxygen warning:
 // I:/boost-sandbox/guild/pool/boost/pool/object_pool.hpp:82:
-// Warning: include file boost/pool/detail/pool_construct.ipp
+// Warning: include file sstd/boost/pool/detail/pool_construct.ipp
 // not found, perhaps you forgot to add its directory to INCLUDE_PATH?
 // But the file IS found and referenced OK, but cannot view code.
 // This seems because not at the head of the file

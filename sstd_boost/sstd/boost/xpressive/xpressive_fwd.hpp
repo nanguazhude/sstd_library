@@ -35,7 +35,7 @@
 #endif
 
 // Stack protection under MS Windows
-// Config logic taken from boost/regex/config.hpp
+// Config logic taken from sstd/boost/regex/config.hpp
 #ifndef BOOST_XPRESSIVE_HAS_MS_STACK_GUARD
 # if (defined(_WIN32) || defined(_WIN64) || defined(_WINCE))                    \
      && !defined(__GNUC__)                                                      \

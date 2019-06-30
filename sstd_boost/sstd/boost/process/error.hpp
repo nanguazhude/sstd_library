@@ -33,7 +33,7 @@
 #include <sstd/boost/fusion/container/set/convert.hpp>
 #include <sstd/boost/type_index.hpp>
 
-/** \file boost/process/error.hpp
+/** \file sstd/boost/process/error.hpp
  *
  *    Header which provides the error properties. It allows to explicitly set the error handling, the properties are:
  *

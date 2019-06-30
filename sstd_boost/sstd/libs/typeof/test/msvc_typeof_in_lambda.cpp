@@ -36,7 +36,7 @@ BOOST_TYPEOF_REGISTER_TEMPLATE(::detail::wrapper, 1)
 
 void test_typeof_in_lambda() {
     // Visual Studio 2015 (BOOST_MSVC == 1900) had an internal compiler error with Boost 1.65 and 1.66 when using BOOST_SCOPE_EXIT inside a lambda
-    // the error was due to a change of include in boost/typeof/typeof.hpp  (<sstd/boost/typeof/decltype.hpp> instead of <boost/typeof/native.hpp>)
+    // the error was due to a change of include in sstd/boost/typeof/typeof.hpp  (<boost/typeof/decltype.hpp> instead of <boost/typeof/native.hpp>)
     // This test is an more or less minimal extract from the BOOST_SCOPE_EXIT macro expansions
 
     // worked also with VS 2015 in version 1.65/1.66

@@ -13,7 +13,7 @@
 #define BOOST_PROCESS_HPP
 
 /**
- * \file boost/process.hpp
+ * \file sstd/boost/process.hpp
  *
  * Convenience header which includes all public and platform-independent
  * boost.process header files.

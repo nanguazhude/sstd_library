@@ -1,6 +1,6 @@
 ﻿/*
   [auto_generated]
-  boost/numeric/odeint/external/compute/compute_operations_dispatcher.hpp
+  sstd/boost/numeric/odeint/external/compute/compute_operations_dispatcher.hpp
 
   [begin_description]
   operations_dispatcher specialization for Boost.Compute

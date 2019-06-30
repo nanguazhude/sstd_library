@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/stepper/modified_midpoint.hpp
+ sstd/boost/numeric/odeint/stepper/modified_midpoint.hpp
 
  [begin_description]
  Modified midpoint method for the use in Burlish-Stoer stepper.

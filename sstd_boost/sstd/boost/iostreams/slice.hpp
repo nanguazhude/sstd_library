@@ -4,7 +4,7 @@
  *
  * See http://www.boost.org/libs/iostreams for documentation.
  *
- * File:        boost/iostreams/detail/restrict.hpp
+ * File:        sstd/boost/iostreams/detail/restrict.hpp
  * Date:        Sun Jan 06 12:57:30 MST 2008
  * Copyright:   2008 CodeRage, LLC
                 2004-2007 Jonathan Turkanis

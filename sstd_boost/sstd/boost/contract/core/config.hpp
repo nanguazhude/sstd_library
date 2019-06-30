@@ -409,7 +409,7 @@ Configure this library compile-time and run-time behaviours.
     checking preconditions.
     Users can manually program @c \#ifndef statements in their code using this
     macro to completely disable compilation of preconditions or use the macros
-    defined in @c boost/contract_macro.hpp (recommended only for applications
+    defined in @c sstd/boost/contract_macro.hpp (recommended only for applications
     where it is truly necessary to completely remove contract code compilation
     from production code).
 
@@ -432,7 +432,7 @@ Configure this library compile-time and run-time behaviours.
     checking postconditions.
     Users can manually program @c \#ifndef statements in their code using this
     macro to completely disable compilation of postconditions or use the macros
-    defined in @c boost/contract_macro.hpp (recommended only for applications
+    defined in @c sstd/boost/contract_macro.hpp (recommended only for applications
     where it is truly necessary to completely remove contract code compilation
     from production code).
 
@@ -460,7 +460,7 @@ Configure this library compile-time and run-time behaviours.
     checking exception guarantees.
     Users can manually program @c \#ifndef statements in their code using this
     macro to completely disable compilation of exception guarantees or use the
-    macros defined in @c boost/contract_macro.hpp (recommended only for
+    macros defined in @c sstd/boost/contract_macro.hpp (recommended only for
     applications where it is truly necessary to completely remove contract code
     compilation from production code).
 
@@ -492,7 +492,7 @@ Configure this library compile-time and run-time behaviours.
     checking class invariants at entry.
     Users can manually program @c \#ifndef statements in their code using this
     macro to completely disable compilation of entry class invariants or use the
-    macros defined in @c boost/contract_macro.hpp (recommended only for
+    macros defined in @c sstd/boost/contract_macro.hpp (recommended only for
     applications where it is truly necessary to completely remove contract code
     compilation from production code).
 
@@ -522,7 +522,7 @@ Configure this library compile-time and run-time behaviours.
     checking class invariants at exit.
     Users can manually program @c \#ifndef statements in their code using this
     macro to completely disable compilation of exit class invariants or use the
-    macros defined in @c boost/contract_macro.hpp (recommended only for
+    macros defined in @c sstd/boost/contract_macro.hpp (recommended only for
     applications where it is truly necessary to completely remove contract code
     compilation from production code).
 
@@ -550,7 +550,7 @@ Configure this library compile-time and run-time behaviours.
     checking class invariants.
     Users can manually program @c \#ifndef statements in their code using this
     macro to completely disable compilation of class invariants or use the
-    macros defined in @c boost/contract_macro.hpp (recommended only for
+    macros defined in @c sstd/boost/contract_macro.hpp (recommended only for
     applications where it is truly necessary to completely remove contract code
     compilation from production code).
 
@@ -582,7 +582,7 @@ Configure this library compile-time and run-time behaviours.
     define it directly).
     Users can manually program @c \#ifndef statements in their code using this
     macro to completely disable compilation of old value copies or use the
-    macros defined in @c boost/contract_macro.hpp (recommended only for
+    macros defined in @c sstd/boost/contract_macro.hpp (recommended only for
     applications where it is truly necessary to completely remove contract code
     compilation from production code).
 
@@ -613,7 +613,7 @@ Configure this library compile-time and run-time behaviours.
     define it directly).
     Users can manually program @c \#ifndef statements in their code using this
     macro to completely disable compilation of contracts for constructors or use
-    the macros defined in @c boost/contract_macro.hpp (recommended only for
+    the macros defined in @c sstd/boost/contract_macro.hpp (recommended only for
     applications where it is truly necessary to completely remove contract code
     compilation from production code).
 
@@ -645,7 +645,7 @@ Configure this library compile-time and run-time behaviours.
     define it directly).
     Users can manually program @c \#ifndef statements in their code using this
     macro to completely disable compilation of contracts for destructors or use
-    the macros defined in @c boost/contract_macro.hpp (recommended only for
+    the macros defined in @c sstd/boost/contract_macro.hpp (recommended only for
     applications where it is truly necessary to completely remove contract code
     compilation from production code).
 
@@ -675,7 +675,7 @@ Configure this library compile-time and run-time behaviours.
     define it directly).
     Users can manually program @c \#ifndef statements in their code using this
     macro to completely disable compilation of contracts for public functions or
-    use the macros defined in @c boost/contract_macro.hpp (recommended only for
+    use the macros defined in @c sstd/boost/contract_macro.hpp (recommended only for
     applications where it is truly necessary to completely remove contract code
     compilation from production code).
 
@@ -704,7 +704,7 @@ Configure this library compile-time and run-time behaviours.
     Users can manually program @c \#ifndef statements in their code using this
     macro to completely disable compilation of contracts for non-member,
     private and protected functions, or use the macros defined in
-    @c boost/contract_macro.hpp (recommended only for applications where it is
+    @c sstd/boost/contract_macro.hpp (recommended only for applications where it is
     truly necessary to completely remove contract code compilation from
     production code).
 
@@ -742,7 +742,7 @@ Configure this library compile-time and run-time behaviours.
     define it directly).
     Users can manually program @c \#ifndef statements in their code using this
     macro to completely disable compilation of contracts within specifications
-    or use the macros defined in @c boost/contract_macro.hpp (recommended only
+    or use the macros defined in @c sstd/boost/contract_macro.hpp (recommended only
     for applications where it is truly necessary to completely remove contract
     code compilation from production code).
 
@@ -771,7 +771,7 @@ Configure this library compile-time and run-time behaviours.
     macro and this library will generate a compile-time error if users try to
     define it directly).
     For example, users can manually program @c \#ifndef statements in their code
-    using this macro to avoid including the @c boost/contract.hpp header all
+    using this macro to avoid including the @c sstd/boost/contract.hpp header all
     together:
 
     @code
@@ -781,8 +781,8 @@ Configure this library compile-time and run-time behaviours.
     #endif
     @endcode
 
-    Or, use the @c boost/contract_macro.hpp header and related macros instead
-    (because the @c boost/contract_macro.hpp header is already optimized to not
+    Or, use the @c sstd/boost/contract_macro.hpp header and related macros instead
+    (because the @c sstd/boost/contract_macro.hpp header is already optimized to not
     include other headers from this library when contracts are not checked, but
     recommended only for applications where it is truly necessary to completely
     remove contract code compilation from production code).

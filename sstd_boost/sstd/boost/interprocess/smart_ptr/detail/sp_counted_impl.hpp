@@ -11,7 +11,7 @@
 
 //
 //  This file is the adaptation for shared memory memory mapped
-//  files of boost/detail/sp_counted_impl.hpp
+//  files of sstd/boost/detail/sp_counted_impl.hpp
 //
 //  Copyright (c) 2001, 2002, 2003 Peter Dimov and Multi Media Ltd.
 //  Copyright 2004-2005 Peter Dimov

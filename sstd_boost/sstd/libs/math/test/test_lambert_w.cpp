@@ -969,7 +969,7 @@ BOOST_AUTO_TEST_CASE( test_range_of_double_values )
 
     // All these result in faulty error message
     // unknown location : fatal error : in "test_range_of_values": class boost::exception_detail::clone_impl<struct boost::exception_detail::error_info_injector<class std::domain_error> >: Error in function boost::math::lambert_w0<RealType>(<RealType>): Argument z = %1 too large.
-    // I:\modular - boost\libs\math\test\test_lambert_w.cpp(456) : last checkpoint
+    // I:\modular - sstd\boost\libs\math\test\test_lambert_w.cpp(456) : last checkpoint
 
     BOOST_CHECK_CLOSE_FRACTION(lambert_w0(1.7976931348623157e+308 ), // max_value for IEEE 64-bit double.
       static_cast<double>(703.2270331047701868711791887193075929608934699575820028L),

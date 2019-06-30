@@ -16,7 +16,7 @@ Copyright (c) 2008-2009: Joachim Faulhaber
 #pragma warning(disable:4100) // unreferenced formal parameter
 #pragma warning(disable:4127) // conditional expression is constant
 #pragma warning(disable:4244) // 'argument' : conversion from 'int' to 'unsigned short', possible loss of data
-#pragma warning(disable:4702) // boost\lexical_cast.hpp(1159) : warning C4702: unreachable code
+#pragma warning(disable:4702) // sstd\boost\lexical_cast.hpp(1159) : warning C4702: unreachable code
 #pragma warning(disable:4996) // Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
 #endif
 

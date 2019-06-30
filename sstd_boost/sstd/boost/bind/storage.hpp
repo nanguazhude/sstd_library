@@ -10,7 +10,7 @@
 //
 //  bind/storage.hpp
 //
-//  boost/bind.hpp support header, optimized storage
+//  sstd/boost/bind.hpp support header, optimized storage
 //
 //  Copyright (c) 2006 Peter Dimov
 //

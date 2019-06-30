@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/stepper/generation/generation_rosenbrock4.hpp
+ sstd/boost/numeric/odeint/stepper/generation/generation_rosenbrock4.hpp
 
  [begin_description]
  Enable the factory functions for the controller and the dense output of the Rosenbrock4 method.

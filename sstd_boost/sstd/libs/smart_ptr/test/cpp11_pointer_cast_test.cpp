@@ -1,5 +1,5 @@
 ﻿//
-//  cpp11_pointer_cast_test.cpp - a test for boost/pointer_cast.hpp with std::shared_ptr and std::unique_ptr
+//  cpp11_pointer_cast_test.cpp - a test for sstd/boost/pointer_cast.hpp with std::shared_ptr and std::unique_ptr
 //
 //  Copyright (c) 2016 Karolin Varner
 //

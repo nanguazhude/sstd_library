@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/config.hpp
+ sstd/boost/numeric/odeint/config.hpp
 
  [begin_description]
  Sets configurations for odeint and used libraries. Should be included before any other odeint library

@@ -4,7 +4,7 @@
  * Distributed under the Boost Software License, Version 1.0.
  * See http://www.boost.org/LICENSE_1_0.txt
  *
- * This header is deprecated, use boost/winapi/character_code_conversion.hpp instead.
+ * This header is deprecated, use sstd/boost/winapi/character_code_conversion.hpp instead.
  */
 
 #ifndef BOOST_DETAIL_WINAPI_CHARACTER_CODE_CONVERSION_HPP

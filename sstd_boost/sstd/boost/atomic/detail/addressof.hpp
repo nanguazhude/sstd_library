@@ -21,7 +21,7 @@
 #pragma once
 #endif
 
-// Detection logic is based on boost/core/addressof.hpp
+// Detection logic is based on sstd/boost/core/addressof.hpp
 #if defined(BOOST_MSVC_FULL_VER) && BOOST_MSVC_FULL_VER >= 190024215
 #define BOOST_ATOMIC_DETAIL_HAS_BUILTIN_ADDRESSOF
 #elif defined(BOOST_GCC) && BOOST_GCC >= 70000

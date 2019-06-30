@@ -25,7 +25,7 @@
 #include <string>
 #include <sstd/boost/filesystem/path.hpp>
 
-/** \file boost/process/start_dir.hpp
+/** \file sstd/boost/process/start_dir.hpp
  *
 Header which provides the start_dir property, which allows to set the directory
 the process shall be started in.

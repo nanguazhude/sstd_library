@@ -11,7 +11,7 @@
 
  /*
   *   LOCATION:    see http://www.boost.org for most recent version.
-  *   FILE         boost/regex/config/cwchar.hpp
+  *   FILE         sstd/boost/regex/config/cwchar.hpp
   *   VERSION      see <sstd/boost/version.hpp>
   *   DESCRIPTION: regex wide character string fixes.
   */

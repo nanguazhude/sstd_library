@@ -125,7 +125,7 @@ test_skeleton_and_content(const communicator& comm, int root = 0)
       if (comm.rank() == 1) {
 	std::cout
 	  << "\n##### You might want to check for BOOST_MPI_BCAST_BOTTOM_WORKS_FINE "
-	  << "in boost/mpi/config.hpp.\n\n";
+	  << "in sstd/boost/mpi/config.hpp.\n\n";
       }
     }
   }

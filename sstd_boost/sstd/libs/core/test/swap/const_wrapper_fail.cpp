@@ -1,4 +1,4 @@
-﻿﻿// Copyright 2018 Andrzej Krzemieński
+﻿// Copyright 2018 Andrzej Krzemieński
 // Copyright 2018 Peter Dimov
 // Distributed under the Boost Software License, Version 1.0.
 

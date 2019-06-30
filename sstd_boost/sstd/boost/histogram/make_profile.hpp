@@ -13,7 +13,7 @@
 #include <sstd/boost/histogram/make_histogram.hpp>
 
 /**
-  \file boost/histogram/make_profile.hpp
+  \file sstd/boost/histogram/make_profile.hpp
   Collection of factory functions to conveniently create profiles.
 
   Profiles are histograms which accept an additional sample and compute the mean of the

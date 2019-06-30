@@ -1,4 +1,4 @@
-﻿//  boost/memory_order.hpp
+﻿//  sstd/boost/memory_order.hpp
 //
 //  Defines enum boost::memory_order per the C++0x working draft
 //

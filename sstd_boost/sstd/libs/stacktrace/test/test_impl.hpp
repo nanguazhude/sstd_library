@@ -8,11 +8,11 @@
 #include <sstd/boost/stacktrace/stacktrace.hpp>
 
 #if defined(BOOST_LEXICAL_CAST_TRY_LEXICAL_CONVERT_HPP) || defined(BOOST_LEXICAL_CAST_BAD_LEXICAL_CAST_HPP)
-#error "LexicalCast headers leaked into the boost/stacktrace/stacktrace.hpp"
+#error "LexicalCast headers leaked into the sstd/boost/stacktrace/stacktrace.hpp"
 #endif
 
 #if !defined(BOOST_USE_WINDOWS_H) && defined(_WINDOWS_H)
-#error "windows.h header leaked into the boost/stacktrace/stacktrace.hpp"
+#error "windows.h header leaked into the sstd/boost/stacktrace/stacktrace.hpp"
 #endif
 
 #include <stdexcept>

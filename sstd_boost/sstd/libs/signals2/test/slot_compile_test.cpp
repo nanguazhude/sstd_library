@@ -1,5 +1,5 @@
 ﻿// Signals2 library
-// test for compilation of boost/signals2/slot.hpp
+// test for compilation of sstd/boost/signals2/slot.hpp
 
 // Copyright Frank Mori Hess 2008
 // Use, modification and

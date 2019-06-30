@@ -11,7 +11,7 @@
 #define BOOST_SPIRIT_DEBUG_NODE_HPP
 
 #if !defined(BOOST_SPIRIT_DEBUG_MAIN_HPP)
-#error "You must include boost/spirit/debug.hpp, not boost/spirit/debug/debug_node.hpp"
+#error "You must include sstd/boost/spirit/debug.hpp, not boost/spirit/debug/debug_node.hpp"
 #endif
 
 #if defined(BOOST_SPIRIT_DEBUG)

@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/integrate/check_adapter.hpp
+ sstd/boost/numeric/odeint/integrate/check_adapter.hpp
 
  [begin_description]
  Adapters to add checking facility to stepper and observer

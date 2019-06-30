@@ -24,7 +24,7 @@
 # pragma once
 #endif
 
-/// \file boost/dll/import.hpp
+/// \file sstd/boost/dll/import.hpp
 /// \brief Contains all the boost::dll::import* reference counting
 /// functions that hold a shared pointer to the instance of
 /// boost::dll::shared_library.

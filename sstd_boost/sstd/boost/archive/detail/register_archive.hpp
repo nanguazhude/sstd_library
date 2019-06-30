@@ -76,7 +76,7 @@ void instantiate_ptr_serialization(Serializable*, int, adl_tag ) {}
 // gets called, but its return type gets instantiated, and that's
 // enough to cause registration of serialization functions between
 // Archive and any exported Serializable type.  See also:
-// boost/serialization/export.hpp
+// sstd/boost/serialization/export.hpp
 # define BOOST_SERIALIZATION_REGISTER_ARCHIVE(Archive)                  \
 namespace boost { namespace archive { namespace detail {                \
                                                                         \

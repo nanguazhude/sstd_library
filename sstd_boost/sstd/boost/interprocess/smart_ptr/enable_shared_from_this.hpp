@@ -1,6 +1,6 @@
 ﻿//////////////////////////////////////////////////////////////////////////////
 //
-// This file is the adaptation for Interprocess of boost/enable_shared_from_this.hpp
+// This file is the adaptation for Interprocess of sstd/boost/enable_shared_from_this.hpp
 //
 // (C) Copyright Peter Dimov 2002
 // (C) Copyright Ion Gaztanaga 2006-2012. Distributed under the Boost

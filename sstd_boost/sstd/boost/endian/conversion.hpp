@@ -1,4 +1,4 @@
-﻿//  boost/endian/conversion.hpp  -------------------------------------------------------//
+﻿//  sstd/boost/endian/conversion.hpp  -------------------------------------------------------//
 
 //  Copyright Beman Dawes 2010, 2011, 2014
 

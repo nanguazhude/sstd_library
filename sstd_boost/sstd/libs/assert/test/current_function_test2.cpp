@@ -1,5 +1,5 @@
 ﻿//
-//  current_function_test2.cpp - a test for boost/current_function.hpp
+//  current_function_test2.cpp - a test for sstd/boost/current_function.hpp
 //
 //  Copyright 2018 Peter Dimov
 //

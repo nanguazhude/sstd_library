@@ -4,7 +4,7 @@
  * Distributed under the Boost Software License, Version 1.0.
  * See http://www.boost.org/LICENSE_1_0.txt
  *
- * This header is deprecated, use boost/winapi/file_management.hpp instead.
+ * This header is deprecated, use sstd/boost/winapi/file_management.hpp instead.
  */
 
 #ifndef BOOST_DETAIL_WINAPI_FILE_MANAGEMENT_HPP

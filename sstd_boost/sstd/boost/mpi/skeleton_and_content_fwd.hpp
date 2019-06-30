@@ -11,7 +11,7 @@
  *  This header contains all of the forward declarations required to
  *  use transmit skeletons of data structures and the content of data
  *  structures separately. To actually transmit skeletons or content,
- *  include the header @c boost/mpi/skeleton_and_content.hpp.
+ *  include the header @c sstd/boost/mpi/skeleton_and_content.hpp.
  */
 
 #ifndef BOOST_MPI_SKELETON_AND_CONTENT_FWD_HPP

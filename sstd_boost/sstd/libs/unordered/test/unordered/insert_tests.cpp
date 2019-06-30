@@ -1261,7 +1261,7 @@ namespace insert_tests {
   }
 
 // Use the preprocessor to generate tests using different combinations of
-// boost/std piecewise_construct_t/tuple.
+// sstd/boost/std piecewise_construct_t/tuple.
 
 #define PIECEWISE_TEST_NAME boost_tuple_piecewise_tests
 #define PIECEWISE_NAMESPACE boost::unordered

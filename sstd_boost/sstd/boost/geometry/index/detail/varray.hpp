@@ -31,7 +31,7 @@
 
 // TODO - use std::reverse_iterator and std::iterator_traits
 // instead Boost.Iterator to remove dependency?
-// or boost/detail/iterator.hpp ?
+// or sstd/boost/detail/iterator.hpp ?
 #include <sstd/boost/iterator/reverse_iterator.hpp>
 #include <sstd/boost/iterator/iterator_concepts.hpp>
 

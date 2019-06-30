@@ -14,7 +14,7 @@
 #define BOOST_GRAPH_COMPRESSED_SPARSE_ROW_STRUCT_HPP
 
 #ifndef BOOST_GRAPH_COMPRESSED_SPARSE_ROW_GRAPH_HPP
-#error This file should only be included from boost/graph/compressed_sparse_row_graph.hpp
+#error This file should only be included from sstd/boost/graph/compressed_sparse_row_graph.hpp
 #endif
 
 #include <vector>

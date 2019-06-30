@@ -7,7 +7,7 @@
 
 #include <sstd/boost/process/detail/windows/show_window.hpp>
 
-/** \file boost/process/windows.hpp
+/** \file sstd/boost/process/windows.hpp
  *
  *    Header which provides the windows extensions.
 

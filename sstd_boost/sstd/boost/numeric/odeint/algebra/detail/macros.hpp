@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/algebra/detail/macros.hpp
+ sstd/boost/numeric/odeint/algebra/detail/macros.hpp
 
  [begin_description]
  Some macros for type checking.

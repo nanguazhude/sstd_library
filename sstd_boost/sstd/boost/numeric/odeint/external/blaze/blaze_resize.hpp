@@ -1,6 +1,6 @@
 ﻿/*
   [auto_generated]
-  boost/numeric/odeint/external/blaze/blaze_resize.hpp
+  sstd/boost/numeric/odeint/external/blaze/blaze_resize.hpp
 
   [begin_description]
   tba.

@@ -58,7 +58,7 @@ static const char* prolog =
 
   "// Copyright ???? 2013.\n\n"
 
-  "// Use boost/array if std::array (C++11 feature) is not available.\n"
+  "// Use sstd/boost/array if std::array (C++11 feature) is not available.\n"
   "#ifdef  BOOST_NO_CXX11_HDR_ARRAY\n"
   "#include <sstd/boost/array/array.hpp>\n"
   "#else\n"

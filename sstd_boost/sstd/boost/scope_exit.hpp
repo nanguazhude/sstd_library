@@ -329,7 +329,7 @@ extern boost::scope_exit::detail::undeclared BOOST_SCOPE_EXIT_AUX_ARGS;
 // with the sizeof() approach and not with the typeid() approach. Lorenzo
 // Caminiti extended this approach to work in type-of emulation mode. This code
 // is very similar (and somewhat of a duplication) of the code in
-// boost/typeof/msvc/typeof_impl.hpp). However, this code cannot be integrated
+// sstd/boost/typeof/msvc/typeof_impl.hpp). However, this code cannot be integrated
 // into Boost.Typeof because its final API has to be a `typedef ...` and it
 // cannot be a `typeof(...)`.
 #if BOOST_SCOPE_EXIT_AUX_TYPEOF_THIS_MSVC_WORKAROUND_01

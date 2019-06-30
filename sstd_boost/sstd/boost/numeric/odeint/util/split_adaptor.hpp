@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/util/split_adaptor.hpp
+ sstd/boost/numeric/odeint/util/split_adaptor.hpp
 
  [begin_description]
  A range adaptor which returns even-sized slices.

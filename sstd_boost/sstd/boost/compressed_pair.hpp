@@ -5,7 +5,7 @@
 //
 //  See http://www.boost.org/libs/utility for most recent version including documentation.
 
-//  See boost/detail/compressed_pair.hpp
+//  See sstd/boost/detail/compressed_pair.hpp
 //  for full copyright notices.
 
 #ifndef BOOST_COMPRESSED_PAIR_HPP

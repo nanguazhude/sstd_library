@@ -1,6 +1,6 @@
 ﻿//////////////////////////////////////////////////////////////////////////////
 //
-// This file is the adaptation for Interprocess of boost/detail/bad_weak_ptr.hpp
+// This file is the adaptation for Interprocess of sstd/boost/detail/bad_weak_ptr.hpp
 //
 // (C) Copyright Peter Dimov and Multi Media Ltd. 2001, 2002, 2003
 // (C) Copyright Ion Gaztanaga 2006. Distributed under the Boost

@@ -27,7 +27,7 @@ namespace beast {
 
 namespace detail {
 
-// VFALCO Can't seem to get boost/detail/winapi to work with
+// VFALCO Can't seem to get sstd/boost/detail/winapi to work with
 //        this so use the non-Ex version for now.
 BOOST_BEAST_DECL
 boost::winapi::BOOL_

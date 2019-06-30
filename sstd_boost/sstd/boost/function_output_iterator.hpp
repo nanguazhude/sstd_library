@@ -7,7 +7,7 @@
 #define BOOST_FUNCTION_OUTPUT_ITERATOR_HPP
 
 // This is a deprecated header left for backward compatibility.
-// Use boost/iterator/function_output_iterator.hpp instead.
+// Use sstd/boost/iterator/function_output_iterator.hpp instead.
 
 #include <sstd/boost/iterator/function_output_iterator.hpp>
 

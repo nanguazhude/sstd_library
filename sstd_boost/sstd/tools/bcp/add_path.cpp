@@ -514,7 +514,7 @@ void bcp_implementation::add_file_dependencies(const fs::path& p, bool scanfile)
       // and if that library has source then add the source to our
       // list:
       //
-      // this regex catches boost/libname.hpp or boost/libname/whatever:
+      // this regex catches sstd/boost/libname.hpp or boost/libname/whatever:
       //
       static const boost::regex lib1("sstd/boost/([^\\./]+)(?!detail).*");
       boost::smatch swhat;
@@ -524,7 +524,7 @@ void bcp_implementation::add_file_dependencies(const fs::path& p, bool scanfile)
          add_dependent_lib(swhat.str(1), p, view);
       }
       //
-      // and this one catches boost/x/y/whatever (for example numeric/ublas):
+      // and this one catches sstd/boost/x/y/whatever (for example numeric/ublas):
       //
       static const boost::regex lib2("sstd/boost/([^/]+/[^/]+)/(?!detail).*");
       gs = p.generic_string();

@@ -7,8 +7,8 @@
 #ifndef BOOST_DLL_SMART_LIBRARY_HPP_
 #define BOOST_DLL_SMART_LIBRARY_HPP_
 
-/// \file boost/dll/smart_library.hpp
-/// \warning Extremely experimental! Requires C++14! Will change in next version of Boost! boost/dll/smart_library.hpp is not included in boost/dll.hpp
+/// \file sstd/boost/dll/smart_library.hpp
+/// \warning Extremely experimental! Requires C++14! Will change in next version of Boost! sstd/boost/dll/smart_library.hpp is not included in boost/dll.hpp
 /// \brief Contains the boost::dll::experimental::smart_library class for loading mangled symbols.
 
 #include <sstd/boost/predef.h>

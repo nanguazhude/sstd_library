@@ -1,6 +1,6 @@
 ﻿/*
  [auto_generated]
- boost/numeric/odeint/algebra/vector_space_algebra.hpp
+ sstd/boost/numeric/odeint/algebra/vector_space_algebra.hpp
 
  [begin_description]
  An algebra for types which have vector space semantics, hence types on which the operators +,-,* are well defined.

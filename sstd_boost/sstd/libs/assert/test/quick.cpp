@@ -1,5 +1,5 @@
 ﻿//
-// quick.cpp - a quick test for boost/assert.hpp
+// quick.cpp - a quick test for sstd/boost/assert.hpp
 //
 // Copyright 2017 Peter Dimov
 //

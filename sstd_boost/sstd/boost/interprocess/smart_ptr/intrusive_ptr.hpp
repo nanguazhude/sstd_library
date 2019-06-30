@@ -1,6 +1,6 @@
 ﻿//////////////////////////////////////////////////////////////////////////////
 //
-// This file is the adaptation for Interprocess of boost/intrusive_ptr.hpp
+// This file is the adaptation for Interprocess of sstd/boost/intrusive_ptr.hpp
 //
 // (C) Copyright Peter Dimov 2001, 2002
 // (C) Copyright Ion Gaztanaga 2006-2012. Distributed under the Boost

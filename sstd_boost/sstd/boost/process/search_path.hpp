@@ -8,7 +8,7 @@
 // file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 
 /**
- * \file boost/process/search_path.hpp
+ * \file sstd/boost/process/search_path.hpp
  *
  * Defines a function to search for an executable in path.
  */

@@ -1,4 +1,4 @@
-﻿//  Demonstrate and test boost/operators.hpp  -------------------------------//
+﻿//  Demonstrate and test sstd/boost/operators.hpp  -------------------------------//
 
 //  Copyright Beman Dawes 1999.  Distributed under the Boost
 //  Software License, Version 1.0. (See accompanying file

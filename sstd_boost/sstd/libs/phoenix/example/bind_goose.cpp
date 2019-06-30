@@ -100,7 +100,7 @@ void delete_value3(std::vector< std::string > &list, const std::string & value)
   list.erase( std::remove_if(
         list.begin(),
         list.end(),
-        // This needs header boost/phoenix/operator/comparison.
+        // This needs header sstd/boost/phoenix/operator/comparison.
         // arg1 is a Boost.Phoenix placeholder.
         arg1 == phx::cref( value ) ),
         list.end() );
@@ -112,7 +112,7 @@ void delete_value3(std::vector< std::string > &list, const std::string & value)
 
 void delete_value4(std::vector< std::string > &list, const std::string & value)
 {
-  // This need header boost/phoenix/stl/algorithm/transformation
+  // This need header sstd/boost/phoenix/stl/algorithm/transformation
   list.erase( phx::remove_if( arg1, arg2 )
             ( list, arg1 == phx::cref( value ) ),
             list.end() );

@@ -49,7 +49,7 @@ namespace boost {
   //
 
   // An implementation of disjoint sets can be found in
-  // boost/pending/disjoint_sets.hpp
+  // sstd/boost/pending/disjoint_sets.hpp
 
   template <class EdgeListGraph, class DisjointSets>
   void incremental_components(EdgeListGraph& g, DisjointSets& ds)

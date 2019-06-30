@@ -21,7 +21,7 @@
 #if defined(BOOST_SPIRIT_NO_REGEX_LIB) && BOOST_VERSION < 103300
 //
 //  Include all the Boost.regex library. Please note that this will not work,
-//  if you are using the boost/spirit/regex.hpp header from more than one
+//  if you are using the sstd/boost/spirit/regex.hpp header from more than one
 //  translation units.
 //
 #define BOOST_REGEX_NO_LIB

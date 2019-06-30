@@ -1,4 +1,4 @@
-﻿//  boost/chrono/config.hpp  -------------------------------------------------//
+﻿//  sstd/boost/chrono/config.hpp  -------------------------------------------------//
 
 //  Copyright Beman Dawes 2003, 2006, 2008
 //  Copyright 2009 Vicente J. Botet Escriba
