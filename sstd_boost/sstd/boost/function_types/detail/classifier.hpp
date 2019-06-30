@@ -50,7 +50,7 @@ char BOOST_FT_DECL classifier_impl(...);
 #define BOOST_FT_type_member_function_pointer(cc,name) BOOST_FT_SYNTAX( \
     R BOOST_PP_EMPTY,BOOST_PP_LPAREN,cc,T0::** BOOST_PP_EMPTY,name,BOOST_PP_RPAREN)
 
-#define BOOST_FT_al_path boost/function_types/detail/classifier_impl
+#define BOOST_FT_al_path sstd/boost/function_types/detail/classifier_impl
 #include <sstd/boost/function_types/detail/pp_loop.hpp>
 
 template<typename T> struct classifier_bits
