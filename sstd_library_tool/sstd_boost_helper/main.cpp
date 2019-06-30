@@ -336,7 +336,7 @@ namespace thisMainFile {
                 (varLine.find(u8R"(boost\\)"sv) == std::string::npos)) {
 
                 const static std::regex  varReplaceRegex{
-                    u8R"rrr((["<(])boost([/\\]))rrr"s ,
+                    u8R"rrr(([ "<(])boost([/\\]))rrr"s ,
                     std::regex::ECMAScript };
                 const static auto varTarget = u8R"vvv($1sstd$2boost$2)vvv"s;
 
