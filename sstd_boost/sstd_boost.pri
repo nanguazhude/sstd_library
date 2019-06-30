@@ -14,3 +14,11 @@ DEFINES *= BOOST_ASIO_HEADER_ONLY
 win32{
     DEFINES *= _WIN32_WINNT=0x0601
 }
+
+# https://www.boost.org/doc/libs/1_70_0/libs/geometry/doc/html/geometry/compilation.html
+win32-msvc{
+    DEFINES *= _SECURE_SCL=0
+    DEFINES *= _HAS_ITERATOR_DEBUGGING=0
+}
+
+
