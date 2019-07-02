@@ -10,7 +10,6 @@ win32-msvc*{
     LIBS += -lstdc++fs
     LIBS += -lpthread
     LIBS += -lz
-    LIBS += -lwsock32
 }
 
 !win32{
@@ -18,6 +17,7 @@ win32-msvc*{
     LIBS += -lrt
 }else{
     LIBS += -lws2_32
+    LIBS += -lwsock32
 }
 
 CONFIG(debug,debug|release) {
