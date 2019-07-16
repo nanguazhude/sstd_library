@@ -75,15 +75,19 @@ namespace sstd::the {
             return std::move(*thePointer());
         }
 
-        inline operator ThisTypeNotRef && () {
+        inline operator ThisTypeNotRef && () && {
             return std::move(*thePointer());
         }
 
-        inline operator ThisTypeNotRef & () {
+        inline operator const ThisTypeNotRef & () && {
+            return std::move(*thePointer());
+        }
+
+        inline operator ThisTypeNotRef & () & {
             return *thePointer();
         }
 
-        inline operator const ThisTypeNotRef & () const {
+        inline operator const ThisTypeNotRef & () const & {
             return std::move(*thePointer());
         }
 
@@ -98,13 +102,3 @@ namespace sstd::the {
     };
 
 }/*namespace the*/
-
-namespace sstd {
-
-    template<typename T, typename A = void, auto Flag = the::ConstructAtType::Element >
-    using ElementAt = the::ConstructAtBasic<T, A, Flag>;
-
-    template<typename T, typename A = void, auto Flag = the::ConstructAtType::Construct >
-    using ConstructAt = the::ConstructAtBasic<T, A, Flag>;
-
-}/*namespace sstd*/
