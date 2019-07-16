@@ -18,7 +18,7 @@ namespace sstd::the {
         }
 
         inline const ThisType * thePointer() const {
-            return reinterpret_cast<ThisType *>(&thisData);
+            return reinterpret_cast<const ThisType *>(&thisData);
         }
 
         inline ConstructAtBasic(const ConstructAtBasic &) = delete;
