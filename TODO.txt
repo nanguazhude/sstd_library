@@ -102,3 +102,13 @@ namespace sstd::the {
     };
 
 }/*namespace the*/
+
+namespace sstd {
+
+    template<typename T, typename A = void, auto Flag = the::ConstructAtType::Element >
+    using ElementAt = the::ConstructAtBasic<T, A, Flag>;
+
+    template<typename T, typename A = void, auto Flag = the::ConstructAtType::Construct >
+    using ConstructAt = the::ConstructAtBasic<T, A, Flag>;
+
+}/*namespace sstd*/
