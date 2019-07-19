@@ -1,3 +1,9 @@
+﻿#pragma once
+
+#include <memory>
+#include <tuple>
+#include <type_traits>
+
 namespace sstd::the {
     enum class ConstructAtType {
         Element,

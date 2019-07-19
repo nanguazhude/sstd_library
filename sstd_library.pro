@@ -71,6 +71,7 @@ SOURCES += $$PWD/sstd_library_integer_conversion/sstd_library_integer_conversion
 HEADERS += $$PWD/sstd_library_integer_conversion/sstd_library_integer_conversion.hpp
 
 HEADERS += $$PWD/sstd_library_index/sstd_library_index.hpp
+HEADERS += $$PWD/sstd_library_element_at/sstd_library_element_at.hpp
 
 #remove some build warning
 win32-msvc*{
