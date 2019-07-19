@@ -3,6 +3,7 @@
 #include <memory>
 #include <tuple>
 #include <type_traits>
+#include "../sstd_library.hpp"
 
 namespace sstd::the {
     enum class ConstructAtType {
@@ -104,7 +105,8 @@ namespace sstd::the {
         inline const ThisTypeNotRef * pointer() const {
             return thePointer();
         }
-
+    private:
+        sstd_class(ConstructAtBasic);
     };
 
 }/*namespace the*/
