@@ -116,7 +116,7 @@ namespace sstd::the {
     }/*namespace _private*/
 
     template<typename T, typename AfterConstruct, auto Flag, 
-        bool = std::is_trivially_destructible_v<std::remove_reference_t<
+        bool = std::is_trivially_destructible_v<std::remove_cv_t<
         std::remove_reference_t<T>>>>
     class ConstructAtBasic :
         public _private::ConstructAtBasic<T, AfterConstruct, Flag> {
