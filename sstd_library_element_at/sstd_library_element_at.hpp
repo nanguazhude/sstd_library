@@ -1,4 +1,5 @@
-﻿#pragma once
+﻿#ifndef Q_MOC_RUN
+#pragma once
 
 #include <memory>
 #include <tuple>
@@ -37,7 +38,7 @@ namespace sstd::the {
             inline ConstructAtBasic&operator=(ConstructAtBasic &&) = delete;
         protected:
 
-            inline void impl_destory_at() {
+            inline void \uacafDestoryAt() {
                 if constexpr (!std::is_trivially_destructible_v<ThisType>) {
                     std::destroy_at(thePointer());
                 }
@@ -124,7 +125,7 @@ namespace sstd::the {
     public:
         using Super::Super;
         inline ~ConstructAtBasic() {
-            Super::impl_destory_at();
+            Super::\uacafDestoryAt();
         }
     };
 
@@ -147,3 +148,4 @@ namespace sstd {
     using ConstructAt = the::ConstructAtBasic<T, A, Flag>;
 
 }/*namespace sstd*/
+#endif
